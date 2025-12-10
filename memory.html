@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory: Brain vs. LLM - Interactive Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #0ea5e9;
+            border-radius: 5px;
+        }
+
+        /* Chart Container Strict Styling */
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 400px;
+        }
+        @media (max-width: 640px) {
+            .chart-container {
+                height: 250px;
+            }
+        }
+
+        /* Custom Diagram Styling (CSS Flowchart) */
+        .flow-step {
+            position: relative;
+            z-index: 10;
+        }
+        .flow-line {
+            position: absolute;
+            background-color: #94a3b8;
+            z-index: 0;
+        }
+        
+        /* Typography */
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+    </style>
+    <!-- 
+        Palette: "Electric Intelligence"
+        Background: #0f172a (Slate 900)
+        Card BG: #1e293b (Slate 800)
+        Text: #f8fafc (Slate 50)
+        Accent 1: #0ea5e9 (Sky 500) - for Tech/LLM
+        Accent 2: #ec4899 (Pink 500) - for Brain/Bio
+        Accent 3: #8b5cf6 (Violet 500) - for Synthesis
+    -->
+</head>
+<body class="bg-slate-900 text-slate-50">
+
+    <!-- PLAN SUMMARY (Hidden) -->
+    <!--
+    Narrative Plan:
+    1. Introduction: Define the core misconception (Memory != Database). Set the stage for the comparison.
+    2. The Hardware Scale: Compare the raw numbers (Synapses vs Parameters) to show magnitude.
+    3. Long-Term Storage: Explain Weights (Static) vs. Synaptic Plasticity (Dynamic).
+    4. Short-Term/Working Memory: Contrast Context Window (Buffer) vs. Prefrontal Cortex (Activation).
+    5. The Retrieval Process: Vector Similarity vs. Associative Activation.
+    6. Conclusion: Summary of differences and the "Alien Intelligence" concept.
+    -->
+
+    <!-- NAVIGATION / HEADER -->
+    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-700 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-pink-500">
+                Cognition vs. Computation
+            </h1>
+            <span class="text-sm text-slate-400 hidden md:block">Biological vs. Artificial Memory Architectures</span>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-8 space-y-16">
+
+        <!-- INTRO SECTION -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-sky-400 uppercase bg-sky-400/10 rounded-full">
+                    The Core Concept
+                </div>
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+                    Memory is <span class="text-pink-500">Reconstruction</span>, Not Storage.
+                </h2>
+                <p class="text-lg text-slate-300 mb-6 leading-relaxed">
+                    Neither the human brain nor Large Language Models (LLMs) work like a hard drive. There are no "files" to open. Instead, both systems "remember" by reconstructing information based on patterns learned during training (or life).
+                </p>
+                <p class="text-slate-400">
+                    While the output may look similar, the underlying mechanisms—how they store, retrieve, and process this information—are fundamentally different.
+                </p>
+            </div>
+            
+            <!-- GOAL: INFORM - Comparison of Definitions -->
+            <div class="bg-slate-800 p-8 rounded-2xl shadow-xl border border-slate-700">
+                <h3 class="text-xl font-bold mb-6 text-white border-b border-slate-700 pb-2">Fundamental Definitions</h3>
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <div class="text-4xl">🧠</div>
+                        <div>
+                            <h4 class="text-pink-400 font-bold text-lg">Biological Memory</h4>
+                            <p class="text-sm text-slate-300 mt-1">
+                                <strong>Synaptic Plasticity:</strong> Physical changes in the strength of connections between neurons. Memories are distributed pathways of activation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="text-4xl">🤖</div>
+                        <div>
+                            <h4 class="text-sky-400 font-bold text-lg">Artificial Memory (LLM)</h4>
+                            <p class="text-sm text-slate-300 mt-1">
+                                <strong>Static Weights:</strong> Numerical values in high-dimensional matrices frozen after training. "Memory" is the statistical probability of the next token.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: THE SCALE OF STORAGE -->
+        <section>
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold text-white mb-2">The Architecture of Storage</h2>
+                <p class="text-slate-400 max-w-3xl">
+                    Comparing the raw "processing units" of the brain against modern LLMs reveals the massive efficiency gap of biology. While LLMs are catching up in parameter count, the brain's interconnectivity is orders of magnitude higher.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- CHART: Comparison of Scale (Bar Chart) -->
+                <!-- Justification: Bar Chart is best for comparing values across categories (Parameters vs Synapses) -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <h3 class="text-lg font-semibold text-white mb-4">Connections: Synapses vs. Parameters</h3>
+                    <div class="chart-container">
+                        <canvas id="scaleChart"></canvas>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-4 text-center">
+                        *Logarithmic Scale used due to massive difference in magnitude.
+                    </p>
+                </div>
+
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700 flex flex-col justify-center">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-slate-700/50 p-4 rounded-lg text-center">
+                            <div class="text-pink-500 text-3xl font-bold mb-1">~100T</div>
+                            <div class="text-xs text-slate-300 uppercase tracking-wide">Brain Synapses</div>
+                        </div>
+                        <div class="bg-slate-700/50 p-4 rounded-lg text-center">
+                            <div class="text-sky-400 text-3xl font-bold mb-1">~1.8T</div>
+                            <div class="text-xs text-slate-300 uppercase tracking-wide">GPT-4 Parameters (Est)</div>
+                        </div>
+                        <div class="bg-slate-700/50 p-4 rounded-lg text-center">
+                            <div class="text-pink-500 text-3xl font-bold mb-1">20W</div>
+                            <div class="text-xs text-slate-300 uppercase tracking-wide">Brain Energy Usage</div>
+                        </div>
+                        <div class="bg-slate-700/50 p-4 rounded-lg text-center">
+                            <div class="text-sky-400 text-3xl font-bold mb-1">Gigawatts</div>
+                            <div class="text-xs text-slate-300 uppercase tracking-wide">Global AI Training</div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <h4 class="font-bold text-white mb-2">Key Takeaway</h4>
+                        <p class="text-sm text-slate-300">
+                            The brain is an electrochemical machine that constantly rewires itself. An LLM is a massive mathematical function. Once training is done, the function is (mostly) immutable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: LONG TERM MEMORY (Static vs Dynamic) -->
+        <section class="bg-slate-800/50 rounded-3xl p-8 border border-slate-700/50">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-white mb-4">Long-Term Memory: Compression vs. Connection</h2>
+                <p class="text-slate-300">
+                    How is knowledge actually saved? In LLMs, it is "compressed" into weights during a distinct training phase. In the brain, memory is a continuous process of strengthening synaptic connections (Long-Term Potentiation).
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- VISUAL: CSS Diagram for LLM Training -->
+                <div class="relative bg-slate-800 p-6 rounded-xl border-l-4 border-sky-500">
+                    <h3 class="text-xl font-bold text-sky-400 mb-6">LLM Mechanism: The Frozen Artifact</h3>
+                    
+                    <!-- CSS Diagram -->
+                    <div class="flex flex-col items-center space-y-4 relative">
+                        <!-- Step 1 -->
+                        <div class="flow-step w-full flex items-center justify-between bg-slate-900 p-3 rounded border border-slate-700">
+                            <span class="text-2xl">📚</span>
+                            <div class="text-left flex-1 ml-4">
+                                <div class="font-bold text-slate-200">Pre-Training (Ingestion)</div>
+                                <div class="text-xs text-slate-500">Massive dataset text input</div>
+                            </div>
+                        </div>
+                        <!-- Arrow -->
+                        <div class="text-slate-500 text-xl">⬇</div>
+                        <!-- Step 2 -->
+                        <div class="flow-step w-full flex items-center justify-between bg-slate-900 p-3 rounded border border-slate-700">
+                            <span class="text-2xl">🧮</span>
+                            <div class="text-left flex-1 ml-4">
+                                <div class="font-bold text-slate-200">Backpropagation</div>
+                                <div class="text-xs text-slate-500">Adjust weights to minimize error</div>
+                            </div>
+                        </div>
+                        <!-- Arrow -->
+                        <div class="text-slate-500 text-xl">⬇</div>
+                        <!-- Step 3 -->
+                        <div class="flow-step w-full flex items-center justify-between bg-sky-900/30 p-3 rounded border border-sky-500/50">
+                            <span class="text-2xl">🧊</span>
+                            <div class="text-left flex-1 ml-4">
+                                <div class="font-bold text-sky-400">Weights Frozen</div>
+                                <div class="text-xs text-sky-200/70">Knowledge is now static (Read-Only)</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p class="mt-6 text-sm text-slate-400 italic">
+                        "The LLM knows nothing of what you told it 5 minutes ago unless it's in the current context window. It does not 'learn' from chats."
+                    </p>
+                </div>
+
+                <!-- VISUAL: CSS Diagram for Brain Plasticity -->
+                <div class="relative bg-slate-800 p-6 rounded-xl border-l-4 border-pink-500">
+                    <h3 class="text-xl font-bold text-pink-400 mb-6">Brain Mechanism: Continuous Plasticity</h3>
+                    
+                    <!-- CSS Diagram -->
+                    <div class="flex flex-col items-center space-y-4 relative">
+                        <!-- Step 1 -->
+                        <div class="flow-step w-full flex items-center justify-between bg-slate-900 p-3 rounded border border-slate-700">
+                            <span class="text-2xl">👁️</span>
+                            <div class="text-left flex-1 ml-4">
+                                <div class="font-bold text-slate-200">Sensory Experience</div>
+                                <div class="text-xs text-slate-500">Neurons fire in a specific pattern</div>
+                            </div>
+                        </div>
+                        <!-- Arrow -->
+                        <div class="text-slate-500 text-xl">⬇</div>
+                        <!-- Step 2 -->
+                        <div class="flow-step w-full flex items-center justify-between bg-slate-900 p-3 rounded border border-slate-700">
+                            <span class="text-2xl">⚡</span>
+                            <div class="text-left flex-1 ml-4">
+                                <div class="font-bold text-slate-200">Hebbian Learning</div>
+                                <div class="text-xs text-slate-500">"Neurons that fire together, wire together"</div>
+                            </div>
+                        </div>
+                        <!-- Arrow -->
+                        <div class="text-slate-500 text-xl">⬇</div>
+                        <!-- Step 3 -->
+                        <div class="flow-step w-full flex items-center justify-between bg-pink-900/30 p-3 rounded border border-pink-500/50">
+                            <span class="text-2xl">🔄</span>
+                            <div class="text-left flex-1 ml-4">
+                                <div class="font-bold text-pink-400">Consolidation (Sleep)</div>
+                                <div class="text-xs text-pink-200/70">Transfer from Hippocampus to Cortex</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="mt-6 text-sm text-slate-400 italic">
+                        "The brain is constantly updating. Every interaction physically alters the storage medium slightly."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: WORKING MEMORY & CONTEXT -->
+        <section>
+            <div class="mb-8 flex flex-col md:flex-row justify-between items-end">
+                <div class="md:w-2/3">
+                    <h2 class="text-3xl font-bold text-white mb-2">Short-Term Memory: The Scratchpad</h2>
+                    <p class="text-slate-400">
+                        This is where the user interaction happens. For an LLM, this is the "Context Window"—a fixed buffer of text it can "see" right now. For humans, it's Working Memory—a highly limited cognitive workspace.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- CHART: Context Window vs Cognitive Load -->
+                <!-- Justification: Line/Area chart to show capacity/decay over 'distance' or 'items' -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <h3 class="text-lg font-semibold text-white mb-4">Capacity Decay: Context vs. Cognition</h3>
+                    <div class="chart-container">
+                        <canvas id="memoryChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Text Explanation -->
+                <div class="space-y-6">
+                    <div class="bg-sky-900/20 p-6 rounded-xl border border-sky-500/30">
+                        <h4 class="text-sky-400 font-bold mb-2">LLM Context Window</h4>
+                        <ul class="list-disc list-inside text-sm text-slate-300 space-y-2">
+                            <li><strong>Mechanism:</strong> Attention Mechanism (KV Cache).</li>
+                            <li><strong>Limit:</strong> Fixed token count (e.g., 8k, 128k, 1M).</li>
+                            <li><strong>Behavior:</strong> Perfect recall within the window (mostly), but abrupt "forgetting" once data slides out of the window.</li>
+                            <li><strong>Storage:</strong> Transient. It vanishes when the chat session ends.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-pink-900/20 p-6 rounded-xl border border-pink-500/30">
+                        <h4 class="text-pink-400 font-bold mb-2">Human Working Memory</h4>
+                        <ul class="list-disc list-inside text-sm text-slate-300 space-y-2">
+                            <li><strong>Mechanism:</strong> Sustained firing in Prefrontal Cortex.</li>
+                            <li><strong>Limit:</strong> The "Magic Number" 7 (±2) items.</li>
+                            <li><strong>Behavior:</strong> Highly susceptible to interference and distraction. Requires active rehearsal to maintain.</li>
+                            <li><strong>Storage:</strong> Dynamic electrical activity, not structural change.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: RETRIEVAL -->
+        <section>
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold text-white mb-2">How Retrieval Works</h2>
+                <p class="text-slate-400">
+                    When you ask a question, how does the system find the answer? One uses math, the other uses association.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- VISUAL: Vector Space (Scatter Plot) -->
+                <!-- Justification: Scatter plot is ideal for showing clusters and relationships in vector space -->
+                <div class="lg:col-span-2 bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <h3 class="text-lg font-semibold text-white mb-4">LLM: Vector Similarity Search</h3>
+                    <p class="text-sm text-slate-400 mb-4">
+                        Words are converted into numbers (vectors). "King" - "Man" + "Woman" ≈ "Queen". The model predicts the next concept based on mathematical proximity in this multi-dimensional space.
+                    </p>
+                    <div class="chart-container">
+                        <canvas id="vectorChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Concept Card: Associative Memory -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700 flex flex-col justify-center">
+                    <div class="text-center mb-6">
+                        <div class="text-6xl mb-4">🕸️</div>
+                        <h3 class="text-xl font-bold text-pink-400">Brain: Associative Nets</h3>
+                    </div>
+                    <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                        The brain is <strong>content-addressable</strong>. One thought triggers another through physical neural pathways.
+                    </p>
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Smelling apple pie might trigger memories of your grandmother. This isn't a vector search; it's a cascade of firing neurons along a previously strengthened path.
+                    </p>
+                    <div class="mt-6 p-4 bg-slate-900 rounded-lg text-xs text-slate-400">
+                        <strong>Difference:</strong> LLMs calculate the most <em>probable</em> next word. Brains traverse the most <em>connected</em> path.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER / CONCLUSION -->
+        <footer class="mt-16 pt-8 border-t border-slate-800 text-center pb-8">
+            <h3 class="text-2xl font-bold text-white mb-4">Summary Comparison</h3>
+            <div class="overflow-x-auto">
+                <table class="w-full max-w-4xl mx-auto text-left text-sm text-slate-300">
+                    <thead class="bg-slate-800 text-white">
+                        <tr>
+                            <th class="p-4 rounded-tl-lg">Feature</th>
+                            <th class="p-4 text-sky-400">Large Language Model</th>
+                            <th class="p-4 rounded-tr-lg text-pink-400">Human Brain</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800">
+                        <tr class="bg-slate-900/50">
+                            <td class="p-4 font-bold">Storage Location</td>
+                            <td class="p-4">Static Weights (Files)</td>
+                            <td class="p-4">Synaptic Strengths (Physical)</td>
+                        </tr>
+                        <tr class="bg-slate-900/50">
+                            <td class="p-4 font-bold">Short-Term Memory</td>
+                            <td class="p-4">Context Window (limited buffer)</td>
+                            <td class="p-4">Working Memory (active firing)</td>
+                        </tr>
+                        <tr class="bg-slate-900/50">
+                            <td class="p-4 font-bold">Update Mechanism</td>
+                            <td class="p-4">Training (Batch) only</td>
+                            <td class="p-4">Continuous Learning (Real-time)</td>
+                        </tr>
+                        <tr class="bg-slate-900/50">
+                            <td class="p-4 font-bold">Retrieval</td>
+                            <td class="p-4">Probability / Vector Math</td>
+                            <td class="p-4">Associative Reconstruction</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-8 text-xs text-slate-500">
+                Generated for Educational Purposes | No SVG or External Images Used
+            </p>
+        </footer>
+
+    </main>
+
+    <script>
+        // --- DATA PREPARATION & UTILS ---
+
+        // Label Wrapping Utility (Required for >16 char labels)
+        function wrapLabel(str, maxLen = 16) {
+            if (str.length <= maxLen) return str;
+            const words = str.split(' ');
+            const lines = [];
+            let currentLine = words[0];
+
+            for (let i = 1; i < words.length; i++) {
+                if ((currentLine + " " + words[i]).length <= maxLen) {
+                    currentLine += " " + words[i];
+                } else {
+                    lines.push(currentLine);
+                    currentLine = words[i];
+                }
+            }
+            lines.push(currentLine);
+            return lines;
+        }
+
+        // Common Tooltip Config (Required)
+        const commonTooltip = {
+            callbacks: {
+                title: function(tooltipItems) {
+                    const item = tooltipItems[0];
+                    let label = item.chart.data.labels[item.dataIndex];
+                    if (Array.isArray(label)) {
+                        return label.join(' ');
+                    } else {
+                        return label;
+                    }
+                }
+            }
+        };
+
+        // Common Chart Options
+        const chartDefaults = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: { color: '#cbd5e1' } // Slate-300
+                },
+                tooltip: commonTooltip
+            },
+            scales: {
+                x: {
+                    ticks: { color: '#94a3b8' }, // Slate-400
+                    grid: { color: '#334155' }   // Slate-700
+                },
+                y: {
+                    ticks: { color: '#94a3b8' },
+                    grid: { color: '#334155' }
+                }
+            }
+        };
+
+        // --- CHART 1: SCALE COMPARISON (Bar Chart) ---
+        const ctxScale = document.getElementById('scaleChart').getContext('2d');
+        new Chart(ctxScale, {
+            type: 'bar',
+            data: {
+                labels: ['Brain Synapses', 'GPT-4 Params (Est)', 'GPT-3 Params'], // Short labels, no wrap needed
+                datasets: [{
+                    label: 'Count (in Trillions)',
+                    data: [100, 1.8, 0.175], // Logarithmic visual representation
+                    backgroundColor: [
+                        'rgba(236, 72, 153, 0.7)', // Pink (Brain)
+                        'rgba(14, 165, 233, 0.7)', // Sky (GPT4)
+                        'rgba(14, 165, 233, 0.4)'  // Sky Light (GPT3)
+                    ],
+                    borderColor: [
+                        'rgba(236, 72, 153, 1)',
+                        'rgba(14, 165, 233, 1)',
+                        'rgba(14, 165, 233, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                ...chartDefaults,
+                indexAxis: 'y', // Horizontal bar for better label readability
+                scales: {
+                    x: {
+                        ...chartDefaults.scales.x,
+                        type: 'logarithmic', // Critical for showing 0.1 vs 100
+                        title: { display: true, text: 'Trillions (Log Scale)', color: '#64748b' }
+                    },
+                    y: {
+                        ...chartDefaults.scales.y,
+                        ticks: { color: '#f8fafc', font: { weight: 'bold' } }
+                    }
+                }
+            }
+        });
+
+        // --- CHART 2: MEMORY CAPACITY / DECAY (Line Chart) ---
+        // Visualizing how context works vs working memory limits
+        const ctxMemory = document.getElementById('memoryChart').getContext('2d');
+        
+        // Mock data representing recall ability over "items" or "tokens"
+        const recallLabels = ['1 Item/Block', '10 Items', '100 Items', '1k Items', '10k Items', '100k Items'];
+        
+        new Chart(ctxMemory, {
+            type: 'line',
+            data: {
+                labels: recallLabels.map(l => wrapLabel(l)),
+                datasets: [
+                    {
+                        label: 'LLM Context Window',
+                        data: [100, 100, 100, 100, 95, 80], // Stays perfect until limit
+                        borderColor: '#0ea5e9', // Sky Blue
+                        backgroundColor: 'rgba(14, 165, 233, 0.2)',
+                        tension: 0.1,
+                        fill: true
+                    },
+                    {
+                        label: 'Human Working Memory',
+                        data: [100, 60, 10, 0, 0, 0], // Drops off sharply after ~7 items
+                        borderColor: '#ec4899', // Pink
+                        backgroundColor: 'rgba(236, 72, 153, 0.2)',
+                        tension: 0.4,
+                        fill: true
+                    }
+                ]
+            },
+            options: {
+                ...chartDefaults,
+                scales: {
+                    y: {
+                        ...chartDefaults.scales.y,
+                        beginAtZero: true,
+                        title: { display: true, text: '% Retention Accuracy', color: '#64748b' }
+                    }
+                }
+            }
+        });
+
+        // --- CHART 3: VECTOR SPACE SIMULATION (Scatter Plot) ---
+        const ctxVector = document.getElementById('vectorChart').getContext('2d');
+        
+        // Generate clustering data
+        function generateCluster(centerX, centerY, count, radius) {
+            return Array.from({length: count}, () => ({
+                x: centerX + (Math.random() - 0.5) * radius,
+                y: centerY + (Math.random() - 0.5) * radius
+            }));
+        }
+
+        const royaltyCluster = generateCluster(10, 10, 15, 5); // King, Queen
+        const techCluster = generateCluster(25, 25, 15, 5); // Computer, AI
+        const foodCluster = generateCluster(10, 25, 15, 5); // Apple, Pie
+
+        new Chart(ctxVector, {
+            type: 'scatter',
+            data: {
+                datasets: [
+                    {
+                        label: 'Concept: Royalty (King/Queen)',
+                        data: royaltyCluster,
+                        backgroundColor: '#f59e0b' // Amber
+                    },
+                    {
+                        label: 'Concept: Technology (AI/Code)',
+                        data: techCluster,
+                        backgroundColor: '#0ea5e9' // Sky
+                    },
+                    {
+                        label: 'Concept: Food (Apple/Pie)',
+                        data: foodCluster,
+                        backgroundColor: '#10b981' // Emerald
+                    }
+                ]
+            },
+            options: {
+                ...chartDefaults,
+                plugins: {
+                    ...chartDefaults.plugins,
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.dataset.label;
+                            }
+                        }
+                    },
+                    legend: {
+                        position: 'bottom',
+                        labels: { color: '#cbd5e1' }
+                    }
+                },
+                scales: {
+                    x: { display: false }, // Hide axes to look like abstract space
+                    y: { display: false }
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
