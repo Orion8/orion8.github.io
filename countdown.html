@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Countdown Timer</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; overflow: hidden; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: #0b0b12;
+      color: #d0d0e8;
+      -webkit-font-smoothing: antialiased;
+    }
+    #root { height: 100%; }
+
+    .viewport { width: 100vw; height: 100vh; overflow: hidden; }
+
+    .slides {
+      display: flex;
+      width: 200vw;
+      height: 100%;
+      will-change: transform;
+      transition: transform 0.38s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .slides.show-timer { transform: translateX(-50%); }
+
+    .slide {
+      width: 100vw;
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      flex-shrink: 0;
+    }
+
+    /* hide number input spinners */
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; }
+    input[type=number] { -moz-appearance: textfield; appearance: textfield; }
+
+    /* wave animations — translate by one period (110px = CW) */
+    @keyframes wave-fwd {
+      0%   { transform: translateX(0);      }
+      100% { transform: translateX(-110px); }
+    }
+    @keyframes wave-bwd {
+      0%   { transform: translateX(-110px); }
+      100% { transform: translateX(0);      }
+    }
+    .w-fwd { animation: wave-fwd 2.6s linear infinite; }
+    .w-bwd { animation: wave-bwd 3.9s linear infinite; }
+
+    @keyframes bubble-up {
+      0%   { transform: translateY(0)       scale(1);   opacity: 0.55; }
+      80%  { opacity: 0.2; }
+      100% { transform: translateY(-300px)  scale(0.4); opacity: 0;    }
+    }
+
+    @keyframes flicker {
+      0%, 100% { opacity: 1;    }
+      20%      { opacity: 0.60; }
+      50%      { opacity: 0.88; }
+      75%      { opacity: 0.52; }
+    }
+    .flickering { animation: flicker 0.75s ease-in-out infinite; }
+
+    button { font-family: inherit; }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+const { useState, useEffect, useRef, useCallback, useMemo } = React;
+
+/* ─── constants ────────────────────────────────────────── */
+const PRESETS = [
+  { key:'10s',  label:'10s',  seconds:10   },
+  { key:'20s',  label:'20s',  seconds:20   },
+  { key:'30s',  label:'30s',  seconds:30   },
+  { key:'1m',   label:'1m',   seconds:60   },
+  { key:'2m',   label:'2m',   seconds:120  },
+  { key:'3m',   label:'3m',   seconds:180  },
+  { key:'5m',   label:'5m',   seconds:300  },
+  { key:'10m',  label:'10m',  seconds:600  },
+  { key:'15m',  label:'15m',  seconds:900  },
+  { key:'25m',  label:'25m',  seconds:1500 },
+  { key:'45m',  label:'45m',  seconds:2700 },
+  { key:'60m',  label:'60m',  seconds:3600 },
+];
+
+const CW = 110;  // liquid chamber width in px
+const CH = 340;  // liquid chamber height in px
+
+const BUBBLES = [
+  { id:1, x:14, size:5, dur:3.2, delay:0.0  },
+  { id:2, x:39, size:4, dur:2.7, delay:0.9  },
+  { id:3, x:67, size:6, dur:3.8, delay:1.6  },
+  { id:4, x:29, size:4, dur:2.4, delay:2.4  },
+  { id:5, x:56, size:5, dur:3.5, delay:0.5  },
+  { id:6, x:80, size:4, dur:2.9, delay:1.8  },
+  { id:7, x:48, size:3, dur:3.1, delay:3.1  },
+];
+
+/* ─── helpers ──────────────────────────────────────────── */
+function pad2(n) { return String(Math.max(0, Math.floor(n))).padStart(2, '0'); }
+function fmt(sec) { return `${pad2(sec / 60)}:${pad2(sec % 60)}`; }
+
+function lerpColor([ar,ag,ab],[br,bg,bb], t) {
+  return [ar+(br-ar)*t, ag+(bg-ag)*t, ab+(bb-ab)*t].map(Math.round);
+}
+function toHex([r,g,b]) {
+  return '#' + [r,g,b].map(v => v.toString(16).padStart(2,'0')).join('');
+}
+function liquidColor(pct) {
+  const navy    = [10,  22,  40 ];
+  const indigo  = [79,  70,  229];
+  const crimson = [220, 38,  38 ];
+  const amber   = [245, 158, 11 ];
+  if (pct <= 50) return toHex(lerpColor(navy,    indigo,  pct / 50));
+  if (pct <= 80) return toHex(lerpColor(indigo,  crimson, (pct-50)/30));
+  return               toHex(lerpColor(crimson, amber,   (pct-80)/20));
+}
+
+/* wave path: two sine periods wide (2×CW) so CSS translate of one period loops */
+function wavePath(midY, svgH) {
+  const W = CW * 2, A = 6;
+  return [
+    `M 0,${midY}`,
+    `Q ${W*.125},${midY-A} ${W*.25},${midY}`,
+    `Q ${W*.375},${midY+A} ${W*.5},${midY}`,
+    `Q ${W*.625},${midY-A} ${W*.75},${midY}`,
+    `Q ${W*.875},${midY+A} ${W},${midY}`,
+    `L ${W},${svgH} L 0,${svgH} Z`,
+  ].join(' ');
+}
+
+function playAlarm() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    [660, 880, 1100].forEach((hz, i) => {
+      const osc  = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.value = hz;
+      const t = ctx.currentTime + i * 0.33;
+      gain.gain.setValueAtTime(0, t);
+      gain.gain.linearRampToValueAtTime(0.42, t + 0.05);
+      gain.gain.linearRampToValueAtTime(0,    t + 0.28);
+      osc.start(t); osc.stop(t + 0.36);
+    });
+  } catch (_) {}
+}
+
+/* ─── LiquidChamber ────────────────────────────────────── */
+function LiquidChamber({ pct }) {
+  const col  = liquidColor(pct);
+  const col2 = liquidColor(Math.min(pct + 15, 100));
+
+  return (
+    <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:10 }}>
+
+      {/* outer shell + liquid fill */}
+      <div style={{ position:'relative' }}>
+        <div style={{
+          width: CW, height: CH,
+          borderRadius: 56,
+          background: '#080815',
+          border: '2px solid #1e1e40',
+          overflow: 'hidden',
+          position: 'relative',
+          boxShadow: '0 0 32px rgba(79,70,229,0.16), inset 0 0 22px rgba(0,0,0,0.65)',
+        }}>
+
+          {/* liquid fill — grows from bottom */}
+          <div style={{
+            position:'absolute', bottom:0, left:0, right:0,
+            height: `${pct}%`,
+            background: `linear-gradient(to top, ${col}, ${col2})`,
+            transition: 'height 0.4s ease',
+            overflow: 'hidden',
+          }}>
+
+            {/* bubbles */}
+            {pct > 5 && BUBBLES.map(b => (
+              <div key={b.id} style={{
+                position:'absolute',
+                bottom: b.size,
+                left: `${b.x}%`,
+                width: b.size, height: b.size,
+                borderRadius: '50%',
+                background: 'rgba(255,255,255,0.20)',
+                border: '1px solid rgba(255,255,255,0.36)',
+                animation: `bubble-up ${b.dur}s ease-in ${b.delay}s infinite`,
+              }}/>
+            ))}
+
+            {/* two sine wave layers at the liquid surface
+                SVG is 2×CW wide; CSS translateX(-CW) creates a seamless loop.
+                Positioned slightly above the fill-div top so peaks protrude into empty space. */}
+            <svg
+              width={CW * 2} height={24}
+              style={{ position:'absolute', top:-9, left:0 }}
+              overflow="visible"
+            >
+              {/* wave 1 — moves forward */}
+              <g className="w-fwd">
+                <path d={wavePath(12, 24)} fill={`${col}e0`} />
+              </g>
+              {/* wave 2 — moves backward, different phase & alpha */}
+              <g className="w-bwd">
+                <path d={wavePath(10, 24)} fill={`${col}80`} />
+              </g>
+            </svg>
+          </div>
+
+          {/* glass shine overlay */}
+          <div style={{
+            position:'absolute', inset:0, pointerEvents:'none', borderRadius:'inherit',
+            background:'linear-gradient(140deg, rgba(255,255,255,0.07) 0%, transparent 55%)',
+          }}/>
+        </div>
+
+        {/* tick marks on the right edge */}
+        {[20,40,60,80].map(t => {
+          const top = CH * (1 - t/100) - 1;
+          return (
+            <div key={t} style={{ position:'absolute', right:-32, top, display:'flex', alignItems:'center', gap:3 }}>
+              <div style={{ width:11, height:2, background:'#22224a', borderRadius:1 }}/>
+              <span style={{ fontSize:8, color:'#33335a', letterSpacing:0.3 }}>{t}%</span>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* percent label */}
+      <div style={{ fontSize:12, color:'#3a3a5a', letterSpacing:1, fontVariantNumeric:'tabular-nums' }}>
+        {Math.round(pct)}% elapsed
+      </div>
+    </div>
+  );
+}
+
+/* ─── TimerScreen ──────────────────────────────────────── */
+function TimerScreen({ preset, onBack }) {
+  const total = preset.seconds * 1000;
+
+  const [remMs,   setRemMs]   = useState(total);
+  const [running, setRunning] = useState(false);
+  const [done,    setDone]    = useState(false);
+
+  const ivRef    = useRef(null);
+  const t0Ref    = useRef(null);
+  const pauseRef = useRef(total);   // ms remaining at last pause
+
+  const elapsed = total - remMs;
+  const pct     = (elapsed / total) * 100;
+  const remSec  = Math.ceil(remMs  / 1000);
+  const lapSec  = Math.floor(elapsed / 1000);
+  const urgent  = pct >= 90;
+  const warning = pct >= 75;
+
+  const stopInterval = () => { clearInterval(ivRef.current); ivRef.current = null; };
+
+  const startTimer = () => {
+    t0Ref.current = Date.now();
+    setRunning(true);
+    ivRef.current = setInterval(() => {
+      const went = Date.now() - t0Ref.current;
+      const rem  = pauseRef.current - went;
+      if (rem <= 0) {
+        setRemMs(0); setRunning(false); setDone(true);
+        stopInterval(); playAlarm();
+      } else {
+        setRemMs(rem);
+      }
+    }, 50);
+  };
+
+  const pause = () => {
+    stopInterval();
+    pauseRef.current = remMs;
+    setRunning(false);
+  };
+
+  const reset = () => {
+    stopInterval();
+    setRunning(false); setDone(false);
+    setRemMs(total); pauseRef.current = total;
+  };
+
+  useEffect(() => () => stopInterval(), []);
+
+  const remColor = done    ? '#22c55e'
+                 : urgent  ? '#f59e0b'
+                 : warning ? '#ef4444'
+                 :           '#e8e8ff';
+
+  return (
+    <div style={{
+      width:'100vw', minHeight:'100vh', background:'#0b0b12',
+      display:'flex', flexDirection:'column', padding:'20px 28px 28px',
+    }}>
+
+      {/* back button */}
+      <button
+        onClick={onBack}
+        style={{
+          background:'none', border:'none', color:'#3a3a5a',
+          fontSize:13, cursor:'pointer',
+          display:'flex', alignItems:'center', gap:5,
+          padding:'6px 0', alignSelf:'flex-start', transition:'color 0.15s',
+        }}
+        onMouseEnter={e => e.currentTarget.style.color='#7777aa'}
+        onMouseLeave={e => e.currentTarget.style.color='#3a3a5a'}
+      >
+        ← back
+      </button>
+
+      {/* three-column layout */}
+      <div style={{
+        flex:1, display:'flex', alignItems:'center',
+        justifyContent:'center', gap:36, padding:'12px 0',
+      }}>
+
+        {/* ── left column: elapsed / remaining ── */}
+        <div style={{ display:'flex', flexDirection:'column', alignItems:'flex-end', gap:4, minWidth:130 }}>
+
+          {/* elapsed */}
+          <div>
+            <div style={{ fontSize:10, color:'#22224a', textTransform:'uppercase', letterSpacing:1.8, textAlign:'right', marginBottom:5 }}>
+              Elapsed
+            </div>
+            <div style={{
+              fontSize:40, fontWeight:600, color:'#1e1e38',
+              fontVariantNumeric:'tabular-nums', letterSpacing:-1,
+            }}>
+              {fmt(lapSec)}
+            </div>
+          </div>
+
+          {/* divider */}
+          <div style={{ width:'100%', height:1, background:'#141428', margin:'10px 0' }}/>
+
+          {/* remaining */}
+          <div>
+            <div style={{ fontSize:10, color:'#55556a', textTransform:'uppercase', letterSpacing:1.8, textAlign:'right', marginBottom:5 }}>
+              Remaining
+            </div>
+            <div
+              className={urgent && !done ? 'flickering' : ''}
+              style={{
+                fontSize:40, fontWeight:700, color:remColor,
+                fontVariantNumeric:'tabular-nums', letterSpacing:-1,
+                transition:'color 0.5s ease',
+              }}
+            >
+              {fmt(remSec)}
+            </div>
+          </div>
+        </div>
+
+        {/* ── center: liquid chamber ── */}
+        <LiquidChamber pct={Math.min(pct, 100)} />
+
+        {/* ── right column: controls ── */}
+        <div style={{ display:'flex', flexDirection:'column', gap:14, minWidth:130 }}>
+
+          {/* preset label */}
+          <div style={{ fontSize:13, color:'#44445a', fontWeight:500, letterSpacing:0.3 }}>
+            {preset.label}
+          </div>
+
+          {/* primary action button */}
+          {done ? (
+            <button style={{
+              background:'#0c2218', color:'#22c55e',
+              border:'1px solid #174030', borderRadius:12,
+              padding:'11px 0', fontSize:14, fontWeight:700,
+              width:124, cursor:'default',
+            }}>
+              Done ✓
+            </button>
+          ) : (
+            <button
+              onClick={running ? pause : startTimer}
+              style={{
+                background: running ? '#141428' : '#4f46e5',
+                color:      running ? '#5555aa' : '#fff',
+                border:     running ? '1px solid #22224a' : 'none',
+                borderRadius:12, padding:'11px 0',
+                fontSize:14, fontWeight:700,
+                width:124, cursor:'pointer',
+                transition:'background 0.2s, color 0.2s',
+              }}
+            >
+              {running ? 'Pause' : lapSec > 0 ? 'Resume' : 'Start'}
+            </button>
+          )}
+
+          {/* reset */}
+          <button
+            onClick={reset}
+            style={{
+              background:'#0e0e1e', color:'#44445a',
+              border:'1px solid #181830', borderRadius:12,
+              padding:'9px 0', fontSize:13, fontWeight:500,
+              width:124, cursor:'pointer',
+            }}
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ─── PresetTile ───────────────────────────────────────── */
+function PresetTile({ preset, count, maxCount, onSelect, featured }) {
+  const barW = maxCount > 0 ? (count / maxCount) * 100 : 0;
+  const [hover, setHover] = useState(false);
+  return (
+    <button
+      onClick={() => onSelect(preset)}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      style={{
+        background: featured ? '#16162a' : hover ? '#141428' : '#0e0e1e',
+        border: `1px solid ${featured
+          ? (hover ? '#4a4a80' : '#28284e')
+          : (hover ? '#22224a' : '#141428')}`,
+        borderRadius:11,
+        padding: featured ? '14px 16px' : '13px 10px',
+        cursor:'pointer', position:'relative', overflow:'hidden',
+        textAlign:'left', width:'100%',
+        transition:'background 0.15s, border-color 0.15s',
+      }}
+    >
+      <div style={{ fontSize: featured ? 20 : 17, fontWeight:700, color:'#cccce8', letterSpacing:-0.3 }}>
+        {preset.label}
+      </div>
+      {featured && (
+        <div style={{ fontSize:11, color:'#38385a', marginTop:3 }}>× {count}</div>
+      )}
+      {!featured && (
+        <div style={{
+          position:'absolute', bottom:0, left:0, height:2,
+          width:`${barW}%`,
+          background:'linear-gradient(to right, #4f46e5, #818cf8)',
+          transition:'width 0.45s ease',
+        }}/>
+      )}
+    </button>
+  );
+}
+
+/* ─── PresetPicker ─────────────────────────────────────── */
+function PresetPicker({ usage, onSelect }) {
+  const [mm, setMm] = useState('');
+  const [ss, setSs] = useState('');
+
+  const maxCount = useMemo(
+    () => Math.max(...PRESETS.map(p => usage[p.key] || 0), 1),
+    [usage]
+  );
+
+  const mostUsed = useMemo(
+    () => [...PRESETS]
+      .filter(p => (usage[p.key] || 0) > 0)
+      .sort((a,b) => (usage[b.key]||0) - (usage[a.key]||0))
+      .slice(0, 3),
+    [usage]
+  );
+
+  const goCustom = () => {
+    const m = parseInt(mm, 10) || 0;
+    const s = parseInt(ss, 10) || 0;
+    const total = m * 60 + s;
+    if (total > 0) onSelect({ key:'custom', label:`${pad2(m)}:${pad2(s)}`, seconds:total });
+  };
+
+  return (
+    <div style={{ background:'#0b0b12', minHeight:'100vh', padding:'48px 28px 48px' }}>
+      <div style={{ maxWidth:480, margin:'0 auto' }}>
+
+        {/* header */}
+        <div style={{ marginBottom:36 }}>
+          <h1 style={{ fontSize:40, fontWeight:800, color:'#e0e0f2', letterSpacing:-1.8, lineHeight:1.1 }}>
+            How long?
+          </h1>
+          <p style={{ fontSize:13, color:'#28284a', marginTop:8, letterSpacing:0.8 }}>
+            tap to start
+          </p>
+        </div>
+
+        {/* most used — hidden until at least one preset used */}
+        {mostUsed.length > 0 && (
+          <div style={{ marginBottom:28 }}>
+            <div style={{ fontSize:10, color:'#28284a', textTransform:'uppercase', letterSpacing:2.5, marginBottom:10 }}>
+              Most used
+            </div>
+            <div style={{ display:'flex', gap:10 }}>
+              {mostUsed.map(p => (
+                <div key={p.key} style={{ flex:1 }}>
+                  <PresetTile preset={p} count={usage[p.key]||0} maxCount={maxCount} onSelect={onSelect} featured />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* preset grid */}
+        <div style={{
+          display:'grid', gridTemplateColumns:'repeat(4, 1fr)', gap:9,
+          marginBottom:28,
+        }}>
+          {PRESETS.map(p => (
+            <PresetTile
+              key={p.key} preset={p}
+              count={usage[p.key]||0} maxCount={maxCount}
+              onSelect={onSelect}
+            />
+          ))}
+        </div>
+
+        {/* custom mm:ss input */}
+        <div style={{
+          display:'flex', alignItems:'center', gap:8,
+          background:'#0e0e1e', border:'1px solid #181830', borderRadius:14,
+          padding:'10px 14px',
+        }}>
+          <input
+            type="number" min="0" max="99"
+            value={mm} onChange={e => setMm(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && goCustom()}
+            placeholder="mm"
+            style={{
+              width:50, background:'none', border:'none',
+              color:'#d0d0e8', fontSize:20, fontWeight:600,
+              textAlign:'center', outline:'none',
+              fontVariantNumeric:'tabular-nums',
+            }}
+          />
+          <span style={{ color:'#22224a', fontSize:22, fontWeight:200, lineHeight:1 }}>:</span>
+          <input
+            type="number" min="0" max="59"
+            value={ss} onChange={e => setSs(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && goCustom()}
+            placeholder="ss"
+            style={{
+              width:50, background:'none', border:'none',
+              color:'#d0d0e8', fontSize:20, fontWeight:600,
+              textAlign:'center', outline:'none',
+              fontVariantNumeric:'tabular-nums',
+            }}
+          />
+          <button
+            onClick={goCustom}
+            style={{
+              marginLeft:'auto', background:'#4f46e5', color:'#fff',
+              border:'none', borderRadius:10, padding:'8px 20px',
+              fontSize:13, fontWeight:600, cursor:'pointer',
+              display:'flex', alignItems:'center', gap:5,
+            }}
+          >
+            → Go
+          </button>
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+/* ─── App ──────────────────────────────────────────────── */
+function App() {
+  const [screen,  setScreen]  = useState('picker');
+  const [usage,   setUsage]   = useState({});
+  const [preset,  setPreset]  = useState(null);
+  const [session, setSession] = useState(0);
+
+  const select = useCallback(p => {
+    setUsage(prev => ({ ...prev, [p.key]: (prev[p.key] || 0) + 1 }));
+    setPreset(p);
+    setSession(n => n + 1);
+    setScreen('timer');
+  }, []);
+
+  const back = useCallback(() => setScreen('picker'), []);
+
+  return (
+    <div className="viewport">
+      <div className={`slides${screen === 'timer' ? ' show-timer' : ''}`}>
+        <div className="slide">
+          <PresetPicker usage={usage} onSelect={select} />
+        </div>
+        <div className="slide">
+          {preset && <TimerScreen key={session} preset={preset} onBack={back} />}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
