@@ -1,29 +1,272 @@
 <!DOCTYPE html> <!-- HTML 문서임을 선언하는 부분 -->
-<html> <!-- HTML 시작 -->
+<html lang="en"> <!-- HTML 시작 -->
 <head> <!-- 머리말 정보 시작 -->
-    <meta charset="UTF-8"> <!-- 문자 인코딩을 UTF8 로 설정 -->
-    <title>My Infographic Main Page</title> <!-- 브라우저 탭에 표시될 제목 -->
+    <meta charset="UTF-8"> <!-- 문자 인코딩을 UTF-8 로 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Infographic Hub</title> <!-- 브라우저 탭에 표시될 제목 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style> <!-- 페이지 스타일 설정 시작 -->
-        body { font family sans serif margin 40px } <!-- 기본 글꼴과 여백 설정 -->
-        h1 { font size 32px } <!-- 메인 제목 크기 설정 -->
-        ul { line height 2 } <!-- 리스트 줄 간격 설정 -->
+        :root {
+            --bg-color: #0b0b12;
+            --card-bg: rgba(20, 20, 35, 0.6);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --accent-gradient: linear-gradient(135deg, #4f46e5, #7c3aed);
+            --accent-glow: rgba(99, 102, 241, 0.35);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(79, 70, 229, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(124, 58, 237, 0.1) 0px, transparent 50%);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 800;
+            margin: 0 0 12px 0;
+            background: linear-gradient(to right, #e0e0f2, #a5b4fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1.5px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: var(--text-secondary);
+            margin: 0;
+            font-weight: 500;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        /* Card Styles */
+        .card {
+            display: flex;
+            flex-direction: column;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 24px;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Featured Timer Card */
+        .card.timer-card {
+            grid-column: span 1;
+            background: var(--accent-gradient);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 8px 32px var(--accent-glow);
+        }
+
+        /* On larger screens, the timer card is wider and more prominent */
+        @media (min-width: 640px) {
+            .card.timer-card {
+                grid-column: span 2;
+                flex-direction: row;
+                align-items: center;
+                gap: 24px;
+                padding: 32px;
+            }
+        }
+
+        .card.timer-card:hover {
+            box-shadow: 0 12px 40px rgba(99, 102, 241, 0.55);
+            transform: translateY(-5px) scale(1.01);
+        }
+
+        .card-icon {
+            font-size: 32px;
+            margin-bottom: 16px;
+            background: rgba(255, 255, 255, 0.1);
+            width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 14px;
+            flex-shrink: 0;
+        }
+
+        .timer-card .card-icon {
+            font-size: 40px;
+            background: rgba(255, 255, 255, 0.2);
+            width: 72px;
+            height: 72px;
+            border-radius: 18px;
+            margin-bottom: 0;
+        }
+
+        .card-body {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .timer-card .card-body {
+            justify-content: center;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+            letter-spacing: -0.5px;
+        }
+
+        .timer-card .card-title {
+            font-size: 24px;
+            font-weight: 800;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        }
+
+        .card-desc {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin: 0 0 16px 0;
+            line-height: 1.5;
+        }
+
+        .timer-card .card-desc {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 15px;
+            margin-bottom: 12px;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+        }
+
+        .card-action {
+            font-size: 14px;
+            font-weight: 600;
+            color: #818cf8;
+            margin-top: auto;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: gap 0.2s;
+        }
+
+        .card:hover .card-action {
+            gap: 8px;
+        }
+
+        .timer-card .card-action {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 12px;
+            align-self: flex-start;
+            margin-top: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            backdrop-filter: blur(4px);
+        }
+
+        .timer-card .card-action:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: rgba(255, 255, 255, 0.2);
+            font-size: 13px;
+        }
     </style> <!-- 스타일 설정 끝 -->
 </head> <!-- 머리말 정보 끝 -->
 
 <body> <!-- 본문 시작 -->
+    <div class="container">
+        <header>
+            <h1>My Infographic Hub</h1> <!-- 메인 페이지 제목 표시 -->
+            <p class="subtitle">Welcome to my infographic collection main page</p> <!-- 간단한 소개문 -->
+        </header>
 
-    <h1>My Infographic Hub</h1> <!-- 메인 페이지 제목 표시 -->
+        <div class="grid">
+            <!-- Visual Liquid Timer Card (Timer Folder) -->
+            <a href="timer/index.html" class="card timer-card">
+                <div class="card-icon">⏳</div>
+                <div class="card-body">
+                    <h3 class="card-title">Visual Liquid Timer</h3>
+                    <p class="card-desc">A beautiful glassmorphic visual countdown timer featuring a serpentine liquid chamber and custom Web Audio alerts.</p>
+                    <span class="card-action">Start Timer →</span>
+                </div>
+            </a>
 
-    <p>Welcome to my infographic collection main page</p> <!-- 간단한 소개문 -->
+            <!-- Memory Card -->
+            <a href="memory.html" class="card">
+                <div class="card-icon">🧠</div>
+                <div class="card-body">
+                    <h3 class="card-title">Memory</h3>
+                    <p class="card-desc">Test and train your short-term visual memory through interactive charts and patterns.</p>
+                    <span class="card-action">Launch Memory Game →</span>
+                </div>
+            </a>
 
-    <ul> <!-- 링크 목록 시작 -->
-        <li><a href="memory.html">Memory</a></li> <!-- 첫 번째 링크 자리 -->
-        <li><a href="group_behavior_in_history.html">Pattern in History</a></li> <!-- 두 번째 링크 자리 -->
-        <li><a href="infographic three dot html">Infographic Three</a></li> <!-- 세 번째 링크 자리 -->
-        <li><a href="https colon slash slash example dot com">External Sample Link</a></li> <!-- 예시 외부 링크 -->
-    </ul> <!-- 링크 목록 끝 -->
+            <!-- Pattern in History Card -->
+            <a href="group_behavior_in_history.html" class="card">
+                <div class="card-icon">🏛️</div>
+                <div class="card-body">
+                    <h3 class="card-title">Pattern in History</h3>
+                    <p class="card-desc">Discover patterns, trends, and group behavior dynamics throughout history.</p>
+                    <span class="card-action">View Infographic →</span>
+                </div>
+            </a>
 
-    <p>...</p> <!-- 편집 가능 안내 문구 -->
+            <!-- External Sample Card -->
+            <a href="https://example.com" class="card" target="_blank" rel="noopener noreferrer">
+                <div class="card-icon">🔗</div>
+                <div class="card-body">
+                    <h3 class="card-title">External Sample Link</h3>
+                    <p class="card-desc">Check out external curated references and visual design inspiration.</p>
+                    <span class="card-action">Visit Site →</span>
+                </div>
+            </a>
+        </div>
 
+        <footer>
+            <p>...</p> <!-- 편집 가능 안내 문구 -->
+        </footer>
+    </div>
 </body> <!-- 본문 끝 -->
 </html> <!-- HTML 끝 -->
