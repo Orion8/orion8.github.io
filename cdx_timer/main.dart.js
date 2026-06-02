@@ -7256,7 +7256,8 @@ this.a=c},
 adx:function adx(a,b,c){this.a=a
 this.b=b
 this.c=c},
-AM:function AM(a){this.a=a},
+AM:function AM(a,b){this.a=a
+this.c=b},
 NO:function NO(a,b,c,d){var _=this
 _.c=a
 _.d=b
@@ -38442,8 +38443,8 @@ A.NN.prototype={
 N(a){var s=B.c.l9(this.c/10)
 return A.uI(A.a_a(s,new A.adx(this,s,A.ar4(s)),!0,t.l7),B.aM,null,B.aW,B.eo)}}
 A.adx.prototype={
-$1(a){var s=this.a,r=a*10,q=Math.min(10,s.c-r),p=B.i.cV(s.d-r,0,q)
-return new A.cG(new A.aS(0,0,0,0),new A.NO(q,p,this.c,null),null)},
+$1(a){var s=this,r=s.a,q=a*10,p=Math.min(10,r.c-q),o=B.i.cV(r.d-q,0,p)
+return new A.cG(new A.aS(0,0,0,a===s.b-1?0:s.c.c),new A.NO(p,o,s.c,null),null)},
 $S:278}
 A.AM.prototype={
 ghF(){return this.a*3}}
@@ -82036,9 +82037,9 @@ B.cN=new A.ct(6,"textScaler")
 B.hU=new A.ct(7,"platformBrightness")
 B.bp=new A.ct(8,"padding")
 B.l_=new A.ct(9,"viewInsets")
-B.Ul=new A.AM(12)
-B.Um=new A.AM(14)
-B.Un=new A.AM(16)
+B.Ul=new A.AM(12,6)
+B.Um=new A.AM(14,8)
+B.Un=new A.AM(16,10)
 B.Uo=new A.lP(1/0,1/0,1/0,1/0,1/0,1/0)
 B.Up=new A.lQ(0,"isCurrent")
 B.Uq=new A.lQ(5,"opaque")
