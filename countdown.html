@@ -85,15 +85,24 @@ function pad2(n) { return String(Math.max(0, Math.floor(n))).padStart(2, '0'); }
 function fmt(sec) { return `${pad2(sec / 60)}:${pad2(sec % 60)}`; }
 
 /* ── serpentine tube helpers ──────────────────────── */
+// Target lava speed in px/s. numRows is computed so that
+// totalPathLength / totalSeconds ≈ LAVA_SPEED.
+// Short timers use MIN_ROWS (minimum 3 rows keeps the tube visible)
+// and run faster; very long timers hit MAX_ROWS and slow slightly.
+const LAVA_SPEED = 6; // px/s
+const MIN_ROWS   = 3;
+const MAX_ROWS   = 30;
+
 function computeNumRows(seconds) {
-  if (seconds <=   30) return 8;
-  if (seconds <=  120) return 12;
-  if (seconds <=  300) return 16;
-  if (seconds <=  600) return 20;
-  if (seconds <= 1200) return 24;
-  if (seconds <= 1800) return 26;
-  if (seconds <= 2700) return 28;
-  return 30;
+  const target = LAVA_SPEED * seconds;
+  for (let N = MIN_ROWS; N <= MAX_ROWS; N++) {
+    const r        = (TUBE_H - 2 * TUBE_PAD) / (2 * N);
+    const horizLen = TUBE_W - 4 * r;
+    if (horizLen <= 0) continue;
+    const len = N * horizLen + (N - 1) * Math.PI * r;
+    if (len >= target) return N;
+  }
+  return MAX_ROWS;
 }
 
 function buildTubePath(numRows) {
