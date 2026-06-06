@@ -254,7 +254,11 @@ function TimerScreen({ preset, onBack }) {
     setRemMs(total); pauseRef.current = total;
   };
 
-  useEffect(() => () => stopInterval(), []);
+  // auto-start on mount
+  useEffect(() => {
+    startTimer();
+    return () => stopInterval();
+  }, []);
 
   const remColor = done    ? '#22c55e'
                  : urgent  ? '#f59e0b'
