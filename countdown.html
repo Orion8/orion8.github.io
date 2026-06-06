@@ -77,8 +77,8 @@ const PRESETS = [
 
 const TUBE_W = 280;  // serpentine panel width
 const TUBE_H = 340;  // serpentine panel height
-const TUBE_PAD = 12; // top/bottom padding inside panel
-const TUBE_GAP = 5;  // visual gap between adjacent tube rows
+const TUBE_PAD = 8;  // top/bottom padding inside panel
+const TUBE_GAP = 3;  // visual gap between adjacent tube rows
 
 /* ─── helpers ──────────────────────────────────────────── */
 function pad2(n) { return String(Math.max(0, Math.floor(n))).padStart(2, '0'); }
@@ -86,14 +86,14 @@ function fmt(sec) { return `${pad2(sec / 60)}:${pad2(sec % 60)}`; }
 
 /* ── serpentine tube helpers ──────────────────────── */
 function computeNumRows(seconds) {
-  if (seconds <=   30) return 3;
-  if (seconds <=  120) return 4;
-  if (seconds <=  300) return 5;
-  if (seconds <=  600) return 6;
-  if (seconds <= 1200) return 7;
-  if (seconds <= 1800) return 8;
-  if (seconds <= 2700) return 9;
-  return 10;
+  if (seconds <=   30) return 8;
+  if (seconds <=  120) return 12;
+  if (seconds <=  300) return 16;
+  if (seconds <=  600) return 20;
+  if (seconds <= 1200) return 24;
+  if (seconds <= 1800) return 26;
+  if (seconds <= 2700) return 28;
+  return 30;
 }
 
 function buildTubePath(numRows) {
@@ -178,7 +178,7 @@ function SerpentineTube({ pct, totalSeconds }) {
         {/* lava — outer glow layer */}
         {hasLava && (
           <path d={d} fill="none" stroke="#FF5500"
-            strokeWidth={tubeThick - 3} strokeLinecap="round"
+            strokeWidth={tubeThick * 0.82} strokeLinecap="round"
             strokeDasharray={totalLen} strokeDashoffset={dashOffset}
             opacity={0.55}/>
         )}
@@ -186,16 +186,16 @@ function SerpentineTube({ pct, totalSeconds }) {
         {/* lava — main fill */}
         {hasLava && (
           <path d={d} fill="none" stroke="url(#lavaGrad)"
-            strokeWidth={tubeThick - 6} strokeLinecap="round"
+            strokeWidth={tubeThick * 0.65} strokeLinecap="round"
             strokeDasharray={totalLen} strokeDashoffset={dashOffset}/>
         )}
 
         {/* lava — bright yellow core */}
         {hasLava && (
           <path d={d} fill="none" stroke="#FFE566"
-            strokeWidth={Math.max(2, tubeThick * 0.25)} strokeLinecap="round"
+            strokeWidth={Math.max(1.5, tubeThick * 0.25)} strokeLinecap="round"
             strokeDasharray={totalLen} strokeDashoffset={dashOffset}
-            opacity={0.8}/>
+            opacity={0.85}/>
         )}
       </svg>
 
