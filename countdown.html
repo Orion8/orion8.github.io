@@ -42,24 +42,6 @@
     input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; }
     input[type=number] { -moz-appearance: textfield; appearance: textfield; }
 
-    /* wave animations — translate by one period (110px = CW) */
-    @keyframes wave-fwd {
-      0%   { transform: translateX(0);      }
-      100% { transform: translateX(-110px); }
-    }
-    @keyframes wave-bwd {
-      0%   { transform: translateX(-110px); }
-      100% { transform: translateX(0);      }
-    }
-    .w-fwd { animation: wave-fwd 2.6s linear infinite; }
-    .w-bwd { animation: wave-bwd 3.9s linear infinite; }
-
-    @keyframes bubble-up {
-      0%   { transform: translateY(0)       scale(1);   opacity: 0.55; }
-      80%  { opacity: 0.2; }
-      100% { transform: translateY(-300px)  scale(0.4); opacity: 0;    }
-    }
-
     @keyframes flicker {
       0%, 100% { opacity: 1;    }
       20%      { opacity: 0.60; }
@@ -93,50 +75,51 @@ const PRESETS = [
   { key:'60m',  label:'60m',  seconds:3600 },
 ];
 
-const CW = 110;  // liquid chamber width in px
-const CH = 340;  // liquid chamber height in px
-
-const BUBBLES = [
-  { id:1, x:14, size:5, dur:3.2, delay:0.0  },
-  { id:2, x:39, size:4, dur:2.7, delay:0.9  },
-  { id:3, x:67, size:6, dur:3.8, delay:1.6  },
-  { id:4, x:29, size:4, dur:2.4, delay:2.4  },
-  { id:5, x:56, size:5, dur:3.5, delay:0.5  },
-  { id:6, x:80, size:4, dur:2.9, delay:1.8  },
-  { id:7, x:48, size:3, dur:3.1, delay:3.1  },
-];
+const TUBE_W = 280;  // serpentine panel width
+const TUBE_H = 340;  // serpentine panel height
+const TUBE_PAD = 12; // top/bottom padding inside panel
+const TUBE_GAP = 5;  // visual gap between adjacent tube rows
 
 /* ─── helpers ──────────────────────────────────────────── */
 function pad2(n) { return String(Math.max(0, Math.floor(n))).padStart(2, '0'); }
 function fmt(sec) { return `${pad2(sec / 60)}:${pad2(sec % 60)}`; }
 
-function lerpColor([ar,ag,ab],[br,bg,bb], t) {
-  return [ar+(br-ar)*t, ag+(bg-ag)*t, ab+(bb-ab)*t].map(Math.round);
-}
-function toHex([r,g,b]) {
-  return '#' + [r,g,b].map(v => v.toString(16).padStart(2,'0')).join('');
-}
-function liquidColor(pct) {
-  const navy    = [10,  22,  40 ];
-  const indigo  = [79,  70,  229];
-  const crimson = [220, 38,  38 ];
-  const amber   = [245, 158, 11 ];
-  if (pct <= 50) return toHex(lerpColor(navy,    indigo,  pct / 50));
-  if (pct <= 80) return toHex(lerpColor(indigo,  crimson, (pct-50)/30));
-  return               toHex(lerpColor(crimson, amber,   (pct-80)/20));
+/* ── serpentine tube helpers ──────────────────────── */
+function computeNumRows(seconds) {
+  if (seconds <=   30) return 3;
+  if (seconds <=  120) return 4;
+  if (seconds <=  300) return 5;
+  if (seconds <=  600) return 6;
+  if (seconds <= 1200) return 7;
+  if (seconds <= 1800) return 8;
+  if (seconds <= 2700) return 9;
+  return 10;
 }
 
-/* wave path: two sine periods wide (2×CW) so CSS translate of one period loops */
-function wavePath(midY, svgH) {
-  const W = CW * 2, A = 6;
-  return [
-    `M 0,${midY}`,
-    `Q ${W*.125},${midY-A} ${W*.25},${midY}`,
-    `Q ${W*.375},${midY+A} ${W*.5},${midY}`,
-    `Q ${W*.625},${midY-A} ${W*.75},${midY}`,
-    `Q ${W*.875},${midY+A} ${W},${midY}`,
-    `L ${W},${svgH} L 0,${svgH} Z`,
-  ].join(' ');
+function buildTubePath(numRows) {
+  const r           = (TUBE_H - 2 * TUBE_PAD) / (2 * numRows);
+  const rowSpacing  = 2 * r;
+  const hLeft       = 2 * r;                  // horiz segment left x
+  const hRight      = TUBE_W - 2 * r;         // horiz segment right x
+  const cy = i => TUBE_PAD + r + i * rowSpacing;
+
+  let d = `M ${hLeft},${cy(0)}`;
+  for (let i = 0; i < numRows; i++) {
+    if (i % 2 === 0) {
+      d += ` L ${hRight},${cy(i)}`;
+      if (i < numRows - 1)
+        d += ` A ${r} ${r} 0 0 1 ${hRight} ${cy(i + 1)}`;
+    } else {
+      d += ` L ${hLeft},${cy(i)}`;
+      if (i < numRows - 1)
+        d += ` A ${r} ${r} 0 0 0 ${hLeft} ${cy(i + 1)}`;
+    }
+  }
+
+  const horizLen   = hRight - hLeft;
+  const totalLen   = numRows * horizLen + (numRows - 1) * Math.PI * r;
+  const tubeThick  = rowSpacing - TUBE_GAP;
+  return { d, totalLen, tubeThick, r };
 }
 
 function playAlarm() {
@@ -157,88 +140,65 @@ function playAlarm() {
   } catch (_) {}
 }
 
-/* ─── LiquidChamber ────────────────────────────────────── */
-function LiquidChamber({ pct }) {
-  const col  = liquidColor(pct);
-  const col2 = liquidColor(Math.min(pct + 15, 100));
+/* ─── SerpentineTube ───────────────────────────────────── */
+function SerpentineTube({ pct, totalSeconds }) {
+  const numRows = useMemo(() => computeNumRows(totalSeconds), [totalSeconds]);
+  const { d, totalLen, tubeThick } = useMemo(() => buildTubePath(numRows), [numRows]);
+
+  const dashOffset = totalLen * (1 - pct / 100);
+  const hasLava    = pct > 0.05;
+  const glowSize   = Math.min(12, tubeThick * 0.18);
 
   return (
     <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:10 }}>
+      <svg
+        width={TUBE_W} height={TUBE_H}
+        style={{ overflow:'visible', filter: hasLava ? `drop-shadow(0 0 ${glowSize}px #FF7700)` : 'none' }}
+      >
+        <defs>
+          <linearGradient id="lavaGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%"   stopColor="#FF4400"/>
+            <stop offset="50%"  stopColor="#FF8C00"/>
+            <stop offset="100%" stopColor="#FFD700"/>
+          </linearGradient>
+        </defs>
 
-      {/* outer shell + liquid fill */}
-      <div style={{ position:'relative' }}>
-        <div style={{
-          width: CW, height: CH,
-          borderRadius: 56,
-          background: '#080815',
-          border: '2px solid #1e1e40',
-          overflow: 'hidden',
-          position: 'relative',
-          boxShadow: '0 0 32px rgba(79,70,229,0.16), inset 0 0 22px rgba(0,0,0,0.65)',
-        }}>
+        {/* dark tube border */}
+        <path d={d} fill="none" stroke="#080812"
+          strokeWidth={tubeThick + 7} strokeLinecap="round"/>
 
-          {/* liquid fill — grows from bottom */}
-          <div style={{
-            position:'absolute', bottom:0, left:0, right:0,
-            height: `${pct}%`,
-            background: `linear-gradient(to top, ${col}, ${col2})`,
-            transition: 'height 0.4s ease',
-            overflow: 'hidden',
-          }}>
+        {/* empty tube interior */}
+        <path d={d} fill="none" stroke="#0f0f1e"
+          strokeWidth={tubeThick} strokeLinecap="round"/>
 
-            {/* bubbles */}
-            {pct > 5 && BUBBLES.map(b => (
-              <div key={b.id} style={{
-                position:'absolute',
-                bottom: b.size,
-                left: `${b.x}%`,
-                width: b.size, height: b.size,
-                borderRadius: '50%',
-                background: 'rgba(255,255,255,0.20)',
-                border: '1px solid rgba(255,255,255,0.36)',
-                animation: `bubble-up ${b.dur}s ease-in ${b.delay}s infinite`,
-              }}/>
-            ))}
+        {/* glass highlight line (top quarter) */}
+        <path d={d} fill="none" stroke="rgba(255,255,255,0.055)"
+          strokeWidth={tubeThick * 0.22} strokeLinecap="round"/>
 
-            {/* two sine wave layers at the liquid surface
-                SVG is 2×CW wide; CSS translateX(-CW) creates a seamless loop.
-                Positioned slightly above the fill-div top so peaks protrude into empty space. */}
-            <svg
-              width={CW * 2} height={24}
-              style={{ position:'absolute', top:-9, left:0 }}
-              overflow="visible"
-            >
-              {/* wave 1 — moves forward */}
-              <g className="w-fwd">
-                <path d={wavePath(12, 24)} fill={`${col}e0`} />
-              </g>
-              {/* wave 2 — moves backward, different phase & alpha */}
-              <g className="w-bwd">
-                <path d={wavePath(10, 24)} fill={`${col}80`} />
-              </g>
-            </svg>
-          </div>
+        {/* lava — outer glow layer */}
+        {hasLava && (
+          <path d={d} fill="none" stroke="#FF5500"
+            strokeWidth={tubeThick - 3} strokeLinecap="round"
+            strokeDasharray={totalLen} strokeDashoffset={dashOffset}
+            opacity={0.55}/>
+        )}
 
-          {/* glass shine overlay */}
-          <div style={{
-            position:'absolute', inset:0, pointerEvents:'none', borderRadius:'inherit',
-            background:'linear-gradient(140deg, rgba(255,255,255,0.07) 0%, transparent 55%)',
-          }}/>
-        </div>
+        {/* lava — main fill */}
+        {hasLava && (
+          <path d={d} fill="none" stroke="url(#lavaGrad)"
+            strokeWidth={tubeThick - 6} strokeLinecap="round"
+            strokeDasharray={totalLen} strokeDashoffset={dashOffset}/>
+        )}
 
-        {/* tick marks on the right edge */}
-        {[20,40,60,80].map(t => {
-          const top = CH * (1 - t/100) - 1;
-          return (
-            <div key={t} style={{ position:'absolute', right:-32, top, display:'flex', alignItems:'center', gap:3 }}>
-              <div style={{ width:11, height:2, background:'#22224a', borderRadius:1 }}/>
-              <span style={{ fontSize:8, color:'#33335a', letterSpacing:0.3 }}>{t}%</span>
-            </div>
-          );
-        })}
-      </div>
+        {/* lava — bright yellow core */}
+        {hasLava && (
+          <path d={d} fill="none" stroke="#FFE566"
+            strokeWidth={Math.max(2, tubeThick * 0.25)} strokeLinecap="round"
+            strokeDasharray={totalLen} strokeDashoffset={dashOffset}
+            opacity={0.8}/>
+        )}
+      </svg>
 
-      {/* percent label */}
       <div style={{ fontSize:12, color:'#3a3a5a', letterSpacing:1, fontVariantNumeric:'tabular-nums' }}>
         {Math.round(pct)}% elapsed
       </div>
@@ -294,7 +254,11 @@ function TimerScreen({ preset, onBack }) {
     setRemMs(total); pauseRef.current = total;
   };
 
-  useEffect(() => () => stopInterval(), []);
+  // auto-start on mount
+  useEffect(() => {
+    startTimer();
+    return () => stopInterval();
+  }, []);
 
   const remColor = done    ? '#22c55e'
                  : urgent  ? '#f59e0b'
@@ -365,8 +329,8 @@ function TimerScreen({ preset, onBack }) {
           </div>
         </div>
 
-        {/* ── center: liquid chamber ── */}
-        <LiquidChamber pct={Math.min(pct, 100)} />
+        {/* ── center: serpentine tube ── */}
+        <SerpentineTube pct={Math.min(pct, 100)} totalSeconds={preset.seconds} />
 
         {/* ── right column: controls ── */}
         <div style={{ display:'flex', flexDirection:'column', gap:14, minWidth:130 }}>
