@@ -75,16 +75,17 @@ const PRESETS = [
   { key:'60m',  label:'60m',  seconds:3600 },
 ];
 
-const TUBE_W   = 300;  // serpentine panel width
-const TUBE_H   = 600;  // serpentine panel height — tall enough for constant speed up to 45m
-const TUBE_PAD = 6;    // top/bottom padding
-const TUBE_GAP = 2;    // visual gap between adjacent tube rows
-
-// Min rows: first N where horizontal segment > 0  (N > 2*(H-2P)/W)
-// Max rows: min tube thickness 1 px  (2r - GAP >= 1  →  r >= 1.5  →  N <= (H-2P)/3)
-const LAVA_SPEED = 20;
-const MIN_ROWS   = Math.ceil(2 * (TUBE_H - 2 * TUBE_PAD) / TUBE_W);  // = 4
-const MAX_ROWS   = Math.floor((TUBE_H - 2 * TUBE_PAD) / 3);           // = 196
+// Dynamic height — scales with viewport so 40 px/s is achievable for all durations.
+// On a 900 px screen: TUBE_H≈738, MAX_ROWS≈484 → 60 m timer at ~40 px/s.
+const TUBE_H    = Math.max(400, Math.min(Math.floor(window.innerHeight * 0.82), 1200));
+const TUBE_W    = 300;
+const TUBE_PAD  = 6;
+const TUBE_GAP  = 1;    // 1 px gap keeps rows thin and tightly packed
+const LAVA_SPEED = 40;  // px/s — constant regardless of duration
+// MIN_ROWS: smallest N where the horizontal segment is positive  (N > 2(H-2P)/W)
+const MIN_ROWS  = Math.ceil(2 * (TUBE_H - 2 * TUBE_PAD) / TUBE_W);
+// MAX_ROWS: min tube thickness 0.5 px  (2r - GAP ≥ 0.5  →  r ≥ 0.75  →  N ≤ (H-2P)/1.5)
+const MAX_ROWS  = Math.floor((TUBE_H - 2 * TUBE_PAD) / 1.5);
 
 /* ─── helpers ──────────────────────────────────────────── */
 function pad2(n) { return String(Math.max(0, Math.floor(n))).padStart(2, '0'); }
@@ -295,8 +296,8 @@ function TimerScreen({ preset, onBack }) {
 
       {/* three-column layout */}
       <div style={{
-        flex:1, display:'flex', alignItems:'center',
-        justifyContent:'center', gap:36, padding:'12px 0',
+        flex:1, display:'flex', alignItems:'flex-start',
+        justifyContent:'center', gap:36, paddingTop:16,
       }}>
 
         {/* ── left column: elapsed / remaining ── */}
