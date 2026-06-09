@@ -75,24 +75,22 @@ const PRESETS = [
   { key:'60m',  label:'60m',  seconds:3600 },
 ];
 
-const TUBE_W = 280;  // serpentine panel width
-const TUBE_H = 340;  // serpentine panel height
-const TUBE_PAD = 8;  // top/bottom padding inside panel
-const TUBE_GAP = 3;  // visual gap between adjacent tube rows
+const TUBE_W   = 300;  // serpentine panel width
+const TUBE_H   = 600;  // serpentine panel height — tall enough for constant speed up to 45m
+const TUBE_PAD = 6;    // top/bottom padding
+const TUBE_GAP = 2;    // visual gap between adjacent tube rows
+
+// Min rows: first N where horizontal segment > 0  (N > 2*(H-2P)/W)
+// Max rows: min tube thickness 1 px  (2r - GAP >= 1  →  r >= 1.5  →  N <= (H-2P)/3)
+const LAVA_SPEED = 20;
+const MIN_ROWS   = Math.ceil(2 * (TUBE_H - 2 * TUBE_PAD) / TUBE_W);  // = 4
+const MAX_ROWS   = Math.floor((TUBE_H - 2 * TUBE_PAD) / 3);           // = 196
 
 /* ─── helpers ──────────────────────────────────────────── */
 function pad2(n) { return String(Math.max(0, Math.floor(n))).padStart(2, '0'); }
 function fmt(sec) { return `${pad2(sec / 60)}:${pad2(sec % 60)}`; }
 
 /* ── serpentine tube helpers ──────────────────────── */
-// Target lava speed in px/s. numRows is computed so that
-// totalPathLength / totalSeconds ≈ LAVA_SPEED.
-// Short timers use MIN_ROWS (minimum 3 rows keeps the tube visible)
-// and run faster; very long timers hit MAX_ROWS and slow slightly.
-const LAVA_SPEED = 20; // px/s
-const MIN_ROWS   = 3;
-const MAX_ROWS   = 30;
-
 function computeNumRows(seconds) {
   const target = LAVA_SPEED * seconds;
   for (let N = MIN_ROWS; N <= MAX_ROWS; N++) {
