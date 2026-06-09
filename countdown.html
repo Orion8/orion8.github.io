@@ -89,7 +89,7 @@ function fmt(sec) { return `${pad2(sec / 60)}:${pad2(sec % 60)}`; }
 // totalPathLength / totalSeconds ≈ LAVA_SPEED.
 // Short timers use MIN_ROWS (minimum 3 rows keeps the tube visible)
 // and run faster; very long timers hit MAX_ROWS and slow slightly.
-const LAVA_SPEED = 6; // px/s
+const LAVA_SPEED = 20; // px/s
 const MIN_ROWS   = 3;
 const MAX_ROWS   = 30;
 
