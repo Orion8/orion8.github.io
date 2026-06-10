@@ -75,59 +75,88 @@ const PRESETS = [
   { key:'60m',  label:'60m',  seconds:3600 },
 ];
 
-// Dynamic height — scales with viewport so 40 px/s is achievable for all durations.
-// On a 900 px screen: TUBE_H≈738, MAX_ROWS≈484 → 60 m timer at ~40 px/s.
 const TUBE_H    = Math.max(400, Math.min(Math.floor(window.innerHeight * 0.82), 1200));
 const TUBE_W    = 300;
-const TUBE_PAD  = 6;
-const TUBE_GAP  = 1;    // 1 px gap keeps rows thin and tightly packed
+const TUBE_PAD  = 8;
+const TUBE_GAP  = 2;
 const LAVA_SPEED = 40;  // px/s — constant regardless of duration
-// MIN_ROWS: smallest N where the horizontal segment is positive  (N > 2(H-2P)/W)
-const MIN_ROWS  = Math.ceil(2 * (TUBE_H - 2 * TUBE_PAD) / TUBE_W);
-// MAX_ROWS: min tube thickness 0.5 px  (2r - GAP ≥ 0.5  →  r ≥ 0.75  →  N ≤ (H-2P)/1.5)
-const MAX_ROWS  = Math.floor((TUBE_H - 2 * TUBE_PAD) / 1.5);
 
 /* ─── helpers ──────────────────────────────────────────── */
 function pad2(n) { return String(Math.max(0, Math.floor(n))).padStart(2, '0'); }
 function fmt(sec) { return `${pad2(sec / 60)}:${pad2(sec % 60)}`; }
 
-/* ── serpentine tube helpers ──────────────────────── */
-function computeNumRows(seconds) {
+/* ── square spiral helpers ──────────────────────────────── */
+// Ring i centerline: x0=PAD+i·s, x1=W-PAD-i·s, y0=PAD+i·s, y1=H-PAD-i·s
+// Corner radius r = s/2.  Per-ring path length = 2·wi + 2·hi − 8r + 2πr
+// (wi=W−2·PAD−2·i·s, hi=H−2·PAD−2·i·s) — identical for last ring and inner rings.
+function computeSpiralParams(seconds) {
   const target = LAVA_SPEED * seconds;
-  for (let N = MIN_ROWS; N <= MAX_ROWS; N++) {
-    const r        = (TUBE_H - 2 * TUBE_PAD) / (2 * N);
-    const horizLen = TUBE_W - 4 * r;
-    if (horizLen <= 0) continue;
-    const len = N * horizLen + (N - 1) * Math.PI * r;
-    if (len >= target) return N;
-  }
-  return MAX_ROWS;
-}
+  const UW = TUBE_W - 2 * TUBE_PAD;  // usable width
+  const UH = TUBE_H - 2 * TUBE_PAD;  // usable height
 
-function buildTubePath(numRows) {
-  const r           = (TUBE_H - 2 * TUBE_PAD) / (2 * numRows);
-  const rowSpacing  = 2 * r;
-  const hLeft       = 2 * r;                  // horiz segment left x
-  const hRight      = TUBE_W - 2 * r;         // horiz segment right x
-  const cy = i => TUBE_PAD + r + i * rowSpacing;
-
-  let d = `M ${hLeft},${cy(0)}`;
-  for (let i = 0; i < numRows; i++) {
-    if (i % 2 === 0) {
-      d += ` L ${hRight},${cy(i)}`;
-      if (i < numRows - 1)
-        d += ` A ${r} ${r} 0 0 1 ${hRight} ${cy(i + 1)}`;
-    } else {
-      d += ` L ${hLeft},${cy(i)}`;
-      if (i < numRows - 1)
-        d += ` A ${r} ${r} 0 0 0 ${hLeft} ${cy(i + 1)}`;
+  for (let s = 24; s >= 2; s--) {
+    const r    = s / 2;
+    const maxN = Math.min(
+      Math.floor((UW - 2 * r) / (2 * s)),
+      Math.floor((UH - 2 * r) / (2 * s))
+    );
+    if (maxN < 1) continue;
+    let len = 0;
+    for (let N = 1; N <= maxN; N++) {
+      const wi = UW - 2 * (N - 1) * s;
+      const hi = UH - 2 * (N - 1) * s;
+      len += 2 * wi + 2 * hi - 8 * r + 2 * Math.PI * r;
+      if (len >= target) return { N, s, r };
     }
   }
+  // Fallback: finest spacing, max rings
+  const s = 2, r = 1;
+  const maxN = Math.min(
+    Math.floor((UW - 2 * r) / (2 * s)),
+    Math.floor((UH - 2 * r) / (2 * s))
+  );
+  return { N: Math.max(1, maxN), s, r };
+}
 
-  const horizLen   = hRight - hLeft;
-  const totalLen   = numRows * horizLen + (numRows - 1) * Math.PI * r;
-  const tubeThick  = rowSpacing - TUBE_GAP;
-  return { d, totalLen, tubeThick, r };
+function buildSpiralPath({ N, s, r }) {
+  let d = '', totalLen = 0;
+  for (let i = 0; i < N; i++) {
+    const x0 = TUBE_PAD + i * s;            // left x
+    const y0 = TUBE_PAD + i * s;            // top y
+    const x1 = TUBE_W - TUBE_PAD - i * s;   // right x
+    const y1 = TUBE_H - TUBE_PAD - i * s;   // bottom y
+    const isLast = i === N - 1;
+
+    if (i === 0) d += `M ${x0 + r} ${y0}`;
+
+    // Top →
+    d += ` L ${x1 - r} ${y0}`;          totalLen += x1 - x0 - 2 * r;
+    // TR arc ↓ (CW sweep=1)
+    d += ` A ${r} ${r} 0 0 1 ${x1} ${y0 + r}`;  totalLen += Math.PI * r / 2;
+    // Right ↓
+    d += ` L ${x1} ${y1 - r}`;          totalLen += y1 - y0 - 2 * r;
+    // BR arc ← (CW)
+    d += ` A ${r} ${r} 0 0 1 ${x1 - r} ${y1}`;  totalLen += Math.PI * r / 2;
+    // Bottom ←
+    d += ` L ${x0 + r} ${y1}`;          totalLen += x1 - x0 - 2 * r;
+    // BL arc ↑ (CW)
+    d += ` A ${r} ${r} 0 0 1 ${x0} ${y1 - r}`;  totalLen += Math.PI * r / 2;
+
+    if (isLast) {
+      // Left ↑ full + TL arc → (closes innermost ring)
+      d += ` L ${x0} ${y0 + r}`;        totalLen += y1 - y0 - 2 * r;
+      d += ` A ${r} ${r} 0 0 1 ${x0 + r} ${y0}`;  totalLen += Math.PI * r / 2;
+    } else {
+      // Left ↑ short (stop r above ring i+1's top, leaving room for transition)
+      d += ` L ${x0} ${y0 + s + r}`;    totalLen += y1 - y0 - 2 * r - s;
+      // Transition arc ↑→ (CW: going up → going right)
+      d += ` A ${r} ${r} 0 0 1 ${x0 + r} ${y0 + s}`;  totalLen += Math.PI * r / 2;
+      // Transition straight → to ring i+1's top-left corner end
+      d += ` L ${x0 + s + r} ${y0 + s}`;              totalLen += s;
+    }
+  }
+  const tubeThick = Math.max(1, s - TUBE_GAP);
+  return { d, totalLen, tubeThick };
 }
 
 function playAlarm() {
@@ -152,8 +181,10 @@ function playAlarm() {
 // timerStateRef.current = { running, startedAt, pausedRemaining }
 // rAF loop reads it directly so animation runs at 60fps, independent of React renders
 function SerpentineTube({ totalSeconds, timerStateRef, displayPct }) {
-  const numRows = useMemo(() => computeNumRows(totalSeconds), [totalSeconds]);
-  const { d, totalLen, tubeThick } = useMemo(() => buildTubePath(numRows), [numRows]);
+  const { d, totalLen, tubeThick } = useMemo(() => {
+    const params = computeSpiralParams(totalSeconds);
+    return buildSpiralPath(params);
+  }, [totalSeconds]);
 
   const svgRef   = useRef(null);
   const rafRef   = useRef(null);
