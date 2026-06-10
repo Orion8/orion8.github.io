@@ -149,20 +149,45 @@ function playAlarm() {
 }
 
 /* ─── SerpentineTube ───────────────────────────────────── */
-function SerpentineTube({ pct, totalSeconds }) {
+// timerStateRef.current = { running, startedAt, pausedRemaining }
+// rAF loop reads it directly so animation runs at 60fps, independent of React renders
+function SerpentineTube({ totalSeconds, timerStateRef, displayPct }) {
   const numRows = useMemo(() => computeNumRows(totalSeconds), [totalSeconds]);
   const { d, totalLen, tubeThick } = useMemo(() => buildTubePath(numRows), [numRows]);
 
-  const dashOffset = totalLen * (1 - pct / 100);
-  const hasLava    = pct > 0.05;
-  const glowSize   = Math.min(12, tubeThick * 0.18);
+  const svgRef   = useRef(null);
+  const rafRef   = useRef(null);
+  const total    = totalSeconds * 1000;
+  const glowSize = Math.min(12, tubeThick * 0.18);
+
+  useEffect(() => {
+    function frame() {
+      const s = timerStateRef.current;
+      let remMs = (s.running && s.startedAt !== null)
+        ? s.pausedRemaining - (Date.now() - s.startedAt)
+        : s.pausedRemaining;
+      remMs = Math.max(0, Math.min(remMs, total));
+
+      const pct     = (total - remMs) / total;
+      const offset  = totalLen * (1 - pct);
+      const hasLava = pct > 0.0005;
+
+      const svg = svgRef.current;
+      if (svg) {
+        svg.querySelectorAll('.lava-path').forEach(el =>
+          el.setAttribute('stroke-dashoffset', offset)
+        );
+        svg.style.filter = hasLava ? `drop-shadow(0 0 ${glowSize}px #FF7700)` : 'none';
+      }
+      rafRef.current = requestAnimationFrame(frame);
+    }
+    rafRef.current = requestAnimationFrame(frame);
+    return () => cancelAnimationFrame(rafRef.current);
+  }, [total, totalLen, glowSize, timerStateRef]);
 
   return (
     <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:10 }}>
-      <svg
-        width={TUBE_W} height={TUBE_H}
-        style={{ overflow:'visible', filter: hasLava ? `drop-shadow(0 0 ${glowSize}px #FF7700)` : 'none' }}
-      >
+      <svg ref={svgRef} width={TUBE_W} height={TUBE_H} style={{ overflow:'visible' }}>
         <defs>
           <linearGradient id="lavaGrad" x1="0" y1="0" x2="1" y2="0">
             <stop offset="0%"   stopColor="#FF4400"/>
@@ -179,36 +204,30 @@ function SerpentineTube({ pct, totalSeconds }) {
         <path d={d} fill="none" stroke="#0f0f1e"
           strokeWidth={tubeThick} strokeLinecap="round"/>
 
-        {/* glass highlight line (top quarter) */}
+        {/* glass highlight line */}
         <path d={d} fill="none" stroke="rgba(255,255,255,0.055)"
           strokeWidth={tubeThick * 0.22} strokeLinecap="round"/>
 
-        {/* lava — outer glow layer */}
-        {hasLava && (
-          <path d={d} fill="none" stroke="#FF5500"
-            strokeWidth={tubeThick * 0.82} strokeLinecap="round"
-            strokeDasharray={totalLen} strokeDashoffset={dashOffset}
-            opacity={0.55}/>
-        )}
+        {/* lava — outer glow (rAF updates stroke-dashoffset directly on DOM) */}
+        <path className="lava-path" d={d} fill="none" stroke="#FF5500"
+          strokeWidth={tubeThick * 0.82} strokeLinecap="round"
+          strokeDasharray={totalLen} strokeDashoffset={totalLen}
+          opacity={0.55}/>
 
         {/* lava — main fill */}
-        {hasLava && (
-          <path d={d} fill="none" stroke="url(#lavaGrad)"
-            strokeWidth={tubeThick * 0.65} strokeLinecap="round"
-            strokeDasharray={totalLen} strokeDashoffset={dashOffset}/>
-        )}
+        <path className="lava-path" d={d} fill="none" stroke="url(#lavaGrad)"
+          strokeWidth={tubeThick * 0.65} strokeLinecap="round"
+          strokeDasharray={totalLen} strokeDashoffset={totalLen}/>
 
         {/* lava — bright yellow core */}
-        {hasLava && (
-          <path d={d} fill="none" stroke="#FFE566"
-            strokeWidth={Math.max(1.5, tubeThick * 0.25)} strokeLinecap="round"
-            strokeDasharray={totalLen} strokeDashoffset={dashOffset}
-            opacity={0.85}/>
-        )}
+        <path className="lava-path" d={d} fill="none" stroke="#FFE566"
+          strokeWidth={Math.max(1.5, tubeThick * 0.25)} strokeLinecap="round"
+          strokeDasharray={totalLen} strokeDashoffset={totalLen}
+          opacity={0.85}/>
       </svg>
 
       <div style={{ fontSize:12, color:'#3a3a5a', letterSpacing:1, fontVariantNumeric:'tabular-nums' }}>
-        {Math.round(pct)}% elapsed
+        {Math.round(displayPct)}% elapsed
       </div>
     </div>
   );
@@ -222,9 +241,9 @@ function TimerScreen({ preset, onBack }) {
   const [running, setRunning] = useState(false);
   const [done,    setDone]    = useState(false);
 
-  const ivRef    = useRef(null);
-  const t0Ref    = useRef(null);
-  const pauseRef = useRef(total);   // ms remaining at last pause
+  const ivRef = useRef(null);
+  // single source of truth for the rAF loop in SerpentineTube
+  const timerStateRef = useRef({ running: false, startedAt: null, pausedRemaining: total });
 
   const elapsed = total - remMs;
   const pct     = (elapsed / total) * 100;
@@ -236,30 +255,36 @@ function TimerScreen({ preset, onBack }) {
   const stopInterval = () => { clearInterval(ivRef.current); ivRef.current = null; };
 
   const startTimer = () => {
-    t0Ref.current = Date.now();
+    const now = Date.now();
+    timerStateRef.current = { running: true, startedAt: now, pausedRemaining: timerStateRef.current.pausedRemaining };
     setRunning(true);
     ivRef.current = setInterval(() => {
-      const went = Date.now() - t0Ref.current;
-      const rem  = pauseRef.current - went;
+      const s   = timerStateRef.current;
+      const rem = s.pausedRemaining - (Date.now() - s.startedAt);
       if (rem <= 0) {
+        timerStateRef.current = { running: false, startedAt: null, pausedRemaining: 0 };
         setRemMs(0); setRunning(false); setDone(true);
         stopInterval(); playAlarm();
       } else {
         setRemMs(rem);
       }
-    }, 50);
+    }, 100);
   };
 
   const pause = () => {
+    const s   = timerStateRef.current;
+    const rem = s.running ? s.pausedRemaining - (Date.now() - s.startedAt) : s.pausedRemaining;
+    timerStateRef.current = { running: false, startedAt: null, pausedRemaining: rem };
     stopInterval();
-    pauseRef.current = remMs;
+    setRemMs(rem);
     setRunning(false);
   };
 
   const reset = () => {
+    timerStateRef.current = { running: false, startedAt: null, pausedRemaining: total };
     stopInterval();
     setRunning(false); setDone(false);
-    setRemMs(total); pauseRef.current = total;
+    setRemMs(total);
   };
 
   // auto-start on mount
@@ -338,7 +363,7 @@ function TimerScreen({ preset, onBack }) {
         </div>
 
         {/* ── center: serpentine tube ── */}
-        <SerpentineTube pct={Math.min(pct, 100)} totalSeconds={preset.seconds} />
+        <SerpentineTube totalSeconds={preset.seconds} timerStateRef={timerStateRef} displayPct={Math.min(pct, 100)} />
 
         {/* ── right column: controls ── */}
         <div style={{ display:'flex', flexDirection:'column', gap:14, minWidth:130 }}>
