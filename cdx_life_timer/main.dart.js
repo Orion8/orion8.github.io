@@ -41193,7 +41193,7 @@ n=g.f
 m=B.c.a7(n.e,1)
 l=A.J(a).ok.y
 l=l==null?f:l.nL(B.k,B.bu)
-l=A.by("Target age "+m,f,f,f,l,f,f,f)
+l=A.by("Estimate age "+m,f,f,f,l,f,f,f)
 n=n.d
 m=B.kt[A.bh(n)-1]
 k=A.J(a).ok.z
@@ -41207,7 +41207,7 @@ i=A.J(a).ok.ax
 i=i==null?f:i.nL(B.cb,B.bu)
 i=A.by("Wish "+d,f,f,f,i,f,f,f)
 d=A.J(a).ok.as
-d=A.eE(A.dV(A.c([i,B.z1,A.by("Total seconds remaining",f,f,f,d==null?f:d.nL(B.cb,B.ko),f,f,f)],p),B.an,B.a2,B.V),1)
+d=A.eE(A.dV(A.c([i,B.z1,A.by("Estimate seconds remaining",f,f,f,d==null?f:d.nL(B.cb,B.ko),f,f,f)],p),B.an,B.a2,B.V),1)
 c=g.NG(c)
 i=A.J(a).ok.w
 if(i==null)i=f
