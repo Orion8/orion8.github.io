@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "2026.07.02-prototype",
+  "sources": {
+    "whoPhysicalActivity": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "cdcSleep": "https://www.cdc.gov/sleep/about/index.html",
+    "cdcAlcohol": "https://www.cdc.gov/alcohol/about-alcohol-use/index.html",
+    "cdcTobacco": "https://www.cdc.gov/tobacco/about/index.html"
+  },
+  "baselineHealthyAge": 84.0,
+  "sleep": {
+    "idealHours": 8.0,
+    "maxDistanceHours": 4.0
+  },
+  "activity": {
+    "recommendedMinutesPerWeek": 150.0,
+    "daysPerWeek": 7.0
+  },
+  "substances": {
+    "alcoholPenaltyPerDrink": 8,
+    "heavyAlcoholDayThreshold": 3,
+    "heavyAlcoholPenaltyYears": -1.5,
+    "nicotineDailyScorePenalty": 35,
+    "nicotinePenaltyYears": -4.0
+  },
+  "hydration": {
+    "idealCups": 8.0
+  },
+  "habitModifier": {
+    "maxPositiveYears": 8.0,
+    "maxNegativeYears": -10.0
+  },
+  "scoreWeights": {
+    "physical": 0.55,
+    "mental": 0.45
+  },
+  "physicalWeights": {
+    "sleep": 0.24,
+    "activity": 0.28,
+    "diet": 0.24,
+    "hydration": 0.12,
+    "substance": 0.12
+  },
+  "mentalWeights": {
+    "stress": 0.35,
+    "mood": 0.30,
+    "sleepQuality": 0.20,
+    "connection": 0.15
+  }
+}
