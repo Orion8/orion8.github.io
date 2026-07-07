@@ -40495,7 +40495,7 @@ $1(a){var s=null,r=B.nj[a],q=this.a,p=q.f.a,o=a<q.d,n=o?B.bi:B.Bt,m=A.Vl(o?B.bi:
 return A.Iw(s,A.apK(s,new A.dF(n,s,m,B.U,o?A.d([new A.cL(0.3,B.aN,B.bu.di(0.78),B.i,p*0.75),new A.cL(0.7,B.aN,B.bu.di(0.38),B.i,p*1.7)],t.sq):s,s,B.aU),B.D8,p,new A.cy("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:332}
 A.M0.prototype={
-O(a){var s="2026.07.06.18.05.36",r=null
+O(a){var s="2026.07.06.18.26.32",r=null
 return A.cG(r,A.eo(s,B.Uy,r,r,r,B.Pt,B.c0,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.Mu.prototype={
 O(a){var s=null,r=this.c
@@ -40545,7 +40545,7 @@ h=A.au3(a1*1.15)
 J.aq(a5.save())
 a5.translate(a9,b1)
 b6.pA(m)
-b6.ar(0.96)
+b6.ar(1.18)
 A.av0(b6,h,!0)
 a5.restore()}else{g=B.c.bH(Math.sin(3.141592653589793*a1),0,1)
 f=B.c.bH((a1-0.84)/0.16,0,1)
@@ -40664,7 +40664,7 @@ m=a4.tV(B.c.bH(a6,1,a5))
 a7=m.a
 if(a2.r===B.hK){a9=m.b
 l=Math.atan2(a9.b,a9.a)
-k=B.c.bH(b0/15,0.68,1.18)
+k=B.c.bH(b0/15*1.28,0.92,1.48)
 j=A.au3(a2.c*0.42)
 a9=b2.a
 J.aq(a9.save())
