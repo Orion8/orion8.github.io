@@ -40314,7 +40314,7 @@ if(s==null)return null
 r=s.pV(B.c.bt(s.gE(s)*B.c.bt(b,0,1),1,s.gE(s)))
 q=r.b
 p=q.a
-return new A.Pg(r.a,p>=0,B.c.bt(Math.atan2(q.b,Math.max(Math.abs(p),1)),-0.18,0.18),Math.max(a.d*2.1,30))},
+return new A.Pg(r.a,p>=0,B.c.bt(Math.atan2(q.b,Math.max(Math.abs(p),1)),-0.18,0.18),Math.max(a.d*4.2,60))},
 a2c(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this
 if(e.a.d!==B.dB||e.z==null)return null
 s=e.f
@@ -40341,7 +40341,7 @@ f=q.T(0,Math.pow(g,3)).P(0,i.T(0,3).T(0,Math.pow(g,2)).T(0,h)).P(0,s.T(0,3).T(0,
 p=A.aGv(new A.Ne(q,i,s,p),h)
 if(!(o<1))return null
 s=p.a
-return new A.Pg(f,s>=0,B.c.bt(Math.atan2(p.b,Math.max(Math.abs(s),1)),-0.42,0.42),Math.max(r*2.3,34))},
+return new A.Pg(f,s>=0,B.c.bt(Math.atan2(p.b,Math.max(Math.abs(s),1)),-0.42,0.42),Math.max(r*4.6,68))},
 Ju(a,b){var s,r,q,p=this,o=null,n=p.aca(a,b),m=p.e
 m===$&&A.a()
 m=m.x
@@ -40476,7 +40476,7 @@ $1(a){var s=null,r=B.nn[a],q=this.a,p=q.f.a,o=a<q.d,n=o?B.bu:B.BC,m=A.Vq(o?B.bu:
 return A.r_(s,A.apT(s,new A.dF(n,s,m,B.U,o?A.d([new A.cM(0.3,B.aU,B.bN.dZ(0.78),B.i,p*0.75),new A.cM(0.7,B.aU,B.bN.dZ(0.38),B.i,p*1.7)],t.sq):s,s,B.aV),B.Df,p,new A.cp("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:332}
 A.M1.prototype={
-O(a){var s="2026.07.07.09.01.45",r=null
+O(a){var s="2026.07.07.09.22.51",r=null
 return A.cH(r,A.ep(s,B.UO,r,r,r,B.PI,B.c_,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.Mv.prototype={
 O(a){var s=null,r=this.c
