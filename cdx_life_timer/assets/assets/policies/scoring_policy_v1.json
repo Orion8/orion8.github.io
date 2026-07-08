@@ -46,5 +46,125 @@
     "mood": 0.30,
     "sleepQuality": 0.20,
     "connection": 0.15
+  },
+  "confidence": {
+    "physicalBase": 0.18,
+    "mentalBase": 0.18,
+    "coverageMultiplier": 0.82
+  },
+  "signalGroups": {
+    "physical": [
+      "sleep.hours",
+      "sleep.quality",
+      "activity.exercise_minutes",
+      "activity.steps",
+      "activity.active_energy",
+      "nutrition.diet_quality",
+      "nutrition.water_cups",
+      "substance.alcohol_drinks",
+      "substance.smoked_today",
+      "heart.hrv",
+      "heart.resting_rate",
+      "cardio.vo2_max"
+    ],
+    "mental": [
+      "mental.stress_level",
+      "mental.mood_level",
+      "sleep.quality",
+      "mental.social_connection",
+      "heart.hrv"
+    ]
+  },
+  "signals": {
+    "sleep.hours": {
+      "scoreWeight": 1.0,
+      "confidenceWeight": 1.0,
+      "fallbackBehavior": "neutral",
+      "preferredSourceOrder": ["appleHealth", "wearable", "googleFit", "manual"]
+    },
+    "sleep.quality": {
+      "scoreWeight": 0.8,
+      "confidenceWeight": 0.8,
+      "fallbackBehavior": "neutral",
+      "preferredSourceOrder": ["appleHealth", "wearable", "manual"]
+    },
+    "activity.exercise_minutes": {
+      "scoreWeight": 1.0,
+      "confidenceWeight": 1.0,
+      "fallbackBehavior": "neutral",
+      "preferredSourceOrder": ["appleHealth", "wearable", "googleFit", "manual"]
+    },
+    "activity.steps": {
+      "scoreWeight": 0.9,
+      "confidenceWeight": 1.2,
+      "fallbackBehavior": "ignore",
+      "preferredSourceOrder": ["appleHealth", "wearable", "googleFit"]
+    },
+    "activity.active_energy": {
+      "scoreWeight": 0.9,
+      "confidenceWeight": 1.1,
+      "fallbackBehavior": "ignore",
+      "preferredSourceOrder": ["appleHealth", "wearable", "googleFit"]
+    },
+    "nutrition.diet_quality": {
+      "scoreWeight": 0.9,
+      "confidenceWeight": 0.8,
+      "fallbackBehavior": "neutral",
+      "preferredSourceOrder": ["manual"]
+    },
+    "nutrition.water_cups": {
+      "scoreWeight": 0.7,
+      "confidenceWeight": 0.7,
+      "fallbackBehavior": "neutral",
+      "preferredSourceOrder": ["appleHealth", "manual"]
+    },
+    "substance.alcohol_drinks": {
+      "scoreWeight": 0.8,
+      "confidenceWeight": 0.8,
+      "fallbackBehavior": "neutral",
+      "preferredSourceOrder": ["manual"]
+    },
+    "substance.smoked_today": {
+      "scoreWeight": 1.0,
+      "confidenceWeight": 0.9,
+      "fallbackBehavior": "neutral",
+      "preferredSourceOrder": ["manual"]
+    },
+    "mental.stress_level": {
+      "scoreWeight": 1.0,
+      "confidenceWeight": 1.0,
+      "fallbackBehavior": "neutral",
+      "preferredSourceOrder": ["manual"]
+    },
+    "mental.mood_level": {
+      "scoreWeight": 1.0,
+      "confidenceWeight": 1.0,
+      "fallbackBehavior": "neutral",
+      "preferredSourceOrder": ["manual"]
+    },
+    "mental.social_connection": {
+      "scoreWeight": 0.8,
+      "confidenceWeight": 0.7,
+      "fallbackBehavior": "neutral",
+      "preferredSourceOrder": ["manual"]
+    },
+    "heart.hrv": {
+      "scoreWeight": 0.8,
+      "confidenceWeight": 1.2,
+      "fallbackBehavior": "ignore",
+      "preferredSourceOrder": ["appleHealth", "wearable"]
+    },
+    "heart.resting_rate": {
+      "scoreWeight": 0.8,
+      "confidenceWeight": 1.1,
+      "fallbackBehavior": "ignore",
+      "preferredSourceOrder": ["appleHealth", "wearable"]
+    },
+    "cardio.vo2_max": {
+      "scoreWeight": 0.8,
+      "confidenceWeight": 1.1,
+      "fallbackBehavior": "ignore",
+      "preferredSourceOrder": ["appleHealth", "wearable"]
+    }
   }
 }
