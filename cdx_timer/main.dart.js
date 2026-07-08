@@ -40494,7 +40494,7 @@ $1(a){var s=null,r=B.nn[a],q=this.a,p=q.f.a,o=a<q.d,n=o?B.bu:B.Bx,m=A.Vs(o?B.bu:
 return A.r0(s,A.aq0(s,new A.dG(n,s,m,B.U,o?A.d([new A.cL(0.3,B.aU,B.bN.dA(0.78),B.i,p*0.75),new A.cL(0.7,B.aU,B.bN.dA(0.38),B.i,p*1.7)],t.sq):s,s,B.aV),B.D7,p,new A.co("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:330}
 A.M3.prototype={
-O(a){var s="2026.07.07.12.12.00",r=null
+O(a){var s="2026.07.08.00.00.00",r=null
 return A.cG(r,A.eq(s,B.Ur,r,r,r,B.Pl,B.c_,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.Mx.prototype={
 O(a){var s=null,r=this.c
@@ -40727,22 +40727,22 @@ $3(a,b,c){return this.$4$thickness(a,b,c,2)},
 $S:340}
 A.agd.prototype={
 $5$pose(a,b,c,d,e){var s=this.a,r=a.a,q=a.b
-s.$5(r-2,q-2,5,5,d)
-switch(e.a){case 0:s.$5(r+b,q+c-2,6,3,d)
+s.$5(r-1,q-1,4,4,d)
+switch(e.a){case 0:s.$5(r+b,q+c-1,4,2,d)
 break
-case 1:s.$5(r+b-2,q+c,3,6,d)
+case 1:s.$5(r+b-1,q+c,2,4,d)
 break
 case 2:r+=b
 q+=c
-s.$5(r,q,3,3,d)
-s.$5(r+1,q+2,3,3,d)
-s.$5(r+2,q+4,3,3,d)
+s.$5(r,q,2,2,d)
+s.$5(r+1,q+2,2,2,d)
+s.$5(r+2,q+4,2,2,d)
 break
 case 3:r+=b
 q+=c
-s.$5(r,q,3,3,d)
-s.$5(r+1,q-2,3,3,d)
-s.$5(r+2,q-4,3,3,d)
+s.$5(r,q,2,2,d)
+s.$5(r+1,q-2,2,2,d)
+s.$5(r+2,q-4,2,2,d)
 break}},
 $S:348}
 A.agj.prototype={
