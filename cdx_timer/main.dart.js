@@ -40494,7 +40494,7 @@ $1(a){var s=null,r=B.nn[a],q=this.a,p=q.f.a,o=a<q.d,n=o?B.bu:B.Bx,m=A.Vs(o?B.bu:
 return A.r0(s,A.aq0(s,new A.dG(n,s,m,B.U,o?A.d([new A.cL(0.3,B.aU,B.bN.dA(0.78),B.i,p*0.75),new A.cL(0.7,B.aU,B.bN.dA(0.38),B.i,p*1.7)],t.sq):s,s,B.aV),B.D7,p,new A.co("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:330}
 A.M3.prototype={
-O(a){var s="2026.07.07.12.08.00",r=null
+O(a){var s="2026.07.07.12.12.00",r=null
 return A.cG(r,A.eq(s,B.Ur,r,r,r,B.Pl,B.c_,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.Mx.prototype={
 O(a){var s=null,r=this.c
@@ -40644,7 +40644,7 @@ if(!this.c){r.translate(n,0)
 a.tX(-1,1)}q=new A.agk(a,n/72,s)
 for(n=this.a32(this.b),p=n.length,o=0;o<n.length;n.length===p||(0,A.v)(n),++o)q.$1(n[o])
 r.restore()},
-a32(c6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8=A.d([],t.FJ),a9=new A.agf(a8),b0=new A.age(a9),b1=new A.agd(a9),b2=new A.agj(c6),b3=new A.agh(),b4=new A.agi(),b5=new A.agg(),b6=b2.$2(0,B.Gc),b7=b2.$2(1,B.Fy),b8=b2.$2(0,B.Gu),b9=b2.$2(0,B.FT),c0=b2.$2(0,B.GA),c1=b2.$2(0,B.ny),c2=b2.$2(8,B.ny),c3=c6/32*3.141592653589793*2,c4=c3*1.65-1.0995574287564276,c5=c4+3.141592653589793
+a32(c6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8=A.d([],t.FJ),a9=new A.agf(a8),b0=new A.age(a9),b1=new A.agd(a9),b2=new A.agj(c6),b3=new A.agh(),b4=new A.agi(),b5=new A.agg(),b6=b2.$2(0,B.Gc),b7=b2.$2(1,B.Fy),b8=b2.$2(0,B.Gu),b9=b2.$2(0,B.FT),c0=b2.$2(0,B.GA),c1=b2.$2(0,B.ny),c2=b2.$2(8,B.ny),c3=c6/32*3.141592653589793*2,c4=c3*1.9-1.0995574287564276,c5=c4+3.141592653589793
 a9.$5(26,30+b6,20,5,B.fn)
 a9.$5(27,27+b6,13,3,B.fn)
 a9.$5(34,35+b6,8,3,B.m3)
