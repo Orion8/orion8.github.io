@@ -40494,7 +40494,7 @@ $1(a){var s=null,r=B.nn[a],q=this.a,p=q.f.a,o=a<q.d,n=o?B.bu:B.Bx,m=A.Vs(o?B.bu:
 return A.r0(s,A.aq0(s,new A.dG(n,s,m,B.U,o?A.d([new A.cL(0.3,B.aU,B.bN.dA(0.78),B.i,p*0.75),new A.cL(0.7,B.aU,B.bN.dA(0.38),B.i,p*1.7)],t.sq):s,s,B.aV),B.D7,p,new A.co("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:330}
 A.M3.prototype={
-O(a){var s="2026.07.08.00.00.00",r=null
+O(a){var s="2026.07.08.00.08.00",r=null
 return A.cG(r,A.eq(s,B.Ur,r,r,r,B.Pl,B.c_,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.Mx.prototype={
 O(a){var s=null,r=this.c
@@ -40667,19 +40667,19 @@ if(q){s=r+7
 a9.$5(s,o+3,2,1,B.ab)
 a9.$5(s,p,1,1,B.iF)}s=28+c0+b6
 q=30-c0+b6
-n=new A.dh(36+b3.$3$bias(c4,6,-1),s+b4.$3$bias(c4,6,-1.5))
-p=36+b3.$3$bias(c4,11,-2)
-m=s+b4.$3$bias(c4,11,-1)
+n=new A.dh(36+b3.$3$bias(c4,5,-1),s+b4.$3$bias(c4,5,-1.5))
+p=36+b3.$3$bias(c4,9,-2)
+m=s+b4.$3$bias(c4,9,-1)
 l=new A.dh(p,m)
-k=36+b3.$3$bias(c4,18,-3)
-j=s+b4.$3$bias(c4,16,0)
+k=36+b3.$3$bias(c4,14,-2)
+j=s+b4.$3$bias(c4,13,0)
 i=new A.dh(k,j)
-h=new A.dh(31+b3.$3$bias(c5,5,-2),q+b4.$3$bias(c5,5,1))
-g=31+b3.$3$bias(c5,10,-6)
-f=q+b4.$3$bias(c5,9,3)
+h=new A.dh(31+b3.$3$bias(c5,4,-2),q+b4.$3$bias(c5,4,1))
+g=31+b3.$3$bias(c5,8,-5)
+f=q+b4.$3$bias(c5,7,3)
 e=new A.dh(g,f)
-d=31+b3.$3$bias(c5,17,-9)
-c=q+b4.$3$bias(c5,13,5)
+d=31+b3.$3$bias(c5,13,-7)
+c=q+b4.$3$bias(c5,10,4)
 b=new A.dh(d,c)
 a=k-p
 a0=j-m
