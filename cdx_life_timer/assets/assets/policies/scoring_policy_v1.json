@@ -31,8 +31,9 @@
     "maxNegativeYears": -10.0
   },
   "scoreWeights": {
-    "physical": 0.55,
-    "mental": 0.45
+    "physical": 0.40,
+    "mental": 0.30,
+    "recovery": 0.30
   },
   "physicalWeights": {
     "sleep": 0.24,
@@ -50,22 +51,33 @@
   "confidence": {
     "physicalBase": 0.18,
     "mentalBase": 0.18,
+    "recoveryBase": 0.18,
     "coverageMultiplier": 0.82
   },
   "signalGroups": {
     "physical": [
-      "sleep.hours",
-      "sleep.quality",
       "activity.exercise_minutes",
       "activity.steps",
       "activity.active_energy",
+      "cardio.vo2_max",
       "nutrition.diet_quality",
       "nutrition.water_cups",
       "substance.alcohol_drinks",
       "substance.smoked_today",
       "heart.hrv",
-      "heart.resting_rate",
+      "heart.resting_rate"
+    ],
+    "activity": [
+      "activity.exercise_minutes",
+      "activity.steps",
+      "activity.active_energy",
       "cardio.vo2_max"
+    ],
+    "recovery": [
+      "sleep.hours",
+      "sleep.quality",
+      "heart.hrv",
+      "heart.resting_rate"
     ],
     "mental": [
       "mental.stress_level",
