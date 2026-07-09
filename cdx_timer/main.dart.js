@@ -40510,7 +40510,7 @@ r=p}else r=o
 return A.r0(o,A.aq0(o,new A.dG(s,o,q,B.U,r,o,B.aV),B.Da,l,new A.co("minute-box-"+(m.e+a),t.W),o,l),o,o,n.a*l,o,n.b*l,o)},
 $S:330}
 A.M3.prototype={
-O(a){var s="2026.07.08.00.26.00",r=null
+O(a){var s="2026.07.08.00.32.00",r=null
 return A.cG(r,A.eq(s,B.Us,r,r,r,B.Pm,B.bZ,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.Mx.prototype={
 O(a){var s=null,r=this.c
@@ -40683,19 +40683,19 @@ if(q){s=r+7
 a9.$5(s,o+3,2,1,B.a6)
 a9.$5(s,p,1,1,B.iH)}s=28+c0+b6
 q=30-c0+b6
-n=new A.dh(36+b3.$3$bias(c4,5,-1),s+b4.$3$bias(c4,5,-1.5))
-p=36+b3.$3$bias(c4,9,-2)
-m=s+b4.$3$bias(c4,9,-1)
+n=new A.dh(36+b3.$3$bias(c4,4,-1),s+b4.$3$bias(c4,4,-1.5))
+p=36+b3.$3$bias(c4,7,-2)
+m=s+b4.$3$bias(c4,7,-1)
 l=new A.dh(p,m)
-k=36+b3.$3$bias(c4,14,-2)
-j=s+b4.$3$bias(c4,13,0)
+k=36+b3.$3$bias(c4,11,-2)
+j=s+b4.$3$bias(c4,10,0)
 i=new A.dh(k,j)
-h=new A.dh(31+b3.$3$bias(c5,4,-2),q+b4.$3$bias(c5,4,1))
-g=31+b3.$3$bias(c5,8,-5)
-f=q+b4.$3$bias(c5,7,3)
+h=new A.dh(31+b3.$3$bias(c5,3,-2),q+b4.$3$bias(c5,3,1))
+g=31+b3.$3$bias(c5,6,-4)
+f=q+b4.$3$bias(c5,5,3)
 e=new A.dh(g,f)
-d=31+b3.$3$bias(c5,13,-7)
-c=q+b4.$3$bias(c5,10,4)
+d=31+b3.$3$bias(c5,10,-6)
+c=q+b4.$3$bias(c5,8,4)
 b=new A.dh(d,c)
 a=k-p
 a0=j-m
