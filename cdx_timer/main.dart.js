@@ -40503,7 +40503,7 @@ r=p}else r=o
 return A.r0(o,A.apT(o,new A.dF(s,o,q,B.U,r,o,B.aU),B.Da,l,new A.cp("minute-box-"+(m.e+a),t.W),o,l),o,o,n.a*l,o,n.b*l,o)},
 $S:331}
 A.M3.prototype={
-O(a){var s="2026.07.09.19.29.13",r=null
+O(a){var s="2026.07.09.20.07.32",r=null
 return A.cG(r,A.eo(s,B.Uz,r,r,r,B.Pt,B.bZ,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.Mx.prototype={
 O(a){var s=null,r=this.c
@@ -40738,7 +40738,7 @@ B2(a,b,c,d,e){var s=A.bh($.U().r)
 s.a2(new A.cT(b.a,b.b))
 s.a2(new A.iK(c.a,c.b,d.a,d.b))
 a.cZ(s,e)},
-Mk(a){var s=Math.sin(a*3.141592653589793*2)*3.6
+Mk(a){var s=Math.sin(a*3.141592653589793*2)*6.5
 return new A.aiR(new A.f(28,47+s*0.45),new A.f(16,48+s))},
 dO(a){return a.b!==this.b||a.c!==this.c}}
 A.kl.prototype={}
