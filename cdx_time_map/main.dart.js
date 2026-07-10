@@ -39912,7 +39912,7 @@ Vf(a){var s=this.a,r=s.a,q=r.iY(s.gh8().fX(0,2).a).ec(r.iY(0-s.gh8().fX(0,2).a))
 return r.iY(0-s.gh8().fX(0,2).a).iY(A.dU(B.c.aQ(q.a*(a/this.b)),0).a)}}
 A.Mk.prototype={
 J(a){var s=null
-return new A.xU(B.Tv,"Time Map v0.7.1",A.ta(s,A.asg(B.ab,s,s,B.e_),"Arial",!0),!1,s)}}
+return new A.xU(B.Tv,"Time Map v0.7.2",A.ta(s,A.asg(B.ab,s,s,B.e_),"Arial",!0),!1,s)}}
 A.AO.prototype={
 ag(){return new A.En(B.e)}}
 A.En.prototype={
@@ -40178,7 +40178,7 @@ p=b.Vf(r)
 return q.G2(p)?new A.TI(q,p):new A.TI(p,q)},
 abP(a){var s=new A.kW(a)
 return s.tn(s,19,new A.acb())},
-a30(a,b){var s,r=this,q=r.Dt(new A.h(new A.AM(r.b,b.a).zF(r.d),52),b)
+a30(a,b){var s,r=this,q=r.Dt(new A.h(new A.AM(r.b,b.a).zF(r.d),28),b)
 if(!r.Na(q,b))return
 $.a1()
 s=A.b1()
@@ -86406,7 +86406,7 @@ B.Kc=new A.h(22,0)
 B.Kd=new A.h(3,0)
 B.Ke=new A.h(3,-3)
 B.Kf=new A.h(6,6)
-B.Kg=new A.h(8,-6)
+B.Kg=new A.h(8,-22)
 B.Kj=new A.h(-0.3333333333333333,0)
 B.Kl=new A.h(5,10.5)
 B.Km=new A.h(1/0,0)
@@ -87125,7 +87125,7 @@ B.Tm=new A.fJ("\ub450 \uc190\uac00\ub77d\uc73c\ub85c \uc2dc\uac04 \ubc94\uc704\u
 B.Tn=new A.fJ("\ucde8\uc18c",null,null,null,null,null,null,null,null)
 B.To=new A.fJ("\ub0b4 \uc774\ubca4\ud2b8",null,null,null,null,null,null,null,null)
 B.PN=new A.j(!0,B.e_,null,null,null,null,11,B.cf,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Tp=new A.fJ("v0.7.1",null,B.PN,null,null,null,null,null,null)
+B.Tp=new A.fJ("v0.7.2",null,B.PN,null,null,null,null,null,null)
 B.QK=new A.j(!0,null,null,null,null,null,13,B.fX,null,1.4,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Tq=new A.fJ("TIME MAP",null,B.QK,null,null,null,null,null,null)
 B.Tr=new A.fJ("\ucd94\uac00",null,null,null,null,null,null,null,null)
