@@ -40503,7 +40503,7 @@ r=p}else r=o
 return A.r0(o,A.apT(o,new A.dF(s,o,q,B.U,r,o,B.aU),B.Da,l,new A.cp("minute-box-"+(m.e+a),t.W),o,l),o,o,n.a*l,o,n.b*l,o)},
 $S:331}
 A.M3.prototype={
-O(a){var s="2026.07.09.18.18.04",r=null
+O(a){var s="2026.07.09.18.50.24",r=null
 return A.cG(r,A.eo(s,B.Uz,r,r,r,B.Pt,B.bZ,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.Mx.prototype={
 O(a){var s=null,r=this.c
@@ -40648,62 +40648,65 @@ a.aw(b.a/96)
 if(!this.c){s.translate(96,0)
 a.pY(-1,1)}this.a90(a)
 s.restore()},
-a90(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=g.b,e=f*3.141592653589793*2,d=Math.sin(e)*0.55,c=f*3,b=$.U(),a=A.aw()
-a.b=B.ag
-a.d=B.bb
-a.e=B.bF
-g.MI(a0,new A.f(53,42+d),c+0.5)
-s=g.Mk(f+0.5)
-r=g.Mk(f)
-a.r=B.m3.gn()
-a.c=5
-f=47+d
-q=s.a
-p=s.b
-g.B2(a0,new A.f(36,f),new A.f(q.a+0,q.b+d),new A.f(p.a+0,p.b+d),a)
-a.r=B.fk.gn()
-a.c=4.2
-p=46+d
-q=r.a
-o=r.b
-g.B2(a0,new A.f(39,p),new A.f(q.a+0,q.b+d),new A.f(o.a+0,o.b+d),a)
-b=b.r
-n=A.bi(b)
-o=40+d
-n.a3(new A.d4(35,o))
-q=34+d
-n.a3(new A.jP(44,q,57,38+d))
-n.a3(new A.jP(62,41+d,59,p))
-n.a3(new A.jP(48,49+d,36,f))
-n.a3(new A.je())
-p=A.aw()
-p.r=B.m3.gn()
-a0.d3(n,p)
-q=A.IN(new A.f(66,q),15,13)
-p=A.aw()
-p.r=B.fk.gn()
-a0.rF(q,p)
-m=A.bi(b)
-m.a3(new A.d4(60,33+d))
-m.a3(new A.jP(63,24+d,69,27+d))
-b=31+d
-m.a3(new A.jP(73,b,70,35+d))
-m.a3(new A.bz(66,b))
-m.a3(new A.bz(61,36+d))
-m.a3(new A.je())
-b=A.aw()
-b.r=B.Ct.gn()
-a0.d3(m,b)
-g.MI(a0,new A.f(57,o),c)
-l=A.aw()
-l.r=B.dZ.dM(0.62).gn()
-l.d=B.bb
-l.c=1.6
-for(b=a0.a,k=0;k<3;++k){j=23-k*7
-i=f+Math.sin(e+k)*1.4
-h=l.dh()
-b.drawLine.apply(b,[j,i,j-4,i+0.6,h])
-h.delete()}},
+a90(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=e.b,c=d*3.141592653589793*2,b=Math.sin(c)*0.55,a=d*3
+d=$.U()
+s=A.aw()
+s.b=B.ag
+s.d=B.bb
+s.e=B.bF
+r=a+0.5
+e.MI(a0,new A.f(53,42+b),r)
+q=e.Mk(r)
+p=e.Mk(a)
+s.r=B.m3.gn()
+s.c=5
+r=47+b
+o=q.a
+n=q.b
+e.B2(a0,new A.f(36,r),new A.f(o.a+0,o.b+b),new A.f(n.a+0,n.b+b),s)
+s.r=B.fk.gn()
+s.c=4.2
+n=46+b
+o=p.a
+m=p.b
+e.B2(a0,new A.f(39,n),new A.f(o.a+0,o.b+b),new A.f(m.a+0,m.b+b),s)
+d=d.r
+l=A.bi(d)
+m=40+b
+l.a3(new A.d4(35,m))
+o=34+b
+l.a3(new A.jP(44,o,57,38+b))
+l.a3(new A.jP(62,41+b,59,n))
+l.a3(new A.jP(48,49+b,36,r))
+l.a3(new A.je())
+n=A.aw()
+n.r=B.m3.gn()
+a0.d3(l,n)
+o=A.IN(new A.f(66,o),15,13)
+n=A.aw()
+n.r=B.fk.gn()
+a0.rF(o,n)
+k=A.bi(d)
+k.a3(new A.d4(60,33+b))
+k.a3(new A.jP(63,24+b,69,27+b))
+d=31+b
+k.a3(new A.jP(73,d,70,35+b))
+k.a3(new A.bz(66,d))
+k.a3(new A.bz(61,36+b))
+k.a3(new A.je())
+d=A.aw()
+d.r=B.Ct.gn()
+a0.d3(k,d)
+e.MI(a0,new A.f(57,m),a)
+j=A.aw()
+j.r=B.dZ.dM(0.62).gn()
+j.d=B.bb
+j.c=1.6
+for(d=a0.a,i=0;i<3;++i){h=23-i*7
+g=r+Math.sin(c+i)*1.4
+f=j.dh()
+d.drawLine.apply(d,[h,g,h-4,g+0.6,f])
+f.delete()}},
 MI(a,b,c){var s,r,q,p=B.c.b8(c,1)*6,o=B.c.h3(p),n=p-o,m=n*n*(3-2*n)
 n=B.nq[o]
 s=B.nq[o+1]
