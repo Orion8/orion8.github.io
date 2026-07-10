@@ -40503,7 +40503,7 @@ r=p}else r=o
 return A.r0(o,A.apT(o,new A.dF(s,o,q,B.U,r,o,B.aU),B.Da,l,new A.cp("minute-box-"+(m.e+a),t.W),o,l),o,o,n.a*l,o,n.b*l,o)},
 $S:331}
 A.M3.prototype={
-O(a){var s="2026.07.09.20.07.32",r=null
+O(a){var s="2026.07.09.20.16.10",r=null
 return A.cG(r,A.eo(s,B.Uz,r,r,r,B.Pt,B.bZ,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.Mx.prototype={
 O(a){var s=null,r=this.c
@@ -40653,7 +40653,7 @@ a3.b=B.ag
 a3.d=B.bb
 a3.e=B.bF
 c.MI(a4,new A.f(53,42+a0),a1+0.5)
-s=b*9
+s=b*4.5
 r=c.Mk(s+0.5)
 q=c.Mk(s)
 a3.r=B.d5.gn()
