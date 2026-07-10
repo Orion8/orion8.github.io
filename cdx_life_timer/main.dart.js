@@ -42681,9 +42681,9 @@ d=a1.Oj(r)
 a0=A.J(a6).ok.as
 a0=a0==null?a2:a0.hm(B.bK,B.aR)
 return A.eF(a2,A.dv(A.c([p,B.fU,new A.FB(r,o,n,m,"Wish",a2),B.jA,new A.FB(a3,l,k,j,a2,a2),B.E8,g,B.jA,h,B.E7,A.yO(!1,a4,!0,A.eF(a2,A.dv(A.c([c,B.jA,a,B.fV,A.bd("(wish "+d+")",a2,a2,a2,a0,a2,a2,a2)],b),B.ab,B.Z,B.R),B.r,a2,new A.cV(i,a2,e,f,a2,a2,B.ao),a2,a2,a2,B.pX,a2,a2,a2),a2,!0,a2,a2,a2,a2,a2,a2,a2,a2,a1.w,a2,a2,a2,a2,a2,a2)],b),B.ab,B.Z,B.R),B.r,a2,new A.cV(B.pw,a2,a2,a5,a2,a2,B.ao),a2,a2,a2,B.JO,a2,a2,a2)},
-ga7q(){switch(this.r.a){case 0:return"Estimate seconds remaining"
-case 1:return"Estimate hours remaining"
-case 2:return"Estimate days remaining"}},
+ga7q(){switch(this.r.a){case 0:return"Seconds remaining"
+case 1:return"Hours remaining"
+case 2:return"Days remaining"}},
 Oj(a){var s,r,q,p=this
 switch(p.r.a){case 0:s=a.w
 r=B.e.cP(s,1000)
@@ -42699,7 +42699,7 @@ $S:253}
 A.anR.prototype={}
 A.WE.prototype={
 J(a){var s=null,r=A.J(a).ok.at
-return A.i7(new A.c9(B.JP,A.bd("v1.0.21",s,s,s,r==null?s:r.hm(B.bl,B.aR),s,s,s),s),s,s)}}
+return A.i7(new A.c9(B.JP,A.bd("v1.0.22",s,s,s,r==null?s:r.hm(B.bl,B.aR),s,s,s),s),s,s)}}
 A.FB.prototype={
 J(a){var s,r,q,p,o,n=this,m=null,l=n.c,k=[new A.nD(l.a,"year"),new A.nD(l.b,"month"),new A.nD(l.c,"day"),new A.nD(l.d,"hour"),new A.nD(l.e,"min"),new A.nD(l.f,"sec")]
 l=t.p
