@@ -39913,7 +39913,7 @@ Vf(a){var s=this.a,r=s.a,q=r.i6(s.gh8().er(0,2).a).e0(r.i6(0-s.gh8().er(0,2).a))
 return r.i6(0-s.gh8().er(0,2).a).i6(A.dt(B.c.aQ(q.a*(a/this.b)),0).a)}}
 A.Mj.prototype={
 J(a){var s=null
-return new A.xT(B.Tw,"Time Map v0.8.1",A.t9(s,A.ash(B.ab,s,s,B.fn),"Arial",!0),!1,s)}}
+return new A.xT(B.Tw,"Time Map v0.8.2",A.t9(s,A.ash(B.ab,s,s,B.fn),"Arial",!0),!1,s)}}
 A.AN.prototype={
 ag(){return new A.Em(B.e)}}
 A.Em.prototype={
@@ -40183,17 +40183,17 @@ abR(a){var s=new A.kW(a)
 return s.tn(s,19,new A.acb())},
 a3s(a,b){var s,r,q=a.e===B.eg,p=B.i.br(this.abR(a.a),3),o=q?7:18
 if(q)s=58
-else{switch(a.f.a){case 0:r=152
+else{switch(a.f.a){case 2:r=118
 break
-case 1:r=190
+case 0:r=156
 break
-case 2:r=228
+case 1:r=194
 break
-case 5:r=266
+case 5:r=232
 break
-case 3:r=304
+case 3:r=270
 break
-case 4:r=342
+case 4:r=308
 break
 default:r=null}s=r}return Math.min(s+p*o,Math.max(58,b.b-62))},
 a30(a,b){var s,r=this,q=r.Du(new A.h(new A.AL(r.b,b.a).zF(r.d),28),b)
@@ -87147,7 +87147,7 @@ B.Tn=new A.fJ("\ub450 \uc190\uac00\ub77d\uc73c\ub85c \uc2dc\uac04 \ubc94\uc704\u
 B.To=new A.fJ("\ucde8\uc18c",null,null,null,null,null,null,null,null)
 B.Tp=new A.fJ("\ub0b4 \uc774\ubca4\ud2b8",null,null,null,null,null,null,null,null)
 B.PO=new A.j(!0,B.fn,null,null,null,null,11,B.cf,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Tq=new A.fJ("v0.8.1",null,B.PO,null,null,null,null,null,null)
+B.Tq=new A.fJ("v0.8.2",null,B.PO,null,null,null,null,null,null)
 B.QL=new A.j(!0,null,null,null,null,null,13,B.fX,null,1.4,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Tr=new A.fJ("TIME MAP",null,B.QL,null,null,null,null,null,null)
 B.Ts=new A.fJ("\ucd94\uac00",null,null,null,null,null,null,null,null)
