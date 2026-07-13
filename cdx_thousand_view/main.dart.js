@@ -34337,7 +34337,7 @@ A.Ej.prototype={
 O(a){return B.ym}}
 A.El.prototype={
 O(a){var s=null,r=A.ml(99),q=A.a9S(B.ja)
-return A.km(A.Dh("v1.0",s,B.LV),new A.ea(B.y0,s,q,r,s,s,B.aM),s,s,B.z1,s)}}
+return A.km(A.Dh("v1.1",s,B.LV),new A.ea(B.y0,s,q,r,s,s,B.aM),s,s,B.z1,s)}}
 A.Jv.prototype={
 O(a){var s=this,r=s.c,q=r?160:205,p=$.KO(),o=t.E,n=A.d([B.Er,s.p7(B.jX,"Temperature",!0)],o)
 if(!r)B.b.H(n,A.d([s.p7(B.zl,"Air quality",!1),s.p7(B.zn,"Precipitation",!1),s.p7(B.zm,"Population",!1)],o))
