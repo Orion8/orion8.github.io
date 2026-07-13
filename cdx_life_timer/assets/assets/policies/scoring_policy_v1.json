@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "policyVersion": "2026.07.02-prototype",
+  "policyVersion": "2026.07.12-evidence-prototype",
   "sources": {
     "whoPhysicalActivity": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
     "cdcSleep": "https://www.cdc.gov/sleep/about/index.html",
@@ -85,6 +85,33 @@
       "sleep.quality",
       "mental.social_connection",
       "heart.hrv"
+    ]
+  },
+  "confidenceSignalGroups": {
+    "activity": [
+      "activity.exercise_minutes",
+      "activity.steps",
+      "activity.active_energy",
+      "cardio.vo2_max"
+    ],
+    "recovery": [
+      "sleep.hours",
+      "sleep.quality",
+      "heart.hrv",
+      "heart.resting_rate",
+      "sleep.stages",
+      "heart.hrv_recovery_trend",
+      "heart.resting_rate_trend"
+    ],
+    "mental": [
+      "mental.stress_level",
+      "mental.mood_level",
+      "sleep.quality",
+      "mental.social_connection",
+      "heart.hrv",
+      "mental.mindful_minutes",
+      "heart.hrv_recovery_trend",
+      "heart.resting_rate_trend"
     ]
   },
   "signals": {
@@ -177,6 +204,92 @@
       "confidenceWeight": 1.1,
       "fallbackBehavior": "ignore",
       "preferredSourceOrder": ["appleHealth", "wearable"]
+    },
+    "sleep.stages": {
+      "scoreWeight": 0.0,
+      "confidenceWeight": 0.35,
+      "fallbackBehavior": "ignore",
+      "preferredSourceOrder": ["appleHealth", "wearable"]
+    },
+    "mental.mindful_minutes": {
+      "scoreWeight": 0.0,
+      "confidenceWeight": 0.25,
+      "fallbackBehavior": "ignore",
+      "preferredSourceOrder": ["appleHealth", "wearable", "manual"]
+    },
+    "heart.hrv_recovery_trend": {
+      "scoreWeight": 0.0,
+      "confidenceWeight": 0.4,
+      "fallbackBehavior": "ignore",
+      "preferredSourceOrder": ["appleHealth", "wearable"]
+    },
+    "heart.resting_rate_trend": {
+      "scoreWeight": 0.0,
+      "confidenceWeight": 0.4,
+      "fallbackBehavior": "ignore",
+      "preferredSourceOrder": ["appleHealth", "wearable"]
+    }
+  },
+  "evidence": {
+    "policy.baseline_healthy_age": {
+      "sourceUrl": "https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-life-expectancy-and-leading-causes-of-death-and-disability",
+      "evidenceLevel": "population reference",
+      "reviewedOn": "2026-07-12",
+      "intendedUse": "Population context only; not an individual life-expectancy equation."
+    },
+    "activity.exercise_minutes": {
+      "sourceUrl": "https://www.who.int/health-topics/noncommunicable-diseases/physical-activity",
+      "evidenceLevel": "public-health guideline",
+      "reviewedOn": "2026-07-12",
+      "intendedUse": "Sets the activity reference threshold; it does not supply an individual survival coefficient."
+    },
+    "sleep.hours": {
+      "sourceUrl": "https://www.cdc.gov/sleep/about/index.html",
+      "evidenceLevel": "public-health guidance",
+      "reviewedOn": "2026-07-12",
+      "intendedUse": "Provides sleep-duration context. The 8-hour target remains a product heuristic."
+    },
+    "substance.smoked_today": {
+      "sourceUrl": "https://www.cdc.gov/tobacco/about/index.html",
+      "evidenceLevel": "established risk evidence",
+      "reviewedOn": "2026-07-12",
+      "intendedUse": "Supports a strong adverse habit signal; the app penalty is not a clinical risk estimate."
+    },
+    "substance.alcohol_drinks": {
+      "sourceUrl": "https://www.cdc.gov/alcohol/about-alcohol-use/index.html",
+      "evidenceLevel": "public-health guidance",
+      "reviewedOn": "2026-07-12",
+      "intendedUse": "Supports risk awareness only; daily score and year penalties are provisional."
+    },
+    "cardio.vo2_max": {
+      "sourceUrl": "https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/vo2max",
+      "evidenceLevel": "measurement context",
+      "reviewedOn": "2026-07-12",
+      "intendedUse": "Uses an Apple Health fitness estimate as a score and confidence input; calibration is provisional."
+    },
+    "sleep.stages": {
+      "sourceUrl": "https://developer.apple.com/documentation/healthkit/hkcategorytypeidentifier/sleepanalysis",
+      "evidenceLevel": "measurement context",
+      "reviewedOn": "2026-07-12",
+      "intendedUse": "Confidence-only until a reviewed stage-quality model is adopted."
+    },
+    "mental.mindful_minutes": {
+      "sourceUrl": "https://developer.apple.com/documentation/healthkit/hkcategorytypeidentifier/mindfulsession",
+      "evidenceLevel": "measurement context",
+      "reviewedOn": "2026-07-12",
+      "intendedUse": "Confidence-only context; it does not infer mental-health status."
+    },
+    "heart.hrv_recovery_trend": {
+      "sourceUrl": "https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/heartratevariabilitysdnn",
+      "evidenceLevel": "exploratory trend",
+      "reviewedOn": "2026-07-12",
+      "intendedUse": "Confidence-only trend context; no direct score or diagnosis."
+    },
+    "heart.resting_rate_trend": {
+      "sourceUrl": "https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/restingheartrate",
+      "evidenceLevel": "exploratory trend",
+      "reviewedOn": "2026-07-12",
+      "intendedUse": "Confidence-only trend context; no direct score or diagnosis."
     }
   }
 }
