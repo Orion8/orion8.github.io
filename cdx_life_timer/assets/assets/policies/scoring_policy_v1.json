@@ -265,31 +265,31 @@
       "sourceUrl": "https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/vo2max",
       "evidenceLevel": "measurement context",
       "reviewedOn": "2026-07-12",
-      "intendedUse": "Uses an Apple Health fitness estimate as a score and confidence input; calibration is provisional."
+      "intendedUse": "Uses an Apple Health fitness estimate as a score and data-reliability input; calibration is provisional."
     },
     "sleep.stages": {
       "sourceUrl": "https://developer.apple.com/documentation/healthkit/hkcategorytypeidentifier/sleepanalysis",
       "evidenceLevel": "measurement context",
       "reviewedOn": "2026-07-12",
-      "intendedUse": "Confidence-only until a reviewed stage-quality model is adopted."
+      "intendedUse": "Data-reliability-only until a reviewed stage-quality model is adopted."
     },
     "mental.mindful_minutes": {
       "sourceUrl": "https://developer.apple.com/documentation/healthkit/hkcategorytypeidentifier/mindfulsession",
       "evidenceLevel": "measurement context",
       "reviewedOn": "2026-07-12",
-      "intendedUse": "Confidence-only context; it does not infer mental-health status."
+      "intendedUse": "Data-reliability-only context; it does not infer mental-health status."
     },
     "heart.hrv_recovery_trend": {
       "sourceUrl": "https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/heartratevariabilitysdnn",
       "evidenceLevel": "exploratory trend",
       "reviewedOn": "2026-07-12",
-      "intendedUse": "Confidence-only trend context; no direct score or diagnosis."
+      "intendedUse": "Data-reliability-only trend context; no direct score or diagnosis."
     },
     "heart.resting_rate_trend": {
       "sourceUrl": "https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/restingheartrate",
       "evidenceLevel": "exploratory trend",
       "reviewedOn": "2026-07-12",
-      "intendedUse": "Confidence-only trend context; no direct score or diagnosis."
+      "intendedUse": "Data-reliability-only trend context; no direct score or diagnosis."
     }
   }
 }

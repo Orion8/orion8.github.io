@@ -7306,9 +7306,9 @@ this.b=b},
 NA:function NA(a,b,c){this.c=a
 this.a=b
 this.b=c},
-aJp(a){if(a>=0.75)return B.Ko
-if(a>=0.5)return B.Kn
-return B.Kp},
+aJp(a){if(a>=0.75)return B.Kn
+if(a>=0.5)return B.Kp
+return B.Ko},
 a5l:function a5l(a,b,c,d,e,f,g){var _=this
 _.a=a
 _.b=b
@@ -42945,7 +42945,7 @@ $S:422}
 A.aof.prototype={}
 A.WR.prototype={
 I(a){var s=null,r=A.G(a).ok.at
-return A.i8(new A.c8(B.Ke,A.aK("v1.0.29",s,s,s,r==null?s:r.fV(B.ay,B.aU),s,s,s),s),s,s)}}
+return A.i8(new A.c8(B.Ke,A.aK("v1.0.30",s,s,s,r==null?s:r.fV(B.ay,B.aU),s,s,s),s),s,s)}}
 A.FM.prototype={
 I(a){var s,r,q,p,o,n=this,m=null,l=n.c,k=[new A.nJ(l.a,"year"),new A.nJ(l.b,"month"),new A.nJ(l.c,"day"),new A.nJ(l.d,"hour"),new A.nJ(l.e,"min"),new A.nJ(l.f,"sec")]
 l=t.p
@@ -42983,7 +42983,7 @@ f=A.aK(o.c,n,n,n,f,n,n,n)
 s=m.gHg()
 r=A.G(a).ok.ax
 r=r==null?n:r.fV(B.ay,B.aU)
-r=A.aK("Confidence "+s+"%",n,n,n,r,n,n,n)
+r=A.aK("Data reliability "+s+"%",n,n,n,r,n,n,n)
 s=A.au4(A.eo(999),new A.ze(8,l/100,B.IJ,k,n,n,n,n))
 m=B.b.bm(m.d,", ")
 q=A.G(a).ok.ax
@@ -43007,7 +43007,7 @@ m=n.gHg()
 n=n.e.length
 s=A.G(a).ok.ax
 s=s==null?r:s.fV(B.ay,B.aU)
-s=A.aK("Estimate confidence "+m+"% \xb7 "+n+" precision signals missing",r,r,r,s,r,r,r)
+s=A.aK("Overall data reliability "+m+"% \xb7 "+n+" precision signals missing",r,r,r,s,r,r,r)
 n=A.G(a).ok.w
 n=n==null?r:n.hV(B.aU)
 m=t.p
@@ -43061,8 +43061,8 @@ ad5(){var s=this.f
 if(s==null)return"Apple Health has not been synced in this session."
 return"Apple Health last synced "+A.bl(s)+"/"+A.c9(s)+" at "+A.pT(s)+":"+B.d.lv(B.e.k(A.aa6(s)),2,"0")+"."},
 ahH(a){var s=this.e,r=s.p3.ger().f5(0,new A.akn(a)),q=s.p4.ger().f5(0,new A.ako(a))
-if(r&&q)return"Score + confidence"
-if(q)return"Confidence only"
+if(r&&q)return"Score + data reliability"
+if(q)return"Data reliability only"
 return"Context"},
 a5F(a){var s
 switch(a.a){case 0:s="Physical"
@@ -43096,7 +43096,7 @@ o=A.eW(A.aK(p.a,q,q,q,o,q,q,q),1)
 s=p.gHg()
 r=A.G(a).ok.at
 r=r==null?q:r.b4(B.ay)
-r=A.aK("Confidence "+s+"%",q,q,q,r,q,q,q)
+r=A.aK("Data reliability "+s+"%",q,q,q,r,q,q,q)
 s=A.G(a).ok.r
 s=s==null?q:s.hV(B.dX)
 return A.dG(q,A.eh(A.c([o,r,B.jL,A.aK(""+p.b,q,q,q,s,q,q,q)],t.p),B.Z,B.J,0),B.r,q,B.kx,q,q,q,B.qa,q,q,q)}}
@@ -93272,9 +93272,9 @@ B.qo=new A.bV(6,"heading")
 B.qp=new A.bV(7,"image")
 B.lD=new A.bV(8,"route")
 B.lE=new A.bV(9,"platformView")
-B.Kn=new A.yc("Medium confidence",1,"medium")
-B.Ko=new A.yc("High confidence",2,"high")
-B.Kp=new A.yc("Low confidence",0,"low")
+B.Kn=new A.yc("High data reliability",2,"high")
+B.Ko=new A.yc("Low data reliability",0,"low")
+B.Kp=new A.yc("Medium data reliability",1,"medium")
 B.lF=new A.oK(!1,!1,!1,!1)
 B.lG=new A.oK(!1,!1,!1,!0)
 B.qq=new A.oL(!1,!1,!1,!1)
