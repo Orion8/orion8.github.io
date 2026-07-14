@@ -34164,11 +34164,11 @@ p.push(A.tg(24,new A.Gg(m,o),o,o,o,l,o,o))}return A.Yd(B.f0,p,B.i8)},
 $S:258}
 A.a3Y.prototype={
 $0(){var s=this.a
-return s.tw(s.x,s.w,B.d.cA(s.y*1.25,0.8,3.5))},
+return s.tw(s.x,s.w,B.d.cA(s.y*1.25,0.8,8))},
 $S:0}
 A.a3Z.prototype={
 $0(){var s=this.a
-return s.tw(s.x,s.w,B.d.cA(s.y/1.25,0.8,3.5))},
+return s.tw(s.x,s.w,B.d.cA(s.y/1.25,0.8,8))},
 $S:0}
 A.vB.prototype={
 ap(){return new A.FN()},
@@ -34196,7 +34196,7 @@ $1(a){var s=this.a
 return s.d=s.a.w},
 $S:261}
 A.a1s.prototype={
-$1(a){var s=this.a,r=B.d.cA(s.d*Math.pow(a.d,1.65),0.8,3.5),q=s.a,p=a.a,o=this.b,n=A.YS(q.r-p.a/o*300),m=B.d.cA(q.f+p.b/o*240,-70,70)
+$1(a){var s=this.a,r=B.d.cA(s.d*Math.pow(a.d,1.65),0.8,8),q=s.a,p=a.a,o=this.b,n=A.YS(q.r-p.a/o*300),m=B.d.cA(q.f+p.b/o*240,-70,70)
 s.a.Ia(n,m,r)},
 $S:262}
 A.a1t.prototype={
@@ -34212,7 +34212,7 @@ if(p==null)return
 s=this.b
 r=q.BA(p.b,new A.Y(s.b,s.d),this.c)
 if(r!=null){q=q.a
-q.Ia(r.b,r.a,B.d.cA(q.w*1.7,0.8,3.5))}},
+q.Ia(r.b,r.a,B.d.cA(q.w*1.7,0.8,8))}},
 $S:0}
 A.FM.prototype={
 aY(a,b){var s,r,q,p,o,n=this,m=new A.B(b.a/2,b.b/2),l=n.w,k=A.Vo(m,l),j=$.a4(),i=A.bc()
@@ -34355,7 +34355,7 @@ A.Ei.prototype={
 O(a){return B.ym}}
 A.Ek.prototype={
 O(a){var s=null,r=A.mm(99),q=A.a9T(B.ja)
-return A.kk(A.Dg("v1.5",s,B.LU),new A.e9(B.y0,s,q,r,s,s,B.aM),s,s,B.z0,s)}}
+return A.kk(A.Dg("v1.6",s,B.LU),new A.e9(B.y0,s,q,r,s,s,B.aM),s,s,B.z0,s)}}
 A.Ju.prototype={
 O(a){var s=this,r=s.c,q=r?160:205,p=$.KN(),o=t.E,n=A.d([B.Eq,s.p8(B.jX,"Temperature",!0)],o)
 if(!r)B.b.H(n,A.d([s.p8(B.zk,"Air quality",!1),s.p8(B.zm,"Precipitation",!1),s.p8(B.zl,"Population",!1)],o))
