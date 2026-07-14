@@ -40668,7 +40668,7 @@ $1(a){var s=null,r=B.nr[a],q=this.a,p=q.f.a,o=a<q.d,n=o?A.aFl(q.r):B.BI,m=q.r,l=
 return A.lp(s,A.aqf(s,new A.dF(n,s,l,B.U,o?A.d([new A.cM(0.3,B.aO,A.ac5(m).da(0.78),B.h,p*0.75),new A.cM(0.7,B.aO,A.ac5(m).da(0.38),B.h,p*1.7)],t.sq):s,s,B.aV),B.DG,p,new A.cg("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:349}
 A.Mf.prototype={
-O(a){var s="2026.07.13.17.24.20",r=null
+O(a){var s="2026.07.13.17.27.23",r=null
 return A.cH(r,A.eq(s,B.Vp,r,r,r,B.Qi,B.c0,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.MJ.prototype={
 O(a){var s=null,r=this.c
@@ -40931,7 +40931,7 @@ else{d=Math.sqrt(d)
 c=new A.f(g/d,h/d)}h=e*(1.2+k)
 b=e*(3.2+k*2.8)
 r.r=B.Ca.da(0.25*(1-k)).gn()
-h=A.jY(new A.f(f+c.a*h,i+c.b*h),b*0.58,b)
+h=A.jY(new A.f(f+c.a*h,i+c.b*h),b*0.76,b)
 a=r.cH()
 o.drawOval(A.bW(h),a)
 a.delete()
@@ -84395,7 +84395,7 @@ B.Kw=new A.f(-2,-2)
 B.Kx=new A.f(-3,0)
 B.Ky=new A.f(-3,3)
 B.Kz=new A.f(-3,-3)
-B.KA=new A.f(-8,-4)
+B.KA=new A.f(-8,-60)
 B.Xz=new A.f(0,-0.005)
 B.tR=new A.f(0.25,0)
 B.KF=new A.f(1/0,1/0)
