@@ -33932,7 +33932,7 @@ of(){var s=0,r=A.R(t.El),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a
 var $async$of=A.S(function(a8,a9){if(a8===1)return A.O(a9,r)
 for(;;)switch(s){case 0:a3=t.g4
 a4=A.d([],a3)
-for(o=-72;o<=72;o+=12)for(n=-180;n<180;n+=12)a4.push(new A.lM(o,n))
+for(o=-84;o<=84;o+=12)for(n=-180;n<180;n+=12)a4.push(new A.lM(o,n))
 m=t.Bb
 l=A.d([],m)
 k=A.d([],a3)
@@ -34333,7 +34333,7 @@ A.Ei.prototype={
 O(a){return B.ym}}
 A.Ek.prototype={
 O(a){var s=null,r=A.ml(99),q=A.a9Q(B.ja)
-return A.kk(A.Dg("v1.3",s,B.LU),new A.e9(B.y0,s,q,r,s,s,B.aM),s,s,B.z0,s)}}
+return A.kk(A.Dg("v1.4",s,B.LU),new A.e9(B.y0,s,q,r,s,s,B.aM),s,s,B.z0,s)}}
 A.Ju.prototype={
 O(a){var s=this,r=s.c,q=r?160:205,p=$.KN(),o=t.E,n=A.d([B.Eq,s.p8(B.jX,"Temperature",!0)],o)
 if(!r)B.b.H(n,A.d([s.p8(B.zk,"Air quality",!1),s.p8(B.zm,"Precipitation",!1),s.p8(B.zl,"Population",!1)],o))
