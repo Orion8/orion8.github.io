@@ -40202,7 +40202,7 @@ A.mr.prototype={
 H(){return"_EventAction."+this.b}}
 A.Mv.prototype={
 J(a){var s=null
-return new A.y6(B.TQ,"Time Map v0.9.9",A.tn(s,A.at4(B.ab,s,s,B.fo),"Arial",!0),!1,s)}}
+return new A.y6(B.TQ,"Time Map v0.9.10",A.tn(s,A.at4(B.ab,s,s,B.fo),"Arial",!0),!1,s)}}
 A.AZ.prototype={
 ag(){return new A.Ey(A.c([],t.YC),B.e,B.B,B.e)}}
 A.Ey.prototype={
@@ -40632,23 +40632,22 @@ h=a?A.aW(4281619665):A.aW(4286284952)
 g=new A.pc(new A.dz(i,e,e,B.ak,e,e,e,e,e,e,new A.j(!0,h,e,e,e,e,11,B.k0,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e)),B.aw,B.S,new A.fs(1),e,e,1,e,B.am,e)
 g.tX()
 g.aG(a0,new A.h(k,j-g.b.a.c.gbb()-7))}},
-LN(b0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3=this,a4=null,a5=b0.a,a6=new A.me(a3.b,a5),a7=A.c([],t.ef),a8=a3.f,a9=-Math.sin(a8)
-a8=Math.cos(a8)
-for(s=a3.c,r=s.length,q=a3.e,p=34*q,o=12*q,n=p+o,m=a9*n,n=a8*n,l=20*q,a9*=l,l=a8*l,a8=8*q,a5+=8,k=b0.b+8,j=0;j<s.length;s.length===r||(0,A.v)(s),++j){i=s[j]
-h=a3.a3V(i,b0)
-g=a3.wv(new A.h(a6.qn(i.c),h),b0)
-f=new A.pc(new A.dz(i.b,a4,a4,B.ak,a4,a4,a4,a4,a4,a4,new A.j(!0,a4,a4,a4,a4,a4,o,B.c0,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4)),B.aw,B.S,new A.fs(1),a4,a4,1,a4,B.am,a4)
-f.tX()
-e=g.a+m
-d=g.b+n
-c=e-a9
-b=d-l
-a=c-o
-a0=b-p+a8
-a1=a+B.c.dh(f.b.c+38*q,78*q,230*q)
-a2=a0+p
-if(a1<-8||a>a5||a2<-8||a0>k)continue
-a7.push(new A.tX(i,new A.q(a,a0,a1,a2),q,new A.h(c,b),new A.h(e,d)))}return a7},
+LN(a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1=this,a2=null,a3=a8.a,a4=new A.me(a1.b,a3),a5=A.c([],t.ef),a6=a1.f,a7=Math.sin(a6)
+a6=Math.cos(a6)
+for(s=a1.c,r=s.length,q=a1.e,p=34*q,o=12*q,n=p+o,a7=-a7*n,n=a6*n,a6=20*q,m=8*q,a3+=8,l=a8.b+8,k=0;k<s.length;s.length===r||(0,A.v)(s),++k){j=s[k]
+i=a1.a3V(j,a8)
+h=a1.wv(new A.h(a4.qn(j.c),i),a8)
+g=new A.pc(new A.dz(j.b,a2,a2,B.ak,a2,a2,a2,a2,a2,a2,new A.j(!0,a2,a2,a2,a2,a2,o,B.c0,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2)),B.aw,B.S,new A.fs(1),a2,a2,1,a2,B.am,a2)
+g.tX()
+f=h.a+a7
+e=h.b+n
+d=e-a6
+c=f-o
+b=d-p+m
+a=c+B.c.dh(g.b.c+38*q,78*q,230*q)
+a0=b+p
+if(a<-8||c>a3||a0<-8||b>l)continue
+a5.push(new A.tX(j,new A.q(c,b,a,a0),q,new A.h(f,d),new A.h(f,e)))}return a5},
 aaf(a,b){var s,r,q,p,o,n=a.b,m=n.a,l=n.b,k=n.c
 n=n.d
 s=t.qP
@@ -87890,7 +87889,7 @@ B.zl=new A.eQ("\uc0ad\uc81c",null,null,null,null,null,null,null,null)
 B.R4=new A.j(!0,null,null,null,null,null,13,B.fZ,null,1.4,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.TL=new A.eQ("TIME MAP",null,B.R4,null,null,null,null,null,null)
 B.Q7=new A.j(!0,B.fo,null,null,null,null,11,B.c0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.TM=new A.eQ("v0.9.9",null,B.Q7,null,null,null,null,null,null)
+B.TM=new A.eQ("v0.9.10",null,B.Q7,null,null,null,null,null,null)
 B.WX=new A.acD(0,"system")
 B.KD=new A.h(0.056,0.024)
 B.KS=new A.h(0.108,0.3085)
