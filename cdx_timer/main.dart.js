@@ -40720,7 +40720,7 @@ $1(a){var s=null,r=B.ny[a],q=this.a,p=q.f.a,o=a<q.d,n=o?A.aFr(q.r):B.BP,m=q.r,l=
 return A.jU(s,A.aql(s,new A.dG(n,s,l,B.V,o?A.d([new A.cN(0.3,B.aO,A.acb(m).cS(0.78),B.h,p*0.75),new A.cN(0.7,B.aO,A.acb(m).cS(0.38),B.h,p*1.7)],t.sq):s,s,B.aV),B.DS,p,new A.cf("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:348}
 A.Mk.prototype={
-R(a){var s="2026.07.14.22.23.09",r=null
+R(a){var s="2026.07.15.14.28.27",r=null
 return A.cI(r,A.es(s,B.VE,r,r,r,B.Qw,B.c0,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.MO.prototype={
 R(a){var s=null,r=this.c
@@ -41055,7 +41055,7 @@ s=A.Y()
 s.r=B.dT.gn()
 a.bx(g,s)
 b.restore()
-c.a9j(a,q,p)
+c.a9j(a,p)
 J.ak(b.save())
 b.translate(0,14)
 s=A.fJ(new A.e(67,43+p),16,26)
@@ -41097,26 +41097,26 @@ k.r=B.dT.gn()
 a.bx(d,k)
 b.restore()
 b.restore()},
-a9j(a,b,c){var s,r,q,p,o,n,m,l,k,j,i,h,g=70+c*0.45
+a9j(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=70+b*0.45,g=this.b*3.141592653589793*2
 $.T()
 s=A.Y()
 s.r=B.dT.cS(0.9).gn()
 s.b=B.T
 s.d=B.an
-for(r=-0.7853981633974483+b*0.22,q=a.a,p=0;p<3;++p){o=7+p*4.8
+for(r=-0.7853981633974483+g,q=a.a,p=0;p<3;++p){o=7+p*4.8
 s.c=2.5-p*0.35
-n=A.fJ(new A.e(67+(p-1)*1.8,g+p*1.4),o*0.82,o*2)
+n=A.fJ(new A.e(67+(p-1)*1.8,h+p*1.4),o*0.82,o*2)
 m=s.cs()
 q.drawArc.apply(q,[A.bR(n),(r+p*0.7)*57.29577951308232,243,!1,m])
-m.delete()}for(r=b*0.32,l=0;l<5;++l){k=l*1.2566370614359172+r
-n=B.f.aP(l,2)
-j=Math.cos(k)
-i=Math.sin(k)
+m.delete()}for(l=0;l<5;++l){k=l*1.2566370614359172+g
+r=B.f.aP(l,2)
+n=Math.cos(k)
+j=Math.sin(k)
 $.T()
-h=new A.jl(B.bK,B.bp,B.eN,B.eO,B.bT)
-h.r=B.dT.cS(0.78).gn()
-m=h.cs()
-q.drawCircle(67+j*(9+n*4.5),g+i*4.5,1.2+n*0.45,m)
+i=new A.jl(B.bK,B.bp,B.eN,B.eO,B.bT)
+i.r=B.dT.cS(0.78).gn()
+m=i.cs()
+q.drawCircle(67+n*(9+r*4.5),h+j*4.5,1.2+r*0.45,m)
 m.delete()}},
 oc(a,b,c,d,e){var s=A.aW($.T().r)
 s.N(new A.bJ(b.a,b.b))
