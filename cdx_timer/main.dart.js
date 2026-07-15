@@ -40718,7 +40718,7 @@ $1(a){var s=null,r=B.ny[a],q=this.a,p=q.f.a,o=a<q.d,n=o?A.aFr(q.r):B.BP,m=q.r,l=
 return A.jU(s,A.aql(s,new A.dG(n,s,l,B.V,o?A.d([new A.cN(0.3,B.aO,A.acb(m).cS(0.78),B.h,p*0.75),new A.cN(0.7,B.aO,A.acb(m).cS(0.38),B.h,p*1.7)],t.sq):s,s,B.aV),B.DS,p,new A.cf("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:348}
 A.Mk.prototype={
-P(a){var s="2026.07.14.21.30.24",r=null
+P(a){var s="2026.07.14.21.40.40",r=null
 return A.cI(r,A.es(s,B.VE,r,r,r,B.Qw,B.c0,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.MO.prototype={
 P(a){var s=null,r=this.c
@@ -41002,7 +41002,7 @@ r=s*2
 q=Math.sin(r)
 p=Math.sin(s*4)*1.4
 J.al(b.save())
-b.translate(-4,10)
+b.translate(-16,10)
 a.j8(0.75,0.75)
 o=Math.sin(r+0.5)*1.2
 r=$.T()
@@ -41070,7 +41070,7 @@ a.bx(i,h)
 f=A.Y()
 f.r=B.iI.gn()
 f.b=B.T
-f.c=7
+f.c=4.5
 f.d=B.an
 e=A.aW(r)
 e.N(new A.bJ(76,41+p))
