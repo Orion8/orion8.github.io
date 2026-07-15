@@ -40720,7 +40720,7 @@ $1(a){var s=null,r=B.ny[a],q=this.a,p=q.f.a,o=a<q.d,n=o?A.aFr(q.r):B.BP,m=q.r,l=
 return A.jU(s,A.aql(s,new A.dG(n,s,l,B.V,o?A.d([new A.cN(0.3,B.aO,A.acb(m).cS(0.78),B.h,p*0.75),new A.cN(0.7,B.aO,A.acb(m).cS(0.38),B.h,p*1.7)],t.sq):s,s,B.aV),B.DS,p,new A.cf("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:348}
 A.Mk.prototype={
-R(a){var s="2026.07.15.14.28.27",r=null
+R(a){var s="2026.07.15.14.35.31",r=null
 return A.cI(r,A.es(s,B.VE,r,r,r,B.Qw,B.c0,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.MO.prototype={
 R(a){var s=null,r=this.c
@@ -41097,7 +41097,7 @@ k.r=B.dT.gn()
 a.bx(d,k)
 b.restore()
 b.restore()},
-a9j(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=70+b*0.45,g=this.b*3.141592653589793*2
+a9j(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=70+b*0.45,g=this.b*3.141592653589793*6
 $.T()
 s=A.Y()
 s.r=B.dT.cS(0.9).gn()
