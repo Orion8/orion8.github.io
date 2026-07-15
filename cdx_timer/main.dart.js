@@ -40720,7 +40720,7 @@ $1(a){var s=null,r=B.ny[a],q=this.a,p=q.f.a,o=a<q.d,n=o?A.aFr(q.r):B.BP,m=q.r,l=
 return A.jU(s,A.aql(s,new A.dG(n,s,l,B.V,o?A.d([new A.cN(0.3,B.aO,A.acb(m).cS(0.78),B.h,p*0.75),new A.cN(0.7,B.aO,A.acb(m).cS(0.38),B.h,p*1.7)],t.sq):s,s,B.aV),B.DS,p,new A.cf("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:348}
 A.Mk.prototype={
-R(a){var s="2026.07.15.14.35.31",r=null
+R(a){var s="2026.07.15.14.50.06",r=null
 return A.cI(r,A.es(s,B.VE,r,r,r,B.Qw,B.c0,r),!1,r,r,!1,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.MO.prototype={
 R(a){var s=null,r=this.c
@@ -40982,7 +40982,7 @@ s=B.c.ee(p*6)
 if(s===r.e)return
 r.e=s
 p=B.f.aP(s,3)
-q.$1(new A.qB(B.Kp,new A.e(-34-p*8,-24-B.f.aP(s,2)*12),3.1+p*0.55))},
+q.$1(new A.qB(B.Kk,new A.e(-34-p*8,-24-B.f.aP(s,2)*12),3.1+p*0.55))},
 R(a){var s=this.d
 s===$&&A.a()
 return A.kB(s,new A.aiN(this),null)}}
@@ -41097,7 +41097,7 @@ k.r=B.dT.gn()
 a.bx(d,k)
 b.restore()
 b.restore()},
-a9j(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=70+b*0.45,g=this.b*3.141592653589793*6
+a9j(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=70+b*0.45,g=this.b*3.141592653589793*12
 $.T()
 s=A.Y()
 s.r=B.dT.cS(0.9).gn()
@@ -41105,7 +41105,7 @@ s.b=B.T
 s.d=B.an
 for(r=-0.7853981633974483+g,q=a.a,p=0;p<3;++p){o=7+p*4.8
 s.c=2.5-p*0.35
-n=A.fJ(new A.e(67+(p-1)*1.8,h+p*1.4),o*0.82,o*2)
+n=A.fJ(new A.e(56+(p-1)*1.8,h+p*1.4),o*0.82,o*2)
 m=s.cs()
 q.drawArc.apply(q,[A.bR(n),(r+p*0.7)*57.29577951308232,243,!1,m])
 m.delete()}for(l=0;l<5;++l){k=l*1.2566370614359172+g
@@ -41116,7 +41116,7 @@ $.T()
 i=new A.jl(B.bK,B.bp,B.eN,B.eO,B.bT)
 i.r=B.dT.cS(0.78).gn()
 m=i.cs()
-q.drawCircle(67+n*(9+r*4.5),h+j*4.5,1.2+r*0.45,m)
+q.drawCircle(56+n*(9+r*4.5),h+j*4.5,1.2+r*0.45,m)
 m.delete()}},
 oc(a,b,c,d,e){var s=A.aW($.T().r)
 s.N(new A.bJ(b.a,b.b))
@@ -41414,7 +41414,7 @@ o.N(new A.dH())
 p=A.Y()
 p.r=B.iS.gn()
 a.bx(o,p)
-p=A.fJ(B.Kn,15,13)
+p=A.fJ(B.Ko,15,13)
 n=A.Y()
 n.r=B.bw.gn()
 a.lD(p,n)
@@ -83580,15 +83580,15 @@ B.Gm=s([6.43023796,2.98020421],t.n)
 B.nA=s([B.Gl,B.Fv,B.Hb,B.Hd,B.Gc,B.Gh,B.GJ,B.Gq,B.GB,B.Gf,B.Gm],t.zg)
 B.Gb=s([B.ik,B.il],A.ag("w<uM>"))
 B.Ge=s([18,15,10,12,15,18,15,12,12],t.n)
-B.Kl=new A.e(61,31)
+B.Km=new A.e(61,31)
 B.Ku=new A.e(78,20)
-B.zF=new A.ja(B.Kl,B.Ku)
-B.Km=new A.e(65,38)
+B.zF=new A.ja(B.Km,B.Ku)
+B.Kn=new A.e(65,38)
 B.Kv=new A.e(80,43)
-B.Xo=new A.ja(B.Km,B.Kv)
-B.Kk=new A.e(57,48)
+B.Xo=new A.ja(B.Kn,B.Kv)
+B.Kl=new A.e(57,48)
 B.Kd=new A.e(43,51)
-B.Xn=new A.ja(B.Kk,B.Kd)
+B.Xn=new A.ja(B.Kl,B.Kd)
 B.Kg=new A.e(49,45)
 B.tW=new A.e(38,45)
 B.Xm=new A.ja(B.Kg,B.tW)
@@ -83596,8 +83596,8 @@ B.Kf=new A.e(49,34)
 B.Ke=new A.e(45,23)
 B.Xq=new A.ja(B.Kf,B.Ke)
 B.Kh=new A.e(56,25)
-B.Ko=new A.e(67,16)
-B.Xp=new A.ja(B.Kh,B.Ko)
+B.Kp=new A.e(67,16)
+B.Xp=new A.ja(B.Kh,B.Kp)
 B.h_=s([B.zF,B.Xo,B.Xn,B.Xm,B.Xq,B.Xp,B.zF],A.ag("w<ja>"))
 B.aq=new A.e3(0,"icon")
 B.aE=new A.e3(1,"input")
@@ -84669,8 +84669,8 @@ B.Kb=new A.e(3,0)
 B.Kc=new A.e(3,-3)
 B.Ki=new A.e(56,38)
 B.Kj=new A.e(56,42)
-B.Kn=new A.e(65,39)
-B.Kp=new A.e(67,70)
+B.Kk=new A.e(56,70)
+B.Ko=new A.e(65,39)
 B.Kq=new A.e(68,36)
 B.Kr=new A.e(68,59)
 B.Ks=new A.e(69,42)
