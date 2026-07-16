@@ -37239,46 +37239,52 @@ $.a6()
 n=new A.hu(B.b2,B.aq,B.b9,B.by,B.aR)
 n.r=A.Nl(p.c).hY(0.88).gt()
 a.kz(o,n)}},
-Tq(b2,b3,b4,b5,b6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0=this,b1=null
-if(b4.length<4){b0.EB(b2,b3,b4,b5)
-return}s=b6?A.avE(b4,b5):b1
-if(b5>=10)r=24
-else r=b5>=4?32:40
-q=r+1
-p=J.od(q,t.Mt)
-for(o=t.y7,n=0;n<q;++n)p[n]=A.aU(q,b1,!1,o)
-for(o=s==null,m=b0.ax,l=b3.a-m,k=m*2,m=b3.b-m,j=0;j<=r;++j)for(i=m+k*j/r,h=0;h<=r;++h){g=new A.H(l+k*h/r,i)
-f=b0.Ze(g,b3)
-if(f==null)continue
-e=f.a
-d=f.b
-c=b0.Zf(e,d,b4)
-if(o)b=b1
-else{a=B.c.ap(B.c.ap(d-s.e+180,360)+360,360)-180
-a0=B.c.c0(Math.min(Math.min(e-s.a,s.b-e),Math.min(a-s.c,s.d-a))/s.f,0,1)
-e=a0*a0*(3-2*a0)
-b=e}if(b==null)b=1
-if(c!=null)p[j][h]=new A.mS(g,c,b)}a1=A.d([],t.yv)
-a2=A.d([],t.t_)
-a3=new A.a7_(a1,a2)
-for(j=0;j<r;j=a4)for(a4=j+1,h=0;h<r;h=a6){o=p[j]
-a5=o[h]
-a6=h+1
-a7=o[a6]
-o=p[a4]
-a8=o[h]
-a9=o[a6]
-if(a5==null||a7==null||a8==null||a9==null)continue
-a3.$1(a5)
-a3.$1(a7)
-a3.$1(a9)
-a3.$1(a5)
-a3.$1(a9)
-a3.$1(a8)}if(a1.length!==0){$.a6()
-o=A.aq6(B.QB,a1,a2,b1,b1)
-m=A.b6()
-m.r=B.i.gt()
-b2.a1X(o,B.iL,m)}else b0.EB(b2,b3,b4,b5)},
+Tq(b9,c0,c1,c2,c3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7=this,b8=null
+if(c1.length<4){b7.EB(b9,c0,c1,c2)
+return}s=c3?A.avE(c1,c2):b8
+if(c2>=10)r=24
+else r=c2>=4?32:40
+q=b7.ax
+p=q*2/r
+o=r+2
+n=o+1
+m=J.od(n,t.Mt)
+for(l=t.y7,k=0;k<n;++k)m[k]=A.aU(n,b8,!1,l)
+for(l=s==null,j=c0.a,i=c0.b,h=j-q-p,g=i-q-p,f=0;f<=o;++f)for(e=g+p*f,d=e-i,c=d*d,b=0;b<=o;++b){a=h+p*b
+a0=new A.H(a,e)
+a-=j
+a1=Math.sqrt(a*a+c)
+a2=b7.Ze(a1<=q?a0:new A.H(j+a/a1*q*0.9995,i+d/a1*q*0.9995),c0)
+if(a2==null)continue
+a=a2.a
+a3=a2.b
+a4=b7.Zf(a,a3,c1)
+if(l)a5=b8
+else{a6=B.c.ap(B.c.ap(a3-s.e+180,360)+360,360)-180
+a7=B.c.c0(Math.min(Math.min(a-s.a,s.b-a),Math.min(a6-s.c,s.d-a6))/s.f,0,1)
+a=a7*a7*(3-2*a7)
+a5=a}if(a5==null)a5=1
+if(a4!=null)m[f][b]=new A.mS(a0,a4,a5)}a8=A.d([],t.yv)
+a9=A.d([],t.t_)
+b0=new A.a7_(a8,a9)
+for(f=0;f<o;f=b1)for(b1=f+1,b=0;b<o;b=b3){q=m[f]
+b2=q[b]
+b3=b+1
+b4=q[b3]
+q=m[b1]
+b5=q[b]
+b6=q[b3]
+if(b2==null||b4==null||b5==null||b6==null)continue
+b0.$1(b2)
+b0.$1(b4)
+b0.$1(b6)
+b0.$1(b2)
+b0.$1(b6)
+b0.$1(b5)}if(a8.length!==0){$.a6()
+q=A.aq6(B.QB,a8,a9,b8,b8)
+l=A.b6()
+l.r=B.i.gt()
+b9.a1X(q,B.iL,l)}else b7.EB(b9,c0,c1,c2)},
 Ze(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=j.ax,h=(a.a-b.a)/i,g=-(a.b-b.b)/i,f=1.35+4/j.at
 i=f*f
 s=h*h+g*g+i
@@ -37458,7 +37464,7 @@ A.GK.prototype={
 P(a){return B.yK}}
 A.GM.prototype={
 P(a){var s=null,r=A.l3(99),q=A.acE(B.fr)
-return A.jx(s,A.w2("v4.6",s,B.Mt),B.N,s,new A.eb(B.yl,s,q,r,s,s,B.aA),s,s,s,B.zv,s,s,s)}}
+return A.jx(s,A.w2("v4.7",s,B.Mt),B.N,s,new A.eb(B.yl,s,q,r,s,s,B.aA),s,s,s,B.zv,s,s,s)}}
 A.Mf.prototype={
 P(a){var s=this,r=null,q=s.c,p=q?160:205,o=$.NG(),n=t.E,m=A.d([B.EZ,s.qM(B.kc,"Temperature",!0)],n)
 if(!q)B.b.G(m,A.d([s.qM(B.zP,"Air quality",!1),s.qM(B.zT,"Precipitation",!1),s.qM(B.zS,"Population",!1)],n))
