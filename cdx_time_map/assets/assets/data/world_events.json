@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "1.1.0",
+  "catalogVersion": "1.2.0",
   "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packs": [
@@ -242,7 +242,7 @@
     "description": "Bell Labs 연구진이 점접촉 트랜지스터를 실증했습니다.",
     "sourceName": "Computer History Museum",
     "sourceUrl": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
-    "interestPackIds": ["semiconductor"]
+    "interestPackIds": ["semiconductor", "computerHistory"]
   },
   {
     "id": "historic-ai-dartmouth",
@@ -386,6 +386,214 @@
       "latestAt": "-3100-01-01T00:00:00.000Z",
       "displayLabel": "약 BC 3,500–3,100 (우루크기)",
       "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-pascaline",
+    "title": "파스칼린 기계식 계산기",
+    "startAt": "1642-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 2,
+    "description": "블레즈 파스칼의 파스칼린은 톱니바퀴로 덧셈과 뺄셈을 수행한 초기 기계식 계산기입니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/revolution/artifact/48/197",
+    "interestPackIds": ["computerHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1642년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-jacquard-loom",
+    "title": "자카드 직기 특허",
+    "startAt": "1804-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 2,
+    "description": "자카드 직기의 천공카드 제어 방식은 이후 계산기의 프로그램·입력 개념에 중요한 영감을 주었습니다.",
+    "sourceName": "Science and Industry Museum",
+    "sourceUrl": "https://www.scienceandindustrymuseum.org.uk/objects-and-stories/jacquard-loom",
+    "interestPackIds": ["computerHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1804년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-difference-engine",
+    "title": "배비지 차분기관 발표",
+    "startAt": "1822-06-14T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "찰스 배비지가 천문표 계산을 기계화하는 차분기관의 구상을 왕립천문학회에서 발표했습니다.",
+    "sourceName": "Science Museum",
+    "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories/charles-babbages-difference-engines-and-science-museum",
+    "interestPackIds": ["computerHistory"]
+  },
+  {
+    "id": "historic-analytical-engine",
+    "title": "배비지 해석기관 구상",
+    "startAt": "1834-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "배비지는 범용 계산과 천공카드 프로그램을 목표로 한 해석기관을 구상했습니다.",
+    "sourceName": "Science Museum",
+    "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories/charles-babbages-difference-engines-and-science-museum",
+    "interestPackIds": ["computerHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1834년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-ada-notes",
+    "title": "에이다 러브레이스의 해석기관 주석",
+    "startAt": "1843-08-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "러브레이스는 해석기관의 범용 가능성을 설명하고 베르누이 수 계산 절차를 담은 주석을 발표했습니다.",
+    "sourceName": "Science Museum",
+    "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories/women-computing",
+    "interestPackIds": ["computerHistory", "mathHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1843년 8월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-hollerith-census",
+    "title": "홀러리스 천공카드 집계기 도입",
+    "startAt": "1890-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "미국 1890년 인구조사에 홀러리스의 전기식 천공카드 집계 시스템이 사용되며 대규모 데이터 처리가 전환점을 맞았습니다.",
+    "sourceName": "U.S. Census Bureau",
+    "sourceUrl": "https://www.census.gov/programs-surveys/decennial-census/decade/1890/about-1890.html",
+    "interestPackIds": ["computerHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1890년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-z3",
+    "title": "콘라트 추제 Z3 완성",
+    "startAt": "1941-05-12T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "Z3는 프로그램 제어 방식의 전기기계식 디지털 컴퓨터로, 항공역학 계산에 사용됐습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/tdih/may/12/",
+    "interestPackIds": ["computerHistory"]
+  },
+  {
+    "id": "historic-manchester-baby",
+    "title": "맨체스터 Baby 첫 프로그램 실행",
+    "startAt": "1948-06-21T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "맨체스터 Small-Scale Experimental Machine이 전자식 저장 프로그램을 처음 성공적으로 실행했습니다.",
+    "sourceName": "University of Manchester",
+    "sourceUrl": "https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/new.baby.html",
+    "interestPackIds": ["computerHistory"]
+  },
+  {
+    "id": "historic-univac-i",
+    "title": "UNIVAC I 첫 납품",
+    "startAt": "1951-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "UNIVAC I의 첫 납품은 미국 상업용 컴퓨터의 초기 전환점으로 평가됩니다.",
+    "sourceName": "Smithsonian National Museum of American History",
+    "sourceUrl": "https://americanhistory.si.edu/collections/object/nmah_739254",
+    "interestPackIds": ["computerHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1951년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-ibm-system-360",
+    "title": "IBM System/360 출시",
+    "startAt": "1964-04-07T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "System/360은 호환 가능한 단일 아키텍처 아래 컴퓨터 제품군을 묶어 소프트웨어 이식성의 전환점을 만들었습니다.",
+    "sourceName": "IBM",
+    "sourceUrl": "https://www.ibm.com/history/system-360",
+    "interestPackIds": ["computerHistory"]
+  },
+  {
+    "id": "historic-altair-8800",
+    "title": "Altair 8800 공개",
+    "startAt": "1975-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 2,
+    "description": "Altair 8800 키트가 대중 전자잡지에 소개되며 초기 개인용 컴퓨터 문화의 중요한 계기가 됐습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/revolution/artifact/312/1140?position=4",
+    "interestPackIds": ["computerHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1975년 1월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-apple-ii",
+    "title": "Apple II 출하",
+    "startAt": "1977-06-10T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "Apple II는 완성형 개인용 컴퓨터로 출시되어 학교와 소규모 사업을 포함한 더 넓은 사용자층에 보급됐습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/tdih/june/10/",
+    "interestPackIds": ["computerHistory"]
+  },
+  {
+    "id": "historic-ibm-pc",
+    "title": "IBM PC 공개",
+    "startAt": "1981-08-12T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "IBM PC의 공개와 개방형 구조는 PC 호환 생태계와 소프트웨어 시장의 확장에 큰 영향을 주었습니다.",
+    "sourceName": "IBM",
+    "sourceUrl": "https://www.ibm.com/history/personal-computer",
+    "interestPackIds": ["computerHistory"]
+  },
+  {
+    "id": "historic-linux-announcement",
+    "title": "리눅스 프로젝트 공개",
+    "startAt": "1991-08-25T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "리누스 토르발스가 자유 운영체제 프로젝트를 공개하며 대규모 협업 오픈소스 운영체제 발전의 출발점을 만들었습니다.",
+    "sourceName": "Linux Foundation",
+    "sourceUrl": "https://www.linuxfoundation.org/blog/blog/anniversary-of-first-linux-kernel-release-a-look-at-collaborative-value",
+    "interestPackIds": ["computerHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1991년 8월 25일",
+      "confidence": "high"
     }
   },
   {
