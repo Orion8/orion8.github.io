@@ -42686,7 +42686,7 @@ H(){return"_EventAction."+this.b}}
 A.T6.prototype={}
 A.Pk.prototype={
 G(a){var s=null
-return new A.zS(B.XD,"Time Map v0.13.1",A.uQ(s,A.aAv(B.aj,s,s,B.eU),"Arial",!0),!1,s)}}
+return new A.zS(B.XD,"Time Map v0.13.2",A.uQ(s,A.aAv(B.aj,s,s,B.eU),"Arial",!0),!1,s)}}
 A.CV.prototype={
 ad(){var s=t.YC
 return new A.GV(A.c([],s),A.c([],s),A.eP(B.ca,t.Wl),A.ap(t.N),B.f,B.F,B.f,null,null)}}
@@ -43013,7 +43013,7 @@ m.T$=p
 m.J$=0
 return A.M(null,r)}})
 return A.N($async$ur,r)},
-G(a){var s,r,q,p,o,n,m=this,l=null,k=t.p,j=A.d2(A.c([A.dF(A.c([B.Xx,B.AM,A.mc(l,B.Xu,B.A,l,new A.ed(B.FG,l,l,A.xj(999),l,l,B.bq),l,l,l,B.Hs,l,l,l)],k),B.W,B.z,B.a_,0,l),B.Xs],k),B.aC,B.z,B.aL,0,B.T),i=A.c([A.mq(l,l,B.Ih,l,l,m.gakj(),l,l,"\uad00\uc2ec \uc774\ubca4\ud2b8 \uc124\uc815"),A.mq(l,l,B.If,l,l,m.gaiU(),l,l,"\uacf5\uac04 \ucd08\uae30\ud654"),B.AM],k),h=m.ay
+G(a){var s,r,q,p,o,n,m=this,l=null,k=t.p,j=A.d2(A.c([A.dF(A.c([B.Xw,B.AM,A.mc(l,B.Xx,B.A,l,new A.ed(B.FG,l,l,A.xj(999),l,l,B.bq),l,l,l,B.Hs,l,l,l)],k),B.W,B.z,B.a_,0,l),B.Xs],k),B.aC,B.z,B.aL,0,B.T),i=A.c([A.mq(l,l,B.Ih,l,l,m.gakj(),l,l,"\uad00\uc2ec \uc774\ubca4\ud2b8 \uc124\uc815"),A.mq(l,l,B.If,l,l,m.gaiU(),l,l,"\uacf5\uac04 \ucd08\uae30\ud654"),B.AM],k),h=m.ay
 if(h&&!m.ch)s=m.ga6g()
 else s=m.CW!=null?m.gafR():l
 if(m.ch)h="\uc800\uc7a5 \uc911\u2026"
@@ -43079,7 +43079,7 @@ s=s==null?m:s.e.length!==0
 if(s===!0){s=A.c([],i)
 for(l=l.as.e,r=l.length,q=n.c,p=0;p<l.length;l.length===r||(0,A.v)(l),++p){o=l[p]
 s.push(A.aBa(A.bI(o.b,m,m,m,m,m,m,m),new A.asw(b,q,o),q.n(0,o.a)))}B.b.R(k,A.c([B.mj,B.Xq,B.j1,A.axX(s,8,8)],i))}l=A.cP(A.axx(A.d2(k,B.aC,B.z,B.aL,0,B.T),m,B.aJ),m,360)
-return A.aw4(A.c([A.nq(B.mv,new A.asx(a),m),A.awG(B.Xr,new A.asy(a,j,n.c))],i),l,B.Xv)},
+return A.aw4(A.c([A.nq(B.mv,new A.asx(a),m),A.awG(B.Xr,new A.asy(a,j,n.c))],i),l,B.Xu)},
 $S:191}
 A.ass.prototype={
 $1(a){return a.c===B.al},
@@ -43222,7 +43222,7 @@ $1(a){return a.a===this.a.a},
 $S:65}
 A.as3.prototype={
 $1(a){var s=null,r=A.bI("\u201c"+this.a.b+"\u201d\uc744(\ub97c) \uc0ad\uc81c\ud560\uae4c\uc694?",s,s,s,s,s,s,s)
-return A.aw4(A.c([A.nq(B.mv,new A.as1(a),s),A.awG(B.Bh,new A.as2(a))],t.p),r,B.Xw)},
+return A.aw4(A.c([A.nq(B.mv,new A.as1(a),s),A.awG(B.Bh,new A.as2(a))],t.p),r,B.Xv)},
 $S:282}
 A.as1.prototype={
 $0(){A.dE(this.a,!1).fZ(!1)
@@ -98605,13 +98605,13 @@ B.Xr=new A.eC("\uc801\uc6a9",null,null,null,null,null,null,null,null,null)
 B.Ue=new A.k(!0,null,null,null,null,null,18,B.ct,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Xs=new A.eC("\uc2dc\uac04\uc758 \uacf5\uac04",null,B.Ue,null,null,null,null,null,null,null)
 B.Xt=new A.eC("\uc2dc\uac04 \uc18d \uc774\ubca4\ud2b8",null,B.mu,null,null,null,null,null,null,null)
-B.TL=new A.k(!0,B.eU,null,null,null,null,11,B.ct,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Xu=new A.eC("v0.13.1",null,B.TL,null,null,null,null,null,null,null)
-B.Xv=new A.eC("\uad00\uc2ec \uc774\ubca4\ud2b8",null,null,null,null,null,null,null,null,null)
-B.Xw=new A.eC("\uc774\ubca4\ud2b8 \uc0ad\uc81c",null,null,null,null,null,null,null,null,null)
+B.Xu=new A.eC("\uad00\uc2ec \uc774\ubca4\ud2b8",null,null,null,null,null,null,null,null,null)
+B.Xv=new A.eC("\uc774\ubca4\ud2b8 \uc0ad\uc81c",null,null,null,null,null,null,null,null,null)
 B.mv=new A.eC("\ucde8\uc18c",null,null,null,null,null,null,null,null,null)
 B.UL=new A.k(!0,null,null,null,null,null,13,B.df,null,1.4,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Xx=new A.eC("TIME MAP",null,B.UL,null,null,null,null,null,null,null)
+B.Xw=new A.eC("TIME MAP",null,B.UL,null,null,null,null,null,null,null)
+B.TL=new A.k(!0,B.eU,null,null,null,null,11,B.ct,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.Xx=new A.eC("v0.13.2",null,B.TL,null,null,null,null,null,null,null)
 B.Bh=new A.eC("\uc0ad\uc81c",null,null,null,null,null,null,null,null,null)
 B.Xy=new A.eC("\uc120\ud0dd\ud55c \ubd84\ub958\uc758 \uc774\ubca4\ud2b8\ub9cc \uc2dc\uac04 \ub9f5\uc5d0 \ud45c\uc2dc\ud569\ub2c8\ub2e4.",null,B.mu,null,null,null,null,null,null,null)
 B.Xz=new A.eC("\uc218\uc815",null,null,null,null,null,null,null,null,null)

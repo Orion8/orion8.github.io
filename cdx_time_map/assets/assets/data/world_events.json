@@ -194,7 +194,7 @@
     "description": "CERN이 월드와이드웹 소프트웨어를 공개했습니다.",
     "sourceName": "CERN",
     "sourceUrl": "https://home.cern/science/computing/the-birth-of-the-web/",
-    "interestPackIds": ["computerHistory"]
+    "interestPackIds": ["computerHistory", "internetWeb"]
   },
   {
     "id": "historic-wto",
@@ -274,6 +274,100 @@
       "displayLabel": "약 BC 7,000–5,000",
       "confidence": "medium"
     }
+  },
+  {
+    "id": "historic-woolly-mammoth",
+    "title": "털매머드 최후 개체군의 멸종",
+    "startAt": "-5500-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "globalHealth",
+    "importance": 3,
+    "description": "빙하기 말에 사라졌지만 일부 고립 개체군은 약 4,000년 전까지 생존했습니다.",
+    "sourceName": "Smithsonian Institution",
+    "sourceUrl": "https://www.si.edu/collections/snapshot/berezovka-woolly-mammoth-flesh-jar",
+    "interestPackIds": ["extinctLife"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-9000-01-01T00:00:00.000Z",
+      "latestAt": "-2000-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 9,000–2,000",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-confucius",
+    "title": "공자 출생",
+    "startAt": "-0551-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "유교 전통의 핵심 사상가로 전해지는 공자의 출생 연도입니다.",
+    "sourceName": "Stanford Encyclopedia of Philosophy",
+    "sourceUrl": "https://plato.stanford.edu/entries/confucius/",
+    "interestPackIds": ["easternPhilosophy"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 BC 551",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-socrates",
+    "title": "소크라테스 출생",
+    "startAt": "-0469-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "고전 그리스 철학의 전환점으로 평가되는 소크라테스의 출생 연도입니다.",
+    "sourceName": "Stanford Encyclopedia of Philosophy",
+    "sourceUrl": "https://plato.stanford.edu/entries/ancient-political/",
+    "interestPackIds": ["westernPhilosophy"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 BC 469",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-principia",
+    "title": "뉴턴 《프린키피아》 출간",
+    "startAt": "1687-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "고전역학과 수학적 자연철학에 큰 영향을 준 저작이 1687년에 출간됐습니다.",
+    "sourceName": "The Royal Society",
+    "sourceUrl": "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=18577&src=CalmView.CatalogL",
+    "interestPackIds": ["mathHistory", "physicsChemistry"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1687년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-trinity",
+    "title": "트리니티 핵실험",
+    "startAt": "1945-07-16T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "세계 최초의 핵폭발 실험이 뉴멕시코에서 실시됐습니다.",
+    "sourceName": "U.S. Department of Energy",
+    "sourceUrl": "https://www.energy.gov/management/july-16-1945-trinity-test",
+    "interestPackIds": ["weapons", "physicsChemistry"]
+  },
+  {
+    "id": "historic-vatican-ii",
+    "title": "제2차 바티칸 공의회 개막",
+    "startAt": "1962-10-11T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 2,
+    "description": "가톨릭교회의 현대적 쇄신에 큰 영향을 준 제2차 바티칸 공의회가 개막했습니다.",
+    "sourceName": "The Holy See",
+    "sourceUrl": "https://www.vatican.va/special/annus_fidei/documents/annus-fidei_bxvi_inedito-50-concilio_en.html",
+    "interestPackIds": ["religions"]
   },
   {
     "id": "historic-paris-agreement",
