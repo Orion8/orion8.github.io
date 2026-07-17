@@ -2,6 +2,20 @@
   "catalogVersion": "1.0.0",
   "updatedAt": "2026-07-16T00:00:00.000Z",
   "sourceType": "officialInstitution",
+  "packs": [
+    {"id": "computerHistory", "title": "컴퓨터 역사"},
+    {"id": "mathHistory", "title": "수학 역사"},
+    {"id": "semiconductor", "title": "반도체·전자공학"},
+    {"id": "aiHistory", "title": "인공지능 역사"},
+    {"id": "civilizations", "title": "문명의 출현과 쇠퇴"},
+    {"id": "extinctLife", "title": "멸종 생물"},
+    {"id": "easternPhilosophy", "title": "동양 철학·사상"},
+    {"id": "westernPhilosophy", "title": "서양 철학·사상"},
+    {"id": "religions", "title": "종교의 역사"},
+    {"id": "agriculture", "title": "농업·축산의 역사"},
+    {"id": "urbanDevelopment", "title": "도시·건축·교통의 발전"},
+    {"id": "weapons", "title": "무기의 발전"}
+  ],
   "events": [
   {
     "id": "historic-olympics-athens",
@@ -155,7 +169,8 @@
     "importance": 3,
     "description": "CERN이 월드와이드웹 소프트웨어를 공개했습니다.",
     "sourceName": "CERN",
-    "sourceUrl": "https://home.cern/science/computing/the-birth-of-the-web/"
+    "sourceUrl": "https://home.cern/science/computing/the-birth-of-the-web/",
+    "interestPackIds": ["computerHistory"]
   },
   {
     "id": "historic-wto",
@@ -178,6 +193,49 @@
     "description": "유로가 유럽의 단일 통화로 출범했습니다.",
     "sourceName": "European Central Bank",
     "sourceUrl": "https://www.ecb.europa.eu/euro/intro/html/index.en.html"
+  },
+  {
+    "id": "historic-transistor",
+    "title": "점접촉 트랜지스터 실증",
+    "startAt": "1947-12-23T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "Bell Labs 연구진이 점접촉 트랜지스터를 실증했습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
+    "interestPackIds": ["semiconductor"]
+  },
+  {
+    "id": "historic-ai-dartmouth",
+    "title": "다트머스 AI 연구 프로젝트",
+    "startAt": "1956-07-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "인공지능이라는 명칭과 연구 분야의 토대가 마련된 여름 연구 프로젝트입니다.",
+    "sourceName": "Dartmouth College",
+    "sourceUrl": "https://ai.dartmouth.edu/our-story",
+    "interestPackIds": ["aiHistory"]
+  },
+  {
+    "id": "historic-early-agriculture",
+    "title": "초기 농경 마을의 확산",
+    "startAt": "-6000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "economyBusiness",
+    "importance": 3,
+    "description": "정착 생활과 농업의 확대를 보여주는 초기 신석기 농경 마을의 증거입니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://82nd-and-fifth.metmuseum.org/toah/ht/02/eac.html",
+    "interestPackIds": ["agriculture"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-7000-01-01T00:00:00.000Z",
+      "latestAt": "-5000-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 7,000–5,000",
+      "confidence": "medium"
+    }
   },
   {
     "id": "historic-paris-agreement",
