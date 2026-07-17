@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "1.0.0",
-  "updatedAt": "2026-07-16T00:00:00.000Z",
+  "catalogVersion": "1.1.0",
+  "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packs": [
     {"id": "computerHistory", "title": "컴퓨터 역사"},
@@ -368,6 +368,141 @@
     "sourceName": "The Holy See",
     "sourceUrl": "https://www.vatican.va/special/annus_fidei/documents/annus-fidei_bxvi_inedito-50-concilio_en.html",
     "interestPackIds": ["religions"]
+  },
+  {
+    "id": "historic-uruk-first-city",
+    "title": "우루크, 초기 도시 문명의 전환점",
+    "startAt": "-3200-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "메소포타미아의 우루크는 약 BC 3200년에 이르면 거대한 정착지이자 도시로 성장했고, 기록 체계의 초기 형태가 함께 나타났습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/essays/uruk-the-first-city",
+    "interestPackIds": ["civilizations", "urbanDevelopment"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-3500-01-01T00:00:00.000Z",
+      "latestAt": "-3100-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 3,500–3,100 (우루크기)",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-jikji",
+    "title": "《직지》 금속활자 인쇄",
+    "startAt": "1377-07-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "고려 청주 흥덕사에서 금속활자로 인쇄된 《직지》는 현존하는 가장 오래된 금속활자 인쇄본으로 평가됩니다.",
+    "sourceName": "UNESCO Memory of the World",
+    "sourceUrl": "https://www.unesco.org/en/memory-world/baegun-hwasang-chorok-buljo-jikji-simche-yojeol-volii-second-volume-anthology-great-buddhist-priests",
+    "interestPackIds": ["koreaEastAsia", "religions", "artsFilm"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1377년 7월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-gutenberg-bible",
+    "title": "구텐베르크 성서 완성",
+    "startAt": "1455-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "금속활자로 인쇄된 구텐베르크 성서는 유럽의 대량 인쇄와 지식 확산을 상징하는 전환점입니다.",
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/exhibits/bibles/the-gutenberg-bible.html",
+    "interestPackIds": ["religions", "artsFilm"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1454–1455년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-model-t",
+    "title": "포드 모델 T 대중 공개",
+    "startAt": "1908-10-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "모델 T의 대중 공개는 자동차의 대량 보급과 도시·교통 환경의 변화를 상징하는 사건입니다.",
+    "sourceName": "The Henry Ford",
+    "sourceUrl": "https://corporate.thehenryford.org/collections-and-research/digital-resources/popular-topics/ford-company-chronology",
+    "interestPackIds": ["urbanDevelopment"]
+  },
+  {
+    "id": "historic-eniac-unveiling",
+    "title": "ENIAC 공개",
+    "startAt": "1946-02-14T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "ENIAC이 공개되며 대규모 전자식 범용 컴퓨팅의 시대를 상징적으로 열었습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/tdih/may/17/",
+    "interestPackIds": ["computerHistory"]
+  },
+  {
+    "id": "historic-turing-imitation-game",
+    "title": "튜링의 ‘모방 게임’ 논문",
+    "startAt": "1950-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "앨런 튜링의 1950년 논문은 기계 지능을 검토하는 문제 설정과 이후 AI 논의에 큰 영향을 주었습니다.",
+    "sourceName": "University of Oxford",
+    "sourceUrl": "https://www.ox.ac.uk/news/pulse/technology/a-history-of-ai",
+    "interestPackIds": ["aiHistory", "computerHistory", "mathHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1950년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-integrated-circuit",
+    "title": "최초 작동 집적회로 실증",
+    "startAt": "1958-09-12T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "잭 킬비가 최초의 작동하는 집적회로를 시험하며 반도체 집적화의 전환점을 만들었습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/revolution/digital-revolution/12/276",
+    "interestPackIds": ["semiconductor"]
+  },
+  {
+    "id": "historic-arpanet-first-node",
+    "title": "ARPANET 첫 노드 가동",
+    "startAt": "1969-09-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "1969년 가을 UCLA에 ARPANET 첫 노드가 설치되며 현대 인터넷의 중요한 기반이 마련됐습니다.",
+    "sourceName": "NASA Technical Reports Server",
+    "sourceUrl": "https://ntrs.nasa.gov/api/citations/19920002477/downloads/19920002477.pdf",
+    "interestPackIds": ["internetWeb", "computerHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1969년 가을",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-intel-4004",
+    "title": "인텔 4004 마이크로프로세서 공개",
+    "startAt": "1971-11-15T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "인텔 4004의 공개는 단일 실리콘 칩에 컴퓨터 구조를 담은 상용 마이크로프로세서 시대의 핵심 이정표입니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/tdih/november/15/",
+    "interestPackIds": ["semiconductor", "computerHistory"]
   },
   {
     "id": "historic-paris-agreement",
