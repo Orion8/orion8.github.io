@@ -1,0 +1,189 @@
+[
+  {
+    "id": "historic-olympics-athens",
+    "title": "근대 올림픽 첫 개최",
+    "startAt": "1896-04-06T00:00:00.000Z",
+    "lane": "world",
+    "category": "sports",
+    "importance": 3,
+    "description": "아테네에서 제1회 근대 올림픽이 개막했습니다.",
+    "sourceName": "Olympic Library",
+    "sourceUrl": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=3703315&parentDocumentId=172552&skipCopyright=true&skipWatermark=true"
+  },
+  {
+    "id": "historic-world-cup",
+    "title": "첫 FIFA 월드컵 개막",
+    "startAt": "1930-07-13T00:00:00.000Z",
+    "lane": "world",
+    "category": "sports",
+    "importance": 3,
+    "description": "우루과이에서 열린 첫 FIFA 월드컵이 시작됐습니다.",
+    "sourceName": "FIFA",
+    "sourceUrl": "https://www.fifa.com/en/tournaments/olympicgames/paris2024/articles/uruguay-1924-1928-1930-world-cup"
+  },
+  {
+    "id": "historic-bretton-woods",
+    "title": "브레턴우즈 회의 폐막",
+    "startAt": "1944-07-22T00:00:00.000Z",
+    "lane": "world",
+    "category": "economyBusiness",
+    "importance": 3,
+    "description": "전후 국제 통화·금융 질서의 토대가 마련된 회의입니다.",
+    "sourceName": "International Monetary Fund",
+    "sourceUrl": "https://www.elibrary.imf.org/downloadpdf/display/book/9781475507249/9781475507249.pdf"
+  },
+  {
+    "id": "historic-un-founded",
+    "title": "유엔 창설",
+    "startAt": "1945-10-24T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "유엔 헌장이 발효되며 국제연합이 공식 출범했습니다.",
+    "sourceName": "United Nations",
+    "sourceUrl": "https://www.un.org/en/about-us/history-of-the-united-nations"
+  },
+  {
+    "id": "historic-cannes",
+    "title": "칸 영화제 첫 개최",
+    "startAt": "1946-09-20T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 2,
+    "description": "제1회 칸 영화제가 프랑스 칸에서 시작됐습니다.",
+    "sourceName": "Festival de Cannes",
+    "sourceUrl": "https://www.festival-cannes.com/en/the-festival/the-history-of-the-festival/"
+  },
+  {
+    "id": "historic-who",
+    "title": "WHO 출범",
+    "startAt": "1948-04-07T00:00:00.000Z",
+    "lane": "world",
+    "category": "globalHealth",
+    "importance": 3,
+    "description": "세계보건기구 헌장이 발효됐습니다.",
+    "sourceName": "World Health Organization",
+    "sourceUrl": "https://www.who.int/about/history/"
+  },
+  {
+    "id": "historic-udhr",
+    "title": "세계인권선언 채택",
+    "startAt": "1948-12-10T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "유엔 총회가 보편적 인권의 기준을 선언했습니다.",
+    "sourceName": "United Nations",
+    "sourceUrl": "https://www.un.org/en/about-us/universal-declaration-of-human-rights/"
+  },
+  {
+    "id": "historic-sputnik",
+    "title": "스푸트니크 1호 발사",
+    "startAt": "1957-10-04T00:00:00.000Z",
+    "lane": "world",
+    "category": "space",
+    "importance": 3,
+    "description": "세계 최초의 인공위성 발사로 우주 시대가 시작됐습니다.",
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/"
+  },
+  {
+    "id": "historic-apollo-11",
+    "title": "아폴로 11 달 착륙",
+    "startAt": "1969-07-20T00:00:00.000Z",
+    "lane": "world",
+    "category": "space",
+    "importance": 3,
+    "description": "인류가 처음 달 표면에 착륙했습니다.",
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/mission/apollo-11/"
+  },
+  {
+    "id": "historic-world-heritage",
+    "title": "세계유산협약 채택",
+    "startAt": "1972-11-16T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "유네스코 총회가 문화·자연유산 보호를 위한 협약을 채택했습니다.",
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/convention/.html"
+  },
+  {
+    "id": "historic-smallpox",
+    "title": "천연두 박멸 선언",
+    "startAt": "1980-05-14T00:00:00.000Z",
+    "lane": "world",
+    "category": "globalHealth",
+    "importance": 3,
+    "description": "WHO 총회가 전 세계 천연두 박멸을 선언했습니다.",
+    "sourceName": "World Health Organization",
+    "sourceUrl": "https://www.who.int/publications/i/item/WHA33-4"
+  },
+  {
+    "id": "historic-montreal-protocol",
+    "title": "몬트리올 의정서 채택",
+    "startAt": "1987-09-16T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "오존층 파괴 물질을 규제하는 국제 협약이 채택됐습니다.",
+    "sourceName": "United Nations Environment Programme",
+    "sourceUrl": "https://www.unep.org/ozonaction/index.php/who-we-are/about-montreal-protocol"
+  },
+  {
+    "id": "historic-hubble",
+    "title": "허블 우주망원경 발사",
+    "startAt": "1990-04-24T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "디스커버리호가 허블 우주망원경을 싣고 발사됐습니다.",
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/missions-to-hubble/deployment/"
+  },
+  {
+    "id": "historic-web",
+    "title": "월드와이드웹 공개",
+    "startAt": "1993-04-30T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "CERN이 월드와이드웹 소프트웨어를 공개했습니다.",
+    "sourceName": "CERN",
+    "sourceUrl": "https://home.cern/science/computing/the-birth-of-the-web/"
+  },
+  {
+    "id": "historic-wto",
+    "title": "세계무역기구 출범",
+    "startAt": "1995-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "economyBusiness",
+    "importance": 3,
+    "description": "WTO가 다자 무역 체제를 관장하는 기구로 출범했습니다.",
+    "sourceName": "World Trade Organization",
+    "sourceUrl": "https://www.wto.org/english/thewto_e/25y_e/25ytimeline_e.htm"
+  },
+  {
+    "id": "historic-euro",
+    "title": "유로화 출범",
+    "startAt": "1999-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "economyBusiness",
+    "importance": 2,
+    "description": "유로가 유럽의 단일 통화로 출범했습니다.",
+    "sourceName": "European Central Bank",
+    "sourceUrl": "https://www.ecb.europa.eu/euro/intro/html/index.en.html"
+  },
+  {
+    "id": "historic-paris-agreement",
+    "title": "파리협정 채택",
+    "startAt": "2015-12-12T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "기후변화 대응을 위한 파리협정이 채택됐습니다.",
+    "sourceName": "UNFCCC",
+    "sourceUrl": "https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement"
+  }
+]
