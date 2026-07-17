@@ -6,6 +6,17 @@
     {"id": "computerHistory", "title": "컴퓨터 역사"},
     {"id": "mathHistory", "title": "수학 역사"},
     {"id": "semiconductor", "title": "반도체·전자공학"},
+    {"id": "internetWeb", "title": "인터넷·웹"},
+    {"id": "spaceDevelopment", "title": "우주 개발"},
+    {"id": "medicineHealth", "title": "의학·보건"},
+    {"id": "physicsChemistry", "title": "물리·화학"},
+    {"id": "lifeScience", "title": "생명과학"},
+    {"id": "climateEnvironment", "title": "기후·환경"},
+    {"id": "artsFilm", "title": "예술·영화"},
+    {"id": "sportsHistory", "title": "스포츠 역사"},
+    {"id": "koreaEastAsia", "title": "한국사·동아시아사"},
+    {"id": "economyFinance", "title": "경제·금융사"},
+    {"id": "politicsHumanRights", "title": "정치·인권사"},
     {"id": "aiHistory", "title": "인공지능 역사"},
     {"id": "civilizations", "title": "문명의 출현과 쇠퇴"},
     {"id": "extinctLife", "title": "멸종 생물"},
@@ -26,7 +37,8 @@
     "importance": 3,
     "description": "아테네에서 제1회 근대 올림픽이 개막했습니다.",
     "sourceName": "Olympic Library",
-    "sourceUrl": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=3703315&parentDocumentId=172552&skipCopyright=true&skipWatermark=true"
+    "sourceUrl": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=3703315&parentDocumentId=172552&skipCopyright=true&skipWatermark=true",
+    "interestPackIds": ["sportsHistory"]
   },
   {
     "id": "historic-world-cup",
@@ -37,7 +49,8 @@
     "importance": 3,
     "description": "우루과이에서 열린 첫 FIFA 월드컵이 시작됐습니다.",
     "sourceName": "FIFA",
-    "sourceUrl": "https://www.fifa.com/en/tournaments/olympicgames/paris2024/articles/uruguay-1924-1928-1930-world-cup"
+    "sourceUrl": "https://www.fifa.com/en/tournaments/olympicgames/paris2024/articles/uruguay-1924-1928-1930-world-cup",
+    "interestPackIds": ["sportsHistory"]
   },
   {
     "id": "historic-bretton-woods",
@@ -48,7 +61,8 @@
     "importance": 3,
     "description": "전후 국제 통화·금융 질서의 토대가 마련된 회의입니다.",
     "sourceName": "International Monetary Fund",
-    "sourceUrl": "https://www.elibrary.imf.org/downloadpdf/display/book/9781475507249/9781475507249.pdf"
+    "sourceUrl": "https://www.elibrary.imf.org/downloadpdf/display/book/9781475507249/9781475507249.pdf",
+    "interestPackIds": ["economyFinance"]
   },
   {
     "id": "historic-un-founded",
@@ -59,7 +73,8 @@
     "importance": 3,
     "description": "유엔 헌장이 발효되며 국제연합이 공식 출범했습니다.",
     "sourceName": "United Nations",
-    "sourceUrl": "https://www.un.org/en/about-us/history-of-the-united-nations"
+    "sourceUrl": "https://www.un.org/en/about-us/history-of-the-united-nations",
+    "interestPackIds": ["politicsHumanRights"]
   },
   {
     "id": "historic-cannes",
@@ -70,7 +85,8 @@
     "importance": 2,
     "description": "제1회 칸 영화제가 프랑스 칸에서 시작됐습니다.",
     "sourceName": "Festival de Cannes",
-    "sourceUrl": "https://www.festival-cannes.com/en/the-festival/the-history-of-the-festival/"
+    "sourceUrl": "https://www.festival-cannes.com/en/the-festival/the-history-of-the-festival/",
+    "interestPackIds": ["artsFilm"]
   },
   {
     "id": "historic-who",
@@ -81,7 +97,8 @@
     "importance": 3,
     "description": "세계보건기구 헌장이 발효됐습니다.",
     "sourceName": "World Health Organization",
-    "sourceUrl": "https://www.who.int/about/history/"
+    "sourceUrl": "https://www.who.int/about/history/",
+    "interestPackIds": ["medicineHealth", "lifeScience"]
   },
   {
     "id": "historic-udhr",
@@ -92,7 +109,8 @@
     "importance": 3,
     "description": "유엔 총회가 보편적 인권의 기준을 선언했습니다.",
     "sourceName": "United Nations",
-    "sourceUrl": "https://www.un.org/en/about-us/universal-declaration-of-human-rights/"
+    "sourceUrl": "https://www.un.org/en/about-us/universal-declaration-of-human-rights/",
+    "interestPackIds": ["politicsHumanRights"]
   },
   {
     "id": "historic-sputnik",
@@ -103,7 +121,8 @@
     "importance": 3,
     "description": "세계 최초의 인공위성 발사로 우주 시대가 시작됐습니다.",
     "sourceName": "NASA",
-    "sourceUrl": "https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/"
+    "sourceUrl": "https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/",
+    "interestPackIds": ["spaceDevelopment"]
   },
   {
     "id": "historic-apollo-11",
@@ -114,7 +133,8 @@
     "importance": 3,
     "description": "인류가 처음 달 표면에 착륙했습니다.",
     "sourceName": "NASA",
-    "sourceUrl": "https://www.nasa.gov/mission/apollo-11/"
+    "sourceUrl": "https://www.nasa.gov/mission/apollo-11/",
+    "interestPackIds": ["spaceDevelopment"]
   },
   {
     "id": "historic-world-heritage",
@@ -125,7 +145,8 @@
     "importance": 3,
     "description": "유네스코 총회가 문화·자연유산 보호를 위한 협약을 채택했습니다.",
     "sourceName": "UNESCO World Heritage Centre",
-    "sourceUrl": "https://whc.unesco.org/en/convention/.html"
+    "sourceUrl": "https://whc.unesco.org/en/convention/.html",
+    "interestPackIds": ["civilizations", "urbanDevelopment"]
   },
   {
     "id": "historic-smallpox",
@@ -136,7 +157,8 @@
     "importance": 3,
     "description": "WHO 총회가 전 세계 천연두 박멸을 선언했습니다.",
     "sourceName": "World Health Organization",
-    "sourceUrl": "https://www.who.int/publications/i/item/WHA33-4"
+    "sourceUrl": "https://www.who.int/publications/i/item/WHA33-4",
+    "interestPackIds": ["medicineHealth", "lifeScience"]
   },
   {
     "id": "historic-montreal-protocol",
@@ -147,7 +169,8 @@
     "importance": 3,
     "description": "오존층 파괴 물질을 규제하는 국제 협약이 채택됐습니다.",
     "sourceName": "United Nations Environment Programme",
-    "sourceUrl": "https://www.unep.org/ozonaction/index.php/who-we-are/about-montreal-protocol"
+    "sourceUrl": "https://www.unep.org/ozonaction/index.php/who-we-are/about-montreal-protocol",
+    "interestPackIds": ["climateEnvironment"]
   },
   {
     "id": "historic-hubble",
@@ -158,7 +181,8 @@
     "importance": 3,
     "description": "디스커버리호가 허블 우주망원경을 싣고 발사됐습니다.",
     "sourceName": "NASA",
-    "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/missions-to-hubble/deployment/"
+    "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/missions-to-hubble/deployment/",
+    "interestPackIds": ["physicsChemistry"]
   },
   {
     "id": "historic-web",
@@ -181,7 +205,8 @@
     "importance": 3,
     "description": "WTO가 다자 무역 체제를 관장하는 기구로 출범했습니다.",
     "sourceName": "World Trade Organization",
-    "sourceUrl": "https://www.wto.org/english/thewto_e/25y_e/25ytimeline_e.htm"
+    "sourceUrl": "https://www.wto.org/english/thewto_e/25y_e/25ytimeline_e.htm",
+    "interestPackIds": ["economyFinance"]
   },
   {
     "id": "historic-euro",
@@ -192,7 +217,20 @@
     "importance": 2,
     "description": "유로가 유럽의 단일 통화로 출범했습니다.",
     "sourceName": "European Central Bank",
-    "sourceUrl": "https://www.ecb.europa.eu/euro/intro/html/index.en.html"
+    "sourceUrl": "https://www.ecb.europa.eu/euro/intro/html/index.en.html",
+    "interestPackIds": ["economyFinance"]
+  },
+  {
+    "id": "historic-hunminjeongeum",
+    "title": "훈민정음 해례본 간행",
+    "startAt": "1446-10-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "세종이 반포한 새 문자와 해설을 담은 훈민정음 해례본이 간행됐습니다.",
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://www.unesco.org/en/memory-world/hunminjeongum-manuscript",
+    "interestPackIds": ["koreaEastAsia", "artsFilm"]
   },
   {
     "id": "historic-transistor",
@@ -246,7 +284,8 @@
     "importance": 3,
     "description": "기후변화 대응을 위한 파리협정이 채택됐습니다.",
     "sourceName": "UNFCCC",
-    "sourceUrl": "https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement"
+    "sourceUrl": "https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement",
+    "interestPackIds": ["climateEnvironment"]
   }
   ]
 }
