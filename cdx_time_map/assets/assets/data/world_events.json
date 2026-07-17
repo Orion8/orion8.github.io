@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "1.3.0",
+  "catalogVersion": "1.4.0",
   "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packs": [
@@ -734,6 +734,391 @@
     "sourceUrl": "https://www.computerhistory.org/tdih/november/15/",
     "interestPackIds": ["semiconductor", "computerHistory"],
     "filterScope": "interestPackOnly"
+  },
+  {
+    "id": "historic-babylonian-mathematics",
+    "title": "바빌로니아 위치값 수학의 발전",
+    "startAt": "-1800-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "바빌로니아 수학은 60진 위치값 체계와 계산표를 발전시켜 수·대수 문제를 체계적으로 다뤘습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Babylonian_mathematics/",
+    "interestPackIds": ["mathHistory", "civilizations"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-2000-01-01T00:00:00.000Z",
+      "latestAt": "-1600-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 2,000–1,600",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-euclid-elements",
+    "title": "유클리드 《원론》",
+    "startAt": "-0300-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "《원론》은 공리와 증명에 기반한 기하학·수론 체계를 전한 고전적 저작입니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Prime_numbers/",
+    "interestPackIds": ["mathHistory", "westernPhilosophy"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 BC 300",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-nine-chapters",
+    "title": "《구장산술》의 행렬적 계산 방법",
+    "startAt": "-0100-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "한대에 편찬된 《구장산술》은 연립 문제를 푸는 계산법을 전하며 행렬 방법의 초기 사례로 평가됩니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "interestPackIds": ["mathHistory", "koreaEastAsia"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-0200-01-01T00:00:00.000Z",
+      "latestAt": "0100-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 200–AD 100",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-brahmagupta-zero",
+    "title": "브라흐마굽타의 0·음수 계산 규칙",
+    "startAt": "0628-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "《브라흐마스푸타시단타》는 0과 음수를 포함한 산술 규칙을 명시적으로 다뤘습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/",
+    "interestPackIds": ["mathHistory"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "628년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-al-khwarizmi-algebra",
+    "title": "알콰리즈미의 대수학 저작",
+    "startAt": "0820-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "알콰리즈미의 대수학 저작은 방정식 풀이를 독립된 학문으로 정리한 이슬람 황금기의 전환점입니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/DSB/Al-Khwarizmi.pdf",
+    "interestPackIds": ["mathHistory", "civilizations"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 820년",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-fibonacci-liber-abaci",
+    "title": "피보나치 《산반서》 출간",
+    "startAt": "1202-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "《산반서》는 인도-아라비아 숫자와 계산법을 중세 유럽의 상업·수학 문화에 확산시키는 데 기여했습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/quotations/",
+    "interestPackIds": ["mathHistory", "economyFinance"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1202년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-descartes-geometry",
+    "title": "데카르트 《기하학》 출간",
+    "startAt": "1637-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "《기하학》은 대수와 기하의 관계를 새롭게 정식화해 해석기하학 발전의 이정표가 됐습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Extras/Descartes_La_Geometrie/",
+    "interestPackIds": ["mathHistory", "westernPhilosophy"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1637년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-leibniz-calculus",
+    "title": "라이프니츠 미분법 논문 발표",
+    "startAt": "1684-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "라이프니츠는 1684년 미분법을 발표하며 현대 미적분의 표기와 방법 발전에 큰 영향을 주었습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/",
+    "interestPackIds": ["mathHistory", "physicsChemistry", "westernPhilosophy"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1684년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-euler-konigsberg",
+    "title": "오일러의 쾨니히스베르크 다리 논문",
+    "startAt": "1736-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "오일러는 쾨니히스베르크 다리 문제를 일반화하며 위상수학과 그래프 이론의 출발점 가운데 하나를 제시했습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
+    "interestPackIds": ["mathHistory"],
+    "filterScope": "interestPackOnly"
+  },
+  {
+    "id": "historic-lagrange-analytical-mechanics",
+    "title": "라그랑주 《해석역학》 출간",
+    "startAt": "1788-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "라그랑주는 역학을 미분방정식과 변분 원리의 언어로 재구성해 수학적 해석학의 한 분야로 전환했습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+    "interestPackIds": ["mathHistory", "physicsChemistry"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1788년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-gauss-disquisitiones",
+    "title": "가우스 《산술 연구》 출간",
+    "startAt": "1801-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "가우스의 《산술 연구》는 근대 정수론을 체계화한 고전으로 평가됩니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Extras/Gauss_Disquisitiones/",
+    "interestPackIds": ["mathHistory"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1801년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-lobachevsky-geometry",
+    "title": "로바쳅스키 비유클리드 기하학 발표",
+    "startAt": "1829-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "로바쳅스키는 평행선 공리를 달리 두는 기하학을 발표해 유클리드 기하학의 유일성에 도전했습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Non-Euclidean_geometry/",
+    "interestPackIds": ["mathHistory"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1829년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-hamilton-dynamics",
+    "title": "해밀턴의 일반 역학 방법",
+    "startAt": "1834-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "해밀턴은 역학의 미분방정식을 해밀토니안 형식으로 정식화하는 두 논문을 발표했습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hamilton/",
+    "interestPackIds": ["mathHistory", "physicsChemistry"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1834–1835년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-riemann-geometry",
+    "title": "리만 기하학 강연",
+    "startAt": "1854-06-10T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "리만은 공간의 기하학적 구조를 새롭게 정식화하는 강연으로 현대 미분기하학의 길을 열었습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Non-Euclidean_geometry/",
+    "interestPackIds": ["mathHistory", "physicsChemistry"],
+    "filterScope": "interestPackOnly"
+  },
+  {
+    "id": "historic-cantor-set-theory",
+    "title": "칸토어의 무한 집합 연구 논문",
+    "startAt": "1874-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "칸토어의 1874년 연구는 무한 집합의 크기를 다루는 집합론 발전의 출발점이 됐습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cantor/",
+    "interestPackIds": ["mathHistory"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1874년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-hilbert-problems",
+    "title": "힐베르트의 23개 문제 발표",
+    "startAt": "1900-08-08T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "힐베르트는 파리 국제수학자대회에서 23개 문제를 제시해 20세기 수학 연구의 중요한 의제를 만들었습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Extras/Hilbert_Problems/",
+    "interestPackIds": ["mathHistory"],
+    "filterScope": "interestPackOnly"
+  },
+  {
+    "id": "historic-noether-theorem",
+    "title": "노에터 정리 발표",
+    "startAt": "1918-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "노에터 정리는 연속 대칭과 보존 법칙의 관계를 정식화해 현대 물리와 수학에 깊은 영향을 주었습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Strick/Noether_Emmy.pdf",
+    "interestPackIds": ["mathHistory", "physicsChemistry"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1918년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-godel-incompleteness",
+    "title": "괴델 불완전성 정리",
+    "startAt": "1931-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "괴델은 충분히 강한 형식 체계가 완전성과 자기 일관성 증명을 동시에 갖지 못함을 보였습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Godel/quotations/",
+    "interestPackIds": ["mathHistory", "westernPhilosophy"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1931년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-turing-computability",
+    "title": "튜링 기계와 계산 가능성",
+    "startAt": "1936-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "앨런 튜링은 튜링 기계로 계산 가능한 함수의 개념을 엄밀하게 제시했습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Word_problems/",
+    "interestPackIds": ["mathHistory", "computerHistory", "aiHistory"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1936년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-shannon-information-theory",
+    "title": "섀넌의 정보 이론 논문",
+    "startAt": "1948-07-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "섀넌의 논문은 정보량·부호화·통신 한계를 수학적으로 정식화해 정보 이론의 토대를 마련했습니다.",
+    "sourceName": "IEEE REACH",
+    "sourceUrl": "https://reach.ieee.org/primary-sources/a-mathematical-theory-of-communication/",
+    "interestPackIds": ["mathHistory", "computerHistory"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1948년 7월·10월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-four-color-theorem",
+    "title": "4색 정리의 컴퓨터 보조 증명",
+    "startAt": "1976-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "아펠과 하켄은 컴퓨터를 활용해 4색 정리를 증명하며 수학적 증명의 방법과 검증에 큰 전환점을 만들었습니다.",
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/era/1996-02-01/S1079-6762-96-00003-0/S1079-6762-96-00003-0.pdf",
+    "interestPackIds": ["mathHistory", "computerHistory"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1976년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-wiles-fermat",
+    "title": "와일스의 페르마 마지막 정리 증명",
+    "startAt": "1995-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "와일스와 테일러의 작업은 페르마 마지막 정리를 해결하며 현대 정수론의 대표적 성취가 됐습니다.",
+    "sourceName": "MacTutor History of Mathematics, University of St Andrews",
+    "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Wiles/?s=09",
+    "interestPackIds": ["mathHistory"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1994–1995년",
+      "confidence": "high"
+    }
   },
   {
     "id": "historic-paris-agreement",
