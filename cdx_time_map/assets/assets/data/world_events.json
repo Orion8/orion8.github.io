@@ -1,4 +1,8 @@
-[
+{
+  "catalogVersion": "1.0.0",
+  "updatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceType": "officialInstitution",
+  "events": [
   {
     "id": "historic-olympics-athens",
     "title": "근대 올림픽 첫 개최",
@@ -186,4 +190,5 @@
     "sourceName": "UNFCCC",
     "sourceUrl": "https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement"
   }
-]
+  ]
+}
