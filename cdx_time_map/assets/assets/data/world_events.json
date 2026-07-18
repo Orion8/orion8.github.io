@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "1.6.0",
+  "catalogVersion": "1.7.0",
   "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packGroups": [
@@ -24,6 +24,8 @@
     {"id": "civilizations", "title": "문명 공통", "groupId": "civilizationPacks"},
     {"id": "mesopotamia", "title": "메소포타미아 문명", "groupId": "civilizationPacks"},
     {"id": "islamicGoldenAge", "title": "이슬람 황금기", "groupId": "civilizationPacks"},
+    {"id": "ancientEgypt", "title": "고대 이집트 문명", "groupId": "civilizationPacks"},
+    {"id": "yellowRiver", "title": "황하 문명", "groupId": "civilizationPacks"},
     {"id": "extinctLife", "title": "멸종 생물"},
     {"id": "easternPhilosophy", "title": "동양 철학·사상"},
     {"id": "westernPhilosophy", "title": "서양 철학·사상"},
@@ -1428,6 +1430,118 @@
     "timeEstimate": {
       "kind": "exact",
       "displayLabel": "2011년 5월 4일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-egypt-unification",
+    "title": "이집트 상·하 이집트 통일",
+    "startAt": "-3100-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "나르메르가 상이집트와 하이집트를 지배한 초기 왕으로 전해지며, 약 BC 3100년의 통일은 파라오 국가와 초기 왕조 시대의 출발점으로 여겨집니다.",
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/learn/schools/ages-7-11/ancient-egypt/timeline-ancient-egypt",
+    "interestPackIds": ["civilizations", "ancientEgypt"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 BC 3,100",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-djoser-step-pyramid",
+    "title": "조세르의 계단 피라미드 건설",
+    "startAt": "-2780-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "조세르 왕의 건축가 임호텝이 사카라에 계단 피라미드를 세웠습니다. 이는 이집트 최초의 대형 석조 기념비이자 피라미드 건축의 출발점입니다.",
+    "sourceName": "Smithsonian Institution",
+    "sourceUrl": "https://www.si.edu/spotlight/ancient-egypt/pyramid",
+    "interestPackIds": ["civilizations", "ancientEgypt", "urbanDevelopment"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 BC 2,780",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-great-pyramid-giza",
+    "title": "쿠푸의 기자 대피라미드",
+    "startAt": "-2551-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "제4왕조 쿠푸의 대피라미드는 이집트 피라미드 건축의 정점을 상징하며, 왕권·행정·석조 건축 역량이 결합된 거대한 기념물입니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/es/essays/egypt-in-the-old-kingdom-ca-2649-2150-b-c",
+    "interestPackIds": ["civilizations", "ancientEgypt", "urbanDevelopment"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 BC 2,551–2,528 (쿠푸 재위)",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-shang-yellow-river-center",
+    "title": "황하 유역 상 왕조의 형성",
+    "startAt": "-1600-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "허난의 황하 유역은 상 왕조 시기에 가장 발달한 청동기·문자 문화와 정치·군사 권력의 중심이 됐습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/en/essays/shang-and-zhou-dynasties-the-bronze-age-of-china",
+    "interestPackIds": ["civilizations", "yellowRiver", "koreaEastAsia"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-1600-01-01T00:00:00.000Z",
+      "latestAt": "-1046-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 1,600–1,046 (상 왕조)",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-shang-oracle-bones",
+    "title": "상 왕조 갑골문 기록",
+    "startAt": "-1250-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "허난 안양의 상 왕조 갑골문은 점복 기록과 초기 한자 체계를 보여 주며, 동아시아 문자·기록 문화의 핵심 증거입니다.",
+    "sourceName": "Smithsonian National Museum of Asian Art",
+    "sourceUrl": "https://asia.si.edu/explore-art-culture/collections/search/edanmdm%3Afsg_S2012.9.463/",
+    "interestPackIds": ["civilizations", "yellowRiver", "koreaEastAsia"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-1300-01-01T00:00:00.000Z",
+      "latestAt": "-1050-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 1,300–1,050 (안양·후기 상)",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-qin-unification",
+    "title": "진의 중국 통일",
+    "startAt": "-0221-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "진은 BC 221년에 경쟁 국가들을 통합하고 군현제·문자·도량형·화폐의 표준화를 추진해 이후 중국 제국 질서의 틀을 마련했습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires/exhibition-galleries",
+    "interestPackIds": ["civilizations", "yellowRiver", "koreaEastAsia"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "BC 221년",
       "confidence": "high"
     }
   },
