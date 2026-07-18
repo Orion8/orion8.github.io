@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "2.0.0",
+  "catalogVersion": "2.1.0",
   "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packGroups": [
@@ -29,6 +29,7 @@
     {"id": "grecoRoman", "title": "그리스·로마 문명", "groupId": "civilizationPacks"},
     {"id": "indusCivilization", "title": "인더스 문명", "groupId": "civilizationPacks"},
     {"id": "persianCivilization", "title": "페르시아 문명", "groupId": "civilizationPacks"},
+    {"id": "mayaCivilization", "title": "마야 문명", "groupId": "civilizationPacks"},
     {"id": "extinctLife", "title": "멸종 생물"},
     {"id": "easternPhilosophy", "title": "동양 철학·사상"},
     {"id": "westernPhilosophy", "title": "서양 철학·사상"},
@@ -1867,6 +1868,98 @@
     "timeEstimate": {
       "kind": "approximate",
       "displayLabel": "7세기 중반",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-maya-settlements",
+    "title": "초기 마야 정착 공동체의 형성",
+    "startAt": "-1800-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "마야의 초기 정착 공동체는 태평양 연안 지역에서 약 BC 1800년경부터 형성되었으며, 이후 마야 문명의 장기적 토대가 되었습니다.",
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://maya.nmai.si.edu/the-maya/maya-world",
+    "interestPackIds": ["civilizations", "mayaCivilization"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 BC 1800년",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-maya-city-states",
+    "title": "마야 도시국가 문명의 전개",
+    "startAt": "0250-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "250년 무렵 마야 지역에는 티칼·팔렝케·코판·칼라크물 등을 포함한 다수의 독립 도시국가가 발달했습니다.",
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://maya.nmai.si.edu/the-maya/maya-world",
+    "interestPackIds": ["civilizations", "mayaCivilization"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 250년",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-maya-classic-period",
+    "title": "마야 고전기의 도시국가와 문자 문화",
+    "startAt": "0600-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "artsCulture",
+    "importance": 3,
+    "description": "마야 고전기에는 경쟁과 동맹을 이루는 도시국가들이 번성했고, 왕실 중심의 예술·기념비·복합 문자 체계가 정치·신화적 사건을 기록했습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/ja/exhibitions/arts-of-the-ancient-americas/inside-the-exhibition",
+    "interestPackIds": ["civilizations", "mayaCivilization", "artsFilm"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "displayLabel": "250~900년 (고전기)",
+      "rangeEndAt": "0900-01-01T00:00:00.000Z",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-tikal-apogee",
+    "title": "티칼의 전성기와 마야 지역의 중심성",
+    "startAt": "0600-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "urbanDevelopment",
+    "importance": 3,
+    "description": "티칼은 250~900년 사이 마야 지역의 정치·경제·예술·과학 중심지로 번성했으며, 피라미드·궁전·광장·석비가 남아 있습니다.",
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://maya.nmai.si.edu/gallery/tikal",
+    "interestPackIds": ["civilizations", "mayaCivilization", "urbanDevelopment"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "displayLabel": "250~900년 (전성기)",
+      "rangeEndAt": "0900-01-01T00:00:00.000Z",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-maya-classic-transition",
+    "title": "마야 고전기 왕국의 붕괴와 북부 중심 재편",
+    "startAt": "0900-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "고전기 왕국들이 붕괴한 뒤 마야 예술과 정치의 중심은 치첸이트사 같은 북부 도시들로 재편되며 중앙 멕시코와 남부 중앙아메리카의 영향을 흡수했습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/de/essays/ancient-maya-sculpture",
+    "interestPackIds": ["civilizations", "mayaCivilization"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 900년 이후",
       "confidence": "medium"
     }
   },
