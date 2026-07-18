@@ -1,7 +1,10 @@
 {
-  "catalogVersion": "1.5.0",
+  "catalogVersion": "1.6.0",
   "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
+  "packGroups": [
+    {"id": "civilizationPacks", "title": "문명의 출현과 쇠퇴"}
+  ],
   "packs": [
     {"id": "computerHistory", "title": "컴퓨터 역사"},
     {"id": "mathHistory", "title": "수학 역사"},
@@ -18,7 +21,9 @@
     {"id": "economyFinance", "title": "경제·금융사"},
     {"id": "politicsHumanRights", "title": "정치·인권사"},
     {"id": "aiHistory", "title": "인공지능 역사"},
-    {"id": "civilizations", "title": "문명의 출현과 쇠퇴"},
+    {"id": "civilizations", "title": "문명 공통", "groupId": "civilizationPacks"},
+    {"id": "mesopotamia", "title": "메소포타미아 문명", "groupId": "civilizationPacks"},
+    {"id": "islamicGoldenAge", "title": "이슬람 황금기", "groupId": "civilizationPacks"},
     {"id": "extinctLife", "title": "멸종 생물"},
     {"id": "easternPhilosophy", "title": "동양 철학·사상"},
     {"id": "westernPhilosophy", "title": "서양 철학·사상"},
@@ -379,7 +384,7 @@
     "description": "메소포타미아의 우루크는 약 BC 3200년에 이르면 거대한 정착지이자 도시로 성장했고, 기록 체계의 초기 형태가 함께 나타났습니다.",
     "sourceName": "The Metropolitan Museum of Art",
     "sourceUrl": "https://www.metmuseum.org/essays/uruk-the-first-city",
-    "interestPackIds": ["civilizations", "urbanDevelopment"],
+    "interestPackIds": ["civilizations", "mesopotamia", "urbanDevelopment"],
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "estimatedRange",
@@ -745,7 +750,7 @@
     "description": "바빌로니아 수학은 60진 위치값 체계와 계산표를 발전시켜 수·대수 문제를 체계적으로 다뤘습니다.",
     "sourceName": "MacTutor History of Mathematics, University of St Andrews",
     "sourceUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Babylonian_mathematics/",
-    "interestPackIds": ["mathHistory", "civilizations"],
+    "interestPackIds": ["mathHistory", "civilizations", "mesopotamia"],
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "estimatedRange",
@@ -821,7 +826,7 @@
     "description": "알콰리즈미의 대수학 저작은 방정식 풀이를 독립된 학문으로 정리한 이슬람 황금기의 전환점입니다.",
     "sourceName": "MacTutor History of Mathematics, University of St Andrews",
     "sourceUrl": "https://mathshistory.st-andrews.ac.uk/DSB/Al-Khwarizmi.pdf",
-    "interestPackIds": ["mathHistory", "civilizations"],
+    "interestPackIds": ["mathHistory", "civilizations", "islamicGoldenAge"],
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "approximate",
