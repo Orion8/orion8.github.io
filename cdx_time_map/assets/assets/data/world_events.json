@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "2.1.0",
+  "catalogVersion": "2.2.0",
   "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packGroups": [
@@ -30,6 +30,7 @@
     {"id": "indusCivilization", "title": "인더스 문명", "groupId": "civilizationPacks"},
     {"id": "persianCivilization", "title": "페르시아 문명", "groupId": "civilizationPacks"},
     {"id": "mayaCivilization", "title": "마야 문명", "groupId": "civilizationPacks"},
+    {"id": "andeanCivilizations", "title": "안데스 문명", "groupId": "civilizationPacks"},
     {"id": "extinctLife", "title": "멸종 생물"},
     {"id": "easternPhilosophy", "title": "동양 철학·사상"},
     {"id": "westernPhilosophy", "title": "서양 철학·사상"},
@@ -1961,6 +1962,120 @@
       "kind": "approximate",
       "displayLabel": "약 900년 이후",
       "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-caral-supe",
+    "title": "카랄-수페, 아메리카 최초 문명 중심지의 형성",
+    "startAt": "-3000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "urbanDevelopment",
+    "importance": 3,
+    "description": "카랄-수페는 BC 3000~1800년 중앙 안데스에서 발전한 도시로, 기념비적 플랫폼과 원형 광장, 키푸의 초기 사용을 보여주는 아메리카 최초 문명 중심지입니다.",
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/1269/",
+    "interestPackIds": ["civilizations", "andeanCivilizations", "urbanDevelopment"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "displayLabel": "BC 3000~1800년",
+      "rangeEndAt": "-1800-01-01T00:00:00.000Z",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-chavin-culture",
+    "title": "차빈 문화의 안데스 종교·문화권 확산",
+    "startAt": "-1000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "artsCulture",
+    "importance": 3,
+    "description": "차빈은 안데스 최초의 대규모 통합 문화권으로, 독특한 예술·건축·도자 양식과 순례 중심지를 통해 넓은 지역에 영향을 주었습니다.",
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://americanindian.si.edu/caminoinka/ancestors/beginningsoftheroad/introduction.html",
+    "interestPackIds": ["civilizations", "andeanCivilizations", "artsFilm"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "displayLabel": "BC 1000년~100년",
+      "rangeEndAt": "0100-01-01T00:00:00.000Z",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-tiwanaku",
+    "title": "티와나쿠의 남부 안데스 영향권",
+    "startAt": "0400-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "urbanDevelopment",
+    "importance": 3,
+    "description": "티티카카 호수 인근의 티와나쿠는 종교·예술·건축으로 남부 안데스에 큰 영향을 미쳤고, 교역과 자원 분배를 위한 길을 구축했습니다.",
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://americanindian.si.edu/caminoinka/ancestors/beginningsoftheroad/introduction.html",
+    "interestPackIds": ["civilizations", "andeanCivilizations", "urbanDevelopment"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "displayLabel": "400~1000년",
+      "rangeEndAt": "1000-01-01T00:00:00.000Z",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-wari-empire",
+    "title": "와리 제국의 확장과 도로망",
+    "startAt": "0600-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "와리는 중앙 페루 고지대에서 세력을 확장하며 지방 중심지와 광범위한 도로망을 구축해 원격 지역을 통제했습니다.",
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://americanindian.si.edu/caminoinka/ancestors/beginningsoftheroad/introduction.html",
+    "interestPackIds": ["civilizations", "andeanCivilizations", "urbanDevelopment"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "displayLabel": "600~1100년",
+      "rangeEndAt": "1100-01-01T00:00:00.000Z",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-chimu-chan-chan",
+    "title": "치무의 찬찬 도시와 해안 관개 체계",
+    "startAt": "1100-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "urbanDevelopment",
+    "importance": 3,
+    "description": "치무의 수도 찬찬은 당시 서반구 최대 도시였으며, 길·운하·관개 체계를 통해 페루 북부 해안을 따라 세력을 확장했습니다.",
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://americanindian.si.edu/caminoinka/ancestors/beginningsoftheroad/introduction.html",
+    "interestPackIds": ["civilizations", "andeanCivilizations", "urbanDevelopment", "agriculture"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "displayLabel": "1100~1400년",
+      "rangeEndAt": "1400-01-01T00:00:00.000Z",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-inca-empire",
+    "title": "잉카 제국의 확장",
+    "startAt": "1438-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "쿠스코에서 출발한 잉카는 1438년부터 이웃 지역을 정복하며 서반구 최대 제국을 형성했고, 1533년까지 존속했습니다.",
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://americanindian.si.edu/caminoinka/ancestors/beginningsoftheroad/introduction.html",
+    "interestPackIds": ["civilizations", "andeanCivilizations"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "displayLabel": "1438~1533년",
+      "rangeEndAt": "1533-01-01T00:00:00.000Z",
+      "confidence": "high"
     }
   },
   {
