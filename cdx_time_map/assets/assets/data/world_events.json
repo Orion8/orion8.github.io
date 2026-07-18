@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "2.2.0",
+  "catalogVersion": "2.2.1",
   "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packGroups": [
@@ -1913,7 +1913,7 @@
     "title": "마야 고전기의 도시국가와 문자 문화",
     "startAt": "0600-01-01T00:00:00.000Z",
     "lane": "world",
-    "category": "artsCulture",
+    "category": "cultureEntertainment",
     "importance": 3,
     "description": "마야 고전기에는 경쟁과 동맹을 이루는 도시국가들이 번성했고, 왕실 중심의 예술·기념비·복합 문자 체계가 정치·신화적 사건을 기록했습니다.",
     "sourceName": "The Metropolitan Museum of Art",
@@ -1922,8 +1922,9 @@
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "estimatedRange",
+      "earliestAt": "0250-01-01T00:00:00.000Z",
+      "latestAt": "0900-01-01T00:00:00.000Z",
       "displayLabel": "250~900년 (고전기)",
-      "rangeEndAt": "0900-01-01T00:00:00.000Z",
       "confidence": "high"
     }
   },
@@ -1941,8 +1942,9 @@
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "estimatedRange",
+      "earliestAt": "0250-01-01T00:00:00.000Z",
+      "latestAt": "0900-01-01T00:00:00.000Z",
       "displayLabel": "250~900년 (전성기)",
-      "rangeEndAt": "0900-01-01T00:00:00.000Z",
       "confidence": "high"
     }
   },
@@ -1978,8 +1980,9 @@
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "estimatedRange",
+      "earliestAt": "-3000-01-01T00:00:00.000Z",
+      "latestAt": "-1800-01-01T00:00:00.000Z",
       "displayLabel": "BC 3000~1800년",
-      "rangeEndAt": "-1800-01-01T00:00:00.000Z",
       "confidence": "high"
     }
   },
@@ -1988,7 +1991,7 @@
     "title": "차빈 문화의 안데스 종교·문화권 확산",
     "startAt": "-1000-01-01T00:00:00.000Z",
     "lane": "world",
-    "category": "artsCulture",
+    "category": "cultureEntertainment",
     "importance": 3,
     "description": "차빈은 안데스 최초의 대규모 통합 문화권으로, 독특한 예술·건축·도자 양식과 순례 중심지를 통해 넓은 지역에 영향을 주었습니다.",
     "sourceName": "Smithsonian National Museum of the American Indian",
@@ -1997,8 +2000,9 @@
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "estimatedRange",
+      "earliestAt": "-1000-01-01T00:00:00.000Z",
+      "latestAt": "0100-01-01T00:00:00.000Z",
       "displayLabel": "BC 1000년~100년",
-      "rangeEndAt": "0100-01-01T00:00:00.000Z",
       "confidence": "medium"
     }
   },
@@ -2016,8 +2020,9 @@
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "estimatedRange",
+      "earliestAt": "0400-01-01T00:00:00.000Z",
+      "latestAt": "1000-01-01T00:00:00.000Z",
       "displayLabel": "400~1000년",
-      "rangeEndAt": "1000-01-01T00:00:00.000Z",
       "confidence": "medium"
     }
   },
@@ -2035,8 +2040,9 @@
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "estimatedRange",
+      "earliestAt": "0600-01-01T00:00:00.000Z",
+      "latestAt": "1100-01-01T00:00:00.000Z",
       "displayLabel": "600~1100년",
-      "rangeEndAt": "1100-01-01T00:00:00.000Z",
       "confidence": "medium"
     }
   },
@@ -2054,8 +2060,9 @@
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "estimatedRange",
+      "earliestAt": "1100-01-01T00:00:00.000Z",
+      "latestAt": "1400-01-01T00:00:00.000Z",
       "displayLabel": "1100~1400년",
-      "rangeEndAt": "1400-01-01T00:00:00.000Z",
       "confidence": "medium"
     }
   },
@@ -2073,8 +2080,9 @@
     "filterScope": "interestPackOnly",
     "timeEstimate": {
       "kind": "estimatedRange",
+      "earliestAt": "1438-01-01T00:00:00.000Z",
+      "latestAt": "1533-01-01T00:00:00.000Z",
       "displayLabel": "1438~1533년",
-      "rangeEndAt": "1533-01-01T00:00:00.000Z",
       "confidence": "high"
     }
   },
