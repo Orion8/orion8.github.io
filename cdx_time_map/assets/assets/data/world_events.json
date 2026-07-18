@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "2.2.1",
-  "updatedAt": "2026-07-17T00:00:00.000Z",
+  "catalogVersion": "2.2.2",
+  "updatedAt": "2026-07-18T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packGroups": [
     {"id": "civilizationPacks", "title": "문명의 출현과 쇠퇴"}
