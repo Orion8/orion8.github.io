@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "1.7.0",
+  "catalogVersion": "1.8.0",
   "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packGroups": [
@@ -26,6 +26,7 @@
     {"id": "islamicGoldenAge", "title": "이슬람 황금기", "groupId": "civilizationPacks"},
     {"id": "ancientEgypt", "title": "고대 이집트 문명", "groupId": "civilizationPacks"},
     {"id": "yellowRiver", "title": "황하 문명", "groupId": "civilizationPacks"},
+    {"id": "grecoRoman", "title": "그리스·로마 문명", "groupId": "civilizationPacks"},
     {"id": "extinctLife", "title": "멸종 생물"},
     {"id": "easternPhilosophy", "title": "동양 철학·사상"},
     {"id": "westernPhilosophy", "title": "서양 철학·사상"},
@@ -1542,6 +1543,138 @@
     "timeEstimate": {
       "kind": "exact",
       "displayLabel": "BC 221년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-greek-polis-formation",
+    "title": "그리스 폴리스의 형성",
+    "startAt": "-0800-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "기원전 8세기 무렵 그리스 도시국가 폴리스와 알파벳이 형성되고, 교역·식민 활동·범그리스 성소를 통한 새로운 정치·문화 질서가 자리 잡았습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/toah/hd/grge/hod-21.88.24.htm",
+    "interestPackIds": ["civilizations", "grecoRoman", "westernPhilosophy"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-0900-01-01T00:00:00.000Z",
+      "latestAt": "-0700-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 900–700 (기하학기)",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-athenian-democracy",
+    "title": "클레이스테네스의 아테네 민주정 개혁",
+    "startAt": "-0508-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "클레이스테네스의 개혁은 성년 남성 시민에게 정치적 책임을 넓게 배분한 아테네 민주정의 중요한 출발점이 됐습니다.",
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/sites/default/files/2023-04/Luxury_and_power_large_print_guide.pdf",
+    "interestPackIds": ["civilizations", "grecoRoman", "politicsHumanRights"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "BC 508년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-persian-wars",
+    "title": "그리스-페르시아 전쟁",
+    "startAt": "-0490-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "페르시아 전쟁은 그리스 세계의 정치·문화적 결속과 아테네의 부상을 이끈 분기점으로, 고전기 그리스의 형성에 큰 영향을 주었습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/es/essays/the-art-of-classical-greece-ca-480-323-b-c",
+    "interestPackIds": ["civilizations", "grecoRoman", "weapons"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-0490-01-01T00:00:00.000Z",
+      "latestAt": "-0479-01-01T00:00:00.000Z",
+      "displayLabel": "BC 490–479",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-alexander-conquests",
+    "title": "알렉산드로스 대왕의 정복과 헬레니즘",
+    "startAt": "-0334-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "알렉산드로스의 정복은 그리스에서 이집트·페르시아·인도까지 이어진 광대한 교류권을 만들었고, 그의 죽음은 헬레니즘 시대의 출발점으로 여겨집니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/pt/essays/art-of-the-hellenistic-age-and-the-hellenistic-tradition",
+    "interestPackIds": ["civilizations", "grecoRoman"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-0334-01-01T00:00:00.000Z",
+      "latestAt": "-0323-01-01T00:00:00.000Z",
+      "displayLabel": "BC 334–323",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-roman-republic",
+    "title": "로마 공화정의 시작",
+    "startAt": "-0509-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "로마는 왕정 이후 BC 509년부터 공화정이라는 새로운 정치 체제로 전환했고, 이후 지중해 세계의 강력한 도시국가로 성장했습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/de/essays/the-roman-republic",
+    "interestPackIds": ["civilizations", "grecoRoman", "politicsHumanRights"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "BC 509년",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-augustus-roman-empire",
+    "title": "아우구스투스와 로마 제정의 시작",
+    "startAt": "-0027-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "옥타비아누스는 원로원으로부터 아우구스투스 칭호를 받아 로마 제정과 프린키파투스의 출발점을 열었습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/de/essays/the-roman-empire-27-b-c-393-a-d",
+    "interestPackIds": ["civilizations", "grecoRoman"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "BC 27년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-fall-western-rome",
+    "title": "서로마 제국의 붕괴",
+    "startAt": "0476-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "오도아케르가 로물루스 아우구스툴루스를 폐위한 476년은 통상 서로마 제국의 종말로 간주되며, 동로마 제국은 이후 비잔티움으로 이어졌습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/de/essays/the-roman-empire-27-b-c-393-a-d",
+    "interestPackIds": ["civilizations", "grecoRoman"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "476년",
       "confidence": "high"
     }
   },
