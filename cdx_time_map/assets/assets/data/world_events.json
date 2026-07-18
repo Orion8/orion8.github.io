@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "1.8.0",
+  "catalogVersion": "1.9.0",
   "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packGroups": [
@@ -27,6 +27,7 @@
     {"id": "ancientEgypt", "title": "고대 이집트 문명", "groupId": "civilizationPacks"},
     {"id": "yellowRiver", "title": "황하 문명", "groupId": "civilizationPacks"},
     {"id": "grecoRoman", "title": "그리스·로마 문명", "groupId": "civilizationPacks"},
+    {"id": "indusCivilization", "title": "인더스 문명", "groupId": "civilizationPacks"},
     {"id": "extinctLife", "title": "멸종 생물"},
     {"id": "easternPhilosophy", "title": "동양 철학·사상"},
     {"id": "westernPhilosophy", "title": "서양 철학·사상"},
@@ -1676,6 +1677,106 @@
       "kind": "exact",
       "displayLabel": "476년",
       "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-early-harappa",
+    "title": "초기 하라파 정착과 도시화의 전개",
+    "startAt": "-3300-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "하라파 유적은 초기 농경 정착지에서 출발해 BC 3천년기 동안 확장됐고, 이후 인더스 도시 문명의 토대가 형성되었습니다.",
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/fr/listesindicatives/1878/",
+    "interestPackIds": ["civilizations", "indusCivilization"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-3300-01-01T00:00:00.000Z",
+      "latestAt": "-2600-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 3,300–2,600 (초기 하라파)",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-mature-harappan-cities",
+    "title": "하라파·모헨조다로 도시 문명의 성숙",
+    "startAt": "-2600-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "성숙 하라파기에는 하라파와 모헨조다로 같은 대도시가 격자형 도로·배수 시설·구획된 거주지와 공공 공간을 갖춘 계획도시로 발전했습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/sseasia.pdf",
+    "interestPackIds": ["civilizations", "indusCivilization", "urbanDevelopment"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-2600-01-01T00:00:00.000Z",
+      "latestAt": "-1900-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 2,600–1,900 (성숙 하라파)",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-indus-script-seals",
+    "title": "인더스 문자와 인장 사용",
+    "startAt": "-2600-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "인더스의 석제 인장에는 아직 해독되지 않은 문자와 동물 도상이 새겨졌으며, 기록·식별·교역의 중요한 증거로 남아 있습니다.",
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/collection/object/A_1947-0416-1",
+    "interestPackIds": ["civilizations", "indusCivilization"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-2600-01-01T00:00:00.000Z",
+      "latestAt": "-1900-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 2,600–1,900",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-indus-maritime-trade",
+    "title": "인더스-메소포타미아 장거리 교역",
+    "startAt": "-2300-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "economyBusiness",
+    "importance": 3,
+    "description": "인더스 계열 인장과 메소포타미아 기록은 멜루하 상인과 페르시아만을 잇는 해상 교역망을 보여 주며, 인더스 문명이 장거리 교환에 참여했음을 뒷받침합니다.",
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/collection/object/W_1932-1008-178",
+    "interestPackIds": ["civilizations", "indusCivilization", "economyFinance"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-2340-01-01T00:00:00.000Z",
+      "latestAt": "-1900-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 2,340–1,900",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-late-harappan-transition",
+    "title": "하라파 도시 체계의 전환",
+    "startAt": "-1900-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "BC 1900년 이후 하라파의 도시 체계는 전환기에 들어가고, 후기 하라파기에는 도시적·문자적 통합성이 약화된 여러 지역 문화로 변화했습니다.",
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/fr/listesindicatives/1878/",
+    "interestPackIds": ["civilizations", "indusCivilization"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-1900-01-01T00:00:00.000Z",
+      "latestAt": "-1300-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 1,900–1,300 (후기 하라파)",
+      "confidence": "medium"
     }
   },
   {

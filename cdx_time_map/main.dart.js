@@ -42920,7 +42920,7 @@ G(){return"_EventAction."+this.b}}
 A.Tk.prototype={}
 A.Pw.prototype={
 H(a){var s=null
-return new A.A_(B.Y5,"Time Map v0.19.0",A.uZ(s,A.aBe(B.al,s,s,B.eZ),"Arial",!0),!1,s)}}
+return new A.A_(B.Y5,"Time Map v0.20.0",A.uZ(s,A.aBe(B.al,s,s,B.eZ),"Arial",!0),!1,s)}}
 A.D3.prototype={
 af(){var s=t.YC
 return new A.H5(A.b([],s),A.b([],s),A.eR(B.cb,t.Wl),A.ap(t.N),B.f,B.G,B.f,null,null)}}
@@ -43326,14 +43326,14 @@ m.O$=p
 m.I$=0
 return A.N(null,r)}})
 return A.O($async$uz,r)},
-H(a){var s,r,q,p,o,n,m=this,l=null,k=t.p,j=A.cJ(A.b([A.dt(A.b([B.Y_,B.AZ,A.mh(l,B.XP,B.A,l,new A.eg(B.FR,l,l,A.xs(999),l,l,B.bq),l,l,l,B.HD,l,l,l)],k),B.X,B.y,B.V,0,l),B.XU],k),B.as,B.y,B.aM,0,B.R),i=A.b([A.kK(l,l,B.It,l,l,m.as==null?l:m.gakJ(),l,l,"\uad00\uc2ec\ud329 \uc2dc\ub300 \uc5f4\uae30"),A.kK(l,l,B.Ix,l,l,m.gakI(),l,l,"\uad00\uc2ec \uc774\ubca4\ud2b8 \uc124\uc815"),A.kK(l,l,B.Iv,l,l,m.gaji(),l,l,"\uacf5\uac04 \ucd08\uae30\ud654"),B.AZ],k),h=m.ay
+H(a){var s,r,q,p,o,n,m=this,l=null,k=t.p,j=A.cJ(A.b([A.dt(A.b([B.Y_,B.AZ,A.mh(l,B.XZ,B.A,l,new A.eg(B.FR,l,l,A.xs(999),l,l,B.bq),l,l,l,B.HD,l,l,l)],k),B.X,B.y,B.V,0,l),B.XT],k),B.as,B.y,B.aM,0,B.R),i=A.b([A.kK(l,l,B.It,l,l,m.as==null?l:m.gakJ(),l,l,"\uad00\uc2ec\ud329 \uc2dc\ub300 \uc5f4\uae30"),A.kK(l,l,B.Ix,l,l,m.gakI(),l,l,"\uad00\uc2ec \uc774\ubca4\ud2b8 \uc124\uc815"),A.kK(l,l,B.Iv,l,l,m.gaji(),l,l,"\uacf5\uac04 \ucd08\uae30\ud654"),B.AZ],k),h=m.ay
 if(h&&!m.ch)s=m.ga6A()
 else s=m.CW!=null?m.gage():l
 if(m.ch)h="\uc800\uc7a5 \uc911\u2026"
 else if(h)h="\ub0b4 \uc774\ubca4\ud2b8"
 else h=m.CW!=null?"\ub2e4\uc2dc \ubd88\ub7ec\uc624\uae30":"\ubd88\ub7ec\uc624\ub294 \uc911\u2026"
 h=A.bv(h,l,l,l,l,l,l,l)
-r=A.b([B.XR,B.B1],k)
+r=A.b([B.XQ,B.B1],k)
 q=m.as
 if(q!=null){p=q.d.length
 o=A.aRQ(q.c)
@@ -43383,14 +43383,14 @@ return new A.nr(new A.atk(s,A.d5(s.at,t.Wl),A.d5(s.ax,r),A.ap(r)),null)},
 $S:141}
 A.atk.prototype={
 $2(a,b){var s,r,q,p=this,o=null,n=p.a,m=t.RG,l=p.b,k=t.p
-m=A.b([B.XQ,B.mr,n.Rh(new A.ak(B.cb,new A.atb(),m),new A.atc(b,l),l,"\ub0b4 \uc774\ubca4\ud2b8"),B.mr,n.Rh(new A.ak(B.cb,new A.atd(),m),new A.ate(b,l),l,"\uc138\uacc4 \uc774\ubca4\ud2b8")],k)
+m=A.b([B.XP,B.mr,n.Rh(new A.ak(B.cb,new A.atb(),m),new A.atc(b,l),l,"\ub0b4 \uc774\ubca4\ud2b8"),B.mr,n.Rh(new A.ak(B.cb,new A.atd(),m),new A.ate(b,l),l,"\uc138\uacc4 \uc774\ubca4\ud2b8")],k)
 s=n.as
 r=s==null?o:s.e.length!==0
 if(r===!0){s.toString
 r=p.c
 q=p.d
-B.b.P(m,A.b([B.mr,B.XS,B.et,n.afN(s,q,new A.atf(b,r),new A.atg(b,q),new A.ath(b,r),r)],k))}n=A.cS(A.ayk(A.cJ(m,B.as,B.y,B.aM,0,B.R),o,B.aK),o,360)
-return A.awU(A.b([A.nv(B.mD,new A.ati(a),o),A.axv(B.XT,new A.atj(a,l,p.c))],k),n,B.XX)},
+B.b.P(m,A.b([B.mr,B.XR,B.et,n.afN(s,q,new A.atf(b,r),new A.atg(b,q),new A.ath(b,r),r)],k))}n=A.cS(A.ayk(A.cJ(m,B.as,B.y,B.aM,0,B.R),o,B.aK),o,360)
+return A.awU(A.b([A.nv(B.mD,new A.ati(a),o),A.axv(B.XS,new A.atj(a,l,p.c))],k),n,B.XW)},
 $S:132}
 A.atb.prototype={
 $1(a){return a.c===B.ag},
@@ -43581,7 +43581,7 @@ if(s==null){s=p.z
 s=s==null?q:s.d
 if(s==null)s=A.az9(p.c)}else s=A.az9(p.c)+" \u2013 "+A.az9(s)
 r=t.p
-s=A.b([B.XW,B.et,o,B.fZ,A.bv(s,q,q,q,B.Un,q,q,q)],r)
+s=A.b([B.XV,B.et,o,B.fZ,A.bv(s,q,q,q,B.Un,q,q,q)],r)
 o=p.z
 if(o!=null)B.b.P(s,A.b([B.B1,A.bv("\uc2dc\uac04 \uc815\ud655\ub3c4 \xb7 "+A.aTg(o.e),q,q,q,B.mC,q,q,q)],r))
 o=p.w
@@ -43618,7 +43618,7 @@ $1(a){return a.a===this.a.a},
 $S:37}
 A.asw.prototype={
 $1(a){var s=null,r=A.bv("\u201c"+this.a.b+"\u201d\uc744(\ub97c) \uc0ad\uc81c\ud560\uae4c\uc694?",s,s,s,s,s,s,s)
-return A.awU(A.b([A.nv(B.mD,new A.asu(a),s),A.axv(B.Bt,new A.asv(a))],t.p),r,B.XZ)},
+return A.awU(A.b([A.nv(B.mD,new A.asu(a),s),A.axv(B.Bt,new A.asv(a))],t.p),r,B.XY)},
 $S:301}
 A.asu.prototype={
 $0(){A.dr(this.a,!1).fu(!1)
@@ -97414,9 +97414,9 @@ B.Jd=new A.po(2,"top")
 B.pK=new A.po(3,"center")
 B.Je=new A.po(4,"bottom")
 B.h4=new A.k(!0,null,null,null,null,null,null,B.dj,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.XY=new A.dK("\uad00\uc2ec\ud329 \uc2dc\ub300 \uc5f4\uae30",null,B.h4,null,null,null,null,null,null,null)
-B.XV=new A.dK("\uc120\ud0dd\ud558\uba74 \ud574\ub2f9 \ud329\uc758 \uac00\uc7a5 \uc774\ub978 \uc0ac\uac74\uc73c\ub85c \uc774\ub3d9\ud569\ub2c8\ub2e4.",null,null,null,null,null,null,null,null,null)
-B.Jf=new A.zQ(null,B.XY,B.XV,null,null,null,null,null)
+B.XX=new A.dK("\uad00\uc2ec\ud329 \uc2dc\ub300 \uc5f4\uae30",null,B.h4,null,null,null,null,null,null,null)
+B.XU=new A.dK("\uc120\ud0dd\ud558\uba74 \ud574\ub2f9 \ud329\uc758 \uac00\uc7a5 \uc774\ub978 \uc0ac\uac74\uc73c\ub85c \uc774\ub3d9\ud569\ub2c8\ub2e4.",null,null,null,null,null,null,null,null,null)
+B.Jf=new A.zQ(null,B.XX,B.XU,null,null,null,null,null)
 B.KR=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
 B.Kx=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.LC=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
@@ -99420,19 +99420,19 @@ B.WG=new A.k(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.TI=new A.k(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.i,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.XN=new A.dT(B.Vz,B.Ur,B.VA,B.W0,B.U6,B.Uf,B.UM,B.VW,B.UY,B.Wo,B.TB,B.TT,B.Wk,B.WG,B.TI)
 B.XO=new A.dK("\ubb38\uba85\ubcc4 \ud558\uc704 \ud329",null,null,null,null,null,null,null,null,null)
-B.U9=new A.k(!0,B.eZ,null,null,null,null,11,B.cu,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.XP=new A.dK("v0.19.0",null,B.U9,null,null,null,null,null,null,null)
-B.XQ=new A.dK("\uc138\uacc4 \uc774\ubca4\ud2b8 \ubd84\ub958\uc640 \uad00\uc2ec \uc5ed\uc0ac \ud329\uc740 \ub3c5\ub9bd\uc801\uc73c\ub85c \ud45c\uc2dc\ud569\ub2c8\ub2e4.",null,B.mC,null,null,null,null,null,null,null)
+B.XP=new A.dK("\uc138\uacc4 \uc774\ubca4\ud2b8 \ubd84\ub958\uc640 \uad00\uc2ec \uc5ed\uc0ac \ud329\uc740 \ub3c5\ub9bd\uc801\uc73c\ub85c \ud45c\uc2dc\ud569\ub2c8\ub2e4.",null,B.mC,null,null,null,null,null,null,null)
 B.Va=new A.k(!0,B.hB,null,null,null,null,12,null,null,null,null,null,1.1,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.XR=new A.dK("\uba40\ub9ac \ucd95\uc18c\ud558\uba74 \uc2dc\ub300\ubcc4\ub85c \ubb36\uc774\uace0, \uac00\uae4c\uc774 \uac00\uba74 \uac1c\ubcc4 \uc774\ubca4\ud2b8\uac00 \ud3bc\uccd0\uc9d1\ub2c8\ub2e4.",null,B.Va,null,null,null,null,null,null,null)
-B.XS=new A.dK("\uad00\uc2ec \uc5ed\uc0ac \ud329",null,B.h4,null,null,null,null,null,null,null)
-B.XT=new A.dK("\uc801\uc6a9",null,null,null,null,null,null,null,null,null)
+B.XQ=new A.dK("\uba40\ub9ac \ucd95\uc18c\ud558\uba74 \uc2dc\ub300\ubcc4\ub85c \ubb36\uc774\uace0, \uac00\uae4c\uc774 \uac00\uba74 \uac1c\ubcc4 \uc774\ubca4\ud2b8\uac00 \ud3bc\uccd0\uc9d1\ub2c8\ub2e4.",null,B.Va,null,null,null,null,null,null,null)
+B.XR=new A.dK("\uad00\uc2ec \uc5ed\uc0ac \ud329",null,B.h4,null,null,null,null,null,null,null)
+B.XS=new A.dK("\uc801\uc6a9",null,null,null,null,null,null,null,null,null)
 B.UD=new A.k(!0,null,null,null,null,null,18,B.cu,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.XU=new A.dK("\uc2dc\uac04\uc758 \uacf5\uac04",null,B.UD,null,null,null,null,null,null,null)
-B.XW=new A.dK("\uc2dc\uac04 \uc18d \uc774\ubca4\ud2b8",null,B.mC,null,null,null,null,null,null,null)
-B.XX=new A.dK("\uad00\uc2ec \uc774\ubca4\ud2b8",null,null,null,null,null,null,null,null,null)
-B.XZ=new A.dK("\uc774\ubca4\ud2b8 \uc0ad\uc81c",null,null,null,null,null,null,null,null,null)
+B.XT=new A.dK("\uc2dc\uac04\uc758 \uacf5\uac04",null,B.UD,null,null,null,null,null,null,null)
+B.XV=new A.dK("\uc2dc\uac04 \uc18d \uc774\ubca4\ud2b8",null,B.mC,null,null,null,null,null,null,null)
+B.XW=new A.dK("\uad00\uc2ec \uc774\ubca4\ud2b8",null,null,null,null,null,null,null,null,null)
+B.XY=new A.dK("\uc774\ubca4\ud2b8 \uc0ad\uc81c",null,null,null,null,null,null,null,null,null)
 B.mD=new A.dK("\ucde8\uc18c",null,null,null,null,null,null,null,null,null)
+B.U9=new A.k(!0,B.eZ,null,null,null,null,11,B.cu,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.XZ=new A.dK("v0.20.0",null,B.U9,null,null,null,null,null,null,null)
 B.V9=new A.k(!0,null,null,null,null,null,13,B.dj,null,1.4,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Y_=new A.dK("TIME MAP",null,B.V9,null,null,null,null,null,null,null)
 B.Bt=new A.dK("\uc0ad\uc81c",null,null,null,null,null,null,null,null,null)
