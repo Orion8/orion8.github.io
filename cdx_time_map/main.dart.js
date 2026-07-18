@@ -42844,7 +42844,7 @@ G(){return"_EventAction."+this.b}}
 A.Th.prototype={}
 A.Pu.prototype={
 H(a){var s=null
-return new A.zZ(B.XZ,"Time Map v0.15.1",A.uX(s,A.aAP(B.al,s,s,B.eY),"Arial",!0),!1,s)}}
+return new A.zZ(B.XZ,"Time Map v0.16.0",A.uX(s,A.aAP(B.al,s,s,B.eY),"Arial",!0),!1,s)}}
 A.D2.prototype={
 af(){var s=t.YC
 return new A.H4(A.c([],s),A.c([],s),A.eQ(B.cb,t.Wl),A.ao(t.N),B.f,B.G,B.f,null,null)}}
@@ -43208,7 +43208,7 @@ m.O$=p
 m.I$=0
 return A.N(null,r)}})
 return A.O($async$ux,r)},
-H(a){var s,r,q,p,o,n,m=this,l=null,k=t.p,j=A.d2(A.c([A.dF(A.c([B.XT,B.AZ,A.mf(l,B.XU,B.A,l,new A.ef(B.FQ,l,l,A.xq(999),l,l,B.bq),l,l,l,B.HC,l,l,l)],k),B.W,B.z,B.a_,0,l),B.XN],k),B.aE,B.z,B.aM,0,B.T),i=A.c([A.kI(l,l,B.Ip,l,l,m.as==null?l:m.gakB(),l,l,"\uad00\uc2ec\ud329 \uc2dc\ub300 \uc5f4\uae30"),A.kI(l,l,B.It,l,l,m.gakA(),l,l,"\uad00\uc2ec \uc774\ubca4\ud2b8 \uc124\uc815"),A.kI(l,l,B.Ir,l,l,m.gaja(),l,l,"\uacf5\uac04 \ucd08\uae30\ud654"),B.AZ],k),h=m.ay
+H(a){var s,r,q,p,o,n,m=this,l=null,k=t.p,j=A.d2(A.c([A.dF(A.c([B.XT,B.AZ,A.mf(l,B.XV,B.A,l,new A.ef(B.FQ,l,l,A.xq(999),l,l,B.bq),l,l,l,B.HC,l,l,l)],k),B.W,B.z,B.a_,0,l),B.XN],k),B.aE,B.z,B.aM,0,B.T),i=A.c([A.kI(l,l,B.Ip,l,l,m.as==null?l:m.gakB(),l,l,"\uad00\uc2ec\ud329 \uc2dc\ub300 \uc5f4\uae30"),A.kI(l,l,B.It,l,l,m.gakA(),l,l,"\uad00\uc2ec \uc774\ubca4\ud2b8 \uc124\uc815"),A.kI(l,l,B.Ir,l,l,m.gaja(),l,l,"\uacf5\uac04 \ucd08\uae30\ud654"),B.AZ],k),h=m.ay
 if(h&&!m.ch)s=m.ga6w()
 else s=m.CW!=null?m.gag6():l
 if(m.ch)h="\uc800\uc7a5 \uc911\u2026"
@@ -43415,7 +43415,7 @@ o=p.x
 if(o!=null)B.b.S(s,A.c([B.fX,A.bG("\ucd9c\ucc98 \xb7 "+o,q,q,q,B.W8,q,q,q)],r))
 p=p.y
 if(p!=null)B.b.S(s,A.c([B.Sm,new A.BT(p,B.Uo,q)],r))
-if(this.b)B.b.S(s,A.c([B.Sj,A.dF(A.c([new A.MI(!0,new A.asG(a),q,q,q,q,q,q,!1,q,!0,q,new A.U8(B.XV,B.Iz,q,q,q),q),B.Sf,new A.CG(!0,new A.asH(a),q,q,q,q,B.A,q,!1,q,!0,q,new A.X9(B.Bs,B.IC,q,q,q),q)],r),B.W,B.z,B.a_,0,q)],r))
+if(this.b)B.b.S(s,A.c([B.Sj,A.dF(A.c([new A.MI(!0,new A.asG(a),q,q,q,q,q,q,!1,q,!0,q,new A.U8(B.XU,B.Iz,q,q,q),q),B.Sf,new A.CG(!0,new A.asH(a),q,q,q,q,B.A,q,!1,q,!0,q,new A.X9(B.Bs,B.IC,q,q,q),q)],r),B.W,B.z,B.a_,0,q)],r))
 return new A.b8(B.Hx,A.d2(s,B.aE,B.z,B.aM,0,B.T),q)},
 $S:283}
 A.asG.prototype={
@@ -99211,10 +99211,10 @@ B.XS=new A.e3("\uc774\ubca4\ud2b8 \uc0ad\uc81c",null,null,null,null,null,null,nu
 B.mD=new A.e3("\ucde8\uc18c",null,null,null,null,null,null,null,null,null)
 B.V4=new A.k(!0,null,null,null,null,null,13,B.dj,null,1.4,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.XT=new A.e3("TIME MAP",null,B.V4,null,null,null,null,null,null,null)
-B.U4=new A.k(!0,B.eY,null,null,null,null,11,B.cu,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.XU=new A.e3("v0.15.1",null,B.U4,null,null,null,null,null,null,null)
 B.Bs=new A.e3("\uc0ad\uc81c",null,null,null,null,null,null,null,null,null)
-B.XV=new A.e3("\uc218\uc815",null,null,null,null,null,null,null,null,null)
+B.XU=new A.e3("\uc218\uc815",null,null,null,null,null,null,null,null,null)
+B.U4=new A.k(!0,B.eY,null,null,null,null,11,B.cu,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.XV=new A.e3("v0.16.0",null,B.U4,null,null,null,null,null,null,null)
 B.a0D=new A.agX(0,"system")
 B.Ob=new A.f(0.056,0.024)
 B.Oq=new A.f(0.108,0.3085)

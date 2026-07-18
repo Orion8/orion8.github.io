@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "1.4.0",
+  "catalogVersion": "1.5.0",
   "updatedAt": "2026-07-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "packs": [
@@ -1117,6 +1117,312 @@
     "timeEstimate": {
       "kind": "approximate",
       "displayLabel": "1994–1995년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-faraday-semiconductor-effect",
+    "title": "반도체 효과의 최초 기록",
+    "startAt": "1833-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "마이클 패러데이는 황화은의 전도도가 온도와 함께 증가함을 관찰해, 오늘날 반도체 특성으로 이해되는 효과를 처음 기록했습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/first-semiconductor-effect-is-recorded/",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1833년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-braun-rectifier",
+    "title": "점접촉 반도체 정류 효과 발견",
+    "startAt": "1874-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "페르디난트 브라운은 금속 점과 방연석 결정의 접촉에서 전류가 한 방향으로 더 잘 흐르는 현상을 기록해 반도체 다이오드의 선구를 만들었습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/semiconductor-point-contact-rectifier-effect-is-discovered/",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1874년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-bose-crystal-detector",
+    "title": "결정 검파기 특허",
+    "startAt": "1901-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 2,
+    "description": "자갓디시 찬드라 보스는 전파 검출을 위한 점접촉 반도체 결정 정류기를 특허 출원해 초기 무선 전자공학에 연결했습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/semiconductor-rectifiers-patented-as-cats-whisker-detectors/",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1901년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-fleming-vacuum-diode",
+    "title": "플레밍 진공관 다이오드 특허",
+    "startAt": "1904-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 2,
+    "description": "존 플레밍의 2극 진공관 정류기는 초기 전자공학의 실용적 전자소자를 열었고, 이후 반도체 소자가 대체할 기준 기술이 됐습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/revolution/story/271",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1904년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-lilienfeld-fet-patent",
+    "title": "전계효과 반도체 증폭기 개념 특허",
+    "startAt": "1926-10-08T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "율리우스 릴리엔펠트는 황화구리 기반 3전극 증폭기를 특허 출원했습니다. 이는 오늘날 FET로 부를 장치의 이른 개념이었습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/field-effect-semiconductor-device-concepts-patented/",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1926년 10월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-wilson-semiconductor-theory",
+    "title": "반도체 이론 논문 발표",
+    "startAt": "1931-10-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "앨런 윌슨은 양자역학으로 불순물 원자가 반도체 성질을 만든다는 모형을 제시해 고체 전자공학의 이론적 토대를 넓혔습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/the-theory-of-electronic-semi-conductors-is-published/",
+    "interestPackIds": ["semiconductor", "physicsChemistry"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1931년 10월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-first-silicon-transistor",
+    "title": "실리콘 트랜지스터 제작과 상용화",
+    "startAt": "1954-01-26T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "Bell Labs의 모리스 타넨바움이 첫 실리콘 트랜지스터를 만들고, Texas Instruments가 같은 해 상용 실리콘 트랜지스터를 선보이며 실리콘 시대가 본격화됐습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/silicon-transistors-offer-superior-operating-characteristics/",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1954년 1월–5월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-planar-process",
+    "title": "평면 공정 발명",
+    "startAt": "1959-03-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "장 헤르니의 평면 공정은 산화막으로 접합을 보호하고 웨이퍼 한 면에서 소자를 만들 수 있게 해 대량 집적회로 제조의 기반을 마련했습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/invention-of-the-planar-manufacturing-process/",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1959년 3월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-mosfet-demonstration",
+    "title": "MOS 트랜지스터 실증",
+    "startAt": "1960-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "John Atalla와 Dawon Kahng은 실리콘-산화막 계면을 활용한 최초의 성공적인 MOS 전계효과 증폭기를 실증했습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/metal-oxide-semiconductor-mos-transistor-demonstrated/",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1960년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-cmos-invention",
+    "title": "CMOS 회로 구성 발명",
+    "startAt": "1963-02-20T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "Frank Wanlass와 C. T. Sah는 p형·n형 MOS를 상보적으로 결합한 저대기전력 회로를 제시해 오늘날 지배적인 CMOS 기술의 출발점을 만들었습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/complementary-mos-circuit-configuration-is-invented/",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1963년 2월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-moores-law",
+    "title": "무어의 법칙 논문 발표",
+    "startAt": "1965-04-19T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "고든 무어는 집적회로의 부품 수 증가 추세를 예측한 글을 발표했고, 이는 반도체 집적도 발전을 가늠하는 산업의 기준점이 됐습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/moores-law-predicts-the-future-of-integrated-circuits/",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "1965년 4월 19일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-silicon-gate-technology",
+    "title": "실리콘 게이트 IC 기술 개발",
+    "startAt": "1968-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "페데리코 파진과 동료들은 실리콘 게이트 구조로 MOS IC의 속도·신뢰성·집적도를 높였고, 이는 메모리와 마이크로프로세서 발전을 가능하게 했습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/silicon-gate-technology-developed-for-ics/",
+    "interestPackIds": ["semiconductor", "computerHistory"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1968년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-intel-1103-dram",
+    "title": "Intel 1103 DRAM의 메모리 전환",
+    "startAt": "1970-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "Intel 1103 DRAM은 가격과 성능에서 자기 코어 메모리에 도전하며 대용량 반도체 메모리가 컴퓨터 주기억장치가 되는 전환을 이끌었습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/mos-dynamic-ram-competes-with-magnetic-core-memory-on-price/",
+    "interestPackIds": ["semiconductor", "computerHistory"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1970년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-dennard-scaling",
+    "title": "데너드 스케일링 정식화",
+    "startAt": "1974-10-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "Robert Dennard와 동료들의 논문은 MOS 소자를 축소할 때 성능과 전력을 어떻게 함께 개선할 수 있는지 정식화해 미세화 경쟁의 물리적 토대를 제공했습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/scaling-of-ic-process-design-rules-quantified/",
+    "interestPackIds": ["semiconductor", "physicsChemistry"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1974년 10월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-single-chip-dsp",
+    "title": "단일 칩 디지털 신호처리기 도입",
+    "startAt": "1979-05-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 2,
+    "description": "Bell Labs의 DSP-1은 전자 교환 시스템을 위한 단일 칩 디지털 신호처리기 구조를 제시해 통신·음성·영상 전자기기의 집적화를 가속했습니다.",
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://www.computerhistory.org/siliconengine/single-chip-digital-signal-processor-introduced/",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1979년 5월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-tsmc-foundry",
+    "title": "TSMC 설립과 순수 파운드리 모델",
+    "startAt": "1987-02-21T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "TSMC는 설계 고객의 칩 제조에만 집중하는 순수 파운드리 모델을 개척해 반도체 설계와 제조의 분업 구조를 크게 바꿨습니다.",
+    "sourceName": "TSMC",
+    "sourceUrl": "https://investor.tsmc.com/static/annualReports/2012/english/e_2_1.html",
+    "interestPackIds": ["semiconductor", "economyFinance"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "1987년 2월 21일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-intel-trigate",
+    "title": "22nm 3D Tri-Gate 트랜지스터 발표",
+    "startAt": "2011-05-04T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "Intel은 채널의 세 면을 제어하는 3차원 Tri-Gate 구조를 발표했고, 이는 누설 전류를 줄이며 미세화 이후의 성능·전력 개선을 이어가는 중요한 전환점이 됐습니다.",
+    "sourceName": "Intel",
+    "sourceUrl": "https://www.intel.com/content/dam/www/public/us/en/documents/backgrounders/standards-revolutionary-22nm-transistor-technology-presentation.pdf",
+    "interestPackIds": ["semiconductor"],
+    "filterScope": "interestPackOnly",
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "2011년 5월 4일",
       "confidence": "high"
     }
   },
