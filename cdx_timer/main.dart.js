@@ -41759,7 +41759,7 @@ $1(a){var s=null,r=B.o2[a],q=this.a,p=q.f.a,o=a<q.d,n=o?A.aIr(q.r):B.Cv,m=q.r,l=
 return A.hx(s,A.at0(s,new A.cY(n,s,l,B.X,o?A.c([new A.cK(0.3,B.au,A.aem(m).b2(0.78),B.h,p*0.75),new A.cK(0.7,B.au,A.aem(m).b2(0.38),B.h,p*1.7)],t.sq):s,s,B.av),B.EV,p,new A.bx("minute-box-"+(q.e+a),t.W),s,p),s,s,r.a*p,s,r.b*p,s)},
 $S:321}
 A.NK.prototype={
-O(a){var s="2026.07.18.22.35.59",r=null
+O(a){var s="2026.07.19.16.28.42",r=null
 return A.cj(r,A.eu(s,B.Xw,r,r,r,B.Sh,B.c4,r),!1,r,r,!1,r,r,r,r,r,r,r,"App build version",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s)}}
 A.Od.prototype={
 O(a){var s=null,r=this.c
@@ -42357,118 +42357,121 @@ r===$&&A.a()
 return A.pq(p,A.cL(s,s,s,new A.Ql(r,q.d,s),new A.B(o,o)))},
 $S:36}
 A.Ql.prototype={
-ak(a3,a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=this.b,a1=Math.sin(a0*3.141592653589793*2)*2.2,a2=a3.a
-J.ac(a2.save())
-a3.ap(a4.a/96)
-if(!this.c){a2.translate(96,0)
-a3.h7(-1,1)}s=$.Q()
+ak(b0,b1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3=this.b,a4=a3*3.141592653589793*2,a5=Math.sin(a4)*2.2,a6=Math.sin(a4),a7=Math.sin(a4+0.85)*2.2,a8=a5+a7*0.34,a9=b0.a
+J.ac(a9.save())
+b0.ap(b1.a/96)
+if(!this.c){a9.translate(96,0)
+b0.h7(-1,1)}s=$.Q()
 r=A.I()
 r.r=B.df.b2(0.42).gm()
 r.b=B.w
 r.c=8
 r.d=B.A
 r.z=B.kF
+q=a6*6.2
+p=66+a5+q
+o=75+a5
+n=o+a6*3.6
+m=o-a6*4.8
 s=s.r
-q=A.ap(s)
-p=66+a1
-q.B(new A.b1(12,p))
-q.B(new A.bn(44,58+a1,80,64+a1))
-o=62+a1
-q.B(new A.bn(88,67+a1,91,o))
-n=75+a1
-q.B(new A.bn(88,n,78,n))
-q.B(new A.bn(44,72+a1,16,n))
-q.B(new A.bn(8,76+a1,12,p))
-q.B(new A.bH())
-a3.aM(q,r)
-p=A.I()
-p.r=B.CD.gm()
-a3.aM(q,p)
-p=A.I()
-p.r=B.df.gm()
-p.b=B.w
-p.c=2
-a3.aM(q,p)
-m=A.I()
-m.r=B.CM.gm()
-for(p=68+a1,l=0;l<4;++l){k=27+l*13
-j=m.bc()
-a2.drawCircle(k,p,2.2,j)
-j.delete()
-n=new A.he(B.bc,B.aX,B.cr,B.cs,B.be)
-n.r=B.df.gm()
-j=n.bc()
-a2.drawCircle(k,p,0.9,j)
-j.delete()}i=A.I()
-i.r=B.df.gm()
-i.c=1.8
-i.d=B.A
-p=73+a1
-a3.c8(new A.e(14,p),new A.e(9,79+a1),i)
-a3.c8(new A.e(84,p),new A.e(89,78+a1),i)
-h=A.ap(s)
-h.B(new A.b1(45,41+a1))
-h.B(new A.au(59,42+a1))
-h.B(new A.au(62,o))
-h.B(new A.au(42,63+a1))
-h.B(new A.bH())
-o=A.I()
-o.r=B.DD.gm()
-a3.aM(h,o)
-o=A.I()
+l=A.ap(s)
+l.B(new A.b1(12,p))
+l.B(new A.bn(41,58+a5-a7,80,64+a5-a6*3.5))
+l.B(new A.bn(89,67+a5-q,91,62+a5-a6*7.6))
+l.B(new A.bn(88,m+a6*2.2,78,m))
+l.B(new A.bn(44,73+a5+a7*0.9,16,n))
+l.B(new A.bn(7,n+a6*2.8,12,p))
+l.B(new A.bH())
+b0.aM(l,r)
+q=A.I()
+q.r=B.CD.gm()
+b0.aM(l,q)
+q=A.I()
+q.r=B.df.gm()
+q.b=B.w
+q.c=2
+b0.aM(l,q)
+k=A.I()
+k.r=B.CM.gm()
+for(q=68+a5,j=0;j<4;++j){i=27+j*13
+h=q+Math.sin(a4+j*0.9)*2.3
+g=k.bc()
+a9.drawCircle(i,h,2.2,g)
+g.delete()
+o=new A.he(B.bc,B.aX,B.cr,B.cs,B.be)
 o.r=B.df.gm()
-o.b=B.w
-o.c=1.5
-a3.aM(h,o)
-g=A.I()
-g.r=B.mz.gm()
-o=33+a1
-a3.bF(new A.e(55,o),7.2,g)
-f=A.ap(s)
-f.B(new A.b1(47,31+a1))
-f.B(new A.bn(53,22+a1,61,27+a1))
-f.B(new A.au(64,32+a1))
-f.B(new A.au(55,29+a1))
-p=36+a1
-f.B(new A.au(49,p))
-f.B(new A.bH())
-n=A.I()
-n.r=B.Cm.gm()
-a3.aM(f,n)
-n=A.I()
-n.r=B.DX.gm()
-a3.bF(new A.e(58,o),1.1,n)
-e=A.I()
-e.r=B.mz.gm()
-e.b=B.w
-e.c=3.7
-e.d=B.A
-a3.c8(new A.e(58,44+a1),new A.e(68,38+a1),e)
+g=o.bc()
+a9.drawCircle(i,h,0.9,g)
+g.delete()}f=A.I()
+f.r=B.df.gm()
+f.c=1.8
+f.d=B.A
+a4=a6*3
+b0.c8(new A.e(14,n),new A.e(7-a4,n+7+a4),f)
+b0.c8(new A.e(84,m),new A.e(91-a4,m+6-a4),f)
+e=A.ap(s)
+e.B(new A.b1(45,41+a8))
+e.B(new A.au(59,42+a8))
+e.B(new A.au(62,62+a8))
+e.B(new A.au(42,63+a8))
+e.B(new A.bH())
+a4=A.I()
+a4.r=B.DD.gm()
+b0.aM(e,a4)
+a4=A.I()
+a4.r=B.df.gm()
+a4.b=B.w
+a4.c=1.5
+b0.aM(e,a4)
 d=A.I()
-d.r=B.fC.b2(0.72).gm()
-d.z=B.uh
-n=35+a1
-a3.bF(new A.e(70,n),8,d)
+d.r=B.mz.gm()
+a4=33+a8
+b0.bF(new A.e(55,a4),7.2,d)
 c=A.ap(s)
-c.B(new A.b1(64,n))
-c.B(new A.bn(68,30+a1,74,n))
-c.B(new A.bn(72,40+a1,66,39+a1))
+c.B(new A.b1(47,31+a8))
+c.B(new A.bn(53,22+a8,61,27+a8))
+c.B(new A.au(64,32+a8))
+c.B(new A.au(55,29+a8))
+q=36+a8
+c.B(new A.au(49,q))
 c.B(new A.bH())
+o=A.I()
+o.r=B.Cm.gm()
+b0.aM(c,o)
+o=A.I()
+o.r=B.DX.gm()
+b0.bF(new A.e(58,a4),1.1,o)
+b=A.I()
+b.r=B.mz.gm()
+b.b=B.w
+b.c=3.7
+b.d=B.A
+b0.c8(new A.e(58,44+a8),new A.e(68,38+a8),b)
+a=A.I()
+a.r=B.fC.b2(0.72).gm()
+a.z=B.uh
+o=35+a8
+b0.bF(new A.e(70,o),8,a)
+a0=A.ap(s)
+a0.B(new A.b1(64,o))
+a0.B(new A.bn(68,30+a8,74,o))
+a0.B(new A.bn(72,40+a8,66,39+a8))
+a0.B(new A.bH())
 s=A.I()
 s.r=B.ee.gm()
-a3.aM(c,s)
+b0.aM(a0,s)
 s=A.I()
 s.r=B.ee.gm()
 s.c=2.4
 s.d=B.A
-a3.c8(new A.e(73,n),new A.e(81,p),s)
-for(b=0;b<3;++b){a=B.c.aB(a0+b*0.28,1)
-s=Math.sin(a*3.141592653589793*2)
-p=new A.he(B.bc,B.aX,B.cr,B.cs,B.be)
-p.r=B.Cl.b2(1-a*0.55).gm()
-j=p.bc()
-a2.drawCircle(76+b*5-a*7,o+s*4,1.2+(1-a)*1.2,j)
-j.delete()}a2.restore()},
+b0.c8(new A.e(73,o),new A.e(81,q),s)
+for(a1=0;a1<3;++a1){a2=B.c.aB(a3+a1*0.28,1)
+s=Math.sin(a2*3.141592653589793*2)
+q=new A.he(B.bc,B.aX,B.cr,B.cs,B.be)
+q.r=B.Cl.b2(1-a2*0.55).gm()
+g=q.bc()
+a9.drawCircle(76+a1*5-a2*7,a4+s*4,1.2+(1-a2)*1.2,g)
+g.delete()}a9.restore()},
 c0(a){return a.b!==this.b||a.c!==this.c}}
 A.vd.prototype={
 ai(){return new A.N4(null,null)}}
