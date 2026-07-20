@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "3.0.0",
-  "updatedAt": "2026-07-18T00:00:00.000Z",
+  "catalogVersion": "3.1.0",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
     {"id": "civilizationPacks", "title": "문명"}
@@ -2001,6 +2001,57 @@
     "sourceName": "UNFCCC",
     "sourceUrl": "https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement",
     "topicIds": ["climateEnvironment"]
+  },
+  {
+    "id": "sports-fifa-world-cup-2026",
+    "title": "FIFA 월드컵 2026",
+    "startAt": "2026-06-11T00:00:00.000Z",
+    "endAt": "2026-07-19T00:00:00.000Z",
+    "lane": "world",
+    "category": "sports",
+    "importance": 3,
+    "description": "FIFA 남자 월드컵의 23번째 대회입니다. 48개국이 캐나다·멕시코·미국의 16개 개최 도시에서 104경기를 치릅니다.",
+    "sourceName": "FIFA",
+    "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+    "topicIds": ["sportsHistory"],
+    "seriesId": "fifa-mens-world-cup",
+    "seriesName": "FIFA 남자 월드컵",
+    "recurrenceYears": 4,
+    "hostLocation": "캐나다·멕시코·미국 (16개 개최 도시)"
+  },
+  {
+    "id": "sports-fifa-womens-world-cup-2027",
+    "title": "FIFA 여자 월드컵 브라질 2027",
+    "startAt": "2027-06-24T00:00:00.000Z",
+    "endAt": "2027-07-25T00:00:00.000Z",
+    "lane": "world",
+    "category": "sports",
+    "importance": 3,
+    "description": "FIFA 여자 월드컵의 10번째 대회이자 남미에서 처음 열리는 대회입니다. 32개국이 브라질의 8개 개최 도시에서 경기를 치릅니다.",
+    "sourceName": "FIFA",
+    "sourceUrl": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/host-cities",
+    "topicIds": ["sportsHistory"],
+    "seriesId": "fifa-womens-world-cup",
+    "seriesName": "FIFA 여자 월드컵",
+    "recurrenceYears": 4,
+    "hostLocation": "브라질 (8개 개최 도시)"
+  },
+  {
+    "id": "sports-la-summer-olympics-2028",
+    "title": "LA 2028 하계 올림픽",
+    "startAt": "2028-07-14T00:00:00.000Z",
+    "endAt": "2028-07-30T00:00:00.000Z",
+    "lane": "world",
+    "category": "sports",
+    "importance": 3,
+    "description": "제34회 하계 올림픽입니다. 2024년 파리 대회 다음으로 미국 로스앤젤레스에서 열립니다.",
+    "sourceName": "International Olympic Committee",
+    "sourceUrl": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=3703315&parentDocumentId=172552&skipCopyright=true&skipWatermark=true",
+    "topicIds": ["sportsHistory"],
+    "seriesId": "summer-olympic-games",
+    "seriesName": "하계 올림픽",
+    "recurrenceYears": 4,
+    "hostLocation": "미국 로스앤젤레스"
   }
   ]
 }
