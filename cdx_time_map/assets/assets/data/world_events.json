@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "3.1.5",
+  "catalogVersion": "3.1.6",
   "updatedAt": "2026-07-20T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
@@ -149,6 +149,92 @@
     "topicIds": ["spaceDevelopment"]
   },
   {
+    "id": "historic-voyager-launches",
+    "title": "보이저 1·2호 발사",
+    "startAt": "1977-08-20T00:00:00.000Z",
+    "endAt": "1977-09-05T00:00:00.000Z",
+    "lane": "world",
+    "category": "space",
+    "importance": 3,
+    "description": "보이저 2호와 1호는 드문 행성 정렬을 활용해 목성·토성과 외행성을 탐사하기 위해 차례로 발사됐습니다. 두 탐사선은 이후 태양권 경계 너머 탐사를 이어갔습니다.",
+    "sourceName": "NASA Jet Propulsion Laboratory",
+    "sourceUrl": "https://www.jpl.nasa.gov/ed-stone-trail/",
+    "topicIds": ["spaceDevelopment", "physicsChemistry"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "1977년 8월 20일·9월 5일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-voyager-1-interstellar-space",
+    "title": "보이저 1호의 성간공간 진입",
+    "startAt": "2012-08-25T00:00:00.000Z",
+    "lane": "world",
+    "category": "space",
+    "importance": 3,
+    "description": "보이저 1호는 태양권 경계를 넘어 성간공간에 진입한 최초의 인공물입니다. 탐사선은 지금도 데이터를 보내고 있습니다.",
+    "sourceName": "NASA Science",
+    "sourceUrl": "https://science.nasa.gov/mission/voyager/interstellar-mission/",
+    "topicIds": ["spaceDevelopment", "physicsChemistry"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "2012년 8월 25일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-iss-zarya-launch",
+    "title": "국제우주정거장 조립 시작",
+    "startAt": "1998-11-20T00:00:00.000Z",
+    "lane": "world",
+    "category": "space",
+    "importance": 3,
+    "description": "자랴 모듈이 발사되며 국제우주정거장 조립이 시작됐습니다. 이어 여러 나라의 모듈과 승무원이 더해져 지속적인 미세중력 연구 거점이 되었습니다.",
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/international-space-station/international-space-station-assembly-elements/",
+    "topicIds": ["spaceDevelopment", "politicsHumanRights"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "1998년 11월 20일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-james-webb-launch",
+    "title": "제임스 웹 우주망원경 발사",
+    "startAt": "2021-12-25T00:00:00.000Z",
+    "lane": "world",
+    "category": "space",
+    "importance": 3,
+    "description": "제임스 웹 우주망원경은 적외선으로 초기 은하·별과 행성의 형성을 연구하기 위해 발사됐습니다. NASA·ESA·캐나다우주국의 국제 공동 임무입니다.",
+    "sourceName": "NASA Science",
+    "sourceUrl": "https://science.nasa.gov/mission/webb/launch/",
+    "topicIds": ["spaceDevelopment", "physicsChemistry"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "2021년 12월 25일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-james-webb-first-images",
+    "title": "제임스 웹 첫 과학 이미지 공개",
+    "startAt": "2022-07-12T00:00:00.000Z",
+    "lane": "world",
+    "category": "space",
+    "importance": 3,
+    "description": "제임스 웹의 첫 컬러 이미지와 분광 자료가 공개되며 정식 과학 운영이 시작됐습니다. 초기 우주와 별 탄생 영역을 전례 없는 적외선 해상도로 보여주었습니다.",
+    "sourceName": "NASA Science",
+    "sourceUrl": "https://science.nasa.gov/mission/webb/webb-mission-timeline/",
+    "topicIds": ["spaceDevelopment", "physicsChemistry"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "2022년 7월 12일",
+      "confidence": "high"
+    }
+  },
+  {
     "id": "historic-world-heritage",
     "title": "세계유산협약 채택",
     "startAt": "1972-11-16T00:00:00.000Z",
@@ -194,7 +280,7 @@
     "description": "디스커버리호가 허블 우주망원경을 싣고 발사됐습니다.",
     "sourceName": "NASA",
     "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/missions-to-hubble/deployment/",
-    "topicIds": ["physicsChemistry"]
+    "topicIds": ["spaceDevelopment", "physicsChemistry"]
   },
   {
     "id": "historic-web",
