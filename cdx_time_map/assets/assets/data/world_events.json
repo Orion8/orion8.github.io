@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "3.1.3",
+  "catalogVersion": "3.1.4",
   "updatedAt": "2026-07-20T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
@@ -886,6 +886,125 @@
     "timeEstimate": {
       "kind": "approximate",
       "displayLabel": "628년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-house-of-wisdom",
+    "title": "바그다드 지혜의 집과 번역 운동",
+    "startAt": "0832-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "바그다드의 지혜의 집은 과학 문헌을 아랍어로 번역·연구·보존한 학술 중심지였습니다. 이 시기의 지식 교류는 수학·의학·천문학 발전을 뒷받침했습니다.",
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://guides.loc.gov/medieval-islamic-science",
+    "topicIds": ["civilizations", "islamicGoldenAge", "urbanDevelopment"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "832년",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-al-razi-medicine",
+    "title": "알라지의 의학 지식 체계화",
+    "startAt": "0900-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "globalHealth",
+    "importance": 3,
+    "description": "페르시아 출신 의사 알라지는 이슬람 의학 지식을 대규모 저작으로 정리했고, 홍역과 천연두를 다룬 초기 의학자로도 알려져 있습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://82nd-and-fifth.metmuseum.org/learn/educators/curriculum-resources/art-of-the-islamic-world/~/media/Files/Learn/For%20Educators/Publications%20for%20Educators/Islamic%20Teacher%20Resource/Unit4.pdf",
+    "topicIds": ["civilizations", "islamicGoldenAge", "medicineHealth"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "9세기 말",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-al-sufi-fixed-stars",
+    "title": "알수피의 《항성의 서》",
+    "startAt": "0964-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "space",
+    "importance": 3,
+    "description": "페르시아 천문학자 알수피는 별자리의 지상 관측과 천구상 관점을 함께 그려, 이슬람권 천문 관측 전통에 중요한 기준을 남겼습니다.",
+    "sourceName": "University of Oxford History of Science Museum",
+    "sourceUrl": "https://www.hsm.ox.ac.uk/science-islamic-world",
+    "topicIds": ["civilizations", "islamicGoldenAge", "spaceDevelopment"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 964년",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-al-zahrawi-surgery",
+    "title": "알자흐라위의 외과 의학서",
+    "startAt": "1000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "globalHealth",
+    "importance": 3,
+    "description": "알자흐라위의 《알타스리프》는 외과를 포괄적으로 다룬 삽화 수록 의학서입니다. 이 저작은 이슬람권과 유럽에서 널리 읽혔습니다.",
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/item/2021666859/",
+    "topicIds": ["civilizations", "islamicGoldenAge", "medicineHealth"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 1000년",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-ibn-al-haytham-optics",
+    "title": "이븐 알하이삼의 광학 연구",
+    "startAt": "1021-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "이븐 알하이삼은 빛이 물체에서 눈으로 들어온다는 관점과 수학·관찰을 결합해 시각과 광학 연구의 중요한 토대를 마련했습니다.",
+    "sourceName": "University of Oxford",
+    "sourceUrl": "https://philosophy-of-cosmology.ox.ac.uk/alhazen.html",
+    "topicIds": ["civilizations", "islamicGoldenAge", "physicsChemistry"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 1021년",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-avicenna-canon-medicine",
+    "title": "이븐 시나의 《의학 정전》",
+    "startAt": "1025-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "globalHealth",
+    "importance": 3,
+    "description": "이븐 시나의 《의학 정전》은 질병을 체계적으로 분류하고 치료를 다룬 의학서로, 중세 유럽의 의학교육에도 오랫동안 영향을 주었습니다.",
+    "sourceName": "Wellcome Collection",
+    "sourceUrl": "https://wellcomecollection.org/stories/revelations-of-blindness-in-the-middle-ages",
+    "topicIds": ["civilizations", "islamicGoldenAge", "medicineHealth"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1025년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-maragha-observatory",
+    "title": "마라게 천문대 건립",
+    "startAt": "1259-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "space",
+    "importance": 3,
+    "description": "나시르 알딘 투시가 이끈 마라게 천문대는 관측 장비·도서관·교육을 갖춘 연구기관으로, 행성 운동을 설명하는 천문학 연구에 큰 영향을 주었습니다.",
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/uploads/activities/documents/activity-631-1.pdf",
+    "topicIds": ["civilizations", "islamicGoldenAge", "spaceDevelopment", "physicsChemistry"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1259년",
       "confidence": "high"
     }
   },
