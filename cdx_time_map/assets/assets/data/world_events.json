@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "3.1.4",
+  "catalogVersion": "3.1.5",
   "updatedAt": "2026-07-20T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
@@ -307,6 +307,74 @@
     }
   },
   {
+    "id": "historic-dodo-extinction",
+    "title": "도도의 멸종",
+    "startAt": "1662-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "모리셔스의 비행 불능 조류 도도는 인간 정착 뒤 사냥과 유입 동물의 영향으로 빠르게 사라졌습니다. 마지막 신뢰할 만한 목격은 1662년으로 전해집니다.",
+    "sourceName": "Natural History Museum",
+    "sourceUrl": "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html",
+    "topicIds": ["extinctLife", "climateEnvironment"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1662년 이후 (추정)",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-stellers-sea-cow-extinction",
+    "title": "스텔러바다소의 멸종",
+    "startAt": "1768-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "베링해의 스텔러바다소는 발견 뒤 불과 수십 년 만에 모피와 기름을 위한 사냥으로 사라진 대표적 근현대 멸종 사례입니다.",
+    "sourceName": "Smithsonian National Museum of Natural History",
+    "sourceUrl": "https://naturalhistory.si.edu/education/teaching-resources/paleontology/extinction-over-time",
+    "topicIds": ["extinctLife", "climateEnvironment"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1768년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-passenger-pigeon-extinction",
+    "title": "나그네비둘기 멸종",
+    "startAt": "1914-09-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "마지막으로 알려진 나그네비둘기 ‘마사’가 신시내티 동물원에서 죽으며 종이 사라졌습니다. 과도한 사냥과 산림 훼손의 상징적 사례입니다.",
+    "sourceName": "Smithsonian Institution",
+    "sourceUrl": "https://www.si.edu/collections/snapshot/last-passenger-pigeon",
+    "topicIds": ["extinctLife", "climateEnvironment"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "1914년 9월 1일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-thylacine-extinction",
+    "title": "태즈메이니아호랑이 멸종",
+    "startAt": "1936-09-07T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "마지막 태즈메이니아호랑이가 호바트 동물원에서 죽었습니다. 사냥, 서식지 상실, 개와의 경쟁이 멸종 요인으로 기록됩니다.",
+    "sourceName": "New South Wales Government",
+    "sourceUrl": "https://www.environment.nsw.gov.au/-/media/OEH/Corporate-Site/Documents/Animals-and-plants/Threatened-species/threatened-species-day-organising-community-event-guide-220404.pdf",
+    "topicIds": ["extinctLife", "climateEnvironment"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "1936년 9월 7일",
+      "confidence": "high"
+    }
+  },
+  {
     "id": "historic-confucius",
     "title": "공자 출생",
     "startAt": "-0551-01-01T00:00:00.000Z",
@@ -321,6 +389,116 @@
       "kind": "approximate",
       "displayLabel": "약 BC 551",
       "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-mozi-mohism",
+    "title": "묵자의 묵가 사상",
+    "startAt": "-0430-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "묵자는 겸애와 공리적 기준을 바탕으로 유가 의례를 비판하고, 중국 사상사에서 명시적 윤리·정치 이론을 전개했습니다.",
+    "sourceName": "Stanford Encyclopedia of Philosophy",
+    "sourceUrl": "https://plato.stanford.edu/archives/sum2024/entries/mohism/index.html",
+    "topicIds": ["easternPhilosophy", "politicsHumanRights"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 BC 430년",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-daodejing-formation",
+    "title": "《도덕경》의 형성과 도가 사상",
+    "startAt": "-0400-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "《도덕경》은 단일 저자의 확정 저작이라기보다 여러 전승이 축적된 텍스트로 이해됩니다. 초기 형태는 전국시대에 유통됐습니다.",
+    "sourceName": "Stanford Encyclopedia of Philosophy",
+    "sourceUrl": "https://plato.stanford.edu/archives/sum2019/entries/daoism-religion/",
+    "topicIds": ["easternPhilosophy", "religions"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-0400-01-01T00:00:00.000Z",
+      "latestAt": "-0250-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 400–250",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-mencius-good-human-nature",
+    "title": "맹자의 성선설과 유가 사상",
+    "startAt": "-0370-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "전국시대의 맹자는 인간 본성이 선하다는 관점과 수양론으로 유가 사상을 발전시켰고, 후대 성리학의 핵심 경전 형성에 영향을 주었습니다.",
+    "sourceName": "Stanford Encyclopedia of Philosophy",
+    "sourceUrl": "https://plato.stanford.edu/archives/win2004/entries/mencius/",
+    "topicIds": ["easternPhilosophy", "politicsHumanRights"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 BC 4세기",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-shankara-advaita",
+    "title": "샹카라와 불이일원론의 체계화",
+    "startAt": "0750-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "샹카라의 저술은 브라만과 아트만의 비이원성을 중심으로 한 불이일원론을 고전 인도철학의 주요 전통으로 체계화했습니다.",
+    "sourceName": "Stanford Encyclopedia of Philosophy",
+    "sourceUrl": "https://plato.stanford.edu/entries/shankara/",
+    "topicIds": ["easternPhilosophy", "religions"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "0700-01-01T00:00:00.000Z",
+      "latestAt": "0800-01-01T00:00:00.000Z",
+      "displayLabel": "약 8세기",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-zhu-xi-neoconfucianism",
+    "title": "주희의 성리학 체계화",
+    "startAt": "1130-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "주희는 송대 성리학을 종합하고 사서를 정리해 동아시아의 교육·과거·윤리 전통에 장기적인 영향을 미쳤습니다.",
+    "sourceName": "Stanford Encyclopedia of Philosophy",
+    "sourceUrl": "https://plato.stanford.edu/archives/spr2018/entries/zhu-xi/",
+    "topicIds": ["easternPhilosophy", "koreaEastAsia"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "1130-01-01T00:00:00.000Z",
+      "latestAt": "1200-01-01T00:00:00.000Z",
+      "displayLabel": "1130–1200년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-wang-yangming",
+    "title": "왕양명의 지행합일 사상",
+    "startAt": "1472-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "왕양명은 앎과 실천의 일치를 강조하며 주희의 정통 성리학을 비판적으로 발전시켰고, 동아시아 사상에 넓게 영향을 주었습니다.",
+    "sourceName": "Stanford Encyclopedia of Philosophy",
+    "sourceUrl": "https://plato.stanford.edu/archives/fall2024/entries/wang-yangming/",
+    "topicIds": ["easternPhilosophy", "koreaEastAsia"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "1472-01-01T00:00:00.000Z",
+      "latestAt": "1529-01-01T00:00:00.000Z",
+      "displayLabel": "1472–1529년",
+      "confidence": "high"
     }
   },
   {
