@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "3.1.2",
+  "catalogVersion": "3.1.3",
   "updatedAt": "2026-07-20T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
@@ -1518,6 +1518,116 @@
       "kind": "approximate",
       "displayLabel": "약 BC 2,551–2,528 (쿠푸 재위)",
       "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-mentuhotep-middle-kingdom",
+    "title": "멘투호테프 2세와 중왕국 재통합",
+    "startAt": "-2055-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "멘투호테프 2세가 상·하 이집트를 다시 통합해 중왕국의 출발을 열었습니다. 중왕국은 정치·문화·종교 체계가 새롭게 발전한 시기입니다.",
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/learn/schools/ages-7-11/ancient-egypt/timeline-ancient-egypt",
+    "topicIds": ["civilizations", "ancientEgypt", "politicsHumanRights"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-2055-01-01T00:00:00.000Z",
+      "latestAt": "-1650-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 2,055–1,650 (중왕국)",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-hatshepsut-reign",
+    "title": "하트셉수트의 통치",
+    "startAt": "-1479-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "하트셉수트는 파라오의 완전한 왕호를 채택해 통치한 여성 군주로, 데이르 엘 바하리 장제전 등 신왕국의 건축 유산을 남겼습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/544450",
+    "topicIds": ["civilizations", "ancientEgypt", "politicsHumanRights", "urbanDevelopment"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-1479-01-01T00:00:00.000Z",
+      "latestAt": "-1458-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 1,479–1,458",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-akhenaten-amarna-reform",
+    "title": "아케나텐의 아마르나 개혁",
+    "startAt": "-1353-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "아멘호테프 4세(아케나텐)는 아텐 숭배를 중심에 두고 아마르나에 새 수도를 세웠습니다. 종교·예술·도시 건설에 큰 변화를 남긴 짧은 시기였습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/essays/art-architecture-and-the-city-in-the-reign-of-amenhotep-iv-akhenaten-ca-13531336-b-c",
+    "topicIds": ["civilizations", "ancientEgypt", "religions", "urbanDevelopment", "artsFilm"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-1353-01-01T00:00:00.000Z",
+      "latestAt": "-1336-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 1,353–1,336",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-ramesses-ii-piramesse",
+    "title": "람세스 2세와 피람세스",
+    "startAt": "-1279-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "urbanDevelopment",
+    "importance": 3,
+    "description": "람세스 2세는 피람세스를 고대 이집트의 거대한 왕도로 발전시켰습니다. 이 도시는 항구·군사기지·신전과 국제 교역의 중심을 갖췄습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/549232",
+    "topicIds": ["civilizations", "ancientEgypt", "urbanDevelopment", "economyFinance"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-1279-01-01T00:00:00.000Z",
+      "latestAt": "-1213-01-01T00:00:00.000Z",
+      "displayLabel": "약 BC 1,279–1,213 (람세스 2세 재위)",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-alexander-conquers-egypt",
+    "title": "알렉산드로스의 이집트 정복",
+    "startAt": "-0332-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "알렉산드로스 대왕이 페르시아 지배하의 이집트를 정복하며 마케도니아계 프톨레마이오스 시대가 시작됐습니다. 이집트 전통과 그리스 문화의 상호작용이 깊어진 전환점입니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/essays/egypt-in-the-ptolemaic-period",
+    "topicIds": ["civilizations", "ancientEgypt", "grecoRoman", "politicsHumanRights"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "BC 332년",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-cleopatra-roman-egypt",
+    "title": "클레오파트라 7세 패배와 로마의 이집트 편입",
+    "startAt": "-0030-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "클레오파트라 7세의 패배 뒤 로마가 이집트를 장악하면서 프톨레마이오스 왕조가 끝났습니다. 이집트는 로마 세계의 일부가 되었습니다.",
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/essays/egypt-in-the-ptolemaic-period",
+    "topicIds": ["civilizations", "ancientEgypt", "grecoRoman", "politicsHumanRights"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "BC 30년",
+      "confidence": "high"
     }
   },
   {
