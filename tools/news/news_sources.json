@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "nasa-breaking-news",
+      "name": "NASA",
+      "feedUrl": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+      "topicIds": ["spaceDevelopment"],
+      "defaultCategory": "space",
+      "maxItems": 12
+    },
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "topicIds": ["aiHistory"],
+      "defaultCategory": "scienceTechnology",
+      "maxItems": 12
+    },
+    {
+      "id": "deepmind-blog",
+      "name": "Google DeepMind",
+      "feedUrl": "https://deepmind.google/blog/rss.xml",
+      "topicIds": ["aiHistory"],
+      "defaultCategory": "scienceTechnology",
+      "maxItems": 12
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+name: Collect Time Map news
+
+on:
+  schedule:
+    # Four times per day. GitHub schedules can be delayed during high load.
+    - cron: '10 0,6,12,18 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Validate RSS and AI output without publishing files'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: time-map-news-catalog
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Require the OpenAI secret
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          test -n "$OPENAI_API_KEY" || {
+            echo 'OPENAI_API_KEY is not configured. Add it in Settings > Secrets and variables > Actions.'
+            exit 1
+          }
+
+      - name: Collect, cluster, validate, and write news events
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5-mini
+          NEWS_DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          NEWS_MAX_AGE_DAYS: '21'
+          NEWS_RETENTION_DAYS: '30'
+        run: node tools/news/collect_news.mjs
+
+      - name: Commit updated catalog
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git add cdx_time_map/catalog/news_events.json cdx_time_map/catalog/news_events_manifest.json
+          git diff --cached --quiet && exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update Time Map news catalog'
+          git push
