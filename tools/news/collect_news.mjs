@@ -200,6 +200,7 @@ async function triageWithOpenAI(candidates) {
       'You are the low-cost first-pass editor for a timeline app.',
       'Select only supplied RSS articles that may represent a durable, broadly meaningful event.',
       'Reject routine product announcements, opinion posts, recaps, and duplicate updates.',
+      'Evaluate every supplied field fairly; do not favor AI or technology over society, economy, science, culture, health, climate, or space.',
       'When uncertain, include an article so a stronger editor can decide; never invent facts.',
     ].join(' '),
     userPayload: {
@@ -233,6 +234,7 @@ async function organizeWithOpenAI({candidates, existingEvents}) {
       'You are a careful news editor for a timeline app.',
       'Use only the supplied RSS articles as factual evidence.',
       'Return only events of broad, durable importance; omit product marketing and routine posts.',
+      'Retain meaningful events across society, economy, science, culture, health, climate, space, and AI rather than concentrating on one field.',
       'Cluster duplicate coverage into one event. Use Korean title and description while preserving proper names.',
       'Use a supplied source index for every event. Do not invent URLs, dates, sources, facts, or tags.',
       'Choose an existingEventId only when a candidate is a genuine update to that existing event.',

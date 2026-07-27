@@ -6,7 +6,7 @@
       "feedUrl": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
       "topicIds": ["spaceDevelopment"],
       "defaultCategory": "space",
-      "maxItems": 12
+      "maxItems": 8
     },
     {
       "id": "openai-news",
@@ -14,7 +14,7 @@
       "feedUrl": "https://openai.com/news/rss.xml",
       "topicIds": ["aiHistory"],
       "defaultCategory": "scienceTechnology",
-      "maxItems": 12
+      "maxItems": 8
     },
     {
       "id": "deepmind-blog",
@@ -22,7 +22,55 @@
       "feedUrl": "https://deepmind.google/blog/rss.xml",
       "topicIds": ["aiHistory"],
       "defaultCategory": "scienceTechnology",
-      "maxItems": 12
+      "maxItems": 8
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "feedUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "topicIds": ["aiHistory", "computerHistory"],
+      "defaultCategory": "scienceTechnology",
+      "maxItems": 8
+    },
+    {
+      "id": "bbc-world",
+      "name": "BBC News World",
+      "feedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "topicIds": ["politicsHumanRights"],
+      "defaultCategory": "politicsSociety",
+      "maxItems": 8
+    },
+    {
+      "id": "bbc-business",
+      "name": "BBC News Business",
+      "feedUrl": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "topicIds": ["economyFinance"],
+      "defaultCategory": "economyBusiness",
+      "maxItems": 8
+    },
+    {
+      "id": "bbc-science-environment",
+      "name": "BBC News Science & Environment",
+      "feedUrl": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "topicIds": ["physicsChemistry", "lifeScience", "climateEnvironment"],
+      "defaultCategory": "scienceTechnology",
+      "maxItems": 8
+    },
+    {
+      "id": "bbc-health",
+      "name": "BBC News Health",
+      "feedUrl": "https://feeds.bbci.co.uk/news/health/rss.xml",
+      "topicIds": ["medicineHealth"],
+      "defaultCategory": "globalHealth",
+      "maxItems": 8
+    },
+    {
+      "id": "bbc-culture",
+      "name": "BBC News Entertainment & Arts",
+      "feedUrl": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "cultureEntertainment",
+      "maxItems": 8
     }
   ]
 }
