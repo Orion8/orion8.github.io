@@ -380,20 +380,34 @@ function mergeEvents({existingEvents, candidates, draftEvents}) {
 }
 
 function validateDraft(draft, candidates, existingEvents) {
-  if (!draft || typeof draft !== 'object' ||
-      typeof draft.title !== 'string' || !draft.title.trim() ||
-      typeof draft.description !== 'string' || !draft.description.trim() ||
-      !Number.isFinite(Date.parse(draft.startAt)) ||
-      !allowedCategories.has(draft.category) ||
-      !Number.isInteger(draft.importance) || draft.importance < 1 || draft.importance > 3 ||
-      !Array.isArray(draft.topicIds) || draft.topicIds.length === 0 ||
-      draft.topicIds.some((topic) => !allowedTopicIds.has(topic)) ||
-      !Array.isArray(draft.sourceIndexes) || draft.sourceIndexes.length === 0 ||
-      draft.sourceIndexes.some((index) => !Number.isInteger(index) || !candidates[index]) ||
-      typeof draft.existingEventId !== 'string' ||
-      (draft.existingEventId && !existingEvents.has(draft.existingEventId)) ||
-      !['breaking', 'developing', 'resolved'].includes(draft.newsStatus)) {
-    throw new Error('AI produced an invalid news event draft.');
+  if (!draft || typeof draft !== 'object') {
+    throw new Error('AI produced a non-object news event draft.');
+  }
+  const invalidFields = [];
+  if (typeof draft.title !== 'string' || !draft.title.trim()) invalidFields.push('title');
+  if (typeof draft.description !== 'string' || !draft.description.trim()) invalidFields.push('description');
+  if (!Number.isFinite(Date.parse(draft.startAt))) invalidFields.push('startAt');
+  if (!allowedCategories.has(draft.category)) invalidFields.push('category');
+  if (!Number.isInteger(draft.importance) || draft.importance < 1 || draft.importance > 3) {
+    invalidFields.push('importance');
+  }
+  if (!Array.isArray(draft.topicIds) || draft.topicIds.length === 0 ||
+      draft.topicIds.some((topic) => !allowedTopicIds.has(topic))) {
+    invalidFields.push('topicIds');
+  }
+  if (!Array.isArray(draft.sourceIndexes) || draft.sourceIndexes.length === 0 ||
+      draft.sourceIndexes.some((index) => !Number.isInteger(index) || !candidates[index])) {
+    invalidFields.push('sourceIndexes');
+  }
+  if (typeof draft.existingEventId !== 'string' ||
+      (draft.existingEventId && !existingEvents.has(draft.existingEventId))) {
+    invalidFields.push('existingEventId');
+  }
+  if (!['breaking', 'developing', 'resolved'].includes(draft.newsStatus)) {
+    invalidFields.push('newsStatus');
+  }
+  if (invalidFields.length > 0) {
+    throw new Error(`AI produced an invalid news event draft: ${invalidFields.join(', ')}.`);
   }
 }
 
