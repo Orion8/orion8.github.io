@@ -324,10 +324,27 @@ async function requestStructuredOutput({
   });
   const payload = await response.json();
   if (!response.ok) throw new Error(`OpenAI request failed: ${payload.error?.message ?? response.status}`);
-  if (typeof payload.output_text !== 'string') {
-    throw new Error('OpenAI response did not include structured output text.');
+  const outputText = responseOutputText(payload);
+  if (outputText == null) {
+    throw new Error(
+      `OpenAI response did not include structured output text (status: ${payload.status ?? 'unknown'}).`,
+    );
   }
-  return JSON.parse(payload.output_text);
+  return JSON.parse(outputText);
+}
+
+function responseOutputText(payload) {
+  if (typeof payload.output_text === 'string') return payload.output_text;
+  if (!Array.isArray(payload.output)) return null;
+  for (const item of payload.output) {
+    if (!Array.isArray(item?.content)) continue;
+    for (const content of item.content) {
+      if (content?.type === 'output_text' && typeof content.text === 'string') {
+        return content.text;
+      }
+    }
+  }
+  return null;
 }
 
 function mergeEvents({existingEvents, candidates, draftEvents}) {
