@@ -1,28 +1,169 @@
 {
-  "catalogVersion": "0.0.4",
-  "updatedAt": "2026-07-27T10:30:45.133Z",
+  "catalogVersion": "0.0.5",
+  "updatedAt": "2026-07-27T15:11:36.437Z",
   "sourceType": "editorial",
   "events": [
     {
       "id": "news-c81c46bbb32b28193b3e5c39",
-      "title": "미·이란, 협상 여지 마련 위해 밤새 공격 중단",
-      "startAt": "2026-07-27T08:14:46.000Z",
+      "title": "미·이란 공격 일시 중단 — 협상 여지 속 미군 부상자 600명 이상 보고",
+      "startAt": "2026-07-27T15:08:37.000Z",
       "lane": "world",
       "category": "politicsSociety",
       "importance": 3,
-      "description": "미국 대사가 발표한 바에 따르면 거의 2주간의 보복성 공격 이후 미·이란 양측은 협상을 위한 공간을 만들기 위해 최소 사흘째 공격을 중단하고 있습니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
+      "description": "미국이 '협상에 공간을 주기 위해' 공격을 중단했다는 발표가 나오면서 유가가 급락했습니다. 같은 사안과 관련해 2월 전쟁 발발 이후 Operation Fury와 새로 도입된 'Overseas Operations' 카테고리를 포함해 미군 부상자가 600명을 넘었다고 보도됐습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
       "topicIds": [
         "politicsHumanRights"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-07-27T08:14:46.000Z",
-        "lastObservedAt": "2026-07-27T10:30:45.132Z"
+        "lastObservedAt": "2026-07-27T15:11:36.436Z"
+      }
+    },
+    {
+      "id": "news-925612a65a64dd70909e23ba",
+      "title": "NASA, 8월 ISS 외부활동(우주유영) 3회 예정 — 예비 브리핑 7월 30일",
+      "startAt": "2026-07-27T14:35:11.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 국제우주정거장(ISS)에서 8월에 예정된 세 차례의 우주유영을 생중계할 예정이라고 밝혔습니다. 임무는 태양광 패널 업그레이드, 통신 안테나 교체, 전력·데이터 케이블 연결 등을 포함하며, 7월 30일 예비 브리핑이 진행됩니다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-cover-three-us-spacewalks-host-preview-news-conference/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-to-cover-three-us-spacewalks-host-preview-news-conference/"
+        ],
+        "firstPublishedAt": "2026-07-27T14:35:11.000Z",
+        "lastObservedAt": "2026-07-27T15:11:36.437Z"
+      }
+    },
+    {
+      "id": "news-0fbcbeacc31cc91e0d9d8d2b",
+      "title": "프랑스·스페인 대형 산불 확산 — 보르도서 420 km² 이상 소실·진화에 기상 위험 가세",
+      "startAt": "2026-07-27T14:21:32.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "보르도 인근 화재가 4일도 채 되지 않아 162제곱마일(약 420 km²) 이상을 태우는 등 대형 산불이 확산되고 있으며, 마드리드 인근 지역은 최악의 화재를 겪고 있습니다. 기상·화재 상호작용으로 인해 피록umulonimbus(화재 생성 뇌운) 등 현상이 나타나며 진화와 인명·재산 피해 위험을 키우고 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "lifeScience"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c2350zlyy1yo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c2350xnl4j5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-26T00:54:06.000Z",
+        "lastObservedAt": "2026-07-27T15:11:36.436Z"
+      }
+    },
+    {
+      "id": "news-f6c57ad47ef67f711ae52702",
+      "title": "허블 관측: 안드로메다 은하에서 별 형성 5억 년간 감소",
+      "startAt": "2026-07-27T14:00:14.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "NASA 허블 우주망원경 관측 결과 안드로메다 은하에서 지난 5억 년에 걸쳐 별 형성률이 감소해 왔다는 연구 결과가 공개됐습니다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-star-formation-in-andromeda-galaxy-winding-down/",
+      "topicIds": [
+        "physicsChemistry",
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-star-formation-in-andromeda-galaxy-winding-down/"
+        ],
+        "firstPublishedAt": "2026-07-27T14:00:14.000Z",
+        "lastObservedAt": "2026-07-27T15:11:36.437Z"
+      }
+    },
+    {
+      "id": "news-146320c875ca2b193fc6da3e",
+      "title": "베를린 프라이드 공격 — 충격·분노 확산, 범죄자의 처벌 경력 논란",
+      "startAt": "2026-07-27T12:33:31.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "베를린 프라이드 행사에서 발생한 공격을 둘러싸고 분노와 충격이 확산되고 있으며, 용의자의 과거와 왜 수감 중이 아니었는지에 대한 의문이 제기되고 있습니다. 사건은 추가 조사와 법적 대응을 촉발하고 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T12:33:31.000Z",
+        "lastObservedAt": "2026-07-27T15:11:36.436Z"
+      }
+    },
+    {
+      "id": "news-f122ab6449ad3e75efcf5ed0",
+      "title": "영국 Jodrell Bank 전파망원경 예산 삭감 우려 — 천문학계 반발",
+      "startAt": "2026-07-27T11:50:13.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Jodrell Bank 전파망원경 사업이 예산 삭감 위기에 놓이자 천문학자들이 '영국 과학의 심장을 떼어내는 것'이라며 경고했습니다. 연구·훈련 기회 축소로 향후 과학 인력 양성에 영향을 줄 수 있다는 우려가 제기되고 있습니다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y6r9rdxygo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5y6r9rdxygo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T11:50:13.000Z",
+        "lastObservedAt": "2026-07-27T15:11:36.436Z"
+      }
+    },
+    {
+      "id": "news-fc705d765b19ee168481ecd8",
+      "title": "중국 반도체사 상장 데뷔서 주가 급등 — 데뷔일 470% 안팎 상승",
+      "startAt": "2026-07-27T10:19:36.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "중국의 한 반도체 기업이 증시 데뷔일에 주가가 거의 470% 급등하며 AI 붐에 따른 반도체 수요 확대가 투자자 관심을 불러일으켰습니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "semiconductor",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T10:19:36.000Z",
+        "lastObservedAt": "2026-07-27T15:11:36.436Z"
       }
     },
     {
@@ -111,30 +252,6 @@
         ],
         "firstPublishedAt": "2026-07-26T10:59:44.000Z",
         "lastObservedAt": "2026-07-27T03:58:52.618Z"
-      }
-    },
-    {
-      "id": "news-0fbcbeacc31cc91e0d9d8d2b",
-      "title": "프랑스·스페인 대규모 산불 — 보르도 인근 위협, 30만명 이상 대피",
-      "startAt": "2026-07-26T00:54:06.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "프랑스 보르도 인근과 스페인에서 대형 산불이 번지며 30만명 이상이 대피하는 등 피해가 속출하고 있습니다. 에마뉘엘 마크롱 대통령은 보르도 인근 화재 위협에 대응해 위기회의를 소집했으며, 폭염이 이어져 진화에 어려움이 예상된다고 보고됐습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "lifeScience"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c2350zlyy1yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-26T00:54:06.000Z",
-        "lastObservedAt": "2026-07-27T10:30:45.132Z"
       }
     },
     {
@@ -312,6 +429,28 @@
         ],
         "firstPublishedAt": "2026-07-22T00:52:35.000Z",
         "lastObservedAt": "2026-07-27T10:30:45.133Z"
+      }
+    },
+    {
+      "id": "news-9640e94d3a2d17e0902756d8",
+      "title": "영국 20대 여성에서 2형 당뇨 증가 — 보건당국 우려",
+      "startAt": "2026-07-22T00:03:43.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "영국(잉글랜드)에서 20대 여성 사이에 2형 당뇨가 '우려스러운 증가'를 보이고 있다고 전문가들이 경고했습니다. 관련 증상과 조기 인지 포인트가 소개되고 있습니다.",
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdx8vw5k2x8o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cdx8vw5k2x8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-22T00:03:43.000Z",
+        "lastObservedAt": "2026-07-27T15:11:36.437Z"
       }
     },
     {
