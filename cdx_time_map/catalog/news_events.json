@@ -1,8 +1,96 @@
 {
-  "catalogVersion": "0.0.3",
-  "updatedAt": "2026-07-27T10:07:30.401Z",
+  "catalogVersion": "0.0.4",
+  "updatedAt": "2026-07-27T10:30:45.133Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c81c46bbb32b28193b3e5c39",
+      "title": "미·이란, 협상 여지 마련 위해 밤새 공격 중단",
+      "startAt": "2026-07-27T08:14:46.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미국 대사가 발표한 바에 따르면 거의 2주간의 보복성 공격 이후 미·이란 양측은 협상을 위한 공간을 만들기 위해 최소 사흘째 공격을 중단하고 있습니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T08:14:46.000Z",
+        "lastObservedAt": "2026-07-27T10:30:45.132Z"
+      }
+    },
+    {
+      "id": "news-be6e0c0fdb6722550ef59eb4",
+      "title": "영국 총리, 젤렌스키 방문 앞두고 우크라이나에 지속적 지원 약속",
+      "startAt": "2026-07-27T06:48:02.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "새로 취임한 총리의 첫 해외 공식 방문객으로 볼로디미르 젤렌스키 대통령을 맞이하기에 앞서 영국 총리가 우크라이나에 대한 지속적 지원을 재확인했습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T06:48:02.000Z",
+        "lastObservedAt": "2026-07-27T10:30:45.132Z"
+      }
+    },
+    {
+      "id": "news-51e9d596442003568df6916b",
+      "title": "시애틀 푸드 페스티벌 총격 — 최소 3명 사망·다수 부상",
+      "startAt": "2026-07-27T06:11:20.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "시애틀 스페이스 니들 인근에서 열린 음식 축제에서 총격이 발생해 최소 3명이 숨지고 여러 명이 다쳤습니다. 2세 남자아이가 부상자에 포함되며, 용의자는 경찰에 체포됐다고 시애틀 시장이 밝혔습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T06:11:20.000Z",
+        "lastObservedAt": "2026-07-27T10:30:45.132Z"
+      }
+    },
+    {
+      "id": "news-41b707c27f485b8799d4e00a",
+      "title": "요르단강 서안: 정착민들의 모스크·농지 방화 보도",
+      "startAt": "2026-07-26T21:23:53.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "팔레스타인 측은 서안 지구에서 이스라엘 정착민들이 모스크와 차량, 농지를 불태웠다고 전했습니다. 이번 공격은 탈(Tal) 인근 충돌로 양측에서 사상자가 나온 지 이틀 만에 발생했습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-26T21:23:53.000Z",
+        "lastObservedAt": "2026-07-27T10:30:45.132Z"
+      }
+    },
     {
       "id": "news-5439739e8eead7cd7db94b81",
       "title": "NASA 우주비행사 Chris Williams 및 동승자들 국제우주정거장서 귀환",
@@ -23,6 +111,52 @@
         ],
         "firstPublishedAt": "2026-07-26T10:59:44.000Z",
         "lastObservedAt": "2026-07-27T03:58:52.618Z"
+      }
+    },
+    {
+      "id": "news-0fbcbeacc31cc91e0d9d8d2b",
+      "title": "프랑스·스페인 대규모 산불 — 보르도 인근 위협, 30만명 이상 대피",
+      "startAt": "2026-07-26T00:54:06.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "프랑스 보르도 인근과 스페인에서 대형 산불이 번지며 30만명 이상이 대피하는 등 피해가 속출하고 있습니다. 에마뉘엘 마크롱 대통령은 보르도 인근 화재 위협에 대응해 위기회의를 소집했으며, 폭염이 이어져 진화에 어려움이 예상된다고 보고됐습니다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "lifeScience"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c2350zlyy1yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-26T00:54:06.000Z",
+        "lastObservedAt": "2026-07-27T10:30:45.132Z"
+      }
+    },
+    {
+      "id": "news-d2360093ddb437f882eb5b40",
+      "title": "SpaceX 스타십 시험 비행 성공 — 인도양 소프트 스플래시다운",
+      "startAt": "2026-07-25T00:41:50.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "SpaceX의 메가로켓 스타십이 시험 비행을 수행한 뒤 발사 약 한 시간 만에 인도양에 소프트 스플래시다운에 성공했다고 보도되었습니다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/czxqnwzqqw8o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/czxqnwzqqw8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-25T00:41:50.000Z",
+        "lastObservedAt": "2026-07-27T10:30:45.133Z"
       }
     },
     {
@@ -92,6 +226,28 @@
       }
     },
     {
+      "id": "news-811ac45002227584311044f0",
+      "title": "'보행 개선' MS 약물 NHS 도입 — 영국서 사용 개시",
+      "startAt": "2026-07-22T23:38:58.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "신경신호를 증강해 보행을 돕는 약물 파므리디네(fampridine)가 NHS(잉글랜드)에 도입되어 최대 5,000명이 혜택을 볼 수 있다고 보건 당국이 밝혔습니다.",
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgmkygjk9g2o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgmkygjk9g2o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-22T23:38:58.000Z",
+        "lastObservedAt": "2026-07-27T10:30:45.133Z"
+      }
+    },
+    {
       "id": "news-a821810ee2b72f1657951f98",
       "title": "Google, Genesis Mission에 4천만 달러 규모 AI 토큰·크레딧 지원 발표",
       "startAt": "2026-07-22T13:38:54.000Z",
@@ -133,6 +289,29 @@
         ],
         "firstPublishedAt": "2026-07-22T12:00:00.000Z",
         "lastObservedAt": "2026-07-27T03:22:31.261Z"
+      }
+    },
+    {
+      "id": "news-5bac8ef75acb6fbfee6c00ff",
+      "title": "DR콩고 에볼라 대응 — 영국인 보건요원 모니터링 및 실험 백신 첫 접종",
+      "startAt": "2026-07-22T00:52:35.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "DR콩고의 에볼라 유행 대응 과정에서 영국에서 파견된 인도주의 활동가가 잠재적 노출로 런던 병원에서 모니터링 받고 귀국했으며, 37세 영국인 Ed Hunt가 실험용 에볼라 백신의 첫 접종을 받은 사례가 보고됐습니다.",
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdewk5r308jo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cdewk5r308jo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c8jn007gmpzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-22T00:52:35.000Z",
+        "lastObservedAt": "2026-07-27T10:30:45.133Z"
       }
     },
     {
