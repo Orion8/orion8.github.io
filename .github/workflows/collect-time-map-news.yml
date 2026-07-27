@@ -43,12 +43,9 @@ jobs:
       - name: Collect, cluster, validate, and write news events
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          # Model names are repository Variables, not Secrets. The existing
-          # editor call keeps OPENAI_MODEL for backward compatibility until
-          # the nano triage stage is added to the collector.
+          # Model names are repository Variables, not Secrets.
           OPENAI_TRIAGE_MODEL: ${{ vars.TIME_MAP_NEWS_TRIAGE_MODEL || 'gpt-5-nano' }}
           OPENAI_EDITOR_MODEL: ${{ vars.TIME_MAP_NEWS_EDITOR_MODEL || 'gpt-5-mini' }}
-          OPENAI_MODEL: ${{ vars.TIME_MAP_NEWS_EDITOR_MODEL || 'gpt-5-mini' }}
           NEWS_DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
           NEWS_MAX_AGE_DAYS: '21'
           NEWS_RETENTION_DAYS: '30'

@@ -58,10 +58,25 @@ async function main() {
     );
   }
 
-  const draft = await organizeWithOpenAI({candidates, existingEvents});
+  const triage = await triageWithOpenAI(candidates);
+  const selectedCandidates = [...new Set(triage.articleIndexes)]
+    .map((index) => candidates[index])
+    .filter(Boolean);
+  if (selectedCandidates.length === 0) {
+    console.log('Nano triage found no timeline-worthy news events.');
+    return;
+  }
+  console.log(
+    `Nano triage selected ${selectedCandidates.length}/${candidates.length} article(s) for editing.`,
+  );
+
+  const draft = await organizeWithOpenAI({
+    candidates: selectedCandidates,
+    existingEvents,
+  });
   const nextEvents = mergeEvents({
     existingEvents,
-    candidates,
+    candidates: selectedCandidates,
     draftEvents: draft.events,
   });
   const now = new Date();
@@ -177,70 +192,125 @@ function decodeEntities(value) {
     .replace(/&#39;/g, "'");
 }
 
+async function triageWithOpenAI(candidates) {
+  const draft = await requestStructuredOutput({
+    model: process.env.OPENAI_TRIAGE_MODEL ?? 'gpt-5-nano',
+    name: 'time_map_news_triage',
+    developerInstructions: [
+      'You are the low-cost first-pass editor for a timeline app.',
+      'Select only supplied RSS articles that may represent a durable, broadly meaningful event.',
+      'Reject routine product announcements, opinion posts, recaps, and duplicate updates.',
+      'When uncertain, include an article so a stronger editor can decide; never invent facts.',
+    ].join(' '),
+    userPayload: {
+      candidateArticles: candidates.map((article, index) => ({index, ...article})),
+    },
+    schema: {
+      type: 'object',
+      additionalProperties: false,
+      required: ['articleIndexes'],
+      properties: {
+        articleIndexes: {
+          type: 'array',
+          maxItems: 16,
+          items: {type: 'integer'},
+        },
+      },
+    },
+  });
+  if (!Array.isArray(draft.articleIndexes) ||
+      draft.articleIndexes.some((index) => !Number.isInteger(index) || !candidates[index])) {
+    throw new Error('Nano triage returned invalid article indexes.');
+  }
+  return draft;
+}
+
 async function organizeWithOpenAI({candidates, existingEvents}) {
+  const draft = await requestStructuredOutput({
+    model: process.env.OPENAI_EDITOR_MODEL ?? process.env.OPENAI_MODEL ?? 'gpt-5-mini',
+    name: 'time_map_news_events',
+    developerInstructions: [
+      'You are a careful news editor for a timeline app.',
+      'Use only the supplied RSS articles as factual evidence.',
+      'Return only events of broad, durable importance; omit product marketing and routine posts.',
+      'Cluster duplicate coverage into one event. Use Korean title and description while preserving proper names.',
+      'Use a supplied source index for every event. Do not invent URLs, dates, sources, facts, or tags.',
+      'Choose an existingEventId only when a candidate is a genuine update to that existing event.',
+    ].join(' '),
+    userPayload: {
+      candidateArticles: candidates.map((article, index) => ({index, ...article})),
+      existingEvents: existingEvents.map((event) => ({
+        id: event.id,
+        title: event.title,
+        startAt: event.startAt,
+        description: event.description,
+        topicIds: event.topicIds,
+      })),
+    },
+    schema: eventSchema,
+  });
+  if (!draft || !Array.isArray(draft.events)) {
+    throw new Error('OpenAI response does not match the event schema.');
+  }
+  return draft;
+}
+
+const eventSchema = {
+  type: 'object',
+  additionalProperties: false,
+  required: ['events'],
+  properties: {
+    events: {
+      type: 'array',
+      maxItems: 8,
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        required: [
+          'title', 'description', 'startAt', 'category', 'importance',
+          'topicIds', 'sourceIndexes', 'existingEventId', 'newsStatus',
+        ],
+        properties: {
+          title: {type: 'string'},
+          description: {type: 'string'},
+          startAt: {type: 'string'},
+          category: {type: 'string'},
+          importance: {type: 'integer'},
+          topicIds: {type: 'array', items: {type: 'string'}},
+          sourceIndexes: {type: 'array', minItems: 1, items: {type: 'integer'}},
+          existingEventId: {type: 'string'},
+          newsStatus: {type: 'string', enum: ['breaking', 'developing', 'resolved']},
+        },
+      },
+    },
+  },
+};
+
+async function requestStructuredOutput({
+  model,
+  name,
+  developerInstructions,
+  userPayload,
+  schema,
+}) {
   const requestBody = {
-    model: process.env.OPENAI_MODEL ?? 'gpt-5-mini',
+    model,
     input: [
       {
         role: 'developer',
-        content: [
-          'You are a careful news editor for a timeline app.',
-          'Use only the supplied RSS articles as factual evidence.',
-          'Return only events of broad, durable importance; omit product marketing and routine posts.',
-          'Cluster duplicate coverage into one event. Use Korean title and description while preserving proper names.',
-          'Use a supplied source index for every event. Do not invent URLs, dates, sources, facts, or tags.',
-          'Choose an existingEventId only when a candidate is a genuine update to that existing event.',
-        ].join(' '),
+        content: developerInstructions,
       },
       {
         role: 'user',
-        content: JSON.stringify({
-          candidateArticles: candidates.map((article, index) => ({index, ...article})),
-          existingEvents: existingEvents.map((event) => ({
-            id: event.id,
-            title: event.title,
-            startAt: event.startAt,
-            description: event.description,
-            topicIds: event.topicIds,
-          })),
-        }),
+        content: JSON.stringify(userPayload),
       },
     ],
     text: {
       format: {
         type: 'json_schema',
-        name: 'time_map_news_events',
+        name,
         strict: true,
-        schema: {
-          type: 'object',
-          additionalProperties: false,
-          required: ['events'],
-          properties: {
-            events: {
-              type: 'array',
-              maxItems: 8,
-              items: {
-                type: 'object',
-                additionalProperties: false,
-                required: [
-                  'title', 'description', 'startAt', 'category', 'importance',
-                  'topicIds', 'sourceIndexes', 'existingEventId', 'newsStatus',
-                ],
-                properties: {
-                  title: {type: 'string'},
-                  description: {type: 'string'},
-                  startAt: {type: 'string'},
-                  category: {type: 'string'},
-                  importance: {type: 'integer'},
-                  topicIds: {type: 'array', items: {type: 'string'}},
-                  sourceIndexes: {type: 'array', minItems: 1, items: {type: 'integer'}},
-                  existingEventId: {type: 'string'},
-                  newsStatus: {type: 'string', enum: ['breaking', 'developing', 'resolved']},
-                },
-              },
-            },
-          },
-        },
+        schema,
       },
     },
   };
@@ -257,11 +327,7 @@ async function organizeWithOpenAI({candidates, existingEvents}) {
   if (typeof payload.output_text !== 'string') {
     throw new Error('OpenAI response did not include structured output text.');
   }
-  const draft = JSON.parse(payload.output_text);
-  if (!draft || !Array.isArray(draft.events)) {
-    throw new Error('OpenAI response does not match the event schema.');
-  }
-  return draft;
+  return JSON.parse(payload.output_text);
 }
 
 function mergeEvents({existingEvents, candidates, draftEvents}) {
