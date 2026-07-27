@@ -1,6 +1,117 @@
 {
-  "catalogVersion": "0.0.0",
-  "updatedAt": "1970-01-01T00:00:00.000Z",
+  "catalogVersion": "0.0.1",
+  "updatedAt": "2026-07-27T03:22:31.261Z",
   "sourceType": "editorial",
-  "events": []
+  "events": [
+    {
+      "id": "news-a821810ee2b72f1657951f98",
+      "title": "Google, Genesis Mission에 4천만 달러 규모 AI 토큰·크레딧 지원 발표",
+      "startAt": "2026-07-22T13:38:54.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Google이 과학 연구 가속화를 목표로 하는 Genesis Mission에 4천만 달러 규모의 AI 토큰과 크레딧을 기여한다고 발표했습니다. 해당 지원은 대규모 AI 자원 제공을 통해 기초·응용 과학 발견을 촉진하는 것을 목표로 합니다.",
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/"
+        ],
+        "firstPublishedAt": "2026-07-22T13:38:54.000Z",
+        "lastObservedAt": "2026-07-27T03:22:31.261Z"
+      }
+    },
+    {
+      "id": "news-577ddf6b90e6d70b43383fc6",
+      "title": "OpenAI, 미 에너지부·국가연구소와 협력해 최첨단 AI로 과학 연구 가속화 약속",
+      "startAt": "2026-07-22T12:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "OpenAI가 미국 에너지부(U.S. Department of Energy) 및 국가 연구소들과 협력해 최첨단 AI를 활용해 과학 연구를 가속화하겠다는 약속을 발표했습니다. 이 협력은 정부·국가 연구 인프라와 AI 역량을 결합해 대규모 과학 문제 해결을 목표로 합니다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/advancing-the-next-era-of-national-science"
+        ],
+        "firstPublishedAt": "2026-07-22T12:00:00.000Z",
+        "lastObservedAt": "2026-07-27T03:22:31.261Z"
+      }
+    },
+    {
+      "id": "news-d925d8c91f460a44f07089c2",
+      "title": "OpenAI·Hugging Face, 모델 평가 중 발생한 보안 사고 초기 조사 결과 공개",
+      "startAt": "2026-07-21T07:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "OpenAI와 Hugging Face가 AI 모델 평가 과정에서 발생한 보안 사고에 대해 초기 조사 결과를 공유했습니다. 양측은 이번 사건에서 드러난 고급 사이버 역량과 방어자들이 얻을 수 있는 교훈을 강조하며 향후 대응·안전 대책 강화를 예고했습니다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/hugging-face-model-evaluation-security-incident"
+        ],
+        "firstPublishedAt": "2026-07-21T07:00:00.000Z",
+        "lastObservedAt": "2026-07-27T03:22:31.261Z"
+      }
+    },
+    {
+      "id": "news-69e481323262afa1b5216cbe",
+      "title": "David Vélez·Robin Vince, OpenAI 재단 및 OpenAI Group PBC 이사회 합류",
+      "startAt": "2026-07-21T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "David Vélez와 Robin Vince가 OpenAI Foundation과 OpenAI Group PBC의 이사회에 합류했다고 OpenAI가 발표했습니다. 두 인사는 금융·기술·거버넌스 분야의 경험을 이사회에 제공할 예정입니다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://openai.com/index/david-velez-robin-vince-join-openai-boards"
+        ],
+        "firstPublishedAt": "2026-07-21T00:00:00.000Z",
+        "lastObservedAt": "2026-07-27T03:22:31.261Z"
+      }
+    },
+    {
+      "id": "news-a5ab872c216c2f944ec77d4d",
+      "title": "OpenAI, 장기 운영 모델 시대의 안전·정렬 경험과 교훈 공유",
+      "startAt": "2026-07-20T10:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "OpenAI가 장기간 작동하는(long-horizon) AI 모델을 운영하며 관찰한 실패 사례와 새로운 안전 위험, 반복적 배포를 통해 개선된 안전장치에 대한 교훈을 공개했습니다. 조직 차원의 대응 전략과 실무적 권고를 포함합니다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/safety-alignment-long-horizon-models"
+        ],
+        "firstPublishedAt": "2026-07-20T10:00:00.000Z",
+        "lastObservedAt": "2026-07-27T03:22:31.261Z"
+      }
+    }
+  ]
 }
