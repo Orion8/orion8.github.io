@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.2",
-  "updatedAt": "2026-07-27T03:58:52.618Z",
+  "catalogVersion": "0.0.3",
+  "updatedAt": "2026-07-27T10:07:30.401Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -199,6 +199,28 @@
         ],
         "firstPublishedAt": "2026-07-20T10:00:00.000Z",
         "lastObservedAt": "2026-07-27T03:22:31.261Z"
+      }
+    },
+    {
+      "id": "news-76ca7dbb5a51334d0d846832",
+      "title": "국제우주정거장(ISS)에 신규 승무원 합류 — Anna Kikina, Pyotr Dubrov, Anil Menon",
+      "startAt": "2026-07-14T00:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "Roscosmos 소속 Anna Kikina와 Pyotr Dubrov, NASA 소속 Anil Menon이 2026년 7월 14일 바이코누르 우주기지에서 발사되어 국제우주정거장(ISS)에 합류했습니다. 이들의 최근 도착을 기념하는 사진이 2026년 7월 18일 공개되었습니다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/new-crew-members-welcomed-to-international-space-station/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/new-crew-members-welcomed-to-international-space-station/"
+        ],
+        "firstPublishedAt": "2026-07-24T16:43:02.000Z",
+        "lastObservedAt": "2026-07-27T10:07:30.401Z"
       }
     }
   ]
