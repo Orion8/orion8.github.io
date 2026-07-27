@@ -1,8 +1,96 @@
 {
-  "catalogVersion": "0.0.1",
-  "updatedAt": "2026-07-27T03:22:31.261Z",
+  "catalogVersion": "0.0.2",
+  "updatedAt": "2026-07-27T03:58:52.618Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-5439739e8eead7cd7db94b81",
+      "title": "NASA 우주비행사 Chris Williams 및 동승자들 국제우주정거장서 귀환",
+      "startAt": "2026-07-26T10:59:44.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA 우주비행사 Chris Williams가 Roscosmos의 Sergey Kud-Sverchkov, Sergei Mikaev와 함께 국제우주정거장(ISS)에서의 약 8개월 과학 임무를 마치고 지구로 무사히 귀환했습니다. 승무원은 우주정거장을 출발해 낙하산 지원 착지로 5:27 a.m. CDT(카자흐스탄 시간 오후 3:27) 지점인 Dzhezkazgan 남동쪽에 도착했습니다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/"
+        ],
+        "firstPublishedAt": "2026-07-26T10:59:44.000Z",
+        "lastObservedAt": "2026-07-27T03:58:52.618Z"
+      }
+    },
+    {
+      "id": "news-b90550bfa8306cbb397f93f1",
+      "title": "NASA, CAPSTONE 02 등 달 인근(시슬루나) 기술시연 미션 발표",
+      "startAt": "2026-07-24T16:35:46.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA가 산업계와 협력해 Artemis 프로그램 및 달 기지 구축을 위한 차세대 시슬루나 인프라 진전을 추진한다고 발표했습니다. Advanced Space에 계약이 체결된 CAPSTONE 02 미션은 랑데부·근접운영, 자율항법, 시슬루나 통신 역량 등을 시연하고 추가적인 환경 특성화를 계속 수행할 예정입니다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/directorates/armd/nasa-announces-new-spacecraft-technology-demonstration-mission-at-moon/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/directorates/armd/nasa-announces-new-spacecraft-technology-demonstration-mission-at-moon/"
+        ],
+        "firstPublishedAt": "2026-07-24T16:35:46.000Z",
+        "lastObservedAt": "2026-07-27T03:58:52.618Z"
+      }
+    },
+    {
+      "id": "news-9faf54292acea1c2f8b06a73",
+      "title": "NASA, Blue Origin New Glenn 2단 연소시험 지원 합의",
+      "startAt": "2026-07-24T15:30:21.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA와 Blue Origin이 Stennis Space Center(미시시피) B-2 시험대에서 회사의 New Glenn 로켓 2단 열화상(핫 파이어) 시험을 실시하기로 합의했습니다. 이번 추가 협약은 상호 환급형 Space Act Agreement의 부속 합의로, NASA의 Artemis 추진을 위한 산업계 협력 약속을 강조합니다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/"
+        ],
+        "firstPublishedAt": "2026-07-24T15:30:21.000Z",
+        "lastObservedAt": "2026-07-27T03:58:52.618Z"
+      }
+    },
+    {
+      "id": "news-9dd5c19b0e85e74f49f15772",
+      "title": "아르테미스 IV 액체수소 탱크 공장 이동 완료",
+      "startAt": "2026-07-23T15:20:19.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA의 Michoud Assembly Facility에서 아르테미스 IV용 액체수소 탱크(길이 약 130피트)가 생산 셀에서 분리된 시험동으로 운송되었습니다. 이 탱크는 아르테미스 IV 핵심단(core stage)의 일부를 구성할 예정입니다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/crews-move-artemis-iv-liquid-hydrogen-tank/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/crews-move-artemis-iv-liquid-hydrogen-tank/"
+        ],
+        "firstPublishedAt": "2026-07-23T15:20:19.000Z",
+        "lastObservedAt": "2026-07-27T03:58:52.618Z"
+      }
+    },
     {
       "id": "news-a821810ee2b72f1657951f98",
       "title": "Google, Genesis Mission에 4천만 달러 규모 AI 토큰·크레딧 지원 발표",
