@@ -2,8 +2,9 @@ name: Collect Time Map news
 
 on:
   schedule:
-    # Four times per day. GitHub schedules can be delayed during high load.
-    - cron: '10 0,6,12,18 * * *'
+    # 06:00 and 18:00 Pacific Daylight Time (UTC-7). GitHub cron uses UTC.
+    # Move these to 14:00 and 02:00 UTC when Pacific Standard Time resumes.
+    - cron: '0 1,13 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
