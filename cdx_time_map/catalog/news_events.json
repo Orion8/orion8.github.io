@@ -1,8 +1,74 @@
 {
-  "catalogVersion": "0.0.7",
-  "updatedAt": "2026-07-28T03:31:51.335Z",
+  "catalogVersion": "0.0.8",
+  "updatedAt": "2026-07-28T08:49:32.146Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-be6d01896d299928da500213",
+      "title": "미국, 프랑스 발언 중 유엔 안전보장이사회 회의 퇴장",
+      "startAt": "2026-07-28T08:41:45.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미국이 프랑스의 발언 도중 유엔 안전보장이사회 회의장을 떠났습니다. 이번 논쟁은 미국이 유엔 인권최고대표의 임기 연장에 반대 표를 던지며 북한·러시아와 같은 입장을 취한 데서 촉발됐습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-28T08:41:45.000Z",
+        "lastObservedAt": "2026-07-28T08:49:32.146Z"
+      }
+    },
+    {
+      "id": "news-74f532f6cbddf76925ad2da0",
+      "title": "잉글랜드 중등교육에 기술 과목 도입 검토 — Burnham 발표",
+      "startAt": "2026-07-28T08:23:37.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "Burnham이 잉글랜드에서 14세 이상 학생에게 AI·제조 등 지역 일자리와 연계된 기술 과목을 제공하겠다고 밝혔습니다. 정부는 조기 직업 연계 교육을 통해 지역 산업과의 연결을 강화하겠다는 취지입니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-28T08:23:37.000Z",
+        "lastObservedAt": "2026-07-28T08:49:32.146Z"
+      }
+    },
+    {
+      "id": "news-dc5e605ac35e1fe2248bca66",
+      "title": "BBC 보도: 에콰도르發 코카인 루트와 갱단·경찰의 대치",
+      "startAt": "2026-07-28T05:01:19.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC가 에콰도르에서 출발해 유럽으로 이어지는 '코카인 슈퍼하이웨이'를 추적 보도했습니다. 보도에는 갱단의 확대와 이를 제어하려는 에콰도르 경찰의 순찰·대응 노력이 담겼습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-28T05:01:19.000Z",
+        "lastObservedAt": "2026-07-28T08:49:32.146Z"
+      }
+    },
     {
       "id": "news-1f26250e17a00987772addb2",
       "title": "존슨앤드존슨, 베이비파우더 소송에 최대 55억 달러 제안",
@@ -502,6 +568,29 @@
         ],
         "firstPublishedAt": "2026-07-26T21:23:53.000Z",
         "lastObservedAt": "2026-07-27T10:30:45.132Z"
+      }
+    },
+    {
+      "id": "news-b35d261c31e24d1a7b88cb5c",
+      "title": "영국 내 사회 돌봄 개혁 공방 — 신임 총리 Burnham의 과제와 Badenoch의 요구",
+      "startAt": "2026-07-26T21:00:27.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "신임 총리 Burnham이 사회 돌봄, 청년 실업, 권한 이양 문제를 다루겠다고 예고했습니다. 한편 정치인 Badenoch는 사회 돌봄 개혁 자금 조달과 관련해 총리에게 세금 인상 불가 방침을 명확히 할 것을 요구하며 협력을 제안했습니다.",
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0jlzqe9z9vo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c0jlzqe9z9vo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cwylnl17w09o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-26T21:00:27.000Z",
+        "lastObservedAt": "2026-07-28T08:49:32.146Z"
       }
     },
     {
