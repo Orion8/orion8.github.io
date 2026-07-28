@@ -1,8 +1,30 @@
 {
-  "catalogVersion": "0.0.8",
-  "updatedAt": "2026-07-28T08:49:32.146Z",
+  "catalogVersion": "0.0.9",
+  "updatedAt": "2026-07-28T14:32:58.541Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-7ea20dd099db3e167b1ad357",
+      "title": "프랑스 Gironde 지역 산불 확산 — 새 40°C 폭염 예보로 진화 우려",
+      "startAt": "2026-07-28T13:25:13.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "프랑스 Gironde 지역에서 산불 진화가 어려워지는 가운데 소방대원들은 수요일에 예보된 40°C 안팎의 고온이 진화 작업을 더 복잡하게 만들 것으로 우려하고 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-28T13:25:13.000Z",
+        "lastObservedAt": "2026-07-28T14:32:58.541Z"
+      }
+    },
     {
       "id": "news-be6d01896d299928da500213",
       "title": "미국, 프랑스 발언 중 유엔 안전보장이사회 회의 퇴장",
@@ -67,6 +89,29 @@
         ],
         "firstPublishedAt": "2026-07-28T05:01:19.000Z",
         "lastObservedAt": "2026-07-28T08:49:32.146Z"
+      }
+    },
+    {
+      "id": "news-3c8d41ebd8c88e3b64611e9f",
+      "title": "오리건주 연무 확산 — 번개로 중앙·동부 지역서 다수 화재 발생",
+      "startAt": "2026-07-28T04:01:00.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "번개 폭풍으로 오리건 중앙부와 동부에서 수십 건의 화재가 발생해 광범위한 연기가 지역을 뒤덮었습니다. NASA는 관련 위성 관측을 통해 연기 확산을 보도했습니다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/earth/natural-disasters/wildfires/smoke-blankets-oregon/",
+      "topicIds": [
+        "climateEnvironment",
+        "lifeScience"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/earth/natural-disasters/wildfires/smoke-blankets-oregon/"
+        ],
+        "firstPublishedAt": "2026-07-28T04:01:00.000Z",
+        "lastObservedAt": "2026-07-28T14:32:58.541Z"
       }
     },
     {
@@ -232,6 +277,29 @@
       }
     },
     {
+      "id": "news-55d9678599b05a6c0d119c6e",
+      "title": "8월 개기일식 동안 NASA 과학 관측 확대",
+      "startAt": "2026-07-27T18:01:14.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "달이 태양을 완전히 가리는 8월 개기일식은 태양 코로나 등 외층 대기를 관측할 기회를 제공하며, NASA는 그 동안 태양과 지구에 대한 이해를 넓히기 위한 관측·연구 기회를 준비하고 있습니다. 기사에 따르면 다음 개기일식은 8월 12일 그린란드·아이슬란드를 가로질러 진행됩니다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/",
+      "topicIds": [
+        "spaceDevelopment",
+        "physicsChemistry"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/"
+        ],
+        "firstPublishedAt": "2026-07-27T18:01:14.000Z",
+        "lastObservedAt": "2026-07-28T14:32:58.541Z"
+      }
+    },
+    {
       "id": "news-d925d8c91f460a44f07089c2",
       "title": "OpenAI·Hugging Face 평가 중 보안 사고가 정렬·통제 논쟁 재점화",
       "startAt": "2026-07-27T17:28:42.000Z",
@@ -275,6 +343,29 @@
         ],
         "firstPublishedAt": "2026-07-27T16:33:05.000Z",
         "lastObservedAt": "2026-07-27T19:51:05.512Z"
+      }
+    },
+    {
+      "id": "news-d9293be880fa0c95db9ac3fd",
+      "title": "NASA 관측: 은하 외곽에서 '떠도는' 거대 블랙홀이 별을 파괴하는 장면 포착",
+      "startAt": "2026-07-27T16:06:37.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA의 Neil Gehrels Swift 관측소가 한 은하의 외곽에서 흔치 않은 '별 파괴'(tidal disruption) 현상을 포착했습니다. 이 사건은 보통 은하 중심부에서 관측되는 별 파괴 현상이 중심이 아닌 외곽에서 발생한 드문 사례로 보도됐습니다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/missions/swift/nasas-swift-sees-wandering-mega-black-hole-shredding-star/",
+      "topicIds": [
+        "spaceDevelopment",
+        "physicsChemistry"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/missions/swift/nasas-swift-sees-wandering-mega-black-hole-shredding-star/"
+        ],
+        "firstPublishedAt": "2026-07-27T16:06:37.000Z",
+        "lastObservedAt": "2026-07-28T14:32:58.541Z"
       }
     },
     {
@@ -595,24 +686,25 @@
     },
     {
       "id": "news-5439739e8eead7cd7db94b81",
-      "title": "NASA 우주비행사 Chris Williams 및 동승자들 국제우주정거장서 귀환",
+      "title": "NASA 우주비행사 크리스 윌리엄스(Chris Williams) 지구 귀환",
       "startAt": "2026-07-26T10:59:44.000Z",
       "lane": "world",
       "category": "space",
-      "importance": 3,
-      "description": "NASA 우주비행사 Chris Williams가 Roscosmos의 Sergey Kud-Sverchkov, Sergei Mikaev와 함께 국제우주정거장(ISS)에서의 약 8개월 과학 임무를 마치고 지구로 무사히 귀환했습니다. 승무원은 우주정거장을 출발해 낙하산 지원 착지로 5:27 a.m. CDT(카자흐스탄 시간 오후 3:27) 지점인 Dzhezkazgan 남동쪽에 도착했습니다.",
+      "importance": 2,
+      "description": "NASA 우주비행사 크리스 윌리엄스가 약 8개월간 국제우주정거장(ISS) 임무를 마치고 Roscosmos 소속 Sergey Kud‑Sverchkov, Sergei Mikaev와 함께 카자흐스탄에 착지하며 지구로 귀환했습니다. 윌리엄스는 ISS에서 다양한 과학 조사와 기술 시연을 지원했습니다.",
       "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/",
+      "sourceUrl": "https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-returns-to-earth/",
       "topicIds": [
         "spaceDevelopment"
       ],
       "news": {
         "status": "resolved",
         "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/"
+          "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/",
+          "https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-returns-to-earth/"
         ],
         "firstPublishedAt": "2026-07-26T10:59:44.000Z",
-        "lastObservedAt": "2026-07-27T03:58:52.618Z"
+        "lastObservedAt": "2026-07-28T14:32:58.541Z"
       }
     },
     {
