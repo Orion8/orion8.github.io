@@ -1,18 +1,151 @@
 {
-  "catalogVersion": "0.0.6",
-  "updatedAt": "2026-07-27T19:51:05.512Z",
+  "catalogVersion": "0.0.7",
+  "updatedAt": "2026-07-28T03:31:51.335Z",
   "sourceType": "editorial",
   "events": [
     {
+      "id": "news-1f26250e17a00987772addb2",
+      "title": "존슨앤드존슨, 베이비파우더 소송에 최대 55억 달러 제안",
+      "startAt": "2026-07-28T01:53:58.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "존슨앤드존슨이 자사 탈크(베이비파우더) 제품이 암을 유발했다는 수년간의 소송을 마무리하기 위해 최대 55억 달러 규모의 합의안을 제시했습니다. 제안은 장기간 이어진 집단소송을 종결하려는 시도로 보입니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-28T01:53:58.000Z",
+        "lastObservedAt": "2026-07-28T03:31:51.334Z"
+      }
+    },
+    {
+      "id": "news-7b5e3666185150652a4d7dc7",
+      "title": "잉글랜드 약국 무료 서비스로 수십만 여성 사후피임약 접근",
+      "startAt": "2026-07-28T00:14:41.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "지난 10월부터 잉글랜드의 일반 약국에서 사후피임약을 무료로 제공하는 새로운 제도가 시행되었고, 그 결과 수십만 명의 여성이 해당 서비스를 통해 약을 받았습니다. 보건정책 차원의 접근성 확대 사례로 주목됩니다.",
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cn9n1rg3n81o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cn9n1rg3n81o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-28T00:14:41.000Z",
+        "lastObservedAt": "2026-07-28T03:31:51.335Z"
+      }
+    },
+    {
+      "id": "news-05bc2ccb5229e12f0c210833",
+      "title": "Lough Neagh의 선사시대 종 보존 위해 어획 제한 조치",
+      "startAt": "2026-07-27T23:01:36.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Lough Neagh에서 멸종위기 유럽장어(European eel) 보존을 위해 어획 규제가 도입되거나 강화되었습니다. 지역 당국은 종 회복을 목표로 어업 활동에 제한을 뒀습니다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ce97nze240vo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ce97nze240vo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T23:01:36.000Z",
+        "lastObservedAt": "2026-07-28T03:31:51.335Z"
+      }
+    },
+    {
+      "id": "news-7445c1bcbb3da7a93a2b48ba",
+      "title": "일본 소도시, 첫 모스크 건립 반발로 정체성·통합 논쟁",
+      "startAt": "2026-07-27T22:08:21.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "한 지역사회에서 첫 모스크 건립을 둘러싼 반대 시위가 일어나면서 외국인 노동자 의존이 늘어나는 일본 사회의 문화·종교 통합 문제와 정체성 논쟁이 부각되고 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c36d79nd5w8o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c36d79nd5w8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T22:08:21.000Z",
+        "lastObservedAt": "2026-07-28T03:31:51.335Z"
+      }
+    },
+    {
+      "id": "news-6b181e22964c3ab1b944e0fb",
+      "title": "중국 자연재해 보도에 허위 AI 영상 확산 — 재난 대응에 새로운 도전",
+      "startAt": "2026-07-27T22:07:23.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "최근 중국에서 발생한 폭풍·홍수 등 자연재해 보도 과정에 허위 AI 영상이 소셜미디어에 대량 유통되며 혼란을 부추기고 있습니다. 당국과 언론은 재난정보의 신뢰성 확보에 어려움을 겪고 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T22:07:23.000Z",
+        "lastObservedAt": "2026-07-28T03:31:51.335Z"
+      }
+    },
+    {
+      "id": "news-3565288fe08621fdeabf548f",
+      "title": "트럼프, '공습 일시 중단 기간에 이란과 전쟁 관련 대화 가능성' 언급",
+      "startAt": "2026-07-27T21:10:56.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "트럼프 대통형은 공격이 일시 중단된 기간에 이란과 관련 협상이 이뤄지고 있다고 발언하며 '무언가 일어날 가능성'이 있다고 말했습니다. 이란은 직접 대화가 진행되고 있다는 점을 부인했습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T21:10:56.000Z",
+        "lastObservedAt": "2026-07-28T03:31:51.335Z"
+      }
+    },
+    {
       "id": "news-0fbcbeacc31cc91e0d9d8d2b",
-      "title": "프랑스·영국 등 유럽 대형 산불 — 왕세자 경고·보르도 인근 추가 대피 준비",
-      "startAt": "2026-07-27T19:30:25.000Z",
+      "title": "유럽 대형 산불 목격자들 '불길의 벽' 증언 — 대규모 대피·정신적 충격 보고",
+      "startAt": "2026-07-27T19:50:35.000Z",
       "lane": "world",
       "category": "climateDisaster",
       "importance": 3,
-      "description": "윌리엄 왕세자는 유럽과 영국에서 발생한 대형 산불이 극단적 기후 도전의 '냉혹한 상기'라고 경고했습니다. 프랑스 보르도 인근 화재는 시에서 약 9마일(약 14km) 떨어진 곳까지 접근해 추가 대피 준비가 진행 중이라고 현지 당국이 밝혔습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvg97dj5n16o?at_medium=RSS&at_campaign=rss",
+      "description": "유럽의 대형 산불과 관련해 목격자들이 '불길의 벽'을 목격했다며 공포와 스트레스를 호소하고 있습니다. 화재로 인해 30만 명 이상이 대피했다는 보도가 있으며, 현지 당국은 추가 대피 준비를 하고 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss",
       "topicIds": [
         "climateEnvironment",
         "lifeScience"
@@ -25,10 +158,11 @@
           "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
           "https://www.bbc.co.uk/news/articles/c2350xnl4j5o?at_medium=RSS&at_campaign=rss",
           "https://www.bbc.co.uk/news/articles/cvg97dj5n16o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-07-26T00:54:06.000Z",
-        "lastObservedAt": "2026-07-27T19:51:05.511Z"
+        "lastObservedAt": "2026-07-28T03:31:51.335Z"
       }
     },
     {
@@ -323,6 +457,29 @@
         ],
         "firstPublishedAt": "2026-07-27T06:11:20.000Z",
         "lastObservedAt": "2026-07-27T10:30:45.132Z"
+      }
+    },
+    {
+      "id": "news-db9d0913513df69e6eee2103",
+      "title": "OpenAI 연구: AI가 직무 범위 확장 — 사용자들이 다양한 업무 맡아",
+      "startAt": "2026-07-27T03:30:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI의 연구는 ChatGPT 사용자들이 직무 전반에서 다양한 과업을 수행하면서 직무 경계가 재구성되고 있음을 보여줍니다. AI 도구가 일의 성격과 역할 분담에 미치는 영향을 분석한 연구 결과입니다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+        ],
+        "firstPublishedAt": "2026-07-27T03:30:00.000Z",
+        "lastObservedAt": "2026-07-28T03:31:51.335Z"
       }
     },
     {
