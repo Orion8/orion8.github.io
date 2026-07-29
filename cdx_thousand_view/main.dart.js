@@ -39858,18 +39858,15 @@ f=h.a/g
 g=h.b/g
 e=j.gq(l)
 d=j.cv(l,new A.a8H(a2))
-l=B.c.bg(i.e-2.5,0,6)
-j=e>1
-h=j?Math.log(e)*1.4:0
-c=B.c.bg(4.5+l*1.35+h,4.5,18)
+c=B.c.bg(4.5+B.c.bg(i.e-2.5,0,6)*1.35,4.5,12.6)
 b=a2.V_(i.d)
-h=i.w
-a=B.c.bg(0.4+0.5*Math.exp(-(B.f.b8(0-h.b+1000*(Date.now()-h.a),6e7)/60)/72),0.4,0.9)
+l=i.w
+a=B.c.bg(0.4+0.5*Math.exp(-(B.f.b8(0-l.b+1000*(Date.now()-l.a),6e7)/60)/72),0.4,0.9)
 l=d?5:3
 $.a4()
-h=new A.el(B.ay,B.ac,B.aD,B.aO,B.au)
-h.r=b.cR(d?0.32:0.14).gt()
-a0=h.cg()
+j=new A.el(B.ay,B.ac,B.aD,B.aO,B.au)
+j.r=b.cR(d?0.32:0.14).gt()
+a0=j.cg()
 r.drawCircle(f,g,c+l,a0)
 a0.delete()
 l=new A.el(B.ay,B.ac,B.aD,B.aO,B.au)
@@ -39878,15 +39875,15 @@ a0=l.cg()
 r.drawCircle(f,g,c,a0)
 a0.delete()
 l=new A.el(B.ay,B.ac,B.aD,B.aO,B.au)
-if(i.y)h=B.zw
-else h=d?B.k4:B.yM.cR(0.75)
-l.r=h.gt()
+if(i.y)j=B.zw
+else j=d?B.k4:B.yM.cR(0.75)
+l.r=j.gt()
 l.c=d?2.2:1
 l.b=B.ar
 a0=l.cg()
 r.drawCircle(f,g,c,a0)
 a0.delete()
-if(j){a1=new A.pz(new A.kJ(""+e,a3,a3,B.fM,a3,a3,a3,a3,a3,a3,B.NA),B.aP,B.N,new A.jj(1),a3,a3,a3,a3,B.bu,a3)
+if(e>1){a1=new A.pz(new A.kJ(""+e,a3,a3,B.fM,a3,a3,a3,a3,a3,a3,B.NA),B.aP,B.N,new A.jj(1),a3,a3,a3,a3,B.bu,a3)
 a1.Mi()
 l=a1.b
 a1.b3(a6,new A.I(f-l.c/2,g-l.a.c.gdV()/2))}}},
@@ -40088,7 +40085,7 @@ A.Hz.prototype={
 R(a){return B.A0}}
 A.HB.prototype={
 R(a){var s=null,r=A.jK(99),q=A.afe(B.fQ)
-return A.hI(s,A.di("v8.5",s,s,B.Oj,s),B.K,s,new A.dM(B.zB,s,q,r,s,s,B.aE),s,s,s,B.AQ,s,s,s)}}
+return A.hI(s,A.di("v8.6",s,s,B.Oj,s),B.K,s,new A.dM(B.zB,s,q,r,s,s,B.aE),s,s,s,B.AQ,s,s,s)}}
 A.Nd.prototype={
 R(a){var s,r,q,p,o=this,n=null,m=o.c?160:205,l=$.qT(),k=t.E
 if(o.f){s=o.d
