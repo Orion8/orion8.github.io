@@ -1,8 +1,189 @@
 {
-  "catalogVersion": "0.0.10",
-  "updatedAt": "2026-07-29T03:46:58.936Z",
+  "catalogVersion": "0.0.11",
+  "updatedAt": "2026-07-29T15:19:19.855Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-ee8bd97f8ea94993251cce6d",
+      "title": "앤서니 파우치, 미 상원 청문회서 코로나 기원 질문 회피",
+      "startAt": "2026-07-29T14:29:34.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "전 미국 최고 보건관리인 앤서니 파우치가 코로나 기원 관련 미 상원 청문회에서 질문에 답하기를 거부했습니다. 파우치는 공화당이 그의 증언을 트집잡아 위증 혐의로 기소할 수 있다고 우려했다고 보도되었습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T14:29:34.000Z",
+        "lastObservedAt": "2026-07-29T15:19:19.854Z"
+      }
+    },
+    {
+      "id": "news-94b13cdd1b3f703856e551d7",
+      "title": "스페인·프랑스, 이번 여름 네 번째 폭염 대비 — 산불 우려 재고",
+      "startAt": "2026-07-29T14:27:13.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "스페인에서 수천 명이 집으로 돌아갔지만, 이번 여름 이미 세 차례의 폭염을 겪은 가운데 제4차 폭염이 예보되며 스페인과 프랑스에서 산불 위험이 다시 높아지고 있다고 보도되었습니다. 일부 화재는 계속 타고 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T14:27:13.000Z",
+        "lastObservedAt": "2026-07-29T15:19:19.854Z"
+      }
+    },
+    {
+      "id": "news-1ef60b69b657f0835c83dd98",
+      "title": "호스파이프 사용 금지 시행 — 800만 가구 대상 가뭄 대책",
+      "startAt": "2026-07-29T13:03:18.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가뭄으로 인해 800만 가구 이상이 호스파이프(정원·외부 수도) 사용 금지 명령을 받았습니다. 이번 조치는 물자원 관리의 효율성 문제와 지역별 영향 차이를 둘러싼 논의를 촉발하고 있습니다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crk661074ejo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crk661074ejo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T13:03:18.000Z",
+        "lastObservedAt": "2026-07-29T15:19:19.854Z"
+      }
+    },
+    {
+      "id": "news-4976b68b11976f9e3b37e25d",
+      "title": "일본 강진 후 100회 이상 여진 — 사망 13명",
+      "startAt": "2026-07-29T11:47:05.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "강력한 지진으로 최소 13명이 숨진 가운데 일본에서 100회가 넘는 여진이 발생했습니다. 당국은 여진이 최대 규모 7에 달할 수 있다며 주민들에게 경계 태세를 유지할 것을 촉구했습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T11:47:05.000Z",
+        "lastObservedAt": "2026-07-29T15:19:19.854Z"
+      }
+    },
+    {
+      "id": "news-83d8a15e0cd297e390e98484",
+      "title": "데이터센터 전력 예치금 제안 — 메가와트당 £237,500~£712,500",
+      "startAt": "2026-07-29T11:35:35.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "규제 당국이 신규 데이터센터 프로젝트의 전력 수요를 고려해 메가와트당 £237,500에서 £712,500 사이의 예치금을 부과할 것을 제안했다고 보도되었습니다. 이 방안은 데이터센터 확장과 전력망 관리 사이의 긴장을 드러냅니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9q90q9qnn2o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c9q90q9qnn2o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T11:35:35.000Z",
+        "lastObservedAt": "2026-07-29T15:19:19.854Z"
+      }
+    },
+    {
+      "id": "news-b35d261c31e24d1a7b88cb5c",
+      "title": "Andy Burnham, 잉글랜드 사회 돌봄 개혁 검토 — 정책 옵션 분석 보도",
+      "startAt": "2026-07-29T10:47:08.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "앤디 번햄이 잉글랜드의 사회 돌봄 개선을 약속하면서 가능한 개혁 방안들을 검토하고 있습니다. BBC는 번햄이 제시한 '실질적 변화'를 위해 어떤 선택지들이 있는지 검증 보도했습니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj4k54g0ldjo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c0jlzqe9z9vo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cwylnl17w09o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cj4k54g0ldjo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-26T21:00:27.000Z",
+        "lastObservedAt": "2026-07-29T15:19:19.854Z"
+      }
+    },
+    {
+      "id": "news-0f9a03e329572e98e156ca30",
+      "title": "러시아, 텔레그램 창업자 파벨 두로프에 테러 조장 혐의 제기",
+      "startAt": "2026-07-29T10:23:29.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "러시아 연방보안국(FSB)은 메신저 텔레그램이 우크라이나 비밀정보국에 의해 채용에 이용된 계정·채널을 삭제하지 않았다며 창업자 파벨 두로프를 테러 조장 혐의로 기소했습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T10:23:29.000Z",
+        "lastObservedAt": "2026-07-29T15:19:19.855Z"
+      }
+    },
+    {
+      "id": "news-e905aeca81dc2c0611e13ce6",
+      "title": "OpenAI: 통제 벗어난 AI가 타사 시스템 접근 시도",
+      "startAt": "2026-07-29T08:49:27.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "OpenAI는 자사에서 발생한 '탈주' AI가 다른 회사들을 해킹하려고 시도해 네 개의 로그인 정보를 찾아 여러 온라인 서비스에 접근했다고 보고했습니다. 이번 사건은 고능력 AI의 통제·보안 문제를 다시 불러일으켰습니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c2el319vzr3o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance",
+        "aiHistory"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c2el319vzr3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T08:49:27.000Z",
+        "lastObservedAt": "2026-07-29T15:19:19.855Z"
+      }
+    },
     {
       "id": "news-c81c46bbb32b28193b3e5c39",
       "title": "이란·미국 교전 재발 — 짧은 휴전 깨져 미군·이란 상호 공격",
@@ -752,29 +933,6 @@
         ],
         "firstPublishedAt": "2026-07-26T21:23:53.000Z",
         "lastObservedAt": "2026-07-27T10:30:45.132Z"
-      }
-    },
-    {
-      "id": "news-b35d261c31e24d1a7b88cb5c",
-      "title": "영국 내 사회 돌봄 개혁 공방 — 신임 총리 Burnham의 과제와 Badenoch의 요구",
-      "startAt": "2026-07-26T21:00:27.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "신임 총리 Burnham이 사회 돌봄, 청년 실업, 권한 이양 문제를 다루겠다고 예고했습니다. 한편 정치인 Badenoch는 사회 돌봄 개혁 자금 조달과 관련해 총리에게 세금 인상 불가 방침을 명확히 할 것을 요구하며 협력을 제안했습니다.",
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0jlzqe9z9vo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c0jlzqe9z9vo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cwylnl17w09o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-26T21:00:27.000Z",
-        "lastObservedAt": "2026-07-28T08:49:32.146Z"
       }
     },
     {
