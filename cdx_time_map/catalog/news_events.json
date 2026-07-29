@@ -1,8 +1,102 @@
 {
-  "catalogVersion": "0.0.9",
-  "updatedAt": "2026-07-28T14:32:58.541Z",
+  "catalogVersion": "0.0.10",
+  "updatedAt": "2026-07-29T03:46:58.936Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c81c46bbb32b28193b3e5c39",
+      "title": "이란·미국 교전 재발 — 짧은 휴전 깨져 미군·이란 상호 공격",
+      "startAt": "2026-07-29T02:47:28.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미 중앙사령부(US Central Command)는 이란이 발사한 '다수'의 탄도미사일을 요격했다고 밝혔습니다. 이번 공격·요격으로 그간의 일시적 공격 중단 기조가 깨지며 지역 긴장이 재고조되었고, 사태는 추가 충돌·외교적 파장 가능성을 남겼습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T08:14:46.000Z",
+        "lastObservedAt": "2026-07-29T03:46:58.936Z"
+      }
+    },
+    {
+      "id": "news-91bc1f0c6751448367e9df27",
+      "title": "멕시코 마약조직, 메스암페타민 제조·수출을 나이지리아로 아웃소싱",
+      "startAt": "2026-07-28T23:25:53.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 멕시코의 마약 카르텔이 합성마약(메스암페타민) 제조 기반을 나이지리아·서아프리카로 이전·외주화하면서 지역이 제조·수송의 허브로 부상하고 있습니다. 이는 범죄의 글로벌화와 서아프리카의 대규모 불법 산업화 위험을 부각시킵니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crmrnxp4nllo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crmrnxp4nllo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-28T23:25:53.000Z",
+        "lastObservedAt": "2026-07-29T03:46:58.936Z"
+      }
+    },
+    {
+      "id": "news-b95471a4325fa04ad8ba7ab3",
+      "title": "케냐 남부에서 코끼리 14마리 집단 폐사 — 원인 규명 위한 긴급 조사",
+      "startAt": "2026-07-28T16:37:02.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "케냐 남부 지역에서 최근 보고된 코끼리 14마리의 미스터리 폐사는 수십 년 만에 이 지역에서 기록된 최대 수준의 집단 폐사로 보입니다. 당국은 독성물질, 질병, 기타 환경 요인을 포함한 포괄적 조사를 긴급히 시작했습니다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3w0d7yeqlxo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c3w0d7yeqlxo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-28T16:37:02.000Z",
+        "lastObservedAt": "2026-07-29T03:46:58.936Z"
+      }
+    },
+    {
+      "id": "news-258b5d2dde1738490938fe0e",
+      "title": "미국 최대 전력망 과부하 방지 위해 데이터센터에 일시적 전력중단 권고 검토",
+      "startAt": "2026-07-28T15:42:26.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "데이터센터 건설의 급증으로 전력망 운영자들이 공급·수요 조정 압박을 받고 있어, 미국의 최대 전력망 운영자들이 블랙아웃을 막기 위해 데이터센터에 일시적 전력 차단(수요 제한)을 시행할 수 있다는 방안을 검토하고 있습니다. 이 논의는 클라우드·AI 인프라 확장과 지역 전력계획 간의 긴장을 드러냅니다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/"
+        ],
+        "firstPublishedAt": "2026-07-28T15:42:26.000Z",
+        "lastObservedAt": "2026-07-29T03:46:58.936Z"
+      }
+    },
     {
       "id": "news-7ea20dd099db3e167b1ad357",
       "title": "프랑스 Gironde 지역 산불 확산 — 새 40°C 폭염 예보로 진화 우려",
@@ -23,6 +117,29 @@
         ],
         "firstPublishedAt": "2026-07-28T13:25:13.000Z",
         "lastObservedAt": "2026-07-28T14:32:58.541Z"
+      }
+    },
+    {
+      "id": "news-e458eb461571301b976fbabf",
+      "title": "Recursive Superintelligence, 아마존과 4.1억 달러 규모 컴퓨트 공급 계약 체결",
+      "startAt": "2026-07-28T13:19:17.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "AI 스타트업 Recursive Superintelligence는 아마존과 약 4.1억 달러 규모의 클라우드 컴퓨트 공급 계약을 체결했습니다. 회사는 자체 개선(Self‑improving) 모델 개발을 위해 상당 부분 예산을 컴퓨트에 투입할 계획이라고 밝혔습니다. 이번 계약은 대규모 컴퓨트 확보 경쟁과 AI 개발 비용 구조 변화를 보여줍니다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/"
+        ],
+        "firstPublishedAt": "2026-07-28T13:19:17.000Z",
+        "lastObservedAt": "2026-07-29T03:46:58.936Z"
       }
     },
     {
@@ -389,30 +506,6 @@
         ],
         "firstPublishedAt": "2026-07-27T15:57:12.000Z",
         "lastObservedAt": "2026-07-27T19:51:05.512Z"
-      }
-    },
-    {
-      "id": "news-c81c46bbb32b28193b3e5c39",
-      "title": "미·이란 공격 일시 중단 — 협상 여지 속 미군 부상자 600명 이상 보고",
-      "startAt": "2026-07-27T15:08:37.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미국이 '협상에 공간을 주기 위해' 공격을 중단했다는 발표가 나오면서 유가가 급락했습니다. 같은 사안과 관련해 2월 전쟁 발발 이후 Operation Fury와 새로 도입된 'Overseas Operations' 카테고리를 포함해 미군 부상자가 600명을 넘었다고 보도됐습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T08:14:46.000Z",
-        "lastObservedAt": "2026-07-27T15:11:36.436Z"
       }
     },
     {
