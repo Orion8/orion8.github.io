@@ -1,8 +1,171 @@
 {
-  "catalogVersion": "0.0.11",
-  "updatedAt": "2026-07-29T15:19:19.855Z",
+  "catalogVersion": "0.0.12",
+  "updatedAt": "2026-07-30T04:16:36.585Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c81c46bbb32b28193b3e5c39",
+      "title": "미국, 미군에 대한 시도된 공격에 대응해 이란에 '강력' 공습",
+      "startAt": "2026-07-30T03:33:01.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미국 군당국은 화요일 이란이 중동 지역의 미군을 겨냥해 미사일을 발사한 데 대응해 이란에 대해 '강한' 공습을 가했다고 밝혔습니다. 이번 공격은 최근의 미·이란 간 교전 재발 국면에서 나온 군사적 대응으로 지역 긴장을 고조시키고 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-27T08:14:46.000Z",
+        "lastObservedAt": "2026-07-30T04:16:36.584Z"
+      }
+    },
+    {
+      "id": "news-6a71726999fcc15c2aa0cf98",
+      "title": "영국 총리 번햄, 핵 잠수함 투자로 안보·일자리 보호 강조",
+      "startAt": "2026-07-30T02:36:53.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "번햄 총리는 Barrow‑in‑Furness 방문을 앞두고 핵 잠수함 투자로 영국의 안보를 지키고 일자리를 창출하겠다고 강조했습니다. 정부는 국방 지출의 지역 경제적 이득을 부각시키며 투자의 필요성을 역설했습니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crl70x0nxr9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crl70x0nxr9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-30T02:36:53.000Z",
+        "lastObservedAt": "2026-07-30T04:16:36.585Z"
+      }
+    },
+    {
+      "id": "news-87dff393b55f6918e892b45f",
+      "title": "영국 기준금리 추가 동결 기대 — BOE, 3.75% 유지 전망",
+      "startAt": "2026-07-29T23:01:56.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "시장 예측에 따르면 영국 중앙은행(Bank of England)이 기준금리를 3.75%로 유지해 다섯 번째 연속 동결을 결정할 가능성이 높다고 보도되었습니다. 이는 2023년 2월 이후 최저 수준이라는 평가와 함께 향후 통화정책 방향에 대한 관심을 모으고 있습니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T23:01:56.000Z",
+        "lastObservedAt": "2026-07-30T04:16:36.585Z"
+      }
+    },
+    {
+      "id": "news-cb779284d264b479a0374193",
+      "title": "Salman Rushdie 공격자 해디 마타(Hadi Matar) 테러죄 유죄 판결",
+      "startAt": "2026-07-29T22:15:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "법원은 28세의 해디 마타가 영국·인도계 작가 Salman Rushdie를 공격함으로써 헤즈볼라를 돕고자 한 혐의 등 테러 관련 범죄로 유죄를 선고받았다고 보도되었습니다. 이번 판결은 저명한 작가에 대한 폭력 사건의 형사처벌 마무리를 의미합니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c86ng1g5wy4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c86ng1g5wy4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T22:15:33.000Z",
+        "lastObservedAt": "2026-07-30T04:16:36.585Z"
+      }
+    },
+    {
+      "id": "news-c6a1aa235de9bc37c63f0577",
+      "title": "사우디아라비아, 미·이란 충돌 속 '비개입' 딜레마 — 보복·완화 선택 갈림길",
+      "startAt": "2026-07-29T18:41:31.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "사우디는 미·이란간 전면전으로의 확산을 피하려는 가운데 억제 차원의 보복을 지속할지, 긴장 완화를 위한 역할을 모색할지 선택의 기로에 놓여 있다고 보도되었습니다. 왕국의 결정은 지역 안보와 외교적 파장에 영향을 줄 수 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T18:41:31.000Z",
+        "lastObservedAt": "2026-07-30T04:16:36.585Z"
+      }
+    },
+    {
+      "id": "news-7ea20dd099db3e167b1ad357",
+      "title": "프랑스 Gironde 산불 — 일부 주민 '집·숲' 지키려 대피 거부",
+      "startAt": "2026-07-29T16:49:41.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "소방대원들이 40°C 안팎의 폭염 속에서 잔불을 진압하는 가운데 Gironde 지역 일부 주민들이 대피 명령을 따르지 않고 '우리의 집·숲'이라며 잔류하고 있다고 보도되었습니다. 현지 고온과 강한 화재 활동은 진화 작업을 더욱 어렵게 만들고 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-28T13:25:13.000Z",
+        "lastObservedAt": "2026-07-30T04:16:36.584Z"
+      }
+    },
+    {
+      "id": "news-1ef60b69b657f0835c83dd98",
+      "title": "잉글랜드 절반 이상 가뭄 선언 — 환경청, 강·농작물·자연 영향 경고",
+      "startAt": "2026-07-29T14:37:30.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "영국 환경청(Environment Agency)은 잉글랜드의 절반 이상 지역에 대해 가뭄을 선언했습니다. 이번 선언은 예외적으로 덥고 건조한 기간 이후 내려졌으며 강수량 부족이 하천·농작물·자연에 심각한 영향을 미치고 있다고 보도됐습니다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckg35n7yny3o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crk661074ejo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ckg35n7yny3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-29T13:03:18.000Z",
+        "lastObservedAt": "2026-07-30T04:16:36.584Z"
+      }
+    },
     {
       "id": "news-ee8bd97f8ea94993251cce6d",
       "title": "앤서니 파우치, 미 상원 청문회서 코로나 기원 질문 회피",
@@ -44,30 +207,6 @@
           "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-07-29T14:27:13.000Z",
-        "lastObservedAt": "2026-07-29T15:19:19.854Z"
-      }
-    },
-    {
-      "id": "news-1ef60b69b657f0835c83dd98",
-      "title": "호스파이프 사용 금지 시행 — 800만 가구 대상 가뭄 대책",
-      "startAt": "2026-07-29T13:03:18.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가뭄으로 인해 800만 가구 이상이 호스파이프(정원·외부 수도) 사용 금지 명령을 받았습니다. 이번 조치는 물자원 관리의 효율성 문제와 지역별 영향 차이를 둘러싼 논의를 촉발하고 있습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crk661074ejo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crk661074ejo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T13:03:18.000Z",
         "lastObservedAt": "2026-07-29T15:19:19.854Z"
       }
     },
@@ -185,31 +324,6 @@
       }
     },
     {
-      "id": "news-c81c46bbb32b28193b3e5c39",
-      "title": "이란·미국 교전 재발 — 짧은 휴전 깨져 미군·이란 상호 공격",
-      "startAt": "2026-07-29T02:47:28.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미 중앙사령부(US Central Command)는 이란이 발사한 '다수'의 탄도미사일을 요격했다고 밝혔습니다. 이번 공격·요격으로 그간의 일시적 공격 중단 기조가 깨지며 지역 긴장이 재고조되었고, 사태는 추가 충돌·외교적 파장 가능성을 남겼습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T08:14:46.000Z",
-        "lastObservedAt": "2026-07-29T03:46:58.936Z"
-      }
-    },
-    {
       "id": "news-91bc1f0c6751448367e9df27",
       "title": "멕시코 마약조직, 메스암페타민 제조·수출을 나이지리아로 아웃소싱",
       "startAt": "2026-07-28T23:25:53.000Z",
@@ -276,28 +390,6 @@
         ],
         "firstPublishedAt": "2026-07-28T15:42:26.000Z",
         "lastObservedAt": "2026-07-29T03:46:58.936Z"
-      }
-    },
-    {
-      "id": "news-7ea20dd099db3e167b1ad357",
-      "title": "프랑스 Gironde 지역 산불 확산 — 새 40°C 폭염 예보로 진화 우려",
-      "startAt": "2026-07-28T13:25:13.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "프랑스 Gironde 지역에서 산불 진화가 어려워지는 가운데 소방대원들은 수요일에 예보된 40°C 안팎의 고온이 진화 작업을 더 복잡하게 만들 것으로 우려하고 있습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-28T13:25:13.000Z",
-        "lastObservedAt": "2026-07-28T14:32:58.541Z"
       }
     },
     {
