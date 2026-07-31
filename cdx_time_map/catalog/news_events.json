@@ -1,8 +1,124 @@
 {
-  "catalogVersion": "0.0.14",
-  "updatedAt": "2026-07-31T04:35:37.487Z",
+  "catalogVersion": "0.0.15",
+  "updatedAt": "2026-07-31T15:28:23.535Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-bb76bd2a08b674d5469f4b9f",
+      "title": "잉글랜드·웨일스, 7월 사상 최저 강수량 행진할 듯",
+      "startAt": "2026-07-31T14:43:58.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "Met Office 기록을 근거로 잉글랜드와 웨일스가 관측 이래(약 190년) 7월 중 가장 적은 강수량을 기록할 가능성이 높다고 보도되었습니다. 이는 이미 선언된 지역 가뭄과 함께 농업·수자원·생태계에 추가적 압박을 줄 수 있습니다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cddjznv86p3o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "lifeScience",
+        "physicsChemistry"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c8jn1v37znvo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/weather/articles/cddjznv86p3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-30T14:15:09.000Z",
+        "lastObservedAt": "2026-07-31T15:28:23.534Z"
+      }
+    },
+    {
+      "id": "news-9cffee12ea2bb3f2d207827a",
+      "title": "그리스 크레타 대형 산불 — 수백 명 해상으로 대피·유럽 전역의 화재 지속",
+      "startAt": "2026-07-31T14:26:07.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "크레타 섬 Agios Vasileios 인근 산불로 관광객 등 약 500명이 갇혔다가 보트로 대피하는 등 대규모 피난이 발생했습니다. 기온·강풍 등으로 유럽 각지의 화재 위험이 이어지고 있습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0kmzx8vpv4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c0kmzx8vpv4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-30T12:46:16.000Z",
+        "lastObservedAt": "2026-07-31T15:28:23.534Z"
+      }
+    },
+    {
+      "id": "news-5ef245ea82843cfc4d41faac",
+      "title": "세우타로 하루 6만명 유입 보도 — 스페인, 불법 이민자 전원 모로코로 반환 방침",
+      "startAt": "2026-07-31T14:20:18.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "스페인 영토 세우타로 24시간 내 약 60,000명이 도착했다고 당국자가 밝혔습니다. 스페인 총리는 이를 '공격'으로 규정하며 불법 이민자들은 모두 모로코로 돌려보내겠다고 말했습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-31T02:41:09.000Z",
+        "lastObservedAt": "2026-07-31T15:28:23.534Z"
+      }
+    },
+    {
+      "id": "news-b53bda5920d732ec04d3f32f",
+      "title": "BP, 노스시 사업 매각 추진 — 60년간 생산 종결 가능성",
+      "startAt": "2026-07-31T13:27:29.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BP가 노스시(북해) 사업을 매각 대상으로 내놓기로 결정했다고 보도되었습니다. 회사의 검토 결과에 따른 결정으로, 이는 BP의 해당 지역 내 약 60년 생산 역사를 사실상 마감하는 조치가 될 수 있습니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c62q7w003lro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c62q7w003lro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-31T13:27:29.000Z",
+        "lastObservedAt": "2026-07-31T15:28:23.535Z"
+      }
+    },
+    {
+      "id": "news-9a67852a2034388ff12ebff0",
+      "title": "영국 휘발유값, '이란 전쟁' 발발 이후 최고치 — 리터당 160펜스 보고",
+      "startAt": "2026-07-31T11:19:23.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "모터링 단체 RAC는 영국의 무연휘발유 가격이 리터당 160p에 달하며 이는 '이란 전쟁' 시작 이래 최고 수준이라고 보도했습니다. 국제 유가 상승이 연료비 급등의 배경으로 지적됩니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-31T11:19:23.000Z",
+        "lastObservedAt": "2026-07-31T15:28:23.535Z"
+      }
+    },
     {
       "id": "news-49470c822154e7d8ae8a0a15",
       "title": "하마스, 'Board of Peace' 계획에 따라 무장해제 합의했다고 BBC 보도",
@@ -26,25 +142,51 @@
       }
     },
     {
-      "id": "news-5ef245ea82843cfc4d41faac",
-      "title": "세우타(스페인)로 수천 명 밀려들자 스페인, 군 투입 — 수영 시도 중 최소 15명 익사",
-      "startAt": "2026-07-31T02:41:09.000Z",
+      "id": "news-1ef60b69b657f0835c83dd98",
+      "title": "가뭄 조건 악화 우려 — 일부 지역, 개선 전 더 건조해질 가능성",
+      "startAt": "2026-07-31T01:28:46.000Z",
       "lane": "world",
-      "category": "politicsSociety",
+      "category": "climateDisaster",
       "importance": 3,
-      "description": "모로코에서 스페인 영토 세우타로 수천명이 몰려들자 스페인은 병력을 파견했다. 국경 해상에서 수영을 시도하던 이들 가운데 최소 15명이 익사한 것으로 보도됐다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
+      "description": "기상전망은 영국의 가장 건조한 지역들에서 강수 부족으로 인해 가뭄 상황이 개선되기 전에 악화될 수 있다고 경고했습니다. 해당 전망은 하천 수위·농업·공급 관리에 대한 추가 대응 필요성을 시사합니다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cn5nk90ndl0o?at_medium=RSS&at_campaign=rss",
       "topicIds": [
-        "politicsHumanRights"
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/crk661074ejo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ckg35n7yny3o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/weather/articles/cn5nk90ndl0o?at_medium=RSS&at_campaign=rss"
         ],
-        "firstPublishedAt": "2026-07-31T02:41:09.000Z",
-        "lastObservedAt": "2026-07-31T04:35:37.487Z"
+        "firstPublishedAt": "2026-07-29T13:03:18.000Z",
+        "lastObservedAt": "2026-07-31T15:28:23.534Z"
+      }
+    },
+    {
+      "id": "news-437b9d04c4446321c8d51ad9",
+      "title": "Thames Water CEO, 누수 감축 목표 \"현실적이지 않다\"고 발언",
+      "startAt": "2026-07-30T23:06:37.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "Thames Water의 최고경영자 크리스 웨스턴(Chris Weston)은 회사가 개선을 원하지만 일부 누수 감축 목표는 달성하기 어렵다고 밝혔습니다. 이는 상수도 인프라·정책 목표 설정 논쟁과 연결됩니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c04kd3gl1gpo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c04kd3gl1gpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-30T23:06:37.000Z",
+        "lastObservedAt": "2026-07-31T15:28:23.535Z"
       }
     },
     {
@@ -202,51 +344,6 @@
         ],
         "firstPublishedAt": "2026-07-30T14:24:08.000Z",
         "lastObservedAt": "2026-07-31T04:35:37.487Z"
-      }
-    },
-    {
-      "id": "news-bb76bd2a08b674d5469f4b9f",
-      "title": "웨일스 전역에 가뭄 선포 — 190년 만의 최건조 7월 예상",
-      "startAt": "2026-07-30T14:15:09.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "웨일스 전역에 가뭄이 선언됐으며, 올 7월이 거의 190년 만에 최저 강수량을 기록할 가능성이 있다는 보도가 나왔습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8jn1v37znvo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "lifeScience"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c8jn1v37znvo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T14:15:09.000Z",
-        "lastObservedAt": "2026-07-30T15:22:32.263Z"
-      }
-    },
-    {
-      "id": "news-9cffee12ea2bb3f2d207827a",
-      "title": "그리스 크레타섬 대형 산불로 수천 명 대피",
-      "startAt": "2026-07-30T12:46:16.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "강풍이 불길을 부채질하면서 크레타 섬 Rethymno 지역에서 대형 산불이 확산돼 수천 명이 대피했다고 보도되었습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T12:46:16.000Z",
-        "lastObservedAt": "2026-07-30T15:22:32.263Z"
       }
     },
     {
@@ -500,31 +597,6 @@
           "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-07-28T13:25:13.000Z",
-        "lastObservedAt": "2026-07-30T04:16:36.584Z"
-      }
-    },
-    {
-      "id": "news-1ef60b69b657f0835c83dd98",
-      "title": "잉글랜드 절반 이상 가뭄 선언 — 환경청, 강·농작물·자연 영향 경고",
-      "startAt": "2026-07-29T14:37:30.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "영국 환경청(Environment Agency)은 잉글랜드의 절반 이상 지역에 대해 가뭄을 선언했습니다. 이번 선언은 예외적으로 덥고 건조한 기간 이후 내려졌으며 강수량 부족이 하천·농작물·자연에 심각한 영향을 미치고 있다고 보도됐습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckg35n7yny3o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crk661074ejo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/ckg35n7yny3o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T13:03:18.000Z",
         "lastObservedAt": "2026-07-30T04:16:36.584Z"
       }
     },
