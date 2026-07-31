@@ -1,8 +1,141 @@
 {
-  "catalogVersion": "0.0.13",
-  "updatedAt": "2026-07-30T15:22:32.263Z",
+  "catalogVersion": "0.0.14",
+  "updatedAt": "2026-07-31T04:35:37.487Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-49470c822154e7d8ae8a0a15",
+      "title": "하마스, 'Board of Peace' 계획에 따라 무장해제 합의했다고 BBC 보도",
+      "startAt": "2026-07-31T03:24:14.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC는 한 고위 하마스관리의 발언을 인용해 하마스가 Board of Peace(평화위원회)의 계획에 따라 무장해제에 합의했다고 보도했다. 보도는 이스라엘 측의 즉각적인 언급은 없다고 전했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-31T03:24:14.000Z",
+        "lastObservedAt": "2026-07-31T04:35:37.487Z"
+      }
+    },
+    {
+      "id": "news-5ef245ea82843cfc4d41faac",
+      "title": "세우타(스페인)로 수천 명 밀려들자 스페인, 군 투입 — 수영 시도 중 최소 15명 익사",
+      "startAt": "2026-07-31T02:41:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "모로코에서 스페인 영토 세우타로 수천명이 몰려들자 스페인은 병력을 파견했다. 국경 해상에서 수영을 시도하던 이들 가운데 최소 15명이 익사한 것으로 보도됐다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-31T02:41:09.000Z",
+        "lastObservedAt": "2026-07-31T04:35:37.487Z"
+      }
+    },
+    {
+      "id": "news-7608d2fecb0065dab2250628",
+      "title": "다뉴브 강 수위 최저 기록 — 헝가리 유일 원전 가동 중단",
+      "startAt": "2026-07-30T17:55:24.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "지속적 폭염과 강우 부족으로 다뉴브 강 수위가 기록적 저하를 보이면서 헝가리의 유일 원자력발전소가 일시적으로 가동을 중단했다. 루마니아·불가리아·세르비아 등 인접국들도 낮은 수위와 가뭄 영향을 겪고 있다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "physicsChemistry"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-30T17:55:24.000Z",
+        "lastObservedAt": "2026-07-31T04:35:37.487Z"
+      }
+    },
+    {
+      "id": "news-2ae14840c4616dd3e3c7b0d5",
+      "title": "분석: 이란은 왜 '제한적 갈등'을 택할 수 있나",
+      "startAt": "2026-07-30T17:26:01.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "분석 보도는 이란이 미국과의 충돌에서 통제 가능한 수준의 군사행동을 통해 압박을 유지하면서 전면전은 피하려 할 가능성이 있다고 평가했다. 보도는 제약된 갈등 전략의 위험·이익을 검토했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-30T17:26:01.000Z",
+        "lastObservedAt": "2026-07-31T04:35:37.487Z"
+      }
+    },
+    {
+      "id": "news-29f93a7d66035d6cfccd9edb",
+      "title": "UEFA, FIFA의 투자안 강행 시 향후 월드컵 보이콧 경고",
+      "startAt": "2026-07-30T16:47:40.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "UEFA는 55개 회원국의 표결 끝에 FIFA와 회장 지아니 인판티노의 투자 제안이 통과될 경우 향후 월드컵 보이콧을 검토하겠다고 밝혔다. UEFA는 '월드컵은 팔 수 없다'고 주장했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-30T16:47:40.000Z",
+        "lastObservedAt": "2026-07-31T04:35:37.487Z"
+      }
+    },
+    {
+      "id": "news-6ed2d341be9e09a7f8cfd3fe",
+      "title": "NASA, Deniz Burnham을 국제우주정거장(ISS) 첫 임무 승무원으로 배정",
+      "startAt": "2026-07-30T16:11:41.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 우주비행사 Deniz Burnham을 익스페디션 76의 비행엔지니어로 배정했다. Burnham은 Roscosmos의 소유즈 MS‑30 우주선으로 Dmitri Petelin, Konstantin Borisov와 함께 2027년 3월 바이코누르 발사를 목표로 임무에 참여할 예정이다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-assigns-astronaut-deniz-burnham-to-first-space-station-mission/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-assigns-astronaut-deniz-burnham-to-first-space-station-mission/"
+        ],
+        "firstPublishedAt": "2026-07-30T16:11:41.000Z",
+        "lastObservedAt": "2026-07-31T04:35:37.487Z"
+      }
+    },
     {
       "id": "news-8a4cb467190eaa9b41818ca9",
       "title": "러시아 미사일 공격·여파로 민간인 사망·폴란드 내 크레이터 발견",
@@ -49,6 +182,29 @@
       }
     },
     {
+      "id": "news-d685e0c4df80910f685cd26f",
+      "title": "JWST(MIRI), 근접 은하 Centaurus A의 먼지 구조·숨은 활동 드러낸 이미지 공개",
+      "startAt": "2026-07-30T14:24:08.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "제임스웹 우주망원경의 중적외선 관측(MIRI)이 지구에서 약 1,100만 광년 떨어진 은하 Centaurus A의 먼지 구조와 내재된 활동을 드러내는 이미지를 공개했다. 관측은 이 비정상적 계의 은하 활동 이해를 돕는다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/starburst-galaxy-centaurus-a/",
+      "topicIds": [
+        "spaceDevelopment",
+        "physicsChemistry"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/starburst-galaxy-centaurus-a/"
+        ],
+        "firstPublishedAt": "2026-07-30T14:24:08.000Z",
+        "lastObservedAt": "2026-07-31T04:35:37.487Z"
+      }
+    },
+    {
       "id": "news-bb76bd2a08b674d5469f4b9f",
       "title": "웨일스 전역에 가뭄 선포 — 190년 만의 최건조 7월 예상",
       "startAt": "2026-07-30T14:15:09.000Z",
@@ -91,6 +247,30 @@
         ],
         "firstPublishedAt": "2026-07-30T12:46:16.000Z",
         "lastObservedAt": "2026-07-30T15:22:32.263Z"
+      }
+    },
+    {
+      "id": "news-444a767e284f08a3fc6ae642",
+      "title": "케냐 남부서 토마토용 살충제 속 시안화물 의심 — 코끼리 15마리 집단 폐사",
+      "startAt": "2026-07-30T12:14:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "케냐 당국은 토마토용 살충제에 포함된 시안화물이 최소 15마리의 코끼리 폐사의 원인으로 의심된다고 밝혔다. 이번 사건은 해당 지역에서 수십 년 만의 대규모 집단 폐사로 긴급 조사가 진행되고 있다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cp9e0v5xmdyo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "lifeScience",
+        "climateEnvironment",
+        "physicsChemistry"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cp9e0v5xmdyo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-30T12:14:00.000Z",
+        "lastObservedAt": "2026-07-31T04:35:37.487Z"
       }
     },
     {
