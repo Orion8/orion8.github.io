@@ -1,8 +1,98 @@
 {
-  "catalogVersion": "0.0.15",
-  "updatedAt": "2026-07-31T15:28:23.535Z",
+  "catalogVersion": "0.0.16",
+  "updatedAt": "2026-08-01T04:31:31.736Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-18995a9df9a9ac7d15001655",
+      "title": "힐리, 예산안 10월 발표 예고",
+      "startAt": "2026-08-01T03:34:26.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "새 재무장관 힐리는 예산안을 10월에 실시하겠다고 발표하며 자금과 권한을 웨스트민스터에서 영국 전역의 우편번호 단위로 이전하겠다고 약속했습니다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjd4yz35x8go?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cjd4yz35x8go?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-01T03:34:26.000Z",
+        "lastObservedAt": "2026-08-01T04:31:31.736Z"
+      }
+    },
+    {
+      "id": "news-3756d64b0e6fb56b482bef7b",
+      "title": "페루 전 대통령 올란타 우말라, 15년형 뒤집혀 석방",
+      "startAt": "2026-08-01T02:21:29.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "올란타 우말라 전 대통령은 2025년 아내와 함께 돈세탁 혐의로 유죄 판결을 받았으나 해당 형이 뒤집히면서 수감에서 풀려나왔습니다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-01T02:21:29.000Z",
+        "lastObservedAt": "2026-08-01T04:31:31.736Z"
+      }
+    },
+    {
+      "id": "news-f879706c831a92fbf0b5fd5f",
+      "title": "희귀 '핑크 제브라' 해조, 자연사박물관 소장 예정",
+      "startAt": "2026-07-31T23:43:10.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 1,
+      "description": "약 40년 전 처음 관찰된 고대 해조(일명 '핑크 제브라')가 자연사박물관 소장품에 합류하게 됐습니다. 이 표본을 평생 추적해온 과학자의 연구가 주목받고 있습니다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/czrxepy3vn3o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "lifeScience",
+        "physicsChemistry",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/czrxepy3vn3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-07-31T23:43:10.000Z",
+        "lastObservedAt": "2026-08-01T04:31:31.736Z"
+      }
+    },
+    {
+      "id": "news-f8ec64126bdac17b3b31c4b6",
+      "title": "OpenAI, 유럽에서의 책임 있는 AI 거버넌스 관행 공유",
+      "startAt": "2026-07-31T15:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI는 안전·보안·투명성·출처(provenance) 관련 관행을 유럽에서의 책임 있는 AI 거버넌스 지원 방안으로 제시하며, EU AI법 진전에 맞춰 계속 작업하겠다고 밝혔습니다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/advancing-responsible-ai-across-europe"
+        ],
+        "firstPublishedAt": "2026-07-31T15:00:00.000Z",
+        "lastObservedAt": "2026-08-01T04:31:31.736Z"
+      }
+    },
     {
       "id": "news-bb76bd2a08b674d5469f4b9f",
       "title": "잉글랜드·웨일스, 7월 사상 최저 강수량 행진할 듯",
