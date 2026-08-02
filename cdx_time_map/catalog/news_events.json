@@ -1,8 +1,30 @@
 {
-  "catalogVersion": "0.0.18",
-  "updatedAt": "2026-08-02T04:34:53.970Z",
+  "catalogVersion": "0.0.19",
+  "updatedAt": "2026-08-02T05:50:56.359Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-b4be249b3de1e72420df19cd",
+      "title": "서아프리카서 반‑LGBTQ 법률 확산 — 활동가들 경고",
+      "startAt": "2026-08-02T04:00:11.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "활동가들은 정치인들이 LGBTQ+를 권력 유지를 위한 쉬운 희생양으로 삼고 있다며, 최근 서아프리카에서 반‑LGBTQ 법률이 강화·신설되고 있다고 경고했다. 보도에 따르면 세네갈은 3월 동성애 행위에 대한 최대 징역형을 10년으로 늘리고 '동성애 촉진'을 범죄화했으며, 니제르는 2월에 처음으로 '동성 간 성관계'를 처벌한다고 전했다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn"
+        ],
+        "firstPublishedAt": "2026-08-02T04:00:11.000Z",
+        "lastObservedAt": "2026-08-02T05:50:56.359Z"
+      }
+    },
     {
       "id": "news-c81c46bbb32b28193b3e5c39",
       "title": "트럼프, 이란에 대한 공습 취소 언급 — '신속한' 합의 조건",
@@ -32,14 +54,14 @@
     },
     {
       "id": "news-5ef245ea82843cfc4d41faac",
-      "title": "세우타 대규모 이주 사태 — 소셜미디어가 정치적 분열 촉발",
+      "title": "세우타(스페인 자치령) 대규모 이주 사태로 EU 장관급 긴급회의 소집",
       "startAt": "2026-08-02T00:55:16.000Z",
       "lane": "world",
       "category": "politicsSociety",
       "importance": 3,
-      "description": "세우타(스페인 북단 자치령)로의 대규모 이주가 유럽 내 정치적 분열을 촉발하며 EU가 긴급회의를 소집했다. 보도는 세우타 횡단 사태가 소셜미디어를 통해 확대·왜곡되며 회원국 간 긴장을 고조시키고 있다고 전했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
+      "description": "스페인 북아프리카 자치령 세우타로 수만 명이 넘나드는 대규모 이주가 발생하자 EU가 내무장관급 긴급회의를 소집했다. 보도는 회원국 간 분열이 지속되고 프론텍스 전문가들이 참석한 '현실을 일깨우는(sobering)' 회의가 열렸다고 전하며, 페드로 산체스 총리가 추가 협의를 촉구했다고 밝혔다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
       "topicIds": [
         "politicsHumanRights"
       ],
@@ -50,10 +72,12 @@
           "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
           "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
           "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
+          "https://www.npr.org/2026/08/01/nx-s1-5916330/spain-sanchez-ceuta-migrants"
         ],
         "firstPublishedAt": "2026-07-31T02:41:09.000Z",
-        "lastObservedAt": "2026-08-02T04:34:53.970Z"
+        "lastObservedAt": "2026-08-02T05:50:56.358Z"
       }
     },
     {
@@ -173,24 +197,25 @@
     },
     {
       "id": "news-b10c1d5f941c2423b49192a8",
-      "title": "키이우 공습으로 9명 사망 — 우크라이나, 러시아 컨테이너선 격침 보도",
+      "title": "키이우에 대한 러시아 미사일 공격 — 민간인 9명 사망",
       "startAt": "2026-08-01T13:35:39.000Z",
       "lane": "world",
       "category": "politicsSociety",
       "importance": 3,
-      "description": "키이우를 겨냥한 공격으로 민간인 9명이 숨졌다고 보도됐다. 같은 보도는 우크라이나가 러시아의 컨테이너선을 침몰시켰다고 전하며, 모스크바의 탄도미사일 공격이 수도에 대한 살상 공세를 확대하고 있다고 밝혔다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
+      "description": "야간에 실시된 러시아의 탄도미사일·포격 공격이 키이우의 다섯 개 지구를 강타해 민간인 9명이 숨졌다고 보도됐다. 보도는 또한 도널드 트럼프 대통령이 우크라이나에 대한 미사일방어 지원 약속을 후퇴시키고 있다고 전했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/01/nx-s1-5916393/overnight-russia-kyiv-ukraine-strikes",
       "topicIds": [
         "politicsHumanRights"
       ],
       "news": {
         "status": "breaking",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/01/nx-s1-5916393/overnight-russia-kyiv-ukraine-strikes"
         ],
         "firstPublishedAt": "2026-08-01T13:35:39.000Z",
-        "lastObservedAt": "2026-08-01T14:40:30.159Z"
+        "lastObservedAt": "2026-08-02T05:50:56.359Z"
       }
     },
     {
