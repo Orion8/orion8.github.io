@@ -1,8 +1,53 @@
 {
-  "catalogVersion": "0.0.20",
-  "updatedAt": "2026-08-02T05:57:35.993Z",
+  "catalogVersion": "0.0.21",
+  "updatedAt": "2026-08-02T14:42:51.312Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-cb81d52dc53ac1b854834411",
+      "title": "세우타(스페인 북아프리카 자치령)로의 대규모 이주 — 수만 명 유입·임시 체류 상태",
+      "startAt": "2026-08-02T13:11:56.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "이번 주 약 5만 명이 넘는 사람들이 모로코에서 스페인의 북아프리카 자치령 세우타로 들어오면서 초기의 혼란이 가라앉은 뒤 많은 이들이 거리에서 불확실한 임시 체류 상태에 놓였다고 보도되었습니다. 기사에는 일부 입국자들이 귀국이나 체류 전망에 대해 불확실함을 호소하는 사례들이 소개되었습니다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/02/ceuta-border-crossing-spain-morocco",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/02/ceuta-border-crossing-spain-morocco"
+        ],
+        "firstPublishedAt": "2026-08-02T13:11:56.000Z",
+        "lastObservedAt": "2026-08-02T14:42:51.311Z"
+      }
+    },
+    {
+      "id": "news-74d6b202c5b6be1f5c91e334",
+      "title": "트럼프, 이란에 대한 공습 '취소' 주장 — 합의 '테두리'는 합의됐다며 협상 진행 상황 언급",
+      "startAt": "2026-08-02T07:34:27.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "도널드 트럼프 대통령은 언론 보도 이후 이란에 대한 공습을 취소했다고 밝혔으며, 이란과 일부 중동 국가들이 미국에 공격 보류를 요청했고 '합의의 테두리(perimeters)'가 합의됐다고 말했다고 보도되었습니다. 해당 발언은 미·이란 간 군사적 긴장과 외교적 타결 가능성의 관측을 불러일으키고 있습니다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending"
+        ],
+        "firstPublishedAt": "2026-08-02T07:34:27.000Z",
+        "lastObservedAt": "2026-08-02T14:42:51.311Z"
+      }
+    },
     {
       "id": "news-c9bb3a81cbdcb6a8f35e7b90",
       "title": "아이다호 쇼핑몰 인앤아웃 버거 총격 — 최소 3명 사망·여러 명 부상",
@@ -669,6 +714,28 @@
         ],
         "firstPublishedAt": "2026-07-27T03:30:00.000Z",
         "lastObservedAt": "2026-07-28T03:31:51.335Z"
+      }
+    },
+    {
+      "id": "news-657a2ffb385666761e756d70",
+      "title": "ESA, 레온에서의 개기일식 관측·과학 행사 안내",
+      "startAt": "2026-07-23T10:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국(ESA)은 레온 시 및 레온 대학교와 함께 개기일식 현상을 관측하고 태양 코로나 등 태양 외층 대기 연구와 관련한 과학 해설을 제공하는 프로그램을 마련해 관측 기회를 소개했습니다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon"
+        ],
+        "firstPublishedAt": "2026-07-23T10:00:00.000Z",
+        "lastObservedAt": "2026-08-02T14:42:51.311Z"
       }
     },
     {
