@@ -18,6 +18,9 @@ const retentionDays = Number(process.env.NEWS_RETENTION_DAYS ?? 30);
 const maximumArticlesPerPublisher = Number(
   process.env.NEWS_MAX_ARTICLES_PER_PUBLISHER ?? 3,
 );
+const maximumEventsPerPublisher = Number(
+  process.env.NEWS_MAX_EVENTS_PER_PUBLISHER ?? 6,
+);
 const dryRun = process.env.NEWS_DRY_RUN === '1';
 
 const allowedTopicIds = new Set([
@@ -48,12 +51,16 @@ async function main() {
   const alreadyPublishedUrls = new Set(
     existingEvents.flatMap((event) => event.news?.sourceUrls ?? [event.sourceUrl]),
   );
+  const existingPublisherCounts = countEventsByPublisher(existingEvents);
 
   const articles = await collectArticles(sources.sources ?? []);
-  const candidates = articles.filter((article) => !alreadyPublishedUrls.has(article.url));
+  const candidates = articles.filter((article) =>
+    !alreadyPublishedUrls.has(article.url) &&
+    (existingPublisherCounts.get(article.publisherId) ?? 0) < maximumEventsPerPublisher,
+  );
   if (candidates.length === 0) {
     console.log('No new RSS articles to evaluate.');
-    return;
+    return publishCatalogIfChanged({existingCatalog, events: existingEvents});
   }
   if (!process.env.OPENAI_API_KEY) {
     throw new Error(
@@ -67,7 +74,7 @@ async function main() {
     .filter(Boolean);
   if (selectedCandidates.length === 0) {
     console.log('Nano triage found no timeline-worthy news events.');
-    return;
+    return publishCatalogIfChanged({existingCatalog, events: existingEvents});
   }
   console.log(
     `Nano triage selected ${selectedCandidates.length}/${candidates.length} article(s) for editing.`,
@@ -82,17 +89,22 @@ async function main() {
     candidates: selectedCandidates,
     draftEvents: draft.events,
   });
+  return publishCatalogIfChanged({existingCatalog, events: nextEvents});
+}
+
+async function publishCatalogIfChanged({existingCatalog, events}) {
   const now = new Date();
-  const prunedEvents = nextEvents.filter((event) =>
+  const recentEvents = events.filter((event) =>
     Date.parse(event.startAt) >= now.getTime() - retentionDays * 86400000,
+  ).sort((left, right) =>
+    Date.parse(right.startAt) - Date.parse(left.startAt),
   );
+  const prunedEvents = limitEventsPerPublisher(recentEvents);
   const nextCatalog = {
     catalogVersion: existingCatalog.catalogVersion,
     updatedAt: existingCatalog.updatedAt,
     sourceType: 'editorial',
-    events: prunedEvents.sort((left, right) =>
-      Date.parse(right.startAt) - Date.parse(left.startAt),
-    ),
+    events: prunedEvents,
   };
   const changed = JSON.stringify(nextCatalog.events) !== JSON.stringify(existingEvents);
   if (!changed) {
@@ -190,6 +202,45 @@ function limitArticlesPerPublisher(articles) {
     limited.push(article);
   }
   return limited;
+}
+
+function countEventsByPublisher(events) {
+  const counts = new Map();
+  for (const event of events) {
+    const publisherId = publisherIdForName(event.sourceName);
+    counts.set(publisherId, (counts.get(publisherId) ?? 0) + 1);
+  }
+  return counts;
+}
+
+function limitEventsPerPublisher(events) {
+  if (!Number.isInteger(maximumEventsPerPublisher) || maximumEventsPerPublisher < 1) {
+    throw new Error('NEWS_MAX_EVENTS_PER_PUBLISHER must be a positive integer.');
+  }
+  const counts = new Map();
+  const limited = [];
+  for (const event of events) {
+    const publisherId = publisherIdForName(event.sourceName);
+    const count = counts.get(publisherId) ?? 0;
+    if (count >= maximumEventsPerPublisher) continue;
+    counts.set(publisherId, count + 1);
+    limited.push(event);
+  }
+  return limited;
+}
+
+function publisherIdForName(name) {
+  const normalized = String(name ?? '').trim().toLowerCase();
+  if (normalized.startsWith('bbc')) return 'bbc';
+  if (normalized.startsWith('openai')) return 'openai';
+  if (normalized.startsWith('google deepmind')) return 'google-deepmind';
+  if (normalized.startsWith('techcrunch')) return 'techcrunch';
+  if (normalized.startsWith('the guardian')) return 'the-guardian';
+  if (normalized.startsWith('npr')) return 'npr';
+  if (normalized.startsWith('al jazeera')) return 'al-jazeera';
+  if (normalized.startsWith('world health organization')) return 'who';
+  if (normalized.startsWith('european space agency')) return 'esa';
+  return normalized.replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'unknown';
 }
 
 function textTag(xml, tag) {
