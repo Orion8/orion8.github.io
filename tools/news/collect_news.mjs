@@ -106,7 +106,7 @@ async function publishCatalogIfChanged({existingCatalog, events}) {
     sourceType: 'editorial',
     events: prunedEvents,
   };
-  const changed = JSON.stringify(nextCatalog.events) !== JSON.stringify(existingEvents);
+  const changed = JSON.stringify(nextCatalog.events) !== JSON.stringify(existingCatalog.events);
   if (!changed) {
     console.log('AI produced no publishable news changes.');
     return;
