@@ -6,6 +6,7 @@
       "feedUrl": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
       "topicIds": ["spaceDevelopment"],
       "defaultCategory": "space",
+      "publisherId": "nasa",
       "maxItems": 8
     },
     {
@@ -14,6 +15,7 @@
       "feedUrl": "https://openai.com/news/rss.xml",
       "topicIds": ["aiHistory"],
       "defaultCategory": "scienceTechnology",
+      "publisherId": "openai",
       "maxItems": 8
     },
     {
@@ -22,6 +24,7 @@
       "feedUrl": "https://deepmind.google/blog/rss.xml",
       "topicIds": ["aiHistory"],
       "defaultCategory": "scienceTechnology",
+      "publisherId": "google-deepmind",
       "maxItems": 8
     },
     {
@@ -30,6 +33,7 @@
       "feedUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "topicIds": ["aiHistory", "computerHistory"],
       "defaultCategory": "scienceTechnology",
+      "publisherId": "techcrunch",
       "maxItems": 8
     },
     {
@@ -38,7 +42,8 @@
       "feedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "topicIds": ["politicsHumanRights"],
       "defaultCategory": "politicsSociety",
-      "maxItems": 8
+      "publisherId": "bbc",
+      "maxItems": 5
     },
     {
       "id": "bbc-business",
@@ -46,7 +51,8 @@
       "feedUrl": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "topicIds": ["economyFinance"],
       "defaultCategory": "economyBusiness",
-      "maxItems": 8
+      "publisherId": "bbc",
+      "maxItems": 5
     },
     {
       "id": "bbc-science-environment",
@@ -54,7 +60,8 @@
       "feedUrl": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
       "topicIds": ["physicsChemistry", "lifeScience", "climateEnvironment"],
       "defaultCategory": "scienceTechnology",
-      "maxItems": 8
+      "publisherId": "bbc",
+      "maxItems": 5
     },
     {
       "id": "bbc-health",
@@ -62,7 +69,8 @@
       "feedUrl": "https://feeds.bbci.co.uk/news/health/rss.xml",
       "topicIds": ["medicineHealth"],
       "defaultCategory": "globalHealth",
-      "maxItems": 8
+      "publisherId": "bbc",
+      "maxItems": 5
     },
     {
       "id": "bbc-culture",
@@ -70,7 +78,80 @@
       "feedUrl": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
       "topicIds": ["artsFilm"],
       "defaultCategory": "cultureEntertainment",
-      "maxItems": 8
+      "publisherId": "bbc",
+      "maxItems": 5
+    },
+    {
+      "id": "guardian-world",
+      "name": "The Guardian World",
+      "feedUrl": "https://www.theguardian.com/world/rss",
+      "topicIds": ["politicsHumanRights"],
+      "defaultCategory": "politicsSociety",
+      "publisherId": "the-guardian",
+      "maxItems": 6
+    },
+    {
+      "id": "guardian-business",
+      "name": "The Guardian Business",
+      "feedUrl": "https://www.theguardian.com/business/rss",
+      "topicIds": ["economyFinance"],
+      "defaultCategory": "economyBusiness",
+      "publisherId": "the-guardian",
+      "maxItems": 6
+    },
+    {
+      "id": "guardian-science",
+      "name": "The Guardian Science",
+      "feedUrl": "https://www.theguardian.com/science/rss",
+      "topicIds": ["physicsChemistry", "lifeScience", "climateEnvironment"],
+      "defaultCategory": "scienceTechnology",
+      "publisherId": "the-guardian",
+      "maxItems": 6
+    },
+    {
+      "id": "guardian-culture",
+      "name": "The Guardian Culture",
+      "feedUrl": "https://www.theguardian.com/culture/rss",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "cultureEntertainment",
+      "publisherId": "the-guardian",
+      "maxItems": 6
+    },
+    {
+      "id": "npr-world",
+      "name": "NPR World",
+      "feedUrl": "https://feeds.npr.org/1004/rss.xml",
+      "topicIds": ["politicsHumanRights", "koreaEastAsia"],
+      "defaultCategory": "politicsSociety",
+      "publisherId": "npr",
+      "maxItems": 6
+    },
+    {
+      "id": "al-jazeera",
+      "name": "Al Jazeera",
+      "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
+      "topicIds": ["politicsHumanRights"],
+      "defaultCategory": "politicsSociety",
+      "publisherId": "al-jazeera",
+      "maxItems": 6
+    },
+    {
+      "id": "who-news",
+      "name": "World Health Organization",
+      "feedUrl": "https://www.who.int/rss-feeds/news-english.xml",
+      "topicIds": ["medicineHealth"],
+      "defaultCategory": "globalHealth",
+      "publisherId": "who",
+      "maxItems": 6
+    },
+    {
+      "id": "esa-space-science",
+      "name": "European Space Agency",
+      "feedUrl": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+      "topicIds": ["spaceDevelopment"],
+      "defaultCategory": "space",
+      "publisherId": "esa",
+      "maxItems": 6
     }
   ]
 }

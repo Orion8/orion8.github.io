@@ -15,6 +15,9 @@ const catalogUrl =
   'https://orion8.github.io/cdx_time_map/catalog/news_events.json';
 const maximumArticleAgeDays = Number(process.env.NEWS_MAX_AGE_DAYS ?? 21);
 const retentionDays = Number(process.env.NEWS_RETENTION_DAYS ?? 30);
+const maximumArticlesPerPublisher = Number(
+  process.env.NEWS_MAX_ARTICLES_PER_PUBLISHER ?? 3,
+);
 const dryRun = process.env.NEWS_DRY_RUN === '1';
 
 const allowedTopicIds = new Set([
@@ -142,9 +145,14 @@ async function collectArticles(sources) {
       console.warn(`${source?.name ?? 'Unknown source'} skipped: ${error.message}`);
     }
   }
-  return results.sort((left, right) =>
+  const newestFirst = results.sort((left, right) =>
     Date.parse(right.publishedAt) - Date.parse(left.publishedAt),
   );
+  const diversified = limitArticlesPerPublisher(newestFirst);
+  console.log(
+    `Candidate pool: ${newestFirst.length} RSS article(s); ${diversified.length} after the ${maximumArticlesPerPublisher}-per-publisher limit.`,
+  );
+  return diversified;
 }
 
 function parseRss(xml, source) {
@@ -158,6 +166,7 @@ function parseRss(xml, source) {
     return {
       sourceId: source.id,
       sourceName: source.name,
+      publisherId: source.publisherId ?? source.id,
       url,
       title: truncate(title, 260),
       excerpt: truncate(excerpt, 900),
@@ -166,6 +175,21 @@ function parseRss(xml, source) {
       defaultCategory: source.defaultCategory,
     };
   }).filter(Boolean);
+}
+
+function limitArticlesPerPublisher(articles) {
+  if (!Number.isInteger(maximumArticlesPerPublisher) || maximumArticlesPerPublisher < 1) {
+    throw new Error('NEWS_MAX_ARTICLES_PER_PUBLISHER must be a positive integer.');
+  }
+  const counts = new Map();
+  const limited = [];
+  for (const article of articles) {
+    const count = counts.get(article.publisherId) ?? 0;
+    if (count >= maximumArticlesPerPublisher) continue;
+    counts.set(article.publisherId, count + 1);
+    limited.push(article);
+  }
+  return limited;
 }
 
 function textTag(xml, tag) {
@@ -444,7 +468,9 @@ function validateSource(source) {
   if (!source || typeof source.id !== 'string' || typeof source.name !== 'string' ||
       !isHttpsUrl(source.feedUrl) || !Array.isArray(source.topicIds) ||
       source.topicIds.length === 0 || source.topicIds.some((topic) => !allowedTopicIds.has(topic)) ||
-      !allowedCategories.has(source.defaultCategory)) {
+      !allowedCategories.has(source.defaultCategory) ||
+      (source.publisherId != null && (typeof source.publisherId !== 'string' || !source.publisherId)) ||
+      (source.maxItems != null && (!Number.isInteger(source.maxItems) || source.maxItems < 1))) {
     throw new Error('Source configuration is invalid.');
   }
 }
