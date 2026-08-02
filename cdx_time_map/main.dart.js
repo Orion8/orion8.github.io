@@ -46759,7 +46759,7 @@ H(){return"_GoogleCalendarAction."+this.b}}
 A.Wr.prototype={}
 A.Sm.prototype={
 I(a){var s=null
-return new A.BF(B.a0m,"Time Map v0.34.11",A.wj(s,A.aJ7(B.aq,s,s,B.hT),"Arial",!0),!1,s)}}
+return new A.BF(B.a0m,"Time Map v0.34.12",A.wj(s,A.aJ7(B.aq,s,s,B.hT),"Arial",!0),!1,s)}}
 A.EW.prototype={
 ac(){var s=t.YC,r=t.N
 return new A.Jh(B.iq,A.b([],s),A.b([],s),A.b([],s),A.b([],s),A.p(r,t.W7),B.qU,A.aj(r),A.fc(B.cG,t.Wl),A.aj(r),A.aj(r),B.f,B.E,B.f,B.dR,null,null)}}
@@ -48991,49 +48991,47 @@ c1=c0.c/2*Math.abs(b1)+c0.a.c.gbf()/2*Math.abs(b2)
 b3=13+(b9/2*Math.abs(a5)+b3/2*Math.abs(a7))
 b9=b8.b
 b8.az(d0,new A.f(a4-a5*b3+b1*c1-b9.c/2,a6-a7*b3+b2*c1-b9.a.c.gbf()/2))}a0=b5}},
-Te(c3,c4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6=this,b7=c3.a,b8=new A.eW(b6.b,b7),b9=t.ef,c0=A.b([],b9),c1=A.p(t.S,t.na),c2=b6.gK1()
-for(s=c4.length,r=b6.e,q=c2.a,p=c2.b,o=12*r,n=8*r,m=20*r,l=b6.d,k=b6.w,j=4*r,b7+=8,i=c3.b+8,h=0;h<c4.length;c4.length===s||(0,A.z)(c4),++h){g=c4[h]
-f=b6.HL(g,c3)
+Te(c1,c2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4=this,b5=c1.a,b6=new A.eW(b4.b,b5),b7=t.ef,b8=A.b([],b7),b9=A.p(t.S,t.na),c0=b4.gK1()
+for(s=c2.length,r=b4.e,q=c0.a,p=c0.b,o=12*r,n=8*r,m=20*r,l=b4.d,k=b4.w,j=4*r,b5+=8,i=c1.b+8,h=0;h<c2.length;c2.length===s||(0,A.z)(c2),++h){g=c2[h]
+f=b4.HL(g,c1)
 e=g.c
-d=b6.iW(new A.f(b8.fq(e),f),c3)
+d=b4.iW(new A.f(b6.fq(e),f),c1)
 c=g.a
 b=A.C9(g,l,k.i(0,c))===B.dG
 c=B.c.bq(c,"news-")
 a=c&&!b
 a0=b?(8-5*A.aez(g,l))*r:null
 a1=a0==null
-if(a1){if(a){a2=b6.B4(g)
-a3=a2==="\ub274\uc2a4"?a2:a2+" \ub274\uc2a4"
-a4=a3+": "+b6.Xb(g.b)}else a4=g.b
-a5=b6.afo(a4,r,a)}else a5=a0
-if(a1)a6=(c?20:34)*r
-else a6=a0
-a7=g.e===B.av?1:-1
-c=q*a7
-a1=p*a7
-a4=a6+(b?8:12)*r
-a8=d.a+c*a4
-a4=d.b+a1*a4
-a9=b?new A.f(a8,a4-a6/2):new A.f(a8,a4-m)
-if(b)b0=A.aga(a9,a6,a5)
-else{b1=a9.a
-b2=a9.b
-if(a){b1-=j
-b2-=a6/2
-b2=new A.t(b1,b2,b1+a5,b2+a6)
-b0=b2}else{b1-=o
-b2=b2-a6+n
-b2=new A.t(b1,b2,b1+a5,b2+a6)
-b0=b2}}b3=1000*e.a+e.b
-b4=c1.i(0,b3)
-if(b4==null)b4=B.Nw
-b5=b6.aqc(new A.mu(g,b0,r,a9,new A.f(a8,a4)),b4,new A.f(c,a1))
-e=b5.b
-if(e.c<-8||e.a>b7||e.d<-8||e.b>i)continue
-c0.push(b5)
-e=c1.i(0,b3)
-if(e==null){e=A.b([],b9)
-c1.n(0,b3,e)}e.push(b5)}return c0},
+if(a1){a2=g.b
+a3=b4.afo(a?b4.B4(g)+": "+b4.Xb(a2):a2,r,a)}else a3=a0
+if(a1)a4=(c?20:34)*r
+else a4=a0
+a5=g.e===B.av?1:-1
+c=q*a5
+a1=p*a5
+a2=a4+(b?8:12)*r
+a6=d.a+c*a2
+a2=d.b+a1*a2
+a7=b?new A.f(a6,a2-a4/2):new A.f(a6,a2-m)
+if(b)a8=A.aga(a7,a4,a3)
+else{a9=a7.a
+b0=a7.b
+if(a){a9-=j
+b0-=a4/2
+b0=new A.t(a9,b0,a9+a3,b0+a4)
+a8=b0}else{a9-=o
+b0=b0-a4+n
+b0=new A.t(a9,b0,a9+a3,b0+a4)
+a8=b0}}b1=1000*e.a+e.b
+b2=b9.i(0,b1)
+if(b2==null)b2=B.Nw
+b3=b4.aqc(new A.mu(g,a8,r,a7,new A.f(a6,a2)),b2,new A.f(c,a1))
+e=b3.b
+if(e.c<-8||e.a>b5||e.d<-8||e.b>i)continue
+b8.push(b3)
+e=b9.i(0,b1)
+if(e==null){e=A.b([],b7)
+b9.n(0,b1,e)}e.push(b3)}return b8},
 S4(a3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=b.gUF(),a0=new A.eW(b.b,a3.a),a1=b.gK1(),a2=A.b([],t.oC)
 for(s=a.length,r=a1.a,q=a1.b,p=a3.b*0.52,o=0;o<a.length;a.length===s||(0,A.z)(a),++o){n={}
 m=a[o]
@@ -49253,8 +49251,7 @@ s.toString
 return s},
 amv(a){return A.aL0(a,this.d,this.w.i(0,a.a))},
 aln(a){return A.C9(a,this.d,this.w.i(0,a.a))===B.dG},
-ams(a){var s=this.B4(a),r=s==="\ub274\uc2a4"?s:s+" \ub274\uc2a4"
-return r+": "+this.Xb(a.b)},
+ams(a){return this.B4(a)+": "+this.Xb(a.b)},
 Xb(a){var s,r=A.cG("\\s+",!1),q=B.c.f0(A.mM(a,r," "))
 r=A.X(new A.Dq(q),t.Dc.h("v.E"))
 r.$flags=1
@@ -107900,7 +107897,7 @@ B.a_U=new A.bS("\ub274\uc2a4 \ud53c\ub4dc\uc758 \ubd84\uc57c\ub294 \uc8fc\uc81c\
 B.a_V=new A.bS("Getting ready",null,null,null,null,null,null,null,null,null)
 B.a_W=new A.bS("\uc120\ud0dd\ud55c \uc77c\uc815\uc740 Time Map\uc5d0 \uc77d\uae30 \uc804\uc6a9 \uac1c\uc778 \uc774\ubca4\ud2b8\ub85c \ud45c\uc2dc\ub429\ub2c8\ub2e4.",null,B.co,null,null,null,null,null,null,null)
 B.WS=new A.o(!0,B.hT,null,null,null,null,11,B.cC,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_X=new A.bS("v0.34.11",null,B.WS,null,null,null,null,null,null,null)
+B.a_X=new A.bS("v0.34.12",null,B.WS,null,null,null,null,null,null,null)
 B.a_Y=new A.bS("\uad00\uc2ec \uc8fc\uc81c\ub97c \ubd88\ub7ec\uc624\ub294 \uc911\u2026",null,B.co,null,null,null,null,null,null,null)
 B.a_Z=new A.bS("\uc774\ubca4\ud2b8 \uc0ad\uc81c",null,null,null,null,null,null,null,null,null)
 B.a0_=new A.bS("\ud45c\uc2dc \uc124\uc815",null,null,null,null,null,null,null,null,null)
