@@ -1,8 +1,74 @@
 {
-  "catalogVersion": "0.0.19",
-  "updatedAt": "2026-08-02T05:50:56.359Z",
+  "catalogVersion": "0.0.20",
+  "updatedAt": "2026-08-02T05:57:35.993Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c9bb3a81cbdcb6a8f35e7b90",
+      "title": "아이다호 쇼핑몰 인앤아웃 버거 총격 — 최소 3명 사망·여러 명 부상",
+      "startAt": "2026-08-02T05:29:36.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "경찰은 아이다호의 쇼핑몰 내 인앤아웃 버거(In‑N‑Out Burger)에서 발생한 총격으로 최소 3명이 숨지고 여러 명이 다쳤다고 밝혔습니다. 사건은 현지 경찰의 초기 발표를 바탕으로 보도되었습니다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/2/at-least-three-dead-in-idaho-shopping-mall-mass-shooting?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/8/2/at-least-three-dead-in-idaho-shopping-mall-mass-shooting?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-02T05:29:36.000Z",
+        "lastObservedAt": "2026-08-02T05:57:35.993Z"
+      }
+    },
+    {
+      "id": "news-d487207ad4b123042fe26826",
+      "title": "가자 지구 학생들, 전쟁 상황 속 Tawjihi(고등학교 졸업시험) 성적 발표·축하",
+      "startAt": "2026-08-02T05:27:04.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가자 지구의 학생들이 이스라엘과의 충돌(기사 표현: '제노사이드')로 인한 고통 속에서도 Tawjihi 고등학교 졸업시험을 마치고 성적 발표를 맞아 축하했다고 보도됐습니다. 보도는 학생들이 어려운 상황을 극복하며 학업을 마친 점을 조명했습니다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/features/2026/8/2/gaza-students-overcome-israels-genocide-to-celebrate-tawjihi-results?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/features/2026/8/2/gaza-students-overcome-israels-genocide-to-celebrate-tawjihi-results?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-02T05:27:04.000Z",
+        "lastObservedAt": "2026-08-02T05:57:35.993Z"
+      }
+    },
+    {
+      "id": "news-4214a06ecf0253ed8fb3c2c6",
+      "title": "모스크바 식당 외부 폭발 — 여성 자폭 포함 최소 3명 사망·20여 명 부상",
+      "startAt": "2026-08-02T04:44:55.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "모스크바 중심부의 한 식당 밖에서 폭발이 발생해 최소 3명이 숨지고 20명 이상이 다쳤다고 보도됐습니다. 보도는 사망자 가운데 여성 자폭범이 포함됐다고 전했습니다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/2/three-dead-including-female-bomber-in-moscow-restaurant-attack?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/8/2/three-dead-including-female-bomber-in-moscow-restaurant-attack?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-02T04:44:55.000Z",
+        "lastObservedAt": "2026-08-02T05:57:35.993Z"
+      }
+    },
     {
       "id": "news-b4be249b3de1e72420df19cd",
       "title": "서아프리카서 반‑LGBTQ 법률 확산 — 활동가들 경고",
@@ -125,6 +191,51 @@
       }
     },
     {
+      "id": "news-a435b167b03d8459c28eaef5",
+      "title": "페루 나스카 라인 상공 관광기 추락 — 관광객 포함 13명 사망",
+      "startAt": "2026-08-01T22:31:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "페루 당국은 푸에르토 인근 피스코(Pisco)에서 출발한 세스나 그랜드 카라반(Cessna Grand Caravan) 관광기가 Pueblo Viejo 인근에서 추락해 외국인 관광객 11명과 조종사 2명 등 총 13명이 사망했다고 확인했습니다. 사고 지점은 나스카 라인(Nazca Lines) 유적지에서 약 12km 떨어진 곳으로 보도됐습니다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/01/at-least-13-dead-as-tourist-plane-crashes-during-flight-over-perus-nazca-lines",
+      "topicIds": [
+        "politicsHumanRights",
+        "artsFilm"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/01/at-least-13-dead-as-tourist-plane-crashes-during-flight-over-perus-nazca-lines"
+        ],
+        "firstPublishedAt": "2026-08-01T22:31:13.000Z",
+        "lastObservedAt": "2026-08-02T05:57:35.993Z"
+      }
+    },
+    {
+      "id": "news-f26a74e135c5d6fa1e9dfc26",
+      "title": "파키스탄 눈사태로 유명 산악인 Nirmal Purja 등 사망",
+      "startAt": "2026-08-01T22:23:39.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "파키스탄에서 발생한 눈사태로 유명 산악인 Nirmal Purja와 그의 동료 등 등반팀이 사망했다고 보도됐습니다. 보도는 다양한 국적의 등반팀이 고산 등정을 시도하던 중 사고를 당했다고 전했습니다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche"
+        ],
+        "firstPublishedAt": "2026-08-01T22:23:39.000Z",
+        "lastObservedAt": "2026-08-02T05:57:35.993Z"
+      }
+    },
+    {
       "id": "news-ae4e2aba061a2c2c5c6de641",
       "title": "법원, xAI의 미네소타 'nudify' 앱 금지 중지 요청 기각",
       "startAt": "2026-08-01T20:26:04.000Z",
@@ -241,50 +352,6 @@
       }
     },
     {
-      "id": "news-18995a9df9a9ac7d15001655",
-      "title": "힐리, 예산안 10월 발표 예고",
-      "startAt": "2026-08-01T03:34:26.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "새 재무장관 힐리는 예산안을 10월에 실시하겠다고 발표하며 자금과 권한을 웨스트민스터에서 영국 전역의 우편번호 단위로 이전하겠다고 약속했습니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjd4yz35x8go?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cjd4yz35x8go?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-01T03:34:26.000Z",
-        "lastObservedAt": "2026-08-01T04:31:31.736Z"
-      }
-    },
-    {
-      "id": "news-3756d64b0e6fb56b482bef7b",
-      "title": "페루 전 대통령 올란타 우말라, 15년형 뒤집혀 석방",
-      "startAt": "2026-08-01T02:21:29.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "올란타 우말라 전 대통령은 2025년 아내와 함께 돈세탁 혐의로 유죄 판결을 받았으나 해당 형이 뒤집히면서 수감에서 풀려나왔습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-01T02:21:29.000Z",
-        "lastObservedAt": "2026-08-01T04:31:31.736Z"
-      }
-    },
-    {
       "id": "news-e299630b866e2d7ebb7f5430",
       "title": "OpenAI, 수학·이론컴퓨터과학 분야 10가지 진전 공개",
       "startAt": "2026-08-01T00:00:00.000Z",
@@ -304,30 +371,6 @@
         ],
         "firstPublishedAt": "2026-08-01T00:00:00.000Z",
         "lastObservedAt": "2026-08-02T04:34:53.970Z"
-      }
-    },
-    {
-      "id": "news-f879706c831a92fbf0b5fd5f",
-      "title": "희귀 '핑크 제브라' 해조, 자연사박물관 소장 예정",
-      "startAt": "2026-07-31T23:43:10.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 1,
-      "description": "약 40년 전 처음 관찰된 고대 해조(일명 '핑크 제브라')가 자연사박물관 소장품에 합류하게 됐습니다. 이 표본을 평생 추적해온 과학자의 연구가 주목받고 있습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/czrxepy3vn3o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "lifeScience",
-        "physicsChemistry",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/czrxepy3vn3o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-31T23:43:10.000Z",
-        "lastObservedAt": "2026-08-01T04:31:31.736Z"
       }
     },
     {
@@ -376,214 +419,6 @@
       }
     },
     {
-      "id": "news-bb76bd2a08b674d5469f4b9f",
-      "title": "잉글랜드·웨일스, 7월 사상 최저 강수량 행진할 듯",
-      "startAt": "2026-07-31T14:43:58.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "Met Office 기록을 근거로 잉글랜드와 웨일스가 관측 이래(약 190년) 7월 중 가장 적은 강수량을 기록할 가능성이 높다고 보도되었습니다. 이는 이미 선언된 지역 가뭄과 함께 농업·수자원·생태계에 추가적 압박을 줄 수 있습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cddjznv86p3o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "lifeScience",
-        "physicsChemistry"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c8jn1v37znvo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/weather/articles/cddjznv86p3o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T14:15:09.000Z",
-        "lastObservedAt": "2026-07-31T15:28:23.534Z"
-      }
-    },
-    {
-      "id": "news-9cffee12ea2bb3f2d207827a",
-      "title": "그리스 크레타 대형 산불 — 수백 명 해상으로 대피·유럽 전역의 화재 지속",
-      "startAt": "2026-07-31T14:26:07.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "크레타 섬 Agios Vasileios 인근 산불로 관광객 등 약 500명이 갇혔다가 보트로 대피하는 등 대규모 피난이 발생했습니다. 기온·강풍 등으로 유럽 각지의 화재 위험이 이어지고 있습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0kmzx8vpv4o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c0kmzx8vpv4o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T12:46:16.000Z",
-        "lastObservedAt": "2026-07-31T15:28:23.534Z"
-      }
-    },
-    {
-      "id": "news-b53bda5920d732ec04d3f32f",
-      "title": "BP, 노스시 사업 매각 추진 — 60년간 생산 종결 가능성",
-      "startAt": "2026-07-31T13:27:29.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BP가 노스시(북해) 사업을 매각 대상으로 내놓기로 결정했다고 보도되었습니다. 회사의 검토 결과에 따른 결정으로, 이는 BP의 해당 지역 내 약 60년 생산 역사를 사실상 마감하는 조치가 될 수 있습니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c62q7w003lro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c62q7w003lro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-31T13:27:29.000Z",
-        "lastObservedAt": "2026-07-31T15:28:23.535Z"
-      }
-    },
-    {
-      "id": "news-9a67852a2034388ff12ebff0",
-      "title": "영국 휘발유값, '이란 전쟁' 발발 이후 최고치 — 리터당 160펜스 보고",
-      "startAt": "2026-07-31T11:19:23.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "모터링 단체 RAC는 영국의 무연휘발유 가격이 리터당 160p에 달하며 이는 '이란 전쟁' 시작 이래 최고 수준이라고 보도했습니다. 국제 유가 상승이 연료비 급등의 배경으로 지적됩니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-31T11:19:23.000Z",
-        "lastObservedAt": "2026-07-31T15:28:23.535Z"
-      }
-    },
-    {
-      "id": "news-49470c822154e7d8ae8a0a15",
-      "title": "하마스, 'Board of Peace' 계획에 따라 무장해제 합의했다고 BBC 보도",
-      "startAt": "2026-07-31T03:24:14.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC는 한 고위 하마스관리의 발언을 인용해 하마스가 Board of Peace(평화위원회)의 계획에 따라 무장해제에 합의했다고 보도했다. 보도는 이스라엘 측의 즉각적인 언급은 없다고 전했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-31T03:24:14.000Z",
-        "lastObservedAt": "2026-07-31T04:35:37.487Z"
-      }
-    },
-    {
-      "id": "news-1ef60b69b657f0835c83dd98",
-      "title": "가뭄 조건 악화 우려 — 일부 지역, 개선 전 더 건조해질 가능성",
-      "startAt": "2026-07-31T01:28:46.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "기상전망은 영국의 가장 건조한 지역들에서 강수 부족으로 인해 가뭄 상황이 개선되기 전에 악화될 수 있다고 경고했습니다. 해당 전망은 하천 수위·농업·공급 관리에 대한 추가 대응 필요성을 시사합니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cn5nk90ndl0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crk661074ejo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/ckg35n7yny3o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/weather/articles/cn5nk90ndl0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T13:03:18.000Z",
-        "lastObservedAt": "2026-07-31T15:28:23.534Z"
-      }
-    },
-    {
-      "id": "news-437b9d04c4446321c8d51ad9",
-      "title": "Thames Water CEO, 누수 감축 목표 \"현실적이지 않다\"고 발언",
-      "startAt": "2026-07-30T23:06:37.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "Thames Water의 최고경영자 크리스 웨스턴(Chris Weston)은 회사가 개선을 원하지만 일부 누수 감축 목표는 달성하기 어렵다고 밝혔습니다. 이는 상수도 인프라·정책 목표 설정 논쟁과 연결됩니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c04kd3gl1gpo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c04kd3gl1gpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T23:06:37.000Z",
-        "lastObservedAt": "2026-07-31T15:28:23.535Z"
-      }
-    },
-    {
-      "id": "news-7608d2fecb0065dab2250628",
-      "title": "다뉴브 강 수위 최저 기록 — 헝가리 유일 원전 가동 중단",
-      "startAt": "2026-07-30T17:55:24.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "지속적 폭염과 강우 부족으로 다뉴브 강 수위가 기록적 저하를 보이면서 헝가리의 유일 원자력발전소가 일시적으로 가동을 중단했다. 루마니아·불가리아·세르비아 등 인접국들도 낮은 수위와 가뭄 영향을 겪고 있다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "physicsChemistry"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T17:55:24.000Z",
-        "lastObservedAt": "2026-07-31T04:35:37.487Z"
-      }
-    },
-    {
-      "id": "news-2ae14840c4616dd3e3c7b0d5",
-      "title": "분석: 이란은 왜 '제한적 갈등'을 택할 수 있나",
-      "startAt": "2026-07-30T17:26:01.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "분석 보도는 이란이 미국과의 충돌에서 통제 가능한 수준의 군사행동을 통해 압박을 유지하면서 전면전은 피하려 할 가능성이 있다고 평가했다. 보도는 제약된 갈등 전략의 위험·이익을 검토했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T17:26:01.000Z",
-        "lastObservedAt": "2026-07-31T04:35:37.487Z"
-      }
-    },
-    {
       "id": "news-6ed2d341be9e09a7f8cfd3fe",
       "title": "NASA, Deniz Burnham을 국제우주정거장(ISS) 첫 임무 승무원으로 배정",
       "startAt": "2026-07-30T16:11:41.000Z",
@@ -603,51 +438,6 @@
         ],
         "firstPublishedAt": "2026-07-30T16:11:41.000Z",
         "lastObservedAt": "2026-07-31T04:35:37.487Z"
-      }
-    },
-    {
-      "id": "news-8a4cb467190eaa9b41818ca9",
-      "title": "러시아 미사일 공격·여파로 민간인 사망·폴란드 내 크레이터 발견",
-      "startAt": "2026-07-30T15:20:19.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "볼로디미르 젤렌스키 대통령은 러시아의 미사일 공격으로 크리비리 흐(Кривий Ріг) 인근 한 마을에서 6명이 사망했으며, 사망자 가운데에는 6세 소녀와 11·17세 소년들이 포함됐다고 밝혔습니다. 같은 날 폴란드의 타르나바 콜로니아(Tarnawa Kolonia) 인근에서는 깊이 있는 10m 폭(약 33ft)의 분화구를 남긴 미사일이 발견돼 폴란드 총리는 해당 미사일이 '아마도 러시아산'일 가능성이 크다고 말했습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T15:20:19.000Z",
-        "lastObservedAt": "2026-07-30T15:22:32.263Z"
-      }
-    },
-    {
-      "id": "news-7a01cbf5eaa9ac1bd68898d8",
-      "title": "미국 경제, 2분기 예상 밖 성장 둔화",
-      "startAt": "2026-07-30T14:24:41.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "미국 국내총생산이 6월까지 3개월 동안 연율 1.5% 성장률을 기록해 직전 분기의 연율 2.1%에서 둔화했다고 보도되었습니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cd0xvrmlx2eo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cd0xvrmlx2eo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T14:24:41.000Z",
-        "lastObservedAt": "2026-07-30T15:22:32.263Z"
       }
     },
     {
@@ -674,143 +464,6 @@
       }
     },
     {
-      "id": "news-444a767e284f08a3fc6ae642",
-      "title": "케냐 남부서 토마토용 살충제 속 시안화물 의심 — 코끼리 15마리 집단 폐사",
-      "startAt": "2026-07-30T12:14:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "케냐 당국은 토마토용 살충제에 포함된 시안화물이 최소 15마리의 코끼리 폐사의 원인으로 의심된다고 밝혔다. 이번 사건은 해당 지역에서 수십 년 만의 대규모 집단 폐사로 긴급 조사가 진행되고 있다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cp9e0v5xmdyo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "lifeScience",
-        "climateEnvironment",
-        "physicsChemistry"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cp9e0v5xmdyo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T12:14:00.000Z",
-        "lastObservedAt": "2026-07-31T04:35:37.487Z"
-      }
-    },
-    {
-      "id": "news-6b7ba8b209cec1ec822b5809",
-      "title": "휴가 복귀 여행자들 사이서 사이클로스포라 감염 급증 경고",
-      "startAt": "2026-07-30T11:10:02.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "영국에서 4월 이후 사이클로스포라 감염 사례가 급증해 67건이 보고됐다. 보건 당국은 많은 환자가 멕시코 여행 후 귀국자임을 지적하며 여행자 주의와 역학조사를 촉구했다.",
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckgv614qn2do?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ckgv614qn2do?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T11:10:02.000Z",
-        "lastObservedAt": "2026-08-01T14:40:30.159Z"
-      }
-    },
-    {
-      "id": "news-c03c2f559f4bd776c557e072",
-      "title": "니카라과 다니엘 오르테가 대통령, 대통령 임기 1년 연장 제안",
-      "startAt": "2026-07-30T10:34:07.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "니카라과의 다니엘 오르테가 대통령(80)이 대통령 임기를 추가로 1년 연장하는 헌법 개정안을 제안했다고 보도되었습니다. 이는 그가 권력을 유지하기 위해 헌법을 개정한 전례가 있다는 점에서 주목됩니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0m78k3k31jo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c0m78k3k31jo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T10:34:07.000Z",
-        "lastObservedAt": "2026-07-30T15:22:32.263Z"
-      }
-    },
-    {
-      "id": "news-c6edf07670bc87e6991b18b5",
-      "title": "Shell, 이란 관련 분쟁 속 유가·천연가스 공급 차질로 이익 두 배",
-      "startAt": "2026-07-30T09:16:29.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "국제 유가와 액화천연가스(LNG) 공급 차질로 인해 Shell의 이익이 급증해 평년 대비 두 배 수준으로 늘어났다고 보도되었습니다. 보도는 호르무즈 해협을 통한 공급 차질이 가격 상승의 배경이라고 전했습니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T09:16:29.000Z",
-        "lastObservedAt": "2026-07-30T15:22:32.263Z"
-      }
-    },
-    {
-      "id": "news-e905aeca81dc2c0611e13ce6",
-      "title": "트럼프, OpenAI 보안사고 이후 AI 규제 검토 언급 — 정책 기조 변화 시사",
-      "startAt": "2026-07-30T07:23:11.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "도널드 트럼프 대통령은 OpenAI 관련 해킹·보안 사고를 계기로 AI에 대한 규제 도입을 검토하고 있다고 언급해, 이전의 보다 소극적 입장에서 변화된 태도를 보였다고 보도되었습니다. 이는 고성능 AI의 통제 문제와 관련한 행정부의 정책 검토 신호로 해석됩니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance",
-        "aiHistory",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c2el319vzr3o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T08:49:27.000Z",
-        "lastObservedAt": "2026-07-30T15:22:32.263Z"
-      }
-    },
-    {
-      "id": "news-6a71726999fcc15c2aa0cf98",
-      "title": "영국 총리 번햄, 핵 잠수함 투자로 안보·일자리 보호 강조",
-      "startAt": "2026-07-30T02:36:53.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "번햄 총리는 Barrow‑in‑Furness 방문을 앞두고 핵 잠수함 투자로 영국의 안보를 지키고 일자리를 창출하겠다고 강조했습니다. 정부는 국방 지출의 지역 경제적 이득을 부각시키며 투자의 필요성을 역설했습니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crl70x0nxr9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crl70x0nxr9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-30T02:36:53.000Z",
-        "lastObservedAt": "2026-07-30T04:16:36.585Z"
-      }
-    },
-    {
       "id": "news-1c538562910bce6bdee060d5",
       "title": "마이크로소프트, OpenAI·Anthropic과의 경쟁 공개화",
       "startAt": "2026-07-30T00:21:06.000Z",
@@ -831,276 +484,6 @@
         ],
         "firstPublishedAt": "2026-07-30T00:21:06.000Z",
         "lastObservedAt": "2026-07-30T15:22:32.263Z"
-      }
-    },
-    {
-      "id": "news-87dff393b55f6918e892b45f",
-      "title": "영국 기준금리 추가 동결 기대 — BOE, 3.75% 유지 전망",
-      "startAt": "2026-07-29T23:01:56.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "시장 예측에 따르면 영국 중앙은행(Bank of England)이 기준금리를 3.75%로 유지해 다섯 번째 연속 동결을 결정할 가능성이 높다고 보도되었습니다. 이는 2023년 2월 이후 최저 수준이라는 평가와 함께 향후 통화정책 방향에 대한 관심을 모으고 있습니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T23:01:56.000Z",
-        "lastObservedAt": "2026-07-30T04:16:36.585Z"
-      }
-    },
-    {
-      "id": "news-cb779284d264b479a0374193",
-      "title": "Salman Rushdie 공격자 해디 마타(Hadi Matar) 테러죄 유죄 판결",
-      "startAt": "2026-07-29T22:15:33.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "법원은 28세의 해디 마타가 영국·인도계 작가 Salman Rushdie를 공격함으로써 헤즈볼라를 돕고자 한 혐의 등 테러 관련 범죄로 유죄를 선고받았다고 보도되었습니다. 이번 판결은 저명한 작가에 대한 폭력 사건의 형사처벌 마무리를 의미합니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c86ng1g5wy4o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c86ng1g5wy4o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T22:15:33.000Z",
-        "lastObservedAt": "2026-07-30T04:16:36.585Z"
-      }
-    },
-    {
-      "id": "news-c6a1aa235de9bc37c63f0577",
-      "title": "사우디아라비아, 미·이란 충돌 속 '비개입' 딜레마 — 보복·완화 선택 갈림길",
-      "startAt": "2026-07-29T18:41:31.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "사우디는 미·이란간 전면전으로의 확산을 피하려는 가운데 억제 차원의 보복을 지속할지, 긴장 완화를 위한 역할을 모색할지 선택의 기로에 놓여 있다고 보도되었습니다. 왕국의 결정은 지역 안보와 외교적 파장에 영향을 줄 수 있습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T18:41:31.000Z",
-        "lastObservedAt": "2026-07-30T04:16:36.585Z"
-      }
-    },
-    {
-      "id": "news-7ea20dd099db3e167b1ad357",
-      "title": "프랑스 Gironde 산불 — 일부 주민 '집·숲' 지키려 대피 거부",
-      "startAt": "2026-07-29T16:49:41.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "소방대원들이 40°C 안팎의 폭염 속에서 잔불을 진압하는 가운데 Gironde 지역 일부 주민들이 대피 명령을 따르지 않고 '우리의 집·숲'이라며 잔류하고 있다고 보도되었습니다. 현지 고온과 강한 화재 활동은 진화 작업을 더욱 어렵게 만들고 있습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-28T13:25:13.000Z",
-        "lastObservedAt": "2026-07-30T04:16:36.584Z"
-      }
-    },
-    {
-      "id": "news-ee8bd97f8ea94993251cce6d",
-      "title": "앤서니 파우치, 미 상원 청문회서 코로나 기원 질문 회피",
-      "startAt": "2026-07-29T14:29:34.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "전 미국 최고 보건관리인 앤서니 파우치가 코로나 기원 관련 미 상원 청문회에서 질문에 답하기를 거부했습니다. 파우치는 공화당이 그의 증언을 트집잡아 위증 혐의로 기소할 수 있다고 우려했다고 보도되었습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T14:29:34.000Z",
-        "lastObservedAt": "2026-07-29T15:19:19.854Z"
-      }
-    },
-    {
-      "id": "news-94b13cdd1b3f703856e551d7",
-      "title": "스페인·프랑스, 이번 여름 네 번째 폭염 대비 — 산불 우려 재고",
-      "startAt": "2026-07-29T14:27:13.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "스페인에서 수천 명이 집으로 돌아갔지만, 이번 여름 이미 세 차례의 폭염을 겪은 가운데 제4차 폭염이 예보되며 스페인과 프랑스에서 산불 위험이 다시 높아지고 있다고 보도되었습니다. 일부 화재는 계속 타고 있습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T14:27:13.000Z",
-        "lastObservedAt": "2026-07-29T15:19:19.854Z"
-      }
-    },
-    {
-      "id": "news-4976b68b11976f9e3b37e25d",
-      "title": "일본 강진 후 100회 이상 여진 — 사망 13명",
-      "startAt": "2026-07-29T11:47:05.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "강력한 지진으로 최소 13명이 숨진 가운데 일본에서 100회가 넘는 여진이 발생했습니다. 당국은 여진이 최대 규모 7에 달할 수 있다며 주민들에게 경계 태세를 유지할 것을 촉구했습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T11:47:05.000Z",
-        "lastObservedAt": "2026-07-29T15:19:19.854Z"
-      }
-    },
-    {
-      "id": "news-83d8a15e0cd297e390e98484",
-      "title": "데이터센터 전력 예치금 제안 — 메가와트당 £237,500~£712,500",
-      "startAt": "2026-07-29T11:35:35.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "규제 당국이 신규 데이터센터 프로젝트의 전력 수요를 고려해 메가와트당 £237,500에서 £712,500 사이의 예치금을 부과할 것을 제안했다고 보도되었습니다. 이 방안은 데이터센터 확장과 전력망 관리 사이의 긴장을 드러냅니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9q90q9qnn2o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c9q90q9qnn2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T11:35:35.000Z",
-        "lastObservedAt": "2026-07-29T15:19:19.854Z"
-      }
-    },
-    {
-      "id": "news-b35d261c31e24d1a7b88cb5c",
-      "title": "Andy Burnham, 잉글랜드 사회 돌봄 개혁 검토 — 정책 옵션 분석 보도",
-      "startAt": "2026-07-29T10:47:08.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "앤디 번햄이 잉글랜드의 사회 돌봄 개선을 약속하면서 가능한 개혁 방안들을 검토하고 있습니다. BBC는 번햄이 제시한 '실질적 변화'를 위해 어떤 선택지들이 있는지 검증 보도했습니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj4k54g0ldjo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c0jlzqe9z9vo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cwylnl17w09o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cj4k54g0ldjo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-26T21:00:27.000Z",
-        "lastObservedAt": "2026-07-29T15:19:19.854Z"
-      }
-    },
-    {
-      "id": "news-0f9a03e329572e98e156ca30",
-      "title": "러시아, 텔레그램 창업자 파벨 두로프에 테러 조장 혐의 제기",
-      "startAt": "2026-07-29T10:23:29.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "러시아 연방보안국(FSB)은 메신저 텔레그램이 우크라이나 비밀정보국에 의해 채용에 이용된 계정·채널을 삭제하지 않았다며 창업자 파벨 두로프를 테러 조장 혐의로 기소했습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-29T10:23:29.000Z",
-        "lastObservedAt": "2026-07-29T15:19:19.855Z"
-      }
-    },
-    {
-      "id": "news-91bc1f0c6751448367e9df27",
-      "title": "멕시코 마약조직, 메스암페타민 제조·수출을 나이지리아로 아웃소싱",
-      "startAt": "2026-07-28T23:25:53.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 멕시코의 마약 카르텔이 합성마약(메스암페타민) 제조 기반을 나이지리아·서아프리카로 이전·외주화하면서 지역이 제조·수송의 허브로 부상하고 있습니다. 이는 범죄의 글로벌화와 서아프리카의 대규모 불법 산업화 위험을 부각시킵니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crmrnxp4nllo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crmrnxp4nllo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-28T23:25:53.000Z",
-        "lastObservedAt": "2026-07-29T03:46:58.936Z"
-      }
-    },
-    {
-      "id": "news-b95471a4325fa04ad8ba7ab3",
-      "title": "케냐 남부에서 코끼리 14마리 집단 폐사 — 원인 규명 위한 긴급 조사",
-      "startAt": "2026-07-28T16:37:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "케냐 남부 지역에서 최근 보고된 코끼리 14마리의 미스터리 폐사는 수십 년 만에 이 지역에서 기록된 최대 수준의 집단 폐사로 보입니다. 당국은 독성물질, 질병, 기타 환경 요인을 포함한 포괄적 조사를 긴급히 시작했습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3w0d7yeqlxo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c3w0d7yeqlxo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-28T16:37:02.000Z",
-        "lastObservedAt": "2026-07-29T03:46:58.936Z"
       }
     },
     {
@@ -1150,72 +533,6 @@
       }
     },
     {
-      "id": "news-be6d01896d299928da500213",
-      "title": "미국, 프랑스 발언 중 유엔 안전보장이사회 회의 퇴장",
-      "startAt": "2026-07-28T08:41:45.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미국이 프랑스의 발언 도중 유엔 안전보장이사회 회의장을 떠났습니다. 이번 논쟁은 미국이 유엔 인권최고대표의 임기 연장에 반대 표를 던지며 북한·러시아와 같은 입장을 취한 데서 촉발됐습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-28T08:41:45.000Z",
-        "lastObservedAt": "2026-07-28T08:49:32.146Z"
-      }
-    },
-    {
-      "id": "news-74f532f6cbddf76925ad2da0",
-      "title": "잉글랜드 중등교육에 기술 과목 도입 검토 — Burnham 발표",
-      "startAt": "2026-07-28T08:23:37.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "Burnham이 잉글랜드에서 14세 이상 학생에게 AI·제조 등 지역 일자리와 연계된 기술 과목을 제공하겠다고 밝혔습니다. 정부는 조기 직업 연계 교육을 통해 지역 산업과의 연결을 강화하겠다는 취지입니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-28T08:23:37.000Z",
-        "lastObservedAt": "2026-07-28T08:49:32.146Z"
-      }
-    },
-    {
-      "id": "news-dc5e605ac35e1fe2248bca66",
-      "title": "BBC 보도: 에콰도르發 코카인 루트와 갱단·경찰의 대치",
-      "startAt": "2026-07-28T05:01:19.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "BBC가 에콰도르에서 출발해 유럽으로 이어지는 '코카인 슈퍼하이웨이'를 추적 보도했습니다. 보도에는 갱단의 확대와 이를 제어하려는 에콰도르 경찰의 순찰·대응 노력이 담겼습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-28T05:01:19.000Z",
-        "lastObservedAt": "2026-07-28T08:49:32.146Z"
-      }
-    },
-    {
       "id": "news-3c8d41ebd8c88e3b64611e9f",
       "title": "오리건주 연무 확산 — 번개로 중앙·동부 지역서 다수 화재 발생",
       "startAt": "2026-07-28T04:01:00.000Z",
@@ -1236,168 +553,6 @@
         ],
         "firstPublishedAt": "2026-07-28T04:01:00.000Z",
         "lastObservedAt": "2026-07-28T14:32:58.541Z"
-      }
-    },
-    {
-      "id": "news-1f26250e17a00987772addb2",
-      "title": "존슨앤드존슨, 베이비파우더 소송에 최대 55억 달러 제안",
-      "startAt": "2026-07-28T01:53:58.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "존슨앤드존슨이 자사 탈크(베이비파우더) 제품이 암을 유발했다는 수년간의 소송을 마무리하기 위해 최대 55억 달러 규모의 합의안을 제시했습니다. 제안은 장기간 이어진 집단소송을 종결하려는 시도로 보입니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-28T01:53:58.000Z",
-        "lastObservedAt": "2026-07-28T03:31:51.334Z"
-      }
-    },
-    {
-      "id": "news-7b5e3666185150652a4d7dc7",
-      "title": "잉글랜드 약국 무료 서비스로 수십만 여성 사후피임약 접근",
-      "startAt": "2026-07-28T00:14:41.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "지난 10월부터 잉글랜드의 일반 약국에서 사후피임약을 무료로 제공하는 새로운 제도가 시행되었고, 그 결과 수십만 명의 여성이 해당 서비스를 통해 약을 받았습니다. 보건정책 차원의 접근성 확대 사례로 주목됩니다.",
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cn9n1rg3n81o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cn9n1rg3n81o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-28T00:14:41.000Z",
-        "lastObservedAt": "2026-07-28T03:31:51.335Z"
-      }
-    },
-    {
-      "id": "news-05bc2ccb5229e12f0c210833",
-      "title": "Lough Neagh의 선사시대 종 보존 위해 어획 제한 조치",
-      "startAt": "2026-07-27T23:01:36.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Lough Neagh에서 멸종위기 유럽장어(European eel) 보존을 위해 어획 규제가 도입되거나 강화되었습니다. 지역 당국은 종 회복을 목표로 어업 활동에 제한을 뒀습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ce97nze240vo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ce97nze240vo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T23:01:36.000Z",
-        "lastObservedAt": "2026-07-28T03:31:51.335Z"
-      }
-    },
-    {
-      "id": "news-7445c1bcbb3da7a93a2b48ba",
-      "title": "일본 소도시, 첫 모스크 건립 반발로 정체성·통합 논쟁",
-      "startAt": "2026-07-27T22:08:21.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "한 지역사회에서 첫 모스크 건립을 둘러싼 반대 시위가 일어나면서 외국인 노동자 의존이 늘어나는 일본 사회의 문화·종교 통합 문제와 정체성 논쟁이 부각되고 있습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c36d79nd5w8o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c36d79nd5w8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T22:08:21.000Z",
-        "lastObservedAt": "2026-07-28T03:31:51.335Z"
-      }
-    },
-    {
-      "id": "news-6b181e22964c3ab1b944e0fb",
-      "title": "중국 자연재해 보도에 허위 AI 영상 확산 — 재난 대응에 새로운 도전",
-      "startAt": "2026-07-27T22:07:23.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "최근 중국에서 발생한 폭풍·홍수 등 자연재해 보도 과정에 허위 AI 영상이 소셜미디어에 대량 유통되며 혼란을 부추기고 있습니다. 당국과 언론은 재난정보의 신뢰성 확보에 어려움을 겪고 있습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T22:07:23.000Z",
-        "lastObservedAt": "2026-07-28T03:31:51.335Z"
-      }
-    },
-    {
-      "id": "news-3565288fe08621fdeabf548f",
-      "title": "트럼프, '공습 일시 중단 기간에 이란과 전쟁 관련 대화 가능성' 언급",
-      "startAt": "2026-07-27T21:10:56.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "트럼프 대통형은 공격이 일시 중단된 기간에 이란과 관련 협상이 이뤄지고 있다고 발언하며 '무언가 일어날 가능성'이 있다고 말했습니다. 이란은 직접 대화가 진행되고 있다는 점을 부인했습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T21:10:56.000Z",
-        "lastObservedAt": "2026-07-28T03:31:51.335Z"
-      }
-    },
-    {
-      "id": "news-0fbcbeacc31cc91e0d9d8d2b",
-      "title": "유럽 대형 산불 목격자들 '불길의 벽' 증언 — 대규모 대피·정신적 충격 보고",
-      "startAt": "2026-07-27T19:50:35.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "유럽의 대형 산불과 관련해 목격자들이 '불길의 벽'을 목격했다며 공포와 스트레스를 호소하고 있습니다. 화재로 인해 30만 명 이상이 대피했다는 보도가 있으며, 현지 당국은 추가 대피 준비를 하고 있습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "lifeScience"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c2350zlyy1yo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c2350xnl4j5o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cvg97dj5n16o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-26T00:54:06.000Z",
-        "lastObservedAt": "2026-07-28T03:31:51.335Z"
       }
     },
     {
@@ -1448,28 +603,6 @@
       }
     },
     {
-      "id": "news-248b2874f51a85ec81933fd9",
-      "title": "카스피해 선박 공격 여파 — 우크라이나, 이란의 위협 일축",
-      "startAt": "2026-07-27T16:33:05.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "카스피해에서 발생한 선박 공격을 두고 이란이 강하게 반발하며 '응답 없이 넘어갈 수 없다'고 외교 장관이 경고했지만, 우크라이나는 이 같은 위협을 일축하며 사건이 여러 전쟁을 직접적으로 연결한다고 평가했습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T16:33:05.000Z",
-        "lastObservedAt": "2026-07-27T19:51:05.512Z"
-      }
-    },
-    {
       "id": "news-d9293be880fa0c95db9ac3fd",
       "title": "NASA 관측: 은하 외곽에서 '떠도는' 거대 블랙홀이 별을 파괴하는 장면 포착",
       "startAt": "2026-07-27T16:06:37.000Z",
@@ -1516,207 +649,6 @@
       }
     },
     {
-      "id": "news-925612a65a64dd70909e23ba",
-      "title": "NASA, 8월 ISS 외부활동(우주유영) 3회 예정 — 예비 브리핑 7월 30일",
-      "startAt": "2026-07-27T14:35:11.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 국제우주정거장(ISS)에서 8월에 예정된 세 차례의 우주유영을 생중계할 예정이라고 밝혔습니다. 임무는 태양광 패널 업그레이드, 통신 안테나 교체, 전력·데이터 케이블 연결 등을 포함하며, 7월 30일 예비 브리핑이 진행됩니다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-cover-three-us-spacewalks-host-preview-news-conference/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-to-cover-three-us-spacewalks-host-preview-news-conference/"
-        ],
-        "firstPublishedAt": "2026-07-27T14:35:11.000Z",
-        "lastObservedAt": "2026-07-27T15:11:36.437Z"
-      }
-    },
-    {
-      "id": "news-fb145a10ee7ea86146686430",
-      "title": "사업가·자선가 Sir Ian Wood 별세(84)",
-      "startAt": "2026-07-27T14:17:56.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "애버딘 기반의 사업가 겸 자선가 Sir Ian Wood가 향년 84세로 별세했습니다. 그는 가족의 보트 수리업체를 석유·가스 공학 분야의 대기업으로 성장시켰습니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ce3qv0p9105o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ce3qv0p9105o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T14:17:56.000Z",
-        "lastObservedAt": "2026-07-27T19:51:05.512Z"
-      }
-    },
-    {
-      "id": "news-f6c57ad47ef67f711ae52702",
-      "title": "허블 관측: 안드로메다 은하에서 별 형성 5억 년간 감소",
-      "startAt": "2026-07-27T14:00:14.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "NASA 허블 우주망원경 관측 결과 안드로메다 은하에서 지난 5억 년에 걸쳐 별 형성률이 감소해 왔다는 연구 결과가 공개됐습니다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-star-formation-in-andromeda-galaxy-winding-down/",
-      "topicIds": [
-        "physicsChemistry",
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-star-formation-in-andromeda-galaxy-winding-down/"
-        ],
-        "firstPublishedAt": "2026-07-27T14:00:14.000Z",
-        "lastObservedAt": "2026-07-27T15:11:36.437Z"
-      }
-    },
-    {
-      "id": "news-b3d6bc1317e3d86edeb9659e",
-      "title": "TV 진행자·코미디언 Bill Oddie 별세(85)",
-      "startAt": "2026-07-27T12:47:47.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "방송인 겸 코미디언이자 보전 활동가로 알려진 Bill Oddie가 85세로 사망했습니다. 대리인은 그를 '다재다능한' 방송인이자 코미디언, 보전주의자라고 추모했습니다.",
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjejw8pq5elo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cjejw8pq5elo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T12:47:47.000Z",
-        "lastObservedAt": "2026-07-27T19:51:05.512Z"
-      }
-    },
-    {
-      "id": "news-146320c875ca2b193fc6da3e",
-      "title": "베를린 프라이드 공격 — 충격·분노 확산, 범죄자의 처벌 경력 논란",
-      "startAt": "2026-07-27T12:33:31.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "베를린 프라이드 행사에서 발생한 공격을 둘러싸고 분노와 충격이 확산되고 있으며, 용의자의 과거와 왜 수감 중이 아니었는지에 대한 의문이 제기되고 있습니다. 사건은 추가 조사와 법적 대응을 촉발하고 있습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T12:33:31.000Z",
-        "lastObservedAt": "2026-07-27T15:11:36.436Z"
-      }
-    },
-    {
-      "id": "news-f122ab6449ad3e75efcf5ed0",
-      "title": "영국 Jodrell Bank 전파망원경 예산 삭감 우려 — 천문학계 반발",
-      "startAt": "2026-07-27T11:50:13.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Jodrell Bank 전파망원경 사업이 예산 삭감 위기에 놓이자 천문학자들이 '영국 과학의 심장을 떼어내는 것'이라며 경고했습니다. 연구·훈련 기회 축소로 향후 과학 인력 양성에 영향을 줄 수 있다는 우려가 제기되고 있습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y6r9rdxygo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5y6r9rdxygo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T11:50:13.000Z",
-        "lastObservedAt": "2026-07-27T15:11:36.436Z"
-      }
-    },
-    {
-      "id": "news-fc705d765b19ee168481ecd8",
-      "title": "중국 반도체사 상장 데뷔서 주가 급등 — 데뷔일 470% 안팎 상승",
-      "startAt": "2026-07-27T10:19:36.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "중국의 한 반도체 기업이 증시 데뷔일에 주가가 거의 470% 급등하며 AI 붐에 따른 반도체 수요 확대가 투자자 관심을 불러일으켰습니다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "semiconductor",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T10:19:36.000Z",
-        "lastObservedAt": "2026-07-27T15:11:36.436Z"
-      }
-    },
-    {
-      "id": "news-be6e0c0fdb6722550ef59eb4",
-      "title": "영국 총리, 젤렌스키 방문 앞두고 우크라이나에 지속적 지원 약속",
-      "startAt": "2026-07-27T06:48:02.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "새로 취임한 총리의 첫 해외 공식 방문객으로 볼로디미르 젤렌스키 대통령을 맞이하기에 앞서 영국 총리가 우크라이나에 대한 지속적 지원을 재확인했습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T06:48:02.000Z",
-        "lastObservedAt": "2026-07-27T10:30:45.132Z"
-      }
-    },
-    {
-      "id": "news-51e9d596442003568df6916b",
-      "title": "시애틀 푸드 페스티벌 총격 — 최소 3명 사망·다수 부상",
-      "startAt": "2026-07-27T06:11:20.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "시애틀 스페이스 니들 인근에서 열린 음식 축제에서 총격이 발생해 최소 3명이 숨지고 여러 명이 다쳤습니다. 2세 남자아이가 부상자에 포함되며, 용의자는 경찰에 체포됐다고 시애틀 시장이 밝혔습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T06:11:20.000Z",
-        "lastObservedAt": "2026-07-27T10:30:45.132Z"
-      }
-    },
-    {
       "id": "news-db9d0913513df69e6eee2103",
       "title": "OpenAI 연구: AI가 직무 범위 확장 — 사용자들이 다양한 업무 맡아",
       "startAt": "2026-07-27T03:30:00.000Z",
@@ -1737,207 +669,6 @@
         ],
         "firstPublishedAt": "2026-07-27T03:30:00.000Z",
         "lastObservedAt": "2026-07-28T03:31:51.335Z"
-      }
-    },
-    {
-      "id": "news-41b707c27f485b8799d4e00a",
-      "title": "요르단강 서안: 정착민들의 모스크·농지 방화 보도",
-      "startAt": "2026-07-26T21:23:53.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "팔레스타인 측은 서안 지구에서 이스라엘 정착민들이 모스크와 차량, 농지를 불태웠다고 전했습니다. 이번 공격은 탈(Tal) 인근 충돌로 양측에서 사상자가 나온 지 이틀 만에 발생했습니다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-26T21:23:53.000Z",
-        "lastObservedAt": "2026-07-27T10:30:45.132Z"
-      }
-    },
-    {
-      "id": "news-5439739e8eead7cd7db94b81",
-      "title": "NASA 우주비행사 크리스 윌리엄스(Chris Williams) 지구 귀환",
-      "startAt": "2026-07-26T10:59:44.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 우주비행사 크리스 윌리엄스가 약 8개월간 국제우주정거장(ISS) 임무를 마치고 Roscosmos 소속 Sergey Kud‑Sverchkov, Sergei Mikaev와 함께 카자흐스탄에 착지하며 지구로 귀환했습니다. 윌리엄스는 ISS에서 다양한 과학 조사와 기술 시연을 지원했습니다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-returns-to-earth/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/",
-          "https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-returns-to-earth/"
-        ],
-        "firstPublishedAt": "2026-07-26T10:59:44.000Z",
-        "lastObservedAt": "2026-07-28T14:32:58.541Z"
-      }
-    },
-    {
-      "id": "news-4b4ee04490e17100ea501824",
-      "title": "북아일랜드 수계 대규모 조류(녹조) 발생 — 시설·관광 타격",
-      "startAt": "2026-07-26T07:01:30.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "북아일랜드의 수계 전역에서 현재 245건의 조류 발생(알갱이·녹조 등)이 보고되면서 해수욕장·레저시설 폐쇄 등으로 지역 관광과 경제에 타격이 발생하고 있습니다. 보도가 '놀이공원을 열지 못하는 것과 같다'고 전했습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c1m159e54l9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c1m159e54l9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-26T07:01:30.000Z",
-        "lastObservedAt": "2026-07-27T19:51:05.512Z"
-      }
-    },
-    {
-      "id": "news-d2360093ddb437f882eb5b40",
-      "title": "SpaceX 스타십 시험 비행 성공 — 인도양 소프트 스플래시다운",
-      "startAt": "2026-07-25T00:41:50.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "SpaceX의 메가로켓 스타십이 시험 비행을 수행한 뒤 발사 약 한 시간 만에 인도양에 소프트 스플래시다운에 성공했다고 보도되었습니다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/czxqnwzqqw8o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/czxqnwzqqw8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-25T00:41:50.000Z",
-        "lastObservedAt": "2026-07-27T10:30:45.133Z"
-      }
-    },
-    {
-      "id": "news-b90550bfa8306cbb397f93f1",
-      "title": "NASA, CAPSTONE 02 등 달 인근(시슬루나) 기술시연 미션 발표",
-      "startAt": "2026-07-24T16:35:46.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "NASA가 산업계와 협력해 Artemis 프로그램 및 달 기지 구축을 위한 차세대 시슬루나 인프라 진전을 추진한다고 발표했습니다. Advanced Space에 계약이 체결된 CAPSTONE 02 미션은 랑데부·근접운영, 자율항법, 시슬루나 통신 역량 등을 시연하고 추가적인 환경 특성화를 계속 수행할 예정입니다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/directorates/armd/nasa-announces-new-spacecraft-technology-demonstration-mission-at-moon/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/directorates/armd/nasa-announces-new-spacecraft-technology-demonstration-mission-at-moon/"
-        ],
-        "firstPublishedAt": "2026-07-24T16:35:46.000Z",
-        "lastObservedAt": "2026-07-27T03:58:52.618Z"
-      }
-    },
-    {
-      "id": "news-9faf54292acea1c2f8b06a73",
-      "title": "NASA, Blue Origin New Glenn 2단 연소시험 지원 합의",
-      "startAt": "2026-07-24T15:30:21.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA와 Blue Origin이 Stennis Space Center(미시시피) B-2 시험대에서 회사의 New Glenn 로켓 2단 열화상(핫 파이어) 시험을 실시하기로 합의했습니다. 이번 추가 협약은 상호 환급형 Space Act Agreement의 부속 합의로, NASA의 Artemis 추진을 위한 산업계 협력 약속을 강조합니다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/"
-        ],
-        "firstPublishedAt": "2026-07-24T15:30:21.000Z",
-        "lastObservedAt": "2026-07-27T03:58:52.618Z"
-      }
-    },
-    {
-      "id": "news-c2bc1fc00aca2acf896fa2ec",
-      "title": "폭염 불안이 정신건강에 미치는 영향 — 젊은층·여성 취약",
-      "startAt": "2026-07-24T00:05:55.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 1,
-      "description": "연구는 극심한 더위가 불안·무력감 등 정신건강 문제를 악화시킬 수 있다고 경고했다. 특히 젊은층과 여성에서 영향이 큰 것으로 나타났으며, 연구진은 대처 전략을 제시했다.",
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgk4xrznxn5o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgk4xrznxn5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-24T00:05:55.000Z",
-        "lastObservedAt": "2026-08-01T14:40:30.159Z"
-      }
-    },
-    {
-      "id": "news-9dd5c19b0e85e74f49f15772",
-      "title": "아르테미스 IV 액체수소 탱크 공장 이동 완료",
-      "startAt": "2026-07-23T15:20:19.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA의 Michoud Assembly Facility에서 아르테미스 IV용 액체수소 탱크(길이 약 130피트)가 생산 셀에서 분리된 시험동으로 운송되었습니다. 이 탱크는 아르테미스 IV 핵심단(core stage)의 일부를 구성할 예정입니다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/crews-move-artemis-iv-liquid-hydrogen-tank/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/image-article/crews-move-artemis-iv-liquid-hydrogen-tank/"
-        ],
-        "firstPublishedAt": "2026-07-23T15:20:19.000Z",
-        "lastObservedAt": "2026-07-27T03:58:52.618Z"
-      }
-    },
-    {
-      "id": "news-811ac45002227584311044f0",
-      "title": "'보행 개선' MS 약물 NHS 도입 — 영국서 사용 개시",
-      "startAt": "2026-07-22T23:38:58.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "신경신호를 증강해 보행을 돕는 약물 파므리디네(fampridine)가 NHS(잉글랜드)에 도입되어 최대 5,000명이 혜택을 볼 수 있다고 보건 당국이 밝혔습니다.",
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgmkygjk9g2o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgmkygjk9g2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-22T23:38:58.000Z",
-        "lastObservedAt": "2026-07-27T10:30:45.133Z"
       }
     },
     {
@@ -1985,51 +716,6 @@
       }
     },
     {
-      "id": "news-5bac8ef75acb6fbfee6c00ff",
-      "title": "DR콩고 에볼라 대응 — 영국인 보건요원 모니터링 및 실험 백신 첫 접종",
-      "startAt": "2026-07-22T00:52:35.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "DR콩고의 에볼라 유행 대응 과정에서 영국에서 파견된 인도주의 활동가가 잠재적 노출로 런던 병원에서 모니터링 받고 귀국했으며, 37세 영국인 Ed Hunt가 실험용 에볼라 백신의 첫 접종을 받은 사례가 보고됐습니다.",
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdewk5r308jo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cdewk5r308jo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c8jn007gmpzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-22T00:52:35.000Z",
-        "lastObservedAt": "2026-07-27T10:30:45.133Z"
-      }
-    },
-    {
-      "id": "news-9640e94d3a2d17e0902756d8",
-      "title": "영국 20대 여성에서 2형 당뇨 증가 — 보건당국 우려",
-      "startAt": "2026-07-22T00:03:43.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "영국(잉글랜드)에서 20대 여성 사이에 2형 당뇨가 '우려스러운 증가'를 보이고 있다고 전문가들이 경고했습니다. 관련 증상과 조기 인지 포인트가 소개되고 있습니다.",
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdx8vw5k2x8o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cdx8vw5k2x8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-22T00:03:43.000Z",
-        "lastObservedAt": "2026-07-27T15:11:36.437Z"
-      }
-    },
-    {
       "id": "news-69e481323262afa1b5216cbe",
       "title": "David Vélez·Robin Vince, OpenAI 재단 및 OpenAI Group PBC 이사회 합류",
       "startAt": "2026-07-21T00:00:00.000Z",
@@ -2071,28 +757,6 @@
         ],
         "firstPublishedAt": "2026-07-20T10:00:00.000Z",
         "lastObservedAt": "2026-07-27T03:22:31.261Z"
-      }
-    },
-    {
-      "id": "news-76ca7dbb5a51334d0d846832",
-      "title": "국제우주정거장(ISS)에 신규 승무원 합류 — Anna Kikina, Pyotr Dubrov, Anil Menon",
-      "startAt": "2026-07-14T00:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "Roscosmos 소속 Anna Kikina와 Pyotr Dubrov, NASA 소속 Anil Menon이 2026년 7월 14일 바이코누르 우주기지에서 발사되어 국제우주정거장(ISS)에 합류했습니다. 이들의 최근 도착을 기념하는 사진이 2026년 7월 18일 공개되었습니다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/new-crew-members-welcomed-to-international-space-station/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/image-article/new-crew-members-welcomed-to-international-space-station/"
-        ],
-        "firstPublishedAt": "2026-07-24T16:43:02.000Z",
-        "lastObservedAt": "2026-07-27T10:07:30.401Z"
       }
     }
   ]
