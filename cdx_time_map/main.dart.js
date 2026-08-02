@@ -46759,7 +46759,7 @@ H(){return"_GoogleCalendarAction."+this.b}}
 A.Wr.prototype={}
 A.Sm.prototype={
 I(a){var s=null
-return new A.BF(B.a0m,"Time Map v0.34.12",A.wj(s,A.aJ7(B.aq,s,s,B.hT),"Arial",!0),!1,s)}}
+return new A.BF(B.a0m,"Time Map v0.34.13",A.wj(s,A.aJ7(B.aq,s,s,B.hT),"Arial",!0),!1,s)}}
 A.EW.prototype={
 ac(){var s=t.YC,r=t.N
 return new A.Jh(B.iq,A.b([],s),A.b([],s),A.b([],s),A.b([],s),A.p(r,t.W7),B.qU,A.aj(r),A.fc(B.cG,t.Wl),A.aj(r),A.aj(r),B.f,B.E,B.f,B.dR,null,null)}}
@@ -49256,8 +49256,8 @@ Xb(a){var s,r=A.cG("\\s+",!1),q=B.c.f0(A.mM(a,r," "))
 r=A.X(new A.Dq(q),t.Dc.h("v.E"))
 r.$flags=1
 s=r
-if(s.length<=15)return q
-return A.i4(A.fR(s,0,A.oY(15,"count",t.S),A.V(s).c),0,null)+"\u2026"},
+if(s.length<=20)return q
+return A.i4(A.fR(s,0,A.oY(20,"count",t.S),A.V(s).c),0,null)+"\u2026"},
 B4(a){var s=a.Q,r=s.length===0?"":B.b.ga7(s)
 A:{if("aiHistory"===r){s="AI"
 break A}if("computerHistory"===r){s="\ucef4\ud4e8\ud305"
@@ -107897,7 +107897,7 @@ B.a_U=new A.bS("\ub274\uc2a4 \ud53c\ub4dc\uc758 \ubd84\uc57c\ub294 \uc8fc\uc81c\
 B.a_V=new A.bS("Getting ready",null,null,null,null,null,null,null,null,null)
 B.a_W=new A.bS("\uc120\ud0dd\ud55c \uc77c\uc815\uc740 Time Map\uc5d0 \uc77d\uae30 \uc804\uc6a9 \uac1c\uc778 \uc774\ubca4\ud2b8\ub85c \ud45c\uc2dc\ub429\ub2c8\ub2e4.",null,B.co,null,null,null,null,null,null,null)
 B.WS=new A.o(!0,B.hT,null,null,null,null,11,B.cC,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_X=new A.bS("v0.34.12",null,B.WS,null,null,null,null,null,null,null)
+B.a_X=new A.bS("v0.34.13",null,B.WS,null,null,null,null,null,null,null)
 B.a_Y=new A.bS("\uad00\uc2ec \uc8fc\uc81c\ub97c \ubd88\ub7ec\uc624\ub294 \uc911\u2026",null,B.co,null,null,null,null,null,null,null)
 B.a_Z=new A.bS("\uc774\ubca4\ud2b8 \uc0ad\uc81c",null,null,null,null,null,null,null,null,null)
 B.a0_=new A.bS("\ud45c\uc2dc \uc124\uc815",null,null,null,null,null,null,null,null,null)
