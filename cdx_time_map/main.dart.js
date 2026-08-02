@@ -46740,7 +46740,7 @@ H(){return"_GoogleCalendarAction."+this.b}}
 A.Wo.prototype={}
 A.Sj.prototype={
 I(a){var s=null
-return new A.BF(B.a0l,"Time Map v0.34.5",A.wj(s,A.aJ6(B.aq,s,s,B.hS),"Arial",!0),!1,s)}}
+return new A.BF(B.a0l,"Time Map v0.34.6",A.wj(s,A.aJ6(B.aq,s,s,B.hS),"Arial",!0),!1,s)}}
 A.EV.prototype={
 ac(){var s=t.YC,r=t.N
 return new A.Jf(B.ip,A.b([],s),A.b([],s),A.b([],s),A.b([],s),A.p(r,t.W7),B.qR,A.aj(r),A.fd(B.cG,t.Wl),A.aj(r),A.aj(r),B.f,B.E,B.f,null,null)}}
@@ -47763,7 +47763,7 @@ m.K$=p
 m.W$=0
 return A.G(null,r)}})
 return A.H($async$wn,r)},
-I(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=t.p,g=A.cC(A.b([A.df(A.b([B.a01,B.jD,A.k6(i,B.a_F,B.B,i,new A.dT(B.Hs,i,i,A.mX(999),i,i,B.b8),i,i,i,B.Jq,i,i,i)],h),B.P,B.x,B.Q,0,i),B.a_K],h),B.ak,B.x,B.as,0,B.N),f=A.b([],h)
+I(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=t.p,g=A.cC(A.b([A.df(A.b([B.a01,B.jD,A.k6(i,B.a_M,B.B,i,new A.dT(B.Hs,i,i,A.mX(999),i,i,B.b8),i,i,i,B.Jq,i,i,i)],h),B.P,B.x,B.Q,0,i),B.a_J],h),B.ak,B.x,B.as,0,B.N),f=A.b([],h)
 if(j.p3||j.p4)f.push(B.Rj)
 else if(j.p1==null)f.push(A.jl(i,i,B.qu,i,i,j.gV7(),i,i,"\uc774\ubca4\ud2b8 \uce74\ud0c8\ub85c\uadf8 \ub2e4\uc2dc \ubd88\ub7ec\uc624\uae30"))
 else f.push(A.jl(i,i,B.KC,i,i,j.gaqG(),i,i,"\uc8fc\uc81c\uc758 \uc2dc\uac04 \uc5f4\uae30"))
@@ -47959,7 +47959,7 @@ s.x1=this.c},
 $S:0}
 A.aAw.prototype={
 $1(a){var s=null,r=this.a,q=this.b
-return new A.b6(B.J7,A.cC(A.b([A.lH(!1,s,s,s,!0,s,s,s,!0,s,B.KV,s,s,s,s,new A.aAt(r,q,a),!1,s,s,s,s,s,s,s,B.a05,s,s,s),A.lH(!1,s,s,s,!0,s,s,s,!0,s,B.KO,s,s,s,s,new A.aAu(r,this.c,a),!1,s,s,s,s,s,s,s,B.a_I,s,s,s),A.lH(!1,s,s,s,!0,s,s,s,!0,s,B.KD,s,s,s,s,new A.aAv(r,q,a),!1,s,s,s,s,s,s,s,B.a03,s,s,s)],t.p),B.P,B.x,B.as,0,B.N),s)},
+return new A.b6(B.J7,A.cC(A.b([A.lH(!1,s,s,s,!0,s,s,s,!0,s,B.KV,s,s,s,s,new A.aAt(r,q,a),!1,s,s,s,s,s,s,s,B.a05,s,s,s),A.lH(!1,s,s,s,!0,s,s,s,!0,s,B.KO,s,s,s,s,new A.aAu(r,this.c,a),!1,s,s,s,s,s,s,s,B.a_H,s,s,s),A.lH(!1,s,s,s,!0,s,s,s,!0,s,B.KD,s,s,s,s,new A.aAv(r,q,a),!1,s,s,s,s,s,s,s,B.a03,s,s,s)],t.p),B.P,B.x,B.as,0,B.N),s)},
 $S:399}
 A.aAt.prototype={
 $0(){this.a.VA(this.b)
@@ -48200,8 +48200,8 @@ k.toString
 r=o.e
 s.push(m.ams(new A.aA5(b,r),new A.aA6(b,r),r,m.Vn(k)))}B.b.M(q,s)}else if(m.p3)B.b.M(q,A.b([B.eI,B.a_X],p))
 else{k=m.R8
-if(k!=null)B.b.M(q,A.b([B.eI,A.b2(k,n,n,n,B.CE,n,n,n),B.bC,A.aFD(B.qu,B.a_G,new A.aA7(m,a))],p))}m=A.cW(A.Rl(A.cC(q,B.ak,B.x,B.as,0,B.N),n,n,n,B.az),n,360)
-return A.Lf(A.b([A.jF(B.hl,new A.aA8(a),n),A.a7r(B.a_J,new A.aA9(a,l,o.c,o.e))],p),m,B.a_Z)},
+if(k!=null)B.b.M(q,A.b([B.eI,A.b2(k,n,n,n,B.CE,n,n,n),B.bC,A.aFD(B.qu,B.a_F,new A.aA7(m,a))],p))}m=A.cW(A.Rl(A.cC(q,B.ak,B.x,B.as,0,B.N),n,n,n,B.az),n,360)
+return A.Lf(A.b([A.jF(B.hl,new A.aA8(a),n),A.a7r(B.a_I,new A.aA9(a,l,o.c,o.e))],p),m,B.a_Z)},
 $S:91}
 A.aA_.prototype={
 $1(a){return a.c===B.aB},
@@ -48380,7 +48380,7 @@ $2(a,b){var s,r,q,p,o,n,m,l,k,j,i=null,h=t.p,g=A.b([B.LA],h)
 for(s=this.b,r=s.f,q=r.length,p=this.c,s=s.e,o=this.a,n=0;n<r.length;r.length===q||(0,A.z)(r),++n){m=r[n]
 l=A.b2(m.b,i,i,i,B.dM,i,i,i)
 k=m.a
-l=A.b([A.lH(!1,i,!0,i,!0,i,i,i,!0,i,B.KU,i,i,i,i,new A.aAy(b,p,m),!1,i,i,i,i,B.a_H,i,i,l,i,A.lz(p.m(0,k)?B.qm:B.qn,i,i),i)],h)
+l=A.b([A.lH(!1,i,!0,i,!0,i,i,i,!0,i,B.KU,i,i,i,i,new A.aAy(b,p,m),!1,i,i,i,i,B.a_G,i,i,l,i,A.lz(p.m(0,k)?B.qm:B.qn,i,i),i)],h)
 if(p.m(0,k))for(k=B.b.ga9(s),j=new A.jN(k,new A.aAz(m));j.v();)l.push(o.XX(a,k.gN(),20))
 B.b.M(g,l)}for(h=B.b.ga9(s),s=new A.jN(h,new A.aAA());s.v();)g.push(o.arJ(a,h.gN()))
 return A.aKC(g,i,i,!0)},
@@ -48464,7 +48464,7 @@ if(s==null){s=m.z
 s=s==null?o:s.d
 if(s==null)s=A.aGT(m.c)}else s=A.aGT(m.c)+" \u2013 "+A.aGT(s)
 r=t.p
-s=A.b([B.a_L,B.bC,k,B.d4,A.b2(s,o,o,o,B.X3,o,o,o)],r)
+s=A.b([B.a_K,B.bC,k,B.d4,A.b2(s,o,o,o,B.X3,o,o,o)],r)
 k=m.at
 if(k!=null){q=m.ax
 k="\ubc18\ubcf5 \uc2dc\ub9ac\uc988 \xb7 "+k
@@ -49557,16 +49557,16 @@ f=new A.f(-q,r)
 p=a4.c.x
 p===$&&A.a()
 e=B.ig.ad(p)
-d=46+e*14
-for(p=a6.a,c=7;c>=0;--c){b=c/8
+d=72+e*20
+for(p=a6.a,c=11;c>=0;--c){b=c/12
 k=b*d
-j=5+k*0.75
-k=10+k
+j=4+k*0.74
+k=11+k
 $.a_()
 a=new A.f6(B.aZ,B.aL,B.bu,B.bE,B.b3)
 a0=1-b
-a.r=B.fj.cA(0.05+a0*0.24).gp()
-a.c=0.8+a0*3.8
+a.r=B.fj.cA(0.1+a0*0.46).gp()
+a.c=1.1+a0*5.7
 a.d=B.c6
 a1=a.d1()
 p.drawLine.apply(p,[h-r*j,i-q*j,h-r*k,i-q*k,a1])
@@ -105760,8 +105760,8 @@ B.qF=new A.qi(3,"center")
 B.Lz=new A.qi(4,"bottom")
 B.dM=new A.n(!0,null,null,null,null,null,null,B.cD,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a_w=new A.bS("\uc8fc\uc81c\uc758 \uc2dc\uac04 \uc5f4\uae30",null,B.dM,null,null,null,null,null,null,null)
-B.a_M=new A.bS("\uc120\ud0dd\ud558\uba74 \ud574\ub2f9 \uc8fc\uc81c\uc758 \uac00\uc7a5 \uc774\ub978 \uc0ac\uac74\uc73c\ub85c \uc774\ub3d9\ud569\ub2c8\ub2e4.",null,null,null,null,null,null,null,null,null)
-B.LA=new A.Bw(null,B.a_w,B.a_M,null,null,null,null,null,null,null,null,null,!0,null,null,!1,null,!1,null,null,null,null,null,null,null,null,!0,null,null)
+B.a_L=new A.bS("\uc120\ud0dd\ud558\uba74 \ud574\ub2f9 \uc8fc\uc81c\uc758 \uac00\uc7a5 \uc774\ub978 \uc0ac\uac74\uc73c\ub85c \uc774\ub3d9\ud569\ub2c8\ub2e4.",null,null,null,null,null,null,null,null,null)
+B.LA=new A.Bw(null,B.a_w,B.a_L,null,null,null,null,null,null,null,null,null,!0,null,null,!1,null,!1,null,null,null,null,null,null,null,null,!0,null,null)
 B.Nf=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
 B.MW=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.O4=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
@@ -107852,15 +107852,15 @@ B.a_B=new A.bS("\uac00\uc838\uc62c Google Calendar",null,null,null,null,null,nul
 B.a_C=new A.bS("\uad00\ub828 \ub274\uc2a4 \ubd84\uc57c \ucf1c\uae30",null,null,null,null,null,null,null,null,null)
 B.a_D=new A.bS("Google Calendar",null,B.dM,null,null,null,null,null,null,null)
 B.a_E=new A.bS("\uae30\ud0c0 \uc8fc\uc81c",null,B.hk,null,null,null,null,null,null,null)
-B.WQ=new A.n(!0,B.hS,null,null,null,null,11,B.cC,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_F=new A.bS("v0.34.5",null,B.WQ,null,null,null,null,null,null,null)
-B.a_G=new A.bS("\uad00\uc2ec \uc8fc\uc81c \ub2e4\uc2dc \ubd88\ub7ec\uc624\uae30",null,null,null,null,null,null,null,null,null)
-B.a_H=new A.bS("\ubb38\uba85\ubcc4 \ud558\uc704 \uc8fc\uc81c",null,null,null,null,null,null,null,null,null)
-B.a_I=new A.bS("\ub9c1\ud06c \ubcf5\uc0ac",null,null,null,null,null,null,null,null,null)
-B.a_J=new A.bS("\uc801\uc6a9",null,null,null,null,null,null,null,null,null)
+B.a_F=new A.bS("\uad00\uc2ec \uc8fc\uc81c \ub2e4\uc2dc \ubd88\ub7ec\uc624\uae30",null,null,null,null,null,null,null,null,null)
+B.a_G=new A.bS("\ubb38\uba85\ubcc4 \ud558\uc704 \uc8fc\uc81c",null,null,null,null,null,null,null,null,null)
+B.a_H=new A.bS("\ub9c1\ud06c \ubcf5\uc0ac",null,null,null,null,null,null,null,null,null)
+B.a_I=new A.bS("\uc801\uc6a9",null,null,null,null,null,null,null,null,null)
 B.Xi=new A.n(!0,null,null,null,null,null,18,B.cC,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_K=new A.bS("\uc2dc\uac04\uc758 \uacf5\uac04",null,B.Xi,null,null,null,null,null,null,null)
-B.a_L=new A.bS("\uc2dc\uac04 \uc18d \uc774\ubca4\ud2b8",null,B.co,null,null,null,null,null,null,null)
+B.a_J=new A.bS("\uc2dc\uac04\uc758 \uacf5\uac04",null,B.Xi,null,null,null,null,null,null,null)
+B.a_K=new A.bS("\uc2dc\uac04 \uc18d \uc774\ubca4\ud2b8",null,B.co,null,null,null,null,null,null,null)
+B.WQ=new A.n(!0,B.hS,null,null,null,null,11,B.cC,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a_M=new A.bS("v0.34.6",null,B.WQ,null,null,null,null,null,null,null)
 B.a_N=new A.bS("Google\uc758 \uacf5\uc2dd \ub85c\uadf8\uc778 \ubc84\ud2bc\uc73c\ub85c \uacc4\uc815\uc744 \uc120\ud0dd\ud55c \ub4a4, Calendar \uc77d\uae30 \uad8c\ud55c\uc744 \ud5c8\uc6a9\ud558\uc138\uc694.",null,null,null,null,null,null,null,null,null)
 B.a_O=new A.bS("Google Calendar \uc5f0\uacb0",null,null,null,null,null,null,null,null,null)
 B.a_P=new A.bS("\ub0b4 \uc774\ubca4\ud2b8, \uc8fc\uc81c\xb7\uc5ed\uc0ac \uc774\ubca4\ud2b8, \ub274\uc2a4 \uc774\ubca4\ud2b8\ub97c \ub530\ub85c \uc120\ud0dd\ud558\uc138\uc694.",null,B.co,null,null,null,null,null,null,null)
