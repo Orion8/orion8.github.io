@@ -1,8 +1,99 @@
 {
-  "catalogVersion": "0.0.21",
-  "updatedAt": "2026-08-02T14:42:51.312Z",
+  "catalogVersion": "0.0.22",
+  "updatedAt": "2026-08-03T04:42:11.031Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-d672babcda1ec3630daf372a",
+      "title": "인도네시아 여객선 화재로 최소 5명 사망·여러 명 실종",
+      "startAt": "2026-08-03T04:06:11.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "마두라섬 인근 해역에서 승객 271명을 태운 여객선이 화재를 일으켜 최소 5명이 숨지고 41명이 행방불명 상태라고 당국이 밝혔습니다. 구조·수색이 진행 중입니다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/03/g-s1-136858/blaze-indonesian-passenger-ferry",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/03/g-s1-136858/blaze-indonesian-passenger-ferry"
+        ],
+        "firstPublishedAt": "2026-08-03T04:06:11.000Z",
+        "lastObservedAt": "2026-08-03T04:42:11.031Z"
+      }
+    },
+    {
+      "id": "news-fa250939ef7cb9f0c6edfe5b",
+      "title": "미 워싱턴주 스포캔 대형 산불 — 600채 소실·6만 명 대피",
+      "startAt": "2026-08-03T03:26:08.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "워싱턴주에서 발생한 대형 산불로 약 600채의 구조물이 소실되고 6만 명이 대피했으며, 주 전역에서 약 1,000㎢(386mi²)가 탔다고 보도되었습니다. 일부 화재는 아직 진압되지 않았습니다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/3/fires-in-spokane-washington-burn-600-structures-force-60000-evacuations?traffic_source=rss",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/3/fires-in-spokane-washington-burn-600-structures-force-60000-evacuations?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-03T03:26:08.000Z",
+        "lastObservedAt": "2026-08-03T04:42:11.031Z"
+      }
+    },
+    {
+      "id": "news-74d6b202c5b6be1f5c91e334",
+      "title": "트럼프, 이란에 대한 '대규모 공격' 중단·새로운 협상 개시 발표",
+      "startAt": "2026-08-03T03:17:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "도널드 트럼프 대통령은 보도된 대규모 공습을 중단했다고 밝히고 월요일부터 이란과의 '협상'이 시작될 것이라고 전했습니다. 이번 발언은 미·이란 간 군사적 긴장과 외교적 타결 가능성을 둘러싼 최신 동향입니다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-pauses-massive-attack-on-iran-says-new-talks-to-begin?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
+          "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-pauses-massive-attack-on-iran-says-new-talks-to-begin?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-02T07:34:27.000Z",
+        "lastObservedAt": "2026-08-03T04:42:11.031Z"
+      }
+    },
+    {
+      "id": "news-c1384c84739f0f2416336d27",
+      "title": "브라질 루라 대통령, 재선 도전 공식 선언",
+      "startAt": "2026-08-03T02:54:25.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "루이스 이나시우 룰라 다 실바 대통령이 공식적으로 재선 캠페인 출범을 선언했습니다. 보도는 재선 선언과 함께 외국의 개입 우려 등 정치적 쟁점이 제기되고 있다고 전했습니다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/3/brazils-lula-launches-reelection-bid-amid-foreign-interference-concerns?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/8/3/brazils-lula-launches-reelection-bid-amid-foreign-interference-concerns?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-03T02:54:25.000Z",
+        "lastObservedAt": "2026-08-03T04:42:11.031Z"
+      }
+    },
     {
       "id": "news-cb81d52dc53ac1b854834411",
       "title": "세우타(스페인 북아프리카 자치령)로의 대규모 이주 — 수만 명 유입·임시 체류 상태",
@@ -22,29 +113,6 @@
           "https://www.theguardian.com/world/2026/aug/02/ceuta-border-crossing-spain-morocco"
         ],
         "firstPublishedAt": "2026-08-02T13:11:56.000Z",
-        "lastObservedAt": "2026-08-02T14:42:51.311Z"
-      }
-    },
-    {
-      "id": "news-74d6b202c5b6be1f5c91e334",
-      "title": "트럼프, 이란에 대한 공습 '취소' 주장 — 합의 '테두리'는 합의됐다며 협상 진행 상황 언급",
-      "startAt": "2026-08-02T07:34:27.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "도널드 트럼프 대통령은 언론 보도 이후 이란에 대한 공습을 취소했다고 밝혔으며, 이란과 일부 중동 국가들이 미국에 공격 보류를 요청했고 '합의의 테두리(perimeters)'가 합의됐다고 말했다고 보도되었습니다. 해당 발언은 미·이란 간 군사적 긴장과 외교적 타결 가능성의 관측을 불러일으키고 있습니다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending"
-        ],
-        "firstPublishedAt": "2026-08-02T07:34:27.000Z",
         "lastObservedAt": "2026-08-02T14:42:51.311Z"
       }
     },
@@ -802,6 +870,28 @@
         ],
         "firstPublishedAt": "2026-07-21T00:00:00.000Z",
         "lastObservedAt": "2026-07-27T03:22:31.261Z"
+      }
+    },
+    {
+      "id": "news-2438c3e3c186a2e8a34dfc77",
+      "title": "ESA 행성 탐사선 Plato 전자장비, 우주환경 적합성 시험 통과",
+      "startAt": "2026-07-20T12:30:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국(ESA)의 행성 탐사선 Plato가 ESTEC의 Maxwell 시험실에서 전자장비 시험을 완료해 우주에서 작동할 준비를 마쳤습니다. 시험은 파라데이 케이지로 외부 간섭을 차단한 상태에서 진행됐습니다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Plato_s_electronics_ready_for_space",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.esa.int/ESA_Multimedia/Images/2026/07/Plato_s_electronics_ready_for_space"
+        ],
+        "firstPublishedAt": "2026-07-20T12:30:00.000Z",
+        "lastObservedAt": "2026-08-03T04:42:11.031Z"
       }
     },
     {
