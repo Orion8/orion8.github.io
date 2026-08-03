@@ -1,8 +1,78 @@
 {
-  "catalogVersion": "0.0.22",
-  "updatedAt": "2026-08-03T04:42:11.031Z",
+  "catalogVersion": "0.0.23",
+  "updatedAt": "2026-08-03T15:51:21.477Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-7d9566423cd70e907130a88c",
+      "title": "아스트라제네카, 미국 제약사 브리스톨마이어스스큅(BMS) 인수 논의 보도에 주가 급락",
+      "startAt": "2026-08-03T15:10:02.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "영국의 대형 제약사 아스트라제네카가 미국 암 치료 전문 제약사 브리스톨마이어스스큅(Bristol Myers Squibb) 인수를 논의 중이라는 보도로, 양사 합병 시 약 4천억 달러 규모의 거래가 될 수 있다는 관측이 제기되었습니다. 보도 직후 아스트라제네카 주가가 급락하며 약 150억 파운드(£)의 시가총액이 증발했습니다. 보도는 합병이 세계 4대 제약사에 해당하는 기업을 만들 것이라고 전했습니다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/aug/03/astrazeneca-talks-bristol-myers-squibb-merger-pharmaceuticals",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/aug/03/astrazeneca-talks-bristol-myers-squibb-merger-pharmaceuticals"
+        ],
+        "firstPublishedAt": "2026-08-03T15:10:02.000Z",
+        "lastObservedAt": "2026-08-03T15:51:21.477Z"
+      }
+    },
+    {
+      "id": "news-74d6b202c5b6be1f5c91e334",
+      "title": "트럼프, 이란에 대한 공습 중단·협상 개시 발표 — 미 법무부 임시장관 토드 블랜치, '안티‑무기화 기금' 철회",
+      "startAt": "2026-08-03T11:57:06.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "도널드 트럼프 대통령이 보도된 대규모 공습 계획을 중단하고 이란과의 협상이 시작될 것이라고 발표했습니다. 같은 보도에서 미 법무부의 임시장관(Acting Attorney General) 토드 블랜치(Todd Blanche)가 본인 확인 청문회를 앞두고 '안티‑무기화(anti‑weaponization) 기금'을 철회했다고 전해졌습니다. 이번 사안은 미·이란 군사적 긴장과 동시에 미국 내 법무·정책 조치의 변화를 시사합니다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/03/g-s1-136892/up-first-newsletter-iran-war-todd-blanche-capital-one-bank-accounts-trump-conspiracy",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
+          "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-pauses-massive-attack-on-iran-says-new-talks-to-begin?traffic_source=rss",
+          "https://www.npr.org/2026/08/03/g-s1-136892/up-first-newsletter-iran-war-todd-blanche-capital-one-bank-accounts-trump-conspiracy"
+        ],
+        "firstPublishedAt": "2026-08-02T07:34:27.000Z",
+        "lastObservedAt": "2026-08-03T15:51:21.477Z"
+      }
+    },
+    {
+      "id": "news-f949d79ccbcbc00f4ea7b3a0",
+      "title": "미·일 정상, 엔화 방어 위해 외환시장 개입 확인",
+      "startAt": "2026-08-03T08:44:24.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미국 달러가 엔화 대비 약세를 보인 가운데 미국과 일본 정상이 외환시장에 개입해 일본의 통화를 지원했다고 확인했습니다. 보도는 양국의 개입 발표 이후 달러 가치가 약해졌다고 전하며, 양국의 공동 조치가 시장에 영향을 미쳤음을 보도했습니다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/03/nx-s1-5917867/u-s-steps-in-to-help-shore-up-japanese-yen",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/03/nx-s1-5917867/u-s-steps-in-to-help-shore-up-japanese-yen"
+        ],
+        "firstPublishedAt": "2026-08-03T08:44:24.000Z",
+        "lastObservedAt": "2026-08-03T15:51:21.477Z"
+      }
+    },
     {
       "id": "news-d672babcda1ec3630daf372a",
       "title": "인도네시아 여객선 화재로 최소 5명 사망·여러 명 실종",
@@ -45,30 +115,6 @@
           "https://www.aljazeera.com/news/2026/8/3/fires-in-spokane-washington-burn-600-structures-force-60000-evacuations?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-08-03T03:26:08.000Z",
-        "lastObservedAt": "2026-08-03T04:42:11.031Z"
-      }
-    },
-    {
-      "id": "news-74d6b202c5b6be1f5c91e334",
-      "title": "트럼프, 이란에 대한 '대규모 공격' 중단·새로운 협상 개시 발표",
-      "startAt": "2026-08-03T03:17:33.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "도널드 트럼프 대통령은 보도된 대규모 공습을 중단했다고 밝히고 월요일부터 이란과의 '협상'이 시작될 것이라고 전했습니다. 이번 발언은 미·이란 간 군사적 긴장과 외교적 타결 가능성을 둘러싼 최신 동향입니다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-pauses-massive-attack-on-iran-says-new-talks-to-begin?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
-          "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-pauses-massive-attack-on-iran-says-new-talks-to-begin?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-02T07:34:27.000Z",
         "lastObservedAt": "2026-08-03T04:42:11.031Z"
       }
     },
