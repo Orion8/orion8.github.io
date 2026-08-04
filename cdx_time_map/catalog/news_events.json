@@ -1,8 +1,30 @@
 {
-  "catalogVersion": "0.0.24",
-  "updatedAt": "2026-08-04T04:26:44.842Z",
+  "catalogVersion": "0.0.25",
+  "updatedAt": "2026-08-04T15:33:24.660Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-dbfecc75731c7f13c7b5244a",
+      "title": "트럼프 지명 유력 후보 케빈 워시의 인플레이션 접근법 — ‘시장에 맡기기’ 주장(가디언 칼럼)",
+      "startAt": "2026-08-04T11:00:48.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "가디언의 에두아르도 포터 칼럼은 케빈 워시가 인플레이션 문제에 대해 정부·연준의 적극적 개입을 경계하고 시장에 맡기려는 입장을 보인다고 지적하며, 이러한 비개입적 태도가 연준의 신뢰도를 훼손할 수 있다고 경고했다. 칼럼은 이 입장이 공화당의 전통적 소정부·시장중심 관점과 맺는 역설을 짚는다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/aug/04/trump-fed-kevin-warsh",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/aug/04/trump-fed-kevin-warsh"
+        ],
+        "firstPublishedAt": "2026-08-04T11:00:48.000Z",
+        "lastObservedAt": "2026-08-04T15:33:24.660Z"
+      }
+    },
     {
       "id": "news-38960896a5a6083b51dc4c48",
       "title": "뉴저지 ICE 구금센터서 엘살바도르인 사망 — Delaney Hall서 8개월 내 두 번째 사망",
