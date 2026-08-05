@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.25",
-  "updatedAt": "2026-08-04T15:33:24.660Z",
+  "catalogVersion": "0.0.26",
+  "updatedAt": "2026-08-05T04:24:22.074Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -644,6 +644,28 @@
       }
     },
     {
+      "id": "news-907aee2e76ce75a930b7ff6c",
+      "title": "ESA, 개기일식 안전 관측 안내 영상 공개",
+      "startAt": "2026-07-31T14:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국(ESA)이 1분 34초 분량의 안내 영상을 공개해 개기일식을 안전하게 관측하는 방법을 소개했다. 영어판에서는 예비 우주인 Sara García Alonso가, 스페인어판에서는 Pablo Álvarez Fernández가 인증된 일식안경 사용법과 일반 선글라스가 충분하지 않은 이유, 일식의 각 단계별 관찰 시점을 설명한다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/How_to_safely_watch_a_solar_eclipse",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/07/How_to_safely_watch_a_solar_eclipse"
+        ],
+        "firstPublishedAt": "2026-07-31T14:00:00.000Z",
+        "lastObservedAt": "2026-08-05T04:24:22.074Z"
+      }
+    },
+    {
       "id": "news-6ed2d341be9e09a7f8cfd3fe",
       "title": "NASA, Deniz Burnham을 국제우주정거장(ISS) 첫 임무 승무원으로 배정",
       "startAt": "2026-07-30T16:11:41.000Z",
@@ -732,6 +754,29 @@
         ],
         "firstPublishedAt": "2026-07-28T15:42:26.000Z",
         "lastObservedAt": "2026-07-29T03:46:58.936Z"
+      }
+    },
+    {
+      "id": "news-88eadc2663cb1d34b962ca00",
+      "title": "DeepMind 'Gemini Robotics 2'·'ER 2' 공개 — 전신 지능·비디오 이해·다중 로봇 협업 진전",
+      "startAt": "2026-07-28T13:21:37.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "DeepMind가 로봇의 전신(whole‑body) 지능을 목표로 한 'Gemini Robotics 2'와 비디오 이해, 작업 오케스트레이션 및 다중 로봇 협업을 강조한 'Gemini Robotics ER 2'를 발표했다. 회사는 이들 기술이 로봇의 추론·협업 능력과 실제 과제 해결 역량에서 단계적 진전을 의미한다고 설명했다.",
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+          "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+        ],
+        "firstPublishedAt": "2026-07-30T15:00:59.000Z",
+        "lastObservedAt": "2026-08-05T04:24:22.074Z"
       }
     },
     {
