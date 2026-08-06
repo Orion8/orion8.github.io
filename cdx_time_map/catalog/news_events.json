@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.28",
-  "updatedAt": "2026-08-06T04:27:15.573Z",
+  "catalogVersion": "0.0.29",
+  "updatedAt": "2026-08-06T15:25:16.727Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -23,6 +23,50 @@
         ],
         "firstPublishedAt": "2026-08-05T08:00:00.000Z",
         "lastObservedAt": "2026-08-05T15:25:04.346Z"
+      }
+    },
+    {
+      "id": "news-1986eab2e2ed84ba8b77a11b",
+      "title": "DeepMind 'WeatherNext' 모델, 사이클론 예측에서 획기적 진전 발표",
+      "startAt": "2026-08-06T15:06:15.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "DeepMind가 발표한 AI 모델 'WeatherNext'가 사이클론(열대저기압) 예측에서 획기적 성과를 거뒀다고 밝혔다. 해당 발표는 기상 예측·재난 대응 분야에서 생성형 AI 적용의 진전을 시사한다. (출처: DeepMind 블로그)",
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
+        ],
+        "firstPublishedAt": "2026-08-06T15:06:15.000Z",
+        "lastObservedAt": "2026-08-06T15:25:16.727Z"
+      }
+    },
+    {
+      "id": "news-a15f692a6cfc6e8bee0d6f1f",
+      "title": "제임스웹(JWST), 카리나 성운의 'Treasure Chest' 이미지 공개",
+      "startAt": "2026-08-06T08:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국(ESA)이 제임스웹 우주망원경(JWST)의 'Treasure Chest' 이미지를 소개했다. 카리나 성운은 지구에서 약 7,500광년 떨어져 있으며 약 260광년에 걸쳐 펼쳐진 고질량 별 형성 지역으로, 가장 거대한 별들과 수만 개의 원시별을 포함해 별 형성과 별이 주변 환경을 조형하는 과정을 연구할 수 있는 중요한 관측 대상이다. (출처: ESA)",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Webb_opens_a_Treasure_Chest_filled_with_stars",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/ESA_Multimedia/Images/2026/08/Webb_opens_a_Treasure_Chest_filled_with_stars"
+        ],
+        "firstPublishedAt": "2026-08-06T08:00:00.000Z",
+        "lastObservedAt": "2026-08-06T15:25:16.727Z"
       }
     },
     {
