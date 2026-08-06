@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.27",
-  "updatedAt": "2026-08-05T15:25:04.346Z",
+  "catalogVersion": "0.0.28",
+  "updatedAt": "2026-08-06T04:27:15.573Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -753,6 +753,28 @@
         ],
         "firstPublishedAt": "2026-07-30T00:21:06.000Z",
         "lastObservedAt": "2026-07-30T15:22:32.263Z"
+      }
+    },
+    {
+      "id": "news-05b5e14c97505dcc55095fc0",
+      "title": "DeepMind, 'Lyria 3.5'를 Google Flow Music에 출시 — 음악성·가사·보컬·창작 제어 향상",
+      "startAt": "2026-07-29T16:02:10.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "DeepMind가 'Lyria 3.5'를 구글의 Flow Music에 도입한다고 발표했다. 발표에 따르면 이번 버전은 음악성, 가사, 보컬 및 창작 제어(creative control) 측면에서 개선을 이뤘다고 전해진다. (출처: DeepMind 블로그)",
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/"
+        ],
+        "firstPublishedAt": "2026-07-29T16:02:10.000Z",
+        "lastObservedAt": "2026-08-06T04:27:15.573Z"
       }
     },
     {
