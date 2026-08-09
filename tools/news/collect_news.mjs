@@ -51,12 +51,9 @@ async function main() {
   const alreadyPublishedUrls = new Set(
     existingEvents.flatMap((event) => event.news?.sourceUrls ?? [event.sourceUrl]),
   );
-  const existingPublisherCounts = countEventsByPublisher(existingEvents);
-
   const articles = await collectArticles(sources.sources ?? []);
   const candidates = articles.filter((article) =>
-    !alreadyPublishedUrls.has(article.url) &&
-    (existingPublisherCounts.get(article.publisherId) ?? 0) < maximumEventsPerPublisher,
+    !alreadyPublishedUrls.has(article.url),
   );
   if (candidates.length === 0) {
     console.log('No new RSS articles to evaluate.');
@@ -202,15 +199,6 @@ function limitArticlesPerPublisher(articles) {
     limited.push(article);
   }
   return limited;
-}
-
-function countEventsByPublisher(events) {
-  const counts = new Map();
-  for (const event of events) {
-    const publisherId = publisherIdForName(event.sourceName);
-    counts.set(publisherId, (counts.get(publisherId) ?? 0) + 1);
-  }
-  return counts;
 }
 
 function limitEventsPerPublisher(events) {
