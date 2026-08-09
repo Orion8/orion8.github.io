@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.29",
-  "updatedAt": "2026-08-06T15:25:16.727Z",
+  "catalogVersion": "0.0.30",
+  "updatedAt": "2026-08-09T07:13:11.359Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -23,6 +23,139 @@
         ],
         "firstPublishedAt": "2026-08-05T08:00:00.000Z",
         "lastObservedAt": "2026-08-05T15:25:04.346Z"
+      }
+    },
+    {
+      "id": "news-8c75dbc6fc981c300a0c3f1c",
+      "title": "이스라엘, 요르단강 서안(점령지)에 정착촌 627가구 건설 입찰 공고",
+      "startAt": "2026-08-09T06:57:56.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "이스라엘이 요르단강 서안의 점령지에 정착민용 주택 627가구 건설을 위한 입찰을 발표했다. 보도는 관찰자들과 관계자들이 이번 조치가 팔레스타인과 예루살렘의 연계를 약화시키려는 시도로 우려된다고 전했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-09T06:57:56.000Z",
+        "lastObservedAt": "2026-08-09T07:13:11.359Z"
+      }
+    },
+    {
+      "id": "news-49103627b5f460b80393dfad",
+      "title": "캐나다 서부 오카나간 지역 대형 산불로 2만 명 이상 대피",
+      "startAt": "2026-08-09T06:10:08.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "빠르게 번진 산불로 브리티시컬럼비아 오카나간 지역에서 2만 명이 넘는 주민들이 대피했다고 보도됐다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfire-forces-thousands-of-evacuations-in-western-canada?traffic_source=rss",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfire-forces-thousands-of-evacuations-in-western-canada?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-09T06:10:08.000Z",
+        "lastObservedAt": "2026-08-09T07:13:11.359Z"
+      }
+    },
+    {
+      "id": "news-a7e2c26896ee6258cb1fe39f",
+      "title": "계획된 아마존 텍사스 데이터센터, 미국 내 최대 기후 오염원 될 가능성 보도",
+      "startAt": "2026-08-08T21:24:02.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "텍사스에 계획된 아마존 데이터센터 내 현장 발전소 투자가 미국에서 가장 큰 기후 오염원 중 하나가 될 수 있다고 보도됐다. 보도는 발전소 설계·운영 방식이 배출에 미칠 영향을 지적했다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/"
+        ],
+        "firstPublishedAt": "2026-08-08T21:24:02.000Z",
+        "lastObservedAt": "2026-08-09T07:13:11.359Z"
+      }
+    },
+    {
+      "id": "news-bd960ed819b465d0e12365ad",
+      "title": "호르무즈 해협 통항 상황 불안 — 탱커 선원들 여전히 위험 상태",
+      "startAt": "2026-08-08T21:19:54.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "호르무즈 해협을 둘러싼 합의가 요원한 가운데, 해협 주변에 머무는 선박과 탱커 선원들이 불확실한 상태에 놓여 있고 통항이 여전히 위험하다고 업계 관계자가 밝혔다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/08/nx-s1-5923592/tanker-sailors-still-face-danger-in-the-strait-of-hormuz",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/08/nx-s1-5923592/tanker-sailors-still-face-danger-in-the-strait-of-hormuz"
+        ],
+        "firstPublishedAt": "2026-08-08T21:19:54.000Z",
+        "lastObservedAt": "2026-08-09T07:13:11.359Z"
+      }
+    },
+    {
+      "id": "news-fe65a77122ad0a0e27a2558c",
+      "title": "영국 주요 쥐라기 화석 컬렉션, 자금 부족으로 아부다비 기관에 매각",
+      "startAt": "2026-08-08T16:00:02.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "한 개인 수집가가 모은 영국 쥐라기 화석 318점(익티오사우루스·어류·갑각류 등 포함)이 영국 박물관의 자금 부족으로 인해 아부다비의 한 기관에 팔렸다. 일부 표본은 새로운 종일 가능성이 제기되며, 학계에서는 '국가적 손실'로 평가했다.",
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/ng-interactive/2026/aug/09/one-of-uks-best-fossil-collections-sold-overseas-in-loss-to-the-nation",
+      "topicIds": [
+        "extinctLife",
+        "lifeScience"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/ng-interactive/2026/aug/09/one-of-uks-best-fossil-collections-sold-overseas-in-loss-to-the-nation"
+        ],
+        "firstPublishedAt": "2026-08-08T16:00:02.000Z",
+        "lastObservedAt": "2026-08-09T07:13:11.359Z"
+      }
+    },
+    {
+      "id": "news-e66cc71d0943fe40ad6453da",
+      "title": "OpenAI, Astra 대상 예비 사이버보안 평가 결과와 강화 조치 공개",
+      "startAt": "2026-08-07T15:20:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI가 Astra에 대한 예비 사이버보안 평가 내용을 공개하고, 이를 바탕으로 안전·보안 통제를 강화하기 위한 조치들을 발표했다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+        ],
+        "firstPublishedAt": "2026-08-07T15:20:00.000Z",
+        "lastObservedAt": "2026-08-09T07:13:11.359Z"
       }
     },
     {
@@ -340,50 +473,6 @@
       }
     },
     {
-      "id": "news-d487207ad4b123042fe26826",
-      "title": "가자 지구 학생들, 전쟁 상황 속 Tawjihi(고등학교 졸업시험) 성적 발표·축하",
-      "startAt": "2026-08-02T05:27:04.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "가자 지구의 학생들이 이스라엘과의 충돌(기사 표현: '제노사이드')로 인한 고통 속에서도 Tawjihi 고등학교 졸업시험을 마치고 성적 발표를 맞아 축하했다고 보도됐습니다. 보도는 학생들이 어려운 상황을 극복하며 학업을 마친 점을 조명했습니다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/features/2026/8/2/gaza-students-overcome-israels-genocide-to-celebrate-tawjihi-results?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/features/2026/8/2/gaza-students-overcome-israels-genocide-to-celebrate-tawjihi-results?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-02T05:27:04.000Z",
-        "lastObservedAt": "2026-08-02T05:57:35.993Z"
-      }
-    },
-    {
-      "id": "news-4214a06ecf0253ed8fb3c2c6",
-      "title": "모스크바 식당 외부 폭발 — 여성 자폭 포함 최소 3명 사망·20여 명 부상",
-      "startAt": "2026-08-02T04:44:55.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "모스크바 중심부의 한 식당 밖에서 폭발이 발생해 최소 3명이 숨지고 20명 이상이 다쳤다고 보도됐습니다. 보도는 사망자 가운데 여성 자폭범이 포함됐다고 전했습니다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/2/three-dead-including-female-bomber-in-moscow-restaurant-attack?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/8/2/three-dead-including-female-bomber-in-moscow-restaurant-attack?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-02T04:44:55.000Z",
-        "lastObservedAt": "2026-08-02T05:57:35.993Z"
-      }
-    },
-    {
       "id": "news-b4be249b3de1e72420df19cd",
       "title": "서아프리카서 반‑LGBTQ 법률 확산 — 활동가들 경고",
       "startAt": "2026-08-02T04:00:11.000Z",
@@ -502,51 +591,6 @@
         ],
         "firstPublishedAt": "2026-08-01T23:03:15.000Z",
         "lastObservedAt": "2026-08-02T04:34:53.970Z"
-      }
-    },
-    {
-      "id": "news-a435b167b03d8459c28eaef5",
-      "title": "페루 나스카 라인 상공 관광기 추락 — 관광객 포함 13명 사망",
-      "startAt": "2026-08-01T22:31:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "페루 당국은 푸에르토 인근 피스코(Pisco)에서 출발한 세스나 그랜드 카라반(Cessna Grand Caravan) 관광기가 Pueblo Viejo 인근에서 추락해 외국인 관광객 11명과 조종사 2명 등 총 13명이 사망했다고 확인했습니다. 사고 지점은 나스카 라인(Nazca Lines) 유적지에서 약 12km 떨어진 곳으로 보도됐습니다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/01/at-least-13-dead-as-tourist-plane-crashes-during-flight-over-perus-nazca-lines",
-      "topicIds": [
-        "politicsHumanRights",
-        "artsFilm"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/01/at-least-13-dead-as-tourist-plane-crashes-during-flight-over-perus-nazca-lines"
-        ],
-        "firstPublishedAt": "2026-08-01T22:31:13.000Z",
-        "lastObservedAt": "2026-08-02T05:57:35.993Z"
-      }
-    },
-    {
-      "id": "news-f26a74e135c5d6fa1e9dfc26",
-      "title": "파키스탄 눈사태로 유명 산악인 Nirmal Purja 등 사망",
-      "startAt": "2026-08-01T22:23:39.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "파키스탄에서 발생한 눈사태로 유명 산악인 Nirmal Purja와 그의 동료 등 등반팀이 사망했다고 보도됐습니다. 보도는 다양한 국적의 등반팀이 고산 등정을 시도하던 중 사고를 당했다고 전했습니다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche"
-        ],
-        "firstPublishedAt": "2026-08-01T22:23:39.000Z",
-        "lastObservedAt": "2026-08-02T05:57:35.993Z"
       }
     },
     {
@@ -984,29 +1028,6 @@
       }
     },
     {
-      "id": "news-285637682dc88cb8a00e2876",
-      "title": "구글 AI 검색 빠르게 기본화 — AI Overviews가 검색의 43%에 표시",
-      "startAt": "2026-07-27T15:57:12.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "새 데이터에 따르면 구글의 AI Overviews(생성형 요약)가 이제 전체 검색 결과의 약 43%에서 나타나며, AI 생성 답변이 정보 탐색의 기본 방식으로 빠르게 자리잡고 있음을 보여줍니다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/"
-        ],
-        "firstPublishedAt": "2026-07-27T15:57:12.000Z",
-        "lastObservedAt": "2026-07-27T19:51:05.512Z"
-      }
-    },
-    {
       "id": "news-db9d0913513df69e6eee2103",
       "title": "OpenAI 연구: AI가 직무 범위 확장 — 사용자들이 다양한 업무 맡아",
       "startAt": "2026-07-27T03:30:00.000Z",
@@ -1137,28 +1158,6 @@
         ],
         "firstPublishedAt": "2026-07-20T12:30:00.000Z",
         "lastObservedAt": "2026-08-03T04:42:11.031Z"
-      }
-    },
-    {
-      "id": "news-a5ab872c216c2f944ec77d4d",
-      "title": "OpenAI, 장기 운영 모델 시대의 안전·정렬 경험과 교훈 공유",
-      "startAt": "2026-07-20T10:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "OpenAI가 장기간 작동하는(long-horizon) AI 모델을 운영하며 관찰한 실패 사례와 새로운 안전 위험, 반복적 배포를 통해 개선된 안전장치에 대한 교훈을 공개했습니다. 조직 차원의 대응 전략과 실무적 권고를 포함합니다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/safety-alignment-long-horizon-models"
-        ],
-        "firstPublishedAt": "2026-07-20T10:00:00.000Z",
-        "lastObservedAt": "2026-07-27T03:22:31.261Z"
       }
     }
   ]
