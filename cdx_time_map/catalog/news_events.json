@@ -1,28 +1,165 @@
 {
-  "catalogVersion": "0.0.31",
-  "updatedAt": "2026-08-10T03:18:11.642Z",
+  "catalogVersion": "0.0.32",
+  "updatedAt": "2026-08-10T14:25:07.408Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-7d92603cf2986fc0c5bc8ec2",
-      "title": "ESA, 8월 12일 개기일식 온라인 생중계 예고",
-      "startAt": "2026-08-12T17:30:00.000Z",
+      "id": "news-88db4b3ad91c9ef95b848c8a",
+      "title": "콜롬비아 강진(규모 7.4) — 인명·시설 큰 피해 보고",
+      "startAt": "2026-08-10T14:20:38.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "규모 7.4의 강진이 태평양 연안 인근에서 발생해 수백 킬로미터 떨어진 도시들까지 지진이 감지되었으며, 보도에 따르면 상당한 피해와 부상자가 발생했다고 전해졌다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "urbanDevelopment",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-10T14:20:38.000Z",
+        "lastObservedAt": "2026-08-10T14:25:07.407Z"
+      }
+    },
+    {
+      "id": "news-7e77d4621f7967f691038347",
+      "title": "영국행 단일 보트에 230명 탑승 — 잉글리시 채널 월경 기록적 도착",
+      "startAt": "2026-08-10T14:02:38.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "한 척의 보트에 탑승한 기록적 규모의 약 230명이 잉글리시 채널을 건너 영국에 도착했다고 보도되었다. 정부는 밀입국 조직이 '비(非)항해 적합 선박'에 사람들을 과도하게 태워 생명을 위태롭게 했다고 비난했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/10/record-230-people-reach-uk-on-single-boat-after-crossing-english-channel?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/10/record-230-people-reach-uk-on-single-boat-after-crossing-english-channel?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-10T14:02:38.000Z",
+        "lastObservedAt": "2026-08-10T14:25:07.407Z"
+      }
+    },
+    {
+      "id": "news-7eea4a5b42b5b188475472ef",
+      "title": "스페이스X, 루이지애나 해안 대규모 발사장 계획에 지역·환경 반발",
+      "startAt": "2026-08-10T14:00:46.000Z",
       "lane": "world",
       "category": "space",
       "importance": 2,
-      "description": "유럽우주국(ESA)은 8월 12일 개기일식을 전 세계에서 관찰할 수 있도록 생중계한다. ESA는 유튜브에서 12일 19:30–20:45 CEST(생중계 시작 19:30 CEST)에 방송을 진행하고, 스페인 레온에서는 12일 10:00–14:00 및 17:30–21:45 CEST로 관측·과학 프로그램과 교육 활동, 영상·그래픽 자료 등을 제공한다고 밝혔다.",
+      "description": "스페이스X가 루이지애나 베르밀리온 카운티 해안의 페컨아일랜드(Pecan Island) 일대 18마일(약 29km) 구간과 13만에이커(약 52,600ha)에 달하는 토지를 장악하는 방안을 추진 중이라는 보도가 나왔다. 지역 반대론자들은 계획이 급속히 침식되는 연안의 취약한 생태계를 심각하게 훼손할 것을 우려하고 있다. 보도는 회사가 발사 횟수를 늘리고 신형 로켓의 발사도 확대할 것이라고 전했다.",
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/10/spacex-rocket-launch-site-louisiana-backlash",
+      "topicIds": [
+        "spaceDevelopment",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/aug/10/spacex-rocket-launch-site-louisiana-backlash"
+        ],
+        "firstPublishedAt": "2026-08-10T14:00:46.000Z",
+        "lastObservedAt": "2026-08-10T14:25:07.407Z"
+      }
+    },
+    {
+      "id": "news-8dd8712f7deec915fddf4adf",
+      "title": "제임스웹(JWST), 라이온 성운(NGC 2392) 적외선 이미지 공개",
+      "startAt": "2026-08-10T14:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA·ESA·CSA의 제임스웹 우주망원경이 NGC 2392로 알려진 '라이온 성운'의 고해상도 적외선 이미지를 공개했다. 웨브의 관측은 조밀한 먼지 덩어리와 이온화된 가스의 희미한 흐름 등 기존 가시광 관측보다 뚜렷한 특징을 드러냈다.",
       "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb"
+        ],
+        "firstPublishedAt": "2026-08-10T14:00:00.000Z",
+        "lastObservedAt": "2026-08-10T14:25:07.407Z"
+      }
+    },
+    {
+      "id": "news-41c4eb72bd34f6e1cbab92b6",
+      "title": "우크라이나 드론, 러시아 심층 공격 — 타타르스탄 지역서 다수 사상",
+      "startAt": "2026-08-10T12:54:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "우크라이나 무인기(드론) 공격이 러시아 타타르스탄 지역을 겨냥해 실행됐으며, 러시아 당국은 이번 공격으로 최소 13명이 숨지고 약 75명이 부상했다고 보도했다. 별도 보도는 니즈네카므스크(Nizhnekamsk) 공격으로 12명이 사망했다고 전했다. 최근 장거리 드론을 이용한 유류시설·군사·산업 시설 타격이 잦아지며 러시아 내 연료 공급과 공공 불안을 야기하고 있다고 보도되었다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/10/nx-s1-5927024/ukrainian-drone-attack-russia"
+        ],
+        "firstPublishedAt": "2026-08-10T12:54:13.000Z",
+        "lastObservedAt": "2026-08-10T14:25:07.407Z"
+      }
+    },
+    {
+      "id": "news-5bb1bb33838f59199a46eca9",
+      "title": "인도 아삼 홍수 사망자 100명 도달 — 브라흐마푸트라 등 범람",
+      "startAt": "2026-08-10T12:39:05.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "연이은 몬순성 폭우로 브라흐마푸트라 강을 포함한 하천이 범람해 아삼 주에서 사망자가 100명에 이르고 수천 명이 집을 잃었다고 보도되었다. 홍수는 생계와 인프라를 광범위하게 훼손하고 있다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/10/g-s1-138015/flood-death-toll-in-indias-assam-reaches-100-as-thousands-lose-their-homes",
+      "topicIds": [
+        "politicsHumanRights",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/10/g-s1-138015/flood-death-toll-in-indias-assam-reaches-100-as-thousands-lose-their-homes"
+        ],
+        "firstPublishedAt": "2026-08-10T12:39:05.000Z",
+        "lastObservedAt": "2026-08-10T14:25:07.407Z"
+      }
+    },
+    {
+      "id": "news-7d92603cf2986fc0c5bc8ec2",
+      "title": "ESA, 8월12일 개기일식 대비 모의·모델링 공개(기존 생중계 안내 관련 업데이트)",
+      "startAt": "2026-08-10T11:59:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국(ESA)은 2026년 8월12일 유럽 일부에서 관측되는 개기일식을 앞두고 인공적으로 일식을 재현하는 임무와 컴퓨터 모델을 이용한 디지털 시뮬레이션 작업을 소개했다. ESA는 이러한 모의·모델링이 태양 코로나 등 외층 대기 관측의 과학적 준비에 중요하다고 설명했다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
       "topicIds": [
         "spaceDevelopment"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home"
+          "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
+          "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse"
         ],
         "firstPublishedAt": "2026-08-05T08:00:00.000Z",
-        "lastObservedAt": "2026-08-05T15:25:04.346Z"
+        "lastObservedAt": "2026-08-10T14:25:07.407Z"
       }
     },
     {
@@ -451,29 +588,6 @@
       }
     },
     {
-      "id": "news-f949d79ccbcbc00f4ea7b3a0",
-      "title": "미·일 정상, 엔화 방어 위해 외환시장 개입 확인",
-      "startAt": "2026-08-03T08:44:24.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미국 달러가 엔화 대비 약세를 보인 가운데 미국과 일본 정상이 외환시장에 개입해 일본의 통화를 지원했다고 확인했습니다. 보도는 양국의 개입 발표 이후 달러 가치가 약해졌다고 전하며, 양국의 공동 조치가 시장에 영향을 미쳤음을 보도했습니다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/03/nx-s1-5917867/u-s-steps-in-to-help-shore-up-japanese-yen",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/03/nx-s1-5917867/u-s-steps-in-to-help-shore-up-japanese-yen"
-        ],
-        "firstPublishedAt": "2026-08-03T08:44:24.000Z",
-        "lastObservedAt": "2026-08-03T15:51:21.477Z"
-      }
-    },
-    {
       "id": "news-fa250939ef7cb9f0c6edfe5b",
       "title": "미 워싱턴주 스포캔 대형 산불 — 600채 소실·6만 명 대피",
       "startAt": "2026-08-03T03:26:08.000Z",
@@ -515,50 +629,6 @@
         ],
         "firstPublishedAt": "2026-08-03T02:54:25.000Z",
         "lastObservedAt": "2026-08-03T04:42:11.031Z"
-      }
-    },
-    {
-      "id": "news-c9bb3a81cbdcb6a8f35e7b90",
-      "title": "아이다호 쇼핑몰 인앤아웃 버거 총격 — 최소 3명 사망·여러 명 부상",
-      "startAt": "2026-08-02T05:29:36.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "경찰은 아이다호의 쇼핑몰 내 인앤아웃 버거(In‑N‑Out Burger)에서 발생한 총격으로 최소 3명이 숨지고 여러 명이 다쳤다고 밝혔습니다. 사건은 현지 경찰의 초기 발표를 바탕으로 보도되었습니다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/2/at-least-three-dead-in-idaho-shopping-mall-mass-shooting?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/8/2/at-least-three-dead-in-idaho-shopping-mall-mass-shooting?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-02T05:29:36.000Z",
-        "lastObservedAt": "2026-08-02T05:57:35.993Z"
-      }
-    },
-    {
-      "id": "news-b4be249b3de1e72420df19cd",
-      "title": "서아프리카서 반‑LGBTQ 법률 확산 — 활동가들 경고",
-      "startAt": "2026-08-02T04:00:11.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "활동가들은 정치인들이 LGBTQ+를 권력 유지를 위한 쉬운 희생양으로 삼고 있다며, 최근 서아프리카에서 반‑LGBTQ 법률이 강화·신설되고 있다고 경고했다. 보도에 따르면 세네갈은 3월 동성애 행위에 대한 최대 징역형을 10년으로 늘리고 '동성애 촉진'을 범죄화했으며, 니제르는 2월에 처음으로 '동성 간 성관계'를 처벌한다고 전했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn"
-        ],
-        "firstPublishedAt": "2026-08-02T04:00:11.000Z",
-        "lastObservedAt": "2026-08-02T05:50:56.359Z"
       }
     },
     {
@@ -611,28 +681,6 @@
       }
     },
     {
-      "id": "news-2c112f3db26d1b9ca5492269",
-      "title": "우간다, 에볼라 대응에서 성과 보이나 — DR 콩고 내 확산 지속",
-      "startAt": "2026-08-01T23:03:15.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "우간다 보건당국은 최근 에볼라 환자 퇴원을 발표하며 대응에 성과를 보였다고 전한 반면, DR 콩고에서는 여전히 확산이 이어지고 있어 지역적 공중보건 긴장이 지속되고 있다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyemjn44qqo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/clyemjn44qqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-01T23:03:15.000Z",
-        "lastObservedAt": "2026-08-02T04:34:53.970Z"
-      }
-    },
-    {
       "id": "news-ae4e2aba061a2c2c5c6de641",
       "title": "법원, xAI의 미네소타 'nudify' 앱 금지 중지 요청 기각",
       "startAt": "2026-08-01T20:26:04.000Z",
@@ -652,30 +700,6 @@
           "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/"
         ],
         "firstPublishedAt": "2026-08-01T20:26:04.000Z",
-        "lastObservedAt": "2026-08-02T04:34:53.970Z"
-      }
-    },
-    {
-      "id": "news-c912f5e7127f2a2280a18314",
-      "title": "이탈리아 대부분 주요 도시에 최고 폭염 경보 발령",
-      "startAt": "2026-08-01T17:51:46.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "이탈리아에서 로마·밀라노·나폴리 등 19개 주요 도시가 이미 최고(빨강) 폭염 경보에 들어갔으며, 월요일까지 모든 주요 도시 중 두 곳을 제외한 곳에 경보가 확대될 전망이다. 당국은 열사병·건강·전력·물 관리 압박을 경고하고 있다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr7k4gdrgljo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cr7k4gdrgljo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-01T17:51:46.000Z",
         "lastObservedAt": "2026-08-02T04:34:53.970Z"
       }
     },
