@@ -21,6 +21,12 @@ const maximumArticlesPerPublisher = Number(
 const maximumEventsPerPublisher = Number(
   process.env.NEWS_MAX_EVENTS_PER_PUBLISHER ?? 6,
 );
+const maximumNewEventsPerCategory = Number(
+  process.env.NEWS_MAX_NEW_EVENTS_PER_CATEGORY ?? 2,
+);
+const maximumEventsPerCategory = Number(
+  process.env.NEWS_MAX_EVENTS_PER_CATEGORY ?? 8,
+);
 const dryRun = process.env.NEWS_DRY_RUN === '1';
 
 const allowedTopicIds = new Set([
@@ -84,7 +90,7 @@ async function main() {
   const nextEvents = mergeEvents({
     existingEvents,
     candidates: selectedCandidates,
-    draftEvents: draft.events,
+    draftEvents: limitNewEventsPerCategory(draft.events),
   });
   return publishCatalogIfChanged({existingCatalog, events: nextEvents});
 }
@@ -96,7 +102,9 @@ async function publishCatalogIfChanged({existingCatalog, events}) {
   ).sort((left, right) =>
     Date.parse(right.startAt) - Date.parse(left.startAt),
   );
-  const prunedEvents = limitEventsPerPublisher(recentEvents);
+  const prunedEvents = limitEventsPerCategory(
+    limitEventsPerPublisher(recentEvents),
+  );
   const nextCatalog = {
     catalogVersion: existingCatalog.catalogVersion,
     updatedAt: existingCatalog.updatedAt,
@@ -217,6 +225,37 @@ function limitEventsPerPublisher(events) {
   return limited;
 }
 
+function limitNewEventsPerCategory(events) {
+  if (!Number.isInteger(maximumNewEventsPerCategory) || maximumNewEventsPerCategory < 1) {
+    throw new Error('NEWS_MAX_NEW_EVENTS_PER_CATEGORY must be a positive integer.');
+  }
+  const counts = new Map();
+  return events.filter((event) => {
+    // An existing event update is not another timeline marker, so it does not
+    // consume the new-event budget for its category.
+    if (event.existingEventId) return true;
+    const count = counts.get(event.category) ?? 0;
+    if (count >= maximumNewEventsPerCategory) return false;
+    counts.set(event.category, count + 1);
+    return true;
+  });
+}
+
+function limitEventsPerCategory(events) {
+  if (!Number.isInteger(maximumEventsPerCategory) || maximumEventsPerCategory < 1) {
+    throw new Error('NEWS_MAX_EVENTS_PER_CATEGORY must be a positive integer.');
+  }
+  const counts = new Map();
+  const limited = [];
+  for (const event of events) {
+    const count = counts.get(event.category) ?? 0;
+    if (count >= maximumEventsPerCategory) continue;
+    counts.set(event.category, count + 1);
+    limited.push(event);
+  }
+  return limited;
+}
+
 function publisherIdForName(name) {
   const normalized = String(name ?? '').trim().toLowerCase();
   if (normalized.startsWith('bbc')) return 'bbc';
@@ -263,6 +302,7 @@ async function triageWithOpenAI(candidates) {
       'You are the low-cost first-pass editor for a timeline app.',
       'Select only supplied RSS articles that may represent a durable, broadly meaningful event.',
       'Reject routine product announcements, opinion posts, recaps, and duplicate updates.',
+      'For continuing conflicts or crises, reject routine daily attacks, statements, reactions, and incremental casualty updates unless they indicate a materially new phase.',
       'Evaluate every supplied field fairly; do not favor AI or technology over society, economy, science, culture, health, climate, or space.',
       'When uncertain, include an article so a stronger editor can decide; never invent facts.',
     ].join(' '),
@@ -298,6 +338,7 @@ async function organizeWithOpenAI({candidates, existingEvents}) {
       'Use only the supplied RSS articles as factual evidence.',
       'Return only events of broad, durable importance; omit product marketing and routine posts.',
       'Retain meaningful events across society, economy, science, culture, health, climate, space, and AI rather than concentrating on one field.',
+      'For a continuing conflict or crisis, create a new event only for a materially new phase such as a formal agreement, major territorial or legal change, decisive outcome, or major verified humanitarian shift. Prefer existingEventId for a meaningful update; omit routine daily attacks, statements, reactions, and incremental updates.',
       'Cluster duplicate coverage into one event. Use Korean title and description while preserving proper names.',
       'Use a supplied source index for every event. Do not invent URLs, dates, sources, facts, or tags.',
       'Choose an existingEventId only when a candidate is a genuine update to that existing event.',
