@@ -1,8 +1,97 @@
 {
-  "catalogVersion": "0.0.32",
-  "updatedAt": "2026-08-10T14:25:07.408Z",
+  "catalogVersion": "0.0.33",
+  "updatedAt": "2026-08-11T03:09:38.488Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-037823c547eb2be1ddffb857",
+      "title": "콜롬비아 극우정부, 골란고원에 대한 이스라엘의 영유권 인정",
+      "startAt": "2026-08-11T02:44:39.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "콜롬비아의 극우 정부가 이스라엘이 불법 합병한 골란고원(Golan Heights)에 대한 이스라엘의 영유권 주장을 공식 인정했다. 남미 국가로서는 두번째 인정 사례로 보도되었다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-11T02:44:39.000Z",
+        "lastObservedAt": "2026-08-11T03:09:38.488Z"
+      }
+    },
+    {
+      "id": "news-a750c0185c646c83023885da",
+      "title": "트럼프, 호르무즈 해협 협상 속 이란에 ‘50년 손해’ 배상 요구",
+      "startAt": "2026-08-11T02:32:47.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "도널드 트럼프 대통령이 호르무즈 해협의 항로 개방을 둘러싼 협상 과정에서 이란에 대해 '50년'에 걸친 피해에 대한 배상을 요구했다. 보도에 따르면 이란은 해협 개방과 관련해 전쟁 배상을 조건으로 제시한 것으로 전해졌다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-11T02:32:47.000Z",
+        "lastObservedAt": "2026-08-11T03:09:38.488Z"
+      }
+    },
+    {
+      "id": "news-6332151143677ecf4af5d55e",
+      "title": "미 법원, 인도 재벌 가우탐 아다니에 대한 형사 기소 각하",
+      "startAt": "2026-08-10T19:54:30.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "미 연방법원이 연방검찰의 사건 포기에 따라 가우탐 아다니(Gautam Adani)에 대한 사기·뇌물 혐의 형사 기소를 각하했다. 아다니 그룹은 혐의를 일관되게 부인해왔다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/10/gautam-adani-charges-dismissed-doj",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/aug/10/gautam-adani-charges-dismissed-doj"
+        ],
+        "firstPublishedAt": "2026-08-10T19:54:30.000Z",
+        "lastObservedAt": "2026-08-11T03:09:38.488Z"
+      }
+    },
+    {
+      "id": "news-df653d4d657d8c25e8b98e29",
+      "title": "중동 분쟁 속에도 이라크 아르바인 순례에 약 2천만명 운집",
+      "startAt": "2026-08-10T16:08:06.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "중동 곳곳의 무력 충돌이 지속되는 상황에서도 이라크의 순례 도시에서 아르바인(Arbaeen) 축일을 맞아 약 2천만 명의 시아파 신자들이 모였다고 보도되었다. 대규모 인파 집결은 지역 역학과 안보 상황에 중요한 사회적·정치적 의미를 지닌다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/10/g-s1-137832/iraq-shia-pilgrimage-shia-war",
+      "topicIds": [
+        "politicsHumanRights",
+        "religions"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/10/g-s1-137832/iraq-shia-pilgrimage-shia-war"
+        ],
+        "firstPublishedAt": "2026-08-10T16:08:06.000Z",
+        "lastObservedAt": "2026-08-11T03:09:38.488Z"
+      }
+    },
     {
       "id": "news-88db4b3ad91c9ef95b848c8a",
       "title": "콜롬비아 강진(규모 7.4) — 인명·시설 큰 피해 보고",
@@ -136,29 +225,6 @@
           "https://www.npr.org/2026/08/10/g-s1-138015/flood-death-toll-in-indias-assam-reaches-100-as-thousands-lose-their-homes"
         ],
         "firstPublishedAt": "2026-08-10T12:39:05.000Z",
-        "lastObservedAt": "2026-08-10T14:25:07.407Z"
-      }
-    },
-    {
-      "id": "news-7d92603cf2986fc0c5bc8ec2",
-      "title": "ESA, 8월12일 개기일식 대비 모의·모델링 공개(기존 생중계 안내 관련 업데이트)",
-      "startAt": "2026-08-10T11:59:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)은 2026년 8월12일 유럽 일부에서 관측되는 개기일식을 앞두고 인공적으로 일식을 재현하는 임무와 컴퓨터 모델을 이용한 디지털 시뮬레이션 작업을 소개했다. ESA는 이러한 모의·모델링이 태양 코로나 등 외층 대기 관측의 과학적 준비에 중요하다고 설명했다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
-          "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse"
-        ],
-        "firstPublishedAt": "2026-08-05T08:00:00.000Z",
         "lastObservedAt": "2026-08-10T14:25:07.407Z"
       }
     },
@@ -386,6 +452,30 @@
       }
     },
     {
+      "id": "news-7d92603cf2986fc0c5bc8ec2",
+      "title": "ESA, 8월12일 개기일식 실황 중계·관측 안내 공개",
+      "startAt": "2026-08-07T14:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국(ESA)이 2026년 8월12일 유럽 일부에서 관측되는 개기일식의 실황 중계와 관측 안내를 공개했다. ESA는 Observatorio Astrofísico de Javalambre에서 Dame Dr. Maggie Aderin 등 과학자들과 함께 중계하며, 스페인 레온(León)의 Palacio de Congresos y Exposiciones de León에서 현장 관측·체험 행사를 연다고 안내했다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
+          "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse"
+        ],
+        "firstPublishedAt": "2026-08-05T08:00:00.000Z",
+        "lastObservedAt": "2026-08-11T03:09:38.488Z"
+      }
+    },
+    {
       "id": "news-1986eab2e2ed84ba8b77a11b",
       "title": "DeepMind 'WeatherNext' 모델, 사이클론 예측에서 획기적 진전 발표",
       "startAt": "2026-08-06T15:06:15.000Z",
@@ -519,28 +609,6 @@
       }
     },
     {
-      "id": "news-7d9566423cd70e907130a88c",
-      "title": "아스트라제네카, 미국 제약사 브리스톨마이어스스큅(BMS) 인수 논의 보도에 주가 급락",
-      "startAt": "2026-08-03T15:10:02.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "영국의 대형 제약사 아스트라제네카가 미국 암 치료 전문 제약사 브리스톨마이어스스큅(Bristol Myers Squibb) 인수를 논의 중이라는 보도로, 양사 합병 시 약 4천억 달러 규모의 거래가 될 수 있다는 관측이 제기되었습니다. 보도 직후 아스트라제네카 주가가 급락하며 약 150억 파운드(£)의 시가총액이 증발했습니다. 보도는 합병이 세계 4대 제약사에 해당하는 기업을 만들 것이라고 전했습니다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/aug/03/astrazeneca-talks-bristol-myers-squibb-merger-pharmaceuticals",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/aug/03/astrazeneca-talks-bristol-myers-squibb-merger-pharmaceuticals"
-        ],
-        "firstPublishedAt": "2026-08-03T15:10:02.000Z",
-        "lastObservedAt": "2026-08-03T15:51:21.477Z"
-      }
-    },
-    {
       "id": "news-74d6b202c5b6be1f5c91e334",
       "title": "트럼프, 이란에 대한 공습 중단·협상 개시 발표 — 미 법무부 임시장관 토드 블랜치, '안티‑무기화 기금' 철회",
       "startAt": "2026-08-03T11:57:06.000Z",
@@ -563,72 +631,6 @@
         ],
         "firstPublishedAt": "2026-08-02T07:34:27.000Z",
         "lastObservedAt": "2026-08-03T15:51:21.477Z"
-      }
-    },
-    {
-      "id": "news-2a3a45748b85a3f76bb44572",
-      "title": "아웅산 수치의 희망 시사 사진 공개 — 가족 \"처음으로 희망\"",
-      "startAt": "2026-08-03T09:42:04.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "미얀마 군부 쿠데타 이후 오랫동안 소식이 제한됐던 전 국가지도자 아웅산 수치의 모습이 담긴 사진이 공개되자, 아들의 발언에 따르면 가족은 '처음으로 희망을 느꼈다'고 밝혔습니다. 이번 사진 공개는 억류 상태와 인권 문제에 대한 지속적 관심을 환기합니다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/03/nx-s1-5917915/aung-san-suu-kyi-myanmar-rare-photos-kim-aris",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/03/nx-s1-5917915/aung-san-suu-kyi-myanmar-rare-photos-kim-aris"
-        ],
-        "firstPublishedAt": "2026-08-03T09:42:04.000Z",
-        "lastObservedAt": "2026-08-04T04:26:44.842Z"
-      }
-    },
-    {
-      "id": "news-fa250939ef7cb9f0c6edfe5b",
-      "title": "미 워싱턴주 스포캔 대형 산불 — 600채 소실·6만 명 대피",
-      "startAt": "2026-08-03T03:26:08.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "워싱턴주에서 발생한 대형 산불로 약 600채의 구조물이 소실되고 6만 명이 대피했으며, 주 전역에서 약 1,000㎢(386mi²)가 탔다고 보도되었습니다. 일부 화재는 아직 진압되지 않았습니다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/3/fires-in-spokane-washington-burn-600-structures-force-60000-evacuations?traffic_source=rss",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/3/fires-in-spokane-washington-burn-600-structures-force-60000-evacuations?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-03T03:26:08.000Z",
-        "lastObservedAt": "2026-08-03T04:42:11.031Z"
-      }
-    },
-    {
-      "id": "news-c1384c84739f0f2416336d27",
-      "title": "브라질 루라 대통령, 재선 도전 공식 선언",
-      "startAt": "2026-08-03T02:54:25.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "루이스 이나시우 룰라 다 실바 대통령이 공식적으로 재선 캠페인 출범을 선언했습니다. 보도는 재선 선언과 함께 외국의 개입 우려 등 정치적 쟁점이 제기되고 있다고 전했습니다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/3/brazils-lula-launches-reelection-bid-amid-foreign-interference-concerns?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/8/3/brazils-lula-launches-reelection-bid-amid-foreign-interference-concerns?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-03T02:54:25.000Z",
-        "lastObservedAt": "2026-08-03T04:42:11.031Z"
       }
     },
     {
