@@ -1,8 +1,34 @@
 {
-  "catalogVersion": "0.0.34",
-  "updatedAt": "2026-08-11T14:24:38.217Z",
+  "catalogVersion": "0.0.35",
+  "updatedAt": "2026-08-11T15:24:04.247Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-7d92603cf2986fc0c5bc8ec2",
+      "title": "2026년 8월12일 개기일식 — 북극에서 유럽으로 이동, 수백만 명 관측 전망",
+      "startAt": "2026-08-12T00:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "알자지라 보도에 따르면 2026년 8월12일 개기일식이 북극을 출발해 그린란드·아이슬란드·유럽 일부를 가로질러 진행되며, 해당 경로 상의 관측자들은 최대 약 2분가량의 총식을 경험할 것으로 보인다. 수백만 명이 일식 현상을 목격할 것으로 예상되며, 안전한 관측과 중계 정보를 사전에 확인할 것이 권고된다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/total-solar-eclipse-2026-where-when-and-how-to-watch-on-wednesday?traffic_source=rss",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
+          "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/A_total_solar_eclipse_is_coming_to_Europe",
+          "https://www.aljazeera.com/news/2026/8/11/total-solar-eclipse-2026-where-when-and-how-to-watch-on-wednesday?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-05T08:00:00.000Z",
+        "lastObservedAt": "2026-08-11T15:24:04.247Z"
+      }
+    },
     {
       "id": "news-6982748bdfe80fe54e15474a",
       "title": "트럼프, 이란 위협 와중 비밀 항공기 교체 과정서 케이터링 트럭에 숨었다는 보도",
@@ -44,31 +70,6 @@
           "https://www.aljazeera.com/news/2026/8/11/what-are-saudi-arabia-turkiye-and-pakistans-joint-military-capabilities?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-08-11T13:47:50.000Z",
-        "lastObservedAt": "2026-08-11T14:24:38.216Z"
-      }
-    },
-    {
-      "id": "news-7d92603cf2986fc0c5bc8ec2",
-      "title": "ESA, 8월12일 유럽 일부 관측 개기일식 실황 중계·현장 프로그램 안내(업데이트)",
-      "startAt": "2026-08-11T12:30:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 1,
-      "description": "유럽우주국(ESA)은 8월12일 그린란드·아이슬란드·포르투갈 북동부·스페인 일부를 지나는 개기일식의 실황 중계 계획을 공개했다. ESA는 Observatorio Astrofísico de Javalambre에서 중계하고 스페인 레온(León)에서 무료 현장 행사(워크숍·강연·관측)를 연다고 안내했으며, 본 개기일식은 본토 스페인에서 1905년 이후 처음 관측 가능한 총식이다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/A_total_solar_eclipse_is_coming_to_Europe",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
-          "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/A_total_solar_eclipse_is_coming_to_Europe"
-        ],
-        "firstPublishedAt": "2026-08-05T08:00:00.000Z",
         "lastObservedAt": "2026-08-11T14:24:38.216Z"
       }
     },
@@ -320,29 +321,6 @@
       }
     },
     {
-      "id": "news-41c4eb72bd34f6e1cbab92b6",
-      "title": "우크라이나 드론, 러시아 심층 공격 — 타타르스탄 지역서 다수 사상",
-      "startAt": "2026-08-10T12:54:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "우크라이나 무인기(드론) 공격이 러시아 타타르스탄 지역을 겨냥해 실행됐으며, 러시아 당국은 이번 공격으로 최소 13명이 숨지고 약 75명이 부상했다고 보도했다. 별도 보도는 니즈네카므스크(Nizhnekamsk) 공격으로 12명이 사망했다고 전했다. 최근 장거리 드론을 이용한 유류시설·군사·산업 시설 타격이 잦아지며 러시아 내 연료 공급과 공공 불안을 야기하고 있다고 보도되었다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/10/nx-s1-5927024/ukrainian-drone-attack-russia"
-        ],
-        "firstPublishedAt": "2026-08-10T12:54:13.000Z",
-        "lastObservedAt": "2026-08-10T14:25:07.407Z"
-      }
-    },
-    {
       "id": "news-5bb1bb33838f59199a46eca9",
       "title": "인도 아삼 홍수 사망자 100명 도달 — 브라흐마푸트라 등 범람",
       "startAt": "2026-08-10T12:39:05.000Z",
@@ -388,73 +366,6 @@
       }
     },
     {
-      "id": "news-84c769ddf3af7d62d3117d36",
-      "title": "후티 반군, 홍해 알‑마카 항구에 탄도미사일·드론 공격 재개",
-      "startAt": "2026-08-10T01:34:26.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "이란의 지원을 받는 후티(Houthi) 반군이 홍해 연안의 예멘 알‑마카(Al‑Makha) 항구를 대상으로 탄도미사일과 드론 공격을 재개했다고 보도되었다. 이번 공격은 지역 해상 교통과 항만 운영에 추가적인 위협을 가할 수 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/10/houthis-launch-fresh-ballistic-missile-and-drone-attacks-on-al-makha-port?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/8/10/houthis-launch-fresh-ballistic-missile-and-drone-attacks-on-al-makha-port?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-10T01:34:26.000Z",
-        "lastObservedAt": "2026-08-10T03:18:11.642Z"
-      }
-    },
-    {
-      "id": "news-b44a896da49c85a1aa6d608c",
-      "title": "BBC, 남아공 특수부대가 수석 형사 총살했다는 기소 자료 공개",
-      "startAt": "2026-08-09T23:05:29.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "프란스 마티파(Frans Mathipa) 수석 형사가 운전 중 총격으로 사망한 사건과 관련해 BBC가 8명 피고에 대한 기소 자료를 입수·공개했다. 보도는 특수부대 연루 의혹과 기소 문건의 주요 증거를 전하며 사건의 중대성을 전했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-09T23:05:29.000Z",
-        "lastObservedAt": "2026-08-10T03:18:11.642Z"
-      }
-    },
-    {
-      "id": "news-b76252492684f3ed06d3a4b2",
-      "title": "네타냐후, 트럼프의 가자 평화안 거부 — \"하마스 먼저 무장해제해야\"",
-      "startAt": "2026-08-09T18:21:45.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "베냐민 네타냐후 이스라엘 총리가 도널드 트럼프 전(前) 대통령 측이 제시한 이른바 '가자 평화안'을 거부하며 하마스의 무장해제가 선결 조건이라고 밝혔다. 네타냐후의 발언은 트럼프 측이 '역사적' 합의라고 주장한 발표 이후 나온 것으로 중동 협상 전망에 영향을 미칠 가능성이 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/09/nx-s1-5926459/netanyahu-rejects-trump-gaza-peace-plan-israel-hamas",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/09/nx-s1-5926459/netanyahu-rejects-trump-gaza-peace-plan-israel-hamas"
-        ],
-        "firstPublishedAt": "2026-08-09T18:21:45.000Z",
-        "lastObservedAt": "2026-08-10T03:18:11.642Z"
-      }
-    },
-    {
       "id": "news-49103627b5f460b80393dfad",
       "title": "캐나다 브리티시컬럼비아 대형 산불 — 연방정부 긴급 지원·약 2만2천명 대피(업데이트)",
       "startAt": "2026-08-09T18:20:25.000Z",
@@ -478,28 +389,6 @@
       }
     },
     {
-      "id": "news-8c75dbc6fc981c300a0c3f1c",
-      "title": "이스라엘, 요르단강 서안(점령지)에 정착촌 627가구 건설 입찰 공고",
-      "startAt": "2026-08-09T06:57:56.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "이스라엘이 요르단강 서안의 점령지에 정착민용 주택 627가구 건설을 위한 입찰을 발표했다. 보도는 관찰자들과 관계자들이 이번 조치가 팔레스타인과 예루살렘의 연계를 약화시키려는 시도로 우려된다고 전했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-09T06:57:56.000Z",
-        "lastObservedAt": "2026-08-09T07:13:11.359Z"
-      }
-    },
-    {
       "id": "news-a7e2c26896ee6258cb1fe39f",
       "title": "계획된 아마존 텍사스 데이터센터, 미국 내 최대 기후 오염원 될 가능성 보도",
       "startAt": "2026-08-08T21:24:02.000Z",
@@ -518,28 +407,6 @@
           "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/"
         ],
         "firstPublishedAt": "2026-08-08T21:24:02.000Z",
-        "lastObservedAt": "2026-08-09T07:13:11.359Z"
-      }
-    },
-    {
-      "id": "news-bd960ed819b465d0e12365ad",
-      "title": "호르무즈 해협 통항 상황 불안 — 탱커 선원들 여전히 위험 상태",
-      "startAt": "2026-08-08T21:19:54.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "호르무즈 해협을 둘러싼 합의가 요원한 가운데, 해협 주변에 머무는 선박과 탱커 선원들이 불확실한 상태에 놓여 있고 통항이 여전히 위험하다고 업계 관계자가 밝혔다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/08/nx-s1-5923592/tanker-sailors-still-face-danger-in-the-strait-of-hormuz",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/08/nx-s1-5923592/tanker-sailors-still-face-danger-in-the-strait-of-hormuz"
-        ],
-        "firstPublishedAt": "2026-08-08T21:19:54.000Z",
         "lastObservedAt": "2026-08-09T07:13:11.359Z"
       }
     },
@@ -652,56 +519,6 @@
         ],
         "firstPublishedAt": "2026-08-04T11:00:48.000Z",
         "lastObservedAt": "2026-08-04T15:33:24.660Z"
-      }
-    },
-    {
-      "id": "news-cb81d52dc53ac1b854834411",
-      "title": "세우타 사태에 대한 대응 강화 요구 — 폰데어라이엔, EU 국경 물리적 장벽 언급",
-      "startAt": "2026-08-03T17:44:01.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "유럽연합 집행위원장 우르줄라 폰데어라이엔이 스페인 자치령 세우타로 수만 명이 몰린 사태를 계기로 '중요 지점에서의 경계 강화'와 필요시 물리적 장벽 사용을 포함한 다섯 분야의 대응 강화를 촉구했습니다. 해당 발언은 이미 발생한 대규모 이주 사태와 EU 내 장관급 긴급 논의와 연계되는 업데이트입니다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/02/ceuta-border-crossing-spain-morocco",
-          "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen"
-        ],
-        "firstPublishedAt": "2026-08-02T13:11:56.000Z",
-        "lastObservedAt": "2026-08-04T04:26:44.842Z"
-      }
-    },
-    {
-      "id": "news-c81c46bbb32b28193b3e5c39",
-      "title": "트럼프, 이란에 대한 공습 취소 언급 — '신속한' 합의 조건",
-      "startAt": "2026-08-02T03:05:16.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "도널드 트럼프 대통령이 이란에 대한 공습을 취소했다고 밝혔으며, 다만 이는 '신속한(rapid)' 합의가 이뤄지는 경우에 한한다고 전했다. 이 발언은 언론의 대대적 공습 보도 이후 나왔으며 미·이란 간 군사적 긴장 국면의 추가 전개 가능성을 가늠케 한다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-07-27T08:14:46.000Z",
-        "lastObservedAt": "2026-08-02T04:34:53.970Z"
       }
     },
     {
@@ -839,29 +656,6 @@
       }
     },
     {
-      "id": "news-d685e0c4df80910f685cd26f",
-      "title": "JWST(MIRI), 근접 은하 Centaurus A의 먼지 구조·숨은 활동 드러낸 이미지 공개",
-      "startAt": "2026-07-30T14:24:08.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "제임스웹 우주망원경의 중적외선 관측(MIRI)이 지구에서 약 1,100만 광년 떨어진 은하 Centaurus A의 먼지 구조와 내재된 활동을 드러내는 이미지를 공개했다. 관측은 이 비정상적 계의 은하 활동 이해를 돕는다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/starburst-galaxy-centaurus-a/",
-      "topicIds": [
-        "spaceDevelopment",
-        "physicsChemistry"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/image-article/starburst-galaxy-centaurus-a/"
-        ],
-        "firstPublishedAt": "2026-07-30T14:24:08.000Z",
-        "lastObservedAt": "2026-07-31T04:35:37.487Z"
-      }
-    },
-    {
       "id": "news-1c538562910bce6bdee060d5",
       "title": "마이크로소프트, OpenAI·Anthropic과의 경쟁 공개화",
       "startAt": "2026-07-30T00:21:06.000Z",
@@ -907,75 +701,6 @@
       }
     },
     {
-      "id": "news-258b5d2dde1738490938fe0e",
-      "title": "미국 최대 전력망 과부하 방지 위해 데이터센터에 일시적 전력중단 권고 검토",
-      "startAt": "2026-07-28T15:42:26.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "데이터센터 건설의 급증으로 전력망 운영자들이 공급·수요 조정 압박을 받고 있어, 미국의 최대 전력망 운영자들이 블랙아웃을 막기 위해 데이터센터에 일시적 전력 차단(수요 제한)을 시행할 수 있다는 방안을 검토하고 있습니다. 이 논의는 클라우드·AI 인프라 확장과 지역 전력계획 간의 긴장을 드러냅니다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/"
-        ],
-        "firstPublishedAt": "2026-07-28T15:42:26.000Z",
-        "lastObservedAt": "2026-07-29T03:46:58.936Z"
-      }
-    },
-    {
-      "id": "news-88eadc2663cb1d34b962ca00",
-      "title": "DeepMind 'Gemini Robotics 2'·'ER 2' 공개 — 전신 지능·비디오 이해·다중 로봇 협업 진전",
-      "startAt": "2026-07-28T13:21:37.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "DeepMind가 로봇의 전신(whole‑body) 지능을 목표로 한 'Gemini Robotics 2'와 비디오 이해, 작업 오케스트레이션 및 다중 로봇 협업을 강조한 'Gemini Robotics ER 2'를 발표했다. 회사는 이들 기술이 로봇의 추론·협업 능력과 실제 과제 해결 역량에서 단계적 진전을 의미한다고 설명했다.",
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-          "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
-        ],
-        "firstPublishedAt": "2026-07-30T15:00:59.000Z",
-        "lastObservedAt": "2026-08-05T04:24:22.074Z"
-      }
-    },
-    {
-      "id": "news-e458eb461571301b976fbabf",
-      "title": "Recursive Superintelligence, 아마존과 4.1억 달러 규모 컴퓨트 공급 계약 체결",
-      "startAt": "2026-07-28T13:19:17.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "AI 스타트업 Recursive Superintelligence는 아마존과 약 4.1억 달러 규모의 클라우드 컴퓨트 공급 계약을 체결했습니다. 회사는 자체 개선(Self‑improving) 모델 개발을 위해 상당 부분 예산을 컴퓨트에 투입할 계획이라고 밝혔습니다. 이번 계약은 대규모 컴퓨트 확보 경쟁과 AI 개발 비용 구조 변화를 보여줍니다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/"
-        ],
-        "firstPublishedAt": "2026-07-28T13:19:17.000Z",
-        "lastObservedAt": "2026-07-29T03:46:58.936Z"
-      }
-    },
-    {
       "id": "news-3c8d41ebd8c88e3b64611e9f",
       "title": "오리건주 연무 확산 — 번개로 중앙·동부 지역서 다수 화재 발생",
       "startAt": "2026-07-28T04:01:00.000Z",
@@ -996,187 +721,6 @@
         ],
         "firstPublishedAt": "2026-07-28T04:01:00.000Z",
         "lastObservedAt": "2026-07-28T14:32:58.541Z"
-      }
-    },
-    {
-      "id": "news-55d9678599b05a6c0d119c6e",
-      "title": "8월 개기일식 동안 NASA 과학 관측 확대",
-      "startAt": "2026-07-27T18:01:14.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "달이 태양을 완전히 가리는 8월 개기일식은 태양 코로나 등 외층 대기를 관측할 기회를 제공하며, NASA는 그 동안 태양과 지구에 대한 이해를 넓히기 위한 관측·연구 기회를 준비하고 있습니다. 기사에 따르면 다음 개기일식은 8월 12일 그린란드·아이슬란드를 가로질러 진행됩니다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/",
-      "topicIds": [
-        "spaceDevelopment",
-        "physicsChemistry"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/"
-        ],
-        "firstPublishedAt": "2026-07-27T18:01:14.000Z",
-        "lastObservedAt": "2026-07-28T14:32:58.541Z"
-      }
-    },
-    {
-      "id": "news-d925d8c91f460a44f07089c2",
-      "title": "OpenAI·Hugging Face 평가 중 보안 사고가 정렬·통제 논쟁 재점화",
-      "startAt": "2026-07-27T17:28:42.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "OpenAI와 Hugging Face 관련 모델 평가 과정에서 발생한 보안 사고가 AI 정렬(alignment)과 통제 문제에 대한 논쟁을 다시 불러일으켰습니다. 이번 사고는 점점 더 능력 있는 AI를 어떻게 더 잘 정렬하거나 더 잘 통제할지에 대한 상반된 견해를 부각시켰습니다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-          "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/"
-        ],
-        "firstPublishedAt": "2026-07-21T07:00:00.000Z",
-        "lastObservedAt": "2026-07-27T19:51:05.511Z"
-      }
-    },
-    {
-      "id": "news-d9293be880fa0c95db9ac3fd",
-      "title": "NASA 관측: 은하 외곽에서 '떠도는' 거대 블랙홀이 별을 파괴하는 장면 포착",
-      "startAt": "2026-07-27T16:06:37.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA의 Neil Gehrels Swift 관측소가 한 은하의 외곽에서 흔치 않은 '별 파괴'(tidal disruption) 현상을 포착했습니다. 이 사건은 보통 은하 중심부에서 관측되는 별 파괴 현상이 중심이 아닌 외곽에서 발생한 드문 사례로 보도됐습니다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/missions/swift/nasas-swift-sees-wandering-mega-black-hole-shredding-star/",
-      "topicIds": [
-        "spaceDevelopment",
-        "physicsChemistry"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/missions/swift/nasas-swift-sees-wandering-mega-black-hole-shredding-star/"
-        ],
-        "firstPublishedAt": "2026-07-27T16:06:37.000Z",
-        "lastObservedAt": "2026-07-28T14:32:58.541Z"
-      }
-    },
-    {
-      "id": "news-db9d0913513df69e6eee2103",
-      "title": "OpenAI 연구: AI가 직무 범위 확장 — 사용자들이 다양한 업무 맡아",
-      "startAt": "2026-07-27T03:30:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI의 연구는 ChatGPT 사용자들이 직무 전반에서 다양한 과업을 수행하면서 직무 경계가 재구성되고 있음을 보여줍니다. AI 도구가 일의 성격과 역할 분담에 미치는 영향을 분석한 연구 결과입니다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
-        ],
-        "firstPublishedAt": "2026-07-27T03:30:00.000Z",
-        "lastObservedAt": "2026-07-28T03:31:51.335Z"
-      }
-    },
-    {
-      "id": "news-657a2ffb385666761e756d70",
-      "title": "ESA, 레온에서의 개기일식 관측·과학 행사 안내",
-      "startAt": "2026-07-23T10:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)은 레온 시 및 레온 대학교와 함께 개기일식 현상을 관측하고 태양 코로나 등 태양 외층 대기 연구와 관련한 과학 해설을 제공하는 프로그램을 마련해 관측 기회를 소개했습니다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon"
-        ],
-        "firstPublishedAt": "2026-07-23T10:00:00.000Z",
-        "lastObservedAt": "2026-08-02T14:42:51.311Z"
-      }
-    },
-    {
-      "id": "news-a821810ee2b72f1657951f98",
-      "title": "Google, Genesis Mission에 4천만 달러 규모 AI 토큰·크레딧 지원 발표",
-      "startAt": "2026-07-22T13:38:54.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Google이 과학 연구 가속화를 목표로 하는 Genesis Mission에 4천만 달러 규모의 AI 토큰과 크레딧을 기여한다고 발표했습니다. 해당 지원은 대규모 AI 자원 제공을 통해 기초·응용 과학 발견을 촉진하는 것을 목표로 합니다.",
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/"
-        ],
-        "firstPublishedAt": "2026-07-22T13:38:54.000Z",
-        "lastObservedAt": "2026-07-27T03:22:31.261Z"
-      }
-    },
-    {
-      "id": "news-577ddf6b90e6d70b43383fc6",
-      "title": "OpenAI, 미 에너지부·국가연구소와 협력해 최첨단 AI로 과학 연구 가속화 약속",
-      "startAt": "2026-07-22T12:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "OpenAI가 미국 에너지부(U.S. Department of Energy) 및 국가 연구소들과 협력해 최첨단 AI를 활용해 과학 연구를 가속화하겠다는 약속을 발표했습니다. 이 협력은 정부·국가 연구 인프라와 AI 역량을 결합해 대규모 과학 문제 해결을 목표로 합니다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/advancing-the-next-era-of-national-science"
-        ],
-        "firstPublishedAt": "2026-07-22T12:00:00.000Z",
-        "lastObservedAt": "2026-07-27T03:22:31.261Z"
-      }
-    },
-    {
-      "id": "news-69e481323262afa1b5216cbe",
-      "title": "David Vélez·Robin Vince, OpenAI 재단 및 OpenAI Group PBC 이사회 합류",
-      "startAt": "2026-07-21T00:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "David Vélez와 Robin Vince가 OpenAI Foundation과 OpenAI Group PBC의 이사회에 합류했다고 OpenAI가 발표했습니다. 두 인사는 금융·기술·거버넌스 분야의 경험을 이사회에 제공할 예정입니다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://openai.com/index/david-velez-robin-vince-join-openai-boards"
-        ],
-        "firstPublishedAt": "2026-07-21T00:00:00.000Z",
-        "lastObservedAt": "2026-07-27T03:22:31.261Z"
       }
     }
   ]
