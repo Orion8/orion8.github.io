@@ -1,8 +1,145 @@
 {
-  "catalogVersion": "0.0.33",
-  "updatedAt": "2026-08-11T03:09:38.488Z",
+  "catalogVersion": "0.0.34",
+  "updatedAt": "2026-08-11T14:24:38.217Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-6982748bdfe80fe54e15474a",
+      "title": "트럼프, 이란 위협 와중 비밀 항공기 교체 과정서 케이터링 트럭에 숨었다는 보도",
+      "startAt": "2026-08-11T14:17:35.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도에 따르면 도널드 트럼프 전 대통령은 터키에서 열린 나토 정상회의 출발 시 기자단에게 자신이 같이 비행기에 탔다고 허위로 알리는 소위 '비밀 비행기 교체(ruse)' 과정에서 케이터링 트럭에 숨겨져 이동한 것으로 전해졌다. 해당 보도는 미‑이란 긴장 국면 속 트럼프 측의 행보와 관련해 논란을 불러일으키고 있다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-11T14:17:35.000Z",
+        "lastObservedAt": "2026-08-11T14:24:38.216Z"
+      }
+    },
+    {
+      "id": "news-0a9ea2b9b5c0bd3dc69ebf17",
+      "title": "사우디아라비아·Turkiye·파키스탄의 ‘메카 방위 협정’ — 합동 군사역량 분석",
+      "startAt": "2026-08-11T13:47:50.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "Mecca defence pact로 불리는 이번 협정은 세계 최대 산유국인 사우디아라비아, NATO 내 두번째로 큰 육군을 보유한 Turkiye, 그리고 유일한 무슬림 핵보유국인 파키스탄을 결합한다는 점에서 지역 안보·역학에 중요한 변화를 뜻한다. 보도는 이들 국가의 합동 군사능력과 전략적 시사점을 검토했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/what-are-saudi-arabia-turkiye-and-pakistans-joint-military-capabilities?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/11/what-are-saudi-arabia-turkiye-and-pakistans-joint-military-capabilities?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-11T13:47:50.000Z",
+        "lastObservedAt": "2026-08-11T14:24:38.216Z"
+      }
+    },
+    {
+      "id": "news-7d92603cf2986fc0c5bc8ec2",
+      "title": "ESA, 8월12일 유럽 일부 관측 개기일식 실황 중계·현장 프로그램 안내(업데이트)",
+      "startAt": "2026-08-11T12:30:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "유럽우주국(ESA)은 8월12일 그린란드·아이슬란드·포르투갈 북동부·스페인 일부를 지나는 개기일식의 실황 중계 계획을 공개했다. ESA는 Observatorio Astrofísico de Javalambre에서 중계하고 스페인 레온(León)에서 무료 현장 행사(워크숍·강연·관측)를 연다고 안내했으며, 본 개기일식은 본토 스페인에서 1905년 이후 처음 관측 가능한 총식이다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/A_total_solar_eclipse_is_coming_to_Europe",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
+          "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/A_total_solar_eclipse_is_coming_to_Europe"
+        ],
+        "firstPublishedAt": "2026-08-05T08:00:00.000Z",
+        "lastObservedAt": "2026-08-11T14:24:38.216Z"
+      }
+    },
+    {
+      "id": "news-a309444af20dec0d2aa12309",
+      "title": "전(前) 시리아 대통령 바샤르 알아사드, 부재중 사형 선고",
+      "startAt": "2026-08-11T10:07:14.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 시리아 법원은 바샤르 알아사드 전 대통령과 그의 형제에 대해 14년간 지속된 시리아 분쟁 기간의 반인도적 범죄 및 전쟁범죄 혐의로 부재중 사형을 선고했다. 해당 분쟁으로 약 50만명이 사망한 것으로 보도되었다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/11/g-s1-138166/syria-assad-sentenced-to-death",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/11/g-s1-138166/syria-assad-sentenced-to-death"
+        ],
+        "firstPublishedAt": "2026-08-11T10:07:14.000Z",
+        "lastObservedAt": "2026-08-11T14:24:38.216Z"
+      }
+    },
+    {
+      "id": "news-ea4333ada056ff5c761fe853",
+      "title": "파키스탄 관할 카슈미르에서 선거 실시 — 대표성 요구·보이콧 호소 속 진행",
+      "startAt": "2026-08-11T08:31:41.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도는 카슈미르(파키스탄 관할)에서 더 나은 대표성 요구와 함께 일부 세력의 보이콧 촉구가 있는 가운데 선거가 치러지고 있다고 전했다. 이 선거는 인도·파키스탄 간의 분쟁 지점인 카슈미르의 정치적 상황과 주민 요구를 반영하는 사안으로 주목된다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/11/nx-s1-5927084/pakistan-administered-kashmir-holds-elections-amid-calls-for-a-boycott",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/11/nx-s1-5927084/pakistan-administered-kashmir-holds-elections-amid-calls-for-a-boycott"
+        ],
+        "firstPublishedAt": "2026-08-11T08:31:41.000Z",
+        "lastObservedAt": "2026-08-11T14:24:38.216Z"
+      }
+    },
+    {
+      "id": "news-cbf5fed7cbf6949286a40d49",
+      "title": "제임스웹(JWST), 우리은하 초대질량 블랙홀 근처서 먼지·물질 관측",
+      "startAt": "2026-08-11T08:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA·ESA·CSA의 제임스웹 우주망원경 관측에서 우리은하 중심의 초대질량 블랙홀(사지타리우스 A*) 근처에서 먼지와 물이 형성·생존할 수 있음이 확인됐다. 관측은 진화한 항성 IRS 3가 강한 방사선 환경에서도 주변을 새로 형성한 물질로 풍부하게 하고 있음을 보여준다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole"
+        ],
+        "firstPublishedAt": "2026-08-11T08:00:00.000Z",
+        "lastObservedAt": "2026-08-11T14:24:38.217Z"
+      }
+    },
     {
       "id": "news-037823c547eb2be1ddffb857",
       "title": "콜롬비아 극우정부, 골란고원에 대한 이스라엘의 영유권 인정",
@@ -452,30 +589,6 @@
       }
     },
     {
-      "id": "news-7d92603cf2986fc0c5bc8ec2",
-      "title": "ESA, 8월12일 개기일식 실황 중계·관측 안내 공개",
-      "startAt": "2026-08-07T14:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)이 2026년 8월12일 유럽 일부에서 관측되는 개기일식의 실황 중계와 관측 안내를 공개했다. ESA는 Observatorio Astrofísico de Javalambre에서 Dame Dr. Maggie Aderin 등 과학자들과 함께 중계하며, 스페인 레온(León)의 Palacio de Congresos y Exposiciones de León에서 현장 관측·체험 행사를 연다고 안내했다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
-          "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse"
-        ],
-        "firstPublishedAt": "2026-08-05T08:00:00.000Z",
-        "lastObservedAt": "2026-08-11T03:09:38.488Z"
-      }
-    },
-    {
       "id": "news-1986eab2e2ed84ba8b77a11b",
       "title": "DeepMind 'WeatherNext' 모델, 사이클론 예측에서 획기적 진전 발표",
       "startAt": "2026-08-06T15:06:15.000Z",
@@ -542,50 +655,6 @@
       }
     },
     {
-      "id": "news-38960896a5a6083b51dc4c48",
-      "title": "뉴저지 ICE 구금센터서 엘살바도르인 사망 — Delaney Hall서 8개월 내 두 번째 사망",
-      "startAt": "2026-08-04T03:14:29.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "미국 뉴저지의 이민단속국(ICE) 구금시설 Delaney Hall에서 엘살바도르 출신 남성이 사망했습니다. 이번 사망은 8개월 내 같은 시설에서 발생한 두 번째 사망 사건으로, 시설 폐쇄 요구와 설명 촉구 목소리가 제기되고 있습니다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/4/salvadoran-man-dies-in-ice-custody-at-new-jersey-detention-centre?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/4/salvadoran-man-dies-in-ice-custody-at-new-jersey-detention-centre?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-04T03:14:29.000Z",
-        "lastObservedAt": "2026-08-04T04:26:44.842Z"
-      }
-    },
-    {
-      "id": "news-2437171831f80a363fb07c3f",
-      "title": "쿠바인들, 미국 대신 브라질로 망명 경로 전환 증가",
-      "startAt": "2026-08-03T19:05:41.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "미국의 합법적 이민·망명 경로가 사실상 축소되자 많은 쿠바인이 브라질을 대안으로 택해 망명 신청을 시도하고 있습니다. 보도는 쿠바 출국 흐름의 변화와 지역·국제 이주의 영향을 조명합니다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/03/nx-s1-5910714/brazil-cuba-migration",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/03/nx-s1-5910714/brazil-cuba-migration"
-        ],
-        "firstPublishedAt": "2026-08-03T19:05:41.000Z",
-        "lastObservedAt": "2026-08-04T04:26:44.842Z"
-      }
-    },
-    {
       "id": "news-cb81d52dc53ac1b854834411",
       "title": "세우타 사태에 대한 대응 강화 요구 — 폰데어라이엔, EU 국경 물리적 장벽 언급",
       "startAt": "2026-08-03T17:44:01.000Z",
@@ -606,31 +675,6 @@
         ],
         "firstPublishedAt": "2026-08-02T13:11:56.000Z",
         "lastObservedAt": "2026-08-04T04:26:44.842Z"
-      }
-    },
-    {
-      "id": "news-74d6b202c5b6be1f5c91e334",
-      "title": "트럼프, 이란에 대한 공습 중단·협상 개시 발표 — 미 법무부 임시장관 토드 블랜치, '안티‑무기화 기금' 철회",
-      "startAt": "2026-08-03T11:57:06.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "도널드 트럼프 대통령이 보도된 대규모 공습 계획을 중단하고 이란과의 협상이 시작될 것이라고 발표했습니다. 같은 보도에서 미 법무부의 임시장관(Acting Attorney General) 토드 블랜치(Todd Blanche)가 본인 확인 청문회를 앞두고 '안티‑무기화(anti‑weaponization) 기금'을 철회했다고 전해졌습니다. 이번 사안은 미·이란 군사적 긴장과 동시에 미국 내 법무·정책 조치의 변화를 시사합니다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/03/g-s1-136892/up-first-newsletter-iran-war-todd-blanche-capital-one-bank-accounts-trump-conspiracy",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
-          "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-pauses-massive-attack-on-iran-says-new-talks-to-begin?traffic_source=rss",
-          "https://www.npr.org/2026/08/03/g-s1-136892/up-first-newsletter-iran-war-todd-blanche-capital-one-bank-accounts-trump-conspiracy"
-        ],
-        "firstPublishedAt": "2026-08-02T07:34:27.000Z",
-        "lastObservedAt": "2026-08-03T15:51:21.477Z"
       }
     },
     {
@@ -657,28 +701,6 @@
           "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-07-27T08:14:46.000Z",
-        "lastObservedAt": "2026-08-02T04:34:53.970Z"
-      }
-    },
-    {
-      "id": "news-4c09fc42eed1298e904ad434",
-      "title": "유럽서 10대 청부살인 조직 기승 — 'Foxtrot Network' 조사 보도",
-      "startAt": "2026-08-01T23:03:35.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "조사 보도는 'Foxtrot Network'로 불리는 조직이 유럽 전역에서 약 35건의 살인에 관여했을 가능성이 있고, 청소년을 고용해 폭력을 서비스화하는 수법을 쓴다고 전했다. 사건은 범죄 조직의 신종 고용·운영 방식과 공공안보 문제를 드러낸다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-01T23:03:35.000Z",
         "lastObservedAt": "2026-08-02T04:34:53.970Z"
       }
     },
@@ -1155,28 +1177,6 @@
         ],
         "firstPublishedAt": "2026-07-21T00:00:00.000Z",
         "lastObservedAt": "2026-07-27T03:22:31.261Z"
-      }
-    },
-    {
-      "id": "news-2438c3e3c186a2e8a34dfc77",
-      "title": "ESA 행성 탐사선 Plato 전자장비, 우주환경 적합성 시험 통과",
-      "startAt": "2026-07-20T12:30:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)의 행성 탐사선 Plato가 ESTEC의 Maxwell 시험실에서 전자장비 시험을 완료해 우주에서 작동할 준비를 마쳤습니다. 시험은 파라데이 케이지로 외부 간섭을 차단한 상태에서 진행됐습니다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Plato_s_electronics_ready_for_space",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.esa.int/ESA_Multimedia/Images/2026/07/Plato_s_electronics_ready_for_space"
-        ],
-        "firstPublishedAt": "2026-07-20T12:30:00.000Z",
-        "lastObservedAt": "2026-08-03T04:42:11.031Z"
       }
     }
   ]
