@@ -1,8 +1,142 @@
 {
-  "catalogVersion": "0.0.36",
-  "updatedAt": "2026-08-12T03:29:30.701Z",
+  "catalogVersion": "0.0.37",
+  "updatedAt": "2026-08-12T14:25:43.939Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-f7305f0adcc8d210869304b6",
+      "title": "중동 분쟁(이란 관련)으로 영국 성장률 압박 우려 — Burnham 경고",
+      "startAt": "2026-08-12T14:17:26.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "Burnham은 이란 관련 중동 분쟁이 내년 영국 경제성장에 타격을 줄 수 있다고 경고했다. 보도에 따르면 분쟁으로 유가·연료 가격이 상승하고 공급망에도 차질이 빚어지고 있다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-12T14:17:26.000Z",
+        "lastObservedAt": "2026-08-12T14:25:43.938Z"
+      }
+    },
+    {
+      "id": "news-e96a3b3561bf77575062c538",
+      "title": "미국 연간 인플레이션 7월 3.4%로 둔화 — 식품·연료 비용 완화",
+      "startAt": "2026-08-12T14:09:48.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도에 따르면 연간 미국 인플레이션이 7월에 3.4%로 하락했으며, 식품비가 둔화된 가운데 주거비가 물가를 다소 끌어올리고 있다고 전해졌다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-12T14:09:48.000Z",
+        "lastObservedAt": "2026-08-12T14:25:43.938Z"
+      }
+    },
+    {
+      "id": "news-1357a9ae7911e1d557ac7ffa",
+      "title": "DeepMind, 수어→텍스트 모델 'SL2T' 공개 — 청각장애인용 기능 도입",
+      "startAt": "2026-08-12T14:01:59.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "DeepMind는 수화(수어)를 텍스트로 변환하는 SL2T(sign‑language‑to‑text) 모델을 공개하고 청각·난청 사용자를 위한 새로운 수어 기능을 제공한다고 밝혔다.",
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
+        ],
+        "firstPublishedAt": "2026-08-12T14:01:59.000Z",
+        "lastObservedAt": "2026-08-12T14:25:43.938Z"
+      }
+    },
+    {
+      "id": "news-68bd4385c965ae1847529f57",
+      "title": "중국의 개혁 주도자 주룽지(朱镕基) 전 총리 별세(97세)",
+      "startAt": "2026-08-12T12:36:30.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 주룽지 전 총리가 97세로 사망했다. 그는 1990년대 중국의 경제개혁을 주도해 국영기업 개혁과 시장지향적 금융 체제 전환을 추진한 인물로 평가받는다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/12/1196705508/zhu-rongji-china-former-premier-dead",
+      "topicIds": [
+        "koreaEastAsia",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/12/1196705508/zhu-rongji-china-former-premier-dead"
+        ],
+        "firstPublishedAt": "2026-08-12T12:36:30.000Z",
+        "lastObservedAt": "2026-08-12T14:25:43.938Z"
+      }
+    },
+    {
+      "id": "news-a52a82b46bc68b3c51ece85f",
+      "title": "짐바브웨 카리바호 페리 전복 — 사망자 최소 44명(업데이트)",
+      "startAt": "2026-08-12T12:21:08.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "업데이트: 과적된 페리가 카리바호(Lake Kariba)에서 전복돼 최소 44명이 사망했다고 경찰이 밝혔다. 보도는 해당 여객선 정원은 90명이었으나 표 판매를 기준으로 성인 승객 114명과 승무원 5명이 탑승한 상태였으며 구조 작업이 진행 중이라고 전했다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_overloaded-ferry-capsizes-in-zimbabwe-110826?traffic_source=rss",
+          "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+        ],
+        "firstPublishedAt": "2026-08-12T02:47:36.000Z",
+        "lastObservedAt": "2026-08-12T14:25:43.938Z"
+      }
+    },
+    {
+      "id": "news-e063daae6225e15695395681",
+      "title": "기업의 에이전트형 AI 도입 현황 — OpenAI 조사 결과 공개",
+      "startAt": "2026-08-12T06:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI는 기업들이 에이전트형 AI를 도입해 ChatGPT·Codex 등을 활용하고 있으며, 선도 기업들이 채택을 통해 우위를 점하고 있다는 연구 결과를 공개했다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/how-enterprises-put-ai-to-work"
+        ],
+        "firstPublishedAt": "2026-08-12T06:00:00.000Z",
+        "lastObservedAt": "2026-08-12T14:25:43.938Z"
+      }
+    },
     {
       "id": "news-36e1cd1e3a226e00374af579",
       "title": "뉴질랜드 총리, 총선 12주 앞두고 두 번째 지도부 신임투표에서 생존",
@@ -22,28 +156,6 @@
           "https://www.bbc.co.uk/news/articles/cx2ve2jk5qeo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-08-12T02:51:02.000Z",
-        "lastObservedAt": "2026-08-12T03:29:30.701Z"
-      }
-    },
-    {
-      "id": "news-a52a82b46bc68b3c51ece85f",
-      "title": "짐바브웨 카리바호 페리 전복 — 최소 15명 사망·27명 실종 보고",
-      "startAt": "2026-08-12T02:47:36.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "알자지라 보도에 따르면 짐바브웨의 카리바호(Lake Kariba)에서 과적된 페리가 전복돼 최소 15명이 사망하고 27명이 실종된 상태로, 구조 작업이 진행 중이다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_overloaded-ferry-capsizes-in-zimbabwe-110826?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_overloaded-ferry-capsizes-in-zimbabwe-110826?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-12T02:47:36.000Z",
         "lastObservedAt": "2026-08-12T03:29:30.701Z"
       }
     },
@@ -230,50 +342,6 @@
         ],
         "firstPublishedAt": "2026-08-11T08:00:00.000Z",
         "lastObservedAt": "2026-08-11T14:24:38.217Z"
-      }
-    },
-    {
-      "id": "news-037823c547eb2be1ddffb857",
-      "title": "콜롬비아 극우정부, 골란고원에 대한 이스라엘의 영유권 인정",
-      "startAt": "2026-08-11T02:44:39.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "콜롬비아의 극우 정부가 이스라엘이 불법 합병한 골란고원(Golan Heights)에 대한 이스라엘의 영유권 주장을 공식 인정했다. 남미 국가로서는 두번째 인정 사례로 보도되었다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-11T02:44:39.000Z",
-        "lastObservedAt": "2026-08-11T03:09:38.488Z"
-      }
-    },
-    {
-      "id": "news-a750c0185c646c83023885da",
-      "title": "트럼프, 호르무즈 해협 협상 속 이란에 ‘50년 손해’ 배상 요구",
-      "startAt": "2026-08-11T02:32:47.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "도널드 트럼프 대통령이 호르무즈 해협의 항로 개방을 둘러싼 협상 과정에서 이란에 대해 '50년'에 걸친 피해에 대한 배상을 요구했다. 보도에 따르면 이란은 해협 개방과 관련해 전쟁 배상을 조건으로 제시한 것으로 전해졌다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-11T02:32:47.000Z",
-        "lastObservedAt": "2026-08-11T03:09:38.488Z"
       }
     },
     {
@@ -676,51 +744,6 @@
         ],
         "firstPublishedAt": "2026-07-30T16:11:41.000Z",
         "lastObservedAt": "2026-07-31T04:35:37.487Z"
-      }
-    },
-    {
-      "id": "news-1c538562910bce6bdee060d5",
-      "title": "마이크로소프트, OpenAI·Anthropic과의 경쟁 공개화",
-      "startAt": "2026-07-30T00:21:06.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "마이크로소프트가 월가 대상 발표에서 자체 개발 AI 모델과 'Mythos' 경쟁 제품을 제시하는 등 OpenAI·Anthropic과의 공개 경쟁을 강화하고 향후 성장을 목표로 하고 있다고 보도되었습니다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/"
-        ],
-        "firstPublishedAt": "2026-07-30T00:21:06.000Z",
-        "lastObservedAt": "2026-07-30T15:22:32.263Z"
-      }
-    },
-    {
-      "id": "news-05b5e14c97505dcc55095fc0",
-      "title": "DeepMind, 'Lyria 3.5'를 Google Flow Music에 출시 — 음악성·가사·보컬·창작 제어 향상",
-      "startAt": "2026-07-29T16:02:10.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "DeepMind가 'Lyria 3.5'를 구글의 Flow Music에 도입한다고 발표했다. 발표에 따르면 이번 버전은 음악성, 가사, 보컬 및 창작 제어(creative control) 측면에서 개선을 이뤘다고 전해진다. (출처: DeepMind 블로그)",
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/"
-        ],
-        "firstPublishedAt": "2026-07-29T16:02:10.000Z",
-        "lastObservedAt": "2026-08-06T04:27:15.573Z"
       }
     },
     {
