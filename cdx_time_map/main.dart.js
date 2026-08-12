@@ -51092,7 +51092,7 @@ A.a_D.prototype={}
 A.Ku.prototype={}
 A.Wp.prototype={
 I(a){var s=null
-return new A.E8(new A.HF(this.c,s),"TimeHeading v0.37.22",A.ym(s,A.aUU(B.av,s,s,B.iq),"Arial",!0),!1,s)}}
+return new A.E8(new A.HF(this.c,s),"TimeHeading v0.37.23",A.ym(s,A.aUU(B.av,s,s,B.iq),"Arial",!0),!1,s)}}
 A.HF.prototype={
 ac(){return A.bdf()}}
 A.Mb.prototype={
@@ -51175,7 +51175,7 @@ r=r.ghZ().e.a
 q.ry=r==null?p:r.r
 r=q.a.c
 if(r!=null){q.x2=r
-q.xr=B.b.bu(A.b(["TimeHeading v0.37.22","\ub2e8\uacc4: Google OAuth \ucf5c\ubc31\uc744 Supabase \uc138\uc158\uc73c\ub85c \uad50\ud658\ud558\ub294 \uacfc\uc815","\uc624\ub958 \uc720\ud615: OAuth callback","\uba54\uc2dc\uc9c0: "+r],t.s),"\n")}q.ax=s.b.ghZ().ay.gqi().jM(q.gaqJ())
+q.xr=B.b.bu(A.b(["TimeHeading v0.37.23","\ub2e8\uacc4: Google OAuth \ucf5c\ubc31\uc744 Supabase \uc138\uc158\uc73c\ub85c \uad50\ud658\ud558\ub294 \uacfc\uc815","\uc624\ub958 \uc720\ud615: OAuth callback","\uba54\uc2dc\uc9c0: "+r],t.s),"\n")}q.ax=s.b.ghZ().ay.gqi().jM(q.gaqJ())
 q.Zv()
 q.Dv()
 q.u1()
@@ -51378,7 +51378,7 @@ p===$&&A.a()
 p=p.ghZ().e.a==null?"\uc5c6\uc74c":"\uc788\uc74c"
 s=q.ry==null?"\uc5c6\uc74c":"\uc788\uc74c"
 r=t.s
-s=A.b(["TimeHeading v0.37.22","Supabase \uc138\uc158: "+p,"\uc571\uc758 \ub85c\uadf8\uc778 \uc0ac\uc6a9\uc790: "+s,"\ub3d9\uae30\ud654 \uc0c1\ud0dc: "+q.gayk()],r)
+s=A.b(["TimeHeading v0.37.23","Supabase \uc138\uc158: "+p,"\uc571\uc758 \ub85c\uadf8\uc778 \uc0ac\uc6a9\uc790: "+s,"\ub3d9\uae30\ud654 \uc0c1\ud0dc: "+q.gayk()],r)
 p=q.y1
 if(p!=null)s.push("\ucd5c\uadfc \ub3d9\uae30\ud654: "+p.bj().fF())
 p=q.x2
@@ -52744,7 +52744,7 @@ s=A.hB(p,s,"Bearer [\uc228\uae40]")
 o=A.cr("eyJ[a-zA-Z0-9_\\\\-]+\\\\.[a-zA-Z0-9_\\\\-]+\\\\.[a-zA-Z0-9_\\\\-]+",!0,!1)
 n=A.hB(s,o,"[\ud1a0\ud070 \uc228\uae40]")
 s=r==null?"\ud655\uc778\ub418\uc9c0 \uc54a\uc74c":m.a15(r)
-s=A.b(["TimeHeading v0.37.22","\ub2e8\uacc4: "+s,"\uc624\ub958 \uc720\ud615: "+J.W(l).j(0)],t.s)
+s=A.b(["TimeHeading v0.37.23","\ub2e8\uacc4: "+s,"\uc624\ub958 \uc720\ud615: "+J.W(l).j(0)],t.s)
 if(q!=null&&q.length!==0)s.push("\uc11c\ubc84 \ucf54\ub4dc: "+q)
 s.push("\uba54\uc2dc\uc9c0: "+(n.length>240?B.c.a2(n,0,240)+"\u2026":n))
 m.xr=B.b.bu(s,"\n")},
@@ -55069,7 +55069,7 @@ a3.aB(a7,a4.U(0,new A.i(q.c/2,q.a.c.gbe()/2)))},
 akR(a,b,c,d){var s,r,q,p,o,n,m,l,k=this.f
 if(k==null)return
 s=Math.atan2(c.b,c.a)
-r=28+76*d
+r=12+92*d
 q=-r
 p=q*0.79
 q*=0.78
@@ -119985,7 +119985,7 @@ B.a3n=new A.b4("Calendar \uc77d\uae30 \uad8c\ud55c \ud5c8\uc6a9",null,null,null,
 B.a3o=new A.b4("\ub274\uc2a4 \ud53c\ub4dc\uc758 \ubd84\uc57c\ub294 \uc8fc\uc81c\xb7\uc5ed\uc0ac \uc124\uc815\uacfc \ubcc4\ub3c4\ub85c \uc870\uc808\ub429\ub2c8\ub2e4.",null,B.bo,null,null,null,null,null,null,null)
 B.a3p=new A.b4("Getting ready",null,null,null,null,null,null,null,null,null)
 B.a_0=new A.w(!0,B.iq,null,null,null,null,11,B.c9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3q=new A.b4("v0.37.22",null,B.a_0,null,null,null,null,null,null,null)
+B.a3q=new A.b4("v0.37.23",null,B.a_0,null,null,null,null,null,null,null)
 B.E8=new A.b4("\ub3d9\uae30\ud654 \uc9c4\ub2e8 \uc815\ubcf4 \ubcf5\uc0ac",null,null,null,null,null,null,null,null,null)
 B.a_q=new A.w(!0,null,null,null,null,null,20,B.bS,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a3r=new A.b4("\ub0b4 \uc774\ubca4\ud2b8 \ubd84\ub958 \ucd94\uac00",null,B.a_q,null,null,null,null,null,null,null)
