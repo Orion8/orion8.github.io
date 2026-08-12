@@ -1,8 +1,74 @@
 {
-  "catalogVersion": "0.0.35",
-  "updatedAt": "2026-08-11T15:24:04.247Z",
+  "catalogVersion": "0.0.36",
+  "updatedAt": "2026-08-12T03:29:30.701Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-36e1cd1e3a226e00374af579",
+      "title": "뉴질랜드 총리, 총선 12주 앞두고 두 번째 지도부 신임투표에서 생존",
+      "startAt": "2026-08-12T02:51:02.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "크리스토퍼 럭슨(Christopher Luxon) 총리는 신임투표에서 당의 '전폭적 지지'를 받았다고 밝혔으며, 이번 투표는 총선을 12주 앞둔 시점에 치러졌다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2ve2jk5qeo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cx2ve2jk5qeo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-12T02:51:02.000Z",
+        "lastObservedAt": "2026-08-12T03:29:30.701Z"
+      }
+    },
+    {
+      "id": "news-a52a82b46bc68b3c51ece85f",
+      "title": "짐바브웨 카리바호 페리 전복 — 최소 15명 사망·27명 실종 보고",
+      "startAt": "2026-08-12T02:47:36.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "알자지라 보도에 따르면 짐바브웨의 카리바호(Lake Kariba)에서 과적된 페리가 전복돼 최소 15명이 사망하고 27명이 실종된 상태로, 구조 작업이 진행 중이다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_overloaded-ferry-capsizes-in-zimbabwe-110826?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_overloaded-ferry-capsizes-in-zimbabwe-110826?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-12T02:47:36.000Z",
+        "lastObservedAt": "2026-08-12T03:29:30.701Z"
+      }
+    },
+    {
+      "id": "news-1b2e50df29ca3bdc34dcb1ae",
+      "title": "이란, 호르무즈 해협 재개 조건 굽히지 않아 — 파키스탄 나크비( Naqvi) 방문 와중",
+      "startAt": "2026-08-12T02:29:30.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "이란의 최고 안보 책임자는 호르무즈 해협이 미국의 요구 조건 충족 없이는 재개되지 않을 것이라고 밝혔으며, 파키스탄 장관 나크비의 테헤란 방문이 이뤄지고 있다(알자지라 보도).",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-12T02:29:30.000Z",
+        "lastObservedAt": "2026-08-12T03:29:30.701Z"
+      }
+    },
     {
       "id": "news-7d92603cf2986fc0c5bc8ec2",
       "title": "2026년 8월12일 개기일식 — 북극에서 유럽으로 이동, 수백만 명 관측 전망",
@@ -27,6 +93,31 @@
         ],
         "firstPublishedAt": "2026-08-05T08:00:00.000Z",
         "lastObservedAt": "2026-08-11T15:24:04.247Z"
+      }
+    },
+    {
+      "id": "news-88db4b3ad91c9ef95b848c8a",
+      "title": "콜롬비아 규모 7.4 강진 피해 확대 — 구조대 수백명 투입, 다수 실종 보고",
+      "startAt": "2026-08-11T21:12:05.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "규모 7.4 지진 발생 후 수백 명의 구조대원들이 피해가 특히 큰 도시들에 투입되어 잔해 아래에서 생존자 수색을 벌이고 있으며, 여전히 수백 명의 실종자가 보고되고 있다(미국 NPR 보도).",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/11/nx-s1-5928036/the-death-toll-climbs-from-mondays-7-4-magnitude-earthquake-in-colombia",
+      "topicIds": [
+        "urbanDevelopment",
+        "climateEnvironment",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/11/nx-s1-5928036/the-death-toll-climbs-from-mondays-7-4-magnitude-earthquake-in-colombia"
+        ],
+        "firstPublishedAt": "2026-08-10T14:20:38.000Z",
+        "lastObservedAt": "2026-08-12T03:29:30.701Z"
       }
     },
     {
@@ -205,74 +296,6 @@
         ],
         "firstPublishedAt": "2026-08-10T19:54:30.000Z",
         "lastObservedAt": "2026-08-11T03:09:38.488Z"
-      }
-    },
-    {
-      "id": "news-df653d4d657d8c25e8b98e29",
-      "title": "중동 분쟁 속에도 이라크 아르바인 순례에 약 2천만명 운집",
-      "startAt": "2026-08-10T16:08:06.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "중동 곳곳의 무력 충돌이 지속되는 상황에서도 이라크의 순례 도시에서 아르바인(Arbaeen) 축일을 맞아 약 2천만 명의 시아파 신자들이 모였다고 보도되었다. 대규모 인파 집결은 지역 역학과 안보 상황에 중요한 사회적·정치적 의미를 지닌다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/10/g-s1-137832/iraq-shia-pilgrimage-shia-war",
-      "topicIds": [
-        "politicsHumanRights",
-        "religions"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/10/g-s1-137832/iraq-shia-pilgrimage-shia-war"
-        ],
-        "firstPublishedAt": "2026-08-10T16:08:06.000Z",
-        "lastObservedAt": "2026-08-11T03:09:38.488Z"
-      }
-    },
-    {
-      "id": "news-88db4b3ad91c9ef95b848c8a",
-      "title": "콜롬비아 강진(규모 7.4) — 인명·시설 큰 피해 보고",
-      "startAt": "2026-08-10T14:20:38.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "규모 7.4의 강진이 태평양 연안 인근에서 발생해 수백 킬로미터 떨어진 도시들까지 지진이 감지되었으며, 보도에 따르면 상당한 피해와 부상자가 발생했다고 전해졌다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "urbanDevelopment",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-10T14:20:38.000Z",
-        "lastObservedAt": "2026-08-10T14:25:07.407Z"
-      }
-    },
-    {
-      "id": "news-7e77d4621f7967f691038347",
-      "title": "영국행 단일 보트에 230명 탑승 — 잉글리시 채널 월경 기록적 도착",
-      "startAt": "2026-08-10T14:02:38.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "한 척의 보트에 탑승한 기록적 규모의 약 230명이 잉글리시 채널을 건너 영국에 도착했다고 보도되었다. 정부는 밀입국 조직이 '비(非)항해 적합 선박'에 사람들을 과도하게 태워 생명을 위태롭게 했다고 비난했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/10/record-230-people-reach-uk-on-single-boat-after-crossing-english-channel?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/10/record-230-people-reach-uk-on-single-boat-after-crossing-english-channel?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-10T14:02:38.000Z",
-        "lastObservedAt": "2026-08-10T14:25:07.407Z"
       }
     },
     {
