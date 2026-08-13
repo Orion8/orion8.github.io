@@ -1,8 +1,97 @@
 {
-  "catalogVersion": "0.0.37",
-  "updatedAt": "2026-08-12T14:25:43.939Z",
+  "catalogVersion": "0.0.38",
+  "updatedAt": "2026-08-13T03:32:08.457Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-28a46bff448f1e7b7c0f6b60",
+      "title": "흑해 항구 공격으로 주요 러시아 곡물 수출 터미널 타격",
+      "startAt": "2026-08-13T03:28:56.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 흑해 항구 공격으로 러시아의 주요 곡물 수출 터미널이 심각한 피해를 입었으며, 러시아와 우크라이나가 서로의 선박·항만 시설을 공격하면서 양국의 곡물 수출량이 감소하고 있다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-13T03:28:56.000Z",
+        "lastObservedAt": "2026-08-13T03:32:08.456Z"
+      }
+    },
+    {
+      "id": "news-7469b780371fcce5cc4321f9",
+      "title": "짐바브웨 토지개혁 새 국면 진입",
+      "startAt": "2026-08-13T01:48:39.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도에 따르면 짐바브웨가 새 토지정책을 도입하면서 2000년대 이후 몰수된 농장들을 둘러싼 분쟁이 다시 촉발되고 있다. 새 정책은 토지 소유·분배 문제를 재조정하며 농민·전 소유주 간의 갈등을 재점화할 가능성이 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/13/zimbabwes-land-reform-enters-a-new-chapter?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/13/zimbabwes-land-reform-enters-a-new-chapter?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-13T01:48:39.000Z",
+        "lastObservedAt": "2026-08-13T03:32:08.456Z"
+      }
+    },
+    {
+      "id": "news-4268ad04a3e8a05c2213afa2",
+      "title": "WHO: 에볼라 발병, 역대 최악 경로로 진행 중",
+      "startAt": "2026-08-13T01:31:21.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "보도에 따르면 5월15일 선언된 에볼라 발병으로 지금까지 2,000명 이상이 사망했고 수천 건의 추가 확진이 보고되며 WHO 사무총장은 이번 발병이 역대 최악이 될 가능성이 있다고 경고했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
+        "lastObservedAt": "2026-08-13T03:32:08.457Z"
+      }
+    },
+    {
+      "id": "news-40137692ee973e8f3c3de9f1",
+      "title": "트럼프, Truth Social 조기접근 유료상품 관련 소송 제기",
+      "startAt": "2026-08-12T17:30:21.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도에 따르면 인터셉트(Intercept)와 언론자유재단(Freedom of the Press Foundation)이 대통령의 공적 직무로 생성된 정보에 대해 월 10만 달러까지 청구하는 '조기접근' 구독 서비스를 통해 특권적 접근을 판매하려 한다며 도널드 트럼프, 보좌관 2명 및 대통령 집행실을 상대로 뉴욕 남부지방법원에 소송을 제기했다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/12/truth-social-suit-trump-early-access-offer",
+      "topicIds": [
+        "economyFinance",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/aug/12/truth-social-suit-trump-early-access-offer"
+        ],
+        "firstPublishedAt": "2026-08-12T17:30:21.000Z",
+        "lastObservedAt": "2026-08-13T03:32:08.457Z"
+      }
+    },
     {
       "id": "news-f7305f0adcc8d210869304b6",
       "title": "중동 분쟁(이란 관련)으로 영국 성장률 압박 우려 — Burnham 경고",
@@ -277,52 +366,6 @@
       }
     },
     {
-      "id": "news-a309444af20dec0d2aa12309",
-      "title": "전(前) 시리아 대통령 바샤르 알아사드, 부재중 사형 선고",
-      "startAt": "2026-08-11T10:07:14.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 시리아 법원은 바샤르 알아사드 전 대통령과 그의 형제에 대해 14년간 지속된 시리아 분쟁 기간의 반인도적 범죄 및 전쟁범죄 혐의로 부재중 사형을 선고했다. 해당 분쟁으로 약 50만명이 사망한 것으로 보도되었다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/11/g-s1-138166/syria-assad-sentenced-to-death",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/11/g-s1-138166/syria-assad-sentenced-to-death"
-        ],
-        "firstPublishedAt": "2026-08-11T10:07:14.000Z",
-        "lastObservedAt": "2026-08-11T14:24:38.216Z"
-      }
-    },
-    {
-      "id": "news-ea4333ada056ff5c761fe853",
-      "title": "파키스탄 관할 카슈미르에서 선거 실시 — 대표성 요구·보이콧 호소 속 진행",
-      "startAt": "2026-08-11T08:31:41.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도는 카슈미르(파키스탄 관할)에서 더 나은 대표성 요구와 함께 일부 세력의 보이콧 촉구가 있는 가운데 선거가 치러지고 있다고 전했다. 이 선거는 인도·파키스탄 간의 분쟁 지점인 카슈미르의 정치적 상황과 주민 요구를 반영하는 사안으로 주목된다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/11/nx-s1-5927084/pakistan-administered-kashmir-holds-elections-amid-calls-for-a-boycott",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/11/nx-s1-5927084/pakistan-administered-kashmir-holds-elections-amid-calls-for-a-boycott"
-        ],
-        "firstPublishedAt": "2026-08-11T08:31:41.000Z",
-        "lastObservedAt": "2026-08-11T14:24:38.216Z"
-      }
-    },
-    {
       "id": "news-cbf5fed7cbf6949286a40d49",
       "title": "제임스웹(JWST), 우리은하 초대질량 블랙홀 근처서 먼지·물질 관측",
       "startAt": "2026-08-11T08:00:00.000Z",
@@ -432,28 +475,6 @@
         ],
         "firstPublishedAt": "2026-08-10T12:39:05.000Z",
         "lastObservedAt": "2026-08-10T14:25:07.407Z"
-      }
-    },
-    {
-      "id": "news-ec4d2382b6cc582b90875f74",
-      "title": "중국, 태풍 '돌핀' 상륙에 대비해 약 100만 명 대피",
-      "startAt": "2026-08-10T03:15:21.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "태풍 '돌핀'(Typhoon Dolphin)이 일요일 저녁 상하이 등 중국 동부 지역에 상륙하면서 당국이 주민 약 100만 명의 대피를 명령했다고 보도되었다. 폭풍은 광범위한 영향이 우려되며 현지 당국이 구조·대피 조치를 시행하고 있다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-10T03:15:21.000Z",
-        "lastObservedAt": "2026-08-10T03:18:11.642Z"
       }
     },
     {
@@ -588,28 +609,6 @@
         ],
         "firstPublishedAt": "2026-08-06T08:00:00.000Z",
         "lastObservedAt": "2026-08-06T15:25:16.727Z"
-      }
-    },
-    {
-      "id": "news-dbfecc75731c7f13c7b5244a",
-      "title": "트럼프 지명 유력 후보 케빈 워시의 인플레이션 접근법 — ‘시장에 맡기기’ 주장(가디언 칼럼)",
-      "startAt": "2026-08-04T11:00:48.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언의 에두아르도 포터 칼럼은 케빈 워시가 인플레이션 문제에 대해 정부·연준의 적극적 개입을 경계하고 시장에 맡기려는 입장을 보인다고 지적하며, 이러한 비개입적 태도가 연준의 신뢰도를 훼손할 수 있다고 경고했다. 칼럼은 이 입장이 공화당의 전통적 소정부·시장중심 관점과 맺는 역설을 짚는다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/aug/04/trump-fed-kevin-warsh",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/aug/04/trump-fed-kevin-warsh"
-        ],
-        "firstPublishedAt": "2026-08-04T11:00:48.000Z",
-        "lastObservedAt": "2026-08-04T15:33:24.660Z"
       }
     },
     {
