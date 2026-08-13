@@ -1,8 +1,98 @@
 {
-  "catalogVersion": "0.0.38",
-  "updatedAt": "2026-08-13T03:32:08.457Z",
+  "catalogVersion": "0.0.39",
+  "updatedAt": "2026-08-13T14:33:00.288Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c7ed050e74f77ef1be48bbfd",
+      "title": "해비 니콜스(Harvey Nichols), Sports Direct 소유주에 인수",
+      "startAt": "2026-08-13T14:27:43.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "영국의 백화점 해비 니콜스가 Sports Direct 소유주에 매각되었다. 이 백화점은 시트콤 'Absolutely Fabulous'로 널리 알려져 있으며, 보도에 따르면 매각 전 영업 중단 가능성을 경고한 상황이었다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-13T14:27:43.000Z",
+        "lastObservedAt": "2026-08-13T14:33:00.288Z"
+      }
+    },
+    {
+      "id": "news-c6ef1f0c1fd1bd88acdd1644",
+      "title": "프랑스 대사 브루노 푸쉐, 중앙아프리카공화국 거주지 관련 품행 의혹으로 징계 조사",
+      "startAt": "2026-08-13T14:21:52.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "프랑스는 중앙아프리카공화국(CAR) 주재 대사 브루노 푸쉐에 대해 공식 거주지로 수십 명의 여성이 드나들었다는 의혹과 이로 인한 보안 우려를 이유로 징계 절차를 개시해 조사에 착수했다. 이번 조사는 파리와 CAR 관계 회복을 모색하는 가운데 진행되고 있다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher"
+        ],
+        "firstPublishedAt": "2026-08-13T14:21:52.000Z",
+        "lastObservedAt": "2026-08-13T14:33:00.288Z"
+      }
+    },
+    {
+      "id": "news-4268ad04a3e8a05c2213afa2",
+      "title": "에볼라 발병, 새로운 '동물 전파' 경로 확인 — WHO 관련 보도(업데이트)",
+      "startAt": "2026-08-13T14:16:44.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "최근 에볼라 발병과 관련해 새로운 동물 매개 전파 경로가 확인되었다는 보도가 나왔다. 해당 발병으로 지금까지 2,000명 이상이 사망한 것으로 전해졌다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
+        "lastObservedAt": "2026-08-13T14:33:00.288Z"
+      }
+    },
+    {
+      "id": "news-35139b59e9a79bd5bef7ab40",
+      "title": "대만, 방어 훈련 일환으로 모바일 인터넷을 문자 전용 속도로 일시 저하",
+      "startAt": "2026-08-13T13:18:43.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "대만은 중국과의 긴장 속에서 실시한 방어 훈련의 일환으로 모바일 인터넷 속도를 일시적으로 문자 전송 수준으로 낮추었다. 이번 조치는 군사적 위협에 대비한 훈련의 일부로 보도되었다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/13/g-s1-138581/taiwan-briefly-slows-its-mobile-internet-to-text-only-speed-as-part-of-defense-drill",
+      "topicIds": [
+        "koreaEastAsia",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/13/g-s1-138581/taiwan-briefly-slows-its-mobile-internet-to-text-only-speed-as-part-of-defense-drill"
+        ],
+        "firstPublishedAt": "2026-08-13T13:18:43.000Z",
+        "lastObservedAt": "2026-08-13T14:33:00.288Z"
+      }
+    },
     {
       "id": "news-28a46bff448f1e7b7c0f6b60",
       "title": "흑해 항구 공격으로 주요 러시아 곡물 수출 터미널 타격",
@@ -45,28 +135,6 @@
         ],
         "firstPublishedAt": "2026-08-13T01:48:39.000Z",
         "lastObservedAt": "2026-08-13T03:32:08.456Z"
-      }
-    },
-    {
-      "id": "news-4268ad04a3e8a05c2213afa2",
-      "title": "WHO: 에볼라 발병, 역대 최악 경로로 진행 중",
-      "startAt": "2026-08-13T01:31:21.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "보도에 따르면 5월15일 선언된 에볼라 발병으로 지금까지 2,000명 이상이 사망했고 수천 건의 추가 확진이 보고되며 WHO 사무총장은 이번 발병이 역대 최악이 될 가능성이 있다고 경고했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
-        "lastObservedAt": "2026-08-13T03:32:08.457Z"
       }
     },
     {
@@ -322,50 +390,6 @@
       }
     },
     {
-      "id": "news-6982748bdfe80fe54e15474a",
-      "title": "트럼프, 이란 위협 와중 비밀 항공기 교체 과정서 케이터링 트럭에 숨었다는 보도",
-      "startAt": "2026-08-11T14:17:35.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도에 따르면 도널드 트럼프 전 대통령은 터키에서 열린 나토 정상회의 출발 시 기자단에게 자신이 같이 비행기에 탔다고 허위로 알리는 소위 '비밀 비행기 교체(ruse)' 과정에서 케이터링 트럭에 숨겨져 이동한 것으로 전해졌다. 해당 보도는 미‑이란 긴장 국면 속 트럼프 측의 행보와 관련해 논란을 불러일으키고 있다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-11T14:17:35.000Z",
-        "lastObservedAt": "2026-08-11T14:24:38.216Z"
-      }
-    },
-    {
-      "id": "news-0a9ea2b9b5c0bd3dc69ebf17",
-      "title": "사우디아라비아·Turkiye·파키스탄의 ‘메카 방위 협정’ — 합동 군사역량 분석",
-      "startAt": "2026-08-11T13:47:50.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "Mecca defence pact로 불리는 이번 협정은 세계 최대 산유국인 사우디아라비아, NATO 내 두번째로 큰 육군을 보유한 Turkiye, 그리고 유일한 무슬림 핵보유국인 파키스탄을 결합한다는 점에서 지역 안보·역학에 중요한 변화를 뜻한다. 보도는 이들 국가의 합동 군사능력과 전략적 시사점을 검토했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/what-are-saudi-arabia-turkiye-and-pakistans-joint-military-capabilities?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/11/what-are-saudi-arabia-turkiye-and-pakistans-joint-military-capabilities?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-11T13:47:50.000Z",
-        "lastObservedAt": "2026-08-11T14:24:38.216Z"
-      }
-    },
-    {
       "id": "news-cbf5fed7cbf6949286a40d49",
       "title": "제임스웹(JWST), 우리은하 초대질량 블랙홀 근처서 먼지·물질 관측",
       "startAt": "2026-08-11T08:00:00.000Z",
@@ -519,29 +543,6 @@
           "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/"
         ],
         "firstPublishedAt": "2026-08-08T21:24:02.000Z",
-        "lastObservedAt": "2026-08-09T07:13:11.359Z"
-      }
-    },
-    {
-      "id": "news-fe65a77122ad0a0e27a2558c",
-      "title": "영국 주요 쥐라기 화석 컬렉션, 자금 부족으로 아부다비 기관에 매각",
-      "startAt": "2026-08-08T16:00:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "한 개인 수집가가 모은 영국 쥐라기 화석 318점(익티오사우루스·어류·갑각류 등 포함)이 영국 박물관의 자금 부족으로 인해 아부다비의 한 기관에 팔렸다. 일부 표본은 새로운 종일 가능성이 제기되며, 학계에서는 '국가적 손실'로 평가했다.",
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/ng-interactive/2026/aug/09/one-of-uks-best-fossil-collections-sold-overseas-in-loss-to-the-nation",
-      "topicIds": [
-        "extinctLife",
-        "lifeScience"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/ng-interactive/2026/aug/09/one-of-uks-best-fossil-collections-sold-overseas-in-loss-to-the-nation"
-        ],
-        "firstPublishedAt": "2026-08-08T16:00:02.000Z",
         "lastObservedAt": "2026-08-09T07:13:11.359Z"
       }
     },
