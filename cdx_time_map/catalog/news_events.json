@@ -1,8 +1,98 @@
 {
-  "catalogVersion": "0.0.39",
-  "updatedAt": "2026-08-13T14:33:00.288Z",
+  "catalogVersion": "0.0.40",
+  "updatedAt": "2026-08-14T03:30:20.039Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-3fabfaff9b75e0c613f0b59c",
+      "title": "인도 태양 임무 관측, 태양 코로나 고온 문제에 새 단서 제시",
+      "startAt": "2026-08-14T02:13:27.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "인도의 태양 관측 임무가 태양 코로나가 표면보다 수백만 도 더 뜨거운 이유와 그 온도가 어떻게 유지되는지에 대한 새로운 관측 결과를 공개했다. 이번 관측은 코로나 가열 메커니즘을 밝히는 데 기여할 가능성이 있다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c934wqpd74xo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c934wqpd74xo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-14T02:13:27.000Z",
+        "lastObservedAt": "2026-08-14T03:30:20.039Z"
+      }
+    },
+    {
+      "id": "news-368c8b2005a59cda14550c70",
+      "title": "푸틴, 영유권 분쟁 중인 태평양 섬 첫 방문…도쿄가 항의",
+      "startAt": "2026-08-13T16:40:26.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "블라디미르 푸틴 대통령이 일본과 영유권 분쟁 중인 태평양의 최남단 섬들을 처음 방문하자 도쿄가 공식 항의를 제기했다. 해당 사슬의 네 개 최남단 섬은 일본이 '북방영토'(Northern Territories)라 주장하는 곳이다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/13/g-s1-138631/vladimir-putins-first-visit-to-disputed-pacific-islands-draws-tokyo-protest",
+      "topicIds": [
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/13/g-s1-138631/vladimir-putins-first-visit-to-disputed-pacific-islands-draws-tokyo-protest"
+        ],
+        "firstPublishedAt": "2026-08-13T16:40:26.000Z",
+        "lastObservedAt": "2026-08-14T03:30:20.039Z"
+      }
+    },
+    {
+      "id": "news-66d954c507762e23d954e759",
+      "title": "우크라이나 드론 공격, 러시아의 크림반도 통제에 도전",
+      "startAt": "2026-08-13T15:18:27.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "우크라이나의 드론 공격이 크림반도를 집중적으로 타격해 러시아의 오랜 통제력을 흔들고 있으며, 지역 주민들의 일상생활과 통행이 큰 영향을 받고 있다. 러시아는 2014년 크림을 장악한 뒤 사실상 통제해 왔다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/13/nx-s1-5904418/ukraine-crimea-russia-drone-strikes",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/13/nx-s1-5904418/ukraine-crimea-russia-drone-strikes"
+        ],
+        "firstPublishedAt": "2026-08-13T15:18:27.000Z",
+        "lastObservedAt": "2026-08-14T03:30:20.039Z"
+      }
+    },
+    {
+      "id": "news-4268ad04a3e8a05c2213afa2",
+      "title": "콩고 민주공화국(DRC) 에볼라 발병, 6번째 주로 확산",
+      "startAt": "2026-08-13T15:17:13.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "DRC의 에볼라 발병이 6번째 주인 바스‑우엘레(Bas‑Uele)로 확산되었다. 정부 집계로 지금까지 4,500건을 넘는 사례 중 2,100명 이상이 사망했으며, WHO 수장은 이번 발병이 역사상 최악의 사례를 넘어설 가능성이 있다고 경고했다. 보도에 따르면 한 환자는 오트‑우엘레(Haut‑Uele)에서 이동한 뒤 바스‑우엘레에서 사망했다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
+          "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
+        ],
+        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
+        "lastObservedAt": "2026-08-14T03:30:20.039Z"
+      }
+    },
     {
       "id": "news-c7ed050e74f77ef1be48bbfd",
       "title": "해비 니콜스(Harvey Nichols), Sports Direct 소유주에 인수",
@@ -44,29 +134,6 @@
           "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher"
         ],
         "firstPublishedAt": "2026-08-13T14:21:52.000Z",
-        "lastObservedAt": "2026-08-13T14:33:00.288Z"
-      }
-    },
-    {
-      "id": "news-4268ad04a3e8a05c2213afa2",
-      "title": "에볼라 발병, 새로운 '동물 전파' 경로 확인 — WHO 관련 보도(업데이트)",
-      "startAt": "2026-08-13T14:16:44.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "최근 에볼라 발병과 관련해 새로운 동물 매개 전파 경로가 확인되었다는 보도가 나왔다. 해당 발병으로 지금까지 2,000명 이상이 사망한 것으로 전해졌다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
         "lastObservedAt": "2026-08-13T14:33:00.288Z"
       }
     },
@@ -295,50 +362,6 @@
       }
     },
     {
-      "id": "news-36e1cd1e3a226e00374af579",
-      "title": "뉴질랜드 총리, 총선 12주 앞두고 두 번째 지도부 신임투표에서 생존",
-      "startAt": "2026-08-12T02:51:02.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "크리스토퍼 럭슨(Christopher Luxon) 총리는 신임투표에서 당의 '전폭적 지지'를 받았다고 밝혔으며, 이번 투표는 총선을 12주 앞둔 시점에 치러졌다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2ve2jk5qeo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cx2ve2jk5qeo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-12T02:51:02.000Z",
-        "lastObservedAt": "2026-08-12T03:29:30.701Z"
-      }
-    },
-    {
-      "id": "news-1b2e50df29ca3bdc34dcb1ae",
-      "title": "이란, 호르무즈 해협 재개 조건 굽히지 않아 — 파키스탄 나크비( Naqvi) 방문 와중",
-      "startAt": "2026-08-12T02:29:30.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "이란의 최고 안보 책임자는 호르무즈 해협이 미국의 요구 조건 충족 없이는 재개되지 않을 것이라고 밝혔으며, 파키스탄 장관 나크비의 테헤란 방문이 이뤄지고 있다(알자지라 보도).",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-12T02:29:30.000Z",
-        "lastObservedAt": "2026-08-12T03:29:30.701Z"
-      }
-    },
-    {
       "id": "news-7d92603cf2986fc0c5bc8ec2",
       "title": "2026년 8월12일 개기일식 — 북극에서 유럽으로 이동, 수백만 명 관측 전망",
       "startAt": "2026-08-12T00:00:00.000Z",
@@ -499,29 +522,6 @@
         ],
         "firstPublishedAt": "2026-08-10T12:39:05.000Z",
         "lastObservedAt": "2026-08-10T14:25:07.407Z"
-      }
-    },
-    {
-      "id": "news-49103627b5f460b80393dfad",
-      "title": "캐나다 브리티시컬럼비아 대형 산불 — 연방정부 긴급 지원·약 2만2천명 대피(업데이트)",
-      "startAt": "2026-08-09T18:20:25.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "브리티시컬럼비아에서 발생한 빠르게 확산되는 대형 산불로 약 22,000명이 대피했으며, 도합 102건의 화재가 발생해 그중 약 절반이 '통제 불능' 상태라고 보고되었다. 최근 1주일 사이 78건이 새로 발화했으며 캐나다 연방 정부는 주 정부에 긴급 지원을 제공하겠다고 발표했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfire-forces-thousands-of-evacuations-in-western-canada?traffic_source=rss",
-          "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires"
-        ],
-        "firstPublishedAt": "2026-08-09T06:10:08.000Z",
-        "lastObservedAt": "2026-08-10T03:18:11.642Z"
       }
     },
     {
