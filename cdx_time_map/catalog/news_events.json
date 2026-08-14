@@ -1,8 +1,96 @@
 {
-  "catalogVersion": "0.0.40",
-  "updatedAt": "2026-08-14T03:30:20.039Z",
+  "catalogVersion": "0.0.41",
+  "updatedAt": "2026-08-14T14:20:08.488Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-5c88bd9b75e4dc963c5f98b9",
+      "title": "영국, 2030 전기차 판매 목표 80%→50% 검토",
+      "startAt": "2026-08-14T14:08:21.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "영국 정부가 2030년까지 신차 판매에서 전기차 비중 목표를 기존 80%에서 50%로 낮추는 방안을 검토하고 있다고 보도되었다. 자동차 업계의 압력으로 목표 조정 가능성이 제기되며 전기차 보급과 탄소 감축 정책의 향방에 영향이 있을 전망이다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-14T14:08:21.000Z",
+        "lastObservedAt": "2026-08-14T14:20:08.488Z"
+      }
+    },
+    {
+      "id": "news-a6e786317f4d9a7d9a8cd505",
+      "title": "BP, 베네수엘라 로란(Loran) 가스전 2단계 개발 계획 발표",
+      "startAt": "2026-08-14T14:04:49.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "BP가 베네수엘라의 대형 해상 가스전인 로란 가스전(Loran) 2단계 개발에 나서기로 했으며, 도널드 트럼프 행정부와 연관된 기업 두 곳과의 파트너십으로 진행된다고 보도되었다. 이는 미국이 1월에 니콜라스 마두로를 축출한 뒤 이뤄진 대규모 외국인 투자의 하나로 전해졌다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
+        ],
+        "firstPublishedAt": "2026-08-14T14:04:49.000Z",
+        "lastObservedAt": "2026-08-14T14:20:08.488Z"
+      }
+    },
+    {
+      "id": "news-36cb8bcdc90fe5aa12d3623e",
+      "title": "파키스탄 총리, 인도에 인더스 수자원조약 위반 '레드라인' 경고",
+      "startAt": "2026-08-14T13:07:19.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "셰바즈 샤리프 파키스탄 총리가 인도가 인더스 수력조약(Indus Waters Treaty)을 불법적으로 정지시켰다고 비판하며 이를 '레드라인'으로 규정한 경고 발언을 했다. 양국 간 수자원·조약 분쟁이 지역 안보와 농업·생활용수에 미칠 영향을 키우고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-14T13:07:19.000Z",
+        "lastObservedAt": "2026-08-14T14:20:08.488Z"
+      }
+    },
+    {
+      "id": "news-f923e23d7adf09a22b38b4b8",
+      "title": "유럽·아시아 연쇄적 기상충격 — 폭우·홍수와 여름 폭염으로 피해 발생",
+      "startAt": "2026-08-14T10:30:17.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "유럽의 다섯째 폭염과 아시아 일부 지역의 폭우·홍수로 세계 곳곳에서 기상 충격이 이어졌다. 일본에서는 폭우로 도로가 침수되며 적어도 8명이 사망했고, 영국·프랑스·크로아티아 등에서는 번지 화재 진압이 이어졌다(보도 기준).",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/14/g-s1-138727/europe-asia-floods-heatwaves-world-weather",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/14/g-s1-138727/europe-asia-floods-heatwaves-world-weather"
+        ],
+        "firstPublishedAt": "2026-08-14T10:30:17.000Z",
+        "lastObservedAt": "2026-08-14T14:20:08.488Z"
+      }
+    },
     {
       "id": "news-3fabfaff9b75e0c613f0b59c",
       "title": "인도 태양 임무 관측, 태양 코로나 고온 문제에 새 단서 제시",
@@ -317,29 +405,6 @@
       }
     },
     {
-      "id": "news-a52a82b46bc68b3c51ece85f",
-      "title": "짐바브웨 카리바호 페리 전복 — 사망자 최소 44명(업데이트)",
-      "startAt": "2026-08-12T12:21:08.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "업데이트: 과적된 페리가 카리바호(Lake Kariba)에서 전복돼 최소 44명이 사망했다고 경찰이 밝혔다. 보도는 해당 여객선 정원은 90명이었으나 표 판매를 기준으로 성인 승객 114명과 승무원 5명이 탑승한 상태였으며 구조 작업이 진행 중이라고 전했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_overloaded-ferry-capsizes-in-zimbabwe-110826?traffic_source=rss",
-          "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
-        ],
-        "firstPublishedAt": "2026-08-12T02:47:36.000Z",
-        "lastObservedAt": "2026-08-12T14:25:43.938Z"
-      }
-    },
-    {
       "id": "news-e063daae6225e15695395681",
       "title": "기업의 에이전트형 AI 도입 현황 — OpenAI 조사 결과 공개",
       "startAt": "2026-08-12T06:00:00.000Z",
@@ -363,28 +428,30 @@
     },
     {
       "id": "news-7d92603cf2986fc0c5bc8ec2",
-      "title": "2026년 8월12일 개기일식 — 북극에서 유럽으로 이동, 수백만 명 관측 전망",
+      "title": "2026년 8월12일 개기일식 회고 — 유럽서 수백만명 관측, 코로나 관측 기회 제공",
       "startAt": "2026-08-12T00:00:00.000Z",
       "lane": "world",
       "category": "space",
       "importance": 2,
-      "description": "알자지라 보도에 따르면 2026년 8월12일 개기일식이 북극을 출발해 그린란드·아이슬란드·유럽 일부를 가로질러 진행되며, 해당 경로 상의 관측자들은 최대 약 2분가량의 총식을 경험할 것으로 보인다. 수백만 명이 일식 현상을 목격할 것으로 예상되며, 안전한 관측과 중계 정보를 사전에 확인할 것이 권고된다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/total-solar-eclipse-2026-where-when-and-how-to-watch-on-wednesday?traffic_source=rss",
+      "description": "2026년 8월12일 북극을 시작으로 그린란드·아이슬란드·스페인·포르투갈 등을 지나는 개기일식이 유럽에서 20여년 만에 관측되었다. 총식 구간에 있던 관측자 수백만 명이 일식 현상을 목격했으며, 총식 동안 태양의 외대기(코로나)를 관측할 수 있는 기회가 됐다. 스페인 등에서 촬영된 장면은 일식의 시각적·과학적 가치를 재확인시켰다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
       "topicIds": [
         "spaceDevelopment"
       ],
       "news": {
-        "status": "developing",
+        "status": "resolved",
         "sourceUrls": [
           "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
           "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
           "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse",
           "https://www.esa.int/ESA_Multimedia/Videos/2026/08/A_total_solar_eclipse_is_coming_to_Europe",
-          "https://www.aljazeera.com/news/2026/8/11/total-solar-eclipse-2026-where-when-and-how-to-watch-on-wednesday?traffic_source=rss"
+          "https://www.aljazeera.com/news/2026/8/11/total-solar-eclipse-2026-where-when-and-how-to-watch-on-wednesday?traffic_source=rss",
+          "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
+          "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/"
         ],
         "firstPublishedAt": "2026-08-05T08:00:00.000Z",
-        "lastObservedAt": "2026-08-11T15:24:04.247Z"
+        "lastObservedAt": "2026-08-14T14:20:08.488Z"
       }
     },
     {
@@ -457,29 +524,6 @@
       }
     },
     {
-      "id": "news-7eea4a5b42b5b188475472ef",
-      "title": "스페이스X, 루이지애나 해안 대규모 발사장 계획에 지역·환경 반발",
-      "startAt": "2026-08-10T14:00:46.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "스페이스X가 루이지애나 베르밀리온 카운티 해안의 페컨아일랜드(Pecan Island) 일대 18마일(약 29km) 구간과 13만에이커(약 52,600ha)에 달하는 토지를 장악하는 방안을 추진 중이라는 보도가 나왔다. 지역 반대론자들은 계획이 급속히 침식되는 연안의 취약한 생태계를 심각하게 훼손할 것을 우려하고 있다. 보도는 회사가 발사 횟수를 늘리고 신형 로켓의 발사도 확대할 것이라고 전했다.",
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/10/spacex-rocket-launch-site-louisiana-backlash",
-      "topicIds": [
-        "spaceDevelopment",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/aug/10/spacex-rocket-launch-site-louisiana-backlash"
-        ],
-        "firstPublishedAt": "2026-08-10T14:00:46.000Z",
-        "lastObservedAt": "2026-08-10T14:25:07.407Z"
-      }
-    },
-    {
       "id": "news-8dd8712f7deec915fddf4adf",
       "title": "제임스웹(JWST), 라이온 성운(NGC 2392) 적외선 이미지 공개",
       "startAt": "2026-08-10T14:00:00.000Z",
@@ -498,29 +542,6 @@
           "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb"
         ],
         "firstPublishedAt": "2026-08-10T14:00:00.000Z",
-        "lastObservedAt": "2026-08-10T14:25:07.407Z"
-      }
-    },
-    {
-      "id": "news-5bb1bb33838f59199a46eca9",
-      "title": "인도 아삼 홍수 사망자 100명 도달 — 브라흐마푸트라 등 범람",
-      "startAt": "2026-08-10T12:39:05.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "연이은 몬순성 폭우로 브라흐마푸트라 강을 포함한 하천이 범람해 아삼 주에서 사망자가 100명에 이르고 수천 명이 집을 잃었다고 보도되었다. 홍수는 생계와 인프라를 광범위하게 훼손하고 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/10/g-s1-138015/flood-death-toll-in-indias-assam-reaches-100-as-thousands-lose-their-homes",
-      "topicIds": [
-        "politicsHumanRights",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/10/g-s1-138015/flood-death-toll-in-indias-assam-reaches-100-as-thousands-lose-their-homes"
-        ],
-        "firstPublishedAt": "2026-08-10T12:39:05.000Z",
         "lastObservedAt": "2026-08-10T14:25:07.407Z"
       }
     },
