@@ -1,8 +1,97 @@
 {
-  "catalogVersion": "0.0.41",
-  "updatedAt": "2026-08-14T14:20:08.488Z",
+  "catalogVersion": "0.0.42",
+  "updatedAt": "2026-08-15T02:19:00.025Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-e3d57f0ec19eeb2d12181187",
+      "title": "인도네시아 동부 규모 7.7 강진 발생",
+      "startAt": "2026-08-15T02:03:22.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "규모 7.7의 강진이 인도네시아 동부를 강타해 건물이 손상되고 주민들이 높은 지대로 대피하는 등 피해가 보고되었다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-2026-indonesia-quake-sv-mp4?traffic_source=rss",
+      "topicIds": [
+        "urbanDevelopment",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-2026-indonesia-quake-sv-mp4?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-15T02:03:22.000Z",
+        "lastObservedAt": "2026-08-15T02:19:00.025Z"
+      }
+    },
+    {
+      "id": "news-93bcdbb66ce6116699f7f795",
+      "title": "많은 이란인들, 전쟁 여파로 터키·반 근처로 이동",
+      "startAt": "2026-08-14T22:03:08.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "국경 인근 터키 도시 반(Van) 등을 찾는 이란 국민들이 늘고 있다. 방문자들은 본국에서의 생활비 상승과 전쟁의 고통 때문에 터키로 이동을 택했다고 전했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/14/nx-s1-5931244/many-iranians-are-heading-to-turkey-to-escape-the-ongoing-wars-heavy-toll",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/14/nx-s1-5931244/many-iranians-are-heading-to-turkey-to-escape-the-ongoing-wars-heavy-toll"
+        ],
+        "firstPublishedAt": "2026-08-14T22:03:08.000Z",
+        "lastObservedAt": "2026-08-15T02:19:00.025Z"
+      }
+    },
+    {
+      "id": "news-7fadaa37eb5a2b2900adfd35",
+      "title": "BBC, 1·6 다큐 관련 트럼프 자녀·쿠슈너에 소환장 발부 허가 요청",
+      "startAt": "2026-08-14T21:05:47.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC가 1월 6일 폭동을 다룬 다큐멘터리 관련 명예훼손 소송에서 방어를 준비하며 도널드 트럼프의 장남·장녀와 재러드 쿠슈너에 대해 증언 및 기록 제출을 요구하는 소환장 발부 권한을 신청했다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/media/2026/aug/14/bbc-trump-children-subpoenas-lawsuit",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/media/2026/aug/14/bbc-trump-children-subpoenas-lawsuit"
+        ],
+        "firstPublishedAt": "2026-08-14T21:05:47.000Z",
+        "lastObservedAt": "2026-08-15T02:19:00.025Z"
+      }
+    },
+    {
+      "id": "news-f75f2a71c79d756ba1c9df7d",
+      "title": "일회용 바비큐 판매 임시 금지 — 가뭄·폭염 속 산불 위험 우려",
+      "startAt": "2026-08-14T19:17:16.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "정부가 현재의 가뭄과 폭염 상황에서 일회용(단일 사용) 바비큐 판매를 임시 금지했다. 당국은 단일 사용 그릴이 현 조건에서 '중대한 공공 위험'을 초래할 수 있다고 경고했다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-14T19:17:16.000Z",
+        "lastObservedAt": "2026-08-15T02:19:00.025Z"
+      }
+    },
     {
       "id": "news-5c88bd9b75e4dc963c5f98b9",
       "title": "영국, 2030 전기차 판매 목표 80%→50% 검토",
@@ -271,28 +360,6 @@
       }
     },
     {
-      "id": "news-7469b780371fcce5cc4321f9",
-      "title": "짐바브웨 토지개혁 새 국면 진입",
-      "startAt": "2026-08-13T01:48:39.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도에 따르면 짐바브웨가 새 토지정책을 도입하면서 2000년대 이후 몰수된 농장들을 둘러싼 분쟁이 다시 촉발되고 있다. 새 정책은 토지 소유·분배 문제를 재조정하며 농민·전 소유주 간의 갈등을 재점화할 가능성이 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/13/zimbabwes-land-reform-enters-a-new-chapter?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/13/zimbabwes-land-reform-enters-a-new-chapter?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-13T01:48:39.000Z",
-        "lastObservedAt": "2026-08-13T03:32:08.456Z"
-      }
-    },
-    {
       "id": "news-40137692ee973e8f3c3de9f1",
       "title": "트럼프, Truth Social 조기접근 유료상품 관련 소송 제기",
       "startAt": "2026-08-12T17:30:21.000Z",
@@ -338,28 +405,6 @@
       }
     },
     {
-      "id": "news-e96a3b3561bf77575062c538",
-      "title": "미국 연간 인플레이션 7월 3.4%로 둔화 — 식품·연료 비용 완화",
-      "startAt": "2026-08-12T14:09:48.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도에 따르면 연간 미국 인플레이션이 7월에 3.4%로 하락했으며, 식품비가 둔화된 가운데 주거비가 물가를 다소 끌어올리고 있다고 전해졌다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-12T14:09:48.000Z",
-        "lastObservedAt": "2026-08-12T14:25:43.938Z"
-      }
-    },
-    {
       "id": "news-1357a9ae7911e1d557ac7ffa",
       "title": "DeepMind, 수어→텍스트 모델 'SL2T' 공개 — 청각장애인용 기능 도입",
       "startAt": "2026-08-12T14:01:59.000Z",
@@ -378,29 +423,6 @@
           "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
         ],
         "firstPublishedAt": "2026-08-12T14:01:59.000Z",
-        "lastObservedAt": "2026-08-12T14:25:43.938Z"
-      }
-    },
-    {
-      "id": "news-68bd4385c965ae1847529f57",
-      "title": "중국의 개혁 주도자 주룽지(朱镕基) 전 총리 별세(97세)",
-      "startAt": "2026-08-12T12:36:30.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 주룽지 전 총리가 97세로 사망했다. 그는 1990년대 중국의 경제개혁을 주도해 국영기업 개혁과 시장지향적 금융 체제 전환을 추진한 인물로 평가받는다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/12/1196705508/zhu-rongji-china-former-premier-dead",
-      "topicIds": [
-        "koreaEastAsia",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/12/1196705508/zhu-rongji-china-former-premier-dead"
-        ],
-        "firstPublishedAt": "2026-08-12T12:36:30.000Z",
         "lastObservedAt": "2026-08-12T14:25:43.938Z"
       }
     },
@@ -452,31 +474,6 @@
         ],
         "firstPublishedAt": "2026-08-05T08:00:00.000Z",
         "lastObservedAt": "2026-08-14T14:20:08.488Z"
-      }
-    },
-    {
-      "id": "news-88db4b3ad91c9ef95b848c8a",
-      "title": "콜롬비아 규모 7.4 강진 피해 확대 — 구조대 수백명 투입, 다수 실종 보고",
-      "startAt": "2026-08-11T21:12:05.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "규모 7.4 지진 발생 후 수백 명의 구조대원들이 피해가 특히 큰 도시들에 투입되어 잔해 아래에서 생존자 수색을 벌이고 있으며, 여전히 수백 명의 실종자가 보고되고 있다(미국 NPR 보도).",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/11/nx-s1-5928036/the-death-toll-climbs-from-mondays-7-4-magnitude-earthquake-in-colombia",
-      "topicIds": [
-        "urbanDevelopment",
-        "climateEnvironment",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/11/nx-s1-5928036/the-death-toll-climbs-from-mondays-7-4-magnitude-earthquake-in-colombia"
-        ],
-        "firstPublishedAt": "2026-08-10T14:20:38.000Z",
-        "lastObservedAt": "2026-08-12T03:29:30.701Z"
       }
     },
     {
