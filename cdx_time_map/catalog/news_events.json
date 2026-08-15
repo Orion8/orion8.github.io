@@ -1,18 +1,62 @@
 {
-  "catalogVersion": "0.0.42",
-  "updatedAt": "2026-08-15T02:19:00.025Z",
+  "catalogVersion": "0.0.43",
+  "updatedAt": "2026-08-15T13:39:22.939Z",
   "sourceType": "editorial",
   "events": [
     {
+      "id": "news-edc71185679e7c3b30f8ca84",
+      "title": "이재명, 북과의 전쟁 종료 위한 공식 회담 제안",
+      "startAt": "2026-08-15T09:35:23.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "이재명(Lee Jae Myung)이 1953년 정전 이후 사실상 동결된 한반도의 전쟁 상태를 공식적으로 끝내기 위한 회담 개최를 제안했다. 제안은 남북 관계와 한반도 평화 프로세스에 새로운 전환 가능성을 제시한다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-15T09:35:23.000Z",
+        "lastObservedAt": "2026-08-15T13:39:22.938Z"
+      }
+    },
+    {
+      "id": "news-752dec500b4517b9747a97df",
+      "title": "미군 지원자였던 아프간인들, 영주권 상실 우려",
+      "startAt": "2026-08-15T09:00:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "미군과 함께 일했던 아프가니스탄인 수천 명이 5년 전 미군 철수 이후 미국에서 정착을 시도했으나, 최근 일부는 영주권(그린카드)을 잃고 본국 송환될 가능성에 대한 우려를 표하고 있다. 이 문제는 이민·난민 정책과 전시 협력자 보호 문제를 환기한다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/15/nx-s1-5897606/afghanistan-visa-green-card-deport",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/15/nx-s1-5897606/afghanistan-visa-green-card-deport"
+        ],
+        "firstPublishedAt": "2026-08-15T09:00:00.000Z",
+        "lastObservedAt": "2026-08-15T13:39:22.938Z"
+      }
+    },
+    {
       "id": "news-e3d57f0ec19eeb2d12181187",
-      "title": "인도네시아 동부 규모 7.7 강진 발생",
-      "startAt": "2026-08-15T02:03:22.000Z",
+      "title": "인도네시아 해안 규모 7.7 강진 — 사망 최소 38명 보고",
+      "startAt": "2026-08-15T08:29:20.000Z",
       "lane": "world",
       "category": "climateDisaster",
       "importance": 3,
-      "description": "규모 7.7의 강진이 인도네시아 동부를 강타해 건물이 손상되고 주민들이 높은 지대로 대피하는 등 피해가 보고되었다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-2026-indonesia-quake-sv-mp4?traffic_source=rss",
+      "description": "2026-08-15 새벽 인도네시아 동부 해안 인근에서 규모 7.7의 강진이 발생해 최소 38명이 사망하고 건물 붕괴와 주민 대피 등 피해가 보고되었다. 이번 지역은 강진 발생이 잦아 주민들이 높은 지대로 대피하는 등 공황이 빚어졌다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/15/nx-s1-5932405/earthquake-indonesia",
       "topicIds": [
         "urbanDevelopment",
         "climateEnvironment"
@@ -20,10 +64,11 @@
       "news": {
         "status": "breaking",
         "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-2026-indonesia-quake-sv-mp4?traffic_source=rss"
+          "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-2026-indonesia-quake-sv-mp4?traffic_source=rss",
+          "https://www.npr.org/2026/08/15/nx-s1-5932405/earthquake-indonesia"
         ],
         "firstPublishedAt": "2026-08-15T02:03:22.000Z",
-        "lastObservedAt": "2026-08-15T02:19:00.025Z"
+        "lastObservedAt": "2026-08-15T13:39:22.938Z"
       }
     },
     {
@@ -90,6 +135,29 @@
         ],
         "firstPublishedAt": "2026-08-14T19:17:16.000Z",
         "lastObservedAt": "2026-08-15T02:19:00.025Z"
+      }
+    },
+    {
+      "id": "news-dd423fa12cb3867f67f9c2cb",
+      "title": "과학자들, 달 뒷면 소형 위성으로 우주 초기의 21cm 신호 탐색 계획",
+      "startAt": "2026-08-14T15:00:32.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "영국 연구팀이 수트케이스 크기의 소형 위성을 달 궤도로 올려 달 뒷면을 지나는 동안 중성수소의 21cm 선(라디오 주파수)을 관측해 빅뱅 직후의 우주 상태를 밝히려는 계획을 발표했다. 달 뒷면은 지구 잡음으로부터 차폐돼 희귀 신호 탐색에 유리하다.",
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/aug/14/scientists-young-universe-moon-dark-side-cosmocube-satellite-radio-signal-21cm-line",
+      "topicIds": [
+        "physicsChemistry",
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/aug/14/scientists-young-universe-moon-dark-side-cosmocube-satellite-radio-signal-21cm-line"
+        ],
+        "firstPublishedAt": "2026-08-14T15:00:32.000Z",
+        "lastObservedAt": "2026-08-15T13:39:22.938Z"
       }
     },
     {
@@ -315,51 +383,6 @@
       }
     },
     {
-      "id": "news-35139b59e9a79bd5bef7ab40",
-      "title": "대만, 방어 훈련 일환으로 모바일 인터넷을 문자 전용 속도로 일시 저하",
-      "startAt": "2026-08-13T13:18:43.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "대만은 중국과의 긴장 속에서 실시한 방어 훈련의 일환으로 모바일 인터넷 속도를 일시적으로 문자 전송 수준으로 낮추었다. 이번 조치는 군사적 위협에 대비한 훈련의 일부로 보도되었다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/13/g-s1-138581/taiwan-briefly-slows-its-mobile-internet-to-text-only-speed-as-part-of-defense-drill",
-      "topicIds": [
-        "koreaEastAsia",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/13/g-s1-138581/taiwan-briefly-slows-its-mobile-internet-to-text-only-speed-as-part-of-defense-drill"
-        ],
-        "firstPublishedAt": "2026-08-13T13:18:43.000Z",
-        "lastObservedAt": "2026-08-13T14:33:00.288Z"
-      }
-    },
-    {
-      "id": "news-28a46bff448f1e7b7c0f6b60",
-      "title": "흑해 항구 공격으로 주요 러시아 곡물 수출 터미널 타격",
-      "startAt": "2026-08-13T03:28:56.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 흑해 항구 공격으로 러시아의 주요 곡물 수출 터미널이 심각한 피해를 입었으며, 러시아와 우크라이나가 서로의 선박·항만 시설을 공격하면서 양국의 곡물 수출량이 감소하고 있다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-13T03:28:56.000Z",
-        "lastObservedAt": "2026-08-13T03:32:08.456Z"
-      }
-    },
-    {
       "id": "news-40137692ee973e8f3c3de9f1",
       "title": "트럼프, Truth Social 조기접근 유료상품 관련 소송 제기",
       "startAt": "2026-08-12T17:30:21.000Z",
@@ -380,28 +403,6 @@
         ],
         "firstPublishedAt": "2026-08-12T17:30:21.000Z",
         "lastObservedAt": "2026-08-13T03:32:08.457Z"
-      }
-    },
-    {
-      "id": "news-f7305f0adcc8d210869304b6",
-      "title": "중동 분쟁(이란 관련)으로 영국 성장률 압박 우려 — Burnham 경고",
-      "startAt": "2026-08-12T14:17:26.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "Burnham은 이란 관련 중동 분쟁이 내년 영국 경제성장에 타격을 줄 수 있다고 경고했다. 보도에 따르면 분쟁으로 유가·연료 가격이 상승하고 공급망에도 차질이 빚어지고 있다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-12T14:17:26.000Z",
-        "lastObservedAt": "2026-08-12T14:25:43.938Z"
       }
     },
     {
@@ -496,28 +497,6 @@
         ],
         "firstPublishedAt": "2026-08-11T08:00:00.000Z",
         "lastObservedAt": "2026-08-11T14:24:38.217Z"
-      }
-    },
-    {
-      "id": "news-6332151143677ecf4af5d55e",
-      "title": "미 법원, 인도 재벌 가우탐 아다니에 대한 형사 기소 각하",
-      "startAt": "2026-08-10T19:54:30.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "미 연방법원이 연방검찰의 사건 포기에 따라 가우탐 아다니(Gautam Adani)에 대한 사기·뇌물 혐의 형사 기소를 각하했다. 아다니 그룹은 혐의를 일관되게 부인해왔다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/10/gautam-adani-charges-dismissed-doj",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/aug/10/gautam-adani-charges-dismissed-doj"
-        ],
-        "firstPublishedAt": "2026-08-10T19:54:30.000Z",
-        "lastObservedAt": "2026-08-11T03:09:38.488Z"
       }
     },
     {
@@ -696,28 +675,6 @@
         ],
         "firstPublishedAt": "2026-07-31T20:19:37.000Z",
         "lastObservedAt": "2026-08-01T14:40:30.159Z"
-      }
-    },
-    {
-      "id": "news-f8ec64126bdac17b3b31c4b6",
-      "title": "OpenAI, 유럽에서의 책임 있는 AI 거버넌스 관행 공유",
-      "startAt": "2026-07-31T15:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI는 안전·보안·투명성·출처(provenance) 관련 관행을 유럽에서의 책임 있는 AI 거버넌스 지원 방안으로 제시하며, EU AI법 진전에 맞춰 계속 작업하겠다고 밝혔습니다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/advancing-responsible-ai-across-europe"
-        ],
-        "firstPublishedAt": "2026-07-31T15:00:00.000Z",
-        "lastObservedAt": "2026-08-01T04:31:31.736Z"
       }
     },
     {
