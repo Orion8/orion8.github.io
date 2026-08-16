@@ -1,8 +1,75 @@
 {
-  "catalogVersion": "0.0.44",
-  "updatedAt": "2026-08-16T02:33:53.232Z",
+  "catalogVersion": "0.0.45",
+  "updatedAt": "2026-08-16T13:40:49.770Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-32f660769b3ab817fcdeed9d",
+      "title": "서안지구 쿠스라(Qusra) 일주일 봉쇄—이스라엘 정착민, 가옥 포위·보급 차단으로 '군사구역' 선포",
+      "startAt": "2026-08-16T13:17:57.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라는 이스라엘 정착민들이 서안지구의 쿠스라 마을을 일주일 동안 포위해 가옥을 에워싸고 보급을 차단했다고 보도했다. 사태는 군 당국의 '군사구역' 선언으로 이어지며 해당 지역 주민들의 접근과 생활에 심각한 영향을 미치고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/gallery/2026/8/16/timeline-the-one-week-siege-of-qusra-by-israeli-settlers-in-the-west-bank?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/gallery/2026/8/16/timeline-the-one-week-siege-of-qusra-by-israeli-settlers-in-the-west-bank?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-16T13:17:57.000Z",
+        "lastObservedAt": "2026-08-16T13:40:49.770Z"
+      }
+    },
+    {
+      "id": "news-f7053cd9143e1bb6de1cb141",
+      "title": "인도네시아 지진으로 수천 명 대피·건물 피해 발생—최소 53명 사망",
+      "startAt": "2026-08-16T12:37:21.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "인도네시아에서 발생한 지진으로 수백 채의 주택과 공공건물이 심각한 피해를 입었고, 구조 활동이 계속되는 가운데 최소 53명이 사망한 것으로 보고됐다. 수천 명이 대피하는 등 인명·주거 피해 규모가 크다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "urbanDevelopment",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-16T12:37:21.000Z",
+        "lastObservedAt": "2026-08-16T13:40:49.770Z"
+      }
+    },
+    {
+      "id": "news-31dae9a6b15deb4d100d8348",
+      "title": "우크라이나, 러시아에 수백대 드론 동원한 대규모 공중공격—러시아서 최소 6명 사망",
+      "startAt": "2026-08-16T10:12:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "우크라이나가 일요일(현지시간) 수백 대의 드론를 러시아 전역에 발사해, 키이우 측의 공격 중 하나로 분류되는 대규모 공습이 발생했다. 보도에 따르면 이번 공격으로 러시아에서 최소 6명이 사망했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia"
+        ],
+        "firstPublishedAt": "2026-08-16T10:12:09.000Z",
+        "lastObservedAt": "2026-08-16T13:40:49.770Z"
+      }
+    },
     {
       "id": "news-e30d075d30fc02635fe710d0",
       "title": "나이지리아, 유류값 급등에 전기 오토바이 확산",
@@ -364,50 +431,6 @@
       }
     },
     {
-      "id": "news-368c8b2005a59cda14550c70",
-      "title": "푸틴, 영유권 분쟁 중인 태평양 섬 첫 방문…도쿄가 항의",
-      "startAt": "2026-08-13T16:40:26.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "블라디미르 푸틴 대통령이 일본과 영유권 분쟁 중인 태평양의 최남단 섬들을 처음 방문하자 도쿄가 공식 항의를 제기했다. 해당 사슬의 네 개 최남단 섬은 일본이 '북방영토'(Northern Territories)라 주장하는 곳이다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/13/g-s1-138631/vladimir-putins-first-visit-to-disputed-pacific-islands-draws-tokyo-protest",
-      "topicIds": [
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/13/g-s1-138631/vladimir-putins-first-visit-to-disputed-pacific-islands-draws-tokyo-protest"
-        ],
-        "firstPublishedAt": "2026-08-13T16:40:26.000Z",
-        "lastObservedAt": "2026-08-14T03:30:20.039Z"
-      }
-    },
-    {
-      "id": "news-66d954c507762e23d954e759",
-      "title": "우크라이나 드론 공격, 러시아의 크림반도 통제에 도전",
-      "startAt": "2026-08-13T15:18:27.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "우크라이나의 드론 공격이 크림반도를 집중적으로 타격해 러시아의 오랜 통제력을 흔들고 있으며, 지역 주민들의 일상생활과 통행이 큰 영향을 받고 있다. 러시아는 2014년 크림을 장악한 뒤 사실상 통제해 왔다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/13/nx-s1-5904418/ukraine-crimea-russia-drone-strikes",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/13/nx-s1-5904418/ukraine-crimea-russia-drone-strikes"
-        ],
-        "firstPublishedAt": "2026-08-13T15:18:27.000Z",
-        "lastObservedAt": "2026-08-14T03:30:20.039Z"
-      }
-    },
-    {
       "id": "news-4268ad04a3e8a05c2213afa2",
       "title": "콩고 민주공화국(DRC) 에볼라 발병, 6번째 주로 확산",
       "startAt": "2026-08-13T15:17:13.000Z",
@@ -429,28 +452,6 @@
         ],
         "firstPublishedAt": "2026-08-13T01:31:21.000Z",
         "lastObservedAt": "2026-08-14T03:30:20.039Z"
-      }
-    },
-    {
-      "id": "news-c7ed050e74f77ef1be48bbfd",
-      "title": "해비 니콜스(Harvey Nichols), Sports Direct 소유주에 인수",
-      "startAt": "2026-08-13T14:27:43.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "영국의 백화점 해비 니콜스가 Sports Direct 소유주에 매각되었다. 이 백화점은 시트콤 'Absolutely Fabulous'로 널리 알려져 있으며, 보도에 따르면 매각 전 영업 중단 가능성을 경고한 상황이었다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-13T14:27:43.000Z",
-        "lastObservedAt": "2026-08-13T14:33:00.288Z"
       }
     },
     {
