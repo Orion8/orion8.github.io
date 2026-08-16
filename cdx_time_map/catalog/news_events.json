@@ -1,8 +1,78 @@
 {
-  "catalogVersion": "0.0.43",
-  "updatedAt": "2026-08-15T13:39:22.939Z",
+  "catalogVersion": "0.0.44",
+  "updatedAt": "2026-08-16T02:33:53.232Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-e30d075d30fc02635fe710d0",
+      "title": "나이지리아, 유류값 급등에 전기 오토바이 확산",
+      "startAt": "2026-08-16T01:43:57.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "유류 가격 급등으로 라이더들이 전기 오토바이(e‑bike)로 전환을 늘리고 있다. 보도에 따르면 이용자들은 연료비와 정비비를 절감하는 효과를 경험하고 있다고 전했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/16/as-petrol-prices-soar-electric-bikes-gain-ground-in-nigeria?traffic_source=rss",
+      "topicIds": [
+        "economyFinance",
+        "urbanDevelopment",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/16/as-petrol-prices-soar-electric-bikes-gain-ground-in-nigeria?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-16T01:43:57.000Z",
+        "lastObservedAt": "2026-08-16T02:33:53.232Z"
+      }
+    },
+    {
+      "id": "news-2a997206ce314340bd98d28c",
+      "title": "하와이, 34년 만의 직접 상륙 가능성 — 허리케인 '라라' 경보",
+      "startAt": "2026-08-15T23:34:24.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "BBC는 허리케인 라라가 하와이를 향해 북상 중이며, 최악의 경우 빅아일랜드에 최대 25인치(약 63cm) 강수를 뿌릴 수 있다고 경고했다. 라라는 34년 만에 하와이를 직접 강타할 가능성이 제기되고 있다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "lifeScience"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-15T23:34:24.000Z",
+        "lastObservedAt": "2026-08-16T02:33:53.232Z"
+      }
+    },
+    {
+      "id": "news-41036778d9fb6b865914710c",
+      "title": "세우타 진입 시도자 111명 체포 — 모로코·스페인 국경 긴장 재고조",
+      "startAt": "2026-08-15T18:08:21.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언은 소셜미디어 게시로 또 다른 대규모 국경 돌파 시도가 촉발된 가운데 모로코 경찰이 스페인의 북아프리카 영토 세우타에 진입을 시도한 사람 111명을 체포했다고 보도했다. 이번 사례는 2주 전 72,000명 이상의 이주민이 세우타로 몰렸고 약 96명이 사망한 대규모 이동 사태 이후의 긴장이 이어지는 상황이다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta",
+      "topicIds": [
+        "politicsHumanRights",
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
+        ],
+        "firstPublishedAt": "2026-08-15T18:08:21.000Z",
+        "lastObservedAt": "2026-08-16T02:33:53.232Z"
+      }
+    },
     {
       "id": "news-edc71185679e7c3b30f8ca84",
       "title": "이재명, 북과의 전쟁 종료 위한 공식 회담 제안",
@@ -135,6 +205,29 @@
         ],
         "firstPublishedAt": "2026-08-14T19:17:16.000Z",
         "lastObservedAt": "2026-08-15T02:19:00.025Z"
+      }
+    },
+    {
+      "id": "news-21047268d1bddde0ba703597",
+      "title": "NASA, 11월 케네디 우주센터서 'MAX POWER' 항공우주 엑스포·에어쇼 발표",
+      "startAt": "2026-08-14T18:44:36.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 미국 건국 250주년을 기념해 11월 7~8일 케네디 우주센터 인근에서 차세대 항공기·우주선·자율 차량·기술을 선보이는 공공 엑스포 겸 에어쇼 'MAX POWER'를 개최한다고 발표했다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/",
+      "topicIds": [
+        "spaceDevelopment",
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/"
+        ],
+        "firstPublishedAt": "2026-08-14T18:44:36.000Z",
+        "lastObservedAt": "2026-08-16T02:33:53.232Z"
       }
     },
     {
@@ -358,51 +451,6 @@
         ],
         "firstPublishedAt": "2026-08-13T14:27:43.000Z",
         "lastObservedAt": "2026-08-13T14:33:00.288Z"
-      }
-    },
-    {
-      "id": "news-c6ef1f0c1fd1bd88acdd1644",
-      "title": "프랑스 대사 브루노 푸쉐, 중앙아프리카공화국 거주지 관련 품행 의혹으로 징계 조사",
-      "startAt": "2026-08-13T14:21:52.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "프랑스는 중앙아프리카공화국(CAR) 주재 대사 브루노 푸쉐에 대해 공식 거주지로 수십 명의 여성이 드나들었다는 의혹과 이로 인한 보안 우려를 이유로 징계 절차를 개시해 조사에 착수했다. 이번 조사는 파리와 CAR 관계 회복을 모색하는 가운데 진행되고 있다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher"
-        ],
-        "firstPublishedAt": "2026-08-13T14:21:52.000Z",
-        "lastObservedAt": "2026-08-13T14:33:00.288Z"
-      }
-    },
-    {
-      "id": "news-40137692ee973e8f3c3de9f1",
-      "title": "트럼프, Truth Social 조기접근 유료상품 관련 소송 제기",
-      "startAt": "2026-08-12T17:30:21.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도에 따르면 인터셉트(Intercept)와 언론자유재단(Freedom of the Press Foundation)이 대통령의 공적 직무로 생성된 정보에 대해 월 10만 달러까지 청구하는 '조기접근' 구독 서비스를 통해 특권적 접근을 판매하려 한다며 도널드 트럼프, 보좌관 2명 및 대통령 집행실을 상대로 뉴욕 남부지방법원에 소송을 제기했다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/12/truth-social-suit-trump-early-access-offer",
-      "topicIds": [
-        "economyFinance",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/aug/12/truth-social-suit-trump-early-access-offer"
-        ],
-        "firstPublishedAt": "2026-08-12T17:30:21.000Z",
-        "lastObservedAt": "2026-08-13T03:32:08.457Z"
       }
     },
     {
