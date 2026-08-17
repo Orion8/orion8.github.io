@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "3.1.6",
-  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "catalogVersion": "3.2.0",
+  "updatedAt": "2026-08-17T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
     {"id": "civilizationPacks", "title": "문명"}
@@ -2655,6 +2655,125 @@
     "seriesName": "하계 올림픽",
     "recurrenceYears": 4,
     "hostLocation": "미국 로스앤젤레스"
+  },
+  {
+    "id": "historic-haber-bosch-ammonia",
+    "title": "하버-보슈 공정의 산업적 암모니아 합성",
+    "startAt": "1913-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "공기 중 질소로 암모니아를 대량 합성하는 하버-보슈 공정은 인공 질소비료 생산을 가능하게 해 현대 농업과 인구 부양 능력에 큰 영향을 주었습니다.",
+    "sourceName": "Nobel Prize",
+    "sourceUrl": "https://www.nobelprize.org/prizes/chemistry/2007/8923-nitrogen-becomes-artificial-fertilizer/",
+    "topicIds": ["agriculture", "physicsChemistry"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1913년경",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-first-controlled-nuclear-reaction",
+    "title": "최초의 제어된 핵연쇄반응",
+    "startAt": "1942-12-02T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "엔리코 페르미 연구팀의 시카고 파일-1이 최초의 자립·제어 핵연쇄반응에 성공했습니다. 원자력과 핵무기 시대를 연 전환점입니다.",
+    "sourceName": "U.S. Department of Energy",
+    "sourceUrl": "https://www.energy.gov/lm/metallurgical-laboratory-university-chicago",
+    "topicIds": ["physicsChemistry", "weapons"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "1942년 12월 2일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-dna-double-helix",
+    "title": "DNA 이중나선 구조 발표",
+    "startAt": "1953-04-25T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "DNA가 유전 정보를 복제·전달할 수 있는 이중나선 구조라는 설명이 발표됐습니다. 현대 분자생물학과 유전체학의 핵심 전환점입니다.",
+    "sourceName": "National Human Genome Research Institute",
+    "sourceUrl": "https://www.genome.gov/25520255/online-education-kit-1953-dna-double-helix",
+    "topicIds": ["lifeScience", "medicineHealth"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "1953년 4월 25일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-keeling-curve",
+    "title": "킬링 곡선의 대기 이산화탄소 관측 시작",
+    "startAt": "1958-03-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "찰스 데이비드 킬링의 마우나로아 관측은 대기 이산화탄소 농도가 뚜렷하게 증가하고 있음을 보여 주며, 현대 기후과학의 핵심 장기 기록이 됐습니다.",
+    "sourceName": "Scripps Institution of Oceanography",
+    "sourceUrl": "https://scripps.ucsd.edu/news/ralph-keeling-curve",
+    "topicIds": ["climateEnvironment", "physicsChemistry"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "1958년 3월",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-tcp-ip-transition",
+    "title": "ARPANET의 TCP/IP 전환",
+    "startAt": "1983-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "ARPANET이 NCP에서 TCP/IP로 일괄 전환했습니다. 서로 다른 네트워크를 연결하는 오늘날 인터넷의 기반을 확립한 사건입니다.",
+    "sourceName": "Internet Society",
+    "sourceUrl": "https://www.internetsociety.org/news/press-releases/2013/new-years-day-marks-30th-anniversary-of-major-milestone-for-global-internet/",
+    "topicIds": ["internetWeb", "computerHistory"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "1983년 1월 1일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-human-genome-project-completion",
+    "title": "인간 게놈 프로젝트 완료 발표",
+    "startAt": "2003-04-14T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "국제 컨소시엄이 인간 게놈 프로젝트의 목표 달성을 발표했습니다. 인간 유전체 연구·정밀의학·생명정보학을 가속한 대규모 공동 과학 프로젝트입니다.",
+    "sourceName": "National Human Genome Research Institute",
+    "sourceUrl": "https://www.genome.gov/11006929/2003-release-international-consortium-completes-hgp",
+    "topicIds": ["lifeScience", "medicineHealth", "computerHistory"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "2003년 4월 14일",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-crispr-genome-editing",
+    "title": "CRISPR-Cas9 유전체 편집 기술 발표",
+    "startAt": "2012-08-17T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "프로그래밍 가능한 CRISPR-Cas9 유전체 편집 기술을 제시한 연구가 발표됐습니다. 생명과학 연구와 유전질환 치료 연구의 도구를 크게 바꿨습니다.",
+    "sourceName": "Nobel Prize",
+    "sourceUrl": "https://www.nobelprize.org/prizes/chemistry/2020/doudna/biographical/",
+    "topicIds": ["lifeScience", "medicineHealth"],
+    "timeEstimate": {
+      "kind": "exact",
+      "displayLabel": "2012년 8월 17일",
+      "confidence": "high"
+    }
   }
   ]
 }

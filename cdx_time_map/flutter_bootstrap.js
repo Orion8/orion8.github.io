@@ -39,7 +39,7 @@ _flutter.buildConfig = {"engineRevision":"4c525dac5ebe5971c5708ef73558ed8edcf4a3
 // GitHub Pages caches main.dart.js under its stable filename. Give each Time
 // Map release a distinct entrypoint URL so an immediately opened browser
 // cannot run a previous version for up to the cache lifetime.
-const timeMapBuildVersion = "639783531" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */;
+const timeMapBuildVersion = "557267036" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */;
 for (const build of _flutter.buildConfig.builds) {
   if (build.mainJsPath) {
     build.mainJsPath = `${build.mainJsPath}?v=${timeMapBuildVersion}`;
@@ -48,6 +48,6 @@ for (const build of _flutter.buildConfig.builds) {
 
 _flutter.loader.load({
   serviceWorkerSettings: {
-    serviceWorkerVersion: "639783531" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
+    serviceWorkerVersion: "557267036" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
   },
 });
