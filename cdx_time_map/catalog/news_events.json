@@ -1,8 +1,74 @@
 {
-  "catalogVersion": "0.0.46",
-  "updatedAt": "2026-08-17T02:25:04.895Z",
+  "catalogVersion": "0.0.47",
+  "updatedAt": "2026-08-17T13:51:19.384Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-ab3bed0fd83839782d810358",
+      "title": "영국 정부 차입비용 다년 최고치·주택가격 하락 전망",
+      "startAt": "2026-08-17T13:27:07.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 시장의 인플레이션 우려와 유가·가스 가격 상승 속에서 영국의 정부 차입 비용이 다년(多年) 최고 수준을 기록했고, Rightmove 등 조사에서는 영국 주택 가격이 올해 하락할 것으로 예상됐다. 같은 보도는 파운드화가 달러 대비 3개월 만에 최고 수준을 회복한 점도 전했다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/live/2026/aug/17/british-house-prices-fall-burnham-interest-rates-oil-bank-taxes-stock-markets-live-updates",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/live/2026/aug/17/british-house-prices-fall-burnham-interest-rates-oil-bank-taxes-stock-markets-live-updates"
+        ],
+        "firstPublishedAt": "2026-08-17T13:27:07.000Z",
+        "lastObservedAt": "2026-08-17T13:51:19.384Z"
+      }
+    },
+    {
+      "id": "news-4eb107933eb96d1e6dd51932",
+      "title": "버진, 채널 터널 유럽 운행권 확보 절차 착수—하루 최대 20회 운행 제안",
+      "startAt": "2026-08-17T12:46:25.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 버진은 채널 터널을 이용해 일일 최대 20회 유럽행 열차 운행을 하려는 계획을 추진했으며, 다만 해외(영국 외) 선로 운행을 위해 추가적인 승인 절차가 필요하다고 전해졌다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjrvx4yye81o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cjrvx4yye81o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-17T12:46:25.000Z",
+        "lastObservedAt": "2026-08-17T13:51:19.384Z"
+      }
+    },
+    {
+      "id": "news-3ff02964da6b7f4fea83906b",
+      "title": "OpenAI, ‘지능 시대’ 정책 아이디어 연구에 14개 독립 프로젝트 자금 지원",
+      "startAt": "2026-08-17T03:15:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI 보도자료에 따르면 회사는 경제적 기회 확대와 사회적 회복력 강화를 목표로 하는 '지능 시대' 관련 정책 아이디어를 탐구하기 위해 14개의 독립 프로젝트에 자금을 지원한다고 발표했다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/new-policy-ideas-for-the-intelligence-age"
+        ],
+        "firstPublishedAt": "2026-08-17T03:15:00.000Z",
+        "lastObservedAt": "2026-08-17T13:51:19.384Z"
+      }
+    },
     {
       "id": "news-2e474140ce202bd659d66685",
       "title": "이스라엘 정착민들, 서안지구에 불법 새 전초기지 설치 위해 텐트 치기",
@@ -368,28 +434,6 @@
       }
     },
     {
-      "id": "news-5c88bd9b75e4dc963c5f98b9",
-      "title": "영국, 2030 전기차 판매 목표 80%→50% 검토",
-      "startAt": "2026-08-14T14:08:21.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "영국 정부가 2030년까지 신차 판매에서 전기차 비중 목표를 기존 80%에서 50%로 낮추는 방안을 검토하고 있다고 보도되었다. 자동차 업계의 압력으로 목표 조정 가능성이 제기되며 전기차 보급과 탄소 감축 정책의 향방에 영향이 있을 전망이다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-14T14:08:21.000Z",
-        "lastObservedAt": "2026-08-14T14:20:08.488Z"
-      }
-    },
-    {
       "id": "news-a6e786317f4d9a7d9a8cd505",
       "title": "BP, 베네수엘라 로란(Loran) 가스전 2단계 개발 계획 발표",
       "startAt": "2026-08-14T14:04:49.000Z",
@@ -431,6 +475,28 @@
         ],
         "firstPublishedAt": "2026-08-14T10:30:17.000Z",
         "lastObservedAt": "2026-08-14T14:20:08.488Z"
+      }
+    },
+    {
+      "id": "news-43643a3dd841363b8ac91be3",
+      "title": "DeepMind, 'Gemini 3.7 Flash' 공개",
+      "startAt": "2026-08-13T17:04:18.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "DeepMind 블로그 게시물에 따르면 DeepMind가 Gemini 3.7 Flash 모델을 공개했다. (원문 제목: Introducing Gemini 3.7 Flash)",
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+        ],
+        "firstPublishedAt": "2026-08-13T17:04:18.000Z",
+        "lastObservedAt": "2026-08-17T13:51:19.384Z"
       }
     },
     {
@@ -657,28 +723,6 @@
           "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/"
         ],
         "firstPublishedAt": "2026-08-01T20:26:04.000Z",
-        "lastObservedAt": "2026-08-02T04:34:53.970Z"
-      }
-    },
-    {
-      "id": "news-e299630b866e2d7ebb7f5430",
-      "title": "OpenAI, 수학·이론컴퓨터과학 분야 10가지 진전 공개",
-      "startAt": "2026-08-01T00:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI가 기하학·암호학·복잡도이론 등 오랜 숙제로 남아있던 분야에서의 연구 성과 10가지를 공개했다. 발표는 AI 연구가 기초과학·이론컴퓨터과학 문제 해결에도 영향을 미치고 있음을 보여준다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/ten-advances-in-mathematics",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/ten-advances-in-mathematics"
-        ],
-        "firstPublishedAt": "2026-08-01T00:00:00.000Z",
         "lastObservedAt": "2026-08-02T04:34:53.970Z"
       }
     },
