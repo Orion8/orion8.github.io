@@ -1,8 +1,77 @@
 {
-  "catalogVersion": "0.0.45",
-  "updatedAt": "2026-08-16T13:40:49.770Z",
+  "catalogVersion": "0.0.46",
+  "updatedAt": "2026-08-17T02:25:04.895Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-2e474140ce202bd659d66685",
+      "title": "이스라엘 정착민들, 서안지구에 불법 새 전초기지 설치 위해 텐트 치기",
+      "startAt": "2026-08-17T01:28:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 이스라엘 정착민들이 점령지인 요르단강 서안에서 새 불법 전초기지를 마련하기 위해 텐트를 치고 있다. 유엔 특별보고관 알바네제는 이를 두고 이스라엘이 정착민을 활용해 서안 지역에서 '민족청소'를 진전시키고 있다고 경고했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-17T01:28:13.000Z",
+        "lastObservedAt": "2026-08-17T02:25:04.895Z"
+      }
+    },
+    {
+      "id": "news-4268ad04a3e8a05c2213afa2",
+      "title": "DRC 에볼라 발병, 자국 역사상 최다 사망자 기록—사망자 2,325명·확진 4,945건(정부 집계)",
+      "startAt": "2026-08-17T00:09:57.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 콩고민주공화국의 에볼라 발병으로 정부 집계 기준 사망자가 최소 2,325명에 이르렀고, 확진 사례는 4,945건으로 집계돼 2018–20년 발병 기록을 넘었다. 보건당국은 최근 24시간에만 101건의 신규 확진이 확인됐다고 보고했다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
+          "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
+          "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
+        ],
+        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
+        "lastObservedAt": "2026-08-17T02:25:04.895Z"
+      }
+    },
+    {
+      "id": "news-5517ec00a7fb2fbc5639ecc1",
+      "title": "트럼프, 한국의 이란 전쟁 불참 이유로 한미 연합군사훈련 축소 방침 표명",
+      "startAt": "2026-08-17T00:06:05.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 보도에 따르면 도널드 트럼프 대통령은 한국이 이란 전쟁에 참여하지 않은 데다 자신과 북한 지도자 간의 '매우 좋은 관계'를 이유로 한미 연합군사훈련의 규모를 축소하겠다고 밝혔다. 해당 발언은 한반도 주변 군사태세와 한미동맹의 훈련 관행에 변화를 시사한다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-17T00:06:05.000Z",
+        "lastObservedAt": "2026-08-17T02:25:04.895Z"
+      }
+    },
     {
       "id": "news-32f660769b3ab817fcdeed9d",
       "title": "서안지구 쿠스라(Qusra) 일주일 봉쇄—이스라엘 정착민, 가옥 포위·보급 차단으로 '군사구역' 선포",
@@ -231,28 +300,6 @@
       }
     },
     {
-      "id": "news-7fadaa37eb5a2b2900adfd35",
-      "title": "BBC, 1·6 다큐 관련 트럼프 자녀·쿠슈너에 소환장 발부 허가 요청",
-      "startAt": "2026-08-14T21:05:47.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "BBC가 1월 6일 폭동을 다룬 다큐멘터리 관련 명예훼손 소송에서 방어를 준비하며 도널드 트럼프의 장남·장녀와 재러드 쿠슈너에 대해 증언 및 기록 제출을 요구하는 소환장 발부 권한을 신청했다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/media/2026/aug/14/bbc-trump-children-subpoenas-lawsuit",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/media/2026/aug/14/bbc-trump-children-subpoenas-lawsuit"
-        ],
-        "firstPublishedAt": "2026-08-14T21:05:47.000Z",
-        "lastObservedAt": "2026-08-15T02:19:00.025Z"
-      }
-    },
-    {
       "id": "news-f75f2a71c79d756ba1c9df7d",
       "title": "일회용 바비큐 판매 임시 금지 — 가뭄·폭염 속 산불 위험 우려",
       "startAt": "2026-08-14T19:17:16.000Z",
@@ -365,28 +412,6 @@
       }
     },
     {
-      "id": "news-36cb8bcdc90fe5aa12d3623e",
-      "title": "파키스탄 총리, 인도에 인더스 수자원조약 위반 '레드라인' 경고",
-      "startAt": "2026-08-14T13:07:19.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "셰바즈 샤리프 파키스탄 총리가 인도가 인더스 수력조약(Indus Waters Treaty)을 불법적으로 정지시켰다고 비판하며 이를 '레드라인'으로 규정한 경고 발언을 했다. 양국 간 수자원·조약 분쟁이 지역 안보와 농업·생활용수에 미칠 영향을 키우고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-14T13:07:19.000Z",
-        "lastObservedAt": "2026-08-14T14:20:08.488Z"
-      }
-    },
-    {
       "id": "news-f923e23d7adf09a22b38b4b8",
       "title": "유럽·아시아 연쇄적 기상충격 — 폭우·홍수와 여름 폭염으로 피해 발생",
       "startAt": "2026-08-14T10:30:17.000Z",
@@ -406,52 +431,6 @@
         ],
         "firstPublishedAt": "2026-08-14T10:30:17.000Z",
         "lastObservedAt": "2026-08-14T14:20:08.488Z"
-      }
-    },
-    {
-      "id": "news-3fabfaff9b75e0c613f0b59c",
-      "title": "인도 태양 임무 관측, 태양 코로나 고온 문제에 새 단서 제시",
-      "startAt": "2026-08-14T02:13:27.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "인도의 태양 관측 임무가 태양 코로나가 표면보다 수백만 도 더 뜨거운 이유와 그 온도가 어떻게 유지되는지에 대한 새로운 관측 결과를 공개했다. 이번 관측은 코로나 가열 메커니즘을 밝히는 데 기여할 가능성이 있다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c934wqpd74xo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c934wqpd74xo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-14T02:13:27.000Z",
-        "lastObservedAt": "2026-08-14T03:30:20.039Z"
-      }
-    },
-    {
-      "id": "news-4268ad04a3e8a05c2213afa2",
-      "title": "콩고 민주공화국(DRC) 에볼라 발병, 6번째 주로 확산",
-      "startAt": "2026-08-13T15:17:13.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "DRC의 에볼라 발병이 6번째 주인 바스‑우엘레(Bas‑Uele)로 확산되었다. 정부 집계로 지금까지 4,500건을 넘는 사례 중 2,100명 이상이 사망했으며, WHO 수장은 이번 발병이 역사상 최악의 사례를 넘어설 가능성이 있다고 경고했다. 보도에 따르면 한 환자는 오트‑우엘레(Haut‑Uele)에서 이동한 뒤 바스‑우엘레에서 사망했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
-          "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
-        ],
-        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
-        "lastObservedAt": "2026-08-14T03:30:20.039Z"
       }
     },
     {
