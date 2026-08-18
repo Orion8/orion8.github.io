@@ -1,8 +1,96 @@
 {
-  "catalogVersion": "0.0.48",
-  "updatedAt": "2026-08-18T02:21:03.248Z",
+  "catalogVersion": "0.0.49",
+  "updatedAt": "2026-08-18T13:54:09.805Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-dd7d493a6238eb6e9a2db7de",
+      "title": "ABC, 연방통신위원회(FCC) 상대로 소송 제기 — 방송국 조기 면허 갱신 요구에 반발",
+      "startAt": "2026-08-18T13:38:23.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "ABC 방송사가 브렌던 카(Brendan Carr) 위원장이 이끄는 연방통신위원회(FCC)를 상대로 소송을 제기했다. 네트워크는 자신들이 소유한 8개 지역 TV 방송국에 대해 조기 면허갱신 신청을 강요당했다며, 이는 행정의 콘텐츠 불승인에 대한 보복으로 언론 독립을 위협한다고 주장했다. ABC는 FCC가 갱신을 승인할지 심리(hearing)를 개최할지를 결정할 것이라고 전했다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/18/abc-sues-trump-federal-communications-commission",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/aug/18/abc-sues-trump-federal-communications-commission"
+        ],
+        "firstPublishedAt": "2026-08-18T13:38:23.000Z",
+        "lastObservedAt": "2026-08-18T13:54:09.805Z"
+      }
+    },
+    {
+      "id": "news-e6d4f397868b8c30b0be90c5",
+      "title": "시리아 전쟁 전력 관련자 와심 알-아사드(Wassim al‑Assad) 사형 선고",
+      "startAt": "2026-08-18T13:06:20.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 법원이 시리아 전쟁 중 자행된 잔학행위와 관련해 와심 알-아사드에게 사형을 선고했다. 보도는 이 판결이 실각한 바샤르 알-아사드(Bashar al‑Assad) 전 대통령에 대한 사형 선고 직후(일주일 내) 나온 사건이라고 전했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/18/who-is-wassim-al-assad-sentenced-to-death-for-syria-war-atrocities?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/18/who-is-wassim-al-assad-sentenced-to-death-for-syria-war-atrocities?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-18T13:06:20.000Z",
+        "lastObservedAt": "2026-08-18T13:54:09.805Z"
+      }
+    },
+    {
+      "id": "news-f17154717819cf927aaddb2b",
+      "title": "영국 구인공고 5년 만의 최저치 — 소규모 기업들 채용 축소",
+      "startAt": "2026-08-18T12:52:26.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC의 통계 보도에 따르면 영국의 구인공고(채용공고) 수가 5년 만에 최저 수준으로 떨어졌다. 소규모 업체들이 인건비와 운영비 부담을 이유로 채용을 축소하고 있다는 점이 주요 원인으로 지적됐다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cn9nwx090v9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cn9nwx090v9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-18T12:52:26.000Z",
+        "lastObservedAt": "2026-08-18T13:54:09.805Z"
+      }
+    },
+    {
+      "id": "news-05344bf261052589a16c9cc7",
+      "title": "영국 살모넬라 집단발병 — 수백 명 이상 환자·최소 1명 사망(수입 계란 연루 추정)",
+      "startAt": "2026-08-18T12:28:29.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "BBC는 최근 수주간 영국에서 발생한 살모넬라 집단발병으로 수백 명이 병원 진단을 받았고 최소 1명이 사망했다고 보도했다. 대부분 사례가 잉글랜드에서 보고됐으며 보건당국은 수입 계란과의 연관성을 의심하고 있다.",
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqx7vp77g0jo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqx7vp77g0jo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-18T12:28:29.000Z",
+        "lastObservedAt": "2026-08-18T13:54:09.805Z"
+      }
+    },
     {
       "id": "news-b6f5fc0820288c8b36a1a993",
       "title": "미·캐나다 무역협상 ‘격렬’ — 관세 시한 임박해 긴박한 협상 진행",
@@ -23,6 +111,29 @@
         ],
         "firstPublishedAt": "2026-08-18T00:02:31.000Z",
         "lastObservedAt": "2026-08-18T02:21:03.248Z"
+      }
+    },
+    {
+      "id": "news-e7e318e87e3c691850821654",
+      "title": "Anthropic 연환산 매출 650억 달러로 급증 — 두 달간 180억 달러 증가",
+      "startAt": "2026-08-17T23:56:26.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "TechCrunch 보도에 따르면 AI 모델 개발사 Anthropic의 연환산(annualized) 매출이 최근 두 달 동안 180억 달러가 추가되며 총 650억 달러에 달했다고 전해졌다. 회사의 매출 급증은 대형 AI 사업자 시장 구조와 산업적 파급을 보여주는 중요한 지표다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/"
+        ],
+        "firstPublishedAt": "2026-08-17T23:56:26.000Z",
+        "lastObservedAt": "2026-08-18T13:54:09.805Z"
       }
     },
     {
@@ -343,29 +454,6 @@
       }
     },
     {
-      "id": "news-2a997206ce314340bd98d28c",
-      "title": "하와이, 34년 만의 직접 상륙 가능성 — 허리케인 '라라' 경보",
-      "startAt": "2026-08-15T23:34:24.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "BBC는 허리케인 라라가 하와이를 향해 북상 중이며, 최악의 경우 빅아일랜드에 최대 25인치(약 63cm) 강수를 뿌릴 수 있다고 경고했다. 라라는 34년 만에 하와이를 직접 강타할 가능성이 제기되고 있다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "lifeScience"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-15T23:34:24.000Z",
-        "lastObservedAt": "2026-08-16T02:33:53.232Z"
-      }
-    },
-    {
       "id": "news-41036778d9fb6b865914710c",
       "title": "세우타 진입 시도자 111명 체포 — 모로코·스페인 국경 긴장 재고조",
       "startAt": "2026-08-15T18:08:21.000Z",
@@ -386,28 +474,6 @@
         ],
         "firstPublishedAt": "2026-08-15T18:08:21.000Z",
         "lastObservedAt": "2026-08-16T02:33:53.232Z"
-      }
-    },
-    {
-      "id": "news-edc71185679e7c3b30f8ca84",
-      "title": "이재명, 북과의 전쟁 종료 위한 공식 회담 제안",
-      "startAt": "2026-08-15T09:35:23.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "이재명(Lee Jae Myung)이 1953년 정전 이후 사실상 동결된 한반도의 전쟁 상태를 공식적으로 끝내기 위한 회담 개최를 제안했다. 제안은 남북 관계와 한반도 평화 프로세스에 새로운 전환 가능성을 제시한다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-15T09:35:23.000Z",
-        "lastObservedAt": "2026-08-15T13:39:22.938Z"
       }
     },
     {
@@ -457,28 +523,6 @@
       }
     },
     {
-      "id": "news-93bcdbb66ce6116699f7f795",
-      "title": "많은 이란인들, 전쟁 여파로 터키·반 근처로 이동",
-      "startAt": "2026-08-14T22:03:08.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "국경 인근 터키 도시 반(Van) 등을 찾는 이란 국민들이 늘고 있다. 방문자들은 본국에서의 생활비 상승과 전쟁의 고통 때문에 터키로 이동을 택했다고 전했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/14/nx-s1-5931244/many-iranians-are-heading-to-turkey-to-escape-the-ongoing-wars-heavy-toll",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/14/nx-s1-5931244/many-iranians-are-heading-to-turkey-to-escape-the-ongoing-wars-heavy-toll"
-        ],
-        "firstPublishedAt": "2026-08-14T22:03:08.000Z",
-        "lastObservedAt": "2026-08-15T02:19:00.025Z"
-      }
-    },
-    {
       "id": "news-21047268d1bddde0ba703597",
       "title": "NASA, 11월 케네디 우주센터서 'MAX POWER' 항공우주 엑스포·에어쇼 발표",
       "startAt": "2026-08-14T18:44:36.000Z",
@@ -522,28 +566,6 @@
         ],
         "firstPublishedAt": "2026-08-14T15:00:32.000Z",
         "lastObservedAt": "2026-08-15T13:39:22.938Z"
-      }
-    },
-    {
-      "id": "news-a6e786317f4d9a7d9a8cd505",
-      "title": "BP, 베네수엘라 로란(Loran) 가스전 2단계 개발 계획 발표",
-      "startAt": "2026-08-14T14:04:49.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "BP가 베네수엘라의 대형 해상 가스전인 로란 가스전(Loran) 2단계 개발에 나서기로 했으며, 도널드 트럼프 행정부와 연관된 기업 두 곳과의 파트너십으로 진행된다고 보도되었다. 이는 미국이 1월에 니콜라스 마두로를 축출한 뒤 이뤄진 대규모 외국인 투자의 하나로 전해졌다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
-        ],
-        "firstPublishedAt": "2026-08-14T14:04:49.000Z",
-        "lastObservedAt": "2026-08-14T14:20:08.488Z"
       }
     },
     {
@@ -792,29 +814,6 @@
         ],
         "firstPublishedAt": "2026-08-06T08:00:00.000Z",
         "lastObservedAt": "2026-08-06T15:25:16.727Z"
-      }
-    },
-    {
-      "id": "news-ae4e2aba061a2c2c5c6de641",
-      "title": "법원, xAI의 미네소타 'nudify' 앱 금지 중지 요청 기각",
-      "startAt": "2026-08-01T20:26:04.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "미네소타 주의 누디파이(nudify) 앱 금지 법안에 대해 xAI가 신청한 집행정지 요청을 법원이 기각함에 따라 해당 주의 규제가 진행될 수 있게 됐다. 판결은 생성형 이미지·사생활 침해 관련 규제·법적 분쟁의 선례가 될 가능성이 있다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/"
-        ],
-        "firstPublishedAt": "2026-08-01T20:26:04.000Z",
-        "lastObservedAt": "2026-08-02T04:34:53.970Z"
       }
     },
     {
