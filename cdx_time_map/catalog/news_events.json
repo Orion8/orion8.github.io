@@ -1,8 +1,121 @@
 {
-  "catalogVersion": "0.0.47",
-  "updatedAt": "2026-08-17T13:51:19.384Z",
+  "catalogVersion": "0.0.48",
+  "updatedAt": "2026-08-18T02:21:03.248Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-b6f5fc0820288c8b36a1a993",
+      "title": "미·캐나다 무역협상 ‘격렬’ — 관세 시한 임박해 긴박한 협상 진행",
+      "startAt": "2026-08-18T00:02:31.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 미국과 캐나다의 무역협상이 관세 부과 시한을 앞두고 격렬한 협상 국면에 접어들었다. 협상 타결 여부에 따라 예정된 관세 조치가 시행되거나 회피될 가능성이 남아 있다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
+        "lastObservedAt": "2026-08-18T02:21:03.248Z"
+      }
+    },
+    {
+      "id": "news-e185dc25a2c3e6ee56c0fbf6",
+      "title": "NASA, 페이로드 처리 서비스 제공사 4곳 선정",
+      "startAt": "2026-08-17T20:17:20.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA가 Spacecraft Processing Operations Contract 온램프 규정에 따라 발사지별로 페이로드 처리(검수·적재 등) 상업 서비스를 제공할 자격을 갖춘 4개 회사를 선정했다. 이번 조치는 초기 계약 수여 시점에 해당 역량이 없던 발사지들에서 민간 처리 역량을 확충하기 위한 조치다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/"
+        ],
+        "firstPublishedAt": "2026-08-17T20:17:20.000Z",
+        "lastObservedAt": "2026-08-18T02:21:03.248Z"
+      }
+    },
+    {
+      "id": "news-374e76bc2ab2ce56c4a70668",
+      "title": "NASA, 에티오피아 아디스아바바 대기오염 장기 관측으로 블랙카본 영향 상세 분석",
+      "startAt": "2026-08-17T19:24:34.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "NASA 지원의 대기오염 모니터링 네트워크가 아디스아바바에서 블랙카본(그을음)의 기여와 시간·계절별 변화를 가장 상세하게 보여주는 장기 관측 결과를 제공했다. 관측은 화재·디젤 등 연소원별 기여와 일중·계절 패턴을 기록해 도시 대기질·보건 정책에 활용될 전망이다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/",
+      "topicIds": [
+        "medicineHealth",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/"
+        ],
+        "firstPublishedAt": "2026-08-17T19:24:34.000Z",
+        "lastObservedAt": "2026-08-18T02:21:03.248Z"
+      }
+    },
+    {
+      "id": "news-fab9f5f92aeb60415f0b2fe5",
+      "title": "유럽 농업 ‘전례 없는 위기’ — 연이은 폭염·대륙적 가뭄으로 수확 급감 우려",
+      "startAt": "2026-08-17T16:01:47.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "연이은 강렬한 폭염과 대규모 가뭄으로 유럽의 채소·곡물 생산이 큰 타격을 받고 있다. 보도는 프랑스의 경우 애호박·상추·완두·브로콜리·아티초크 등 품목별 생산량 감소가 수십%에 달한다고 전하며 농민들이 '파국적' 수확 손실을 우려하고 있다고 보도했다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/aug/17/european-farmers-unprecedented-crisis-successive-heatwaves",
+      "topicIds": [
+        "agriculture",
+        "climateEnvironment",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/aug/17/european-farmers-unprecedented-crisis-successive-heatwaves"
+        ],
+        "firstPublishedAt": "2026-08-17T16:01:47.000Z",
+        "lastObservedAt": "2026-08-18T02:21:03.248Z"
+      }
+    },
+    {
+      "id": "news-1768d1ca2eeed567b7f98892",
+      "title": "허블·가이아, 우리은하 초기 합병의 결정적 증거 규명",
+      "startAt": "2026-08-17T15:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA·ESA 허블 우주망원경과 유럽의 가이아 관측을 통해 초기 우리은하가 작은 왜소은하를 병합한 결정적 증거가 확인됐다. 이번 결과는 우리은하의 성장 역사를 기존보다 약 18억 년 더 과거로 확장해 은하 형성·진화 이해를 크게 앞당긴다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_Gaia_solve_our_galaxy_s_merger_mystery",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Hubble_Gaia_solve_our_galaxy_s_merger_mystery"
+        ],
+        "firstPublishedAt": "2026-08-17T15:00:00.000Z",
+        "lastObservedAt": "2026-08-18T02:21:03.248Z"
+      }
+    },
     {
       "id": "news-ab3bed0fd83839782d810358",
       "title": "영국 정부 차입비용 다년 최고치·주택가격 하락 전망",
@@ -366,28 +479,6 @@
       }
     },
     {
-      "id": "news-f75f2a71c79d756ba1c9df7d",
-      "title": "일회용 바비큐 판매 임시 금지 — 가뭄·폭염 속 산불 위험 우려",
-      "startAt": "2026-08-14T19:17:16.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "정부가 현재의 가뭄과 폭염 상황에서 일회용(단일 사용) 바비큐 판매를 임시 금지했다. 당국은 단일 사용 그릴이 현 조건에서 '중대한 공공 위험'을 초래할 수 있다고 경고했다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-14T19:17:16.000Z",
-        "lastObservedAt": "2026-08-15T02:19:00.025Z"
-      }
-    },
-    {
       "id": "news-21047268d1bddde0ba703597",
       "title": "NASA, 11월 케네디 우주센터서 'MAX POWER' 항공우주 엑스포·에어쇼 발표",
       "startAt": "2026-08-14T18:44:36.000Z",
@@ -747,50 +838,6 @@
         ],
         "firstPublishedAt": "2026-07-31T20:19:37.000Z",
         "lastObservedAt": "2026-08-01T14:40:30.159Z"
-      }
-    },
-    {
-      "id": "news-907aee2e76ce75a930b7ff6c",
-      "title": "ESA, 개기일식 안전 관측 안내 영상 공개",
-      "startAt": "2026-07-31T14:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)이 1분 34초 분량의 안내 영상을 공개해 개기일식을 안전하게 관측하는 방법을 소개했다. 영어판에서는 예비 우주인 Sara García Alonso가, 스페인어판에서는 Pablo Álvarez Fernández가 인증된 일식안경 사용법과 일반 선글라스가 충분하지 않은 이유, 일식의 각 단계별 관찰 시점을 설명한다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/How_to_safely_watch_a_solar_eclipse",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/07/How_to_safely_watch_a_solar_eclipse"
-        ],
-        "firstPublishedAt": "2026-07-31T14:00:00.000Z",
-        "lastObservedAt": "2026-08-05T04:24:22.074Z"
-      }
-    },
-    {
-      "id": "news-6ed2d341be9e09a7f8cfd3fe",
-      "title": "NASA, Deniz Burnham을 국제우주정거장(ISS) 첫 임무 승무원으로 배정",
-      "startAt": "2026-07-30T16:11:41.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 우주비행사 Deniz Burnham을 익스페디션 76의 비행엔지니어로 배정했다. Burnham은 Roscosmos의 소유즈 MS‑30 우주선으로 Dmitri Petelin, Konstantin Borisov와 함께 2027년 3월 바이코누르 발사를 목표로 임무에 참여할 예정이다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-assigns-astronaut-deniz-burnham-to-first-space-station-mission/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-assigns-astronaut-deniz-burnham-to-first-space-station-mission/"
-        ],
-        "firstPublishedAt": "2026-07-30T16:11:41.000Z",
-        "lastObservedAt": "2026-07-31T04:35:37.487Z"
       }
     },
     {
