@@ -1,8 +1,97 @@
 {
-  "catalogVersion": "0.0.49",
-  "updatedAt": "2026-08-18T13:54:09.805Z",
+  "catalogVersion": "0.0.50",
+  "updatedAt": "2026-08-19T02:23:32.070Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-b662ac6d7f38d6a86f3d8e83",
+      "title": "중국 휴머노이드 로봇 최대업체 유니트리(Unitree), 상하이 스타마켓 상장 — 상장 첫날 주가 급등",
+      "startAt": "2026-08-19T02:09:46.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "세계에서 가장 큰 휴머노이드 로봇 제조사로 알려진 유니트리(Unitree)가 상하이의 기술·혁신 특화 시장인 '스타 마켓'에서 거래를 시작했다. 상장 첫날 거래가 활발히 이뤄지며 주가가 급등했다는 보도가 나왔다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-19T02:09:46.000Z",
+        "lastObservedAt": "2026-08-19T02:23:32.069Z"
+      }
+    },
+    {
+      "id": "news-9589cfeacd60f567e93c32df",
+      "title": "초저배출구역(ULEZ) 도입 뒤 어린이 폐 기능 '회복' 관찰 — 연구진 놀라움 표명",
+      "startAt": "2026-08-18T23:53:24.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "연구 결과에 따르면 초저배출구역(ULTRA LOW EMISSION ZONE) 도입 이후 어린이들의 폐활량이 오염이 적은 지역의 또래와 비슷한 수준으로 회복되는 양상이 관찰됐다. 저감 조치가 소아 호흡기 건강에 가시적 개선을 가져온 것으로 평가된다.",
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c1l1r1zne1ro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c1l1r1zne1ro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-18T23:53:24.000Z",
+        "lastObservedAt": "2026-08-19T02:23:32.069Z"
+      }
+    },
+    {
+      "id": "news-f0aa91974e0ad6ca58685787",
+      "title": "OpenAI, 국가안보 분야의 민주적 감시 강화 지원 이니셔티브 발표",
+      "startAt": "2026-08-18T19:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI는 국가안보 분야에서 민주적 감시를 강화하기 위한 이니셔티브를 시작한다고 밝혔다. 이 프로그램은 정부 기관을 대상으로 도구·교육·전문성 지원을 제공해 AI 적용에 대한 투명성·책임성을 높이는 것을 목표로 한다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
+        ],
+        "firstPublishedAt": "2026-08-18T19:00:00.000Z",
+        "lastObservedAt": "2026-08-19T02:23:32.069Z"
+      }
+    },
+    {
+      "id": "news-1d131bb25f345148b5e6a20a",
+      "title": "OpenAI, 허깅페이스 보안 침해 계기 모델 개발·운영상 안전장치 강화",
+      "startAt": "2026-08-18T18:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "허깅페이스 침해 사건을 계기로 OpenAI는 모델 개발 과정에서의 모니터링을 세분화하고, 사후(포스트 트레이닝) 단계에서 정렬(alignment)·보안 통제를 강화하는 조치들을 도입한다고 밝혔다. 회사는 모니터링·보안 강화를 통해 잠재적 오용과 취약점에 대응하려는 계획임을 밝혔다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/"
+        ],
+        "firstPublishedAt": "2026-08-18T18:00:00.000Z",
+        "lastObservedAt": "2026-08-19T02:23:32.069Z"
+      }
+    },
     {
       "id": "news-dd7d493a6238eb6e9a2db7de",
       "title": "ABC, 연방통신위원회(FCC) 상대로 소송 제기 — 방송국 조기 면허 갱신 요구에 반발",
@@ -341,28 +430,6 @@
       }
     },
     {
-      "id": "news-5517ec00a7fb2fbc5639ecc1",
-      "title": "트럼프, 한국의 이란 전쟁 불참 이유로 한미 연합군사훈련 축소 방침 표명",
-      "startAt": "2026-08-17T00:06:05.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 도널드 트럼프 대통령은 한국이 이란 전쟁에 참여하지 않은 데다 자신과 북한 지도자 간의 '매우 좋은 관계'를 이유로 한미 연합군사훈련의 규모를 축소하겠다고 밝혔다. 해당 발언은 한반도 주변 군사태세와 한미동맹의 훈련 관행에 변화를 시사한다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-17T00:06:05.000Z",
-        "lastObservedAt": "2026-08-17T02:25:04.895Z"
-      }
-    },
-    {
       "id": "news-32f660769b3ab817fcdeed9d",
       "title": "서안지구 쿠스라(Qusra) 일주일 봉쇄—이스라엘 정착민, 가옥 포위·보급 차단으로 '군사구역' 선포",
       "startAt": "2026-08-16T13:17:57.000Z",
@@ -381,29 +448,6 @@
           "https://www.aljazeera.com/gallery/2026/8/16/timeline-the-one-week-siege-of-qusra-by-israeli-settlers-in-the-west-bank?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-08-16T13:17:57.000Z",
-        "lastObservedAt": "2026-08-16T13:40:49.770Z"
-      }
-    },
-    {
-      "id": "news-f7053cd9143e1bb6de1cb141",
-      "title": "인도네시아 지진으로 수천 명 대피·건물 피해 발생—최소 53명 사망",
-      "startAt": "2026-08-16T12:37:21.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "인도네시아에서 발생한 지진으로 수백 채의 주택과 공공건물이 심각한 피해를 입었고, 구조 활동이 계속되는 가운데 최소 53명이 사망한 것으로 보고됐다. 수천 명이 대피하는 등 인명·주거 피해 규모가 크다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "urbanDevelopment",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-16T12:37:21.000Z",
         "lastObservedAt": "2026-08-16T13:40:49.770Z"
       }
     },
@@ -748,50 +792,6 @@
         ],
         "firstPublishedAt": "2026-08-08T21:24:02.000Z",
         "lastObservedAt": "2026-08-09T07:13:11.359Z"
-      }
-    },
-    {
-      "id": "news-e66cc71d0943fe40ad6453da",
-      "title": "OpenAI, Astra 대상 예비 사이버보안 평가 결과와 강화 조치 공개",
-      "startAt": "2026-08-07T15:20:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI가 Astra에 대한 예비 사이버보안 평가 내용을 공개하고, 이를 바탕으로 안전·보안 통제를 강화하기 위한 조치들을 발표했다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
-        ],
-        "firstPublishedAt": "2026-08-07T15:20:00.000Z",
-        "lastObservedAt": "2026-08-09T07:13:11.359Z"
-      }
-    },
-    {
-      "id": "news-1986eab2e2ed84ba8b77a11b",
-      "title": "DeepMind 'WeatherNext' 모델, 사이클론 예측에서 획기적 진전 발표",
-      "startAt": "2026-08-06T15:06:15.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "DeepMind가 발표한 AI 모델 'WeatherNext'가 사이클론(열대저기압) 예측에서 획기적 성과를 거뒀다고 밝혔다. 해당 발표는 기상 예측·재난 대응 분야에서 생성형 AI 적용의 진전을 시사한다. (출처: DeepMind 블로그)",
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
-        ],
-        "firstPublishedAt": "2026-08-06T15:06:15.000Z",
-        "lastObservedAt": "2026-08-06T15:25:16.727Z"
       }
     },
     {
