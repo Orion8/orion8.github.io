@@ -1,8 +1,101 @@
 {
-  "catalogVersion": "0.0.50",
-  "updatedAt": "2026-08-19T02:23:32.070Z",
+  "catalogVersion": "0.0.51",
+  "updatedAt": "2026-08-19T13:54:47.816Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-f96aa35ca83e93b744cfe996",
+      "title": "라틴아메리카 극우 지도자 고문 페르난도 세리메도 체포 — 여자친구 살해 모의 혐의",
+      "startAt": "2026-08-19T13:44:57.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "기업인 겸 정치전략가 페르난도 세리메도(42)가 여자친구를 살해하려 한 혐의로 체포됐다. 세리메도는 볼리비아 대통령 로드리고 파즈 페레이라의 고문을 맡아 왔고, 아르헨티나의 하비에르 밀레이의 2023년 대선 캠페인 주요 전략가 중 한 명으로 알려져 있다. 보도에 따르면 그는 볼리비아 변호사 나디아 벨러(Nadia Beller) 총격 지시 혐의를 받고 있다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend"
+        ],
+        "firstPublishedAt": "2026-08-19T13:44:57.000Z",
+        "lastObservedAt": "2026-08-19T13:54:47.816Z"
+      }
+    },
+    {
+      "id": "news-7a705b4ce5fbb10dcf005428",
+      "title": "이스라엘 군, 가자에서 사망한 팔레스타인 소녀 힌드 라잡 사건에 형사 조사 명령",
+      "startAt": "2026-08-19T12:41:46.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "이스라엘 군이 가자에서 사망한 5세 소녀 힌드 라잡(Hind Rajab) 사건에 대해 형사 조사를 지시했다. 보도에 따르면 소녀는 구조대에 여러 시간 동안 전화를 걸었고, 시신은 2024년 가자시티에서 며칠 뒤 수습된 바 있다. 군의 형사 조사 명령은 사건에 대한 책임 규명 작업의 중요한 단계로 평가된다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-19T12:41:46.000Z",
+        "lastObservedAt": "2026-08-19T13:54:47.816Z"
+      }
+    },
+    {
+      "id": "news-b6f5fc0820288c8b36a1a993",
+      "title": "미국, 캐나다 수입품 대상 50% 관세 시행 연기 — 협상 타결로 조정",
+      "startAt": "2026-08-19T11:14:31.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "미국이 예정됐던 캐나다산 수입품 대상 50% 관세 부과를 협상 타결을 이유로 연기했다고 보도되었다. 이번 조치는 양국 무역협상에서 시한을 앞두고 합의가 이뤄지면서 결정된 것이다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial"
+        ],
+        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
+        "lastObservedAt": "2026-08-19T13:54:47.816Z"
+      }
+    },
+    {
+      "id": "news-4268ad04a3e8a05c2213afa2",
+      "title": "콩고(DRC) 에볼라 발병 확진 5,000건 돌파 — 대응 역량 추월",
+      "startAt": "2026-08-19T09:29:40.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "정부 집계에서 이번 콩고 민주공화국(DRC) 에볼라 발병 확진이 5,021건, 사망 2,378명을 기록했다고 보도되었다. 보도는 이번 발병이 역대 어느 발병보다 빠른 속도로 확산하며 대응 역량을 앞지르고 있다고 전했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/19/g-s1-139164/congo-ebola-outbreak",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
+          "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
+          "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
+          "https://www.npr.org/2026/08/19/g-s1-139164/congo-ebola-outbreak"
+        ],
+        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
+        "lastObservedAt": "2026-08-19T13:54:47.816Z"
+      }
+    },
     {
       "id": "news-b662ac6d7f38d6a86f3d8e83",
       "title": "중국 휴머노이드 로봇 최대업체 유니트리(Unitree), 상하이 스타마켓 상장 — 상장 첫날 주가 급등",
@@ -178,28 +271,6 @@
         ],
         "firstPublishedAt": "2026-08-18T12:28:29.000Z",
         "lastObservedAt": "2026-08-18T13:54:09.805Z"
-      }
-    },
-    {
-      "id": "news-b6f5fc0820288c8b36a1a993",
-      "title": "미·캐나다 무역협상 ‘격렬’ — 관세 시한 임박해 긴박한 협상 진행",
-      "startAt": "2026-08-18T00:02:31.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 미국과 캐나다의 무역협상이 관세 부과 시한을 앞두고 격렬한 협상 국면에 접어들었다. 협상 타결 여부에 따라 예정된 관세 조치가 시행되거나 회피될 가능성이 남아 있다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
-        "lastObservedAt": "2026-08-18T02:21:03.248Z"
       }
     },
     {
@@ -405,31 +476,6 @@
       }
     },
     {
-      "id": "news-4268ad04a3e8a05c2213afa2",
-      "title": "DRC 에볼라 발병, 자국 역사상 최다 사망자 기록—사망자 2,325명·확진 4,945건(정부 집계)",
-      "startAt": "2026-08-17T00:09:57.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 콩고민주공화국의 에볼라 발병으로 정부 집계 기준 사망자가 최소 2,325명에 이르렀고, 확진 사례는 4,945건으로 집계돼 2018–20년 발병 기록을 넘었다. 보건당국은 최근 24시간에만 101건의 신규 확진이 확인됐다고 보고했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
-          "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
-          "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
-        ],
-        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
-        "lastObservedAt": "2026-08-17T02:25:04.895Z"
-      }
-    },
-    {
       "id": "news-32f660769b3ab817fcdeed9d",
       "title": "서안지구 쿠스라(Qusra) 일주일 봉쇄—이스라엘 정착민, 가옥 포위·보급 차단으로 '군사구역' 선포",
       "startAt": "2026-08-16T13:17:57.000Z",
@@ -518,28 +564,6 @@
         ],
         "firstPublishedAt": "2026-08-15T18:08:21.000Z",
         "lastObservedAt": "2026-08-16T02:33:53.232Z"
-      }
-    },
-    {
-      "id": "news-752dec500b4517b9747a97df",
-      "title": "미군 지원자였던 아프간인들, 영주권 상실 우려",
-      "startAt": "2026-08-15T09:00:00.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "미군과 함께 일했던 아프가니스탄인 수천 명이 5년 전 미군 철수 이후 미국에서 정착을 시도했으나, 최근 일부는 영주권(그린카드)을 잃고 본국 송환될 가능성에 대한 우려를 표하고 있다. 이 문제는 이민·난민 정책과 전시 협력자 보호 문제를 환기한다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/15/nx-s1-5897606/afghanistan-visa-green-card-deport",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/15/nx-s1-5897606/afghanistan-visa-green-card-deport"
-        ],
-        "firstPublishedAt": "2026-08-15T09:00:00.000Z",
-        "lastObservedAt": "2026-08-15T13:39:22.938Z"
       }
     },
     {
