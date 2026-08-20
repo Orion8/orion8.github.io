@@ -1,8 +1,120 @@
 {
-  "catalogVersion": "0.0.52",
-  "updatedAt": "2026-08-20T02:22:25.918Z",
+  "catalogVersion": "0.0.53",
+  "updatedAt": "2026-08-20T13:57:35.690Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-a741a1d4684ca0b84d35cd83",
+      "title": "우크라이나 전(前) 국방장관의 전시 대통령선거 요구로 젤렌스키에 압박",
+      "startAt": "2026-08-20T13:32:55.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "우크라이나의 인기 있는 전(前) 국방장관이 전시 상황에서 대통령 선거 실시를 요구하며 볼로디미르 젤렌스키 대통령에 대한 정치적 압박을 가중시켰다. 전문가들은 러시아의 공습이 지속되는 상황에서 선거 실행은 사실상 불가능에 가깝다고 지적했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/20/ukraines-ex-defence-chief-calls-for-presidential-vote?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/20/ukraines-ex-defence-chief-calls-for-presidential-vote?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-20T13:32:55.000Z",
+        "lastObservedAt": "2026-08-20T13:57:35.690Z"
+      }
+    },
+    {
+      "id": "news-ba8f35abd8e5dc0ae8624271",
+      "title": "Danone의 Huel 10억 유로 인수, 규제당국 승인",
+      "startAt": "2026-08-20T13:24:57.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "프랑스 다국적 식음료 기업 다논(Danone)의 영양식품업체 휴얼(Huel) 인수(약 10억 유로)가 경쟁당국의 승인으로 마무리되었다고 보도되었다. 회사는 이번 인수가 영양·헬스 분야 사업 확장의 핵심이라고 밝혔다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crl7y671w8go?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crl7y671w8go?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-20T13:24:57.000Z",
+        "lastObservedAt": "2026-08-20T13:57:35.690Z"
+      }
+    },
+    {
+      "id": "news-ead138000f17702cc3a59192",
+      "title": "트럼프 특사 카슈미르 방문 발언으로 미‑파키스탄 외교 갈등",
+      "startAt": "2026-08-20T13:18:35.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "트럼프 전 대통령 측 특사의 카슈미르 방문과 관련한 발언이 파키스탄 정부의 반발을 불러오며 미‑파키스탄 사이에 외교적 갈등이 촉발되었다. 파키스탄은 해당 발언이 워싱턴의 공식 입장과 배치된다고 주장했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/20/why-a-trump-envoys-kashmir-visit-has-led-to-us-pakistan-spat?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/20/why-a-trump-envoys-kashmir-visit-has-led-to-us-pakistan-spat?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-20T13:18:35.000Z",
+        "lastObservedAt": "2026-08-20T13:57:35.690Z"
+      }
+    },
+    {
+      "id": "news-ca84f19d95e6c5b47f3b9fc7",
+      "title": "미국 국가부채 40조 달러 돌파",
+      "startAt": "2026-08-20T11:30:18.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "미국의 국가부채가 40조 달러를 넘어섰다고 보도되었다. 보도는 장기 국채 금리 상승과 재정적 부담 확대를 지적하며 향후 경기·정책 영향에 대한 우려를 전했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/20/g-s1-139388/up-first-newsletter-us-debt-venezuela-oil-deals-census-bureau-trump-voting-claims",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/20/g-s1-139388/up-first-newsletter-us-debt-venezuela-oil-deals-census-bureau-trump-voting-claims"
+        ],
+        "firstPublishedAt": "2026-08-20T01:24:26.000Z",
+        "lastObservedAt": "2026-08-20T13:57:35.690Z"
+      }
+    },
+    {
+      "id": "news-aaa3950d1b5aa09863917c23",
+      "title": "중국 부동산업체 에버그란데 창업자, 종신형 선고",
+      "startAt": "2026-08-20T07:31:55.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "중국 대형 부동산 개발업체 에버그란데의 창업자 후이카옌(Hui Ka Yan)이 법원에서 종신형을 선고받았다. 에버그란데는 붕괴 시 3천억 달러가 넘는 부채를 기록하며 중국 부동산 위기의 상징이 됐다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/20/nx-s1-5939335/chinese-sentence-founder-evergrande",
+      "topicIds": [
+        "economyFinance",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/20/nx-s1-5939335/chinese-sentence-founder-evergrande"
+        ],
+        "firstPublishedAt": "2026-08-20T07:31:55.000Z",
+        "lastObservedAt": "2026-08-20T13:57:35.690Z"
+      }
+    },
     {
       "id": "news-7ea64fd883ad7099ce32eac8",
       "title": "기후 변화로 그린란드 해역에 대형 고래 출현 — 먹이구역 확대 관찰",
@@ -23,28 +135,6 @@
           "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-08-20T02:05:20.000Z",
-        "lastObservedAt": "2026-08-20T02:22:25.918Z"
-      }
-    },
-    {
-      "id": "news-ca84f19d95e6c5b47f3b9fc7",
-      "title": "미국 국가부채 40조 달러 돌파 — 10년 새 두 배로 증가",
-      "startAt": "2026-08-20T01:24:26.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "미국의 국가부채가 40조 달러를 넘어섰다고 보도되었다. 보도는 30년물 국채 금리가 거의 20년 만에 최고 수준에 도달한 점도 함께 전했다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-20T01:24:26.000Z",
         "lastObservedAt": "2026-08-20T02:22:25.918Z"
       }
     },
@@ -90,6 +180,30 @@
         ],
         "firstPublishedAt": "2026-08-19T21:15:06.000Z",
         "lastObservedAt": "2026-08-20T02:22:25.918Z"
+      }
+    },
+    {
+      "id": "news-1d131bb25f345148b5e6a20a",
+      "title": "OpenAI, 프론티어 모델 대상 제로 데이터 보관 정책 재확인",
+      "startAt": "2026-08-19T19:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "OpenAI는 적격 API 고객을 대상으로 한 프론티어 모델에 대해 제로 데이터 보관(Zero Data Retention) 정책을 재확인하고, 고급 안전성을 유지하면서 개인정보를 보호하는 'Private Safety Processing' 기능을 예고했다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+          "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+        ],
+        "firstPublishedAt": "2026-08-18T18:00:00.000Z",
+        "lastObservedAt": "2026-08-20T13:57:35.690Z"
       }
     },
     {
@@ -248,29 +362,6 @@
           "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
         ],
         "firstPublishedAt": "2026-08-18T19:00:00.000Z",
-        "lastObservedAt": "2026-08-19T02:23:32.069Z"
-      }
-    },
-    {
-      "id": "news-1d131bb25f345148b5e6a20a",
-      "title": "OpenAI, 허깅페이스 보안 침해 계기 모델 개발·운영상 안전장치 강화",
-      "startAt": "2026-08-18T18:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "허깅페이스 침해 사건을 계기로 OpenAI는 모델 개발 과정에서의 모니터링을 세분화하고, 사후(포스트 트레이닝) 단계에서 정렬(alignment)·보안 통제를 강화하는 조치들을 도입한다고 밝혔다. 회사는 모니터링·보안 강화를 통해 잠재적 오용과 취약점에 대응하려는 계획임을 밝혔다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/"
-        ],
-        "firstPublishedAt": "2026-08-18T18:00:00.000Z",
         "lastObservedAt": "2026-08-19T02:23:32.069Z"
       }
     },
@@ -499,74 +590,6 @@
       }
     },
     {
-      "id": "news-2e474140ce202bd659d66685",
-      "title": "이스라엘 정착민들, 서안지구에 불법 새 전초기지 설치 위해 텐트 치기",
-      "startAt": "2026-08-17T01:28:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 이스라엘 정착민들이 점령지인 요르단강 서안에서 새 불법 전초기지를 마련하기 위해 텐트를 치고 있다. 유엔 특별보고관 알바네제는 이를 두고 이스라엘이 정착민을 활용해 서안 지역에서 '민족청소'를 진전시키고 있다고 경고했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-17T01:28:13.000Z",
-        "lastObservedAt": "2026-08-17T02:25:04.895Z"
-      }
-    },
-    {
-      "id": "news-32f660769b3ab817fcdeed9d",
-      "title": "서안지구 쿠스라(Qusra) 일주일 봉쇄—이스라엘 정착민, 가옥 포위·보급 차단으로 '군사구역' 선포",
-      "startAt": "2026-08-16T13:17:57.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라는 이스라엘 정착민들이 서안지구의 쿠스라 마을을 일주일 동안 포위해 가옥을 에워싸고 보급을 차단했다고 보도했다. 사태는 군 당국의 '군사구역' 선언으로 이어지며 해당 지역 주민들의 접근과 생활에 심각한 영향을 미치고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/gallery/2026/8/16/timeline-the-one-week-siege-of-qusra-by-israeli-settlers-in-the-west-bank?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/gallery/2026/8/16/timeline-the-one-week-siege-of-qusra-by-israeli-settlers-in-the-west-bank?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-16T13:17:57.000Z",
-        "lastObservedAt": "2026-08-16T13:40:49.770Z"
-      }
-    },
-    {
-      "id": "news-e30d075d30fc02635fe710d0",
-      "title": "나이지리아, 유류값 급등에 전기 오토바이 확산",
-      "startAt": "2026-08-16T01:43:57.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "유류 가격 급등으로 라이더들이 전기 오토바이(e‑bike)로 전환을 늘리고 있다. 보도에 따르면 이용자들은 연료비와 정비비를 절감하는 효과를 경험하고 있다고 전했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/16/as-petrol-prices-soar-electric-bikes-gain-ground-in-nigeria?traffic_source=rss",
-      "topicIds": [
-        "economyFinance",
-        "urbanDevelopment",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/16/as-petrol-prices-soar-electric-bikes-gain-ground-in-nigeria?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-16T01:43:57.000Z",
-        "lastObservedAt": "2026-08-16T02:33:53.232Z"
-      }
-    },
-    {
       "id": "news-e3d57f0ec19eeb2d12181187",
       "title": "인도네시아 해안 규모 7.7 강진 — 사망 최소 38명 보고",
       "startAt": "2026-08-15T08:29:20.000Z",
@@ -634,28 +657,6 @@
         ],
         "firstPublishedAt": "2026-08-14T15:00:32.000Z",
         "lastObservedAt": "2026-08-15T13:39:22.938Z"
-      }
-    },
-    {
-      "id": "news-f923e23d7adf09a22b38b4b8",
-      "title": "유럽·아시아 연쇄적 기상충격 — 폭우·홍수와 여름 폭염으로 피해 발생",
-      "startAt": "2026-08-14T10:30:17.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "유럽의 다섯째 폭염과 아시아 일부 지역의 폭우·홍수로 세계 곳곳에서 기상 충격이 이어졌다. 일본에서는 폭우로 도로가 침수되며 적어도 8명이 사망했고, 영국·프랑스·크로아티아 등에서는 번지 화재 진압이 이어졌다(보도 기준).",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/14/g-s1-138727/europe-asia-floods-heatwaves-world-weather",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/14/g-s1-138727/europe-asia-floods-heatwaves-world-weather"
-        ],
-        "firstPublishedAt": "2026-08-14T10:30:17.000Z",
-        "lastObservedAt": "2026-08-14T14:20:08.488Z"
       }
     },
     {
@@ -794,28 +795,6 @@
         ],
         "firstPublishedAt": "2026-08-10T14:00:00.000Z",
         "lastObservedAt": "2026-08-10T14:25:07.407Z"
-      }
-    },
-    {
-      "id": "news-a7e2c26896ee6258cb1fe39f",
-      "title": "계획된 아마존 텍사스 데이터센터, 미국 내 최대 기후 오염원 될 가능성 보도",
-      "startAt": "2026-08-08T21:24:02.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "텍사스에 계획된 아마존 데이터센터 내 현장 발전소 투자가 미국에서 가장 큰 기후 오염원 중 하나가 될 수 있다고 보도됐다. 보도는 발전소 설계·운영 방식이 배출에 미칠 영향을 지적했다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/"
-        ],
-        "firstPublishedAt": "2026-08-08T21:24:02.000Z",
-        "lastObservedAt": "2026-08-09T07:13:11.359Z"
       }
     },
     {
