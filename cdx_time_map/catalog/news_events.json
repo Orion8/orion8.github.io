@@ -1,8 +1,97 @@
 {
-  "catalogVersion": "0.0.51",
-  "updatedAt": "2026-08-19T13:54:47.816Z",
+  "catalogVersion": "0.0.52",
+  "updatedAt": "2026-08-20T02:22:25.918Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-7ea64fd883ad7099ce32eac8",
+      "title": "기후 변화로 그린란드 해역에 대형 고래 출현 — 먹이구역 확대 관찰",
+      "startAt": "2026-08-20T02:05:20.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "빙하 감소로 해빙(바다얼음) 구역이 줄어들며 그린란드 인근 해역으로 대형 고래들이 이동해 'feeding frenzies'(집중 먹이 활동)가 관찰되고 있다고 보도되었다. 이는 해양 생태계와 기후 변화의 상호작용을 보여주는 사례로 평가된다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "lifeScience"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-20T02:05:20.000Z",
+        "lastObservedAt": "2026-08-20T02:22:25.918Z"
+      }
+    },
+    {
+      "id": "news-ca84f19d95e6c5b47f3b9fc7",
+      "title": "미국 국가부채 40조 달러 돌파 — 10년 새 두 배로 증가",
+      "startAt": "2026-08-20T01:24:26.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "미국의 국가부채가 40조 달러를 넘어섰다고 보도되었다. 보도는 30년물 국채 금리가 거의 20년 만에 최고 수준에 도달한 점도 함께 전했다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-20T01:24:26.000Z",
+        "lastObservedAt": "2026-08-20T02:22:25.918Z"
+      }
+    },
+    {
+      "id": "news-d35b0cb7f9b2302d90113846",
+      "title": "이스라엘서 대규모 이민 흐름 — 3년간 약 27만명 이민·해외 이주 가속",
+      "startAt": "2026-08-20T00:26:59.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 최근 3년간 약 27만명(nearly 270,000)의 이스라엘인이 정치적 불확실성과 안보 우려를 이유로 출국한 것으로 알려졌다. 전문가들은 이러한 '이민 쓰나미'가 국가의 인구·경제·정치적 미래에 장기적 영향을 미칠 수 있다고 경고했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/20/tsunami-of-emigration-reshapes-israels-future-experts-warn?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/20/tsunami-of-emigration-reshapes-israels-future-experts-warn?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-20T00:26:59.000Z",
+        "lastObservedAt": "2026-08-20T02:22:25.918Z"
+      }
+    },
+    {
+      "id": "news-e81980062b26a56ec118fed7",
+      "title": "카타르 아스‑사일리야 캠프에 1,000명 이상 아프간 난민 고립 — 2021년 이래 출입 제한",
+      "startAt": "2026-08-19T21:15:06.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도는 2021년 이후 카타르의 아스‑사일리야(Camp As‑Sayliyah)에 머물고 있는 아프간 난민이 1,000명 이상이며, 이들이 고립되어 외출·이동이 제한된 상태라고 전했다. 다수는 과거 미군 지원에 관여한 인물들이라고 보도되었다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/19/nx-s1-5936482/more-than-1-000-afghan-refugees-have-been-stuck-at-a-camp-in-qatar-since-2021",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/19/nx-s1-5936482/more-than-1-000-afghan-refugees-have-been-stuck-at-a-camp-in-qatar-since-2021"
+        ],
+        "firstPublishedAt": "2026-08-19T21:15:06.000Z",
+        "lastObservedAt": "2026-08-20T02:22:25.918Z"
+      }
+    },
     {
       "id": "news-f96aa35ca83e93b744cfe996",
       "title": "라틴아메리카 극우 지도자 고문 페르난도 세리메도 체포 — 여자친구 살해 모의 혐의",
@@ -252,28 +341,6 @@
       }
     },
     {
-      "id": "news-05344bf261052589a16c9cc7",
-      "title": "영국 살모넬라 집단발병 — 수백 명 이상 환자·최소 1명 사망(수입 계란 연루 추정)",
-      "startAt": "2026-08-18T12:28:29.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "BBC는 최근 수주간 영국에서 발생한 살모넬라 집단발병으로 수백 명이 병원 진단을 받았고 최소 1명이 사망했다고 보도했다. 대부분 사례가 잉글랜드에서 보고됐으며 보건당국은 수입 계란과의 연관성을 의심하고 있다.",
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqx7vp77g0jo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqx7vp77g0jo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-18T12:28:29.000Z",
-        "lastObservedAt": "2026-08-18T13:54:09.805Z"
-      }
-    },
-    {
       "id": "news-e7e318e87e3c691850821654",
       "title": "Anthropic 연환산 매출 650억 달러로 급증 — 두 달간 180억 달러 증가",
       "startAt": "2026-08-17T23:56:26.000Z",
@@ -410,28 +477,6 @@
       }
     },
     {
-      "id": "news-4eb107933eb96d1e6dd51932",
-      "title": "버진, 채널 터널 유럽 운행권 확보 절차 착수—하루 최대 20회 운행 제안",
-      "startAt": "2026-08-17T12:46:25.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 버진은 채널 터널을 이용해 일일 최대 20회 유럽행 열차 운행을 하려는 계획을 추진했으며, 다만 해외(영국 외) 선로 운행을 위해 추가적인 승인 절차가 필요하다고 전해졌다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjrvx4yye81o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cjrvx4yye81o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-17T12:46:25.000Z",
-        "lastObservedAt": "2026-08-17T13:51:19.384Z"
-      }
-    },
-    {
       "id": "news-3ff02964da6b7f4fea83906b",
       "title": "OpenAI, ‘지능 시대’ 정책 아이디어 연구에 14개 독립 프로젝트 자금 지원",
       "startAt": "2026-08-17T03:15:00.000Z",
@@ -498,28 +543,6 @@
       }
     },
     {
-      "id": "news-31dae9a6b15deb4d100d8348",
-      "title": "우크라이나, 러시아에 수백대 드론 동원한 대규모 공중공격—러시아서 최소 6명 사망",
-      "startAt": "2026-08-16T10:12:09.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "우크라이나가 일요일(현지시간) 수백 대의 드론를 러시아 전역에 발사해, 키이우 측의 공격 중 하나로 분류되는 대규모 공습이 발생했다. 보도에 따르면 이번 공격으로 러시아에서 최소 6명이 사망했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia"
-        ],
-        "firstPublishedAt": "2026-08-16T10:12:09.000Z",
-        "lastObservedAt": "2026-08-16T13:40:49.770Z"
-      }
-    },
-    {
       "id": "news-e30d075d30fc02635fe710d0",
       "title": "나이지리아, 유류값 급등에 전기 오토바이 확산",
       "startAt": "2026-08-16T01:43:57.000Z",
@@ -540,29 +563,6 @@
           "https://www.aljazeera.com/news/2026/8/16/as-petrol-prices-soar-electric-bikes-gain-ground-in-nigeria?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-08-16T01:43:57.000Z",
-        "lastObservedAt": "2026-08-16T02:33:53.232Z"
-      }
-    },
-    {
-      "id": "news-41036778d9fb6b865914710c",
-      "title": "세우타 진입 시도자 111명 체포 — 모로코·스페인 국경 긴장 재고조",
-      "startAt": "2026-08-15T18:08:21.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언은 소셜미디어 게시로 또 다른 대규모 국경 돌파 시도가 촉발된 가운데 모로코 경찰이 스페인의 북아프리카 영토 세우타에 진입을 시도한 사람 111명을 체포했다고 보도했다. 이번 사례는 2주 전 72,000명 이상의 이주민이 세우타로 몰렸고 약 96명이 사망한 대규모 이동 사태 이후의 긴장이 이어지는 상황이다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta",
-      "topicIds": [
-        "politicsHumanRights",
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
-        ],
-        "firstPublishedAt": "2026-08-15T18:08:21.000Z",
         "lastObservedAt": "2026-08-16T02:33:53.232Z"
       }
     },
