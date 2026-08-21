@@ -1,8 +1,105 @@
 {
-  "catalogVersion": "0.0.54",
-  "updatedAt": "2026-08-21T02:36:14.002Z",
+  "catalogVersion": "0.0.55",
+  "updatedAt": "2026-08-21T13:55:43.692Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-4268ad04a3e8a05c2213afa2",
+      "title": "콩고 민주공화국(DRC) 에볼라 발병 '더 빠르고 넓게' 확산 — 사망자 2,500명 넘어(유엔)",
+      "startAt": "2026-08-21T13:30:36.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 DRC의 에볼라 발병이 '더 빠르고 넓게' 확산되고 있으며 사망자가 2,500명을 넘었다. 보도는 분쟁, 자금 부족, 보건 종사자와 시설에 대한 공격 등으로 역학 대응이 어려움을 겪고 있다고 전했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
+          "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
+          "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
+          "https://www.npr.org/2026/08/19/g-s1-139164/congo-ebola-outbreak",
+          "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
+        "lastObservedAt": "2026-08-21T13:55:43.691Z"
+      }
+    },
+    {
+      "id": "news-9cb077c97e64c56d5c5e82fc",
+      "title": "러시아, 휘발유·경유 부족으로 장시간 주유 대기 — 국민들 전시 여파 체감",
+      "startAt": "2026-08-21T13:07:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 러시아 전역에서 운전자들이 주유소에서 수시간씩 대기하는 연료 부족 현상이 발생하고 있다. 보도는 이 현상을 '전쟁의 영향'으로 해석하며 모스크바가 러시아의 날(Flag Day) 행사를 준비하는 가운데 국민들의 불편이 커지고 있다고 전했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-21T13:07:00.000Z",
+        "lastObservedAt": "2026-08-21T13:55:43.691Z"
+      }
+    },
+    {
+      "id": "news-07ca21740f8fa834b09b82fd",
+      "title": "영국 기상: '기록적 엘니뇨'로 폭풍 많은 가을·추운 겨울 가능성",
+      "startAt": "2026-08-21T13:02:13.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 올해 엘니뇨는 '살아있는 기억 속에서 전례 없는' 수준이 될 가능성이 제기되며, 영국에서는 폭풍이 잦은 가을과 추운 겨울 등 기상 영향이 예상된다고 분석됐다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cd0x17r4j0yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/weather/articles/cd0x17r4j0yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-21T00:33:21.000Z",
+        "lastObservedAt": "2026-08-21T13:55:43.692Z"
+      }
+    },
+    {
+      "id": "news-c3c78b615c18f2646d92bb3c",
+      "title": "트럼프 행정부, 이란에 '경제 전쟁' 선언 — 긴장 고조",
+      "startAt": "2026-08-21T11:25:10.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 트럼프 대통령은 이란을 협상 테이블로 복귀시키기 위한 방안으로 '경제 전쟁'을 선언했다. 같은 매체는 이란 고위 관리들이 미국의 경제 압박 시도를 '군사적 실패'의 방편으로 규정하며 대응 의지를 보였다고 전했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/21/g-s1-139542/up-first-newsletter-trump-iran-economy-white-house-ballroom-bond-market",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/21/g-s1-139542/up-first-newsletter-trump-iran-economy-white-house-ballroom-bond-market",
+          "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare"
+        ],
+        "firstPublishedAt": "2026-08-21T11:25:10.000Z",
+        "lastObservedAt": "2026-08-21T13:55:43.692Z"
+      }
+    },
     {
       "id": "news-c0cb3840a88b61bc0c023a0c",
       "title": "메콩이 아닌 나일강을 둘러싼 새 분수령 — 에티오피아의 'GRD 이후' 추가 댐 사업",
@@ -44,30 +141,6 @@
           "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-08-21T01:12:02.000Z",
-        "lastObservedAt": "2026-08-21T02:36:14.002Z"
-      }
-    },
-    {
-      "id": "news-07ca21740f8fa834b09b82fd",
-      "title": "기상청 경고: \"살아있는 기억 속 가장 강력한 엘니뇨\" — 2027년 최고 기온 가능성",
-      "startAt": "2026-08-21T00:33:21.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 영국 기상청(Met Office)은 성장 중인 엘니뇨 현상이 '살아있는 기억 속에서 전례 없는 사건'이라며, 이 영향으로 2027년이 전 세계적으로 역대 최고 기온을 기록할 가능성이 크다고 경고했다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-21T00:33:21.000Z",
         "lastObservedAt": "2026-08-21T02:36:14.002Z"
       }
     },
@@ -297,50 +370,6 @@
       }
     },
     {
-      "id": "news-f96aa35ca83e93b744cfe996",
-      "title": "라틴아메리카 극우 지도자 고문 페르난도 세리메도 체포 — 여자친구 살해 모의 혐의",
-      "startAt": "2026-08-19T13:44:57.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "기업인 겸 정치전략가 페르난도 세리메도(42)가 여자친구를 살해하려 한 혐의로 체포됐다. 세리메도는 볼리비아 대통령 로드리고 파즈 페레이라의 고문을 맡아 왔고, 아르헨티나의 하비에르 밀레이의 2023년 대선 캠페인 주요 전략가 중 한 명으로 알려져 있다. 보도에 따르면 그는 볼리비아 변호사 나디아 벨러(Nadia Beller) 총격 지시 혐의를 받고 있다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend"
-        ],
-        "firstPublishedAt": "2026-08-19T13:44:57.000Z",
-        "lastObservedAt": "2026-08-19T13:54:47.816Z"
-      }
-    },
-    {
-      "id": "news-7a705b4ce5fbb10dcf005428",
-      "title": "이스라엘 군, 가자에서 사망한 팔레스타인 소녀 힌드 라잡 사건에 형사 조사 명령",
-      "startAt": "2026-08-19T12:41:46.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "이스라엘 군이 가자에서 사망한 5세 소녀 힌드 라잡(Hind Rajab) 사건에 대해 형사 조사를 지시했다. 보도에 따르면 소녀는 구조대에 여러 시간 동안 전화를 걸었고, 시신은 2024년 가자시티에서 며칠 뒤 수습된 바 있다. 군의 형사 조사 명령은 사건에 대한 책임 규명 작업의 중요한 단계로 평가된다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-19T12:41:46.000Z",
-        "lastObservedAt": "2026-08-19T13:54:47.816Z"
-      }
-    },
-    {
       "id": "news-b6f5fc0820288c8b36a1a993",
       "title": "미국, 캐나다 수입품 대상 50% 관세 시행 연기 — 협상 타결로 조정",
       "startAt": "2026-08-19T11:14:31.000Z",
@@ -364,32 +393,6 @@
       }
     },
     {
-      "id": "news-4268ad04a3e8a05c2213afa2",
-      "title": "콩고(DRC) 에볼라 발병 확진 5,000건 돌파 — 대응 역량 추월",
-      "startAt": "2026-08-19T09:29:40.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "정부 집계에서 이번 콩고 민주공화국(DRC) 에볼라 발병 확진이 5,021건, 사망 2,378명을 기록했다고 보도되었다. 보도는 이번 발병이 역대 어느 발병보다 빠른 속도로 확산하며 대응 역량을 앞지르고 있다고 전했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/19/g-s1-139164/congo-ebola-outbreak",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
-          "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
-          "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
-          "https://www.npr.org/2026/08/19/g-s1-139164/congo-ebola-outbreak"
-        ],
-        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
-        "lastObservedAt": "2026-08-19T13:54:47.816Z"
-      }
-    },
-    {
       "id": "news-b662ac6d7f38d6a86f3d8e83",
       "title": "중국 휴머노이드 로봇 최대업체 유니트리(Unitree), 상하이 스타마켓 상장 — 상장 첫날 주가 급등",
       "startAt": "2026-08-19T02:09:46.000Z",
@@ -408,28 +411,6 @@
           "https://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-08-19T02:09:46.000Z",
-        "lastObservedAt": "2026-08-19T02:23:32.069Z"
-      }
-    },
-    {
-      "id": "news-9589cfeacd60f567e93c32df",
-      "title": "초저배출구역(ULEZ) 도입 뒤 어린이 폐 기능 '회복' 관찰 — 연구진 놀라움 표명",
-      "startAt": "2026-08-18T23:53:24.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "연구 결과에 따르면 초저배출구역(ULTRA LOW EMISSION ZONE) 도입 이후 어린이들의 폐활량이 오염이 적은 지역의 또래와 비슷한 수준으로 회복되는 양상이 관찰됐다. 저감 조치가 소아 호흡기 건강에 가시적 개선을 가져온 것으로 평가된다.",
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c1l1r1zne1ro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c1l1r1zne1ro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-18T23:53:24.000Z",
         "lastObservedAt": "2026-08-19T02:23:32.069Z"
       }
     },
