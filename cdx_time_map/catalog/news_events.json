@@ -1,8 +1,98 @@
 {
-  "catalogVersion": "0.0.53",
-  "updatedAt": "2026-08-20T13:57:35.690Z",
+  "catalogVersion": "0.0.54",
+  "updatedAt": "2026-08-21T02:36:14.002Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c0cb3840a88b61bc0c023a0c",
+      "title": "메콩이 아닌 나일강을 둘러싼 새 분수령 — 에티오피아의 'GRD 이후' 추가 댐 사업",
+      "startAt": "2026-08-21T02:11:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도에 따르면 그랜드 에티오피아 르네상스 댐(GERD) 건설 실패 이후 에티오피아가 추진하는 3개 추가 나일강 댐 프로젝트가 이집트와의 수자원·정치적 대립에서 새로운 시험대가 되고 있다. 기사는 이러한 사업이 이집트의 영향력에 대한 도전이자 지역 수자원 관리의 향방을 가를 것이라고 분석했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/21/after-gerd-can-egypt-shape-ethiopias-next-nile-dams?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/21/after-gerd-can-egypt-shape-ethiopias-next-nile-dams?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-21T02:11:33.000Z",
+        "lastObservedAt": "2026-08-21T02:36:14.002Z"
+      }
+    },
+    {
+      "id": "news-e5019b78cee03ca693aecf35",
+      "title": "파나마 운하, 엘니뇨 영향 대비 선박 통행 제한 예고",
+      "startAt": "2026-08-21T01:12:02.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도에 따르면 파나마 운하 당국은 다가오는 엘니뇨로 인한 가뭄·고온 가능성을 이유로 운하 통행을 제한할 계획이라고 밝혔다. 이 조치는 세계 해운 물류에 직접적인 영향을 미칠 수 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-21T01:12:02.000Z",
+        "lastObservedAt": "2026-08-21T02:36:14.002Z"
+      }
+    },
+    {
+      "id": "news-07ca21740f8fa834b09b82fd",
+      "title": "기상청 경고: \"살아있는 기억 속 가장 강력한 엘니뇨\" — 2027년 최고 기온 가능성",
+      "startAt": "2026-08-21T00:33:21.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "BBC 보도에 따르면 영국 기상청(Met Office)은 성장 중인 엘니뇨 현상이 '살아있는 기억 속에서 전례 없는 사건'이라며, 이 영향으로 2027년이 전 세계적으로 역대 최고 기온을 기록할 가능성이 크다고 경고했다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-21T00:33:21.000Z",
+        "lastObservedAt": "2026-08-21T02:36:14.002Z"
+      }
+    },
+    {
+      "id": "news-3edafe5825893e1254c50c80",
+      "title": "미국‑라이베리아 간 강제송환 합의 가동 — 첫 그룹 20명 송환",
+      "startAt": "2026-08-20T19:57:59.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 미국은 라이베리아와의 합의에 따라 20명의 이주자를 라이베리아로 송환했으며, 해당 합의에 따라 최대 1,200명에 달하는 이주자 송환이 예정되어 있다. 이번 조치는 트럼프 행정부의 이민정책 일환으로 평가된다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
+        ],
+        "firstPublishedAt": "2026-08-20T19:57:59.000Z",
+        "lastObservedAt": "2026-08-21T02:36:14.002Z"
+      }
+    },
     {
       "id": "news-a741a1d4684ca0b84d35cd83",
       "title": "우크라이나 전(前) 국방장관의 전시 대통령선거 요구로 젤렌스키에 압박",
@@ -363,72 +453,6 @@
         ],
         "firstPublishedAt": "2026-08-18T19:00:00.000Z",
         "lastObservedAt": "2026-08-19T02:23:32.069Z"
-      }
-    },
-    {
-      "id": "news-dd7d493a6238eb6e9a2db7de",
-      "title": "ABC, 연방통신위원회(FCC) 상대로 소송 제기 — 방송국 조기 면허 갱신 요구에 반발",
-      "startAt": "2026-08-18T13:38:23.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "ABC 방송사가 브렌던 카(Brendan Carr) 위원장이 이끄는 연방통신위원회(FCC)를 상대로 소송을 제기했다. 네트워크는 자신들이 소유한 8개 지역 TV 방송국에 대해 조기 면허갱신 신청을 강요당했다며, 이는 행정의 콘텐츠 불승인에 대한 보복으로 언론 독립을 위협한다고 주장했다. ABC는 FCC가 갱신을 승인할지 심리(hearing)를 개최할지를 결정할 것이라고 전했다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/18/abc-sues-trump-federal-communications-commission",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/aug/18/abc-sues-trump-federal-communications-commission"
-        ],
-        "firstPublishedAt": "2026-08-18T13:38:23.000Z",
-        "lastObservedAt": "2026-08-18T13:54:09.805Z"
-      }
-    },
-    {
-      "id": "news-e6d4f397868b8c30b0be90c5",
-      "title": "시리아 전쟁 전력 관련자 와심 알-아사드(Wassim al‑Assad) 사형 선고",
-      "startAt": "2026-08-18T13:06:20.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 법원이 시리아 전쟁 중 자행된 잔학행위와 관련해 와심 알-아사드에게 사형을 선고했다. 보도는 이 판결이 실각한 바샤르 알-아사드(Bashar al‑Assad) 전 대통령에 대한 사형 선고 직후(일주일 내) 나온 사건이라고 전했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/18/who-is-wassim-al-assad-sentenced-to-death-for-syria-war-atrocities?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/18/who-is-wassim-al-assad-sentenced-to-death-for-syria-war-atrocities?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-18T13:06:20.000Z",
-        "lastObservedAt": "2026-08-18T13:54:09.805Z"
-      }
-    },
-    {
-      "id": "news-f17154717819cf927aaddb2b",
-      "title": "영국 구인공고 5년 만의 최저치 — 소규모 기업들 채용 축소",
-      "startAt": "2026-08-18T12:52:26.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC의 통계 보도에 따르면 영국의 구인공고(채용공고) 수가 5년 만에 최저 수준으로 떨어졌다. 소규모 업체들이 인건비와 운영비 부담을 이유로 채용을 축소하고 있다는 점이 주요 원인으로 지적됐다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cn9nwx090v9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cn9nwx090v9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-18T12:52:26.000Z",
-        "lastObservedAt": "2026-08-18T13:54:09.805Z"
       }
     },
     {
