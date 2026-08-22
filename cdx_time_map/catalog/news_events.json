@@ -1,8 +1,57 @@
 {
-  "catalogVersion": "0.0.56",
-  "updatedAt": "2026-08-22T02:20:20.352Z",
+  "catalogVersion": "0.0.57",
+  "updatedAt": "2026-08-22T13:40:57.848Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-b6f5fc0820288c8b36a1a993",
+      "title": "미·캐나다 무역협상 결렬 — 캐나다, 미국 50% 관세에 '달러 대 달러' 맞대응",
+      "startAt": "2026-08-22T12:20:46.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "영국 BBC 보도에 따르면 막판 무역 협상 결렬로 미국이 부과한 조치에 맞춰 캐나다는 200억 달러 규모의 수입품에 대해 50% 관세를 '달러 대 달러(dollar for dollar)' 방식으로 시행한다고 밝혔다. 보도는 해당 관세 조치가 발효되었다고 전했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
+          "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
+        "lastObservedAt": "2026-08-22T13:40:57.847Z"
+      }
+    },
+    {
+      "id": "news-f6dd3761c1e08f6bd4ddc604",
+      "title": "웨일스 블레어나본 산불, 방대한 탄소 배출로 '글로벌 핫스팟'으로 부상",
+      "startAt": "2026-08-22T11:31:09.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "BBC 과학·환경 보도에 따르면 웨일스 블레어나본(Blaenavon) 인근 산불이 대규모 탄소를 배출해 '글로벌 핫스팟'으로 지목되었으며, 타는 냄새가 30마일(약 48km) 떨어진 카디프(Cardiff)까지 전해졌다고 전해졌다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cp9e9rg255vo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cp9e9rg255vo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-22T11:31:09.000Z",
+        "lastObservedAt": "2026-08-22T13:40:57.848Z"
+      }
+    },
     {
       "id": "news-c0cb3840a88b61bc0c023a0c",
       "title": "이란 대통령, \"미국과의 전쟁 종식은 힘의 위치에서\" 발언",
@@ -393,51 +442,6 @@
         ],
         "firstPublishedAt": "2026-08-18T18:00:00.000Z",
         "lastObservedAt": "2026-08-20T13:57:35.690Z"
-      }
-    },
-    {
-      "id": "news-b6f5fc0820288c8b36a1a993",
-      "title": "미국, 캐나다 수입품 대상 50% 관세 시행 연기 — 협상 타결로 조정",
-      "startAt": "2026-08-19T11:14:31.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "미국이 예정됐던 캐나다산 수입품 대상 50% 관세 부과를 협상 타결을 이유로 연기했다고 보도되었다. 이번 조치는 양국 무역협상에서 시한을 앞두고 합의가 이뤄지면서 결정된 것이다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial"
-        ],
-        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
-        "lastObservedAt": "2026-08-19T13:54:47.816Z"
-      }
-    },
-    {
-      "id": "news-b662ac6d7f38d6a86f3d8e83",
-      "title": "중국 휴머노이드 로봇 최대업체 유니트리(Unitree), 상하이 스타마켓 상장 — 상장 첫날 주가 급등",
-      "startAt": "2026-08-19T02:09:46.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "세계에서 가장 큰 휴머노이드 로봇 제조사로 알려진 유니트리(Unitree)가 상하이의 기술·혁신 특화 시장인 '스타 마켓'에서 거래를 시작했다. 상장 첫날 거래가 활발히 이뤄지며 주가가 급등했다는 보도가 나왔다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-19T02:09:46.000Z",
-        "lastObservedAt": "2026-08-19T02:23:32.069Z"
       }
     },
     {
