@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "3.2.0",
-  "updatedAt": "2026-08-17T00:00:00.000Z",
+  "catalogVersion": "3.3.0",
+  "updatedAt": "2026-08-22T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
     {"id": "civilizationPacks", "title": "문명"}
@@ -38,8 +38,136 @@
     {"id": "agriculture", "title": "농업·축산"},
     {"id": "urbanDevelopment", "title": "도시·건축·교통"},
     {"id": "weapons", "title": "무기"}
+    ,{"id": "humanPrehistory", "title": "인류 선사"}
   ],
   "events": [
+  {
+    "id": "historic-homo-erectus-extinction",
+    "title": "호모 에렉투스의 마지막 개체군 소멸",
+    "startAt": "-112000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "자바의 마지막 호모 에렉투스 개체군은 약 11만 년 전 전후까지 존속한 것으로 추정됩니다. 장기간 이어진 인류 계통의 중요한 종말입니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/research/whats-hot-human-origins/extinction-homo-erectus",
+    "topicIds": ["humanPrehistory", "extinctLife"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-117000-01-01T00:00:00.000Z",
+      "latestAt": "-108000-01-01T00:00:00.000Z",
+      "displayLabel": "약 11.7만–10.8만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-permanent-human-drawings",
+    "title": "현생 인류의 영구적 그림 제작",
+    "startAt": "-50000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "cultureEntertainment",
+    "importance": 3,
+    "description": "약 6만~4만 년 전 현생 인류가 오래 남는 그림을 만들기 시작한 흔적은 상징·예술 표현의 중요한 전환을 보여 줍니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/human-characteristics/humans-change-world?con=&dom=prime&src=syndication",
+    "topicIds": ["humanPrehistory", "artsFilm"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-60000-01-01T00:00:00.000Z",
+      "latestAt": "-40000-01-01T00:00:00.000Z",
+      "displayLabel": "약 6만–4만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-human-reach-australia",
+    "title": "현생 인류의 오스트레일리아 도달",
+    "startAt": "-50000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "약 5만 년 전 현생 인류가 오스트레일리아에 도달했습니다. 해양을 건넌 초기 대규모 인류 확산을 보여 주는 이정표입니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/human-characteristics/humans-change-world?con=&dom=prime&src=syndication",
+    "topicIds": ["humanPrehistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 5만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-neanderthal-disappearance",
+    "title": "네안데르탈인의 소멸",
+    "startAt": "-40000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "네안데르탈인은 약 4만 년 전 무렵 사라졌습니다. 현생 인류와 가까운 멸종 인류 계통의 종말이며, 유전적 흔적은 오늘날에도 남아 있습니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-neanderthalensis",
+    "topicIds": ["humanPrehistory", "extinctLife", "lifeScience"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 4만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-last-glacial-maximum",
+    "title": "최후빙기 최성기",
+    "startAt": "-22500-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "전 지구의 빙상이 가장 넓게 자리했던 최후빙기 최성기는 해수면·생태계·인류 이동 경로를 크게 바꾼 기후 사건입니다.",
+    "sourceName": "U.S. Geological Survey",
+    "sourceUrl": "https://www.usgs.gov/publications/last-glacial-maximum",
+    "topicIds": ["humanPrehistory", "climateEnvironment"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-26500-01-01T00:00:00.000Z",
+      "latestAt": "-19000-01-01T00:00:00.000Z",
+      "displayLabel": "약 2.65만–1.9만 년 전",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-human-reach-americas",
+    "title": "현생 인류의 아메리카 도달",
+    "startAt": "-15000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "politicsSociety",
+    "importance": 3,
+    "description": "약 1.5만 년 전까지 현생 인류는 아메리카에 도달했습니다. 인류가 주요 대륙 전역으로 퍼진 과정의 핵심 이정표입니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/human-characteristics/humans-change-world?con=&dom=prime&src=syndication",
+    "topicIds": ["humanPrehistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 1.5만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-gobekli-tepe-monuments",
+    "title": "괴베클리 테페 기념물 건설",
+    "startAt": "-9600-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "urbanDevelopment",
+    "importance": 3,
+    "description": "수렵채집 집단이 세운 괴베클리 테페의 거석 기념물은 신석기 전환기 사회·의례·건축의 규모를 보여 주는 매우 이른 사례입니다.",
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/1572/",
+    "topicIds": ["humanPrehistory", "civilizations", "urbanDevelopment", "agriculture"],
+    "timeEstimate": {
+      "kind": "estimatedRange",
+      "earliestAt": "-9600-01-01T00:00:00.000Z",
+      "latestAt": "-8200-01-01T00:00:00.000Z",
+      "displayLabel": "BC 9,600–8,200",
+      "confidence": "high"
+    }
+  },
   {
     "id": "historic-olympics-athens",
     "title": "근대 올림픽 첫 개최",
