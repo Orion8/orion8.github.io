@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "3.3.0",
+  "catalogVersion": "3.4.0",
   "updatedAt": "2026-08-22T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
@@ -41,6 +41,23 @@
     ,{"id": "humanPrehistory", "title": "인류 선사"}
   ],
   "events": [
+  {
+    "id": "historic-homo-sapiens-emergence",
+    "title": "호모 사피엔스의 출현",
+    "startAt": "-300000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "현생 인류 호모 사피엔스는 아프리카에서 약 30만 년 전 출현했습니다. 오늘날 인류의 공통 기원과 이후 전 지구적 확산의 출발점입니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+    "topicIds": ["humanPrehistory", "lifeScience"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 30만 년 전",
+      "confidence": "medium"
+    }
+  },
   {
     "id": "historic-homo-erectus-extinction",
     "title": "호모 에렉투스의 마지막 개체군 소멸",
