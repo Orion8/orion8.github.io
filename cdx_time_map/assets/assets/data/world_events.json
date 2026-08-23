@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "3.4.0",
+  "catalogVersion": "3.5.0",
   "updatedAt": "2026-08-22T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
@@ -41,6 +41,125 @@
     ,{"id": "humanPrehistory", "title": "인류 선사"}
   ],
   "events": [
+  {
+    "id": "historic-sahelanthropus-tchadensis",
+    "title": "사헬란트로푸스의 출현",
+    "startAt": "-6500000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "사헬란트로푸스 차덴시스는 약 700만~600만 년 전 중앙아프리카에 살았던, 인류 계통의 가장 이른 알려진 종 가운데 하나입니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis",
+    "topicIds": ["humanPrehistory", "lifeScience"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 700만–600만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-ardipithecus-ramidus",
+    "title": "아르디피테쿠스 라미두스",
+    "startAt": "-4400000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 2,
+    "description": "아르디피테쿠스 라미두스는 약 440만 년 전의 초기 인류로, 나무 오르기와 두 발 보행의 진화적 전환을 이해하는 중요한 화석 증거입니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/evidence/human-fossils/species/ardipithecus-ramidus",
+    "topicIds": ["humanPrehistory", "lifeScience"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 440만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-australopithecus-afarensis",
+    "title": "오스트랄로피테쿠스 아파렌시스",
+    "startAt": "-3200000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "루시로 널리 알려진 오스트랄로피테쿠스 아파렌시스는 약 385만~295만 년 전 동아프리카에 살았으며, 초기 두 발 보행을 보여 주는 핵심 인류 종입니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis",
+    "topicIds": ["humanPrehistory", "lifeScience"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 385만–295만 년 전",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-earliest-stone-tools",
+    "title": "가장 이른 알려진 석기 제작",
+    "startAt": "-3300000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "약 330만 년 전의 석기 증거는 초기 인류가 돌을 의도적으로 깨고 사용한 기술적 전환을 보여 줍니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/research/climate-and-human-evolution/climate-effects-human-evolution",
+    "topicIds": ["humanPrehistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 330만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-homo-habilis",
+    "title": "호모 하빌리스",
+    "startAt": "-2400000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "호모 하빌리스는 약 240만 년 전 등장한 초기 호모 속의 한 종으로, 초기 석기와의 관련성 때문에 인류 기술 진화에서 중요합니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-habilis",
+    "topicIds": ["humanPrehistory", "lifeScience"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 240만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-homo-erectus-emergence",
+    "title": "호모 에렉투스의 출현",
+    "startAt": "-1900000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "호모 에렉투스는 약 190만 년 전 화석 기록에 나타났으며, 아프리카 밖으로 확산한 초기 인류의 대표적 계통입니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus",
+    "topicIds": ["humanPrehistory", "lifeScience"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 190만 년 전",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-acheulean-handaxes",
+    "title": "아슐리안 주먹도끼 기술",
+    "startAt": "-1760000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "약 176만 년 전부터 대형 절단 도구와 주먹도끼를 만드는 아슐리안 석기 기술이 나타나, 초기 인류 기술의 큰 도약을 이뤘습니다.",
+    "sourceName": "Smithsonian Human Origins Program",
+    "sourceUrl": "https://humanorigins.si.edu/evidence/behavior/stone-tools/early-stone-age-tools",
+    "topicIds": ["humanPrehistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 176만 년 전",
+      "confidence": "high"
+    }
+  },
   {
     "id": "historic-homo-sapiens-emergence",
     "title": "호모 사피엔스의 출현",
