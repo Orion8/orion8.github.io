@@ -1,8 +1,80 @@
 {
-  "catalogVersion": "0.0.58",
-  "updatedAt": "2026-08-23T02:36:38.254Z",
+  "catalogVersion": "0.0.59",
+  "updatedAt": "2026-08-23T13:42:34.764Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-016cef994c746bb21b8edd16",
+      "title": "콩고민주공화국(DRC) 정부·M23 반군, 평화회담 로드맵 합의",
+      "startAt": "2026-08-23T12:52:08.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "대표단이 스위스에서 만나 분쟁 해결을 위한 다음 절차를 정하는 로드맵에 합의했다. 향후 회담 일정과 실무 조치 등 향후 협상 진전에 영향을 미칠 가능성이 있다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-23T12:52:08.000Z",
+        "lastObservedAt": "2026-08-23T13:42:34.764Z"
+      }
+    },
+    {
+      "id": "news-4268ad04a3e8a05c2213afa2",
+      "title": "콩고(DRC) 에볼라 발병 100일째 — 대응 난항과 확산 우려",
+      "startAt": "2026-08-23T10:50:36.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "발병 100일을 맞은 가운데 현지에서 2,000명 넘는 사망자가 보고됐으며, 보건팀들은 분쟁·자금 부족·현장 공격 등으로 역학 대응에 어려움을 겪고 있어 확산 통제가 쉽지 않다고 전해졌다.",
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/world/video/2026/aug/23/ebola-day-100-why-this-outbreak-could-become-deadliest-in-history-explainer",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
+          "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
+          "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
+          "https://www.npr.org/2026/08/19/g-s1-139164/congo-ebola-outbreak",
+          "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss",
+          "https://www.theguardian.com/world/video/2026/aug/23/ebola-day-100-why-this-outbreak-could-become-deadliest-in-history-explainer"
+        ],
+        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
+        "lastObservedAt": "2026-08-23T13:42:34.764Z"
+      }
+    },
+    {
+      "id": "news-e8a5cb684987567421da92b6",
+      "title": "아르테미스 II 승무원, 역사적 달 비행 기여로 미 의회의 최고 우주훈장 수여 예정",
+      "startAt": "2026-08-23T10:00:30.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA 발표에 따르면 리드 위즈먼, 빅터 글로버, 크리스티나 코흐, 제러미 핸슨이 8월28일 의회의 최고 우주훈장(Congressional Space Medal of Honor)을 받게 된다. 이들은 지구로부터 가장 멀리 비행한 기록을 세운 승무원이다.",
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/aug/23/artemis-ii-crew-top-us-space-medal",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/aug/23/artemis-ii-crew-top-us-space-medal"
+        ],
+        "firstPublishedAt": "2026-08-23T10:00:30.000Z",
+        "lastObservedAt": "2026-08-23T13:42:34.764Z"
+      }
+    },
     {
       "id": "news-790b0b3fe2fade8c4857fcfe",
       "title": "수단 코르도판 전투로 수천 명 피난 — 엘 오베이드로 이동",
@@ -50,29 +122,25 @@
       }
     },
     {
-      "id": "news-b6f5fc0820288c8b36a1a993",
-      "title": "미·캐나다 무역 갈등 심화 — 미국의 일부 품목 50% 관세 부과에 캐나다 '달러 대 달러' 맞대응 예고",
-      "startAt": "2026-08-22T12:20:46.000Z",
+      "id": "news-11bfce24e7f02ff50874b967",
+      "title": "OpenAI, 캘리포니아의 AI 안전법(SB 53) 강화 필요성 촉구",
+      "startAt": "2026-08-22T16:30:34.000Z",
       "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 미국은 캐나다산 일부 품목(약 200억 달러 규모)에 대해 50% 관세를 부과했고, 캐나다는 이에 대해 '달러 대 달러'로 맞대응하겠다고 밝혔다. 보도는 관세 발효로 일시적 고용 영향과 양국 간 정치적 긴장이 심화될 수 있다고 전했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI는 캘리포니아의 AI 안전법 SB 53에 대해 이전 반대 입장에서 입장을 바꿔 법안 강화를 촉구했다고 밝혔다. 회사는 법안의 보완을 통해 안전 규제의 엄격화를 요청한 것으로 전해진다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
       "topicIds": [
-        "economyFinance",
-        "politicsHumanRights"
+        "aiHistory"
       ],
       "news": {
-        "status": "breaking",
+        "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
-          "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+          "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/"
         ],
-        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
-        "lastObservedAt": "2026-08-23T02:36:38.254Z"
+        "firstPublishedAt": "2026-08-22T16:30:34.000Z",
+        "lastObservedAt": "2026-08-23T13:42:34.764Z"
       }
     },
     {
@@ -97,6 +165,33 @@
         ],
         "firstPublishedAt": "2026-08-22T11:31:09.000Z",
         "lastObservedAt": "2026-08-22T13:40:57.848Z"
+      }
+    },
+    {
+      "id": "news-b6f5fc0820288c8b36a1a993",
+      "title": "미·캐나다 무역 갈등 — 美의 50% 관세 부과에 캐나다 ‘달러 대 달러’ 보복 예고",
+      "startAt": "2026-08-22T04:36:27.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "미국이 약 200억달러 규모의 일부 캐나다산 품목에 대해 50% 관세를 부과했으며, 캐나다는 9월8일부터 동일 규모로 맞대응(‘달러 대 달러’)하겠다고 예고했다. 양국 간 무역·정치적 긴장이 심화될 전망이다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+      "topicIds": [
+        "economyFinance",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
+          "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
+          "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
+        ],
+        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
+        "lastObservedAt": "2026-08-23T13:42:34.764Z"
       }
     },
     {
@@ -167,33 +262,6 @@
         ],
         "firstPublishedAt": "2026-08-21T16:01:43.000Z",
         "lastObservedAt": "2026-08-22T02:20:20.352Z"
-      }
-    },
-    {
-      "id": "news-4268ad04a3e8a05c2213afa2",
-      "title": "콩고 민주공화국(DRC) 에볼라 발병 '더 빠르고 넓게' 확산 — 사망자 2,500명 넘어(유엔)",
-      "startAt": "2026-08-21T13:30:36.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 DRC의 에볼라 발병이 '더 빠르고 넓게' 확산되고 있으며 사망자가 2,500명을 넘었다. 보도는 분쟁, 자금 부족, 보건 종사자와 시설에 대한 공격 등으로 역학 대응이 어려움을 겪고 있다고 전했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
-          "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
-          "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
-          "https://www.npr.org/2026/08/19/g-s1-139164/congo-ebola-outbreak",
-          "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
-        "lastObservedAt": "2026-08-21T13:55:43.691Z"
       }
     },
     {
@@ -398,29 +466,6 @@
         ],
         "firstPublishedAt": "2026-08-20T07:31:55.000Z",
         "lastObservedAt": "2026-08-20T13:57:35.690Z"
-      }
-    },
-    {
-      "id": "news-7ea64fd883ad7099ce32eac8",
-      "title": "기후 변화로 그린란드 해역에 대형 고래 출현 — 먹이구역 확대 관찰",
-      "startAt": "2026-08-20T02:05:20.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "빙하 감소로 해빙(바다얼음) 구역이 줄어들며 그린란드 인근 해역으로 대형 고래들이 이동해 'feeding frenzies'(집중 먹이 활동)가 관찰되고 있다고 보도되었다. 이는 해양 생태계와 기후 변화의 상호작용을 보여주는 사례로 평가된다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "lifeScience"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-20T02:05:20.000Z",
-        "lastObservedAt": "2026-08-20T02:22:25.918Z"
       }
     },
     {
@@ -696,28 +741,6 @@
       }
     },
     {
-      "id": "news-e063daae6225e15695395681",
-      "title": "기업의 에이전트형 AI 도입 현황 — OpenAI 조사 결과 공개",
-      "startAt": "2026-08-12T06:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI는 기업들이 에이전트형 AI를 도입해 ChatGPT·Codex 등을 활용하고 있으며, 선도 기업들이 채택을 통해 우위를 점하고 있다는 연구 결과를 공개했다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/how-enterprises-put-ai-to-work"
-        ],
-        "firstPublishedAt": "2026-08-12T06:00:00.000Z",
-        "lastObservedAt": "2026-08-12T14:25:43.938Z"
-      }
-    },
-    {
       "id": "news-7d92603cf2986fc0c5bc8ec2",
       "title": "2026년 8월12일 개기일식 회고 — 유럽 관측·과학적 관찰 기회",
       "startAt": "2026-08-12T00:00:00.000Z",
@@ -810,29 +833,6 @@
         ],
         "firstPublishedAt": "2026-08-06T08:00:00.000Z",
         "lastObservedAt": "2026-08-06T15:25:16.727Z"
-      }
-    },
-    {
-      "id": "news-f50d954a37949b3dd6016ccf",
-      "title": "NASA, 랭글리 연구센터에 40년 만의 신규 풍동 'Flight Dynamics Research Facility' 개관",
-      "startAt": "2026-07-31T17:11:14.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 버지니아 랭글리 연구센터에 최신 풍동 시설인 Flight Dynamics Research Facility를 개관했다. 이 시설은 차세대 항공기·로켓·우주탐사체의 성능·안전 시험을 지원할 예정이다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/nasas-newest-wind-tunnel-opens-at-nasa-langley/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/image-article/nasas-newest-wind-tunnel-opens-at-nasa-langley/",
-          "https://www.nasa.gov/news-release/nasa-opens-new-flight-dynamics-research-facility-in-virginia/"
-        ],
-        "firstPublishedAt": "2026-07-31T20:19:37.000Z",
-        "lastObservedAt": "2026-08-01T14:40:30.159Z"
       }
     },
     {
