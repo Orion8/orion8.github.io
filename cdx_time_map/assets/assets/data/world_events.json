@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "3.5.0",
-  "updatedAt": "2026-08-22T00:00:00.000Z",
+  "catalogVersion": "3.6.0",
+  "updatedAt": "2026-08-23T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
     {"id": "civilizationPacks", "title": "문명"}
@@ -37,10 +37,215 @@
     {"id": "religions", "title": "종교"},
     {"id": "agriculture", "title": "농업·축산"},
     {"id": "urbanDevelopment", "title": "도시·건축·교통"},
-    {"id": "weapons", "title": "무기"}
-    ,{"id": "humanPrehistory", "title": "인류 선사"}
+    {"id": "weapons", "title": "무기"},
+    {"id": "humanPrehistory", "title": "인류 선사"},
+    {"id": "earthDeepHistory", "title": "지구·생명 심층 역사"}
   ],
   "events": [
+  {
+    "id": "historic-earth-formation",
+    "title": "지구의 형성",
+    "startAt": "-4600000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "태양계 물질이 뭉쳐 지구가 형성된 시기입니다. 방사성 동위원소 연대측정은 지구의 나이를 약 45억 년 이상으로 보여 줍니다.",
+    "sourceName": "U.S. Geological Survey",
+    "sourceUrl": "https://pubs.usgs.gov/gip/geotime/geotime.html",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 46억 년 전",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-earliest-life-evidence",
+    "title": "가장 이른 생명 흔적",
+    "startAt": "-3700000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "암석 속 생물 활동의 신호는 약 37억 년 전까지 거슬러 올라가며, 스트로마톨라이트 같은 보존 구조는 약 35억 년 전부터 알려져 있습니다.",
+    "sourceName": "Smithsonian National Museum of Natural History",
+    "sourceUrl": "https://naturalhistory.si.edu/education/teaching-resources/life-science/early-life-earth-animal-origins",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 37억–35억 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-great-oxidation-event",
+    "title": "대산소화 사건",
+    "startAt": "-2400000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "광합성 미생물의 활동으로 대기와 바다의 산소가 크게 늘어난 전환입니다. 이후 복잡한 생명 진화의 환경적 기반이 되었습니다.",
+    "sourceName": "Smithsonian National Museum of Natural History",
+    "sourceUrl": "https://naturalhistory.si.edu/education/teaching-resources/life-science/early-life-earth-animal-origins",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 24억 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-first-eukaryotes",
+    "title": "진핵생물의 출현",
+    "startAt": "-2000000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "핵을 가진 세포인 진핵생물의 출현은 세포 복잡성과 이후 다세포 생물 진화의 핵심 전환이었습니다.",
+    "sourceName": "Smithsonian Ocean",
+    "sourceUrl": "https://ocean.si.edu/through-time/ancient-seas/ocean-throughout-geologic-time-image-gallery",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 20억 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-multicellular-life",
+    "title": "복잡한 다세포 생물의 초기 진화",
+    "startAt": "-1200000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "약 12억 년 전부터 더 복잡한 다세포 생물이 진화하기 시작했습니다. 생명체의 몸체 구조와 생태계가 크게 달라지는 출발점입니다.",
+    "sourceName": "Smithsonian Ocean",
+    "sourceUrl": "https://ocean.si.edu/through-time/ancient-seas/ocean-throughout-geologic-time-image-gallery",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 12억 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-cambrian-diversification",
+    "title": "캄브리아기 생명 다양화",
+    "startAt": "-541000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "scienceTechnology",
+    "importance": 3,
+    "description": "약 5억 4100만 년 전 시작된 현생누대에는 복잡하고 풍부한 생명 화석 기록이 본격적으로 나타납니다. 캄브리아기에 현대 동물의 기본 몸체 구조가 빠르게 다양화되었습니다.",
+    "sourceName": "U.S. Geological Survey",
+    "sourceUrl": "https://www.usgs.gov/youth-and-education-in-science/introduction",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 5억 4100만 년 전",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-ordovician-silurian-extinction",
+    "title": "오르도비스기 말 대멸종",
+    "startAt": "-444000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "해양 생태계에 큰 손실을 남긴 고생대 초기의 대멸종입니다. 지질시대 경계는 이런 생물의 출현과 멸종 기록으로 정의되는 경우가 많습니다.",
+    "sourceName": "National Park Service",
+    "sourceUrl": "https://www.nps.gov/subjects/fossils/mass-extinctions-through-geologic-time.htm",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 4억 4400만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-late-devonian-extinction",
+    "title": "데본기 말 대멸종",
+    "startAt": "-359000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "데본기 말에 이어진 멸종 파동은 해양 생태계와 산호초 군집을 크게 재편했습니다.",
+    "sourceName": "National Park Service",
+    "sourceUrl": "https://www.nps.gov/subjects/fossils/mass-extinctions-through-geologic-time.htm",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 3억 5900만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-permian-triassic-extinction",
+    "title": "페름기 말 대멸종",
+    "startAt": "-252000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "약 2억 5200만 년 전의 사건은 알려진 생물권 붕괴 가운데 가장 심각한 대멸종으로 평가되며, 이후 생태계와 진화의 방향을 근본적으로 바꿨습니다.",
+    "sourceName": "U.S. Geological Survey",
+    "sourceUrl": "https://www.usgs.gov/news/national-news-release/subsurface-magma-triggers-earths-most-severe-extinction",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 2억 5200만 년 전",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-end-triassic-extinction",
+    "title": "트라이아스기 말 대멸종",
+    "startAt": "-201000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "약 2억 년 전의 멸종은 생태계의 지배 구성을 바꾸며 뒤이은 쥐라기 생태계의 전개에 큰 영향을 주었습니다.",
+    "sourceName": "National Park Service",
+    "sourceUrl": "https://www.nps.gov/subjects/fossils/mass-extinctions-through-geologic-time.htm",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 2억 100만 년 전",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "historic-kpg-extinction",
+    "title": "백악기 말 대멸종",
+    "startAt": "-66000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "소행성 충돌과 급격한 기후 변화가 연결된 약 6600만 년 전의 대멸종으로, 비조류 공룡을 포함해 육상과 해양 생명에 큰 손실이 발생했습니다.",
+    "sourceName": "National Park Service",
+    "sourceUrl": "https://www.nps.gov/subjects/fossils/mass-extinctions-through-geologic-time.htm",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 6600만 년 전",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "historic-antarctic-ice-sheet-formation",
+    "title": "남극 빙상 형성의 시작",
+    "startAt": "-34000000-01-01T00:00:00.000Z",
+    "lane": "world",
+    "category": "climateDisaster",
+    "importance": 3,
+    "description": "약 3400만 년 전 남극의 대규모 빙하 형성이 시작되며, 현재까지 이어지는 지구의 빙실(icehouse) 기후 국면이 자리잡기 시작했습니다.",
+    "sourceName": "NOAA National Centers for Environmental Information",
+    "sourceUrl": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=noaa-ocean-21770",
+    "topicIds": ["earthDeepHistory"],
+    "timeEstimate": {
+      "kind": "approximate",
+      "displayLabel": "약 3400만 년 전",
+      "confidence": "medium"
+    }
+  },
   {
     "id": "historic-sahelanthropus-tchadensis",
     "title": "사헬란트로푸스의 출현",
