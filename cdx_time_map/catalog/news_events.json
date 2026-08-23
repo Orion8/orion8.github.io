@@ -1,18 +1,64 @@
 {
-  "catalogVersion": "0.0.57",
-  "updatedAt": "2026-08-22T13:40:57.848Z",
+  "catalogVersion": "0.0.58",
+  "updatedAt": "2026-08-23T02:36:38.254Z",
   "sourceType": "editorial",
   "events": [
     {
+      "id": "news-790b0b3fe2fade8c4857fcfe",
+      "title": "수단 코르도판 전투로 수천 명 피난 — 엘 오베이드로 이동",
+      "startAt": "2026-08-23T01:51:47.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라 영상 보도에 따르면 코르도판 주의 전투로 수천 명이 집을 떠나 상대적 안전을 찾아 수단 중부 도시 엘 오베이드로 이동하고 있다. 피난민 이동은 지역 내 전력·안전 상황 악화와 인도적 우려를 야기하고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-23T01:51:47.000Z",
+        "lastObservedAt": "2026-08-23T02:36:38.254Z"
+      }
+    },
+    {
+      "id": "news-bd2e0696466b9c90ca4f2c9d",
+      "title": "극심한 폭염 증가가 학사일정 재편 논의 촉발",
+      "startAt": "2026-08-22T23:16:43.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "BBC 과학·환경 보도에 따르면 점차 잦아지는 강력한 폭염이 학교 교실 운영을 어렵게 해 향후 학사일정(휴교·학기 재편 등)을 조정해야 할 가능성이 커지고 있다고 교사들이 경고하고 있다. 교육·기후 정책의 상충과 대응 필요성이 부각되고 있다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cp872m0grgyo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cp872m0grgyo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-22T23:16:43.000Z",
+        "lastObservedAt": "2026-08-23T02:36:38.254Z"
+      }
+    },
+    {
       "id": "news-b6f5fc0820288c8b36a1a993",
-      "title": "미·캐나다 무역협상 결렬 — 캐나다, 미국 50% 관세에 '달러 대 달러' 맞대응",
+      "title": "미·캐나다 무역 갈등 심화 — 미국의 일부 품목 50% 관세 부과에 캐나다 '달러 대 달러' 맞대응 예고",
       "startAt": "2026-08-22T12:20:46.000Z",
       "lane": "world",
-      "category": "economyBusiness",
+      "category": "politicsSociety",
       "importance": 3,
-      "description": "영국 BBC 보도에 따르면 막판 무역 협상 결렬로 미국이 부과한 조치에 맞춰 캐나다는 200억 달러 규모의 수입품에 대해 50% 관세를 '달러 대 달러(dollar for dollar)' 방식으로 시행한다고 밝혔다. 보도는 해당 관세 조치가 발효되었다고 전했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+      "description": "가디언 보도에 따르면 미국은 캐나다산 일부 품목(약 200억 달러 규모)에 대해 50% 관세를 부과했고, 캐나다는 이에 대해 '달러 대 달러'로 맞대응하겠다고 밝혔다. 보도는 관세 발효로 일시적 고용 영향과 양국 간 정치적 긴장이 심화될 수 있다고 전했다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
       "topicIds": [
         "economyFinance",
         "politicsHumanRights"
@@ -22,10 +68,11 @@
         "sourceUrls": [
           "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
           "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
-          "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
         ],
         "firstPublishedAt": "2026-08-18T00:02:31.000Z",
-        "lastObservedAt": "2026-08-22T13:40:57.847Z"
+        "lastObservedAt": "2026-08-23T02:36:38.254Z"
       }
     },
     {
@@ -308,28 +355,6 @@
       }
     },
     {
-      "id": "news-ead138000f17702cc3a59192",
-      "title": "트럼프 특사 카슈미르 방문 발언으로 미‑파키스탄 외교 갈등",
-      "startAt": "2026-08-20T13:18:35.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "트럼프 전 대통령 측 특사의 카슈미르 방문과 관련한 발언이 파키스탄 정부의 반발을 불러오며 미‑파키스탄 사이에 외교적 갈등이 촉발되었다. 파키스탄은 해당 발언이 워싱턴의 공식 입장과 배치된다고 주장했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/20/why-a-trump-envoys-kashmir-visit-has-led-to-us-pakistan-spat?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/20/why-a-trump-envoys-kashmir-visit-has-led-to-us-pakistan-spat?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-20T13:18:35.000Z",
-        "lastObservedAt": "2026-08-20T13:57:35.690Z"
-      }
-    },
-    {
       "id": "news-ca84f19d95e6c5b47f3b9fc7",
       "title": "미국 국가부채 40조 달러 돌파",
       "startAt": "2026-08-20T11:30:18.000Z",
@@ -395,28 +420,6 @@
           "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-08-20T02:05:20.000Z",
-        "lastObservedAt": "2026-08-20T02:22:25.918Z"
-      }
-    },
-    {
-      "id": "news-d35b0cb7f9b2302d90113846",
-      "title": "이스라엘서 대규모 이민 흐름 — 3년간 약 27만명 이민·해외 이주 가속",
-      "startAt": "2026-08-20T00:26:59.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 최근 3년간 약 27만명(nearly 270,000)의 이스라엘인이 정치적 불확실성과 안보 우려를 이유로 출국한 것으로 알려졌다. 전문가들은 이러한 '이민 쓰나미'가 국가의 인구·경제·정치적 미래에 장기적 영향을 미칠 수 있다고 경고했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/20/tsunami-of-emigration-reshapes-israels-future-experts-warn?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/20/tsunami-of-emigration-reshapes-israels-future-experts-warn?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-20T00:26:59.000Z",
         "lastObservedAt": "2026-08-20T02:22:25.918Z"
       }
     },
@@ -716,14 +719,14 @@
     },
     {
       "id": "news-7d92603cf2986fc0c5bc8ec2",
-      "title": "2026년 8월12일 개기일식 회고 — 유럽서 수백만명 관측, 코로나 관측 기회 제공",
+      "title": "2026년 8월12일 개기일식 회고 — 유럽 관측·과학적 관찰 기회",
       "startAt": "2026-08-12T00:00:00.000Z",
       "lane": "world",
       "category": "space",
       "importance": 2,
-      "description": "2026년 8월12일 북극을 시작으로 그린란드·아이슬란드·스페인·포르투갈 등을 지나는 개기일식이 유럽에서 20여년 만에 관측되었다. 총식 구간에 있던 관측자 수백만 명이 일식 현상을 목격했으며, 총식 동안 태양의 외대기(코로나)를 관측할 수 있는 기회가 됐다. 스페인 등에서 촬영된 장면은 일식의 시각적·과학적 가치를 재확인시켰다.",
+      "description": "유럽우주국(ESA) 공식 생중계에 따르면 2026년 8월12일의 개기일식은 그린란드·아이슬란드·스페인과 포르투갈 일부를 가로지르는 총식 경로를 지났고, 스페인 Observatorio Astrofísico de Javalambre 등 관측지에서 코로나(태양 외대기) 관찰 등 과학적 관측이 이루어졌다. 방송은 일식의 과학적·교육적 가치를 조명했다.",
       "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Total_solar_eclipse_2026_Official_ESA_broadcast",
       "topicIds": [
         "spaceDevelopment"
       ],
@@ -736,10 +739,11 @@
           "https://www.esa.int/ESA_Multimedia/Videos/2026/08/A_total_solar_eclipse_is_coming_to_Europe",
           "https://www.aljazeera.com/news/2026/8/11/total-solar-eclipse-2026-where-when-and-how-to-watch-on-wednesday?traffic_source=rss",
           "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
-          "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/"
+          "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Total_solar_eclipse_2026_Official_ESA_broadcast"
         ],
         "firstPublishedAt": "2026-08-05T08:00:00.000Z",
-        "lastObservedAt": "2026-08-14T14:20:08.488Z"
+        "lastObservedAt": "2026-08-23T02:36:38.254Z"
       }
     },
     {
