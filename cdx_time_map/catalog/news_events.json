@@ -1,8 +1,76 @@
 {
-  "catalogVersion": "0.0.59",
-  "updatedAt": "2026-08-23T13:42:34.764Z",
+  "catalogVersion": "0.0.60",
+  "updatedAt": "2026-08-24T02:36:23.457Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-40748607f5d7b3f8a18135ec",
+      "title": "케냐의 AI 데이터센터 유치와 나이바샤(Naivasha) 물 부족 우려",
+      "startAt": "2026-08-24T02:09:40.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "케냐가 데이터센터 유치를 추진하는 가운데 Naivasha 지역 주민들은 이미 긴장한 수자원에 대한 추가 압박을 우려하고 있다. 보도에 따르면 데이터센터와 관련 인프라 투자가 현지 물 수요를 늘릴 가능성이 있어 지역사회와 환경에 미치는 영향에 대한 논쟁이 커지고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/economy/2026/8/24/can-kenyas-ai-ambitions-coexist-with-naivashas-water-needs?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/economy/2026/8/24/can-kenyas-ai-ambitions-coexist-with-naivashas-water-needs?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-24T02:09:40.000Z",
+        "lastObservedAt": "2026-08-24T02:36:23.457Z"
+      }
+    },
+    {
+      "id": "news-479304d003ccdfa8d505bac0",
+      "title": "영국·웨일스 숙박·주점 사업자 부담 산정 방식 검토 시작",
+      "startAt": "2026-08-23T23:26:15.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "영국 정부가 잉글랜드와 웨일스의 펍·호텔 등에 적용되는 비즈니스 레이트(재산세) 산정 방식 전반에 대한 검토를 시작했다. 이번 검토는 제도 개편 가능성을 열어두고 있어 상업용 부동산 과세와 지역 경제에 미칠 영향이 주목된다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8xnxy89gv7o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c8xnxy89gv7o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-23T23:26:15.000Z",
+        "lastObservedAt": "2026-08-24T02:36:23.457Z"
+      }
+    },
+    {
+      "id": "news-563ed414c99dce9cc4ffd576",
+      "title": "기니 수도 콘크리의 쓰레기 더미 붕괴로 최소 30명 사망",
+      "startAt": "2026-08-23T22:16:53.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "콘크리의 대형 쓰레기 매립지에서 폭우로 인한 대형 산사태가 발생해 텐트·판잣집이 매몰되면서 최소 30명이 숨졌다고 보도됐다. 사고는 정부가 해당 폐기물 처리장을 폐쇄·이전하겠다고 발표한 지 불과 며칠 만에 발생해 도시의 취약한 인프라와 폭우에 따른 재난 위험을 부각시켰다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/23/landslide-waste-mound-conakry-guinea-kills-dozens",
+      "topicIds": [
+        "politicsHumanRights",
+        "climateEnvironment",
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/23/landslide-waste-mound-conakry-guinea-kills-dozens"
+        ],
+        "firstPublishedAt": "2026-08-23T22:16:53.000Z",
+        "lastObservedAt": "2026-08-24T02:36:23.457Z"
+      }
+    },
     {
       "id": "news-016cef994c746bb21b8edd16",
       "title": "콩고민주공화국(DRC) 정부·M23 반군, 평화회담 로드맵 합의",
@@ -379,50 +447,6 @@
       }
     },
     {
-      "id": "news-a741a1d4684ca0b84d35cd83",
-      "title": "우크라이나 전(前) 국방장관의 전시 대통령선거 요구로 젤렌스키에 압박",
-      "startAt": "2026-08-20T13:32:55.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "우크라이나의 인기 있는 전(前) 국방장관이 전시 상황에서 대통령 선거 실시를 요구하며 볼로디미르 젤렌스키 대통령에 대한 정치적 압박을 가중시켰다. 전문가들은 러시아의 공습이 지속되는 상황에서 선거 실행은 사실상 불가능에 가깝다고 지적했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/20/ukraines-ex-defence-chief-calls-for-presidential-vote?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/20/ukraines-ex-defence-chief-calls-for-presidential-vote?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-20T13:32:55.000Z",
-        "lastObservedAt": "2026-08-20T13:57:35.690Z"
-      }
-    },
-    {
-      "id": "news-ba8f35abd8e5dc0ae8624271",
-      "title": "Danone의 Huel 10억 유로 인수, 규제당국 승인",
-      "startAt": "2026-08-20T13:24:57.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "프랑스 다국적 식음료 기업 다논(Danone)의 영양식품업체 휴얼(Huel) 인수(약 10억 유로)가 경쟁당국의 승인으로 마무리되었다고 보도되었다. 회사는 이번 인수가 영양·헬스 분야 사업 확장의 핵심이라고 밝혔다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crl7y671w8go?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crl7y671w8go?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-20T13:24:57.000Z",
-        "lastObservedAt": "2026-08-20T13:57:35.690Z"
-      }
-    },
-    {
       "id": "news-ca84f19d95e6c5b47f3b9fc7",
       "title": "미국 국가부채 40조 달러 돌파",
       "startAt": "2026-08-20T11:30:18.000Z",
@@ -671,29 +695,6 @@
         ],
         "firstPublishedAt": "2026-08-14T18:44:36.000Z",
         "lastObservedAt": "2026-08-16T02:33:53.232Z"
-      }
-    },
-    {
-      "id": "news-dd423fa12cb3867f67f9c2cb",
-      "title": "과학자들, 달 뒷면 소형 위성으로 우주 초기의 21cm 신호 탐색 계획",
-      "startAt": "2026-08-14T15:00:32.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "영국 연구팀이 수트케이스 크기의 소형 위성을 달 궤도로 올려 달 뒷면을 지나는 동안 중성수소의 21cm 선(라디오 주파수)을 관측해 빅뱅 직후의 우주 상태를 밝히려는 계획을 발표했다. 달 뒷면은 지구 잡음으로부터 차폐돼 희귀 신호 탐색에 유리하다.",
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/aug/14/scientists-young-universe-moon-dark-side-cosmocube-satellite-radio-signal-21cm-line",
-      "topicIds": [
-        "physicsChemistry",
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/aug/14/scientists-young-universe-moon-dark-side-cosmocube-satellite-radio-signal-21cm-line"
-        ],
-        "firstPublishedAt": "2026-08-14T15:00:32.000Z",
-        "lastObservedAt": "2026-08-15T13:39:22.938Z"
       }
     },
     {
