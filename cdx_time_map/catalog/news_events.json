@@ -1,8 +1,78 @@
 {
-  "catalogVersion": "0.0.60",
-  "updatedAt": "2026-08-24T02:36:23.457Z",
+  "catalogVersion": "0.0.61",
+  "updatedAt": "2026-08-24T14:00:57.495Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-4d38648c033d9e0829f06088",
+      "title": "Hugging Face, 약 130억달러 가치 인수 논의 보도 — 창업진공 동요",
+      "startAt": "2026-08-24T13:47:26.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "TechCrunch 보도에 따르면 AI 스타트업 Hugging Face가 약 130억 달러(13B) 수준의 인수 제안을 검토 중이라는 보도가 나왔다. 보도는 창업자들이 커뮤니티에 대한 책임감을 느끼며 실제 매각으로 이어질지에 대해 의문을 제기하고 있다고 전했다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/"
+        ],
+        "firstPublishedAt": "2026-08-24T13:47:26.000Z",
+        "lastObservedAt": "2026-08-24T14:00:57.495Z"
+      }
+    },
+    {
+      "id": "news-c3c78b615c18f2646d92bb3c",
+      "title": "미 재무장관, 이란에 대한 새 경제 제재 발표 — '사상 최대의 금융 공세' 선언 보도",
+      "startAt": "2026-08-24T13:35:07.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 미국 재무장관 스콧 베센트(Scott Bessent)는 이란에 대한 새로운 경제 제재를 공개하며 이를 '사상 최대의 금융 공세'로 규정했다고 전해졌다. 미국은 이란과의 모든 경제적 연결을 단절하고 이란과 재정적 거래를 하는 국가들도 고립될 것이라고 경고했으며, NPR은 트럼프 행정부가 이번 조치를 '경제적 D‑Day'로 표현했다고 보도했다. 이란은 새로운 제재에 대해 '지각 변동(seismic) 방식'으로 대응하겠다고 반발한 것으로 알려졌다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/21/g-s1-139542/up-first-newsletter-trump-iran-economy-white-house-ballroom-bond-market",
+          "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare",
+          "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran"
+        ],
+        "firstPublishedAt": "2026-08-21T11:25:10.000Z",
+        "lastObservedAt": "2026-08-24T14:00:57.495Z"
+      }
+    },
+    {
+      "id": "news-a2925285924deb508432c1dc",
+      "title": "잠비아 선거 이의제기 마감 앞두고 법원 접근 제한 보고",
+      "startAt": "2026-08-24T11:17:28.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 잠비아에서 선거 이의제기 제출 마감일을 앞두고 법원 접근이 일부 차단되는 사례가 보고됐다. 보도는 이에 불구하고 하카인데 히치레마(Hakainde Hichilema) 대통령의 취임 준비는 계속 진행되는 것으로 보인다고 전했다. 선거 결과·사법 절차를 둘러싼 긴장이 높은 상황이다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgrvjn88rxqo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgrvjn88rxqo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-24T11:17:28.000Z",
+        "lastObservedAt": "2026-08-24T14:00:57.495Z"
+      }
+    },
     {
       "id": "news-40748607f5d7b3f8a18135ec",
       "title": "케냐의 AI 데이터센터 유치와 나이바샤(Naivasha) 물 부족 우려",
@@ -330,76 +400,6 @@
         ],
         "firstPublishedAt": "2026-08-21T16:01:43.000Z",
         "lastObservedAt": "2026-08-22T02:20:20.352Z"
-      }
-    },
-    {
-      "id": "news-9cb077c97e64c56d5c5e82fc",
-      "title": "러시아, 휘발유·경유 부족으로 장시간 주유 대기 — 국민들 전시 여파 체감",
-      "startAt": "2026-08-21T13:07:00.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 러시아 전역에서 운전자들이 주유소에서 수시간씩 대기하는 연료 부족 현상이 발생하고 있다. 보도는 이 현상을 '전쟁의 영향'으로 해석하며 모스크바가 러시아의 날(Flag Day) 행사를 준비하는 가운데 국민들의 불편이 커지고 있다고 전했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-21T13:07:00.000Z",
-        "lastObservedAt": "2026-08-21T13:55:43.691Z"
-      }
-    },
-    {
-      "id": "news-07ca21740f8fa834b09b82fd",
-      "title": "영국 기상: '기록적 엘니뇨'로 폭풍 많은 가을·추운 겨울 가능성",
-      "startAt": "2026-08-21T13:02:13.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 올해 엘니뇨는 '살아있는 기억 속에서 전례 없는' 수준이 될 가능성이 제기되며, 영국에서는 폭풍이 잦은 가을과 추운 겨울 등 기상 영향이 예상된다고 분석됐다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cd0x17r4j0yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/weather/articles/cd0x17r4j0yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-21T00:33:21.000Z",
-        "lastObservedAt": "2026-08-21T13:55:43.692Z"
-      }
-    },
-    {
-      "id": "news-c3c78b615c18f2646d92bb3c",
-      "title": "트럼프 행정부, 이란에 '경제 전쟁' 선언 — 긴장 고조",
-      "startAt": "2026-08-21T11:25:10.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 트럼프 대통령은 이란을 협상 테이블로 복귀시키기 위한 방안으로 '경제 전쟁'을 선언했다. 같은 매체는 이란 고위 관리들이 미국의 경제 압박 시도를 '군사적 실패'의 방편으로 규정하며 대응 의지를 보였다고 전했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/21/g-s1-139542/up-first-newsletter-trump-iran-economy-white-house-ballroom-bond-market",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/21/g-s1-139542/up-first-newsletter-trump-iran-economy-white-house-ballroom-bond-market",
-          "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare"
-        ],
-        "firstPublishedAt": "2026-08-21T11:25:10.000Z",
-        "lastObservedAt": "2026-08-21T13:55:43.692Z"
       }
     },
     {
