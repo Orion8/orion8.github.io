@@ -1,8 +1,103 @@
 {
-  "catalogVersion": "0.0.62",
-  "updatedAt": "2026-08-25T02:22:37.684Z",
+  "catalogVersion": "0.0.63",
+  "updatedAt": "2026-08-25T14:00:41.089Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-3c557ada8445d86cf19defd0",
+      "title": "NASA 주도 적외선 망원경 '낸시 그레이스 로만' 2026년 8월 30일 발사 예정",
+      "startAt": "2026-08-25T13:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "유럽우주국(ESA) 보도에 따르면 NASA가 주도하는 낸시 그레이스 로만 우주망원경(Roman)은 2026년 8월 30일 07:26 EDT(12:26 BST/13:26 CEST)에 미국 플로리다 케네디 우주센터에서 발사될 예정이다. 로만 망원경은 넓은 시야와 고급 광학 설계를 통해 가시광선에서 근적외선까지 하늘을 상세히 스캔해 암흑에너지·암흑물질 연구와 외계행성 탐색에 기여할 것으로 기대된다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch"
+        ],
+        "firstPublishedAt": "2026-08-25T13:00:00.000Z",
+        "lastObservedAt": "2026-08-25T14:00:41.089Z"
+      }
+    },
+    {
+      "id": "news-9f63d01c63c547f36a1ea50f",
+      "title": "로커비 폭탄 테러 재판, 개시 사흘 앞두고 또 연기",
+      "startAt": "2026-08-25T11:54:03.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 보도에 따르면 로커비 폭탄 테러 관련 리비아인 피고의 재판이 시작 예정일 사흘 전 새 증거가 나온 뒤 세 번째로 연기됐다. 사건은 37년 전 발생한 대형 테러 사건으로, 이번 연기는 장기간 이어진 법적 절차의 또 다른 지연을 나타낸다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq63rmj1zl1o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cq63rmj1zl1o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-25T11:54:03.000Z",
+        "lastObservedAt": "2026-08-25T14:00:41.089Z"
+      }
+    },
+    {
+      "id": "news-c3c78b615c18f2646d92bb3c",
+      "title": "미국의 대이란 경제 제재 확장 — 트럼프의 대외 고립 촉구에 중국은 '불법' 반발",
+      "startAt": "2026-08-25T11:53:36.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC·NPR 보도들을 종합하면 미 행정부의 대이란 경제 제재 강화와 '이란과 거래하는 국가 고립' 경고를 놓고 도널드 트럼프 대통령이 세계 지도자들에게 이란 고립 동참을 촉구했다는 보도가 나왔다. 중국은 미국의 새로운 제재를 '불법'이라고 비판했으며, 보도는 이란이 주요 원유 수출국으로서 중국과의 거래가 핵심적이라고 지적했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/21/g-s1-139542/up-first-newsletter-trump-iran-economy-white-house-ballroom-bond-market",
+          "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare",
+          "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran",
+          "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/25/g-s1-140004/up-first-newsletter-iran-economic-war-scotus-mail-in-voting-dhs-privacy"
+        ],
+        "firstPublishedAt": "2026-08-21T11:25:10.000Z",
+        "lastObservedAt": "2026-08-25T14:00:41.089Z"
+      }
+    },
+    {
+      "id": "news-5aabad1267aa0d7631125df8",
+      "title": "인도네시아 대형 산불 — 중심·서부 지역 숲·이탄지대 광범위 소실, 도시에는 짙은 스모그",
+      "startAt": "2026-08-25T05:24:16.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "NPR 보도에 따르면 인도네시아 중부·서부 지역에서 대규모 산불이 발생해 광범위한 숲과 이탄지대가 타며 일부 도시를 뒤덮는 짙은 연무(스모그)가 형성됐다. 현지 주민들은 비를 기원하는 등 피해 확산과 건강·생활 영향에 대한 우려가 커지고 있다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/25/nx-s1-5944062/indonesia-battles-wildfires",
+      "topicIds": [
+        "climateEnvironment",
+        "lifeScience"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/25/nx-s1-5944062/indonesia-battles-wildfires"
+        ],
+        "firstPublishedAt": "2026-08-25T05:24:16.000Z",
+        "lastObservedAt": "2026-08-25T14:00:41.089Z"
+      }
+    },
     {
       "id": "news-c5ea08dabb1b8cd0c26af7e4",
       "title": "미국, 약 20만 명의 망명 신청자 대상 비즈니스·관광 비자 취소 계획",
@@ -48,6 +143,28 @@
       }
     },
     {
+      "id": "news-62003111f3b592c56acd9673",
+      "title": "OpenAI, 러시아 기원 계정의 은밀한 영향 공작 차단 발표",
+      "startAt": "2026-08-25T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI 보도자료에 따르면 회사는 AI를 이용해 가짜 이스라엘 기반 싱크탱크와 러시아를 찬양하고 서방을 비판하는 '주권 지수'를 홍보하던 러시아 출처의 계정들을 차단했다. OpenAI는 해당 사례를 새로운 은밀 영향 캠페인으로 규정하고 관련 계정들을 제재했다고 밝혔다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+        ],
+        "firstPublishedAt": "2026-08-25T00:00:00.000Z",
+        "lastObservedAt": "2026-08-25T14:00:41.089Z"
+      }
+    },
+    {
       "id": "news-b6f5fc0820288c8b36a1a993",
       "title": "미·캐나다 무역 갈등 격화 — 美 50% 자동차·강철 관세 발표·협상 결렬 보도",
       "startAt": "2026-08-24T18:55:43.000Z",
@@ -77,6 +194,29 @@
       }
     },
     {
+      "id": "news-7c62dd24b138d061f65e7124",
+      "title": "NASA 연구: 태양의 고대 역사적 사건들이 지구의 기후 형성에 영향",
+      "startAt": "2026-08-24T17:53:57.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA 보도에 따르면 두 편의 최근 NASA 지원 연구에서 태양의 고대 역사적 사건들이 지구의 독특한 기후를 형성하고 이전에 설명되지 않았던 기후 변동을 야기했을 가능성이 제시되었다. 연구진은 SHIELD(태양풍 관련 센터) 소속 과학자들이 포함된 연구에서 태양의 고대 활동이 행성 기후에 미친 영향을 새롭게 규명했다고 밝혔다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/",
+      "topicIds": [
+        "spaceDevelopment",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/"
+        ],
+        "firstPublishedAt": "2026-08-24T17:53:57.000Z",
+        "lastObservedAt": "2026-08-25T14:00:41.089Z"
+      }
+    },
+    {
       "id": "news-4d38648c033d9e0829f06088",
       "title": "Hugging Face, 약 130억달러 가치 인수 논의 보도 — 창업진공 동요",
       "startAt": "2026-08-24T13:47:26.000Z",
@@ -96,31 +236,6 @@
           "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/"
         ],
         "firstPublishedAt": "2026-08-24T13:47:26.000Z",
-        "lastObservedAt": "2026-08-24T14:00:57.495Z"
-      }
-    },
-    {
-      "id": "news-c3c78b615c18f2646d92bb3c",
-      "title": "미 재무장관, 이란에 대한 새 경제 제재 발표 — '사상 최대의 금융 공세' 선언 보도",
-      "startAt": "2026-08-24T13:35:07.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 미국 재무장관 스콧 베센트(Scott Bessent)는 이란에 대한 새로운 경제 제재를 공개하며 이를 '사상 최대의 금융 공세'로 규정했다고 전해졌다. 미국은 이란과의 모든 경제적 연결을 단절하고 이란과 재정적 거래를 하는 국가들도 고립될 것이라고 경고했으며, NPR은 트럼프 행정부가 이번 조치를 '경제적 D‑Day'로 표현했다고 보도했다. 이란은 새로운 제재에 대해 '지각 변동(seismic) 방식'으로 대응하겠다고 반발한 것으로 알려졌다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/21/g-s1-139542/up-first-newsletter-trump-iran-economy-white-house-ballroom-bond-market",
-          "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare",
-          "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran"
-        ],
-        "firstPublishedAt": "2026-08-21T11:25:10.000Z",
         "lastObservedAt": "2026-08-24T14:00:57.495Z"
       }
     },
@@ -352,53 +467,6 @@
         ],
         "firstPublishedAt": "2026-08-22T16:30:34.000Z",
         "lastObservedAt": "2026-08-23T13:42:34.764Z"
-      }
-    },
-    {
-      "id": "news-f6dd3761c1e08f6bd4ddc604",
-      "title": "웨일스 블레어나본 산불, 방대한 탄소 배출로 '글로벌 핫스팟'으로 부상",
-      "startAt": "2026-08-22T11:31:09.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "BBC 과학·환경 보도에 따르면 웨일스 블레어나본(Blaenavon) 인근 산불이 대규모 탄소를 배출해 '글로벌 핫스팟'으로 지목되었으며, 타는 냄새가 30마일(약 48km) 떨어진 카디프(Cardiff)까지 전해졌다고 전해졌다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cp9e9rg255vo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cp9e9rg255vo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-22T11:31:09.000Z",
-        "lastObservedAt": "2026-08-22T13:40:57.848Z"
-      }
-    },
-    {
-      "id": "news-c0cb3840a88b61bc0c023a0c",
-      "title": "이란 대통령, \"미국과의 전쟁 종식은 힘의 위치에서\" 발언",
-      "startAt": "2026-08-22T00:59:37.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "알자지라 보도에 따르면 이란 대통령은 미국과의 갈등을 '힘의 위치(position of strength)'에서 종식시켜야 한다고 말했으며, 오만과 이란 외교장관 간 통화가 이뤄진 가운데 워싱턴이 경제 제재를 준비하고 있다고 전해졌다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/21/after-gerd-can-egypt-shape-ethiopias-next-nile-dams?traffic_source=rss",
-          "https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-21T02:11:33.000Z",
-        "lastObservedAt": "2026-08-22T02:20:20.352Z"
       }
     },
     {
@@ -696,28 +764,6 @@
       }
     },
     {
-      "id": "news-1357a9ae7911e1d557ac7ffa",
-      "title": "DeepMind, 수어→텍스트 모델 'SL2T' 공개 — 청각장애인용 기능 도입",
-      "startAt": "2026-08-12T14:01:59.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "DeepMind는 수화(수어)를 텍스트로 변환하는 SL2T(sign‑language‑to‑text) 모델을 공개하고 청각·난청 사용자를 위한 새로운 수어 기능을 제공한다고 밝혔다.",
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
-        ],
-        "firstPublishedAt": "2026-08-12T14:01:59.000Z",
-        "lastObservedAt": "2026-08-12T14:25:43.938Z"
-      }
-    },
-    {
       "id": "news-7d92603cf2986fc0c5bc8ec2",
       "title": "2026년 8월12일 개기일식 회고 — 유럽 관측·과학적 관찰 기회",
       "startAt": "2026-08-12T00:00:00.000Z",
@@ -766,50 +812,6 @@
         ],
         "firstPublishedAt": "2026-08-11T08:00:00.000Z",
         "lastObservedAt": "2026-08-11T14:24:38.217Z"
-      }
-    },
-    {
-      "id": "news-8dd8712f7deec915fddf4adf",
-      "title": "제임스웹(JWST), 라이온 성운(NGC 2392) 적외선 이미지 공개",
-      "startAt": "2026-08-10T14:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA·ESA·CSA의 제임스웹 우주망원경이 NGC 2392로 알려진 '라이온 성운'의 고해상도 적외선 이미지를 공개했다. 웨브의 관측은 조밀한 먼지 덩어리와 이온화된 가스의 희미한 흐름 등 기존 가시광 관측보다 뚜렷한 특징을 드러냈다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb"
-        ],
-        "firstPublishedAt": "2026-08-10T14:00:00.000Z",
-        "lastObservedAt": "2026-08-10T14:25:07.407Z"
-      }
-    },
-    {
-      "id": "news-a15f692a6cfc6e8bee0d6f1f",
-      "title": "제임스웹(JWST), 카리나 성운의 'Treasure Chest' 이미지 공개",
-      "startAt": "2026-08-06T08:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)이 제임스웹 우주망원경(JWST)의 'Treasure Chest' 이미지를 소개했다. 카리나 성운은 지구에서 약 7,500광년 떨어져 있으며 약 260광년에 걸쳐 펼쳐진 고질량 별 형성 지역으로, 가장 거대한 별들과 수만 개의 원시별을 포함해 별 형성과 별이 주변 환경을 조형하는 과정을 연구할 수 있는 중요한 관측 대상이다. (출처: ESA)",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Webb_opens_a_Treasure_Chest_filled_with_stars",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/ESA_Multimedia/Images/2026/08/Webb_opens_a_Treasure_Chest_filled_with_stars"
-        ],
-        "firstPublishedAt": "2026-08-06T08:00:00.000Z",
-        "lastObservedAt": "2026-08-06T15:25:16.727Z"
       }
     },
     {
