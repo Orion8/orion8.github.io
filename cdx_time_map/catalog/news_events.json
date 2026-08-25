@@ -1,8 +1,81 @@
 {
-  "catalogVersion": "0.0.61",
-  "updatedAt": "2026-08-24T14:00:57.495Z",
+  "catalogVersion": "0.0.62",
+  "updatedAt": "2026-08-25T02:22:37.684Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c5ea08dabb1b8cd0c26af7e4",
+      "title": "미국, 약 20만 명의 망명 신청자 대상 비즈니스·관광 비자 취소 계획",
+      "startAt": "2026-08-25T01:01:44.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라가 전한 보도(인용: AP)에 따르면 미 행정부는 망명 절차를 밟은 약 200,000명의 비즈니스·관광(B1/B2) 비자를 취소하는 방안을 검토 중이다. 시행될 경우 단일 조치로는 미국 역사상 최대 규모의 비자 취소가 될 가능성이 있다는 보도가 나왔다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-25T01:01:44.000Z",
+        "lastObservedAt": "2026-08-25T02:22:37.684Z"
+      }
+    },
+    {
+      "id": "news-23d8af39d5a63d52c017555a",
+      "title": "콜롬비아 신임 대통령 아벨라도 데 라 에스프리에야, 불법체류자 단속·추방명령",
+      "startAt": "2026-08-25T00:34:47.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 취임 약 2주 차인 극우 성향의 아벨라도 데 라 에스프리에야 대통령은 당국에 불법 체류자와 범죄를 저지른 이들을 추적·체포해 추방할 것을 지시했다. 해당 발표는 8월 10일 발생한 대지진의 여파 속에서 이뤄졌으며, 보도는 대통령의 발언이 도널드 트럼프 등 우방과의 정치적 유사성을 드러낸다고 전했다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/25/colombia-immigration-crackdown-president-abelardo-de-la-espriella",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/25/colombia-immigration-crackdown-president-abelardo-de-la-espriella"
+        ],
+        "firstPublishedAt": "2026-08-25T00:34:47.000Z",
+        "lastObservedAt": "2026-08-25T02:22:37.684Z"
+      }
+    },
+    {
+      "id": "news-b6f5fc0820288c8b36a1a993",
+      "title": "미·캐나다 무역 갈등 격화 — 美 50% 자동차·강철 관세 발표·협상 결렬 보도",
+      "startAt": "2026-08-24T18:55:43.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 트럼프 대통령은 2027년 1월 1일부터 캐나다산 자동차·트럭·자동차 부품 및 철강에 대해 50% 관세를 부과한다고 발표했다. NPR은 이 사안과 맞물려 미·캐나다 간 무역협상이 결렬되었다는 캐나다 내 반응을 전하며 양국 간 무역·정치적 긴장이 추가로 심화되고 있음을 보도했다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto",
+      "topicIds": [
+        "economyFinance",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
+          "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
+          "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+          "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto",
+          "https://www.npr.org/2026/08/24/nx-s1-5942972/the-view-from-canada-after-u-s-trade-negotiations-collapse"
+        ],
+        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
+        "lastObservedAt": "2026-08-25T02:22:37.684Z"
+      }
+    },
     {
       "id": "news-4d38648c033d9e0829f06088",
       "title": "Hugging Face, 약 130억달러 가치 인수 논의 보도 — 창업진공 동요",
@@ -306,33 +379,6 @@
       }
     },
     {
-      "id": "news-b6f5fc0820288c8b36a1a993",
-      "title": "미·캐나다 무역 갈등 — 美의 50% 관세 부과에 캐나다 ‘달러 대 달러’ 보복 예고",
-      "startAt": "2026-08-22T04:36:27.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "미국이 약 200억달러 규모의 일부 캐나다산 품목에 대해 50% 관세를 부과했으며, 캐나다는 9월8일부터 동일 규모로 맞대응(‘달러 대 달러’)하겠다고 예고했다. 양국 간 무역·정치적 긴장이 심화될 전망이다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
-      "topicIds": [
-        "economyFinance",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
-          "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
-          "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
-        ],
-        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
-        "lastObservedAt": "2026-08-23T13:42:34.764Z"
-      }
-    },
-    {
       "id": "news-c0cb3840a88b61bc0c023a0c",
       "title": "이란 대통령, \"미국과의 전쟁 종식은 힘의 위치에서\" 발언",
       "startAt": "2026-08-22T00:59:37.000Z",
@@ -352,30 +398,6 @@
           "https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-08-21T02:11:33.000Z",
-        "lastObservedAt": "2026-08-22T02:20:20.352Z"
-      }
-    },
-    {
-      "id": "news-aa5f415eba040b6013c87608",
-      "title": "호주, 주요 IT플랫폼에 뉴스콘텐츠 사용료 부과 법안 통과",
-      "startAt": "2026-08-21T21:34:57.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 호주는 구글·메타 등 대형 기술 플랫폼이 호주 뉴스 발행사와 거래를 체결하거나 광고수익에 대한 할당금(혹은 과징금)을 내도록 요구하는 새 법을 통과시켰다. 법 통과로 플랫폼과 언론 간 협상·지급 구조가 본격화될 전망이다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/21/nx-s1-5939814/big-tech-companies-will-have-to-pay-to-publish-australian-news-content-under-new-laws",
-      "topicIds": [
-        "economyFinance",
-        "internetWeb",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/21/nx-s1-5939814/big-tech-companies-will-have-to-pay-to-publish-australian-news-content-under-new-laws"
-        ],
-        "firstPublishedAt": "2026-08-21T21:34:57.000Z",
         "lastObservedAt": "2026-08-22T02:20:20.352Z"
       }
     },
@@ -421,28 +443,6 @@
           "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-08-21T01:12:02.000Z",
-        "lastObservedAt": "2026-08-21T02:36:14.002Z"
-      }
-    },
-    {
-      "id": "news-3edafe5825893e1254c50c80",
-      "title": "미국‑라이베리아 간 강제송환 합의 가동 — 첫 그룹 20명 송환",
-      "startAt": "2026-08-20T19:57:59.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 미국은 라이베리아와의 합의에 따라 20명의 이주자를 라이베리아로 송환했으며, 해당 합의에 따라 최대 1,200명에 달하는 이주자 송환이 예정되어 있다. 이번 조치는 트럼프 행정부의 이민정책 일환으로 평가된다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
-        ],
-        "firstPublishedAt": "2026-08-20T19:57:59.000Z",
         "lastObservedAt": "2026-08-21T02:36:14.002Z"
       }
     },
@@ -603,30 +603,6 @@
           "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/"
         ],
         "firstPublishedAt": "2026-08-17T19:24:34.000Z",
-        "lastObservedAt": "2026-08-18T02:21:03.248Z"
-      }
-    },
-    {
-      "id": "news-fab9f5f92aeb60415f0b2fe5",
-      "title": "유럽 농업 ‘전례 없는 위기’ — 연이은 폭염·대륙적 가뭄으로 수확 급감 우려",
-      "startAt": "2026-08-17T16:01:47.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "연이은 강렬한 폭염과 대규모 가뭄으로 유럽의 채소·곡물 생산이 큰 타격을 받고 있다. 보도는 프랑스의 경우 애호박·상추·완두·브로콜리·아티초크 등 품목별 생산량 감소가 수십%에 달한다고 전하며 농민들이 '파국적' 수확 손실을 우려하고 있다고 보도했다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/aug/17/european-farmers-unprecedented-crisis-successive-heatwaves",
-      "topicIds": [
-        "agriculture",
-        "climateEnvironment",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/aug/17/european-farmers-unprecedented-crisis-successive-heatwaves"
-        ],
-        "firstPublishedAt": "2026-08-17T16:01:47.000Z",
         "lastObservedAt": "2026-08-18T02:21:03.248Z"
       }
     },
