@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "3.6.0",
-  "updatedAt": "2026-08-23T00:00:00.000Z",
+  "catalogVersion": "3.6.1",
+  "updatedAt": "2026-08-26T00:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
     {"id": "civilizationPacks", "title": "문명"}
@@ -21,6 +21,7 @@
     {"id": "economyFinance", "title": "경제·금융"},
     {"id": "politicsHumanRights", "title": "정치·인권"},
     {"id": "aiHistory", "title": "인공지능"},
+    {"id": "technologyComputing", "title": "기술·컴퓨팅"},
     {"id": "civilizations", "title": "문명 일반", "groupId": "civilizationPacks"},
     {"id": "mesopotamia", "title": "메소포타미아 문명", "groupId": "civilizationPacks"},
     {"id": "islamicGoldenAge", "title": "이슬람 황금기", "groupId": "civilizationPacks"},
@@ -809,7 +810,7 @@
     "description": "Bell Labs 연구진이 점접촉 트랜지스터를 실증했습니다.",
     "sourceName": "Computer History Museum",
     "sourceUrl": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
-    "topicIds": ["semiconductor", "computerHistory"]
+    "topicIds": ["semiconductor", "computerHistory", "technologyComputing"]
   },
   {
     "id": "historic-ai-dartmouth",
@@ -1270,7 +1271,7 @@
     "description": "찰스 배비지가 천문표 계산을 기계화하는 차분기관의 구상을 왕립천문학회에서 발표했습니다.",
     "sourceName": "Science Museum",
     "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories/charles-babbages-difference-engines-and-science-museum",
-    "topicIds": ["computerHistory"]
+    "topicIds": ["computerHistory", "technologyComputing"]
   },
   {
     "id": "historic-analytical-engine",
@@ -1333,7 +1334,7 @@
     "description": "Z3는 프로그램 제어 방식의 전기기계식 디지털 컴퓨터로, 항공역학 계산에 사용됐습니다.",
     "sourceName": "Computer History Museum",
     "sourceUrl": "https://www.computerhistory.org/tdih/may/12/",
-    "topicIds": ["computerHistory"]
+    "topicIds": ["computerHistory", "technologyComputing"]
   },
   {
     "id": "historic-manchester-baby",
@@ -1345,7 +1346,7 @@
     "description": "맨체스터 Small-Scale Experimental Machine이 전자식 저장 프로그램을 처음 성공적으로 실행했습니다.",
     "sourceName": "University of Manchester",
     "sourceUrl": "https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/new.baby.html",
-    "topicIds": ["computerHistory"]
+    "topicIds": ["computerHistory", "technologyComputing"]
   },
   {
     "id": "historic-univac-i",
@@ -1357,7 +1358,7 @@
     "description": "UNIVAC I의 첫 납품은 미국 상업용 컴퓨터의 초기 전환점으로 평가됩니다.",
     "sourceName": "Smithsonian National Museum of American History",
     "sourceUrl": "https://americanhistory.si.edu/collections/object/nmah_739254",
-    "topicIds": ["computerHistory"],
+    "topicIds": ["computerHistory", "technologyComputing"],
     "timeEstimate": {
       "kind": "approximate",
       "displayLabel": "1951년",
