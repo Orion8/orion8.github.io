@@ -1,8 +1,122 @@
 {
-  "catalogVersion": "0.0.63",
-  "updatedAt": "2026-08-25T14:00:41.089Z",
+  "catalogVersion": "0.0.64",
+  "updatedAt": "2026-08-26T02:38:36.381Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-374e76bc2ab2ce56c4a70668",
+      "title": "수단 엘 오베이드 난민 캠프의 물 부족 심각화",
+      "startAt": "2026-08-26T01:54:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 영상 보도에 따르면 전쟁으로 집을 잃은 가정들이 모인 엘 오베이드 난민 캠프에서 식수 공급이 대폭 줄어들어 생활·위생 상황이 악화되고 있다. 물난리는 피난민들의 건강·생계 부담을 가중시키며 인도적 대응의 긴급성을 높이고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/26/water-crisis-makes-life-in-sudans-el-obeid-refugee-camps-even-worse?traffic_source=rss",
+      "topicIds": [
+        "medicineHealth",
+        "climateEnvironment",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/",
+          "https://www.aljazeera.com/video/newsfeed/2026/8/26/water-crisis-makes-life-in-sudans-el-obeid-refugee-camps-even-worse?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-17T19:24:34.000Z",
+        "lastObservedAt": "2026-08-26T02:38:36.380Z"
+      }
+    },
+    {
+      "id": "news-049e2455def46f9991e41656",
+      "title": "말레이시아 안와르, 대만 관련 발언으로 비동맹 입장 재조명",
+      "startAt": "2026-08-26T01:43:50.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라 보도에 따르면 말레이시아 총리 안와르의 대만 관련 발언은 국가의 비동맹·중립적 외교 노선을 부각시키며 중국과의 관계에 대한 편향 의혹을 촉발했다. 지도자의 발언은 지역 외교 균형과 대중국·대미 관계 논의를 불러일으키고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/26/malaysias-anwar-puts-non-aligned-stance-in-focus-with-remarks-on-taiwan?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/26/malaysias-anwar-puts-non-aligned-stance-in-focus-with-remarks-on-taiwan?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-26T01:43:50.000Z",
+        "lastObservedAt": "2026-08-26T02:38:36.381Z"
+      }
+    },
+    {
+      "id": "news-48873335c69ed1582a93e4b6",
+      "title": "돌리 파튼, 암 투병 끝에 향년 80세로 별세",
+      "startAt": "2026-08-25T17:59:40.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 컨트리 음악의 아이콘인 돌리 파튼이 암 투병 끝에 80세로 사망했다. 'I Will Always Love You', 'Jolene' 등 히트곡의 작곡가이자 배우이자 자선가로서 문해 운동과 백신 연구 지원 등으로도 널리 알려져 있다.",
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead"
+        ],
+        "firstPublishedAt": "2026-08-25T17:59:40.000Z",
+        "lastObservedAt": "2026-08-26T02:38:36.381Z"
+      }
+    },
+    {
+      "id": "news-0324ff3c727ae4d447dd1f7a",
+      "title": "캐나다, 미국의 관세 조치에 대한 보복 관세 발표",
+      "startAt": "2026-08-25T16:17:44.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 캐나다 정부는 도널드 트럼프 행정부가 부과한 대(對)캐나다 관세에 대응해 화장품·유제품·목재·야외 장비 등 광범위한 미국산 품목에 대해 '달러 대 달러' 수준의 보복 관세를 부과할 계획이라고 발표했다. 조치는 양국 간 무역·정치적 긴장을 심화시킬 가능성이 있다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/25/canada-retaliatory-tariffs-on-range-of-us-goods",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/25/canada-retaliatory-tariffs-on-range-of-us-goods"
+        ],
+        "firstPublishedAt": "2026-08-25T16:17:44.000Z",
+        "lastObservedAt": "2026-08-26T02:38:36.381Z"
+      }
+    },
+    {
+      "id": "news-1240515c683d085bb499d582",
+      "title": "로힝야 위기 9주년 — 귀환 전망 희박·인도적 지원 축소 우려",
+      "startAt": "2026-08-25T14:59:12.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 로힝야 위기가 발생한 지 9년이 지났지만 탈출은 멈추지 않았고 국제 관심과 지원이 줄어들면서 귀환 전망이 더욱 희박해졌다. 난민 세대가 귀환 가능성 없이 성장하고 있으며 인도적 자원 축소가 장기적 위기 고착을 초래할 우려가 제기된다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/25/g-s1-140007/forget-about-going-back-9-years-on-rohingya-crisis-enters-dangerous-phase",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/25/g-s1-140007/forget-about-going-back-9-years-on-rohingya-crisis-enters-dangerous-phase"
+        ],
+        "firstPublishedAt": "2026-08-25T14:59:12.000Z",
+        "lastObservedAt": "2026-08-26T02:38:36.381Z"
+      }
+    },
     {
       "id": "news-3c557ada8445d86cf19defd0",
       "title": "NASA 주도 적외선 망원경 '낸시 그레이스 로만' 2026년 8월 30일 발사 예정",
@@ -262,28 +376,6 @@
       }
     },
     {
-      "id": "news-40748607f5d7b3f8a18135ec",
-      "title": "케냐의 AI 데이터센터 유치와 나이바샤(Naivasha) 물 부족 우려",
-      "startAt": "2026-08-24T02:09:40.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "케냐가 데이터센터 유치를 추진하는 가운데 Naivasha 지역 주민들은 이미 긴장한 수자원에 대한 추가 압박을 우려하고 있다. 보도에 따르면 데이터센터와 관련 인프라 투자가 현지 물 수요를 늘릴 가능성이 있어 지역사회와 환경에 미치는 영향에 대한 논쟁이 커지고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/economy/2026/8/24/can-kenyas-ai-ambitions-coexist-with-naivashas-water-needs?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/economy/2026/8/24/can-kenyas-ai-ambitions-coexist-with-naivashas-water-needs?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-24T02:09:40.000Z",
-        "lastObservedAt": "2026-08-24T02:36:23.457Z"
-      }
-    },
-    {
       "id": "news-479304d003ccdfa8d505bac0",
       "title": "영국·웨일스 숙박·주점 사업자 부담 산정 방식 검토 시작",
       "startAt": "2026-08-23T23:26:15.000Z",
@@ -330,28 +422,6 @@
       }
     },
     {
-      "id": "news-016cef994c746bb21b8edd16",
-      "title": "콩고민주공화국(DRC) 정부·M23 반군, 평화회담 로드맵 합의",
-      "startAt": "2026-08-23T12:52:08.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "대표단이 스위스에서 만나 분쟁 해결을 위한 다음 절차를 정하는 로드맵에 합의했다. 향후 회담 일정과 실무 조치 등 향후 협상 진전에 영향을 미칠 가능성이 있다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-23T12:52:08.000Z",
-        "lastObservedAt": "2026-08-23T13:42:34.764Z"
-      }
-    },
-    {
       "id": "news-4268ad04a3e8a05c2213afa2",
       "title": "콩고(DRC) 에볼라 발병 100일째 — 대응 난항과 확산 우려",
       "startAt": "2026-08-23T10:50:36.000Z",
@@ -377,50 +447,6 @@
         ],
         "firstPublishedAt": "2026-08-13T01:31:21.000Z",
         "lastObservedAt": "2026-08-23T13:42:34.764Z"
-      }
-    },
-    {
-      "id": "news-e8a5cb684987567421da92b6",
-      "title": "아르테미스 II 승무원, 역사적 달 비행 기여로 미 의회의 최고 우주훈장 수여 예정",
-      "startAt": "2026-08-23T10:00:30.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 발표에 따르면 리드 위즈먼, 빅터 글로버, 크리스티나 코흐, 제러미 핸슨이 8월28일 의회의 최고 우주훈장(Congressional Space Medal of Honor)을 받게 된다. 이들은 지구로부터 가장 멀리 비행한 기록을 세운 승무원이다.",
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/aug/23/artemis-ii-crew-top-us-space-medal",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/aug/23/artemis-ii-crew-top-us-space-medal"
-        ],
-        "firstPublishedAt": "2026-08-23T10:00:30.000Z",
-        "lastObservedAt": "2026-08-23T13:42:34.764Z"
-      }
-    },
-    {
-      "id": "news-790b0b3fe2fade8c4857fcfe",
-      "title": "수단 코르도판 전투로 수천 명 피난 — 엘 오베이드로 이동",
-      "startAt": "2026-08-23T01:51:47.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "알자지라 영상 보도에 따르면 코르도판 주의 전투로 수천 명이 집을 떠나 상대적 안전을 찾아 수단 중부 도시 엘 오베이드로 이동하고 있다. 피난민 이동은 지역 내 전력·안전 상황 악화와 인도적 우려를 야기하고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-23T01:51:47.000Z",
-        "lastObservedAt": "2026-08-23T02:36:38.254Z"
       }
     },
     {
@@ -467,29 +493,6 @@
         ],
         "firstPublishedAt": "2026-08-22T16:30:34.000Z",
         "lastObservedAt": "2026-08-23T13:42:34.764Z"
-      }
-    },
-    {
-      "id": "news-895a444f5d462c82bf050425",
-      "title": "타이슨 푸드, 미국 소고기 공장 2곳 폐쇄·시설 매각·수백명 감원 발표",
-      "startAt": "2026-08-21T16:01:43.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 세계 최대 육류 가공업체 타이슨 푸드는 일리노이와 유타에 있는 두 공장을 폐쇄하고 워싱턴주의 소고기 시설을 매각하며 수백 명을 해고할 예정이라고 밝혔다. 보도는 가축 공급이 75년 만의 최저 수준으로 감소한 가운데 가뭄·비용 상승·목장 통합 등이 원인이라고 전했으며, 경제학자들은 이번 폐쇄가 소비자 가격에 미치는 영향은 제한적일 것이라고 분석했다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/aug/21/tyson-foods-close-facilities-beef-prices-cattle-shortage",
-      "topicIds": [
-        "economyFinance",
-        "agriculture"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/aug/21/tyson-foods-close-facilities-beef-prices-cattle-shortage"
-        ],
-        "firstPublishedAt": "2026-08-21T16:01:43.000Z",
-        "lastObservedAt": "2026-08-22T02:20:20.352Z"
       }
     },
     {
@@ -648,29 +651,6 @@
           "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/"
         ],
         "firstPublishedAt": "2026-08-17T20:17:20.000Z",
-        "lastObservedAt": "2026-08-18T02:21:03.248Z"
-      }
-    },
-    {
-      "id": "news-374e76bc2ab2ce56c4a70668",
-      "title": "NASA, 에티오피아 아디스아바바 대기오염 장기 관측으로 블랙카본 영향 상세 분석",
-      "startAt": "2026-08-17T19:24:34.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "NASA 지원의 대기오염 모니터링 네트워크가 아디스아바바에서 블랙카본(그을음)의 기여와 시간·계절별 변화를 가장 상세하게 보여주는 장기 관측 결과를 제공했다. 관측은 화재·디젤 등 연소원별 기여와 일중·계절 패턴을 기록해 도시 대기질·보건 정책에 활용될 전망이다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/",
-      "topicIds": [
-        "medicineHealth",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/"
-        ],
-        "firstPublishedAt": "2026-08-17T19:24:34.000Z",
         "lastObservedAt": "2026-08-18T02:21:03.248Z"
       }
     },
