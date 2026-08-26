@@ -1,8 +1,142 @@
 {
-  "catalogVersion": "0.0.64",
-  "updatedAt": "2026-08-26T02:38:36.381Z",
+  "catalogVersion": "0.0.65",
+  "updatedAt": "2026-08-26T14:02:15.164Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c81a7d59cabba0621a06fb0b",
+      "title": "모잠비크 북부 폭력 격화 — 대규모 내부 실향민 위기 심화",
+      "startAt": "2026-08-26T13:49:05.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 모잠비크 북부에서 폭력 사태가 재확산하며 인구 이동이 심화되고 있다. 지난해에만 10만 명 이상이 새로 집을 떠났고, 기존에 이미 130만 명가량이 국내 실향 상태에 있어 인도적·주거·보건 수요가 크게 늘고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/26/why-northern-mozambiques-surging-violence-is-worsening-displacement-crisis?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/26/why-northern-mozambiques-surging-violence-is-worsening-displacement-crisis?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-26T13:49:05.000Z",
+        "lastObservedAt": "2026-08-26T14:02:15.163Z"
+      }
+    },
+    {
+      "id": "news-d1faf764322bf8c2b410acfd",
+      "title": "메타, 미국 청소년 소셜미디어 중독 소송 최대 170억 달러 합의",
+      "startAt": "2026-08-26T13:37:15.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언 비즈니스 보도에 따르면 메타가 미국 각주가 제기한 청소년 소셜미디어 중독 관련 소송에 대해 최대 170억 달러를 지급하는 합의를 체결했다. 합의에는 일일 사용 한도와 야간 차단 등 미국 전역에 적용되는 청소년 보호 장치 도입이 포함된다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/aug/26/meta-social-media-addiction-trial-settlement",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/aug/26/meta-social-media-addiction-trial-settlement"
+        ],
+        "firstPublishedAt": "2026-08-26T13:37:15.000Z",
+        "lastObservedAt": "2026-08-26T14:02:15.163Z"
+      }
+    },
+    {
+      "id": "news-c487942c17b2573069d0e287",
+      "title": "파키스탄 병원 화재로 신생아 14명 사망 — 출입문 잠금 여부 논란",
+      "startAt": "2026-08-26T12:32:47.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 보도에 따르면 파키스탄의 한 병원 화재로 신생아 14명이 숨진 사건과 관련해 목격자들은 병동 출입문이 잠겨 있었다고 진술했다. 병원 관계자는 문이 잠기지 않았고 보호 목적의 경비원이 배치돼 있었다고 반박하며 출입 통제 여부를 둘러싼 논란이 제기되고 있다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-26T12:32:47.000Z",
+        "lastObservedAt": "2026-08-26T14:02:15.163Z"
+      }
+    },
+    {
+      "id": "news-46e5c9ff1303f3a1c626bb98",
+      "title": "네팔 눈사태·급류로 최소 8명 사망·수백 명 실종",
+      "startAt": "2026-08-26T12:27:19.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 네팔에서 발생한 눈사태가 홍수·급류를 촉발해 최소 8명이 숨지고 수백 명이 실종됐다. 보도는 이 재난이 기후 변화에 따른 극단적 기상 위험과 지역의 취약성이 맞물리며 심각한 인도적 상황을 야기했다고 전했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/26/g-s1-140211/8-dead-hundreds-missing-as-nepal-avalanche-triggers-flash-floods",
+      "topicIds": [
+        "climateEnvironment",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/26/g-s1-140211/8-dead-hundreds-missing-as-nepal-avalanche-triggers-flash-floods"
+        ],
+        "firstPublishedAt": "2026-08-26T12:27:19.000Z",
+        "lastObservedAt": "2026-08-26T14:02:15.163Z"
+      }
+    },
+    {
+      "id": "news-0324ff3c727ae4d447dd1f7a",
+      "title": "캐나다, 미국 관세 조치에 대한 '달러 대 달러' 보복 관세 계획(중복 보도)",
+      "startAt": "2026-08-26T11:05:46.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 캐나다는 미국의 대(對)캐나다 관세에 대응해 화장품·유제품·목재 등 광범위한 미국산 품목에 대해 '달러 대 달러' 수준의 보복 관세를 부과할 계획이라고 밝혔다. (관련 기존 사건 업데이트)",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/26/g-s1-140207/up-first-newsletter-canada-tariffs-visa-revocations-dolly-parton-nevada-voters",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/25/canada-retaliatory-tariffs-on-range-of-us-goods",
+          "https://www.npr.org/2026/08/26/g-s1-140207/up-first-newsletter-canada-tariffs-visa-revocations-dolly-parton-nevada-voters"
+        ],
+        "firstPublishedAt": "2026-08-25T16:17:44.000Z",
+        "lastObservedAt": "2026-08-26T14:02:15.163Z"
+      }
+    },
+    {
+      "id": "news-f218151ed7ae95d662ab7bef",
+      "title": "mpox 재확산 — 기니비사우 등 신규 발생, 아동 피해 증가 우려",
+      "startAt": "2026-08-26T11:00:12.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 기니비사우에서 처음 보고된 mpox 재발 사례 등 최근의 환자 증가로 아동 감염 비중이 높아지는 징후가 포착됐다. 보도는 2022년 이후 전 세계 145개국에서 거의 19만 건의 실험실 확진이 보고된 바 있다고 전하며, 신규 유행 차단을 위한 공중보건 대응 필요성을 강조했다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children"
+        ],
+        "firstPublishedAt": "2026-08-26T11:00:12.000Z",
+        "lastObservedAt": "2026-08-26T14:02:15.164Z"
+      }
+    },
     {
       "id": "news-374e76bc2ab2ce56c4a70668",
       "title": "수단 엘 오베이드 난민 캠프의 물 부족 심각화",
@@ -70,28 +204,6 @@
           "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead"
         ],
         "firstPublishedAt": "2026-08-25T17:59:40.000Z",
-        "lastObservedAt": "2026-08-26T02:38:36.381Z"
-      }
-    },
-    {
-      "id": "news-0324ff3c727ae4d447dd1f7a",
-      "title": "캐나다, 미국의 관세 조치에 대한 보복 관세 발표",
-      "startAt": "2026-08-25T16:17:44.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 캐나다 정부는 도널드 트럼프 행정부가 부과한 대(對)캐나다 관세에 대응해 화장품·유제품·목재·야외 장비 등 광범위한 미국산 품목에 대해 '달러 대 달러' 수준의 보복 관세를 부과할 계획이라고 발표했다. 조치는 양국 간 무역·정치적 긴장을 심화시킬 가능성이 있다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/25/canada-retaliatory-tariffs-on-range-of-us-goods",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/25/canada-retaliatory-tariffs-on-range-of-us-goods"
-        ],
-        "firstPublishedAt": "2026-08-25T16:17:44.000Z",
         "lastObservedAt": "2026-08-26T02:38:36.381Z"
       }
     },
@@ -235,28 +347,6 @@
       }
     },
     {
-      "id": "news-23d8af39d5a63d52c017555a",
-      "title": "콜롬비아 신임 대통령 아벨라도 데 라 에스프리에야, 불법체류자 단속·추방명령",
-      "startAt": "2026-08-25T00:34:47.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 취임 약 2주 차인 극우 성향의 아벨라도 데 라 에스프리에야 대통령은 당국에 불법 체류자와 범죄를 저지른 이들을 추적·체포해 추방할 것을 지시했다. 해당 발표는 8월 10일 발생한 대지진의 여파 속에서 이뤄졌으며, 보도는 대통령의 발언이 도널드 트럼프 등 우방과의 정치적 유사성을 드러낸다고 전했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/25/colombia-immigration-crackdown-president-abelardo-de-la-espriella",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/25/colombia-immigration-crackdown-president-abelardo-de-la-espriella"
-        ],
-        "firstPublishedAt": "2026-08-25T00:34:47.000Z",
-        "lastObservedAt": "2026-08-25T02:22:37.684Z"
-      }
-    },
-    {
       "id": "news-62003111f3b592c56acd9673",
       "title": "OpenAI, 러시아 기원 계정의 은밀한 영향 공작 차단 발표",
       "startAt": "2026-08-25T00:00:00.000Z",
@@ -354,28 +444,6 @@
       }
     },
     {
-      "id": "news-a2925285924deb508432c1dc",
-      "title": "잠비아 선거 이의제기 마감 앞두고 법원 접근 제한 보고",
-      "startAt": "2026-08-24T11:17:28.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 잠비아에서 선거 이의제기 제출 마감일을 앞두고 법원 접근이 일부 차단되는 사례가 보고됐다. 보도는 이에 불구하고 하카인데 히치레마(Hakainde Hichilema) 대통령의 취임 준비는 계속 진행되는 것으로 보인다고 전했다. 선거 결과·사법 절차를 둘러싼 긴장이 높은 상황이다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgrvjn88rxqo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgrvjn88rxqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-24T11:17:28.000Z",
-        "lastObservedAt": "2026-08-24T14:00:57.495Z"
-      }
-    },
-    {
       "id": "news-479304d003ccdfa8d505bac0",
       "title": "영국·웨일스 숙박·주점 사업자 부담 산정 방식 검토 시작",
       "startAt": "2026-08-23T23:26:15.000Z",
@@ -419,34 +487,6 @@
         ],
         "firstPublishedAt": "2026-08-23T22:16:53.000Z",
         "lastObservedAt": "2026-08-24T02:36:23.457Z"
-      }
-    },
-    {
-      "id": "news-4268ad04a3e8a05c2213afa2",
-      "title": "콩고(DRC) 에볼라 발병 100일째 — 대응 난항과 확산 우려",
-      "startAt": "2026-08-23T10:50:36.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "발병 100일을 맞은 가운데 현지에서 2,000명 넘는 사망자가 보고됐으며, 보건팀들은 분쟁·자금 부족·현장 공격 등으로 역학 대응에 어려움을 겪고 있어 확산 통제가 쉽지 않다고 전해졌다.",
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/world/video/2026/aug/23/ebola-day-100-why-this-outbreak-could-become-deadliest-in-history-explainer",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/8/13/ebola-outbreak-caused-by-new-animal-transmission-what-that-means?traffic_source=rss",
-          "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
-          "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
-          "https://www.npr.org/2026/08/19/g-s1-139164/congo-ebola-outbreak",
-          "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss",
-          "https://www.theguardian.com/world/video/2026/aug/23/ebola-day-100-why-this-outbreak-could-become-deadliest-in-history-explainer"
-        ],
-        "firstPublishedAt": "2026-08-13T01:31:21.000Z",
-        "lastObservedAt": "2026-08-23T13:42:34.764Z"
       }
     },
     {
