@@ -37,6 +37,24 @@
       "maxItems": 8
     },
     {
+      "id": "ieee-spectrum",
+      "name": "IEEE Spectrum",
+      "feedUrl": "https://spectrum.ieee.org/feeds/feed.rss",
+      "topicIds": ["technologyComputing", "semiconductor", "internetWeb"],
+      "defaultCategory": "scienceTechnology",
+      "publisherId": "ieee-spectrum",
+      "maxItems": 8
+    },
+    {
+      "id": "ars-technica-tech",
+      "name": "Ars Technica",
+      "feedUrl": "https://feeds.arstechnica.com/arstechnica/index",
+      "topicIds": ["technologyComputing", "computerHistory", "internetWeb"],
+      "defaultCategory": "scienceTechnology",
+      "publisherId": "ars-technica",
+      "maxItems": 8
+    },
+    {
       "id": "bbc-world",
       "name": "BBC News World",
       "feedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",

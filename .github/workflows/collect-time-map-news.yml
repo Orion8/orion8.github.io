@@ -57,8 +57,9 @@ jobs:
           NEWS_MAX_EVENTS_PER_PUBLISHER: '6'
           # A single publication cannot introduce a stream of one field.
           NEWS_MAX_NEW_EVENTS_PER_CATEGORY: '2'
-          # Keep the retained 30-day timeline balanced by field.
-          NEWS_MAX_EVENTS_PER_CATEGORY: '8'
+          # AI and broader technology share this category but retain separate
+          # topic filters, so leave room for both in the 30-day timeline.
+          NEWS_MAX_EVENTS_PER_CATEGORY: '12'
         run: node tools/news/collect_news.mjs
 
       - name: Commit updated catalog
