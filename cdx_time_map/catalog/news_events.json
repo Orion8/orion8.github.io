@@ -1,8 +1,104 @@
 {
-  "catalogVersion": "0.0.66",
-  "updatedAt": "2026-08-26T19:18:01.294Z",
+  "catalogVersion": "0.0.67",
+  "updatedAt": "2026-08-27T11:10:19.149Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-e7a16a750d4f01ff733d662a",
+      "title": "베피콜롬보, 수성 도착 단계 개시 예고(2026-09-03 MTM 분리)",
+      "startAt": "2026-09-03T11:45:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "ESA 보도에 따르면 ESA/JAXA 공동 미션 베피콜롬보가 2026년 9월 3일 수성 도착 단계에 진입하며 유럽형 머큐리 트랜스퍼 모듈(MTM)이 분리될 예정이다. ESA는 13:45 CEST(UTC 11:45)에 해당 분리 과정을 라이브스트리밍한다고 밝혔다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury"
+        ],
+        "firstPublishedAt": "2026-08-27T05:17:00.000Z",
+        "lastObservedAt": "2026-08-27T11:10:19.149Z"
+      }
+    },
+    {
+      "id": "news-d1faf764322bf8c2b410acfd",
+      "title": "메타, 170억 달러 합의 도달",
+      "startAt": "2026-08-27T11:02:41.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 메타와 해당 주(州)들이 제기한 소송이 약 170억 달러(미화 17B) 규모의 합의안으로 마무리되었다고 전해졌다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/27/g-s1-140414/up-first-newsletter-meta-settlement-mail-in-voting-nrc-regulations-nepal-tibet-flooding",
+      "topicIds": [
+        "economyFinance",
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/aug/26/meta-social-media-addiction-trial-settlement",
+          "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/27/g-s1-140414/up-first-newsletter-meta-settlement-mail-in-voting-nrc-regulations-nepal-tibet-flooding"
+        ],
+        "firstPublishedAt": "2026-08-26T13:37:15.000Z",
+        "lastObservedAt": "2026-08-27T11:10:19.149Z"
+      }
+    },
+    {
+      "id": "news-deb0566201128ff428e52108",
+      "title": "9·11 피고 포함 재판, 2028년 6월로 일정 지정",
+      "startAt": "2026-08-27T10:57:03.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 관타나모에 수감된 4명의 9·11 관련 피고에 대한 재판이 2028년 6월로 예정되었다. 이들에는 칼리드 셰이크 모하메드 등이 포함된다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/27/trial-for-9-11-accused-including-khalid-sheikh-mohammed-set-for-june?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/27/trial-for-9-11-accused-including-khalid-sheikh-mohammed-set-for-june?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-27T10:57:03.000Z",
+        "lastObservedAt": "2026-08-27T11:10:19.149Z"
+      }
+    },
+    {
+      "id": "news-46e5c9ff1303f3a1c626bb98",
+      "title": "네팔·티베트 홍수로 최소 1,500명 실종",
+      "startAt": "2026-08-27T10:50:35.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 네팔-티베트 국경 지역을 강타한 홍수와 급류로 최소 1,500명이 실종된 가운데 여러 마을이 휩쓸리고 외국인 관광객 다수가 영향을 받은 것으로 전해졌다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods",
+      "topicIds": [
+        "climateEnvironment",
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/26/g-s1-140211/8-dead-hundreds-missing-as-nepal-avalanche-triggers-flash-floods",
+          "https://www.npr.org/2026/08/26/g-s1-140211/nepal-china-floods",
+          "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods"
+        ],
+        "firstPublishedAt": "2026-08-26T12:27:19.000Z",
+        "lastObservedAt": "2026-08-27T11:10:19.149Z"
+      }
+    },
     {
       "id": "news-a5c3f4d5e36b158a013aa1f5",
       "title": "OpenAI, 허깅페이스 침해 사건에 대한 공식 보고서 공개",
@@ -45,29 +141,6 @@
           "https://www.aljazeera.com/news/2026/8/26/kurdish-led-sdf-has-dissolved-but-has-syria-really-unified-its-military?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-08-26T18:19:14.000Z",
-        "lastObservedAt": "2026-08-26T19:18:01.293Z"
-      }
-    },
-    {
-      "id": "news-d1faf764322bf8c2b410acfd",
-      "title": "메타, 미 법정 소송 관련 합의액 최대 180억 달러로 보고",
-      "startAt": "2026-08-26T17:44:39.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "BBC 비즈니스 보도에 따르면 메타가 미국 각주들이 제기한 플랫폼의 아동 피해 주장 소송과 관련해 최대 180억 달러 규모의 합의에 도달했다고 전해졌다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/aug/26/meta-social-media-addiction-trial-settlement",
-          "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-26T13:37:15.000Z",
         "lastObservedAt": "2026-08-26T19:18:01.293Z"
       }
     },
@@ -212,31 +285,6 @@
         ],
         "firstPublishedAt": "2026-08-26T12:32:47.000Z",
         "lastObservedAt": "2026-08-26T14:02:15.163Z"
-      }
-    },
-    {
-      "id": "news-46e5c9ff1303f3a1c626bb98",
-      "title": "네팔·중국 산사태·급류로 사망·실종자 대규모 발생 — 피해 규모 확대",
-      "startAt": "2026-08-26T12:27:19.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 네팔과 중국에서 발생한 급작스러운 홍수·산사태로 최소 98명이 숨지고 수백 명이 실종된 것으로 전해졌다. 보도는 이번 재난이 기후 변화와 지역적 취약성에 의해 악화되었다고 지적했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/26/g-s1-140211/nepal-china-floods",
-      "topicIds": [
-        "climateEnvironment",
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/26/g-s1-140211/8-dead-hundreds-missing-as-nepal-avalanche-triggers-flash-floods",
-          "https://www.npr.org/2026/08/26/g-s1-140211/nepal-china-floods"
-        ],
-        "firstPublishedAt": "2026-08-26T12:27:19.000Z",
-        "lastObservedAt": "2026-08-26T19:18:01.293Z"
       }
     },
     {
@@ -659,51 +707,6 @@
       }
     },
     {
-      "id": "news-e5019b78cee03ca693aecf35",
-      "title": "파나마 운하, 엘니뇨 영향 대비 선박 통행 제한 예고",
-      "startAt": "2026-08-21T01:12:02.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도에 따르면 파나마 운하 당국은 다가오는 엘니뇨로 인한 가뭄·고온 가능성을 이유로 운하 통행을 제한할 계획이라고 밝혔다. 이 조치는 세계 해운 물류에 직접적인 영향을 미칠 수 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-21T01:12:02.000Z",
-        "lastObservedAt": "2026-08-21T02:36:14.002Z"
-      }
-    },
-    {
-      "id": "news-ca84f19d95e6c5b47f3b9fc7",
-      "title": "미국 국가부채 40조 달러 돌파",
-      "startAt": "2026-08-20T11:30:18.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "미국의 국가부채가 40조 달러를 넘어섰다고 보도되었다. 보도는 장기 국채 금리 상승과 재정적 부담 확대를 지적하며 향후 경기·정책 영향에 대한 우려를 전했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/20/g-s1-139388/up-first-newsletter-us-debt-venezuela-oil-deals-census-bureau-trump-voting-claims",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/20/g-s1-139388/up-first-newsletter-us-debt-venezuela-oil-deals-census-bureau-trump-voting-claims"
-        ],
-        "firstPublishedAt": "2026-08-20T01:24:26.000Z",
-        "lastObservedAt": "2026-08-20T13:57:35.690Z"
-      }
-    },
-    {
       "id": "news-1d131bb25f345148b5e6a20a",
       "title": "OpenAI, 프론티어 모델 대상 제로 데이터 보관 정책 재확인",
       "startAt": "2026-08-19T19:00:00.000Z",
@@ -903,29 +906,6 @@
         ],
         "firstPublishedAt": "2026-08-11T08:00:00.000Z",
         "lastObservedAt": "2026-08-11T14:24:38.217Z"
-      }
-    },
-    {
-      "id": "news-3c8d41ebd8c88e3b64611e9f",
-      "title": "오리건주 연무 확산 — 번개로 중앙·동부 지역서 다수 화재 발생",
-      "startAt": "2026-07-28T04:01:00.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "번개 폭풍으로 오리건 중앙부와 동부에서 수십 건의 화재가 발생해 광범위한 연기가 지역을 뒤덮었습니다. NASA는 관련 위성 관측을 통해 연기 확산을 보도했습니다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/earth/natural-disasters/wildfires/smoke-blankets-oregon/",
-      "topicIds": [
-        "climateEnvironment",
-        "lifeScience"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/earth/natural-disasters/wildfires/smoke-blankets-oregon/"
-        ],
-        "firstPublishedAt": "2026-07-28T04:01:00.000Z",
-        "lastObservedAt": "2026-07-28T14:32:58.541Z"
       }
     }
   ]
