@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.67",
-  "updatedAt": "2026-08-27T11:10:19.149Z",
+  "catalogVersion": "0.0.68",
+  "updatedAt": "2026-08-27T22:56:57.374Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -23,6 +23,97 @@
         ],
         "firstPublishedAt": "2026-08-27T05:17:00.000Z",
         "lastObservedAt": "2026-08-27T11:10:19.149Z"
+      }
+    },
+    {
+      "id": "news-a43eb22dc314e0f7d45a1892",
+      "title": "터키, NASA 본부서 아르테미스 협정 서명 예정(71번째 가입국)",
+      "startAt": "2026-08-31T18:30:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 8월 31일(월) 워싱턴 본부에서 터키가 아르테미스 협정에 서명한다고 발표했다. 서명식은 현장 참석으로만 진행되며 NASA 관리와 터키 산업기술부 장관 Mehmet Fatih Kacır 등이 참석할 예정이다. 터키의 서명으로 아르테미스 협정 가입국은 71개국이 된다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-turkey-artemis-accords-signing-ceremony/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-invites-media-to-turkey-artemis-accords-signing-ceremony/"
+        ],
+        "firstPublishedAt": "2026-08-27T18:42:38.000Z",
+        "lastObservedAt": "2026-08-27T22:56:57.374Z"
+      }
+    },
+    {
+      "id": "news-3c557ada8445d86cf19defd0",
+      "title": "낸시 그레이스 로만 우주망원경 발사 예정 — 발사 시각 확정",
+      "startAt": "2026-08-30T11:26:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA가 주도하는 낸시 그레이스 로만 우주망원경(Roman)의 발사가 2026년 8월 30일 일요일 07:26 EDT에 예정되어 있다. 로만 망원경은 넓은 시야를 활용해 암흑에너지·암흑물질 연구와 외계행성 탐색 등 광범위한 천문학 연구에 기여할 것으로 기대된다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch",
+          "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/"
+        ],
+        "firstPublishedAt": "2026-08-25T13:00:00.000Z",
+        "lastObservedAt": "2026-08-27T22:56:57.374Z"
+      }
+    },
+    {
+      "id": "news-d8544dddaa7c28ef4beae2d2",
+      "title": "OpenAI·Anthropic·Google 등 100여개 기업, '악성 AI' 대응 촉구",
+      "startAt": "2026-08-27T17:43:24.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "글로벌 주요 AI 기업과 스타트업들이 사이버보안 위협을 경고하며 악의적·탈취된 AI(rogue AI)에 대응하기 위한 조치 마련을 촉구했다. 보도는 기업들이 현재의 사이버보안 위상에 대해 우려를 표명했고 관련 대응책 필요성을 제기했다고 전했다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/"
+        ],
+        "firstPublishedAt": "2026-08-27T17:43:24.000Z",
+        "lastObservedAt": "2026-08-27T22:56:57.374Z"
+      }
+    },
+    {
+      "id": "news-93d1ce0d5bb79ab8c4dd50d0",
+      "title": "라트코 믈라디치(전 보스니아 세르비아 장군) 별세(향년 84세)",
+      "startAt": "2026-08-27T13:32:43.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "라트코 믈라디치가 84세로 사망했다. 그는 1990년대 보스니아 전쟁 기간 중 대규모 학살과 인권침해로 악명이 높았던 인물로, 당시 전쟁으로 수만~십만 명이 사망한 사건들과 관련해 국제적 논란의 중심에 있었다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/27/nx-s1-5946375/ratko-mladic-dead",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/27/nx-s1-5946375/ratko-mladic-dead"
+        ],
+        "firstPublishedAt": "2026-08-27T13:32:43.000Z",
+        "lastObservedAt": "2026-08-27T22:56:57.374Z"
       }
     },
     {
@@ -75,28 +166,29 @@
     },
     {
       "id": "news-46e5c9ff1303f3a1c626bb98",
-      "title": "네팔·티베트 홍수로 최소 1,500명 실종",
+      "title": "네팔·티베트 국경 홍수·산사태 — 수백 명 사망·실종",
       "startAt": "2026-08-27T10:50:35.000Z",
       "lane": "world",
-      "category": "climateDisaster",
+      "category": "politicsSociety",
       "importance": 3,
-      "description": "NPR 보도에 따르면 네팔-티베트 국경 지역을 강타한 홍수와 급류로 최소 1,500명이 실종된 가운데 여러 마을이 휩쓸리고 외국인 관광객 다수가 영향을 받은 것으로 전해졌다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods",
+      "description": "네팔·티베트(중국) 국경 지역을 강타한 대형 홍수와 산사태로 여러 마을이 휩쓸리며 수백 명이 사망하거나 실종됐다. 외국인 관광객 다수가 영향을 받은 것으로 전해졌으며 구조·구호 활동이 진행 중이다. 이전 보도에서는 최소 1,500명이 실종된 것으로 보도되었다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
       "topicIds": [
         "climateEnvironment",
         "politicsHumanRights",
         "koreaEastAsia"
       ],
       "news": {
-        "status": "breaking",
+        "status": "developing",
         "sourceUrls": [
           "https://www.npr.org/2026/08/26/g-s1-140211/8-dead-hundreds-missing-as-nepal-avalanche-triggers-flash-floods",
           "https://www.npr.org/2026/08/26/g-s1-140211/nepal-china-floods",
-          "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods"
+          "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods",
+          "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-08-26T12:27:19.000Z",
-        "lastObservedAt": "2026-08-27T11:10:19.149Z"
+        "lastObservedAt": "2026-08-27T22:56:57.373Z"
       }
     },
     {
@@ -425,28 +517,6 @@
       }
     },
     {
-      "id": "news-3c557ada8445d86cf19defd0",
-      "title": "NASA 주도 적외선 망원경 '낸시 그레이스 로만' 2026년 8월 30일 발사 예정",
-      "startAt": "2026-08-25T13:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "유럽우주국(ESA) 보도에 따르면 NASA가 주도하는 낸시 그레이스 로만 우주망원경(Roman)은 2026년 8월 30일 07:26 EDT(12:26 BST/13:26 CEST)에 미국 플로리다 케네디 우주센터에서 발사될 예정이다. 로만 망원경은 넓은 시야와 고급 광학 설계를 통해 가시광선에서 근적외선까지 하늘을 상세히 스캔해 암흑에너지·암흑물질 연구와 외계행성 탐색에 기여할 것으로 기대된다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch"
-        ],
-        "firstPublishedAt": "2026-08-25T13:00:00.000Z",
-        "lastObservedAt": "2026-08-25T14:00:41.089Z"
-      }
-    },
-    {
       "id": "news-9f63d01c63c547f36a1ea50f",
       "title": "로커비 폭탄 테러 재판, 개시 사흘 앞두고 또 연기",
       "startAt": "2026-08-25T11:54:03.000Z",
@@ -517,28 +587,6 @@
         ],
         "firstPublishedAt": "2026-08-25T05:24:16.000Z",
         "lastObservedAt": "2026-08-25T14:00:41.089Z"
-      }
-    },
-    {
-      "id": "news-c5ea08dabb1b8cd0c26af7e4",
-      "title": "미국, 약 20만 명의 망명 신청자 대상 비즈니스·관광 비자 취소 계획",
-      "startAt": "2026-08-25T01:01:44.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라가 전한 보도(인용: AP)에 따르면 미 행정부는 망명 절차를 밟은 약 200,000명의 비즈니스·관광(B1/B2) 비자를 취소하는 방안을 검토 중이다. 시행될 경우 단일 조치로는 미국 역사상 최대 규모의 비자 취소가 될 가능성이 있다는 보도가 나왔다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-25T01:01:44.000Z",
-        "lastObservedAt": "2026-08-25T02:22:37.684Z"
       }
     },
     {
