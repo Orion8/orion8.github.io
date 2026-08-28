@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.68",
-  "updatedAt": "2026-08-27T22:56:57.374Z",
+  "catalogVersion": "0.0.69",
+  "updatedAt": "2026-08-28T12:43:44.561Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -71,6 +71,109 @@
       }
     },
     {
+      "id": "news-21b85a52e068fed8b6df7f9f",
+      "title": "남수단 가축 캠프 무장 공격으로 최소 49명 사망",
+      "startAt": "2026-08-28T11:56:26.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라 보도에 따르면 북서부의 마을과 계절적 가축 캠프를 무장 괴한들이 급습해 최소 49명이 사망하고 33명이 부상했다. 지역 안보 상황과 인도적 우려가 확대되고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/28/armed-raid-on-cattle-camp-kills-at-least-49-in-south-sudan?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/28/armed-raid-on-cattle-camp-kills-at-least-49-in-south-sudan?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-28T11:56:26.000Z",
+        "lastObservedAt": "2026-08-28T12:43:44.561Z"
+      }
+    },
+    {
+      "id": "news-400623aed6a3ef1247ac7128",
+      "title": "토로(Tooro) 왕국의 오요 왕 별세(향년 34) — 세계에서 가장 어린 재위 전통군주",
+      "startAt": "2026-08-28T11:13:24.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 토로 왕국의 오요 왕이 34세의 나이로 사망했다. 그는 3세에 즉위해 세계에서 가장 어린 재위 전통군주로 알려져 있었다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-28T11:13:24.000Z",
+        "lastObservedAt": "2026-08-28T12:43:44.561Z"
+      }
+    },
+    {
+      "id": "news-b6f5fc0820288c8b36a1a993",
+      "title": "트럼프의 대(對)캐나다 통상 분쟁에 디트로이트 경제 직격탄 — 지역 불안 고조",
+      "startAt": "2026-08-28T11:00:56.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 도널드 트럼프 행정부의 캐나다산 자동차·철강 등에 대한 높은 관세 조치가 디트로이트·윈저 지역의 교역과 공급망에 큰 충격을 주며 지역 경제와 정치적 불안을 확대하고 있다고 보도했다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/28/trump-canada-trade-war-detroit-michigan",
+      "topicIds": [
+        "economyFinance",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
+          "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
+          "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+          "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto",
+          "https://www.npr.org/2026/08/24/nx-s1-5942972/the-view-from-canada-after-u-s-trade-negotiations-collapse",
+          "https://www.theguardian.com/us-news/2026/aug/28/trump-canada-trade-war-detroit-michigan"
+        ],
+        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
+        "lastObservedAt": "2026-08-28T12:43:44.561Z"
+      }
+    },
+    {
+      "id": "news-46e5c9ff1303f3a1c626bb98",
+      "title": "네팔·티베트 국경 홍수로 수백 명 사망·1,000명 이상 실종 — 추가 홍수 우려",
+      "startAt": "2026-08-28T10:56:17.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 네팔·티베트 국경 지역을 강타한 급류성 홍수로 수백 명이 숨지고 1,000명이 넘는 사람들이 실종됐다. 도로·교량·여러 마을이 휩쓸렸으며 전문가들은 추가 홍수 가능성을 경고했다. 구조·구호 작업이 진행 중이다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/28/nx-s1-5946732/hundreds-killed-over-1-000-missing-after-flash-floods-in-nepal-and-tibet",
+      "topicIds": [
+        "climateEnvironment",
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/26/g-s1-140211/8-dead-hundreds-missing-as-nepal-avalanche-triggers-flash-floods",
+          "https://www.npr.org/2026/08/26/g-s1-140211/nepal-china-floods",
+          "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods",
+          "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/28/nx-s1-5946732/hundreds-killed-over-1-000-missing-after-flash-floods-in-nepal-and-tibet",
+          "https://www.npr.org/2026/08/28/g-s1-140866/up-first-newsletter-nepal-tibet-floods-kevin-warsh-kennedy-center"
+        ],
+        "firstPublishedAt": "2026-08-26T12:27:19.000Z",
+        "lastObservedAt": "2026-08-28T12:43:44.561Z"
+      }
+    },
+    {
       "id": "news-d8544dddaa7c28ef4beae2d2",
       "title": "OpenAI·Anthropic·Google 등 100여개 기업, '악성 AI' 대응 촉구",
       "startAt": "2026-08-27T17:43:24.000Z",
@@ -114,6 +217,28 @@
         ],
         "firstPublishedAt": "2026-08-27T13:32:43.000Z",
         "lastObservedAt": "2026-08-27T22:56:57.374Z"
+      }
+    },
+    {
+      "id": "news-71c43cf780d371eea28301d0",
+      "title": "DeepMind, 세계 최초 이중맹검(double‑blind) AI 평가 파일럿 시범 발표",
+      "startAt": "2026-08-27T12:59:16.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "DeepMind 블로그에 따르면 회사는 AI 모델에 대한 이중맹검 평가(double‑blind) 파일럿을 시범 운영했다고 밝혔다. 해당 접근법은 평가 편향을 줄이고 모델 비교의 객관성을 높이기 위한 시도로 소개되었다.",
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
+        ],
+        "firstPublishedAt": "2026-08-27T12:59:16.000Z",
+        "lastObservedAt": "2026-08-28T12:43:44.561Z"
       }
     },
     {
@@ -162,33 +287,6 @@
         ],
         "firstPublishedAt": "2026-08-27T10:57:03.000Z",
         "lastObservedAt": "2026-08-27T11:10:19.149Z"
-      }
-    },
-    {
-      "id": "news-46e5c9ff1303f3a1c626bb98",
-      "title": "네팔·티베트 국경 홍수·산사태 — 수백 명 사망·실종",
-      "startAt": "2026-08-27T10:50:35.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "네팔·티베트(중국) 국경 지역을 강타한 대형 홍수와 산사태로 여러 마을이 휩쓸리며 수백 명이 사망하거나 실종됐다. 외국인 관광객 다수가 영향을 받은 것으로 전해졌으며 구조·구호 활동이 진행 중이다. 이전 보도에서는 최소 1,500명이 실종된 것으로 보도되었다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/26/g-s1-140211/8-dead-hundreds-missing-as-nepal-avalanche-triggers-flash-floods",
-          "https://www.npr.org/2026/08/26/g-s1-140211/nepal-china-floods",
-          "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods",
-          "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-26T12:27:19.000Z",
-        "lastObservedAt": "2026-08-27T22:56:57.373Z"
       }
     },
     {
@@ -380,6 +478,30 @@
       }
     },
     {
+      "id": "news-63bb0f18fec5e4b18d740991",
+      "title": "NASA·업계 제안 '동시 이중 모드 핵추진기(S‑BNR)' 설계 공개 — 태양계 탐사 시간 단축 목표",
+      "startAt": "2026-08-26T12:00:01.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "IEEE Spectrum 보도에 따르면 NASA와 산업계 엔지니어들이 핵열·핵전기 추진을 한 원자로로 동시에 제공하는 '동시 이중 모드 핵추진기(S‑BNR)' 개념을 제안했다. 설계는 고추력과 지속 전력 공급을 동시에 제공해 화성 등 목적지로의 이동 시간을 크게 줄일 잠재력이 있으나 연료 요소 통합, 지상시험, 발사 안전 및 다기관 협력 등 주요 기술·규제 과제가 남아 있다.",
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/bimodal-nuclear-spacecraft",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/bimodal-nuclear-spacecraft"
+        ],
+        "firstPublishedAt": "2026-08-26T12:00:01.000Z",
+        "lastObservedAt": "2026-08-28T12:43:44.561Z"
+      }
+    },
+    {
       "id": "news-0324ff3c727ae4d447dd1f7a",
       "title": "캐나다, 미국 관세 조치에 대한 '달러 대 달러' 보복 관세 계획(중복 보도)",
       "startAt": "2026-08-26T11:05:46.000Z",
@@ -539,57 +661,6 @@
       }
     },
     {
-      "id": "news-c3c78b615c18f2646d92bb3c",
-      "title": "미국의 대이란 경제 제재 확장 — 트럼프의 대외 고립 촉구에 중국은 '불법' 반발",
-      "startAt": "2026-08-25T11:53:36.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC·NPR 보도들을 종합하면 미 행정부의 대이란 경제 제재 강화와 '이란과 거래하는 국가 고립' 경고를 놓고 도널드 트럼프 대통령이 세계 지도자들에게 이란 고립 동참을 촉구했다는 보도가 나왔다. 중국은 미국의 새로운 제재를 '불법'이라고 비판했으며, 보도는 이란이 주요 원유 수출국으로서 중국과의 거래가 핵심적이라고 지적했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/21/g-s1-139542/up-first-newsletter-trump-iran-economy-white-house-ballroom-bond-market",
-          "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare",
-          "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran",
-          "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/25/g-s1-140004/up-first-newsletter-iran-economic-war-scotus-mail-in-voting-dhs-privacy"
-        ],
-        "firstPublishedAt": "2026-08-21T11:25:10.000Z",
-        "lastObservedAt": "2026-08-25T14:00:41.089Z"
-      }
-    },
-    {
-      "id": "news-5aabad1267aa0d7631125df8",
-      "title": "인도네시아 대형 산불 — 중심·서부 지역 숲·이탄지대 광범위 소실, 도시에는 짙은 스모그",
-      "startAt": "2026-08-25T05:24:16.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "NPR 보도에 따르면 인도네시아 중부·서부 지역에서 대규모 산불이 발생해 광범위한 숲과 이탄지대가 타며 일부 도시를 뒤덮는 짙은 연무(스모그)가 형성됐다. 현지 주민들은 비를 기원하는 등 피해 확산과 건강·생활 영향에 대한 우려가 커지고 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/25/nx-s1-5944062/indonesia-battles-wildfires",
-      "topicIds": [
-        "climateEnvironment",
-        "lifeScience"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/25/nx-s1-5944062/indonesia-battles-wildfires"
-        ],
-        "firstPublishedAt": "2026-08-25T05:24:16.000Z",
-        "lastObservedAt": "2026-08-25T14:00:41.089Z"
-      }
-    },
-    {
       "id": "news-62003111f3b592c56acd9673",
       "title": "OpenAI, 러시아 기원 계정의 은밀한 영향 공작 차단 발표",
       "startAt": "2026-08-25T00:00:00.000Z",
@@ -609,35 +680,6 @@
         ],
         "firstPublishedAt": "2026-08-25T00:00:00.000Z",
         "lastObservedAt": "2026-08-25T14:00:41.089Z"
-      }
-    },
-    {
-      "id": "news-b6f5fc0820288c8b36a1a993",
-      "title": "미·캐나다 무역 갈등 격화 — 美 50% 자동차·강철 관세 발표·협상 결렬 보도",
-      "startAt": "2026-08-24T18:55:43.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 트럼프 대통령은 2027년 1월 1일부터 캐나다산 자동차·트럭·자동차 부품 및 철강에 대해 50% 관세를 부과한다고 발표했다. NPR은 이 사안과 맞물려 미·캐나다 간 무역협상이 결렬되었다는 캐나다 내 반응을 전하며 양국 간 무역·정치적 긴장이 추가로 심화되고 있음을 보도했다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto",
-      "topicIds": [
-        "economyFinance",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
-          "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
-          "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
-          "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto",
-          "https://www.npr.org/2026/08/24/nx-s1-5942972/the-view-from-canada-after-u-s-trade-negotiations-collapse"
-        ],
-        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
-        "lastObservedAt": "2026-08-25T02:22:37.684Z"
       }
     },
     {
@@ -910,28 +952,6 @@
         ],
         "firstPublishedAt": "2026-08-14T18:44:36.000Z",
         "lastObservedAt": "2026-08-16T02:33:53.232Z"
-      }
-    },
-    {
-      "id": "news-43643a3dd841363b8ac91be3",
-      "title": "DeepMind, 'Gemini 3.7 Flash' 공개",
-      "startAt": "2026-08-13T17:04:18.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "DeepMind 블로그 게시물에 따르면 DeepMind가 Gemini 3.7 Flash 모델을 공개했다. (원문 제목: Introducing Gemini 3.7 Flash)",
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
-        ],
-        "firstPublishedAt": "2026-08-13T17:04:18.000Z",
-        "lastObservedAt": "2026-08-17T13:51:19.384Z"
       }
     },
     {
