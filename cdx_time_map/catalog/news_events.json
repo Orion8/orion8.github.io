@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.69",
-  "updatedAt": "2026-08-28T12:43:44.561Z",
+  "catalogVersion": "0.0.70",
+  "updatedAt": "2026-08-28T23:01:18.396Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -68,6 +68,96 @@
         ],
         "firstPublishedAt": "2026-08-25T13:00:00.000Z",
         "lastObservedAt": "2026-08-27T22:56:57.374Z"
+      }
+    },
+    {
+      "id": "news-de49b69b1b0273ee28dfe3f2",
+      "title": "콩고민주공화국 에볼라 유행 급속 확산 — 2개 신규 보건구역으로 전파, 누적 확진·사망 급증",
+      "startAt": "2026-08-28T21:49:27.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 DRC(콩고민주공화국)의 에볼라 유행이 사상 가장 빠른 속도로 확산되고 있으며 신규로 2개 보건구역에 전파돼 지금까지 총 60개 지역이 영향권에 든 것으로 집계됐다. 보도는 현재까지 확인된 확진 사례가 5,794건, 사망자는 2,786명이라고 전했으며 보건당국과 국제사회의 대응 필요성을 강조했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/28/ebola-spreads-to-two-new-zones-in-drc-60-areas-now-affected?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/28/ebola-spreads-to-two-new-zones-in-drc-60-areas-now-affected?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-28T21:49:27.000Z",
+        "lastObservedAt": "2026-08-28T23:01:18.396Z"
+      }
+    },
+    {
+      "id": "news-27d711792fc39d0f69955ab8",
+      "title": "미·캐나다 통상 분쟁 격화 — 관세 보복·일자리·경기침체 우려 확산",
+      "startAt": "2026-08-28T21:39:40.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 미국과 캐나다의 통상 분쟁이 격화되면서 관세·보복 조치가 상호 확대되고 있다. 보도는 현 관세 조치 하에서 캐나다가 최대 10만 개의 일자리를 잃을 수 있고, 경우에 따라 USMCA(미·캐나다·멕시코 협정) 해체로 경기침체 우려가 커질 수 있다고 분석가들이 지적하고 있다고 전했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/economy/2026/8/28/with-the-us-and-canada-locked-in-a-trade-war-fears-of-a-recession-lurk?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/economy/2026/8/28/with-the-us-and-canada-locked-in-a-trade-war-fears-of-a-recession-lurk?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-28T21:39:40.000Z",
+        "lastObservedAt": "2026-08-28T23:01:18.396Z"
+      }
+    },
+    {
+      "id": "news-a1395b4e087f2545a759a841",
+      "title": "미 연방법원, 트럼프 행정부의 ‘woke’ Anthropic 블랙리스트화 조치 불법 판결",
+      "startAt": "2026-08-28T18:07:55.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Ars Technica 보도에 따르면 연방법원은 트럼프 행정부가 특정 기업(보도에선 Anthropic)을 ‘블랙리스트’화한 조치를 불법으로 판결했다. 보도는 Anthropic이 살상용 자율무기·대규모 감시에의 지원을 거부한 사실 등을 언급하며, 이번 판결이 행정부의 기업 제재·검열 권한에 대한 사법적 제동이라는 점을 부각했다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/"
+        ],
+        "firstPublishedAt": "2026-08-28T18:07:55.000Z",
+        "lastObservedAt": "2026-08-28T23:01:18.396Z"
+      }
+    },
+    {
+      "id": "news-3c10a55690232a401d647e22",
+      "title": "보도: 미국, 베네수엘라 대형 석유·가스 지분 확보 계획 검토 — 야당·연구자·지역 반발",
+      "startAt": "2026-08-28T17:41:37.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 여러 매체는 트럼프 행정부가 베네수엘라의 거대한 석유·가스 매장지에 대해 장기적 접근권·지분 확보를 모색하고 있다고 보도했다. 보도는 이에 대해 야당과 비평가들이 ‘약탈적’·‘위헌적’이라고 비판하고 있다고 전했으며, 일부 보도는 해당 행정부가 1월 마두로 정권과 관련한 조치 이후 베네수엘라 문제에서 적극적 역할을 해왔다는 맥락도 함께 제기하고 있다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake"
+        ],
+        "firstPublishedAt": "2026-08-28T17:41:37.000Z",
+        "lastObservedAt": "2026-08-28T23:01:18.396Z"
       }
     },
     {
@@ -547,54 +637,6 @@
       }
     },
     {
-      "id": "news-374e76bc2ab2ce56c4a70668",
-      "title": "수단 엘 오베이드 난민 캠프의 물 부족 심각화",
-      "startAt": "2026-08-26T01:54:00.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 영상 보도에 따르면 전쟁으로 집을 잃은 가정들이 모인 엘 오베이드 난민 캠프에서 식수 공급이 대폭 줄어들어 생활·위생 상황이 악화되고 있다. 물난리는 피난민들의 건강·생계 부담을 가중시키며 인도적 대응의 긴급성을 높이고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/26/water-crisis-makes-life-in-sudans-el-obeid-refugee-camps-even-worse?traffic_source=rss",
-      "topicIds": [
-        "medicineHealth",
-        "climateEnvironment",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/",
-          "https://www.aljazeera.com/video/newsfeed/2026/8/26/water-crisis-makes-life-in-sudans-el-obeid-refugee-camps-even-worse?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-17T19:24:34.000Z",
-        "lastObservedAt": "2026-08-26T02:38:36.380Z"
-      }
-    },
-    {
-      "id": "news-049e2455def46f9991e41656",
-      "title": "말레이시아 안와르, 대만 관련 발언으로 비동맹 입장 재조명",
-      "startAt": "2026-08-26T01:43:50.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "알자지라 보도에 따르면 말레이시아 총리 안와르의 대만 관련 발언은 국가의 비동맹·중립적 외교 노선을 부각시키며 중국과의 관계에 대한 편향 의혹을 촉발했다. 지도자의 발언은 지역 외교 균형과 대중국·대미 관계 논의를 불러일으키고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/26/malaysias-anwar-puts-non-aligned-stance-in-focus-with-remarks-on-taiwan?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/26/malaysias-anwar-puts-non-aligned-stance-in-focus-with-remarks-on-taiwan?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-26T01:43:50.000Z",
-        "lastObservedAt": "2026-08-26T02:38:36.381Z"
-      }
-    },
-    {
       "id": "news-48873335c69ed1582a93e4b6",
       "title": "돌리 파튼, 암 투병 끝에 향년 80세로 별세",
       "startAt": "2026-08-25T17:59:40.000Z",
@@ -907,28 +949,6 @@
         ],
         "firstPublishedAt": "2026-08-17T15:00:00.000Z",
         "lastObservedAt": "2026-08-18T02:21:03.248Z"
-      }
-    },
-    {
-      "id": "news-3ff02964da6b7f4fea83906b",
-      "title": "OpenAI, ‘지능 시대’ 정책 아이디어 연구에 14개 독립 프로젝트 자금 지원",
-      "startAt": "2026-08-17T03:15:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI 보도자료에 따르면 회사는 경제적 기회 확대와 사회적 회복력 강화를 목표로 하는 '지능 시대' 관련 정책 아이디어를 탐구하기 위해 14개의 독립 프로젝트에 자금을 지원한다고 발표했다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/new-policy-ideas-for-the-intelligence-age"
-        ],
-        "firstPublishedAt": "2026-08-17T03:15:00.000Z",
-        "lastObservedAt": "2026-08-17T13:51:19.384Z"
       }
     },
     {
