@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.70",
-  "updatedAt": "2026-08-28T23:01:18.396Z",
+  "catalogVersion": "0.0.71",
+  "updatedAt": "2026-08-29T07:50:28.232Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -71,6 +71,75 @@
       }
     },
     {
+      "id": "news-d1e0c4e6f354c5e6ffca08da",
+      "title": "트럼프, 베네수엘라의 거대 원유 매장지 접근 합의 진입 주장",
+      "startAt": "2026-08-29T02:07:55.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "도널드 트럼프 대통령은 자신이 이끄는 행정부가 베네수엘라와 광범위한 합의에 들어 미국이 미개발 대규모 원유 매장지(약 650억 배럴)에 접근할 수 있게 될 것이라고 밝혔다. 보도는 해당 합의가 비용을 수반한다고 전했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves"
+        ],
+        "firstPublishedAt": "2026-08-29T02:07:55.000Z",
+        "lastObservedAt": "2026-08-29T07:50:28.232Z"
+      }
+    },
+    {
+      "id": "news-cd546d9e8c83d0f0579f8783",
+      "title": "NASA 아르테미스 II 승무원, 의회 우주명예훈장 수여",
+      "startAt": "2026-08-28T22:21:31.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA의 아르테미스 II 임무에 참여한 우주비행사 빅터 글로버·크리스티나 코크·리드 와이즈먼과 캐나다우주청(CSA) 우주비행사 제레미 핸슨이 2026년 8월 28일 대통령으로부터 의회 우주명예훈장을 수여받았다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/nasas-artemis-ii-crew-receives-congressional-space-medal-of-honor/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/nasas-artemis-ii-crew-receives-congressional-space-medal-of-honor/"
+        ],
+        "firstPublishedAt": "2026-08-28T22:21:31.000Z",
+        "lastObservedAt": "2026-08-29T07:50:28.232Z"
+      }
+    },
+    {
+      "id": "news-7854036fdce61884d9dbb0eb",
+      "title": "법원, Kalshi의 '스왑' 주장 기각 — 네바다 도박법 적용",
+      "startAt": "2026-08-28T22:14:52.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "법원은 Kalshi가 자사 스포츠 베팅을 금융 '스왑'으로 분류해 네바다 도박법을 회피하려는 시도는 받아들일 수 없다고 판결했다. 판결은 Kalshi의 베팅이 단순히 다른 이름을 쓴 도박에 해당한다고 못박았다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/"
+        ],
+        "firstPublishedAt": "2026-08-28T22:14:52.000Z",
+        "lastObservedAt": "2026-08-29T07:50:28.232Z"
+      }
+    },
+    {
       "id": "news-de49b69b1b0273ee28dfe3f2",
       "title": "콩고민주공화국 에볼라 유행 급속 확산 — 2개 신규 보건구역으로 전파, 누적 확진·사망 급증",
       "startAt": "2026-08-28T21:49:27.000Z",
@@ -112,6 +181,29 @@
         ],
         "firstPublishedAt": "2026-08-28T21:39:40.000Z",
         "lastObservedAt": "2026-08-28T23:01:18.396Z"
+      }
+    },
+    {
+      "id": "news-13b8978c8883599eb1c7b19f",
+      "title": "6개월간 전쟁에도 이란 정권 붕괴 대신 고착·강경화",
+      "startAt": "2026-08-28T19:35:24.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 분석은 전쟁 6개월 후에도 이란 정권이 붕괴하지 않고 오히려 더욱 단단히 자리잡으며 강경한 입장을 취하고 있다고 평가했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/08/28/nx-s1-5947854/us-iran-war",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/28/nx-s1-5947854/us-iran-war"
+        ],
+        "firstPublishedAt": "2026-08-28T19:35:24.000Z",
+        "lastObservedAt": "2026-08-29T07:50:28.232Z"
       }
     },
     {
@@ -592,29 +684,6 @@
       }
     },
     {
-      "id": "news-0324ff3c727ae4d447dd1f7a",
-      "title": "캐나다, 미국 관세 조치에 대한 '달러 대 달러' 보복 관세 계획(중복 보도)",
-      "startAt": "2026-08-26T11:05:46.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 캐나다는 미국의 대(對)캐나다 관세에 대응해 화장품·유제품·목재 등 광범위한 미국산 품목에 대해 '달러 대 달러' 수준의 보복 관세를 부과할 계획이라고 밝혔다. (관련 기존 사건 업데이트)",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/26/g-s1-140207/up-first-newsletter-canada-tariffs-visa-revocations-dolly-parton-nevada-voters",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/25/canada-retaliatory-tariffs-on-range-of-us-goods",
-          "https://www.npr.org/2026/08/26/g-s1-140207/up-first-newsletter-canada-tariffs-visa-revocations-dolly-parton-nevada-voters"
-        ],
-        "firstPublishedAt": "2026-08-25T16:17:44.000Z",
-        "lastObservedAt": "2026-08-26T14:02:15.163Z"
-      }
-    },
-    {
       "id": "news-f218151ed7ae95d662ab7bef",
       "title": "mpox 재확산 — 기니비사우 등 신규 발생, 아동 피해 증가 우려",
       "startAt": "2026-08-26T11:00:12.000Z",
@@ -655,28 +724,6 @@
           "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead"
         ],
         "firstPublishedAt": "2026-08-25T17:59:40.000Z",
-        "lastObservedAt": "2026-08-26T02:38:36.381Z"
-      }
-    },
-    {
-      "id": "news-1240515c683d085bb499d582",
-      "title": "로힝야 위기 9주년 — 귀환 전망 희박·인도적 지원 축소 우려",
-      "startAt": "2026-08-25T14:59:12.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 로힝야 위기가 발생한 지 9년이 지났지만 탈출은 멈추지 않았고 국제 관심과 지원이 줄어들면서 귀환 전망이 더욱 희박해졌다. 난민 세대가 귀환 가능성 없이 성장하고 있으며 인도적 자원 축소가 장기적 위기 고착을 초래할 우려가 제기된다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/25/g-s1-140007/forget-about-going-back-9-years-on-rohingya-crisis-enters-dangerous-phase",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/25/g-s1-140007/forget-about-going-back-9-years-on-rohingya-crisis-enters-dangerous-phase"
-        ],
-        "firstPublishedAt": "2026-08-25T14:59:12.000Z",
         "lastObservedAt": "2026-08-26T02:38:36.381Z"
       }
     },
@@ -949,29 +996,6 @@
         ],
         "firstPublishedAt": "2026-08-17T15:00:00.000Z",
         "lastObservedAt": "2026-08-18T02:21:03.248Z"
-      }
-    },
-    {
-      "id": "news-21047268d1bddde0ba703597",
-      "title": "NASA, 11월 케네디 우주센터서 'MAX POWER' 항공우주 엑스포·에어쇼 발표",
-      "startAt": "2026-08-14T18:44:36.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 미국 건국 250주년을 기념해 11월 7~8일 케네디 우주센터 인근에서 차세대 항공기·우주선·자율 차량·기술을 선보이는 공공 엑스포 겸 에어쇼 'MAX POWER'를 개최한다고 발표했다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/",
-      "topicIds": [
-        "spaceDevelopment",
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/"
-        ],
-        "firstPublishedAt": "2026-08-14T18:44:36.000Z",
-        "lastObservedAt": "2026-08-16T02:33:53.232Z"
       }
     },
     {
