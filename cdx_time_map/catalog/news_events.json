@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.73",
-  "updatedAt": "2026-08-30T06:35:48.648Z",
+  "catalogVersion": "0.0.74",
+  "updatedAt": "2026-08-30T17:24:56.325Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -48,26 +48,121 @@
       }
     },
     {
+      "id": "news-8b3eb11682a5e8be1d817aa2",
+      "title": "히말라야 빙하 붕괴로 사망자 800명 가까워져",
+      "startAt": "2026-08-30T17:00:45.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "네팔·티베트 국경의 히말라야 지역에서 발생한 빙하 붕괴로 사망자가 800명에 근접했다. 네팔과 중국 측에 전문 수색·구조팀이 투입되어 수색·복구 작업이 진행되고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/30/death-toll-nears-800-after-himalayan-glacier-collapse?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/30/death-toll-nears-800-after-himalayan-glacier-collapse?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-30T17:00:45.000Z",
+        "lastObservedAt": "2026-08-30T17:24:56.325Z"
+      }
+    },
+    {
+      "id": "news-d09b2b25b7364a5de5e2f6fd",
+      "title": "리비아 경쟁 세력, 2년 내 국가선거 실시 합의 서명",
+      "startAt": "2026-08-30T16:38:01.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "트리폴리의 유엔 임무에서 리비아 내 경쟁 세력들이 향후 2년 내 국가선거를 치르기로 합의에 서명했다. 서명은 유엔이 지원한 위원회가 튀니스에서 작성한 초안에 이어 이뤄졌다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/30/rival-libya-factions-sign-deal-to-hold-national-elections-within-two-years?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/8/30/rival-libya-factions-sign-deal-to-hold-national-elections-within-two-years?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-30T16:38:01.000Z",
+        "lastObservedAt": "2026-08-30T17:24:56.325Z"
+      }
+    },
+    {
+      "id": "news-74f5c5aedd39c0a588d77127",
+      "title": "아이슬란드, EU 가입 협상 재개 안건 부결(52.8% 반대)",
+      "startAt": "2026-08-30T16:11:44.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "아이슬란드 공영방송 RUV는 유권자의 52.8%가 정부의 유럽연합(EU) 가입협상 재개 제안을 거부했다고 보도했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/08/29/nx-s1-5948759/iceland-european-union-referendum-vote",
+          "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-30T01:47:44.000Z",
+        "lastObservedAt": "2026-08-30T17:24:56.325Z"
+      }
+    },
+    {
       "id": "news-3c557ada8445d86cf19defd0",
-      "title": "낸시 그레이스 로만 우주망원경 발사 예정 — 발사 시각 확정",
-      "startAt": "2026-08-30T11:26:00.000Z",
+      "title": "NASA, 신규 우주망원경 발사 — 다년 임무로 우주 지도·암흑물질·암흑에너지 탐사 시작",
+      "startAt": "2026-08-30T15:28:08.000Z",
       "lane": "world",
       "category": "space",
       "importance": 3,
-      "description": "NASA가 주도하는 낸시 그레이스 로만 우주망원경(Roman)의 발사가 2026년 8월 30일 일요일 07:26 EDT에 예정되어 있다. 로만 망원경은 넓은 시야를 활용해 암흑에너지·암흑물질 연구와 외계행성 탐색 등 광범위한 천문학 연구에 기여할 것으로 기대된다.",
+      "description": "미 항공우주국(NASA)은 강력한 신규 우주망원경을 발사해 다년간 우주 지도를 작성하고 암흑에너지·암흑물질 등 우주 미스터리를 연구하는 임무를 시작했다고 보도되었다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "spaceDevelopment",
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch",
+          "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
+          "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-25T13:00:00.000Z",
+        "lastObservedAt": "2026-08-30T17:24:56.325Z"
+      }
+    },
+    {
+      "id": "news-23c4b6110b05271177bb6c89",
+      "title": "NASA, 골드스톤 딥 스페이스 네트워크의 DSS-23 안테나 가동",
+      "startAt": "2026-08-30T14:53:08.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "딥 스페이스 스테이션 23(DSS‑23) 34m 다중주파수 빔‑웨이브가이드 안테나가 캘리포니아 골드스톤 단지에서 완공되어 가동을 시작했다. DSS‑23은 향후 수십 년간 NASA의 심우주 통신 용량을 확장할 것으로 기대된다.",
       "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
+      "sourceUrl": "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23/",
       "topicIds": [
         "spaceDevelopment"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch",
-          "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/"
+          "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23/",
+          "https://science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online/"
         ],
-        "firstPublishedAt": "2026-08-25T13:00:00.000Z",
-        "lastObservedAt": "2026-08-27T22:56:57.374Z"
+        "firstPublishedAt": "2026-08-30T14:57:59.000Z",
+        "lastObservedAt": "2026-08-30T17:24:56.325Z"
       }
     },
     {
@@ -111,29 +206,6 @@
           "https://www.aljazeera.com/news/2026/8/30/mapping-the-iran-wars-strikes-on-gulf-energy-and-what-comes-next-for-oil?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-08-30T05:09:11.000Z",
-        "lastObservedAt": "2026-08-30T06:35:48.648Z"
-      }
-    },
-    {
-      "id": "news-74f5c5aedd39c0a588d77127",
-      "title": "아이슬란드, EU 가입 여부 국민투표 — 개표 근소 접전 전망",
-      "startAt": "2026-08-30T01:47:44.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "NPR 보도에 따르면 아이슬란드 국민들이 유럽연합(EU) 가입 찬반을 묻는 투표를 실시했으며 최종 표차가 매우 근소할 것으로 보여 개표가 밤새 이어질 것으로 예상된다고 보도했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/29/nx-s1-5948759/iceland-european-union-referendum-vote",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/29/nx-s1-5948759/iceland-european-union-referendum-vote"
-        ],
-        "firstPublishedAt": "2026-08-30T01:47:44.000Z",
         "lastObservedAt": "2026-08-30T06:35:48.648Z"
       }
     },
@@ -634,28 +706,6 @@
       }
     },
     {
-      "id": "news-deb0566201128ff428e52108",
-      "title": "9·11 피고 포함 재판, 2028년 6월로 일정 지정",
-      "startAt": "2026-08-27T10:57:03.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 관타나모에 수감된 4명의 9·11 관련 피고에 대한 재판이 2028년 6월로 예정되었다. 이들에는 칼리드 셰이크 모하메드 등이 포함된다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/27/trial-for-9-11-accused-including-khalid-sheikh-mohammed-set-for-june?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/27/trial-for-9-11-accused-including-khalid-sheikh-mohammed-set-for-june?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-27T10:57:03.000Z",
-        "lastObservedAt": "2026-08-27T11:10:19.149Z"
-      }
-    },
-    {
       "id": "news-a5c3f4d5e36b158a013aa1f5",
       "title": "OpenAI, 허깅페이스 침해 사건에 대한 공식 보고서 공개",
       "startAt": "2026-08-26T19:05:22.000Z",
@@ -675,28 +725,6 @@
           "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/"
         ],
         "firstPublishedAt": "2026-08-26T19:05:22.000Z",
-        "lastObservedAt": "2026-08-26T19:18:01.293Z"
-      }
-    },
-    {
-      "id": "news-917757d6b430ea202813046e",
-      "title": "쿠르드 주도 '민주군'(SDF) 해체 — 다마스쿠스의 승리지만 군 통합은 불확실",
-      "startAt": "2026-08-26T18:19:14.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 쿠르드가 주도한 시리아 민주군(SDF)이 해체되었으나 다마스쿠스가 사실상 승리를 거두었음에도 지휘·배치 등 군 통합과 관련해 해결되지 않은 질문들이 남아 있다고 전해졌다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/26/kurdish-led-sdf-has-dissolved-but-has-syria-really-unified-its-military?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/26/kurdish-led-sdf-has-dissolved-but-has-syria-really-unified-its-military?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-26T18:19:14.000Z",
         "lastObservedAt": "2026-08-26T19:18:01.293Z"
       }
     },
@@ -774,28 +802,6 @@
         ],
         "firstPublishedAt": "2026-08-26T15:45:07.000Z",
         "lastObservedAt": "2026-08-26T19:18:01.293Z"
-      }
-    },
-    {
-      "id": "news-c487942c17b2573069d0e287",
-      "title": "파키스탄 병원 화재로 신생아 14명 사망 — 출입문 잠금 여부 논란",
-      "startAt": "2026-08-26T12:32:47.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 파키스탄의 한 병원 화재로 신생아 14명이 숨진 사건과 관련해 목격자들은 병동 출입문이 잠겨 있었다고 진술했다. 병원 관계자는 문이 잠기지 않았고 보호 목적의 경비원이 배치돼 있었다고 반박하며 출입 통제 여부를 둘러싼 논란이 제기되고 있다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-26T12:32:47.000Z",
-        "lastObservedAt": "2026-08-26T14:02:15.163Z"
       }
     },
     {
