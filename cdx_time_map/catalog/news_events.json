@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.75",
-  "updatedAt": "2026-08-31T07:00:33.597Z",
+  "catalogVersion": "0.0.76",
+  "updatedAt": "2026-08-31T19:30:14.606Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -26,6 +26,28 @@
       }
     },
     {
+      "id": "news-a8d30f2169a9f5ecc1c28a3c",
+      "title": "Sony·Warner Music, Anthropic 상대 소송 제기 — 가사 무단사용 주장",
+      "startAt": "2026-08-31T18:42:08.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "Sony와 Warner Music이 Anthropic을 상대로 소송을 제기하며 Anthropic이 The Beatles·Taylor Swift·Michael Jackson 등 다수의 가사(lyrics)를 무단으로 사용해 AI를 훈련시켰다고 주장했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/economy/2026/8/31/sony-warner-music-sue-anthropic-saying-it-pirated-songs-to-train-its-ai?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.aljazeera.com/economy/2026/8/31/sony-warner-music-sue-anthropic-saying-it-pirated-songs-to-train-its-ai?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-08-31T18:42:08.000Z",
+        "lastObservedAt": "2026-08-31T19:30:14.606Z"
+      }
+    },
+    {
       "id": "news-a43eb22dc314e0f7d45a1892",
       "title": "터키, NASA 본부서 아르테미스 협정 서명 예정(71번째 가입국)",
       "startAt": "2026-08-31T18:30:00.000Z",
@@ -45,6 +67,54 @@
         ],
         "firstPublishedAt": "2026-08-27T18:42:38.000Z",
         "lastObservedAt": "2026-08-27T22:56:57.374Z"
+      }
+    },
+    {
+      "id": "news-cde6d80f75518b2aa5671370",
+      "title": "EU의 AI 산업 확장과 반도체 전략의 긴장 — Chips Act 2.0 분석",
+      "startAt": "2026-08-31T14:00:04.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "유럽연합이 AI 데이터센터·AI 공장 확충을 추진하면서 고급 반도체 수요가 급증하고 있으나 유럽은 전 세계 반도체 생산의 10% 미만을 차지하는 등 공급 측면의 제약이 존재한다는 지적이 제기됐다. 이 같은 수요·공급 간 긴장은 Chips Act 2.0의 목표 달성 가능성에 의문을 던진다.",
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/europes-ai-drive",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/europes-ai-drive"
+        ],
+        "firstPublishedAt": "2026-08-31T14:00:04.000Z",
+        "lastObservedAt": "2026-08-31T19:30:14.606Z"
+      }
+    },
+    {
+      "id": "news-d8517a2411964544791eaa7c",
+      "title": "EU의 온라인 안전 규칙, ChatGPT·Reddit 등 플랫폼에 적용 시작",
+      "startAt": "2026-08-31T13:41:40.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "급성장하는 온라인 플랫폼들에 대해 EU의 강화된 온라인 안전 규제가 발효되어 ChatGPT와 Reddit 등 주요 서비스가 해당 규제의 엄격한 적용을 받게 됐다. 규제 적용은 플랫폼 운영·콘텐츠 관리에 새로운 법적·운영적 부담을 부과할 전망이다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/"
+        ],
+        "firstPublishedAt": "2026-08-31T13:41:40.000Z",
+        "lastObservedAt": "2026-08-31T19:30:14.606Z"
       }
     },
     {
@@ -207,14 +277,14 @@
     },
     {
       "id": "news-3c557ada8445d86cf19defd0",
-      "title": "Nancy Grace Roman 우주망원경 발사 — 적외선·가시광선 전천(스카이) 조사 임무 개시",
+      "title": "Nancy Grace Roman 우주망원경 발사·임무 개시(로만 망원경)",
       "startAt": "2026-08-30T11:26:00.000Z",
       "lane": "world",
       "category": "space",
       "importance": 3,
-      "description": "NASA의 Nancy Grace Roman 우주망원경이 2026-08-30 SpaceX 팔콘 헤비 로켓으로 케네디 우주센터에서 성공적으로 발사되어 가시광선~근적외선 전천 조사 임무를 시작했다. 로만 망원경은 암흑에너지·암흑물질 연구와 우리 은하의 외계행성 다양성 조사 등을 목표로 한다. 유럽우주국(ESA)은 본 임무에 스타트래커·배터리·코로나그래프 검출기 등을 기여했으며, ESA의 심우주 지상국 네트워크와 호주 뉴노시아의 35m 안테나를 통한 통신·데이터 다운로드 지원을 제공한다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Roman_lifts_off_on_a_mission_to_survey_the_infrared_sky",
+      "description": "NASA의 Nancy Grace Roman 우주망원경이 SpaceX 팔콘 헤비에 실려 성공적으로 발사되어 태양‑지구 라그랑주 지점 L2로 향하는 3개월 여정과 함께 계측기 전원 인가·보정 등 '커미셔닝(시운전)' 단계에 들어갔다. 로만 망원경은 허블보다 훨씬 넓은 시야로 수십억 개의 별과 은하를 조사해 암흑에너지·암흑물질, 우리은하의 외계행성 연구 등에 기여할 예정이다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/nasas-nancy-grace-roman-space-telescope-launches/",
       "topicIds": [
         "spaceDevelopment",
         "physicsChemistry",
@@ -227,10 +297,13 @@
           "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch",
           "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
           "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
-          "https://www.esa.int/ESA_Multimedia/Images/2026/08/Roman_lifts_off_on_a_mission_to_survey_the_infrared_sky"
+          "https://www.esa.int/ESA_Multimedia/Images/2026/08/Roman_lifts_off_on_a_mission_to_survey_the_infrared_sky",
+          "https://www.nasa.gov/image-article/nasas-nancy-grace-roman-space-telescope-launches/",
+          "https://arstechnica.com/space/2026/08/nasas-next-great-observatory-begins-mission-to-widen-our-view-of-the-universe/",
+          "https://science.nasa.gov/missions/roman-space-telescope/roman-commissioning/"
         ],
         "firstPublishedAt": "2026-08-25T13:00:00.000Z",
-        "lastObservedAt": "2026-08-31T07:00:33.597Z"
+        "lastObservedAt": "2026-08-31T19:30:14.606Z"
       }
     },
     {
@@ -600,28 +673,6 @@
       }
     },
     {
-      "id": "news-21b85a52e068fed8b6df7f9f",
-      "title": "남수단 가축 캠프 무장 공격으로 최소 49명 사망",
-      "startAt": "2026-08-28T11:56:26.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "알자지라 보도에 따르면 북서부의 마을과 계절적 가축 캠프를 무장 괴한들이 급습해 최소 49명이 사망하고 33명이 부상했다. 지역 안보 상황과 인도적 우려가 확대되고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/28/armed-raid-on-cattle-camp-kills-at-least-49-in-south-sudan?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/28/armed-raid-on-cattle-camp-kills-at-least-49-in-south-sudan?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-28T11:56:26.000Z",
-        "lastObservedAt": "2026-08-28T12:43:44.561Z"
-      }
-    },
-    {
       "id": "news-400623aed6a3ef1247ac7128",
       "title": "토로(Tooro) 왕국의 오요 왕 별세(향년 34) — 세계에서 가장 어린 재위 전통군주",
       "startAt": "2026-08-28T11:13:24.000Z",
@@ -939,73 +990,6 @@
         ],
         "firstPublishedAt": "2026-08-24T17:53:57.000Z",
         "lastObservedAt": "2026-08-25T14:00:41.089Z"
-      }
-    },
-    {
-      "id": "news-4d38648c033d9e0829f06088",
-      "title": "Hugging Face, 약 130억달러 가치 인수 논의 보도 — 창업진공 동요",
-      "startAt": "2026-08-24T13:47:26.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "TechCrunch 보도에 따르면 AI 스타트업 Hugging Face가 약 130억 달러(13B) 수준의 인수 제안을 검토 중이라는 보도가 나왔다. 보도는 창업자들이 커뮤니티에 대한 책임감을 느끼며 실제 매각으로 이어질지에 대해 의문을 제기하고 있다고 전했다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/"
-        ],
-        "firstPublishedAt": "2026-08-24T13:47:26.000Z",
-        "lastObservedAt": "2026-08-24T14:00:57.495Z"
-      }
-    },
-    {
-      "id": "news-11bfce24e7f02ff50874b967",
-      "title": "OpenAI, 캘리포니아의 AI 안전법(SB 53) 강화 필요성 촉구",
-      "startAt": "2026-08-22T16:30:34.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI는 캘리포니아의 AI 안전법 SB 53에 대해 이전 반대 입장에서 입장을 바꿔 법안 강화를 촉구했다고 밝혔다. 회사는 법안의 보완을 통해 안전 규제의 엄격화를 요청한 것으로 전해진다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/"
-        ],
-        "firstPublishedAt": "2026-08-22T16:30:34.000Z",
-        "lastObservedAt": "2026-08-23T13:42:34.764Z"
-      }
-    },
-    {
-      "id": "news-e185dc25a2c3e6ee56c0fbf6",
-      "title": "NASA, 페이로드 처리 서비스 제공사 4곳 선정",
-      "startAt": "2026-08-17T20:17:20.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA가 Spacecraft Processing Operations Contract 온램프 규정에 따라 발사지별로 페이로드 처리(검수·적재 등) 상업 서비스를 제공할 자격을 갖춘 4개 회사를 선정했다. 이번 조치는 초기 계약 수여 시점에 해당 역량이 없던 발사지들에서 민간 처리 역량을 확충하기 위한 조치다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/"
-        ],
-        "firstPublishedAt": "2026-08-17T20:17:20.000Z",
-        "lastObservedAt": "2026-08-18T02:21:03.248Z"
       }
     },
     {
