@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.0.74",
-  "updatedAt": "2026-08-30T17:24:56.325Z",
+  "catalogVersion": "0.0.75",
+  "updatedAt": "2026-08-31T07:00:33.597Z",
   "sourceType": "editorial",
   "events": [
     {
@@ -45,6 +45,73 @@
         ],
         "firstPublishedAt": "2026-08-27T18:42:38.000Z",
         "lastObservedAt": "2026-08-27T22:56:57.374Z"
+      }
+    },
+    {
+      "id": "news-492cf7cb84911a4532c49cfa",
+      "title": "스코틀랜드 소프오페라 '리버 시티' 24년 만에 종영 예고",
+      "startAt": "2026-08-31T05:20:22.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "description": "스코틀랜드를 배경으로 한 장수 소프오페라 '리버 시티'(가상 지구명 Shieldinch 소재)가 24년 방송 후 마지막 회를 예고했다. 방송사는 마지막 회에서 '불타는' 결말을 암시하며 시리즈의 종결을 알렸다.",
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c1dl31k01v7o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c1dl31k01v7o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-31T05:20:22.000Z",
+        "lastObservedAt": "2026-08-31T07:00:33.597Z"
+      }
+    },
+    {
+      "id": "news-8c0ca5cb5229b79a122c78d7",
+      "title": "북부 키프로스 해역 여객선 전복 — 최소 8명 사망·18명 실종, 수색·구조 진행",
+      "startAt": "2026-08-31T03:56:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "북키프로스 인근 해역에서 출항한 여객선이 전복되면서 탑승자 약 270명 가운데 최소 8명이 사망하고 18명이 실종된 것으로 보고됐다. 구조·수색 작업이 진행 중이며 추가 인명 확인과 사고 원인 조사가 이뤄지고 있다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-08-31T03:56:15.000Z",
+        "lastObservedAt": "2026-08-31T07:00:33.597Z"
+      }
+    },
+    {
+      "id": "news-331406f38034f2c00c87d5a8",
+      "title": "미국, 드론·로봇 규제 강화 움직임 — 중국의 생산 규모가 변수",
+      "startAt": "2026-08-31T02:34:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "미국이 외국산 드론·로봇 제품에 대한 배제 조치를 확대하고 있는 가운데, 중국의 대규모 생산·공급 능력은 규제의 효과를 제한할 가능성이 있다는 분석이 제기됐다. 보도는 규제가 공급망·기술통제의 일환으로 진행되는 반면, 중국 기업의 규모는 규제를 회피하거나 영향을 분산시킬 역량을 제공한다고 지적한다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/"
+        ],
+        "firstPublishedAt": "2026-08-31T02:34:00.000Z",
+        "lastObservedAt": "2026-08-31T07:00:33.597Z"
       }
     },
     {
@@ -116,33 +183,6 @@
       }
     },
     {
-      "id": "news-3c557ada8445d86cf19defd0",
-      "title": "NASA, 신규 우주망원경 발사 — 다년 임무로 우주 지도·암흑물질·암흑에너지 탐사 시작",
-      "startAt": "2026-08-30T15:28:08.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "미 항공우주국(NASA)은 강력한 신규 우주망원경을 발사해 다년간 우주 지도를 작성하고 암흑에너지·암흑물질 등 우주 미스터리를 연구하는 임무를 시작했다고 보도되었다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "spaceDevelopment",
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch",
-          "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
-          "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-25T13:00:00.000Z",
-        "lastObservedAt": "2026-08-30T17:24:56.325Z"
-      }
-    },
-    {
       "id": "news-23c4b6110b05271177bb6c89",
       "title": "NASA, 골드스톤 딥 스페이스 네트워크의 DSS-23 안테나 가동",
       "startAt": "2026-08-30T14:53:08.000Z",
@@ -163,6 +203,34 @@
         ],
         "firstPublishedAt": "2026-08-30T14:57:59.000Z",
         "lastObservedAt": "2026-08-30T17:24:56.325Z"
+      }
+    },
+    {
+      "id": "news-3c557ada8445d86cf19defd0",
+      "title": "Nancy Grace Roman 우주망원경 발사 — 적외선·가시광선 전천(스카이) 조사 임무 개시",
+      "startAt": "2026-08-30T11:26:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA의 Nancy Grace Roman 우주망원경이 2026-08-30 SpaceX 팔콘 헤비 로켓으로 케네디 우주센터에서 성공적으로 발사되어 가시광선~근적외선 전천 조사 임무를 시작했다. 로만 망원경은 암흑에너지·암흑물질 연구와 우리 은하의 외계행성 다양성 조사 등을 목표로 한다. 유럽우주국(ESA)은 본 임무에 스타트래커·배터리·코로나그래프 검출기 등을 기여했으며, ESA의 심우주 지상국 네트워크와 호주 뉴노시아의 35m 안테나를 통한 통신·데이터 다운로드 지원을 제공한다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Roman_lifts_off_on_a_mission_to_survey_the_infrared_sky",
+      "topicIds": [
+        "spaceDevelopment",
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch",
+          "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
+          "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
+          "https://www.esa.int/ESA_Multimedia/Images/2026/08/Roman_lifts_off_on_a_mission_to_survey_the_infrared_sky"
+        ],
+        "firstPublishedAt": "2026-08-25T13:00:00.000Z",
+        "lastObservedAt": "2026-08-31T07:00:33.597Z"
       }
     },
     {
@@ -729,28 +797,6 @@
       }
     },
     {
-      "id": "news-3466cc26768584b2a1375232",
-      "title": "영화·뮤지컬 배우 팀 커리 별세(향년 80세)",
-      "startAt": "2026-08-26T17:34:57.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "BBC 엔터테인먼트 보도에 따르면 배우 팀 커리가 향년 80세로 사망했다. 커리는 컬트 영화 'The Rocky Horror Picture Show'에서 프랭크-N-퍼터 역으로 널리 알려져 있다.",
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5yd92gkk7vo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5yd92gkk7vo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-26T17:34:57.000Z",
-        "lastObservedAt": "2026-08-26T19:18:01.293Z"
-      }
-    },
-    {
       "id": "news-7d92603cf2986fc0c5bc8ec2",
       "title": "NASA 존슨 소속 조종사들, 개기일식 관측 위해 달 그림자 추적 비행",
       "startAt": "2026-08-26T17:33:05.000Z",
@@ -938,30 +984,6 @@
         ],
         "firstPublishedAt": "2026-08-22T16:30:34.000Z",
         "lastObservedAt": "2026-08-23T13:42:34.764Z"
-      }
-    },
-    {
-      "id": "news-1d131bb25f345148b5e6a20a",
-      "title": "OpenAI, 프론티어 모델 대상 제로 데이터 보관 정책 재확인",
-      "startAt": "2026-08-19T19:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "OpenAI는 적격 API 고객을 대상으로 한 프론티어 모델에 대해 제로 데이터 보관(Zero Data Retention) 정책을 재확인하고, 고급 안전성을 유지하면서 개인정보를 보호하는 'Private Safety Processing' 기능을 예고했다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
-          "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
-        ],
-        "firstPublishedAt": "2026-08-18T18:00:00.000Z",
-        "lastObservedAt": "2026-08-20T13:57:35.690Z"
       }
     },
     {
