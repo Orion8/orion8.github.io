@@ -1,28 +1,123 @@
 {
-  "catalogVersion": "0.0.76",
-  "updatedAt": "2026-08-31T19:30:14.606Z",
+  "catalogVersion": "0.0.77",
+  "updatedAt": "2026-09-01T06:14:08.802Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-e7a16a750d4f01ff733d662a",
-      "title": "베피콜롬보, 수성 도착 단계 개시 예고(2026-09-03 MTM 분리)",
-      "startAt": "2026-09-03T11:45:00.000Z",
+      "id": "news-8c0ca5cb5229b79a122c78d7",
+      "title": "히말라야 홍수·빙하 붕괴: 네팔·중국 국경 무역 통로 실종자 발생 보고(업데이트)",
+      "startAt": "2026-09-01T06:02:27.000Z",
       "lane": "world",
-      "category": "space",
+      "category": "climateDisaster",
       "importance": 3,
-      "description": "ESA 보도에 따르면 ESA/JAXA 공동 미션 베피콜롬보가 2026년 9월 3일 수성 도착 단계에 진입하며 유럽형 머큐리 트랜스퍼 모듈(MTM)이 분리될 예정이다. ESA는 13:45 CEST(UTC 11:45)에 해당 분리 과정을 라이브스트리밍한다고 밝혔다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury",
+      "description": "BBC는 네팔·중국 국경의 외진 무역로에서 발생한 홍수로 수백 명이 실종·사망한 가운데, 중요한 무역 통로에 서 있던 100명 이상(주로 인도인)이 실종됐다고 보도했다. NPR는 네팔 당국의 외부 지원 수용 지연과 수력발전 터널에 갇힌 사람들 구조 지연을 지적하며 구조·구호 접근의 어려움을 보도했다. 이번 사태는 도로·교량 파괴와 악천후로 구조·물자 수송이 지연되며 추가 피해 우려가 지속되고 있다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0qxw1qw3g7o?at_medium=RSS&at_campaign=rss",
       "topicIds": [
-        "spaceDevelopment"
+        "politicsHumanRights",
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment",
+        "koreaEastAsia"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury"
+          "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c0qxw1qw3g7o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/08/31/nx-s1-5949971/nepals-hesitance-help-flood"
         ],
-        "firstPublishedAt": "2026-08-27T05:17:00.000Z",
-        "lastObservedAt": "2026-08-27T11:10:19.149Z"
+        "firstPublishedAt": "2026-08-31T03:56:15.000Z",
+        "lastObservedAt": "2026-09-01T06:14:08.801Z"
+      }
+    },
+    {
+      "id": "news-9b7933ac5a2d7b8cb6fe4676",
+      "title": "UNIFIL 임무 종료 임박 — 유럽이 레바논 공백 메우나, 이스라엘에 유리 가능성 제기",
+      "startAt": "2026-09-01T05:25:37.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라는 유엔 레바논임무(UNIFIL) 임기가 12월 31일 만료되는 가운데 유럽이 그 공백을 메울 수 있을지, 만약 그렇지 않으면 이스라엘이 안보·전략적 이익을 얻을 가능성이 제기된다고 보도했다. 분석가들은 UN 병력 축소가 지역 안보 역학에 영향을 미칠 수 있다고 지적한다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/1/can-europe-fill-vacuum-left-in-lebanon-as-un-peacekeeping-force-winds-up?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/1/can-europe-fill-vacuum-left-in-lebanon-as-un-peacekeeping-force-winds-up?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-01T05:25:37.000Z",
+        "lastObservedAt": "2026-09-01T06:14:08.802Z"
+      }
+    },
+    {
+      "id": "news-e1e38a2b282b229ff475dfd3",
+      "title": "아프가니스탄 강제 송환 급증 — 올해만 수백만 명, 재정착·인도적 부담 심화",
+      "startAt": "2026-09-01T05:00:34.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC는 파키스탄·이란 등에서 올해 들어 강제 송환된 아프가니스탄 국민이 수백만 명에 달하며, 올해 8월까지 추가로 약 100만 명이 강제 반환되는 등 총 약 600만 명이 재정착을 강요받고 있다고 보도했다. 많은 송환자들이 아프간 내에 친척이나 거주지가 없어 재정착과 생계 복구가 어려운 상황이라고 전했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-01T05:00:34.000Z",
+        "lastObservedAt": "2026-09-01T06:14:08.802Z"
+      }
+    },
+    {
+      "id": "news-77e651c0246f9df1ab0c4065",
+      "title": "펜타곤, ChatGPT·Grok 유사 모델 자체 배포 — 중앙 AI 포털에 통합",
+      "startAt": "2026-08-31T20:13:45.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "TechCrunch는 미국 국방부가 자체적으로 개발한 ChatGPT·Grok 유사 모델들을 구글의 Gemini와 함께 펜타곤의 중앙 AI 도구 포털에 탑재했다고 보도했다. 이번 조치는 군·국방 부문에서 상업형 대형언어모델(LLM)을 내부 운용 형태로 흡수하려는 움직임의 일환으로 평가된다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
+        ],
+        "firstPublishedAt": "2026-08-31T20:13:45.000Z",
+        "lastObservedAt": "2026-09-01T06:14:08.802Z"
+      }
+    },
+    {
+      "id": "news-9c1a834b8aa123ab25421916",
+      "title": "미 연방거래위원회·22개 주, 아마존 광고 수수료 관련 소송 제기 — 200억 달러대 과징 주장",
+      "startAt": "2026-08-31T19:41:52.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언은 미국 FTC와 22개 주가 아마존을 상대로 광고주에 대한 '비밀 할증'(secret surcharges)으로 수십년간 과다요금을 부과해 왔다고 주장하며 소송을 제기했다고 보도했다. FTC는 이로 인해 일반 소비자 가격에도 영향이 미쳤다고 지적했다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/aug/31/amazon-advertising-lawsuit",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/aug/31/amazon-advertising-lawsuit"
+        ],
+        "firstPublishedAt": "2026-08-31T19:41:52.000Z",
+        "lastObservedAt": "2026-09-01T06:14:08.802Z"
       }
     },
     {
@@ -94,6 +189,29 @@
       }
     },
     {
+      "id": "news-e7a16a750d4f01ff733d662a",
+      "title": "베피콜롬보 수성 도착 단계 개시 예고(ESA 브리핑 업데이트)",
+      "startAt": "2026-08-31T14:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "유럽우주기구(ESA)는 8월 31일 온라인 언론 브리핑에서 ESA/JAXA 공동 수성 탐사선 베피콜롬보의 머큐리 트랜스퍼 모듈(MTM) 분리가 9월 3일 예정이며, 이후 수성 삽입과 두 탐사기(ESA의 MPO·JAXA의 Mio) 분리 등 향후 주요 일정과 운영 난제를 설명했다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury"
+        ],
+        "firstPublishedAt": "2026-08-27T05:17:00.000Z",
+        "lastObservedAt": "2026-09-01T06:14:08.802Z"
+      }
+    },
+    {
       "id": "news-d8517a2411964544791eaa7c",
       "title": "EU의 온라인 안전 규칙, ChatGPT·Reddit 등 플랫폼에 적용 시작",
       "startAt": "2026-08-31T13:41:40.000Z",
@@ -118,6 +236,28 @@
       }
     },
     {
+      "id": "news-4862f3d2c68fb1ad680a585c",
+      "title": "OpenAI, 캘리포니아 청소년 AI 안전 법안(SB 1119) 지지 표명",
+      "startAt": "2026-08-31T07:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI는 캘리포니아주 상정 법안 SB 1119에 대해 연령에 맞는 AI 안전장치 강화를 지지한다고 공식 발표했다. 회사는 동시에 청소년의 학습·창작 기회 보존 필요성도 강조했다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
+        ],
+        "firstPublishedAt": "2026-08-31T07:00:00.000Z",
+        "lastObservedAt": "2026-09-01T06:14:08.802Z"
+      }
+    },
+    {
       "id": "news-492cf7cb84911a4532c49cfa",
       "title": "스코틀랜드 소프오페라 '리버 시티' 24년 만에 종영 예고",
       "startAt": "2026-08-31T05:20:22.000Z",
@@ -136,28 +276,6 @@
           "https://www.bbc.co.uk/news/articles/c1dl31k01v7o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-08-31T05:20:22.000Z",
-        "lastObservedAt": "2026-08-31T07:00:33.597Z"
-      }
-    },
-    {
-      "id": "news-8c0ca5cb5229b79a122c78d7",
-      "title": "북부 키프로스 해역 여객선 전복 — 최소 8명 사망·18명 실종, 수색·구조 진행",
-      "startAt": "2026-08-31T03:56:15.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "북키프로스 인근 해역에서 출항한 여객선이 전복되면서 탑승자 약 270명 가운데 최소 8명이 사망하고 18명이 실종된 것으로 보고됐다. 구조·수색 작업이 진행 중이며 추가 인명 확인과 사고 원인 조사가 이뤄지고 있다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-31T03:56:15.000Z",
         "lastObservedAt": "2026-08-31T07:00:33.597Z"
       }
     },
@@ -582,28 +700,6 @@
       }
     },
     {
-      "id": "news-27d711792fc39d0f69955ab8",
-      "title": "미·캐나다 통상 분쟁 격화 — 관세 보복·일자리·경기침체 우려 확산",
-      "startAt": "2026-08-28T21:39:40.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 미국과 캐나다의 통상 분쟁이 격화되면서 관세·보복 조치가 상호 확대되고 있다. 보도는 현 관세 조치 하에서 캐나다가 최대 10만 개의 일자리를 잃을 수 있고, 경우에 따라 USMCA(미·캐나다·멕시코 협정) 해체로 경기침체 우려가 커질 수 있다고 분석가들이 지적하고 있다고 전했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/economy/2026/8/28/with-the-us-and-canada-locked-in-a-trade-war-fears-of-a-recession-lurk?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/economy/2026/8/28/with-the-us-and-canada-locked-in-a-trade-war-fears-of-a-recession-lurk?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-28T21:39:40.000Z",
-        "lastObservedAt": "2026-08-28T23:01:18.396Z"
-      }
-    },
-    {
       "id": "news-13b8978c8883599eb1c7b19f",
       "title": "6개월간 전쟁에도 이란 정권 붕괴 대신 고착·강경화",
       "startAt": "2026-08-28T19:35:24.000Z",
@@ -670,28 +766,6 @@
         ],
         "firstPublishedAt": "2026-08-28T17:41:37.000Z",
         "lastObservedAt": "2026-08-28T23:01:18.396Z"
-      }
-    },
-    {
-      "id": "news-400623aed6a3ef1247ac7128",
-      "title": "토로(Tooro) 왕국의 오요 왕 별세(향년 34) — 세계에서 가장 어린 재위 전통군주",
-      "startAt": "2026-08-28T11:13:24.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 토로 왕국의 오요 왕이 34세의 나이로 사망했다. 그는 3세에 즉위해 세계에서 가장 어린 재위 전통군주로 알려져 있었다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-28T11:13:24.000Z",
-        "lastObservedAt": "2026-08-28T12:43:44.561Z"
       }
     },
     {
@@ -899,74 +973,6 @@
         ],
         "firstPublishedAt": "2026-08-26T15:45:07.000Z",
         "lastObservedAt": "2026-08-26T19:18:01.293Z"
-      }
-    },
-    {
-      "id": "news-63bb0f18fec5e4b18d740991",
-      "title": "NASA·업계 제안 '동시 이중 모드 핵추진기(S‑BNR)' 설계 공개 — 태양계 탐사 시간 단축 목표",
-      "startAt": "2026-08-26T12:00:01.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "IEEE Spectrum 보도에 따르면 NASA와 산업계 엔지니어들이 핵열·핵전기 추진을 한 원자로로 동시에 제공하는 '동시 이중 모드 핵추진기(S‑BNR)' 개념을 제안했다. 설계는 고추력과 지속 전력 공급을 동시에 제공해 화성 등 목적지로의 이동 시간을 크게 줄일 잠재력이 있으나 연료 요소 통합, 지상시험, 발사 안전 및 다기관 협력 등 주요 기술·규제 과제가 남아 있다.",
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/bimodal-nuclear-spacecraft",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/bimodal-nuclear-spacecraft"
-        ],
-        "firstPublishedAt": "2026-08-26T12:00:01.000Z",
-        "lastObservedAt": "2026-08-28T12:43:44.561Z"
-      }
-    },
-    {
-      "id": "news-f218151ed7ae95d662ab7bef",
-      "title": "mpox 재확산 — 기니비사우 등 신규 발생, 아동 피해 증가 우려",
-      "startAt": "2026-08-26T11:00:12.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 기니비사우에서 처음 보고된 mpox 재발 사례 등 최근의 환자 증가로 아동 감염 비중이 높아지는 징후가 포착됐다. 보도는 2022년 이후 전 세계 145개국에서 거의 19만 건의 실험실 확진이 보고된 바 있다고 전하며, 신규 유행 차단을 위한 공중보건 대응 필요성을 강조했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children"
-        ],
-        "firstPublishedAt": "2026-08-26T11:00:12.000Z",
-        "lastObservedAt": "2026-08-26T14:02:15.164Z"
-      }
-    },
-    {
-      "id": "news-62003111f3b592c56acd9673",
-      "title": "OpenAI, 러시아 기원 계정의 은밀한 영향 공작 차단 발표",
-      "startAt": "2026-08-25T00:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI 보도자료에 따르면 회사는 AI를 이용해 가짜 이스라엘 기반 싱크탱크와 러시아를 찬양하고 서방을 비판하는 '주권 지수'를 홍보하던 러시아 출처의 계정들을 차단했다. OpenAI는 해당 사례를 새로운 은밀 영향 캠페인으로 규정하고 관련 계정들을 제재했다고 밝혔다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
-        ],
-        "firstPublishedAt": "2026-08-25T00:00:00.000Z",
-        "lastObservedAt": "2026-08-25T14:00:41.089Z"
       }
     },
     {
