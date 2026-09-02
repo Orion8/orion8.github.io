@@ -1,8 +1,97 @@
 {
-  "catalogVersion": "0.0.78",
-  "updatedAt": "2026-09-01T17:19:26.229Z",
+  "catalogVersion": "0.0.79",
+  "updatedAt": "2026-09-02T05:45:40.347Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-8c18e9f1c69940e342627f09",
+      "title": "이란, 미군 기지에 보복 공격 보고 — 미 언론 보도 후 발생",
+      "startAt": "2026-09-02T05:12:07.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 보도에 따르면 이란이 중동 지역의 미군 기지들을 공격했다고 전해졌다. 보도는 이번 조치가 미군의 '결혼식 참석자 5명 사망' 보도 이후 이뤄졌다고 전하며 이란 적신월사(IRCS)는 파편으로 집에 피해가 발생해 어린이가 희생됐다고 전했다. 미군은 해당 보도에 대해 인지하고 있으나 민간인을 표적 삼지 않는다고 밝혔다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-02T05:12:07.000Z",
+        "lastObservedAt": "2026-09-02T05:45:40.347Z"
+      }
+    },
+    {
+      "id": "news-2418fa905551e00d98ac80c9",
+      "title": "BBC, 레바논 점령지에서 이스라엘 병력 확장 관측 — 유엔 평화유지단과 동행 취재",
+      "startAt": "2026-09-02T05:03:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 취재팀은 유엔 레바논임무(UNIFIL)의 인도주의 임무에 동행해 현장을 방문한 결과 이스라엘군이 진지를 강화하고 철거 작업을 계속하고 있다고 보도했다. 보도는 이 같은 군사·지상 공백이 지역 인도주의·안보 상황에 미칠 영향을 우려했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cge41d19gq9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/1/germany-accuses-russia-of-drone-attack-on-leipzig-airport?traffic_source=rss",
+          "https://www.bbc.co.uk/news/articles/cge41d19gq9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-01T16:24:36.000Z",
+        "lastObservedAt": "2026-09-02T05:45:40.347Z"
+      }
+    },
+    {
+      "id": "news-6e7e5c9b8d71612a23943e01",
+      "title": "NASA, 블루오리진을 화성 통신망 사업자 선정 — 차세대 화성 통신위성 개발 계약",
+      "startAt": "2026-09-01T21:08:37.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA는 블루오리진을 차세대 화성 통신망(Mars Telecommunications Network) 구축 사업자로 선정했다고 발표했다. 기관은 블루오리진에 최대 약 7억 달러 규모의 확정가격 계약을 부여해 고성능 화성 통신 궤도선을 제공하도록 했다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/"
+        ],
+        "firstPublishedAt": "2026-09-01T21:08:37.000Z",
+        "lastObservedAt": "2026-09-02T05:45:40.347Z"
+      }
+    },
+    {
+      "id": "news-9e1e550748cd57b7eaebfcaa",
+      "title": "아르테미스 III용 RS-25 엔진 4대 코어에 장착 개시",
+      "startAt": "2026-09-01T17:30:35.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 케네디우주센터에서 아르테미스 III를 저지구궤도로 운반할 SLS 로켓의 코어 단계에 RS‑25 엔진 4대를 설치하기 시작했다고 밝혔다. 기술진은 8월 24일부터 장착 작업을 진행했으며 각 엔진은 고유 일련번호를 가지고 있다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/"
+        ],
+        "firstPublishedAt": "2026-09-01T17:30:35.000Z",
+        "lastObservedAt": "2026-09-02T05:45:40.347Z"
+      }
+    },
     {
       "id": "news-ce90dd2e8052ce32de83309c",
       "title": "신설 담수화 시설 파괴로 북가자 식수 위기 악화",
@@ -22,28 +111,6 @@
           "https://www.aljazeera.com/features/2026/9/1/destroyed-desalination-plant-worsens-gazas-drinking-water-crisis?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-09-01T16:45:35.000Z",
-        "lastObservedAt": "2026-09-01T17:19:26.229Z"
-      }
-    },
-    {
-      "id": "news-2418fa905551e00d98ac80c9",
-      "title": "독일, 라이프치히 공항 드론 공격에 러시아 책임 주장",
-      "startAt": "2026-09-01T16:24:36.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 독일은 라이프치히 공항에 대한 드론 공격이 러시아의 소행이라고 비난했다. 사건은 즉각적 외교·안보 파장을 일으키고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/1/germany-accuses-russia-of-drone-attack-on-leipzig-airport?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/1/germany-accuses-russia-of-drone-attack-on-leipzig-airport?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-01T16:24:36.000Z",
         "lastObservedAt": "2026-09-01T17:19:26.229Z"
       }
     },
@@ -564,54 +631,6 @@
       }
     },
     {
-      "id": "news-d1e0c4e6f354c5e6ffca08da",
-      "title": "트럼프, 베네수엘라 650억 배럴 원유 통제 '역사적' 합의 주장",
-      "startAt": "2026-08-29T16:15:56.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "도널드 트럼프 대통령은 미국이 베네수엘라의 약 650억 배럴 규모 원유 매장지에 접근할 수 있게 되는 '역사적' 합의에 들어섰다고 주장했다. 베네수엘라 임시 대통령은 이 이례적인 합의가 자국 경제 회복에 도움이 될 것이라고 밝혔다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves",
-          "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-29T02:07:55.000Z",
-        "lastObservedAt": "2026-08-29T17:06:22.752Z"
-      }
-    },
-    {
-      "id": "news-a78c669b6ab94a13f6cacf40",
-      "title": "영국, 가뭄으로 잉글랜드 수자원 위기 우려 — 장기 대비 논의",
-      "startAt": "2026-08-29T14:50:35.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "BBC는 이번 여름 가뭄으로 잉글랜드의 물 공급이 위협받고 있다며, 책임 소재와 미래 수자원 확보(예: 인프라·관리 개선) 방안을 둘러싼 논쟁과 대비책 마련의 필요성을 집중 조명했다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyrv84yd9ko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/clyrv84yd9ko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-29T14:50:35.000Z",
-        "lastObservedAt": "2026-08-29T17:06:22.752Z"
-      }
-    },
-    {
       "id": "news-a85aa69b831be69ce347d672",
       "title": "엔비디아의 AI 우위, GPU 중심 전략에서 시스템·트래픽 제어로 확대",
       "startAt": "2026-08-29T13:00:00.000Z",
@@ -923,59 +942,6 @@
         ],
         "firstPublishedAt": "2026-08-26T19:05:22.000Z",
         "lastObservedAt": "2026-08-26T19:18:01.293Z"
-      }
-    },
-    {
-      "id": "news-7d92603cf2986fc0c5bc8ec2",
-      "title": "NASA 존슨 소속 조종사들, 개기일식 관측 위해 달 그림자 추적 비행",
-      "startAt": "2026-08-26T17:33:05.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 보도에 따르면 8월12일 유럽 상공에서 발생한 개기일식의 코로나 등 외대기 관측을 위해 NASA 존슨의 조종사들이 WB-57F 고고도 연구기를 아이슬란드로 비행시켜 필요한 관측 데이터를 확보했다고 전해졌다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-pilots-chase-moons-shadow-for-eclipse-science/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
-          "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/A_total_solar_eclipse_is_coming_to_Europe",
-          "https://www.aljazeera.com/news/2026/8/11/total-solar-eclipse-2026-where-when-and-how-to-watch-on-wednesday?traffic_source=rss",
-          "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
-          "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Total_solar_eclipse_2026_Official_ESA_broadcast",
-          "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-pilots-chase-moons-shadow-for-eclipse-science/"
-        ],
-        "firstPublishedAt": "2026-08-05T08:00:00.000Z",
-        "lastObservedAt": "2026-08-26T19:18:01.293Z"
-      }
-    },
-    {
-      "id": "news-7c62dd24b138d061f65e7124",
-      "title": "NASA 연구: 태양의 고대 역사적 사건들이 지구의 기후 형성에 영향",
-      "startAt": "2026-08-24T17:53:57.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 보도에 따르면 두 편의 최근 NASA 지원 연구에서 태양의 고대 역사적 사건들이 지구의 독특한 기후를 형성하고 이전에 설명되지 않았던 기후 변동을 야기했을 가능성이 제시되었다. 연구진은 SHIELD(태양풍 관련 센터) 소속 과학자들이 포함된 연구에서 태양의 고대 활동이 행성 기후에 미친 영향을 새롭게 규명했다고 밝혔다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/",
-      "topicIds": [
-        "spaceDevelopment",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/"
-        ],
-        "firstPublishedAt": "2026-08-24T17:53:57.000Z",
-        "lastObservedAt": "2026-08-25T14:00:41.089Z"
       }
     },
     {
