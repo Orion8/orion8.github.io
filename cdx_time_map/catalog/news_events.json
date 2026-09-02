@@ -1,28 +1,100 @@
 {
-  "catalogVersion": "0.0.79",
-  "updatedAt": "2026-09-02T05:45:40.347Z",
+  "catalogVersion": "0.0.80",
+  "updatedAt": "2026-09-02T17:08:30.139Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-8c18e9f1c69940e342627f09",
-      "title": "이란, 미군 기지에 보복 공격 보고 — 미 언론 보도 후 발생",
-      "startAt": "2026-09-02T05:12:07.000Z",
+      "id": "news-03a7a4b0af9459142d7dbedc",
+      "title": "잠비아의 히칠레마, 논란 있는 투표·체포 속에 두 번째 임기 시작",
+      "startAt": "2026-09-02T16:47:47.000Z",
       "lane": "world",
       "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 이란이 중동 지역의 미군 기지들을 공격했다고 전해졌다. 보도는 이번 조치가 미군의 '결혼식 참석자 5명 사망' 보도 이후 이뤄졌다고 전하며 이란 적신월사(IRCS)는 파편으로 집에 피해가 발생해 어린이가 희생됐다고 전했다. 미군은 해당 보도에 대해 인지하고 있으나 민간인을 표적 삼지 않는다고 밝혔다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+      "importance": 2,
+      "description": "알자지라 보도에 따르면 하카이 주무투 히칠레마 대통령이 논란이 된 선거와 여러 체포 사안이 뒤따르는 가운데 두 번째 임기를 시작했다. 보고서는 경제적 성과가 정치적 긴장 속에서 점검받고 있다고 전했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/2/zambias-hichilema-begins-second-term-amid-disputed-vote-and-arrests?traffic_source=rss",
       "topicIds": [
         "politicsHumanRights"
       ],
       "news": {
-        "status": "breaking",
+        "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss"
+          "https://www.aljazeera.com/news/2026/9/2/zambias-hichilema-begins-second-term-amid-disputed-vote-and-arrests?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-02T16:47:47.000Z",
+        "lastObservedAt": "2026-09-02T17:08:30.139Z"
+      }
+    },
+    {
+      "id": "news-2be6771e4f2cce4c2ceb5aa5",
+      "title": "미 법원, 구글에 광고 교환 매각 명령은 부과하지 않기로 판결",
+      "startAt": "2026-09-02T16:30:11.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica는 미 법원이 구글의 불법 행위를 인정했으나 미 법원이 법무부가 요청한 광고 교환(ad exchange) 매각 명령은 부과하지 않기로 판결했다고 보도했다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/"
+        ],
+        "firstPublishedAt": "2026-09-02T16:30:11.000Z",
+        "lastObservedAt": "2026-09-02T17:08:30.139Z"
+      }
+    },
+    {
+      "id": "news-8c18e9f1c69940e342627f09",
+      "title": "이란, 미 공습에 대한 보복으로 걸프 이웃국가들에 발포 — 한달간의 휴지기 뒤 재개",
+      "startAt": "2026-09-02T15:18:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 이란이 한 달간의 공백 이후 미군의 공습에 대한 보복으로 걸프 연안 이웃국가들을 향해 발포했다고 전했다. 보도는 이번 여섯 달째의 전쟁이 유가 상승과 세계 경제 혼란을 촉발했으며, 미국 내 정치적 파장을 불러일으키고 있다고 지적했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates"
         ],
         "firstPublishedAt": "2026-09-02T05:12:07.000Z",
-        "lastObservedAt": "2026-09-02T05:45:40.347Z"
+        "lastObservedAt": "2026-09-02T17:08:30.139Z"
+      }
+    },
+    {
+      "id": "news-92f354648bd6312d6b712f3c",
+      "title": "우주 보도 최초 일본 시민·기자 토요히로 아키야마 별세(향년 84)",
+      "startAt": "2026-09-02T14:47:42.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "Ars Technica는 일본 최초의 민간 우주 보도자이자 일본 시민으로서는 첫 우주 체험자였던 토요히로 아키야마가 84세로 별세했다고 보도했다. 보도는 아키야마가 우주에서 ‘뚱뚱한’ 일본 나무개구리만이 무중력을 즐긴다고 보도한 일화 등을 전했다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/09/toyohiro-akiyama-first-japanese-citizen-and-journalist-in-space-dies-at-84/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/09/toyohiro-akiyama-first-japanese-citizen-and-journalist-in-space-dies-at-84/"
+        ],
+        "firstPublishedAt": "2026-09-02T14:47:42.000Z",
+        "lastObservedAt": "2026-09-02T17:08:30.139Z"
       }
     },
     {
@@ -696,28 +768,6 @@
           "https://www.npr.org/2026/08/29/nx-s1-5947879/srebrenica-survivor-ahmed-hrustanovic-reflects-on-ratko-mladics-death"
         ],
         "firstPublishedAt": "2026-08-27T13:32:43.000Z",
-        "lastObservedAt": "2026-08-29T17:06:22.752Z"
-      }
-    },
-    {
-      "id": "news-ca72d9cd4d348bc0c28d9fbb",
-      "title": "콜롬비아 전투원 99명 무장해제 후 법적·사회적 운명 불확실",
-      "startAt": "2026-08-29T10:00:24.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "가디언은 페트로 정부의 '완전한 평화' 계획으로 무장해제한 99명의 전투원들이 하드라인 성향의 새 대통령 취임 직후 법적 지위와 재통합 과정에서 법적 공백과 불확실성에 놓였다고 보도했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/29/former-guerrillas-colombia-fate-new-president",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/29/former-guerrillas-colombia-fate-new-president"
-        ],
-        "firstPublishedAt": "2026-08-29T10:00:24.000Z",
         "lastObservedAt": "2026-08-29T17:06:22.752Z"
       }
     },
