@@ -1,8 +1,84 @@
 {
-  "catalogVersion": "0.0.81",
-  "updatedAt": "2026-09-03T05:44:16.819Z",
+  "catalogVersion": "0.0.82",
+  "updatedAt": "2026-09-03T17:01:55.578Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-b5557b71094c2a70f8619f84",
+      "title": "글로리아 스타이넘(Gloria Steinem) 별세, 향년 92세",
+      "startAt": "2026-09-03T16:42:35.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "미국의 저널리스트이자 페미니스트 활동가 글로리아 스타이넘이 92세로 별세했다. 스타이넘은 가정폭력·여성 할례(FGM) 반대, 포르노그라피 비판, 베트남전·걸프전 반대 등 활동으로 전 세계 여성 권리 확산에 기여했다. 유족은 그녀가 뉴욕 자택에서 평화롭게 세상을 떠났다고 인스타그램 성명을 통해 밝혔다.",
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92"
+        ],
+        "firstPublishedAt": "2026-09-03T16:42:35.000Z",
+        "lastObservedAt": "2026-09-03T17:01:55.577Z"
+      }
+    },
+    {
+      "id": "news-ea12f154731443a49342be5e",
+      "title": "엔비디아, 오픈소스 AI 플랫폼 허깅페이스(Hugging Face) 인수 합의 — 129억 달러 규모",
+      "startAt": "2026-09-03T16:32:05.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "엔비디아가 오픈소스 AI 플랫폼이자 개발자 커뮤니티인 허깅페이스(Hugging Face)를 약 129억 달러에 인수하기로 합의했다. 이번 거래로 엔비디아는 오픈소스 AI 생태계의 핵심 플랫폼에 대한 통제력을 확보하게 된다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-03T16:32:05.000Z",
+        "lastObservedAt": "2026-09-03T17:01:55.578Z"
+      }
+    },
+    {
+      "id": "news-3c557ada8445d86cf19defd0",
+      "title": "Nancy Grace Roman 우주망원경, 최종 궤도 향한 3개월·수백만 마일 여정 개시(업데이트)",
+      "startAt": "2026-09-03T14:24:23.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA의 Nancy Grace Roman 우주망원경(로만 망원경)이 8월 30일 SpaceX 팔콘 헤비로 성공 발사된 뒤 최종 궤도를 향해 약 3개월·수백만 마일 여정에 들어갔다. 이번 단계는 탐사망원경의 계측기 전원 인가와 보정(커미셔닝) 준비를 포함하며, 광범위한 우주 관측을 통해 암흑에너지·암흑물질·외계행성 연구 등에 기여할 예정이다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/igniting-romans-journey/",
+      "topicIds": [
+        "spaceDevelopment",
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch",
+          "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
+          "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
+          "https://www.esa.int/ESA_Multimedia/Images/2026/08/Roman_lifts_off_on_a_mission_to_survey_the_infrared_sky",
+          "https://www.nasa.gov/image-article/nasas-nancy-grace-roman-space-telescope-launches/",
+          "https://arstechnica.com/space/2026/08/nasas-next-great-observatory-begins-mission-to-widen-our-view-of-the-universe/",
+          "https://science.nasa.gov/missions/roman-space-telescope/roman-commissioning/",
+          "https://www.nasa.gov/image-article/igniting-romans-journey/"
+        ],
+        "firstPublishedAt": "2026-08-25T13:00:00.000Z",
+        "lastObservedAt": "2026-09-03T17:01:55.578Z"
+      }
+    },
     {
       "id": "news-9dad612608bbfa040b25136f",
       "title": "인도네시아 이탄(peatland) 화재로 하늘 어두워짐 — NASA 관측",
@@ -74,6 +150,30 @@
       }
     },
     {
+      "id": "news-a723eebbb9b421bf03a26d00",
+      "title": "미 FCC, 사업자별 스팸·로보콜 차단 실적 점수표 도입 계획 발표",
+      "startAt": "2026-09-02T19:54:27.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "미 연방통신위원회(FCC)가 통신사업자들의 스팸·로보콜 차단 실적을 평가하는 점수표(스코어카드) 도입을 계획하고 있다. 점수표에는 차단 통계와 소비자 불만·민원 데이터 등이 포함될 수 있으며, 사업자들의 스팸 대응 책임을 강화하려는 조치로 해석된다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/fcc-plans-robocall-scorecard-to-grade-phone-companies-on-spam-call-blocking/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/09/fcc-plans-robocall-scorecard-to-grade-phone-companies-on-spam-call-blocking/"
+        ],
+        "firstPublishedAt": "2026-09-02T19:54:27.000Z",
+        "lastObservedAt": "2026-09-03T17:01:55.578Z"
+      }
+    },
+    {
       "id": "news-3ca4419a32f717066ead000d",
       "title": "다프네 카루아나 갈리치아 살해사건 관련 사업가 요르겐 페네치 무죄 평결(몰타 배심)",
       "startAt": "2026-09-02T19:48:18.000Z",
@@ -94,6 +194,30 @@
         ],
         "firstPublishedAt": "2026-09-02T19:48:18.000Z",
         "lastObservedAt": "2026-09-03T05:44:16.818Z"
+      }
+    },
+    {
+      "id": "news-98357abb9c8fa16fb5c85cf4",
+      "title": "셔틀 원격조작 팔 ‘캐나다암(Canadarm)’, IEEE 300번째 역사적 기념물 지정",
+      "startAt": "2026-09-02T18:00:03.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 1,
+      "description": "셔틀 원격조작 팔인 캐나다암(Canadarm)과 관련 기술이 IEEE(전기전자기술자협회)의 300번째 역사적 기념물로 지정됐다. 이 로봇팔은 미·캐나다 공동 개발로 우주왕복선 시절 위성·화물 조작에 사용되었으며 우주 로봇공학과 미·캐나다 협력의 기술사적 의의를 인정받았다.",
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/canadarm-ieee-300th-milestone",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/canadarm-ieee-300th-milestone"
+        ],
+        "firstPublishedAt": "2026-09-02T18:00:03.000Z",
+        "lastObservedAt": "2026-09-03T17:01:55.578Z"
       }
     },
     {
@@ -559,30 +683,6 @@
       }
     },
     {
-      "id": "news-d8517a2411964544791eaa7c",
-      "title": "EU의 온라인 안전 규칙, ChatGPT·Reddit 등 플랫폼에 적용 시작",
-      "startAt": "2026-08-31T13:41:40.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "급성장하는 온라인 플랫폼들에 대해 EU의 강화된 온라인 안전 규제가 발효되어 ChatGPT와 Reddit 등 주요 서비스가 해당 규제의 엄격한 적용을 받게 됐다. 규제 적용은 플랫폼 운영·콘텐츠 관리에 새로운 법적·운영적 부담을 부과할 전망이다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/"
-        ],
-        "firstPublishedAt": "2026-08-31T13:41:40.000Z",
-        "lastObservedAt": "2026-08-31T19:30:14.606Z"
-      }
-    },
-    {
       "id": "news-4862f3d2c68fb1ad680a585c",
       "title": "OpenAI, 캘리포니아 청소년 AI 안전 법안(SB 1119) 지지 표명",
       "startAt": "2026-08-31T07:00:00.000Z",
@@ -738,37 +838,6 @@
         ],
         "firstPublishedAt": "2026-08-30T14:57:59.000Z",
         "lastObservedAt": "2026-08-30T17:24:56.325Z"
-      }
-    },
-    {
-      "id": "news-3c557ada8445d86cf19defd0",
-      "title": "Nancy Grace Roman 우주망원경 발사·임무 개시(로만 망원경)",
-      "startAt": "2026-08-30T11:26:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "NASA의 Nancy Grace Roman 우주망원경이 SpaceX 팔콘 헤비에 실려 성공적으로 발사되어 태양‑지구 라그랑주 지점 L2로 향하는 3개월 여정과 함께 계측기 전원 인가·보정 등 '커미셔닝(시운전)' 단계에 들어갔다. 로만 망원경은 허블보다 훨씬 넓은 시야로 수십억 개의 별과 은하를 조사해 암흑에너지·암흑물질, 우리은하의 외계행성 연구 등에 기여할 예정이다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/nasas-nancy-grace-roman-space-telescope-launches/",
-      "topicIds": [
-        "spaceDevelopment",
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Cutting-edge_infrared_space_telescope_Roman_set_to_launch",
-          "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
-          "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
-          "https://www.esa.int/ESA_Multimedia/Images/2026/08/Roman_lifts_off_on_a_mission_to_survey_the_infrared_sky",
-          "https://www.nasa.gov/image-article/nasas-nancy-grace-roman-space-telescope-launches/",
-          "https://arstechnica.com/space/2026/08/nasas-next-great-observatory-begins-mission-to-widen-our-view-of-the-universe/",
-          "https://science.nasa.gov/missions/roman-space-telescope/roman-commissioning/"
-        ],
-        "firstPublishedAt": "2026-08-25T13:00:00.000Z",
-        "lastObservedAt": "2026-08-31T19:30:14.606Z"
       }
     },
     {
@@ -942,28 +1011,6 @@
         ],
         "firstPublishedAt": "2026-08-27T17:43:24.000Z",
         "lastObservedAt": "2026-08-27T22:56:57.374Z"
-      }
-    },
-    {
-      "id": "news-71c43cf780d371eea28301d0",
-      "title": "DeepMind, 세계 최초 이중맹검(double‑blind) AI 평가 파일럿 시범 발표",
-      "startAt": "2026-08-27T12:59:16.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "DeepMind 블로그에 따르면 회사는 AI 모델에 대한 이중맹검 평가(double‑blind) 파일럿을 시범 운영했다고 밝혔다. 해당 접근법은 평가 편향을 줄이고 모델 비교의 객관성을 높이기 위한 시도로 소개되었다.",
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
-        ],
-        "firstPublishedAt": "2026-08-27T12:59:16.000Z",
-        "lastObservedAt": "2026-08-28T12:43:44.561Z"
       }
     },
     {
