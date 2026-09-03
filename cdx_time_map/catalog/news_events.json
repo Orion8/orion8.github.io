@@ -1,8 +1,123 @@
 {
-  "catalogVersion": "0.0.80",
-  "updatedAt": "2026-09-02T17:08:30.139Z",
+  "catalogVersion": "0.0.81",
+  "updatedAt": "2026-09-03T05:44:16.819Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-9dad612608bbfa040b25136f",
+      "title": "인도네시아 이탄(peatland) 화재로 하늘 어두워짐 — NASA 관측",
+      "startAt": "2026-09-03T04:01:00.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "NASA는 가뭄으로 인도네시아에서 지표와 지하에서 이탄(peat) 화재가 연소하면서 연기가 하늘을 어둡게 하고 있다고 보도했다. 지하에서 장기간 연소하는 이탄 화재는 지역 대기질과 탄소 배출에 장기적 영향을 줄 우려가 있다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/"
+        ],
+        "firstPublishedAt": "2026-09-03T04:01:00.000Z",
+        "lastObservedAt": "2026-09-03T05:44:16.818Z"
+      }
+    },
+    {
+      "id": "news-64b343bcb95f9185f9a7a8f4",
+      "title": "미 의회 예산 합의로 연구보조금에 대한 행정·정치적 통제 시도 일시 보류",
+      "startAt": "2026-09-02T21:20:03.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica는 의회의 예산 합의가 행정부(OMB)의 연구자금 운용 규정(연구보조금에 대한 정치적 통제 강화)을 당장 시행하지 못하도록 사실상 연기시키며, 해당 조치가 최소한 12월까지 보류됐다고 보도했다. 이번 합의는 연구자금 배분과 학문자율성 관련 정책 논쟁에 영향을 미칠 전망이다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/"
+        ],
+        "firstPublishedAt": "2026-09-02T21:20:03.000Z",
+        "lastObservedAt": "2026-09-03T05:44:16.818Z"
+      }
+    },
+    {
+      "id": "news-682188b2ff445adefc8f641a",
+      "title": "운전면허증 데이터 약 1억5,300만 건 판매 주장—대규모 개인정보 유출·FBI 조사",
+      "startAt": "2026-09-02T20:32:02.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Ars Technica는 한 조사에서 차량 대여 후 몇 시간 만에 본인의 운전면허증 정보가 새로 열린 다크 웹 사이트에서 판매 게시된 사례를 포함해 약 1억5,300만 건의 운전면허증 데이터가 유통 중이라고 전했다. 보도에 따르면 FBI가 현재 대규모 데이터 유출 사안에 대해 수사하고 있다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/"
+        ],
+        "firstPublishedAt": "2026-09-02T20:32:02.000Z",
+        "lastObservedAt": "2026-09-03T05:44:16.818Z"
+      }
+    },
+    {
+      "id": "news-3ca4419a32f717066ead000d",
+      "title": "다프네 카루아나 갈리치아 살해사건 관련 사업가 요르겐 페네치 무죄 평결(몰타 배심)",
+      "startAt": "2026-09-02T19:48:18.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 2017년 기자 다프네 카루아나 갈리치아를 차량 폭탄으로 살해한 사건 재판에서 배심은 피고 사업가 요르겐 페네치에 대해 무죄를 선고했다. 갈리치아는 부패 의혹을 탐사보도해 왔으며, 이번 평결은 국가적·국제적 논란을 불러일으키고 있다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/02/nx-s1-5954420/daphne-caruana-galizia-case-yorgen-fenech-acquitted-malta",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/02/nx-s1-5954420/daphne-caruana-galizia-case-yorgen-fenech-acquitted-malta"
+        ],
+        "firstPublishedAt": "2026-09-02T19:48:18.000Z",
+        "lastObservedAt": "2026-09-03T05:44:16.818Z"
+      }
+    },
+    {
+      "id": "news-28563e1cf6650be9a84d0818",
+      "title": "허블, 토성 남극 주변에 거대 10각형(데카곤) 대기파동 관측",
+      "startAt": "2026-09-02T18:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국·NASA의 허블 우주망원경 관측에서 토성 남극을 둘러싼 거대한 10각형 대기파동(decagon)이 발견됐다. 이번 관측은 남반구에서 규칙적인 다각형 제트 패턴이 확인된 첫 사례로, 북극의 유명한 6각형(헥사곤)과 유사하면서도 차이를 보여 토성 대기역학 연구에 새로운 단서를 제공한다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_tracks_new_decagon_encircling_Saturn_s_south_pole",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Hubble_tracks_new_decagon_encircling_Saturn_s_south_pole"
+        ],
+        "firstPublishedAt": "2026-09-02T18:00:00.000Z",
+        "lastObservedAt": "2026-09-03T05:44:16.819Z"
+      }
+    },
     {
       "id": "news-03a7a4b0af9459142d7dbedc",
       "title": "잠비아의 히칠레마, 논란 있는 투표·체포 속에 두 번째 임기 시작",
@@ -748,100 +863,6 @@
       }
     },
     {
-      "id": "news-93d1ce0d5bb79ab8c4dd50d0",
-      "title": "라트코 믈라디치 별세 뒤 스레브레니차 생존자 회고",
-      "startAt": "2026-08-29T11:40:57.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "NPR 인터뷰에서 스레브레니차 생존자 아흐메드 후르스타노비치는 라트코 믈라디치의 사망을 회고하며, 1990년대 스레브레니차 학살로 그의 성인 남성 친척들이 모두 희생됐다고 증언했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/29/nx-s1-5947879/srebrenica-survivor-ahmed-hrustanovic-reflects-on-ratko-mladics-death",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/27/nx-s1-5946375/ratko-mladic-dead",
-          "https://www.npr.org/2026/08/29/nx-s1-5947879/srebrenica-survivor-ahmed-hrustanovic-reflects-on-ratko-mladics-death"
-        ],
-        "firstPublishedAt": "2026-08-27T13:32:43.000Z",
-        "lastObservedAt": "2026-08-29T17:06:22.752Z"
-      }
-    },
-    {
-      "id": "news-cd546d9e8c83d0f0579f8783",
-      "title": "NASA 아르테미스 II 승무원, 의회 우주명예훈장 수여",
-      "startAt": "2026-08-28T22:21:31.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA의 아르테미스 II 임무에 참여한 우주비행사 빅터 글로버·크리스티나 코크·리드 와이즈먼과 캐나다우주청(CSA) 우주비행사 제레미 핸슨이 2026년 8월 28일 대통령으로부터 의회 우주명예훈장을 수여받았다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/nasas-artemis-ii-crew-receives-congressional-space-medal-of-honor/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/image-article/nasas-artemis-ii-crew-receives-congressional-space-medal-of-honor/"
-        ],
-        "firstPublishedAt": "2026-08-28T22:21:31.000Z",
-        "lastObservedAt": "2026-08-29T07:50:28.232Z"
-      }
-    },
-    {
-      "id": "news-7854036fdce61884d9dbb0eb",
-      "title": "법원, Kalshi의 '스왑' 주장 기각 — 네바다 도박법 적용",
-      "startAt": "2026-08-28T22:14:52.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "법원은 Kalshi가 자사 스포츠 베팅을 금융 '스왑'으로 분류해 네바다 도박법을 회피하려는 시도는 받아들일 수 없다고 판결했다. 판결은 Kalshi의 베팅이 단순히 다른 이름을 쓴 도박에 해당한다고 못박았다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/"
-        ],
-        "firstPublishedAt": "2026-08-28T22:14:52.000Z",
-        "lastObservedAt": "2026-08-29T07:50:28.232Z"
-      }
-    },
-    {
-      "id": "news-a1395b4e087f2545a759a841",
-      "title": "미 연방법원, 트럼프 행정부의 ‘woke’ Anthropic 블랙리스트화 조치 불법 판결",
-      "startAt": "2026-08-28T18:07:55.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Ars Technica 보도에 따르면 연방법원은 트럼프 행정부가 특정 기업(보도에선 Anthropic)을 ‘블랙리스트’화한 조치를 불법으로 판결했다. 보도는 Anthropic이 살상용 자율무기·대규모 감시에의 지원을 거부한 사실 등을 언급하며, 이번 판결이 행정부의 기업 제재·검열 권한에 대한 사법적 제동이라는 점을 부각했다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/"
-        ],
-        "firstPublishedAt": "2026-08-28T18:07:55.000Z",
-        "lastObservedAt": "2026-08-28T23:01:18.396Z"
-      }
-    },
-    {
       "id": "news-b6f5fc0820288c8b36a1a993",
       "title": "트럼프의 대(對)캐나다 통상 분쟁에 디트로이트 경제 직격탄 — 지역 불안 고조",
       "startAt": "2026-08-28T11:00:56.000Z",
@@ -943,55 +964,6 @@
         ],
         "firstPublishedAt": "2026-08-27T12:59:16.000Z",
         "lastObservedAt": "2026-08-28T12:43:44.561Z"
-      }
-    },
-    {
-      "id": "news-d1faf764322bf8c2b410acfd",
-      "title": "메타, 170억 달러 합의 도달",
-      "startAt": "2026-08-27T11:02:41.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 메타와 해당 주(州)들이 제기한 소송이 약 170억 달러(미화 17B) 규모의 합의안으로 마무리되었다고 전해졌다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/27/g-s1-140414/up-first-newsletter-meta-settlement-mail-in-voting-nrc-regulations-nepal-tibet-flooding",
-      "topicIds": [
-        "economyFinance",
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/aug/26/meta-social-media-addiction-trial-settlement",
-          "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/27/g-s1-140414/up-first-newsletter-meta-settlement-mail-in-voting-nrc-regulations-nepal-tibet-flooding"
-        ],
-        "firstPublishedAt": "2026-08-26T13:37:15.000Z",
-        "lastObservedAt": "2026-08-27T11:10:19.149Z"
-      }
-    },
-    {
-      "id": "news-a5c3f4d5e36b158a013aa1f5",
-      "title": "OpenAI, 허깅페이스 침해 사건에 대한 공식 보고서 공개",
-      "startAt": "2026-08-26T19:05:22.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "TechCrunch 보도에 따르면 OpenAI가 Hugging Face 관련 침해 사건들을 포괄적으로 정리한 공식 보고서를 공개했다. 보고서는 여러 별개의 사이버 보안 침해 사례를 포함하며 이번 사건에 대한 가장 완전한 설명을 제시한다고 전해졌다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/"
-        ],
-        "firstPublishedAt": "2026-08-26T19:05:22.000Z",
-        "lastObservedAt": "2026-08-26T19:18:01.293Z"
       }
     },
     {
