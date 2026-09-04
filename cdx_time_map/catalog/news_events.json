@@ -1,8 +1,125 @@
 {
-  "catalogVersion": "0.0.83",
-  "updatedAt": "2026-09-04T05:49:41.355Z",
+  "catalogVersion": "0.0.84",
+  "updatedAt": "2026-09-04T16:51:19.587Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-9465fb417d50df5c309a4349",
+      "title": "러시아 배후 의심 속 유럽 전역 표적 사보타주 캠페인 확산",
+      "startAt": "2026-09-04T16:49:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "독일이 라이프치히 공항 공격의 배후로 러시아를 지목하는 가운데, 유럽 곳곳에서 의문의 사보타주·파괴 사건들이 잇따르며 안보 우려가 확산되고 있다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-04T16:49:15.000Z",
+        "lastObservedAt": "2026-09-04T16:51:19.586Z"
+      }
+    },
+    {
+      "id": "news-3c921b455eb2d8fc1fe72ae0",
+      "title": "초파리(수컷) 뇌의 완전 접속지도(connectome) 두 번째 완성",
+      "startAt": "2026-09-04T16:24:24.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "모든 뉴런과 시냅스 연결을 포함한 초파리 수컷의 완전한 뇌 지도가 완성되어 이전에 작성된 암컷 지도와 함께 비교·분석이 가능해졌다. 신경회로·뇌 기능 연구에 중요한 자료가 된다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain/"
+        ],
+        "firstPublishedAt": "2026-09-04T16:24:24.000Z",
+        "lastObservedAt": "2026-09-04T16:51:19.586Z"
+      }
+    },
+    {
+      "id": "news-1b8415738489174edd0e800b",
+      "title": "Anthropic의 2조 달러 규모 IPO 추진 — 외부 신탁자 권한 주목",
+      "startAt": "2026-09-04T16:22:18.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "Claude 제작사 Anthropic이 약 2조 달러 규모의 기업공개(IPO)를 추진하는 가운데, 이 회사의 이례적 지배구조(강력한 외부 신탁자들)의 역할과 공적 심사가 집중될 전망이다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/"
+        ],
+        "firstPublishedAt": "2026-09-04T16:22:18.000Z",
+        "lastObservedAt": "2026-09-04T16:51:19.586Z"
+      }
+    },
+    {
+      "id": "news-aa2bd037a42dcd094e5b67d6",
+      "title": "업데이트: 밀레이, 포클랜드(말비나스) 영유권 주장·영국 유전 제재 위협 보도",
+      "startAt": "2026-09-04T16:13:34.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "하비에르 밀레이 대통령이 도널드 트럼프의 발언 등을 활용해 포클랜드(말비나스) 영유권 주장을 재강조하고 관련 해역의 유전 개발 참여 기업에 대한 제재 경고를 반복하며 분쟁 긴장이 고조되고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/4/winds-of-change-how-milei-is-stirring-falklands-claim-amid-trump-uk-spat?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/04/g-s1-141945/milei-escalates-falklands-dispute",
+          "https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands",
+          "https://www.aljazeera.com/video/newsfeed/2026/9/4/argentinas-milei-threatens-sanctions-over-falklands-oil-drilling?traffic_source=rss",
+          "https://www.aljazeera.com/news/2026/9/4/winds-of-change-how-milei-is-stirring-falklands-claim-amid-trump-uk-spat?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-04T05:30:29.000Z",
+        "lastObservedAt": "2026-09-04T16:51:19.586Z"
+      }
+    },
+    {
+      "id": "news-ae72b715ab091670307999c9",
+      "title": "콜롬비아 대통령 데 라 에스프리에야, 시신봉지 앞 영상 공개로 국제적 규탄",
+      "startAt": "2026-09-04T13:50:43.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "아벨라르도 데 라 에스프리에야 콜롬비아 대통령이 사회관계망에 무력화된 게릴라 23명의 시신이 담긴 흰색 시신봉지 행렬을 배경으로 한 영상을 게시해 국내외에서 강한 비난과 우려가 제기되고 있다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/04/colombia-president-posts-video-guerrillas-body-bags-abelardo-de-la-espriella",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/04/colombia-president-posts-video-guerrillas-body-bags-abelardo-de-la-espriella"
+        ],
+        "firstPublishedAt": "2026-09-04T13:50:43.000Z",
+        "lastObservedAt": "2026-09-04T16:51:19.586Z"
+      }
+    },
     {
       "id": "news-dd1b0c2c01fe0bc8e471d6f0",
       "title": "폭스바겐 이사회, 추가 5만명 감원 계획 승인",
@@ -22,30 +139,6 @@
           "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-09-04T05:33:14.000Z",
-        "lastObservedAt": "2026-09-04T05:49:41.355Z"
-      }
-    },
-    {
-      "id": "news-aa2bd037a42dcd094e5b67d6",
-      "title": "아르헨티나 대통령 밀레이, 포클랜드(말비나스) 분쟁 격화 — 英 유전사업 겨냥 제재 위협",
-      "startAt": "2026-09-04T05:30:29.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "하비에르 밀레이 대통령은 도널드 트럼프의 발언을 인용하며 포클랜드(말비나스) 영유권 주장을 재강조했고, 해당 해역의 해상 유전 개발에 관여한 기업들을 겨냥한 제재를 경고하는 등 분쟁을 격화시키고 있다고 보도됐다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/04/g-s1-141945/milei-escalates-falklands-dispute",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/04/g-s1-141945/milei-escalates-falklands-dispute",
-          "https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands",
-          "https://www.aljazeera.com/video/newsfeed/2026/9/4/argentinas-milei-threatens-sanctions-over-falklands-oil-drilling?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-04T05:30:29.000Z",
         "lastObservedAt": "2026-09-04T05:49:41.355Z"
       }
     },
@@ -182,6 +275,30 @@
         ],
         "firstPublishedAt": "2026-09-03T16:32:05.000Z",
         "lastObservedAt": "2026-09-03T17:01:55.578Z"
+      }
+    },
+    {
+      "id": "news-e7a16a750d4f01ff733d662a",
+      "title": "업데이트: 베피콜롬보, 수성 도착 단계 개시 — MTM 분리·수성 삽입 시퀀스 착수",
+      "startAt": "2026-09-03T15:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "ESA·JAXA의 베피콜롬보가 머큐리 트랜스퍼 모듈(MTM) 분리로 수성 도착을 위한 복잡한 궤도 삽입 단계에 진입했다. ESA는 분리 시점과 분리 후 첫 신호 확인 등을 포함한 생중계와 브리핑을 진행했다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/BepiColombo_s_Mercury_arrival_begins_-_full_replay",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/09/BepiColombo_s_Mercury_arrival_begins_-_full_replay"
+        ],
+        "firstPublishedAt": "2026-08-27T05:17:00.000Z",
+        "lastObservedAt": "2026-09-04T16:51:19.586Z"
       }
     },
     {
@@ -450,30 +567,6 @@
       }
     },
     {
-      "id": "news-92f354648bd6312d6b712f3c",
-      "title": "우주 보도 최초 일본 시민·기자 토요히로 아키야마 별세(향년 84)",
-      "startAt": "2026-09-02T14:47:42.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "Ars Technica는 일본 최초의 민간 우주 보도자이자 일본 시민으로서는 첫 우주 체험자였던 토요히로 아키야마가 84세로 별세했다고 보도했다. 보도는 아키야마가 우주에서 ‘뚱뚱한’ 일본 나무개구리만이 무중력을 즐긴다고 보도한 일화 등을 전했다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/09/toyohiro-akiyama-first-japanese-citizen-and-journalist-in-space-dies-at-84/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/09/toyohiro-akiyama-first-japanese-citizen-and-journalist-in-space-dies-at-84/"
-        ],
-        "firstPublishedAt": "2026-09-02T14:47:42.000Z",
-        "lastObservedAt": "2026-09-02T17:08:30.139Z"
-      }
-    },
-    {
       "id": "news-2418fa905551e00d98ac80c9",
       "title": "BBC, 레바논 점령지에서 이스라엘 병력 확장 관측 — 유엔 평화유지단과 동행 취재",
       "startAt": "2026-09-02T05:03:09.000Z",
@@ -592,30 +685,6 @@
       }
     },
     {
-      "id": "news-d9ea2eef2e36794926307913",
-      "title": "NASA 화성 프로그램, 착륙기·로버 부재로 헬리콥터 의존 심화",
-      "startAt": "2026-09-01T11:00:35.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica는 NASA의 화성 프로그램이 새로운 착륙기나 로버를 배치하지 못하는 상황에서 헬리콥터 의존도가 높아지고 있다고 전했다. 보도는 SR-1 Freedom의 비용 추정이 21억 달러지만 헬리콥터 비용은 포함되지 않았다고 덧붙였다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/"
-        ],
-        "firstPublishedAt": "2026-09-01T11:00:35.000Z",
-        "lastObservedAt": "2026-09-01T17:19:26.229Z"
-      }
-    },
-    {
       "id": "news-34309ca9664b6bfffbbd970f",
       "title": "G20 재무장관 회의, 노스캐롤라이나서 개막",
       "startAt": "2026-09-01T08:46:27.000Z",
@@ -657,28 +726,6 @@
           "https://www.aljazeera.com/news/2026/9/1/can-europe-fill-vacuum-left-in-lebanon-as-un-peacekeeping-force-winds-up?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-09-01T05:25:37.000Z",
-        "lastObservedAt": "2026-09-01T06:14:08.802Z"
-      }
-    },
-    {
-      "id": "news-e1e38a2b282b229ff475dfd3",
-      "title": "아프가니스탄 강제 송환 급증 — 올해만 수백만 명, 재정착·인도적 부담 심화",
-      "startAt": "2026-09-01T05:00:34.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC는 파키스탄·이란 등에서 올해 들어 강제 송환된 아프가니스탄 국민이 수백만 명에 달하며, 올해 8월까지 추가로 약 100만 명이 강제 반환되는 등 총 약 600만 명이 재정착을 강요받고 있다고 보도했다. 많은 송환자들이 아프간 내에 친척이나 거주지가 없어 재정착과 생계 복구가 어려운 상황이라고 전했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-01T05:00:34.000Z",
         "lastObservedAt": "2026-09-01T06:14:08.802Z"
       }
     },
@@ -797,29 +844,6 @@
       }
     },
     {
-      "id": "news-e7a16a750d4f01ff733d662a",
-      "title": "베피콜롬보 수성 도착 단계 개시 예고(ESA 브리핑 업데이트)",
-      "startAt": "2026-08-31T14:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "유럽우주기구(ESA)는 8월 31일 온라인 언론 브리핑에서 ESA/JAXA 공동 수성 탐사선 베피콜롬보의 머큐리 트랜스퍼 모듈(MTM) 분리가 9월 3일 예정이며, 이후 수성 삽입과 두 탐사기(ESA의 MPO·JAXA의 Mio) 분리 등 향후 주요 일정과 운영 난제를 설명했다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury"
-        ],
-        "firstPublishedAt": "2026-08-27T05:17:00.000Z",
-        "lastObservedAt": "2026-09-01T06:14:08.802Z"
-      }
-    },
-    {
       "id": "news-4862f3d2c68fb1ad680a585c",
       "title": "OpenAI, 캘리포니아 청소년 AI 안전 법안(SB 1119) 지지 표명",
       "startAt": "2026-08-31T07:00:00.000Z",
@@ -883,28 +907,6 @@
           "https://www.aljazeera.com/news/2026/8/30/death-toll-nears-800-after-himalayan-glacier-collapse?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-08-30T17:00:45.000Z",
-        "lastObservedAt": "2026-08-30T17:24:56.325Z"
-      }
-    },
-    {
-      "id": "news-d09b2b25b7364a5de5e2f6fd",
-      "title": "리비아 경쟁 세력, 2년 내 국가선거 실시 합의 서명",
-      "startAt": "2026-08-30T16:38:01.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "트리폴리의 유엔 임무에서 리비아 내 경쟁 세력들이 향후 2년 내 국가선거를 치르기로 합의에 서명했다. 서명은 유엔이 지원한 위원회가 튀니스에서 작성한 초안에 이어 이뤄졌다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/8/30/rival-libya-factions-sign-deal-to-hold-national-elections-within-two-years?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/8/30/rival-libya-factions-sign-deal-to-hold-national-elections-within-two-years?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-08-30T16:38:01.000Z",
         "lastObservedAt": "2026-08-30T17:24:56.325Z"
       }
     },
