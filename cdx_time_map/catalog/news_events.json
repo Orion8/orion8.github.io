@@ -1,8 +1,145 @@
 {
-  "catalogVersion": "0.0.82",
-  "updatedAt": "2026-09-03T17:01:55.578Z",
+  "catalogVersion": "0.0.83",
+  "updatedAt": "2026-09-04T05:49:41.355Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-dd1b0c2c01fe0bc8e471d6f0",
+      "title": "폭스바겐 이사회, 추가 5만명 감원 계획 승인",
+      "startAt": "2026-09-04T05:33:14.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "폭스바겐 그룹(아우디·포르쉐·스코다 등 포함)은 2030년까지 총 10만명 감원을 목표로 추가로 5만명의 일자리를 줄이는 계획을 이사회가 승인했다고 보도됐다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-04T05:33:14.000Z",
+        "lastObservedAt": "2026-09-04T05:49:41.355Z"
+      }
+    },
+    {
+      "id": "news-aa2bd037a42dcd094e5b67d6",
+      "title": "아르헨티나 대통령 밀레이, 포클랜드(말비나스) 분쟁 격화 — 英 유전사업 겨냥 제재 위협",
+      "startAt": "2026-09-04T05:30:29.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "하비에르 밀레이 대통령은 도널드 트럼프의 발언을 인용하며 포클랜드(말비나스) 영유권 주장을 재강조했고, 해당 해역의 해상 유전 개발에 관여한 기업들을 겨냥한 제재를 경고하는 등 분쟁을 격화시키고 있다고 보도됐다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/04/g-s1-141945/milei-escalates-falklands-dispute",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/04/g-s1-141945/milei-escalates-falklands-dispute",
+          "https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands",
+          "https://www.aljazeera.com/video/newsfeed/2026/9/4/argentinas-milei-threatens-sanctions-over-falklands-oil-drilling?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-04T05:30:29.000Z",
+        "lastObservedAt": "2026-09-04T05:49:41.355Z"
+      }
+    },
+    {
+      "id": "news-8f2c23a326488faab1ddea66",
+      "title": "북아일랜드 재생에너지 발전, 사상 최고치 기록 — 연초 이후 재생발전이 비재생 추월",
+      "startAt": "2026-09-04T05:11:45.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "북아일랜드의 재생에너지 발전이 기록적 수준에 도달했으며, 올해 1월 이후 재생 전력이 비재생 전력을 지속적으로 상회한 것으로 보도됐다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ce3rql5rzx4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ce3rql5rzx4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-04T05:11:45.000Z",
+        "lastObservedAt": "2026-09-04T05:49:41.355Z"
+      }
+    },
+    {
+      "id": "news-1d8e244bfa981ad1c54181a1",
+      "title": "태평양에서 세 개의 열대저기압 동시 활동 관측",
+      "startAt": "2026-09-04T04:01:00.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "NASA 관측은 태평양에서 세 개의 열대저기압(사이클론)이 동시에 활동 중인 반면 대서양은 비교적 한산하다고 전했다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/"
+        ],
+        "firstPublishedAt": "2026-09-04T04:01:00.000Z",
+        "lastObservedAt": "2026-09-04T05:49:41.355Z"
+      }
+    },
+    {
+      "id": "news-753b33bc343e42452cf475eb",
+      "title": "유엔 총회, 아프리카 실제 규모 반영하는 세계지도 채택 표결 예정",
+      "startAt": "2026-09-04T02:00:54.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "토고가 후원한 결의안이 메르카토르 지도를 단계적으로 폐기하고 아프리카의 크기를 보다 정확히 보여주는 지도로 대체할 것을 유엔 총회가 표결에 부칠 예정이라고 보도됐다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa"
+        ],
+        "firstPublishedAt": "2026-09-04T02:00:54.000Z",
+        "lastObservedAt": "2026-09-04T05:49:41.355Z"
+      }
+    },
+    {
+      "id": "news-920440924028e140d0306981",
+      "title": "데이터센터 개발사 Crusoe, 약 30억 달러 조달 보도",
+      "startAt": "2026-09-04T00:48:42.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "TechCrunch 보도에 따르면 데이터센터 개발업체 Crusoe가 약 30억 달러를 조달받았고, 이 라운드는 Crusoe가 Jane Street와 체결한 약 130억 달러 규모 계약 확보 이후 이뤄졌다고 전해졌다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/"
+        ],
+        "firstPublishedAt": "2026-09-04T00:48:42.000Z",
+        "lastObservedAt": "2026-09-04T05:49:41.355Z"
+      }
+    },
     {
       "id": "news-b5557b71094c2a70f8619f84",
       "title": "글로리아 스타이넘(Gloria Steinem) 별세, 향년 92세",
@@ -705,28 +842,6 @@
       }
     },
     {
-      "id": "news-492cf7cb84911a4532c49cfa",
-      "title": "스코틀랜드 소프오페라 '리버 시티' 24년 만에 종영 예고",
-      "startAt": "2026-08-31T05:20:22.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 1,
-      "description": "스코틀랜드를 배경으로 한 장수 소프오페라 '리버 시티'(가상 지구명 Shieldinch 소재)가 24년 방송 후 마지막 회를 예고했다. 방송사는 마지막 회에서 '불타는' 결말을 암시하며 시리즈의 종결을 알렸다.",
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c1dl31k01v7o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c1dl31k01v7o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-31T05:20:22.000Z",
-        "lastObservedAt": "2026-08-31T07:00:33.597Z"
-      }
-    },
-    {
       "id": "news-331406f38034f2c00c87d5a8",
       "title": "미국, 드론·로봇 규제 강화 움직임 — 중국의 생산 규모가 변수",
       "startAt": "2026-08-31T02:34:00.000Z",
@@ -794,75 +909,6 @@
       }
     },
     {
-      "id": "news-74f5c5aedd39c0a588d77127",
-      "title": "아이슬란드, EU 가입 협상 재개 안건 부결(52.8% 반대)",
-      "startAt": "2026-08-30T16:11:44.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "아이슬란드 공영방송 RUV는 유권자의 52.8%가 정부의 유럽연합(EU) 가입협상 재개 제안을 거부했다고 보도했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/29/nx-s1-5948759/iceland-european-union-referendum-vote",
-          "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-30T01:47:44.000Z",
-        "lastObservedAt": "2026-08-30T17:24:56.325Z"
-      }
-    },
-    {
-      "id": "news-23c4b6110b05271177bb6c89",
-      "title": "NASA, 골드스톤 딥 스페이스 네트워크의 DSS-23 안테나 가동",
-      "startAt": "2026-08-30T14:53:08.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "딥 스페이스 스테이션 23(DSS‑23) 34m 다중주파수 빔‑웨이브가이드 안테나가 캘리포니아 골드스톤 단지에서 완공되어 가동을 시작했다. DSS‑23은 향후 수십 년간 NASA의 심우주 통신 용량을 확장할 것으로 기대된다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23/",
-          "https://science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online/"
-        ],
-        "firstPublishedAt": "2026-08-30T14:57:59.000Z",
-        "lastObservedAt": "2026-08-30T17:24:56.325Z"
-      }
-    },
-    {
-      "id": "news-4a4f24c3ca430c96c1415f4a",
-      "title": "수단 내전 피란민 수용지 엘오베이드 인도주의 위기 악화",
-      "startAt": "2026-08-30T06:00:48.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 수단군(SAF)과 래피드 서포트 포스(RSF) 간 교전으로 주변 농촌에서 피란해 온 민간인들이 엘오베이드 시와 외곽 캠프로 계속 몰려들며 인도주의 상황이 악화되고 있다. UN 자료와 정부 통계를 인용해 중순 이후 1만5,000여 가구가 추가로 도착했고, 상반기에 유입된 20만여명과 합쳐 큰 인도적 수요가 발생했다고 전했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid"
-        ],
-        "firstPublishedAt": "2026-08-30T06:00:48.000Z",
-        "lastObservedAt": "2026-08-30T06:35:48.648Z"
-      }
-    },
-    {
       "id": "news-63146fd6c8470693bd5ae4be",
       "title": "네팔·티베트 히말라야 홍수 — 수백 명 사망·1,000명 이상 실종·구호 난항",
       "startAt": "2026-08-29T21:14:09.000Z",
@@ -884,29 +930,6 @@
         ],
         "firstPublishedAt": "2026-08-29T21:14:10.000Z",
         "lastObservedAt": "2026-08-30T06:35:48.648Z"
-      }
-    },
-    {
-      "id": "news-a85aa69b831be69ce347d672",
-      "title": "엔비디아의 AI 우위, GPU 중심 전략에서 시스템·트래픽 제어로 확대",
-      "startAt": "2026-08-29T13:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "TechCrunch는 데이터센터의 차세대 시스템들이 단순히 더 많은 연산 성능을 쌓는 방향을 넘어 스마트한 트래픽 제어 등으로 효율을 높이고 있으며, 이 과정에서 엔비디아의 AI 경쟁우위가 GPU를 넘어서는 모습으로 진화하고 있다고 분석했다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
-        ],
-        "firstPublishedAt": "2026-08-29T13:00:00.000Z",
-        "lastObservedAt": "2026-08-29T17:06:22.752Z"
       }
     },
     {
@@ -988,29 +1011,6 @@
         ],
         "firstPublishedAt": "2026-08-26T12:27:19.000Z",
         "lastObservedAt": "2026-08-28T12:43:44.561Z"
-      }
-    },
-    {
-      "id": "news-d8544dddaa7c28ef4beae2d2",
-      "title": "OpenAI·Anthropic·Google 등 100여개 기업, '악성 AI' 대응 촉구",
-      "startAt": "2026-08-27T17:43:24.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "글로벌 주요 AI 기업과 스타트업들이 사이버보안 위협을 경고하며 악의적·탈취된 AI(rogue AI)에 대응하기 위한 조치 마련을 촉구했다. 보도는 기업들이 현재의 사이버보안 위상에 대해 우려를 표명했고 관련 대응책 필요성을 제기했다고 전했다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/"
-        ],
-        "firstPublishedAt": "2026-08-27T17:43:24.000Z",
-        "lastObservedAt": "2026-08-27T22:56:57.374Z"
       }
     },
     {
