@@ -1,8 +1,53 @@
 {
-  "catalogVersion": "0.0.85",
-  "updatedAt": "2026-09-05T05:40:48.913Z",
+  "catalogVersion": "0.0.86",
+  "updatedAt": "2026-09-05T16:00:58.993Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-3e20e544fc3cfc552a812693",
+      "title": "미, 자국 함정 표적화 주장 후 이란 유류 탱커 3척 공격",
+      "startAt": "2026-09-05T15:14:21.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미 중앙사령부는 자국 해군 함정들이 표적이 된 뒤 대응 조치로 이란 소유로 추정되는 유류 탱커 3척을 공격했다고 발표했다. 중앙사령부는 이란이 두 척의 미 해군함에 대해 탄도미사일을 발사했다고 주장했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-05T15:14:21.000Z",
+        "lastObservedAt": "2026-09-05T16:00:58.992Z"
+      }
+    },
+    {
+      "id": "news-8eb3e49aed8e9bd6c881e90e",
+      "title": "미 특사단 모스크바 방문 — 러·우크라 평화교섭 재개 시도",
+      "startAt": "2026-09-05T11:08:57.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "스티브 위트코프와 재러드 쿠슈너로 구성된 미 특사단이 러시아 모스크바에 도착해 러시아의 우크라이나 침공 종식을 위한 외교적 노력을 재개하려 하고 있다. 젤렌스키 대통령은 방문 기간 항공공격 중지를 촉구했으나 모스크바는 즉각적인 공개 응답을 내지 않고 있다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace"
+        ],
+        "firstPublishedAt": "2026-09-05T11:08:57.000Z",
+        "lastObservedAt": "2026-09-05T16:00:58.993Z"
+      }
+    },
     {
       "id": "news-753b33bc343e42452cf475eb",
       "title": "유엔, 아프리카 실제 크기 반영한 새 지도 채택",
@@ -680,57 +725,6 @@
       }
     },
     {
-      "id": "news-ce90dd2e8052ce32de83309c",
-      "title": "신설 담수화 시설 파괴로 북가자 식수 위기 악화",
-      "startAt": "2026-09-01T16:45:35.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 새로 건설된 담수화 시설이 파괴되면서 북가자 지역으로 피란한 가구들이 깨끗한 식수를 구하지 못해 식수 위기가 악화되고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/features/2026/9/1/destroyed-desalination-plant-worsens-gazas-drinking-water-crisis?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/features/2026/9/1/destroyed-desalination-plant-worsens-gazas-drinking-water-crisis?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-01T16:45:35.000Z",
-        "lastObservedAt": "2026-09-01T17:19:26.229Z"
-      }
-    },
-    {
-      "id": "news-8c0ca5cb5229b79a122c78d7",
-      "title": "네팔 홍수 구조 진행 — 수력발전 터널에 갇힌 노동자 구조 시도, 사망·실종 규모 심각",
-      "startAt": "2026-09-01T16:11:18.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC는 네팔·중국 국경의 홍수 상황과 관련해 수력발전 터널에 갇힌 노동자 구조 노력이 계속되고 있으며 사망자와 실종자가 1,000명 이상에 이르는 등 피해가 심각하다고 보도했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cg49590v6k1o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c0qxw1qw3g7o?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/31/nx-s1-5949971/nepals-hesitance-help-flood",
-          "https://www.bbc.co.uk/news/articles/cg49590v6k1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-08-31T03:56:15.000Z",
-        "lastObservedAt": "2026-09-01T17:19:26.229Z"
-      }
-    },
-    {
       "id": "news-34309ca9664b6bfffbbd970f",
       "title": "G20 재무장관 회의, 노스캐롤라이나서 개막",
       "startAt": "2026-09-01T08:46:27.000Z",
@@ -865,30 +859,6 @@
         ],
         "firstPublishedAt": "2026-08-31T07:00:00.000Z",
         "lastObservedAt": "2026-09-01T06:14:08.802Z"
-      }
-    },
-    {
-      "id": "news-63146fd6c8470693bd5ae4be",
-      "title": "네팔·티베트 히말라야 홍수 — 수백 명 사망·1,000명 이상 실종·구호 난항",
-      "startAt": "2026-08-29T21:14:09.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 네팔·티베트 국경 지역을 강타한 급류성 홍수로 수백 명이 숨지고 1,000명 이상이 실종됐다. 도로와 다리가 휩쓸리고 산악 지형·악천후로 구조 활동이 어려워 식량·임시주거·위생 지원 등 인도적 접근이 지연되고 있다고 전했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/08/29/nx-s1-5948125/getting-help-to-nepals-flood-survivors-is-proving-difficult",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/08/29/nx-s1-5948125/getting-help-to-nepals-flood-survivors-is-proving-difficult",
-          "https://www.npr.org/2026/08/29/nx-s1-5948040/rescuers-race-to-find-thousands-missing-after-deadly-himalayan-floods"
-        ],
-        "firstPublishedAt": "2026-08-29T21:14:10.000Z",
-        "lastObservedAt": "2026-08-30T06:35:48.648Z"
       }
     },
     {
