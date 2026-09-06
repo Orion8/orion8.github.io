@@ -1,8 +1,101 @@
 {
-  "catalogVersion": "0.0.87",
-  "updatedAt": "2026-09-06T05:52:40.831Z",
+  "catalogVersion": "0.0.88",
+  "updatedAt": "2026-09-06T16:12:08.582Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-08df1fb6c7c6233a849d8c3d",
+      "title": "니제르 군부, 실패한 반란 배후로 프랑스 지목",
+      "startAt": "2026-09-06T15:42:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "니제르 군부는 최근 발생한 실패한 반란의 배후로 프랑스가 관여했다고 주장했으며, 프랑스 당국은 이를 부인했다. 양측의 주장이 엇갈리면서 프랑스와 니제르 간 외교적 긴장이 고조되고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/6/niger-military-accuses-france-of-orchestrating-failed-mutiny-what-to-know?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/6/niger-military-accuses-france-of-orchestrating-failed-mutiny-what-to-know?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-06T15:42:00.000Z",
+        "lastObservedAt": "2026-09-06T16:12:08.582Z"
+      }
+    },
+    {
+      "id": "news-f2d63d41b43a4a6de7bfab2f",
+      "title": "델리 5층 호스텔 붕괴 — 수십 명 매몰 우려",
+      "startAt": "2026-09-06T14:07:35.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "델리에서 5층짜리 호스텔 건물이 붕괴되어 최대 50명가량이 내부에 있었던 것으로 추정된다. 구조대가 수색·구조 작업을 진행 중이며, 인명 피해 규모와 원인 규명은 진행 중이다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-06T14:07:35.000Z",
+        "lastObservedAt": "2026-09-06T16:12:08.582Z"
+      }
+    },
+    {
+      "id": "news-09d8173c4081c82bd34f31ef",
+      "title": "유럽 최초 완전 상업용 궤도 로켓 발사 성공 — 독일 민간기업",
+      "startAt": "2026-09-06T11:55:26.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "독일의 한 민간 우주기업이 유럽에서 처음으로 완전 상업용(민간 주도) 궤도 로켓을 발사하는 데 성공했다고 보도됐다. 기업은 수년 내 달성한 성과라며 유럽 상업우주 산업의 전환점이라고 평가했다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/"
+        ],
+        "firstPublishedAt": "2026-09-06T11:55:26.000Z",
+        "lastObservedAt": "2026-09-06T16:12:08.582Z"
+      }
+    },
+    {
+      "id": "news-3e20e544fc3cfc552a812693",
+      "title": "미 특사단, 모스크바 회담 뒤 키이우 도착 — 우크라이나 협상 재개",
+      "startAt": "2026-09-06T09:51:04.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "스티브 위트코프와 재러드 쿠슈너 등 미국 특사단이 모스크바에서 블라디미르 푸틴과 회담한 뒤 키이우에 도착해 우크라이나 측과의 협상을 위한 접촉을 시작할 예정이라고 보도됐다. 백악관은 이들이 ‘다음 단계’ 협의를 진행했다고 밝혔다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities",
+          "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow"
+        ],
+        "firstPublishedAt": "2026-09-05T15:14:21.000Z",
+        "lastObservedAt": "2026-09-06T16:12:08.582Z"
+      }
+    },
     {
       "id": "news-6a6bacf53860a07d6f3c8beb",
       "title": "인도네시아 화산 분출로 자카르타 인근 공역에 재(ash) 검출 — 주요 공항 운항 중단",
@@ -68,30 +161,6 @@
           "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-09-05T11:08:57.000Z",
-        "lastObservedAt": "2026-09-06T05:52:40.831Z"
-      }
-    },
-    {
-      "id": "news-3e20e544fc3cfc552a812693",
-      "title": "미, 이란 소유 추정 유류 탱커 3척 공격 보도(중복 보도 클러스터)",
-      "startAt": "2026-09-05T21:01:12.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미국이 자국 해군 함정들이 표적이 된 뒤 대응 조치로 이란 소유로 추정되는 유류 탱커 3척을 공격했다고 중앙사령부가 발표한 사건과 관련한 추가 보도이다. 해당 작전은 호르무즈 해협 일대의 해상 긴장과 유가·국제 해상운송 안보에 영향을 미치고 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities"
-        ],
-        "firstPublishedAt": "2026-09-05T15:14:21.000Z",
         "lastObservedAt": "2026-09-06T05:52:40.831Z"
       }
     },
@@ -465,28 +534,6 @@
       }
     },
     {
-      "id": "news-ea12f154731443a49342be5e",
-      "title": "엔비디아, 오픈소스 AI 플랫폼 허깅페이스(Hugging Face) 인수 합의 — 129억 달러 규모",
-      "startAt": "2026-09-03T16:32:05.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "엔비디아가 오픈소스 AI 플랫폼이자 개발자 커뮤니티인 허깅페이스(Hugging Face)를 약 129억 달러에 인수하기로 합의했다. 이번 거래로 엔비디아는 오픈소스 AI 생태계의 핵심 플랫폼에 대한 통제력을 확보하게 된다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-03T16:32:05.000Z",
-        "lastObservedAt": "2026-09-03T17:01:55.578Z"
-      }
-    },
-    {
       "id": "news-3c557ada8445d86cf19defd0",
       "title": "Nancy Grace Roman 우주망원경, 최종 궤도 향한 3개월·수백만 마일 여정 개시(업데이트)",
       "startAt": "2026-09-03T14:24:23.000Z",
@@ -611,53 +658,6 @@
       }
     },
     {
-      "id": "news-a723eebbb9b421bf03a26d00",
-      "title": "미 FCC, 사업자별 스팸·로보콜 차단 실적 점수표 도입 계획 발표",
-      "startAt": "2026-09-02T19:54:27.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "미 연방통신위원회(FCC)가 통신사업자들의 스팸·로보콜 차단 실적을 평가하는 점수표(스코어카드) 도입을 계획하고 있다. 점수표에는 차단 통계와 소비자 불만·민원 데이터 등이 포함될 수 있으며, 사업자들의 스팸 대응 책임을 강화하려는 조치로 해석된다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/fcc-plans-robocall-scorecard-to-grade-phone-companies-on-spam-call-blocking/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/tech-policy/2026/09/fcc-plans-robocall-scorecard-to-grade-phone-companies-on-spam-call-blocking/"
-        ],
-        "firstPublishedAt": "2026-09-02T19:54:27.000Z",
-        "lastObservedAt": "2026-09-03T17:01:55.578Z"
-      }
-    },
-    {
-      "id": "news-3ca4419a32f717066ead000d",
-      "title": "다프네 카루아나 갈리치아 살해사건 관련 사업가 요르겐 페네치 무죄 평결(몰타 배심)",
-      "startAt": "2026-09-02T19:48:18.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 2017년 기자 다프네 카루아나 갈리치아를 차량 폭탄으로 살해한 사건 재판에서 배심은 피고 사업가 요르겐 페네치에 대해 무죄를 선고했다. 갈리치아는 부패 의혹을 탐사보도해 왔으며, 이번 평결은 국가적·국제적 논란을 불러일으키고 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/02/nx-s1-5954420/daphne-caruana-galizia-case-yorgen-fenech-acquitted-malta",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/02/nx-s1-5954420/daphne-caruana-galizia-case-yorgen-fenech-acquitted-malta"
-        ],
-        "firstPublishedAt": "2026-09-02T19:48:18.000Z",
-        "lastObservedAt": "2026-09-03T05:44:16.818Z"
-      }
-    },
-    {
       "id": "news-98357abb9c8fa16fb5c85cf4",
       "title": "셔틀 원격조작 팔 ‘캐나다암(Canadarm)’, IEEE 300번째 역사적 기념물 지정",
       "startAt": "2026-09-02T18:00:03.000Z",
@@ -701,28 +701,6 @@
         ],
         "firstPublishedAt": "2026-09-02T18:00:00.000Z",
         "lastObservedAt": "2026-09-03T05:44:16.819Z"
-      }
-    },
-    {
-      "id": "news-03a7a4b0af9459142d7dbedc",
-      "title": "잠비아의 히칠레마, 논란 있는 투표·체포 속에 두 번째 임기 시작",
-      "startAt": "2026-09-02T16:47:47.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "알자지라 보도에 따르면 하카이 주무투 히칠레마 대통령이 논란이 된 선거와 여러 체포 사안이 뒤따르는 가운데 두 번째 임기를 시작했다. 보고서는 경제적 성과가 정치적 긴장 속에서 점검받고 있다고 전했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/2/zambias-hichilema-begins-second-term-amid-disputed-vote-and-arrests?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/2/zambias-hichilema-begins-second-term-amid-disputed-vote-and-arrests?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-02T16:47:47.000Z",
-        "lastObservedAt": "2026-09-02T17:08:30.139Z"
       }
     },
     {
