@@ -1,40 +1,62 @@
 {
-  "catalogVersion": "0.0.86",
-  "updatedAt": "2026-09-05T16:00:58.993Z",
+  "catalogVersion": "0.0.87",
+  "updatedAt": "2026-09-06T05:52:40.831Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-3e20e544fc3cfc552a812693",
-      "title": "미, 자국 함정 표적화 주장 후 이란 유류 탱커 3척 공격",
-      "startAt": "2026-09-05T15:14:21.000Z",
+      "id": "news-6a6bacf53860a07d6f3c8beb",
+      "title": "인도네시아 화산 분출로 자카르타 인근 공역에 재(ash) 검출 — 주요 공항 운항 중단",
+      "startAt": "2026-09-06T05:12:44.000Z",
       "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미 중앙사령부는 자국 해군 함정들이 표적이 된 뒤 대응 조치로 이란 소유로 추정되는 유류 탱커 3척을 공격했다고 발표했다. 중앙사령부는 이란이 두 척의 미 해군함에 대해 탄도미사일을 발사했다고 주장했다.",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "화산재가 자카르타 인근 공역에서 탐지되면서 인도네시아의 주요 공항에서 항공편 운항이 중단돼 2만명 이상 승객이 발 묶였다. 당국은 항공 안전을 위해 공역 통제를 유지하고 있으며, 항공편 재개 여부는 화산 활동과 공기질 관측 결과에 따라 결정될 예정이다.",
       "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss",
       "topicIds": [
         "politicsHumanRights"
       ],
       "news": {
         "status": "breaking",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss"
         ],
-        "firstPublishedAt": "2026-09-05T15:14:21.000Z",
-        "lastObservedAt": "2026-09-05T16:00:58.992Z"
+        "firstPublishedAt": "2026-09-06T05:12:44.000Z",
+        "lastObservedAt": "2026-09-06T05:52:40.831Z"
+      }
+    },
+    {
+      "id": "news-bfa4153613e8a8207409d301",
+      "title": "타이즈서 예멘군과 후티 간 격전 — 전략적 지구 점령 주장과 민간인 피해 보고",
+      "startAt": "2026-09-06T05:02:17.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "타이즈 지역에서 예멘 정부군(또는 친정부 무장세력)이 전략적 지구를 점령했다고 주장하는 가운데 후티 반군과의 전투가 격화되어 민간인을 포함해 60명 이상이 사망했다고 보도되었다. 지역 인도주의 상황과 추가적 난민·피난 우려가 제기되고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/6/yemeni-forces-claim-strategic-district-amid-intensified-houthi-clashes?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/6/yemeni-forces-claim-strategic-district-amid-intensified-houthi-clashes?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-06T05:02:17.000Z",
+        "lastObservedAt": "2026-09-06T05:52:40.831Z"
       }
     },
     {
       "id": "news-8eb3e49aed8e9bd6c881e90e",
-      "title": "미 특사단 모스크바 방문 — 러·우크라 평화교섭 재개 시도",
-      "startAt": "2026-09-05T11:08:57.000Z",
+      "title": "미 특사단, 푸틴과 논의 후 우크라이나 협상 위해 이동 예정(업데이트)",
+      "startAt": "2026-09-06T02:24:16.000Z",
       "lane": "world",
       "category": "politicsSociety",
-      "importance": 2,
-      "description": "스티브 위트코프와 재러드 쿠슈너로 구성된 미 특사단이 러시아 모스크바에 도착해 러시아의 우크라이나 침공 종식을 위한 외교적 노력을 재개하려 하고 있다. 젤렌스키 대통령은 방문 기간 항공공격 중지를 촉구했으나 모스크바는 즉각적인 공개 응답을 내지 않고 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace",
+      "importance": 3,
+      "description": "스티브 위트코프와 재러드 쿠슈너로 구성된 미 특사단이 모스크바에서 푸틴과 논의한 뒤 우크라이나 측과의 후속 협상을 위해 이동할 예정이라고 백악관이 전했다. 특사단은 향후 실질적 합의와 추가 조치에 대해 ‘다음 단계’를 협의했다고 밝혔다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
       "topicIds": [
         "politicsHumanRights",
         "koreaEastAsia"
@@ -42,10 +64,80 @@
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace"
+          "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace",
+          "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-09-05T11:08:57.000Z",
-        "lastObservedAt": "2026-09-05T16:00:58.993Z"
+        "lastObservedAt": "2026-09-06T05:52:40.831Z"
+      }
+    },
+    {
+      "id": "news-3e20e544fc3cfc552a812693",
+      "title": "미, 이란 소유 추정 유류 탱커 3척 공격 보도(중복 보도 클러스터)",
+      "startAt": "2026-09-05T21:01:12.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미국이 자국 해군 함정들이 표적이 된 뒤 대응 조치로 이란 소유로 추정되는 유류 탱커 3척을 공격했다고 중앙사령부가 발표한 사건과 관련한 추가 보도이다. 해당 작전은 호르무즈 해협 일대의 해상 긴장과 유가·국제 해상운송 안보에 영향을 미치고 있다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities"
+        ],
+        "firstPublishedAt": "2026-09-05T15:14:21.000Z",
+        "lastObservedAt": "2026-09-06T05:52:40.831Z"
+      }
+    },
+    {
+      "id": "news-aa8643b289026f155b0783b0",
+      "title": "유엔 새 기후보고서 발표 뒤 기후운동가들 행동 촉구 — 지구 온도 1.5℃ 도달 경고",
+      "startAt": "2026-09-05T21:01:08.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "새 유엔 기후보고서에서 지구 평균온도가 산업화 이전 대비 1.5℃ 수준까지 상승할 가능성이 제기되자 기후해결론자들이 즉각적인 정책 이행과 기후대응 속도 가속을 촉구하고 있다. 활동가 어야나 엘리자베스 존슨 등은 이미 알려진 해법의 신속한 적용과 정치적 결단을 강조했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/05/nx-s1-5954264/this-is-the-work-of-our-lifetime-ayana-elizabeth-johnson-urges-action-after-new-un-climate-report",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/05/nx-s1-5954264/this-is-the-work-of-our-lifetime-ayana-elizabeth-johnson-urges-action-after-new-un-climate-report"
+        ],
+        "firstPublishedAt": "2026-09-05T21:01:08.000Z",
+        "lastObservedAt": "2026-09-06T05:52:40.831Z"
+      }
+    },
+    {
+      "id": "news-34642662f3f087d3b7ac9ff8",
+      "title": "이집트 법원, TV 진행자 사라 칼리파 등 12명 마약범죄로 사형 선고",
+      "startAt": "2026-09-05T18:00:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "이집트 법원이 유명 TV 진행자 사라 칼리파(39)를 포함한 12명에게 제조·밀매 혐의로 사형을 선고했다. 칼리파는 범죄·치안 문제를 다루는 프로그램으로 알려진 인물로, 이번 판결은 국내외 인권·언론 자유 우려를 촉발하고 있다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/05/egyptian-tv-presenter-among-12-sentenced-to-death-for-drug",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/05/egyptian-tv-presenter-among-12-sentenced-to-death-for-drug"
+        ],
+        "firstPublishedAt": "2026-09-05T18:00:15.000Z",
+        "lastObservedAt": "2026-09-06T05:52:40.831Z"
       }
     },
     {
@@ -634,53 +726,6 @@
       }
     },
     {
-      "id": "news-8c18e9f1c69940e342627f09",
-      "title": "이란, 미 공습에 대한 보복으로 걸프 이웃국가들에 발포 — 한달간의 휴지기 뒤 재개",
-      "startAt": "2026-09-02T15:18:09.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 이란이 한 달간의 공백 이후 미군의 공습에 대한 보복으로 걸프 연안 이웃국가들을 향해 발포했다고 전했다. 보도는 이번 여섯 달째의 전쟁이 유가 상승과 세계 경제 혼란을 촉발했으며, 미국 내 정치적 파장을 불러일으키고 있다고 지적했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates"
-        ],
-        "firstPublishedAt": "2026-09-02T05:12:07.000Z",
-        "lastObservedAt": "2026-09-02T17:08:30.139Z"
-      }
-    },
-    {
-      "id": "news-2418fa905551e00d98ac80c9",
-      "title": "BBC, 레바논 점령지에서 이스라엘 병력 확장 관측 — 유엔 평화유지단과 동행 취재",
-      "startAt": "2026-09-02T05:03:09.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 취재팀은 유엔 레바논임무(UNIFIL)의 인도주의 임무에 동행해 현장을 방문한 결과 이스라엘군이 진지를 강화하고 철거 작업을 계속하고 있다고 보도했다. 보도는 이 같은 군사·지상 공백이 지역 인도주의·안보 상황에 미칠 영향을 우려했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cge41d19gq9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/1/germany-accuses-russia-of-drone-attack-on-leipzig-airport?traffic_source=rss",
-          "https://www.bbc.co.uk/news/articles/cge41d19gq9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-01T16:24:36.000Z",
-        "lastObservedAt": "2026-09-02T05:45:40.347Z"
-      }
-    },
-    {
       "id": "news-6e7e5c9b8d71612a23943e01",
       "title": "NASA, 블루오리진을 화성 통신망 사업자 선정 — 차세대 화성 통신위성 개발 계약",
       "startAt": "2026-09-01T21:08:37.000Z",
@@ -722,29 +767,6 @@
         ],
         "firstPublishedAt": "2026-09-01T17:30:35.000Z",
         "lastObservedAt": "2026-09-02T05:45:40.347Z"
-      }
-    },
-    {
-      "id": "news-34309ca9664b6bfffbbd970f",
-      "title": "G20 재무장관 회의, 노스캐롤라이나서 개막",
-      "startAt": "2026-09-01T08:46:27.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "NPR는 미국 노스캐롤라이나에서 주요국 재무장관들이 모이는 G20 재무장관 회의가 열리고 있으며, 러시아의 수석 경제 책임자가 회의에 직접 참석해 논란을 빚었다고 보도했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/01/nx-s1-5950481/global-finance-ministers-gather-in-north-carolina-for-g-20-summit",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/01/nx-s1-5950481/global-finance-ministers-gather-in-north-carolina-for-g-20-summit"
-        ],
-        "firstPublishedAt": "2026-09-01T08:46:27.000Z",
-        "lastObservedAt": "2026-09-01T17:19:26.229Z"
       }
     },
     {
