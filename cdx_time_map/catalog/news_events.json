@@ -1,8 +1,79 @@
 {
-  "catalogVersion": "0.0.88",
-  "updatedAt": "2026-09-06T16:12:08.582Z",
+  "catalogVersion": "0.0.89",
+  "updatedAt": "2026-09-07T06:01:55.014Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-ee547b076d06fe3ed12e5852",
+      "title": "독일 극우 정당 AfD, 작센안할트주에서 약 44% 득표로 큰 승리 선언(과반엔 미달)",
+      "startAt": "2026-09-07T04:48:02.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 예비 결과에 따르면 대안당(AfD)이 동부 작센안할트주에서 약 44%의 득표율로 큰 차이의 승리를 기록했으나 과반에는 미치지 못했다. BBC는 이번 지역 선거 결과가 유럽 전체와 전통 정당들에 충격을 줄 수 있다고 보도했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c986w38r4j5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-07T04:48:02.000Z",
+        "lastObservedAt": "2026-09-07T06:01:55.014Z"
+      }
+    },
+    {
+      "id": "news-3e20e544fc3cfc552a812693",
+      "title": "미 특사단(재러드 쿠슈너·스티브 위트코프), 모스크바 회담 뒤 키이우 방문",
+      "startAt": "2026-09-06T21:06:49.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미 특사단이 모스크바에서 블라디미르 푸틴과 회담한 뒤 우크라이나의 수도 키이우를 방문해 우크라이나 측과 접촉을 시작했다고 보도되었다. 백악관은 이들이 향후 협상을 위한 '다음 단계'를 협의했다고 밝혔다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/06/nx-s1-5959728/u-s-envoys-visit-kyiv-for-first-time-after-meeting-putin-in-moscow",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities",
+          "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+          "https://www.npr.org/2026/09/06/nx-s1-5959728/u-s-envoys-visit-kyiv-for-first-time-after-meeting-putin-in-moscow"
+        ],
+        "firstPublishedAt": "2026-09-05T15:14:21.000Z",
+        "lastObservedAt": "2026-09-07T06:01:55.014Z"
+      }
+    },
+    {
+      "id": "news-25f65611b4d3b90931ac1d7d",
+      "title": "자메이카 대표단, 노예제 배상 청원서 전달 위해 영국 도착 — 국왕 찰스에게 제출 예정",
+      "startAt": "2026-09-06T17:05:11.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "자메이카 문화장관은 노예제의 유산이 여전히 국가와 국민에게 피해를 준다며 자메이카 대표단이 국왕 찰스(자메이카의 국가원수)에게 노예제 배상 청원서를 제출할 예정이라고 밝혔다. 청원 접수는 과거 범죄에 대한 책임과 구제 요구의 상징적·정치적 사건으로 주목된다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/news/2026/sep/06/jamaica-slavery-reparations-petition-king-charles",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/news/2026/sep/06/jamaica-slavery-reparations-petition-king-charles"
+        ],
+        "firstPublishedAt": "2026-09-06T17:05:11.000Z",
+        "lastObservedAt": "2026-09-07T06:01:55.014Z"
+      }
+    },
     {
       "id": "news-08df1fb6c7c6233a849d8c3d",
       "title": "니제르 군부, 실패한 반란 배후로 프랑스 지목",
@@ -72,31 +143,6 @@
       }
     },
     {
-      "id": "news-3e20e544fc3cfc552a812693",
-      "title": "미 특사단, 모스크바 회담 뒤 키이우 도착 — 우크라이나 협상 재개",
-      "startAt": "2026-09-06T09:51:04.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "스티브 위트코프와 재러드 쿠슈너 등 미국 특사단이 모스크바에서 블라디미르 푸틴과 회담한 뒤 키이우에 도착해 우크라이나 측과의 협상을 위한 접촉을 시작할 예정이라고 보도됐다. 백악관은 이들이 ‘다음 단계’ 협의를 진행했다고 밝혔다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities",
-          "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow"
-        ],
-        "firstPublishedAt": "2026-09-05T15:14:21.000Z",
-        "lastObservedAt": "2026-09-06T16:12:08.582Z"
-      }
-    },
-    {
       "id": "news-6a6bacf53860a07d6f3c8beb",
       "title": "인도네시아 화산 분출로 자카르타 인근 공역에 재(ash) 검출 — 주요 공항 운항 중단",
       "startAt": "2026-09-06T05:12:44.000Z",
@@ -162,6 +208,29 @@
         ],
         "firstPublishedAt": "2026-09-05T11:08:57.000Z",
         "lastObservedAt": "2026-09-06T05:52:40.831Z"
+      }
+    },
+    {
+      "id": "news-6df0f5d81c2b28a3d9afe94e",
+      "title": "시애틀 타임스·뉴스데이, OpenAI·마이크로소프트 상대로 소송 제기 — 기사 무단 학습 주장",
+      "startAt": "2026-09-05T22:49:55.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "TechCrunch 보도에 따르면 시애틀 타임스와 뉴스데이가 자사 저널리즘 콘텐츠가 OpenAI와 마이크로소프트의 AI 모델 학습에 사용됐다며 저작권·손해배상 등을 근거로 소송을 제기했다. 이번 소송은 대형언어모델의 학습 데이터 이용을 둘러싼 법적 분쟁의 확산 신호로 해석된다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
+        ],
+        "firstPublishedAt": "2026-09-05T22:49:55.000Z",
+        "lastObservedAt": "2026-09-07T06:01:55.014Z"
       }
     },
     {
@@ -375,52 +444,6 @@
       }
     },
     {
-      "id": "news-e3b60bdc530ba84f7ce887c3",
-      "title": "필리핀 부통령에게 대통령 위협 혐의로 체포영장 발부",
-      "startAt": "2026-09-04T13:42:10.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "필리핀 사법당국이 대통령에 대한 위협 발언과 관련해 부통령에 대한 체포영장을 발부했다. 이번 조치는 마르코스 정권과의 정치적 대결 속에서 이루어졌으며, 향후 재판은 2028년 대선 출마 계획 등에 영향을 미칠 수 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/04/g-s1-142016/philippine-vice-president-is-ordered-arrested-for-threats-against-the-president",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/04/g-s1-142016/philippine-vice-president-is-ordered-arrested-for-threats-against-the-president"
-        ],
-        "firstPublishedAt": "2026-09-04T13:42:10.000Z",
-        "lastObservedAt": "2026-09-05T05:40:48.913Z"
-      }
-    },
-    {
-      "id": "news-2208933f9d09020f666efa1a",
-      "title": "미얀마 군 수뇌부, 관계 정상화 모색해 베트남 방문",
-      "startAt": "2026-09-04T13:35:39.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "미얀마 군 최고인사가 아세안 회원국과의 관계 회복을 모색하기 위해 베트남을 방문했다. 이번 방문은 군부의 국제적 고립 완화 시도 가운데 이루어진 세 번째 아세안 국가 방문이다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/04/g-s1-142014/myanmar-military-head-visits-vietnam-to-normalize-relations",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/04/g-s1-142014/myanmar-military-head-visits-vietnam-to-normalize-relations"
-        ],
-        "firstPublishedAt": "2026-09-04T13:35:39.000Z",
-        "lastObservedAt": "2026-09-05T05:40:48.913Z"
-      }
-    },
-    {
       "id": "news-dd1b0c2c01fe0bc8e471d6f0",
       "title": "폭스바겐 이사회, 추가 5만명 감원 계획 승인",
       "startAt": "2026-09-04T05:33:14.000Z",
@@ -439,30 +462,6 @@
           "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-09-04T05:33:14.000Z",
-        "lastObservedAt": "2026-09-04T05:49:41.355Z"
-      }
-    },
-    {
-      "id": "news-8f2c23a326488faab1ddea66",
-      "title": "북아일랜드 재생에너지 발전, 사상 최고치 기록 — 연초 이후 재생발전이 비재생 추월",
-      "startAt": "2026-09-04T05:11:45.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "북아일랜드의 재생에너지 발전이 기록적 수준에 도달했으며, 올해 1월 이후 재생 전력이 비재생 전력을 지속적으로 상회한 것으로 보도됐다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ce3rql5rzx4o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ce3rql5rzx4o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-04T05:11:45.000Z",
         "lastObservedAt": "2026-09-04T05:49:41.355Z"
       }
     },
@@ -881,36 +880,6 @@
         ],
         "firstPublishedAt": "2026-08-29T12:02:55.000Z",
         "lastObservedAt": "2026-08-30T06:35:48.648Z"
-      }
-    },
-    {
-      "id": "news-b6f5fc0820288c8b36a1a993",
-      "title": "트럼프의 대(對)캐나다 통상 분쟁에 디트로이트 경제 직격탄 — 지역 불안 고조",
-      "startAt": "2026-08-28T11:00:56.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 도널드 트럼프 행정부의 캐나다산 자동차·철강 등에 대한 높은 관세 조치가 디트로이트·윈저 지역의 교역과 공급망에 큰 충격을 주며 지역 경제와 정치적 불안을 확대하고 있다고 보도했다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/28/trump-canada-trade-war-detroit-michigan",
-      "topicIds": [
-        "economyFinance",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
-          "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
-          "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
-          "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto",
-          "https://www.npr.org/2026/08/24/nx-s1-5942972/the-view-from-canada-after-u-s-trade-negotiations-collapse",
-          "https://www.theguardian.com/us-news/2026/aug/28/trump-canada-trade-war-detroit-michigan"
-        ],
-        "firstPublishedAt": "2026-08-18T00:02:31.000Z",
-        "lastObservedAt": "2026-08-28T12:43:44.561Z"
       }
     },
     {
