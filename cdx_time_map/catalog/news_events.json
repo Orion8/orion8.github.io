@@ -1,8 +1,108 @@
 {
-  "catalogVersion": "0.0.89",
-  "updatedAt": "2026-09-07T06:01:55.014Z",
+  "catalogVersion": "0.0.90",
+  "updatedAt": "2026-09-07T18:15:04.988Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-61b3889e91acb99e232d75e5",
+      "title": "마이애미 국제공항 화물기 추락 — 5명 사망",
+      "startAt": "2026-09-07T11:11:51.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "마이애미 국제공항에서 화물기가 추락해 최소 5명이 숨지고 여러 명이 부상했다고 보도되었다. 사고 현장과 인명·원인 조사는 진행 중이다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/07/g-s1-142210/up-first-newsletter-miami-plane-crash-ukraine-affirmative-for-germany",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/07/g-s1-142210/up-first-newsletter-miami-plane-crash-ukraine-affirmative-for-germany"
+        ],
+        "firstPublishedAt": "2026-09-07T11:11:51.000Z",
+        "lastObservedAt": "2026-09-07T18:15:04.988Z"
+      }
+    },
+    {
+      "id": "news-aa79bcae95b1cb2e72931017",
+      "title": "노스요크셔 노스터필드에서 희귀 반딧불이 재도입 성공",
+      "startAt": "2026-09-07T10:49:40.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "노스터필드 자연보호구역에서 자원봉사자들이 정성껏 사육한 반딧불이 유충을 방사한 뒤 수주간 암컷 반딧불이가 관찰되며, 수십 년 만에 지역에서 반딧불이의 번성이 다시 확인되었다. 비용이 거의 들지 않는 지역 기반 재도입 사례로서 멸종 위기 무척추동물 보전의 실용적 모델로 주목된다.",
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/sep/07/glowworms-shine-again-north-yorkshire-larvae-reintroduction",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/sep/07/glowworms-shine-again-north-yorkshire-larvae-reintroduction"
+        ],
+        "firstPublishedAt": "2026-09-07T10:49:40.000Z",
+        "lastObservedAt": "2026-09-07T18:15:04.988Z"
+      }
+    },
+    {
+      "id": "news-3e20e544fc3cfc552a812693",
+      "title": "쿠슈너·위트코프 미 특사단, 모스크바 회담 뒤 키이우 방문—평화회담 재개 시도",
+      "startAt": "2026-09-07T10:43:43.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "도널드 트럼프 측의 고위 특사인 재러드 쿠슈너와 스티브 위트코프가 모스크바에서 블라디미르 푸틴과 회담한 뒤 우크라이나 키이우를 방문해 평화회담 재개를 모색하고 있다. 미 행정부는 이들이 향후 협상을 위한 '다음 단계'를 협의했다고 밝혔다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/07/nx-s1-5959692/kushner-and-witkoff-visit-ukraine-with-hopes-of-restarting-peace-talks-with-russia",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities",
+          "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+          "https://www.npr.org/2026/09/06/nx-s1-5959728/u-s-envoys-visit-kyiv-for-first-time-after-meeting-putin-in-moscow",
+          "https://www.npr.org/2026/09/07/nx-s1-5959692/kushner-and-witkoff-visit-ukraine-with-hopes-of-restarting-peace-talks-with-russia"
+        ],
+        "firstPublishedAt": "2026-09-05T15:14:21.000Z",
+        "lastObservedAt": "2026-09-07T18:15:04.988Z"
+      }
+    },
+    {
+      "id": "news-e7a16a750d4f01ff733d662a",
+      "title": "베피콜롬보, 수성 도착 단계 시작—MTM 분리 성공",
+      "startAt": "2026-09-07T08:25:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "유럽우주국(ESA)과 일본우주항공연구개발기구(JAXA)의 합동 탐사선 베피콜롬보가 2026년 9월 3일 15:49 CEST에 수성 접근을 위한 핵심 절차를 완료했다. 미션 관제는 머큐리 트랜스퍼 모듈(MTM)이 우주선 스택에서 성공적으로 분리되었음을 확인했으며, 이는 수성 최종 도착을 향한 첫 번째 주요 단계로 평가된다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/09/BepiColombo_s_Mercury_arrival_begins_-_full_replay",
+          "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
+          "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success"
+        ],
+        "firstPublishedAt": "2026-08-27T05:17:00.000Z",
+        "lastObservedAt": "2026-09-07T18:15:04.988Z"
+      }
+    },
     {
       "id": "news-ee547b076d06fe3ed12e5852",
       "title": "독일 극우 정당 AfD, 작센안할트주에서 약 44% 득표로 큰 승리 선언(과반엔 미달)",
@@ -23,32 +123,6 @@
           "https://www.bbc.co.uk/news/articles/c986w38r4j5o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-09-07T04:48:02.000Z",
-        "lastObservedAt": "2026-09-07T06:01:55.014Z"
-      }
-    },
-    {
-      "id": "news-3e20e544fc3cfc552a812693",
-      "title": "미 특사단(재러드 쿠슈너·스티브 위트코프), 모스크바 회담 뒤 키이우 방문",
-      "startAt": "2026-09-06T21:06:49.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미 특사단이 모스크바에서 블라디미르 푸틴과 회담한 뒤 우크라이나의 수도 키이우를 방문해 우크라이나 측과 접촉을 시작했다고 보도되었다. 백악관은 이들이 향후 협상을 위한 '다음 단계'를 협의했다고 밝혔다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/06/nx-s1-5959728/u-s-envoys-visit-kyiv-for-first-time-after-meeting-putin-in-moscow",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities",
-          "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
-          "https://www.npr.org/2026/09/06/nx-s1-5959728/u-s-envoys-visit-kyiv-for-first-time-after-meeting-putin-in-moscow"
-        ],
-        "firstPublishedAt": "2026-09-05T15:14:21.000Z",
         "lastObservedAt": "2026-09-07T06:01:55.014Z"
       }
     },
@@ -302,31 +376,6 @@
       }
     },
     {
-      "id": "news-e7a16a750d4f01ff733d662a",
-      "title": "베피콜롬보, 8년 만에 수성 최종 접근 단계 진입",
-      "startAt": "2026-09-04T22:49:17.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "ESA·JAXA의 베피콜롬보 탐사선이 약 8년간의 여정을 거쳐 수성 도착을 위한 최종 궤도 삽입 단계에 진입했다. 머큐리 트랜스퍼 모듈(MTM) 분리 등 복잡한 삽입 시퀀스가 진행되고 있다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/09/BepiColombo_s_Mercury_arrival_begins_-_full_replay",
-          "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/"
-        ],
-        "firstPublishedAt": "2026-08-27T05:17:00.000Z",
-        "lastObservedAt": "2026-09-05T05:40:48.913Z"
-      }
-    },
-    {
       "id": "news-9465fb417d50df5c309a4349",
       "title": "러시아 배후 의심 속 유럽 전역 표적 사보타주 캠페인 확산",
       "startAt": "2026-09-04T16:49:15.000Z",
@@ -418,28 +467,6 @@
           "https://www.aljazeera.com/news/2026/9/4/winds-of-change-how-milei-is-stirring-falklands-claim-amid-trump-uk-spat?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-09-04T05:30:29.000Z",
-        "lastObservedAt": "2026-09-04T16:51:19.586Z"
-      }
-    },
-    {
-      "id": "news-ae72b715ab091670307999c9",
-      "title": "콜롬비아 대통령 데 라 에스프리에야, 시신봉지 앞 영상 공개로 국제적 규탄",
-      "startAt": "2026-09-04T13:50:43.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "아벨라르도 데 라 에스프리에야 콜롬비아 대통령이 사회관계망에 무력화된 게릴라 23명의 시신이 담긴 흰색 시신봉지 행렬을 배경으로 한 영상을 게시해 국내외에서 강한 비난과 우려가 제기되고 있다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/sep/04/colombia-president-posts-video-guerrillas-body-bags-abelardo-de-la-espriella",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/sep/04/colombia-president-posts-video-guerrillas-body-bags-abelardo-de-la-espriella"
-        ],
-        "firstPublishedAt": "2026-09-04T13:50:43.000Z",
         "lastObservedAt": "2026-09-04T16:51:19.586Z"
       }
     },
@@ -858,28 +885,6 @@
         ],
         "firstPublishedAt": "2026-08-31T07:00:00.000Z",
         "lastObservedAt": "2026-09-01T06:14:08.802Z"
-      }
-    },
-    {
-      "id": "news-013b86578a4d2c1af2a11ce3",
-      "title": "캐나다인들, 트럼프 관세에 반발해 미국산 제품 불매 확산",
-      "startAt": "2026-08-29T12:02:55.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언 비즈니스 보도에 따르면 트럼프 행정부의 관세 부과 이후 일부 캐나다 소비자들이 기술·위스키·항공 등 미국산 상품·서비스를 의도적으로 회피하는 움직임을 보이고 있다. 인터뷰 사례로 한 기계공은 관세 발표 이후 미국 제품 불매를 시작했으며 생활비가 오르더라도 ‘캐나다산 우선’ 방침을 유지하고 있다고 전했다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/aug/29/if-its-made-in-the-us-i-dont-buy-it-canadians-on-boycotting-trumps-america",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/aug/29/if-its-made-in-the-us-i-dont-buy-it-canadians-on-boycotting-trumps-america"
-        ],
-        "firstPublishedAt": "2026-08-29T12:02:55.000Z",
-        "lastObservedAt": "2026-08-30T06:35:48.648Z"
       }
     },
     {
