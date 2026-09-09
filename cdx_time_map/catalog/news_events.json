@@ -1,8 +1,98 @@
 {
-  "catalogVersion": "0.0.92",
-  "updatedAt": "2026-09-08T17:14:48.639Z",
+  "catalogVersion": "0.0.93",
+  "updatedAt": "2026-09-09T05:56:59.037Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-cfdae9ee96d7517d4644fe0a",
+      "title": "미국 법정서 '대규모 암호화폐 강탈' 관련 싱가포르인 유죄 인정",
+      "startAt": "2026-09-09T05:49:30.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "미 연방법원에서 싱가포르인 Malone Lam이 미국 당국이 '대규모 암호화폐 강탈' 사건과 관련해 제기한 혐의에 대해 유죄를 인정했다고 BBC가 보도했다. 당국은 범죄 수익이 사치스러운 생활비로 사용됐다고 밝혔다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crl6z03pr0do?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crl6z03pr0do?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-09T05:49:30.000Z",
+        "lastObservedAt": "2026-09-09T05:56:59.037Z"
+      }
+    },
+    {
+      "id": "news-feecc4e0693cef7e47748e69",
+      "title": "페루서 약 600년 전 치무(Chimu) 왕국의 거의 온전한 무덤 발굴",
+      "startAt": "2026-09-09T04:57:02.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "페루 고고학자들이 사전 잉카 문명인 치무 왕국의 거의 온전한 장례 플랫폼(무덤)을 발굴했다고 알자지라가 보도했다. 유적은 약 600년 전 것으로 추정되며, 선사·고고학적 가치가 큰 발견으로 평가된다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/9/600-year-old-tomb-of-pre-incan-chimu-kingdom-found-in-peru?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/9/9/600-year-old-tomb-of-pre-incan-chimu-kingdom-found-in-peru?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-09T04:57:02.000Z",
+        "lastObservedAt": "2026-09-09T05:56:59.037Z"
+      }
+    },
+    {
+      "id": "news-56d13e25b9d74ca27832c935",
+      "title": "미군, 이란 유조선 5척 파괴 — 미·이란 간 군사적 긴장 고조",
+      "startAt": "2026-09-09T04:26:38.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미군은 자국 군함에 대한 최근 공격에 대응해 이란 소유로 추정되는 유조선 5척을 파괴했다고 밝혔다. 보도에 따르면 이란은 요르단의 미국 목표를 공격했고 이번 상호 타격으로 국제 유가가 배럴당 약 $100 근처로 오르는 등 지정학적·경제적 파장이 나타나고 있다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/09/nx-s1-5962641/us-destroy-iranian-oil-tankers",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/09/nx-s1-5962641/us-destroy-iranian-oil-tankers",
+          "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-09T05:20:45.000Z",
+        "lastObservedAt": "2026-09-09T05:56:59.037Z"
+      }
+    },
+    {
+      "id": "news-101cdf684d5fd5643b06c001",
+      "title": "인도네시아 아낙 크라카타우(Anak Krakatau) 재분화 — 항공 운항 차질·대기질 악화",
+      "startAt": "2026-09-09T04:01:00.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "인도네시아 화산 아낙 크라카타우가 강력하게 분화해 화산재를 대기권에 뿜어 수천 편의 항공편이 차질을 빚고 공기질이 악화되었다고 NASA가 보도했다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/anak-krakatau-rumbles-again/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/earth/earth-observatory/anak-krakatau-rumbles-again/"
+        ],
+        "firstPublishedAt": "2026-09-09T04:01:00.000Z",
+        "lastObservedAt": "2026-09-09T05:56:59.037Z"
+      }
+    },
     {
       "id": "news-9d4a63ebefb826ec83cbef58",
       "title": "영국의 이스라엘 정착촌 제재에 대해 UN 전문가가 '지각변동'이라 평가",
@@ -67,6 +157,29 @@
         ],
         "firstPublishedAt": "2026-09-08T14:00:15.000Z",
         "lastObservedAt": "2026-09-08T17:14:48.639Z"
+      }
+    },
+    {
+      "id": "news-311a59fc5ae8b7f642ff4f0f",
+      "title": "호주, 소셜미디어 알고리즘 기본 피드 선택권 제공 요구 발표",
+      "startAt": "2026-09-08T13:24:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "호주 정부는 소셜미디어 플랫폼이 신규·기존 사용자에게 기본 피드에 대한 선택권을 제공하도록 알림을 보낼 것을 요구한다고 발표했다. 보도에 따르면 플랫폼은 이용자에게 알고리즘 기반 피드를 계속 사용할지 또는 대체를 선택할지를 고지해야 한다고 했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/08/g-s1-142311/australian-social-media-users-to-be-offered-choice-to-opt-out-of-algorithms",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/08/g-s1-142311/australian-social-media-users-to-be-offered-choice-to-opt-out-of-algorithms"
+        ],
+        "firstPublishedAt": "2026-09-08T13:24:00.000Z",
+        "lastObservedAt": "2026-09-09T05:56:59.037Z"
       }
     },
     {
@@ -397,52 +510,6 @@
       }
     },
     {
-      "id": "news-bfa4153613e8a8207409d301",
-      "title": "타이즈서 예멘군과 후티 간 격전 — 전략적 지구 점령 주장과 민간인 피해 보고",
-      "startAt": "2026-09-06T05:02:17.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "타이즈 지역에서 예멘 정부군(또는 친정부 무장세력)이 전략적 지구를 점령했다고 주장하는 가운데 후티 반군과의 전투가 격화되어 민간인을 포함해 60명 이상이 사망했다고 보도되었다. 지역 인도주의 상황과 추가적 난민·피난 우려가 제기되고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/6/yemeni-forces-claim-strategic-district-amid-intensified-houthi-clashes?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/6/yemeni-forces-claim-strategic-district-amid-intensified-houthi-clashes?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-06T05:02:17.000Z",
-        "lastObservedAt": "2026-09-06T05:52:40.831Z"
-      }
-    },
-    {
-      "id": "news-8eb3e49aed8e9bd6c881e90e",
-      "title": "미 특사단, 푸틴과 논의 후 우크라이나 협상 위해 이동 예정(업데이트)",
-      "startAt": "2026-09-06T02:24:16.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "스티브 위트코프와 재러드 쿠슈너로 구성된 미 특사단이 모스크바에서 푸틴과 논의한 뒤 우크라이나 측과의 후속 협상을 위해 이동할 예정이라고 백악관이 전했다. 특사단은 향후 실질적 합의와 추가 조치에 대해 ‘다음 단계’를 협의했다고 밝혔다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace",
-          "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-05T11:08:57.000Z",
-        "lastObservedAt": "2026-09-06T05:52:40.831Z"
-      }
-    },
-    {
       "id": "news-6df0f5d81c2b28a3d9afe94e",
       "title": "시애틀 타임스·뉴스데이, OpenAI·마이크로소프트 상대로 소송 제기 — 기사 무단 학습 주장",
       "startAt": "2026-09-05T22:49:55.000Z",
@@ -463,29 +530,6 @@
         ],
         "firstPublishedAt": "2026-09-05T22:49:55.000Z",
         "lastObservedAt": "2026-09-07T06:01:55.014Z"
-      }
-    },
-    {
-      "id": "news-aa8643b289026f155b0783b0",
-      "title": "유엔 새 기후보고서 발표 뒤 기후운동가들 행동 촉구 — 지구 온도 1.5℃ 도달 경고",
-      "startAt": "2026-09-05T21:01:08.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "새 유엔 기후보고서에서 지구 평균온도가 산업화 이전 대비 1.5℃ 수준까지 상승할 가능성이 제기되자 기후해결론자들이 즉각적인 정책 이행과 기후대응 속도 가속을 촉구하고 있다. 활동가 어야나 엘리자베스 존슨 등은 이미 알려진 해법의 신속한 적용과 정치적 결단을 강조했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/05/nx-s1-5954264/this-is-the-work-of-our-lifetime-ayana-elizabeth-johnson-urges-action-after-new-un-climate-report",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/05/nx-s1-5954264/this-is-the-work-of-our-lifetime-ayana-elizabeth-johnson-urges-action-after-new-un-climate-report"
-        ],
-        "firstPublishedAt": "2026-09-05T21:01:08.000Z",
-        "lastObservedAt": "2026-09-06T05:52:40.831Z"
       }
     },
     {
@@ -837,29 +881,6 @@
         ],
         "firstPublishedAt": "2026-09-01T17:30:35.000Z",
         "lastObservedAt": "2026-09-02T05:45:40.347Z"
-      }
-    },
-    {
-      "id": "news-a43eb22dc314e0f7d45a1892",
-      "title": "터키, 아르테미스 협정 공식 서명 — 71번째 가입국",
-      "startAt": "2026-08-31T21:14:12.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 발표에 따르면 공공행사에서 터키가 아르테미스 협정에 서명해 71번째 서명국이 됐다고 밝혔다. 서명식은 NASA 본부에서 개최됐으며 NASA 관리와 터키 측 인사가 참석했다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-turkiye-as-newest-artemis-accords-signatory/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-invites-media-to-turkey-artemis-accords-signing-ceremony/",
-          "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-turkiye-as-newest-artemis-accords-signatory/"
-        ],
-        "firstPublishedAt": "2026-08-27T18:42:38.000Z",
-        "lastObservedAt": "2026-09-01T17:19:26.229Z"
       }
     },
     {
