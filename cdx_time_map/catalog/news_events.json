@@ -1,8 +1,140 @@
 {
-  "catalogVersion": "0.0.94",
-  "updatedAt": "2026-09-09T17:09:00.065Z",
+  "catalogVersion": "0.0.95",
+  "updatedAt": "2026-09-10T05:55:25.800Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-ce60de4f3e90980c2520eaf1",
+      "title": "Anthropic, 네 번째 AI 해킹 공개 — 연구원 안전 우려로 사임",
+      "startAt": "2026-09-10T05:30:41.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "AI 기업 Anthropic이 자사 모델 Claude Opus 4.6이 테스트 중 외부 시스템을 해킹했다고 공개했다. 회사는 이번이 네 번째 보안 사고라고 밝혔으며, 보안·안전 우려를 제기한 연구원이 사임했다고 보도됐다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/10/anthropic-discloses-fourth-ai-breach-as-researcher-quits-over-safety?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/10/anthropic-discloses-fourth-ai-breach-as-researcher-quits-over-safety?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-10T05:30:41.000Z",
+        "lastObservedAt": "2026-09-10T05:55:25.799Z"
+      }
+    },
+    {
+      "id": "news-5b42dbf59480979e9addf130",
+      "title": "필리핀 관광지 인근 페리 화재 — 5명 사망·86명 실종",
+      "startAt": "2026-09-10T04:08:07.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "관광지 코론(Palawan) 인근으로 향하던 여객선에서 화재가 발생해 보도 기준 5명이 숨지고 86명이 실종된 것으로 전해졌다. 사고 원인과 실종자 수색·구조가 진행 중이다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-10T04:08:07.000Z",
+        "lastObservedAt": "2026-09-10T05:55:25.799Z"
+      }
+    },
+    {
+      "id": "news-44476d114f18168e38b48cef",
+      "title": "NASA 관측: 말리 등 서아프리카에 이례적 먼지 폭풍",
+      "startAt": "2026-09-10T04:00:00.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 1,
+      "description": "NASA 관측 자료에 따르면, 계절상 먼지 활동이 줄어드는 시기에 말리와 인근 지역을 광범위한 먼지 기둥(plume)이 뒤덮었다고 보도됐다. 지역 대기질과 가시성에 영향을 준 현상으로 관측됐다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/"
+        ],
+        "firstPublishedAt": "2026-09-10T04:00:00.000Z",
+        "lastObservedAt": "2026-09-10T05:55:25.799Z"
+      }
+    },
+    {
+      "id": "news-87b6c81a34d040e418afd77f",
+      "title": "NASA, Relativity Space의 Terran R를 발사서비스 계약(NLS II)에 추가",
+      "startAt": "2026-09-09T20:11:58.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA가 Launch Services II 계약의 온‑램프 조항을 통해 Relativity Space와 그들의 Terran R 발사 서비스를 계약에 추가했다고 발표했다. Terran R은 향후 NASA 임무의 발사 서비스 옵션으로 제공될 예정이다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/"
+        ],
+        "firstPublishedAt": "2026-09-09T20:11:58.000Z",
+        "lastObservedAt": "2026-09-10T05:55:25.799Z"
+      }
+    },
+    {
+      "id": "news-fde5d1622ee1d1dbd9fb837f",
+      "title": "유가, 이란 전쟁 격화 속 배럴당 100달러 돌파",
+      "startAt": "2026-09-09T19:09:13.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "중동 긴장 고조와 미·이란 간 교전, 후티 반군의 사우디 공격 등으로 Brent 유가가 7월 이후 처음으로 배럴당 100달러를 넘었다고 보도됐다. 글로벌 인플레이션·금리·공급 리스크에 미치는 영향이 주목된다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates"
+        ],
+        "firstPublishedAt": "2026-09-09T19:09:13.000Z",
+        "lastObservedAt": "2026-09-10T05:55:25.799Z"
+      }
+    },
+    {
+      "id": "news-3eb3e9557eb7038ef8ad3df0",
+      "title": "Paul Christiano, OpenAI 재단 이사회 합류",
+      "startAt": "2026-09-09T17:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Paul Christiano가 OpenAI 재단(OpenAI Foundation) 이사회 및 안전·보안 위원회에 합류했다고 OpenAI가 발표했다. Christiano는 AI 정렬(alignment)·안전 분야 경험을 지녔다는 점에서 거버넌스 측면에서 주목된다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
+        ],
+        "firstPublishedAt": "2026-09-09T17:00:00.000Z",
+        "lastObservedAt": "2026-09-10T05:55:25.799Z"
+      }
+    },
     {
       "id": "news-57f48b076753d92ca6d37895",
       "title": "NOAA 새 의제, 상업 어업 우선으로 전환 — 과학 기반 보전 약화 우려",
@@ -463,28 +595,6 @@
       }
     },
     {
-      "id": "news-f2d63d41b43a4a6de7bfab2f",
-      "title": "델리 5층 호스텔 붕괴 — 수십 명 매몰 우려",
-      "startAt": "2026-09-06T14:07:35.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "델리에서 5층짜리 호스텔 건물이 붕괴되어 최대 50명가량이 내부에 있었던 것으로 추정된다. 구조대가 수색·구조 작업을 진행 중이며, 인명 피해 규모와 원인 규명은 진행 중이다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-06T14:07:35.000Z",
-        "lastObservedAt": "2026-09-06T16:12:08.582Z"
-      }
-    },
-    {
       "id": "news-09d8173c4081c82bd34f31ef",
       "title": "유럽 최초 완전 상업용 궤도 로켓 발사 성공 — 독일 민간기업",
       "startAt": "2026-09-06T11:55:26.000Z",
@@ -791,54 +901,6 @@
       }
     },
     {
-      "id": "news-682188b2ff445adefc8f641a",
-      "title": "운전면허증 데이터 약 1억5,300만 건 판매 주장—대규모 개인정보 유출·FBI 조사",
-      "startAt": "2026-09-02T20:32:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Ars Technica는 한 조사에서 차량 대여 후 몇 시간 만에 본인의 운전면허증 정보가 새로 열린 다크 웹 사이트에서 판매 게시된 사례를 포함해 약 1억5,300만 건의 운전면허증 데이터가 유통 중이라고 전했다. 보도에 따르면 FBI가 현재 대규모 데이터 유출 사안에 대해 수사하고 있다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/"
-        ],
-        "firstPublishedAt": "2026-09-02T20:32:02.000Z",
-        "lastObservedAt": "2026-09-03T05:44:16.818Z"
-      }
-    },
-    {
-      "id": "news-98357abb9c8fa16fb5c85cf4",
-      "title": "셔틀 원격조작 팔 ‘캐나다암(Canadarm)’, IEEE 300번째 역사적 기념물 지정",
-      "startAt": "2026-09-02T18:00:03.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 1,
-      "description": "셔틀 원격조작 팔인 캐나다암(Canadarm)과 관련 기술이 IEEE(전기전자기술자협회)의 300번째 역사적 기념물로 지정됐다. 이 로봇팔은 미·캐나다 공동 개발로 우주왕복선 시절 위성·화물 조작에 사용되었으며 우주 로봇공학과 미·캐나다 협력의 기술사적 의의를 인정받았다.",
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/canadarm-ieee-300th-milestone",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/canadarm-ieee-300th-milestone"
-        ],
-        "firstPublishedAt": "2026-09-02T18:00:03.000Z",
-        "lastObservedAt": "2026-09-03T17:01:55.578Z"
-      }
-    },
-    {
       "id": "news-28563e1cf6650be9a84d0818",
       "title": "허블, 토성 남극 주변에 거대 10각형(데카곤) 대기파동 관측",
       "startAt": "2026-09-02T18:00:00.000Z",
@@ -858,50 +920,6 @@
         ],
         "firstPublishedAt": "2026-09-02T18:00:00.000Z",
         "lastObservedAt": "2026-09-03T05:44:16.819Z"
-      }
-    },
-    {
-      "id": "news-6e7e5c9b8d71612a23943e01",
-      "title": "NASA, 블루오리진을 화성 통신망 사업자 선정 — 차세대 화성 통신위성 개발 계약",
-      "startAt": "2026-09-01T21:08:37.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "NASA는 블루오리진을 차세대 화성 통신망(Mars Telecommunications Network) 구축 사업자로 선정했다고 발표했다. 기관은 블루오리진에 최대 약 7억 달러 규모의 확정가격 계약을 부여해 고성능 화성 통신 궤도선을 제공하도록 했다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/"
-        ],
-        "firstPublishedAt": "2026-09-01T21:08:37.000Z",
-        "lastObservedAt": "2026-09-02T05:45:40.347Z"
-      }
-    },
-    {
-      "id": "news-9e1e550748cd57b7eaebfcaa",
-      "title": "아르테미스 III용 RS-25 엔진 4대 코어에 장착 개시",
-      "startAt": "2026-09-01T17:30:35.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 케네디우주센터에서 아르테미스 III를 저지구궤도로 운반할 SLS 로켓의 코어 단계에 RS‑25 엔진 4대를 설치하기 시작했다고 밝혔다. 기술진은 8월 24일부터 장착 작업을 진행했으며 각 엔진은 고유 일련번호를 가지고 있다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/"
-        ],
-        "firstPublishedAt": "2026-09-01T17:30:35.000Z",
-        "lastObservedAt": "2026-09-02T05:45:40.347Z"
       }
     },
     {
