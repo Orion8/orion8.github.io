@@ -1,8 +1,144 @@
 {
-  "catalogVersion": "0.0.95",
-  "updatedAt": "2026-09-10T05:55:25.800Z",
+  "catalogVersion": "0.0.96",
+  "updatedAt": "2026-09-10T16:59:28.808Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-d6ef2cb358e1c9db8b674536",
+      "title": "미 합중국 대법원, 미주리 공화당이 그린 의회선거구도 효력 정지",
+      "startAt": "2026-09-10T16:44:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미 연방대법원이 미주리주에서 공화당 주도로 그려진 의회 선거구 지도를 차단했다고 알자지라가 보도했다. 보도에 따르면 이번 거부는 하급심 판결을 무시한 공화당 관리가 법정모독(contempt) 혐의에 직면한 상황에서 나왔다. 판결은 주(州) 차원의 정치적 선거구 획정 분쟁과 관련한 사법적 제동으로 해석된다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/10/us-supreme-court-blocks-republican-drawn-congressional-map-in-missouri?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/10/us-supreme-court-blocks-republican-drawn-congressional-map-in-missouri?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-10T16:44:13.000Z",
+        "lastObservedAt": "2026-09-10T16:59:28.808Z"
+      }
+    },
+    {
+      "id": "news-fde5d1622ee1d1dbd9fb837f",
+      "title": "중동 긴장 속 유가 급등 — 석유·가스 가격과 차입비용 급등 보도",
+      "startAt": "2026-09-10T15:56:33.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "BBC는 중동 사태 장기화 우려 속에 유가가 배럴당 약 105달러까지 상승했다고 보도했다. 기사에서는 이란 관련 전쟁이 빠르게 해결되지 않을 조짐이 보이며 원유·가스 가격 상승과 함께 글로벌 차입비용·금융시장 불안이 확대되고 있다고 전했다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y48rz2nddo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates",
+          "https://www.bbc.co.uk/news/articles/c5y48rz2nddo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-09T19:09:13.000Z",
+        "lastObservedAt": "2026-09-10T16:59:28.808Z"
+      }
+    },
+    {
+      "id": "news-b1c1f4440fef2100806c4ac8",
+      "title": "우간다 전통왕국서 왕위 계승 분쟁 표면화 — 비밀 아들 존재 주장으로 갈등 확대",
+      "startAt": "2026-09-10T15:53:29.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언 보도에 따르면, 최근 미국에서 암 치료를 받다 사망한 토로(Tooro) 왕국의 전임 국왕 오요(王 Oyo Nyimba Kabamba Iguru Rukidi IV) 사후, 가족 측이 숨겨진 아들의 존재를 주장하며 왕위 계승을 둘러싼 격렬한 분쟁이 벌어지고 있다. 위계·전통과 현대 법·정치의 충돌로 지역 사회·제도적 파장이 주목된다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute"
+        ],
+        "firstPublishedAt": "2026-09-10T15:53:29.000Z",
+        "lastObservedAt": "2026-09-10T16:59:28.808Z"
+      }
+    },
+    {
+      "id": "news-ee2d77ef6bc15477a5367ac5",
+      "title": "NASA 임무 역사: 아르테미스 II 지휘관·조종사 '우주비행사 명예 퇴역(emeriti)' 지정",
+      "startAt": "2026-09-10T11:30:42.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "Ars Technica는 아르테미스 II 임무의 지휘관과 조종사가 NASA의 첫 'astronaut emeriti'(명예 퇴역 우주비행사)로 지정되었다고 보도했다. 보도는 이 조치가 해당 임무의 공식적 마무리와 미 항공우주인사 제도의 전통·기록 관리를 반영한다고 전했다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/09/artemis-ii-commander-and-pilot-become-nasas-first-astronaut-emeriti/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/09/artemis-ii-commander-and-pilot-become-nasas-first-astronaut-emeriti/"
+        ],
+        "firstPublishedAt": "2026-09-10T11:30:42.000Z",
+        "lastObservedAt": "2026-09-10T16:59:28.808Z"
+      }
+    },
+    {
+      "id": "news-596338bb200f90ded8edf9de",
+      "title": "유럽 기후서비스: 8월이 관측 사상 가장 더운 달 기록",
+      "startAt": "2026-09-10T08:54:00.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "NPR는 유럽기후서비스(Copernicus)의 분석을 인용해 8월이 관측 사상 지구에서 가장 더운 달이었다고 보도했다. 보도는 이번 기록적 고온이 주로 인간이 초래한 기후변화에 따른 것이라고 과학자들이 평가하고 있음을 전했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/10/nx-s1-5964676/scientists-august-hottest",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/10/nx-s1-5964676/scientists-august-hottest"
+        ],
+        "firstPublishedAt": "2026-09-10T08:54:00.000Z",
+        "lastObservedAt": "2026-09-10T16:59:28.808Z"
+      }
+    },
+    {
+      "id": "news-3802aa15c4b6ae22021ae0ee",
+      "title": "OpenAI·미 연방총무청 협력: 정부에 대한 AI 접근성·사이버 방어 확대 발표",
+      "startAt": "2026-09-10T07:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI는 GSA(미 연방총무청)와 협력해 연방·주·지방·부족정부 등 적격 기관에 대해 라이선스 수수료 면제, 사용료 50% 할인, 확장된 사이버 방어 지원 등을 제공한다고 보도자료에서 밝혔다. 해당 조치는 공공부문에서의 AI 도입·사이버 보안 역량 확장과 관련된 민관협력 사례로 주목된다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/expanding-ai-access-us-government",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/expanding-ai-access-us-government"
+        ],
+        "firstPublishedAt": "2026-09-10T07:00:00.000Z",
+        "lastObservedAt": "2026-09-10T16:59:28.808Z"
+      }
+    },
     {
       "id": "news-ce60de4f3e90980c2520eaf1",
       "title": "Anthropic, 네 번째 AI 해킹 공개 — 연구원 안전 우려로 사임",
@@ -70,6 +206,30 @@
       }
     },
     {
+      "id": "news-929774cbcd297929fa1506a0",
+      "title": "공격자들이 동일한 크롬·윈도우 익스플oit 키트 사용 포착 — 취약점·패치 공백 우려",
+      "startAt": "2026-09-09T20:55:02.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica는 네 개의 서로 다른 공격 그룹이 동일한 크롬 및 윈도우 익스플로잇 키트를 사용해온 정황을 포착했다고 보도했다. 기사에서는 패치 지연과 AI 기반 취약점 탐지·악용 속도의 가속이 이러한 상황의 원인일 수 있다고 지적했다. 이는 소프트웨어 공급망·사이버 방어 전략에 대한 정책적·운영적 대응 필요성을 시사한다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/"
+        ],
+        "firstPublishedAt": "2026-09-09T20:55:02.000Z",
+        "lastObservedAt": "2026-09-10T16:59:28.808Z"
+      }
+    },
+    {
       "id": "news-87b6c81a34d040e418afd77f",
       "title": "NASA, Relativity Space의 Terran R를 발사서비스 계약(NLS II)에 추가",
       "startAt": "2026-09-09T20:11:58.000Z",
@@ -88,28 +248,6 @@
           "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/"
         ],
         "firstPublishedAt": "2026-09-09T20:11:58.000Z",
-        "lastObservedAt": "2026-09-10T05:55:25.799Z"
-      }
-    },
-    {
-      "id": "news-fde5d1622ee1d1dbd9fb837f",
-      "title": "유가, 이란 전쟁 격화 속 배럴당 100달러 돌파",
-      "startAt": "2026-09-09T19:09:13.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "중동 긴장 고조와 미·이란 간 교전, 후티 반군의 사우디 공격 등으로 Brent 유가가 7월 이후 처음으로 배럴당 100달러를 넘었다고 보도됐다. 글로벌 인플레이션·금리·공급 리스크에 미치는 영향이 주목된다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates"
-        ],
-        "firstPublishedAt": "2026-09-09T19:09:13.000Z",
         "lastObservedAt": "2026-09-10T05:55:25.799Z"
       }
     },
@@ -433,29 +571,6 @@
       }
     },
     {
-      "id": "news-61b3889e91acb99e232d75e5",
-      "title": "마이애미 국제공항 화물기 추락 — 5명 사망",
-      "startAt": "2026-09-07T11:11:51.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "마이애미 국제공항에서 화물기가 추락해 최소 5명이 숨지고 여러 명이 부상했다고 보도되었다. 사고 현장과 인명·원인 조사는 진행 중이다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/07/g-s1-142210/up-first-newsletter-miami-plane-crash-ukraine-affirmative-for-germany",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/07/g-s1-142210/up-first-newsletter-miami-plane-crash-ukraine-affirmative-for-germany"
-        ],
-        "firstPublishedAt": "2026-09-07T11:11:51.000Z",
-        "lastObservedAt": "2026-09-07T18:15:04.988Z"
-      }
-    },
-    {
       "id": "news-aa79bcae95b1cb2e72931017",
       "title": "노스요크셔 노스터필드에서 희귀 반딧불이 재도입 성공",
       "startAt": "2026-09-07T10:49:40.000Z",
@@ -570,28 +685,6 @@
         ],
         "firstPublishedAt": "2026-09-06T17:05:11.000Z",
         "lastObservedAt": "2026-09-07T06:01:55.014Z"
-      }
-    },
-    {
-      "id": "news-08df1fb6c7c6233a849d8c3d",
-      "title": "니제르 군부, 실패한 반란 배후로 프랑스 지목",
-      "startAt": "2026-09-06T15:42:00.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "니제르 군부는 최근 발생한 실패한 반란의 배후로 프랑스가 관여했다고 주장했으며, 프랑스 당국은 이를 부인했다. 양측의 주장이 엇갈리면서 프랑스와 니제르 간 외교적 긴장이 고조되고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/6/niger-military-accuses-france-of-orchestrating-failed-mutiny-what-to-know?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/6/niger-military-accuses-france-of-orchestrating-failed-mutiny-what-to-know?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-06T15:42:00.000Z",
-        "lastObservedAt": "2026-09-06T16:12:08.582Z"
       }
     },
     {
@@ -833,28 +926,6 @@
       }
     },
     {
-      "id": "news-fc40ddafdd41e0cc6b8e9f20",
-      "title": "OpenAI, 필수 서비스 보호에 10억 달러 규모 'Daybreak for Frontline Defenders' 발표",
-      "startAt": "2026-09-03T13:15:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI가 필수 공공·사회 서비스 보호를 목표로 하는 프로그램 'Daybreak for Frontline Defenders'를 발표하고 약 10억 달러를 약정했다. 이 프로그램은 최첨단 사이버 AI 접근성 확대, 교육·훈련, 현장 지원 등을 포함한다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://openai.com/index/daybreak-for-frontline-defenders"
-        ],
-        "firstPublishedAt": "2026-09-03T13:15:00.000Z",
-        "lastObservedAt": "2026-09-05T05:40:48.913Z"
-      }
-    },
-    {
       "id": "news-9dad612608bbfa040b25136f",
       "title": "인도네시아 이탄(peatland) 화재로 하늘 어두워짐 — NASA 관측",
       "startAt": "2026-09-03T04:01:00.000Z",
@@ -873,30 +944,6 @@
           "https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/"
         ],
         "firstPublishedAt": "2026-09-03T04:01:00.000Z",
-        "lastObservedAt": "2026-09-03T05:44:16.818Z"
-      }
-    },
-    {
-      "id": "news-64b343bcb95f9185f9a7a8f4",
-      "title": "미 의회 예산 합의로 연구보조금에 대한 행정·정치적 통제 시도 일시 보류",
-      "startAt": "2026-09-02T21:20:03.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica는 의회의 예산 합의가 행정부(OMB)의 연구자금 운용 규정(연구보조금에 대한 정치적 통제 강화)을 당장 시행하지 못하도록 사실상 연기시키며, 해당 조치가 최소한 12월까지 보류됐다고 보도했다. 이번 합의는 연구자금 배분과 학문자율성 관련 정책 논쟁에 영향을 미칠 전망이다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/"
-        ],
-        "firstPublishedAt": "2026-09-02T21:20:03.000Z",
         "lastObservedAt": "2026-09-03T05:44:16.818Z"
       }
     },
@@ -964,28 +1011,6 @@
         ],
         "firstPublishedAt": "2026-08-17T15:00:00.000Z",
         "lastObservedAt": "2026-08-18T02:21:03.248Z"
-      }
-    },
-    {
-      "id": "news-cbf5fed7cbf6949286a40d49",
-      "title": "제임스웹(JWST), 우리은하 초대질량 블랙홀 근처서 먼지·물질 관측",
-      "startAt": "2026-08-11T08:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA·ESA·CSA의 제임스웹 우주망원경 관측에서 우리은하 중심의 초대질량 블랙홀(사지타리우스 A*) 근처에서 먼지와 물이 형성·생존할 수 있음이 확인됐다. 관측은 진화한 항성 IRS 3가 강한 방사선 환경에서도 주변을 새로 형성한 물질로 풍부하게 하고 있음을 보여준다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole"
-        ],
-        "firstPublishedAt": "2026-08-11T08:00:00.000Z",
-        "lastObservedAt": "2026-08-11T14:24:38.217Z"
       }
     }
   ]
