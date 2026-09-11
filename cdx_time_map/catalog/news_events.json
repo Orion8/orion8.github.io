@@ -1,8 +1,145 @@
 {
-  "catalogVersion": "0.0.97",
-  "updatedAt": "2026-09-11T05:55:21.221Z",
+  "catalogVersion": "0.0.98",
+  "updatedAt": "2026-09-11T17:01:21.690Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-99fa81da4e1a45c82214236d",
+      "title": "러시아, 우크라이나 관료 대상 공격 확대 — 미 외교에 논란",
+      "startAt": "2026-09-11T16:30:48.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 모스크바 방문을 마친 뒤 위트코프‑쿠슈너 방문 직후 러시아가 키이우를 향한 공격을 확대했고, 이로 인해 미국의 외교 행보가 비판을 받고 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/11/us-diplomacy-under-fire-as-moscow-escalates-attacks-on-ukrainian-officials?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/11/us-diplomacy-under-fire-as-moscow-escalates-attacks-on-ukrainian-officials?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-11T16:30:48.000Z",
+        "lastObservedAt": "2026-09-11T17:01:21.690Z"
+      }
+    },
+    {
+      "id": "news-35431e33dbe50b1884b15f1c",
+      "title": "노르웨이의 아스트리드 공주 별세",
+      "startAt": "2026-09-11T16:00:59.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC는 아스트리드 공주가 형 하랄드 국왕의 장례식에 참석한 지 이틀 만에 사망했다고 보도했다. 새 국왕 하콘 8세는 조문에서 공주가 '따뜻하고 의무감 있게 왕실을 대표했다'고 추모했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-11T16:00:59.000Z",
+        "lastObservedAt": "2026-09-11T17:01:21.690Z"
+      }
+    },
+    {
+      "id": "news-1ec8837ca95b64d5e1229347",
+      "title": "NASA, 아르테미스 협정 참여국과 달 과학·자료 공유 확대 발표",
+      "startAt": "2026-09-11T14:56:25.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 아르테미스 프로그램을 통해 얻는 모든 달 시료·데이터·발견의 과학적 결과를 전 세계 과학계와 공유하겠다고 발표했다며, 이는 아르테미스 협정에 서명한 71개국의 원칙을 준수하는 조치라고 밝혔다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/"
+        ],
+        "firstPublishedAt": "2026-09-11T14:56:25.000Z",
+        "lastObservedAt": "2026-09-11T17:01:21.690Z"
+      }
+    },
+    {
+      "id": "news-ab29b544a8906cfe3a8c124c",
+      "title": "북다코타서 성체 티라노사우루스 발자국 첫 발견 — 23피트 길이 연속 흔적",
+      "startAt": "2026-09-11T14:34:07.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 데버박물관·리버풀 존 무어스대 연구팀이 헬크릭층에서 성체 티라노사우루스의 것으로 추정되는 23ft(약 7m) 길이의 트랙웨이를 확인했다. 연속된 네 개의 3‑발자국 자국이 포함된다.",
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/sep/11/tyrannosaurus-rex-footprints-north-dakota",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/sep/11/tyrannosaurus-rex-footprints-north-dakota"
+        ],
+        "firstPublishedAt": "2026-09-11T14:34:07.000Z",
+        "lastObservedAt": "2026-09-11T17:01:21.690Z"
+      }
+    },
+    {
+      "id": "news-57f2bc84ece0baade14eb059",
+      "title": "양자역학과 상대성이 만날 때 벌어지는 일 — 원자 초중첩 궤적 실험",
+      "startAt": "2026-09-11T11:20:02.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica는 연구진이 원자를 궤적의 중첩 상태에 둬서 양자역학과 상대성 이론의 접점을 탐구하는 실험을 수행했다고 보도했다. 해당 연구는 근본 물리학의 핵심 질문에 대한 실험적 접근을 제시한다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/"
+        ],
+        "firstPublishedAt": "2026-09-11T11:20:02.000Z",
+        "lastObservedAt": "2026-09-11T17:01:21.690Z"
+      }
+    },
+    {
+      "id": "news-d49362f2e2fe9417bd520faf",
+      "title": "미‑캐나다 무역분쟁, 자동차 부품 공급망에 파장",
+      "startAt": "2026-09-11T09:00:00.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "NPR은 수십 년간 긴밀히 얽힌 미·캐나다 자동차 공급망이 양국 간 무역전으로 흔들리며 부품업체들이 공급망 재편과 비용 증가에 직면하고 있다고 보도했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/11/nx-s1-5961530/canada-trade-war-auto-parts-supply-chain",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/11/nx-s1-5961530/canada-trade-war-auto-parts-supply-chain"
+        ],
+        "firstPublishedAt": "2026-09-11T09:00:00.000Z",
+        "lastObservedAt": "2026-09-11T17:01:21.690Z"
+      }
+    },
     {
       "id": "news-e4e8cbf3506efc3a4a8a7ddd",
       "title": "예멘 후티 반군, 전략적 홍해 항구 모카 장악 주장",
@@ -593,29 +730,6 @@
       }
     },
     {
-      "id": "news-311a59fc5ae8b7f642ff4f0f",
-      "title": "호주, 소셜미디어 알고리즘 기본 피드 선택권 제공 요구 발표",
-      "startAt": "2026-09-08T13:24:00.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "호주 정부는 소셜미디어 플랫폼이 신규·기존 사용자에게 기본 피드에 대한 선택권을 제공하도록 알림을 보낼 것을 요구한다고 발표했다. 보도에 따르면 플랫폼은 이용자에게 알고리즘 기반 피드를 계속 사용할지 또는 대체를 선택할지를 고지해야 한다고 했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/08/g-s1-142311/australian-social-media-users-to-be-offered-choice-to-opt-out-of-algorithms",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/08/g-s1-142311/australian-social-media-users-to-be-offered-choice-to-opt-out-of-algorithms"
-        ],
-        "firstPublishedAt": "2026-09-08T13:24:00.000Z",
-        "lastObservedAt": "2026-09-09T05:56:59.037Z"
-      }
-    },
-    {
       "id": "news-a2ba745c73e458cfea316221",
       "title": "캐나다, 대미 보복관세 발효 — 200억 달러어치 미국산 대상",
       "startAt": "2026-09-08T04:00:59.000Z",
@@ -690,29 +804,6 @@
       }
     },
     {
-      "id": "news-ee547b076d06fe3ed12e5852",
-      "title": "독일 극우 정당 AfD, 작센안할트주에서 약 44% 득표로 큰 승리 선언(과반엔 미달)",
-      "startAt": "2026-09-07T04:48:02.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 예비 결과에 따르면 대안당(AfD)이 동부 작센안할트주에서 약 44%의 득표율로 큰 차이의 승리를 기록했으나 과반에는 미치지 못했다. BBC는 이번 지역 선거 결과가 유럽 전체와 전통 정당들에 충격을 줄 수 있다고 보도했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c986w38r4j5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-07T04:48:02.000Z",
-        "lastObservedAt": "2026-09-07T06:01:55.014Z"
-      }
-    },
-    {
       "id": "news-073b13b14ae0138b1424f5cc",
       "title": "OpenAI·AIRPPU·WAN‑IFRA, 우크라이나 독립언론 지원 AI 프로그램 출범",
       "startAt": "2026-09-07T00:00:00.000Z",
@@ -759,28 +850,6 @@
       }
     },
     {
-      "id": "news-6a6bacf53860a07d6f3c8beb",
-      "title": "인도네시아 화산 분출로 자카르타 인근 공역에 재(ash) 검출 — 주요 공항 운항 중단",
-      "startAt": "2026-09-06T05:12:44.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "화산재가 자카르타 인근 공역에서 탐지되면서 인도네시아의 주요 공항에서 항공편 운항이 중단돼 2만명 이상 승객이 발 묶였다. 당국은 항공 안전을 위해 공역 통제를 유지하고 있으며, 항공편 재개 여부는 화산 활동과 공기질 관측 결과에 따라 결정될 예정이다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-06T05:12:44.000Z",
-        "lastObservedAt": "2026-09-06T05:52:40.831Z"
-      }
-    },
-    {
       "id": "news-6df0f5d81c2b28a3d9afe94e",
       "title": "시애틀 타임스·뉴스데이, OpenAI·마이크로소프트 상대로 소송 제기 — 기사 무단 학습 주장",
       "startAt": "2026-09-05T22:49:55.000Z",
@@ -801,52 +870,6 @@
         ],
         "firstPublishedAt": "2026-09-05T22:49:55.000Z",
         "lastObservedAt": "2026-09-07T06:01:55.014Z"
-      }
-    },
-    {
-      "id": "news-3c921b455eb2d8fc1fe72ae0",
-      "title": "초파리(수컷) 뇌의 완전 접속지도(connectome) 두 번째 완성",
-      "startAt": "2026-09-04T16:24:24.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "모든 뉴런과 시냅스 연결을 포함한 초파리 수컷의 완전한 뇌 지도가 완성되어 이전에 작성된 암컷 지도와 함께 비교·분석이 가능해졌다. 신경회로·뇌 기능 연구에 중요한 자료가 된다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain/"
-        ],
-        "firstPublishedAt": "2026-09-04T16:24:24.000Z",
-        "lastObservedAt": "2026-09-04T16:51:19.586Z"
-      }
-    },
-    {
-      "id": "news-1d8e244bfa981ad1c54181a1",
-      "title": "태평양에서 세 개의 열대저기압 동시 활동 관측",
-      "startAt": "2026-09-04T04:01:00.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "NASA 관측은 태평양에서 세 개의 열대저기압(사이클론)이 동시에 활동 중인 반면 대서양은 비교적 한산하다고 전했다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/"
-        ],
-        "firstPublishedAt": "2026-09-04T04:01:00.000Z",
-        "lastObservedAt": "2026-09-04T05:49:41.355Z"
       }
     },
     {
@@ -892,28 +915,6 @@
         ],
         "firstPublishedAt": "2026-09-03T16:42:35.000Z",
         "lastObservedAt": "2026-09-03T17:01:55.577Z"
-      }
-    },
-    {
-      "id": "news-2b0379511ea0511400ff6f84",
-      "title": "WeatherNext 3 공개 — 딥마인드의 최신·정확한 글로벌 기상 AI 모델",
-      "startAt": "2026-09-03T15:02:08.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "DeepMind는 자사의 최신 글로벌 기상 AI 모델 'WeatherNext 3'를 공개했다. 회사는 이 모델이 이전 버전보다 더 정교하고 정확하다고 설명했으며, 전 지구적 기상 예측과 관련된 과학·산업적 활용 가능성이 주목된다.",
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
-        ],
-        "firstPublishedAt": "2026-09-03T15:02:08.000Z",
-        "lastObservedAt": "2026-09-08T17:14:48.639Z"
       }
     },
     {
