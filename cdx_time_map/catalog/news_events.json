@@ -1,8 +1,52 @@
 {
-  "catalogVersion": "0.0.98",
-  "updatedAt": "2026-09-11T17:01:21.690Z",
+  "catalogVersion": "0.0.99",
+  "updatedAt": "2026-09-12T05:42:49.833Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-5d86974d75d25c762965beaf",
+      "title": "인도서 BRICS 정상회의 개최 — 지정학·경제 난제 논의 예정",
+      "startAt": "2026-09-12T05:22:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 올해 BRICS 정상회의가 인도에서 열리며, 회의는 미국‑이스라엘의 이란 전쟁, 러시아의 우크라이나 전쟁 및 글로벌 경제 문제 등 복합적 지정학·경제 리스크 속에서 진행된다. 회원국 간 정책 협의와 글로벌 다극화 논의가 핵심 의제로 꼽힌다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/12/brics-meets-in-india-whats-on-the-agenda-why-it-matters?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/12/brics-meets-in-india-whats-on-the-agenda-why-it-matters?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-12T05:22:09.000Z",
+        "lastObservedAt": "2026-09-12T05:42:49.833Z"
+      }
+    },
+    {
+      "id": "news-8c61ee59a26eb8695a47b2bb",
+      "title": "사우디, 이라크발(發) 드론 공격으로 주요 송유관 가동 중단",
+      "startAt": "2026-09-12T04:43:10.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 보도에 따르면 사우디아라비아의 주요 송유관이 이라크에서 발사된 것으로 추정되는 드론 공격 직후 폐쇄됐다. 이라크 정부는 공격 발생 지역이 이란 국경 인근이라며 군 지휘관을 해임하고 관련 조사를 시작했다고 전해진다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-12T04:43:10.000Z",
+        "lastObservedAt": "2026-09-12T05:42:49.833Z"
+      }
+    },
     {
       "id": "news-99fa81da4e1a45c82214236d",
       "title": "러시아, 우크라이나 관료 대상 공격 확대 — 미 외교에 논란",
@@ -228,6 +272,30 @@
         ],
         "firstPublishedAt": "2026-09-10T20:26:52.000Z",
         "lastObservedAt": "2026-09-11T05:55:21.220Z"
+      }
+    },
+    {
+      "id": "news-fe21ecd742cbf248aa4dd837",
+      "title": "ALOHAnet 공동개발자 프랭클린 쿠오 별세(향년 91) — 초기 무선 패킷망 역사적 인물",
+      "startAt": "2026-09-10T20:00:04.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 1,
+      "description": "IEEE Spectrum은 프랭클린 ‘프랭크’ 쿠오가 향년 91세로 별세했다고 보도했다. 쿠오는 하와이대의 ALOHAnet 개발을 주도했으며(1971년 가동), 이는 무선 패킷 데이터 네트워크의 초기 공개 실험으로 이후 로버트 메트칼프의 이더넷 개발에 영감을 주었다고 전해진다.",
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies"
+        ],
+        "firstPublishedAt": "2026-09-10T20:00:04.000Z",
+        "lastObservedAt": "2026-09-12T05:42:49.833Z"
       }
     },
     {
@@ -664,50 +732,6 @@
       }
     },
     {
-      "id": "news-9d4a63ebefb826ec83cbef58",
-      "title": "영국의 이스라엘 정착촌 제재에 대해 UN 전문가가 '지각변동'이라 평가",
-      "startAt": "2026-09-08T16:05:38.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "UN 전문가 프란체스카 알바네제는 영국의 이스라엘 정착촌에 대한 제재를 수년간의 영국의 '공모'를 뒤이은 '지각변동(seismic shift)'으로 규정했다. 보도는 이번 조치가 향후 국제적·정책적 파장 가능성을 지닌 중대한 변화로 여겨진다고 전했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/8/09-08-israel-sanctions-albanese-qt-mp4?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/9/8/09-08-israel-sanctions-albanese-qt-mp4?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-08T16:05:38.000Z",
-        "lastObservedAt": "2026-09-08T17:14:48.639Z"
-      }
-    },
-    {
-      "id": "news-63966339c2997ad1b3e84d43",
-      "title": "법률 보고서, 이스라엘 학계의 팔레스타인 학생 대상 '이중 규율' 지적 — 체계적 차별 주장",
-      "startAt": "2026-09-08T16:04:42.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "새 법률 보고서는 이스라엘 대학들이 팔레스타인 학생들을 겨냥한 이중적 징계 체계를 운영한다고 폭로하며, 학내 운영에서 체계적 아파르트헤이트 의혹을 제기했다. 보고서는 고등교육·인권 분야에서의 제도적 관행을 문제 삼는 근거로 인용되고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/8/israeli-academia-accused-of-systemic-apartheid-against-palestinians?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/8/israeli-academia-accused-of-systemic-apartheid-against-palestinians?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-08T16:04:42.000Z",
-        "lastObservedAt": "2026-09-08T17:14:48.639Z"
-      }
-    },
-    {
       "id": "news-f0e27f432f48fb866973d706",
       "title": "AlphaGenome Atlas 공개 — 인간 유전체의 단일 염기 변이 90억 건에 대한 분자 영향 예측 지도",
       "startAt": "2026-09-08T14:00:15.000Z",
@@ -870,29 +894,6 @@
         ],
         "firstPublishedAt": "2026-09-05T22:49:55.000Z",
         "lastObservedAt": "2026-09-07T06:01:55.014Z"
-      }
-    },
-    {
-      "id": "news-920440924028e140d0306981",
-      "title": "데이터센터 개발사 Crusoe, 약 30억 달러 조달 보도",
-      "startAt": "2026-09-04T00:48:42.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "TechCrunch 보도에 따르면 데이터센터 개발업체 Crusoe가 약 30억 달러를 조달받았고, 이 라운드는 Crusoe가 Jane Street와 체결한 약 130억 달러 규모 계약 확보 이후 이뤄졌다고 전해졌다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/"
-        ],
-        "firstPublishedAt": "2026-09-04T00:48:42.000Z",
-        "lastObservedAt": "2026-09-04T05:49:41.355Z"
       }
     },
     {
