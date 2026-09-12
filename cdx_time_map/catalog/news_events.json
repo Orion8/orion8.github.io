@@ -1,8 +1,102 @@
 {
-  "catalogVersion": "0.0.99",
-  "updatedAt": "2026-09-12T05:42:49.833Z",
+  "catalogVersion": "0.0.100",
+  "updatedAt": "2026-09-12T16:15:44.833Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-20a90e82d409fb051d6d3f56",
+      "title": "Anthropic CEO 다리오 아모데이, AI 개발 속도 늦출 것 촉구",
+      "startAt": "2026-09-12T15:52:11.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Anthropic의 다리오 아모데이는 AI 모델이 전 세계에 심각한 피해를 줄 수 있다는 우려를 제기하며 최첨단 AI 개발의 속도를 늦출 것을 촉구했다. 이번 발언은 AI 안전·거버넌스 논의에 중요한 영향을 줄 것으로 보인다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+          "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/"
+        ],
+        "firstPublishedAt": "2026-09-12T15:53:43.000Z",
+        "lastObservedAt": "2026-09-12T16:15:44.833Z"
+      }
+    },
+    {
+      "id": "news-3be14e6ee7a27dc3c2165753",
+      "title": "미 법원, 트럼프 행정부의 긴급명령으로 미시간 석탄발전소 가동 연장 조치 거부",
+      "startAt": "2026-09-12T15:34:51.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "미 법원은 에너지부가 미시간의 석탄발전소 가동을 연장하라는 트럼프의 긴급명령이 권한을 초과했다고 판단해 해당 명령을 거부했다. 판결은 행정부의 권한 범위와 에너지 정책 집행에 영향을 줄 수 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/12/us-court-rejects-trumps-emergency-order-keeping-michigan-coal-plant-open?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/12/us-court-rejects-trumps-emergency-order-keeping-michigan-coal-plant-open?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-12T15:34:51.000Z",
+        "lastObservedAt": "2026-09-12T16:15:44.833Z"
+      }
+    },
+    {
+      "id": "news-58985fd1ccabd006ffe54da4",
+      "title": "뉴델리서 BRICS 포럼 개최 — 신흥국 연대·글로벌 다극화 논의",
+      "startAt": "2026-09-12T12:30:55.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "인도가 주최하는 BRICS 정상·대표자 회의가 뉴델리에서 열리며, 회원국들은 서방 주도의 국제질서에 대응하는 경제·정치 협력 방안과 지정학적 쟁점을 논의하고 있다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/12/nx-s1-5965777/brics-forum-brings-together-emerging-economies-aimed-at-countering-western-dominance",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/12/nx-s1-5965777/brics-forum-brings-together-emerging-economies-aimed-at-countering-western-dominance"
+        ],
+        "firstPublishedAt": "2026-09-12T12:30:55.000Z",
+        "lastObservedAt": "2026-09-12T16:15:44.833Z"
+      }
+    },
+    {
+      "id": "news-8c61ee59a26eb8695a47b2bb",
+      "title": "사우디, 홍해 공격 여파로 주요 송유관 가동 중단(업데이트)",
+      "startAt": "2026-09-12T12:19:22.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "최근 발생한 공격으로 인해 사우디아라비아의 주요 송유관 가동이 중단됐다. 이번 보도는 공격 여파로 송유관이 실제로 폐쇄된 정황을 전하며 관련 사태가 지역 안보·에너지 공급에 미치는 영향을 계속 주시할 필요가 있음을 시사한다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/12/nx-s1-5964940/saudi-arabia-forced-to-shut-down-crucial-red-sea-pipeline-after-attacks",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/12/nx-s1-5964940/saudi-arabia-forced-to-shut-down-crucial-red-sea-pipeline-after-attacks"
+        ],
+        "firstPublishedAt": "2026-09-12T04:43:10.000Z",
+        "lastObservedAt": "2026-09-12T16:15:44.833Z"
+      }
+    },
     {
       "id": "news-5d86974d75d25c762965beaf",
       "title": "인도서 BRICS 정상회의 개최 — 지정학·경제 난제 논의 예정",
@@ -26,25 +120,48 @@
       }
     },
     {
-      "id": "news-8c61ee59a26eb8695a47b2bb",
-      "title": "사우디, 이라크발(發) 드론 공격으로 주요 송유관 가동 중단",
-      "startAt": "2026-09-12T04:43:10.000Z",
+      "id": "news-a061c44f7783dde2c2d60580",
+      "title": "가리 탄(YN) 제안: 미국 오픈‑웨이트 AI 연구소들도 ‘프론티어 모델’ 증류에 참여해야",
+      "startAt": "2026-09-11T20:59:47.000Z",
       "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 사우디아라비아의 주요 송유관이 이라크에서 발사된 것으로 추정되는 드론 공격 직후 폐쇄됐다. 이라크 정부는 공격 발생 지역이 이란 국경 인근이라며 군 지휘관을 해임하고 관련 조사를 시작했다고 전해진다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Y Combinator의 가리 탄은 중국 외에 미국 내 오픈‑웨이트 연구소들이 프론티어급 모델을 '증류(distill)'해 경량·공개 대안 확보에 기여해야 한다고 주장했다. 이는 미국 AI 생태계의 경쟁력·안전성 확보를 위한 제안으로 주목받는다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
       "topicIds": [
-        "politicsHumanRights"
+        "aiHistory",
+        "computerHistory"
       ],
       "news": {
-        "status": "breaking",
+        "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+          "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
         ],
-        "firstPublishedAt": "2026-09-12T04:43:10.000Z",
-        "lastObservedAt": "2026-09-12T05:42:49.833Z"
+        "firstPublishedAt": "2026-09-11T20:59:47.000Z",
+        "lastObservedAt": "2026-09-12T16:15:44.833Z"
+      }
+    },
+    {
+      "id": "news-e742a1b7838c61a2972ad6e3",
+      "title": "NASA 시민참여 프로젝트 'Artifact InSPECtor' 공개 — 우주망원경 데이터 정제에 일반 참여 유도",
+      "startAt": "2026-09-11T19:48:09.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "NASA가 우주망원경 데이터의 인공물(artifacts) 식별을 돕는 시민과학 프로젝트 'Artifact InSPECtor'를 공개했다. 일반 참여자들이 데이터 정제에 기여함으로써 Euclid와 Nancy Grace Roman 망원경 등 임무의 과학적 분석을 지원할 수 있다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/"
+        ],
+        "firstPublishedAt": "2026-09-11T19:48:09.000Z",
+        "lastObservedAt": "2026-09-12T16:15:44.833Z"
       }
     },
     {
@@ -618,54 +735,6 @@
       }
     },
     {
-      "id": "news-56d13e25b9d74ca27832c935",
-      "title": "미군, 이란 유조선 5척 파괴 — 분쟁 고조(업데이트)",
-      "startAt": "2026-09-09T11:12:27.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미군이 분쟁이 계속되는 가운데 이란 소유로 추정되는 유조선 5척을 파괴했다고 발표했다. 관련 보도는 이번 상호 타격이 분쟁을 고조시켰다고 전하고 있다. 같은 기사에서는 스미소니언 관장 론니 G. 분치 III가 연말까지 사임할 예정이라고 덧붙였다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/09/g-s1-142496/up-first-newsletter-iran-us-uk-israel-palestine-lonnie-bunch-smithsonian",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/09/nx-s1-5962641/us-destroy-iranian-oil-tankers",
-          "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/09/g-s1-142496/up-first-newsletter-iran-us-uk-israel-palestine-lonnie-bunch-smithsonian"
-        ],
-        "firstPublishedAt": "2026-09-09T05:20:45.000Z",
-        "lastObservedAt": "2026-09-09T17:09:00.065Z"
-      }
-    },
-    {
-      "id": "news-55386b117be46a3ec145bb90",
-      "title": "트럼프, '딥 스테이트' 언급하며 정보기관 전면 개편 추진",
-      "startAt": "2026-09-09T09:00:00.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 도널드 트럼프 대통령이 '딥 스테이트'를 거론하며 9·11 이후 재정비된 미국 정보커뮤니티의 조직·운영 방식을 대대적으로 손보는 조치를 추진하고 있다. 비평가들은 이번 개편이 9·11 이후 구축된 역량을 해체할 우려가 있다고 지적한다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/09/nx-s1-5955756/deep-state-trump-9-11-national-intelligence",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/09/nx-s1-5955756/deep-state-trump-9-11-national-intelligence"
-        ],
-        "firstPublishedAt": "2026-09-09T09:00:00.000Z",
-        "lastObservedAt": "2026-09-09T17:09:00.065Z"
-      }
-    },
-    {
       "id": "news-cfdae9ee96d7517d4644fe0a",
       "title": "미국 법정서 '대규모 암호화폐 강탈' 관련 싱가포르인 유죄 인정",
       "startAt": "2026-09-09T05:49:30.000Z",
@@ -706,28 +775,6 @@
           "https://www.aljazeera.com/video/newsfeed/2026/9/9/600-year-old-tomb-of-pre-incan-chimu-kingdom-found-in-peru?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-09-09T04:57:02.000Z",
-        "lastObservedAt": "2026-09-09T05:56:59.037Z"
-      }
-    },
-    {
-      "id": "news-101cdf684d5fd5643b06c001",
-      "title": "인도네시아 아낙 크라카타우(Anak Krakatau) 재분화 — 항공 운항 차질·대기질 악화",
-      "startAt": "2026-09-09T04:01:00.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "인도네시아 화산 아낙 크라카타우가 강력하게 분화해 화산재를 대기권에 뿜어 수천 편의 항공편이 차질을 빚고 공기질이 악화되었다고 NASA가 보도했다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/anak-krakatau-rumbles-again/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/earth/earth-observatory/anak-krakatau-rumbles-again/"
-        ],
-        "firstPublishedAt": "2026-09-09T04:01:00.000Z",
         "lastObservedAt": "2026-09-09T05:56:59.037Z"
       }
     },
@@ -828,28 +875,6 @@
       }
     },
     {
-      "id": "news-073b13b14ae0138b1424f5cc",
-      "title": "OpenAI·AIRPPU·WAN‑IFRA, 우크라이나 독립언론 지원 AI 프로그램 출범",
-      "startAt": "2026-09-07T00:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI가 AIRPPU·WAN‑IFRA와 함께 우크라이나 뉴스 조직의 혁신·회복력·독립 저널리즘 강화를 돕는 AI 프로그램을 출범시켰다. 기관들은 해당 프로그램을 통해 현지 언론의 기술적 역량과 지속성을 지원하겠다고 밝혔다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/supporting-independent-journalism-in-ukraine"
-        ],
-        "firstPublishedAt": "2026-09-07T00:00:00.000Z",
-        "lastObservedAt": "2026-09-08T05:55:15.087Z"
-      }
-    },
-    {
       "id": "news-09d8173c4081c82bd34f31ef",
       "title": "유럽 최초 완전 상업용 궤도 로켓 발사 성공 — 독일 민간기업",
       "startAt": "2026-09-06T11:55:26.000Z",
@@ -871,29 +896,6 @@
         ],
         "firstPublishedAt": "2026-09-06T11:55:26.000Z",
         "lastObservedAt": "2026-09-06T16:12:08.582Z"
-      }
-    },
-    {
-      "id": "news-6df0f5d81c2b28a3d9afe94e",
-      "title": "시애틀 타임스·뉴스데이, OpenAI·마이크로소프트 상대로 소송 제기 — 기사 무단 학습 주장",
-      "startAt": "2026-09-05T22:49:55.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "TechCrunch 보도에 따르면 시애틀 타임스와 뉴스데이가 자사 저널리즘 콘텐츠가 OpenAI와 마이크로소프트의 AI 모델 학습에 사용됐다며 저작권·손해배상 등을 근거로 소송을 제기했다. 이번 소송은 대형언어모델의 학습 데이터 이용을 둘러싼 법적 분쟁의 확산 신호로 해석된다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
-        ],
-        "firstPublishedAt": "2026-09-05T22:49:55.000Z",
-        "lastObservedAt": "2026-09-07T06:01:55.014Z"
       }
     },
     {
