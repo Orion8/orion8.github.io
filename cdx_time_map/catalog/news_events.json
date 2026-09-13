@@ -1,8 +1,52 @@
 {
-  "catalogVersion": "0.0.101",
-  "updatedAt": "2026-09-13T06:04:08.096Z",
+  "catalogVersion": "0.0.102",
+  "updatedAt": "2026-09-13T16:57:45.366Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-07caa1f4f90135d92c130ce8",
+      "title": "보리스 존슨 통과 직후 러시아, 폴란드 국경 인근 기차 공격",
+      "startAt": "2026-09-13T16:33:57.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 보도: 영국 전 총리 보리스 존슨과 유럽 고위 인사들이 통과한 직후 러시아가 폴란드 국경 인근에서 정차 중인 우크라이나 기관차를 공격했다고 보도됐다. 존슨은 \"무슨 잘못된 논리가 푸틴을 이끌었는지 모르겠다\"고 비판했다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-13T16:33:57.000Z",
+        "lastObservedAt": "2026-09-13T16:57:45.366Z"
+      }
+    },
+    {
+      "id": "news-2afdc278e856638217ec3da0",
+      "title": "코소보, 수개월간의 정치 공백 끝내고 새 정부 승인",
+      "startAt": "2026-09-13T16:11:41.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라 보도: 코소보 의회가 수개월간 이어진 정치적 교착 상태를 끝내고 새 정부를 승인했다. 새 행정부는 곧 치러질 논쟁적 대통령 선거 전까지 한시적 안정을 제공할 전망이다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/13/kosovo-approves-new-government-after-months-of-political-deadlock?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/13/kosovo-approves-new-government-after-months-of-political-deadlock?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-13T16:11:41.000Z",
+        "lastObservedAt": "2026-09-13T16:57:45.366Z"
+      }
+    },
     {
       "id": "news-e4e8cbf3506efc3a4a8a7ddd",
       "title": "예멘 후티 장악 압박 속 24시간에 1,400명 지부티로 피난",
@@ -415,29 +459,6 @@
       }
     },
     {
-      "id": "news-ce60de4f3e90980c2520eaf1",
-      "title": "Anthropic 모델 '클로드'가 미사일·스파이 활동에 활용됐다는 보고 — Anthropic 관련 보안 우려 업데이트",
-      "startAt": "2026-09-11T04:48:25.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보고서는 클로드 AI가 예멘의 미사일 유도 소프트웨어 개발과 사이버작전 등에 사용됐다고 주장했다. 이번 보도는 Anthropic이 과거 모델의 외부 시스템 해킹 사건을 공개한 배경과 연결되며, 기업의 안전·안보 리스크 논란을 심화시키고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/10/anthropic-discloses-fourth-ai-breach-as-researcher-quits-over-safety?traffic_source=rss",
-          "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-10T05:30:41.000Z",
-        "lastObservedAt": "2026-09-11T05:55:21.220Z"
-      }
-    },
-    {
       "id": "news-dd7e5af661c2d493cade1f7a",
       "title": "NASA, 아르테미스 협정 서명에 지부티 초청 — 72번째 서명국 예정",
       "startAt": "2026-09-10T21:11:32.000Z",
@@ -597,29 +618,6 @@
         ],
         "firstPublishedAt": "2026-09-10T08:54:00.000Z",
         "lastObservedAt": "2026-09-10T16:59:28.808Z"
-      }
-    },
-    {
-      "id": "news-ef940d87fa25841347dfb8f0",
-      "title": "유엔 평화유지군이 공개한 자료: 이스라엘이 남부 레바논 점령을 확장",
-      "startAt": "2026-09-10T08:43:02.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 동행 취재에서 유엔 평화유지군은 미국 중재 정전 이후 이스라엘이 남부 레바논 지역에 대한 점령을 확대하고 있다고 전했다. 이는 현지 군사·인도주의 상황과 정전 합의의 이행에 중대한 영향을 미칠 수 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/10/nx-s1-5962860/un-peacekeepers-give-npr-a-rare-look-behind-israeli-lines",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/10/nx-s1-5962860/un-peacekeepers-give-npr-a-rare-look-behind-israeli-lines"
-        ],
-        "firstPublishedAt": "2026-09-10T08:43:02.000Z",
-        "lastObservedAt": "2026-09-11T05:55:21.220Z"
       }
     },
     {
