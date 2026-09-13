@@ -1,8 +1,54 @@
 {
-  "catalogVersion": "0.0.100",
-  "updatedAt": "2026-09-12T16:15:44.833Z",
+  "catalogVersion": "0.0.101",
+  "updatedAt": "2026-09-13T06:04:08.096Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-e4e8cbf3506efc3a4a8a7ddd",
+      "title": "예멘 후티 장악 압박 속 24시간에 1,400명 지부티로 피난",
+      "startAt": "2026-09-13T04:40:18.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도: 후티 반군이 바브 엘 만데브 해협 인근에서 영향력을 강화하자 약 24시간 동안 1,400명의 예멘인이 오박(Obock) 항구를 통해 지부티로 도착했다고 전해졌다. 이번 인구 이동은 홍해 해역의 안보·인도주의 상황이 악화되고 있음을 시사한다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/13/1400-yemenis-flee-to-djibouti-within-24-hours?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port",
+          "https://www.aljazeera.com/news/2026/9/13/1400-yemenis-flee-to-djibouti-within-24-hours?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-11T05:40:21.000Z",
+        "lastObservedAt": "2026-09-13T06:04:08.096Z"
+      }
+    },
+    {
+      "id": "news-83c2b89503db83c21fd0fe95",
+      "title": "바누아투 여객선 침몰 — 1명 사망, 30여명 실종",
+      "startAt": "2026-09-13T03:41:14.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라 보도: 바누아투 인근을 운항하던 여객선이 침몰해 최소 1명이 숨지고 30명 이상이 실종됐다. 구조대가 생존자 수색을 이어가고 있으며 정부는 일부 구조 작업을 외해(外海)에서 축소했다고 밝혔다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/13/one-dead-more-than-30-missing-after-vanuatu-ferry-sinks-pms-office-says?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/13/one-dead-more-than-30-missing-after-vanuatu-ferry-sinks-pms-office-says?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-13T03:41:14.000Z",
+        "lastObservedAt": "2026-09-13T06:04:08.096Z"
+      }
+    },
     {
       "id": "news-20a90e82d409fb051d6d3f56",
       "title": "Anthropic CEO 다리오 아모데이, AI 개발 속도 늦출 것 촉구",
@@ -48,6 +94,51 @@
         ],
         "firstPublishedAt": "2026-09-12T15:34:51.000Z",
         "lastObservedAt": "2026-09-12T16:15:44.833Z"
+      }
+    },
+    {
+      "id": "news-b1c1f4440fef2100806c4ac8",
+      "title": "토로 왕국 오요 국왕 장례·왕위 이양 의식 거행",
+      "startAt": "2026-09-12T15:09:05.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언 보도: 서부 우간다 토로(Tooro) 왕국의 오요( Oyo Nyimba Kabamba Iguru Rukidi IV) 장례가 카람비 왕릉(Karambi Royal Tombs)에서 거행됐고, 뉴스 앵커 에드워드 루키디 키자낭오마(Edward Rukidi Kijanangoma)가 의식에서 아홉 알의 커피 열매를 무덤에 던지며 형식적 권력 이양을 치렀다. 이는 왕위 계승 분쟁 국면에서 중요한 의례적 전개다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute",
+          "https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda"
+        ],
+        "firstPublishedAt": "2026-09-10T15:53:29.000Z",
+        "lastObservedAt": "2026-09-13T06:04:08.096Z"
+      }
+    },
+    {
+      "id": "news-80923c185408fd79a9dded28",
+      "title": "6명 나이지리아인, 600만 달러대 온라인 연애사기 혐의로 미국에 송환",
+      "startAt": "2026-09-12T14:05:45.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언 보도: 미국 여성들을 대상으로 한 온라인 연애 사기를 통해 약 600만 달러를 가로챘다는 혐의로 지목된 6명의 나이지리아인이 남아프리카공화국에서 미 연방 당국에 인도돼 미국으로 송환됐다. 사건은 조직범죄 네트워크(Black Axe) 연루 의혹과 관련돼 있다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams"
+        ],
+        "firstPublishedAt": "2026-09-12T14:05:45.000Z",
+        "lastObservedAt": "2026-09-13T06:04:08.096Z"
       }
     },
     {
@@ -162,6 +253,28 @@
         ],
         "firstPublishedAt": "2026-09-11T19:48:09.000Z",
         "lastObservedAt": "2026-09-12T16:15:44.833Z"
+      }
+    },
+    {
+      "id": "news-b0fb5bc5c5bba540372db56a",
+      "title": "체andra X선, 병합 중인 II Zw 096 계에서 강력한 활동 포착",
+      "startAt": "2026-09-11T17:19:47.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA 보도자료: 찬드라 X선 관측과 기타 망원경 영상을 통해 II Zw 096 시스템에서 두 은하가 격렬하게 병합 중임이 포착됐다. 찬드라의 X선 데이터(자주색)는 강력한 블랙홀 활동과 뜨거운 가스를 지목하며, 시각·다파장 관측이 병합 은하의 물리 과정을 밝히는 데 기여한다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/nasas-chandra-spots-galactic-gem/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/nasas-chandra-spots-galactic-gem/"
+        ],
+        "firstPublishedAt": "2026-09-11T17:19:47.000Z",
+        "lastObservedAt": "2026-09-13T06:04:08.096Z"
       }
     },
     {
@@ -302,29 +415,6 @@
       }
     },
     {
-      "id": "news-e4e8cbf3506efc3a4a8a7ddd",
-      "title": "예멘 후티 반군, 전략적 홍해 항구 모카 장악 주장",
-      "startAt": "2026-09-11T05:40:21.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "후티 반군과 예멘 관리들이 홍해의 전략적 항구 모카(Mokha)를 장악했다고 밝혔다. 모카는 바브엘만데브 해협 인근의 요충지로서 국제 해상교통과 지역 안보에 영향을 줄 수 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port"
-        ],
-        "firstPublishedAt": "2026-09-11T05:40:21.000Z",
-        "lastObservedAt": "2026-09-11T05:55:21.220Z"
-      }
-    },
-    {
       "id": "news-ce60de4f3e90980c2520eaf1",
       "title": "Anthropic 모델 '클로드'가 미사일·스파이 활동에 활용됐다는 보고 — Anthropic 관련 보안 우려 업데이트",
       "startAt": "2026-09-11T04:48:25.000Z",
@@ -440,28 +530,6 @@
       }
     },
     {
-      "id": "news-d6ef2cb358e1c9db8b674536",
-      "title": "미 합중국 대법원, 미주리 공화당이 그린 의회선거구도 효력 정지",
-      "startAt": "2026-09-10T16:44:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미 연방대법원이 미주리주에서 공화당 주도로 그려진 의회 선거구 지도를 차단했다고 알자지라가 보도했다. 보도에 따르면 이번 거부는 하급심 판결을 무시한 공화당 관리가 법정모독(contempt) 혐의에 직면한 상황에서 나왔다. 판결은 주(州) 차원의 정치적 선거구 획정 분쟁과 관련한 사법적 제동으로 해석된다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/10/us-supreme-court-blocks-republican-drawn-congressional-map-in-missouri?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/10/us-supreme-court-blocks-republican-drawn-congressional-map-in-missouri?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-10T16:44:13.000Z",
-        "lastObservedAt": "2026-09-10T16:59:28.808Z"
-      }
-    },
-    {
       "id": "news-fde5d1622ee1d1dbd9fb837f",
       "title": "중동 긴장 속 유가 급등 — 석유·가스 가격과 차입비용 급등 보도",
       "startAt": "2026-09-10T15:56:33.000Z",
@@ -481,28 +549,6 @@
           "https://www.bbc.co.uk/news/articles/c5y48rz2nddo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-09-09T19:09:13.000Z",
-        "lastObservedAt": "2026-09-10T16:59:28.808Z"
-      }
-    },
-    {
-      "id": "news-b1c1f4440fef2100806c4ac8",
-      "title": "우간다 전통왕국서 왕위 계승 분쟁 표면화 — 비밀 아들 존재 주장으로 갈등 확대",
-      "startAt": "2026-09-10T15:53:29.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "가디언 보도에 따르면, 최근 미국에서 암 치료를 받다 사망한 토로(Tooro) 왕국의 전임 국왕 오요(王 Oyo Nyimba Kabamba Iguru Rukidi IV) 사후, 가족 측이 숨겨진 아들의 존재를 주장하며 왕위 계승을 둘러싼 격렬한 분쟁이 벌어지고 있다. 위계·전통과 현대 법·정치의 충돌로 지역 사회·제도적 파장이 주목된다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute"
-        ],
-        "firstPublishedAt": "2026-09-10T15:53:29.000Z",
         "lastObservedAt": "2026-09-10T16:59:28.808Z"
       }
     },
@@ -599,28 +645,6 @@
       }
     },
     {
-      "id": "news-5b42dbf59480979e9addf130",
-      "title": "필리핀 관광지 인근 페리 화재 — 5명 사망·86명 실종",
-      "startAt": "2026-09-10T04:08:07.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "관광지 코론(Palawan) 인근으로 향하던 여객선에서 화재가 발생해 보도 기준 5명이 숨지고 86명이 실종된 것으로 전해졌다. 사고 원인과 실종자 수색·구조가 진행 중이다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-10T04:08:07.000Z",
-        "lastObservedAt": "2026-09-10T05:55:25.799Z"
-      }
-    },
-    {
       "id": "news-44476d114f18168e38b48cef",
       "title": "NASA 관측: 말리 등 서아프리카에 이례적 먼지 폭풍",
       "startAt": "2026-09-10T04:00:00.000Z",
@@ -664,28 +688,6 @@
         ],
         "firstPublishedAt": "2026-09-09T20:55:02.000Z",
         "lastObservedAt": "2026-09-10T16:59:28.808Z"
-      }
-    },
-    {
-      "id": "news-87b6c81a34d040e418afd77f",
-      "title": "NASA, Relativity Space의 Terran R를 발사서비스 계약(NLS II)에 추가",
-      "startAt": "2026-09-09T20:11:58.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA가 Launch Services II 계약의 온‑램프 조항을 통해 Relativity Space와 그들의 Terran R 발사 서비스를 계약에 추가했다고 발표했다. Terran R은 향후 NASA 임무의 발사 서비스 옵션으로 제공될 예정이다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/"
-        ],
-        "firstPublishedAt": "2026-09-09T20:11:58.000Z",
-        "lastObservedAt": "2026-09-10T05:55:25.799Z"
       }
     },
     {
@@ -753,28 +755,6 @@
           "https://www.bbc.co.uk/news/articles/crl6z03pr0do?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-09-09T05:49:30.000Z",
-        "lastObservedAt": "2026-09-09T05:56:59.037Z"
-      }
-    },
-    {
-      "id": "news-feecc4e0693cef7e47748e69",
-      "title": "페루서 약 600년 전 치무(Chimu) 왕국의 거의 온전한 무덤 발굴",
-      "startAt": "2026-09-09T04:57:02.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "페루 고고학자들이 사전 잉카 문명인 치무 왕국의 거의 온전한 장례 플랫폼(무덤)을 발굴했다고 알자지라가 보도했다. 유적은 약 600년 전 것으로 추정되며, 선사·고고학적 가치가 큰 발견으로 평가된다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/9/600-year-old-tomb-of-pre-incan-chimu-kingdom-found-in-peru?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/9/9/600-year-old-tomb-of-pre-incan-chimu-kingdom-found-in-peru?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-09T04:57:02.000Z",
         "lastObservedAt": "2026-09-09T05:56:59.037Z"
       }
     },
