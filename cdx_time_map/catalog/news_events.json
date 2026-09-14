@@ -1,8 +1,75 @@
 {
-  "catalogVersion": "0.0.102",
-  "updatedAt": "2026-09-13T16:57:45.366Z",
+  "catalogVersion": "0.0.103",
+  "updatedAt": "2026-09-14T06:11:19.579Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-97322c8695c913d0f0dd3e21",
+      "title": "영국 하원의원·상원의원, 인권 위협하는 AI 규제 위한 새 법 제정 촉구",
+      "startAt": "2026-09-14T05:49:32.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "영국 의회 하원·상원 의원들이 현행 법체계가 인공지능이 야기하는 인권 위험을 다루기에는 부적절하다며 새로운 법 제정을 촉구했다. 보도는 정치권에서 AI의 인권 영향(예: 차별·프라이버시 침해)에 대응할 법적·규제적 틀 마련 논의가 본격화되고 있음을 전한다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwyzvgj70y4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwyzvgj70y4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-14T05:49:32.000Z",
+        "lastObservedAt": "2026-09-14T06:11:19.578Z"
+      }
+    },
+    {
+      "id": "news-8e7593cb217a70034355aa62",
+      "title": "이스라엘 문화장관, 베니스 인정 '가자 학살' 영화 관련 제작자 시민권 박탈 위협",
+      "startAt": "2026-09-14T03:50:25.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "이스라엘 문화장관 미키 조하르는 베니스영화제에서 인정을 받은 가자 관련 영화를 '역겨운(vile)'이라고 규정하며, 해당 영화 제작자들에게 시민권 박탈 등 조처를 경고했다. 표현의 자유·전시 정책과 시민권 문제를 둘러싼 논쟁이 예상된다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/14/israeli-minister-threatens-to-revoke-filmmakers-citizenship-over-gaza-film?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/14/israeli-minister-threatens-to-revoke-filmmakers-citizenship-over-gaza-film?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-14T03:50:25.000Z",
+        "lastObservedAt": "2026-09-14T06:11:19.578Z"
+      }
+    },
+    {
+      "id": "news-18967cde4baeef3a503992ad",
+      "title": "뉴델리서 열린 BRICS 정상회의 — 28개국 대표 모여 다극화·경제협력 논의",
+      "startAt": "2026-09-13T21:03:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "인도 주최로 열린 BRICS 정상회의에 중국·이란 대통령 등 28개국 대표가 참석했으며, 서방 주도의 국제질서에 대응하는 신흥국 연대와 글로벌 다극화, 지정학·경제 협력 방안이 주요 의제로 논의됐다. 회의에 미국은 공식적으로 불참했다는 점이 주목된다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/13/nx-s1-5967045/world-leaders-gathered-for-the-annual-brics-summit-here-are-the-takeaways",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/13/nx-s1-5967045/world-leaders-gathered-for-the-annual-brics-summit-here-are-the-takeaways"
+        ],
+        "firstPublishedAt": "2026-09-13T21:03:15.000Z",
+        "lastObservedAt": "2026-09-14T06:11:19.578Z"
+      }
+    },
     {
       "id": "news-07caa1f4f90135d92c130ce8",
       "title": "보리스 존슨 통과 직후 러시아, 폴란드 국경 인근 기차 공격",
@@ -23,6 +90,29 @@
         ],
         "firstPublishedAt": "2026-09-13T16:33:57.000Z",
         "lastObservedAt": "2026-09-13T16:57:45.366Z"
+      }
+    },
+    {
+      "id": "news-6118181b330889410e7c282b",
+      "title": "오바마, 민주당에 AI 안전·경제적 영향 대응 명확한 전략 수립 촉구",
+      "startAt": "2026-09-13T16:30:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "버락 오바마 전 대통령은 민주당이 인공지능을 당의 '중심 의제'로 삼아 경제적 영향과 안전 문제에 대해 명확한 계획을 제시해야 한다고 촉구했다. 이는 미국 내 AI 규제·사회정책 논의에 영향을 줄 수 있는 정치적 요구다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/"
+        ],
+        "firstPublishedAt": "2026-09-13T16:30:00.000Z",
+        "lastObservedAt": "2026-09-14T06:11:19.578Z"
       }
     },
     {
@@ -319,50 +409,6 @@
         ],
         "firstPublishedAt": "2026-09-11T17:19:47.000Z",
         "lastObservedAt": "2026-09-13T06:04:08.096Z"
-      }
-    },
-    {
-      "id": "news-99fa81da4e1a45c82214236d",
-      "title": "러시아, 우크라이나 관료 대상 공격 확대 — 미 외교에 논란",
-      "startAt": "2026-09-11T16:30:48.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 모스크바 방문을 마친 뒤 위트코프‑쿠슈너 방문 직후 러시아가 키이우를 향한 공격을 확대했고, 이로 인해 미국의 외교 행보가 비판을 받고 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/11/us-diplomacy-under-fire-as-moscow-escalates-attacks-on-ukrainian-officials?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/11/us-diplomacy-under-fire-as-moscow-escalates-attacks-on-ukrainian-officials?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-11T16:30:48.000Z",
-        "lastObservedAt": "2026-09-11T17:01:21.690Z"
-      }
-    },
-    {
-      "id": "news-35431e33dbe50b1884b15f1c",
-      "title": "노르웨이의 아스트리드 공주 별세",
-      "startAt": "2026-09-11T16:00:59.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "BBC는 아스트리드 공주가 형 하랄드 국왕의 장례식에 참석한 지 이틀 만에 사망했다고 보도했다. 새 국왕 하콘 8세는 조문에서 공주가 '따뜻하고 의무감 있게 왕실을 대표했다'고 추모했다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-11T16:00:59.000Z",
-        "lastObservedAt": "2026-09-11T17:01:21.690Z"
       }
     },
     {
@@ -776,54 +822,6 @@
         ],
         "firstPublishedAt": "2026-09-08T14:00:15.000Z",
         "lastObservedAt": "2026-09-08T17:14:48.639Z"
-      }
-    },
-    {
-      "id": "news-a2ba745c73e458cfea316221",
-      "title": "캐나다, 대미 보복관세 발효 — 200억 달러어치 미국산 대상",
-      "startAt": "2026-09-08T04:00:59.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "캐나다가 미국의 관세 조치에 맞서 $20bn(약 200억 달러) 규모의 미국산 수입품에 대한 보복 관세를 발효했다. 관세율은 품목에 따라 15%~50%까지이며 철강·유제품·가전·농기계·펄프·종이·전자제품 등 여러 업종이 대상이다. 양국 간 무역 긴장이 장기화될 가능성이 제기된다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump"
-        ],
-        "firstPublishedAt": "2026-09-08T04:39:14.000Z",
-        "lastObservedAt": "2026-09-08T05:55:15.087Z"
-      }
-    },
-    {
-      "id": "news-aa79bcae95b1cb2e72931017",
-      "title": "노스요크셔 노스터필드에서 희귀 반딧불이 재도입 성공",
-      "startAt": "2026-09-07T10:49:40.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "노스터필드 자연보호구역에서 자원봉사자들이 정성껏 사육한 반딧불이 유충을 방사한 뒤 수주간 암컷 반딧불이가 관찰되며, 수십 년 만에 지역에서 반딧불이의 번성이 다시 확인되었다. 비용이 거의 들지 않는 지역 기반 재도입 사례로서 멸종 위기 무척추동물 보전의 실용적 모델로 주목된다.",
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/sep/07/glowworms-shine-again-north-yorkshire-larvae-reintroduction",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/sep/07/glowworms-shine-again-north-yorkshire-larvae-reintroduction"
-        ],
-        "firstPublishedAt": "2026-09-07T10:49:40.000Z",
-        "lastObservedAt": "2026-09-07T18:15:04.988Z"
       }
     },
     {
