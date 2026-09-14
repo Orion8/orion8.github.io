@@ -1,8 +1,152 @@
 {
-  "catalogVersion": "0.0.103",
-  "updatedAt": "2026-09-14T06:11:19.579Z",
+  "catalogVersion": "0.0.104",
+  "updatedAt": "2026-09-14T18:36:28.713Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-20a90e82d409fb051d6d3f56",
+      "title": "Anthropic 등 주요 AI 기업 경영진들 개발 속도 늦출 것 촉구 — 시장·외교 반응 확산",
+      "startAt": "2026-09-14T18:17:47.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "Anthropic의 다리오 아모데이와 OpenAI·SpaceX 등 주요 인공지능 관련 기업 수장들이 2026‑09‑13~14일 AI 개발의 '속도 조절'을 공개적으로 촉구했다는 보도가 나왔다. 이 같은 경고는 AI의 통제 불능 가능성을 지적하며 거버넌스·안전 논의를 재점화했고, 관련 소식이 전해지자 엔비디아·AMD 등 AI 연관 주식이 하락하는 등 금융시장 반응도 관찰됐다. 중국 외교부는 일부 경고를 '공포 조장'이라고 비판하는 등 국제적 정치·외교적 파장도 이어졌다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
+      "topicIds": [
+        "politicsHumanRights",
+        "aiHistory",
+        "computerHistory",
+        "economyFinance",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+          "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
+          "https://www.npr.org/2026/09/14/g-s1-143148/up-first-newsletter-ai-anthropic-openai-midterms-trump-oman-iran-talks",
+          "https://www.npr.org/2026/09/14/nx-s1-5968456/china-hits-back-ai-development"
+        ],
+        "firstPublishedAt": "2026-09-12T15:53:43.000Z",
+        "lastObservedAt": "2026-09-14T18:36:28.713Z"
+      }
+    },
+    {
+      "id": "news-3b0cca787c8c6d1d1e4013e6",
+      "title": "각국, 아동·청소년의 소셜미디어 의존성 규제 움직임 가속",
+      "startAt": "2026-09-14T18:00:04.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "2026‑09‑14 보도로 여러 국가에서 아동·청소년의 소셜미디어 사용이 학업·정신건강에 미치는 부정적 영향을 우려하며 규제·정책 수단을 모색하고 있다는 분석이 제기됐다. 연구들은 조기 소셜미디어 사용이 학업 성적 저하·중독·정신건강 문제와 연관될 수 있음을 지적한다.",
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/countries-seek-to-curb-social-media-addiction-for-kids",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/countries-seek-to-curb-social-media-addiction-for-kids"
+        ],
+        "firstPublishedAt": "2026-09-14T18:00:04.000Z",
+        "lastObservedAt": "2026-09-14T18:36:28.713Z"
+      }
+    },
+    {
+      "id": "news-58ff6a7a9850b4a2ced4526c",
+      "title": "브라질 대선전선서 극우 복귀 기류 — 플라비우 보우소나루 지지 활동",
+      "startAt": "2026-09-14T17:04:05.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "2026‑09‑14 보도에 따르면 브라질에서 전직 대통령 자이르 보우소나루의 가족·지지자가 벨트웨더 주(미나스제라이스)에서 선거운동을 확대하며 좌파 대통령 루이스 이나시우 룰라 다 시우바와 초접전을 벌이고 있다. 현지 보도는 보우소나루 계열의 정치세력 강화가 향후 브라질 민주주의·정책 방향에 중요한 영향을 미칠 수 있다고 평가했다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/14/brazil-bolsonaro-far-right-minas-gerais",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/14/brazil-bolsonaro-far-right-minas-gerais"
+        ],
+        "firstPublishedAt": "2026-09-14T17:04:05.000Z",
+        "lastObservedAt": "2026-09-14T18:36:28.713Z"
+      }
+    },
+    {
+      "id": "news-f03d04701080dcb53fc6805b",
+      "title": "정부, 재정난 철강업체 국유화 검토·추진",
+      "startAt": "2026-09-14T16:58:23.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "영국 정부가 재정적 어려움을 겪는 철강업체(SSUK)의 국유화 방침을 검토·추진하고 있다고 보도됐다. 해당 기업의 사우스요크셔·웨스트미들랜즈 생산기지는 올해 초 가동이 중단된 바 있으며, 국유화 결정은 지역 고용과 산업 정책에 중대한 영향을 미칠 전망이다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm9w47ngje9no?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm9w47ngje9no?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-14T16:58:23.000Z",
+        "lastObservedAt": "2026-09-14T18:36:28.713Z"
+      }
+    },
+    {
+      "id": "news-f71855bc2c075f660f3ebb2f",
+      "title": "유가 급등·중동 공격 여파로 미 국채 10년물 금리 5% 돌파",
+      "startAt": "2026-09-14T16:48:34.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "사우디 인프라에 대한 드론·무기 공격 등 중동 긴장으로 글로벌 유가가 급등하며 2026‑09‑14 미 10년물 국채 수익률이 5% 수준까지 상승했다. 보도는 유가 상승이 인플레이션 우려를 자극해 세계 채권시장의 매도 압력을 키웠다고 전한다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/sep/14/oil-prices-rise-drone-attacks-saudi-arabia-east-west-pipeline",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/sep/14/oil-prices-rise-drone-attacks-saudi-arabia-east-west-pipeline"
+        ],
+        "firstPublishedAt": "2026-09-14T16:48:34.000Z",
+        "lastObservedAt": "2026-09-14T18:36:28.713Z"
+      }
+    },
+    {
+      "id": "news-40c0b1163aaa05ad921271fa",
+      "title": "태양광 패널 가격 하락이 전력시장 판도 변화 촉발",
+      "startAt": "2026-09-14T16:29:18.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "2026‑09‑14 보도는 중국산 태양광 패널의 저렴한 가격이 전세계 가옥 지붕과 상업시설에 빠르게 확산되며 전통적 대형 전력회사(유틸리티)의 사업모델과 전력시장 구조에 근본적 변화를 촉발하고 있다고 분석했다. 기사는 분산형 태양광 확산이 전력 수급·투자·요금 구조에 장기적 영향을 미칠 것으로 본다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/09/offensively-cheap-solar-power-is-looking-up/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/gadgets/2026/09/offensively-cheap-solar-power-is-looking-up/"
+        ],
+        "firstPublishedAt": "2026-09-14T16:29:18.000Z",
+        "lastObservedAt": "2026-09-14T18:36:28.713Z"
+      }
+    },
     {
       "id": "news-97322c8695c913d0f0dd3e21",
       "title": "영국 하원의원·상원의원, 인권 위협하는 AI 규제 위한 새 법 제정 촉구",
@@ -184,31 +328,6 @@
       }
     },
     {
-      "id": "news-20a90e82d409fb051d6d3f56",
-      "title": "Anthropic CEO 다리오 아모데이, AI 개발 속도 늦출 것 촉구",
-      "startAt": "2026-09-12T15:52:11.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Anthropic의 다리오 아모데이는 AI 모델이 전 세계에 심각한 피해를 줄 수 있다는 우려를 제기하며 최첨단 AI 개발의 속도를 늦출 것을 촉구했다. 이번 발언은 AI 안전·거버넌스 논의에 중요한 영향을 줄 것으로 보인다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-          "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/"
-        ],
-        "firstPublishedAt": "2026-09-12T15:53:43.000Z",
-        "lastObservedAt": "2026-09-12T16:15:44.833Z"
-      }
-    },
-    {
       "id": "news-3be14e6ee7a27dc3c2165753",
       "title": "미 법원, 트럼프 행정부의 긴급명령으로 미시간 석탄발전소 가동 연장 조치 거부",
       "startAt": "2026-09-12T15:34:51.000Z",
@@ -296,52 +415,6 @@
         ],
         "firstPublishedAt": "2026-09-12T12:30:55.000Z",
         "lastObservedAt": "2026-09-12T16:15:44.833Z"
-      }
-    },
-    {
-      "id": "news-8c61ee59a26eb8695a47b2bb",
-      "title": "사우디, 홍해 공격 여파로 주요 송유관 가동 중단(업데이트)",
-      "startAt": "2026-09-12T12:19:22.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "최근 발생한 공격으로 인해 사우디아라비아의 주요 송유관 가동이 중단됐다. 이번 보도는 공격 여파로 송유관이 실제로 폐쇄된 정황을 전하며 관련 사태가 지역 안보·에너지 공급에 미치는 영향을 계속 주시할 필요가 있음을 시사한다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/12/nx-s1-5964940/saudi-arabia-forced-to-shut-down-crucial-red-sea-pipeline-after-attacks",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/12/nx-s1-5964940/saudi-arabia-forced-to-shut-down-crucial-red-sea-pipeline-after-attacks"
-        ],
-        "firstPublishedAt": "2026-09-12T04:43:10.000Z",
-        "lastObservedAt": "2026-09-12T16:15:44.833Z"
-      }
-    },
-    {
-      "id": "news-5d86974d75d25c762965beaf",
-      "title": "인도서 BRICS 정상회의 개최 — 지정학·경제 난제 논의 예정",
-      "startAt": "2026-09-12T05:22:09.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 올해 BRICS 정상회의가 인도에서 열리며, 회의는 미국‑이스라엘의 이란 전쟁, 러시아의 우크라이나 전쟁 및 글로벌 경제 문제 등 복합적 지정학·경제 리스크 속에서 진행된다. 회원국 간 정책 협의와 글로벌 다극화 논의가 핵심 의제로 꼽힌다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/12/brics-meets-in-india-whats-on-the-agenda-why-it-matters?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/12/brics-meets-in-india-whats-on-the-agenda-why-it-matters?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-12T05:22:09.000Z",
-        "lastObservedAt": "2026-09-12T05:42:49.833Z"
       }
     },
     {
@@ -803,28 +876,6 @@
       }
     },
     {
-      "id": "news-f0e27f432f48fb866973d706",
-      "title": "AlphaGenome Atlas 공개 — 인간 유전체의 단일 염기 변이 90억 건에 대한 분자 영향 예측 지도",
-      "startAt": "2026-09-08T14:00:15.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "DeepMind의 AlphaGenome Atlas는 인간 유전체에서 가능한 모든 단일 염기 치환(약 90억 건)의 분자적 영향을 예측하는 지도를 제시한다고 발표했다. 이 자료는 유전변이의 기능적 영향 연구와 정밀의학 연구에 기초 데이터를 제공할 잠재력이 있다.",
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
-        ],
-        "firstPublishedAt": "2026-09-08T14:00:15.000Z",
-        "lastObservedAt": "2026-09-08T17:14:48.639Z"
-      }
-    },
-    {
       "id": "news-e7a16a750d4f01ff733d662a",
       "title": "베피콜롬보, 수성 도착 단계 시작—MTM 분리 성공",
       "startAt": "2026-09-07T08:25:00.000Z",
@@ -851,52 +902,6 @@
       }
     },
     {
-      "id": "news-09d8173c4081c82bd34f31ef",
-      "title": "유럽 최초 완전 상업용 궤도 로켓 발사 성공 — 독일 민간기업",
-      "startAt": "2026-09-06T11:55:26.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "독일의 한 민간 우주기업이 유럽에서 처음으로 완전 상업용(민간 주도) 궤도 로켓을 발사하는 데 성공했다고 보도됐다. 기업은 수년 내 달성한 성과라며 유럽 상업우주 산업의 전환점이라고 평가했다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/"
-        ],
-        "firstPublishedAt": "2026-09-06T11:55:26.000Z",
-        "lastObservedAt": "2026-09-06T16:12:08.582Z"
-      }
-    },
-    {
-      "id": "news-b5557b71094c2a70f8619f84",
-      "title": "글로리아 스타이넘(Gloria Steinem) 별세, 향년 92세",
-      "startAt": "2026-09-03T16:42:35.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "미국의 저널리스트이자 페미니스트 활동가 글로리아 스타이넘이 92세로 별세했다. 스타이넘은 가정폭력·여성 할례(FGM) 반대, 포르노그라피 비판, 베트남전·걸프전 반대 등 활동으로 전 세계 여성 권리 확산에 기여했다. 유족은 그녀가 뉴욕 자택에서 평화롭게 세상을 떠났다고 인스타그램 성명을 통해 밝혔다.",
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92"
-        ],
-        "firstPublishedAt": "2026-09-03T16:42:35.000Z",
-        "lastObservedAt": "2026-09-03T17:01:55.577Z"
-      }
-    },
-    {
       "id": "news-28563e1cf6650be9a84d0818",
       "title": "허블, 토성 남극 주변에 거대 10각형(데카곤) 대기파동 관측",
       "startAt": "2026-09-02T18:00:00.000Z",
@@ -916,28 +921,6 @@
         ],
         "firstPublishedAt": "2026-09-02T18:00:00.000Z",
         "lastObservedAt": "2026-09-03T05:44:16.819Z"
-      }
-    },
-    {
-      "id": "news-9c1a834b8aa123ab25421916",
-      "title": "미 연방거래위원회·22개 주, 아마존 광고 수수료 관련 소송 제기 — 200억 달러대 과징 주장",
-      "startAt": "2026-08-31T19:41:52.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언은 미국 FTC와 22개 주가 아마존을 상대로 광고주에 대한 '비밀 할증'(secret surcharges)으로 수십년간 과다요금을 부과해 왔다고 주장하며 소송을 제기했다고 보도했다. FTC는 이로 인해 일반 소비자 가격에도 영향이 미쳤다고 지적했다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/aug/31/amazon-advertising-lawsuit",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/aug/31/amazon-advertising-lawsuit"
-        ],
-        "firstPublishedAt": "2026-08-31T19:41:52.000Z",
-        "lastObservedAt": "2026-09-01T06:14:08.802Z"
       }
     },
     {
