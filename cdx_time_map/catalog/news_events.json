@@ -1,8 +1,172 @@
 {
-  "catalogVersion": "0.0.105",
-  "updatedAt": "2026-09-15T06:08:57.344Z",
+  "catalogVersion": "0.0.106",
+  "updatedAt": "2026-09-15T17:40:46.846Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-0b1b393a9641a2b971d4e1dc",
+      "title": "이스라엘 조직이 카타르 반대 영향력 캠페인 조직·운영했다고 보도",
+      "startAt": "2026-09-15T16:50:46.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라 보도에 따르면 이스라엘 매체 하레츠는 영향력 전문가들과 전 모사드 요원이 참여한 대(對)카타르 캠페인이 조직적으로 운영됐다고 보도했다. 해당 보도는 중동 외교관계와 정보전(影響力 전술)에 대한 논의를 촉발할 가능성이 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/15/israel-influence-campaign-against-qatar?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/15/israel-influence-campaign-against-qatar?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-15T16:50:46.000Z",
+        "lastObservedAt": "2026-09-15T17:40:46.846Z"
+      }
+    },
+    {
+      "id": "news-aa1afd823af98cffe636666b",
+      "title": "이란 외무장관의 베이징 방문 — 중국의 중재 가능성 검토",
+      "startAt": "2026-09-15T16:15:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "이란과 미국 간 긴장이 고조된 가운데 이란 외무장관이 중국을 방문해 외교적 해법을 모색한다고 보도됐다. 보도는 테헤란·베이징 간 외교 경로가 긴장 완화에 어떤 역할을 할지 주목했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/15/can-china-play-peacemaker-as-irans-foreign-minister-heads-to-beijing?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/15/can-china-play-peacemaker-as-irans-foreign-minister-heads-to-beijing?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-15T16:15:13.000Z",
+        "lastObservedAt": "2026-09-15T17:40:46.846Z"
+      }
+    },
+    {
+      "id": "news-92721cbea280174893e25559",
+      "title": "아르테미스 III 승무원, 케네디 우주센터 조립건물 방문해 고형 로켓부스터 통합 점검",
+      "startAt": "2026-09-15T16:14:24.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "아르테미스 III 임무 승무원(랜디 브레즈닉, 루카 파르미아노 등)이 플로리다 케네디 우주센터의 Vehicle Assembly Building 내 High Bay 3를 방문해 고형 로켓부스터 통합 현황을 점검했다고 NASA가 전했다. 임무 준비 진전의 일환으로 평가된다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/"
+        ],
+        "firstPublishedAt": "2026-09-15T16:14:24.000Z",
+        "lastObservedAt": "2026-09-15T17:40:46.846Z"
+      }
+    },
+    {
+      "id": "news-477e6c0bbbcd74fc21d155c9",
+      "title": "제임스웹, 성단 IC 348에서 목성 두 배 질량의 갈색왜성 발견",
+      "startAt": "2026-09-15T14:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA의 제임스웹 우주망원경이 성단 IC 348을 대규모로 촬영해, 목성의 약 두 배 질량을 지닌 갈색왜성들을 발견했다고 보고했다. 이번 이미지는 Webb가 공개한 대형 관측 중 하나로, 저질량 천체 연구와 별 형성 이론에 중요한 자료를 제공한다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/"
+        ],
+        "firstPublishedAt": "2026-09-15T14:00:00.000Z",
+        "lastObservedAt": "2026-09-15T17:40:46.846Z"
+      }
+    },
+    {
+      "id": "news-c1fa266af203833556f0a3b0",
+      "title": "미 EPA, 발전소 온실가스 규정 전면 폐지 추진",
+      "startAt": "2026-09-15T13:43:51.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "미 행정부의 환경보호청(EPA)이 발전소에 대한 남아있는 온실가스 규제를 없애려는 조치를 진행 중이며, EPA는 발전소 배출이 기후변화에 '실질적 영향'을 주지 않는다고 주장했다고 보도됐다. 해당 방침은 미국의 기후정책·국제 감축 노력에 중대한 영향을 미칠 전망이다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/09/epa-seeks-to-eliminate-remaining-greenhouse-gas-rules-for-power-plants/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/09/epa-seeks-to-eliminate-remaining-greenhouse-gas-rules-for-power-plants/"
+        ],
+        "firstPublishedAt": "2026-09-15T13:43:51.000Z",
+        "lastObservedAt": "2026-09-15T17:40:46.846Z"
+      }
+    },
+    {
+      "id": "news-5c81d3a813775a7fc1e43807",
+      "title": "미국, 궤도에 무기 배치 사실 공개 확인",
+      "startAt": "2026-09-15T12:55:31.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "미 공군(국방부) 관계자가 궤도상에 '온‑오빗(on‑orbit)' 무기를 배치해 운용 중임을 공개적으로 확인했다는 보도. 관측자들은 이번 발표가 러시아·중국과의 우주 군비경쟁을 가속화할 우려가 있다고 지적했다.",
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/sep/15/us-confirms-first-time-it-has-deployed-weapons-space",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb",
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/",
+          "https://www.theguardian.com/science/2026/sep/15/us-confirms-first-time-it-has-deployed-weapons-space"
+        ],
+        "firstPublishedAt": "2026-09-15T03:47:36.000Z",
+        "lastObservedAt": "2026-09-15T17:40:46.846Z"
+      }
+    },
+    {
+      "id": "news-091555cadecd64cdac20642f",
+      "title": "대서양 허리케인 시즌, 175년 만의 기록적 '평온' 전개",
+      "startAt": "2026-09-15T12:36:11.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "올해 대서양 허리케인 시즌이 175년 만에 가장 평온한 흐름을 보이고 있다는 분석 보도. 연구자들은 한편으로는 기록적 평온이 다른 기후·해양 조건에 미칠 영향(예: 에너지 축적·이후의 강한 사건 가능성)을 주시해야 한다고 경고했다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/09/this-is-by-far-the-most-peaceful-atlantic-hurricane-season-weve-ever-seen/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/09/this-is-by-far-the-most-peaceful-atlantic-hurricane-season-weve-ever-seen/"
+        ],
+        "firstPublishedAt": "2026-09-15T12:36:11.000Z",
+        "lastObservedAt": "2026-09-15T17:40:46.846Z"
+      }
+    },
     {
       "id": "news-cbee1b4cd5ed325b022f72df",
       "title": "OEUK 보고서: 정부 지원 시 북해서 100개 추가 석유·가스 프로젝트 '개방' 가능",
@@ -69,30 +233,6 @@
         ],
         "firstPublishedAt": "2026-09-15T04:00:26.000Z",
         "lastObservedAt": "2026-09-15T06:08:57.344Z"
-      }
-    },
-    {
-      "id": "news-5c81d3a813775a7fc1e43807",
-      "title": "미군, 궤도에 무기 배치 사실 최초 공개 확인",
-      "startAt": "2026-09-15T03:47:36.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "미국 국방부는 궤도상에 '공간 통제(space control)' 무기를 배치해 합동군을 방어할 수 있는 능력을 보유하게 되었다고 공개적으로 확인했다. 이번 선언은 우주에서의 군사화·억제 능력과 관련한 국제 안보 논의를 촉발할 가능성이 있다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/"
-        ],
-        "firstPublishedAt": "2026-09-15T03:47:36.000Z",
-        "lastObservedAt": "2026-09-15T06:08:57.343Z"
       }
     },
     {
@@ -443,51 +583,6 @@
       }
     },
     {
-      "id": "news-3be14e6ee7a27dc3c2165753",
-      "title": "미 법원, 트럼프 행정부의 긴급명령으로 미시간 석탄발전소 가동 연장 조치 거부",
-      "startAt": "2026-09-12T15:34:51.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "미 법원은 에너지부가 미시간의 석탄발전소 가동을 연장하라는 트럼프의 긴급명령이 권한을 초과했다고 판단해 해당 명령을 거부했다. 판결은 행정부의 권한 범위와 에너지 정책 집행에 영향을 줄 수 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/12/us-court-rejects-trumps-emergency-order-keeping-michigan-coal-plant-open?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/12/us-court-rejects-trumps-emergency-order-keeping-michigan-coal-plant-open?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-12T15:34:51.000Z",
-        "lastObservedAt": "2026-09-12T16:15:44.833Z"
-      }
-    },
-    {
-      "id": "news-b1c1f4440fef2100806c4ac8",
-      "title": "토로 왕국 오요 국왕 장례·왕위 이양 의식 거행",
-      "startAt": "2026-09-12T15:09:05.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "가디언 보도: 서부 우간다 토로(Tooro) 왕국의 오요( Oyo Nyimba Kabamba Iguru Rukidi IV) 장례가 카람비 왕릉(Karambi Royal Tombs)에서 거행됐고, 뉴스 앵커 에드워드 루키디 키자낭오마(Edward Rukidi Kijanangoma)가 의식에서 아홉 알의 커피 열매를 무덤에 던지며 형식적 권력 이양을 치렀다. 이는 왕위 계승 분쟁 국면에서 중요한 의례적 전개다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute",
-          "https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda"
-        ],
-        "firstPublishedAt": "2026-09-10T15:53:29.000Z",
-        "lastObservedAt": "2026-09-13T06:04:08.096Z"
-      }
-    },
-    {
       "id": "news-a061c44f7783dde2c2d60580",
       "title": "가리 탄(YN) 제안: 미국 오픈‑웨이트 AI 연구소들도 ‘프론티어 모델’ 증류에 참여해야",
       "startAt": "2026-09-11T20:59:47.000Z",
@@ -646,28 +741,6 @@
       }
     },
     {
-      "id": "news-19fa7ceeda7a053dca9d1107",
-      "title": "미 행정부 요청에 따른 미국 우주아카데미 설립 추진 — NASA 본부·대통령위원회 작업 개시",
-      "startAt": "2026-09-10T20:26:52.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "대통령의 행정명령에 따라 미국 최초의 'United States Space Academy' 설립이 추진되며, NASA 주도로 위원회와 실행작업이 본격화되고 있다. 이 계획은 향후 미 항공우주 인력·리더십 양성의 제도적 전환을 의도한다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/"
-        ],
-        "firstPublishedAt": "2026-09-10T20:26:52.000Z",
-        "lastObservedAt": "2026-09-11T05:55:21.220Z"
-      }
-    },
-    {
       "id": "news-fe21ecd742cbf248aa4dd837",
       "title": "ALOHAnet 공동개발자 프랭클린 쿠오 별세(향년 91) — 초기 무선 패킷망 역사적 인물",
       "startAt": "2026-09-10T20:00:04.000Z",
@@ -804,52 +877,6 @@
           "https://openai.com/index/expanding-ai-access-us-government"
         ],
         "firstPublishedAt": "2026-09-10T07:00:00.000Z",
-        "lastObservedAt": "2026-09-10T16:59:28.808Z"
-      }
-    },
-    {
-      "id": "news-44476d114f18168e38b48cef",
-      "title": "NASA 관측: 말리 등 서아프리카에 이례적 먼지 폭풍",
-      "startAt": "2026-09-10T04:00:00.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 1,
-      "description": "NASA 관측 자료에 따르면, 계절상 먼지 활동이 줄어드는 시기에 말리와 인근 지역을 광범위한 먼지 기둥(plume)이 뒤덮었다고 보도됐다. 지역 대기질과 가시성에 영향을 준 현상으로 관측됐다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/"
-        ],
-        "firstPublishedAt": "2026-09-10T04:00:00.000Z",
-        "lastObservedAt": "2026-09-10T05:55:25.799Z"
-      }
-    },
-    {
-      "id": "news-929774cbcd297929fa1506a0",
-      "title": "공격자들이 동일한 크롬·윈도우 익스플oit 키트 사용 포착 — 취약점·패치 공백 우려",
-      "startAt": "2026-09-09T20:55:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica는 네 개의 서로 다른 공격 그룹이 동일한 크롬 및 윈도우 익스플로잇 키트를 사용해온 정황을 포착했다고 보도했다. 기사에서는 패치 지연과 AI 기반 취약점 탐지·악용 속도의 가속이 이러한 상황의 원인일 수 있다고 지적했다. 이는 소프트웨어 공급망·사이버 방어 전략에 대한 정책적·운영적 대응 필요성을 시사한다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/"
-        ],
-        "firstPublishedAt": "2026-09-09T20:55:02.000Z",
         "lastObservedAt": "2026-09-10T16:59:28.808Z"
       }
     },
