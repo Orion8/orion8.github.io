@@ -1,8 +1,123 @@
 {
-  "catalogVersion": "0.0.104",
-  "updatedAt": "2026-09-14T18:36:28.713Z",
+  "catalogVersion": "0.0.105",
+  "updatedAt": "2026-09-15T06:08:57.344Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-cbee1b4cd5ed325b022f72df",
+      "title": "OEUK 보고서: 정부 지원 시 북해서 100개 추가 석유·가스 프로젝트 '개방' 가능",
+      "startAt": "2026-09-15T05:08:25.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "산업계(Offshore Energies UK)의 보고서는 영국 정부가 섹터에 더 많은 지원을 제공하면 북해에서 100개의 추가 석유·가스 개발 프로젝트를 '언락'해 국내 석유·가스 수요의 절반을 수입 없이 충당할 수 있다고 주장했다. 해당 제안은 에너지·산업 정책과 기후 영향 논쟁을 불러일으킬 전망이다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c65ym93p73xmo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c65ym93p73xmo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-15T05:08:25.000Z",
+        "lastObservedAt": "2026-09-15T06:08:57.344Z"
+      }
+    },
+    {
+      "id": "news-862f8afe6d9cbb96797a4f15",
+      "title": "미국의 아프리카너 난민 프로그램서 다수 신청자 거부 — 기대 후퇴",
+      "startAt": "2026-09-15T04:00:27.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "도널드 트럼프 행정부가 2025년에 발표한 아프리카너(백인 남아프리카공화국 출신) 난민 수용 프로그램과 관련해 최근 수십 명의 신청자가 거부되며 프로그램의 탄력성이 둔화되고 있다는 보도가 나왔다. 거부 사례는 일부 신청자들이 예상했던 보호·정착 경로가 보장되지 않음을 드러낸다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/15/white-south-africans-denied-refugee-status-us",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/15/white-south-africans-denied-refugee-status-us"
+        ],
+        "firstPublishedAt": "2026-09-15T04:00:27.000Z",
+        "lastObservedAt": "2026-09-15T06:08:57.344Z"
+      }
+    },
+    {
+      "id": "news-c5afc8d76da817d2808427e3",
+      "title": "콩고민주공화국(DRC) 에볼라 유행, 당국은 '정점에 도달' 발표",
+      "startAt": "2026-09-15T04:00:26.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "당국은 5월 선언된 에볼라 유행이 정점에 도달했으며, 번디부교(Bundibugyo) 지역의 신규 감염률이 느려지고 있다고 발표했다. 보도에 따르면 이번 유행으로 거의 3,500명이 사망했으며, 통제 완전 달성을 위해 추가 조치가 필요하다고 경고됐다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow"
+        ],
+        "firstPublishedAt": "2026-09-15T04:00:26.000Z",
+        "lastObservedAt": "2026-09-15T06:08:57.344Z"
+      }
+    },
+    {
+      "id": "news-5c81d3a813775a7fc1e43807",
+      "title": "미군, 궤도에 무기 배치 사실 최초 공개 확인",
+      "startAt": "2026-09-15T03:47:36.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "미국 국방부는 궤도상에 '공간 통제(space control)' 무기를 배치해 합동군을 방어할 수 있는 능력을 보유하게 되었다고 공개적으로 확인했다. 이번 선언은 우주에서의 군사화·억제 능력과 관련한 국제 안보 논의를 촉발할 가능성이 있다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/"
+        ],
+        "firstPublishedAt": "2026-09-15T03:47:36.000Z",
+        "lastObservedAt": "2026-09-15T06:08:57.343Z"
+      }
+    },
+    {
+      "id": "news-2e3d4b871a7d0c27e3881e42",
+      "title": "이스라엘 인권단체, \"팔레스타인 생활의 전 분야 해체\" 보고",
+      "startAt": "2026-09-14T20:34:20.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "이스라엘의 주요 인권단체는 이스라엘이 서안지구의 팔레스타인인 생활 전반을 빠른 속도로 해체하고 있으며, 정부 정책이 팔레스타인인의 존재 기반을 약화시키는 여러 메커니즘을 동원하고 있다고 문서화했다고 밝혔다. 해당 주장은 정치·인권 논쟁을 심화시킬 것으로 보인다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/14/nx-s1-5964897/israel-is-systematically-dismantling-palestinian-life-says-human-rights-group",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/14/nx-s1-5964897/israel-is-systematically-dismantling-palestinian-life-says-human-rights-group"
+        ],
+        "firstPublishedAt": "2026-09-14T20:34:20.000Z",
+        "lastObservedAt": "2026-09-15T06:08:57.344Z"
+      }
+    },
     {
       "id": "news-20a90e82d409fb051d6d3f56",
       "title": "Anthropic 등 주요 AI 기업 경영진들 개발 속도 늦출 것 촉구 — 시장·외교 반응 확산",
@@ -373,51 +488,6 @@
       }
     },
     {
-      "id": "news-80923c185408fd79a9dded28",
-      "title": "6명 나이지리아인, 600만 달러대 온라인 연애사기 혐의로 미국에 송환",
-      "startAt": "2026-09-12T14:05:45.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "가디언 보도: 미국 여성들을 대상으로 한 온라인 연애 사기를 통해 약 600만 달러를 가로챘다는 혐의로 지목된 6명의 나이지리아인이 남아프리카공화국에서 미 연방 당국에 인도돼 미국으로 송환됐다. 사건은 조직범죄 네트워크(Black Axe) 연루 의혹과 관련돼 있다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams"
-        ],
-        "firstPublishedAt": "2026-09-12T14:05:45.000Z",
-        "lastObservedAt": "2026-09-13T06:04:08.096Z"
-      }
-    },
-    {
-      "id": "news-58985fd1ccabd006ffe54da4",
-      "title": "뉴델리서 BRICS 포럼 개최 — 신흥국 연대·글로벌 다극화 논의",
-      "startAt": "2026-09-12T12:30:55.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "인도가 주최하는 BRICS 정상·대표자 회의가 뉴델리에서 열리며, 회원국들은 서방 주도의 국제질서에 대응하는 경제·정치 협력 방안과 지정학적 쟁점을 논의하고 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/12/nx-s1-5965777/brics-forum-brings-together-emerging-economies-aimed-at-countering-western-dominance",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/12/nx-s1-5965777/brics-forum-brings-together-emerging-economies-aimed-at-countering-western-dominance"
-        ],
-        "firstPublishedAt": "2026-09-12T12:30:55.000Z",
-        "lastObservedAt": "2026-09-12T16:15:44.833Z"
-      }
-    },
-    {
       "id": "news-a061c44f7783dde2c2d60580",
       "title": "가리 탄(YN) 제안: 미국 오픈‑웨이트 AI 연구소들도 ‘프론티어 모델’ 증류에 참여해야",
       "startAt": "2026-09-11T20:59:47.000Z",
@@ -503,30 +573,6 @@
           "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/"
         ],
         "firstPublishedAt": "2026-09-11T14:56:25.000Z",
-        "lastObservedAt": "2026-09-11T17:01:21.690Z"
-      }
-    },
-    {
-      "id": "news-ab29b544a8906cfe3a8c124c",
-      "title": "북다코타서 성체 티라노사우루스 발자국 첫 발견 — 23피트 길이 연속 흔적",
-      "startAt": "2026-09-11T14:34:07.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 데버박물관·리버풀 존 무어스대 연구팀이 헬크릭층에서 성체 티라노사우루스의 것으로 추정되는 23ft(약 7m) 길이의 트랙웨이를 확인했다. 연속된 네 개의 3‑발자국 자국이 포함된다.",
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/sep/11/tyrannosaurus-rex-footprints-north-dakota",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/sep/11/tyrannosaurus-rex-footprints-north-dakota"
-        ],
-        "firstPublishedAt": "2026-09-11T14:34:07.000Z",
         "lastObservedAt": "2026-09-11T17:01:21.690Z"
       }
     },
@@ -830,30 +876,6 @@
       }
     },
     {
-      "id": "news-57f48b076753d92ca6d37895",
-      "title": "NOAA 새 의제, 상업 어업 우선으로 전환 — 과학 기반 보전 약화 우려",
-      "startAt": "2026-09-09T13:58:44.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보도에 따르면 미국 국립해양대기관리청(NOAA)의 새 정책·의제가 상업적 어업을 우선하는 방향으로 전환되고 있으며, 비평가들은 이로 인해 과학 기반 규칙과 해양 보호 조치가 약화될 수 있다고 우려하고 있다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/09/noaa-is-putting-commercial-fishing-ahead-of-conservation/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/09/noaa-is-putting-commercial-fishing-ahead-of-conservation/"
-        ],
-        "firstPublishedAt": "2026-09-09T13:58:44.000Z",
-        "lastObservedAt": "2026-09-09T17:09:00.065Z"
-      }
-    },
-    {
       "id": "news-cfdae9ee96d7517d4644fe0a",
       "title": "미국 법정서 '대규모 암호화폐 강탈' 관련 싱가포르인 유죄 인정",
       "startAt": "2026-09-09T05:49:30.000Z",
@@ -873,6 +895,28 @@
         ],
         "firstPublishedAt": "2026-09-09T05:49:30.000Z",
         "lastObservedAt": "2026-09-09T05:56:59.037Z"
+      }
+    },
+    {
+      "id": "news-f0e27f432f48fb866973d706",
+      "title": "DeepMind, 'AlphaGenome Atlas' 공개 — 인간 유전체 90억 단일염기변이의 분자효과 예측 지도",
+      "startAt": "2026-09-08T14:00:15.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "DeepMind는 AlphaGenome Atlas를 통해 인간 유전체의 약 90억(single‑letter) 단일염기변이 각각에 대한 분자적 영향을 예측·지도로 제시했다고 발표했다. 이 자료는 유전변이의 기능적 해석과 의학·연구 활용에 중요한 기반이 될 수 있다.",
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+        ],
+        "firstPublishedAt": "2026-09-08T14:00:15.000Z",
+        "lastObservedAt": "2026-09-15T06:08:57.344Z"
       }
     },
     {
