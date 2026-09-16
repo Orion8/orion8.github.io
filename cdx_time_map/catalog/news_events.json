@@ -1,8 +1,75 @@
 {
-  "catalogVersion": "0.0.106",
-  "updatedAt": "2026-09-15T17:40:46.846Z",
+  "catalogVersion": "0.0.107",
+  "updatedAt": "2026-09-16T05:57:48.477Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-17f5de0da3db1a5417a6080b",
+      "title": "핑루(평루) 운하: 중국의 새 내륙‑해양 연결로가 동남아 교역에 미치는 영향",
+      "startAt": "2026-09-16T05:24:50.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "알자지라 보도에 따르면 중국의 첫 현대식 내륙‑해상 연결 운하인 핑루 운하는 동남아 지역으로의 무역 시간을 크게 단축하고 운송비를 낮출 수 있는 새로운 관문이 될 가능성이 있다. 해당 인프라는 지역 공급망·무역 패턴에 장기적 영향을 미칠 수 있으며 지정학·경제적 파급을 낳을 전망이다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/16/whats-the-pinglu-canal-chinas-new-gateway-to-southeast-asia?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/16/whats-the-pinglu-canal-chinas-new-gateway-to-southeast-asia?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-16T05:24:50.000Z",
+        "lastObservedAt": "2026-09-16T05:57:48.477Z"
+      }
+    },
+    {
+      "id": "news-ef60359f19d414ba66a6f5b1",
+      "title": "연구: 노예무역으로 축적된 부가 영국 금융시스템에 깊이 내재",
+      "startAt": "2026-09-16T05:00:12.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "역사학자들이 편찬한 영국 노예상인 명부(Register of British Slave Traders) 연구에서 다수의 은행 이사 및 창립 가입자가 아프리카인 매매·대서양 노예무역에 투자한 사실이 확인됐다. 연구진은 은행(영란은행)과 광범위한 금융시스템이 수세기 동안 노예무역의 경제적 이익과 얽혀 있었음을 밝히며, 이 발견은 영국의 역사적 책임·금융기관의 기원 재평가 논의를 촉발할 전망이다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/16/slave-trade-wealth-britain-financial-system-bank-of-england-enslaved-africans",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/16/slave-trade-wealth-britain-financial-system-bank-of-england-enslaved-africans"
+        ],
+        "firstPublishedAt": "2026-09-16T05:00:12.000Z",
+        "lastObservedAt": "2026-09-16T05:57:48.477Z"
+      }
+    },
+    {
+      "id": "news-1ca1920161bfa607d83afe3f",
+      "title": "새 글로벌 민주주의 보고서: 미국 민주주의 성과 50년 만에 최저",
+      "startAt": "2026-09-15T18:57:42.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "새로 발간된 글로벌 민주주의 보고서는 미국의 민주적 성과가 이 지표가 집계된 지난 50년 가운데 가장 낮은 수준에 이르렀다고 평가했다. 해당 결과는 미국 내 정치제도·시민권·거버넌스의 약화 우려를 제기하며 국내·국제적 논쟁을 촉발할 가능성이 있다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/15/nx-s1-5969741/state-of-u-s-democracy-reaches-new-low-report-finds",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/15/nx-s1-5969741/state-of-u-s-democracy-reaches-new-low-report-finds"
+        ],
+        "firstPublishedAt": "2026-09-15T18:57:42.000Z",
+        "lastObservedAt": "2026-09-16T05:57:48.477Z"
+      }
+    },
     {
       "id": "news-0b1b393a9641a2b971d4e1dc",
       "title": "이스라엘 조직이 카타르 반대 영향력 캠페인 조직·운영했다고 보도",
@@ -76,19 +143,20 @@
       "lane": "world",
       "category": "space",
       "importance": 2,
-      "description": "NASA의 제임스웹 우주망원경이 성단 IC 348을 대규모로 촬영해, 목성의 약 두 배 질량을 지닌 갈색왜성들을 발견했다고 보고했다. 이번 이미지는 Webb가 공개한 대형 관측 중 하나로, 저질량 천체 연구와 별 형성 이론에 중요한 자료를 제공한다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
+      "description": "NASA·ESA·CSA의 제임스웹 우주망원경이 성단 IC 348의 대형 파노라마 영상을 공개하고, 목성 질량의 약 두 배에 이르는 저질량 갈색왜성들을 발견했다고 보고했다. 이번 관측은 갈색왜성의 질량범위를 새로운 영역으로 확장해 별 형성 이론과 저질량 천체 연구에 중요한 자료를 제공한다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_reveals_stunning_panorama_of_star_formation",
       "topicIds": [
         "spaceDevelopment"
       ],
       "news": {
-        "status": "resolved",
+        "status": "developing",
         "sourceUrls": [
-          "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/"
+          "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
+          "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_reveals_stunning_panorama_of_star_formation"
         ],
         "firstPublishedAt": "2026-09-15T14:00:00.000Z",
-        "lastObservedAt": "2026-09-15T17:40:46.846Z"
+        "lastObservedAt": "2026-09-16T05:57:48.476Z"
       }
     },
     {
@@ -357,28 +425,6 @@
       }
     },
     {
-      "id": "news-f71855bc2c075f660f3ebb2f",
-      "title": "유가 급등·중동 공격 여파로 미 국채 10년물 금리 5% 돌파",
-      "startAt": "2026-09-14T16:48:34.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "사우디 인프라에 대한 드론·무기 공격 등 중동 긴장으로 글로벌 유가가 급등하며 2026‑09‑14 미 10년물 국채 수익률이 5% 수준까지 상승했다. 보도는 유가 상승이 인플레이션 우려를 자극해 세계 채권시장의 매도 압력을 키웠다고 전한다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/sep/14/oil-prices-rise-drone-attacks-saudi-arabia-east-west-pipeline",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/sep/14/oil-prices-rise-drone-attacks-saudi-arabia-east-west-pipeline"
-        ],
-        "firstPublishedAt": "2026-09-14T16:48:34.000Z",
-        "lastObservedAt": "2026-09-14T18:36:28.713Z"
-      }
-    },
-    {
       "id": "news-40c0b1163aaa05ad921271fa",
       "title": "태양광 패널 가격 하락이 전력시장 판도 변화 촉발",
       "startAt": "2026-09-14T16:29:18.000Z",
@@ -534,52 +580,6 @@
         ],
         "firstPublishedAt": "2026-09-13T16:11:41.000Z",
         "lastObservedAt": "2026-09-13T16:57:45.366Z"
-      }
-    },
-    {
-      "id": "news-e4e8cbf3506efc3a4a8a7ddd",
-      "title": "예멘 후티 장악 압박 속 24시간에 1,400명 지부티로 피난",
-      "startAt": "2026-09-13T04:40:18.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도: 후티 반군이 바브 엘 만데브 해협 인근에서 영향력을 강화하자 약 24시간 동안 1,400명의 예멘인이 오박(Obock) 항구를 통해 지부티로 도착했다고 전해졌다. 이번 인구 이동은 홍해 해역의 안보·인도주의 상황이 악화되고 있음을 시사한다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/13/1400-yemenis-flee-to-djibouti-within-24-hours?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port",
-          "https://www.aljazeera.com/news/2026/9/13/1400-yemenis-flee-to-djibouti-within-24-hours?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-11T05:40:21.000Z",
-        "lastObservedAt": "2026-09-13T06:04:08.096Z"
-      }
-    },
-    {
-      "id": "news-83c2b89503db83c21fd0fe95",
-      "title": "바누아투 여객선 침몰 — 1명 사망, 30여명 실종",
-      "startAt": "2026-09-13T03:41:14.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "알자지라 보도: 바누아투 인근을 운항하던 여객선이 침몰해 최소 1명이 숨지고 30명 이상이 실종됐다. 구조대가 생존자 수색을 이어가고 있으며 정부는 일부 구조 작업을 외해(外海)에서 축소했다고 밝혔다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/13/one-dead-more-than-30-missing-after-vanuatu-ferry-sinks-pms-office-says?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/13/one-dead-more-than-30-missing-after-vanuatu-ferry-sinks-pms-office-says?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-13T03:41:14.000Z",
-        "lastObservedAt": "2026-09-13T06:04:08.096Z"
       }
     },
     {
