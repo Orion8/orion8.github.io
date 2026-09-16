@@ -1,8 +1,121 @@
 {
-  "catalogVersion": "0.0.107",
-  "updatedAt": "2026-09-16T05:57:48.477Z",
+  "catalogVersion": "0.0.108",
+  "updatedAt": "2026-09-16T17:37:22.568Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-5f8cd9604e703c61f3c32770",
+      "title": "코소보 전 대통령 해시임 타치, 전쟁범죄 유죄 판결",
+      "startAt": "2026-09-16T17:20:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "헤이그 재판소에서 코소보의 전 대통령이자 KLA 지도자였던 해시임 타치(Hashim Thaci)가 전쟁범죄 혐의로 유죄 판결을 받았다고 알자지라가 보도했다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/16/kosovos-former-president-guilty-of-war-crimes?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/9/16/kosovos-former-president-guilty-of-war-crimes?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-16T17:20:15.000Z",
+        "lastObservedAt": "2026-09-16T17:37:22.568Z"
+      }
+    },
+    {
+      "id": "news-6b6f9a8e2d180b8bf66b74ca",
+      "title": "NASA, 슈퍼태풍 마와르로 피해본 괌 원격 관측소 완전 복구 축하",
+      "startAt": "2026-09-16T16:12:01.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 9월 10일 리본커팅 행사로 괌 원격 관측소의 완전 복구를 축하하며, 2023년 슈퍼태풍 마와르로부터 복구 작업이 3년 넘게 걸린 끝에 마무리됐다고 밝혔다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/technology/space-comms/nasa-celebrates-restoration-of-guam-station-damaged-by-typhoon-mawar/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/technology/space-comms/nasa-celebrates-restoration-of-guam-station-damaged-by-typhoon-mawar/"
+        ],
+        "firstPublishedAt": "2026-09-16T16:12:01.000Z",
+        "lastObservedAt": "2026-09-16T17:37:22.568Z"
+      }
+    },
+    {
+      "id": "news-99f40581eed35fd5ed1ff67d",
+      "title": "NASA, 지구 질량중심(center of mass) 계절적 이동 관측",
+      "startAt": "2026-09-16T16:08:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA 연구진은 계절적 물 분포 변화가 지구의 질량중심을 기하학적 중심에 대해 몇 분의 1인치 단위로 흔들리게 한다는 관측 결과를 공개했으며, 이는 위성 항법과 고도 측정의 기준점이라는 점에서 추적이 중요하다고 보도됐다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/"
+        ],
+        "firstPublishedAt": "2026-09-16T16:08:00.000Z",
+        "lastObservedAt": "2026-09-16T17:37:22.568Z"
+      }
+    },
+    {
+      "id": "news-ccdc03c28e7e50916fa5045b",
+      "title": "스탠퍼드 연구진, 인간 뇌세포와 기능하는 ‘부분 인간‑부분 쥐’ 뇌 개발 보도",
+      "startAt": "2026-09-16T15:53:27.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "BBC는 스탠퍼드 대학 연구진이 유전자를 조작한 쥐가 인간 뇌세포를 받아들이고 기능하도록 만든 '부분 인간‑부분 쥐' 뇌를 개발했다고 보도했다.",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60m3k28j81mo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c60m3k28j81mo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-16T15:53:27.000Z",
+        "lastObservedAt": "2026-09-16T17:37:22.568Z"
+      }
+    },
+    {
+      "id": "news-c41b611b7e34c03076926606",
+      "title": "케네디 센터 이사회, 역사적 센터 폐쇄 표결",
+      "startAt": "2026-09-16T11:19:46.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "같은 NPR 보도는 케네디 센터 이사회가 어제(현지 시점) 역사적 센터를 폐쇄하기로 표결했다고 전했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/16/g-s1-143569/up-first-newsletter-fed-reserve-interest-rates-iran-war-kennedy-center-contraception",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/16/g-s1-143569/up-first-newsletter-fed-reserve-interest-rates-iran-war-kennedy-center-contraception"
+        ],
+        "firstPublishedAt": "2026-09-16T11:19:46.000Z",
+        "lastObservedAt": "2026-09-16T17:37:22.568Z"
+      }
+    },
     {
       "id": "news-17f5de0da3db1a5417a6080b",
       "title": "핑루(평루) 운하: 중국의 새 내륙‑해양 연결로가 동남아 교역에 미치는 영향",
@@ -561,28 +674,6 @@
       }
     },
     {
-      "id": "news-2afdc278e856638217ec3da0",
-      "title": "코소보, 수개월간의 정치 공백 끝내고 새 정부 승인",
-      "startAt": "2026-09-13T16:11:41.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "알자지라 보도: 코소보 의회가 수개월간 이어진 정치적 교착 상태를 끝내고 새 정부를 승인했다. 새 행정부는 곧 치러질 논쟁적 대통령 선거 전까지 한시적 안정을 제공할 전망이다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/13/kosovo-approves-new-government-after-months-of-political-deadlock?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/13/kosovo-approves-new-government-after-months-of-political-deadlock?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-13T16:11:41.000Z",
-        "lastObservedAt": "2026-09-13T16:57:45.366Z"
-      }
-    },
-    {
       "id": "news-a061c44f7783dde2c2d60580",
       "title": "가리 탄(YN) 제안: 미국 오픈‑웨이트 AI 연구소들도 ‘프론티어 모델’ 증류에 참여해야",
       "startAt": "2026-09-11T20:59:47.000Z",
@@ -716,28 +807,6 @@
         ],
         "firstPublishedAt": "2026-09-11T09:00:00.000Z",
         "lastObservedAt": "2026-09-11T17:01:21.690Z"
-      }
-    },
-    {
-      "id": "news-dd7e5af661c2d493cade1f7a",
-      "title": "NASA, 아르테미스 협정 서명에 지부티 초청 — 72번째 서명국 예정",
-      "startAt": "2026-09-10T21:11:32.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 9월14일 워싱턴 NASA 본부에서 지부티 공화국의 아르테미스 협정 서명식을 개최한다고 발표했다. 서명으로 지부티는 아르테미스 협정의 72번째 국가가 된다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-djibouti-artemis-accords-signing-ceremony/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-invites-media-to-djibouti-artemis-accords-signing-ceremony/"
-        ],
-        "firstPublishedAt": "2026-09-10T21:11:32.000Z",
-        "lastObservedAt": "2026-09-11T05:55:21.220Z"
       }
     },
     {
@@ -903,28 +972,6 @@
       }
     },
     {
-      "id": "news-cfdae9ee96d7517d4644fe0a",
-      "title": "미국 법정서 '대규모 암호화폐 강탈' 관련 싱가포르인 유죄 인정",
-      "startAt": "2026-09-09T05:49:30.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "미 연방법원에서 싱가포르인 Malone Lam이 미국 당국이 '대규모 암호화폐 강탈' 사건과 관련해 제기한 혐의에 대해 유죄를 인정했다고 BBC가 보도했다. 당국은 범죄 수익이 사치스러운 생활비로 사용됐다고 밝혔다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crl6z03pr0do?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crl6z03pr0do?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-09T05:49:30.000Z",
-        "lastObservedAt": "2026-09-09T05:56:59.037Z"
-      }
-    },
-    {
       "id": "news-f0e27f432f48fb866973d706",
       "title": "DeepMind, 'AlphaGenome Atlas' 공개 — 인간 유전체 90억 단일염기변이의 분자효과 예측 지도",
       "startAt": "2026-09-08T14:00:15.000Z",
@@ -992,28 +1039,6 @@
         ],
         "firstPublishedAt": "2026-09-02T18:00:00.000Z",
         "lastObservedAt": "2026-09-03T05:44:16.819Z"
-      }
-    },
-    {
-      "id": "news-1768d1ca2eeed567b7f98892",
-      "title": "허블·가이아, 우리은하 초기 합병의 결정적 증거 규명",
-      "startAt": "2026-08-17T15:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "NASA·ESA 허블 우주망원경과 유럽의 가이아 관측을 통해 초기 우리은하가 작은 왜소은하를 병합한 결정적 증거가 확인됐다. 이번 결과는 우리은하의 성장 역사를 기존보다 약 18억 년 더 과거로 확장해 은하 형성·진화 이해를 크게 앞당긴다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_Gaia_solve_our_galaxy_s_merger_mystery",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Hubble_Gaia_solve_our_galaxy_s_merger_mystery"
-        ],
-        "firstPublishedAt": "2026-08-17T15:00:00.000Z",
-        "lastObservedAt": "2026-08-18T02:21:03.248Z"
       }
     }
   ]
