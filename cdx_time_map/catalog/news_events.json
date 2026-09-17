@@ -1,8 +1,100 @@
 {
-  "catalogVersion": "0.0.109",
-  "updatedAt": "2026-09-17T06:06:32.507Z",
+  "catalogVersion": "0.0.110",
+  "updatedAt": "2026-09-17T17:37:14.701Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c78d0c6b782c70ca96f42380",
+      "title": "Base Labs, Hugging Face·Goodfire와 오픈-웨이트 AI 안전 파트너십 출범",
+      "startAt": "2026-09-17T17:15:59.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Base Labs(기초연구 그룹)는 오픈 모델의 훈련·모니터링 방법을 개발·공개하기 위해 Hugging Face와 Goodfire와 함께 오픈-웨이트 AI 안전 파트너십을 출범했다고 발표했다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/"
+        ],
+        "firstPublishedAt": "2026-09-17T17:15:59.000Z",
+        "lastObservedAt": "2026-09-17T17:37:14.701Z"
+      }
+    },
+    {
+      "id": "news-32648293f5f5ad4cecb99a46",
+      "title": "유엔 사실조사단, 미국의 이란 관련 가능성 있는 전쟁범죄 지적",
+      "startAt": "2026-09-17T17:02:31.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "유엔 사실조사단은 보고서에서 미국이 이란에서 가능성 있는 전쟁범죄를 저질렀을 가능성이 있다고 결론 내렸으며, 동시에 이란 당국도 최근 시위 진압 과정에서 인도에 반하는 범죄(crimes against humanity)를 저질렀다고 밝혔다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/17/un-fact-finding-mission-says-us-committed-possible-war-crimes-in-iran?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/17/un-fact-finding-mission-says-us-committed-possible-war-crimes-in-iran?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-17T17:02:31.000Z",
+        "lastObservedAt": "2026-09-17T17:37:14.701Z"
+      }
+    },
+    {
+      "id": "news-919a787c6eed7b7432a1f34d",
+      "title": "스트라스부르에서 마크 카니 환영받아 — 캐나다 '준회원' 제안에 불확실성 여전",
+      "startAt": "2026-09-17T15:46:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "마크 카니가 유럽의회 연설에서 캐나다를 EU의 첫 준회원(associate member)으로 수용하자는 제안을 환영받았으나, 제도의 실제 의미와 절차에 대한 불확실성이 남아 있다고 보도됐다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/17/smiles-strasbourg-uncertainty-canada-eu-membership-plan-mark-carney",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/16/nx-s1-5971043/eu-canada-carney-tariffs-trump",
+          "https://www.theguardian.com/world/2026/sep/17/smiles-strasbourg-uncertainty-canada-eu-membership-plan-mark-carney"
+        ],
+        "firstPublishedAt": "2026-09-16T20:08:27.000Z",
+        "lastObservedAt": "2026-09-17T17:37:14.701Z"
+      }
+    },
+    {
+      "id": "news-d6efe3c4ae3b20ee394524ad",
+      "title": "연방준비제도(Fed) 금리 인상 보도(후속 보도)",
+      "startAt": "2026-09-17T10:54:18.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "연방준비제도(Fed)가 기준금리를 0.25%포인트 인상해 목표 범위를 3.75%~4.00%로 결정했다는 보도를 포함한 보도자료형 기사.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates",
+          "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union"
+        ],
+        "firstPublishedAt": "2026-09-16T21:01:39.000Z",
+        "lastObservedAt": "2026-09-17T17:37:14.701Z"
+      }
+    },
     {
       "id": "news-4b0d9c7839d1f7f7484ece43",
       "title": "아르헨티나 판사, 포클랜드(말비나스) 석유 개발 중단 명령",
@@ -22,51 +114,6 @@
           "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-09-17T04:52:07.000Z",
-        "lastObservedAt": "2026-09-17T06:06:32.507Z"
-      }
-    },
-    {
-      "id": "news-d6efe3c4ae3b20ee394524ad",
-      "title": "미 연방준비제도(Fed), 2023년 이후 처음 금리 인상",
-      "startAt": "2026-09-16T21:01:39.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "미 연방준비제도(Fed) 연방공개시장위원회가 기준금리를 0.25%포인트 인상해 목표 범위를 3.75%~4.00%로 결정했다. 위원회는 만장일치로 표결했다고 보도됐다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates"
-        ],
-        "firstPublishedAt": "2026-09-16T21:01:39.000Z",
-        "lastObservedAt": "2026-09-17T06:06:32.507Z"
-      }
-    },
-    {
-      "id": "news-919a787c6eed7b7432a1f34d",
-      "title": "EU, 캐나다에 '준회원(associate member)' 제안 — 트럼프는 '웃기는 일' 비난",
-      "startAt": "2026-09-16T20:08:27.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "유럽연합이 캐나다를 블록의 첫 '준회원(associate member)'으로 수용하는 방안을 지지했다는 보도가 나왔다. 이 제안에 도널드 트럼프 전 미국 대통령은 이를 'laughable(웃기는 일)'이라고 비판했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/16/nx-s1-5971043/eu-canada-carney-tariffs-trump",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/16/nx-s1-5971043/eu-canada-carney-tariffs-trump"
-        ],
-        "firstPublishedAt": "2026-09-16T20:08:27.000Z",
         "lastObservedAt": "2026-09-17T06:06:32.507Z"
       }
     },
@@ -675,28 +722,6 @@
       }
     },
     {
-      "id": "news-8e7593cb217a70034355aa62",
-      "title": "이스라엘 문화장관, 베니스 인정 '가자 학살' 영화 관련 제작자 시민권 박탈 위협",
-      "startAt": "2026-09-14T03:50:25.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "이스라엘 문화장관 미키 조하르는 베니스영화제에서 인정을 받은 가자 관련 영화를 '역겨운(vile)'이라고 규정하며, 해당 영화 제작자들에게 시민권 박탈 등 조처를 경고했다. 표현의 자유·전시 정책과 시민권 문제를 둘러싼 논쟁이 예상된다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/14/israeli-minister-threatens-to-revoke-filmmakers-citizenship-over-gaza-film?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/14/israeli-minister-threatens-to-revoke-filmmakers-citizenship-over-gaza-film?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-14T03:50:25.000Z",
-        "lastObservedAt": "2026-09-14T06:11:19.578Z"
-      }
-    },
-    {
       "id": "news-18967cde4baeef3a503992ad",
       "title": "뉴델리서 열린 BRICS 정상회의 — 28개국 대표 모여 다극화·경제협력 논의",
       "startAt": "2026-09-13T21:03:15.000Z",
@@ -970,28 +995,6 @@
           "https://arstechnica.com/space/2026/09/artemis-ii-commander-and-pilot-become-nasas-first-astronaut-emeriti/"
         ],
         "firstPublishedAt": "2026-09-10T11:30:42.000Z",
-        "lastObservedAt": "2026-09-10T16:59:28.808Z"
-      }
-    },
-    {
-      "id": "news-3802aa15c4b6ae22021ae0ee",
-      "title": "OpenAI·미 연방총무청 협력: 정부에 대한 AI 접근성·사이버 방어 확대 발표",
-      "startAt": "2026-09-10T07:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI는 GSA(미 연방총무청)와 협력해 연방·주·지방·부족정부 등 적격 기관에 대해 라이선스 수수료 면제, 사용료 50% 할인, 확장된 사이버 방어 지원 등을 제공한다고 보도자료에서 밝혔다. 해당 조치는 공공부문에서의 AI 도입·사이버 보안 역량 확장과 관련된 민관협력 사례로 주목된다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/expanding-ai-access-us-government",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/expanding-ai-access-us-government"
-        ],
-        "firstPublishedAt": "2026-09-10T07:00:00.000Z",
         "lastObservedAt": "2026-09-10T16:59:28.808Z"
       }
     },
