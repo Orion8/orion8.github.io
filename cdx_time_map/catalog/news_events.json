@@ -1,8 +1,74 @@
 {
-  "catalogVersion": "0.0.111",
-  "updatedAt": "2026-09-18T05:51:48.338Z",
+  "catalogVersion": "0.0.112",
+  "updatedAt": "2026-09-18T17:04:09.957Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-8a863be8b83805c6aafa3299",
+      "title": "NASA, 국제우주정거장 승무원 수송용 스페이스X에 3회 추가 임무 계약",
+      "startAt": "2026-09-18T16:02:31.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA가 국제우주정거장(ISS)에 대한 정기 승무원 수송을 계속하기 위해 계약을 수정해 스페이스X에 3회의 추가 유인 비행 임무를 발주했다고 발표했다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/"
+        ],
+        "firstPublishedAt": "2026-09-18T16:02:31.000Z",
+        "lastObservedAt": "2026-09-18T17:04:09.957Z"
+      }
+    },
+    {
+      "id": "news-ace8677550f6647e15ef28bf",
+      "title": "Tenko·Coronation Street 배우 스테파니 콜, 향년 84세로 별세",
+      "startAt": "2026-09-18T15:27:01.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "description": "BBC는 배우 스테파니 콜이 84세로 사망했다고 보도했다. 그녀는 1980년대 전쟁 드라마 Tenko에서 Dr Beatrice Mason 역으로 널리 알려졌고 Coronation Street 등 다수 작품으로 대중에게 잘 알려져 있다.",
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckz7zg4ez0peo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ckz7zg4ez0peo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-18T15:27:01.000Z",
+        "lastObservedAt": "2026-09-18T17:04:09.957Z"
+      }
+    },
+    {
+      "id": "news-62d937d9bc4a192dcc196719",
+      "title": "허블, '비동기' 은하 NGC 4698 포착",
+      "startAt": "2026-09-18T13:38:12.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA·ESA 허블 우주망원경이 처녀자리(Virgo)에 있는 나선은하 NGC 4698의 새로운 영상을 공개했다. 겉으로는 평온해 보이지만 내부적으로는 혼란스러운 구조를 지니고 있으며, 해당 은하는 지구에서 약 5,500만 광년 떨어진 처녀자리 군에 속한다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/"
+        ],
+        "firstPublishedAt": "2026-09-18T13:38:12.000Z",
+        "lastObservedAt": "2026-09-18T17:04:09.957Z"
+      }
+    },
     {
       "id": "news-2cd71e577f5d1b76c732811f",
       "title": "러시아 하원(두마) 선거: 누가 출마했으며 왜 중요한가",
@@ -875,50 +941,6 @@
       }
     },
     {
-      "id": "news-e742a1b7838c61a2972ad6e3",
-      "title": "NASA 시민참여 프로젝트 'Artifact InSPECtor' 공개 — 우주망원경 데이터 정제에 일반 참여 유도",
-      "startAt": "2026-09-11T19:48:09.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 1,
-      "description": "NASA가 우주망원경 데이터의 인공물(artifacts) 식별을 돕는 시민과학 프로젝트 'Artifact InSPECtor'를 공개했다. 일반 참여자들이 데이터 정제에 기여함으로써 Euclid와 Nancy Grace Roman 망원경 등 임무의 과학적 분석을 지원할 수 있다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/"
-        ],
-        "firstPublishedAt": "2026-09-11T19:48:09.000Z",
-        "lastObservedAt": "2026-09-12T16:15:44.833Z"
-      }
-    },
-    {
-      "id": "news-b0fb5bc5c5bba540372db56a",
-      "title": "체andra X선, 병합 중인 II Zw 096 계에서 강력한 활동 포착",
-      "startAt": "2026-09-11T17:19:47.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 보도자료: 찬드라 X선 관측과 기타 망원경 영상을 통해 II Zw 096 시스템에서 두 은하가 격렬하게 병합 중임이 포착됐다. 찬드라의 X선 데이터(자주색)는 강력한 블랙홀 활동과 뜨거운 가스를 지목하며, 시각·다파장 관측이 병합 은하의 물리 과정을 밝히는 데 기여한다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/nasas-chandra-spots-galactic-gem/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/image-article/nasas-chandra-spots-galactic-gem/"
-        ],
-        "firstPublishedAt": "2026-09-11T17:19:47.000Z",
-        "lastObservedAt": "2026-09-13T06:04:08.096Z"
-      }
-    },
-    {
       "id": "news-57f2bc84ece0baade14eb059",
       "title": "양자역학과 상대성이 만날 때 벌어지는 일 — 원자 초중첩 궤적 실험",
       "startAt": "2026-09-11T11:20:02.000Z",
@@ -963,29 +985,6 @@
         ],
         "firstPublishedAt": "2026-09-11T09:00:00.000Z",
         "lastObservedAt": "2026-09-11T17:01:21.690Z"
-      }
-    },
-    {
-      "id": "news-fde5d1622ee1d1dbd9fb837f",
-      "title": "중동 긴장 속 유가 급등 — 석유·가스 가격과 차입비용 급등 보도",
-      "startAt": "2026-09-10T15:56:33.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "BBC는 중동 사태 장기화 우려 속에 유가가 배럴당 약 105달러까지 상승했다고 보도했다. 기사에서는 이란 관련 전쟁이 빠르게 해결되지 않을 조짐이 보이며 원유·가스 가격 상승과 함께 글로벌 차입비용·금융시장 불안이 확대되고 있다고 전했다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y48rz2nddo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates",
-          "https://www.bbc.co.uk/news/articles/c5y48rz2nddo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-09T19:09:13.000Z",
-        "lastObservedAt": "2026-09-10T16:59:28.808Z"
       }
     },
     {
