@@ -1,8 +1,166 @@
 {
-  "catalogVersion": "0.0.110",
-  "updatedAt": "2026-09-17T17:37:14.701Z",
+  "catalogVersion": "0.0.111",
+  "updatedAt": "2026-09-18T05:51:48.338Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-2cd71e577f5d1b76c732811f",
+      "title": "러시아 하원(두마) 선거: 누가 출마했으며 왜 중요한가",
+      "startAt": "2026-09-18T05:37:46.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "2021년 선거에서 통합러시아(United Russia)가 의석의 3분의 2 이상을 차지했으며, 2026년 선거에서도 여당이 의회 지배력을 유지할 가능성이 크다고 보도됐다. 선거 구도와 의회의 역할이 향후 러시아 정책과 국제관계에 미치는 영향이 주요 쟁점으로 제기됐다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/18/russias-parliamentary-election-whos-on-the-ballot-and-why-it-matters?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/18/russias-parliamentary-election-whos-on-the-ballot-and-why-it-matters?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-18T05:37:46.000Z",
+        "lastObservedAt": "2026-09-18T05:51:48.338Z"
+      }
+    },
+    {
+      "id": "news-32648293f5f5ad4cecb99a46",
+      "title": "유엔 사실조사단, 이란 시위 진압 과정에서 인도에 반하는 범죄 결론",
+      "startAt": "2026-09-18T05:26:51.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "유엔 사실조사단은 최근 이란 내 시위 진압에서 이란 당국이 인도에 반하는 범죄(crimes against humanity)를 저질렀다는 결론을 내렸다고 보도됐다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/17/un-fact-finding-mission-says-us-committed-possible-war-crimes-in-iran?traffic_source=rss",
+          "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-17T17:02:31.000Z",
+        "lastObservedAt": "2026-09-18T05:51:48.337Z"
+      }
+    },
+    {
+      "id": "news-df3d64fa58b60d38811647ba",
+      "title": "일본, 물가 억제 위해 기준금리를 31년 만의 최고치로 인상",
+      "startAt": "2026-09-18T02:56:35.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "일본 중앙은행이 물가 상승을 억제하기 위해 기준금리를 인상해 31년 만의 최고 수준에 도달했다고 보도됐다. 전세계적인 금리 인상 흐름과 연관된 조치로 평가된다.",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqn74jeek06no?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqn74jeek06no?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-18T02:56:35.000Z",
+        "lastObservedAt": "2026-09-18T05:51:48.338Z"
+      }
+    },
+    {
+      "id": "news-10eee90727fdae7e3eb628b4",
+      "title": "구글 딥마인드, AGI 논의 확대 위한 연구소 출범",
+      "startAt": "2026-09-17T23:21:17.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "구글 딥마인드는 AGI(범용인공지능) 관련 다양한 관점을 공론화하기 위해 새로운 연구·토론 기관을 출범시켰다. 기관은 구글·딥마인드 내 입장과 글로벌 연구계의 상이한 견해를 드러내고 논의를 넓히는 것을 목표로 한다고 밝혔다.",
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/"
+        ],
+        "firstPublishedAt": "2026-09-17T23:21:17.000Z",
+        "lastObservedAt": "2026-09-18T05:51:48.338Z"
+      }
+    },
+    {
+      "id": "news-5f759f1230a0cd07d8ae10ab",
+      "title": "NATO 지원 스타트업, 드론에 자율 표적식별·공격용 AI 적용 보도",
+      "startAt": "2026-09-17T22:12:58.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "보도에 따르면 스타트업 Scaleout은 분산형 AI 학습을 군사 기지와 무인기(드론)에 배포해 전장 표적을 자율 식별·공격할 수 있는 체계를 개발·적용하고 있다고 전해졌다. 무인전력화와 AI 무기화의 실전 적용 가능성을 보여주는 사례로 지적된다.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/"
+        ],
+        "firstPublishedAt": "2026-09-17T22:12:58.000Z",
+        "lastObservedAt": "2026-09-18T05:51:48.338Z"
+      }
+    },
+    {
+      "id": "news-4b0483ab4145d11ab40db599",
+      "title": "볼리비아 융가스서 100년 만의 신종 야생고양이 확인",
+      "startAt": "2026-09-17T20:43:38.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "볼리비아 융가스 산림에서 현지명이 '틸카요(tilcayo)'인 소형 야생고양이가 새로 식별되어, 100년 만에 새로 공식 명명·기술된 고양이종이라는 보도가 나왔다. 몸길이 약 46cm, 체중 약 1.4kg으로 알려졌다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/17/new-cat-species-identified-bolivia",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/17/new-cat-species-identified-bolivia"
+        ],
+        "firstPublishedAt": "2026-09-17T20:43:38.000Z",
+        "lastObservedAt": "2026-09-18T05:51:48.338Z"
+      }
+    },
+    {
+      "id": "news-4893b761b0380215bf841a84",
+      "title": "NASA, 스타버스트 감마선 검출기 발사를 위해 스페이스X와 계약",
+      "startAt": "2026-09-17T20:37:09.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 중성자별 병합 및 단주기 감마선폭발의 기원을 조사할 소형 위성 'StarBurst'의 발사 서비스를 스페이스X의 팰컨9 라켓에 의한 Bandwagon 라이드셰어 임무로 계약했다고 발표했다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-launch-services-for-starburst-gamma-ray-detector/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-awards-launch-services-for-starburst-gamma-ray-detector/"
+        ],
+        "firstPublishedAt": "2026-09-17T20:37:09.000Z",
+        "lastObservedAt": "2026-09-18T05:51:48.338Z"
+      }
+    },
     {
       "id": "news-c78d0c6b782c70ca96f42380",
       "title": "Base Labs, Hugging Face·Goodfire와 오픈-웨이트 AI 안전 파트너십 출범",
@@ -23,28 +181,6 @@
           "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/"
         ],
         "firstPublishedAt": "2026-09-17T17:15:59.000Z",
-        "lastObservedAt": "2026-09-17T17:37:14.701Z"
-      }
-    },
-    {
-      "id": "news-32648293f5f5ad4cecb99a46",
-      "title": "유엔 사실조사단, 미국의 이란 관련 가능성 있는 전쟁범죄 지적",
-      "startAt": "2026-09-17T17:02:31.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "유엔 사실조사단은 보고서에서 미국이 이란에서 가능성 있는 전쟁범죄를 저질렀을 가능성이 있다고 결론 내렸으며, 동시에 이란 당국도 최근 시위 진압 과정에서 인도에 반하는 범죄(crimes against humanity)를 저질렀다고 밝혔다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/17/un-fact-finding-mission-says-us-committed-possible-war-crimes-in-iran?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/17/un-fact-finding-mission-says-us-committed-possible-war-crimes-in-iran?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-17T17:02:31.000Z",
         "lastObservedAt": "2026-09-17T17:37:14.701Z"
       }
     },
@@ -342,28 +478,6 @@
       }
     },
     {
-      "id": "news-aa1afd823af98cffe636666b",
-      "title": "이란 외무장관의 베이징 방문 — 중국의 중재 가능성 검토",
-      "startAt": "2026-09-15T16:15:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "이란과 미국 간 긴장이 고조된 가운데 이란 외무장관이 중국을 방문해 외교적 해법을 모색한다고 보도됐다. 보도는 테헤란·베이징 간 외교 경로가 긴장 완화에 어떤 역할을 할지 주목했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/15/can-china-play-peacemaker-as-irans-foreign-minister-heads-to-beijing?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/15/can-china-play-peacemaker-as-irans-foreign-minister-heads-to-beijing?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-15T16:15:13.000Z",
-        "lastObservedAt": "2026-09-15T17:40:46.846Z"
-      }
-    },
-    {
       "id": "news-92721cbea280174893e25559",
       "title": "아르테미스 III 승무원, 케네디 우주센터 조립건물 방문해 고형 로켓부스터 통합 점검",
       "startAt": "2026-09-15T16:14:24.000Z",
@@ -600,36 +714,6 @@
       }
     },
     {
-      "id": "news-20a90e82d409fb051d6d3f56",
-      "title": "Anthropic 등 주요 AI 기업 경영진들 개발 속도 늦출 것 촉구 — 시장·외교 반응 확산",
-      "startAt": "2026-09-14T18:17:47.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "Anthropic의 다리오 아모데이와 OpenAI·SpaceX 등 주요 인공지능 관련 기업 수장들이 2026‑09‑13~14일 AI 개발의 '속도 조절'을 공개적으로 촉구했다는 보도가 나왔다. 이 같은 경고는 AI의 통제 불능 가능성을 지적하며 거버넌스·안전 논의를 재점화했고, 관련 소식이 전해지자 엔비디아·AMD 등 AI 연관 주식이 하락하는 등 금융시장 반응도 관찰됐다. 중국 외교부는 일부 경고를 '공포 조장'이라고 비판하는 등 국제적 정치·외교적 파장도 이어졌다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
-      "topicIds": [
-        "politicsHumanRights",
-        "aiHistory",
-        "computerHistory",
-        "economyFinance",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-          "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-          "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
-          "https://www.npr.org/2026/09/14/g-s1-143148/up-first-newsletter-ai-anthropic-openai-midterms-trump-oman-iran-talks",
-          "https://www.npr.org/2026/09/14/nx-s1-5968456/china-hits-back-ai-development"
-        ],
-        "firstPublishedAt": "2026-09-12T15:53:43.000Z",
-        "lastObservedAt": "2026-09-14T18:36:28.713Z"
-      }
-    },
-    {
       "id": "news-3b0cca787c8c6d1d1e4013e6",
       "title": "각국, 아동·청소년의 소셜미디어 의존성 규제 움직임 가속",
       "startAt": "2026-09-14T18:00:04.000Z",
@@ -835,28 +919,6 @@
       }
     },
     {
-      "id": "news-1ec8837ca95b64d5e1229347",
-      "title": "NASA, 아르테미스 협정 참여국과 달 과학·자료 공유 확대 발표",
-      "startAt": "2026-09-11T14:56:25.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 아르테미스 프로그램을 통해 얻는 모든 달 시료·데이터·발견의 과학적 결과를 전 세계 과학계와 공유하겠다고 발표했다며, 이는 아르테미스 협정에 서명한 71개국의 원칙을 준수하는 조치라고 밝혔다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/"
-        ],
-        "firstPublishedAt": "2026-09-11T14:56:25.000Z",
-        "lastObservedAt": "2026-09-11T17:01:21.690Z"
-      }
-    },
-    {
       "id": "news-57f2bc84ece0baade14eb059",
       "title": "양자역학과 상대성이 만날 때 벌어지는 일 — 원자 초중첩 궤적 실험",
       "startAt": "2026-09-11T11:20:02.000Z",
@@ -904,54 +966,6 @@
       }
     },
     {
-      "id": "news-fe21ecd742cbf248aa4dd837",
-      "title": "ALOHAnet 공동개발자 프랭클린 쿠오 별세(향년 91) — 초기 무선 패킷망 역사적 인물",
-      "startAt": "2026-09-10T20:00:04.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 1,
-      "description": "IEEE Spectrum은 프랭클린 ‘프랭크’ 쿠오가 향년 91세로 별세했다고 보도했다. 쿠오는 하와이대의 ALOHAnet 개발을 주도했으며(1971년 가동), 이는 무선 패킷 데이터 네트워크의 초기 공개 실험으로 이후 로버트 메트칼프의 이더넷 개발에 영감을 주었다고 전해진다.",
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies"
-        ],
-        "firstPublishedAt": "2026-09-10T20:00:04.000Z",
-        "lastObservedAt": "2026-09-12T05:42:49.833Z"
-      }
-    },
-    {
-      "id": "news-6ed4ce8b25becc58f8f973ab",
-      "title": "미국의 NASA-파트너십 축소 영향으로 유럽, 금성 탐사 독자 추진 검토",
-      "startAt": "2026-09-10T19:09:29.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "아르스테크니카 보도에 따르면 NASA가 금성 탐사용 레이더 장비 제공을 철회하자 유럽 탐사 주체들이 자체적으로 임무를 추진하거나 중국 등 타국과의 협력을 모색하고 있다. 이는 국제 우주 협력의 재조정 가능성을 시사한다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/"
-        ],
-        "firstPublishedAt": "2026-09-10T19:09:29.000Z",
-        "lastObservedAt": "2026-09-11T05:55:21.220Z"
-      }
-    },
-    {
       "id": "news-fde5d1622ee1d1dbd9fb837f",
       "title": "중동 긴장 속 유가 급등 — 석유·가스 가격과 차입비용 급등 보도",
       "startAt": "2026-09-10T15:56:33.000Z",
@@ -971,30 +985,6 @@
           "https://www.bbc.co.uk/news/articles/c5y48rz2nddo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-09-09T19:09:13.000Z",
-        "lastObservedAt": "2026-09-10T16:59:28.808Z"
-      }
-    },
-    {
-      "id": "news-ee2d77ef6bc15477a5367ac5",
-      "title": "NASA 임무 역사: 아르테미스 II 지휘관·조종사 '우주비행사 명예 퇴역(emeriti)' 지정",
-      "startAt": "2026-09-10T11:30:42.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "Ars Technica는 아르테미스 II 임무의 지휘관과 조종사가 NASA의 첫 'astronaut emeriti'(명예 퇴역 우주비행사)로 지정되었다고 보도했다. 보도는 이 조치가 해당 임무의 공식적 마무리와 미 항공우주인사 제도의 전통·기록 관리를 반영한다고 전했다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/09/artemis-ii-commander-and-pilot-become-nasas-first-astronaut-emeriti/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/09/artemis-ii-commander-and-pilot-become-nasas-first-astronaut-emeriti/"
-        ],
-        "firstPublishedAt": "2026-09-10T11:30:42.000Z",
         "lastObservedAt": "2026-09-10T16:59:28.808Z"
       }
     },
