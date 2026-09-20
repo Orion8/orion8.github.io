@@ -1,8 +1,74 @@
 {
-  "catalogVersion": "0.0.115",
-  "updatedAt": "2026-09-20T06:09:15.555Z",
+  "catalogVersion": "0.0.116",
+  "updatedAt": "2026-09-20T16:47:07.403Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-186a30a3df8b26ffe8df95bf",
+      "title": "미 검찰, 중국 화웨이에 대한 '범죄 기업' 규정과 중대한 재판",
+      "startAt": "2026-09-20T15:57:48.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "화웨이가 절도·사기·제재 위반 혐의로 기소되며 미국에서 중대한(landmark) 재판을 앞두고 있다. 미국 검찰은 화웨이를 '범죄 기업'으로 규정했다고 보도됐으며, 이 과정은 통신기업·대중국 법적 분쟁의 핵심 사건으로 주목된다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/20/why-have-us-prosecutors-labelled-chinas-huawei-a-criminal-enterprise?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/20/why-have-us-prosecutors-labelled-chinas-huawei-a-criminal-enterprise?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-20T15:57:48.000Z",
+        "lastObservedAt": "2026-09-20T16:47:07.403Z"
+      }
+    },
+    {
+      "id": "news-3f31ed17feb7d17f078f7372",
+      "title": "미셸 바첼레, 유엔 사무총장 선거 후보직 사퇴",
+      "startAt": "2026-09-20T12:04:08.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "칠레 전 대통령 미셸 바첼레(74)가 안전보장이사회 비공식 표에서 지지가 급락한 뒤 유엔 사무총장 후보직에서 물러났다고 밝혔다. 바첼레는 인스타그램에 올린 영상에서 사퇴를 발표하고 향후 국제 활동을 계속하겠다고 밝혔다. 이번 사퇴로 경쟁 후보 수는 7명으로 줄었다.",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general"
+        ],
+        "firstPublishedAt": "2026-09-20T12:04:08.000Z",
+        "lastObservedAt": "2026-09-20T16:47:07.403Z"
+      }
+    },
+    {
+      "id": "news-8fd38f79b116b8caf216c4af",
+      "title": "미국 석탄광부 '블랙 런'(흑색폐) 사례 급증 — 보상 지연으로 고통",
+      "startAt": "2026-09-20T11:00:16.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "미국에서 탄광 노동자들의 블랙 런(흑색폐·coal workers’ pneumoconiosis) 사례가 50년 만에 최고 수준으로 늘어난 가운데, 병에 걸린 광부들이 연금·보상 지급 지연으로 어려움을 겪고 있다는 보도가 나왔다. 피해자들의 증언을 통해 제도적 처리 지연과 의료·복지 문제 등이 부각됐다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/sep/20/us-coalminers-black-lung-disease",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/sep/20/us-coalminers-black-lung-disease"
+        ],
+        "firstPublishedAt": "2026-09-20T11:00:16.000Z",
+        "lastObservedAt": "2026-09-20T16:47:07.403Z"
+      }
+    },
     {
       "id": "news-9f85addad23f0c8fe46b0f32",
       "title": "베를린·메클렌부르크‑포어포머른 주 선거 — 극우 득세 이후 치러지는 투표",
@@ -554,50 +620,6 @@
         ],
         "firstPublishedAt": "2026-09-16T21:01:39.000Z",
         "lastObservedAt": "2026-09-17T17:37:14.701Z"
-      }
-    },
-    {
-      "id": "news-4b0d9c7839d1f7f7484ece43",
-      "title": "아르헨티나 판사, 포클랜드(말비나스) 석유 개발 중단 명령",
-      "startAt": "2026-09-17T04:52:07.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "아르헨티나 법원이 영국이 관리하는 포클랜드 제도(Falklands)의 석유 개발 프로젝트에 대해 중단 명령을 내렸다. 이 조치는 아르헨티나의 영유권 주장을 고조시키는 상징적 조치로 보인다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-17T04:52:07.000Z",
-        "lastObservedAt": "2026-09-17T06:06:32.507Z"
-      }
-    },
-    {
-      "id": "news-5f8cd9604e703c61f3c32770",
-      "title": "코소보 전 대통령 해시임 타치, 전쟁범죄 유죄 판결",
-      "startAt": "2026-09-16T17:20:15.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "헤이그 재판소에서 코소보의 전 대통령이자 KLA 지도자였던 해시임 타치(Hashim Thaci)가 전쟁범죄 혐의로 유죄 판결을 받았다고 알자지라가 보도했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/16/kosovos-former-president-guilty-of-war-crimes?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/9/16/kosovos-former-president-guilty-of-war-crimes?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-16T17:20:15.000Z",
-        "lastObservedAt": "2026-09-16T17:37:22.568Z"
       }
     },
     {
