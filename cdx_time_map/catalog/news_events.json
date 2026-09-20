@@ -1,8 +1,53 @@
 {
-  "catalogVersion": "0.0.114",
-  "updatedAt": "2026-09-19T16:25:28.411Z",
+  "catalogVersion": "0.0.115",
+  "updatedAt": "2026-09-20T06:09:15.555Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-9f85addad23f0c8fe46b0f32",
+      "title": "베를린·메클렌부르크‑포어포머른 주 선거 — 극우 득세 이후 치러지는 투표",
+      "startAt": "2026-09-20T05:42:50.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "약 380만 명의 유권자가 베를린과 메클렌부르크‑포어포머른 주에서 투표에 참여한다. 이번 선거는 최근 극우 세력의 득세 이후 치러지는 것으로 지방·연방 정치 지형에 영향을 미칠 가능성이 있다.",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/20/two-german-states-go-to-the-polls-after-far-right-gains?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/20/two-german-states-go-to-the-polls-after-far-right-gains?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-20T05:42:50.000Z",
+        "lastObservedAt": "2026-09-20T06:09:15.555Z"
+      }
+    },
+    {
+      "id": "news-bcbc566915d6856de5424724",
+      "title": "사우디아라비아, 후티 반군의 리야드 공격 시도 발표 — 수도 표적화는 첫 사례",
+      "startAt": "2026-09-20T03:57:23.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "사우디 당국은 예멘의 이란 지원 후티 반군이 탄도미사일로 리야드를 공격하려 했다고 발표했다. 보도는 이번이 분쟁에서 수도가 표적이 된 첫 사례라며, 갈등이 새로운 전선으로 확장되었음을 시사한다고 전했다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital"
+        ],
+        "firstPublishedAt": "2026-09-20T03:57:23.000Z",
+        "lastObservedAt": "2026-09-20T06:09:15.555Z"
+      }
+    },
     {
       "id": "news-73d2f0ed517b7e7563ef6c77",
       "title": "프랑스·폴란드 등 유럽 동맹국, 러시아의 '하이브리드' 공격 고조 경고",
@@ -281,6 +326,28 @@
         ],
         "firstPublishedAt": "2026-09-18T13:38:12.000Z",
         "lastObservedAt": "2026-09-18T17:04:09.957Z"
+      }
+    },
+    {
+      "id": "news-a00923bf4ddda715364788a2",
+      "title": "오픈AI, 'Australian Youth Safety Blueprint' 발표 — 청소년 대상 AI 안전 로드맵",
+      "startAt": "2026-09-18T12:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "오픈AI가 청소년을 보호하고 권한을 강화하기 위한 6개 기둥의 로드맵인 'Australian Youth Safety Blueprint'를 공개했다. 청소년의 안전한 AI 경험을 목표로 한 정책·실무 권고를 제시한다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://openai.com/index/australian-youth-safety-blueprint"
+        ],
+        "firstPublishedAt": "2026-09-18T12:00:00.000Z",
+        "lastObservedAt": "2026-09-20T06:09:15.555Z"
       }
     },
     {
@@ -669,51 +736,6 @@
       }
     },
     {
-      "id": "news-ef60359f19d414ba66a6f5b1",
-      "title": "연구: 노예무역으로 축적된 부가 영국 금융시스템에 깊이 내재",
-      "startAt": "2026-09-16T05:00:12.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "역사학자들이 편찬한 영국 노예상인 명부(Register of British Slave Traders) 연구에서 다수의 은행 이사 및 창립 가입자가 아프리카인 매매·대서양 노예무역에 투자한 사실이 확인됐다. 연구진은 은행(영란은행)과 광범위한 금융시스템이 수세기 동안 노예무역의 경제적 이익과 얽혀 있었음을 밝히며, 이 발견은 영국의 역사적 책임·금융기관의 기원 재평가 논의를 촉발할 전망이다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/16/slave-trade-wealth-britain-financial-system-bank-of-england-enslaved-africans",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/16/slave-trade-wealth-britain-financial-system-bank-of-england-enslaved-africans"
-        ],
-        "firstPublishedAt": "2026-09-16T05:00:12.000Z",
-        "lastObservedAt": "2026-09-16T05:57:48.477Z"
-      }
-    },
-    {
-      "id": "news-1ca1920161bfa607d83afe3f",
-      "title": "새 글로벌 민주주의 보고서: 미국 민주주의 성과 50년 만에 최저",
-      "startAt": "2026-09-15T18:57:42.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "새로 발간된 글로벌 민주주의 보고서는 미국의 민주적 성과가 이 지표가 집계된 지난 50년 가운데 가장 낮은 수준에 이르렀다고 평가했다. 해당 결과는 미국 내 정치제도·시민권·거버넌스의 약화 우려를 제기하며 국내·국제적 논쟁을 촉발할 가능성이 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/15/nx-s1-5969741/state-of-u-s-democracy-reaches-new-low-report-finds",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/15/nx-s1-5969741/state-of-u-s-democracy-reaches-new-low-report-finds"
-        ],
-        "firstPublishedAt": "2026-09-15T18:57:42.000Z",
-        "lastObservedAt": "2026-09-16T05:57:48.477Z"
-      }
-    },
-    {
       "id": "news-477e6c0bbbcd74fc21d155c9",
       "title": "제임스웹, 성단 IC 348에서 목성 두 배 질량의 갈색왜성 발견",
       "startAt": "2026-09-15T14:00:00.000Z",
@@ -901,29 +923,6 @@
         ],
         "firstPublishedAt": "2026-09-13T16:30:00.000Z",
         "lastObservedAt": "2026-09-14T06:11:19.578Z"
-      }
-    },
-    {
-      "id": "news-a061c44f7783dde2c2d60580",
-      "title": "가리 탄(YN) 제안: 미국 오픈‑웨이트 AI 연구소들도 ‘프론티어 모델’ 증류에 참여해야",
-      "startAt": "2026-09-11T20:59:47.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Y Combinator의 가리 탄은 중국 외에 미국 내 오픈‑웨이트 연구소들이 프론티어급 모델을 '증류(distill)'해 경량·공개 대안 확보에 기여해야 한다고 주장했다. 이는 미국 AI 생태계의 경쟁력·안전성 확보를 위한 제안으로 주목받는다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
-        ],
-        "firstPublishedAt": "2026-09-11T20:59:47.000Z",
-        "lastObservedAt": "2026-09-12T16:15:44.833Z"
       }
     },
     {
