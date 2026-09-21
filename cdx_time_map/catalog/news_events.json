@@ -1,8 +1,75 @@
 {
-  "catalogVersion": "0.0.117",
-  "updatedAt": "2026-09-21T06:18:42.832Z",
+  "catalogVersion": "0.0.118",
+  "updatedAt": "2026-09-21T18:38:35.689Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-a6bdcfb76b04d856e4b26e4e",
+      "title": "NASA, 초기 화성에 복잡한 물 시스템 존재 확인 — 퍼서비어런스 연구 결과 공개",
+      "startAt": "2026-09-21T16:54:43.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 퍼서비어런스 로버가 예제로 분지(Jezero Crater) 내 'Margin Unit'에서 기대와 다른 지층·퇴적 구조를 발견해 초기 화성에 복잡한 물 시스템이 존재했음을 시사하는 증거를 공개했다. 이 결과는 고대 화성의 수문학·환경 변화와 생명 가능성 연구에 중요한 새 단서를 제공한다.",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/"
+        ],
+        "firstPublishedAt": "2026-09-21T16:54:43.000Z",
+        "lastObservedAt": "2026-09-21T18:38:35.689Z"
+      }
+    },
+    {
+      "id": "news-781e0aafe74d222bc917469f",
+      "title": "파라마운트, 12개 주와 소송 합의 — 워너브라더스 배합병(810억 달러) 진행 길 열려",
+      "startAt": "2026-09-21T16:52:49.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "파라마운트가 캘리포니아 등 12개 주(州)와 제기된 소송에 대해 합의에 이르러 워너브라더스 디스커버리(WBD)와의 약 810억 달러 규모 합병 절차에 대한 법적 장애물이 축소됐다. 이번 합의는 미 법무부의 승인(6월)에 이어 주(州) 차원의 반대 문제를 해소하며 할리우드 주요 방송·스튜디오 통합의 향방에 중대한 영향을 미칠 전망이다.",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/sep/21/paramount-settles-lawsuits-warner-bros-merger",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/sep/21/paramount-settles-lawsuits-warner-bros-merger"
+        ],
+        "firstPublishedAt": "2026-09-21T16:52:49.000Z",
+        "lastObservedAt": "2026-09-21T18:38:35.688Z"
+      }
+    },
+    {
+      "id": "news-f2776f028d52c03a4003151c",
+      "title": "오픈AI, 글로벌 AI 표준 구축 촉구 및 수학·AI 자문그룹 구성",
+      "startAt": "2026-09-21T10:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "오픈AI가 인공지능의 다음 단계를 위한 글로벌 표준 마련 경로를 제안하며 평가·보고·거버넌스의 국제적 조정을 촉구했다. 동시에 '수학과 인공지능(Advisory Group on Mathematics and Artificial Intelligence)'이라는 독립 자문그룹을 구성해 신흥 AI 결과물의 검토·소통을 안내하겠다고 밝혔다. 이번 발표는 AI 안전·검증·규범 설정을 둘러싼 국제 논의를 촉발할 가능성이 있다.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/building-standards-next-phase-ai",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/building-standards-next-phase-ai",
+          "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+        ],
+        "firstPublishedAt": "2026-09-21T10:00:00.000Z",
+        "lastObservedAt": "2026-09-21T18:38:35.688Z"
+      }
+    },
     {
       "id": "news-2cc2a5ace121aac694e25ec3",
       "title": "이란 군 당국, 미군의 '공습 재개 준비' 주장 — 긴장 고조",
@@ -716,28 +783,6 @@
       }
     },
     {
-      "id": "news-99f40581eed35fd5ed1ff67d",
-      "title": "NASA, 지구 질량중심(center of mass) 계절적 이동 관측",
-      "startAt": "2026-09-16T16:08:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 연구진은 계절적 물 분포 변화가 지구의 질량중심을 기하학적 중심에 대해 몇 분의 1인치 단위로 흔들리게 한다는 관측 결과를 공개했으며, 이는 위성 항법과 고도 측정의 기준점이라는 점에서 추적이 중요하다고 보도됐다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/"
-        ],
-        "firstPublishedAt": "2026-09-16T16:08:00.000Z",
-        "lastObservedAt": "2026-09-16T17:37:22.568Z"
-      }
-    },
-    {
       "id": "news-ccdc03c28e7e50916fa5045b",
       "title": "스탠퍼드 연구진, 인간 뇌세포와 기능하는 ‘부분 인간‑부분 쥐’ 뇌 개발 보도",
       "startAt": "2026-09-16T15:53:27.000Z",
@@ -899,30 +944,6 @@
         ],
         "firstPublishedAt": "2026-09-15T12:36:11.000Z",
         "lastObservedAt": "2026-09-15T17:40:46.846Z"
-      }
-    },
-    {
-      "id": "news-3b0cca787c8c6d1d1e4013e6",
-      "title": "각국, 아동·청소년의 소셜미디어 의존성 규제 움직임 가속",
-      "startAt": "2026-09-14T18:00:04.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "2026‑09‑14 보도로 여러 국가에서 아동·청소년의 소셜미디어 사용이 학업·정신건강에 미치는 부정적 영향을 우려하며 규제·정책 수단을 모색하고 있다는 분석이 제기됐다. 연구들은 조기 소셜미디어 사용이 학업 성적 저하·중독·정신건강 문제와 연관될 수 있음을 지적한다.",
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/countries-seek-to-curb-social-media-addiction-for-kids",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/countries-seek-to-curb-social-media-addiction-for-kids"
-        ],
-        "firstPublishedAt": "2026-09-14T18:00:04.000Z",
-        "lastObservedAt": "2026-09-14T18:36:28.713Z"
       }
     },
     {
