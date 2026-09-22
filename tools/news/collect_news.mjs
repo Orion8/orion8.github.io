@@ -551,6 +551,8 @@ function validateCatalog(catalog) {
         !allowedCategories.has(event.category) || !Number.isInteger(event.importance) ||
         event.importance < 1 || event.importance > 3 ||
         typeof event.sourceName !== 'string' || !event.sourceName ||
+        !localizedValue(event.titleTranslations, 'en') ||
+        !localizedValue(event.descriptionTranslations, 'en') ||
         !isHttpsUrl(event.sourceUrl) || !Array.isArray(event.topicIds) ||
         event.topicIds.length === 0 || event.topicIds.some((topic) => !allowedTopicIds.has(topic)) ||
         !event.news || !Array.isArray(event.news.sourceUrls) ||
@@ -559,6 +561,11 @@ function validateCatalog(catalog) {
     }
     ids.add(event.id);
   }
+}
+
+function localizedValue(value, languageCode) {
+  const candidate = value?.[languageCode];
+  return typeof candidate === 'string' && candidate.trim() ? candidate.trim() : null;
 }
 
 function validateSource(source) {
