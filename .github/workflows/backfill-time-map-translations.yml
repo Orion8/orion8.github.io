@@ -1,0 +1,31 @@
+name: Backfill Time Map translations
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Translate missing history and news content
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TRANSLATION_MODEL: ${{ vars.TIME_MAP_TRANSLATION_MODEL || 'gpt-5-mini' }}
+        run: node tools/news/backfill_catalog_translations.mjs
+
+      - name: Upload validated translation catalogs
+        uses: actions/upload-artifact@v4
+        with:
+          name: time-map-translated-catalogs
+          path: translation_output/
+          if-no-files-found: error
+          retention-days: 3

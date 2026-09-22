@@ -341,7 +341,8 @@ async function organizeWithOpenAI({candidates, existingEvents}) {
       'Retain meaningful events across society, economy, science, culture, health, climate, space, AI, and broader technology/computing rather than concentrating on one field.',
       'Treat AI and broader technology/computing as distinct beats. Preserve the supplied topic tags for each source and do not relabel ordinary computing, semiconductor, internet, security, or robotics news as AI.',
       'For a continuing conflict or crisis, create a new event only for a materially new phase such as a formal agreement, major territorial or legal change, decisive outcome, or major verified humanitarian shift. Prefer existingEventId for a meaningful update; omit routine daily attacks, statements, reactions, and incremental updates.',
-      'Cluster duplicate coverage into one event. Use Korean title and description while preserving proper names.',
+      'Cluster duplicate coverage into one event.',
+      'Write title and description in Korean, and titleEn and descriptionEn as faithful natural English versions of the same facts. Preserve proper names and do not add facts during translation.',
       'Use a supplied source index for every event. Do not invent URLs, dates, sources, facts, or tags.',
       'Choose an existingEventId only when a candidate is a genuine update to that existing event.',
     ].join(' '),
@@ -350,8 +351,10 @@ async function organizeWithOpenAI({candidates, existingEvents}) {
       existingEvents: existingEvents.map((event) => ({
         id: event.id,
         title: event.title,
+        titleEn: event.titleTranslations?.en ?? '',
         startAt: event.startAt,
         description: event.description,
+        descriptionEn: event.descriptionTranslations?.en ?? '',
         topicIds: event.topicIds,
       })),
     },
@@ -375,12 +378,14 @@ const eventSchema = {
         type: 'object',
         additionalProperties: false,
         required: [
-          'title', 'description', 'startAt', 'category', 'importance',
+          'title', 'titleEn', 'description', 'descriptionEn', 'startAt', 'category', 'importance',
           'topicIds', 'sourceIndexes', 'existingEventId', 'newsStatus',
         ],
         properties: {
           title: {type: 'string'},
+          titleEn: {type: 'string'},
           description: {type: 'string'},
+          descriptionEn: {type: 'string'},
           startAt: {type: 'string'},
           category: {type: 'string', enum: [...allowedCategories]},
           importance: {type: 'integer', enum: [1, 2, 3]},
@@ -470,11 +475,19 @@ function mergeEvents({existingEvents, candidates, draftEvents}) {
       ...(previous ?? {}),
       id: previous?.id ?? stableId(combinedUrls),
       title: truncate(draft.title.trim(), 120),
+      titleTranslations: {
+        ...(previous?.titleTranslations ?? {}),
+        en: truncate(draft.titleEn.trim(), 160),
+      },
       startAt: new Date(draft.startAt).toISOString(),
       lane: 'world',
       category: draft.category,
       importance: draft.importance,
       description: truncate(draft.description.trim(), 420),
+      descriptionTranslations: {
+        ...(previous?.descriptionTranslations ?? {}),
+        en: truncate(draft.descriptionEn.trim(), 600),
+      },
       sourceName: sources[0].sourceName,
       sourceUrl: sources[0].url,
       topicIds: [...new Set([...(previous?.topicIds ?? []), ...draft.topicIds])],
@@ -496,7 +509,9 @@ function validateDraft(draft, candidates, existingEvents) {
   }
   const invalidFields = [];
   if (typeof draft.title !== 'string' || !draft.title.trim()) invalidFields.push('title');
+  if (typeof draft.titleEn !== 'string' || !draft.titleEn.trim()) invalidFields.push('titleEn');
   if (typeof draft.description !== 'string' || !draft.description.trim()) invalidFields.push('description');
+  if (typeof draft.descriptionEn !== 'string' || !draft.descriptionEn.trim()) invalidFields.push('descriptionEn');
   if (!Number.isFinite(Date.parse(draft.startAt))) invalidFields.push('startAt');
   if (!allowedCategories.has(draft.category)) invalidFields.push('category');
   if (!Number.isInteger(draft.importance) || draft.importance < 1 || draft.importance > 3) {
