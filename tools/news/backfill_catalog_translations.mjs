@@ -8,7 +8,7 @@ const outputDirectory = path.resolve(
   process.env.TRANSLATION_OUTPUT_DIR ?? 'translation_output',
 );
 const historyCatalogUrl = process.env.HISTORY_CATALOG_URL ??
-  'https://raw.githubusercontent.com/Orion8/cdx_time_map/main/assets/data/world_events.json';
+  'https://orion8.github.io/cdx_time_map/assets/assets/data/world_events.json';
 const newsCatalogPath = path.resolve(
   root,
   process.env.NEWS_CATALOG_PATH ?? 'cdx_time_map/catalog/news_events.json',
