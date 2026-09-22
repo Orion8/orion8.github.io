@@ -1,8 +1,185 @@
 {
-  "catalogVersion": "0.0.120",
-  "updatedAt": "2026-09-22T06:07:53.611Z",
+  "catalogVersion": "0.0.121",
+  "updatedAt": "2026-09-22T17:38:10.336Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-caaf4b1f8cd66a723a0674cc",
+      "title": "AstroForge, 차기 우주선 'Autonomy‑1'에 소형 AI 모델 탑재해 자율 운용 계획",
+      "titleTranslations": {
+        "en": "AstroForge to put a small, transformer‑based AI model in command of its next spacecraft, Autonomy‑1"
+      },
+      "startAt": "2026-09-22T15:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "TechCrunch 보도에 따르면 우주 스타트업 AstroForge는 차기 탐사선 'Autonomy‑1'에 트랜스포머 기반의 소형 AI 모델을 탑재해 우주선의 자율 제어·운용을 맡기겠다고 밝혔다. 이는 우주 분야에서의 자율화와 AI 적용 확대를 보여주는 사례다.",
+      "descriptionTranslations": {
+        "en": "TechCrunch reports that space startup AstroForge plans to equip its next spacecraft, Autonomy‑1, with a small transformer‑based AI model to take on autonomous control of the probe. The move exemplifies expanded use of autonomy and AI in space operations."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/"
+        ],
+        "firstPublishedAt": "2026-09-22T15:00:00.000Z",
+        "lastObservedAt": "2026-09-22T17:38:10.336Z"
+      }
+    },
+    {
+      "id": "news-d0ab50dd2825684488b0cda3",
+      "title": "중국 경쟁·미국 관세에 반발해 독일 자동차업계 대규모 시위 — 일자리 손실 우려",
+      "titleTranslations": {
+        "en": "Protests for Germany’s car industry as job losses loom amid Chinese competition and US tariffs"
+      },
+      "startAt": "2026-09-22T14:40:47.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "Ars Technica는 중국의 경쟁 심화와 미국의 관세 등으로 독일 자동차업계의 구조적 압박이 커지자 노동자·지역사회의 대규모 시위가 발생했다고 보도했다. 시위는 향후 산업정책과 고용에 관한 정치적 논쟁을 촉발할 가능성이 있다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that mounting pressure on Germany’s auto industry—from rising Chinese competition to US tariffs—has prompted large protests by workers and communities facing looming job losses. The demonstrations may trigger political debate over industrial policy and employment."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/"
+        ],
+        "firstPublishedAt": "2026-09-22T14:40:47.000Z",
+        "lastObservedAt": "2026-09-22T17:38:10.336Z"
+      }
+    },
+    {
+      "id": "news-d5ae5867b58418dc8a22bc79",
+      "title": "트럼프의 멸종위기종법 약화 방안 — 1995년 스칼리아 반대견해 인용",
+      "titleTranslations": {
+        "en": "Trump’s plan to weaken the Endangered Species Act draws on 1995 Scalia dissent"
+      },
+      "startAt": "2026-09-22T14:29:15.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica 보도에 따르면 도널드 트럼프 대통령 측이 연방 정부의 멸종위기종 보호 권한을 축소하는 방안을 마련하면서 1995년 스칼리아 대법관의 반대견해를 인용하고 있다. 이는 연방의 환경 보호 권한과 종 보전 정책에 중요한 영향을 미칠 수 있다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that President Donald Trump is advancing plans to curtail federal protections under the Endangered Species Act and is drawing on Justice Scalia’s 1995 dissent. The move could significantly affect federal environmental authority and species‑conservation policy."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/trumps-sneaky-plan-to-gut-endangered-species-act-draws-from-1995-scalia-dissent/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/09/trumps-sneaky-plan-to-gut-endangered-species-act-draws-from-1995-scalia-dissent/"
+        ],
+        "firstPublishedAt": "2026-09-22T14:29:15.000Z",
+        "lastObservedAt": "2026-09-22T17:38:10.336Z"
+      }
+    },
+    {
+      "id": "news-c2ee8cb6be47331260d9f2e8",
+      "title": "스리랑카 법원, 2019년 부활절 연쇄 폭탄테러 관련 15명 유죄 판결",
+      "titleTranslations": {
+        "en": "Sri Lanka court convicts 15 over deadly 2019 Easter bombings"
+      },
+      "startAt": "2026-09-22T13:30:01.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "NPR는 2019년 부활절 연쇄 폭탄테러와 관련해 법원이 15명을 유죄로 판결했다고 보도했다. 이들 공격은 이슬람국가 계열의 영감에 따른 사건으로 외국인 42명 등 다수가 희생된 바 있다.",
+      "descriptionTranslations": {
+        "en": "NPR reports that a court in Sri Lanka has convicted 15 people over the deadly 2019 Easter bombings. The attacks, inspired by Islamic State‑affiliated actors, killed dozens including 42 foreign nationals."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/22/g-s1-144514/sri-lanka-court-convicts-15-over-deadly-2019-easter-bombings",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/22/g-s1-144514/sri-lanka-court-convicts-15-over-deadly-2019-easter-bombings"
+        ],
+        "firstPublishedAt": "2026-09-22T13:30:01.000Z",
+        "lastObservedAt": "2026-09-22T17:38:10.336Z"
+      }
+    },
+    {
+      "id": "news-6647c9fc50b2e199d7b26845",
+      "title": "CNN·MS NOW·폴리티코, 백악관 출입 금지 조치에 대해 트럼프 행정부 상대 소송 제기",
+      "startAt": "2026-09-22T11:01:01.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "NPR 보도에 따르면 CNN·MS NOW·Politico 등 언론사가 백악관 출입에서 배제된 조치에 대응해 도널드 트럼프 대통령을 상대로 소송을 제기했다. 이는 이전의 백악관 출입 배제 발표에 대한 법적 대응으로 보도·언론 접근성 논쟁을 증폭시킬 가능성이 있다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/22/g-s1-144512/up-first-newsletter-press-lawsuit-cnn-msnow-politico-unga-trump-speech-paramount-deal",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/22/g-s1-144512/up-first-newsletter-press-lawsuit-cnn-msnow-politico-unga-trump-speech-paramount-deal"
+        ],
+        "firstPublishedAt": "2026-09-19T05:36:36.000Z",
+        "lastObservedAt": "2026-09-22T17:38:10.336Z"
+      },
+      "titleTranslations": {
+        "en": "CNN, MS NOW and Politico sue Trump after networks suspended from White House"
+      },
+      "descriptionTranslations": {
+        "en": "NPR reports that CNN, MS NOW, and Politico have filed lawsuits against President Donald Trump after being suspended from White House access. The suits are a legal response to the earlier access‑ban announcement and could intensify debates over press access and reporting."
+      }
+    },
+    {
+      "id": "news-961bfe9ff7b6ed201990f587",
+      "title": "후티 반군, 예멘 서부에서 추가 진격·영토 확보 — 10만 명 이상 강제 이주 발생",
+      "titleTranslations": {
+        "en": "Houthis push deeper into western Yemen, seize new territory — over 100,000 displaced"
+      },
+      "startAt": "2026-09-22T10:59:37.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도에 따르면, 이란의 지원을 받는 후티 반군이 예멘 서부에서 새로운 전선을 열고 추가 영토를 확보하면서 생활 기반이 크게 붕괴되어 목격자들은 10만 명이 넘는 주민들이 이주했다고 전했다. 이번 전개는 지역 인도주의 위기를 악화시키고 있다.",
+      "descriptionTranslations": {
+        "en": "NPR reports that Iran‑backed Houthi rebels have opened a new front in western Yemen and seized additional territory, displacing more than 100,000 people according to witnesses. The advance is worsening the humanitarian crisis in the area."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/22/g-s1-144261/yemen-houthis-saudi-iran-humanitarian-crisis",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/22/g-s1-144261/yemen-houthis-saudi-iran-humanitarian-crisis"
+        ],
+        "firstPublishedAt": "2026-09-22T10:59:37.000Z",
+        "lastObservedAt": "2026-09-22T17:38:10.335Z"
+      }
+    },
     {
       "id": "news-ca5508078aa1cf9c83b646da",
       "title": "G7 외교장관들, 후티 반군의 사우디 공격 중단 요구",
@@ -520,36 +697,6 @@
       }
     },
     {
-      "id": "news-90bd0f1f42e9526002cd014a",
-      "title": "미·덴마크의 그린란드 합의 — 나토 환영·트럼프의 '영구적 안보 통제' 발언",
-      "startAt": "2026-09-19T11:36:55.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "덴마크와 미국이 그린란드 관련 합의에 도달한 가운데 나토는 해당 합의를 환영했다는 보도가 나왔다. 도널드 트럼프 대통령은 이번 합의가 미국에 '영구적 보안 통제(permanent security control)'를 준다고 발언했다. (기존 보도와 관련된 후속 보도)",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/19/g-s1-144158/us-and-denmark-reach-deal",
-          "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-19T04:44:46.000Z",
-        "lastObservedAt": "2026-09-19T16:25:28.411Z"
-      },
-      "titleTranslations": {
-        "en": "US‑Denmark Greenland agreement welcomed by NATO; Trump says it gives US 'permanent security control'"
-      },
-      "descriptionTranslations": {
-        "en": "Denmark and the United States reached an agreement regarding Greenland that NATO welcomed, according to reports. President Donald Trump said the agreement gives the United States 'permanent security control.' (Follow‑up reporting related to earlier coverage.)"
-      }
-    },
-    {
       "id": "news-5c81d3a813775a7fc1e43807",
       "title": "미국, 궤도상 무기 배치 공개 확인 — 백악관 설명은 모호",
       "startAt": "2026-09-19T11:00:45.000Z",
@@ -582,94 +729,6 @@
       },
       "descriptionTranslations": {
         "en": "Statements from US Air Force/Department of Defense officials publicly confirmed that weapons are deployed and operating on‑orbit. Observers said the White House's related explanations lacked specificity. The report is a significant development in the context of space arms competition and security."
-      }
-    },
-    {
-      "id": "news-2cd71e577f5d1b76c732811f",
-      "title": "러시아, 점령한 우크라이나 지역에서 처음으로 두마(국회의원) 투표 실시",
-      "startAt": "2026-09-19T06:39:57.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "러시아가 우크라이나에서 불법적으로 병합했다고 주장하는 지역들에서도 이번 하원(두마) 선거를 실시하고 있다는 보도가 나왔다. 해당 조치는 국제법·영토 주권 논쟁과 선거의 정당성 문제를 야기하고 있다. (선거 진행 관련 후속 보도)",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/19/g-s1-144169/russia-holds-parliamentary-vote-in-areas-it-seized-from-ukraine",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/18/russias-parliamentary-election-whos-on-the-ballot-and-why-it-matters?traffic_source=rss",
-          "https://www.npr.org/2026/09/18/nx-s1-5973249/russians-head-to-the-polls-to-choose-lawmakers-for-their-parliament",
-          "https://www.npr.org/2026/09/19/g-s1-144169/russia-holds-parliamentary-vote-in-areas-it-seized-from-ukraine"
-        ],
-        "firstPublishedAt": "2026-09-18T05:37:46.000Z",
-        "lastObservedAt": "2026-09-19T16:25:28.411Z"
-      },
-      "titleTranslations": {
-        "en": "Russia holds Duma (parliamentary) vote for first time in occupied Ukrainian regions"
-      },
-      "descriptionTranslations": {
-        "en": "Reports say Russia is conducting this Duma (parliamentary) election in regions of Ukraine it claims to have illegally annexed. The action raises questions about international law, territorial sovereignty, and the legitimacy of the vote."
-      }
-    },
-    {
-      "id": "news-6647c9fc50b2e199d7b26845",
-      "title": "트럼프, 백악관서 CNN·폴리티코 출입 금지 발표",
-      "startAt": "2026-09-19T05:36:36.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "도널드 트럼프 대통령이 CNN과 폴리티코를 백악관 출입 명단에서 배제하겠다고 발표했다는 보도가 나왔다. 이는 언론 접근성과 취재 관행에 즉각적·지속적 영향을 줄 수 있는 조치로 평가된다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-19T05:36:36.000Z",
-        "lastObservedAt": "2026-09-19T16:25:28.411Z"
-      },
-      "titleTranslations": {
-        "en": "Trump announces CNN and Politico will be barred from White House access"
-      },
-      "descriptionTranslations": {
-        "en": "President Donald Trump announced he will remove CNN and Politico from White House access lists, a move that could have immediate and lasting effects on press access and reporting practices."
-      }
-    },
-    {
-      "id": "news-5d9fe7c37ce9ef30e111e7bd",
-      "title": "이탈리아, 기온 상승과 장기간 온난화로 웨스트나일 바이러스 확산 관찰",
-      "startAt": "2026-09-19T05:13:18.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "이탈리아 보건당국은 기온 상승과 더 긴 따뜻한 계절이 모기의 확산을 도와 웨스트나일 바이러스가 더 넓은 지역과 더 긴 기간에 걸쳐 퍼지고 있다는 증거를 관찰했다고 보고했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/19/g-s1-144162/as-europe-warms-italy-sees-west-nile-virus-spread",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/19/g-s1-144162/as-europe-warms-italy-sees-west-nile-virus-spread"
-        ],
-        "firstPublishedAt": "2026-09-19T05:13:18.000Z",
-        "lastObservedAt": "2026-09-19T05:47:40.181Z"
-      },
-      "titleTranslations": {
-        "en": "Italy observes West Nile virus spreading as higher temperatures and longer warm season aid mosquito expansion"
-      },
-      "descriptionTranslations": {
-        "en": "Italian health authorities reported evidence that rising temperatures and a longer warm season are helping mosquitoes expand, leading to wider and longer‑lasting spread of West Nile virus across the country."
       }
     },
     {
@@ -900,36 +959,6 @@
       }
     },
     {
-      "id": "news-5f759f1230a0cd07d8ae10ab",
-      "title": "NATO 지원 스타트업, 드론에 자율 표적식별·공격용 AI 적용 보도",
-      "startAt": "2026-09-17T22:12:58.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도에 따르면 스타트업 Scaleout은 분산형 AI 학습을 군사 기지와 무인기(드론)에 배포해 전장 표적을 자율 식별·공격할 수 있는 체계를 개발·적용하고 있다고 전해졌다. 무인전력화와 AI 무기화의 실전 적용 가능성을 보여주는 사례로 지적된다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/"
-        ],
-        "firstPublishedAt": "2026-09-17T22:12:58.000Z",
-        "lastObservedAt": "2026-09-18T05:51:48.338Z"
-      },
-      "titleTranslations": {
-        "en": "NATO‑backed startup reported to deploy autonomous target‑ID and strike AI on drones"
-      },
-      "descriptionTranslations": {
-        "en": "Reports say the startup Scaleout is deploying distributed AI training to military bases and unmanned aerial vehicles (drones) to enable autonomous battlefield target identification and attack. The reporting cites the system as an example of real-world application of unmanned capabilities and weaponized AI."
-      }
-    },
-    {
       "id": "news-4893b761b0380215bf841a84",
       "title": "NASA, 스타버스트 감마선 검출기 발사를 위해 스페이스X와 계약",
       "startAt": "2026-09-17T20:37:09.000Z",
@@ -984,35 +1013,6 @@
       },
       "descriptionTranslations": {
         "en": "Base Labs announced an open‑weight AI safety partnership with Hugging Face and Goodfire to develop and publish methods for training and monitoring open models."
-      }
-    },
-    {
-      "id": "news-d6efe3c4ae3b20ee394524ad",
-      "title": "연방준비제도(Fed) 금리 인상 보도(후속 보도)",
-      "startAt": "2026-09-17T10:54:18.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "연방준비제도(Fed)가 기준금리를 0.25%포인트 인상해 목표 범위를 3.75%~4.00%로 결정했다는 보도를 포함한 보도자료형 기사.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates",
-          "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union"
-        ],
-        "firstPublishedAt": "2026-09-16T21:01:39.000Z",
-        "lastObservedAt": "2026-09-17T17:37:14.701Z"
-      },
-      "titleTranslations": {
-        "en": "Federal Reserve interest‑rate increase reported (follow‑up)"
-      },
-      "descriptionTranslations": {
-        "en": "A report‑style article stating the Federal Reserve raised its benchmark interest rate by 0.25 percentage point, moving the target range to 3.75%–4.00%."
       }
     },
     {
@@ -1102,35 +1102,6 @@
       }
     },
     {
-      "id": "news-c41b611b7e34c03076926606",
-      "title": "케네디 센터 이사회, 역사적 센터 폐쇄 표결",
-      "startAt": "2026-09-16T11:19:46.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "같은 NPR 보도는 케네디 센터 이사회가 어제(현지 시점) 역사적 센터를 폐쇄하기로 표결했다고 전했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/16/g-s1-143569/up-first-newsletter-fed-reserve-interest-rates-iran-war-kennedy-center-contraception",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/16/g-s1-143569/up-first-newsletter-fed-reserve-interest-rates-iran-war-kennedy-center-contraception"
-        ],
-        "firstPublishedAt": "2026-09-16T11:19:46.000Z",
-        "lastObservedAt": "2026-09-16T17:37:22.568Z"
-      },
-      "titleTranslations": {
-        "en": "Kennedy Center board votes to close historic center"
-      },
-      "descriptionTranslations": {
-        "en": "The same NPR report said the Kennedy Center board voted yesterday (local time) to close the historic center."
-      }
-    },
-    {
       "id": "news-17f5de0da3db1a5417a6080b",
       "title": "핑루(평루) 운하: 중국의 새 내륙‑해양 연결로가 동남아 교역에 미치는 영향",
       "startAt": "2026-09-16T05:24:50.000Z",
@@ -1185,36 +1156,6 @@
       },
       "descriptionTranslations": {
         "en": "The James Webb Space Telescope (NASA/ESA/CSA) released a large panorama of cluster IC 348 and reported discovery of low‑mass brown dwarfs roughly twice the mass of Jupiter. The observations extend the known brown‑dwarf mass range and provide important data for star‑formation theory and low‑mass object research."
-      }
-    },
-    {
-      "id": "news-c1fa266af203833556f0a3b0",
-      "title": "미 EPA, 발전소 온실가스 규정 전면 폐지 추진",
-      "startAt": "2026-09-15T13:43:51.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "미 행정부의 환경보호청(EPA)이 발전소에 대한 남아있는 온실가스 규제를 없애려는 조치를 진행 중이며, EPA는 발전소 배출이 기후변화에 '실질적 영향'을 주지 않는다고 주장했다고 보도됐다. 해당 방침은 미국의 기후정책·국제 감축 노력에 중대한 영향을 미칠 전망이다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/09/epa-seeks-to-eliminate-remaining-greenhouse-gas-rules-for-power-plants/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/09/epa-seeks-to-eliminate-remaining-greenhouse-gas-rules-for-power-plants/"
-        ],
-        "firstPublishedAt": "2026-09-15T13:43:51.000Z",
-        "lastObservedAt": "2026-09-15T17:40:46.846Z"
-      },
-      "titleTranslations": {
-        "en": "US EPA moves to repeal greenhouse‑gas rules for power plants"
-      },
-      "descriptionTranslations": {
-        "en": "The U.S. Environmental Protection Agency is advancing a measure to remove remaining greenhouse‑gas regulations on power plants, arguing that plant emissions do not have a 'material impact' on climate. The policy could significantly affect U.S. climate policy and international emissions‑reduction efforts."
       }
     },
     {
