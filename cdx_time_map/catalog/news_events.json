@@ -1,8 +1,182 @@
 {
-  "catalogVersion": "0.0.122",
-  "updatedAt": "2026-09-23T05:55:24.478Z",
+  "catalogVersion": "0.0.123",
+  "updatedAt": "2026-09-23T17:50:38.833Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-2ff95dde3444390bfb6fafba",
+      "title": "엘니뇨가 허리케인 폴로를 이번 시즌 최강급으로 급성장시켰나",
+      "titleTranslations": {
+        "en": "Did El Niño turn Hurricane Polo into one of the season’s most powerful storms?"
+      },
+      "startAt": "2026-09-23T17:33:39.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "BBC는 엘니뇨 현상이 어떻게 허리케인 폴로를 급격히 강하게 만들어 태평양 시즌의 최강급 폭풍 중 하나가 되었을 가능성을 설명했다. 보도는 대기·해수 조건의 변화가 급격한 폭풍 강화에 기여했을 수 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The BBC explains how El Niño may have rapidly intensified Hurricane Polo, making it one of the Pacific season’s most powerful storms. The coverage says changing atmospheric and ocean conditions could have contributed to the storm’s rapid strengthening."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/cm93v2zz4w7qo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/videos/cm93v2zz4w7qo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-23T17:33:39.000Z",
+        "lastObservedAt": "2026-09-23T17:50:38.833Z"
+      }
+    },
+    {
+      "id": "news-07adcb70e5ace7bdf167b56b",
+      "title": "북극 해빙, 2026년 연중 최저면적 도달 — 위성기록과 동률",
+      "titleTranslations": {
+        "en": "Arctic sea ice reaches its 2026 annual minimum extent"
+      },
+      "startAt": "2026-09-23T17:15:32.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "NASA와 NSIDC는 9월 12일 북극 해빙이 연중 최저 면적에 도달했으며, 추정 면적은 약 460만 제곱킬로미터(약 178만 제곱마일)로 위성 기록상 2008·2010·2025년과 동률인 10번째 최저치를 기록했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "NASA and the National Snow and Ice Data Center reported that Arctic sea ice reached its annual minimum on Sept. 12, covering an estimated 4.6 million km² (1.78 million sq mi), tying 2008, 2010, and 2025 for the 10th‑lowest minimum in the satellite record."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/"
+        ],
+        "firstPublishedAt": "2026-09-23T17:15:32.000Z",
+        "lastObservedAt": "2026-09-23T17:50:38.833Z"
+      }
+    },
+    {
+      "id": "news-af014f61c4861e04714e6d64",
+      "title": "에티오피아 위기 재연 우려 — 7개 무장단체 연합해 정부 상대 공세 개시",
+      "titleTranslations": {
+        "en": "Renewed war feared in Ethiopia as seven armed groups form alliance and launch offensive"
+      },
+      "startAt": "2026-09-23T17:10:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라는 7개 무장단체가 정부 전복을 목표로 연합을 결성하고 공세를 시작하면서 에티오피아에서 전쟁 재발 우려가 제기된다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports that seven armed groups have formed an alliance to overthrow the government and launched an offensive, raising fears of renewed war in Ethiopia."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/23/09-23-26-ethiopia-armed-groups-sv-mp4?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/9/23/09-23-26-ethiopia-armed-groups-sv-mp4?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-23T17:10:33.000Z",
+        "lastObservedAt": "2026-09-23T17:50:38.833Z"
+      }
+    },
+    {
+      "id": "news-32028c35abcabdd3cd7d2a3b",
+      "title": "연방 교통당국, 치명사고 발생한 애프터마켓 운전자보조장치 'comma.ai' 조사",
+      "titleTranslations": {
+        "en": "NHTSA opens probe into comma.ai after multiple deadly crashes"
+      },
+      "startAt": "2026-09-23T14:20:23.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Ars Technica 보도에 따르면 연방 고속도로교통안전국(NHTSA)이 정차·저속 차량을 들이받는 충돌과 관련해 comma.ai의 애프터마켓 운전자보조장치에 대해 조사에 착수했다. 보도는 관련해 최소 5건의 충돌이 알려졌다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that the National Highway Traffic Safety Administration has opened an investigation into aftermarket driver‑assist devices from comma.ai after multiple crashes in which vehicles struck slow or stopped traffic. The coverage notes authorities know of at least five such crashes."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/"
+        ],
+        "firstPublishedAt": "2026-09-23T14:20:23.000Z",
+        "lastObservedAt": "2026-09-23T17:50:38.833Z"
+      }
+    },
+    {
+      "id": "news-e55df937d2efdfbd25ee4ea1",
+      "title": "미국, 희토류 처리에서 우위 상실 — 중국이 기회 활용",
+      "titleTranslations": {
+        "en": "America lost its rare‑earth edge; China seized the advantage"
+      },
+      "startAt": "2026-09-23T13:37:05.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "Ars Technica는 수십 년간의 저가 수입과 투자 축소로 미국이 희토류 가공 분야에서 경쟁력을 잃었고 중국이 이를 이용해 처리·공급망을 장악했다고 보도했다. 분석은 이로 인한 공급망 의존성과 전략적 취약성을 지적한다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that decades of cheaper imports and underinvestment left the United States dependent on China for rare‑earth processing, and that China has capitalized on this to dominate processing and supply chains. The analysis highlights resulting strategic vulnerabilities."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/"
+        ],
+        "firstPublishedAt": "2026-09-23T13:37:05.000Z",
+        "lastObservedAt": "2026-09-23T17:50:38.833Z"
+      }
+    },
+    {
+      "id": "news-9328fa400dd37e6b9e773781",
+      "title": "오픈AI, 우크라이나의 민간 인프라 사이버 방어 지원 위해 Daybreak 접근 권한 확대",
+      "titleTranslations": {
+        "en": "OpenAI extends Daybreak cyber access to Ukraine for civilian defense"
+      },
+      "startAt": "2026-09-23T13:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "오픈AI는 우크라이나 정부에 자사의 Daybreak 프로그램 접근을 확대해 민간 기반시설의 사이버 방어를 지원한다고 밝혔다. 회사 발표는 인공지능 도구가 전장·사이버 방어에 직접적으로 투입되는 사례를 시사한다.",
+      "descriptionTranslations": {
+        "en": "OpenAI said it is extending access to its Daybreak program to the Government of Ukraine to support cyber defense of civilian infrastructure. The company’s announcement indicates AI tools being deployed directly in cyber‑defense contexts."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"
+        ],
+        "firstPublishedAt": "2026-09-23T13:00:00.000Z",
+        "lastObservedAt": "2026-09-23T17:50:38.833Z"
+      }
+    },
     {
       "id": "news-20aaed0c5164471847c340ae",
       "title": "미·이란, 유엔총회서 중재 회담 — 전쟁 종식·호르무즈 해협 재개 논의",
@@ -639,36 +813,6 @@
       }
     },
     {
-      "id": "news-736f424f3d22ba2220a84063",
-      "title": "구글 위협정보팀, 공급망 해킹 조직 내부에 '첩보원' 침투 보도",
-      "startAt": "2026-09-20T11:07:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아르스테크니카는 구글의 위협정보팀 분석가가 악명 높은 공급망 해킹 조직인 TeamPCP 내부에 잠입했다고 보도했다. 기업의 사이버 작전·위협정보 활동과 민간·공격자 간 정보전 양상이 중요한 보안 논쟁으로 부상하고 있다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/"
-        ],
-        "firstPublishedAt": "2026-09-20T11:07:00.000Z",
-        "lastObservedAt": "2026-09-21T06:18:42.831Z"
-      },
-      "titleTranslations": {
-        "en": "Ars Technica reports Google threat team analyst infiltrated supply‑chain hacking group"
-      },
-      "descriptionTranslations": {
-        "en": "Ars Technica reported that an analyst from Google's threat intelligence team infiltrated the notorious supply‑chain hacking group TeamPCP. The report raises questions about corporate cyber operations, threat intelligence activities, and the evolving information‑war dynamics between private firms and attackers."
-      }
-    },
-    {
       "id": "news-8fd38f79b116b8caf216c4af",
       "title": "미국 석탄광부 '블랙 런'(흑색폐) 사례 급증 — 보상 지연으로 고통",
       "startAt": "2026-09-20T11:00:16.000Z",
@@ -694,64 +838,6 @@
       },
       "descriptionTranslations": {
         "en": "Reports say cases of black lung (coal workers’ pneumoconiosis) among US coal miners have risen to the highest level in 50 years, and sick miners are suffering because of delays in pension and compensation payments. Testimonies from affected workers highlighted institutional processing delays and related medical and welfare problems."
-      }
-    },
-    {
-      "id": "news-aa9c9fb2e0ef358123fbc772",
-      "title": "티라노사우루스 치아 동위원소 분석 — '코끼리만큼 따뜻하게 달렸을 가능성' 제기",
-      "startAt": "2026-09-20T09:00:11.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아르스테크니카는 티라노사우루스 치아의 동위원소 비율 연구 결과를 소개하며, 이 공룡이 일정 수준의 체온 조절을 통해 코끼리와 유사한 온도를 유지했을 가능성이 제기된다고 보도했다. 공룡 생리·행동 연구에 중요한 단서다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/"
-        ],
-        "firstPublishedAt": "2026-09-20T09:00:11.000Z",
-        "lastObservedAt": "2026-09-21T06:18:42.831Z"
-      },
-      "titleTranslations": {
-        "en": "Isotopic analysis of Tyrannosaurus teeth suggests it may have maintained temperatures similar to elephants"
-      },
-      "descriptionTranslations": {
-        "en": "Ars Technica covered a study of isotope ratios in Tyrannosaurus teeth that raises the possibility the dinosaur regulated its body temperature to some degree and maintained warmth comparable to that of elephants. The finding offers an important clue for dinosaur physiology and behavior research."
-      }
-    },
-    {
-      "id": "news-9f85addad23f0c8fe46b0f32",
-      "title": "베를린·메클렌부르크‑포어포머른 주 선거 — 극우 득세 이후 치러지는 투표",
-      "startAt": "2026-09-20T05:42:50.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "약 380만 명의 유권자가 베를린과 메클렌부르크‑포어포머른 주에서 투표에 참여한다. 이번 선거는 최근 극우 세력의 득세 이후 치러지는 것으로 지방·연방 정치 지형에 영향을 미칠 가능성이 있다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/20/two-german-states-go-to-the-polls-after-far-right-gains?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/20/two-german-states-go-to-the-polls-after-far-right-gains?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-20T05:42:50.000Z",
-        "lastObservedAt": "2026-09-20T06:09:15.555Z"
-      },
-      "titleTranslations": {
-        "en": "About 3.8 million voters to take part in Berlin and Mecklenburg‑Vorpommern elections — held after far‑right gains"
-      },
-      "descriptionTranslations": {
-        "en": "About 3.8 million voters are expected to participate in elections in Berlin and the state of Mecklenburg‑Vorpommern. The votes come after recent gains by far‑right forces and could influence regional and federal political dynamics."
       }
     },
     {
@@ -1037,34 +1123,6 @@
       }
     },
     {
-      "id": "news-6b6f9a8e2d180b8bf66b74ca",
-      "title": "NASA, 슈퍼태풍 마와르로 피해본 괌 원격 관측소 완전 복구 축하",
-      "startAt": "2026-09-16T16:12:01.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 9월 10일 리본커팅 행사로 괌 원격 관측소의 완전 복구를 축하하며, 2023년 슈퍼태풍 마와르로부터 복구 작업이 3년 넘게 걸린 끝에 마무리됐다고 밝혔다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/technology/space-comms/nasa-celebrates-restoration-of-guam-station-damaged-by-typhoon-mawar/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/technology/space-comms/nasa-celebrates-restoration-of-guam-station-damaged-by-typhoon-mawar/"
-        ],
-        "firstPublishedAt": "2026-09-16T16:12:01.000Z",
-        "lastObservedAt": "2026-09-16T17:37:22.568Z"
-      },
-      "titleTranslations": {
-        "en": "NASA celebrates full restoration of Guam remote observatory damaged by Super Typhoon Mawar"
-      },
-      "descriptionTranslations": {
-        "en": "NASA marked the full restoration of the Guam remote observatory with a ribbon‑cutting on September 10, saying recovery from Super Typhoon Mawar in 2023 took more than three years to complete."
-      }
-    },
-    {
       "id": "news-ccdc03c28e7e50916fa5045b",
       "title": "스탠퍼드 연구진, 인간 뇌세포와 기능하는 ‘부분 인간‑부분 쥐’ 뇌 개발 보도",
       "startAt": "2026-09-16T15:53:27.000Z",
@@ -1092,34 +1150,6 @@
       },
       "descriptionTranslations": {
         "en": "The BBC reported that Stanford researchers genetically modified mice to accept and sustain human brain cells that function within the animal, producing what was described as a 'part‑human, part‑mouse' brain."
-      }
-    },
-    {
-      "id": "news-17f5de0da3db1a5417a6080b",
-      "title": "핑루(평루) 운하: 중국의 새 내륙‑해양 연결로가 동남아 교역에 미치는 영향",
-      "startAt": "2026-09-16T05:24:50.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "알자지라 보도에 따르면 중국의 첫 현대식 내륙‑해상 연결 운하인 핑루 운하는 동남아 지역으로의 무역 시간을 크게 단축하고 운송비를 낮출 수 있는 새로운 관문이 될 가능성이 있다. 해당 인프라는 지역 공급망·무역 패턴에 장기적 영향을 미칠 수 있으며 지정학·경제적 파급을 낳을 전망이다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/16/whats-the-pinglu-canal-chinas-new-gateway-to-southeast-asia?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/16/whats-the-pinglu-canal-chinas-new-gateway-to-southeast-asia?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-16T05:24:50.000Z",
-        "lastObservedAt": "2026-09-16T05:57:48.477Z"
-      },
-      "titleTranslations": {
-        "en": "Pinglu Canal: China’s new inland‑to‑sea link and its impact on Southeast Asian trade"
-      },
-      "descriptionTranslations": {
-        "en": "Al Jazeera reported that the Pinglu Canal, China’s first modern inland‑to‑sea connection, could greatly shorten transit times and lower transport costs to Southeast Asia, potentially becoming a new gateway that reshapes regional supply chains, trade patterns, and produces long‑term geopolitical and economic effects."
       }
     },
     {
