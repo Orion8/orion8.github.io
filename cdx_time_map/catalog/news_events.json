@@ -1,8 +1,124 @@
 {
-  "catalogVersion": "0.0.121",
-  "updatedAt": "2026-09-22T17:38:10.336Z",
+  "catalogVersion": "0.0.122",
+  "updatedAt": "2026-09-23T05:55:24.478Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-20aaed0c5164471847c340ae",
+      "title": "미·이란, 유엔총회서 중재 회담 — 전쟁 종식·호르무즈 해협 재개 논의",
+      "titleTranslations": {
+        "en": "US, Iran hold mediated UNGA talks on ending war, opening Strait of Hormuz"
+      },
+      "startAt": "2026-09-23T04:42:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 미국과 이란 대표단이 유엔총회(UNGA)를 계기로 중재 회담을 가졌다. 테헤란 측은 외교적 진전을 선박 봉쇄 해제와 동결자금 해제 등과 연계하려는 모습을 보였다고 전해진다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports that US and Iranian delegations held mediated talks during the UN General Assembly. Tehran tied diplomatic progress to lifting shipping blockades and unfreezing assets during the New York negotiations."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-23T04:42:15.000Z",
+        "lastObservedAt": "2026-09-23T05:55:24.478Z"
+      }
+    },
+    {
+      "id": "news-df548b00b0ada59a51f060e5",
+      "title": "연무에 갇힌 인도네시아, 17만 건 넘는 호흡기 환자 발생",
+      "titleTranslations": {
+        "en": "More than 170,000 respiratory cases recorded in haze‑choked Indonesia"
+      },
+      "startAt": "2026-09-23T04:20:12.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "BBC 보도에 따르면 인도네시아에서 연무(산불·연기 등)로 인해 170,000건이 넘는 호흡기 관련 사례가 기록됐다. 이 가운데 40,000건 이상은 유아·소아를 포함한 사례로 보고되었다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports that more than 170,000 respiratory cases have been recorded in Indonesia due to haze. More than 40,000 of those cases involve toddlers and young children."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq62j13gnyrko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cq62j13gnyrko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-23T04:20:12.000Z",
+        "lastObservedAt": "2026-09-23T05:55:24.478Z"
+      }
+    },
+    {
+      "id": "news-699b96a2740cc05a089d2a2e",
+      "title": "자메이카, 찰스 왕의 노예제 배상 청원 프라이비 카운슬 회부에 '중대한 결정' 환영",
+      "titleTranslations": {
+        "en": "Jamaica hails King’s decision to refer slavery reparations petition to privy council"
+      },
+      "startAt": "2026-09-23T01:15:26.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 찰스 왕이 자메이카가 제출한 역사적 노예제 배상 청원을 런던 소재 프라이비 카운슬(최종 항소 법정)에 법적 자문을 위해 회부했다고 자메이카 문화부 장관이 의회에서 밝혔다. 자메이카 측은 이를 '정말 큰 사안'로 평가했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that King Charles has referred a landmark slavery reparations petition from Jamaica to the London‑based Privy Council for legal advice, the Jamaican culture minister told parliament. Jamaica hailed the move as a 'really big deal.'"
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/23/jamaica-king-charles-to-refer-slavery-reparations-petition-to-privy-council",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/23/jamaica-king-charles-to-refer-slavery-reparations-petition-to-privy-council"
+        ],
+        "firstPublishedAt": "2026-09-23T01:15:26.000Z",
+        "lastObservedAt": "2026-09-23T05:55:24.478Z"
+      }
+    },
+    {
+      "id": "news-da525d3288bb6f1c8657bf38",
+      "title": "미국 도시들, 트럼프 FCC의 지역 광대역 규정 선점 계획에 반대",
+      "titleTranslations": {
+        "en": "Cities across US oppose Trump FCC plan to preempt local broadband rules"
+      },
+      "startAt": "2026-09-22T20:38:30.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica 보도에 따르면 여러 미국 도시들이 FCC(연방통신위원회)의 지역 광대역 규정 선점(preemption) 계획에 반대하고 있다. 도시들은 허가·인허가 요건을 방어하며 통신사들이 네트워크를 충분히 건설하지 못하고 있다고 주장하고 있다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that multiple US cities are opposing the FCC’s plan to preempt local broadband rules. Cities are defending permit and approval requirements and say ISPs are not building networks fast enough."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/"
+        ],
+        "firstPublishedAt": "2026-09-22T20:38:30.000Z",
+        "lastObservedAt": "2026-09-23T05:55:24.478Z"
+      }
+    },
     {
       "id": "news-caaf4b1f8cd66a723a0674cc",
       "title": "AstroForge, 차기 우주선 'Autonomy‑1'에 소형 AI 모델 탑재해 자율 운용 계획",
@@ -636,129 +752,6 @@
       },
       "descriptionTranslations": {
         "en": "About 3.8 million voters are expected to participate in elections in Berlin and the state of Mecklenburg‑Vorpommern. The votes come after recent gains by far‑right forces and could influence regional and federal political dynamics."
-      }
-    },
-    {
-      "id": "news-bcbc566915d6856de5424724",
-      "title": "사우디아라비아, 후티 반군의 리야드 공격 시도 발표 — 수도 표적화는 첫 사례",
-      "startAt": "2026-09-20T03:57:23.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "사우디 당국은 예멘의 이란 지원 후티 반군이 탄도미사일로 리야드를 공격하려 했다고 발표했다. 보도는 이번이 분쟁에서 수도가 표적이 된 첫 사례라며, 갈등이 새로운 전선으로 확장되었음을 시사한다고 전했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital"
-        ],
-        "firstPublishedAt": "2026-09-20T03:57:23.000Z",
-        "lastObservedAt": "2026-09-20T06:09:15.555Z"
-      },
-      "titleTranslations": {
-        "en": "Saudi Arabia says Iran‑backed Houthi rebels attempted ballistic missile attack on Riyadh — first time capital targeted"
-      },
-      "descriptionTranslations": {
-        "en": "Saudi authorities announced that Iran‑backed Houthi rebels in Yemen attempted to attack Riyadh with ballistic missiles. Reports said this was the first instance of the conflict targeting a capital, suggesting the fight may be expanding to a new front."
-      }
-    },
-    {
-      "id": "news-73d2f0ed517b7e7563ef6c77",
-      "title": "프랑스·폴란드 등 유럽 동맹국, 러시아의 '하이브리드' 공격 고조 경고",
-      "startAt": "2026-09-19T11:40:48.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "프랑스와 폴란드 등 주요 유럽 국가 지도자들이 러시아의 '하이브리드' 공격(사이버·허위정보·비군사적 압박 등으로 정의되는 활동)이 고조되고 있다고 우려를 표명했다는 보도가 나왔다. 지도자들은 동맹 차원의 대응 필요성을 강조했다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/19/nx-s1-5974215/france-poland-and-european-allies-warn-of-escalating-russian-hybrid-attacks",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/19/nx-s1-5974215/france-poland-and-european-allies-warn-of-escalating-russian-hybrid-attacks"
-        ],
-        "firstPublishedAt": "2026-09-19T11:40:48.000Z",
-        "lastObservedAt": "2026-09-19T16:25:28.411Z"
-      },
-      "titleTranslations": {
-        "en": "France, Poland and other European allies warn of rising Russian 'hybrid' attacks"
-      },
-      "descriptionTranslations": {
-        "en": "Leaders of France, Poland, and other major European countries expressed concern that Russia's 'hybrid' attacks—defined to include cyberattacks, disinformation, and non‑military pressure—are intensifying. They emphasized the need for allied responses."
-      }
-    },
-    {
-      "id": "news-5c81d3a813775a7fc1e43807",
-      "title": "미국, 궤도상 무기 배치 공개 확인 — 백악관 설명은 모호",
-      "startAt": "2026-09-19T11:00:45.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "미 공군(국방부) 관계자의 발언 등을 통해 궤도상에 '온‑오빗(on‑orbit)' 무기가 배치되어 운용 중이라는 사실이 공개적으로 확인됐다. 백악관의 관련 설명은 구체성이 떨어진다는 평가가 제기됐다. (우주 군비·안보 경쟁 관련 중요 보도)",
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/sep/19/space-weapons-white-house-nasa",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb",
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/",
-          "https://www.theguardian.com/science/2026/sep/15/us-confirms-first-time-it-has-deployed-weapons-space",
-          "https://www.theguardian.com/science/2026/sep/19/space-weapons-white-house-nasa"
-        ],
-        "firstPublishedAt": "2026-09-15T03:47:36.000Z",
-        "lastObservedAt": "2026-09-19T16:25:28.411Z"
-      },
-      "titleTranslations": {
-        "en": "US publicly confirms weapons deployed on orbit — White House explanation criticized as vague"
-      },
-      "descriptionTranslations": {
-        "en": "Statements from US Air Force/Department of Defense officials publicly confirmed that weapons are deployed and operating on‑orbit. Observers said the White House's related explanations lacked specificity. The report is a significant development in the context of space arms competition and security."
-      }
-    },
-    {
-      "id": "news-ea36c1448b7e80d4ec356592",
-      "title": "AI '홀루시네이션'으로 미군이 중국 선박에 대한 공격 직전 상황 발생",
-      "startAt": "2026-09-18T20:26:33.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보고에 따르면 한 AI 시스템이 중국 선박에 핵심 부품(예: 핵 관련 부품)이 실려 있다고 잘못 식별(홀루시네이션)하면서 미군이 실제 군사행동을 개시할 뻔한 정황이 확인됐다. 이 사건은 군사 작전에서 AI 의존의 위험과 안전·검증 체계의 중요성을 부각시킨다.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/"
-        ],
-        "firstPublishedAt": "2026-09-18T20:26:33.000Z",
-        "lastObservedAt": "2026-09-19T16:25:28.411Z"
-      },
-      "titleTranslations": {
-        "en": "AI 'hallucination' nearly led US military to attack a Chinese vessel"
-      },
-      "descriptionTranslations": {
-        "en": "Reports indicate an AI system misidentified critical cargo on a Chinese ship (for example, as nuclear‑related components) due to a hallucination, bringing US forces close to initiating military action. The incident highlights risks of AI reliance in military operations and the importance of safety and verification systems."
       }
     },
     {
