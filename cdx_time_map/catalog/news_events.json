@@ -1,8 +1,125 @@
 {
-  "catalogVersion": "0.0.123",
-  "updatedAt": "2026-09-23T17:50:38.833Z",
+  "catalogVersion": "0.0.124",
+  "updatedAt": "2026-09-24T06:07:53.305Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-9872c465a23c4739f6fc5fea",
+      "title": "베네수엘라 임시 대통령, 유엔총회서 ‘적절한 시점’에 선거 약속",
+      "titleTranslations": {
+        "en": "Venezuela's acting leader promises elections at the 'right moment' at UNGA"
+      },
+      "startAt": "2026-09-24T05:40:49.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "NPR 보도에 따르면 베네수엘라의 임시 대통령이 취임 후 처음으로 유엔총회 연설에서 선거를 약속하며 '적절한 시점'은 국민이 결정할 것이라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "According to NPR, Venezuela's acting president, speaking for the first time at the UN General Assembly since taking power, promised elections and said the 'right moment' for them would be decided by the nation's people."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/24/g-s1-144837/venezuela-leader-un-general-assembly",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/24/g-s1-144837/venezuela-leader-un-general-assembly"
+        ],
+        "firstPublishedAt": "2026-09-24T05:40:49.000Z",
+        "lastObservedAt": "2026-09-24T06:07:53.305Z"
+      }
+    },
+    {
+      "id": "news-af014f61c4861e04714e6d64",
+      "title": "에티오피아·티그라이 상호 공세 주장·티그라이 공항 장악 보고 — 전쟁 재발 우려",
+      "titleTranslations": {
+        "en": "Ethiopia and Tigray accuse each other of offensives; Tigray airports reportedly seized — fears of renewed war"
+      },
+      "startAt": "2026-09-24T04:37:47.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC와 NPR 보도에 따르면 에티오피아 정부와 티그라이 지역 당국이 서로 공세를 시작했다고 주장하는 가운데, 최근 드론 공격 보도 이후 현지 당국이 티그라이의 공항들을 장악한 것으로 전해졌다. 이 같은 전개는 4년 전 끝난 취약한 평화 합의 이후 전쟁 재발 우려를 키우고 있다.",
+      "descriptionTranslations": {
+        "en": "BBC and NPR report that the Ethiopian government and Tigray authorities have accused each other of launching offensives, and that local authorities reportedly seized Tigray's airports following recent reports of drone strikes. The developments raise fears of a return to war after a fragile peace deal ended the previous conflict four years ago."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/9/23/09-23-26-ethiopia-armed-groups-sv-mp4?traffic_source=rss",
+          "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/24/nx-s1-5978861/conflict-ethiopia-tigray"
+        ],
+        "firstPublishedAt": "2026-09-23T17:10:33.000Z",
+        "lastObservedAt": "2026-09-24T06:07:53.304Z"
+      }
+    },
+    {
+      "id": "news-342be70ff4d2bca2a135a673",
+      "title": "RFK 주도 CDC, 주정부의 아동용 코로나19 백신 직접 주문 허용 안해 — 접근 차단 우려",
+      "titleTranslations": {
+        "en": "RFK Jr.'s CDC not allowing states to directly order COVID‑19 shots for kids, raising access concerns"
+      },
+      "startAt": "2026-09-23T22:17:25.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "Ars Technica 보도에 따르면 RFK 주도의 미국 CDC가 주정부들이 아동용 코로나19 백신을 직접 주문하지 못하게 하고 있어 접종 접근에 차질이 우려된다고 전했다. 미 보건부는 백신 주문이 '적절한지' 확인하려 한다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that the CDC under RFK Jr. is not allowing states to directly order COVID‑19 shots for children, raising concerns about access. The U.S. health department said it wants to ensure vaccine orders are 'appropriate.'"
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/"
+        ],
+        "firstPublishedAt": "2026-09-23T22:17:25.000Z",
+        "lastObservedAt": "2026-09-24T06:07:53.305Z"
+      }
+    },
+    {
+      "id": "news-effdad8bde17b3ffc2a09649",
+      "title": "하비에르 미레이, 유엔총회서 포클랜드(말비나스) 주권에 대해 ‘직접 해결’ 경고",
+      "titleTranslations": {
+        "en": "Javier Milei warns at UN that Argentina will take 'matters into our own hands' on Falklands"
+      },
+      "startAt": "2026-09-23T18:50:43.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 아르헨티나 대통령 하비에르 미레이가 유엔총회에서 유엔을 비판하며 포클랜드(아르헨티나명 말비나스) 주권 문제에 대해 '직접 해결'하겠다고 경고했다. 그는 유엔을 무능하다고 비난하는 강경한 연설을 했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Argentina's president, Javier Milei, criticized the UN in a caustic speech at the General Assembly and warned Argentina would take 'matters into our own hands' regarding sovereignty over the Falkland Islands (known in Argentina as the Malvinas)."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty"
+        ],
+        "firstPublishedAt": "2026-09-23T18:50:43.000Z",
+        "lastObservedAt": "2026-09-24T06:07:53.305Z"
+      }
+    },
     {
       "id": "news-2ff95dde3444390bfb6fafba",
       "title": "엘니뇨가 허리케인 폴로를 이번 시즌 최강급으로 급성장시켰나",
@@ -58,34 +175,6 @@
           "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/"
         ],
         "firstPublishedAt": "2026-09-23T17:15:32.000Z",
-        "lastObservedAt": "2026-09-23T17:50:38.833Z"
-      }
-    },
-    {
-      "id": "news-af014f61c4861e04714e6d64",
-      "title": "에티오피아 위기 재연 우려 — 7개 무장단체 연합해 정부 상대 공세 개시",
-      "titleTranslations": {
-        "en": "Renewed war feared in Ethiopia as seven armed groups form alliance and launch offensive"
-      },
-      "startAt": "2026-09-23T17:10:33.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라는 7개 무장단체가 정부 전복을 목표로 연합을 결성하고 공세를 시작하면서 에티오피아에서 전쟁 재발 우려가 제기된다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that seven armed groups have formed an alliance to overthrow the government and launched an offensive, raising fears of renewed war in Ethiopia."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/23/09-23-26-ethiopia-armed-groups-sv-mp4?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/9/23/09-23-26-ethiopia-armed-groups-sv-mp4?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-23T17:10:33.000Z",
         "lastObservedAt": "2026-09-23T17:50:38.833Z"
       }
     },
@@ -175,6 +264,34 @@
         ],
         "firstPublishedAt": "2026-09-23T13:00:00.000Z",
         "lastObservedAt": "2026-09-23T17:50:38.833Z"
+      }
+    },
+    {
+      "id": "news-347b65ce144a221e189c1995",
+      "title": "샘 올트먼, 유엔 안전보장이사회서 AI 안전·인간 통제·국제협력 촉구",
+      "titleTranslations": {
+        "en": "Sam Altman tells UN Security Council to prioritize AI safety, human control, and international cooperation"
+      },
+      "startAt": "2026-09-23T12:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI 발표에 따르면 최고경영자 샘 올트먼이 유엔 안전보장이사회에서 인공지능의 안전성, 인간의 통제, 국제적 협력을 강조하는 연설을 했다.",
+      "descriptionTranslations": {
+        "en": "OpenAI says CEO Sam Altman addressed the United Nations Security Council, urging focus on AI safety, human control, and international cooperation."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/sam-altman-un-security-council-remarks"
+        ],
+        "firstPublishedAt": "2026-09-23T12:00:00.000Z",
+        "lastObservedAt": "2026-09-24T06:07:53.305Z"
       }
     },
     {
@@ -555,36 +672,6 @@
       }
     },
     {
-      "id": "news-cf19fb44458455f6bbe86c3e",
-      "title": "우크라이나 해군 무인정, 러시아 자폭무인정 격침 — 해상 드론전 기술적 이정표",
-      "titleTranslations": {
-        "en": "Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat"
-      },
-      "startAt": "2026-09-21T21:07:05.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아르스테크니카는 우크라이나의 해군 무인정이 러시아의 카미카제(자폭) 무인정을 격침했다고 보도했다. 보도는 양측이 흑해의 항구와 선박을 표적으로 삼는 가운데 벌어진 사건이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reported that a Ukrainian naval drone sank a Russian kamikaze drone boat. The coverage noted the incident occurred as Ukraine and Russia targeted Black Sea ports and ships."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/"
-        ],
-        "firstPublishedAt": "2026-09-21T21:07:05.000Z",
-        "lastObservedAt": "2026-09-22T06:07:53.611Z"
-      }
-    },
-    {
       "id": "news-a6bdcfb76b04d856e4b26e4e",
       "title": "NASA, 초기 화성에 복잡한 물 시스템 존재 확인 — 퍼서비어런스 연구 결과 공개",
       "startAt": "2026-09-21T16:54:43.000Z",
@@ -754,90 +841,6 @@
       },
       "descriptionTranslations": {
         "en": "Senior US and Chinese officials met in New York to discuss artificial intelligence safety plans and global leadership issues ahead of the Trump–Xi summit. The talks, covering norms, verification, and international cooperation, could shape the technological competition and are expected to be a central topic at the leaders’ meeting."
-      }
-    },
-    {
-      "id": "news-186a30a3df8b26ffe8df95bf",
-      "title": "미 검찰, 중국 화웨이에 대한 '범죄 기업' 규정과 중대한 재판",
-      "startAt": "2026-09-20T15:57:48.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "화웨이가 절도·사기·제재 위반 혐의로 기소되며 미국에서 중대한(landmark) 재판을 앞두고 있다. 미국 검찰은 화웨이를 '범죄 기업'으로 규정했다고 보도됐으며, 이 과정은 통신기업·대중국 법적 분쟁의 핵심 사건으로 주목된다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/20/why-have-us-prosecutors-labelled-chinas-huawei-a-criminal-enterprise?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/20/why-have-us-prosecutors-labelled-chinas-huawei-a-criminal-enterprise?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-20T15:57:48.000Z",
-        "lastObservedAt": "2026-09-20T16:47:07.403Z"
-      },
-      "titleTranslations": {
-        "en": "US prosecutors label Huawei a 'criminal enterprise' as company faces landmark trial"
-      },
-      "descriptionTranslations": {
-        "en": "Huawei has been indicted on charges including theft, fraud, and sanctions violations and is now facing a landmark trial in the United States. US prosecutors reportedly characterized Huawei as a 'criminal enterprise,' making the case a focal point in legal disputes involving telecom firms and China."
-      }
-    },
-    {
-      "id": "news-3f31ed17feb7d17f078f7372",
-      "title": "미셸 바첼레, 유엔 사무총장 선거 후보직 사퇴",
-      "startAt": "2026-09-20T12:04:08.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "칠레 전 대통령 미셸 바첼레(74)가 안전보장이사회 비공식 표에서 지지가 급락한 뒤 유엔 사무총장 후보직에서 물러났다고 밝혔다. 바첼레는 인스타그램에 올린 영상에서 사퇴를 발표하고 향후 국제 활동을 계속하겠다고 밝혔다. 이번 사퇴로 경쟁 후보 수는 7명으로 줄었다.",
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general"
-        ],
-        "firstPublishedAt": "2026-09-20T12:04:08.000Z",
-        "lastObservedAt": "2026-09-20T16:47:07.403Z"
-      },
-      "titleTranslations": {
-        "en": "Michelle Bachelet withdraws from UN secretary‑general race"
-      },
-      "descriptionTranslations": {
-        "en": "Former Chilean president Michelle Bachelet (74) said she is withdrawing her candidacy for UN secretary‑general after support collapsed in an informal Security Council straw poll. In a video posted to Instagram she announced her withdrawal and said she will continue international work. Her exit reduces the number of competing candidates to seven."
-      }
-    },
-    {
-      "id": "news-8fd38f79b116b8caf216c4af",
-      "title": "미국 석탄광부 '블랙 런'(흑색폐) 사례 급증 — 보상 지연으로 고통",
-      "startAt": "2026-09-20T11:00:16.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "미국에서 탄광 노동자들의 블랙 런(흑색폐·coal workers’ pneumoconiosis) 사례가 50년 만에 최고 수준으로 늘어난 가운데, 병에 걸린 광부들이 연금·보상 지급 지연으로 어려움을 겪고 있다는 보도가 나왔다. 피해자들의 증언을 통해 제도적 처리 지연과 의료·복지 문제 등이 부각됐다.",
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/sep/20/us-coalminers-black-lung-disease",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/sep/20/us-coalminers-black-lung-disease"
-        ],
-        "firstPublishedAt": "2026-09-20T11:00:16.000Z",
-        "lastObservedAt": "2026-09-20T16:47:07.403Z"
-      },
-      "titleTranslations": {
-        "en": "US coal miners’ black lung cases surge to highest in 50 years — delays in compensation cause hardship"
-      },
-      "descriptionTranslations": {
-        "en": "Reports say cases of black lung (coal workers’ pneumoconiosis) among US coal miners have risen to the highest level in 50 years, and sick miners are suffering because of delays in pension and compensation payments. Testimonies from affected workers highlighted institutional processing delays and related medical and welfare problems."
       }
     },
     {
@@ -1120,36 +1123,6 @@
       },
       "descriptionTranslations": {
         "en": "OpenAI released a framework to track, investigate, and disclose model misalignment and simultaneously published six reports describing unexpected or concerning model behaviors."
-      }
-    },
-    {
-      "id": "news-ccdc03c28e7e50916fa5045b",
-      "title": "스탠퍼드 연구진, 인간 뇌세포와 기능하는 ‘부분 인간‑부분 쥐’ 뇌 개발 보도",
-      "startAt": "2026-09-16T15:53:27.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "BBC는 스탠퍼드 대학 연구진이 유전자를 조작한 쥐가 인간 뇌세포를 받아들이고 기능하도록 만든 '부분 인간‑부분 쥐' 뇌를 개발했다고 보도했다.",
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60m3k28j81mo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c60m3k28j81mo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-16T15:53:27.000Z",
-        "lastObservedAt": "2026-09-16T17:37:22.568Z"
-      },
-      "titleTranslations": {
-        "en": "Stanford researchers report creating 'part‑human, part‑mouse' brain accepting functional human brain cells"
-      },
-      "descriptionTranslations": {
-        "en": "The BBC reported that Stanford researchers genetically modified mice to accept and sustain human brain cells that function within the animal, producing what was described as a 'part‑human, part‑mouse' brain."
       }
     },
     {
