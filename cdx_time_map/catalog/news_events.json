@@ -1,8 +1,182 @@
 {
-  "catalogVersion": "0.0.124",
-  "updatedAt": "2026-09-24T06:07:53.305Z",
+  "catalogVersion": "0.0.125",
+  "updatedAt": "2026-09-24T17:51:51.129Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-6647c9fc50b2e199d7b26845",
+      "title": "법원 명령으로 CNN·폴리티코·MS NOW의 백악관 출입권 복원",
+      "startAt": "2026-09-24T17:49:20.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 법원의 명령으로 트럼프 행정부가 일시적으로 출입을 금지했던 CNN·Politico·MS NOW 소속 일부 기자들의 백악관 출입권이 복원되었다.",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/22/g-s1-144512/up-first-newsletter-press-lawsuit-cnn-msnow-politico-unga-trump-speech-paramount-deal",
+          "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-19T05:36:36.000Z",
+        "lastObservedAt": "2026-09-24T17:51:51.129Z"
+      },
+      "titleTranslations": {
+        "en": "White House restores access to CNN, Politico and MS NOW after judge's order"
+      },
+      "descriptionTranslations": {
+        "en": "The BBC reports that a judge's order restored White House access for some staff of CNN, Politico and MS NOW after they had been turned away earlier under the Trump administration."
+      }
+    },
+    {
+      "id": "news-0b591a1339f02715e8119fbc",
+      "title": "수단 통화 붕괴·물가 급등으로 가계 고통 심화",
+      "titleTranslations": {
+        "en": "Collapsing currency and soaring inflation leave Sudanese families struggling"
+      },
+      "startAt": "2026-09-24T17:03:55.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라 보도에 따르면 빵·설탕·육류 가격 상승이 전쟁과 경제 불안에 시달리는 수단 가정의 부담을 가중시키고 있다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports that rising prices for bread, sugar and meat are straining Sudanese households already coping with war and economic instability."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/features/2026/9/24/collapsing-currency-and-inflation-leave-families-struggling-in-sudan?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/features/2026/9/24/collapsing-currency-and-inflation-leave-families-struggling-in-sudan?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-24T17:03:55.000Z",
+        "lastObservedAt": "2026-09-24T17:51:51.129Z"
+      }
+    },
+    {
+      "id": "news-b3b55392dcf069a9c7e907fb",
+      "title": "미국 모기지 금리, 20개월 만에 7% 돌파",
+      "titleTranslations": {
+        "en": "US mortgage rates top 7% for first time in 20 months"
+      },
+      "startAt": "2026-09-24T16:31:58.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 프레디맥 집계에서 미국 모기지 금리가 연준의 기준금리 인상 여파로 20개월 만에 7%를 넘어섰다. 주택 시장과 가계 이자 부담을 악화시킬 것으로 보인다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Freddie Mac data show US mortgage rates have surpassed 7% for the first time in 20 months, following the Federal Reserve's rate hikes—aggravating the housing market and household borrowing costs."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market"
+        ],
+        "firstPublishedAt": "2026-09-24T16:31:58.000Z",
+        "lastObservedAt": "2026-09-24T17:51:51.129Z"
+      }
+    },
+    {
+      "id": "news-0ebf71de7d0fb4f329b3becf",
+      "title": "달·심우주 착륙 정밀성 실험 SPLICE, Alta‑X 드론으로 시뮬레이션 완료",
+      "titleTranslations": {
+        "en": "Practicing for safe landings on the Moon and beyond — SPLICE completes simulated lunar descent with Alta‑X drone"
+      },
+      "startAt": "2026-09-24T16:29:19.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA 보도에 따르면 존슨연구센터가 개발한 안전·정밀 착륙 통합능력진화(SPLICE) 실험이 Alta‑X 드론을 이용해 달 착륙을 시뮬레이션하는 시험을 성공적으로 완료했다. 이 실험은 향후 달·심우주 착륙 기술의 정교화에 기여할 전망이다.",
+      "descriptionTranslations": {
+        "en": "NASA says its Safe and Precise Landing — Integrated Capabilities Evolution (SPLICE) experiment successfully completed simulated lunar descent using an Alta‑X drone. The test advances guidance and navigation capabilities for future Moon and deep‑space landings."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/practicing-for-safe-landings-on-the-moon-and-beyond/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/practicing-for-safe-landings-on-the-moon-and-beyond/"
+        ],
+        "firstPublishedAt": "2026-09-24T16:29:19.000Z",
+        "lastObservedAt": "2026-09-24T17:51:51.129Z"
+      }
+    },
+    {
+      "id": "news-1170bd08f9453a7930daff72",
+      "title": "트럼프·시진핑 정상회담, 겉으론 우호적 톤 — AI·희토류·무역·대만·이란 논의 예정",
+      "titleTranslations": {
+        "en": "Trump and Xi strike cordial tone at summit — expected to discuss AI, rare earths, trade, Taiwan and Iran"
+      },
+      "startAt": "2026-09-24T12:43:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 트럼프 대통령과 시진핑 주석은 정상회담에서 인공지능, 희토류, 무역 및 이란·대만 등 지정학적 현안을 논의할 예정이며 회담은 겉으로는 우호적 분위기를 띠었으나 근본적 긴장은 남아있다.",
+      "descriptionTranslations": {
+        "en": "According to NPR, Presidents Trump and Xi held a summit expected to cover artificial intelligence, rare earths, trade and geopolitical issues such as Iran and Taiwan. The meeting took on a cordial tone despite underlying tensions."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit"
+        ],
+        "firstPublishedAt": "2026-09-24T12:43:15.000Z",
+        "lastObservedAt": "2026-09-24T17:51:51.129Z"
+      }
+    },
+    {
+      "id": "news-89e5f2bb8136d4250edce04e",
+      "title": "RSA를 빠르게 깨는 새 방법 보고 — 암호보안 분야에 충격",
+      "titleTranslations": {
+        "en": "New method reported that can break RSA faster than anything seen before"
+      },
+      "startAt": "2026-09-24T11:15:44.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Ars Technica 보도에 따르면 지금까지 암호학자들이 RSA를 깨는 유일한 길로 여겼던 소인수분해 외에, 이전보다 훨씬 빠른 새로운 방식이 등장했다고 전해진다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that researchers have described a new method for breaking RSA that is faster than previously known approaches; until now, factoring was considered the only practical route to attack RSA."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/"
+        ],
+        "firstPublishedAt": "2026-09-24T11:15:44.000Z",
+        "lastObservedAt": "2026-09-24T17:51:51.129Z"
+      }
+    },
     {
       "id": "news-9872c465a23c4739f6fc5fea",
       "title": "베네수엘라 임시 대통령, 유엔총회서 ‘적절한 시점’에 선거 약속",
@@ -470,36 +644,6 @@
       }
     },
     {
-      "id": "news-d5ae5867b58418dc8a22bc79",
-      "title": "트럼프의 멸종위기종법 약화 방안 — 1995년 스칼리아 반대견해 인용",
-      "titleTranslations": {
-        "en": "Trump’s plan to weaken the Endangered Species Act draws on 1995 Scalia dissent"
-      },
-      "startAt": "2026-09-22T14:29:15.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica 보도에 따르면 도널드 트럼프 대통령 측이 연방 정부의 멸종위기종 보호 권한을 축소하는 방안을 마련하면서 1995년 스칼리아 대법관의 반대견해를 인용하고 있다. 이는 연방의 환경 보호 권한과 종 보전 정책에 중요한 영향을 미칠 수 있다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that President Donald Trump is advancing plans to curtail federal protections under the Endangered Species Act and is drawing on Justice Scalia’s 1995 dissent. The move could significantly affect federal environmental authority and species‑conservation policy."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/trumps-sneaky-plan-to-gut-endangered-species-act-draws-from-1995-scalia-dissent/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/tech-policy/2026/09/trumps-sneaky-plan-to-gut-endangered-species-act-draws-from-1995-scalia-dissent/"
-        ],
-        "firstPublishedAt": "2026-09-22T14:29:15.000Z",
-        "lastObservedAt": "2026-09-22T17:38:10.336Z"
-      }
-    },
-    {
       "id": "news-c2ee8cb6be47331260d9f2e8",
       "title": "스리랑카 법원, 2019년 부활절 연쇄 폭탄테러 관련 15명 유죄 판결",
       "titleTranslations": {
@@ -526,36 +670,6 @@
         ],
         "firstPublishedAt": "2026-09-22T13:30:01.000Z",
         "lastObservedAt": "2026-09-22T17:38:10.336Z"
-      }
-    },
-    {
-      "id": "news-6647c9fc50b2e199d7b26845",
-      "title": "CNN·MS NOW·폴리티코, 백악관 출입 금지 조치에 대해 트럼프 행정부 상대 소송 제기",
-      "startAt": "2026-09-22T11:01:01.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "NPR 보도에 따르면 CNN·MS NOW·Politico 등 언론사가 백악관 출입에서 배제된 조치에 대응해 도널드 트럼프 대통령을 상대로 소송을 제기했다. 이는 이전의 백악관 출입 배제 발표에 대한 법적 대응으로 보도·언론 접근성 논쟁을 증폭시킬 가능성이 있다.",
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/22/g-s1-144512/up-first-newsletter-press-lawsuit-cnn-msnow-politico-unga-trump-speech-paramount-deal",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/22/g-s1-144512/up-first-newsletter-press-lawsuit-cnn-msnow-politico-unga-trump-speech-paramount-deal"
-        ],
-        "firstPublishedAt": "2026-09-19T05:36:36.000Z",
-        "lastObservedAt": "2026-09-22T17:38:10.336Z"
-      },
-      "titleTranslations": {
-        "en": "CNN, MS NOW and Politico sue Trump after networks suspended from White House"
-      },
-      "descriptionTranslations": {
-        "en": "NPR reports that CNN, MS NOW, and Politico have filed lawsuits against President Donald Trump after being suspended from White House access. The suits are a legal response to the earlier access‑ban announcement and could intensify debates over press access and reporting."
       }
     },
     {
@@ -785,65 +899,6 @@
       }
     },
     {
-      "id": "news-2cc2a5ace121aac694e25ec3",
-      "title": "이란 군 당국, 미군의 '공습 재개 준비' 주장 — 긴장 고조",
-      "startAt": "2026-09-21T05:21:41.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "이란 군부가 미국이 군사행동 재개를 준비하고 있다고 주장하며 보복을 경고했다. 보도는 카타르가 대화 재개를 시도하는 가운데 트럼프 행정부 내부에서 군사 옵션이 검토되는 정황이 있다는 내용을 전했다.",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/21/irans-military-says-us-preparing-to-resume-strikes?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/21/irans-military-says-us-preparing-to-resume-strikes?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-21T05:21:41.000Z",
-        "lastObservedAt": "2026-09-21T06:18:42.831Z"
-      },
-      "titleTranslations": {
-        "en": "Iranian military claims US preparing to resume airstrikes — tensions escalate"
-      },
-      "descriptionTranslations": {
-        "en": "Iran’s military said the United States was preparing to resume military strikes and warned of retaliation. Reports said Qatar was attempting to restart talks while elements within the Trump administration were reportedly considering military options, heightening tensions."
-      }
-    },
-    {
-      "id": "news-02ea67d475870d1ca80978fb",
-      "title": "트럼프‑시진핑 정상회담 앞두고 미·중 고위급, AI 안전·주도권 협의",
-      "startAt": "2026-09-20T21:15:56.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미국과 중국 고위 관료들이 뉴욕에서 만나 트럼프‑시진핑 정상회담을 앞두고 인공지능 안전 계획과 글로벌 리더십 쟁점을 논의했다. 양측 협의는 규범·검증·국제협력 의제와 함께 기술 경쟁의 향방을 가를 가능성이 있어 정상회담의 핵심 의제로 주목된다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance",
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/20/nx-s1-5973116/defining-global-leadership-in-ai-at-trump-xi-summit"
-        ],
-        "firstPublishedAt": "2026-09-21T05:50:56.000Z",
-        "lastObservedAt": "2026-09-21T06:18:42.831Z"
-      },
-      "titleTranslations": {
-        "en": "US and Chinese senior officials meet in New York to discuss AI safety and leadership ahead of Trump–Xi summit"
-      },
-      "descriptionTranslations": {
-        "en": "Senior US and Chinese officials met in New York to discuss artificial intelligence safety plans and global leadership issues ahead of the Trump–Xi summit. The talks, covering norms, verification, and international cooperation, could shape the technological competition and are expected to be a central topic at the leaders’ meeting."
-      }
-    },
-    {
       "id": "news-57c41774142bca9d2e1768ac",
       "title": "알바니아, 아르테미스 협정 서명 예정 — NASA 본부서 서명식",
       "startAt": "2026-09-18T19:56:08.000Z",
@@ -928,34 +983,6 @@
       }
     },
     {
-      "id": "news-62d937d9bc4a192dcc196719",
-      "title": "허블, '비동기' 은하 NGC 4698 포착",
-      "startAt": "2026-09-18T13:38:12.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA·ESA 허블 우주망원경이 처녀자리(Virgo)에 있는 나선은하 NGC 4698의 새로운 영상을 공개했다. 겉으로는 평온해 보이지만 내부적으로는 혼란스러운 구조를 지니고 있으며, 해당 은하는 지구에서 약 5,500만 광년 떨어진 처녀자리 군에 속한다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/"
-        ],
-        "firstPublishedAt": "2026-09-18T13:38:12.000Z",
-        "lastObservedAt": "2026-09-18T17:04:09.957Z"
-      },
-      "titleTranslations": {
-        "en": "Hubble images 'asynchronous' spiral galaxy NGC 4698"
-      },
-      "descriptionTranslations": {
-        "en": "NASA and ESA’s Hubble Space Telescope released new images of the spiral galaxy NGC 4698 in Virgo. While it appears calm externally, it has a internally disturbed structure; the galaxy is part of the Virgo Cluster about 55 million light-years from Earth."
-      }
-    },
-    {
       "id": "news-a00923bf4ddda715364788a2",
       "title": "오픈AI, 'Australian Youth Safety Blueprint' 발표 — 청소년 대상 AI 안전 로드맵",
       "startAt": "2026-09-18T12:00:00.000Z",
@@ -984,31 +1011,32 @@
       }
     },
     {
-      "id": "news-df3d64fa58b60d38811647ba",
-      "title": "일본, 물가 억제 위해 기준금리를 31년 만의 최고치로 인상",
-      "startAt": "2026-09-18T02:56:35.000Z",
+      "id": "news-62d937d9bc4a192dcc196719",
+      "title": "허블·NASA·ESA, '비동기' 나선은하 NGC 4698 이미지 공개",
+      "startAt": "2026-09-18T08:00:00.000Z",
       "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "일본 중앙은행이 물가 상승을 억제하기 위해 기준금리를 인상해 31년 만의 최고 수준에 도달했다고 보도됐다. 전세계적인 금리 인상 흐름과 연관된 조치로 평가된다.",
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqn74jeek06no?at_medium=RSS&at_campaign=rss",
+      "category": "space",
+      "importance": 2,
+      "description": "ESA가 공개한 설명에 따르면 처녀자리 군에 속한 나선은하 NGC 4698은 외견상 평온하지만 내부적으로는 혼란스러운 구조를 지니고 있다. 은하는 약 5,500만 광년 떨어져 있으며 중심의 초대질량블랙홀에 가스가 유입되어 활동성이 관측된다고 전해진다.",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync",
       "topicIds": [
-        "economyFinance"
+        "spaceDevelopment"
       ],
       "news": {
-        "status": "developing",
+        "status": "resolved",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqn74jeek06no?at_medium=RSS&at_campaign=rss"
+          "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+          "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync"
         ],
-        "firstPublishedAt": "2026-09-18T02:56:35.000Z",
-        "lastObservedAt": "2026-09-18T05:51:48.338Z"
+        "firstPublishedAt": "2026-09-18T13:38:12.000Z",
+        "lastObservedAt": "2026-09-24T17:51:51.129Z"
       },
       "titleTranslations": {
-        "en": "Japan raises policy rate to 31-year high to curb inflation"
+        "en": "Hubble images 'asynchronous' spiral galaxy NGC 4698"
       },
       "descriptionTranslations": {
-        "en": "Japan’s central bank raised its policy interest rate to its highest level in 31 years to rein in rising prices. The move was described as aligned with the global trend of interest-rate increases."
+        "en": "ESA reports that the spiral galaxy NGC 4698 in the Virgo Cluster appears serene externally but hides internally disturbed structure. The galaxy lies about 55 million light‑years away and shows signs of gas accretion onto a central supermassive black hole."
       }
     },
     {
