@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "3.7.0",
-  "updatedAt": "2026-09-22T03:00:52.355Z",
+  "catalogVersion": "3.8.0",
+  "updatedAt": "2026-09-25T18:00:00.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
     {
@@ -5210,6 +5210,287 @@
       "descriptionTranslations": {
         "en": "A study presenting programmable CRISPR–Cas9 genome-editing technology was published. It greatly changed the tools of life-science research and research into genetic disease therapies."
       }
+    },
+    {
+      "id": "historic-network-email",
+      "title": "네트워크 전자우편의 도입",
+      "startAt": "1971-01-01T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "ARPANET에서 서로 다른 컴퓨터 사이에 전자우편을 보내는 방식이 구현됐습니다. 네트워크가 연구 장비에서 일상적 소통 기반으로 확장되는 전환점이었습니다.",
+      "sourceName": "Internet Society", "sourceUrl": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/",
+      "topicIds": ["internetWeb", "computerHistory", "technologyComputing"],
+      "titleTranslations": {"en": "Introduction of network email"},
+      "descriptionTranslations": {"en": "Network email between different computers was implemented on ARPANET. It marked a shift from networks as research equipment to infrastructure for everyday communication."}
+    },
+    {
+      "id": "historic-domain-name-system",
+      "title": "도메인 이름 시스템(DNS) 도입",
+      "startAt": "1983-11-01T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "DNS는 사람이 읽을 수 있는 이름을 인터넷 주소로 연결하는 분산 체계를 만들었습니다. 오늘날 웹과 인터넷 서비스의 주소 체계가 되었습니다.",
+      "sourceName": "ICANN", "sourceUrl": "https://www.icann.org/resources/pages/dns-2018-10-10-en",
+      "topicIds": ["internetWeb", "computerHistory", "technologyComputing"],
+      "titleTranslations": {"en": "Introduction of the Domain Name System"},
+      "descriptionTranslations": {"en": "DNS created a distributed system that maps human-readable names to Internet addresses. It became the addressing system for the modern web and Internet services."}
+    },
+    {
+      "id": "historic-first-human-spaceflight",
+      "title": "최초의 유인 우주비행",
+      "startAt": "1961-04-12T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "유리 가가린이 보스토크 1호로 지구 궤도를 비행해 인류 최초의 우주비행자가 됐습니다. 유인 우주 탐사의 시대를 연 사건입니다.",
+      "sourceName": "NASA History", "sourceUrl": "https://www.nasa.gov/history/65-years-ago-yuri-gagarin-becomes-first-human-in-space/",
+      "topicIds": ["spaceDevelopment", "physicsChemistry"],
+      "titleTranslations": {"en": "First human spaceflight"},
+      "descriptionTranslations": {"en": "Yuri Gagarin orbited Earth in Vostok 1, becoming the first human in space and opening the era of crewed space exploration."}
+    },
+    {
+      "id": "historic-jenner-smallpox-vaccination",
+      "title": "제너의 천연두 예방접종 실험",
+      "startAt": "1796-05-14T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "에드워드 제너의 우두 접종 실험은 천연두 예방접종의 출발점이 됐습니다. 이후 백신은 감염병 예방의 핵심 공중보건 도구가 되었습니다.",
+      "sourceName": "U.S. National Library of Medicine", "sourceUrl": "https://www.nlm.nih.gov/exhibition/smallpox/sp_variolation.html",
+      "topicIds": ["medicineHealth", "lifeScience"],
+      "titleTranslations": {"en": "Jenner's smallpox vaccination experiment"},
+      "descriptionTranslations": {"en": "Edward Jenner's cowpox inoculation experiment became a starting point for smallpox vaccination. Vaccines later became a central public-health tool for preventing infectious disease."}
+    },
+    {
+      "id": "historic-penicillin-discovery",
+      "title": "페니실린 발견",
+      "startAt": "1928-09-28T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "알렉산더 플레밍이 페니실린의 항균 작용을 관찰했습니다. 항생제 시대의 출발점으로, 세균 감염 치료의 가능성을 크게 바꿨습니다.",
+      "sourceName": "U.S. National Library of Medicine", "sourceUrl": "https://www.nlm.nih.gov/exhibition/fromdnatobeer/exhibition-interactive/illustrations/penicillin-alexander-fleming.html",
+      "topicIds": ["medicineHealth", "lifeScience"],
+      "titleTranslations": {"en": "Discovery of penicillin"},
+      "descriptionTranslations": {"en": "Alexander Fleming observed penicillin's antibacterial action. The finding launched the antibiotic era and transformed the prospects for treating bacterial infections."}
+    },
+    {
+      "id": "historic-origin-of-species",
+      "title": "『종의 기원』 출간",
+      "startAt": "1859-11-24T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "찰스 다윈의 『종의 기원』은 자연선택을 통한 진화의 설명을 널리 제시했습니다. 현대 생물학의 통합적 틀에 결정적 영향을 주었습니다.",
+      "sourceName": "Natural History Museum, London", "sourceUrl": "https://www.nhm.ac.uk/discover/charles-darwin-most-famous-scientist.html",
+      "topicIds": ["lifeScience", "humanPrehistory", "extinctLife"],
+      "titleTranslations": {"en": "Publication of On the Origin of Species"},
+      "descriptionTranslations": {"en": "Charles Darwin's On the Origin of Species presented evolution by natural selection to a wide audience, decisively shaping biology's unifying framework."}
+    },
+    {
+      "id": "historic-special-relativity",
+      "title": "특수상대성이론 발표",
+      "startAt": "1905-06-30T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "아인슈타인의 특수상대성이론은 시간·공간·운동의 관계를 새롭게 정식화했습니다. 현대 물리학과 이후의 기술 발전에 깊은 영향을 주었습니다.",
+      "sourceName": "Einstein Online", "sourceUrl": "https://www.einstein-online.info/en/spotlight/einstein1905/",
+      "topicIds": ["physicsChemistry", "mathHistory"],
+      "titleTranslations": {"en": "Publication of special relativity"},
+      "descriptionTranslations": {"en": "Einstein's special relativity reformulated the relationship among time, space, and motion, profoundly influencing modern physics and later technology."}
+    },
+    {
+      "id": "historic-periodic-table",
+      "title": "주기율표의 제안",
+      "startAt": "1869-03-06T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "드미트리 멘델레예프가 원소의 성질을 체계적으로 배열한 주기율표를 제안했습니다. 화학의 구조적 언어가 된 전환점입니다.",
+      "sourceName": "International Union of Pure and Applied Chemistry", "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "topicIds": ["physicsChemistry", "technologyComputing"],
+      "titleTranslations": {"en": "Proposal of the periodic table"},
+      "descriptionTranslations": {"en": "Dmitri Mendeleev proposed a periodic arrangement of the elements. It became chemistry's structural language and a major scientific turning point."}
+    },
+    {
+      "id": "historic-ipcc-established",
+      "title": "IPCC 설립",
+      "startAt": "1988-11-01T00:00:00.000Z",
+      "lane": "world", "category": "climateDisaster", "importance": 3,
+      "description": "세계기상기구와 유엔환경계획이 기후변화에 관한 정부간 협의체(IPCC)를 설립했습니다. 기후과학 평가와 국제 정책 논의의 핵심 기구가 됐습니다.",
+      "sourceName": "Intergovernmental Panel on Climate Change", "sourceUrl": "https://www.ipcc.ch/about/history/",
+      "topicIds": ["climateEnvironment", "politicsHumanRights"],
+      "titleTranslations": {"en": "Establishment of the IPCC"},
+      "descriptionTranslations": {"en": "The WMO and UNEP established the Intergovernmental Panel on Climate Change, which became central to climate-science assessment and international policy discussion."}
+    },
+    {
+      "id": "historic-lumiere-public-screening",
+      "title": "뤼미에르 형제의 공개 영화 상영",
+      "startAt": "1895-12-28T00:00:00.000Z",
+      "lane": "world", "category": "cultureEntertainment", "importance": 3,
+      "description": "파리의 공개 유료 상영은 영화가 대중 예술과 산업으로 자리 잡는 상징적 출발점이 됐습니다.",
+      "sourceName": "British Film Institute", "sourceUrl": "https://www.bfi.org.uk/features/lumiere-brothers-first-films",
+      "topicIds": ["artsFilm", "technologyComputing"],
+      "titleTranslations": {"en": "Lumière brothers' public film screening"},
+      "descriptionTranslations": {"en": "A public paid screening in Paris became a symbolic starting point for cinema as a mass art form and industry."}
+    },
+    {
+      "id": "historic-fifa-founded",
+      "title": "FIFA 창립",
+      "startAt": "1904-05-21T00:00:00.000Z",
+      "lane": "world", "category": "sports", "importance": 3,
+      "description": "국제축구연맹(FIFA)의 창립은 국가 간 축구 경기의 규칙과 조직을 국제적으로 조율하는 기반을 만들었습니다.",
+      "sourceName": "FIFA", "sourceUrl": "https://inside.fifa.com/about-fifa/who-we-are/history",
+      "topicIds": ["sportsHistory", "politicsHumanRights"],
+      "titleTranslations": {"en": "Founding of FIFA"},
+      "descriptionTranslations": {"en": "The founding of FIFA created a basis for international coordination of the rules and organization of football across national boundaries."}
+    },
+    {
+      "id": "historic-joseon-founded",
+      "title": "조선 건국",
+      "startAt": "1392-07-17T00:00:00.000Z",
+      "lane": "world", "category": "politicsSociety", "importance": 3,
+      "description": "이성계가 조선을 세웠습니다. 이후 한반도의 국가 체제와 유교적 정치·교육 질서가 장기간 형성되는 출발점이 됐습니다.",
+      "sourceName": "Encyclopaedia Britannica", "sourceUrl": "https://www.britannica.com/place/Korea/The-Choson-dynasty",
+      "topicIds": ["koreaEastAsia", "civilizations", "politicsHumanRights"],
+      "titleTranslations": {"en": "Founding of the Joseon dynasty"},
+      "descriptionTranslations": {"en": "Yi Seong-gye founded Joseon. It began a long period in which Korea's state institutions and Confucian political and educational order took shape."}
+    },
+    {
+      "id": "historic-wealth-of-nations",
+      "title": "『국부론』 출간",
+      "startAt": "1776-03-09T00:00:00.000Z",
+      "lane": "world", "category": "economyBusiness", "importance": 3,
+      "description": "애덤 스미스의 『국부론』은 분업·시장·정치경제에 관한 영향력 큰 논의를 제시했습니다. 근대 경제사상의 핵심 텍스트가 됐습니다.",
+      "sourceName": "British Library", "sourceUrl": "https://www.bl.uk/collection-items/the-wealth-of-nations",
+      "topicIds": ["economyFinance", "westernPhilosophy"],
+      "titleTranslations": {"en": "Publication of The Wealth of Nations"},
+      "descriptionTranslations": {"en": "Adam Smith's The Wealth of Nations offered influential arguments about division of labour, markets, and political economy, becoming a central text of modern economic thought."}
+    },
+    {
+      "id": "historic-magna-carta",
+      "title": "마그나 카르타 봉인",
+      "startAt": "1215-06-15T00:00:00.000Z",
+      "lane": "world", "category": "politicsSociety", "importance": 3,
+      "description": "마그나 카르타는 왕권과 법의 관계에 관한 중요한 선례가 됐습니다. 그 직접 적용 범위는 제한적이었지만, 이후 법치와 권리의 상징으로 큰 영향을 미쳤습니다.",
+      "sourceName": "British Library", "sourceUrl": "https://www.bl.uk/magna-carta/articles/magna-carta-an-introduction",
+      "topicIds": ["politicsHumanRights", "westernPhilosophy"],
+      "titleTranslations": {"en": "Sealing of Magna Carta"},
+      "descriptionTranslations": {"en": "Magna Carta became an important precedent for the relationship between royal power and law. Its immediate scope was limited, but it later became an influential symbol of rule of law and rights."}
+    },
+    {
+      "id": "historic-alexnet",
+      "title": "AlexNet의 이미지 인식 돌파",
+      "startAt": "2012-10-01T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "AlexNet은 ImageNet 대회에서 심층 합성곱 신경망의 성능을 보여 주며 현대 딥러닝 확산의 전환점이 됐습니다.",
+      "sourceName": "NeurIPS Proceedings", "sourceUrl": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+      "topicIds": ["aiHistory", "computerHistory", "technologyComputing"],
+      "titleTranslations": {"en": "AlexNet image-recognition breakthrough"},
+      "descriptionTranslations": {"en": "AlexNet demonstrated the performance of deep convolutional neural networks in the ImageNet competition, becoming a turning point in the spread of modern deep learning."}
+    },
+    {
+      "id": "historic-transformer-paper",
+      "title": "Transformer 구조 발표",
+      "startAt": "2017-06-12T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "Attention Is All You Need 논문은 Transformer 구조를 제시했습니다. 대규모 언어 모델과 현대 생성형 AI의 핵심 기반이 됐습니다.",
+      "sourceName": "arXiv", "sourceUrl": "https://arxiv.org/abs/1706.03762",
+      "topicIds": ["aiHistory", "computerHistory", "technologyComputing"],
+      "titleTranslations": {"en": "Publication of the Transformer architecture"},
+      "descriptionTranslations": {"en": "The paper Attention Is All You Need introduced the Transformer architecture, a core foundation for large language models and modern generative AI."}
+    },
+    {
+      "id": "historic-erlitou-urban-center",
+      "title": "얼리터우 초기 국가 중심지",
+      "startAt": "-1900-01-01T00:00:00.000Z",
+      "lane": "world", "category": "politicsSociety", "importance": 3,
+      "description": "얼리터우 유적은 초기 청동기 시대 도시와 국가 형성의 중요한 증거로 연구됩니다. 황허 유역 초기 국가 문명의 전개를 보여 주는 핵심 유적입니다.",
+      "sourceName": "UNESCO World Heritage Centre", "sourceUrl": "https://whc.unesco.org/uploads/nominations/1305rev.pdf",
+      "topicIds": ["yellowRiver", "civilizations", "urbanDevelopment"],
+      "timeEstimate": {"kind": "estimatedRange", "earliestAt": "-1900-01-01T00:00:00.000Z", "latestAt": "-1500-01-01T00:00:00.000Z", "displayLabel": "약 BC 1,900–1,500", "confidence": "medium"},
+      "titleTranslations": {"en": "Erlitou early state center"},
+      "descriptionTranslations": {"en": "The Erlitou site is studied as important evidence for early Bronze Age urbanism and state formation, illuminating the development of early state civilization in the Yellow River region."}
+    },
+    {
+      "id": "historic-paper-invention-china",
+      "title": "중국의 제지 기술 정착",
+      "startAt": "105-01-01T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "후한 시기의 제지 기술은 기록과 지식의 복제를 더 널리 가능하게 했습니다. 종이는 동아시아와 세계의 행정·교육·출판에 장기적 영향을 미쳤습니다.",
+      "sourceName": "The Metropolitan Museum of Art", "sourceUrl": "https://www.metmuseum.org/toah/hd/chem/hd_chem.htm",
+      "topicIds": ["yellowRiver", "koreaEastAsia", "technologyComputing", "urbanDevelopment"],
+      "timeEstimate": {"kind": "approximate", "displayLabel": "서기 105년 무렵", "confidence": "medium"},
+      "titleTranslations": {"en": "Establishment of papermaking in China"},
+      "descriptionTranslations": {"en": "Papermaking in the Eastern Han period made copying records and knowledge more widely possible. Paper had lasting effects on administration, education, and publishing in East Asia and beyond."}
+    },
+    {
+      "id": "historic-buddhist-teachings",
+      "title": "불교의 형성과 전파",
+      "startAt": "-0500-01-01T00:00:00.000Z",
+      "lane": "world", "category": "politicsSociety", "importance": 3,
+      "description": "고타마 붓다의 가르침에서 출발한 불교는 남아시아에서 동아시아에 이르는 사상·종교·예술의 역사에 깊은 영향을 주었습니다.",
+      "sourceName": "The Metropolitan Museum of Art", "sourceUrl": "https://www.metmuseum.org/toah/hd/budd/hd_budd.htm",
+      "topicIds": ["easternPhilosophy", "religions", "artsFilm"],
+      "timeEstimate": {"kind": "approximate", "displayLabel": "약 BC 5세기", "confidence": "medium"},
+      "titleTranslations": {"en": "Formation and spread of Buddhism"},
+      "descriptionTranslations": {"en": "Buddhism, originating in the teachings of Gautama Buddha, profoundly influenced the history of thought, religion, and art from South Asia to East Asia."}
+    },
+    {
+      "id": "historic-platos-academy",
+      "title": "플라톤의 아카데메이아",
+      "startAt": "-0387-01-01T00:00:00.000Z",
+      "lane": "world", "category": "politicsSociety", "importance": 3,
+      "description": "플라톤의 아카데메이아는 철학·수학·정치 사상을 장기간 논의한 대표적 학술 공동체였습니다. 서양 철학의 교육 전통에 큰 영향을 남겼습니다.",
+      "sourceName": "Stanford Encyclopedia of Philosophy", "sourceUrl": "https://plato.stanford.edu/entries/plato/",
+      "topicIds": ["westernPhilosophy", "mathHistory", "grecoRoman"],
+      "timeEstimate": {"kind": "approximate", "displayLabel": "약 BC 387년", "confidence": "medium"},
+      "titleTranslations": {"en": "Plato's Academy"},
+      "descriptionTranslations": {"en": "Plato's Academy was a leading scholarly community for sustained discussion of philosophy, mathematics, and political thought, deeply influencing the educational tradition of Western philosophy."}
+    },
+    {
+      "id": "historic-green-revolution",
+      "title": "녹색 혁명의 확산",
+      "startAt": "1960-01-01T00:00:00.000Z",
+      "lane": "world", "category": "economyBusiness", "importance": 3,
+      "description": "고수확 품종·관개·비료·농업 연구의 결합은 여러 지역의 곡물 생산을 크게 늘렸습니다. 식량 생산과 환경·불평등 논의에 장기적 영향을 남겼습니다.",
+      "sourceName": "Food and Agriculture Organization of the United Nations", "sourceUrl": "https://www.fao.org/4/u8480e/u8480e07.htm",
+      "topicIds": ["agriculture", "economyFinance", "climateEnvironment"],
+      "timeEstimate": {"kind": "estimatedRange", "earliestAt": "1940-01-01T00:00:00.000Z", "latestAt": "1970-01-01T00:00:00.000Z", "displayLabel": "1940–1970년대", "confidence": "high"},
+      "titleTranslations": {"en": "Spread of the Green Revolution"},
+      "descriptionTranslations": {"en": "The combination of high-yield varieties, irrigation, fertilizer, and agricultural research greatly increased cereal production in several regions, with lasting effects on food, environment, and inequality debates."}
+    },
+    {
+      "id": "historic-stockton-darlington-railway",
+      "title": "스톡턴-달링턴 철도 개통",
+      "startAt": "1825-09-27T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "스톡턴-달링턴 철도는 증기기관차를 이용한 공공 철도 운송의 초기 이정표였습니다. 철도는 도시·산업·사람과 물자의 이동을 재구성했습니다.",
+      "sourceName": "Science Museum Group", "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories/transport/locomotion-1",
+      "topicIds": ["urbanDevelopment", "technologyComputing", "economyFinance"],
+      "titleTranslations": {"en": "Opening of the Stockton and Darlington Railway"},
+      "descriptionTranslations": {"en": "The Stockton and Darlington Railway was an early milestone in public railway transport using steam locomotives. Railways reshaped cities, industry, and the movement of people and goods."}
+    },
+    {
+      "id": "historic-gunpowder-invention",
+      "title": "화약의 발명과 확산",
+      "startAt": "0850-01-01T00:00:00.000Z",
+      "lane": "world", "category": "scienceTechnology", "importance": 3,
+      "description": "중국에서 발전한 화약은 불꽃·무기·공성 기술로 확산됐습니다. 전쟁, 국가 조직, 성곽과 도시 방어의 역사를 바꾼 기술 전환이었습니다.",
+      "sourceName": "The Metropolitan Museum of Art", "sourceUrl": "https://www.metmuseum.org/toah/hd/fire/hd_fire.htm",
+      "topicIds": ["weapons", "koreaEastAsia", "urbanDevelopment"],
+      "timeEstimate": {"kind": "approximate", "displayLabel": "약 9세기", "confidence": "medium"},
+      "titleTranslations": {"en": "Invention and spread of gunpowder"},
+      "descriptionTranslations": {"en": "Gunpowder developed in China spread through fireworks, weapons, and siege technology. It was a technological transition that changed war, state organization, fortifications, and urban defense."}
+    },
+    {
+      "id": "historic-great-auk-extinction",
+      "title": "큰바다쇠오리의 멸종",
+      "startAt": "1844-07-03T00:00:00.000Z",
+      "lane": "world", "category": "climateDisaster", "importance": 3,
+      "description": "북대서양의 큰바다쇠오리는 과도한 포획과 이용 압력 속에 멸종했습니다. 근대의 인간 주도 멸종을 상징하는 사례가 됐습니다.",
+      "sourceName": "Smithsonian National Museum of Natural History", "sourceUrl": "https://naturalhistory.si.edu/education/teaching-resources/paleontology-and-geology/great-auk",
+      "topicIds": ["extinctLife", "climateEnvironment"],
+      "titleTranslations": {"en": "Extinction of the great auk"},
+      "descriptionTranslations": {"en": "The North Atlantic great auk became extinct under intense harvesting and exploitation pressure, becoming a symbolic case of modern human-driven extinction."}
+    },
+    {
+      "id": "historic-hijra",
+      "title": "헤지라와 이슬람 공동체의 형성",
+      "startAt": "0622-07-16T00:00:00.000Z",
+      "lane": "world", "category": "politicsSociety", "importance": 3,
+      "description": "무함마드의 메디나 이주는 이슬람력의 기준점이며, 종교 공동체와 정치 질서가 형성되는 핵심 사건으로 여겨집니다.",
+      "sourceName": "The British Museum", "sourceUrl": "https://www.britishmuseum.org/collection/galleries/islamic-world",
+      "topicIds": ["religions", "civilizations", "islamicGoldenAge"],
+      "titleTranslations": {"en": "Hijra and formation of the Islamic community"},
+      "descriptionTranslations": {"en": "Muhammad's migration to Medina marks the Islamic calendar and is regarded as a pivotal event in the formation of an Islamic religious community and political order."}
     }
   ]
 }

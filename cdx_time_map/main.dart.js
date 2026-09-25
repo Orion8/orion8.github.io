@@ -55657,7 +55657,7 @@ aEC(a){$.n3=a
 this.L(new A.aS5(this,a))
 this.d.fA(a).hU(new A.aS6())},
 N(a){var s=null,r=this.e,q=r.gkH(),p=A.zQ(s,A.b89(B.aE,s,s,B.eD),"Arial",!0)
-return new A.CQ(r,this.gaEB(),new A.G4(new A.JJ(this.a.c,s),"Evensode v0.50.15",p,q,B.a3a,B.a75,!1,s),s)}}
+return new A.CQ(r,this.gaEB(),new A.G4(new A.JJ(this.a.c,s),"Evensode v0.50.16",p,q,B.a3a,B.a75,!1,s),s)}}
 A.aS4.prototype={
 $0(){return this.a.e=this.b},
 $S:0}
@@ -55773,7 +55773,7 @@ r=r.gju().e.a
 q.aI=r==null?p:r.r
 r=q.a.c
 if(r!=null){q.bE=r
-q.cI=B.b.co(A.b(["Evensode v0.50.15","\ub2e8\uacc4: Google OAuth \ucf5c\ubc31\uc744 Supabase \uc138\uc158\uc73c\ub85c \uad50\ud658\ud558\ub294 \uacfc\uc815","\uc624\ub958 \uc720\ud615: OAuth callback","\uba54\uc2dc\uc9c0: "+r],t.s),"\n")}q.dy=s.b.gju().ay.gtl().lp(q.gaxe())
+q.cI=B.b.co(A.b(["Evensode v0.50.16","\ub2e8\uacc4: Google OAuth \ucf5c\ubc31\uc744 Supabase \uc138\uc158\uc73c\ub85c \uad50\ud658\ud558\ub294 \uacfc\uc815","\uc624\ub958 \uc720\ud615: OAuth callback","\uba54\uc2dc\uc9c0: "+r],t.s),"\n")}q.dy=s.b.gju().ay.gtl().lp(q.gaxe())
 q.a39()
 q.Gz()
 q.tD()
@@ -56324,7 +56324,7 @@ p===$&&A.a()
 p=p.gju().e.a==null?"\uc5c6\uc74c":"\uc788\uc74c"
 s=q.aI==null?"\uc5c6\uc74c":"\uc788\uc74c"
 r=t.s
-s=A.b(["Evensode v0.50.15","Supabase \uc138\uc158: "+p,"\uc571\uc758 \ub85c\uadf8\uc778 \uc0ac\uc6a9\uc790: "+s,"\ub3d9\uae30\ud654 \uc0c1\ud0dc: "+q.gaG5()],r)
+s=A.b(["Evensode v0.50.16","Supabase \uc138\uc158: "+p,"\uc571\uc758 \ub85c\uadf8\uc778 \uc0ac\uc6a9\uc790: "+s,"\ub3d9\uae30\ud654 \uc0c1\ud0dc: "+q.gaG5()],r)
 p=q.cL
 if(p!=null)s.push("\ucd5c\uadfc \ub3d9\uae30\ud654: "+p.b9().es())
 p=q.bE
@@ -58138,7 +58138,7 @@ m.S$=0
 return A.l(null,r)}})
 return A.m($async$Bg,r)},
 N(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=A.ec(999),f=A.ec(999),e=t.p
-f=A.bq(A.b([A.be(h,!0,h,A.iv(!1,g,!0,A.h8(h,B.amp,B.B,h,h,new A.dt(B.SJ,h,A.wT(B.T9,1),f,h,h,B.b7),h,h,h,B.V9,h,h,h),h,!0,h,h,h,h,h,h,h,h,h,h,h,i.gaEU(),h,h,h,h,h,h,h),!1,h,h,h,!1,h,!1,h,h,h,h,h,h,h,h,h,"\ubc84\uc804 v0.50.15 \uc815\ubcf4 \ubcf4\uae30",h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,B.t,h),B.agA,B.ano],e),B.P,B.m,B.aa,0,B.x)
+f=A.bq(A.b([A.be(h,!0,h,A.iv(!1,g,!0,A.h8(h,B.amp,B.B,h,h,new A.dt(B.SJ,h,A.wT(B.T9,1),f,h,h,B.b7),h,h,h,B.V9,h,h,h),h,!0,h,h,h,h,h,h,h,h,h,h,h,i.gaEU(),h,h,h,h,h,h,h),!1,h,h,h,!1,h,!1,h,h,h,h,h,h,h,h,h,"\ubc84\uc804 v0.50.16 \uc815\ubcf4 \ubcf4\uae30",h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,B.t,h),B.agA,B.ano],e),B.P,B.m,B.aa,0,B.x)
 g=i.Bo(B.p4,i.gaEY(),"\uc774\ubca4\ud2b8 \uac80\uc0c9\xb7\ud604\uc7ac \ud654\uba74 \ubaa9\ub85d")
 s=i.a0?h:i.gaz9()
 r=i.ga1Q()
@@ -58567,7 +58567,7 @@ s=A.fc(p,s,"Bearer [\uc228\uae40]")
 o=A.cd("eyJ[a-zA-Z0-9_\\\\-]+\\\\.[a-zA-Z0-9_\\\\-]+\\\\.[a-zA-Z0-9_\\\\-]+",!0,!1)
 n=A.fc(s,o,"[\ud1a0\ud070 \uc228\uae40]")
 s=r==null?"\ud655\uc778\ub418\uc9c0 \uc54a\uc74c":m.a61(r)
-s=A.b(["Evensode v0.50.15","\ub2e8\uacc4: "+s,"\uc624\ub958 \uc720\ud615: "+J.X(l).j(0)],t.s)
+s=A.b(["Evensode v0.50.16","\ub2e8\uacc4: "+s,"\uc624\ub958 \uc720\ud615: "+J.X(l).j(0)],t.s)
 if(q!=null&&q.length!==0)s.push("\uc11c\ubc84 \ucf54\ub4dc: "+q)
 s.push("\uba54\uc2dc\uc9c0: "+(n.length>240?B.c.a8(n,0,240)+"\u2026":n))
 m.cI=B.b.co(s,"\n")},
@@ -59886,7 +59886,7 @@ r.push(a)
 return s.oY(r)},
 $S:146}
 A.aUI.prototype={
-$1(a){var s=this,r=null,q=t.p,p=A.b([A.aK("Evensode v0.50.15",r,r,B.mC,r),B.bk,A.aK("\uc5ed\uc0ac \uc774\ubca4\ud2b8 "+s.a+"\uac1c \xb7 \ub274\uc2a4 \uc774\ubca4\ud2b8 "+s.b+"\uac1c",r,r,r,r)],q),o=s.c
+$1(a){var s=this,r=null,q=t.p,p=A.b([A.aK("Evensode v0.50.16",r,r,B.mC,r),B.bk,A.aK("\uc5ed\uc0ac \uc774\ubca4\ud2b8 "+s.a+"\uac1c \xb7 \ub274\uc2a4 \uc774\ubca4\ud2b8 "+s.b+"\uac1c",r,r,r,r)],q),o=s.c
 if(o!=null)B.b.M(p,A.b([B.ap,A.aK("\uce74\ud0c8\ub85c\uadf8 "+o.a+" \xb7 "+A.btJ(o.c)+" \xb7 "+A.bdL(o.b)+" \uac80\uc99d",r,r,B.aH,r)],q))
 o=s.d
 if(o!=null)B.b.M(p,A.b([B.ap,A.aK("\ub274\uc2a4 \uce74\ud0c8\ub85c\uadf8 "+o.a+" \xb7 "+A.bdL(o.b)+" \uac31\uc2e0",r,r,B.aH,r)],q))
@@ -138814,7 +138814,7 @@ B.aml=new A.a9("\uae30\uad00\ucc28\uc640 \ube44 \uc18c\ub9ac\ub97c \ubaa8\ub450 
 B.amn=new A.a9("Google Calendar \uc5f0\uacb0",null,null,null,null,null)
 B.amo=new A.a9(u.i,B.aH,null,null,null,null)
 B.ajZ=new A.v(!0,B.eD,null,null,null,null,8,B.bd,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.amp=new A.a9("v0.50.15",B.ajZ,null,null,null,null)
+B.amp=new A.a9("v0.50.16",B.ajZ,null,null,null,null)
 B.amq=new A.a9(u.O,null,null,null,null,null)
 B.amr=new A.a9("\u2022 \ub450 \uc190\uac00\ub77d \ud540\uce58 \ub610\ub294 \ud2b8\ub799\ud328\ub4dc \ud540\uce58\ub85c \ud655\ub300\xb7\ucd95\uc18c\ud569\ub2c8\ub2e4.",null,null,null,null,null)
 B.ams=new A.a9("\uae30\ubcf8 \uce98\ub9b0\ub354",null,null,null,null,null)
