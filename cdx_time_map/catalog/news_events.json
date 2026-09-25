@@ -1,37 +1,98 @@
 {
-  "catalogVersion": "0.0.125",
-  "updatedAt": "2026-09-24T17:51:51.129Z",
+  "catalogVersion": "0.0.126",
+  "updatedAt": "2026-09-25T06:08:20.021Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-6647c9fc50b2e199d7b26845",
-      "title": "법원 명령으로 CNN·폴리티코·MS NOW의 백악관 출입권 복원",
-      "startAt": "2026-09-24T17:49:20.000Z",
+      "id": "news-9520e4bef5c09ea9be51feed",
+      "title": "PCB 오염 우려하는 연못 인근 주민들, 발암물질 검사 요구",
+      "titleTranslations": {
+        "en": "Residents near lagoon call for testing for cancer‑causing PCBs"
+      },
+      "startAt": "2026-09-25T05:48:36.000Z",
       "lane": "world",
-      "category": "politicsSociety",
+      "category": "scienceTechnology",
       "importance": 2,
-      "description": "BBC 보도에 따르면 법원의 명령으로 트럼프 행정부가 일시적으로 출입을 금지했던 CNN·Politico·MS NOW 소속 일부 기자들의 백악관 출입권이 복원되었다.",
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+      "description": "BBC 보도에 따르면 한 연못(라군) 인근 주민들이 해당 장소를 '영국의 수치'라고 부르며 폴리염화비페닐(PCB) 같은 발암 가능 화학물질에 대한 검사와 주민 대상 건강검진을 요구하고 있다. 지역사회는 토양·수질·인체 노출 조사를 통해 장기적 건강 위험을 확인하길 원하고 있다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports that residents living near a lagoon—described by some as 'a shame on Britain'—are calling for testing for cancer‑causing chemicals such as polychlorinated biphenyls (PCBs) and for health checks. The community wants soil, water and human exposure investigations to assess long‑term health risks."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw05rym38gdqo?at_medium=RSS&at_campaign=rss",
       "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/22/g-s1-144512/up-first-newsletter-press-lawsuit-cnn-msnow-politico-unga-trump-speech-paramount-deal",
-          "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/cw05rym38gdqo?at_medium=RSS&at_campaign=rss"
         ],
-        "firstPublishedAt": "2026-09-19T05:36:36.000Z",
-        "lastObservedAt": "2026-09-24T17:51:51.129Z"
-      },
+        "firstPublishedAt": "2026-09-25T05:48:36.000Z",
+        "lastObservedAt": "2026-09-25T06:08:20.020Z"
+      }
+    },
+    {
+      "id": "news-1170bd08f9453a7930daff72",
+      "title": "백악관 국빈만찬서 트럼프·시진핑 '우호적 톤' — 정상회담의 사교 마감",
       "titleTranslations": {
-        "en": "White House restores access to CNN, Politico and MS NOW after judge's order"
+        "en": "Trump and Xi strike a cordial tone at White House state dinner — social capstone to summit"
       },
+      "startAt": "2026-09-25T05:42:45.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "BBC 비즈니스 보도에 따르면 도널드 트럼프 대통령과 시진핑 중국 국가주석은 백악관에서 열린 호화로운 국빈만찬에서 건배와 화기애애한 분위기를 연출했다. 만찬에는 기술계 인사들이 초대됐으며 식단·장식과 함께 양국 정상의 '새로운 우호의 장'을 상징하는 장면이 연출되었다. 이번 만찬은 양국 관계의 겉모습을 보여주는 외교적 이벤트였다.",
       "descriptionTranslations": {
-        "en": "The BBC reports that a judge's order restored White House access for some staff of CNN, Politico and MS NOW after they had been turned away earlier under the Trump administration."
+        "en": "BBC Business reports that Presidents Donald Trump and Xi Jinping adopted a cordial tone at a lavish White House state dinner, with toasts and a festive atmosphere. Tech figures attended the event, which—through its pageantry—served as a social capstone to the summit and a symbol of a 'new chapter' in bilateral relations."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit",
+          "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-24T12:43:15.000Z",
+        "lastObservedAt": "2026-09-25T06:08:20.021Z"
+      }
+    },
+    {
+      "id": "news-342be70ff4d2bca2a135a673",
+      "title": "CDC, 설명 없는 지연 끝내고 주(州) 대상 아동용 코로나19 백신 주문 허용",
+      "titleTranslations": {
+        "en": "CDC opens state ordering for COVID‑19 vaccines for children after unexplained delay"
+      },
+      "startAt": "2026-09-24T22:29:48.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "Ars Technica 보도에 따르면 미국 질병통제예방센터(CDC)가 설명되지 않은 지연 끝에 주(州) 보건부들이 아동용 코로나19 백신을 직접 주문할 수 있도록 허용했다. 이전 보도에서는 CDC가 주문을 막아 접종 접근성에 대한 우려가 제기된 바 있다. 연방 보건당국은 주문의 '적절성'을 확인하려 했다고 전해진다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that the U.S. Centers for Disease Control and Prevention (CDC) has opened state ordering for pediatric COVID‑19 vaccines after an unexplained delay. Earlier coverage noted the CDC had been preventing states from ordering directly, raising access concerns; federal health officials said they sought to ensure orders were 'appropriate.'"
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/health/2026/09/cdc-opens-state-ordering-for-covid-19-vaccines-after-unexplained-delay/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
+          "https://arstechnica.com/health/2026/09/cdc-opens-state-ordering-for-covid-19-vaccines-after-unexplained-delay/"
+        ],
+        "firstPublishedAt": "2026-09-23T22:17:25.000Z",
+        "lastObservedAt": "2026-09-25T06:08:20.021Z"
       }
     },
     {
@@ -119,35 +180,6 @@
       }
     },
     {
-      "id": "news-1170bd08f9453a7930daff72",
-      "title": "트럼프·시진핑 정상회담, 겉으론 우호적 톤 — AI·희토류·무역·대만·이란 논의 예정",
-      "titleTranslations": {
-        "en": "Trump and Xi strike cordial tone at summit — expected to discuss AI, rare earths, trade, Taiwan and Iran"
-      },
-      "startAt": "2026-09-24T12:43:15.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 트럼프 대통령과 시진핑 주석은 정상회담에서 인공지능, 희토류, 무역 및 이란·대만 등 지정학적 현안을 논의할 예정이며 회담은 겉으로는 우호적 분위기를 띠었으나 근본적 긴장은 남아있다.",
-      "descriptionTranslations": {
-        "en": "According to NPR, Presidents Trump and Xi held a summit expected to cover artificial intelligence, rare earths, trade and geopolitical issues such as Iran and Taiwan. The meeting took on a cordial tone despite underlying tensions."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit"
-        ],
-        "firstPublishedAt": "2026-09-24T12:43:15.000Z",
-        "lastObservedAt": "2026-09-24T17:51:51.129Z"
-      }
-    },
-    {
       "id": "news-89e5f2bb8136d4250edce04e",
       "title": "RSA를 빠르게 깨는 새 방법 보고 — 암호보안 분야에 충격",
       "titleTranslations": {
@@ -175,6 +207,67 @@
         ],
         "firstPublishedAt": "2026-09-24T11:15:44.000Z",
         "lastObservedAt": "2026-09-24T17:51:51.129Z"
+      }
+    },
+    {
+      "id": "news-6647c9fc50b2e199d7b26845",
+      "title": "법원, 일부 언론의 백악관 출입권 복원 명령",
+      "startAt": "2026-09-24T11:10:14.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "NPR 보도에 따르면 연방법원이 트럼프 행정부 시절 일시적으로 출입이 제한된 일부 CNN·Politico·MS NOW 소속 기자들의 백악관 출입권을 복원하라고 명령했다. 이번 판결은 행정부와 언론 사이의 접근권 분쟁과 관련된 법적 쟁점을 다룬 것이다.",
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/24/g-s1-144850/up-first-newsletter-cnn-msnow-politico-iran-ukraine-unga-china-xi-jinping-trump",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/22/g-s1-144512/up-first-newsletter-press-lawsuit-cnn-msnow-politico-unga-trump-speech-paramount-deal",
+          "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/24/g-s1-144850/up-first-newsletter-cnn-msnow-politico-iran-ukraine-unga-china-xi-jinping-trump"
+        ],
+        "firstPublishedAt": "2026-09-19T05:36:36.000Z",
+        "lastObservedAt": "2026-09-25T06:08:20.021Z"
+      },
+      "titleTranslations": {
+        "en": "Judge orders restoration of White House access for some journalists"
+      },
+      "descriptionTranslations": {
+        "en": "NPR reports that a federal judge ordered the restoration of White House access for some journalists from outlets whose accreditation had been temporarily revoked under the Trump administration. The ruling addresses legal disputes over access between the administration and the press."
+      }
+    },
+    {
+      "id": "news-bd9de373e017ef304620a808",
+      "title": "라이베리아 가구 대상 현금이전 연구 — 공동 재무계획은 효과·부작용 공존",
+      "titleTranslations": {
+        "en": "Cash transfer study in Liberia finds joint financial planning brought benefits — and some harms"
+      },
+      "startAt": "2026-09-24T10:43:25.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "NPR 보도에 따르면 라이베리아에서 실시된 현금이전 실험에서 부부가 함께 지출 계획을 세우도록 한 개입은 현금 지원의 긍정적 효과를 강화했지만 일부 가정에서는 예기치 않은 부작용(예: 가정 내 갈등 증가)이 관측되기도 했다. 연구는 현금 지원 설계 시 사회적·성별 역학을 고려할 필요를 시사한다.",
+      "descriptionTranslations": {
+        "en": "NPR reports on a cash‑transfer experiment in Liberia in which encouraging couples to plan spending jointly amplified the benefits of cash aid but also produced unexpected harms in some households, such as increased domestic frictions. The study suggests cash‑aid programs must account for social and gender dynamics in their design."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/24/g-s1-144544/cash-transfer-poverty-liberia-partner-violence",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/24/g-s1-144544/cash-transfer-poverty-liberia-partner-violence"
+        ],
+        "firstPublishedAt": "2026-09-24T10:43:25.000Z",
+        "lastObservedAt": "2026-09-25T06:08:20.021Z"
       }
     },
     {
@@ -234,36 +327,6 @@
         ],
         "firstPublishedAt": "2026-09-23T17:10:33.000Z",
         "lastObservedAt": "2026-09-24T06:07:53.304Z"
-      }
-    },
-    {
-      "id": "news-342be70ff4d2bca2a135a673",
-      "title": "RFK 주도 CDC, 주정부의 아동용 코로나19 백신 직접 주문 허용 안해 — 접근 차단 우려",
-      "titleTranslations": {
-        "en": "RFK Jr.'s CDC not allowing states to directly order COVID‑19 shots for kids, raising access concerns"
-      },
-      "startAt": "2026-09-23T22:17:25.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "Ars Technica 보도에 따르면 RFK 주도의 미국 CDC가 주정부들이 아동용 코로나19 백신을 직접 주문하지 못하게 하고 있어 접종 접근에 차질이 우려된다고 전했다. 미 보건부는 백신 주문이 '적절한지' 확인하려 한다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that the CDC under RFK Jr. is not allowing states to directly order COVID‑19 shots for children, raising concerns about access. The U.S. health department said it wants to ensure vaccine orders are 'appropriate.'"
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/"
-        ],
-        "firstPublishedAt": "2026-09-23T22:17:25.000Z",
-        "lastObservedAt": "2026-09-24T06:07:53.305Z"
       }
     },
     {
