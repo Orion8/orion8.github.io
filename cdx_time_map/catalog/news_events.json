@@ -1,8 +1,122 @@
 {
-  "catalogVersion": "0.0.127",
-  "updatedAt": "2026-09-25T17:56:26.246Z",
+  "catalogVersion": "0.0.128",
+  "updatedAt": "2026-09-26T06:07:04.885Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-e164ccfcddd8233cf39e67a2",
+      "title": "가자지구 가족들, 붕괴 우려 건물에 대피 — ‘갈 곳이 없다’",
+      "titleTranslations": {
+        "en": "Gaza families shelter in buildings that may collapse — 'Nowhere else to go'"
+      },
+      "startAt": "2026-09-26T05:25:23.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 3년간의 이스라엘 전쟁으로 가자지구의 가족들이 손상된 건물에 살며 안전한 대안이 거의 없는 상태다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports that three years of Israel's war have left families in Gaza living in damaged buildings, with few safe alternatives available."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/features/2026/9/26/nowhere-else-to-go-gaza-families-shelter-in-buildings-that-may-collapse?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/features/2026/9/26/nowhere-else-to-go-gaza-families-shelter-in-buildings-that-may-collapse?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-26T05:25:23.000Z",
+        "lastObservedAt": "2026-09-26T06:07:04.885Z"
+      }
+    },
+    {
+      "id": "news-6096d6a184eb3059d866922a",
+      "title": "이란, 7일 내 호르무즈 재개 제안 — 미국과 중재 협의 진행",
+      "titleTranslations": {
+        "en": "Iran offers US deal to reopen Strait of Hormuz in seven days"
+      },
+      "startAt": "2026-09-26T05:03:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC에 따르면 이란이 호르무즈 해협을 7일 내 재개하겠다는 제안을 했고, 미국 관리는 중재자를 통한 '건설적 논의'가 진행 중이라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports Iran has offered to reopen the Strait of Hormuz within seven days, and a US official said 'constructive discussions' were taking place through mediators."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-26T05:03:09.000Z",
+        "lastObservedAt": "2026-09-26T06:07:04.885Z"
+      }
+    },
+    {
+      "id": "news-35493723d5486260d0e887ea",
+      "title": "법원, 앤스로픽 향해 블랙리스트 처분 허용 판결 — ‘제약된 AI가 군사작전 해칠 수 있다’고 언급",
+      "titleTranslations": {
+        "en": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features"
+      },
+      "startAt": "2026-09-25T21:36:20.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica 보도에 따르면 법원은 앤스로픽이 자사 모델(클로드)의 일부 기능을 활성화하지 않은 것을 이유로 트럼프 측이 회사를 블랙리스트에 올릴 수 있다고 판결했다. 판사들은 보도에서 '지나치게 제약된 AI 모델'이 군사 작전 실패를 초래할 수 있다고 지적했다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that a court ruled Donald Trump’s side can blacklist Anthropic for refusing to enable certain Claude features. Judges noted that 'overly constrained AI models' could cause military operations to fail."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/"
+        ],
+        "firstPublishedAt": "2026-09-25T21:36:20.000Z",
+        "lastObservedAt": "2026-09-26T06:07:04.885Z"
+      }
+    },
+    {
+      "id": "news-420ec31d089e6561f6be574a",
+      "title": "산마리노, 아르테미스 협정 서명해 76번째 서명국이 됨",
+      "titleTranslations": {
+        "en": "San Marino signs the Artemis Accords, becoming the 76th signatory"
+      },
+      "startAt": "2026-09-25T19:53:03.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "NASA 발표에 따르면 산마리노 공화국이 리미니에서 열린 서명식에서 아르테미스 협정에 서명하며 76번째 서명국이 되었다.",
+      "descriptionTranslations": {
+        "en": "NASA says the Republic of San Marino signed the Artemis Accords at a ceremony in Rimini, becoming the 76th signatory."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-san-marino-signing-the-artemis-accords/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/organizations/oiir/nasa-welcomes-san-marino-signing-the-artemis-accords/"
+        ],
+        "firstPublishedAt": "2026-09-25T19:53:03.000Z",
+        "lastObservedAt": "2026-09-26T06:07:04.885Z"
+      }
+    },
     {
       "id": "news-899d6295eefe8b61be5fe79d",
       "title": "대법원, 트럼프에 유권자 시민권 확인용 논란의 데이터베이스 사용 허용",
@@ -674,36 +788,6 @@
       }
     },
     {
-      "id": "news-df548b00b0ada59a51f060e5",
-      "title": "연무에 갇힌 인도네시아, 17만 건 넘는 호흡기 환자 발생",
-      "titleTranslations": {
-        "en": "More than 170,000 respiratory cases recorded in haze‑choked Indonesia"
-      },
-      "startAt": "2026-09-23T04:20:12.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 인도네시아에서 연무(산불·연기 등)로 인해 170,000건이 넘는 호흡기 관련 사례가 기록됐다. 이 가운데 40,000건 이상은 유아·소아를 포함한 사례로 보고되었다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that more than 170,000 respiratory cases have been recorded in Indonesia due to haze. More than 40,000 of those cases involve toddlers and young children."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq62j13gnyrko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cq62j13gnyrko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-23T04:20:12.000Z",
-        "lastObservedAt": "2026-09-23T05:55:24.478Z"
-      }
-    },
-    {
       "id": "news-699b96a2740cc05a089d2a2e",
       "title": "자메이카, 찰스 왕의 노예제 배상 청원 프라이비 카운슬 회부에 '중대한 결정' 환영",
       "titleTranslations": {
@@ -791,36 +875,6 @@
       }
     },
     {
-      "id": "news-d0ab50dd2825684488b0cda3",
-      "title": "중국 경쟁·미국 관세에 반발해 독일 자동차업계 대규모 시위 — 일자리 손실 우려",
-      "titleTranslations": {
-        "en": "Protests for Germany’s car industry as job losses loom amid Chinese competition and US tariffs"
-      },
-      "startAt": "2026-09-22T14:40:47.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "Ars Technica는 중국의 경쟁 심화와 미국의 관세 등으로 독일 자동차업계의 구조적 압박이 커지자 노동자·지역사회의 대규모 시위가 발생했다고 보도했다. 시위는 향후 산업정책과 고용에 관한 정치적 논쟁을 촉발할 가능성이 있다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that mounting pressure on Germany’s auto industry—from rising Chinese competition to US tariffs—has prompted large protests by workers and communities facing looming job losses. The demonstrations may trigger political debate over industrial policy and employment."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/"
-        ],
-        "firstPublishedAt": "2026-09-22T14:40:47.000Z",
-        "lastObservedAt": "2026-09-22T17:38:10.336Z"
-      }
-    },
-    {
       "id": "news-c2ee8cb6be47331260d9f2e8",
       "title": "스리랑카 법원, 2019년 부활절 연쇄 폭탄테러 관련 15명 유죄 판결",
       "titleTranslations": {
@@ -847,63 +901,6 @@
         ],
         "firstPublishedAt": "2026-09-22T13:30:01.000Z",
         "lastObservedAt": "2026-09-22T17:38:10.336Z"
-      }
-    },
-    {
-      "id": "news-961bfe9ff7b6ed201990f587",
-      "title": "후티 반군, 예멘 서부에서 추가 진격·영토 확보 — 10만 명 이상 강제 이주 발생",
-      "titleTranslations": {
-        "en": "Houthis push deeper into western Yemen, seize new territory — over 100,000 displaced"
-      },
-      "startAt": "2026-09-22T10:59:37.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도에 따르면, 이란의 지원을 받는 후티 반군이 예멘 서부에서 새로운 전선을 열고 추가 영토를 확보하면서 생활 기반이 크게 붕괴되어 목격자들은 10만 명이 넘는 주민들이 이주했다고 전했다. 이번 전개는 지역 인도주의 위기를 악화시키고 있다.",
-      "descriptionTranslations": {
-        "en": "NPR reports that Iran‑backed Houthi rebels have opened a new front in western Yemen and seized additional territory, displacing more than 100,000 people according to witnesses. The advance is worsening the humanitarian crisis in the area."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/22/g-s1-144261/yemen-houthis-saudi-iran-humanitarian-crisis",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/22/g-s1-144261/yemen-houthis-saudi-iran-humanitarian-crisis"
-        ],
-        "firstPublishedAt": "2026-09-22T10:59:37.000Z",
-        "lastObservedAt": "2026-09-22T17:38:10.335Z"
-      }
-    },
-    {
-      "id": "news-ca5508078aa1cf9c83b646da",
-      "title": "G7 외교장관들, 후티 반군의 사우디 공격 중단 요구",
-      "titleTranslations": {
-        "en": "G7 foreign ministers demand Houthis halt strikes on Saudi Arabia"
-      },
-      "startAt": "2026-09-22T05:32:40.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "G7 외교장관들이 예멘 후티 반군의 사우디아라비아·해상 선박에 대한 공격을 중단하라고 요구했으며, 후티에 대한 무기 지원을 중단하라고 이란에 촉구했다.",
-      "descriptionTranslations": {
-        "en": "G7 foreign ministers demanded that Yemen’s Houthi rebels halt strikes on Saudi Arabia and maritime shipping, and urged Iran to stop arming the group."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/22/g7-foreign-ministers-demand-houthis-halt-strikes-on-saudi-arabia?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/22/g7-foreign-ministers-demand-houthis-halt-strikes-on-saudi-arabia?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-22T05:32:40.000Z",
-        "lastObservedAt": "2026-09-22T06:07:53.611Z"
       }
     },
     {
@@ -1190,34 +1187,6 @@
       }
     },
     {
-      "id": "news-4893b761b0380215bf841a84",
-      "title": "NASA, 스타버스트 감마선 검출기 발사를 위해 스페이스X와 계약",
-      "startAt": "2026-09-17T20:37:09.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 중성자별 병합 및 단주기 감마선폭발의 기원을 조사할 소형 위성 'StarBurst'의 발사 서비스를 스페이스X의 팰컨9 라켓에 의한 Bandwagon 라이드셰어 임무로 계약했다고 발표했다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-launch-services-for-starburst-gamma-ray-detector/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-awards-launch-services-for-starburst-gamma-ray-detector/"
-        ],
-        "firstPublishedAt": "2026-09-17T20:37:09.000Z",
-        "lastObservedAt": "2026-09-18T05:51:48.338Z"
-      },
-      "titleTranslations": {
-        "en": "NASA contracts SpaceX to launch StarBurst gamma‑ray detector"
-      },
-      "descriptionTranslations": {
-        "en": "NASA contracted launch services on SpaceX’s Falcon 9 Bandwagon rideshare to deploy the small satellite 'StarBurst,' which will investigate the origins of neutron‑star mergers and short gamma‑ray bursts."
-      }
-    },
-    {
       "id": "news-c78d0c6b782c70ca96f42380",
       "title": "Base Labs, Hugging Face·Goodfire와 오픈-웨이트 AI 안전 파트너십 출범",
       "startAt": "2026-09-17T17:15:59.000Z",
@@ -1244,34 +1213,6 @@
       },
       "descriptionTranslations": {
         "en": "Base Labs announced an open‑weight AI safety partnership with Hugging Face and Goodfire to develop and publish methods for training and monitoring open models."
-      }
-    },
-    {
-      "id": "news-f3899afd4d6a0a2de4790fb5",
-      "title": "OpenAI, 모델 부정렬(model misalignment) 보고 프레임워크 공개",
-      "startAt": "2026-09-16T17:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "OpenAI가 모델의 부정렬을 추적·조사·공개하기 위한 프레임워크를 공개하고, 예기치 않거나 우려되는 모델 행동에 대한 6건의 보고서를 함께 발표했다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/model-misalignment-reporting-framework",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/model-misalignment-reporting-framework"
-        ],
-        "firstPublishedAt": "2026-09-16T17:00:00.000Z",
-        "lastObservedAt": "2026-09-17T06:06:32.507Z"
-      },
-      "titleTranslations": {
-        "en": "OpenAI publishes model misalignment reporting framework"
-      },
-      "descriptionTranslations": {
-        "en": "OpenAI released a framework to track, investigate, and disclose model misalignment and simultaneously published six reports describing unexpected or concerning model behaviors."
       }
     },
     {
