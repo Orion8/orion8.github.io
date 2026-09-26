@@ -1,8 +1,125 @@
 {
-  "catalogVersion": "0.0.128",
-  "updatedAt": "2026-09-26T06:07:04.885Z",
+  "catalogVersion": "0.0.129",
+  "updatedAt": "2026-09-26T17:07:46.088Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c40a3dfae780cf5bfc424e97",
+      "title": "노르이스터 폭풍, 해안가 홍수 발생 — 뉴욕·뉴저지 비상사태 선포",
+      "titleTranslations": {
+        "en": "Nor'easter storm brings coastal flooding as New York and New Jersey declare emergency"
+      },
+      "startAt": "2026-09-26T16:55:37.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "메인에서 버지니아까지 수천만 명이 영향권에 든 강력한 노르이스터 폭풍이 해안가에 홍수를 일으켰다. 뉴욕과 뉴저지 주정부는 비상사태를 선포했다.",
+      "descriptionTranslations": {
+        "en": "A powerful nor'easter affecting tens of millions from Maine to Virginia has caused coastal flooding. New York and New Jersey have declared states of emergency."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-26T16:55:37.000Z",
+        "lastObservedAt": "2026-09-26T17:07:46.088Z"
+      }
+    },
+    {
+      "id": "news-99e67ce6dc1873f22ff5890e",
+      "title": "동부 콩고에서 성폭력 만연 — 여성들 무장해 자위에 나서",
+      "titleTranslations": {
+        "en": "Women take up arms as sexual violence ravages eastern DRC"
+      },
+      "startAt": "2026-09-26T16:24:51.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "전쟁과 성폭력이 만연한 동부 콩고민주공화국에서 여성들이 자신을 보호하기 위해 친정부 '와잘렌도' 전투대에 합류하고 있다.",
+      "descriptionTranslations": {
+        "en": "As war and sexual violence ravage eastern Democratic Republic of Congo, women are joining pro‑government Wazalendo fighters to defend themselves."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/26/09-26-drc-women-fighters-sv-mp4?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/9/26/09-26-drc-women-fighters-sv-mp4?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-26T16:24:51.000Z",
+        "lastObservedAt": "2026-09-26T17:07:46.088Z"
+      }
+    },
+    {
+      "id": "news-ad55ea4a0c31b19938cdd605",
+      "title": "피지, 세계에서 가장 빠르게 확산되는 HIV 유행 — 정부가 국가비상사태 선포",
+      "titleTranslations": {
+        "en": "Why this island paradise has the world's fastest‑growing HIV epidemic"
+      },
+      "startAt": "2026-09-26T11:31:18.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "9월 중순 피지 정부는 HIV 감염의 급증을 이유로 국가비상사태를 선포했다. 보도는 크리스탈 메스(필로폰) 유행이 감염 증가의 강한 기여요인이라고 전한다.",
+      "descriptionTranslations": {
+        "en": "In mid‑September, Fiji's government declared a national emergency because of a startling rise in HIV infections. Coverage says the country's crystal meth epidemic is a strong contributing factor."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/26/g-s1-144667/hiv-crystal-meth-epidemic-fiji",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/26/g-s1-144667/hiv-crystal-meth-epidemic-fiji"
+        ],
+        "firstPublishedAt": "2026-09-26T11:31:18.000Z",
+        "lastObservedAt": "2026-09-26T17:07:46.088Z"
+      }
+    },
+    {
+      "id": "news-2ec7cb199a05199ecc3a7786",
+      "title": "테슬라 대형 전기트럭 '세미', 충전 인프라 공백이 상용화 걸림돌",
+      "titleTranslations": {
+        "en": "Tesla’s big electric truck faces an even bigger infrastructure challenge"
+      },
+      "startAt": "2026-09-26T10:45:09.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "주행거리 약 500마일의 테슬라 '세미' 출시가 예고됐지만, 충전 인프라의 공백과 분포 문제로 전기 화물 운송의 확산이 제한된다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "The 500‑mile Tesla Semi arrives as gaps in charging infrastructure still limit the expansion of electric trucking."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/"
+        ],
+        "firstPublishedAt": "2026-09-26T10:45:09.000Z",
+        "lastObservedAt": "2026-09-26T17:07:46.088Z"
+      }
+    },
     {
       "id": "news-e164ccfcddd8233cf39e67a2",
       "title": "가자지구 가족들, 붕괴 우려 건물에 대피 — ‘갈 곳이 없다’",
@@ -586,36 +703,6 @@
       }
     },
     {
-      "id": "news-2ff95dde3444390bfb6fafba",
-      "title": "엘니뇨가 허리케인 폴로를 이번 시즌 최강급으로 급성장시켰나",
-      "titleTranslations": {
-        "en": "Did El Niño turn Hurricane Polo into one of the season’s most powerful storms?"
-      },
-      "startAt": "2026-09-23T17:33:39.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "BBC는 엘니뇨 현상이 어떻게 허리케인 폴로를 급격히 강하게 만들어 태평양 시즌의 최강급 폭풍 중 하나가 되었을 가능성을 설명했다. 보도는 대기·해수 조건의 변화가 급격한 폭풍 강화에 기여했을 수 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The BBC explains how El Niño may have rapidly intensified Hurricane Polo, making it one of the Pacific season’s most powerful storms. The coverage says changing atmospheric and ocean conditions could have contributed to the storm’s rapid strengthening."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/cm93v2zz4w7qo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/videos/cm93v2zz4w7qo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-23T17:33:39.000Z",
-        "lastObservedAt": "2026-09-23T17:50:38.833Z"
-      }
-    },
-    {
       "id": "news-07adcb70e5ace7bdf167b56b",
       "title": "북극 해빙, 2026년 연중 최저면적 도달 — 위성기록과 동률",
       "titleTranslations": {
@@ -816,36 +903,6 @@
       }
     },
     {
-      "id": "news-da525d3288bb6f1c8657bf38",
-      "title": "미국 도시들, 트럼프 FCC의 지역 광대역 규정 선점 계획에 반대",
-      "titleTranslations": {
-        "en": "Cities across US oppose Trump FCC plan to preempt local broadband rules"
-      },
-      "startAt": "2026-09-22T20:38:30.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica 보도에 따르면 여러 미국 도시들이 FCC(연방통신위원회)의 지역 광대역 규정 선점(preemption) 계획에 반대하고 있다. 도시들은 허가·인허가 요건을 방어하며 통신사들이 네트워크를 충분히 건설하지 못하고 있다고 주장하고 있다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that multiple US cities are opposing the FCC’s plan to preempt local broadband rules. Cities are defending permit and approval requirements and say ISPs are not building networks fast enough."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/"
-        ],
-        "firstPublishedAt": "2026-09-22T20:38:30.000Z",
-        "lastObservedAt": "2026-09-23T05:55:24.478Z"
-      }
-    },
-    {
       "id": "news-caaf4b1f8cd66a723a0674cc",
       "title": "AstroForge, 차기 우주선 'Autonomy‑1'에 소형 AI 모델 탑재해 자율 운용 계획",
       "titleTranslations": {
@@ -871,35 +928,6 @@
           "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/"
         ],
         "firstPublishedAt": "2026-09-22T15:00:00.000Z",
-        "lastObservedAt": "2026-09-22T17:38:10.336Z"
-      }
-    },
-    {
-      "id": "news-c2ee8cb6be47331260d9f2e8",
-      "title": "스리랑카 법원, 2019년 부활절 연쇄 폭탄테러 관련 15명 유죄 판결",
-      "titleTranslations": {
-        "en": "Sri Lanka court convicts 15 over deadly 2019 Easter bombings"
-      },
-      "startAt": "2026-09-22T13:30:01.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "NPR는 2019년 부활절 연쇄 폭탄테러와 관련해 법원이 15명을 유죄로 판결했다고 보도했다. 이들 공격은 이슬람국가 계열의 영감에 따른 사건으로 외국인 42명 등 다수가 희생된 바 있다.",
-      "descriptionTranslations": {
-        "en": "NPR reports that a court in Sri Lanka has convicted 15 people over the deadly 2019 Easter bombings. The attacks, inspired by Islamic State‑affiliated actors, killed dozens including 42 foreign nationals."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/22/g-s1-144514/sri-lanka-court-convicts-15-over-deadly-2019-easter-bombings",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/22/g-s1-144514/sri-lanka-court-convicts-15-over-deadly-2019-easter-bombings"
-        ],
-        "firstPublishedAt": "2026-09-22T13:30:01.000Z",
         "lastObservedAt": "2026-09-22T17:38:10.336Z"
       }
     },
