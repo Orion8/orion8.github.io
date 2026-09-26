@@ -55703,7 +55703,7 @@ aEE(a){$.n3=a
 this.L(new A.aS3(this,a))
 this.d.fB(a).hH(new A.aS4())},
 N(a){var s=null,r=this.e,q=r.gkH(),p=A.zQ(s,A.b86(B.aF,s,s,B.eD),"Arial",!0)
-return new A.CQ(r,this.gaED(),new A.G4(new A.JJ(this.a.c,s),"Evensode v0.50.23",p,q,B.a3b,B.a76,!1,s),s)}}
+return new A.CQ(r,this.gaED(),new A.G4(new A.JJ(this.a.c,s),"Evensode v0.50.24",p,q,B.a3b,B.a76,!1,s),s)}}
 A.aS2.prototype={
 $0(){return this.a.e=this.b},
 $S:0}
@@ -55824,7 +55824,7 @@ r=r.gju().e.a
 q.ag=r==null?p:r.r
 r=q.a.c
 if(r!=null){q.az=r
-q.bU=B.b.cp(A.b(["Evensode v0.50.23","\ub2e8\uacc4: Google OAuth \ucf5c\ubc31\uc744 Supabase \uc138\uc158\uc73c\ub85c \uad50\ud658\ud558\ub294 \uacfc\uc815","\uc624\ub958 \uc720\ud615: OAuth callback","\uba54\uc2dc\uc9c0: "+r],t.s),"\n")}q.dy=s.b.gju().ay.gtl().lp(q.gaxg())
+q.bU=B.b.cp(A.b(["Evensode v0.50.24","\ub2e8\uacc4: Google OAuth \ucf5c\ubc31\uc744 Supabase \uc138\uc158\uc73c\ub85c \uad50\ud658\ud558\ub294 \uacfc\uc815","\uc624\ub958 \uc720\ud615: OAuth callback","\uba54\uc2dc\uc9c0: "+r],t.s),"\n")}q.dy=s.b.gju().ay.gtl().lp(q.gaxg())
 q.a3a()
 q.Gz()
 q.tD()
@@ -56374,7 +56374,7 @@ p===$&&A.a()
 p=p.gju().e.a==null?"\uc5c6\uc74c":"\uc788\uc74c"
 s=q.ag==null?"\uc5c6\uc74c":"\uc788\uc74c"
 r=t.s
-s=A.b(["Evensode v0.50.23","Supabase \uc138\uc158: "+p,"\uc571\uc758 \ub85c\uadf8\uc778 \uc0ac\uc6a9\uc790: "+s,"\ub3d9\uae30\ud654 \uc0c1\ud0dc: "+q.gaG7()],r)
+s=A.b(["Evensode v0.50.24","Supabase \uc138\uc158: "+p,"\uc571\uc758 \ub85c\uadf8\uc778 \uc0ac\uc6a9\uc790: "+s,"\ub3d9\uae30\ud654 \uc0c1\ud0dc: "+q.gaG7()],r)
 p=q.cK
 if(p!=null)s.push("\ucd5c\uadfc \ub3d9\uae30\ud654: "+p.b9().es())
 p=q.az
@@ -58213,7 +58213,7 @@ m.U$=0
 return A.l(null,r)}})
 return A.m($async$Bg,r)},
 N(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=A.ec(999),f=A.ec(999),e=t.p
-f=A.bq(A.b([A.bf(h,!0,h,A.iu(!1,g,!0,A.h8(h,B.ao2,B.B,h,h,new A.ds(B.SI,h,A.wT(B.T8,1),f,h,h,B.b8),h,h,h,B.V8,h,h,h),h,!0,h,h,h,h,h,h,h,h,h,h,h,i.gaEW(),h,h,h,h,h,h,h),!1,h,h,h,!1,h,!1,h,h,h,h,h,h,h,h,h,"\ubc84\uc804 v0.50.23 \uc815\ubcf4 \ubcf4\uae30",h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,B.t,h),B.agz,B.anm],e),B.Q,B.m,B.aa,0,B.x)
+f=A.bq(A.b([A.bf(h,!0,h,A.iu(!1,g,!0,A.h8(h,B.ao2,B.B,h,h,new A.ds(B.SI,h,A.wT(B.T8,1),f,h,h,B.b8),h,h,h,B.V8,h,h,h),h,!0,h,h,h,h,h,h,h,h,h,h,h,i.gaEW(),h,h,h,h,h,h,h),!1,h,h,h,!1,h,!1,h,h,h,h,h,h,h,h,h,"\ubc84\uc804 v0.50.24 \uc815\ubcf4 \ubcf4\uae30",h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,B.t,h),B.agz,B.anm],e),B.Q,B.m,B.aa,0,B.x)
 g=i.Bo(B.p5,i.gaF_(),"\uc774\ubca4\ud2b8 \uac80\uc0c9\xb7\ud604\uc7ac \ud654\uba74 \ubaa9\ub85d")
 s=i.a8?h:i.gazb()
 r=i.ga1R()
@@ -58639,7 +58639,7 @@ s=A.fd(p,s,"Bearer [\uc228\uae40]")
 o=A.ce("eyJ[a-zA-Z0-9_\\\\-]+\\\\.[a-zA-Z0-9_\\\\-]+\\\\.[a-zA-Z0-9_\\\\-]+",!0,!1)
 n=A.fd(s,o,"[\ud1a0\ud070 \uc228\uae40]")
 s=r==null?"\ud655\uc778\ub418\uc9c0 \uc54a\uc74c":m.a61(r)
-s=A.b(["Evensode v0.50.23","\ub2e8\uacc4: "+s,"\uc624\ub958 \uc720\ud615: "+J.X(l).j(0)],t.s)
+s=A.b(["Evensode v0.50.24","\ub2e8\uacc4: "+s,"\uc624\ub958 \uc720\ud615: "+J.X(l).j(0)],t.s)
 if(q!=null&&q.length!==0)s.push("\uc11c\ubc84 \ucf54\ub4dc: "+q)
 s.push("\uba54\uc2dc\uc9c0: "+(n.length>240?B.c.a9(n,0,240)+"\u2026":n))
 m.bU=B.b.cp(s,"\n")},
@@ -59956,7 +59956,7 @@ r.push(a)
 return s.oX(r)},
 $S:153}
 A.aUH.prototype={
-$1(a){var s=this,r=null,q=t.p,p=A.b([A.aJ("Evensode v0.50.23",r,r,B.mD,r),B.bl,A.aJ("\uc5ed\uc0ac \uc774\ubca4\ud2b8 "+s.a+"\uac1c \xb7 \ub274\uc2a4 \uc774\ubca4\ud2b8 "+s.b+"\uac1c",r,r,r,r)],q),o=s.c
+$1(a){var s=this,r=null,q=t.p,p=A.b([A.aJ("Evensode v0.50.24",r,r,B.mD,r),B.bl,A.aJ("\uc5ed\uc0ac \uc774\ubca4\ud2b8 "+s.a+"\uac1c \xb7 \ub274\uc2a4 \uc774\ubca4\ud2b8 "+s.b+"\uac1c",r,r,r,r)],q),o=s.c
 if(o!=null)B.b.M(p,A.b([B.av,A.aJ("\uce74\ud0c8\ub85c\uadf8 "+o.a+" \xb7 "+A.btG(o.c)+" \xb7 "+A.bdI(o.b)+" \uac80\uc99d",r,r,B.aI,r)],q))
 o=s.d
 if(o!=null)B.b.M(p,A.b([B.av,A.aJ("\ub274\uc2a4 \uce74\ud0c8\ub85c\uadf8 "+o.a+" \xb7 "+A.bdI(o.b)+" \uac31\uc2e0",r,r,B.aI,r)],q))
@@ -60899,7 +60899,7 @@ r.wG()
 return}A.dz(r.QW().resume(),t.X)
 if(r.b==null){r.QX()
 return}r.aCz()
-s=r.y?0.045:0.15
+s=r.y?0.085:0.28
 r.aCy(r.z*s)},
 QW(){var s,r,q=this.a
 if(q!=null)return q
@@ -138981,7 +138981,7 @@ B.ake=new A.v(!0,B.cW,null,null,null,null,null,null,null,null,null,null,1.35,nul
 B.ao0=new A.a9(u.k,B.ake,null,null,null,null)
 B.ao1=new A.a9("\uc774\ubca4\ud2b8 \uc0ad\uc81c",null,null,null,null,null)
 B.ajY=new A.v(!0,B.eD,null,null,null,null,8,B.be,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ao2=new A.a9("v0.50.23",B.ajY,null,null,null,null)
+B.ao2=new A.a9("v0.50.24",B.ajY,null,null,null,null)
 B.ao3=new A.a9("\u2022 \ud55c \uc190\uac00\ub77d \ub610\ub294 \ub9c8\uc6b0\uc2a4 \ub4dc\ub798\uadf8\ub85c \uc2dc\uac04 \uacf5\uac04\uc744 \uc774\ub3d9\ud569\ub2c8\ub2e4.",null,null,null,null,null)
 B.ao4=new A.a9("\ubc84\uc804 \ubc30\uc9c0\ub97c \ub2e4\uc2dc \ub204\ub974\uba74 \uc774 \uc815\ubcf4\ub97c \uc5b8\uc81c\ub4e0 \ud655\uc778\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",B.fg,null,null,null,null)
 B.ao5=new A.a9("\ub2e4\uc2dc \uc2dc\ub3c4",null,null,null,null,null)
