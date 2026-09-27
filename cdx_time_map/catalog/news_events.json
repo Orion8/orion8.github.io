@@ -1,8 +1,128 @@
 {
-  "catalogVersion": "0.0.129",
-  "updatedAt": "2026-09-26T17:07:46.088Z",
+  "catalogVersion": "0.0.130",
+  "updatedAt": "2026-09-27T06:34:53.570Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-af014f61c4861e04714e6d64",
+      "title": "에티오피아 군부, 새 내전 우려 속 '자제' 약속하나 에리트레아 지원 비난",
+      "titleTranslations": {
+        "en": "Ethiopia’s army promises restraint amid fears of renewed war, accuses Eritrea"
+      },
+      "startAt": "2026-09-27T04:59:50.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 에티오피아 군 총참모장은 국내에서 새 내전 우려가 커진 가운데 자제를 약속했으나, 동시에 에리트레아가 에티오피아 약화를 위해 무장 단체에 자금과 지원을 제공한다고 비난했다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports that Ethiopia’s army chief promised restraint amid fears of a new civil war, while accusing Eritrea of funding and supporting armed groups to weaken Ethiopia."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/27/ethiopias-army-promises-restraint-amid-fears-of-new-civil-war?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/9/23/09-23-26-ethiopia-armed-groups-sv-mp4?traffic_source=rss",
+          "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/24/nx-s1-5978861/conflict-ethiopia-tigray",
+          "https://www.aljazeera.com/news/2026/9/27/ethiopias-army-promises-restraint-amid-fears-of-new-civil-war?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-23T17:10:33.000Z",
+        "lastObservedAt": "2026-09-27T06:34:53.570Z"
+      }
+    },
+    {
+      "id": "news-3905074a13675726570d62a4",
+      "title": "태국 방콕, 폭우로 도로 침수·홍수 재난 선포",
+      "titleTranslations": {
+        "en": "Bangkok roads submerged as authorities declare a flood disaster"
+      },
+      "startAt": "2026-09-27T04:45:08.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "BBC 보도에 따르면 집중호우로 방콕 시내 도로들이 침수되자 당국이 홍수 재난을 선포했다. 보도는 강우는 잠잠해졌지만 홍수 사태가 아직 끝나지 않았다고 전한다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports that heavy rains have submerged roads across Bangkok, prompting authorities to declare a flood disaster. The coverage says the heavy rains have eased but flooding is not yet over."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-27T04:45:08.000Z",
+        "lastObservedAt": "2026-09-27T06:34:53.570Z"
+      }
+    },
+    {
+      "id": "news-8c3fbd2285e86abed8789741",
+      "title": "콩고(민주공화국) 에볼라 유행, 확산세 둔화 여부 불확실",
+      "titleTranslations": {
+        "en": "Congo’s Ebola outbreak: experts disagree on whether it’s slowing"
+      },
+      "startAt": "2026-09-26T21:13:52.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 4개월째 이어진 콩고의 에볼라 유행은 역대 최대 규모 중 하나로 기록되고 있다. 당국과 외부 전문가들 사이에서 확산이 마침내 둔화되고 있는지에 대해 의견이 엇갈리고 있다.",
+      "descriptionTranslations": {
+        "en": "NPR reports that four months into the outbreak, Congo’s Ebola epidemic is one of the largest on record. Officials and outside experts disagree on whether the outbreak is finally slowing down."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/26/nx-s1-5976867/is-congos-ebola-outbreak-coming-under-control",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/26/nx-s1-5976867/is-congos-ebola-outbreak-coming-under-control"
+        ],
+        "firstPublishedAt": "2026-09-26T21:13:52.000Z",
+        "lastObservedAt": "2026-09-27T06:34:53.570Z"
+      }
+    },
+    {
+      "id": "news-6096d6a184eb3059d866922a",
+      "title": "美 대통령, 이란의 호르무즈 재개 제안 거부",
+      "titleTranslations": {
+        "en": "Trump rejects Iranian plan to reopen the Strait of Hormuz"
+      },
+      "startAt": "2026-09-26T20:08:28.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "NPR 보도에 따르면 도널드 트럼프 대통령은 이란이 제안한 호르무즈 해협 재개 방안을 '받아들일 수 없다'고 밝혔다. 이란의 제안은 6월에 양측이 합의한 양해각서와 유사한 내용이라고 전해진다.",
+      "descriptionTranslations": {
+        "en": "NPR reports that President Donald Trump said he would not accept an Iranian proposal to reopen the Strait of Hormuz. The Iranian plan is said to be similar to a memorandum of understanding agreed between the U.S. and Iran in June."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz"
+        ],
+        "firstPublishedAt": "2026-09-26T05:03:09.000Z",
+        "lastObservedAt": "2026-09-27T06:34:53.569Z"
+      }
+    },
     {
       "id": "news-c40a3dfae780cf5bfc424e97",
       "title": "노르이스터 폭풍, 해안가 홍수 발생 — 뉴욕·뉴저지 비상사태 선포",
@@ -59,6 +179,34 @@
         ],
         "firstPublishedAt": "2026-09-26T16:24:51.000Z",
         "lastObservedAt": "2026-09-26T17:07:46.088Z"
+      }
+    },
+    {
+      "id": "news-355b8ad256f4a4a70469070f",
+      "title": "에콰도르 어선 공습으로 어민 인명·인권 우려 제기",
+      "titleTranslations": {
+        "en": "US strikes on Ecuadorian fishing boat raise humanitarian concerns"
+      },
+      "startAt": "2026-09-26T16:00:39.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 9월 8일 미군이 공해상에서 에콰도르 어선 '돈 루포(Don Rufo)'를 나포·파괴한 뒤 동승자 10명이 동태평양에 표류하게 됐다. 현지 변호사는 어민들이 생계와 인권을 잃고 있다고 주장했고, 한편 마르코 루비오 의원은 필요하면 '배를 폭파할 준비가 돼 있다'고 발언했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that on Sept. 8 a US patrol intercepted and destroyed the Ecuadorian fishing boat Don Rufo in international waters, leaving 10 people adrift in the eastern Pacific. An attorney says the fishers are losing their livelihoods, while Marco Rubio said the US remains willing to 'blow up ships if need be.'"
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/26/us-airstrikes-ecuador-fishers",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/sep/26/us-airstrikes-ecuador-fishers"
+        ],
+        "firstPublishedAt": "2026-09-26T16:00:39.000Z",
+        "lastObservedAt": "2026-09-27T06:34:53.569Z"
       }
     },
     {
@@ -145,34 +293,6 @@
           "https://www.aljazeera.com/features/2026/9/26/nowhere-else-to-go-gaza-families-shelter-in-buildings-that-may-collapse?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-09-26T05:25:23.000Z",
-        "lastObservedAt": "2026-09-26T06:07:04.885Z"
-      }
-    },
-    {
-      "id": "news-6096d6a184eb3059d866922a",
-      "title": "이란, 7일 내 호르무즈 재개 제안 — 미국과 중재 협의 진행",
-      "titleTranslations": {
-        "en": "Iran offers US deal to reopen Strait of Hormuz in seven days"
-      },
-      "startAt": "2026-09-26T05:03:09.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC에 따르면 이란이 호르무즈 해협을 7일 내 재개하겠다는 제안을 했고, 미국 관리는 중재자를 통한 '건설적 논의'가 진행 중이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports Iran has offered to reopen the Strait of Hormuz within seven days, and a US official said 'constructive discussions' were taking place through mediators."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-26T05:03:09.000Z",
         "lastObservedAt": "2026-09-26T06:07:04.885Z"
       }
     },
@@ -613,65 +733,6 @@
         ],
         "firstPublishedAt": "2026-09-24T10:43:25.000Z",
         "lastObservedAt": "2026-09-25T06:08:20.021Z"
-      }
-    },
-    {
-      "id": "news-9872c465a23c4739f6fc5fea",
-      "title": "베네수엘라 임시 대통령, 유엔총회서 ‘적절한 시점’에 선거 약속",
-      "titleTranslations": {
-        "en": "Venezuela's acting leader promises elections at the 'right moment' at UNGA"
-      },
-      "startAt": "2026-09-24T05:40:49.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "NPR 보도에 따르면 베네수엘라의 임시 대통령이 취임 후 처음으로 유엔총회 연설에서 선거를 약속하며 '적절한 시점'은 국민이 결정할 것이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "According to NPR, Venezuela's acting president, speaking for the first time at the UN General Assembly since taking power, promised elections and said the 'right moment' for them would be decided by the nation's people."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/24/g-s1-144837/venezuela-leader-un-general-assembly",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/24/g-s1-144837/venezuela-leader-un-general-assembly"
-        ],
-        "firstPublishedAt": "2026-09-24T05:40:49.000Z",
-        "lastObservedAt": "2026-09-24T06:07:53.305Z"
-      }
-    },
-    {
-      "id": "news-af014f61c4861e04714e6d64",
-      "title": "에티오피아·티그라이 상호 공세 주장·티그라이 공항 장악 보고 — 전쟁 재발 우려",
-      "titleTranslations": {
-        "en": "Ethiopia and Tigray accuse each other of offensives; Tigray airports reportedly seized — fears of renewed war"
-      },
-      "startAt": "2026-09-24T04:37:47.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC와 NPR 보도에 따르면 에티오피아 정부와 티그라이 지역 당국이 서로 공세를 시작했다고 주장하는 가운데, 최근 드론 공격 보도 이후 현지 당국이 티그라이의 공항들을 장악한 것으로 전해졌다. 이 같은 전개는 4년 전 끝난 취약한 평화 합의 이후 전쟁 재발 우려를 키우고 있다.",
-      "descriptionTranslations": {
-        "en": "BBC and NPR report that the Ethiopian government and Tigray authorities have accused each other of launching offensives, and that local authorities reportedly seized Tigray's airports following recent reports of drone strikes. The developments raise fears of a return to war after a fragile peace deal ended the previous conflict four years ago."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/9/23/09-23-26-ethiopia-armed-groups-sv-mp4?traffic_source=rss",
-          "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/24/nx-s1-5978861/conflict-ethiopia-tigray"
-        ],
-        "firstPublishedAt": "2026-09-23T17:10:33.000Z",
-        "lastObservedAt": "2026-09-24T06:07:53.304Z"
       }
     },
     {
