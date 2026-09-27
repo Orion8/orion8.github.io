@@ -33,13 +33,13 @@ addEventListener("message", eventListener);
 if (!window._flutter) {
   window._flutter = {};
 }
-_flutter.buildConfig = {"engineRevision":"4c525dac5ebe5971c5708ef73558ed8edcf4a362","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}]};
+_flutter.buildConfig = {"engineRevision":"4c525dac5ebe5971c5708ef73558ed8edcf4a362","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
 
 // GitHub Pages caches main.dart.js under its stable filename. Give each Time
 // Map release a distinct entrypoint URL so an immediately opened browser
 // cannot run a previous version for up to the cache lifetime.
-const timeMapBuildVersion = "1926952491" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */;
+const timeMapBuildVersion = "1739075220" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */;
 for (const build of _flutter.buildConfig.builds) {
   if (build.mainJsPath) {
     build.mainJsPath = `${build.mainJsPath}?v=${timeMapBuildVersion}`;
@@ -48,6 +48,6 @@ for (const build of _flutter.buildConfig.builds) {
 
 _flutter.loader.load({
   serviceWorkerSettings: {
-    serviceWorkerVersion: "1926952491" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
+    serviceWorkerVersion: "1739075220" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
   },
 });
