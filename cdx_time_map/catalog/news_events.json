@@ -1,8 +1,94 @@
 {
-  "catalogVersion": "0.0.130",
-  "updatedAt": "2026-09-27T06:34:53.570Z",
+  "catalogVersion": "0.0.131",
+  "updatedAt": "2026-09-27T17:42:32.760Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-2b122f35c41e28b49ea988f0",
+      "title": "10년 미·중 협정의 일환으로 대형 판다 두 마리 애틀랜타 도착",
+      "titleTranslations": {
+        "en": "Giant pandas arrive in Atlanta as part of 10‑year US‑China agreement"
+      },
+      "startAt": "2026-09-27T17:07:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라 보도에 따르면 판다 두 마리(핑핑·푸샹)가 중국 남서부에서 미국 조지아주 애틀랜타로 도착했다. 이 방사는 10년 기간의 미·중 협정의 일부로 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports that two pandas (Ping Ping and Fu Shuang) arrived in Atlanta, Georgia, from southwestern China. Their transfer is part of a 10‑year US‑China agreement."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/27/giant-pandas-arrive-in-atlanta-as-part-of-10-year-us-china-agreement?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/27/giant-pandas-arrive-in-atlanta-as-part-of-10-year-us-china-agreement?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-27T17:07:33.000Z",
+        "lastObservedAt": "2026-09-27T17:42:32.760Z"
+      }
+    },
+    {
+      "id": "news-2c8e25c7727ceb5dd86964ed",
+      "title": "이스라엘 야당 지도자들, 네타냐후 축출 위해 연합",
+      "titleTranslations": {
+        "en": "Israeli opposition leaders unite to drive out Netanyahu"
+      },
+      "startAt": "2026-09-27T16:53:57.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 영상 보도는 예루살렘 일간 소식으로 이스라엘 야당 지도자들이 벤야민 네타냐후 총리 축출을 목표로 연합하고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera video coverage (Jerusalem Daily) reports that Israeli opposition leaders have united with the aim of ousting Prime Minister Benjamin Netanyahu."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/27/jerusalem-daily-israeli-opposition-leaders-unite-to-drive-out-netanyahu?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/9/27/jerusalem-daily-israeli-opposition-leaders-unite-to-drive-out-netanyahu?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-27T16:53:57.000Z",
+        "lastObservedAt": "2026-09-27T17:42:32.760Z"
+      }
+    },
+    {
+      "id": "news-963ef80dcaa0f2efddae3d45",
+      "title": "스미소니언, 트럼프 행정부의 문화 전쟁의 최신 전선으로 부상",
+      "titleTranslations": {
+        "en": "How the Smithsonian became the latest front in Trump’s culture war"
+      },
+      "startAt": "2026-09-27T11:00:12.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica 보도에 따르면 스미소니언 박물관이 트럼프 행정부의 강한 압박을 받으면서 문화 전쟁의 새로운 전선이 되었다고 전해진다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that the Smithsonian Institution has come under withering pressure from the Trump administration, making it a new front in the broader culture war."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/how-the-smithsonian-became-the-latest-front-in-trumps-culture-war/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/09/how-the-smithsonian-became-the-latest-front-in-trumps-culture-war/"
+        ],
+        "firstPublishedAt": "2026-09-27T11:00:12.000Z",
+        "lastObservedAt": "2026-09-27T17:42:32.760Z"
+      }
+    },
     {
       "id": "news-af014f61c4861e04714e6d64",
       "title": "에티오피아 군부, 새 내전 우려 속 '자제' 약속하나 에리트레아 지원 비난",
@@ -561,34 +647,6 @@
       }
     },
     {
-      "id": "news-0b591a1339f02715e8119fbc",
-      "title": "수단 통화 붕괴·물가 급등으로 가계 고통 심화",
-      "titleTranslations": {
-        "en": "Collapsing currency and soaring inflation leave Sudanese families struggling"
-      },
-      "startAt": "2026-09-24T17:03:55.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "알자지라 보도에 따르면 빵·설탕·육류 가격 상승이 전쟁과 경제 불안에 시달리는 수단 가정의 부담을 가중시키고 있다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that rising prices for bread, sugar and meat are straining Sudanese households already coping with war and economic instability."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/features/2026/9/24/collapsing-currency-and-inflation-leave-families-struggling-in-sudan?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/features/2026/9/24/collapsing-currency-and-inflation-leave-families-struggling-in-sudan?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-24T17:03:55.000Z",
-        "lastObservedAt": "2026-09-24T17:51:51.129Z"
-      }
-    },
-    {
       "id": "news-b3b55392dcf069a9c7e907fb",
       "title": "미국 모기지 금리, 20개월 만에 7% 돌파",
       "titleTranslations": {
@@ -822,36 +880,6 @@
       }
     },
     {
-      "id": "news-e55df937d2efdfbd25ee4ea1",
-      "title": "미국, 희토류 처리에서 우위 상실 — 중국이 기회 활용",
-      "titleTranslations": {
-        "en": "America lost its rare‑earth edge; China seized the advantage"
-      },
-      "startAt": "2026-09-23T13:37:05.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "Ars Technica는 수십 년간의 저가 수입과 투자 축소로 미국이 희토류 가공 분야에서 경쟁력을 잃었고 중국이 이를 이용해 처리·공급망을 장악했다고 보도했다. 분석은 이로 인한 공급망 의존성과 전략적 취약성을 지적한다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that decades of cheaper imports and underinvestment left the United States dependent on China for rare‑earth processing, and that China has capitalized on this to dominate processing and supply chains. The analysis highlights resulting strategic vulnerabilities."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/"
-        ],
-        "firstPublishedAt": "2026-09-23T13:37:05.000Z",
-        "lastObservedAt": "2026-09-23T17:50:38.833Z"
-      }
-    },
-    {
       "id": "news-9328fa400dd37e6b9e773781",
       "title": "오픈AI, 우크라이나의 민간 인프라 사이버 방어 지원 위해 Daybreak 접근 권한 확대",
       "titleTranslations": {
@@ -905,34 +933,6 @@
         ],
         "firstPublishedAt": "2026-09-23T12:00:00.000Z",
         "lastObservedAt": "2026-09-24T06:07:53.305Z"
-      }
-    },
-    {
-      "id": "news-20aaed0c5164471847c340ae",
-      "title": "미·이란, 유엔총회서 중재 회담 — 전쟁 종식·호르무즈 해협 재개 논의",
-      "titleTranslations": {
-        "en": "US, Iran hold mediated UNGA talks on ending war, opening Strait of Hormuz"
-      },
-      "startAt": "2026-09-23T04:42:15.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 미국과 이란 대표단이 유엔총회(UNGA)를 계기로 중재 회담을 가졌다. 테헤란 측은 외교적 진전을 선박 봉쇄 해제와 동결자금 해제 등과 연계하려는 모습을 보였다고 전해진다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that US and Iranian delegations held mediated talks during the UN General Assembly. Tehran tied diplomatic progress to lifting shipping blockades and unfreezing assets during the New York negotiations."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-23T04:42:15.000Z",
-        "lastObservedAt": "2026-09-23T05:55:24.478Z"
       }
     },
     {
@@ -1273,35 +1273,6 @@
       },
       "descriptionTranslations": {
         "en": "Google DeepMind announced a new research and discussion institute intended to publicize diverse perspectives on artificial general intelligence (AGI). The institute aims to surface positions within Google and DeepMind and the differing views of the global research community to broaden debate."
-      }
-    },
-    {
-      "id": "news-c78d0c6b782c70ca96f42380",
-      "title": "Base Labs, Hugging Face·Goodfire와 오픈-웨이트 AI 안전 파트너십 출범",
-      "startAt": "2026-09-17T17:15:59.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Base Labs(기초연구 그룹)는 오픈 모델의 훈련·모니터링 방법을 개발·공개하기 위해 Hugging Face와 Goodfire와 함께 오픈-웨이트 AI 안전 파트너십을 출범했다고 발표했다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/"
-        ],
-        "firstPublishedAt": "2026-09-17T17:15:59.000Z",
-        "lastObservedAt": "2026-09-17T17:37:14.701Z"
-      },
-      "titleTranslations": {
-        "en": "Base Labs launches open‑weight AI safety partnership with Hugging Face and Goodfire"
-      },
-      "descriptionTranslations": {
-        "en": "Base Labs announced an open‑weight AI safety partnership with Hugging Face and Goodfire to develop and publish methods for training and monitoring open models."
       }
     },
     {
