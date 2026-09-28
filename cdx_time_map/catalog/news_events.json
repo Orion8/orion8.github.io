@@ -1,8 +1,121 @@
 {
-  "catalogVersion": "0.0.131",
-  "updatedAt": "2026-09-27T17:42:32.760Z",
+  "catalogVersion": "0.0.132",
+  "updatedAt": "2026-09-28T06:46:01.974Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-f0814ac0e154e7ba2bc34389",
+      "title": "미·중, 정상회담 후 600억 달러 규모 무역에 대한 관세 인하 권고 품목 발표",
+      "titleTranslations": {
+        "en": "US, China list goods recommended for tariff cuts on $60bn of trade after Trump‑Xi summit"
+      },
+      "startAt": "2026-09-28T06:24:33.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "워싱턴과 베이징은 트럼프‑시진핑 정상회담에 이어 600억 달러 규모 무역에 적용되는 관세 인하 권고 품목의 세부 내용을 발표했다.",
+      "descriptionTranslations": {
+        "en": "Washington and Beijing announced details of an agreement to reduce tariffs on $60bn of trade following the Trump‑Xi summit."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-28T06:24:33.000Z",
+        "lastObservedAt": "2026-09-28T06:46:01.974Z"
+      }
+    },
+    {
+      "id": "news-f35aa1e65527027f4e8416db",
+      "title": "세르비아 조기 총선: 부치치가 학생 반란을 제압할 수 있나?",
+      "titleTranslations": {
+        "en": "Serbia’s snap election: Can Vucic outmanoeuvre the student revolt?"
+      },
+      "startAt": "2026-09-28T06:23:02.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "분석가들은 이번 조기 의회선거가 국내의 위기를 끝내거나 부치치의 문제를 해소하지는 못할 것이라고 보고 있다.",
+      "descriptionTranslations": {
+        "en": "Analysts say the country's early parliamentary elections will not end its crisis or defuse Vucic's troubles."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/features/2026/9/28/serbias-snap-election-can-vucic-outmanoeuvre-the-student-revolt?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/features/2026/9/28/serbias-snap-election-can-vucic-outmanoeuvre-the-student-revolt?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-28T06:23:02.000Z",
+        "lastObservedAt": "2026-09-28T06:46:01.974Z"
+      }
+    },
+    {
+      "id": "news-c88ef522a895f600c053f518",
+      "title": "그린란드 빙상 아래 숨겨진 계곡들 지도화",
+      "titleTranslations": {
+        "en": "Uncovering the Valleys Hidden Below Greenland’s Ice"
+      },
+      "startAt": "2026-09-28T04:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "새 지형 지도는 그린란드 빙상 아래의 지형을 재구성해 이전 지도들이 놓쳤거나 단편화했던 수백 개의 계곡을 연결했다고 보고했다.",
+      "descriptionTranslations": {
+        "en": "A new map of the terrain beneath the Greenland Ice Sheet links hundreds of valleys that previous maps missed or left fragmented."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/uncovering-the-valleys-hidden-below-greenlands-ice/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/earth/earth-observatory/uncovering-the-valleys-hidden-below-greenlands-ice/"
+        ],
+        "firstPublishedAt": "2026-09-28T04:00:00.000Z",
+        "lastObservedAt": "2026-09-28T06:46:01.974Z"
+      }
+    },
+    {
+      "id": "news-a54e962023618cdfbc2c878e",
+      "title": "20년 넘는 미군 주둔, 이번 주 공식 종료 준비",
+      "titleTranslations": {
+        "en": "After more than two decades, U.S. forces prepare to leave Iraq"
+      },
+      "startAt": "2026-09-27T21:14:43.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 미군이 20년이 넘는 이라크 주둔을 이번 주 공식적으로 끝낼 준비를 하고 있다.",
+      "descriptionTranslations": {
+        "en": "The U.S. military formally ends a more than two‑decade‑long presence in Iraq this week."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/27/nx-s1-5981123/after-more-than-two-decades-u-s-forces-prepare-to-leave-iraq",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/27/nx-s1-5981123/after-more-than-two-decades-u-s-forces-prepare-to-leave-iraq"
+        ],
+        "firstPublishedAt": "2026-09-27T21:14:43.000Z",
+        "lastObservedAt": "2026-09-28T06:46:01.974Z"
+      }
+    },
     {
       "id": "news-2b122f35c41e28b49ea988f0",
       "title": "10년 미·중 협정의 일환으로 대형 판다 두 마리 애틀랜타 도착",
@@ -355,34 +468,6 @@
       }
     },
     {
-      "id": "news-e164ccfcddd8233cf39e67a2",
-      "title": "가자지구 가족들, 붕괴 우려 건물에 대피 — ‘갈 곳이 없다’",
-      "titleTranslations": {
-        "en": "Gaza families shelter in buildings that may collapse — 'Nowhere else to go'"
-      },
-      "startAt": "2026-09-26T05:25:23.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도에 따르면 3년간의 이스라엘 전쟁으로 가자지구의 가족들이 손상된 건물에 살며 안전한 대안이 거의 없는 상태다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that three years of Israel's war have left families in Gaza living in damaged buildings, with few safe alternatives available."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/features/2026/9/26/nowhere-else-to-go-gaza-families-shelter-in-buildings-that-may-collapse?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/features/2026/9/26/nowhere-else-to-go-gaza-families-shelter-in-buildings-that-may-collapse?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-26T05:25:23.000Z",
-        "lastObservedAt": "2026-09-26T06:07:04.885Z"
-      }
-    },
-    {
       "id": "news-35493723d5486260d0e887ea",
       "title": "법원, 앤스로픽 향해 블랙리스트 처분 허용 판결 — ‘제약된 AI가 군사작전 해칠 수 있다’고 언급",
       "titleTranslations": {
@@ -494,34 +579,6 @@
           "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/"
         ],
         "firstPublishedAt": "2026-09-25T17:29:46.000Z",
-        "lastObservedAt": "2026-09-25T17:56:26.246Z"
-      }
-    },
-    {
-      "id": "news-bec3d9f1aec5f3c62ffd36ce",
-      "title": "보도 타임라인: 맨체스터 시티에 제기된 프리미어리그 재정 혐의에서 대부분 유죄 판정 보도",
-      "titleTranslations": {
-        "en": "Timeline: Man City’s Premier League financial charges to reported verdict"
-      },
-      "startAt": "2026-09-25T17:20:58.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 2,
-      "description": "알자지라 보도에 따르면 프리미어리그에 제기된 2023년 2월 기소 이후 총 115건의 혐의 중 1건을 제외한 거의 모든 혐의에 대해 시티가 유죄로 보고됐다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that, according to coverage of the timeline, Manchester City was reportedly found guilty of all but one of the 115 charges first brought in February 2023."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/sports/2026/9/25/timeline-man-citys-premier-league-financial-charges-to-reported-verdict?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/sports/2026/9/25/timeline-man-citys-premier-league-financial-charges-to-reported-verdict?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-25T17:20:58.000Z",
         "lastObservedAt": "2026-09-25T17:56:26.246Z"
       }
     },
@@ -762,35 +819,6 @@
       },
       "descriptionTranslations": {
         "en": "NPR reports that a federal judge ordered the restoration of White House access for some journalists from outlets whose accreditation had been temporarily revoked under the Trump administration. The ruling addresses legal disputes over access between the administration and the press."
-      }
-    },
-    {
-      "id": "news-bd9de373e017ef304620a808",
-      "title": "라이베리아 가구 대상 현금이전 연구 — 공동 재무계획은 효과·부작용 공존",
-      "titleTranslations": {
-        "en": "Cash transfer study in Liberia finds joint financial planning brought benefits — and some harms"
-      },
-      "startAt": "2026-09-24T10:43:25.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "NPR 보도에 따르면 라이베리아에서 실시된 현금이전 실험에서 부부가 함께 지출 계획을 세우도록 한 개입은 현금 지원의 긍정적 효과를 강화했지만 일부 가정에서는 예기치 않은 부작용(예: 가정 내 갈등 증가)이 관측되기도 했다. 연구는 현금 지원 설계 시 사회적·성별 역학을 고려할 필요를 시사한다.",
-      "descriptionTranslations": {
-        "en": "NPR reports on a cash‑transfer experiment in Liberia in which encouraging couples to plan spending jointly amplified the benefits of cash aid but also produced unexpected harms in some households, such as increased domestic frictions. The study suggests cash‑aid programs must account for social and gender dynamics in their design."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/24/g-s1-144544/cash-transfer-poverty-liberia-partner-violence",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/24/g-s1-144544/cash-transfer-poverty-liberia-partner-violence"
-        ],
-        "firstPublishedAt": "2026-09-24T10:43:25.000Z",
-        "lastObservedAt": "2026-09-25T06:08:20.021Z"
       }
     },
     {
@@ -1159,34 +1187,6 @@
       },
       "descriptionTranslations": {
         "en": "Albania is scheduled to sign the Artemis Accords, with a signing ceremony on September 21 at NASA headquarters in Washington, D.C. If Albania signs, the total number of Accords signatory nations will reach 73."
-      }
-    },
-    {
-      "id": "news-8a863be8b83805c6aafa3299",
-      "title": "NASA, 국제우주정거장 승무원 수송용 스페이스X에 3회 추가 임무 계약",
-      "startAt": "2026-09-18T16:02:31.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "NASA가 국제우주정거장(ISS)에 대한 정기 승무원 수송을 계속하기 위해 계약을 수정해 스페이스X에 3회의 추가 유인 비행 임무를 발주했다고 발표했다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/"
-        ],
-        "firstPublishedAt": "2026-09-18T16:02:31.000Z",
-        "lastObservedAt": "2026-09-18T17:04:09.957Z"
-      },
-      "titleTranslations": {
-        "en": "NASA awards SpaceX three additional crewed missions for ISS transport"
-      },
-      "descriptionTranslations": {
-        "en": "NASA said it modified its contract to order three additional crewed flights from SpaceX to continue regular crew transportation to the International Space Station (ISS)."
       }
     },
     {
