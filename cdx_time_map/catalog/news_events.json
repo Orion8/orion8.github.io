@@ -1,8 +1,93 @@
 {
-  "catalogVersion": "0.0.133",
-  "updatedAt": "2026-09-28T20:06:51.082Z",
+  "catalogVersion": "0.0.134",
+  "updatedAt": "2026-09-29T18:35:56.384Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-71d8e37ba88f402f49b4b16c",
+      "title": "모로코 국왕, 첫 여성 총리 임명 — ‘진정한 역사적’ 평가",
+      "titleTranslations": {
+        "en": "‘Truly historic’: Morocco’s king appoints first woman prime minister"
+      },
+      "startAt": "2026-09-29T18:10:37.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "모로코 국왕이 파티마 에자흐라 엘 만수리(Fatima Ezzahra El Mansouri)를 임명해 모로코 사상 첫 여성 총리가 되었으며, 이는 아랍 세계에서 두 번째로 여성 총리가 되는 사례라고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Morocco’s king appointed Fatima Ezzahra El Mansouri as prime minister, the first woman to hold the office in Morocco and reported to be the second woman to serve as prime minister in the Arab world."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/29/truly-historic-moroccos-king-appoints-first-woman-prime-minister?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/29/truly-historic-moroccos-king-appoints-first-woman-prime-minister?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-29T18:10:37.000Z",
+        "lastObservedAt": "2026-09-29T18:35:56.384Z"
+      }
+    },
+    {
+      "id": "news-86004ddfdbd826a42e8f167f",
+      "title": "번햄 총리, 2030년까지 기존 연금 '트리플 록' 종료 약속 — 돌봄 재원 마련 목적",
+      "titleTranslations": {
+        "en": "Burnham vows to end existing pension triple lock in 2030 to help fund care"
+      },
+      "startAt": "2026-09-29T17:39:06.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "번햄 총리가 당대회 연설에서 2030년까지 기존 연금 '트리플 록'을 종료하겠다고 약속했으며, 그 목적은 돌봄 서비스를 위한 재원을 마련하기 위한 것이라고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Prime Minister Burnham vowed in a conference speech to end the existing pension 'triple lock' by 2030, saying the move is intended to help fund care services."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cve8x724e9ezo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cve8x724e9ezo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-29T17:39:06.000Z",
+        "lastObservedAt": "2026-09-29T18:35:56.384Z"
+      }
+    },
+    {
+      "id": "news-90e823956f6839f5d4c8e4eb",
+      "title": "미국의 중동 주둔 축소 신호 속에서 터키, 지역 영향력 확대 준비",
+      "titleTranslations": {
+        "en": "As the U.S. signals a smaller Middle East footprint, Turkey is ready to step in"
+      },
+      "startAt": "2026-09-29T09:00:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도는 미국이 중동에서의 존재를 축소할 신호를 보내는 가운데 터키가 지역 영향력 확대를 준비하고 있다고 전했다. 해당 보도는 이 변화가 2023년 하마스의 이스라엘 공격에서 시작된 충격들과 이어지는 이란과의 7개월째 전쟁 등 최근의 중동 충격들과 맞물려 있다고 분석했다.",
+      "descriptionTranslations": {
+        "en": "The report says that as the United States signals a smaller footprint in the Middle East, Turkey is preparing to expand its regional influence. It notes this shift comes amid profound regional shocks starting with the 2023 Hamas attack on Israel and continuing with the seven‑month‑old war with Iran."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/29/nx-s1-5983685/turkey-influence",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/29/nx-s1-5983685/turkey-influence"
+        ],
+        "firstPublishedAt": "2026-09-29T09:00:00.000Z",
+        "lastObservedAt": "2026-09-29T18:35:56.384Z"
+      }
+    },
     {
       "id": "news-3f2cce1106d423abc54437f4",
       "title": "제약사, 약가 유지 위해 특허 쌓기 — 부속 특허로 특허기간 연장",
@@ -587,34 +672,6 @@
       }
     },
     {
-      "id": "news-99e67ce6dc1873f22ff5890e",
-      "title": "동부 콩고에서 성폭력 만연 — 여성들 무장해 자위에 나서",
-      "titleTranslations": {
-        "en": "Women take up arms as sexual violence ravages eastern DRC"
-      },
-      "startAt": "2026-09-26T16:24:51.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "전쟁과 성폭력이 만연한 동부 콩고민주공화국에서 여성들이 자신을 보호하기 위해 친정부 '와잘렌도' 전투대에 합류하고 있다.",
-      "descriptionTranslations": {
-        "en": "As war and sexual violence ravage eastern Democratic Republic of Congo, women are joining pro‑government Wazalendo fighters to defend themselves."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/26/09-26-drc-women-fighters-sv-mp4?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/9/26/09-26-drc-women-fighters-sv-mp4?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-26T16:24:51.000Z",
-        "lastObservedAt": "2026-09-26T17:07:46.088Z"
-      }
-    },
-    {
       "id": "news-355b8ad256f4a4a70469070f",
       "title": "에콰도르 어선 공습으로 어민 인명·인권 우려 제기",
       "titleTranslations": {
@@ -817,35 +874,6 @@
       }
     },
     {
-      "id": "news-6b66f5ea1a69207d7c0df4dd",
-      "title": "세계 팬데믹 예방 조약 서명됐지만 발효는 '교착'—발효 지연 원인 주목",
-      "titleTranslations": {
-        "en": "There’s a global pandemic treaty that’s signed -- and in 'limbo.' What’s the holdup?"
-      },
-      "startAt": "2026-09-25T15:57:35.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 향후 팬데믹에 대비하고 이를 물리치기 위한 국제 조약이 서명되었으나, 현재 발효되지 않은 상태로 '교착'에 놓여 있다. 보도는 조약이 왜 즉시 발효되지 못하는지에 대한 쟁점들을 짚고 있다.",
-      "descriptionTranslations": {
-        "en": "NPR reports that a global pandemic treaty intended to help countries prepare for and defeat future pandemics has been signed but remains in 'limbo' and not yet in effect; the coverage examines the reasons why it has not gone into force."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/25/g-s1-144948/pandemic-prevention-treaty-agreement-world-health-organization",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/25/g-s1-144948/pandemic-prevention-treaty-agreement-world-health-organization"
-        ],
-        "firstPublishedAt": "2026-09-25T15:57:35.000Z",
-        "lastObservedAt": "2026-09-25T17:56:26.246Z"
-      }
-    },
-    {
       "id": "news-9520e4bef5c09ea9be51feed",
       "title": "PCB 오염 우려하는 연못 인근 주민들, 발암물질 검사 요구",
       "titleTranslations": {
@@ -873,37 +901,6 @@
         ],
         "firstPublishedAt": "2026-09-25T05:48:36.000Z",
         "lastObservedAt": "2026-09-25T06:08:20.020Z"
-      }
-    },
-    {
-      "id": "news-1170bd08f9453a7930daff72",
-      "title": "백악관 국빈만찬서 트럼프·시진핑 '우호적 톤' — 정상회담의 사교 마감",
-      "titleTranslations": {
-        "en": "Trump and Xi strike a cordial tone at White House state dinner — social capstone to summit"
-      },
-      "startAt": "2026-09-25T05:42:45.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "BBC 비즈니스 보도에 따르면 도널드 트럼프 대통령과 시진핑 중국 국가주석은 백악관에서 열린 호화로운 국빈만찬에서 건배와 화기애애한 분위기를 연출했다. 만찬에는 기술계 인사들이 초대됐으며 식단·장식과 함께 양국 정상의 '새로운 우호의 장'을 상징하는 장면이 연출되었다. 이번 만찬은 양국 관계의 겉모습을 보여주는 외교적 이벤트였다.",
-      "descriptionTranslations": {
-        "en": "BBC Business reports that Presidents Donald Trump and Xi Jinping adopted a cordial tone at a lavish White House state dinner, with toasts and a festive atmosphere. Tech figures attended the event, which—through its pageantry—served as a social capstone to the summit and a symbol of a 'new chapter' in bilateral relations."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit",
-          "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-24T12:43:15.000Z",
-        "lastObservedAt": "2026-09-25T06:08:20.021Z"
       }
     },
     {
@@ -960,34 +957,6 @@
         ],
         "firstPublishedAt": "2026-09-24T16:29:19.000Z",
         "lastObservedAt": "2026-09-24T17:51:51.129Z"
-      }
-    },
-    {
-      "id": "news-effdad8bde17b3ffc2a09649",
-      "title": "하비에르 미레이, 유엔총회서 포클랜드(말비나스) 주권에 대해 ‘직접 해결’ 경고",
-      "titleTranslations": {
-        "en": "Javier Milei warns at UN that Argentina will take 'matters into our own hands' on Falklands"
-      },
-      "startAt": "2026-09-23T18:50:43.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 아르헨티나 대통령 하비에르 미레이가 유엔총회에서 유엔을 비판하며 포클랜드(아르헨티나명 말비나스) 주권 문제에 대해 '직접 해결'하겠다고 경고했다. 그는 유엔을 무능하다고 비난하는 강경한 연설을 했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that Argentina's president, Javier Milei, criticized the UN in a caustic speech at the General Assembly and warned Argentina would take 'matters into our own hands' regarding sovereignty over the Falkland Islands (known in Argentina as the Malvinas)."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty"
-        ],
-        "firstPublishedAt": "2026-09-23T18:50:43.000Z",
-        "lastObservedAt": "2026-09-24T06:07:53.305Z"
       }
     },
     {
