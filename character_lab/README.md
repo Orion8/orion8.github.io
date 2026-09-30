@@ -1,28 +1,18 @@
-# Character Lab hosting directory
+# Character Lab
 
-This directory is the deployment destination for the Character Lab browser viewer.
+Browser viewer: https://orion8.github.io/character_lab/
 
-- Website: https://orion8.github.io/character_lab/
-- Source project: https://github.com/Orion8/character_lab
-- Stack: Babylon.js, React, TypeScript, and Vite.
+This folder contains the verified Babylon.js, React, TypeScript, and Vite prototype.
+The first release supports the Pip test character, Idle body playback, a smile
+control, body/face cameras, speed, scrubbing, reset, and loading-error recovery.
 
-The viewer has not been built or deployed yet. This file establishes the hosting
-directory; it does not provide a runnable viewer.
+Source: https://github.com/Orion8/character_lab/tree/feat/browser-prototype
+Implementation PR: https://github.com/Orion8/character_lab/pull/2
+Build verification: https://github.com/Orion8/character_lab/actions/runs/36777396974
 
-## Deploying the viewer
+Compiled application files live in assets/. Character GLB and manifest live in
+characters/test/. The editable Blender master stays in the source repository.
 
-Configure Vite with base: "/character_lab/". Resolve character data using Vite's
-import.meta.env.BASE_URL so URLs remain under this folder.
-
-After building the viewer, copy the contents of apps/viewer/dist/ from the source
-project into this directory. The expected deployed layout is:
-
-    character_lab/
-      index.html
-      assets/                 Compiled JavaScript, CSS, and bundled assets
-      characters/test/        GLB, manifest, and any separate textures
-      README.md               These deployment notes
-
-Keep editable Blender sources and development files in the source project.
-Deployment changes are limited to character_lab/; preserve other hosted projects
-and the existing root .nojekyll file.
+For updates, build the source project with Vite base /character_lab/, verify it,
+and copy apps/viewer/dist/ contents here. Limit deployment changes to this folder.
+See build-info.json for this build's source commit and verification summary.

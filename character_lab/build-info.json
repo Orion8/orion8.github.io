@@ -1,0 +1,16 @@
+{
+  "sourceCommit": "782e4e1bc50ba926347f424aeaff6faa934ff47d",
+  "runId": "36777396974",
+  "timestamp": "2026-09-30T21:09:34.856Z",
+  "gltfErrors": 0,
+  "gltfWarnings": 2,
+  "browserStats": {
+    "startTime": "2026-09-30T21:08:51.042Z",
+    "duration": 43693.966,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "basePath": "/character_lab/"
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "pip-test-v1",
+  "name": "Pip",
+  "asset": "test-character.glb",
+  "clips": {
+    "idle": "Idle"
+  },
+  "expressions": {
+    "smile": {
+      "mesh": "FaceControls",
+      "target": "smile"
+    }
+  }
+}
