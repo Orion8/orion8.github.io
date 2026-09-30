@@ -1,8 +1,178 @@
 {
-  "catalogVersion": "0.0.135",
-  "updatedAt": "2026-09-30T06:38:54.853Z",
+  "catalogVersion": "0.0.136",
+  "updatedAt": "2026-09-30T18:26:05.533Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-1a256a6cd7fcd9a7ec501a6a",
+      "title": "트럼프, 한국으로부터 2천억달러 규모 에너지 투자 발표 예정",
+      "titleTranslations": {
+        "en": "Trump set to announce $200bn in energy investments from South Korea"
+      },
+      "startAt": "2026-09-30T18:01:14.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도에 따르면 도널드 트럼프 전 대통령은 공화당의 경제 실적을 부각하기 위해 한국 측으로부터 약 2천억 달러 규모의 에너지 투자를 발표할 예정이라고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say former President Donald Trump is set to announce roughly $200 billion in energy investments from South Korea, part of an effort to tout the Republican Party's economic record."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/economy/2026/9/30/trump-set-to-announce-200bn-in-energy-investments-from-south-korea?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/economy/2026/9/30/trump-set-to-announce-200bn-in-energy-investments-from-south-korea?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-30T18:01:14.000Z",
+        "lastObservedAt": "2026-09-30T18:26:05.533Z"
+      }
+    },
+    {
+      "id": "news-ef4227d36bad8e53be5b0636",
+      "title": "미, 시리아 대상 무기수출 금지 목록에서 시리아 제외",
+      "titleTranslations": {
+        "en": "Syria removed from US arms export ban list"
+      },
+      "startAt": "2026-09-30T17:55:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도는 미국이 아사드 정권 기간에 부과했던 일부 제한을 점진적으로 완화해 분쟁 복구를 돕는 차원에서 시리아를 무기수출 금지 목록에서 제외했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage reports that the US has gradually loosened restrictions placed on Syria during the Assad era and removed Syria from the US arms export ban list to aid the country's recovery from conflict."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/30/syria-removed-from-us-arms-export-ban-list?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/9/30/syria-removed-from-us-arms-export-ban-list?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-09-30T17:55:13.000Z",
+        "lastObservedAt": "2026-09-30T18:26:05.533Z"
+      }
+    },
+    {
+      "id": "news-ee09fc2c613e65c85830e24c",
+      "title": "영국 채널 참사 관련 밀수업자 6명, 과실치사로 실형",
+      "titleTranslations": {
+        "en": "Six smugglers jailed for manslaughter over worst Channel small boats disaster"
+      },
+      "startAt": "2026-09-30T17:14:03.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 2021년 11월 소형 보트 침몰로 31명이 사망한 사건과 관련해 재판부는 피고 6명이 두 개의 밀수 네트워크의 일부였다고 판단해 과실치사 등 혐의로 유죄를 선고하고 구금했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports that six men were jailed for manslaughter in connection with the worst Channel small‑boat disaster, in which 31 migrants died in November 2021; the court found the convicted were part of two smuggling networks."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6n8m33pn9djo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6n8m33pn9djo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-30T17:14:03.000Z",
+        "lastObservedAt": "2026-09-30T18:26:05.533Z"
+      }
+    },
+    {
+      "id": "news-c696e8b1f34224735a5b522f",
+      "title": "딥마인드, 단백질에 기능 훼손 없이 워터마크 넣는 'SynthID Bio' 개념증명 발표",
+      "titleTranslations": {
+        "en": "Introducing SynthID Bio"
+      },
+      "startAt": "2026-09-30T15:03:07.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "딥마인드는 AI가 생성한 단백질에 생물학적 기능을 보존하면서 워터마크를 삽입하는 기술의 개념증명 'SynthID Bio'를 공개했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "DeepMind announced a proof of concept called 'SynthID Bio' for watermarking AI‑generated proteins while preserving their biological function."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/introducing-synthid-bio/"
+        ],
+        "firstPublishedAt": "2026-09-30T15:03:07.000Z",
+        "lastObservedAt": "2026-09-30T18:26:05.533Z"
+      }
+    },
+    {
+      "id": "news-686b46df29329966fbde195f",
+      "title": "클라우드플레어, 양자내성(quantum‑safe) TLS 인증서 발급 계획 발표",
+      "titleTranslations": {
+        "en": "Cloudflare plans to issue quantum‑safe TLS certificates"
+      },
+      "startAt": "2026-09-30T11:15:14.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "아르스테크니카 보도에 따르면 클라우드플레어는 웹사이트 인증 체계의 대대적 개편의 일환으로 양자컴퓨터 위협에 대비한 양자내성 TLS 인증서를 발급할 계획이라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that Cloudflare plans to issue quantum‑safe TLS certificates as part of a major overhaul of the website authentication ecosystem to guard against future quantum threats."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/"
+        ],
+        "firstPublishedAt": "2026-09-30T11:15:14.000Z",
+        "lastObservedAt": "2026-09-30T18:26:05.533Z"
+      }
+    },
+    {
+      "id": "news-3bf2aef00178636c4b6cc3b2",
+      "title": "유럽‑중국 공동 SMILE 미션, 9월 과학 운용 시작 선언",
+      "titleTranslations": {
+        "en": "Science begins for Smile"
+      },
+      "startAt": "2026-09-30T07:05:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국(ESA)은 5월 19일 발사된 유럽‑중국 합동 SMILE 우주선이 우주에서의 점검 기간을 마치고 표적 궤도에 도달한 뒤(6월 20일) 9월 23일부터 과학 운영을 시작할 준비가 됐다고 선언했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The European Space Agency said the European‑Chinese SMILE mission, launched on 19 May and having completed commissioning and reached its target orbit on 20 June, was declared ready to begin science operations on 23 September."
+      },
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile"
+        ],
+        "firstPublishedAt": "2026-09-30T07:05:00.000Z",
+        "lastObservedAt": "2026-09-30T18:26:05.533Z"
+      }
+    },
     {
       "id": "news-6118a7976098ff4a6d0893d9",
       "title": "라마포사 대통령, 연쇄 여성 살해에 대응해 페미사이드·성폭력 대책 지시",
@@ -524,62 +694,6 @@
       }
     },
     {
-      "id": "news-2b122f35c41e28b49ea988f0",
-      "title": "10년 미·중 협정의 일환으로 대형 판다 두 마리 애틀랜타 도착",
-      "titleTranslations": {
-        "en": "Giant pandas arrive in Atlanta as part of 10‑year US‑China agreement"
-      },
-      "startAt": "2026-09-27T17:07:33.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "알자지라 보도에 따르면 판다 두 마리(핑핑·푸샹)가 중국 남서부에서 미국 조지아주 애틀랜타로 도착했다. 이 방사는 10년 기간의 미·중 협정의 일부로 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that two pandas (Ping Ping and Fu Shuang) arrived in Atlanta, Georgia, from southwestern China. Their transfer is part of a 10‑year US‑China agreement."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/27/giant-pandas-arrive-in-atlanta-as-part-of-10-year-us-china-agreement?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/27/giant-pandas-arrive-in-atlanta-as-part-of-10-year-us-china-agreement?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-27T17:07:33.000Z",
-        "lastObservedAt": "2026-09-27T17:42:32.760Z"
-      }
-    },
-    {
-      "id": "news-2c8e25c7727ceb5dd86964ed",
-      "title": "이스라엘 야당 지도자들, 네타냐후 축출 위해 연합",
-      "titleTranslations": {
-        "en": "Israeli opposition leaders unite to drive out Netanyahu"
-      },
-      "startAt": "2026-09-27T16:53:57.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 영상 보도는 예루살렘 일간 소식으로 이스라엘 야당 지도자들이 벤야민 네타냐후 총리 축출을 목표로 연합하고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera video coverage (Jerusalem Daily) reports that Israeli opposition leaders have united with the aim of ousting Prime Minister Benjamin Netanyahu."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/27/jerusalem-daily-israeli-opposition-leaders-unite-to-drive-out-netanyahu?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/9/27/jerusalem-daily-israeli-opposition-leaders-unite-to-drive-out-netanyahu?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-27T16:53:57.000Z",
-        "lastObservedAt": "2026-09-27T17:42:32.760Z"
-      }
-    },
-    {
       "id": "news-963ef80dcaa0f2efddae3d45",
       "title": "스미소니언, 트럼프 행정부의 문화 전쟁의 최신 전선으로 부상",
       "titleTranslations": {
@@ -784,36 +898,6 @@
         ],
         "firstPublishedAt": "2026-09-26T10:45:09.000Z",
         "lastObservedAt": "2026-09-26T17:07:46.088Z"
-      }
-    },
-    {
-      "id": "news-35493723d5486260d0e887ea",
-      "title": "법원, 앤스로픽 향해 블랙리스트 처분 허용 판결 — ‘제약된 AI가 군사작전 해칠 수 있다’고 언급",
-      "titleTranslations": {
-        "en": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features"
-      },
-      "startAt": "2026-09-25T21:36:20.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica 보도에 따르면 법원은 앤스로픽이 자사 모델(클로드)의 일부 기능을 활성화하지 않은 것을 이유로 트럼프 측이 회사를 블랙리스트에 올릴 수 있다고 판결했다. 판사들은 보도에서 '지나치게 제약된 AI 모델'이 군사 작전 실패를 초래할 수 있다고 지적했다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that a court ruled Donald Trump’s side can blacklist Anthropic for refusing to enable certain Claude features. Judges noted that 'overly constrained AI models' could cause military operations to fail."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/"
-        ],
-        "firstPublishedAt": "2026-09-25T21:36:20.000Z",
-        "lastObservedAt": "2026-09-26T06:07:04.885Z"
       }
     },
     {
@@ -1215,35 +1299,6 @@
       }
     },
     {
-      "id": "news-10eee90727fdae7e3eb628b4",
-      "title": "구글 딥마인드, AGI 논의 확대 위한 연구소 출범",
-      "startAt": "2026-09-17T23:21:17.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "구글 딥마인드는 AGI(범용인공지능) 관련 다양한 관점을 공론화하기 위해 새로운 연구·토론 기관을 출범시켰다. 기관은 구글·딥마인드 내 입장과 글로벌 연구계의 상이한 견해를 드러내고 논의를 넓히는 것을 목표로 한다고 밝혔다.",
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/"
-        ],
-        "firstPublishedAt": "2026-09-17T23:21:17.000Z",
-        "lastObservedAt": "2026-09-18T05:51:48.338Z"
-      },
-      "titleTranslations": {
-        "en": "Google DeepMind launches institute to broaden AGI discussion"
-      },
-      "descriptionTranslations": {
-        "en": "Google DeepMind announced a new research and discussion institute intended to publicize diverse perspectives on artificial general intelligence (AGI). The institute aims to surface positions within Google and DeepMind and the differing views of the global research community to broaden debate."
-      }
-    },
-    {
       "id": "news-477e6c0bbbcd74fc21d155c9",
       "title": "제임스웹, 성단 IC 348에서 목성 두 배 질량의 갈색왜성 발견",
       "startAt": "2026-09-15T14:00:00.000Z",
@@ -1302,34 +1357,6 @@
       },
       "descriptionTranslations": {
         "en": "The joint ESA–JAXA BepiColombo spacecraft completed a key procedure for approaching Mercury at 15:49 CEST on 3 September 2026. Mission control confirmed that the Mercury Transfer Module (MTM) successfully separated from the spacecraft stack, which is being described as the first major step toward final arrival at Mercury."
-      }
-    },
-    {
-      "id": "news-28563e1cf6650be9a84d0818",
-      "title": "허블, 토성 남극 주변에 거대 10각형(데카곤) 대기파동 관측",
-      "startAt": "2026-09-02T18:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국·NASA의 허블 우주망원경 관측에서 토성 남극을 둘러싼 거대한 10각형 대기파동(decagon)이 발견됐다. 이번 관측은 남반구에서 규칙적인 다각형 제트 패턴이 확인된 첫 사례로, 북극의 유명한 6각형(헥사곤)과 유사하면서도 차이를 보여 토성 대기역학 연구에 새로운 단서를 제공한다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_tracks_new_decagon_encircling_Saturn_s_south_pole",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Hubble_tracks_new_decagon_encircling_Saturn_s_south_pole"
-        ],
-        "firstPublishedAt": "2026-09-02T18:00:00.000Z",
-        "lastObservedAt": "2026-09-03T05:44:16.819Z"
-      },
-      "titleTranslations": {
-        "en": "Hubble observes giant 10-sided (decagon) atmospheric wave around Saturn’s south pole"
-      },
-      "descriptionTranslations": {
-        "en": "Observations by the European Space Agency/NASA Hubble Space Telescope detected a massive 10-sided atmospheric wave (decagon) encircling Saturn’s south pole. This observation is the first confirmed case of a regular polygonal jet pattern in the southern hemisphere; while similar to the famous northern hexagon, it shows differences and provides new clues for studies of Saturnian atmospheric dynamics."
       }
     }
   ]
