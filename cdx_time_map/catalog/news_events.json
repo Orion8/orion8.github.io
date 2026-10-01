@@ -1,8 +1,95 @@
 {
-  "catalogVersion": "0.0.136",
-  "updatedAt": "2026-09-30T18:26:05.533Z",
+  "catalogVersion": "0.0.137",
+  "updatedAt": "2026-10-01T07:10:03.688Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-cde3e751edf0549c3367b8a0",
+      "title": "스위스 빙하, 또다시 기록적 얼음 손실",
+      "titleTranslations": {
+        "en": "Swiss glaciers suffer another year of record ice loss"
+      },
+      "startAt": "2026-09-30T23:00:00.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "보도에 따르면 스위스의 빙하가 또 한 해 동안 기록적인 속도로 소실되고 있으며, 올해만 5%가 넘는 얼음이 사라져 유럽의 물 공급과 생태계·지역사회에 위협이 되고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage reports that Switzerland's glaciers are disappearing at a record pace again, with more than 5% of their ice lost this year alone — threatening water supplies, ecosystems and communities across Europe."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change"
+        ],
+        "firstPublishedAt": "2026-09-30T23:00:00.000Z",
+        "lastObservedAt": "2026-10-01T07:10:03.687Z"
+      }
+    },
+    {
+      "id": "news-1bdcfb1f191477f3ce6a7a3c",
+      "title": "공룡을 멸종시킨 충돌 분화구, 생명으로 가득했을 가능성",
+      "titleTranslations": {
+        "en": "Dinosaur‑killing impact crater might have been teeming with life"
+      },
+      "startAt": "2026-09-30T21:54:12.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도는 충돌 이후 뜨겁고 영양분이 풍부한 물이 500만 년 이상 지속됐을 수 있다고 전하며, 이로 인해 해당 분화구가 오랜 기간 생명체의 서식지가 되었을 가능성을 제시했다.",
+      "descriptionTranslations": {
+        "en": "The report says that hot, nutrient‑rich water may have persisted for over five million years after the impact, suggesting the crater could have been a long‑lasting habitat teeming with life."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/"
+        ],
+        "firstPublishedAt": "2026-09-30T21:54:12.000Z",
+        "lastObservedAt": "2026-10-01T07:10:03.687Z"
+      }
+    },
+    {
+      "id": "news-3df0942dcead660981619ffc",
+      "title": "트럼프 행정부, 인권 기금 배분을 극우 지지 해외단체에 전용",
+      "titleTranslations": {
+        "en": "Trump administration diverts human rights funds to push far‑right agenda abroad"
+      },
+      "startAt": "2026-09-30T19:51:24.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 트럼프 행정부는 국무부의 인권 기금 약 1억 7,500만 달러를 만료 시한 직전에 배정하면서 그중 4,000만 달러를 반공(anti‑communism) 기금에 지급하는 등 백인 아프리카너 권리 단체 지원, 브라질 대법원에 대한 캠페인 지원, 유럽 내 이념적 동맹을 보상하는 프로그램 포함 등 극우 성향 단체·사업으로 자금을 돌리고 있다고 전했다. 보도는 의회 우려에도 불구하고 마감 몇 시간 전에 기금이 의무화됐다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say the Trump administration obligated more than $175 million of the State Department's human rights fund hours before the deadline, directing awards that include a $40 million grant for an anti‑communism fund, support for a group advancing white Afrikaner rights, a campaign against Brazil’s supreme court, and programs rewarding ideological allies in Europe. Coverage notes the funds were obligated despite congressional concerns."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund"
+        ],
+        "firstPublishedAt": "2026-09-30T19:51:24.000Z",
+        "lastObservedAt": "2026-10-01T07:10:03.687Z"
+      }
+    },
     {
       "id": "news-1a256a6cd7fcd9a7ec501a6a",
       "title": "트럼프, 한국으로부터 2천억달러 규모 에너지 투자 발표 예정",
@@ -143,6 +230,34 @@
         ],
         "firstPublishedAt": "2026-09-30T11:15:14.000Z",
         "lastObservedAt": "2026-09-30T18:26:05.533Z"
+      }
+    },
+    {
+      "id": "news-90249c2a3882c6d31b88e7ce",
+      "title": "오픈AI, 조정된 모델‑증류 캠페인 차단 및 방어 강화 발표",
+      "titleTranslations": {
+        "en": "OpenAI disrupts a coordinated model‑distillation campaign"
+      },
+      "startAt": "2026-09-30T10:30:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "오픈AI는 보호된 모델의 추론을 추출하려는 조정된 모델‑증류(distillation) 캠페인을 차단했다고 밝히며, 적대적 증류에 대한 방어를 강화하고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "OpenAI says it disrupted a coordinated model‑distillation campaign aimed at extracting protected model reasoning and is strengthening defenses against adversarial distillation."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+        ],
+        "firstPublishedAt": "2026-09-30T10:30:00.000Z",
+        "lastObservedAt": "2026-10-01T07:10:03.687Z"
       }
     },
     {
@@ -783,36 +898,6 @@
       }
     },
     {
-      "id": "news-6096d6a184eb3059d866922a",
-      "title": "美 대통령, 이란의 호르무즈 재개 제안 거부",
-      "titleTranslations": {
-        "en": "Trump rejects Iranian plan to reopen the Strait of Hormuz"
-      },
-      "startAt": "2026-09-26T20:08:28.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "NPR 보도에 따르면 도널드 트럼프 대통령은 이란이 제안한 호르무즈 해협 재개 방안을 '받아들일 수 없다'고 밝혔다. 이란의 제안은 6월에 양측이 합의한 양해각서와 유사한 내용이라고 전해진다.",
-      "descriptionTranslations": {
-        "en": "NPR reports that President Donald Trump said he would not accept an Iranian proposal to reopen the Strait of Hormuz. The Iranian plan is said to be similar to a memorandum of understanding agreed between the U.S. and Iran in June."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz"
-        ],
-        "firstPublishedAt": "2026-09-26T05:03:09.000Z",
-        "lastObservedAt": "2026-09-27T06:34:53.569Z"
-      }
-    },
-    {
       "id": "news-c40a3dfae780cf5bfc424e97",
       "title": "노르이스터 폭풍, 해안가 홍수 발생 — 뉴욕·뉴저지 비상사태 선포",
       "titleTranslations": {
@@ -868,36 +953,6 @@
         ],
         "firstPublishedAt": "2026-09-26T16:00:39.000Z",
         "lastObservedAt": "2026-09-27T06:34:53.569Z"
-      }
-    },
-    {
-      "id": "news-2ec7cb199a05199ecc3a7786",
-      "title": "테슬라 대형 전기트럭 '세미', 충전 인프라 공백이 상용화 걸림돌",
-      "titleTranslations": {
-        "en": "Tesla’s big electric truck faces an even bigger infrastructure challenge"
-      },
-      "startAt": "2026-09-26T10:45:09.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "주행거리 약 500마일의 테슬라 '세미' 출시가 예고됐지만, 충전 인프라의 공백과 분포 문제로 전기 화물 운송의 확산이 제한된다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "The 500‑mile Tesla Semi arrives as gaps in charging infrastructure still limit the expansion of electric trucking."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/"
-        ],
-        "firstPublishedAt": "2026-09-26T10:45:09.000Z",
-        "lastObservedAt": "2026-09-26T17:07:46.088Z"
       }
     },
     {
@@ -1239,34 +1294,6 @@
       },
       "descriptionTranslations": {
         "en": "OpenAI proposed a path to establish global standards for the next phase of artificial intelligence, calling for international coordination on evaluation, reporting, and governance. It also announced an independent Advisory Group on Mathematics and Artificial Intelligence to guide review and communication of emerging AI results. The announcement could spur international debate on AI safety, verification, and norm-setting."
-      }
-    },
-    {
-      "id": "news-a00923bf4ddda715364788a2",
-      "title": "오픈AI, 'Australian Youth Safety Blueprint' 발표 — 청소년 대상 AI 안전 로드맵",
-      "startAt": "2026-09-18T12:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "오픈AI가 청소년을 보호하고 권한을 강화하기 위한 6개 기둥의 로드맵인 'Australian Youth Safety Blueprint'를 공개했다. 청소년의 안전한 AI 경험을 목표로 한 정책·실무 권고를 제시한다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/australian-youth-safety-blueprint",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://openai.com/index/australian-youth-safety-blueprint"
-        ],
-        "firstPublishedAt": "2026-09-18T12:00:00.000Z",
-        "lastObservedAt": "2026-09-20T06:09:15.555Z"
-      },
-      "titleTranslations": {
-        "en": "OpenAI unveils 'Australian Youth Safety Blueprint' — AI safety roadmap for young people"
-      },
-      "descriptionTranslations": {
-        "en": "OpenAI published the 'Australian Youth Safety Blueprint,' a six‑pillar roadmap offering policy and practical recommendations designed to protect and empower young people and promote safer AI experiences for youth."
       }
     },
     {
