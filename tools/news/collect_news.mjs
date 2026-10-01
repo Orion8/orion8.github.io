@@ -346,14 +346,25 @@ async function triageWithOpenAI(candidates) {
     throw new Error('Nano triage returned invalid category selections.');
   }
   const articleIndexes = [];
+  const seenIndexes = new Set();
+  const actualCategoryCounts = new Map();
   for (const category of allowedCategories) {
     const indexes = byCategory[category];
-    if (!Array.isArray(indexes) || indexes.length > 2 ||
-        indexes.some((index) => !Number.isInteger(index) ||
-          candidates[index]?.defaultCategory !== category)) {
-      throw new Error(`Nano triage returned invalid indexes for ${category}.`);
+    if (!Array.isArray(indexes)) {
+      throw new Error(`Nano triage omitted ${category}.`);
     }
-    articleIndexes.push(...indexes);
+    for (const index of indexes) {
+      const article = Number.isInteger(index) ? candidates[index] : null;
+      if (!article || seenIndexes.has(index)) continue;
+      // The model occasionally lists a valid index under the wrong heading.
+      // Classify by the trusted RSS source, not by the model's heading.
+      const actualCategory = article.defaultCategory;
+      const count = actualCategoryCounts.get(actualCategory) ?? 0;
+      if (count >= maximumNewEventsPerCategory) continue;
+      actualCategoryCounts.set(actualCategory, count + 1);
+      seenIndexes.add(index);
+      articleIndexes.push(index);
+    }
   }
   return {articleIndexes};
 }
