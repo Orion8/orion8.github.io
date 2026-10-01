@@ -76,21 +76,22 @@ async function main() {
   const selectedCandidates = [...new Set(triage.articleIndexes)]
     .map((index) => candidates[index])
     .filter(Boolean);
-  if (selectedCandidates.length === 0) {
+  const balancedCandidates = limitSelectedCandidatesPerCategory(selectedCandidates);
+  if (balancedCandidates.length === 0) {
     console.log('Nano triage found no timeline-worthy news events.');
     return publishCatalogIfChanged({existingCatalog, events: existingEvents});
   }
   console.log(
-    `Nano triage selected ${selectedCandidates.length}/${candidates.length} article(s) for editing.`,
+    `Nano triage selected ${balancedCandidates.length}/${candidates.length} article(s) for editing.`,
   );
 
   const draft = await organizeWithOpenAI({
-    candidates: selectedCandidates,
+    candidates: balancedCandidates,
     existingEvents,
   });
   const nextEvents = mergeEvents({
     existingEvents,
-    candidates: selectedCandidates,
+    candidates: balancedCandidates,
     draftEvents: limitNewEventsPerCategory(draft.events),
   });
   return publishCatalogIfChanged({existingCatalog, events: nextEvents});
@@ -202,9 +203,10 @@ function limitArticlesPerPublisher(articles) {
   const counts = new Map();
   const limited = [];
   for (const article of articles) {
-    const count = counts.get(article.publisherId) ?? 0;
+    const key = `${article.publisherId}:${article.defaultCategory}`;
+    const count = counts.get(key) ?? 0;
     if (count >= maximumArticlesPerPublisher) continue;
-    counts.set(article.publisherId, count + 1);
+    counts.set(key, count + 1);
     limited.push(article);
   }
   return limited;
@@ -218,12 +220,23 @@ function limitEventsPerPublisher(events) {
   const limited = [];
   for (const event of events) {
     const publisherId = publisherIdForName(event.sourceName);
-    const count = counts.get(publisherId) ?? 0;
+    const key = `${publisherId}:${event.category}`;
+    const count = counts.get(key) ?? 0;
     if (count >= maximumEventsPerPublisher) continue;
-    counts.set(publisherId, count + 1);
+    counts.set(key, count + 1);
     limited.push(event);
   }
   return limited;
+}
+
+function limitSelectedCandidatesPerCategory(articles) {
+  const counts = new Map();
+  return articles.filter((article) => {
+    const count = counts.get(article.defaultCategory) ?? 0;
+    if (count >= maximumNewEventsPerCategory) return false;
+    counts.set(article.defaultCategory, count + 1);
+    return true;
+  });
 }
 
 function limitNewEventsPerCategory(events) {
@@ -304,7 +317,8 @@ async function triageWithOpenAI(candidates) {
       'Select only supplied RSS articles that may represent a durable, broadly meaningful event.',
       'Reject routine product announcements, opinion posts, recaps, and duplicate updates.',
       'For continuing conflicts or crises, reject routine daily attacks, statements, reactions, and incremental casualty updates unless they indicate a materially new phase.',
-      'Evaluate every supplied field fairly; do not favor AI or technology over society, economy, science, culture, health, climate, or space.',
+      'Evaluate every supplied field fairly; do not favor AI or technology over society, economy, science, culture, health, climate, cities, sports, or space.',
+      'Return a separate array for every defaultCategory. Choose at most two articles in each field, only when genuinely important. Empty arrays are correct when a field has no strong event.',
       'When uncertain, include an article so a stronger editor can decide; never invent facts.',
     ].join(' '),
     userPayload: {
@@ -313,21 +327,35 @@ async function triageWithOpenAI(candidates) {
     schema: {
       type: 'object',
       additionalProperties: false,
-      required: ['articleIndexes'],
+      required: ['articleIndexesByCategory'],
       properties: {
-        articleIndexes: {
-          type: 'array',
-          maxItems: 16,
-          items: {type: 'integer'},
+        articleIndexesByCategory: {
+          type: 'object',
+          additionalProperties: false,
+          required: [...allowedCategories],
+          properties: Object.fromEntries([...allowedCategories].map((category) => [
+            category,
+            {type: 'array', maxItems: 2, items: {type: 'integer'}},
+          ])),
         },
       },
     },
   });
-  if (!Array.isArray(draft.articleIndexes) ||
-      draft.articleIndexes.some((index) => !Number.isInteger(index) || !candidates[index])) {
-    throw new Error('Nano triage returned invalid article indexes.');
+  const byCategory = draft?.articleIndexesByCategory;
+  if (!byCategory || typeof byCategory !== 'object') {
+    throw new Error('Nano triage returned invalid category selections.');
   }
-  return draft;
+  const articleIndexes = [];
+  for (const category of allowedCategories) {
+    const indexes = byCategory[category];
+    if (!Array.isArray(indexes) || indexes.length > 2 ||
+        indexes.some((index) => !Number.isInteger(index) ||
+          candidates[index]?.defaultCategory !== category)) {
+      throw new Error(`Nano triage returned invalid indexes for ${category}.`);
+    }
+    articleIndexes.push(...indexes);
+  }
+  return {articleIndexes};
 }
 
 async function organizeWithOpenAI({candidates, existingEvents}) {
@@ -338,7 +366,7 @@ async function organizeWithOpenAI({candidates, existingEvents}) {
       'You are a careful news editor for a timeline app.',
       'Use only the supplied RSS articles as factual evidence.',
       'Return only events of broad, durable importance; omit product marketing and routine posts.',
-      'Retain meaningful events across society, economy, science, culture, health, climate, space, AI, and broader technology/computing rather than concentrating on one field.',
+      'Retain meaningful events across society, economy, science, culture, health, climate, cities, sports, space, AI, and broader technology/computing rather than concentrating on one field.',
       'Treat AI and broader technology/computing as distinct beats. Preserve the supplied topic tags for each source and do not relabel ordinary computing, semiconductor, internet, security, or robotics news as AI.',
       'For a continuing conflict or crisis, create a new event only for a materially new phase such as a formal agreement, major territorial or legal change, decisive outcome, or major verified humanitarian shift. Prefer existingEventId for a meaningful update; omit routine daily attacks, statements, reactions, and incremental updates.',
       'Cluster duplicate coverage into one event.',
@@ -373,7 +401,7 @@ const eventSchema = {
   properties: {
     events: {
       type: 'array',
-      maxItems: 8,
+      maxItems: 18,
       items: {
         type: 'object',
         additionalProperties: false,

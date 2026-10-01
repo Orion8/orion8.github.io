@@ -170,6 +170,42 @@
       "defaultCategory": "space",
       "publisherId": "esa",
       "maxItems": 6
+    },
+    {
+      "id": "guardian-environment",
+      "name": "The Guardian Environment",
+      "feedUrl": "https://www.theguardian.com/environment/rss",
+      "topicIds": ["climateEnvironment"],
+      "defaultCategory": "climateDisaster",
+      "publisherId": "the-guardian",
+      "maxItems": 6
+    },
+    {
+      "id": "guardian-cities",
+      "name": "The Guardian Cities",
+      "feedUrl": "https://www.theguardian.com/cities/rss",
+      "topicIds": ["urbanDevelopment"],
+      "defaultCategory": "urbanDevelopment",
+      "publisherId": "the-guardian",
+      "maxItems": 6
+    },
+    {
+      "id": "guardian-transport",
+      "name": "The Guardian Transport",
+      "feedUrl": "https://www.theguardian.com/uk/transport/rss",
+      "topicIds": ["urbanDevelopment"],
+      "defaultCategory": "urbanDevelopment",
+      "publisherId": "the-guardian",
+      "maxItems": 6
+    },
+    {
+      "id": "bbc-sport",
+      "name": "BBC Sport",
+      "feedUrl": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "topicIds": ["sportsHistory"],
+      "defaultCategory": "sports",
+      "publisherId": "bbc",
+      "maxItems": 6
     }
   ]
 }
