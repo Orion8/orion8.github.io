@@ -1,8 +1,179 @@
 {
-  "catalogVersion": "0.0.137",
-  "updatedAt": "2026-10-01T07:10:03.688Z",
+  "catalogVersion": "0.0.138",
+  "updatedAt": "2026-10-01T15:34:35.147Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-fe358ee7d12eba8074188f3b",
+      "title": "글로벌 채권 매도에 따른 금리·시장 충격과 미국의 인플레이션 지표 완화",
+      "titleTranslations": {
+        "en": "Global bond sell‑off and market reaction as US inflation reading softens"
+      },
+      "startAt": "2026-10-01T15:06:25.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "글로벌 채권 시장 매도세가 재개되며 영국 장기 채권 금리가 1998년 이후 최고에 근접했고, 프랑스·독일 국채 간 스프레드가 14년 만에 확대됐다. 같은 기간 미 상무부의 PCE 물가 지표가 예상보다 낮아 연준의 즉각적 추가 금리 인상 가능성이 완화됐다는 보도도 나왔다.",
+      "descriptionTranslations": {
+        "en": "A renewed global bond sell‑off pushed long‑dated UK gilt yields toward levels not seen since 1998 and widened the French‑German yield spread to a 14‑year high, while a softer‑than‑expected US PCE inflation reading reduced expectations of an imminent Fed rate hike, according to reporting."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/live/2026/oct/01/uk-house-prices-september-mortgage-rates-bonds-stock-markets-manufacturing-latest-news-updates",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/live/2026/oct/01/uk-house-prices-september-mortgage-rates-bonds-stock-markets-manufacturing-latest-news-updates",
+          "https://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed"
+        ],
+        "firstPublishedAt": "2026-10-01T15:06:25.000Z",
+        "lastObservedAt": "2026-10-01T15:34:35.147Z"
+      }
+    },
+    {
+      "id": "news-63f8a13c5d3b42b598687950",
+      "title": "모로코 정보기관, 언론인·활동가 감시로 ‘침묵’ 유도했다고 앰네스티 보고",
+      "titleTranslations": {
+        "en": "Amnesty says Moroccan intelligence used surveillance to 'silence' journalists"
+      },
+      "startAt": "2026-10-01T15:04:21.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "앰네스티 국제조사 결과 스파이웨어 설치, 숨겨진 마이크, 감염된 휴대전화 등 다양한 감시 수단이 언론인·활동가·인권옹호자 대상에 사용돼 표현의 자유를 억압했다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "An Amnesty investigation reports that Moroccan intelligence used surveillance tools — including spyware, hidden microphones and infected phones — to monitor journalists, activists and human‑rights defenders and suppress free expression."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/1/moroccan-intelligence-uses-surveillance-to-silence-journalists-amnesty?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/1/moroccan-intelligence-uses-surveillance-to-silence-journalists-amnesty?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-01T15:04:21.000Z",
+        "lastObservedAt": "2026-10-01T15:34:35.147Z"
+      }
+    },
+    {
+      "id": "news-06024677b65ae0214f11f330",
+      "title": "카니예 웨스트의 상트페테르부르크 공연 공식 취소",
+      "titleTranslations": {
+        "en": "Kanye West's Russia shows officially cancelled after weeks of uncertainty"
+      },
+      "startAt": "2026-10-01T12:13:28.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "description": "보도는 상트페테르부르크 공연을 둘러싼 혼선 끝에 해당 공연들이 공식적으로 취소됐다고 전했다. 경기장 측이 개최 동의를 부인하는 등 혼란이 지속된 이후의 결정이다.",
+      "descriptionTranslations": {
+        "en": "After weeks of uncertainty and confusion — including a stadium saying it had not agreed to host the shows — Kanye West's scheduled performances in St. Petersburg were officially cancelled, reporting says."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm74k417wpjxo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm74k417wpjxo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-01T12:13:28.000Z",
+        "lastObservedAt": "2026-10-01T15:34:35.147Z"
+      }
+    },
+    {
+      "id": "news-13664d73504d14501d49bce2",
+      "title": "뉴저지 데이터센터, 무허가 발전기 가동으로 장기간 유해배출 발생 기록",
+      "titleTranslations": {
+        "en": "US datacenter discharged large amounts of pollution for almost a year with no permits"
+      },
+      "startAt": "2026-10-01T12:00:51.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "공개 기록에 따르면 뉴저지 빈랜드의 데이터센터가 허가 없이 가동한 62대의 가스발전기에서 거의 1년 가까이 건강에 해로운 대기오염 물질을 배출한 정황이 드러났고, 주 규제당국이 개입해 과징금을 부과했다는 보도가 나왔다.",
+      "descriptionTranslations": {
+        "en": "Public records show a Vineland, New Jersey datacenter ran 62 gas‑fired generators without permits and emitted significant amounts of health‑harmful air pollution for nearly a year before state regulators intervened and fined the operator, according to reporting."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/01/us-datacenter-new-jersey-pollution",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/01/us-datacenter-new-jersey-pollution"
+        ],
+        "firstPublishedAt": "2026-10-01T12:00:51.000Z",
+        "lastObservedAt": "2026-10-01T15:34:35.147Z"
+      }
+    },
+    {
+      "id": "news-b0a68bf94cf796d660a356d9",
+      "title": "전기 도둑질 심각성·손실 줄이기 해법 — 델리의 실무적 해결 사례 보도",
+      "titleTranslations": {
+        "en": "Electricity theft is rampant, but Delhi found a fix"
+      },
+      "startAt": "2026-10-01T12:00:02.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도는 전력망에서 발생하는 손실과 도난이 많은 국가들에서의 규모 문제를 지적하며, 델리가 도난·손실을 줄이는 실무적 방법을 찾아 성과를 낸 사례를 소개했다. 전력 손실을 줄이면 새로운 발전소 건설 수요를 일부 경감할 수 있다고 분석했다.",
+      "descriptionTranslations": {
+        "en": "Coverage highlights the widespread problem of electricity losses and theft in many countries and profiles Delhi's practical measures to reduce pilferage and losses. It notes that cutting losses can help meet rising demand without building as many new power plants."
+      },
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/electricity-theft",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/electricity-theft"
+        ],
+        "firstPublishedAt": "2026-10-01T12:00:02.000Z",
+        "lastObservedAt": "2026-10-01T15:34:35.147Z"
+      }
+    },
+    {
+      "id": "news-8402516ce8f912bd3ca7b188",
+      "title": "인도 발라가트 지역에서 홍역·말라리아 등 복합 위기로 어린이 32명 사망",
+      "titleTranslations": {
+        "en": "At least 32 children die in India's Balaghat district amid measles and malaria outbreaks"
+      },
+      "startAt": "2026-09-30T23:41:34.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "보도에 따르면 발라가트 지구의 산림마을들에서 홍역과 말라리아 발생이 겹치며 최소 32명의 어린이가 5월 이후 사망했다. 현지 환경·보건 위기가 집단적 건강 피해로 이어진 사례로 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Reporting says that in forest villages of Balaghat district, outbreaks of measles and malaria have coincided, resulting in at least 32 child deaths since May — a local health crisis with combined disease impacts."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmn9wr84v1qno?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmn9wr84v1qno?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-09-30T23:41:34.000Z",
+        "lastObservedAt": "2026-10-01T15:34:35.147Z"
+      }
+    },
     {
       "id": "news-cde3e751edf0549c3367b8a0",
       "title": "스위스 빙하, 또다시 기록적 얼음 손실",
@@ -203,6 +374,64 @@
       }
     },
     {
+      "id": "news-6118a7976098ff4a6d0893d9",
+      "title": "라마포사 대통령, 연쇄 여성 살해 계기 페미사이드·성폭력 대책 지시(관련 보도)",
+      "titleTranslations": {
+        "en": "Ramaphosa orders action on femicide and gender‑based violence after killings (related coverage)"
+      },
+      "startAt": "2026-09-30T14:16:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "시릴 라마포사 남아프리카공화국 대통령이 최근 연쇄 여성 살해를 계기로 남성의 책임 촉구와 함께 미해결 살인·강간 사건 재검토·법의학 적체 해소 계획 등 대책을 발표했다는 보도가 나왔다.",
+      "descriptionTranslations": {
+        "en": "South African President Cyril Ramaphosa, responding to recent killings of women, has called on men to take responsibility and announced measures including reviews of unsolved murders, attempted murders and serious sexual offences and plans to reduce the forensic backlog, according to coverage."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/sep/30/south-africa-gender-based-violence-women-killings",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6m27dprvzv7o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/video/newsfeed/2026/9/30/south-african-president-orders-action-on-femicide-after-killings?traffic_source=rss",
+          "https://www.theguardian.com/world/2026/sep/30/south-africa-gender-based-violence-women-killings"
+        ],
+        "firstPublishedAt": "2026-09-28T17:26:21.000Z",
+        "lastObservedAt": "2026-10-01T15:34:35.147Z"
+      }
+    },
+    {
+      "id": "news-94fb6a179526bde2e5c0866f",
+      "title": "HS2 노선 주변에 조성된 인공 초지에서 야생동물 빠르게 정착",
+      "titleTranslations": {
+        "en": "Wildlife arrives on time at rewilded chalk grasslands built along HS2 route"
+      },
+      "startAt": "2026-09-30T12:00:43.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 1,
+      "description": "보도는 HS2 공사 구간 주변에 조성된 인공 초지가 4년 만에 조류·나비 등 다양한 야생생물을 불러들이며 성공적으로 조성되었다고 전했다. 대규모 재조성 사업이 상대적으로 짧은 기간에 생태적 성과를 낸 사례로 소개됐다.",
+      "descriptionTranslations": {
+        "en": "Coverage reports that artificial chalk grasslands created along the HS2 route have, within four years, attracted a variety of wildlife — birds, butterflies and insects — demonstrating rapid ecological establishment from a large‑scale rewilding project."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/sep/30/hs2-colne-valley-wildlife-rewilding-chalk-grasslands",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/2026/sep/30/hs2-colne-valley-wildlife-rewilding-chalk-grasslands"
+        ],
+        "firstPublishedAt": "2026-09-30T12:00:43.000Z",
+        "lastObservedAt": "2026-10-01T15:34:35.147Z"
+      }
+    },
+    {
       "id": "news-686b46df29329966fbde195f",
       "title": "클라우드플레어, 양자내성(quantum‑safe) TLS 인증서 발급 계획 발표",
       "titleTranslations": {
@@ -286,35 +515,6 @@
         ],
         "firstPublishedAt": "2026-09-30T07:05:00.000Z",
         "lastObservedAt": "2026-09-30T18:26:05.533Z"
-      }
-    },
-    {
-      "id": "news-6118a7976098ff4a6d0893d9",
-      "title": "라마포사 대통령, 연쇄 여성 살해에 대응해 페미사이드·성폭력 대책 지시",
-      "titleTranslations": {
-        "en": "Ramaphosa orders action on femicide and gender‑based violence after killings"
-      },
-      "startAt": "2026-09-30T04:39:34.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "시릴 라마포사 남아프리카공화국 대통령이 최근 발생한 연쇄 여성 살해를 계기로 페미사이드(여성 살해)와 성폭력에 대응하기 위한 새로운 조치를 발표하고 행동을 지시했다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "South African President Cyril Ramaphosa announced new measures and ordered action to address femicide and gender‑based violence following recent killings."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/9/30/south-african-president-orders-action-on-femicide-after-killings?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6m27dprvzv7o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/9/30/south-african-president-orders-action-on-femicide-after-killings?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-28T17:26:21.000Z",
-        "lastObservedAt": "2026-09-30T06:38:54.852Z"
       }
     },
     {
@@ -635,6 +835,34 @@
         ],
         "firstPublishedAt": "2026-09-28T16:23:49.000Z",
         "lastObservedAt": "2026-09-28T20:06:51.082Z"
+      }
+    },
+    {
+      "id": "news-96ccb7bfba415e722f6766b0",
+      "title": "영국 장거리 열차 사업자 Avanti West Coast, 3월 국영화 결정",
+      "titleTranslations": {
+        "en": "Avanti West Coast to be renationalised in March"
+      },
+      "startAt": "2026-09-28T16:22:29.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 3,
+      "description": "정부 발표에 따르면 Avanti West Coast가 계약 종료 시점인 3월 7일부터 공영 운영으로 전환되며, 새 열차의 공적 소유 방안 등 민간 위탁 비용 절감 방안이 검토되고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Ministers announced that Avanti West Coast will be renationalised from 7 March when its contract ends, and plans are being considered to reduce costs paid to private firms — including the possible public ownership of new trains, reporting says."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/sep/28/avanti-west-coast-to-be-renationalised-in-march",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/sep/28/avanti-west-coast-to-be-renationalised-in-march"
+        ],
+        "firstPublishedAt": "2026-09-28T16:22:29.000Z",
+        "lastObservedAt": "2026-10-01T15:34:35.147Z"
       }
     },
     {
@@ -984,34 +1212,6 @@
       }
     },
     {
-      "id": "news-899d6295eefe8b61be5fe79d",
-      "title": "대법원, 트럼프에 유권자 시민권 확인용 논란의 데이터베이스 사용 허용",
-      "titleTranslations": {
-        "en": "Supreme Court allows Trump to use controversial database to check voter citizenship"
-      },
-      "startAt": "2026-09-25T17:32:15.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 비평가들이 데이터의 신뢰성에 의문을 제기하며 이로 인해 미국 시민이 선거인 명부에서 잘못 제거될 수 있다고 경고하는 가운데, 대법원이 도널드 트럼프 전 대통령 측이 유권자의 시민권을 확인하기 위해 논란이 되는 데이터베이스를 사용하는 것을 허용했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that the Supreme Court has allowed Donald Trump’s side to use a controversial database to check voter citizenship, even as critics question the reliability of the data and warn it could lead to US citizens being wrongly removed from electoral rolls."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-25T17:32:15.000Z",
-        "lastObservedAt": "2026-09-25T17:56:26.246Z"
-      }
-    },
-    {
       "id": "news-afee09e47d3238fb7c95cda7",
       "title": "일부 Supabase 고객의 데이터베이스·애플리케이션 설정 실수로 대량 개인정보 노출 발견",
       "titleTranslations": {
@@ -1265,35 +1465,6 @@
       },
       "descriptionTranslations": {
         "en": "NASA said the Perseverance rover discovered unexpected stratigraphy and sedimentary structures in the 'Margin Unit' within Jezero Crater, evidence suggesting a complex water system existed on early Mars. The findings provide new clues for studies of ancient Martian hydrology, environmental change, and habitability."
-      }
-    },
-    {
-      "id": "news-f2776f028d52c03a4003151c",
-      "title": "오픈AI, 글로벌 AI 표준 구축 촉구 및 수학·AI 자문그룹 구성",
-      "startAt": "2026-09-21T10:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "오픈AI가 인공지능의 다음 단계를 위한 글로벌 표준 마련 경로를 제안하며 평가·보고·거버넌스의 국제적 조정을 촉구했다. 동시에 '수학과 인공지능(Advisory Group on Mathematics and Artificial Intelligence)'이라는 독립 자문그룹을 구성해 신흥 AI 결과물의 검토·소통을 안내하겠다고 밝혔다. 이번 발표는 AI 안전·검증·규범 설정을 둘러싼 국제 논의를 촉발할 가능성이 있다.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/building-standards-next-phase-ai",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/building-standards-next-phase-ai",
-          "https://openai.com/index/advisory-group-on-mathematics-and-ai"
-        ],
-        "firstPublishedAt": "2026-09-21T10:00:00.000Z",
-        "lastObservedAt": "2026-09-21T18:38:35.688Z"
-      },
-      "titleTranslations": {
-        "en": "OpenAI urges global AI standards and forms Mathematics and Artificial Intelligence advisory group"
-      },
-      "descriptionTranslations": {
-        "en": "OpenAI proposed a path to establish global standards for the next phase of artificial intelligence, calling for international coordination on evaluation, reporting, and governance. It also announced an independent Advisory Group on Mathematics and Artificial Intelligence to guide review and communication of emerging AI results. The announcement could spur international debate on AI safety, verification, and norm-setting."
       }
     },
     {
