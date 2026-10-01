@@ -1,24 +1,81 @@
 {
-  "catalogVersion": "0.0.138",
-  "updatedAt": "2026-10-01T15:34:35.147Z",
+  "catalogVersion": "0.0.139",
+  "updatedAt": "2026-10-01T18:50:56.038Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-fe358ee7d12eba8074188f3b",
-      "title": "글로벌 채권 매도에 따른 금리·시장 충격과 미국의 인플레이션 지표 완화",
+      "id": "news-f830528e18966e17a12ffbd2",
+      "title": "총리 측에 로즈뱅크 유전, 서안 제재 위반 우려 제기",
       "titleTranslations": {
-        "en": "Global bond sell‑off and market reaction as US inflation reading softens"
+        "en": "PM warned Rosebank oil field could breach West Bank sanctions"
       },
-      "startAt": "2026-10-01T15:06:25.000Z",
+      "startAt": "2026-10-01T18:38:22.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC는 운동가들과 녹색당 대표 잭 폴란스키가 로즈뱅크 유전의 이스라엘 연관성으로 인해 서안지구 관련 제재를 위반할 가능성이 있다는 우려를 총리에게 제기했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports campaigners and Green Party leader Zack Polanski have warned the prime minister that the Rosebank oil field’s ties to an Israeli firm could risk breaching sanctions related to the West Bank."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmrl6lz454lgo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmrl6lz454lgo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-01T18:38:22.000Z",
+        "lastObservedAt": "2026-10-01T18:50:56.038Z"
+      }
+    },
+    {
+      "id": "news-3df0942dcead660981619ffc",
+      "title": "브라질 검찰총장, 美 인권기금 배분 보도에 ‘외부 개입 용납 못해’ 경고",
+      "titleTranslations": {
+        "en": "Brazil attorney‑general says foreign meddling 'cannot be tolerated' after US funding report"
+      },
+      "startAt": "2026-10-01T18:34:10.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "호르헤 메시아스 브라질 검찰총장은 가디언 보도를 인용해 미국 행정부의 일부 인권기금 배분 관련 보도가 ‘브라질 주권에 대한 중요한 경고’라며 외부의 기관·민주제도 개입은 용납할 수 없다고 밝혔다. 발언은 브라질의 선거 과정을 앞두고 제기된 외부 압력·자금 운용 의혹을 배경으로 한다.",
+      "descriptionTranslations": {
+        "en": "Jorge Messias, Brazil's attorney‑general, described The Guardian's reporting on US allocations of human‑rights funds as 'an important alert for Brazilian sovereignty' and said foreign interference in the country’s institutions and democracy 'cannot be tolerated.' His remarks come amid allegations of external pressure and funding activity raised ahead of Brazil’s elections."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund",
+          "https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans"
+        ],
+        "firstPublishedAt": "2026-09-30T19:51:24.000Z",
+        "lastObservedAt": "2026-10-01T18:50:56.037Z"
+      }
+    },
+    {
+      "id": "news-fe358ee7d12eba8074188f3b",
+      "title": "미 재정비용 상승 — 글로벌 채권 매도세 심화, 미 국채 24년래 최고치",
+      "titleTranslations": {
+        "en": "US borrowing costs hit 24‑year high as global bond sell‑off intensifies"
+      },
+      "startAt": "2026-10-01T17:56:18.000Z",
       "lane": "world",
       "category": "economyBusiness",
       "importance": 3,
-      "description": "글로벌 채권 시장 매도세가 재개되며 영국 장기 채권 금리가 1998년 이후 최고에 근접했고, 프랑스·독일 국채 간 스프레드가 14년 만에 확대됐다. 같은 기간 미 상무부의 PCE 물가 지표가 예상보다 낮아 연준의 즉각적 추가 금리 인상 가능성이 완화됐다는 보도도 나왔다.",
+      "description": "가디언 보도는 글로벌 채권 매도세가 심화되며 10년 만기 미 국채 수익률이 24년 만에 최고 수준으로 치솟았고 유가 상승 우려로 중앙은행들의 추가 금리 인상 가능성이 거론된다고 전했다.",
       "descriptionTranslations": {
-        "en": "A renewed global bond sell‑off pushed long‑dated UK gilt yields toward levels not seen since 1998 and widened the French‑German yield spread to a 14‑year high, while a softer‑than‑expected US PCE inflation reading reduced expectations of an imminent Fed rate hike, according to reporting."
+        "en": "The Guardian reports a renewed global bond sell‑off has driven 10‑year US government yields to their highest level in 24 years, with worries about higher oil prices and renewed inflation risks prompting expectations of further central‑bank rate action."
       },
       "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/live/2026/oct/01/uk-house-prices-september-mortgage-rates-bonds-stock-markets-manufacturing-latest-news-updates",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield",
       "topicIds": [
         "economyFinance"
       ],
@@ -26,10 +83,125 @@
         "status": "developing",
         "sourceUrls": [
           "https://www.theguardian.com/business/live/2026/oct/01/uk-house-prices-september-mortgage-rates-bonds-stock-markets-manufacturing-latest-news-updates",
-          "https://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed"
+          "https://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed",
+          "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield"
         ],
         "firstPublishedAt": "2026-10-01T15:06:25.000Z",
-        "lastObservedAt": "2026-10-01T15:34:35.147Z"
+        "lastObservedAt": "2026-10-01T18:50:56.038Z"
+      }
+    },
+    {
+      "id": "news-7749d9d2bfc363243622fc2f",
+      "title": "이스라엘 군사구금 속 팔레스타인 어린이들 상황 조명",
+      "titleTranslations": {
+        "en": "Palestinian children in Israeli military detention"
+      },
+      "startAt": "2026-10-01T17:44:51.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라 영상 보도는 팔레스타인 어린이들이 이스라엘의 군사 법·구금 체계 아래에 있는 사례를 조명하며 어린이 구금의 현실을 전했다.",
+      "descriptionTranslations": {
+        "en": "An Al Jazeera video report highlights cases of Palestinian children held under Israeli military detention and examines the realities of child detention within that military legal framework."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/1/palestinian-children-in-israeli-military-detention?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/10/1/palestinian-children-in-israeli-military-detention?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-01T17:44:51.000Z",
+        "lastObservedAt": "2026-10-01T18:50:56.038Z"
+      }
+    },
+    {
+      "id": "news-71bc90fcb4fd4b12a5628187",
+      "title": "잉글랜드, 2027 크리켓 월드컵 조편성에서 호주·인도와 같은 조 회피",
+      "titleTranslations": {
+        "en": "England avoid Australia & India in World Cup draw"
+      },
+      "startAt": "2026-10-01T16:31:47.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "description": "BBC 스포츠는 2027 ICC 크리켓 월드컵 조별 추첨 결과 잉글랜드가 디펜딩 챔피언 호주와 세계 1위 인도와 같은 조에 들지 않게 됐다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC Sport reports that in the 2027 ICC Cricket World Cup group‑stage draw, England avoided being drawn into the same group as defending champions Australia and world number‑one India."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/cricket/articles/cqlylygyl3pro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/cricket/articles/cqlylygyl3pro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-01T16:31:47.000Z",
+        "lastObservedAt": "2026-10-01T18:50:56.038Z"
+      }
+    },
+    {
+      "id": "news-cc530636f53150f8479850be",
+      "title": "NASA·스페이스X 크루‑13, 국제우주정거장행 발사 성공",
+      "titleTranslations": {
+        "en": "NASA’s SpaceX Crew‑13 Launches to International Space Station"
+      },
+      "startAt": "2026-10-01T15:59:24.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 크루‑13의 승무원 4명이 플로리다 케이프커내버럴에서 발사돼 국제우주정거장으로 향하는 과학 원정에 나섰다고 발표했다.",
+      "descriptionTranslations": {
+        "en": "NASA says four crew members of the SpaceX Crew‑13 mission launched from Cape Canaveral, Florida, en route to the International Space Station for a science expedition."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/"
+        ],
+        "firstPublishedAt": "2026-10-01T15:59:24.000Z",
+        "lastObservedAt": "2026-10-01T18:50:56.038Z"
+      }
+    },
+    {
+      "id": "news-67539dd92a44e131582e79c1",
+      "title": "미‧중 관계 긴장 속 캐나다 자체 발사 산업 본격화",
+      "titleTranslations": {
+        "en": "As US relations fray, Canada gets serious about its own launch industry"
+      },
+      "startAt": "2026-10-01T15:30:49.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "아르스테크니카 보도에 따르면 캐나다 내 민간업체들이 중형 발사체 개발을 본격화하고 있으며, 미·중 등 국제 정세 변화 속에 자국 발사 능력 확보 움직임이 빨라지고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports Canadian private firms are accelerating development of medium‑lift launch vehicles as Canada seeks to bolster domestic launch capability amid shifting international relations and reduced reliance on US launch services."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/"
+        ],
+        "firstPublishedAt": "2026-10-01T15:30:49.000Z",
+        "lastObservedAt": "2026-10-01T18:50:56.038Z"
       }
     },
     {
@@ -58,6 +230,34 @@
         ],
         "firstPublishedAt": "2026-10-01T15:04:21.000Z",
         "lastObservedAt": "2026-10-01T15:34:35.147Z"
+      }
+    },
+    {
+      "id": "news-3e4c7558782a1f6c93a8a2b7",
+      "title": "베드포드 열차 충돌 조사: 운전자가 적색 신호 경고 후에도 가속",
+      "titleTranslations": {
+        "en": "Bedford rail crash: train sped up after red light warning, say investigators"
+      },
+      "startAt": "2026-10-01T12:40:56.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언에 따르면 조사관들은 6월의 베드포드 충돌에서 사고 열차 운전자가 적색 신호를 지나친 뒤 자동 경고를 받았음에도 추가로 가속한 정황을 확인했다고 밝혔다. 해당 사고로 운전자가 사망했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports investigators found that the train involved in the June Bedford collision accelerated after the driver received an automatic warning for passing a red signal. The driver later died in the crash."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/01/bedford-rail-crash-report-train-sped-up-red-light-warning",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/2026/oct/01/bedford-rail-crash-report-train-sped-up-red-light-warning"
+        ],
+        "firstPublishedAt": "2026-10-01T12:40:56.000Z",
+        "lastObservedAt": "2026-10-01T18:50:56.038Z"
       }
     },
     {
@@ -230,34 +430,6 @@
           "https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/"
         ],
         "firstPublishedAt": "2026-09-30T21:54:12.000Z",
-        "lastObservedAt": "2026-10-01T07:10:03.687Z"
-      }
-    },
-    {
-      "id": "news-3df0942dcead660981619ffc",
-      "title": "트럼프 행정부, 인권 기금 배분을 극우 지지 해외단체에 전용",
-      "titleTranslations": {
-        "en": "Trump administration diverts human rights funds to push far‑right agenda abroad"
-      },
-      "startAt": "2026-09-30T19:51:24.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 트럼프 행정부는 국무부의 인권 기금 약 1억 7,500만 달러를 만료 시한 직전에 배정하면서 그중 4,000만 달러를 반공(anti‑communism) 기금에 지급하는 등 백인 아프리카너 권리 단체 지원, 브라질 대법원에 대한 캠페인 지원, 유럽 내 이념적 동맹을 보상하는 프로그램 포함 등 극우 성향 단체·사업으로 자금을 돌리고 있다고 전했다. 보도는 의회 우려에도 불구하고 마감 몇 시간 전에 기금이 의무화됐다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the Trump administration obligated more than $175 million of the State Department's human rights fund hours before the deadline, directing awards that include a $40 million grant for an anti‑communism fund, support for a group advancing white Afrikaner rights, a campaign against Brazil’s supreme court, and programs rewarding ideological allies in Europe. Coverage notes the funds were obligated despite congressional concerns."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund"
-        ],
-        "firstPublishedAt": "2026-09-30T19:51:24.000Z",
         "lastObservedAt": "2026-10-01T07:10:03.687Z"
       }
     },
@@ -1156,34 +1328,6 @@
       }
     },
     {
-      "id": "news-355b8ad256f4a4a70469070f",
-      "title": "에콰도르 어선 공습으로 어민 인명·인권 우려 제기",
-      "titleTranslations": {
-        "en": "US strikes on Ecuadorian fishing boat raise humanitarian concerns"
-      },
-      "startAt": "2026-09-26T16:00:39.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 9월 8일 미군이 공해상에서 에콰도르 어선 '돈 루포(Don Rufo)'를 나포·파괴한 뒤 동승자 10명이 동태평양에 표류하게 됐다. 현지 변호사는 어민들이 생계와 인권을 잃고 있다고 주장했고, 한편 마르코 루비오 의원은 필요하면 '배를 폭파할 준비가 돼 있다'고 발언했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that on Sept. 8 a US patrol intercepted and destroyed the Ecuadorian fishing boat Don Rufo in international waters, leaving 10 people adrift in the eastern Pacific. An attorney says the fishers are losing their livelihoods, while Marco Rubio said the US remains willing to 'blow up ships if need be.'"
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/sep/26/us-airstrikes-ecuador-fishers",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/sep/26/us-airstrikes-ecuador-fishers"
-        ],
-        "firstPublishedAt": "2026-09-26T16:00:39.000Z",
-        "lastObservedAt": "2026-09-27T06:34:53.569Z"
-      }
-    },
-    {
       "id": "news-420ec31d089e6561f6be574a",
       "title": "산마리노, 아르테미스 협정 서명해 76번째 서명국이 됨",
       "titleTranslations": {
@@ -1383,34 +1527,6 @@
       }
     },
     {
-      "id": "news-347b65ce144a221e189c1995",
-      "title": "샘 올트먼, 유엔 안전보장이사회서 AI 안전·인간 통제·국제협력 촉구",
-      "titleTranslations": {
-        "en": "Sam Altman tells UN Security Council to prioritize AI safety, human control, and international cooperation"
-      },
-      "startAt": "2026-09-23T12:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI 발표에 따르면 최고경영자 샘 올트먼이 유엔 안전보장이사회에서 인공지능의 안전성, 인간의 통제, 국제적 협력을 강조하는 연설을 했다.",
-      "descriptionTranslations": {
-        "en": "OpenAI says CEO Sam Altman addressed the United Nations Security Council, urging focus on AI safety, human control, and international cooperation."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/sam-altman-un-security-council-remarks"
-        ],
-        "firstPublishedAt": "2026-09-23T12:00:00.000Z",
-        "lastObservedAt": "2026-09-24T06:07:53.305Z"
-      }
-    },
-    {
       "id": "news-caaf4b1f8cd66a723a0674cc",
       "title": "AstroForge, 차기 우주선 'Autonomy‑1'에 소형 AI 모델 탑재해 자율 운용 계획",
       "titleTranslations": {
@@ -1523,38 +1639,6 @@
       },
       "descriptionTranslations": {
         "en": "The James Webb Space Telescope (NASA/ESA/CSA) released a large panorama of cluster IC 348 and reported discovery of low‑mass brown dwarfs roughly twice the mass of Jupiter. The observations extend the known brown‑dwarf mass range and provide important data for star‑formation theory and low‑mass object research."
-      }
-    },
-    {
-      "id": "news-e7a16a750d4f01ff733d662a",
-      "title": "베피콜롬보, 수성 도착 단계 시작—MTM 분리 성공",
-      "startAt": "2026-09-07T08:25:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "유럽우주국(ESA)과 일본우주항공연구개발기구(JAXA)의 합동 탐사선 베피콜롬보가 2026년 9월 3일 15:49 CEST에 수성 접근을 위한 핵심 절차를 완료했다. 미션 관제는 머큐리 트랜스퍼 모듈(MTM)이 우주선 스택에서 성공적으로 분리되었음을 확인했으며, 이는 수성 최종 도착을 향한 첫 번째 주요 단계로 평가된다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/09/BepiColombo_s_Mercury_arrival_begins_-_full_replay",
-          "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
-          "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success"
-        ],
-        "firstPublishedAt": "2026-08-27T05:17:00.000Z",
-        "lastObservedAt": "2026-09-07T18:15:04.988Z"
-      },
-      "titleTranslations": {
-        "en": "BepiColombo begins Mercury arrival phase—MTM separation successful"
-      },
-      "descriptionTranslations": {
-        "en": "The joint ESA–JAXA BepiColombo spacecraft completed a key procedure for approaching Mercury at 15:49 CEST on 3 September 2026. Mission control confirmed that the Mercury Transfer Module (MTM) successfully separated from the spacecraft stack, which is being described as the first major step toward final arrival at Mercury."
       }
     }
   ]
