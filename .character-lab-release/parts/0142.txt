@@ -1,0 +1,130 @@
+tFrame=BVASNAME.x;float VATEndFrame=BVASNAME.y;float VATOffsetFrame=BVASNAME.z;float VATSpeed=BVASNAME.w;float totalFrames=VATEndFrame-VATStartFrame+1.0;float time=bakedVertexAnimationTime*VATSpeed/totalFrames;float frameCorrection=time<1.0 ? 0.0 : 1.0;float numOfFrames=totalFrames-frameCorrection;float VATFrameNum=fract(time)*numOfFrames;VATFrameNum=mod(VATFrameNum+VATOffsetFrame,numOfFrames);VATFrameNum=floor(VATFrameNum);VATFrameNum+=VATStartFrame+frameCorrection;mat4 VATInfluence;VATInfluence=readMatrixFromRawSamplerVAT(bakedVertexAnimationTexture,matricesIndices[0],VATFrameNum)*matricesWeights[0];
+#if NUM_BONE_INFLUENCERS>1
+VATInfluence+=readMatrixFromRawSamplerVAT(bakedVertexAnimationTexture,matricesIndices[1],VATFrameNum)*matricesWeights[1];
+#endif
+#if NUM_BONE_INFLUENCERS>2
+VATInfluence+=readMatrixFromRawSamplerVAT(bakedVertexAnimationTexture,matricesIndices[2],VATFrameNum)*matricesWeights[2];
+#endif
+#if NUM_BONE_INFLUENCERS>3
+VATInfluence+=readMatrixFromRawSamplerVAT(bakedVertexAnimationTexture,matricesIndices[3],VATFrameNum)*matricesWeights[3];
+#endif
+#if NUM_BONE_INFLUENCERS>4
+VATInfluence+=readMatrixFromRawSamplerVAT(bakedVertexAnimationTexture,matricesIndicesExtra[0],VATFrameNum)*matricesWeightsExtra[0];
+#endif
+#if NUM_BONE_INFLUENCERS>5
+VATInfluence+=readMatrixFromRawSamplerVAT(bakedVertexAnimationTexture,matricesIndicesExtra[1],VATFrameNum)*matricesWeightsExtra[1];
+#endif
+#if NUM_BONE_INFLUENCERS>6
+VATInfluence+=readMatrixFromRawSamplerVAT(bakedVertexAnimationTexture,matricesIndicesExtra[2],VATFrameNum)*matricesWeightsExtra[2];
+#endif
+#if NUM_BONE_INFLUENCERS>7
+VATInfluence+=readMatrixFromRawSamplerVAT(bakedVertexAnimationTexture,matricesIndicesExtra[3],VATFrameNum)*matricesWeightsExtra[3];
+#endif
+finalWorld=finalWorld*VATInfluence;}
+#endif
+`;Qe.IncludesShadersStore[kE]||(Qe.IncludesShadersStore[kE]=GC);const VE="clipPlaneVertex",HC=`#ifdef CLIPPLANE
+fClipDistance=dot(worldPos,vClipPlane);
+#endif
+#ifdef CLIPPLANE2
+fClipDistance2=dot(worldPos,vClipPlane2);
+#endif
+#ifdef CLIPPLANE3
+fClipDistance3=dot(worldPos,vClipPlane3);
+#endif
+#ifdef CLIPPLANE4
+fClipDistance4=dot(worldPos,vClipPlane4);
+#endif
+#ifdef CLIPPLANE5
+fClipDistance5=dot(worldPos,vClipPlane5);
+#endif
+#ifdef CLIPPLANE6
+fClipDistance6=dot(worldPos,vClipPlane6);
+#endif
+`;Qe.IncludesShadersStore[VE]||(Qe.IncludesShadersStore[VE]=HC);const GE="pointCloudVertex",zC=`#if defined(POINTSIZE) && !defined(WEBGPU)
+gl_PointSize=pointSize;
+#endif
+`;Qe.IncludesShadersStore[GE]||(Qe.IncludesShadersStore[GE]=zC);const Rp="depthVertexShader",Mx=`attribute vec3 position;
+#include<bonesDeclaration>
+#include<bakedVertexAnimationDeclaration>
+#include<morphTargetsVertexGlobalDeclaration>
+#include<morphTargetsVertexDeclaration>[0..maxSimultaneousMorphTargets]
+#include<clipPlaneVertexDeclaration>
+#include<instancesDeclaration>
+uniform mat4 viewProjection;uniform vec2 depthValues;
+#if defined(ALPHATEST) || defined(NEED_UV)
+varying vec2 vUV;uniform mat4 diffuseMatrix;
+#ifdef UV1
+attribute vec2 uv;
+#endif
+#ifdef UV2
+attribute vec2 uv2;
+#endif
+#endif
+#ifdef STORE_CAMERASPACE_Z
+uniform mat4 view;varying vec4 vViewPos;
+#endif
+#include<pointCloudVertexDeclaration>
+varying float vDepthMetric;
+#define CUSTOM_VERTEX_DEFINITIONS
+void main(void)
+{vec3 positionUpdated=position;
+#ifdef UV1
+vec2 uvUpdated=uv;
+#endif
+#ifdef UV2
+vec2 uv2Updated=uv2;
+#endif
+#include<morphTargetsVertexGlobal>
+#include<morphTargetsVertex>[0..maxSimultaneousMorphTargets]
+#include<instancesVertex>
+#include<bonesVertex>
+#include<bakedVertexAnimation>
+vec4 worldPos=finalWorld*vec4(positionUpdated,1.0);
+#include<clipPlaneVertex>
+gl_Position=viewProjection*worldPos;
+#ifdef STORE_CAMERASPACE_Z
+vViewPos=view*worldPos;
+#else
+#ifdef USE_REVERSE_DEPTHBUFFER
+vDepthMetric=((-gl_Position.z+depthValues.x)/(depthValues.y));
+#else
+vDepthMetric=((gl_Position.z+depthValues.x)/(depthValues.y));
+#endif
+#endif
+#if defined(ALPHATEST) || defined(BASIC_RENDER)
+#ifdef UV1
+vUV=vec2(diffuseMatrix*vec4(uvUpdated,1.0,0.0));
+#endif
+#ifdef UV2
+vUV=vec2(diffuseMatrix*vec4(uv2Updated,1.0,0.0));
+#endif
+#endif
+#include<pointCloudVertex>
+}
+`;Qe.ShadersStore[Rp]||(Qe.ShadersStore[Rp]=Mx);const WC={name:Rp,shader:Mx},XC=Object.freeze(Object.defineProperty({__proto__:null,depthVertexShader:WC},Symbol.toStringTag,{value:"Module"}));class qo{get shaderLanguage(){return this._shaderLanguage}setMaterialForRendering(e,t){this._depthMap.setMaterialForRendering(e,t)}constructor(e,t=1,i=null,s=!1,r=oe.TRILINEAR_SAMPLINGMODE,n=!1,o){this._shaderLanguage=0,this.enabled=!0,this.forceDepthWriteTransparentMeshes=!1,this.useOnlyInActiveCamera=!1,this.reverseCulling=!1,this._shadersLoaded=!1,this._scene=e,this._storeNonLinearDepth=s,this._storeCameraSpaceZ=n,this.isPacked=t===0,this.isPacked?this.clearColor=new it(1,1,1,1):this.clearColor=new it(n?0:1,0,0,1),this._initShaderSourceAsync(),qo._SceneComponentInitialization(this._scene);const h=e.getEngine();this._camera=i,r!==oe.NEAREST_SAMPLINGMODE&&(t===1&&!h._caps.textureFloatLinearFiltering&&(r=oe.NEAREST_SAMPLINGMODE),t===2&&!h._caps.textureHalfFloatLinearFiltering&&(r=oe.NEAREST_SAMPLINGMODE));const c=this.isPacked||!h._features.supportExtendedTextureFormats?5:6;this._depthMap=new or(o??"DepthRenderer",{width:h.getRenderWidth(),height:h.getRenderHeight()},this._scene,!1,!0,t,!1,r,void 0,void 0,void 0,c),this._depthMap.wrapU=oe.CLAMP_ADDRESSMODE,this._depthMap.wrapV=oe.CLAMP_ADDRESSMODE,this._depthMap.refreshRate=1,this._depthMap.renderParticles=!1,this._depthMap.renderList=null,this._depthMap.noPrePassRenderer=!0,this._depthMap.activeCamera=this._camera,this._depthMap.ignoreCameraViewport=!0,this._depthMap.useCameraPostProcesses=!1,this._depthMap.onClearObservable.add(_=>{_.clear(this.clearColor,!0,!0,!0)}),this._depthMap.onBeforeBindObservable.add(()=>{h._debugPushGroup?.("depth renderer",1)}),this._depthMap.onAfterUnbindObservable.add(()=>{h._debugPopGroup?.(1)}),this._depthMap.customIsReadyFunction=(_,g,m)=>{if((m||g===0)&&_.subMeshes)for(let A=0;A<_.subMeshes.length;++A){const b=_.subMeshes[A],E=b.getRenderingMesh(),R=E._getInstancesRenderList(b._id,!!b.getReplacementMesh()),I=h.getCaps().instancedArrays&&(R.visibleInstances[b._id]!==null&&R.visibleInstances[b._id]!==void 0||E.hasThinInstances);if(!this.isReady(b,I))return!1}return!0};const d=_=>{const g=_.getRenderingMesh(),m=_.getEffectiveMesh(),A=this._scene,b=A.getEngine(),E=_.getMaterial();if(m._internalAbstractMeshDataInfo._isActiveIntermediate=!1,!E||m.infiniteDistance||E.disableDepthWrite||_.verticesCount===0||_._renderId===A.getRenderId())return;const R=m._getWorldMatrixDeterminant()<0;let I=E._getEffectiveOrientation(g);R&&(I=I===0?1:0);const D=I===0;b.setState(E.backFaceCulling,0,!1,D,this.reverseCulling?!E.cullBackFaces:E.cullBackFaces);const O=g._getInstancesRenderList(_._id,!!_.getReplacementMesh());if(O.mustReturn)return;const M=b.getCaps().instancedArrays&&(O.visibleInstances[_._id]!==null&&O.visibleInstances[_._id]!==void 0||g.hasThinInstances),S=this._camera||A.activeCamera;if(this.isReady(_,M)&&S){_._renderId=A.getRenderId();const C=m._internalAbstractMeshDataInfo._materialForRenderPass?.[b.currentRenderPassId];let B=_._getDrawWrapper();!B&&C&&(B=C._getDrawWrapper());const G=S.mode===ze.ORTHOGRAPHIC_CAMERA;if(!B)return;const H=B.effect;b.enableEffect(B),M||g._bind(_,H,E.fillMode),C?C.bindForSubMesh(m.getWorldMatrix(),m,_):(H.setMatrix("viewProjection",A.getTransformMatrix()),H.setMatrix("world",m.getWorldMatrix()),this._storeCameraSpaceZ&&H.setMatrix("view",A.getViewMatrix()));let se,ce;if(G?(se=!b.useReverseDepthBuffer&&b.isNDCHalfZRange?0:1,ce=b.useReverseDepthBuffer&&b.isNDCHalfZRange?0:1):(se=b.useReverseDepthBuffer&&b.isNDCHalfZRange?S.minZ:b.isNDCHalfZRange?0:S.minZ,ce=b.useReverseDepthBuffer&&b.isNDCHalfZRange?0:S.maxZ),H.setFloat2("depthValues",se,se+ce),!C){if(E.needAlphaTestingForMesh(m)){const Me=E.getAlphaTestTexture();Me&&(H.setTexture("diffuseSampler",Me),H.setMatrix("diffuseMatrix",Me.getTextureMatrix()))}kh(g,H),rl(H,E,A),nl(g,H),g.morphTargetManager&&g.morphTargetManager.isUsingTextureForTargets&&g.morphTargetManager._bind(H);const Ee=_.getMesh().bakedVertexAnimationManager;Ee&&Ee.isEnabled&&Ee.bind(H,M),E.pointsCloud&&H.setFloat("pointSize",E.pointSize)}g._processRendering(m,_,H,E.fillMode,O,M,(Ee,Me)=>H.setMatrix("world",Me))}};this._depthMap.customRenderFunction=(_,g,m,A)=>{let b;if(A.length)for(b=0;b<A.length;b++)d(A.data[b]);for(b=0;b<_.length;b++)d(_.data[b]);for(b=0;b<g.length;b++)d(g.data[b]);if(this.forceDepthWriteTransparentMeshes)for(b=0;b<m.length;b++)d(m.data[b]);else for(b=0;b<m.length;b++)m.data[b].getEffectiveMesh()._internalAbstractMeshDataInfo._isActiveIntermediate=!1}}async _initShaderSourceAsync(e=!1){this._scene.getEngine().isWebGPU&&!e&&!qo.ForceGLSL?(this._shaderLanguage=1,await Promise.all([j(()=>import("./depth.vertex-rTwTDSWB.js"),__vite__mapDeps([19,12,13,20])),j(()=>import("./depth.fragment-Br4K4ONa.js"),__vite__mapDeps([21,10,4]))])):await Promise.all([j(()=>Promise.resolve().then(()=>XC),void 0),j(()=>Promise.resolve().then(()=>vC),void 0)]),this._shadersLoaded=!0}isReady(e,t){if(!this._shadersLoaded)return!1;const i=this._scene.getEngine(),s=e.getMesh(),r=s.getScene(),n=s._internalAbstractMeshDataInfo._materialForRenderPass?.[i.currentRenderPassId];if(n)return n.isReadyForSubMesh(s,e,t);const o=e.getMaterial();if(!o||o.disableDepthWrite)return!1;const h=[],c=[v.PositionKind];let d=!1,_=!1;const g=!1;o.needAlphaTestingForMesh(s)&&o.getAlphaTestTexture()&&(h.push("#define ALPHATEST"),s.isVerticesDataPresent(v.UVKind)&&(c.push(v.UVKind),h.push("#define UV1"),d=!0),s.isVerticesDataPresent(v.UV2Kind)&&(c.push(v.UV2Kind),h.push("#define UV2"),_=!0));const m=new il;if(s.useBones&&s.computeBonesUsingShaders&&s.skeleton){c.push(v.MatricesIndicesKind),c.push(v.MatricesWeightsKind),s.numBoneInfluencers>4&&(c.push(v.MatricesIndicesExtraKind),c.push(v.MatricesWeightsExtraKind)),h.push("#define NUM_BONE_INFLUENCERS "+s.numBoneInfluencers),s.numBoneInfluencers>0&&m.addCPUSkinningFallback(0,s);const D=s.skeleton;D.isUsingTextureForMatrices?h.push("#define BONETEXTURE"):h.push("#define BonesPerMesh "+(D.bones.length+1))}else h.push("#define NUM_BONE_INFLUENCERS 0");const A=s.morphTargetManager?df(s.morphTargetManager,h,c,s,!0,!1,!1,d,_,g):0;o.pointsCloud&&h.push("#define POINTSIZE"),t&&(h.push("#define INSTANCES"),Uh(c),e.getRenderingMesh().hasThinInstances&&h.push("#define THIN_INSTANCES"));const b=s.bakedVertexAnimationManager;b&&b.isEnabled&&(h.push("#define BAKED_VERTEX_ANIMATION_TEXTURE"),t&&c.push("bakedVertexAnimationSettingsInstanced")),this._storeNonLinearDepth&&h.push("#define NONLINEARDEPTH"),this._storeCameraSpaceZ&&h.push("#define STORE_CAMERASPACE_Z"),this.isPacked&&h.push("#define PACKED"),ff(o,r,h);const E=e._getDrawWrapper(void 0,!0),R=E.defines,I=h.join(`
+`);if(R!==I){const D=["world","mBones","boneTextureWidth","pointSize","viewProjection","view","diffuseMatrix","depthValues","morphTargetInfluences","morphTargetCount","morphTargetTextureInfo","morphTargetTextureIndices","bakedVertexAnimationSettings","bakedVertexAnimationTextureSizeInverted","bakedVertexAnimationTime","bakedVertexAnimationTexture"],O=["diffuseSampler","morphTargets","boneSampler","bakedVertexAnimationTexture"];sl(D),E.setEffect(i.createEffect("depth",{attributes:c,uniformsNames:D,uniformBuffersNames:[],samplers:O,defines:I,fallbacks:m,onCompiled:null,onError:null,indexParameters:{maxSimultaneousMorphTargets:A},shaderLanguage:this._shaderLanguage},i),I)}return E.effect.isReady()}getDepthMap(){return this._depthMap}dispose(){const e=[];for(const t in this._scene._depthRenderer)this._scene._depthRenderer[t]===this&&e.push(t);if(e.length>0){this._depthMap.dispose();for(const t of e)delete this._scene._depthRenderer[t]}}}qo.ForceGLSL=!1;qo._SceneComponentInitialization=a=>{throw Ye("DepthRendererSceneComponent")};var HE;(function(a){a[a.NormalizedViewDepth=0]="NormalizedViewDepth",a[a.ViewDepth=1]="ViewDepth",a[a.ScreenDepth=2]="ScreenDepth"})(HE||(HE={}));class ra extends Ui{_gatherImports(e,t){e?(this._webGPUReady=!0,t.push(j(()=>Promise.resolve().then(()=>QC),void 0))):t.push(j(()=>Promise.resolve().then(()=>jC),void 0))}constructor(e,t=null,i="",s){super({...s,name:e,engine:t||ve.LastCreatedEngine,useShaderStore:!0,useAsPostProcess:!0,fragmentShader:ra.FragmentUrl,uniforms:ra.Uniforms,defines:i}),this.textureWidth=0,this.textureHeight=0}bind(e=!1){super.bind(e);const t=this.drawWrapper.effect;this.textureWidth===1||this.textureHeight===1?t.setInt2("texSize",this.textureWidth,this.textureHeight):t.setFloat2("texSize",this.textureWidth,this.textureHeight)}}ra.FragmentUrl="minmaxRedux";ra.Uniforms=["texSize"];const YC=new Float32Array(4),KC=new Uint8Array(4),pr={min:0,max:0};class Ix{get depthRedux(){return this._depthRedux}set depthRedux(e){this._depthRedux!==e&&(this._depthRedux=e,this._recreatePostProcesses())}get textureWidth(){return this._textureWidth}get textureHeight(){return this._textureHeight}constructor(e,t=!0){this.onAfterReductionPerformed=new ee,this._textureWidth=0,this._textureHeight=0,this._scene=e,this._depthRedux=t,this.reductionSteps=[]}setTextureDimensions(e,t,i=0){return e===this._textureWidth&&t===this._textureHeight&&i===this._depthTextureType?!1:(this._textureWidth=e,this._textureHeight=t,this._depthTextureType=i,this._recreatePostProcesses(),!0)}readMinMax(e){const t=e.type===ve.TEXTURETYPE_FLOAT||e.type===ve.TEXTURETYPE_HALF_FLOAT,i=t?YC:KC;this._scene.getEngine()._readTexturePixels(e,1,1,-1,0,i,!1),pr.min=i[0],pr.max=i[1],t||(pr.min=pr.min/255,pr.max=pr.max/255),pr.min>=pr.max&&(pr.min=0,pr.max=1),this.onAfterReductionPerformed.notifyObservers(pr)}dispose(e=!0){e&&(this.onAfterReductionPerformed.clear(),this._textureWidth=0,this._textureHeight=0);for(let t=0;t<this.reductionSteps.length;++t)this.reductionSteps[t].dispose();this.reductionSteps.length=0}_recreatePostProcesses(){this.dispose(!1);const e=this._scene;let t=this.textureWidth,i=this.textureHeight;const s=new ra("Initial reduction phase",e.getEngine(),"#define INITIAL"+(this._depthRedux?`
+#define DEPTH_REDUX`:"")+(this._depthTextureType===1?`
+#define VIEW_DEPTH`:""));s.textureWidth=t,s.textureHeight=i,this.reductionSteps.push(s);let r=1;for(;t>1||i>1;){t=Math.max(Math.round(t/2),1),i=Math.max(Math.round(i/2),1);const n=new ra("Reduction phase "+r,e.getEngine(),"#define "+(t==1&&i==1?"LAST":t==1||i==1?"ONEBEFORELAST":"MAIN"));n.textureWidth=t,n.textureHeight=i,this.reductionSteps.push(n),r++}}}const Sp="minmaxReduxPixelShader",Cx=`varying vec2 vUV;uniform sampler2D textureSampler;
+#if defined(INITIAL)
+uniform vec2 texSize;void main(void)
+{ivec2 coord=ivec2(vUV*(texSize-1.0));float f1=texelFetch(textureSampler,coord,0).r;float f2=texelFetch(textureSampler,coord+ivec2(1,0),0).r;float f3=texelFetch(textureSampler,coord+ivec2(1,1),0).r;float f4=texelFetch(textureSampler,coord+ivec2(0,1),0).r;
+#ifdef DEPTH_REDUX
+#ifdef VIEW_DEPTH
+float minz=3.4e38;if (f1 != 0.0) { minz=f1; }
+if (f2 != 0.0) { minz=min(minz,f2); }
+if (f3 != 0.0) { minz=min(minz,f3); }
+if (f4 != 0.0) { minz=min(minz,f4); }
+float maxz=max(max(max(f1,f2),f3),f4);
+#else
+float minz=min(min(min(f1,f2),f3),f4);float maxz=max(max(max(sign(1.0-f1)*f1,sign(1.0-f2)*f2),sign(1.0-f3)*f3),sign(1.0-f4)*f4);
+#endif
+#else
+float minz=min(min(min(f1,f2),f3),f4);float maxz=max(max(max(f1,f2),f3),f4);
+#endif
+glFragColor=vec4(minz,maxz,0.,0.);}
+#elif defined(MAIN)
+uniform vec2 texSize;void main(void)
+{ivec2 coord=ivec2(vUV*(texSize-1.0));vec2 f1=texelFetch(textureSampler,coord,0).rg;vec2 f2=texelFetch(textureSampler,coord+ivec2(1,0),0).rg;vec2 f3=texelFetch(textureSampler,coord+ivec2(1,1),0).rg;vec2 f4=texelFetch(textureSampler,coord+ivec2(0,1),0).rg;float minz=min(min(min(f1.x,f2.x),f3.x),f4.x);float maxz=max(max(max(f1.y,f2.y),f3.y),f4.y);glFragColor=vec4(minz,maxz,0.,0.);}
+#elif defined(ONEBEFORELAST)
+uniform ivec2 texSize;void main(void)
+{ivec2 coord=ivec2(vUV*vec2(texSize-1));vec2 f1=texelFetch(textureSampler,coord % texSize,0).rg;vec2 f2=texelFetch(textureSampler,(

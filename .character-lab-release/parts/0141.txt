@@ -1,0 +1,340 @@
+ClassName(),this.parent&&this.parent._serializeAsParent(e),this.inputs&&this.inputs.serialize(e),Ze.AppendSerializedAnimations(this,e),e.ranges=this.serializeAnimationRanges(),e.isEnabled=this.isEnabled(),e}clone(e,t=null){const i=Ze.Clone(ze.GetConstructorFromName(this.getClassName(),e,this.getScene(),this.interaxialDistance,this.isStereoscopicSideBySide),this);return i.name=e,i.parent=t,this.onClonedObservable.notifyObservers(i),i}getDirection(e){const t=y.Zero();return this.getDirectionToRef(e,t),t}get absoluteRotation(){return this.getWorldMatrix().decompose(void 0,this._absoluteRotation),this._absoluteRotation}getDirectionToRef(e,t){y.TransformNormalToRef(e,this.getWorldMatrix(),t)}static GetConstructorFromName(e,t,i,s=0,r=!0){const n=ei.Construct(e,t,i,{interaxial_distance:s,isStereoscopicSideBySide:r});return n||(()=>ze._CreateDefaultParsedCamera(t,i))}computeWorldMatrix(){return this.getWorldMatrix()}static Parse(e,t){const i=e.type,s=ze.GetConstructorFromName(i,e.name,t,e.interaxial_distance,e.isStereoscopicSideBySide),r=Ze.Parse(s,e,t);if(e.parentId!==void 0&&(r._waitingParentId=e.parentId),e.parentInstanceIndex!==void 0&&(r._waitingParentInstanceIndex=e.parentInstanceIndex),r.inputs&&(r.inputs.parse(e),r._setupInputs()),e.upVector&&(r.upVector=y.FromArray(e.upVector)),r.setPosition&&(r.position.copyFromFloats(0,0,0),r.setPosition(y.FromArray(e.position))),e.target&&r.setTarget&&r.setTarget(y.FromArray(e.target)),e.cameraRigMode){const n=e.interaxial_distance?{interaxialDistance:e.interaxial_distance}:{};r.setCameraRigMode(e.cameraRigMode,n)}if(e.animations){for(let n=0;n<e.animations.length;n++){const o=e.animations[n],h=kr("BABYLON.Animation");h&&r.animations.push(h.Parse(o))}ei.ParseAnimationRanges(r,e,t)}return e.autoAnimate&&t.beginAnimation(r,e.autoAnimateFrom,e.autoAnimateTo,e.autoAnimateLoop,e.autoAnimateSpeed||1),e.isEnabled!==void 0&&r.setEnabled(e.isEnabled),r}_calculateHandednessMultiplier(){let e=this.getScene().useRightHandedSystem?-1:1;return this.parent&&this.parent._getWorldMatrixDeterminant()<0&&(e*=-1),e}}ze._CreateDefaultParsedCamera=(a,e)=>{throw Ye("UniversalCamera")};ze.PERSPECTIVE_CAMERA=0;ze.ORTHOGRAPHIC_CAMERA=1;ze.FOVMODE_VERTICAL_FIXED=0;ze.FOVMODE_HORIZONTAL_FIXED=1;ze.RIG_MODE_NONE=0;ze.RIG_MODE_STEREOSCOPIC_ANAGLYPH=10;ze.RIG_MODE_STEREOSCOPIC_SIDEBYSIDE_PARALLEL=11;ze.RIG_MODE_STEREOSCOPIC_SIDEBYSIDE_CROSSEYED=12;ze.RIG_MODE_STEREOSCOPIC_OVERUNDER=13;ze.RIG_MODE_STEREOSCOPIC_INTERLACED=14;ze.RIG_MODE_VR=20;ze.RIG_MODE_CUSTOM=22;ze.ForceAttachControlToAlwaysPreventDefault=!1;P([ms("position")],ze.prototype,"_position",void 0);P([ms("upVector")],ze.prototype,"_upVector",void 0);P([L()],ze.prototype,"orthoLeft",null);P([L()],ze.prototype,"orthoRight",null);P([L()],ze.prototype,"orthoBottom",null);P([L()],ze.prototype,"orthoTop",null);P([L()],ze.prototype,"fov",void 0);P([L()],ze.prototype,"projectionPlaneTilt",void 0);P([L()],ze.prototype,"minZ",void 0);P([L()],ze.prototype,"maxZ",void 0);P([L()],ze.prototype,"inertia",void 0);P([L()],ze.prototype,"mode",null);P([L()],ze.prototype,"layerMask",void 0);P([L()],ze.prototype,"fovMode",void 0);P([L()],ze.prototype,"cameraRigMode",void 0);P([L()],ze.prototype,"interaxialDistance",void 0);P([L()],ze.prototype,"isStereoscopicSideBySide",void 0);const SE="clipPlaneFragmentDeclaration",SC=`#ifdef CLIPPLANE
+varying float fClipDistance;
+#endif
+#ifdef CLIPPLANE2
+varying float fClipDistance2;
+#endif
+#ifdef CLIPPLANE3
+varying float fClipDistance3;
+#endif
+#ifdef CLIPPLANE4
+varying float fClipDistance4;
+#endif
+#ifdef CLIPPLANE5
+varying float fClipDistance5;
+#endif
+#ifdef CLIPPLANE6
+varying float fClipDistance6;
+#endif
+`;Qe.IncludesShadersStore[SE]||(Qe.IncludesShadersStore[SE]=SC);const ME="packingFunctions",MC=`vec4 pack(float depth)
+{const vec4 bit_shift=vec4(255.0*255.0*255.0,255.0*255.0,255.0,1.0);const vec4 bit_mask=vec4(0.0,1.0/255.0,1.0/255.0,1.0/255.0);vec4 res=fract(depth*bit_shift);res-=res.xxyz*bit_mask;return res;}
+float unpack(vec4 color)
+{const vec4 bit_shift=vec4(1.0/(255.0*255.0*255.0),1.0/(255.0*255.0),1.0/255.0,1.0);return dot(color,bit_shift);}`;Qe.IncludesShadersStore[ME]||(Qe.IncludesShadersStore[ME]=MC);const IE="clipPlaneFragment",IC=`#if defined(CLIPPLANE) || defined(CLIPPLANE2) || defined(CLIPPLANE3) || defined(CLIPPLANE4) || defined(CLIPPLANE5) || defined(CLIPPLANE6)
+if (false) {}
+#endif
+#ifdef CLIPPLANE
+else if (fClipDistance>0.0)
+{discard;}
+#endif
+#ifdef CLIPPLANE2
+else if (fClipDistance2>0.0)
+{discard;}
+#endif
+#ifdef CLIPPLANE3
+else if (fClipDistance3>0.0)
+{discard;}
+#endif
+#ifdef CLIPPLANE4
+else if (fClipDistance4>0.0)
+{discard;}
+#endif
+#ifdef CLIPPLANE5
+else if (fClipDistance5>0.0)
+{discard;}
+#endif
+#ifdef CLIPPLANE6
+else if (fClipDistance6>0.0)
+{discard;}
+#endif
+`;Qe.IncludesShadersStore[IE]||(Qe.IncludesShadersStore[IE]=IC);const xp="depthPixelShader",Sx=`#ifdef ALPHATEST
+varying vec2 vUV;uniform sampler2D diffuseSampler;
+#endif
+#include<clipPlaneFragmentDeclaration>
+varying float vDepthMetric;
+#ifdef PACKED
+#include<packingFunctions>
+#endif
+#ifdef STORE_CAMERASPACE_Z
+varying vec4 vViewPos;
+#endif
+#define CUSTOM_FRAGMENT_DEFINITIONS
+void main(void)
+{
+#include<clipPlaneFragment>
+#ifdef ALPHATEST
+if (texture2D(diffuseSampler,vUV).a<0.4)
+discard;
+#endif
+#ifdef STORE_CAMERASPACE_Z
+#ifdef PACKED
+gl_FragColor=pack(vViewPos.z);
+#else
+gl_FragColor=vec4(vViewPos.z,0.0,0.0,1.0);
+#endif
+#else
+#ifdef NONLINEARDEPTH
+#ifdef PACKED
+gl_FragColor=pack(gl_FragCoord.z);
+#else
+gl_FragColor=vec4(gl_FragCoord.z,0.0,0.0,0.0);
+#endif
+#else
+#ifdef PACKED
+gl_FragColor=pack(vDepthMetric);
+#else
+gl_FragColor=vec4(vDepthMetric,0.0,0.0,1.0);
+#endif
+#endif
+#endif
+}`;Qe.ShadersStore[xp]||(Qe.ShadersStore[xp]=Sx);const CC={name:xp,shader:Sx},vC=Object.freeze(Object.defineProperty({__proto__:null,depthPixelShader:CC},Symbol.toStringTag,{value:"Module"})),CE="bonesDeclaration",PC=`#if NUM_BONE_INFLUENCERS>0
+attribute vec4 matricesIndices;attribute vec4 matricesWeights;
+#if NUM_BONE_INFLUENCERS>4
+attribute vec4 matricesIndicesExtra;attribute vec4 matricesWeightsExtra;
+#endif
+#ifndef BAKED_VERTEX_ANIMATION_TEXTURE
+#ifdef BONETEXTURE
+uniform highp sampler2D boneSampler;uniform float boneTextureWidth;
+#else
+uniform mat4 mBones[BonesPerMesh];
+#endif
+#ifdef BONES_VELOCITY_ENABLED
+uniform mat4 mPreviousBones[BonesPerMesh];
+#endif
+#ifdef BONETEXTURE
+#define inline
+mat4 readMatrixFromRawSampler(sampler2D smp,float index)
+{float offset=index *4.0;float dx=1.0/boneTextureWidth;vec4 m0=texture2D(smp,vec2(dx*(offset+0.5),0.));vec4 m1=texture2D(smp,vec2(dx*(offset+1.5),0.));vec4 m2=texture2D(smp,vec2(dx*(offset+2.5),0.));vec4 m3=texture2D(smp,vec2(dx*(offset+3.5),0.));return mat4(m0,m1,m2,m3);}
+#endif
+#endif
+#endif
+`;Qe.IncludesShadersStore[CE]||(Qe.IncludesShadersStore[CE]=PC);const vE="bakedVertexAnimationDeclaration",OC=`#ifdef BAKED_VERTEX_ANIMATION_TEXTURE
+uniform float bakedVertexAnimationTime;uniform vec2 bakedVertexAnimationTextureSizeInverted;uniform vec4 bakedVertexAnimationSettings;uniform sampler2D bakedVertexAnimationTexture;
+#ifdef INSTANCES
+attribute vec4 bakedVertexAnimationSettingsInstanced;
+#endif
+#define inline
+mat4 readMatrixFromRawSamplerVAT(sampler2D smp,float index,float frame)
+{float offset=index*4.0;float frameUV=(frame+0.5)*bakedVertexAnimationTextureSizeInverted.y;float dx=bakedVertexAnimationTextureSizeInverted.x;vec4 m0=texture2D(smp,vec2(dx*(offset+0.5),frameUV));vec4 m1=texture2D(smp,vec2(dx*(offset+1.5),frameUV));vec4 m2=texture2D(smp,vec2(dx*(offset+2.5),frameUV));vec4 m3=texture2D(smp,vec2(dx*(offset+3.5),frameUV));return mat4(m0,m1,m2,m3);}
+#endif
+`;Qe.IncludesShadersStore[vE]||(Qe.IncludesShadersStore[vE]=OC);const PE="morphTargetsVertexGlobalDeclaration",DC=`#ifdef MORPHTARGETS
+uniform float morphTargetInfluences[NUM_MORPH_INFLUENCERS];
+#ifdef MORPHTARGETS_TEXTURE 
+uniform float morphTargetTextureIndices[NUM_MORPH_INFLUENCERS];uniform vec3 morphTargetTextureInfo;uniform highp sampler2DArray morphTargets;vec3 readVector3FromRawSampler(int targetIndex,float vertexIndex)
+{ 
+float y=floor(vertexIndex/morphTargetTextureInfo.y);float x=vertexIndex-y*morphTargetTextureInfo.y;vec3 textureUV=vec3((x+0.5)/morphTargetTextureInfo.y,(y+0.5)/morphTargetTextureInfo.z,morphTargetTextureIndices[targetIndex]);return texture(morphTargets,textureUV).xyz;}
+vec4 readVector4FromRawSampler(int targetIndex,float vertexIndex)
+{ 
+float y=floor(vertexIndex/morphTargetTextureInfo.y);float x=vertexIndex-y*morphTargetTextureInfo.y;vec3 textureUV=vec3((x+0.5)/morphTargetTextureInfo.y,(y+0.5)/morphTargetTextureInfo.z,morphTargetTextureIndices[targetIndex]);return texture(morphTargets,textureUV);}
+#endif
+#endif
+`;Qe.IncludesShadersStore[PE]||(Qe.IncludesShadersStore[PE]=DC);const OE="morphTargetsVertexDeclaration",wC=`#ifdef MORPHTARGETS
+#ifndef MORPHTARGETS_TEXTURE
+#ifdef MORPHTARGETS_POSITION
+attribute vec3 position{X};
+#endif
+#ifdef MORPHTARGETS_NORMAL
+attribute vec3 normal{X};
+#endif
+#ifdef MORPHTARGETS_TANGENT
+attribute vec3 tangent{X};
+#endif
+#ifdef MORPHTARGETS_UV
+attribute vec2 uv_{X};
+#endif
+#ifdef MORPHTARGETS_UV2
+attribute vec2 uv2_{X};
+#endif
+#ifdef MORPHTARGETS_COLOR
+attribute vec4 color{X};
+#endif
+#elif {X}==0
+uniform float morphTargetCount;
+#endif
+#endif
+`;Qe.IncludesShadersStore[OE]||(Qe.IncludesShadersStore[OE]=wC);const DE="clipPlaneVertexDeclaration",FC=`#ifdef CLIPPLANE
+uniform vec4 vClipPlane;varying float fClipDistance;
+#endif
+#ifdef CLIPPLANE2
+uniform vec4 vClipPlane2;varying float fClipDistance2;
+#endif
+#ifdef CLIPPLANE3
+uniform vec4 vClipPlane3;varying float fClipDistance3;
+#endif
+#ifdef CLIPPLANE4
+uniform vec4 vClipPlane4;varying float fClipDistance4;
+#endif
+#ifdef CLIPPLANE5
+uniform vec4 vClipPlane5;varying float fClipDistance5;
+#endif
+#ifdef CLIPPLANE6
+uniform vec4 vClipPlane6;varying float fClipDistance6;
+#endif
+`;Qe.IncludesShadersStore[DE]||(Qe.IncludesShadersStore[DE]=FC);const wE="instancesDeclaration",LC=`#ifdef INSTANCES
+attribute vec4 world0;attribute vec4 world1;attribute vec4 world2;attribute vec4 world3;
+#ifdef INSTANCESCOLOR
+attribute vec4 instanceColor;
+#endif
+#if defined(THIN_INSTANCES) && !defined(WORLD_UBO)
+uniform mat4 world;
+#endif
+#if defined(VELOCITY) || defined(PREPASS_VELOCITY) || defined(PREPASS_VELOCITY_LINEAR) || defined(VELOCITY_LINEAR)
+attribute vec4 previousWorld0;attribute vec4 previousWorld1;attribute vec4 previousWorld2;attribute vec4 previousWorld3;
+#ifdef THIN_INSTANCES
+uniform mat4 previousWorld;
+#endif
+#endif
+#else
+#if !defined(WORLD_UBO)
+uniform mat4 world;
+#endif
+#if defined(VELOCITY) || defined(PREPASS_VELOCITY) || defined(PREPASS_VELOCITY_LINEAR) || defined(VELOCITY_LINEAR)
+uniform mat4 previousWorld;
+#endif
+#endif
+`;Qe.IncludesShadersStore[wE]||(Qe.IncludesShadersStore[wE]=LC);const FE="pointCloudVertexDeclaration",BC=`#ifdef POINTSIZE
+uniform float pointSize;
+#endif
+`;Qe.IncludesShadersStore[FE]||(Qe.IncludesShadersStore[FE]=BC);const LE="morphTargetsVertexGlobal",NC=`#ifdef MORPHTARGETS
+#ifdef MORPHTARGETS_TEXTURE
+float vertexID;
+#endif
+#endif
+`;Qe.IncludesShadersStore[LE]||(Qe.IncludesShadersStore[LE]=NC);const BE="morphTargetsVertex",UC=`#ifdef MORPHTARGETS
+#ifdef MORPHTARGETS_TEXTURE
+#if {X}==0
+for (int i=0; i<NUM_MORPH_INFLUENCERS; i++) {if (float(i)>=morphTargetCount) break;vertexID=float(gl_VertexID)*morphTargetTextureInfo.x;
+#ifdef MORPHTARGETS_POSITION
+positionUpdated+=(readVector3FromRawSampler(i,vertexID)-position)*morphTargetInfluences[i];
+#endif
+#ifdef MORPHTARGETTEXTURE_HASPOSITIONS
+vertexID+=1.0;
+#endif
+#ifdef MORPHTARGETS_NORMAL
+normalUpdated+=(readVector3FromRawSampler(i,vertexID) -normal)*morphTargetInfluences[i];
+#endif
+#ifdef MORPHTARGETTEXTURE_HASNORMALS
+vertexID+=1.0;
+#endif
+#ifdef MORPHTARGETS_UV
+uvUpdated+=(readVector3FromRawSampler(i,vertexID).xy-uv)*morphTargetInfluences[i];
+#endif
+#ifdef MORPHTARGETTEXTURE_HASUVS
+vertexID+=1.0;
+#endif
+#ifdef MORPHTARGETS_TANGENT
+tangentUpdated.xyz+=(readVector3FromRawSampler(i,vertexID) -tangent.xyz)*morphTargetInfluences[i];
+#endif
+#ifdef MORPHTARGETTEXTURE_HASTANGENTS
+vertexID+=1.0;
+#endif
+#ifdef MORPHTARGETS_UV2
+uv2Updated+=(readVector3FromRawSampler(i,vertexID).xy-uv2)*morphTargetInfluences[i];
+#endif
+#ifdef MORPHTARGETTEXTURE_HASUV2S
+vertexID+=1.0;
+#endif
+#ifdef MORPHTARGETS_COLOR
+colorUpdated+=(readVector4FromRawSampler(i,vertexID)-color)*morphTargetInfluences[i];
+#endif
+}
+#endif
+#else
+#ifdef MORPHTARGETS_POSITION
+positionUpdated+=(position{X}-position)*morphTargetInfluences[{X}];
+#endif
+#ifdef MORPHTARGETS_NORMAL
+normalUpdated+=(normal{X}-normal)*morphTargetInfluences[{X}];
+#endif
+#ifdef MORPHTARGETS_TANGENT
+tangentUpdated.xyz+=(tangent{X}-tangent.xyz)*morphTargetInfluences[{X}];
+#endif
+#ifdef MORPHTARGETS_UV
+uvUpdated+=(uv_{X}-uv)*morphTargetInfluences[{X}];
+#endif
+#ifdef MORPHTARGETS_UV2
+uv2Updated+=(uv2_{X}-uv2)*morphTargetInfluences[{X}];
+#endif
+#ifdef MORPHTARGETS_COLOR
+colorUpdated+=(color{X}-color)*morphTargetInfluences[{X}];
+#endif
+#endif
+#endif
+`;Qe.IncludesShadersStore[BE]||(Qe.IncludesShadersStore[BE]=UC);const NE="instancesVertex",kC=`#ifdef INSTANCES
+mat4 finalWorld=mat4(world0,world1,world2,world3);
+#if defined(PREPASS_VELOCITY) || defined(VELOCITY) || defined(PREPASS_VELOCITY_LINEAR) || defined(VELOCITY_LINEAR)
+mat4 finalPreviousWorld=mat4(previousWorld0,previousWorld1,
+previousWorld2,previousWorld3);
+#endif
+#ifdef THIN_INSTANCES
+finalWorld=world*finalWorld;
+#if defined(PREPASS_VELOCITY) || defined(VELOCITY) || defined(PREPASS_VELOCITY_LINEAR) || defined(VELOCITY_LINEAR)
+finalPreviousWorld=previousWorld*finalPreviousWorld;
+#endif
+#endif
+#else
+mat4 finalWorld=world;
+#if defined(PREPASS_VELOCITY) || defined(VELOCITY) || defined(PREPASS_VELOCITY_LINEAR) || defined(VELOCITY_LINEAR)
+mat4 finalPreviousWorld=previousWorld;
+#endif
+#endif
+`;Qe.IncludesShadersStore[NE]||(Qe.IncludesShadersStore[NE]=kC);const UE="bonesVertex",VC=`#ifndef BAKED_VERTEX_ANIMATION_TEXTURE
+#if NUM_BONE_INFLUENCERS>0
+mat4 influence;
+#ifdef BONETEXTURE
+influence=readMatrixFromRawSampler(boneSampler,matricesIndices[0])*matricesWeights[0];
+#if NUM_BONE_INFLUENCERS>1
+influence+=readMatrixFromRawSampler(boneSampler,matricesIndices[1])*matricesWeights[1];
+#endif
+#if NUM_BONE_INFLUENCERS>2
+influence+=readMatrixFromRawSampler(boneSampler,matricesIndices[2])*matricesWeights[2];
+#endif
+#if NUM_BONE_INFLUENCERS>3
+influence+=readMatrixFromRawSampler(boneSampler,matricesIndices[3])*matricesWeights[3];
+#endif
+#if NUM_BONE_INFLUENCERS>4
+influence+=readMatrixFromRawSampler(boneSampler,matricesIndicesExtra[0])*matricesWeightsExtra[0];
+#endif
+#if NUM_BONE_INFLUENCERS>5
+influence+=readMatrixFromRawSampler(boneSampler,matricesIndicesExtra[1])*matricesWeightsExtra[1];
+#endif
+#if NUM_BONE_INFLUENCERS>6
+influence+=readMatrixFromRawSampler(boneSampler,matricesIndicesExtra[2])*matricesWeightsExtra[2];
+#endif
+#if NUM_BONE_INFLUENCERS>7
+influence+=readMatrixFromRawSampler(boneSampler,matricesIndicesExtra[3])*matricesWeightsExtra[3];
+#endif
+#else
+influence=mBones[int(matricesIndices[0])]*matricesWeights[0];
+#if NUM_BONE_INFLUENCERS>1
+influence+=mBones[int(matricesIndices[1])]*matricesWeights[1];
+#endif
+#if NUM_BONE_INFLUENCERS>2
+influence+=mBones[int(matricesIndices[2])]*matricesWeights[2];
+#endif
+#if NUM_BONE_INFLUENCERS>3
+influence+=mBones[int(matricesIndices[3])]*matricesWeights[3];
+#endif
+#if NUM_BONE_INFLUENCERS>4
+influence+=mBones[int(matricesIndicesExtra[0])]*matricesWeightsExtra[0];
+#endif
+#if NUM_BONE_INFLUENCERS>5
+influence+=mBones[int(matricesIndicesExtra[1])]*matricesWeightsExtra[1];
+#endif
+#if NUM_BONE_INFLUENCERS>6
+influence+=mBones[int(matricesIndicesExtra[2])]*matricesWeightsExtra[2];
+#endif
+#if NUM_BONE_INFLUENCERS>7
+influence+=mBones[int(matricesIndicesExtra[3])]*matricesWeightsExtra[3];
+#endif
+#endif
+finalWorld=finalWorld*influence;
+#endif
+#endif
+`;Qe.IncludesShadersStore[UE]||(Qe.IncludesShadersStore[UE]=VC);const kE="bakedVertexAnimation",GC=`#ifdef BAKED_VERTEX_ANIMATION_TEXTURE
+{
+#ifdef INSTANCES
+#define BVASNAME bakedVertexAnimationSettingsInstanced
+#else
+#define BVASNAME bakedVertexAnimationSettings
+#endif
+float VATStar

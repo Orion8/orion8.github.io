@@ -1,0 +1,32 @@
+name: Prepare verified Character Lab release
+on:
+  push:
+    branches: ['release/character-lab-motions']
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: release-input
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: website
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reconstruct and checksum verified website
+        working-directory: release-input
+        run: node .character-lab-release/reconstruct.mjs ../website
+      - name: Save release based on hosting main
+        working-directory: website
+        run: |
+          git config user.name "character-lab-build[bot]"
+          git config user.email "character-lab-build@users.noreply.github.com"
+          git add character_lab
+          git commit -m "character_lab: deploy five verified body animations and version label"
+          git push origin "HEAD:refs/heads/release/character-lab-ready-37072135850"

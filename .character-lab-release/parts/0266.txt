@@ -1,0 +1,411 @@
+HT0)
+vec3 coloredFresnel;
+#endif
+preLightingInfo preInfo;lightingInfo info;float shadow=1.; 
+float aggShadow=0.;float numLights=0.;
+#if defined(CLEARCOAT) && defined(CLEARCOAT_TINT)
+vec3 absorption=vec3(0.);
+#endif
+`;e.IncludesShadersStore[F]||(e.IncludesShadersStore[F]=ue);const P="pbrBlockFinalLitComponents",Ce=`aggShadow=aggShadow/numLights;
+#if defined(ENVIRONMENTBRDF)
+#ifdef MS_BRDF_ENERGY_CONSERVATION
+vec3 baseSpecularEnergyConservationFactor=getEnergyConservationFactor(vec3(reflectanceF0),environmentBrdf);vec3 coloredEnergyConservationFactor=getEnergyConservationFactor(clearcoatOut.specularEnvironmentR0,environmentBrdf);
+#endif
+#endif
+#if defined(SHEEN) && defined(SHEEN_ALBEDOSCALING) && defined(ENVIRONMENTBRDF)
+surfaceAlbedo.rgb=sheenOut.sheenAlbedoScaling*surfaceAlbedo.rgb;
+#endif
+#ifdef LEGACY_SPECULAR_ENERGY_CONSERVATION
+#ifndef METALLICWORKFLOW
+#ifdef SPECULAR_GLOSSINESS_ENERGY_CONSERVATION
+surfaceAlbedo.rgb=(1.-reflectanceF0)*surfaceAlbedo.rgb;
+#endif
+#endif
+#endif
+#ifdef REFLECTION
+vec3 finalIrradiance=reflectionOut.environmentIrradiance;
+#ifndef LEGACY_SPECULAR_ENERGY_CONSERVATION
+#if defined(METALLICWORKFLOW) || defined(SPECULAR_GLOSSINESS_ENERGY_CONSERVATION)
+vec3 baseSpecularEnergy=vec3(baseSpecularEnvironmentReflectance);
+#if defined(ENVIRONMENTBRDF)
+#ifdef MS_BRDF_ENERGY_CONSERVATION
+baseSpecularEnergy*=baseSpecularEnergyConservationFactor;
+#endif
+#endif
+finalIrradiance*=clamp(vec3(1.0)-baseSpecularEnergy,0.0,1.0);
+#endif
+#endif
+#if defined(CLEARCOAT)
+finalIrradiance*=clearcoatOut.conservationFactor;
+#if defined(CLEARCOAT_TINT)
+finalIrradiance*=clearcoatOut.absorption;
+#endif
+#endif
+#ifndef SS_APPLY_ALBEDO_AFTER_SUBSURFACE
+finalIrradiance*=surfaceAlbedo.rgb;
+#endif
+#if defined(SS_REFRACTION)
+finalIrradiance*=subSurfaceOut.refractionOpacity;
+#endif
+#if defined(SS_TRANSLUCENCY)
+finalIrradiance*=(1.0-subSurfaceOut.translucencyIntensity);finalIrradiance+=subSurfaceOut.refractionIrradiance;
+#endif
+#ifdef SS_APPLY_ALBEDO_AFTER_SUBSURFACE
+finalIrradiance*=surfaceAlbedo.rgb;
+#endif
+finalIrradiance*=vLightingIntensity.z;finalIrradiance*=aoOut.ambientOcclusionColor;
+#endif
+#ifdef SPECULARTERM
+vec3 finalSpecular=specularBase;finalSpecular=max(finalSpecular,0.0);vec3 finalSpecularScaled=finalSpecular*vLightingIntensity.x*vLightingIntensity.w;
+#if defined(ENVIRONMENTBRDF) && defined(MS_BRDF_ENERGY_CONSERVATION)
+finalSpecularScaled*=coloredEnergyConservationFactor;
+#endif
+#if defined(SHEEN) && defined(ENVIRONMENTBRDF) && defined(SHEEN_ALBEDOSCALING)
+finalSpecularScaled*=sheenOut.sheenAlbedoScaling;
+#endif
+#endif
+#ifdef REFLECTION
+vec3 finalRadiance=reflectionOut.environmentRadiance.rgb;finalRadiance*=colorSpecularEnvironmentReflectance;vec3 finalRadianceScaled=finalRadiance*vLightingIntensity.z;
+#if defined(ENVIRONMENTBRDF) && defined(MS_BRDF_ENERGY_CONSERVATION)
+finalRadianceScaled*=coloredEnergyConservationFactor;
+#endif
+#if defined(SHEEN) && defined(ENVIRONMENTBRDF) && defined(SHEEN_ALBEDOSCALING)
+finalRadianceScaled*=sheenOut.sheenAlbedoScaling;
+#endif
+#endif
+#ifdef SHEEN
+vec3 finalSheen=sheenBase*sheenOut.sheenColor;finalSheen=max(finalSheen,0.0);vec3 finalSheenScaled=finalSheen*vLightingIntensity.x*vLightingIntensity.w;
+#if defined(CLEARCOAT) && defined(REFLECTION) && defined(ENVIRONMENTBRDF)
+sheenOut.finalSheenRadianceScaled*=clearcoatOut.conservationFactor;
+#if defined(CLEARCOAT_TINT)
+sheenOut.finalSheenRadianceScaled*=clearcoatOut.absorption;
+#endif
+#endif
+#endif
+#ifdef CLEARCOAT
+vec3 finalClearCoat=clearCoatBase;finalClearCoat=max(finalClearCoat,0.0);vec3 finalClearCoatScaled=finalClearCoat*vLightingIntensity.x*vLightingIntensity.w;
+#if defined(ENVIRONMENTBRDF) && defined(MS_BRDF_ENERGY_CONSERVATION)
+finalClearCoatScaled*=clearcoatOut.energyConservationFactorClearCoat;
+#endif
+#ifdef SS_REFRACTION
+subSurfaceOut.finalRefraction*=clearcoatOut.conservationFactor;
+#ifdef CLEARCOAT_TINT
+subSurfaceOut.finalRefraction*=clearcoatOut.absorption;
+#endif
+#endif
+#endif
+#ifdef ALPHABLEND
+float luminanceOverAlpha=0.0;
+#if defined(REFLECTION) && defined(RADIANCEOVERALPHA)
+luminanceOverAlpha+=getLuminance(finalRadianceScaled);
+#if defined(CLEARCOAT)
+luminanceOverAlpha+=getLuminance(clearcoatOut.finalClearCoatRadianceScaled);
+#endif
+#endif
+#if defined(SPECULARTERM) && defined(SPECULAROVERALPHA)
+luminanceOverAlpha+=getLuminance(finalSpecularScaled);
+#endif
+#if defined(CLEARCOAT) && defined(CLEARCOATOVERALPHA)
+luminanceOverAlpha+=getLuminance(finalClearCoatScaled);
+#endif
+#if defined(RADIANCEOVERALPHA) || defined(SPECULAROVERALPHA) || defined(CLEARCOATOVERALPHA)
+alpha=saturate(alpha+luminanceOverAlpha*luminanceOverAlpha);
+#endif
+#endif
+`;e.IncludesShadersStore[P]||(e.IncludesShadersStore[P]=Ce);const U="pbrBlockFinalUnlitComponents",Se=`vec3 finalDiffuse=diffuseBase;finalDiffuse*=surfaceAlbedo;
+#if defined(SS_REFRACTION) && !defined(UNLIT) && !defined(LEGACY_SPECULAR_ENERGY_CONSERVATION)
+finalDiffuse*=subSurfaceOut.refractionOpacity;
+#endif
+#if defined(SS_TRANSLUCENCY) && !defined(UNLIT)
+finalDiffuse+=diffuseTransmissionBase;
+#endif
+finalDiffuse=max(finalDiffuse,0.0);finalDiffuse*=vLightingIntensity.x;vec3 finalAmbient=vAmbientColor;finalAmbient*=surfaceAlbedo.rgb;vec3 finalEmissive=vEmissiveColor;
+#ifdef EMISSIVE
+vec3 emissiveColorTex=texture2D(emissiveSampler,vEmissiveUV+uvOffset).rgb;
+#ifdef GAMMAEMISSIVE
+finalEmissive*=toLinearSpace(emissiveColorTex.rgb);
+#else
+finalEmissive*=emissiveColorTex.rgb;
+#endif
+finalEmissive*= vEmissiveInfos.y;
+#endif
+finalEmissive*=vLightingIntensity.y;
+#ifdef AMBIENT
+vec3 ambientOcclusionForDirectDiffuse=mix(vec3(1.),aoOut.ambientOcclusionColor,vAmbientInfos.w);
+#else
+vec3 ambientOcclusionForDirectDiffuse=aoOut.ambientOcclusionColor;
+#endif
+finalAmbient*=aoOut.ambientOcclusionColor;finalDiffuse*=ambientOcclusionForDirectDiffuse;
+`;e.IncludesShadersStore[U]||(e.IncludesShadersStore[U]=Se);const b="pbrBlockFinalColorComposition",Ae=`vec4 finalColor=vec4(
+#ifndef UNLIT
+#ifdef REFLECTION
+finalIrradiance +
+#endif
+#ifdef SPECULARTERM
+finalSpecularScaled +
+#endif
+#ifdef SHEEN
+finalSheenScaled +
+#endif
+#ifdef CLEARCOAT
+finalClearCoatScaled +
+#endif
+#ifdef REFLECTION
+finalRadianceScaled +
+#if defined(SHEEN) && defined(ENVIRONMENTBRDF)
+sheenOut.finalSheenRadianceScaled +
+#endif
+#ifdef CLEARCOAT
+clearcoatOut.finalClearCoatRadianceScaled +
+#endif
+#endif
+#ifdef SS_REFRACTION
+subSurfaceOut.finalRefraction +
+#endif
+#endif
+finalAmbient +
+finalDiffuse,
+alpha);
+#ifdef LIGHTMAP
+#ifndef LIGHTMAPEXCLUDED
+#ifdef USELIGHTMAPASSHADOWMAP
+finalColor.rgb*=lightmapColor.rgb;
+#else
+finalColor.rgb+=lightmapColor.rgb;
+#endif
+#endif
+#endif
+finalColor.rgb+=finalEmissive;
+#define CUSTOM_FRAGMENT_BEFORE_FOG
+finalColor=max(finalColor,0.0);
+`;e.IncludesShadersStore[b]||(e.IncludesShadersStore[b]=Ae);const B="pbrBlockImageProcessing",me=`#if defined(IMAGEPROCESSINGPOSTPROCESS) || defined(SS_SCATTERING)
+#if !defined(SKIPFINALCOLORCLAMP)
+finalColor.rgb=clamp(finalColor.rgb,0.,30.0);
+#endif
+#else
+finalColor=applyImageProcessing(finalColor);
+#endif
+finalColor.a*=visibility;
+#ifdef PREMULTIPLYALPHA
+finalColor.rgb*=finalColor.a;
+#endif
+`;e.IncludesShadersStore[B]||(e.IncludesShadersStore[B]=me);const y="pbrBlockPrePass",Ie=`#if SCENE_MRT_COUNT>0
+float writeGeometryInfo=finalColor.a>ALPHATESTVALUE ? 1.0 : 0.0;
+#ifdef PREPASS_POSITION
+gl_FragData[PREPASS_POSITION_INDEX]=vec4(vPositionW,writeGeometryInfo);
+#endif
+#ifdef PREPASS_LOCAL_POSITION
+gl_FragData[PREPASS_LOCAL_POSITION_INDEX]=vec4(vPosition,writeGeometryInfo);
+#endif
+#if defined(PREPASS_VELOCITY)
+vec2 a=(vCurrentPosition.xy/vCurrentPosition.w)*0.5+0.5;vec2 b=(vPreviousPosition.xy/vPreviousPosition.w)*0.5+0.5;vec2 velocity=abs(a-b);velocity=vec2(pow(velocity.x,1.0/3.0),pow(velocity.y,1.0/3.0))*sign(a-b)*0.5+0.5;gl_FragData[PREPASS_VELOCITY_INDEX]=vec4(velocity,0.0,writeGeometryInfo);
+#elif defined(PREPASS_VELOCITY_LINEAR)
+vec2 velocity=vec2(0.5)*((vPreviousPosition.xy/vPreviousPosition.w)-(vCurrentPosition.xy/vCurrentPosition.w));gl_FragData[PREPASS_VELOCITY_LINEAR_INDEX]=vec4(velocity,0.0,writeGeometryInfo);
+#endif
+#ifdef PREPASS_ALBEDO
+gl_FragData[PREPASS_ALBEDO_INDEX]=vec4(surfaceAlbedo,writeGeometryInfo);
+#endif
+#ifdef PREPASS_ALBEDO_SQRT
+vec3 sqAlbedo=sqrt(surfaceAlbedo); 
+#endif
+#ifdef PREPASS_IRRADIANCE
+vec3 irradiance=finalDiffuse;
+#ifndef UNLIT
+#ifdef REFLECTION
+irradiance+=finalIrradiance;
+#endif
+#endif
+#ifdef SS_SCATTERING
+#ifdef PREPASS_COLOR
+gl_FragData[PREPASS_COLOR_INDEX]=vec4(finalColor.rgb-irradiance,finalColor.a); 
+#endif
+irradiance/=sqAlbedo;
+#else
+#ifdef PREPASS_COLOR
+gl_FragData[PREPASS_COLOR_INDEX]=finalColor; 
+#endif
+float scatteringDiffusionProfile=255.;
+#endif
+gl_FragData[PREPASS_IRRADIANCE_INDEX]=vec4(clamp(irradiance,vec3(0.),vec3(1.)),writeGeometryInfo*scatteringDiffusionProfile/255.); 
+#elif defined(PREPASS_COLOR)
+gl_FragData[PREPASS_COLOR_INDEX]=vec4(finalColor.rgb,finalColor.a);
+#endif
+#ifdef PREPASS_DEPTH
+gl_FragData[PREPASS_DEPTH_INDEX]=vec4(vViewPos.z,0.0,0.0,writeGeometryInfo); 
+#endif
+#ifdef PREPASS_SCREENSPACE_DEPTH
+gl_FragData[PREPASS_SCREENSPACE_DEPTH_INDEX]=vec4(gl_FragCoord.z,0.0,0.0,writeGeometryInfo);
+#endif
+#ifdef PREPASS_NORMALIZED_VIEW_DEPTH
+gl_FragData[PREPASS_NORMALIZED_VIEW_DEPTH_INDEX]=vec4(vNormViewDepth,0.0,0.0,writeGeometryInfo);
+#endif
+#ifdef PREPASS_NORMAL
+#ifdef PREPASS_NORMAL_WORLDSPACE
+gl_FragData[PREPASS_NORMAL_INDEX]=vec4(normalW,writeGeometryInfo);
+#else
+gl_FragData[PREPASS_NORMAL_INDEX]=vec4(normalize((view*vec4(normalW,0.0)).rgb),writeGeometryInfo);
+#endif
+#endif
+#ifdef PREPASS_WORLD_NORMAL
+gl_FragData[PREPASS_WORLD_NORMAL_INDEX]=vec4(normalW*0.5+0.5,writeGeometryInfo); 
+#endif
+#ifdef PREPASS_ALBEDO_SQRT
+gl_FragData[PREPASS_ALBEDO_SQRT_INDEX]=vec4(sqAlbedo,writeGeometryInfo); 
+#endif
+#ifdef PREPASS_REFLECTIVITY
+#ifndef UNLIT
+gl_FragData[PREPASS_REFLECTIVITY_INDEX]=vec4(specularEnvironmentR0,microSurface)*writeGeometryInfo;
+#else
+gl_FragData[PREPASS_REFLECTIVITY_INDEX]=vec4( 0.0,0.0,0.0,1.0 )*writeGeometryInfo;
+#endif
+#endif
+#endif
+`;e.IncludesShadersStore[y]||(e.IncludesShadersStore[y]=Ie);const G="pbrDebug",ve=`#if DEBUGMODE>0
+if (vClipSpacePosition.x/vClipSpacePosition.w>=vDebugMode.x) {
+#if DEBUGMODE==1
+gl_FragColor.rgb=vPositionW.rgb;
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==2 && defined(NORMAL)
+gl_FragColor.rgb=vNormalW.rgb;
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==3 && defined(BUMP) || DEBUGMODE==3 && defined(PARALLAX) || DEBUGMODE==3 && defined(ANISOTROPIC)
+gl_FragColor.rgb=TBN[0];
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==4 && defined(BUMP) || DEBUGMODE==4 && defined(PARALLAX) || DEBUGMODE==4 && defined(ANISOTROPIC)
+gl_FragColor.rgb=TBN[1];
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==5
+gl_FragColor.rgb=normalW;
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==6 && defined(MAINUV1)
+gl_FragColor.rgb=vec3(vMainUV1,0.0);
+#elif DEBUGMODE==7 && defined(MAINUV2)
+gl_FragColor.rgb=vec3(vMainUV2,0.0);
+#elif DEBUGMODE==8 && defined(CLEARCOAT) && defined(CLEARCOAT_BUMP)
+gl_FragColor.rgb=clearcoatOut.TBNClearCoat[0];
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==9 && defined(CLEARCOAT) && defined(CLEARCOAT_BUMP)
+gl_FragColor.rgb=clearcoatOut.TBNClearCoat[1];
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==10 && defined(CLEARCOAT)
+gl_FragColor.rgb=clearcoatOut.clearCoatNormalW;
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==11 && defined(ANISOTROPIC)
+gl_FragColor.rgb=anisotropicOut.anisotropicNormal;
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==12 && defined(ANISOTROPIC)
+gl_FragColor.rgb=anisotropicOut.anisotropicTangent;
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==13 && defined(ANISOTROPIC)
+gl_FragColor.rgb=anisotropicOut.anisotropicBitangent;
+#define DEBUGMODE_NORMALIZE
+#elif DEBUGMODE==20 && defined(ALBEDO)
+gl_FragColor.rgb=albedoTexture.rgb;
+#ifndef GAMMAALBEDO
+#define DEBUGMODE_GAMMA
+#endif
+#elif DEBUGMODE==21 && defined(AMBIENT)
+gl_FragColor.rgb=aoOut.ambientOcclusionColorMap.rgb;
+#elif DEBUGMODE==22 && defined(OPACITY)
+gl_FragColor.rgb=opacityMap.rgb;
+#elif DEBUGMODE==23 && defined(EMISSIVE)
+gl_FragColor.rgb=emissiveColorTex.rgb;
+#ifndef GAMMAEMISSIVE
+#define DEBUGMODE_GAMMA
+#endif
+#elif DEBUGMODE==24 && defined(LIGHTMAP)
+gl_FragColor.rgb=lightmapColor.rgb;
+#ifndef GAMMALIGHTMAP
+#define DEBUGMODE_GAMMA
+#endif
+#elif DEBUGMODE==25 && defined(REFLECTIVITY) && defined(METALLICWORKFLOW)
+gl_FragColor.rgb=reflectivityOut.surfaceMetallicColorMap.rgb;
+#elif DEBUGMODE==26 && defined(REFLECTIVITY) && !defined(METALLICWORKFLOW)
+gl_FragColor.rgb=reflectivityOut.surfaceReflectivityColorMap.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==27 && defined(CLEARCOAT) && defined(CLEARCOAT_TEXTURE)
+gl_FragColor.rgb=vec3(clearcoatOut.clearCoatMapData.rg,0.0);
+#elif DEBUGMODE==28 && defined(CLEARCOAT) && defined(CLEARCOAT_TINT) && defined(CLEARCOAT_TINT_TEXTURE)
+gl_FragColor.rgb=clearcoatOut.clearCoatTintMapData.rgb;
+#elif DEBUGMODE==29 && defined(SHEEN) && defined(SHEEN_TEXTURE)
+gl_FragColor.rgb=sheenOut.sheenMapData.rgb;
+#elif DEBUGMODE==30 && defined(ANISOTROPIC) && defined(ANISOTROPIC_TEXTURE)
+gl_FragColor.rgb=anisotropicOut.anisotropyMapData.rgb;
+#elif DEBUGMODE==31 && defined(SUBSURFACE) && defined(SS_THICKNESSANDMASK_TEXTURE)
+gl_FragColor.rgb=subSurfaceOut.thicknessMap.rgb;
+#elif DEBUGMODE==32 && defined(BUMP)
+gl_FragColor.rgb=texture2D(bumpSampler,vBumpUV).rgb;
+#elif DEBUGMODE==40 && defined(SS_REFRACTION)
+gl_FragColor.rgb=subSurfaceOut.environmentRefraction.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==41 && defined(REFLECTION)
+gl_FragColor.rgb=reflectionOut.environmentRadiance.rgb;
+#ifndef GAMMAREFLECTION
+#define DEBUGMODE_GAMMA
+#endif
+#elif DEBUGMODE==42 && defined(CLEARCOAT) && defined(REFLECTION)
+gl_FragColor.rgb=clearcoatOut.environmentClearCoatRadiance.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==50
+gl_FragColor.rgb=diffuseBase.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==51 && defined(SPECULARTERM)
+gl_FragColor.rgb=specularBase.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==52 && defined(CLEARCOAT)
+gl_FragColor.rgb=clearCoatBase.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==53 && defined(SHEEN)
+gl_FragColor.rgb=sheenBase.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==54 && defined(REFLECTION)
+gl_FragColor.rgb=reflectionOut.environmentIrradiance.rgb;
+#ifndef GAMMAREFLECTION
+#define DEBUGMODE_GAMMA
+#endif
+#elif DEBUGMODE==60
+gl_FragColor.rgb=surfaceAlbedo.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==61
+gl_FragColor.rgb=clearcoatOut.specularEnvironmentR0;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==62 && defined(METALLICWORKFLOW)
+gl_FragColor.rgb=vec3(reflectivityOut.metallic);
+#elif DEBUGMODE==71 && defined(METALLICWORKFLOW)
+gl_FragColor.rgb=reflectivityOut.metallicF0;
+#elif DEBUGMODE==63
+gl_FragColor.rgb=vec3(roughness);
+#elif DEBUGMODE==64
+gl_FragColor.rgb=vec3(alphaG);
+#elif DEBUGMODE==65
+gl_FragColor.rgb=vec3(NdotV);
+#elif DEBUGMODE==66 && defined(CLEARCOAT) && defined(CLEARCOAT_TINT)
+gl_FragColor.rgb=clearcoatOut.clearCoatColor.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==67 && defined(CLEARCOAT)
+gl_FragColor.rgb=vec3(clearcoatOut.clearCoatRoughness);
+#elif DEBUGMODE==68 && defined(CLEARCOAT)
+gl_FragColor.rgb=vec3(clearcoatOut.clearCoatNdotV);
+#elif DEBUGMODE==69 && defined(SUBSURFACE) && defined(SS_TRANSLUCENCY)
+gl_FragColor.rgb=subSurfaceOut.transmittance;
+#elif DEBUGMODE==70 && defined(SUBSURFACE) && defined(SS_REFRACTION)
+gl_FragColor.rgb=subSurfaceOut.refractionTransmittance;
+#elif DEBUGMODE==72
+gl_FragColor.rgb=vec3(microSurface);
+#elif DEBUGMODE==73
+gl_FragColor.rgb=vAlbedoColor.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==74 && !defined(METALLICWORKFLOW)
+gl_FragColor.rgb=vReflectivityColor.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==75
+gl_FragColor.rgb=vEmissiveColor.rgb;
+#define DEBUGMODE_GAMMA
+#elif DEBUGMODE==80 && defined(RADIANCEOCCLUSION)
+gl_FragColor.rgb=vec3(seo);
+#elif DEBUGMODE==81 && defined(HORIZONOCCLUSION) && defined(BUMP) && defined(REFLECTIONMAP_3D)
+gl_FragColor.rgb=vec3(eho);
+#elif DEBUGMODE==82 && defined(MS_BRDF_ENERGY_CONSERVATION)
+gl_FragColor.rgb=vec3(energyConservationFactor);
+#elif DEBUGMODE==83 && defined(ENVIRONMENTBRDF) && !defined(REFLECTIONMAP_SKYBOX)
+gl_

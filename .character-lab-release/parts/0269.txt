@@ -1,0 +1,225 @@
+import{S as e}from"./index-BiJpojIB.js";import"./oitFragment-CGRWDK6u.js";import"./harmonicsFunctions-DLUPix8W.js";import"./mainUVVaryingDeclaration-CDaea9_r.js";import"./clipPlaneFragment-DOz_PCIm.js";import"./logDepthDeclaration-D_bQN4Oj.js";import"./fogFragment-x4Iub5ZW.js";import"./helperFunctions-HDixwmaR.js";import"./logDepthFragment-CpraBSdi.js";import"./meshUboDeclaration-BT-2srBl.js";const r="pbrFragmentExtraDeclaration",y=`varying vPositionW: vec3f;
+#if DEBUGMODE>0
+varying vClipSpacePosition: vec4f;
+#endif
+#include<mainUVVaryingDeclaration>[1..7]
+#ifdef NORMAL
+varying vNormalW: vec3f;
+#if defined(USESPHERICALFROMREFLECTIONMAP) && defined(USESPHERICALINVERTEX)
+varying vEnvironmentIrradiance: vec3f;
+#endif
+#endif
+#if defined(VERTEXCOLOR) || defined(INSTANCESCOLOR) && defined(INSTANCES)
+varying vColor: vec4f;
+#endif
+#ifdef CLUSTLIGHT_BATCH
+varying vViewDepth: f32;
+#endif
+`;e.IncludesShadersStoreWGSL[r]||(e.IncludesShadersStoreWGSL[r]=y);const a="samplerFragmentAlternateDeclaration",V=`#ifdef _DEFINENAME_
+#if _DEFINENAME_DIRECTUV==1
+#define v_VARYINGNAME_UV vMainUV1
+#elif _DEFINENAME_DIRECTUV==2
+#define v_VARYINGNAME_UV vMainUV2
+#elif _DEFINENAME_DIRECTUV==3
+#define v_VARYINGNAME_UV vMainUV3
+#elif _DEFINENAME_DIRECTUV==4
+#define v_VARYINGNAME_UV vMainUV4
+#elif _DEFINENAME_DIRECTUV==5
+#define v_VARYINGNAME_UV vMainUV5
+#elif _DEFINENAME_DIRECTUV==6
+#define v_VARYINGNAME_UV vMainUV6
+#else
+varying v_VARYINGNAME_UV: vec2f;
+#endif
+#endif
+`;e.IncludesShadersStoreWGSL[a]||(e.IncludesShadersStoreWGSL[a]=V);const n="pbrFragmentSamplersDeclaration",x=`#include<samplerFragmentDeclaration>(_DEFINENAME_,ALBEDO,_VARYINGNAME_,Albedo,_SAMPLERNAME_,albedo)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,BASE_WEIGHT,_VARYINGNAME_,BaseWeight,_SAMPLERNAME_,baseWeight)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,BASE_DIFFUSE_ROUGHNESS,_VARYINGNAME_,BaseDiffuseRoughness,_SAMPLERNAME_,baseDiffuseRoughness)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,AMBIENT,_VARYINGNAME_,Ambient,_SAMPLERNAME_,ambient)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,OPACITY,_VARYINGNAME_,Opacity,_SAMPLERNAME_,opacity)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,EMISSIVE,_VARYINGNAME_,Emissive,_SAMPLERNAME_,emissive)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,LIGHTMAP,_VARYINGNAME_,Lightmap,_SAMPLERNAME_,lightmap)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,REFLECTIVITY,_VARYINGNAME_,Reflectivity,_SAMPLERNAME_,reflectivity)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,MICROSURFACEMAP,_VARYINGNAME_,MicroSurfaceSampler,_SAMPLERNAME_,microSurface)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,METALLIC_REFLECTANCE,_VARYINGNAME_,MetallicReflectance,_SAMPLERNAME_,metallicReflectance)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,REFLECTANCE,_VARYINGNAME_,Reflectance,_SAMPLERNAME_,reflectance)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,DECAL,_VARYINGNAME_,Decal,_SAMPLERNAME_,decal)
+#ifdef CLEARCOAT
+#include<samplerFragmentDeclaration>(_DEFINENAME_,CLEARCOAT_TEXTURE,_VARYINGNAME_,ClearCoat,_SAMPLERNAME_,clearCoat)
+#include<samplerFragmentAlternateDeclaration>(_DEFINENAME_,CLEARCOAT_TEXTURE_ROUGHNESS,_VARYINGNAME_,ClearCoatRoughness)
+#if defined(CLEARCOAT_TEXTURE_ROUGHNESS)
+var clearCoatRoughnessSamplerSampler: sampler;var clearCoatRoughnessSampler: texture_2d<f32>;
+#endif
+#include<samplerFragmentDeclaration>(_DEFINENAME_,CLEARCOAT_BUMP,_VARYINGNAME_,ClearCoatBump,_SAMPLERNAME_,clearCoatBump)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,CLEARCOAT_TINT_TEXTURE,_VARYINGNAME_,ClearCoatTint,_SAMPLERNAME_,clearCoatTint)
+#endif
+#ifdef IRIDESCENCE
+#include<samplerFragmentDeclaration>(_DEFINENAME_,IRIDESCENCE_TEXTURE,_VARYINGNAME_,Iridescence,_SAMPLERNAME_,iridescence)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,IRIDESCENCE_THICKNESS_TEXTURE,_VARYINGNAME_,IridescenceThickness,_SAMPLERNAME_,iridescenceThickness)
+#endif
+#ifdef SHEEN
+#include<samplerFragmentDeclaration>(_DEFINENAME_,SHEEN_TEXTURE,_VARYINGNAME_,Sheen,_SAMPLERNAME_,sheen)
+#include<samplerFragmentAlternateDeclaration>(_DEFINENAME_,SHEEN_TEXTURE_ROUGHNESS,_VARYINGNAME_,SheenRoughness)
+#if defined(SHEEN_ROUGHNESS) && defined(SHEEN_TEXTURE_ROUGHNESS)
+var sheenRoughnessSamplerSampler: sampler;var sheenRoughnessSampler: texture_2d<f32>;
+#endif
+#endif
+#ifdef ANISOTROPIC
+#include<samplerFragmentDeclaration>(_DEFINENAME_,ANISOTROPIC_TEXTURE,_VARYINGNAME_,Anisotropy,_SAMPLERNAME_,anisotropy)
+#endif
+#ifdef REFLECTION
+#ifdef REFLECTIONMAP_3D
+var reflectionSamplerSampler: sampler;var reflectionSampler: texture_cube<f32>;
+#ifdef LODBASEDMICROSFURACE
+#else
+var reflectionLowSamplerSampler: sampler;var reflectionLowSampler: texture_cube<f32>;var reflectionHighSamplerSampler: sampler;var reflectionHighSampler: texture_cube<f32>;
+#endif
+#ifdef USEIRRADIANCEMAP
+var irradianceSamplerSampler: sampler;var irradianceSampler: texture_cube<f32>;
+#endif
+#else
+var reflectionSamplerSampler: sampler;var reflectionSampler: texture_2d<f32>;
+#ifdef LODBASEDMICROSFURACE
+#else
+var reflectionLowSamplerSampler: sampler;var reflectionLowSampler: texture_2d<f32>;var reflectionHighSamplerSampler: sampler;var reflectionHighSampler: texture_2d<f32>;
+#endif
+#ifdef USEIRRADIANCEMAP
+var irradianceSamplerSampler: sampler;var irradianceSampler: texture_2d<f32>;
+#endif
+#endif
+#ifdef REFLECTIONMAP_SKYBOX
+varying vPositionUVW: vec3f;
+#else
+#if defined(REFLECTIONMAP_EQUIRECTANGULAR_FIXED) || defined(REFLECTIONMAP_MIRROREDEQUIRECTANGULAR_FIXED)
+varying vDirectionW: vec3f;
+#endif
+#endif
+#endif
+#ifdef ENVIRONMENTBRDF
+var environmentBrdfSamplerSampler: sampler;var environmentBrdfSampler: texture_2d<f32>;
+#endif
+#ifdef SUBSURFACE
+#ifdef SS_REFRACTION
+#ifdef SS_REFRACTIONMAP_3D
+var refractionSamplerSampler: sampler;var refractionSampler: texture_cube<f32>;
+#ifdef LODBASEDMICROSFURACE
+#else
+var refractionLowSamplerSampler: sampler;var refractionLowSampler: texture_cube<f32>;var refractionHighSamplerSampler: sampler;var refractionHighSampler: texture_cube<f32>;
+#endif
+#else
+var refractionSamplerSampler: sampler;var refractionSampler: texture_2d<f32>;
+#ifdef LODBASEDMICROSFURACE
+#else
+var refractionLowSamplerSampler: sampler;var refractionLowSampler: texture_2d<f32>;var refractionHighSamplerSampler: sampler;var refractionHighSampler: texture_2d<f32>;
+#endif
+#endif
+#endif
+#include<samplerFragmentDeclaration>(_DEFINENAME_,SS_THICKNESSANDMASK_TEXTURE,_VARYINGNAME_,Thickness,_SAMPLERNAME_,thickness)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,SS_REFRACTIONINTENSITY_TEXTURE,_VARYINGNAME_,RefractionIntensity,_SAMPLERNAME_,refractionIntensity)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,SS_TRANSLUCENCYINTENSITY_TEXTURE,_VARYINGNAME_,TranslucencyIntensity,_SAMPLERNAME_,translucencyIntensity)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,SS_TRANSLUCENCYCOLOR_TEXTURE,_VARYINGNAME_,TranslucencyColor,_SAMPLERNAME_,translucencyColor)
+#endif
+#ifdef IBL_CDF_FILTERING
+var icdfSamplerSampler: sampler;var icdfSampler: texture_2d<f32>;
+#endif
+`;e.IncludesShadersStoreWGSL[n]||(e.IncludesShadersStoreWGSL[n]=x);const f="subSurfaceScatteringFunctions",H=`fn testLightingForSSS(diffusionProfile: f32)->bool
+{return diffusionProfile<1.;}`;e.IncludesShadersStoreWGSL[f]||(e.IncludesShadersStoreWGSL[f]=H);const t="importanceSampling",W=`fn hemisphereCosSample(u: vec2f)->vec3f {var phi: f32=2.*PI*u.x;var cosTheta2: f32=1.-u.y;var cosTheta: f32=sqrt(cosTheta2);var sinTheta: f32=sqrt(1.-cosTheta2);return vec3f(sinTheta*cos(phi),sinTheta*sin(phi),cosTheta);}
+fn hemisphereImportanceSampleDggx(u: vec2f,a: f32)->vec3f {var phi: f32=2.*PI*u.x;var cosTheta2: f32=(1.-u.y)/(1.+(a+1.)*((a-1.)*u.y));var cosTheta: f32=sqrt(cosTheta2);var sinTheta: f32=sqrt(1.-cosTheta2);return vec3f(sinTheta*cos(phi),sinTheta*sin(phi),cosTheta);}
+fn hemisphereImportanceSampleDCharlie(u: vec2f,a: f32)->vec3f { 
+var phi: f32=2.*PI*u.x;var sinTheta: f32=pow(u.y,a/(2.*a+1.));var cosTheta: f32=sqrt(1.-sinTheta*sinTheta);return vec3f(sinTheta*cos(phi),sinTheta*sin(phi),cosTheta);}`;e.IncludesShadersStoreWGSL[t]||(e.IncludesShadersStoreWGSL[t]=W);const o="pbrHelperFunctions",Y=`#define MINIMUMVARIANCE 0.0005
+fn convertRoughnessToAverageSlope(roughness: f32)->f32
+{return roughness*roughness+MINIMUMVARIANCE;}
+fn fresnelGrazingReflectance(reflectance0: f32)->f32 {var reflectance90: f32=saturate(reflectance0*25.0);return reflectance90;}
+fn getAARoughnessFactors(normalVector: vec3f)->vec2f {
+#ifdef SPECULARAA
+var nDfdx: vec3f=dpdx(normalVector.xyz);var nDfdy: vec3f=dpdy(normalVector.xyz);var slopeSquare: f32=max(dot(nDfdx,nDfdx),dot(nDfdy,nDfdy));var geometricRoughnessFactor: f32=pow(saturate(slopeSquare),0.333);var geometricAlphaGFactor: f32=sqrt(slopeSquare);geometricAlphaGFactor*=0.75;return vec2f(geometricRoughnessFactor,geometricAlphaGFactor);
+#else
+return vec2f(0.);
+#endif
+}
+#ifdef ANISOTROPIC
+#ifdef ANISOTROPIC_LEGACY
+fn getAnisotropicRoughness(alphaG: f32,anisotropy: f32)->vec2f {var alphaT: f32=max(alphaG*(1.0+anisotropy),MINIMUMVARIANCE);var alphaB: f32=max(alphaG*(1.0-anisotropy),MINIMUMVARIANCE);return vec2f(alphaT,alphaB);}
+fn getAnisotropicBentNormals(T: vec3f,B: vec3f,N: vec3f,V: vec3f,anisotropy: f32,roughness: f32)->vec3f {var anisotropicFrameDirection: vec3f=select(T,B,anisotropy>=0.0);var anisotropicFrameTangent: vec3f=cross(normalize(anisotropicFrameDirection),V);var anisotropicFrameNormal: vec3f=cross(anisotropicFrameTangent,anisotropicFrameDirection);var anisotropicNormal: vec3f=normalize(mix(N,anisotropicFrameNormal,abs(anisotropy)));return anisotropicNormal;}
+#else
+fn getAnisotropicRoughness(alphaG: f32,anisotropy: f32)->vec2f {var alphaT: f32=max(mix(alphaG,1.0,anisotropy*anisotropy),MINIMUMVARIANCE);var alphaB: f32=max(alphaG,MINIMUMVARIANCE);return vec2f(alphaT,alphaB);}
+fn getAnisotropicBentNormals(T: vec3f,B: vec3f,N: vec3f,V: vec3f,anisotropy: f32,roughness: f32)->vec3f {var bentNormal: vec3f=cross(B,V);bentNormal=normalize(cross(bentNormal,B));var sq=1.0-anisotropy*(1.0-roughness);var a: f32=sq*sq*sq*sq;bentNormal=normalize(mix(bentNormal,N,a));return bentNormal;}
+#endif
+#endif
+#if defined(CLEARCOAT) || defined(SS_REFRACTION)
+fn cocaLambertVec3(alpha: vec3f,distance: f32)->vec3f {return exp(-alpha*distance);}
+fn cocaLambert(NdotVRefract: f32,NdotLRefract: f32,alpha: vec3f,thickness: f32)->vec3f {return cocaLambertVec3(alpha,(thickness*((NdotLRefract+NdotVRefract)/(NdotLRefract*NdotVRefract))));}
+fn computeColorAtDistanceInMedia(color: vec3f,distance: f32)->vec3f {return -log(color)/distance;}
+fn computeClearCoatAbsorption(NdotVRefract: f32,NdotLRefract: f32,clearCoatColor: vec3f,clearCoatThickness: f32,clearCoatIntensity: f32)->vec3f {var clearCoatAbsorption: vec3f=mix( vec3f(1.0),
+cocaLambert(NdotVRefract,NdotLRefract,clearCoatColor,clearCoatThickness),
+clearCoatIntensity);return clearCoatAbsorption;}
+#endif
+#ifdef MICROSURFACEAUTOMATIC
+fn computeDefaultMicroSurface(microSurface: f32,reflectivityColor: vec3f)->f32
+{const kReflectivityNoAlphaWorkflow_SmoothnessMax: f32=0.95;var reflectivityLuminance: f32=getLuminance(reflectivityColor);var reflectivityLuma: f32=sqrt(reflectivityLuminance);var resultMicroSurface=reflectivityLuma*kReflectivityNoAlphaWorkflow_SmoothnessMax;return resultMicroSurface;}
+#endif
+`;e.IncludesShadersStoreWGSL[o]||(e.IncludesShadersStoreWGSL[o]=Y);const c="pbrDirectLightingSetupFunctions",w=`struct preLightingInfo
+{lightOffset: vec3f,
+lightDistanceSquared: f32,
+lightDistance: f32,
+attenuation: f32,
+L: vec3f,
+H: vec3f,
+NdotV: f32,
+NdotLUnclamped: f32,
+NdotL: f32,
+VdotH: f32,
+LdotV: f32,
+roughness: f32,
+diffuseRoughness: f32,
+surfaceAlbedo: vec3f,
+#ifdef IRIDESCENCE
+iridescenceIntensity: f32
+#endif
+#if defined(AREALIGHTUSED) && defined(AREALIGHTSUPPORTED)
+areaLightDiffuse: vec3f,
+#ifdef SPECULARTERM
+areaLightSpecular: vec3f,
+areaLightFresnel: vec4f
+#endif
+#endif
+};fn computePointAndSpotPreLightingInfo(lightData: vec4f,V: vec3f,N: vec3f,posW: vec3f)->preLightingInfo {var result: preLightingInfo;result.lightOffset=lightData.xyz-posW;result.lightDistanceSquared=dot(result.lightOffset,result.lightOffset);result.lightDistance=sqrt(result.lightDistanceSquared);result.L=normalize(result.lightOffset);result.H=normalize(V+result.L);result.VdotH=saturate(dot(V,result.H));result.NdotLUnclamped=dot(N,result.L);result.NdotL=saturateEps(result.NdotLUnclamped);return result;}
+fn computeDirectionalPreLightingInfo(lightData: vec4f,V: vec3f,N: vec3f)->preLightingInfo {var result: preLightingInfo;result.lightDistance=length(-lightData.xyz);result.L=normalize(-lightData.xyz);result.H=normalize(V+result.L);result.VdotH=saturate(dot(V,result.H));result.NdotLUnclamped=dot(N,result.L);result.NdotL=saturateEps(result.NdotLUnclamped);result.LdotV=dot(result.L,V);return result;}
+fn computeHemisphericPreLightingInfo(lightData: vec4f,V: vec3f,N: vec3f)->preLightingInfo {var result: preLightingInfo;result.NdotL=dot(N,lightData.xyz)*0.5+0.5;result.NdotL=saturateEps(result.NdotL);result.NdotLUnclamped=result.NdotL;
+#ifdef SPECULARTERM
+result.L=normalize(lightData.xyz);result.H=normalize(V+result.L);result.VdotH=saturate(dot(V,result.H));
+#endif
+return result;}
+#if defined(AREALIGHTUSED) && defined(AREALIGHTSUPPORTED)
+#include<ltcHelperFunctions>
+var areaLightsLTC1SamplerSampler: sampler;var areaLightsLTC1Sampler: texture_2d<f32>;var areaLightsLTC2SamplerSampler: sampler;var areaLightsLTC2Sampler: texture_2d<f32>;fn computeAreaPreLightingInfo(ltc1: texture_2d<f32>,ltc1Sampler:sampler,ltc2:texture_2d<f32>,ltc2Sampler:sampler,viewDirectionW: vec3f,vNormal:vec3f,vPosition:vec3f,lightCenter:vec3f,halfWidth:vec3f, halfHeight:vec3f,roughness:f32)->preLightingInfo {var result: preLightingInfo;var data: areaLightData=computeAreaLightSpecularDiffuseFresnel(ltc1,ltc1Sampler,ltc2,ltc2Sampler,viewDirectionW,vNormal,vPosition,lightCenter,halfWidth,halfHeight,roughness);
+#ifdef SPECULARTERM
+result.areaLightFresnel=data.Fresnel;result.areaLightSpecular=data.Specular;
+#endif
+result.areaLightDiffuse+=data.Diffuse;return result;}
+#endif
+`;e.IncludesShadersStoreWGSL[c]||(e.IncludesShadersStoreWGSL[c]=w);const l="pbrDirectLightingFalloffFunctions",k=`fn computeDistanceLightFalloff_Standard(lightOffset: vec3f,range: f32)->f32
+{return max(0.,1.0-length(lightOffset)/range);}
+fn computeDistanceLightFalloff_Physical(lightDistanceSquared: f32)->f32
+{return 1.0/maxEps(lightDistanceSquared);}
+fn computeDistanceLightFalloff_GLTF(lightDistanceSquared: f32,inverseSquaredRange: f32)->f32
+{var lightDistanceFalloff: f32=1.0/maxEps(lightDistanceSquared);var factor: f32=lightDistanceSquared*inverseSquaredRange;var attenuation: f32=saturate(1.0-factor*factor);attenuation*=attenuation;lightDistanceFalloff*=attenuation;return lightDistanceFalloff;}
+fn computeDirectionalLightFalloff_IES(lightDirection: vec3f,directionToLightCenterW: vec3f,iesLightTexture: texture_2d<f32>,iesLightTextureSampler: sampler)->f32
+{var cosAngle: f32=dot(-lightDirection,directionToLightCenterW);var angle=acos(cosAngle)/PI;return textureSampleLevel(iesLightTexture,iesLightTextureSampler,vec2f(angle,0),0.).r;}
+fn computeDistanceLightFalloff(lightOffset: vec3f,lightDistanceSquared: f32,range: f32,inverseSquaredRange: f32)->f32
+{
+#ifdef USEPHYSICALLIGHTFALLOFF
+return computeDistanceLightFalloff_Physical(lightDistanceSquared);
+#elif defined(USEGLTFLIGHTFALLOFF)
+return computeDistanceLightFalloff_GLTF(lightDistanceSquared,inverseSquaredRange);
+#else
+return computeDistanceLightFalloff_Standard(lightOffset,range);
+#endif
+}
+fn computeDirectionalLightFalloff_Standard(lightDirection: vec3f,directionToLightCenterW: vec3f,cosHalfAngle: f32,exponent: f32)->f32
+{var falloff: f32=0.0;var cosAngle: f32=maxEps(dot(-lightDirection,directionToLightCenterW));if (cosAngle>=cosHalfAngle)
+{falloff=max(0.,pow(cosAngle,exponent));}
+return falloff;}
+fn computeDirectionalLightFalloff_Physical(lightDirection: vec3f,directionToLightCenterW: vec3f,cosHalfAngle: f32)->f32
+{const kMinusLog2ConeAngleIntensityRatio: f32=6.64385618977; 
+var concentrationKappa: f32=kMinusLog2ConeAngleIntensityRatio/(1.0-cosHalfAn

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "pip-motions-v1",
+  "name": "Pip",
+  "asset": "test-character-motions.glb",
+  "clips": {
+    "idle": "Idle",
+    "walk": "Walk",
+    "run": "Run",
+    "jump": "Jump",
+    "wave": "Wave"
+  },
+  "oneShots": [
+    "jump",
+    "wave"
+  ],
+  "expressions": {
+    "smile": {
+      "mesh": "FaceControls",
+      "target": "smile"
+    }
+  },
+  "rootNode": "root"
+}

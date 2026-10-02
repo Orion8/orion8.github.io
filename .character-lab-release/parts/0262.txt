@@ -1,0 +1,366 @@
+lectance0,reflectance90);
+#ifdef IRIDESCENCE
+fresnel=mix(fresnel,reflectance0,info.iridescenceIntensity);
+#endif
+float distribution=normalDistributionFunction_BurleyGGX_Anisotropic(NdotH,TdotH,BdotH,alphaTB);float smithVisibility=smithVisibility_GGXCorrelated_Anisotropic(info.NdotL,info.NdotV,TdotV,BdotV,TdotL,BdotL,alphaTB);vec3 specTerm=fresnel*distribution*smithVisibility;return specTerm*info.attenuation*info.NdotL*lightColor;}
+#endif
+#ifdef CLEARCOAT
+vec4 computeClearCoatLighting(preLightingInfo info,vec3 Ncc,float geometricRoughnessFactor,float clearCoatIntensity,vec3 lightColor) {float NccdotL=saturateEps(dot(Ncc,info.L));float NccdotH=saturateEps(dot(Ncc,info.H));float clearCoatRoughness=max(info.roughness,geometricRoughnessFactor);float alphaG=convertRoughnessToAverageSlope(clearCoatRoughness);float fresnel=fresnelSchlickGGX(info.VdotH,vClearCoatRefractionParams.x,CLEARCOATREFLECTANCE90);fresnel*=clearCoatIntensity;float distribution=normalDistributionFunction_TrowbridgeReitzGGX(NccdotH,alphaG);float kelemenVisibility=visibility_Kelemen(info.VdotH);float clearCoatTerm=fresnel*distribution*kelemenVisibility;return vec4(
+clearCoatTerm*info.attenuation*NccdotL*lightColor,
+1.0-fresnel
+);}
+vec3 computeClearCoatLightingAbsorption(float NdotVRefract,vec3 L,vec3 Ncc,vec3 clearCoatColor,float clearCoatThickness,float clearCoatIntensity) {vec3 LRefract=-refract(L,Ncc,vClearCoatRefractionParams.y);float NdotLRefract=saturateEps(dot(Ncc,LRefract));vec3 absorption=computeClearCoatAbsorption(NdotVRefract,NdotLRefract,clearCoatColor,clearCoatThickness,clearCoatIntensity);return absorption;}
+#endif
+#ifdef SHEEN
+vec3 computeSheenLighting(preLightingInfo info,vec3 N,vec3 reflectance0,vec3 reflectance90,float geometricRoughnessFactor,vec3 lightColor) {float NdotH=saturateEps(dot(N,info.H));float roughness=max(info.roughness,geometricRoughnessFactor);float alphaG=convertRoughnessToAverageSlope(roughness);float fresnel=1.;float distribution=normalDistributionFunction_CharlieSheen(NdotH,alphaG);/*#ifdef SHEEN_SOFTER
+float visibility=visibility_CharlieSheen(info.NdotL,info.NdotV,alphaG);
+#else */
+float visibility=visibility_Ashikhmin(info.NdotL,info.NdotV);/* #endif */
+float sheenTerm=fresnel*distribution*visibility;return sheenTerm*info.attenuation*info.NdotL*lightColor;}
+#endif
+`;e.IncludesShadersStore[E]||(e.IncludesShadersStore[E]=q);const R="pbrIBLFunctions",Z=`#if defined(REFLECTION) || defined(SS_REFRACTION)
+float getLodFromAlphaG(float cubeMapDimensionPixels,float microsurfaceAverageSlope) {float microsurfaceAverageSlopeTexels=cubeMapDimensionPixels*microsurfaceAverageSlope;float lod=log2(microsurfaceAverageSlopeTexels);return lod;}
+float getLinearLodFromRoughness(float cubeMapDimensionPixels,float roughness) {float lod=log2(cubeMapDimensionPixels)*roughness;return lod;}
+#endif
+#if defined(ENVIRONMENTBRDF) && defined(RADIANCEOCCLUSION)
+float environmentRadianceOcclusion(float ambientOcclusion,float NdotVUnclamped) {float temp=NdotVUnclamped+ambientOcclusion;return saturate(square(temp)-1.0+ambientOcclusion);}
+#endif
+#if defined(ENVIRONMENTBRDF) && defined(HORIZONOCCLUSION)
+float environmentHorizonOcclusion(vec3 view,vec3 normal,vec3 geometricNormal) {vec3 reflection=reflect(view,normal);float temp=saturate(1.0+1.1*dot(reflection,geometricNormal));return square(temp);}
+#endif
+#if defined(LODINREFLECTIONALPHA) || defined(SS_LODINREFRACTIONALPHA)
+#define UNPACK_LOD(x) (1.0-x)*255.0
+float getLodFromAlphaG(float cubeMapDimensionPixels,float alphaG,float NdotV) {float microsurfaceAverageSlope=alphaG;microsurfaceAverageSlope*=sqrt(abs(NdotV));return getLodFromAlphaG(cubeMapDimensionPixels,microsurfaceAverageSlope);}
+#endif
+`;e.IncludesShadersStore[R]||(e.IncludesShadersStore[R]=Z);const u="pbrBlockAlbedoOpacity",j=`struct albedoOpacityOutParams
+{vec3 surfaceAlbedo;float alpha;};
+#define pbr_inline
+albedoOpacityOutParams albedoOpacityBlock(
+in vec4 vAlbedoColor
+#ifdef ALBEDO
+,in vec4 albedoTexture
+,in vec2 albedoInfos
+#endif
+,in float baseWeight
+#ifdef BASE_WEIGHT
+,in vec4 baseWeightTexture
+,in vec2 vBaseWeightInfos
+#endif
+#ifdef OPACITY
+,in vec4 opacityMap
+,in vec2 vOpacityInfos
+#endif
+#ifdef DETAIL
+,in vec4 detailColor
+,in vec4 vDetailInfos
+#endif
+#ifdef DECAL
+,in vec4 decalColor
+,in vec4 vDecalInfos
+#endif
+)
+{albedoOpacityOutParams outParams;vec3 surfaceAlbedo=vAlbedoColor.rgb;float alpha=vAlbedoColor.a;
+#ifdef ALBEDO
+#if defined(ALPHAFROMALBEDO) || defined(ALPHATEST)
+alpha*=albedoTexture.a;
+#endif
+#ifdef GAMMAALBEDO
+surfaceAlbedo*=toLinearSpace(albedoTexture.rgb);
+#else
+surfaceAlbedo*=albedoTexture.rgb;
+#endif
+surfaceAlbedo*=albedoInfos.y;
+#endif
+#ifndef DECAL_AFTER_DETAIL
+#include<decalFragment>
+#endif
+#if defined(VERTEXCOLOR) || defined(INSTANCESCOLOR) && defined(INSTANCES)
+surfaceAlbedo*=vColor.rgb;
+#endif
+#ifdef DETAIL
+float detailAlbedo=2.0*mix(0.5,detailColor.r,vDetailInfos.y);surfaceAlbedo.rgb=surfaceAlbedo.rgb*detailAlbedo*detailAlbedo; 
+#endif
+#ifdef DECAL_AFTER_DETAIL
+#include<decalFragment>
+#endif
+#define CUSTOM_FRAGMENT_UPDATE_ALBEDO
+surfaceAlbedo*=baseWeight;
+#ifdef BASE_WEIGHT
+surfaceAlbedo*=baseWeightTexture.r;
+#endif
+#ifdef OPACITY
+#ifdef OPACITYRGB
+alpha=getLuminance(opacityMap.rgb);
+#else
+alpha*=opacityMap.a;
+#endif
+alpha*=vOpacityInfos.y;
+#endif
+#if defined(VERTEXALPHA) || defined(INSTANCESCOLOR) && defined(INSTANCES)
+alpha*=vColor.a;
+#endif
+#if !defined(SS_LINKREFRACTIONTOTRANSPARENCY) && !defined(ALPHAFRESNEL)
+#ifdef ALPHATEST
+#if DEBUGMODE != 88
+if (alpha<ALPHATESTVALUE)
+discard;
+#endif
+#ifndef ALPHABLEND
+alpha=1.0;
+#endif
+#endif
+#endif
+outParams.surfaceAlbedo=surfaceAlbedo;outParams.alpha=alpha;return outParams;}
+`;e.IncludesShadersStore[u]||(e.IncludesShadersStore[u]=j);const C="pbrBlockReflectivity",J=`struct reflectivityOutParams
+{float microSurface;float roughness;float diffuseRoughness;float reflectanceF0;vec3 reflectanceF90;vec3 colorReflectanceF0;vec3 colorReflectanceF90;
+#ifdef METALLICWORKFLOW
+vec3 surfaceAlbedo;float metallic;float specularWeight;vec3 dielectricColorF0;
+#endif
+#if defined(METALLICWORKFLOW) && defined(REFLECTIVITY) && defined(AOSTOREINMETALMAPRED)
+vec3 ambientOcclusionColor;
+#endif
+#if DEBUGMODE>0
+#ifdef METALLICWORKFLOW
+#ifdef REFLECTIVITY
+vec4 surfaceMetallicColorMap;
+#endif
+vec3 metallicF0;
+#else
+#ifdef REFLECTIVITY
+vec4 surfaceReflectivityColorMap;
+#endif
+#endif
+#endif
+};
+#define pbr_inline
+reflectivityOutParams reflectivityBlock(
+in vec4 reflectivityColor
+#ifdef METALLICWORKFLOW
+,in vec3 surfaceAlbedo
+,in vec4 metallicReflectanceFactors
+#endif
+,in float baseDiffuseRoughness
+#ifdef BASE_DIFFUSE_ROUGHNESS
+,in float baseDiffuseRoughnessTexture
+,in vec2 baseDiffuseRoughnessInfos
+#endif
+#ifdef REFLECTIVITY
+,in vec3 reflectivityInfos
+,in vec4 surfaceMetallicOrReflectivityColorMap
+#endif
+#if defined(METALLICWORKFLOW) && defined(REFLECTIVITY) && defined(AOSTOREINMETALMAPRED)
+,in vec3 ambientOcclusionColorIn
+#endif
+#ifdef MICROSURFACEMAP
+,in vec4 microSurfaceTexel
+#endif
+#ifdef DETAIL
+,in vec4 detailColor
+,in vec4 vDetailInfos
+#endif
+)
+{reflectivityOutParams outParams;float microSurface=reflectivityColor.a;vec3 surfaceReflectivityColor=reflectivityColor.rgb;
+#ifdef METALLICWORKFLOW
+vec2 metallicRoughness=surfaceReflectivityColor.rg;float ior=surfaceReflectivityColor.b;
+#ifdef REFLECTIVITY
+#if DEBUGMODE>0
+outParams.surfaceMetallicColorMap=surfaceMetallicOrReflectivityColorMap;
+#endif
+#ifdef AOSTOREINMETALMAPRED
+vec3 aoStoreInMetalMap=vec3(surfaceMetallicOrReflectivityColorMap.r,surfaceMetallicOrReflectivityColorMap.r,surfaceMetallicOrReflectivityColorMap.r);outParams.ambientOcclusionColor=mix(ambientOcclusionColorIn,aoStoreInMetalMap,reflectivityInfos.z);
+#endif
+#ifdef METALLNESSSTOREINMETALMAPBLUE
+metallicRoughness.r*=surfaceMetallicOrReflectivityColorMap.b;
+#else
+metallicRoughness.r*=surfaceMetallicOrReflectivityColorMap.r;
+#endif
+#ifdef ROUGHNESSSTOREINMETALMAPALPHA
+metallicRoughness.g*=surfaceMetallicOrReflectivityColorMap.a;
+#else
+#ifdef ROUGHNESSSTOREINMETALMAPGREEN
+metallicRoughness.g*=surfaceMetallicOrReflectivityColorMap.g;
+#endif
+#endif
+#endif
+#ifdef DETAIL
+float detailRoughness=mix(0.5,detailColor.b,vDetailInfos.w);float loLerp=mix(0.,metallicRoughness.g,detailRoughness*2.);float hiLerp=mix(metallicRoughness.g,1.,(detailRoughness-0.5)*2.);metallicRoughness.g=mix(loLerp,hiLerp,step(detailRoughness,0.5));
+#endif
+#ifdef MICROSURFACEMAP
+metallicRoughness.g*=microSurfaceTexel.r;
+#endif
+#define CUSTOM_FRAGMENT_UPDATE_METALLICROUGHNESS
+microSurface=1.0-metallicRoughness.g;vec3 baseColor=surfaceAlbedo;outParams.metallic=metallicRoughness.r;outParams.specularWeight=metallicReflectanceFactors.a;float dielectricF0=reflectivityColor.a*outParams.specularWeight;surfaceReflectivityColor=metallicReflectanceFactors.rgb;
+#if DEBUGMODE>0
+outParams.metallicF0=vec3(dielectricF0)*surfaceReflectivityColor;
+#endif
+#ifdef LEGACY_SPECULAR_ENERGY_CONSERVATION
+outParams.surfaceAlbedo=baseColor.rgb*(vec3(1.0)-vec3(dielectricF0)*surfaceReflectivityColor)*(1.0-outParams.metallic);
+#else
+outParams.surfaceAlbedo=baseColor.rgb;
+#endif
+#ifdef LEGACY_SPECULAR_ENERGY_CONSERVATION
+{vec3 reflectivityColor=mix(dielectricF0*surfaceReflectivityColor,baseColor.rgb,outParams.metallic);outParams.reflectanceF0=max(reflectivityColor.r,max(reflectivityColor.g,reflectivityColor.b));}
+#else
+#if DIELECTRIC_SPECULAR_MODEL==DIELECTRIC_SPECULAR_MODEL_GLTF
+float maxF0=max(surfaceReflectivityColor.r,max(surfaceReflectivityColor.g,surfaceReflectivityColor.b));outParams.reflectanceF0=mix(dielectricF0*maxF0,1.0,outParams.metallic);
+#else
+outParams.reflectanceF0=mix(dielectricF0,1.0,outParams.metallic);
+#endif
+#endif
+#ifdef LEGACY_SPECULAR_ENERGY_CONSERVATION
+outParams.reflectanceF90=vec3(outParams.specularWeight);float f90Scale=1.0;
+#else
+float f90Scale=clamp(2.0*(ior-1.0),0.0,1.0);outParams.reflectanceF90=vec3(mix(outParams.specularWeight*f90Scale,1.0,outParams.metallic));
+#endif
+outParams.dielectricColorF0=vec3(dielectricF0*surfaceReflectivityColor);vec3 metallicColorF0=baseColor.rgb;outParams.colorReflectanceF0=mix(outParams.dielectricColorF0,metallicColorF0,outParams.metallic);
+#if (DIELECTRIC_SPECULAR_MODEL==DIELECTRIC_SPECULAR_MODEL_OPENPBR)
+vec3 dielectricColorF90=surfaceReflectivityColor*vec3(outParams.specularWeight)*vec3(f90Scale);
+#else
+vec3 dielectricColorF90=vec3(outParams.specularWeight*f90Scale);
+#endif
+#if (CONDUCTOR_SPECULAR_MODEL==CONDUCTOR_SPECULAR_MODEL_OPENPBR)
+vec3 conductorColorF90=surfaceReflectivityColor;
+#else
+#ifdef LEGACY_SPECULAR_ENERGY_CONSERVATION
+vec3 conductorColorF90=outParams.reflectanceF90;
+#else
+vec3 conductorColorF90=vec3(1.0);
+#endif
+#endif
+outParams.colorReflectanceF90=mix(dielectricColorF90,conductorColorF90,outParams.metallic);
+#else
+#ifdef REFLECTIVITY
+surfaceReflectivityColor*=surfaceMetallicOrReflectivityColorMap.rgb;
+#if DEBUGMODE>0
+outParams.surfaceReflectivityColorMap=surfaceMetallicOrReflectivityColorMap;
+#endif
+#ifdef MICROSURFACEFROMREFLECTIVITYMAP
+microSurface*=surfaceMetallicOrReflectivityColorMap.a;microSurface*=reflectivityInfos.z;
+#else
+#ifdef MICROSURFACEAUTOMATIC
+microSurface*=computeDefaultMicroSurface(microSurface,surfaceReflectivityColor);
+#endif
+#ifdef MICROSURFACEMAP
+microSurface*=microSurfaceTexel.r;
+#endif
+#define CUSTOM_FRAGMENT_UPDATE_MICROSURFACE
+#endif
+#endif
+outParams.colorReflectanceF0=surfaceReflectivityColor;outParams.reflectanceF0=max(surfaceReflectivityColor.r,max(surfaceReflectivityColor.g,surfaceReflectivityColor.b));outParams.reflectanceF90=vec3(1.0);
+#if (DIELECTRIC_SPECULAR_MODEL==DIELECTRIC_SPECULAR_MODEL_OPENPBR)
+outParams.colorReflectanceF90=surfaceReflectivityColor;
+#else
+outParams.colorReflectanceF90=vec3(1.0);
+#endif
+#endif
+microSurface=saturate(microSurface);float roughness=1.-microSurface;float diffuseRoughness=baseDiffuseRoughness;
+#ifdef BASE_DIFFUSE_ROUGHNESS
+diffuseRoughness*=baseDiffuseRoughnessTexture*baseDiffuseRoughnessInfos.y;
+#endif
+outParams.microSurface=microSurface;outParams.roughness=roughness;outParams.diffuseRoughness=diffuseRoughness;return outParams;}
+`;e.IncludesShadersStore[C]||(e.IncludesShadersStore[C]=J);const S="pbrBlockAmbientOcclusion",Q=`struct ambientOcclusionOutParams
+{vec3 ambientOcclusionColor;
+#if DEBUGMODE>0 && defined(AMBIENT)
+vec3 ambientOcclusionColorMap;
+#endif
+};ambientOcclusionOutParams ambientOcclusionBlock(
+#ifdef AMBIENT
+in vec3 ambientOcclusionColorMap_,
+in vec4 vAmbientInfos
+#endif
+)
+{ambientOcclusionOutParams outParams;vec3 ambientOcclusionColor=vec3(1.,1.,1.);
+#ifdef AMBIENT
+vec3 ambientOcclusionColorMap=ambientOcclusionColorMap_*vAmbientInfos.y;
+#ifdef AMBIENTINGRAYSCALE
+ambientOcclusionColorMap=vec3(ambientOcclusionColorMap.r,ambientOcclusionColorMap.r,ambientOcclusionColorMap.r);
+#endif
+ambientOcclusionColor=mix(ambientOcclusionColor,ambientOcclusionColorMap,vAmbientInfos.z);
+#if DEBUGMODE>0
+outParams.ambientOcclusionColorMap=ambientOcclusionColorMap;
+#endif
+#endif
+outParams.ambientOcclusionColor=ambientOcclusionColor;return outParams;}
+`;e.IncludesShadersStore[S]||(e.IncludesShadersStore[S]=Q);const A="pbrBlockAlphaFresnel",ee=`#ifdef ALPHAFRESNEL
+#if defined(ALPHATEST) || defined(ALPHABLEND)
+struct alphaFresnelOutParams
+{float alpha;};
+#define pbr_inline
+alphaFresnelOutParams alphaFresnelBlock(
+in vec3 normalW,
+in vec3 viewDirectionW,
+in float alpha,
+in float microSurface
+)
+{alphaFresnelOutParams outParams;float opacityPerceptual=alpha;
+#ifdef LINEARALPHAFRESNEL
+float opacity0=opacityPerceptual;
+#else
+float opacity0=opacityPerceptual*opacityPerceptual;
+#endif
+float opacity90=fresnelGrazingReflectance(opacity0);vec3 normalForward=faceforward(normalW,-viewDirectionW,normalW);outParams.alpha=getReflectanceFromAnalyticalBRDFLookup_Jones(saturate(dot(viewDirectionW,normalForward)),vec3(opacity0),vec3(opacity90),sqrt(microSurface)).x;
+#ifdef ALPHATEST
+if (outParams.alpha<ALPHATESTVALUE)
+discard;
+#ifndef ALPHABLEND
+outParams.alpha=1.0;
+#endif
+#endif
+return outParams;}
+#endif
+#endif
+`;e.IncludesShadersStore[A]||(e.IncludesShadersStore[A]=ee);const m="pbrBlockAnisotropic",ie=`#ifdef ANISOTROPIC
+struct anisotropicOutParams
+{float anisotropy;vec3 anisotropicTangent;vec3 anisotropicBitangent;vec3 anisotropicNormal;
+#if DEBUGMODE>0 && defined(ANISOTROPIC_TEXTURE)
+vec3 anisotropyMapData;
+#endif
+};
+#define pbr_inline
+anisotropicOutParams anisotropicBlock(
+in vec3 vAnisotropy,
+in float roughness,
+#ifdef ANISOTROPIC_TEXTURE
+in vec3 anisotropyMapData,
+#endif
+in mat3 TBN,
+in vec3 normalW,
+in vec3 viewDirectionW
+)
+{anisotropicOutParams outParams;float anisotropy=vAnisotropy.b;vec3 anisotropyDirection=vec3(vAnisotropy.xy,0.);
+#ifdef ANISOTROPIC_TEXTURE
+anisotropy*=anisotropyMapData.b;
+#if DEBUGMODE>0
+outParams.anisotropyMapData=anisotropyMapData;
+#endif
+anisotropyMapData.rg=anisotropyMapData.rg*2.0-1.0;
+#ifdef ANISOTROPIC_LEGACY
+anisotropyDirection.rg*=anisotropyMapData.rg;
+#else
+anisotropyDirection.xy=mat2(anisotropyDirection.x,anisotropyDirection.y,-anisotropyDirection.y,anisotropyDirection.x)*normalize(anisotropyMapData.rg);
+#endif
+#endif
+mat3 anisoTBN=mat3(normalize(TBN[0]),normalize(TBN[1]),normalize(TBN[2]));vec3 anisotropicTangent=normalize(anisoTBN*anisotropyDirection);vec3 anisotropicBitangent=normalize(cross(anisoTBN[2],anisotropicTangent));outParams.anisotropy=anisotropy;outParams.anisotropicTangent=anisotropicTangent;outParams.anisotropicBitangent=anisotropicBitangent;outParams.anisotropicNormal=getAnisotropicBentNormals(anisotropicTangent,anisotropicBitangent,normalW,viewDirectionW,anisotropy,roughness);return outParams;}
+#endif
+`;e.IncludesShadersStore[m]||(e.IncludesShadersStore[m]=ie);const I="pbrBlockReflection",ne=`#ifdef REFLECTION
+struct reflectionOutParams
+{vec4 environmentRadiance;vec3 environmentIrradiance;
+#ifdef REFLECTIONMAP_3D
+vec3 reflectionCoords;
+#else
+vec2 reflectionCoords;
+#endif
+#ifdef SS_TRANSLUCENCY
+#ifdef USESPHERICALFROMREFLECTIONMAP
+#if !defined(NORMAL) || !defined(USESPHERICALINVERTEX)
+vec3 irradianceVector;
+#endif
+#endif
+#endif
+};
+#define pbr_inline
+void createReflectionCoords(
+in vec3 vPositionW,
+in vec3 normalW,
+#ifdef ANISOTROPIC
+in anisotropicOutP

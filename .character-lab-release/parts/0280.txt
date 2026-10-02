@@ -1,0 +1,3 @@
+ine CUSTOM_VERTEX_MAIN_END
+}
+`;e.ShadersStore[i]||(e.ShadersStore[i]=E);const d={name:i,shader:E};export{d as pbrVertexShader};

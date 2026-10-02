@@ -1,0 +1,319 @@
+import{S as e}from"./index-BiJpojIB.js";import"./oitFragment-DGK-cP64.js";import"./harmonicsFunctions-Bt9-YioO.js";import"./mainUVVaryingDeclaration-CxcUN49U.js";import"./logDepthDeclaration-BfZAivhD.js";import"./fogFragment-COLfKYo7.js";import"./helperFunctions-dojNjDPA.js";import"./logDepthFragment-D0_FDHbr.js";import"./meshUboDeclaration-D6QjQbv4.js";const n="pbrFragmentDeclaration",H=`uniform vec4 vEyePosition;uniform vec3 vReflectionColor;uniform vec4 vAlbedoColor;uniform float baseWeight;uniform float baseDiffuseRoughness;uniform vec4 vLightingIntensity;uniform vec4 vReflectivityColor;uniform vec4 vMetallicReflectanceFactors;uniform vec3 vEmissiveColor;uniform float visibility;uniform vec3 vAmbientColor;
+#ifdef ALBEDO
+uniform vec2 vAlbedoInfos;
+#endif
+#ifdef BASE_WEIGHT
+uniform vec2 vBaseWeightInfos;
+#endif
+#ifdef BASE_DIFFUSE_ROUGHNESS
+uniform vec2 vBaseDiffuseRoughnessInfos;
+#endif
+#ifdef AMBIENT
+uniform vec4 vAmbientInfos;
+#endif
+#ifdef BUMP
+uniform vec3 vBumpInfos;uniform vec2 vTangentSpaceParams;
+#endif
+#ifdef OPACITY
+uniform vec2 vOpacityInfos;
+#endif
+#ifdef EMISSIVE
+uniform vec2 vEmissiveInfos;
+#endif
+#ifdef LIGHTMAP
+uniform vec2 vLightmapInfos;
+#endif
+#ifdef REFLECTIVITY
+uniform vec3 vReflectivityInfos;
+#endif
+#ifdef MICROSURFACEMAP
+uniform vec2 vMicroSurfaceSamplerInfos;
+#endif
+#if defined(REFLECTIONMAP_SPHERICAL) || defined(REFLECTIONMAP_PROJECTION) || defined(SS_REFRACTION) || defined(PREPASS)
+uniform mat4 view;
+#endif
+#ifdef REFLECTION
+uniform vec2 vReflectionInfos;
+#ifdef REALTIME_FILTERING
+uniform vec2 vReflectionFilteringInfo;
+#endif
+uniform mat4 reflectionMatrix;uniform vec3 vReflectionMicrosurfaceInfos;
+#if defined(USEIRRADIANCEMAP) && defined(USE_IRRADIANCE_DOMINANT_DIRECTION)
+uniform vec3 vReflectionDominantDirection;
+#endif
+#if defined(USE_LOCAL_REFLECTIONMAP_CUBIC) && defined(REFLECTIONMAP_CUBIC)
+uniform vec3 vReflectionPosition;uniform vec3 vReflectionSize;
+#endif
+#endif
+#if defined(SS_REFRACTION) && defined(SS_USE_LOCAL_REFRACTIONMAP_CUBIC)
+uniform vec3 vRefractionPosition;uniform vec3 vRefractionSize;
+#endif
+#ifdef CLEARCOAT
+uniform vec2 vClearCoatParams;uniform vec4 vClearCoatRefractionParams;
+#if defined(CLEARCOAT_TEXTURE) || defined(CLEARCOAT_TEXTURE_ROUGHNESS)
+uniform vec4 vClearCoatInfos;
+#endif
+#ifdef CLEARCOAT_TEXTURE
+uniform mat4 clearCoatMatrix;
+#endif
+#ifdef CLEARCOAT_TEXTURE_ROUGHNESS
+uniform mat4 clearCoatRoughnessMatrix;
+#endif
+#ifdef CLEARCOAT_BUMP
+uniform vec2 vClearCoatBumpInfos;uniform vec2 vClearCoatTangentSpaceParams;uniform mat4 clearCoatBumpMatrix;
+#endif
+#ifdef CLEARCOAT_TINT
+uniform vec4 vClearCoatTintParams;uniform float clearCoatColorAtDistance;
+#ifdef CLEARCOAT_TINT_TEXTURE
+uniform vec2 vClearCoatTintInfos;uniform mat4 clearCoatTintMatrix;
+#endif
+#endif
+#endif
+#ifdef IRIDESCENCE
+uniform vec4 vIridescenceParams;
+#if defined(IRIDESCENCE_TEXTURE) || defined(IRIDESCENCE_THICKNESS_TEXTURE)
+uniform vec4 vIridescenceInfos;
+#endif
+#ifdef IRIDESCENCE_TEXTURE
+uniform mat4 iridescenceMatrix;
+#endif
+#ifdef IRIDESCENCE_THICKNESS_TEXTURE
+uniform mat4 iridescenceThicknessMatrix;
+#endif
+#endif
+#ifdef ANISOTROPIC
+uniform vec3 vAnisotropy;
+#ifdef ANISOTROPIC_TEXTURE
+uniform vec2 vAnisotropyInfos;uniform mat4 anisotropyMatrix;
+#endif
+#endif
+#ifdef SHEEN
+uniform vec4 vSheenColor;
+#ifdef SHEEN_ROUGHNESS
+uniform float vSheenRoughness;
+#endif
+#if defined(SHEEN_TEXTURE) || defined(SHEEN_TEXTURE_ROUGHNESS)
+uniform vec4 vSheenInfos;
+#endif
+#ifdef SHEEN_TEXTURE
+uniform mat4 sheenMatrix;
+#endif
+#ifdef SHEEN_TEXTURE_ROUGHNESS
+uniform mat4 sheenRoughnessMatrix;
+#endif
+#endif
+#ifdef SUBSURFACE
+#ifdef SS_REFRACTION
+uniform vec4 vRefractionMicrosurfaceInfos;uniform vec4 vRefractionInfos;uniform mat4 refractionMatrix;
+#ifdef REALTIME_FILTERING
+uniform vec2 vRefractionFilteringInfo;
+#endif
+#ifdef SS_DISPERSION
+uniform float dispersion;
+#endif
+#endif
+#ifdef SS_THICKNESSANDMASK_TEXTURE
+uniform vec2 vThicknessInfos;uniform mat4 thicknessMatrix;
+#endif
+#ifdef SS_REFRACTIONINTENSITY_TEXTURE
+uniform vec2 vRefractionIntensityInfos;uniform mat4 refractionIntensityMatrix;
+#endif
+#ifdef SS_TRANSLUCENCYINTENSITY_TEXTURE
+uniform vec2 vTranslucencyIntensityInfos;uniform mat4 translucencyIntensityMatrix;
+#endif
+uniform vec2 vThicknessParam;uniform vec3 vDiffusionDistance;uniform vec4 vTintColor;uniform vec3 vSubSurfaceIntensity;uniform vec4 vTranslucencyColor;
+#ifdef SS_TRANSLUCENCYCOLOR_TEXTURE
+uniform vec2 vTranslucencyColorInfos;uniform mat4 translucencyColorMatrix;
+#endif
+#endif
+#ifdef PREPASS
+#ifdef SS_SCATTERING
+uniform float scatteringDiffusionProfile;
+#endif
+#endif
+#if DEBUGMODE>0
+uniform vec2 vDebugMode;
+#endif
+#ifdef DETAIL
+uniform vec4 vDetailInfos;
+#endif
+#include<decalFragmentDeclaration>
+#ifdef USESPHERICALFROMREFLECTIONMAP
+#ifdef SPHERICAL_HARMONICS
+uniform vec3 vSphericalL00;uniform vec3 vSphericalL1_1;uniform vec3 vSphericalL10;uniform vec3 vSphericalL11;uniform vec3 vSphericalL2_2;uniform vec3 vSphericalL2_1;uniform vec3 vSphericalL20;uniform vec3 vSphericalL21;uniform vec3 vSphericalL22;
+#else
+uniform vec3 vSphericalX;uniform vec3 vSphericalY;uniform vec3 vSphericalZ;uniform vec3 vSphericalXX_ZZ;uniform vec3 vSphericalYY_ZZ;uniform vec3 vSphericalZZ;uniform vec3 vSphericalXY;uniform vec3 vSphericalYZ;uniform vec3 vSphericalZX;
+#endif
+#endif
+#define ADDITIONAL_FRAGMENT_DECLARATION
+`;e.IncludesShadersStore[n]||(e.IncludesShadersStore[n]=H);const a="pbrFragmentExtraDeclaration",x=`varying vec3 vPositionW;
+#if DEBUGMODE>0
+varying vec4 vClipSpacePosition;
+#endif
+#include<mainUVVaryingDeclaration>[1..7]
+#ifdef NORMAL
+varying vec3 vNormalW;
+#if defined(USESPHERICALFROMREFLECTIONMAP) && defined(USESPHERICALINVERTEX)
+varying vec3 vEnvironmentIrradiance;
+#endif
+#endif
+#if defined(VERTEXCOLOR) || defined(INSTANCESCOLOR) && defined(INSTANCES)
+varying vec4 vColor;
+#endif
+#if defined(CLUSTLIGHT_BATCH) && CLUSTLIGHT_BATCH>0
+varying float vViewDepth;
+#endif
+`;e.IncludesShadersStore[a]||(e.IncludesShadersStore[a]=x);const o="samplerFragmentAlternateDeclaration",W=`#ifdef _DEFINENAME_
+#if _DEFINENAME_DIRECTUV==1
+#define v_VARYINGNAME_UV vMainUV1
+#elif _DEFINENAME_DIRECTUV==2
+#define v_VARYINGNAME_UV vMainUV2
+#elif _DEFINENAME_DIRECTUV==3
+#define v_VARYINGNAME_UV vMainUV3
+#elif _DEFINENAME_DIRECTUV==4
+#define v_VARYINGNAME_UV vMainUV4
+#elif _DEFINENAME_DIRECTUV==5
+#define v_VARYINGNAME_UV vMainUV5
+#elif _DEFINENAME_DIRECTUV==6
+#define v_VARYINGNAME_UV vMainUV6
+#else
+varying vec2 v_VARYINGNAME_UV;
+#endif
+#endif
+`;e.IncludesShadersStore[o]||(e.IncludesShadersStore[o]=W);const r="pbrFragmentSamplersDeclaration",Y=`#include<samplerFragmentDeclaration>(_DEFINENAME_,ALBEDO,_VARYINGNAME_,Albedo,_SAMPLERNAME_,albedo)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,BASE_WEIGHT,_VARYINGNAME_,BaseWeight,_SAMPLERNAME_,baseWeight)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,BASE_DIFFUSE_ROUGHNESS,_VARYINGNAME_,BaseDiffuseRoughness,_SAMPLERNAME_,baseDiffuseRoughness)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,AMBIENT,_VARYINGNAME_,Ambient,_SAMPLERNAME_,ambient)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,OPACITY,_VARYINGNAME_,Opacity,_SAMPLERNAME_,opacity)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,EMISSIVE,_VARYINGNAME_,Emissive,_SAMPLERNAME_,emissive)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,LIGHTMAP,_VARYINGNAME_,Lightmap,_SAMPLERNAME_,lightmap)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,REFLECTIVITY,_VARYINGNAME_,Reflectivity,_SAMPLERNAME_,reflectivity)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,MICROSURFACEMAP,_VARYINGNAME_,MicroSurfaceSampler,_SAMPLERNAME_,microSurface)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,METALLIC_REFLECTANCE,_VARYINGNAME_,MetallicReflectance,_SAMPLERNAME_,metallicReflectance)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,REFLECTANCE,_VARYINGNAME_,Reflectance,_SAMPLERNAME_,reflectance)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,DECAL,_VARYINGNAME_,Decal,_SAMPLERNAME_,decal)
+#ifdef CLEARCOAT
+#include<samplerFragmentDeclaration>(_DEFINENAME_,CLEARCOAT_TEXTURE,_VARYINGNAME_,ClearCoat,_SAMPLERNAME_,clearCoat)
+#include<samplerFragmentAlternateDeclaration>(_DEFINENAME_,CLEARCOAT_TEXTURE_ROUGHNESS,_VARYINGNAME_,ClearCoatRoughness)
+#if defined(CLEARCOAT_TEXTURE_ROUGHNESS)
+uniform sampler2D clearCoatRoughnessSampler;
+#endif
+#include<samplerFragmentDeclaration>(_DEFINENAME_,CLEARCOAT_BUMP,_VARYINGNAME_,ClearCoatBump,_SAMPLERNAME_,clearCoatBump)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,CLEARCOAT_TINT_TEXTURE,_VARYINGNAME_,ClearCoatTint,_SAMPLERNAME_,clearCoatTint)
+#endif
+#ifdef IRIDESCENCE
+#include<samplerFragmentDeclaration>(_DEFINENAME_,IRIDESCENCE_TEXTURE,_VARYINGNAME_,Iridescence,_SAMPLERNAME_,iridescence)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,IRIDESCENCE_THICKNESS_TEXTURE,_VARYINGNAME_,IridescenceThickness,_SAMPLERNAME_,iridescenceThickness)
+#endif
+#ifdef SHEEN
+#include<samplerFragmentDeclaration>(_DEFINENAME_,SHEEN_TEXTURE,_VARYINGNAME_,Sheen,_SAMPLERNAME_,sheen)
+#include<samplerFragmentAlternateDeclaration>(_DEFINENAME_,SHEEN_TEXTURE_ROUGHNESS,_VARYINGNAME_,SheenRoughness)
+#if defined(SHEEN_ROUGHNESS) && defined(SHEEN_TEXTURE_ROUGHNESS)
+uniform sampler2D sheenRoughnessSampler;
+#endif
+#endif
+#ifdef ANISOTROPIC
+#include<samplerFragmentDeclaration>(_DEFINENAME_,ANISOTROPIC_TEXTURE,_VARYINGNAME_,Anisotropy,_SAMPLERNAME_,anisotropy)
+#endif
+#ifdef REFLECTION
+#ifdef REFLECTIONMAP_3D
+#define sampleReflection(s,c) textureCube(s,c)
+uniform samplerCube reflectionSampler;
+#ifdef LODBASEDMICROSFURACE
+#define sampleReflectionLod(s,c,l) textureCubeLodEXT(s,c,l)
+#else
+uniform samplerCube reflectionSamplerLow;uniform samplerCube reflectionSamplerHigh;
+#endif
+#ifdef USEIRRADIANCEMAP
+uniform samplerCube irradianceSampler;
+#endif
+#else
+#define sampleReflection(s,c) texture2D(s,c)
+uniform sampler2D reflectionSampler;
+#ifdef LODBASEDMICROSFURACE
+#define sampleReflectionLod(s,c,l) texture2DLodEXT(s,c,l)
+#else
+uniform sampler2D reflectionSamplerLow;uniform sampler2D reflectionSamplerHigh;
+#endif
+#ifdef USEIRRADIANCEMAP
+uniform sampler2D irradianceSampler;
+#endif
+#endif
+#ifdef REFLECTIONMAP_SKYBOX
+varying vec3 vPositionUVW;
+#else
+#if defined(REFLECTIONMAP_EQUIRECTANGULAR_FIXED) || defined(REFLECTIONMAP_MIRROREDEQUIRECTANGULAR_FIXED)
+varying vec3 vDirectionW;
+#endif
+#endif
+#endif
+#ifdef ENVIRONMENTBRDF
+uniform sampler2D environmentBrdfSampler;
+#endif
+#ifdef SUBSURFACE
+#ifdef SS_REFRACTION
+#ifdef SS_REFRACTIONMAP_3D
+#define sampleRefraction(s,c) textureCube(s,c)
+uniform samplerCube refractionSampler;
+#ifdef LODBASEDMICROSFURACE
+#define sampleRefractionLod(s,c,l) textureCubeLodEXT(s,c,l)
+#else
+uniform samplerCube refractionSamplerLow;uniform samplerCube refractionSamplerHigh;
+#endif
+#else
+#define sampleRefraction(s,c) texture2D(s,c)
+uniform sampler2D refractionSampler;
+#ifdef LODBASEDMICROSFURACE
+#define sampleRefractionLod(s,c,l) texture2DLodEXT(s,c,l)
+#else
+uniform sampler2D refractionSamplerLow;uniform sampler2D refractionSamplerHigh;
+#endif
+#endif
+#endif
+#include<samplerFragmentDeclaration>(_DEFINENAME_,SS_THICKNESSANDMASK_TEXTURE,_VARYINGNAME_,Thickness,_SAMPLERNAME_,thickness)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,SS_REFRACTIONINTENSITY_TEXTURE,_VARYINGNAME_,RefractionIntensity,_SAMPLERNAME_,refractionIntensity)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,SS_TRANSLUCENCYINTENSITY_TEXTURE,_VARYINGNAME_,TranslucencyIntensity,_SAMPLERNAME_,translucencyIntensity)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,SS_TRANSLUCENCYCOLOR_TEXTURE,_VARYINGNAME_,TranslucencyColor,_SAMPLERNAME_,translucencyColor)
+#endif
+#ifdef IBL_CDF_FILTERING
+uniform sampler2D icdfSampler;
+#endif
+`;e.IncludesShadersStore[r]||(e.IncludesShadersStore[r]=Y);const t="subSurfaceScatteringFunctions",X=`bool testLightingForSSS(float diffusionProfile)
+{return diffusionProfile<1.;}`;e.IncludesShadersStore[t]||(e.IncludesShadersStore[t]=X);const f="importanceSampling",k=`vec3 hemisphereCosSample(vec2 u) {float phi=2.*PI*u.x;float cosTheta2=1.-u.y;float cosTheta=sqrt(cosTheta2);float sinTheta=sqrt(1.-cosTheta2);return vec3(sinTheta*cos(phi),sinTheta*sin(phi),cosTheta);}
+vec3 hemisphereImportanceSampleDggx(vec2 u,float a) {float phi=2.*PI*u.x;float cosTheta2=(1.-u.y)/(1.+(a+1.)*((a-1.)*u.y));float cosTheta=sqrt(cosTheta2);float sinTheta=sqrt(1.-cosTheta2);return vec3(sinTheta*cos(phi),sinTheta*sin(phi),cosTheta);}
+vec3 hemisphereImportanceSampleDCharlie(vec2 u,float a) { 
+float phi=2.*PI*u.x;float sinTheta=pow(u.y,a/(2.*a+1.));float cosTheta=sqrt(1.-sinTheta*sinTheta);return vec3(sinTheta*cos(phi),sinTheta*sin(phi),cosTheta);}`;e.IncludesShadersStore[f]||(e.IncludesShadersStore[f]=k);const c="pbrHelperFunctions",w=`#define MINIMUMVARIANCE 0.0005
+float convertRoughnessToAverageSlope(float roughness)
+{return square(roughness)+MINIMUMVARIANCE;}
+float fresnelGrazingReflectance(float reflectance0) {float reflectance90=saturate(reflectance0*25.0);return reflectance90;}
+vec2 getAARoughnessFactors(vec3 normalVector) {
+#ifdef SPECULARAA
+vec3 nDfdx=dFdx(normalVector.xyz);vec3 nDfdy=dFdy(normalVector.xyz);float slopeSquare=max(dot(nDfdx,nDfdx),dot(nDfdy,nDfdy));float geometricRoughnessFactor=pow(saturate(slopeSquare),0.333);float geometricAlphaGFactor=sqrt(slopeSquare);geometricAlphaGFactor*=0.75;return vec2(geometricRoughnessFactor,geometricAlphaGFactor);
+#else
+return vec2(0.);
+#endif
+}
+#ifdef ANISOTROPIC
+#ifdef ANISOTROPIC_LEGACY
+vec2 getAnisotropicRoughness(float alphaG,float anisotropy) {float alphaT=max(alphaG*(1.0+anisotropy),MINIMUMVARIANCE);float alphaB=max(alphaG*(1.0-anisotropy),MINIMUMVARIANCE);return vec2(alphaT,alphaB);}
+vec3 getAnisotropicBentNormals(const vec3 T,const vec3 B,const vec3 N,const vec3 V,float anisotropy,float roughness) {vec3 anisotropicFrameDirection;if (anisotropy>=0.0) {anisotropicFrameDirection=B;} else {anisotropicFrameDirection=T;}
+vec3 anisotropicFrameTangent=cross(normalize(anisotropicFrameDirection),V);vec3 anisotropicFrameNormal=cross(anisotropicFrameTangent,anisotropicFrameDirection);vec3 anisotropicNormal=normalize(mix(N,anisotropicFrameNormal,abs(anisotropy)));return anisotropicNormal;}
+#else
+vec2 getAnisotropicRoughness(float alphaG,float anisotropy) {float alphaT=max(mix(alphaG,1.0,anisotropy*anisotropy),MINIMUMVARIANCE);float alphaB=max(alphaG,MINIMUMVARIANCE);return vec2(alphaT,alphaB);}
+vec3 getAnisotropicBentNormals(const vec3 T,const vec3 B,const vec3 N,const vec3 V,float anisotropy,float roughness) {vec3 bentNormal=cross(B,V);bentNormal=normalize(cross(bentNormal,B));float a=square(square(1.0-anisotropy*(1.0-roughness)));bentNormal=normalize(mix(bentNormal,N,a));return bentNormal;}
+#endif
+#endif
+#if defined(CLEARCOAT) || defined(SS_REFRACTION)
+vec3 cocaLambert(vec3 alpha,float distance) {return exp(-alpha*distance);}
+vec3 cocaLambert(float NdotVRefract,float NdotLRefract,vec3 alpha,float thickness) {return cocaLambert(alpha,(thickness*((NdotLRefract+NdotVRefract)/(NdotLRefract*NdotVRefract))));}
+vec3 computeColorAtDistanceInMedia(vec3 color,float distance) {return -log(color)/distance;}
+vec3 computeClearCoatAbsorption(float NdotVRefract,float NdotLRefract,vec3 clearCoatColor,float clearCoatThickness,float clearCoatIntensity) {vec3 clearCoatAbsorption=mix(vec3(1.0),
+cocaLambert(NdotVRefract,NdotLRefract,clearCoatColor,clearCoatThickness),
+clearCoatIntensity);return clearCoatAbsorption;}
+#endif
+#ifdef MICROSURFACEAUTOMATIC
+float computeDefaultMicroSurface(float microSurface,vec3 reflectivityColor)
+{const float kReflectivityNoAlphaWorkflow_SmoothnessMax=0.95;float reflectivityLuminance=getLuminance(reflectivityColor);float reflectivityLuma=sqrt(reflectivityLuminance);microSurface=reflectivityLuma*kReflectivityNoAlphaWorkflow_SmoothnessMax;return microSurface;}
+#endif
+`;e.IncludesShadersStore[c]||(e.IncludesShadersStore[c]=w);const l="pbrDirectLightingSetupFunctions",z=`struct preLightingInfo
+{vec3 lightOffset;float lightDistanceSquared;float lightDistance;float attenuation;vec3 L;vec3 H;float NdotV;float NdotLUnclamped;float NdotL;float VdotH;float LdotV;float roughness;float diffuseRoughness
