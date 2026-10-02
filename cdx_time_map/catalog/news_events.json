@@ -1,8 +1,179 @@
 {
-  "catalogVersion": "0.0.139",
-  "updatedAt": "2026-10-01T18:50:56.038Z",
+  "catalogVersion": "0.0.140",
+  "updatedAt": "2026-10-02T06:58:56.747Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c60919490ad88c83e2192ffc",
+      "title": "마이애미 법원, 연방법의 비시민권자 투표 규정이 위헌이라고 판결",
+      "titleTranslations": {
+        "en": "Miami judge rules federal noncitizen voting law violates US Constitution"
+      },
+      "startAt": "2026-10-02T06:26:48.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "마이애미 지방법원 판사 레이보위츠는 연방법이 주(州)의 유권자 자격을 침해한다며 비시민권자의 투표를 규율하는 해당 연방법 조항이 미국 헌법에 위배된다고 판결했다고 알자지라가 보도했다. 판결문은 유권자 자격에 관한 권한이 주정부에 있음을 강조했다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports that Miami federal Judge Leibowitz ruled that a federal law regulating noncitizen voting is unconstitutional, finding it infringes on state authority over voter qualifications."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/2/miami-judge-rules-federal-noncitizen-voting-law-violates-us-constitution?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/2/miami-judge-rules-federal-noncitizen-voting-law-violates-us-constitution?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-02T06:26:48.000Z",
+        "lastObservedAt": "2026-10-02T06:58:56.747Z"
+      }
+    },
+    {
+      "id": "news-e90781a58b70bd0cd2e9fef2",
+      "title": "서울, 포로 논란에 대한 우크라이나 사과 요구…'추가 조치' 경고",
+      "titleTranslations": {
+        "en": "Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row"
+      },
+      "startAt": "2026-10-02T03:09:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "한국 대통령 이재명은 우크라이나가 포로 관련 문제에 대해 사과하지 않으면 '추가 조치'를 취하겠다고 경고하며, 보도에 따르면 우크라이나가 한반도 전쟁을 유도하려 시도하고 있다고 비판했다.",
+      "descriptionTranslations": {
+        "en": "BBC reports that South Korea's President Lee Jae Myung warned Ukraine it will take 'further action' if Kyiv does not apologise over a prisoner‑of‑war dispute, accusing Ukraine of attempting to provoke a war on the Korean Peninsula."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-02T03:09:13.000Z",
+        "lastObservedAt": "2026-10-02T06:58:56.747Z"
+      }
+    },
+    {
+      "id": "news-cc08d45dc3873df6b2ba3c4d",
+      "title": "영국 정신건강 병동 사망사건 조사 — 검시관, 향후 사망 위험 경고 및 절차상 문제 지적",
+      "titleTranslations": {
+        "en": "Coroner warns of risk of future deaths at mental health unit where patient was killed"
+      },
+      "startAt": "2026-10-01T23:59:44.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "BBC는 런던 동부의 한 정신건강 신탁(mental health trust)에서 발생한 살인 사건을 계기로 검시관이 향후 유사 사건으로 인한 사망 위험을 경고했으며, 독립경찰윤리위원회(IOPC)는 가족의 우려 신고가 정신건강 서비스에 적절히 연결되지 않았다고 지적했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "BBC reports that following a fatal attack at an east London mental health trust, a coroner warned of the risk of future deaths. The Independent Office for Police Conduct (IOPC) said a family's report of concerns about their son was not properly flagged to mental health services."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqn747k6pem0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqn747k6pem0o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cwe9eyj4gpgzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-01T23:59:44.000Z",
+        "lastObservedAt": "2026-10-02T06:58:56.747Z"
+      }
+    },
+    {
+      "id": "news-3e79d557acc7c9987dde3763",
+      "title": "금성의 신비한 연무, 사실은 우주먼지일 수 있다는 연구",
+      "titleTranslations": {
+        "en": "Venus' mysterious haze is actually cosmic dust"
+      },
+      "startAt": "2026-10-01T22:27:04.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "아르스테크니카 보도에 따르면 물리적 모델 연구에서 철(iron) 먼지와 황산이 결합해 금성 상층의 관측된 연무 성질을 설명할 수 있다는 결과가 나왔다. 연구는 금성 대기의 연무 기원에 대한 새로운 해석을 제시한다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that a physical model indicates iron dust combined with sulfuric acid can reproduce the observed properties of Venus's mysterious haze, offering a new interpretation of the haze's origin in Venusian atmosphere studies."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/"
+        ],
+        "firstPublishedAt": "2026-10-01T22:27:04.000Z",
+        "lastObservedAt": "2026-10-02T06:58:56.747Z"
+      }
+    },
+    {
+      "id": "news-09a227382f8aa4fff1bb7bb2",
+      "title": "미국 주(州)·도시들, 트럼프 행정부의 발전소 온실가스 규정 폐지에 대해 소송 제기",
+      "titleTranslations": {
+        "en": "US states and cities sue over Trump EPA’s repeal of emissions rules"
+      },
+      "startAt": "2026-10-01T22:24:25.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 뉴욕을 선두로 한 21개 주와 페인트롤베이커 등 주요 도시들이 트럼프 행정부가 석탄·가스 발전소의 온실가스 규제를 폐지한 것에 대해 소송을 제기했다. 원고들은 규제 폐지가 주요 기후 보호 장치를 약화시키고 수십 년간의 성과를 뒤로 돌릴 것이라고 주장한다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that a coalition led by New York—comprising 21 states and several major cities—has sued the Trump administration over its repeal of rules limiting greenhouse‑gas emissions from coal and gas‑fired power plants, arguing the rollback weakens a key climate protection."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/01/us-states-cities-trump-epa-climate-emissions",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/01/us-states-cities-trump-epa-climate-emissions"
+        ],
+        "firstPublishedAt": "2026-10-01T22:24:25.000Z",
+        "lastObservedAt": "2026-10-02T06:58:56.747Z"
+      }
+    },
+    {
+      "id": "news-9be4503a986a4cda369c7a4a",
+      "title": "영국, 항공사가 부모들에게 아이와 함께 앉는 자리를 유료로 판매하는 관행 금지 계획",
+      "titleTranslations": {
+        "en": "UK airlines to be banned from charging parents to sit with children"
+      },
+      "startAt": "2026-10-01T21:41:19.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언은 영국 정부가 14세 미만 승객이 부모나 동반 성인 옆에 무료로 앉도록 항공사에 요구하는 규정을 포함한 계획을 검토 중이라고 보도했다. 또한 예약 시 이름 수정에 요금을 부과하지 못하도록 하는 방안도 검토되고 있다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports the UK government plans to ban airlines from charging parents extra to sit next to their children under 14, requiring airlines to seat such passengers next to a parent or accompanying adult free of charge. Proposals also include banning name‑change fees for minor corrections."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/01/uk-airlines-to-be-banned-from-charging-parents-to-sit-with-children",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/01/uk-airlines-to-be-banned-from-charging-parents-to-sit-with-children"
+        ],
+        "firstPublishedAt": "2026-10-01T21:41:19.000Z",
+        "lastObservedAt": "2026-10-02T06:58:56.747Z"
+      }
+    },
     {
       "id": "news-f830528e18966e17a12ffbd2",
       "title": "총리 측에 로즈뱅크 유전, 서안 제재 위반 우려 제기",
@@ -1124,34 +1295,6 @@
       }
     },
     {
-      "id": "news-f35aa1e65527027f4e8416db",
-      "title": "세르비아 조기 총선: 부치치가 학생 반란을 제압할 수 있나?",
-      "titleTranslations": {
-        "en": "Serbia’s snap election: Can Vucic outmanoeuvre the student revolt?"
-      },
-      "startAt": "2026-09-28T06:23:02.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "분석가들은 이번 조기 의회선거가 국내의 위기를 끝내거나 부치치의 문제를 해소하지는 못할 것이라고 보고 있다.",
-      "descriptionTranslations": {
-        "en": "Analysts say the country's early parliamentary elections will not end its crisis or defuse Vucic's troubles."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/features/2026/9/28/serbias-snap-election-can-vucic-outmanoeuvre-the-student-revolt?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/features/2026/9/28/serbias-snap-election-can-vucic-outmanoeuvre-the-student-revolt?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-28T06:23:02.000Z",
-        "lastObservedAt": "2026-09-28T06:46:01.974Z"
-      }
-    },
-    {
       "id": "news-c88ef522a895f600c053f518",
       "title": "그린란드 빙상 아래 숨겨진 계곡들 지도화",
       "titleTranslations": {
@@ -1176,35 +1319,6 @@
           "https://science.nasa.gov/earth/earth-observatory/uncovering-the-valleys-hidden-below-greenlands-ice/"
         ],
         "firstPublishedAt": "2026-09-28T04:00:00.000Z",
-        "lastObservedAt": "2026-09-28T06:46:01.974Z"
-      }
-    },
-    {
-      "id": "news-a54e962023618cdfbc2c878e",
-      "title": "20년 넘는 미군 주둔, 이번 주 공식 종료 준비",
-      "titleTranslations": {
-        "en": "After more than two decades, U.S. forces prepare to leave Iraq"
-      },
-      "startAt": "2026-09-27T21:14:43.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 미군이 20년이 넘는 이라크 주둔을 이번 주 공식적으로 끝낼 준비를 하고 있다.",
-      "descriptionTranslations": {
-        "en": "The U.S. military formally ends a more than two‑decade‑long presence in Iraq this week."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/27/nx-s1-5981123/after-more-than-two-decades-u-s-forces-prepare-to-leave-iraq",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/27/nx-s1-5981123/after-more-than-two-decades-u-s-forces-prepare-to-leave-iraq"
-        ],
-        "firstPublishedAt": "2026-09-27T21:14:43.000Z",
         "lastObservedAt": "2026-09-28T06:46:01.974Z"
       }
     },
@@ -1495,34 +1609,6 @@
           "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/"
         ],
         "firstPublishedAt": "2026-09-23T17:15:32.000Z",
-        "lastObservedAt": "2026-09-23T17:50:38.833Z"
-      }
-    },
-    {
-      "id": "news-9328fa400dd37e6b9e773781",
-      "title": "오픈AI, 우크라이나의 민간 인프라 사이버 방어 지원 위해 Daybreak 접근 권한 확대",
-      "titleTranslations": {
-        "en": "OpenAI extends Daybreak cyber access to Ukraine for civilian defense"
-      },
-      "startAt": "2026-09-23T13:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "오픈AI는 우크라이나 정부에 자사의 Daybreak 프로그램 접근을 확대해 민간 기반시설의 사이버 방어를 지원한다고 밝혔다. 회사 발표는 인공지능 도구가 전장·사이버 방어에 직접적으로 투입되는 사례를 시사한다.",
-      "descriptionTranslations": {
-        "en": "OpenAI said it is extending access to its Daybreak program to the Government of Ukraine to support cyber defense of civilian infrastructure. The company’s announcement indicates AI tools being deployed directly in cyber‑defense contexts."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"
-        ],
-        "firstPublishedAt": "2026-09-23T13:00:00.000Z",
         "lastObservedAt": "2026-09-23T17:50:38.833Z"
       }
     },
