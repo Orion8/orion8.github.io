@@ -1,8 +1,205 @@
 {
-  "catalogVersion": "0.0.140",
-  "updatedAt": "2026-10-02T06:58:56.747Z",
+  "catalogVersion": "0.0.141",
+  "updatedAt": "2026-10-02T18:23:40.084Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-b25f6ac771241232e92089e2",
+      "title": "맨체스터 시티, 유죄 판정에 항소 결정 공식 발표",
+      "titleTranslations": {
+        "en": "Manchester City confirms appeal against guilty verdict"
+      },
+      "startAt": "2026-10-02T17:43:48.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "BBC는 맨체스터 시티가 유죄 판정에 대해 항소를 진행하겠다고 공식 발표했다고 전했다. 구단 성명은 해당 판결에 '법·원칙·사실상의 명백한 중대한 오류'가 있어 '안전하지 않다'고 주장했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports Manchester City has formally confirmed it will appeal a guilty verdict. In its statement the club said the ruling contained 'clear material errors, of law, principle and fact, and is unsafe.'"
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cqn7470513n0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/football/articles/cqn7470513n0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-02T17:43:48.000Z",
+        "lastObservedAt": "2026-10-02T18:23:40.084Z"
+      }
+    },
+    {
+      "id": "news-36367861a20bb5c741a538db",
+      "title": "G7, 1억 배럴의 원유·디젤 공동 방출 발표",
+      "titleTranslations": {
+        "en": "G7 to release 100 million barrels of oil and diesel"
+      },
+      "startAt": "2026-10-02T17:29:56.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "BBC는 G7이 약 1억 배럴 규모의 원유와 디젤을 공동 방출하기로 했다고 보도했다. 이 조치는 유가 급등을 막고 미국의 디젤 수출 금지 위협을 회피하기 위한 목적이라고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports the G7 will coordinate the release of around 100 million barrels of oil and diesel. The coordinated release is intended to head off further price spikes and to avoid a potential ban on US diesel exports."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-02T17:29:56.000Z",
+        "lastObservedAt": "2026-10-02T18:23:40.084Z"
+      }
+    },
+    {
+      "id": "news-2b3fb9c367c3391384b26e4c",
+      "title": "NASA, 트랜소닉 동역학 터널에서 최초의 압력감응 페인트 시험 성공",
+      "titleTranslations": {
+        "en": "NASA conducts first pressure‑sensitive paint tests on a model wing in Transonic Dynamics Tunnel"
+      },
+      "startAt": "2026-10-02T16:10:55.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 랭글리 연구소의 트랜소닉 동역학 터널에서 최초의 종류 실험으로 비정상(언스테디) 압력감응 페인트를 사용해 표준 풍동 모델 주위의 공기 흐름을 연구했다고 밝혔다. 기관은 이 시험이 미래 항공기 기술 설계용 풍동 역량을 확장하는 데 기여할 것이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "NASA says researchers at Langley Research Center used unsteady Pressure Sensitive Paint in a first‑of‑its‑kind test in the Transonic Dynamics Tunnel to study airflow around a standard wind‑tunnel model wing. The agency says the tests will help expand wind‑tunnel capabilities for designing future aircraft technologies."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/"
+        ],
+        "firstPublishedAt": "2026-10-02T16:10:55.000Z",
+        "lastObservedAt": "2026-10-02T18:23:40.084Z"
+      }
+    },
+    {
+      "id": "news-809c1fe49b2d32c1edd55402",
+      "title": "영국 철도 차량 임대사 임원들 작년 총 350만 파운드 수령…주주 배당 약 3억9천만 파운드",
+      "titleTranslations": {
+        "en": "Bosses of three UK train leasing firms received £3.5m last year as firms paid nearly £400m to shareholders"
+      },
+      "startAt": "2026-10-02T15:54:18.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언은 철도 차량을 임대하는 세 회사의 최고경영진이 지난해 합쳐 350만 파운드를 받았고, 이들 회사가 주주들에게 약 3억9천만 파운드를 배당했다고 보도했다. 철도노조들은 이를 승객 비용으로 이익을 챙긴다고 비판했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that the chief executives of three rolling‑stock leasing companies in the UK received a combined £3.5m last year, while the firms paid nearly £400m to shareholders. Rail unions criticised the companies for profiting at passengers' expense."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/02/bosses-firms-trains-uk-35m-pounds-last-year",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/02/bosses-firms-trains-uk-35m-pounds-last-year"
+        ],
+        "firstPublishedAt": "2026-10-02T15:54:18.000Z",
+        "lastObservedAt": "2026-10-02T18:23:40.084Z"
+      }
+    },
+    {
+      "id": "news-d4927e1eb70f86f9b476888d",
+      "title": "미 해안경비대, 쿠바로 향하던 연료 운반선 차단",
+      "titleTranslations": {
+        "en": "US Coast Guard intercepts ship carrying fuel bound for Cuba"
+      },
+      "startAt": "2026-10-02T15:13:23.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 미 해안경비대는 9월5일 카리브해에서 쿠바로 향하던 대형 화물선 'Grace'를 적발해 탑승 검문한 뒤 멕시코로 이송했다고 밝혔다. 해안경비대는 해당 선박이 당국을 회피하기 위한 이른바 '다크 플릿' 전술을 사용했다고 전했다. 이번 조치는 트럼프 행정부의 쿠바에 대한 석유 제재가 지속되는 가운데 이뤄졌다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports the US Coast Guard intercepted a large cargo ship named 'Grace' on 5 September in the Caribbean Sea carrying fuel bound for Cuba, boarded the vessel and took it to Mexico. The Coast Guard said the ship was using 'dark fleet' tactics to evade authorities. The action took place amid the Trump administration's oil embargo on Cuba."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/02/us-coast-guard-says-it-has-intercepted-ship-carrying-fuel-to-cuba",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/02/us-coast-guard-says-it-has-intercepted-ship-carrying-fuel-to-cuba"
+        ],
+        "firstPublishedAt": "2026-10-02T15:13:23.000Z",
+        "lastObservedAt": "2026-10-02T18:23:40.084Z"
+      }
+    },
+    {
+      "id": "news-4724ab2e5e4b0a1a27dfb803",
+      "title": "스트레이 키즈, 그래미 '최우수 아시아 팝' 신설에 항의해 보이콧 참여",
+      "titleTranslations": {
+        "en": "Stray Kids join boycott of the Grammys over new 'Best Asian Pop' category"
+      },
+      "startAt": "2026-10-02T12:28:59.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "BBC는 스트레이 키즈가 그래미 시상식의 새 '최우수 아시아 팝' 부문 신설에 항의하며 시상식 참여를 철회했다고 보도했다. 이들은 BTS에 이어 두 번째로 대형 아티스트의 보이콧 사례가 됐다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports that Stray Kids withdrew from the Grammy Awards in protest at the introduction of a new 'Best Asian Pop' category. They are the second major act, after BTS, to boycott the awards over the change."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5398kkx27ewo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5398kkx27ewo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-02T12:28:59.000Z",
+        "lastObservedAt": "2026-10-02T18:23:40.084Z"
+      }
+    },
+    {
+      "id": "news-cbec9a4dcce2a020989119ad",
+      "title": "코넬 성폭행 사건에 특별검사 임명·레니 구드 가족 정부 상대 소송 제기",
+      "titleTranslations": {
+        "en": "Special prosecutor named in Cornell rape case; family of Renee Good sues the government"
+      },
+      "startAt": "2026-10-02T11:22:38.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "NPR 보도에 따르면 코넬 대학 성폭행 사건에 특별검사가 임명되는 등 새 법적 조치가 진행되고 있다. 같은 기사에서는 레니 구드(Renee Good) 사망 사건과 관련해 가족이 정부를 상대로 소송을 제기했다는 소식도 함께 전했다.",
+      "descriptionTranslations": {
+        "en": "NPR reports new legal actions in two high‑profile cases: a special prosecutor has been appointed in the Cornell rape case, and the family of Renee Good has filed a lawsuit against the government in relation to her death."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/02/g-s1-146075/up-first-newsletter-cornell-assault-case-christa-pike-jobs-report-renee-good",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/02/g-s1-146075/up-first-newsletter-cornell-assault-case-christa-pike-jobs-report-renee-good"
+        ],
+        "firstPublishedAt": "2026-10-02T11:22:38.000Z",
+        "lastObservedAt": "2026-10-02T18:23:40.084Z"
+      }
+    },
     {
       "id": "news-c60919490ad88c83e2192ffc",
       "title": "마이애미 법원, 연방법의 비시민권자 투표 규정이 위헌이라고 판결",
@@ -346,6 +543,34 @@
       }
     },
     {
+      "id": "news-bc44a1b0bed66f710a34d039",
+      "title": "콜로라도강 저수지 급감 — 미 서부 주요 저수지 역사적 저수위",
+      "titleTranslations": {
+        "en": "Colorado River reservoirs slump as Lake Mead and Lake Powell hit historic lows"
+      },
+      "startAt": "2026-10-01T15:55:58.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "가디언은 레이크 미드가 호수 조성 이후 거의 90년 만에 최저 수준에 도달했으며 레이크 파월도 역사적 저수위를 기록했다고 보도했다. 보도에는 과거 취수구가 드러나는 등 물 공급 인프라에 변화가 관측된다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports Lake Mead is at its lowest level since it was filled nearly 90 years ago, and Lake Powell is also at historic lows. The coverage notes visible changes to water‑infrastructure such as formerly submerged intakes being exposed."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/01/colorado-river-nevada-shrinking",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/01/colorado-river-nevada-shrinking"
+        ],
+        "firstPublishedAt": "2026-10-01T15:55:58.000Z",
+        "lastObservedAt": "2026-10-02T18:23:40.084Z"
+      }
+    },
+    {
       "id": "news-67539dd92a44e131582e79c1",
       "title": "미‧중 관계 긴장 속 캐나다 자체 발사 산업 본격화",
       "titleTranslations": {
@@ -602,6 +827,34 @@
         ],
         "firstPublishedAt": "2026-09-30T21:54:12.000Z",
         "lastObservedAt": "2026-10-01T07:10:03.687Z"
+      }
+    },
+    {
+      "id": "news-ce56aa83d0064ef1be25967d",
+      "title": "딥마인드, 'Gemini 4 Argon' 발표",
+      "titleTranslations": {
+        "en": "DeepMind announces 'Gemini 4 Argon'"
+      },
+      "startAt": "2026-09-30T20:01:45.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "딥마인드 블로그는 'Gemini 4 Argon'을 소개하며 차세대 프런티어 인텔리전스(Frontier Intelligence)의 시대라고 명명한 새 모델을 발표했다.",
+      "descriptionTranslations": {
+        "en": "DeepMind's blog introduces 'Gemini 4 Argon', presenting it as a new model marking the next era of 'frontier intelligence.'"
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+        ],
+        "firstPublishedAt": "2026-09-30T20:01:45.000Z",
+        "lastObservedAt": "2026-10-02T18:23:40.084Z"
       }
     },
     {
@@ -1004,35 +1257,6 @@
       }
     },
     {
-      "id": "news-90e823956f6839f5d4c8e4eb",
-      "title": "미국의 중동 주둔 축소 신호 속에서 터키, 지역 영향력 확대 준비",
-      "titleTranslations": {
-        "en": "As the U.S. signals a smaller Middle East footprint, Turkey is ready to step in"
-      },
-      "startAt": "2026-09-29T09:00:00.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도는 미국이 중동에서의 존재를 축소할 신호를 보내는 가운데 터키가 지역 영향력 확대를 준비하고 있다고 전했다. 해당 보도는 이 변화가 2023년 하마스의 이스라엘 공격에서 시작된 충격들과 이어지는 이란과의 7개월째 전쟁 등 최근의 중동 충격들과 맞물려 있다고 분석했다.",
-      "descriptionTranslations": {
-        "en": "The report says that as the United States signals a smaller footprint in the Middle East, Turkey is preparing to expand its regional influence. It notes this shift comes amid profound regional shocks starting with the 2023 Hamas attack on Israel and continuing with the seven‑month‑old war with Iran."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/29/nx-s1-5983685/turkey-influence",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/29/nx-s1-5983685/turkey-influence"
-        ],
-        "firstPublishedAt": "2026-09-29T09:00:00.000Z",
-        "lastObservedAt": "2026-09-29T18:35:56.384Z"
-      }
-    },
-    {
       "id": "news-3f2cce1106d423abc54437f4",
       "title": "제약사, 약가 유지 위해 특허 쌓기 — 부속 특허로 특허기간 연장",
       "titleTranslations": {
@@ -1234,35 +1458,6 @@
           "https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter"
         ],
         "firstPublishedAt": "2026-09-21T14:00:00.000Z",
-        "lastObservedAt": "2026-09-28T20:06:51.082Z"
-      }
-    },
-    {
-      "id": "news-617bfc057639ab9c83dc8dd5",
-      "title": "마드리드에서 87세 여성 퇴거에 항의해 수만 명 시위·광장 야영",
-      "titleTranslations": {
-        "en": "Tens of thousands protest in Madrid and camp in Puerta del Sol over eviction of 87‑year‑old"
-      },
-      "startAt": "2026-09-28T07:20:18.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "스페인 마드리드에서 87세 여성의 퇴거를 계기로 수만 명이 행진하며 주말 밤 푸에르타 델 솔 광장에 야영을 차리고 주택 위기를 규탄했다.",
-      "descriptionTranslations": {
-        "en": "Tens of thousands marched through Madrid to protest the eviction of an 87‑year‑old woman and Spain's broader housing crisis, camping overnight in Puerta del Sol."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/28/nx-s1-5983303/encampment-protest-madrid-housing-crisis",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/28/nx-s1-5983303/encampment-protest-madrid-housing-crisis"
-        ],
-        "firstPublishedAt": "2026-09-28T07:20:18.000Z",
         "lastObservedAt": "2026-09-28T20:06:51.082Z"
       }
     },
@@ -1499,36 +1694,6 @@
       }
     },
     {
-      "id": "news-9520e4bef5c09ea9be51feed",
-      "title": "PCB 오염 우려하는 연못 인근 주민들, 발암물질 검사 요구",
-      "titleTranslations": {
-        "en": "Residents near lagoon call for testing for cancer‑causing PCBs"
-      },
-      "startAt": "2026-09-25T05:48:36.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 한 연못(라군) 인근 주민들이 해당 장소를 '영국의 수치'라고 부르며 폴리염화비페닐(PCB) 같은 발암 가능 화학물질에 대한 검사와 주민 대상 건강검진을 요구하고 있다. 지역사회는 토양·수질·인체 노출 조사를 통해 장기적 건강 위험을 확인하길 원하고 있다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that residents living near a lagoon—described by some as 'a shame on Britain'—are calling for testing for cancer‑causing chemicals such as polychlorinated biphenyls (PCBs) and for health checks. The community wants soil, water and human exposure investigations to assess long‑term health risks."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw05rym38gdqo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw05rym38gdqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-25T05:48:36.000Z",
-        "lastObservedAt": "2026-09-25T06:08:20.020Z"
-      }
-    },
-    {
       "id": "news-b3b55392dcf069a9c7e907fb",
       "title": "미국 모기지 금리, 20개월 만에 7% 돌파",
       "titleTranslations": {
@@ -1639,34 +1804,6 @@
         ],
         "firstPublishedAt": "2026-09-22T15:00:00.000Z",
         "lastObservedAt": "2026-09-22T17:38:10.336Z"
-      }
-    },
-    {
-      "id": "news-a6bdcfb76b04d856e4b26e4e",
-      "title": "NASA, 초기 화성에 복잡한 물 시스템 존재 확인 — 퍼서비어런스 연구 결과 공개",
-      "startAt": "2026-09-21T16:54:43.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 퍼서비어런스 로버가 예제로 분지(Jezero Crater) 내 'Margin Unit'에서 기대와 다른 지층·퇴적 구조를 발견해 초기 화성에 복잡한 물 시스템이 존재했음을 시사하는 증거를 공개했다. 이 결과는 고대 화성의 수문학·환경 변화와 생명 가능성 연구에 중요한 새 단서를 제공한다.",
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/"
-        ],
-        "firstPublishedAt": "2026-09-21T16:54:43.000Z",
-        "lastObservedAt": "2026-09-21T18:38:35.689Z"
-      },
-      "titleTranslations": {
-        "en": "NASA: Perseverance finds evidence of a complex water system on early Mars"
-      },
-      "descriptionTranslations": {
-        "en": "NASA said the Perseverance rover discovered unexpected stratigraphy and sedimentary structures in the 'Margin Unit' within Jezero Crater, evidence suggesting a complex water system existed on early Mars. The findings provide new clues for studies of ancient Martian hydrology, environmental change, and habitability."
       }
     },
     {
