@@ -1,8 +1,94 @@
 {
-  "catalogVersion": "0.0.142",
-  "updatedAt": "2026-10-03T06:25:20.765Z",
+  "catalogVersion": "0.0.143",
+  "updatedAt": "2026-10-03T17:14:08.025Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-542ffd715fa2a0ff7ec19751",
+      "title": "우이저, 트럼프 6‑1 제압하며 선전 오픈 결승 진출",
+      "titleTranslations": {
+        "en": "Wu thrashes Trump to set up Yuan final in Shenzhen"
+      },
+      "startAt": "2026-10-03T16:56:14.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "description": "BBC 스포츠 보도에 따르면 중국의 세계 챔피언 우이저(Wu Yize)가 주드 트럼프를 상대로 여섯 연속 프레임을 따내며 6‑1로 승리해 선전 오픈 결승에서 동료 중국 선수 위안 스이준과 맞붙게 됐다.",
+      "descriptionTranslations": {
+        "en": "BBC Sport reports that Chinese world champion Wu Yize defeated Judd Trump 6‑1 at the Shenzhen Open — winning six consecutive frames — to set up a final against compatriot Yuan Sijun."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/snooker/articles/cm1exp2nj1y9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/snooker/articles/cm1exp2nj1y9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-03T16:56:14.000Z",
+        "lastObservedAt": "2026-10-03T17:14:08.025Z"
+      }
+    },
+    {
+      "id": "news-4166fad21affe6a8491a6304",
+      "title": "리비아 통합 협상 흔들려 — 하프타르 아들 새담, 연료시설 드론 공격 연루 지목",
+      "titleTranslations": {
+        "en": "Libyan unity talks upended as warlord’s son linked to drone attacks on fuel facilities"
+      },
+      "startAt": "2026-10-03T09:00:56.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 서부 리비아의 연합정부(GNU)는 칼리파 하프타르의 아들 새담 하프타르가 서부 리비아의 연료 저장 시설과 발전소를 대상으로 한 드론 공격을 감독한 '테러 셀'과 연루됐다는 의혹으로 인해 하프타르 측과의 협력을 계속하기 어렵다고 밝혔다. 이 사건은 워싱턴이 주도한 치안·사법·정치 기관 통합 계획에 차질을 빚게 했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Libya’s Tripoli‑based Government of National Unity (GNU) says continuing to work with Khalifa Haftar is 'impossible' after allegations that his son, Saddam Haftar, oversaw a 'terror cell' that launched drone attacks on fuel storage facilities and power stations in western Libya. The allegations have upended a U.S.‑backed plan to unify Libyan security, judicial and political institutions."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar"
+        ],
+        "firstPublishedAt": "2026-10-03T09:00:56.000Z",
+        "lastObservedAt": "2026-10-03T17:14:08.025Z"
+      }
+    },
+    {
+      "id": "news-e2184b73d2fcd8a28689498a",
+      "title": "브라질 초접전 대선, 친(親)트럼프 라틴미국 블록의 시험대",
+      "titleTranslations": {
+        "en": "Brazil’s neck‑and‑neck election offers test for growing pro‑Trump Latin American bloc"
+      },
+      "startAt": "2026-10-03T07:00:35.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언은 이번 브라질 대선이 좌파 incumbent 루라와 전(前) 극우 대통령 자이르 보우소나루의 아들 플라비우 간 재대결 양상이며, 도널드 트럼프가 최근 유엔총회 연설 뒤 라틴아메리카의 우파 지도자들과 연대하며 이 지역에서 영향력을 과시하고 있는 상황에서 치러진다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Brazil’s election is a neck‑and‑neck rematch between incumbent leftist Lula and a Bolsonaro family candidate (Flávio), and that the vote is being watched as a test for a growing pro‑Trump bloc in Latin America after US President Donald Trump rallied like‑minded regional leaders following his UN General Assembly speech."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+          "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump"
+        ],
+        "firstPublishedAt": "2026-10-03T02:57:07.000Z",
+        "lastObservedAt": "2026-10-03T17:14:08.025Z"
+      }
+    },
     {
       "id": "news-12bbd5dc0ec7d55d4e6b7579",
       "title": "러시아, 키이우의 또 다른 주요 교량 공격—북부교(노던브릿지) 타격",
@@ -32,32 +118,33 @@
       }
     },
     {
-      "id": "news-e2184b73d2fcd8a28689498a",
-      "title": "브라질 대선 리매치 — 루라 대(對) 보우소나루 가문 후보 플라비우",
+      "id": "news-4b7633ee5217136de4e43575",
+      "title": "엘니뇨로 올해 대서양 허리케인 활동 급감 가능성 제기",
       "titleTranslations": {
-        "en": "Brazil's high‑stakes rematch: Lula vs. Bolsonaro's son Flávio"
+        "en": "Could El Niño mean there are no Atlantic hurricanes this year?"
       },
-      "startAt": "2026-10-03T02:57:07.000Z",
+      "startAt": "2026-10-02T23:37:13.000Z",
       "lane": "world",
-      "category": "politicsSociety",
+      "category": "climateDisaster",
       "importance": 3,
-      "description": "NPR은 4년 전 루라 대통령이 자이르 보우소나루를 근소한 차로 꺾은 이후 브라질이 다시 선거에 돌입했으며, 이번에는 루라가 보우소나루의 아들 플라비우를 상대로 재대결을 펼친다고 보도했다. 이번 대결은 정치적 긴장이 높은 상황에서 치러진다.",
+      "description": "BBC는 대서양에서 9월(통상 가장 활동적인 달)에 한 건의 허리케인도 관측되지 않은 것은 30년 만의 일이라며, 엘니뇨 영향으로 올해 대서양 허리케인 활동이 크게 줄어들 수 있다는 가능성을 보도했다.",
       "descriptionTranslations": {
-        "en": "NPR reports that four years after President Lula narrowly defeated Jair Bolsonaro, Brazil is back at the ballot box. This time Lula faces Bolsonaro's son, Flávio, in a high‑stakes rematch."
+        "en": "The BBC reports that, for the first time in three decades, no Atlantic hurricane formed in September — normally the most active month — raising the possibility that El Niño conditions could substantially suppress Atlantic hurricane activity this year."
       },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cwgkvyyg8115o?at_medium=RSS&at_campaign=rss",
       "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy"
+          "https://www.bbc.co.uk/weather/articles/cwgkvyyg8115o?at_medium=RSS&at_campaign=rss"
         ],
-        "firstPublishedAt": "2026-10-03T02:57:07.000Z",
-        "lastObservedAt": "2026-10-03T06:25:20.765Z"
+        "firstPublishedAt": "2026-10-02T23:37:13.000Z",
+        "lastObservedAt": "2026-10-03T17:14:08.025Z"
       }
     },
     {
@@ -88,6 +175,34 @@
         ],
         "firstPublishedAt": "2026-10-02T23:03:16.000Z",
         "lastObservedAt": "2026-10-03T06:25:20.765Z"
+      }
+    },
+    {
+      "id": "news-9303edfce056f1aa358aa8cc",
+      "title": "NASA: 스페이스X 크루‑12 과학 임무 마무리 — 승무원 곧 귀환",
+      "titleTranslations": {
+        "en": "Heading Home: NASA’s SpaceX Crew‑12 Concludes Station Science Mission"
+      },
+      "startAt": "2026-10-02T19:30:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 크루‑12 승무원들이 국제우주정거장에서의 과학 임무를 마치고 10월 초 귀환할 예정이라고 밝혔다. 승무원은 제시카 메어, 잭 헤이저웨이, 유럽우주국의 소피 에드노트, 러시아의 안드레이 페댜예프이다.",
+      "descriptionTranslations": {
+        "en": "NASA says the SpaceX Crew‑12 mission has concluded its science mission on the International Space Station and that the crew — Jessica Meir, Jack Hathaway, ESA astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev — are scheduled to return to Earth in early October after supporting research that benefits life on Earth and prepares humans for future missions."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/"
+        ],
+        "firstPublishedAt": "2026-10-02T19:30:00.000Z",
+        "lastObservedAt": "2026-10-03T17:14:08.025Z"
       }
     },
     {
@@ -233,30 +348,31 @@
     },
     {
       "id": "news-e2e6aecbfabbca5f77179653",
-      "title": "미국 9월 고용보고서: 신규 고용 2만9천명, 실업률 소폭 상승",
+      "title": "미국 고용시장 급격한 둔화 — 중간선거 한 달 앞두고 채용 일시중단",
       "titleTranslations": {
-        "en": "US adds just 29,000 jobs in September; unemployment edges up"
+        "en": "US jobs market sees sharp slowdown ahead of midterm elections"
       },
-      "startAt": "2026-10-02T14:04:29.000Z",
+      "startAt": "2026-10-02T14:30:48.000Z",
       "lane": "world",
       "category": "economyBusiness",
       "importance": 3,
-      "description": "가디언은 미 노동부(BLS) 자료를 인용해 9월 미국의 신규 고용이 29,000명에 불과했으며 실업률은 4.2%로 소폭 상승했다고 보도했다. 보건의료 부문에서 대부분의 고용이 발생한 반면 정보·금융·전문직은 고용이 감소해 노동시장이 냉각 조짐을 보인다고 전했다.",
+      "description": "BBC 보도는 9월 미국의 고용이 급격히 둔화되었고 실업률이 소폭 상승했다고 전했다. 보도에 따르면 고용주는 중간선거를 앞두고 채용을 보류하는 경향을 보였다고 한다.",
       "descriptionTranslations": {
-        "en": "The Guardian reports that US employers added just 29,000 jobs in September, and the unemployment rate rose slightly to 4.2%, citing BLS data. Most gains were in healthcare while information, financial and professional sectors saw losses, signaling cooling in the labour market."
+        "en": "BBC reports that US job growth sharply slowed in September and unemployment edged up, with American employers pausing hiring as the midterm elections approach."
       },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/02/september-jobs-report",
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
       "topicIds": [
         "economyFinance"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/02/september-jobs-report"
+          "https://www.theguardian.com/business/2026/oct/02/september-jobs-report",
+          "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-02T14:04:29.000Z",
-        "lastObservedAt": "2026-10-03T06:25:20.765Z"
+        "lastObservedAt": "2026-10-03T17:14:08.025Z"
       }
     },
     {
@@ -342,6 +458,36 @@
         ],
         "firstPublishedAt": "2026-10-02T06:26:48.000Z",
         "lastObservedAt": "2026-10-02T06:58:56.747Z"
+      }
+    },
+    {
+      "id": "news-6306776fe77a246bed524e56",
+      "title": "스페이스X '8시간 익스프레스'로 미 속도 기록 수립 — 최초 흑인 여성 임무 지휘관",
+      "titleTranslations": {
+        "en": "'An amazing ride': SpaceX flight led by first Black female commander sets US speed record"
+      },
+      "startAt": "2026-10-02T03:18:45.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 스페이스X가 발사한 우주선이 8시간 만에 국제우주정거장에 도착하며 미국 기록을 세웠고, 이번 임무는 제시카 왓킨스가 지휘한 최초의 흑인 여성 우주비행대장으로 추가 역사를 썼다. 발사는 드래곤 캡슐 연료계 누출 수리를 위해 세 차례 지연된 뒤 이뤄졌다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that SpaceX launched a crew that reached the International Space Station in an eight‑hour 'express' flight, setting a US speed record, and marking the first time a Black woman — Jessica Watkins — commanded a crew to orbit. The launch followed a three‑week delay to fix a leaking fuel system on the Dragon capsule."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/01/spacex-speed-record-first-black-female-commander",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/01/spacex-speed-record-first-black-female-commander"
+        ],
+        "firstPublishedAt": "2026-10-02T03:18:45.000Z",
+        "lastObservedAt": "2026-10-03T17:14:08.025Z"
       }
     },
     {
@@ -1086,36 +1232,6 @@
       }
     },
     {
-      "id": "news-6118a7976098ff4a6d0893d9",
-      "title": "라마포사 대통령, 연쇄 여성 살해 계기 페미사이드·성폭력 대책 지시(관련 보도)",
-      "titleTranslations": {
-        "en": "Ramaphosa orders action on femicide and gender‑based violence after killings (related coverage)"
-      },
-      "startAt": "2026-09-30T14:16:33.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "시릴 라마포사 남아프리카공화국 대통령이 최근 연쇄 여성 살해를 계기로 남성의 책임 촉구와 함께 미해결 살인·강간 사건 재검토·법의학 적체 해소 계획 등 대책을 발표했다는 보도가 나왔다.",
-      "descriptionTranslations": {
-        "en": "South African President Cyril Ramaphosa, responding to recent killings of women, has called on men to take responsibility and announced measures including reviews of unsolved murders, attempted murders and serious sexual offences and plans to reduce the forensic backlog, according to coverage."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/sep/30/south-africa-gender-based-violence-women-killings",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6m27dprvzv7o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/9/30/south-african-president-orders-action-on-femicide-after-killings?traffic_source=rss",
-          "https://www.theguardian.com/world/2026/sep/30/south-africa-gender-based-violence-women-killings"
-        ],
-        "firstPublishedAt": "2026-09-28T17:26:21.000Z",
-        "lastObservedAt": "2026-10-01T15:34:35.147Z"
-      }
-    },
-    {
       "id": "news-94fb6a179526bde2e5c0866f",
       "title": "HS2 노선 주변에 조성된 인공 초지에서 야생동물 빠르게 정착",
       "titleTranslations": {
@@ -1751,34 +1867,6 @@
       }
     },
     {
-      "id": "news-0ebf71de7d0fb4f329b3becf",
-      "title": "달·심우주 착륙 정밀성 실험 SPLICE, Alta‑X 드론으로 시뮬레이션 완료",
-      "titleTranslations": {
-        "en": "Practicing for safe landings on the Moon and beyond — SPLICE completes simulated lunar descent with Alta‑X drone"
-      },
-      "startAt": "2026-09-24T16:29:19.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 보도에 따르면 존슨연구센터가 개발한 안전·정밀 착륙 통합능력진화(SPLICE) 실험이 Alta‑X 드론을 이용해 달 착륙을 시뮬레이션하는 시험을 성공적으로 완료했다. 이 실험은 향후 달·심우주 착륙 기술의 정교화에 기여할 전망이다.",
-      "descriptionTranslations": {
-        "en": "NASA says its Safe and Precise Landing — Integrated Capabilities Evolution (SPLICE) experiment successfully completed simulated lunar descent using an Alta‑X drone. The test advances guidance and navigation capabilities for future Moon and deep‑space landings."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/practicing-for-safe-landings-on-the-moon-and-beyond/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/image-article/practicing-for-safe-landings-on-the-moon-and-beyond/"
-        ],
-        "firstPublishedAt": "2026-09-24T16:29:19.000Z",
-        "lastObservedAt": "2026-09-24T17:51:51.129Z"
-      }
-    },
-    {
       "id": "news-07adcb70e5ace7bdf167b56b",
       "title": "북극 해빙, 2026년 연중 최저면적 도달 — 위성기록과 동률",
       "titleTranslations": {
@@ -1862,35 +1950,6 @@
       },
       "descriptionTranslations": {
         "en": "ESA reports that the spiral galaxy NGC 4698 in the Virgo Cluster appears serene externally but hides internally disturbed structure. The galaxy lies about 55 million light‑years away and shows signs of gas accretion onto a central supermassive black hole."
-      }
-    },
-    {
-      "id": "news-477e6c0bbbcd74fc21d155c9",
-      "title": "제임스웹, 성단 IC 348에서 목성 두 배 질량의 갈색왜성 발견",
-      "startAt": "2026-09-15T14:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA·ESA·CSA의 제임스웹 우주망원경이 성단 IC 348의 대형 파노라마 영상을 공개하고, 목성 질량의 약 두 배에 이르는 저질량 갈색왜성들을 발견했다고 보고했다. 이번 관측은 갈색왜성의 질량범위를 새로운 영역으로 확장해 별 형성 이론과 저질량 천체 연구에 중요한 자료를 제공한다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_reveals_stunning_panorama_of_star_formation",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
-          "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_reveals_stunning_panorama_of_star_formation"
-        ],
-        "firstPublishedAt": "2026-09-15T14:00:00.000Z",
-        "lastObservedAt": "2026-09-16T05:57:48.476Z"
-      },
-      "titleTranslations": {
-        "en": "James Webb finds brown dwarfs about twice Jupiter’s mass in cluster IC 348"
-      },
-      "descriptionTranslations": {
-        "en": "The James Webb Space Telescope (NASA/ESA/CSA) released a large panorama of cluster IC 348 and reported discovery of low‑mass brown dwarfs roughly twice the mass of Jupiter. The observations extend the known brown‑dwarf mass range and provide important data for star‑formation theory and low‑mass object research."
       }
     }
   ]
