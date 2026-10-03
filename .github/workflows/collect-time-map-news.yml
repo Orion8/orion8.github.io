@@ -1,4 +1,4 @@
-name: Collect Time Map news
+name: Collect MomentAtlas news
 
 on:
   schedule:
@@ -69,5 +69,5 @@ jobs:
           git diff --cached --quiet && exit 0
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Update Time Map news catalog'
+          git commit -m 'Update MomentAtlas news catalog'
           git push
