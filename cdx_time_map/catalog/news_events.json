@@ -1,8 +1,66 @@
 {
-  "catalogVersion": "0.0.143",
-  "updatedAt": "2026-10-03T17:14:08.025Z",
+  "catalogVersion": "0.0.144",
+  "updatedAt": "2026-10-04T06:48:58.264Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-29ebe0b28ec43e80e025b99f",
+      "title": "프랑스 학교 시위 확산에 따라 약 5,000명 체포",
+      "titleTranslations": {
+        "en": "France arrests about 5,000 people as school protests spread"
+      },
+      "startAt": "2026-10-03T21:57:35.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "고등학생들은 교실 과밀, 교사 부족, 건물 수리 필요 등을 호소하며 시위를 벌이고 있다. 이 시위는 프랑스 전역의 도시들로 확산됐고, 보도에 따르면 약 5,000명이 체포됐으며 체포자 대다수는 10대다.",
+      "descriptionTranslations": {
+        "en": "High school students say their classrooms are overcrowded, teachers are missing and buildings need repairs. The protests have spread to cities across France, and reports say some 5,000 people — mostly teenagers — have been arrested."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/03/nx-s1-5989532/france-arrests-5-000-people-mostly-teens-as-school-protests-spread",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/03/nx-s1-5989532/france-arrests-5-000-people-mostly-teens-as-school-protests-spread"
+        ],
+        "firstPublishedAt": "2026-10-03T21:57:35.000Z",
+        "lastObservedAt": "2026-10-04T06:48:58.264Z"
+      }
+    },
+    {
+      "id": "news-b4396359d6d8a5470d0771ed",
+      "title": "미군의 이라크 주둔 완전 철수 완료",
+      "titleTranslations": {
+        "en": "U.S. withdrawal from Iraq is complete"
+      },
+      "startAt": "2026-10-03T21:57:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 조지 W. 부시 대통령의 '충격과 공포' 캠페인 이후 23년 만에 미군이 이라크에서의 철수를 완료했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Twenty‑three years after President George W. Bush's campaign of 'shock and awe,' the U.S. military has completed its withdrawal from Iraq, reports say."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/03/nx-s1-5987758/u-s-withdrawal-from-iraq-is-complete",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/03/nx-s1-5987758/u-s-withdrawal-from-iraq-is-complete"
+        ],
+        "firstPublishedAt": "2026-10-03T21:57:33.000Z",
+        "lastObservedAt": "2026-10-04T06:48:58.264Z"
+      }
+    },
     {
       "id": "news-542ffd715fa2a0ff7ec19751",
       "title": "우이저, 트럼프 6‑1 제압하며 선전 오픈 결승 진출",
@@ -29,6 +87,36 @@
         ],
         "firstPublishedAt": "2026-10-03T16:56:14.000Z",
         "lastObservedAt": "2026-10-03T17:14:08.025Z"
+      }
+    },
+    {
+      "id": "news-21efa3195b110268437380e3",
+      "title": "외골격(엑소스켈레톤) 시대의 도래",
+      "titleTranslations": {
+        "en": "The dawn of the age of the exoskeleton"
+      },
+      "startAt": "2026-10-03T11:15:33.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도는 외골격 장치들이 다양한 실제 작업에서 사용자에게 눈에 띄는 이점을 계속해서 보여주고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The report says exoskeleton devices continue to show noticeable benefits for users in various real‑world tasks."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/"
+        ],
+        "firstPublishedAt": "2026-10-03T11:15:33.000Z",
+        "lastObservedAt": "2026-10-04T06:48:58.264Z"
       }
     },
     {
@@ -1148,62 +1236,6 @@
       }
     },
     {
-      "id": "news-ef4227d36bad8e53be5b0636",
-      "title": "미, 시리아 대상 무기수출 금지 목록에서 시리아 제외",
-      "titleTranslations": {
-        "en": "Syria removed from US arms export ban list"
-      },
-      "startAt": "2026-09-30T17:55:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 미국이 아사드 정권 기간에 부과했던 일부 제한을 점진적으로 완화해 분쟁 복구를 돕는 차원에서 시리아를 무기수출 금지 목록에서 제외했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Coverage reports that the US has gradually loosened restrictions placed on Syria during the Assad era and removed Syria from the US arms export ban list to aid the country's recovery from conflict."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/9/30/syria-removed-from-us-arms-export-ban-list?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/9/30/syria-removed-from-us-arms-export-ban-list?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-30T17:55:13.000Z",
-        "lastObservedAt": "2026-09-30T18:26:05.533Z"
-      }
-    },
-    {
-      "id": "news-ee09fc2c613e65c85830e24c",
-      "title": "영국 채널 참사 관련 밀수업자 6명, 과실치사로 실형",
-      "titleTranslations": {
-        "en": "Six smugglers jailed for manslaughter over worst Channel small boats disaster"
-      },
-      "startAt": "2026-09-30T17:14:03.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 2021년 11월 소형 보트 침몰로 31명이 사망한 사건과 관련해 재판부는 피고 6명이 두 개의 밀수 네트워크의 일부였다고 판단해 과실치사 등 혐의로 유죄를 선고하고 구금했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that six men were jailed for manslaughter in connection with the worst Channel small‑boat disaster, in which 31 migrants died in November 2021; the court found the convicted were part of two smuggling networks."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6n8m33pn9djo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6n8m33pn9djo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-30T17:14:03.000Z",
-        "lastObservedAt": "2026-09-30T18:26:05.533Z"
-      }
-    },
-    {
       "id": "news-c696e8b1f34224735a5b522f",
       "title": "딥마인드, 단백질에 기능 훼손 없이 워터마크 넣는 'SynthID Bio' 개념증명 발표",
       "titleTranslations": {
@@ -1458,36 +1490,6 @@
           "https://arstechnica.com/health/2026/09/to-keep-drug-prices-high-pharma-has-been-piling-up-the-patents/"
         ],
         "firstPublishedAt": "2026-09-28T19:53:37.000Z",
-        "lastObservedAt": "2026-09-28T20:06:51.082Z"
-      }
-    },
-    {
-      "id": "news-0455b6b91473044976469c56",
-      "title": "트럼프, 연비 기준을 2014년 수준으로 후퇴",
-      "titleTranslations": {
-        "en": "Trump rolls back fuel economy standards to 2014 levels"
-      },
-      "startAt": "2026-09-28T19:35:51.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "행정부가 연비 기준을 2014년 수준으로 되돌리는 규정을 발표해 연방 연비 규제(CAFE)가 낮아졌다는 보도가 나왔다. 보도는 이번 조치가 환경·교통 정책에 영향을 미칠 것이라고 전한다.",
-      "descriptionTranslations": {
-        "en": "The administration has rolled back fuel economy standards to 2014 levels, lowering federal CAFE requirements, a move reported to have implications for environmental and transportation policy."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/"
-        ],
-        "firstPublishedAt": "2026-09-28T19:35:51.000Z",
         "lastObservedAt": "2026-09-28T20:06:51.082Z"
       }
     },
