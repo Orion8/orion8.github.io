@@ -1,8 +1,324 @@
 {
-  "catalogVersion": "0.0.146",
-  "updatedAt": "2026-10-05T06:58:11.657Z",
+  "catalogVersion": "0.0.147",
+  "updatedAt": "2026-10-05T21:12:03.776Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-97444bbb8a512f1589ca4cb3",
+      "title": "오픈AI, EU 규제 준수를 위해 ChatGPT 출력에 워터마크 도입",
+      "titleTranslations": {
+        "en": "OpenAI will start watermarking ChatGPT's text in the EU"
+      },
+      "startAt": "2026-10-05T20:36:48.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "테크크런치는 오픈AI가 EU의 AI법(AI Act) 준수를 위해 EU에서 제공되는 ChatGPT 및 Codex의 텍스트에 워터마크를 삽입하겠다고 보도했다. 보도는 편집을 통해 표시가 희박해질 수 있다고 회사가 설명했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "TechCrunch reports OpenAI will watermark ChatGPT and Codex text in the EU to comply with the EU AI Act. The company said edits can make the invisible marks harder to detect."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+        ],
+        "firstPublishedAt": "2026-10-05T20:36:48.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.775Z"
+      }
+    },
+    {
+      "id": "news-e2184b73d2fcd8a28689498a",
+      "title": "플라비우 보우소나루, 브라질 대선 1차 투표에서 충격적 선두",
+      "titleTranslations": {
+        "en": "Flávio Bolsonaro poised to win Brazilian presidency after shock first‑round victory"
+      },
+      "startAt": "2026-10-05T20:06:18.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언은 플라비우 보우소나루가 1차 투표에서 5610만 표(47.03%)를 얻어, 루이스 이나시우 룰라 다 시우바의 5380만 표(45.16%)를 앞섰다고 보도했다. 기사는 결선투표가 10월 25일로 예정돼 있으며, 1985년 민주화 이후 1차 투표의 역전 승리는 전례가 거의 없다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports Flávio Bolsonaro led the first round with 56.1 million votes (47.03%) to Luiz Inácio Lula da Silva’s 53.8 million (45.16%). The story notes a runoff is scheduled for 25 October and that, since Brazil’s return to democracy in 1985, a first‑round runner‑up has rarely overturned the result."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/05/flavio-bolsonaro-brazilian-presidency-election-shock-first-round-victory",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+          "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+          "https://www.theguardian.com/world/2026/oct/05/flavio-bolsonaro-brazilian-presidency-election-shock-first-round-victory"
+        ],
+        "firstPublishedAt": "2026-10-03T02:57:07.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.775Z"
+      }
+    },
+    {
+      "id": "news-0d628683405b9be7049e5b15",
+      "title": "미 대법원, 대형 석유기업의 기후 피해 소송 차단 시도 심리(새 심기)",
+      "titleTranslations": {
+        "en": "US supreme court hears big oil’s bid to block climate damage lawsuits"
+      },
+      "startAt": "2026-10-05T19:57:36.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언은 새 대법원 심리가 대형 석유업체들이 주(州) 수준의 기후 피해 소송을 봉쇄하려는 시도를 심리 중이라고 전했다. 보도는 변론 후 법관들이 어느 쪽으로 기울지 아직 불확실하다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports the US Supreme Court began hearing arguments in a major case in which big oil firms seek to halt state‑level climate damage lawsuits. After nearly two hours of argument, observers said it remained unclear which way the justices were leaning."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits"
+        ],
+        "firstPublishedAt": "2026-10-05T19:57:36.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.775Z"
+      }
+    },
+    {
+      "id": "news-88e135495155bb9585b24058",
+      "title": "스페인 총리, 주택 문제에 기대 걸고 총선 조기 선거 단행",
+      "titleTranslations": {
+        "en": "Spain PM pins hopes on housing crisis to help win snap election"
+      },
+      "startAt": "2026-10-05T19:30:50.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC는 페드로 산체스 총리가 주택 위기를 정면에 내세워 신중히 계획된 조기 총선을 단행했다고 보도했다. 보도는 선거 판단이 산체스의 정치적 의도에 따른 계산된 결단이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports Prime Minister Pedro Sánchez called a snap election, framing the move around the housing crisis. The coverage says the decision was a calculated political manoeuvre rather than a knee‑jerk reaction."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-05T19:30:50.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.775Z"
+      }
+    },
+    {
+      "id": "news-3e38a0d033570718aa393cde",
+      "title": "해리 케인, 잉글랜드 최다 출전 기록에 근접 — 대표팀 위상 재조명",
+      "titleTranslations": {
+        "en": "England's greatest international? Kane is now a serious contender"
+      },
+      "startAt": "2026-10-05T19:05:52.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "description": "BBC 스포츠는 해리 케인이 피터 실튼의 잉글랜드 최다 출전 기록에 접근하면서 그의 대표팀 업적이 재평가되고 있다고 보도했다. 기사에서는 기록·비교·역사적 맥락을 다뤘다.",
+      "descriptionTranslations": {
+        "en": "BBC Sport reports Harry Kane is poised to equal Peter Shilton’s all‑time England appearance record, prompting renewed discussion of his place among England’s greatest internationals. The piece examines his achievements in context."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cm5ynj882zw0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/football/articles/cm5ynj882zw0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-05T19:05:52.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.776Z"
+      }
+    },
+    {
+      "id": "news-143400a2145b294b840648c0",
+      "title": "미 국방부, 블랙리스트된 앤트로픽 도구 사용 중단",
+      "titleTranslations": {
+        "en": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told"
+      },
+      "startAt": "2026-10-05T16:13:21.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC는 미 국방부가 앤트로픽을 '공급망 위험'으로 지정한 뒤 같은 회사의 AI 도구 사용을 중단했다고 보도했다. 보도에 따르면 이는 회사가 안전 가드레일 제거 요청을 거부한 데 따른 조치로 전해졌다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports the Pentagon has stopped using Anthropic’s AI tools after labelling the company a \"supply chain risk\". The move followed the firm’s refusal to remove safety guardrails from its tools, the report says."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-05T16:13:21.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.775Z"
+      }
+    },
+    {
+      "id": "news-2a40ba055a44d196509c8b1f",
+      "title": "허블 자료 재분석으로 '2세대 행성' 가능성 제기 — 백색왜성 주위 행성계 단서",
+      "titleTranslations": {
+        "en": "Suspected Second‑generation Planet Solves NASA Hubble Cold Case"
+      },
+      "startAt": "2026-10-05T15:00:35.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 허블우주망원경의 기록 자료 재분석 결과 일부 백색왜성 주변에서 '2세대' 행성계가 형성되었을 가능성을 시사하는 증거가 나왔다고 보도했다. 기관은 이번 해석이 백색왜성 주변 행성 기원 연구에 기여할 수 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "NASA reports a new analysis of archival Hubble data points to the possibility that some white dwarfs host second‑generation planetary systems. The agency says the finding could help resolve questions about planet formation around white dwarfs."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/"
+        ],
+        "firstPublishedAt": "2026-10-05T15:00:35.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.776Z"
+      }
+    },
+    {
+      "id": "news-cb52dace1b689bef779b6cbd",
+      "title": "미국 공립학교의 도서 금지 건수, 연간 최고치 약 1만2천건 보고",
+      "titleTranslations": {
+        "en": "US book bans in public schools reach record annual high of 12,000"
+      },
+      "startAt": "2026-10-05T14:18:42.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 3,
+      "description": "가디언은 비영리단체 펜아메리카의 보고를 인용해 2025–2026 학년 동안 미국 공립학교에서 약 1만2천건의 도서 금지 사례가 집계되어 역대 최고치를 기록했다고 보도했다. 텍사스가 8,100건으로 최다였고 스티븐 킹이 가장 많이 금지된 작가로 지목됐다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian, citing PEN America, reports nearly 12,000 instances of book bans in US public schools during the 2025–2026 school year — a record high. Texas led with 8,100 bans, and Stephen King was again the most banned author, the report says."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/05/book-bans-schools-record-high",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/05/book-bans-schools-record-high"
+        ],
+        "firstPublishedAt": "2026-10-05T14:18:42.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.775Z"
+      }
+    },
+    {
+      "id": "news-d939ffafa62f32b7af91104c",
+      "title": "BBC 뉴스 신임 국장에 레이첼 저프 임명 — 새 경영진 진용 완성",
+      "titleTranslations": {
+        "en": "Rachel Jupp is a bold choice for BBC News chief, says Katie Razzall"
+      },
+      "startAt": "2026-10-05T14:16:06.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "description": "BBC는 레이첼 저프가 BBC 뉴스의 새 국장으로 발탁되어 데보라 터니스 전 CEO의 사임 이후 뉴스 조직의 수장을 맡게 되었다고 보도했다. 보도는 저프의 전력과 이번 인사가 뉴스 이사진에 미칠 의미를 다뤘다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports Rachel Jupp has been named the new director of BBC News, succeeding Deborah Turness who resigned as CEO last year. Coverage discusses Jupp’s background and the implications for the news organisation."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqwy79l7d78yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqwy79l7d78yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-05T14:16:06.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.776Z"
+      }
+    },
+    {
+      "id": "news-592a4eb4d1d3ffb5150a0d93",
+      "title": "빛으로 뇌를 제어하는 연구에 생리의학 노벨상 수여",
+      "titleTranslations": {
+        "en": "Controlling the brain with light earns a physiology Nobel"
+      },
+      "startAt": "2026-10-05T11:04:37.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "BBC와 아스테크니카는 카를 데이서로스와 페터 헤겔만·게오르크 나겔 등 연구진이 빛으로 뉴런을 조절하는 옵토제네틱스 분야의 공로로 생리의학(혹은 생리학) 노벨상을 받았다고 보도했다. 수상은 뇌 연구 분야의 핵심 발견으로 소개됐다.",
+      "descriptionTranslations": {
+        "en": "BBC and Ars Technica report that Karl Deisseroth and German colleagues Peter Hegemann and Georg Nagel have been awarded the Nobel Prize for work on optogenetics — using light to control neurons. The prize was presented as a key advance in understanding brain function."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb",
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
+          "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/"
+        ],
+        "firstPublishedAt": "2026-10-05T11:04:37.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.775Z"
+      }
+    },
+    {
+      "id": "news-6dce0fa071188248c558bcb7",
+      "title": "영국 코치업계, 기록적 디젤값으로 운행 축소 가능성 경고",
+      "titleTranslations": {
+        "en": "Coach services could be cut due to record diesel prices, UK operators warn"
+      },
+      "startAt": "2026-10-05T09:04:45.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언은 영국에서 디젤 가격이 리터당 2파운드를 넘어서는 등 기록적 수준으로 오르자 코치(장거리버스) 운영업체들이 학교 교통을 포함한 서비스 축소를 경고했다고 보도했다. 기사에서는 중소업체 폐업 우려도 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that record diesel prices in the UK — topping over £2 per litre — have led coach operators to warn of service cuts, including school transport, and that hundreds of firms may be pushed out of business."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/05/coach-services-cut-record-diesel-prices-fuel-school-transport",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/2026/oct/05/coach-services-cut-record-diesel-prices-fuel-school-transport"
+        ],
+        "firstPublishedAt": "2026-10-05T09:04:45.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.776Z"
+      }
+    },
     {
       "id": "news-7a3a22543a1af81c30908e41",
       "title": "BT, 브로드밴드 사업자 톡톡(TalkTalk) 인수 구조 합의",
@@ -234,6 +550,34 @@
       }
     },
     {
+      "id": "news-c7fd5b68b16a363e927d88c3",
+      "title": "콜로라도 고교생들, 기후 교육·지역 봉사 결합한 '기후 인증' 1,200여명 취득",
+      "titleTranslations": {
+        "en": "More than 1,200 Colorado students have earned a climate ‘seal’: ‘We’re the ones growing up in this world’"
+      },
+      "startAt": "2026-10-04T12:30:27.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언은 콜로라도의 주도적 프로그램이 기후 중심의 교과와 지역 봉사를 결합해 학생들에게 '기후 인증(seal)'을 부여했으며, 이 모델이 다른 주로 확산하고 있다고 보도했다. 보도는 학생들이 지역 과학자와 협력한 사례 등을 소개했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports a Colorado initiative pairing climate‑focused coursework with community service has awarded a \"climate seal\" to more than 1,200 students, and that the program is spreading to other states. The article highlights students’ collaborations with local scientists."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/04/colorado-climate-high-school-students",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/04/colorado-climate-high-school-students"
+        ],
+        "firstPublishedAt": "2026-10-04T12:30:27.000Z",
+        "lastObservedAt": "2026-10-05T21:12:03.775Z"
+      }
+    },
+    {
       "id": "news-6c83cf760d896bfcab207eee",
       "title": "영국 철도에서 승무원·승객 대상 폭력 사건 급증",
       "titleTranslations": {
@@ -374,36 +718,6 @@
           "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar"
         ],
         "firstPublishedAt": "2026-10-03T09:00:56.000Z",
-        "lastObservedAt": "2026-10-03T17:14:08.025Z"
-      }
-    },
-    {
-      "id": "news-e2184b73d2fcd8a28689498a",
-      "title": "브라질 초접전 대선, 친(親)트럼프 라틴미국 블록의 시험대",
-      "titleTranslations": {
-        "en": "Brazil’s neck‑and‑neck election offers test for growing pro‑Trump Latin American bloc"
-      },
-      "startAt": "2026-10-03T07:00:35.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언은 이번 브라질 대선이 좌파 incumbent 루라와 전(前) 극우 대통령 자이르 보우소나루의 아들 플라비우 간 재대결 양상이며, 도널드 트럼프가 최근 유엔총회 연설 뒤 라틴아메리카의 우파 지도자들과 연대하며 이 지역에서 영향력을 과시하고 있는 상황에서 치러진다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that Brazil’s election is a neck‑and‑neck rematch between incumbent leftist Lula and a Bolsonaro family candidate (Flávio), and that the vote is being watched as a test for a growing pro‑Trump bloc in Latin America after US President Donald Trump rallied like‑minded regional leaders following his UN General Assembly speech."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
-          "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump"
-        ],
-        "firstPublishedAt": "2026-10-03T02:57:07.000Z",
         "lastObservedAt": "2026-10-03T17:14:08.025Z"
       }
     },
@@ -748,34 +1062,6 @@
         ],
         "firstPublishedAt": "2026-10-02T11:22:38.000Z",
         "lastObservedAt": "2026-10-02T18:23:40.084Z"
-      }
-    },
-    {
-      "id": "news-c60919490ad88c83e2192ffc",
-      "title": "마이애미 법원, 연방법의 비시민권자 투표 규정이 위헌이라고 판결",
-      "titleTranslations": {
-        "en": "Miami judge rules federal noncitizen voting law violates US Constitution"
-      },
-      "startAt": "2026-10-02T06:26:48.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "마이애미 지방법원 판사 레이보위츠는 연방법이 주(州)의 유권자 자격을 침해한다며 비시민권자의 투표를 규율하는 해당 연방법 조항이 미국 헌법에 위배된다고 판결했다고 알자지라가 보도했다. 판결문은 유권자 자격에 관한 권한이 주정부에 있음을 강조했다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that Miami federal Judge Leibowitz ruled that a federal law regulating noncitizen voting is unconstitutional, finding it infringes on state authority over voter qualifications."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/2/miami-judge-rules-federal-noncitizen-voting-law-violates-us-constitution?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/2/miami-judge-rules-federal-noncitizen-voting-law-violates-us-constitution?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-02T06:26:48.000Z",
-        "lastObservedAt": "2026-10-02T06:58:56.747Z"
       }
     },
     {
@@ -1669,34 +1955,6 @@
       }
     },
     {
-      "id": "news-96ccb7bfba415e722f6766b0",
-      "title": "영국 장거리 열차 사업자 Avanti West Coast, 3월 국영화 결정",
-      "titleTranslations": {
-        "en": "Avanti West Coast to be renationalised in March"
-      },
-      "startAt": "2026-09-28T16:22:29.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 3,
-      "description": "정부 발표에 따르면 Avanti West Coast가 계약 종료 시점인 3월 7일부터 공영 운영으로 전환되며, 새 열차의 공적 소유 방안 등 민간 위탁 비용 절감 방안이 검토되고 있다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Ministers announced that Avanti West Coast will be renationalised from 7 March when its contract ends, and plans are being considered to reduce costs paid to private firms — including the possible public ownership of new trains, reporting says."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/business/2026/sep/28/avanti-west-coast-to-be-renationalised-in-march",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/sep/28/avanti-west-coast-to-be-renationalised-in-march"
-        ],
-        "firstPublishedAt": "2026-09-28T16:22:29.000Z",
-        "lastObservedAt": "2026-10-01T15:34:35.147Z"
-      }
-    },
-    {
       "id": "news-89cffd08a80b28f1d120401a",
       "title": "ESA의 주스, 지구 근접비행으로 목성행 항로 개선 성공",
       "titleTranslations": {
@@ -1868,62 +2126,6 @@
         ],
         "firstPublishedAt": "2026-09-26T16:55:37.000Z",
         "lastObservedAt": "2026-09-26T17:07:46.088Z"
-      }
-    },
-    {
-      "id": "news-420ec31d089e6561f6be574a",
-      "title": "산마리노, 아르테미스 협정 서명해 76번째 서명국이 됨",
-      "titleTranslations": {
-        "en": "San Marino signs the Artemis Accords, becoming the 76th signatory"
-      },
-      "startAt": "2026-09-25T19:53:03.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 1,
-      "description": "NASA 발표에 따르면 산마리노 공화국이 리미니에서 열린 서명식에서 아르테미스 협정에 서명하며 76번째 서명국이 되었다.",
-      "descriptionTranslations": {
-        "en": "NASA says the Republic of San Marino signed the Artemis Accords at a ceremony in Rimini, becoming the 76th signatory."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-san-marino-signing-the-artemis-accords/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/organizations/oiir/nasa-welcomes-san-marino-signing-the-artemis-accords/"
-        ],
-        "firstPublishedAt": "2026-09-25T19:53:03.000Z",
-        "lastObservedAt": "2026-09-26T06:07:04.885Z"
-      }
-    },
-    {
-      "id": "news-b3b55392dcf069a9c7e907fb",
-      "title": "미국 모기지 금리, 20개월 만에 7% 돌파",
-      "titleTranslations": {
-        "en": "US mortgage rates top 7% for first time in 20 months"
-      },
-      "startAt": "2026-09-24T16:31:58.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 프레디맥 집계에서 미국 모기지 금리가 연준의 기준금리 인상 여파로 20개월 만에 7%를 넘어섰다. 주택 시장과 가계 이자 부담을 악화시킬 것으로 보인다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that Freddie Mac data show US mortgage rates have surpassed 7% for the first time in 20 months, following the Federal Reserve's rate hikes—aggravating the housing market and household borrowing costs."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market"
-        ],
-        "firstPublishedAt": "2026-09-24T16:31:58.000Z",
-        "lastObservedAt": "2026-09-24T17:51:51.129Z"
       }
     },
     {
