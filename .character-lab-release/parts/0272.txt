@@ -1,0 +1,374 @@
+sk,maskOffset,maskWidth);while mask != 0 {let trailing=firstTrailingBit(mask);mask ^= 1u<<trailing;let light=getClusteredLight(lightDataTexture,batchOffset+maskOffset+trailing);var preInfo=computePointAndSpotPreLightingInfo(light.vLightData,V,N,posW);preInfo.NdotV=NdotV;preInfo.attenuation=computeDistanceLightFalloff(preInfo.lightOffset,preInfo.lightDistanceSquared,light.vLightFalloff.x,light.vLightFalloff.y);if light.vLightDirection.w>=0.0 {preInfo.attenuation*=computeDirectionalLightFalloff(light.vLightDirection.xyz,preInfo.L,light.vLightDirection.w,light.vLightData.w,light.vLightFalloff.z,light.vLightFalloff.w);}
+preInfo.roughness=adjustRoughnessFromLightProperties(reflectivityOut.roughness,light.vLightSpecular.a,preInfo.lightDistance);preInfo.diffuseRoughness=reflectivityOut.diffuseRoughness;preInfo.surfaceAlbedo=surfaceAlbedo;
+#ifdef IRIDESCENCE
+preInfo.iridescenceIntensity=iridescenceIntensity;
+#endif
+var info: lightingInfo;
+#ifdef SS_TRANSLUCENCY
+#ifdef SS_TRANSLUCENCY_LEGACY
+info.diffuse=computeDiffuseTransmittedLighting(preInfo,light.vLightDiffuse.rgb,subSurfaceOut.transmittance);info.diffuseTransmission=vec3(0);
+#else
+info.diffuse=computeDiffuseLighting(preInfo,light.vLightDiffuse.rgb)*(1.0-subSurfaceOut.translucencyIntensity);info.diffuseTransmission=computeDiffuseTransmittedLighting(preInfo,light.vLightDiffuse.rgb,subSurfaceOut.transmittance);
+#endif
+#else
+info.diffuse=computeDiffuseLighting(preInfo,light.vLightDiffuse.rgb);
+#endif
+#ifdef SPECULARTERM
+#if CONDUCTOR_SPECULAR_MODEL==CONDUCTOR_SPECULAR_MODEL_OPENPBR
+let metalFresnel=reflectivityOut.specularWeight*getF82Specular(preInfo.VdotH,specularEnvironmentR0,reflectivityOut.colorReflectanceF90,reflectivityOut.roughness);let dielectricFresnel=fresnelSchlickGGXVec3(preInfo.VdotH,reflectivityOut.dielectricColorF0,reflectivityOut.colorReflectanceF90);let coloredFresnel=mix(dielectricFresnel,metalFresnel,reflectivityOut.metallic);
+#else
+let coloredFresnel=fresnelSchlickGGXVec3(preInfo.VdotH,specularEnvironmentR0,reflectivityOut.colorReflectanceF90);
+#endif
+#ifndef LEGACY_SPECULAR_ENERGY_CONSERVATION
+let NdotH=dot(N,preInfo.H);let fresnel=fresnelSchlickGGXVec3(NdotH,vec3(reflectanceF0),specularEnvironmentR90);info.diffuse*=(vec3(1.0)-fresnel);
+#endif
+#ifdef ANISOTROPIC
+info.specular=computeAnisotropicSpecularLighting(preInfo,V,N,anisotropicOut.anisotropicTangent,anisotropicOut.anisotropicBitangent,anisotropicOut.anisotropy,clearcoatOut.specularEnvironmentR0,specularEnvironmentR90,AARoughnessFactor,light.vLightDiffuse.rgb);
+#else
+info.specular=computeSpecularLighting(preInfo,N,specularEnvironmentR0,coloredFresnel,AARoughnessFactor,light.vLightDiffuse.rgb);
+#endif
+#endif
+#ifdef SHEEN
+#ifdef SHEEN_LINKWITHALBEDO
+preInfo.roughness=sheenOut.sheenIntensity;
+#else
+preInfo.roughness=adjustRoughnessFromLightProperties(sheenOut.sheenRoughness,light.vLightSpecular.a,preInfo.lightDistance);
+#endif
+info.sheen=computeSheenLighting(preInfo,normalW,sheenOut.sheenColor,specularEnvironmentR90,AARoughnessFactor,light.vLightDiffuse.rgb);
+#endif
+#ifdef CLEARCOAT
+preInfo.roughness=adjustRoughnessFromLightProperties(clearcoatOut.clearCoatRoughness,light.vLightSpecular.a,preInfo.lightDistance);info.clearCoat=computeClearCoatLighting(preInfo,clearcoatOut.clearCoatNormalW,clearcoatOut.clearCoatAARoughnessFactors.x,clearcoatOut.clearCoatIntensity,light.vLightDiffuse.rgb);
+#ifdef CLEARCOAT_TINT
+let absorption=computeClearCoatLightingAbsorption(clearcoatOut.clearCoatNdotVRefract,preInfo.L,clearcoatOut.clearCoatNormalW,clearcoatOut.clearCoatColor,clearcoatOut.clearCoatThickness,clearcoatOut.clearCoatIntensity);info.diffuse*=absorption;
+#ifdef SS_TRANSLUCENCY
+info.diffuseTransmission*=absorption;
+#endif
+#ifdef SPECULARTERM
+info.specular*=absorption;
+#endif
+#endif
+info.diffuse*=info.clearCoat.w;
+#ifdef SS_TRANSLUCENCY
+info.diffuseTransmission*=info.clearCoat.w;
+#endif
+#ifdef SPECULARTERM
+info.specular*=info.clearCoat.w;
+#endif
+#ifdef SHEEN
+info.sheen*=info.clearCoat.w;
+#endif
+#endif
+result.diffuse+=info.diffuse;
+#ifdef SS_TRANSLUCENCY
+result.diffuseTransmission+=info.diffuseTransmission;
+#endif
+#ifdef SPECULARTERM
+result.specular+=info.specular;
+#endif
+#ifdef CLEARCOAT
+result.clearCoat+=info.clearCoat;
+#endif
+#ifdef SHEEN
+result.sheen+=info.sheen;
+#endif
+}
+batchOffset+=CLUSTLIGHT_BATCH;}
+return result;}
+#endif
+`;e.IncludesShadersStoreWGSL[E]||(e.IncludesShadersStoreWGSL[E]=K);const u="pbrIBLFunctions",$=`#if defined(REFLECTION) || defined(SS_REFRACTION)
+fn getLodFromAlphaG(cubeMapDimensionPixels: f32,microsurfaceAverageSlope: f32)->f32 {var microsurfaceAverageSlopeTexels: f32=cubeMapDimensionPixels*microsurfaceAverageSlope;var lod: f32=log2(microsurfaceAverageSlopeTexels);return lod;}
+fn getLinearLodFromRoughness(cubeMapDimensionPixels: f32,roughness: f32)->f32 {var lod: f32=log2(cubeMapDimensionPixels)*roughness;return lod;}
+#endif
+#if defined(ENVIRONMENTBRDF) && defined(RADIANCEOCCLUSION)
+fn environmentRadianceOcclusion(ambientOcclusion: f32,NdotVUnclamped: f32)->f32 {var temp: f32=NdotVUnclamped+ambientOcclusion;return saturate(temp*temp-1.0+ambientOcclusion);}
+#endif
+#if defined(ENVIRONMENTBRDF) && defined(HORIZONOCCLUSION)
+fn environmentHorizonOcclusion(view: vec3f,normal: vec3f,geometricNormal: vec3f)->f32 {var reflection: vec3f=reflect(view,normal);var temp: f32=saturate(1.0+1.1*dot(reflection,geometricNormal));return temp*temp;}
+#endif
+#if defined(LODINREFLECTIONALPHA) || defined(SS_LODINREFRACTIONALPHA)
+fn UNPACK_LOD(x: f32)->f32 {return (1.0-x)*255.0;}
+fn getLodFromAlphaGNdotV(cubeMapDimensionPixels: f32,alphaG: f32,NdotV: f32)->f32 {var microsurfaceAverageSlope: f32=alphaG;microsurfaceAverageSlope*=sqrt(abs(NdotV));return getLodFromAlphaG(cubeMapDimensionPixels,microsurfaceAverageSlope);}
+#endif
+`;e.IncludesShadersStoreWGSL[u]||(e.IncludesShadersStoreWGSL[u]=$);const S="pbrBlockAlbedoOpacity",q=`struct albedoOpacityOutParams
+{surfaceAlbedo: vec3f,
+alpha: f32};
+#define pbr_inline
+fn albedoOpacityBlock(
+vAlbedoColor: vec4f
+#ifdef ALBEDO
+,albedoTexture: vec4f
+,albedoInfos: vec2f
+#endif
+,baseWeight: f32
+#ifdef BASE_WEIGHT
+,baseWeightTexture: vec4f
+,vBaseWeightInfos: vec2f
+#endif
+#ifdef OPACITY
+,opacityMap: vec4f
+,vOpacityInfos: vec2f
+#endif
+#ifdef DETAIL
+,detailColor: vec4f
+,vDetailInfos: vec4f
+#endif
+#ifdef DECAL
+,decalColor: vec4f
+,vDecalInfos: vec4f
+#endif
+)->albedoOpacityOutParams
+{var outParams: albedoOpacityOutParams;var surfaceAlbedo: vec3f=vAlbedoColor.rgb;var alpha: f32=vAlbedoColor.a;
+#ifdef ALBEDO
+#if defined(ALPHAFROMALBEDO) || defined(ALPHATEST)
+alpha*=albedoTexture.a;
+#endif
+#ifdef GAMMAALBEDO
+surfaceAlbedo*=toLinearSpaceVec3(albedoTexture.rgb);
+#else
+surfaceAlbedo*=albedoTexture.rgb;
+#endif
+surfaceAlbedo*=albedoInfos.y;
+#endif
+#ifndef DECAL_AFTER_DETAIL
+#include<decalFragment>
+#endif
+#if defined(VERTEXCOLOR) || defined(INSTANCESCOLOR) && defined(INSTANCES)
+surfaceAlbedo*=fragmentInputs.vColor.rgb;
+#endif
+#ifdef DETAIL
+var detailAlbedo: f32=2.0*mix(0.5,detailColor.r,vDetailInfos.y);surfaceAlbedo=surfaceAlbedo.rgb*detailAlbedo*detailAlbedo; 
+#endif
+#ifdef DECAL_AFTER_DETAIL
+#include<decalFragment>
+#endif
+#define CUSTOM_FRAGMENT_UPDATE_ALBEDO
+surfaceAlbedo*=baseWeight;
+#ifdef BASE_WEIGHT
+surfaceAlbedo*=baseWeightTexture.r;
+#endif
+#ifdef OPACITY
+#ifdef OPACITYRGB
+alpha=getLuminance(opacityMap.rgb);
+#else
+alpha*=opacityMap.a;
+#endif
+alpha*=vOpacityInfos.y;
+#endif
+#if defined(VERTEXALPHA) || defined(INSTANCESCOLOR) && defined(INSTANCES)
+alpha*=fragmentInputs.vColor.a;
+#endif
+#if !defined(SS_LINKREFRACTIONTOTRANSPARENCY) && !defined(ALPHAFRESNEL)
+#ifdef ALPHATEST
+#if DEBUGMODE != 88
+if (alpha<ALPHATESTVALUE) {discard;}
+#endif
+#ifndef ALPHABLEND
+alpha=1.0;
+#endif
+#endif
+#endif
+outParams.surfaceAlbedo=surfaceAlbedo;outParams.alpha=alpha;return outParams;}
+`;e.IncludesShadersStoreWGSL[S]||(e.IncludesShadersStoreWGSL[S]=q);const m="pbrBlockReflectivity",Z=`struct reflectivityOutParams
+{microSurface: f32,
+roughness: f32,
+diffuseRoughness: f32,
+reflectanceF0: f32,
+reflectanceF90: vec3f,
+colorReflectanceF0: vec3f,
+colorReflectanceF90: vec3f,
+#ifdef METALLICWORKFLOW
+surfaceAlbedo: vec3f,
+metallic: f32,
+specularWeight: f32,
+dielectricColorF0: vec3f,
+#endif
+#if defined(METALLICWORKFLOW) && defined(REFLECTIVITY) && defined(AOSTOREINMETALMAPRED)
+ambientOcclusionColor: vec3f,
+#endif
+#if DEBUGMODE>0
+#ifdef METALLICWORKFLOW
+#ifdef REFLECTIVITY
+surfaceMetallicColorMap: vec4f,
+#endif
+metallicF0: vec3f,
+#else
+#ifdef REFLECTIVITY
+surfaceReflectivityColorMap: vec4f,
+#endif
+#endif
+#endif
+};
+#define pbr_inline
+fn reflectivityBlock(
+reflectivityColor: vec4f
+#ifdef METALLICWORKFLOW
+,surfaceAlbedo: vec3f
+,metallicReflectanceFactors: vec4f
+#endif
+,baseDiffuseRoughness: f32
+#ifdef BASE_DIFFUSE_ROUGHNESS
+,baseDiffuseRoughnessTexture: f32
+,baseDiffuseRoughnessInfos: vec2f
+#endif
+#ifdef REFLECTIVITY
+,reflectivityInfos: vec3f
+,surfaceMetallicOrReflectivityColorMap: vec4f
+#endif
+#if defined(METALLICWORKFLOW) && defined(REFLECTIVITY) && defined(AOSTOREINMETALMAPRED)
+,ambientOcclusionColorIn: vec3f
+#endif
+#ifdef MICROSURFACEMAP
+,microSurfaceTexel: vec4f
+#endif
+#ifdef DETAIL
+,detailColor: vec4f
+,vDetailInfos: vec4f
+#endif
+)->reflectivityOutParams
+{var outParams: reflectivityOutParams;var microSurface: f32=reflectivityColor.a;var surfaceReflectivityColor: vec3f=reflectivityColor.rgb;
+#ifdef METALLICWORKFLOW
+var metallicRoughness: vec2f=surfaceReflectivityColor.rg;var ior: f32=surfaceReflectivityColor.b;
+#ifdef REFLECTIVITY
+#if DEBUGMODE>0
+outParams.surfaceMetallicColorMap=surfaceMetallicOrReflectivityColorMap;
+#endif
+#ifdef AOSTOREINMETALMAPRED
+var aoStoreInMetalMap: vec3f= vec3f(surfaceMetallicOrReflectivityColorMap.r,surfaceMetallicOrReflectivityColorMap.r,surfaceMetallicOrReflectivityColorMap.r);outParams.ambientOcclusionColor=mix(ambientOcclusionColorIn,aoStoreInMetalMap,reflectivityInfos.z);
+#endif
+#ifdef METALLNESSSTOREINMETALMAPBLUE
+metallicRoughness.r*=surfaceMetallicOrReflectivityColorMap.b;
+#else
+metallicRoughness.r*=surfaceMetallicOrReflectivityColorMap.r;
+#endif
+#ifdef ROUGHNESSSTOREINMETALMAPALPHA
+metallicRoughness.g*=surfaceMetallicOrReflectivityColorMap.a;
+#else
+#ifdef ROUGHNESSSTOREINMETALMAPGREEN
+metallicRoughness.g*=surfaceMetallicOrReflectivityColorMap.g;
+#endif
+#endif
+#endif
+#ifdef DETAIL
+var detailRoughness: f32=mix(0.5,detailColor.b,vDetailInfos.w);var loLerp: f32=mix(0.,metallicRoughness.g,detailRoughness*2.);var hiLerp: f32=mix(metallicRoughness.g,1.,(detailRoughness-0.5)*2.);metallicRoughness.g=mix(loLerp,hiLerp,step(detailRoughness,0.5));
+#endif
+#ifdef MICROSURFACEMAP
+metallicRoughness.g*=microSurfaceTexel.r;
+#endif
+#define CUSTOM_FRAGMENT_UPDATE_METALLICROUGHNESS
+microSurface=1.0-metallicRoughness.g;var baseColor: vec3f=surfaceAlbedo;outParams.metallic=metallicRoughness.r;outParams.specularWeight=metallicReflectanceFactors.a;var dielectricF0 : f32=reflectivityColor.a*outParams.specularWeight;surfaceReflectivityColor=metallicReflectanceFactors.rgb;
+#if DEBUGMODE>0
+outParams.metallicF0=dielectricF0*surfaceReflectivityColor;
+#endif
+#ifdef LEGACY_SPECULAR_ENERGY_CONSERVATION
+outParams.surfaceAlbedo=baseColor.rgb*(vec3f(1.0)-vec3f(dielectricF0)*surfaceReflectivityColor)*(1.0-outParams.metallic);
+#else
+outParams.surfaceAlbedo=baseColor.rgb;
+#endif
+#ifdef LEGACY_SPECULAR_ENERGY_CONSERVATION
+{let reflectivityColor: vec3f=mix(dielectricF0*surfaceReflectivityColor,baseColor.rgb,outParams.metallic);outParams.reflectanceF0=max(reflectivityColor.r,max(reflectivityColor.g,reflectivityColor.b));}
+#else
+#if DIELECTRIC_SPECULAR_MODEL==DIELECTRIC_SPECULAR_MODEL_GLTF
+let maxF0: f32=max(surfaceReflectivityColor.r,max(surfaceReflectivityColor.g,surfaceReflectivityColor.b));outParams.reflectanceF0=mix(dielectricF0*maxF0,1.0f,outParams.metallic);
+#else
+outParams.reflectanceF0=mix(dielectricF0,1.0,outParams.metallic);
+#endif
+#endif
+#ifdef LEGACY_SPECULAR_ENERGY_CONSERVATION
+outParams.reflectanceF90=vec3(outParams.specularWeight);var f90Scale: f32=1.0;
+#else
+var f90Scale: f32=clamp(2.0*(ior-1.0),0.0,1.0);outParams.reflectanceF90=vec3(mix(
+outParams.specularWeight*f90Scale,1.0,outParams.metallic));
+#endif
+outParams.dielectricColorF0=vec3f(dielectricF0*surfaceReflectivityColor);var metallicColorF0: vec3f=baseColor.rgb;outParams.colorReflectanceF0=mix(outParams.dielectricColorF0,metallicColorF0,outParams.metallic);
+#if (DIELECTRIC_SPECULAR_MODEL==DIELECTRIC_SPECULAR_MODEL_OPENPBR)
+let dielectricColorF90
+: vec3f=surfaceReflectivityColor *
+vec3f(outParams.specularWeight*f90Scale);
+#else
+let dielectricColorF90
+: vec3f=vec3f(outParams.specularWeight*f90Scale);
+#endif
+#if (CONDUCTOR_SPECULAR_MODEL==CONDUCTOR_SPECULAR_MODEL_OPENPBR)
+let conductorColorF90: vec3f=surfaceReflectivityColor;
+#else
+#ifdef LEGACY_SPECULAR_ENERGY_CONSERVATION
+let conductorColorF90: vec3f=outParams.reflectanceF90;
+#else
+let conductorColorF90: vec3f=vec3f(1.0f);
+#endif
+#endif
+outParams.colorReflectanceF90=mix(dielectricColorF90,conductorColorF90,outParams.metallic);
+#else
+#ifdef REFLECTIVITY
+surfaceReflectivityColor*=surfaceMetallicOrReflectivityColorMap.rgb;
+#if DEBUGMODE>0
+outParams.surfaceReflectivityColorMap=surfaceMetallicOrReflectivityColorMap;
+#endif
+#ifdef MICROSURFACEFROMREFLECTIVITYMAP
+microSurface*=surfaceMetallicOrReflectivityColorMap.a;microSurface*=reflectivityInfos.z;
+#else
+#ifdef MICROSURFACEAUTOMATIC
+microSurface*=computeDefaultMicroSurface(microSurface,surfaceReflectivityColor);
+#endif
+#ifdef MICROSURFACEMAP
+microSurface*=microSurfaceTexel.r;
+#endif
+#define CUSTOM_FRAGMENT_UPDATE_MICROSURFACE
+#endif
+#endif
+outParams.colorReflectanceF0=surfaceReflectivityColor;outParams.reflectanceF0=max(surfaceReflectivityColor.r,max(surfaceReflectivityColor.g,surfaceReflectivityColor.b));outParams.reflectanceF90=vec3f(1.0);
+#if (DIELECTRIC_SPECULAR_MODEL==DIELECTRIC_SPECULAR_MODEL_OPENPBR)
+outParams.colorReflectanceF90=surfaceReflectivityColor;
+#else
+outParams.colorReflectanceF90=vec3(1.0);
+#endif
+#endif
+microSurface=saturate(microSurface);var roughness: f32=1.-microSurface;var diffuseRoughness: f32=baseDiffuseRoughness;
+#ifdef BASE_DIFFUSE_ROUGHNESS
+diffuseRoughness*=baseDiffuseRoughnessTexture*baseDiffuseRoughnessInfos.y;
+#endif
+outParams.microSurface=microSurface;outParams.roughness=roughness;outParams.diffuseRoughness=diffuseRoughness;return outParams;}
+`;e.IncludesShadersStoreWGSL[m]||(e.IncludesShadersStoreWGSL[m]=Z);const R="pbrBlockAmbientOcclusion",j=`struct ambientOcclusionOutParams
+{ambientOcclusionColor: vec3f,
+#if DEBUGMODE>0 && defined(AMBIENT)
+ambientOcclusionColorMap: vec3f
+#endif
+};
+#define pbr_inline
+fn ambientOcclusionBlock(
+#ifdef AMBIENT
+ambientOcclusionColorMap_: vec3f,
+vAmbientInfos: vec4f
+#endif
+)->ambientOcclusionOutParams
+{ 
+var outParams: ambientOcclusionOutParams;var ambientOcclusionColor: vec3f= vec3f(1.,1.,1.);
+#ifdef AMBIENT
+var ambientOcclusionColorMap: vec3f=ambientOcclusionColorMap_*vAmbientInfos.y;
+#ifdef AMBIENTINGRAYSCALE
+ambientOcclusionColorMap= vec3f(ambientOcclusionColorMap.r,ambientOcclusionColorMap.r,ambientOcclusionColorMap.r);
+#endif
+ambientOcclusionColor=mix(ambientOcclusionColor,ambientOcclusionColorMap,vAmbientInfos.z);
+#if DEBUGMODE>0
+outParams.ambientOcclusionColorMap=ambientOcclusionColorMap;
+#endif
+#endif
+outParams.ambientOcclusionColor=ambientOcclusionColor;return outParams;}
+`;e.IncludesShadersStoreWGSL[R]||(e.IncludesShadersStoreWGSL[R]=j);const v="pbrBlockAlphaFresnel",J=`#ifdef ALPHAFRESNEL
+#if defined(ALPHATEST) || defined(ALPHABLEND)
+struct alphaFresnelOutParams
+{alpha: f32};fn faceforward(N: vec3<f32>,I: vec3<f32>,Nref: vec3<f32>)->vec3<f32> {return select(N,-N,dot(Nref,I)>0.0);}
+#define pbr_inline
+fn alphaFresnelBlock(
+normalW: vec3f,
+viewDirectionW: vec3f,
+alpha: f32,
+microSurface: f32
+)->alphaFresnelOutParams
+{var outParams: alphaFresnelOutParams;var opacityPerceptual: f32=alpha;
+#ifdef LINEARALPHAFRESNEL
+var opacity0: f32=opacityPerceptual;
+#else
+var opacity0: f32=opacityPerceptual*opacityPerceptual;
+#endif
+var opacity90: f32=fresnelGrazingReflectance(opacity0);var normalForward: vec3f=faceforward(normalW,-viewDirectionW,normalW);outParams.alpha=getRefle

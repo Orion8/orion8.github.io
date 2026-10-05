@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111719" />
+    <meta name="description" content="A playground for character movement and expression." />
+    <link rel="icon" type="image/svg+xml" href="/character_lab/favicon.svg" />
+    <title>Character Lab</title>
+
+    <style>
+      .header > .version { visibility: hidden; }
+      .release-version { position: absolute; top: 0; right: 36px; height: 98px; display: flex; align-items: center; gap: 6px; font-size: 9px; color: #9ca8a5; letter-spacing: 1.5px; }
+      .release-version span { background: #263331; padding: 5px 7px; border-radius: 4px; color: #b8e4bd; white-space: nowrap; }
+      @media (max-width: 1050px) { .release-version { right: 20px; } }
+      @media (max-width: 760px) { .release-version { right: 14px; height: 78px; font-size: 8px; } }
+    </style>
+    <script type="module" crossorigin src="/character_lab/assets/index-BEwUEUMQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/character_lab/assets/index-CGYcNgud.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <div class="release-version" aria-label="Character Lab version 0.2.0">PROTOTYPE <span>v0.2.0</span></div>
+  </body>
+</html>

@@ -1,0 +1,448 @@
+0.,0.,getBRDFLookupCharlieSheen(NdotV,sheenRoughness));
+#else*/
+#ifdef SHEEN_ROUGHNESS
+var environmentSheenBrdf: vec3f=getBRDFLookup(NdotV,sheenRoughness);
+#else
+var environmentSheenBrdf: vec3f=environmentBrdf;
+#endif
+/*#endif*/
+#endif
+#if defined(REFLECTION) && defined(ENVIRONMENTBRDF)
+var sheenAlphaG: f32=convertRoughnessToAverageSlope(sheenRoughness);
+#ifdef SPECULARAA
+sheenAlphaG+=AARoughnessFactors.y;
+#endif
+var environmentSheenRadiance: vec4f= vec4f(0.,0.,0.,0.);environmentSheenRadiance=sampleReflectionTexture(
+sheenAlphaG
+,vReflectionMicrosurfaceInfos
+,vReflectionInfos
+,vReflectionColor
+#if defined(LODINREFLECTIONALPHA) && !defined(REFLECTIONMAP_SKYBOX)
+,NdotVUnclamped
+#endif
+#ifdef LINEARSPECULARREFLECTION
+,sheenRoughness
+#endif
+,reflectionSampler
+,reflectionSamplerSampler
+,reflectionCoords
+#ifndef LODBASEDMICROSFURACE
+,reflectionLowSampler
+,reflectionLowSamplerSampler
+,reflectionHighSampler
+,reflectionHighSamplerSampler
+#endif
+#ifdef REALTIME_FILTERING
+,vReflectionFilteringInfo
+#endif
+);var sheenEnvironmentReflectance: vec3f=getSheenReflectanceFromBRDFLookup(sheenColor,environmentSheenBrdf);
+#if !defined(REFLECTIONMAP_SKYBOX) && defined(RADIANCEOCCLUSION)
+sheenEnvironmentReflectance*=seo;
+#endif
+#if !defined(REFLECTIONMAP_SKYBOX) && defined(HORIZONOCCLUSION) && defined(BUMP) && defined(REFLECTIONMAP_3D)
+sheenEnvironmentReflectance*=eho;
+#endif
+#if DEBUGMODE>0
+outParams.sheenEnvironmentReflectance=sheenEnvironmentReflectance;
+#endif
+outParams.finalSheenRadianceScaled=
+environmentSheenRadiance.rgb *
+sheenEnvironmentReflectance *
+vLightingIntensity.z;
+#endif
+#if defined(ENVIRONMENTBRDF) && defined(SHEEN_ALBEDOSCALING)
+outParams.sheenAlbedoScaling=1.0-sheenIntensity*max(max(sheenColor.r,sheenColor.g),sheenColor.b)*environmentSheenBrdf.b;
+#endif
+outParams.sheenIntensity=sheenIntensity;outParams.sheenColor=sheenColor;outParams.sheenRoughness=sheenRoughness;return outParams;}
+#endif
+`;e.IncludesShadersStoreWGSL[A]||(e.IncludesShadersStoreWGSL[A]=ie);const I="pbrBlockClearcoat",re=`struct clearcoatOutParams
+{specularEnvironmentR0: vec3f,
+conservationFactor: f32,
+clearCoatNormalW: vec3f,
+clearCoatAARoughnessFactors: vec2f,
+clearCoatIntensity: f32,
+clearCoatRoughness: f32,
+#ifdef REFLECTION
+finalClearCoatRadianceScaled: vec3f,
+#endif
+#ifdef CLEARCOAT_TINT
+absorption: vec3f,
+clearCoatNdotVRefract: f32,
+clearCoatColor: vec3f,
+clearCoatThickness: f32,
+#endif
+#if defined(ENVIRONMENTBRDF) && defined(MS_BRDF_ENERGY_CONSERVATION)
+energyConservationFactorClearCoat: vec3f,
+#endif
+#if DEBUGMODE>0
+#ifdef CLEARCOAT_BUMP
+TBNClearCoat: mat3x3f,
+#endif
+#ifdef CLEARCOAT_TEXTURE
+clearCoatMapData: vec2f,
+#endif
+#if defined(CLEARCOAT_TINT) && defined(CLEARCOAT_TINT_TEXTURE)
+clearCoatTintMapData: vec4f,
+#endif
+#ifdef REFLECTION
+environmentClearCoatRadiance: vec4f,
+clearCoatEnvironmentReflectance: vec3f,
+#endif
+clearCoatNdotV: f32
+#endif
+};
+#ifdef CLEARCOAT
+#define pbr_inline
+fn clearcoatBlock(
+vPositionW: vec3f
+,geometricNormalW: vec3f
+,viewDirectionW: vec3f
+,vClearCoatParams: vec2f
+#if defined(CLEARCOAT_TEXTURE_ROUGHNESS) && !defined(CLEARCOAT_TEXTURE_ROUGHNESS_IDENTICAL) && !defined(CLEARCOAT_USE_ROUGHNESS_FROM_MAINTEXTURE)
+,clearCoatMapRoughnessData: vec4f
+#endif
+,specularEnvironmentR0: vec3f
+#ifdef CLEARCOAT_TEXTURE
+,clearCoatMapData: vec2f
+#endif
+#ifdef CLEARCOAT_TINT
+,vClearCoatTintParams: vec4f
+,clearCoatColorAtDistance: f32
+,vClearCoatRefractionParams: vec4f
+#ifdef CLEARCOAT_TINT_TEXTURE
+,clearCoatTintMapData: vec4f
+#endif
+#endif
+#ifdef CLEARCOAT_BUMP
+,vClearCoatBumpInfos: vec2f
+,clearCoatBumpMapData: vec4f
+,vClearCoatBumpUV: vec2f
+#if defined(TANGENT) && defined(NORMAL)
+,vTBN: mat3x3f
+#else
+,vClearCoatTangentSpaceParams: vec2f
+#endif
+#ifdef OBJECTSPACE_NORMALMAP
+,normalMatrix: mat4x4f
+#endif
+#endif
+#if defined(FORCENORMALFORWARD) && defined(NORMAL)
+,faceNormal: vec3f
+#endif
+#ifdef REFLECTION
+,vReflectionMicrosurfaceInfos: vec3f
+,vReflectionInfos: vec2f
+,vReflectionColor: vec3f
+,vLightingIntensity: vec4f
+#ifdef REFLECTIONMAP_3D
+,reflectionSampler: texture_cube<f32>
+,reflectionSamplerSampler: sampler
+#else
+,reflectionSampler: texture_2d<f32>
+,reflectionSamplerSampler: sampler
+#endif
+#ifndef LODBASEDMICROSFURACE
+#ifdef REFLECTIONMAP_3D
+,reflectionLowSampler: texture_cube<f32>
+,reflectionLowSamplerSampler: sampler 
+,reflectionHighSampler: texture_cube<f32>
+,reflectionHighSamplerSampler: sampler 
+#else
+,reflectionLowSampler: texture_2d<f32>
+,reflectionLowSamplerSampler: sampler 
+,reflectionHighSampler: texture_2d<f32>
+,reflectionHighSamplerSampler: sampler 
+#endif
+#endif
+#ifdef REALTIME_FILTERING
+,vReflectionFilteringInfo: vec2f
+#endif
+#endif
+#if defined(CLEARCOAT_BUMP) || defined(TWOSIDEDLIGHTING)
+,frontFacingMultiplier: f32
+#endif 
+)->clearcoatOutParams
+{var outParams: clearcoatOutParams;var clearCoatIntensity: f32=vClearCoatParams.x;var clearCoatRoughness: f32=vClearCoatParams.y;
+#ifdef CLEARCOAT_TEXTURE
+clearCoatIntensity*=clearCoatMapData.x;
+#ifdef CLEARCOAT_USE_ROUGHNESS_FROM_MAINTEXTURE
+clearCoatRoughness*=clearCoatMapData.y;
+#endif
+#if DEBUGMODE>0
+outParams.clearCoatMapData=clearCoatMapData;
+#endif
+#endif
+#if defined(CLEARCOAT_TEXTURE_ROUGHNESS) && !defined(CLEARCOAT_USE_ROUGHNESS_FROM_MAINTEXTURE)
+clearCoatRoughness*=clearCoatMapRoughnessData.y;
+#endif
+outParams.clearCoatIntensity=clearCoatIntensity;outParams.clearCoatRoughness=clearCoatRoughness;
+#ifdef CLEARCOAT_TINT
+var clearCoatColor: vec3f=vClearCoatTintParams.rgb;var clearCoatThickness: f32=vClearCoatTintParams.a;
+#ifdef CLEARCOAT_TINT_TEXTURE
+#ifdef CLEARCOAT_TINT_GAMMATEXTURE
+clearCoatColor*=toLinearSpaceVec3(clearCoatTintMapData.rgb);
+#else
+clearCoatColor*=clearCoatTintMapData.rgb;
+#endif
+clearCoatThickness*=clearCoatTintMapData.a;
+#if DEBUGMODE>0
+outParams.clearCoatTintMapData=clearCoatTintMapData;
+#endif
+#endif
+outParams.clearCoatColor=computeColorAtDistanceInMedia(clearCoatColor,clearCoatColorAtDistance);outParams.clearCoatThickness=clearCoatThickness;
+#endif
+#ifdef CLEARCOAT_REMAP_F0
+var specularEnvironmentR0Updated: vec3f=getR0RemappedForClearCoat(specularEnvironmentR0);
+#else
+var specularEnvironmentR0Updated: vec3f=specularEnvironmentR0;
+#endif
+outParams.specularEnvironmentR0=mix(specularEnvironmentR0,specularEnvironmentR0Updated,clearCoatIntensity);var clearCoatNormalW: vec3f=geometricNormalW;
+#ifdef CLEARCOAT_BUMP
+#ifdef NORMALXYSCALE
+var clearCoatNormalScale: f32=1.0;
+#else
+var clearCoatNormalScale: f32=vClearCoatBumpInfos.y;
+#endif
+#if defined(TANGENT) && defined(NORMAL)
+var TBNClearCoat: mat3x3f=vTBN;
+#else
+var TBNClearCoatUV: vec2f=vClearCoatBumpUV*frontFacingMultiplier;var TBNClearCoat: mat3x3f=cotangent_frame(clearCoatNormalW*clearCoatNormalScale,vPositionW,TBNClearCoatUV,vClearCoatTangentSpaceParams);
+#endif
+#if DEBUGMODE>0
+outParams.TBNClearCoat=TBNClearCoat;
+#endif
+#ifdef OBJECTSPACE_NORMALMAP
+clearCoatNormalW=normalize(clearCoatBumpMapData.xyz *2.0-1.0);clearCoatNormalW=normalize( mat3x3f(normalMatrix[0].xyz,normalMatrix[1].xyz,normalMatrix[2].xyz)*clearCoatNormalW);
+#else
+clearCoatNormalW=perturbNormal(TBNClearCoat,clearCoatBumpMapData.xyz,vClearCoatBumpInfos.y);
+#endif
+#endif
+#if defined(FORCENORMALFORWARD) && defined(NORMAL)
+clearCoatNormalW*=sign(dot(clearCoatNormalW,faceNormal));
+#endif
+#if defined(TWOSIDEDLIGHTING) && defined(NORMAL)
+clearCoatNormalW=clearCoatNormalW*frontFacingMultiplier;
+#endif
+outParams.clearCoatNormalW=clearCoatNormalW;outParams.clearCoatAARoughnessFactors=getAARoughnessFactors(clearCoatNormalW.xyz);var clearCoatNdotVUnclamped: f32=dot(clearCoatNormalW,viewDirectionW);var clearCoatNdotV: f32=absEps(clearCoatNdotVUnclamped);
+#if DEBUGMODE>0
+outParams.clearCoatNdotV=clearCoatNdotV;
+#endif
+#ifdef CLEARCOAT_TINT
+var clearCoatVRefract: vec3f=refract(-viewDirectionW,clearCoatNormalW,vClearCoatRefractionParams.y);outParams.clearCoatNdotVRefract=absEps(dot(clearCoatNormalW,clearCoatVRefract));
+#endif
+#if defined(ENVIRONMENTBRDF) && (!defined(REFLECTIONMAP_SKYBOX) || defined(MS_BRDF_ENERGY_CONSERVATION))
+var environmentClearCoatBrdf: vec3f=getBRDFLookup(clearCoatNdotV,clearCoatRoughness);
+#endif
+#if defined(REFLECTION)
+var clearCoatAlphaG: f32=convertRoughnessToAverageSlope(clearCoatRoughness);
+#ifdef SPECULARAA
+clearCoatAlphaG+=outParams.clearCoatAARoughnessFactors.y;
+#endif
+var environmentClearCoatRadiance: vec4f= vec4f(0.,0.,0.,0.);var clearCoatReflectionVector: vec3f=computeReflectionCoords( vec4f(vPositionW,1.0),clearCoatNormalW);
+#ifdef REFLECTIONMAP_OPPOSITEZ
+clearCoatReflectionVector.z*=-1.0;
+#endif
+#ifdef REFLECTIONMAP_3D
+var clearCoatReflectionCoords: vec3f=clearCoatReflectionVector;
+#else
+var clearCoatReflectionCoords: vec2f=clearCoatReflectionVector.xy;
+#ifdef REFLECTIONMAP_PROJECTION
+clearCoatReflectionCoords/=clearCoatReflectionVector.z;
+#endif
+clearCoatReflectionCoords.y=1.0-clearCoatReflectionCoords.y;
+#endif
+environmentClearCoatRadiance=sampleReflectionTexture(
+clearCoatAlphaG
+,vReflectionMicrosurfaceInfos
+,vReflectionInfos
+,vReflectionColor
+#if defined(LODINREFLECTIONALPHA) && !defined(REFLECTIONMAP_SKYBOX)
+,clearCoatNdotVUnclamped
+#endif
+#ifdef LINEARSPECULARREFLECTION
+,clearCoatRoughness
+#endif
+,reflectionSampler
+,reflectionSamplerSampler
+,clearCoatReflectionCoords
+#ifndef LODBASEDMICROSFURACE
+,reflectionLowSampler
+,reflectionLowSamplerSampler
+,reflectionHighSampler
+,reflectionHighSamplerSampler
+#endif
+#ifdef REALTIME_FILTERING
+,vReflectionFilteringInfo
+#endif 
+);
+#if DEBUGMODE>0
+outParams.environmentClearCoatRadiance=environmentClearCoatRadiance;
+#endif
+#if defined(ENVIRONMENTBRDF) && !defined(REFLECTIONMAP_SKYBOX)
+var clearCoatEnvironmentReflectance: vec3f=getReflectanceFromBRDFLookup(vec3f(uniforms.vClearCoatRefractionParams.x),environmentClearCoatBrdf);
+#ifdef HORIZONOCCLUSION
+#ifdef BUMP
+#ifdef REFLECTIONMAP_3D
+var clearCoatEho: f32=environmentHorizonOcclusion(-viewDirectionW,clearCoatNormalW,geometricNormalW);clearCoatEnvironmentReflectance*=clearCoatEho;
+#endif
+#endif
+#endif
+#else
+var clearCoatEnvironmentReflectance: vec3f=getReflectanceFromAnalyticalBRDFLookup_Jones(clearCoatNdotV, vec3f(1.), vec3f(1.),sqrt(1.-clearCoatRoughness));
+#endif
+clearCoatEnvironmentReflectance*=clearCoatIntensity;
+#if DEBUGMODE>0
+outParams.clearCoatEnvironmentReflectance=clearCoatEnvironmentReflectance;
+#endif
+outParams.finalClearCoatRadianceScaled=
+environmentClearCoatRadiance.rgb *
+clearCoatEnvironmentReflectance *
+vLightingIntensity.z;
+#endif
+#if defined(CLEARCOAT_TINT)
+outParams.absorption=computeClearCoatAbsorption(outParams.clearCoatNdotVRefract,outParams.clearCoatNdotVRefract,outParams.clearCoatColor,clearCoatThickness,clearCoatIntensity);
+#endif
+var fresnelIBLClearCoat: f32=fresnelSchlickGGX(clearCoatNdotV,uniforms.vClearCoatRefractionParams.x,CLEARCOATREFLECTANCE90);fresnelIBLClearCoat*=clearCoatIntensity;outParams.conservationFactor=(1.-fresnelIBLClearCoat);
+#if defined(ENVIRONMENTBRDF) && defined(MS_BRDF_ENERGY_CONSERVATION)
+outParams.energyConservationFactorClearCoat=getEnergyConservationFactor(outParams.specularEnvironmentR0,environmentClearCoatBrdf);
+#endif
+return outParams;}
+#endif
+`;e.IncludesShadersStoreWGSL[I]||(e.IncludesShadersStoreWGSL[I]=re);const N="pbrBlockIridescence",ae=`struct iridescenceOutParams
+{iridescenceIntensity: f32,
+iridescenceIOR: f32,
+iridescenceThickness: f32,
+specularEnvironmentR0: vec3f};
+#ifdef IRIDESCENCE
+fn iridescenceBlock(
+vIridescenceParams: vec4f
+,viewAngle_: f32
+,specularEnvironmentR0: vec3f
+#ifdef IRIDESCENCE_TEXTURE
+,iridescenceMapData: vec2f
+#endif
+#ifdef IRIDESCENCE_THICKNESS_TEXTURE
+,iridescenceThicknessMapData: vec2f
+#endif
+#ifdef CLEARCOAT
+,NdotVUnclamped: f32
+,vClearCoatParams: vec2f
+#ifdef CLEARCOAT_TEXTURE
+,clearCoatMapData: vec2f
+#endif
+#endif
+)->iridescenceOutParams
+{var outParams: iridescenceOutParams;var iridescenceIntensity: f32=vIridescenceParams.x;var iridescenceIOR: f32=vIridescenceParams.y;var iridescenceThicknessMin: f32=vIridescenceParams.z;var iridescenceThicknessMax: f32=vIridescenceParams.w;var iridescenceThicknessWeight: f32=1.;var viewAngle=viewAngle_;
+#ifdef IRIDESCENCE_TEXTURE
+iridescenceIntensity*=iridescenceMapData.x;
+#endif
+#if defined(IRIDESCENCE_THICKNESS_TEXTURE)
+iridescenceThicknessWeight=iridescenceThicknessMapData.g;
+#endif
+var iridescenceThickness: f32=mix(iridescenceThicknessMin,iridescenceThicknessMax,iridescenceThicknessWeight);var topIor: f32=1.; 
+#ifdef CLEARCOAT
+var clearCoatIntensity: f32=vClearCoatParams.x;
+#ifdef CLEARCOAT_TEXTURE
+clearCoatIntensity*=clearCoatMapData.x;
+#endif
+topIor=mix(1.0,uniforms.vClearCoatRefractionParams.w-1.,clearCoatIntensity);viewAngle=sqrt(1.0+((1.0/topIor)*(1.0/topIor))*((NdotVUnclamped*NdotVUnclamped)-1.0));
+#endif
+var iridescenceFresnel: vec3f=evalIridescence(topIor,iridescenceIOR,viewAngle,iridescenceThickness,specularEnvironmentR0);outParams.specularEnvironmentR0=mix(specularEnvironmentR0,iridescenceFresnel,iridescenceIntensity);outParams.iridescenceIntensity=iridescenceIntensity;outParams.iridescenceThickness=iridescenceThickness;outParams.iridescenceIOR=iridescenceIOR;return outParams;}
+#endif
+`;e.IncludesShadersStoreWGSL[N]||(e.IncludesShadersStoreWGSL[N]=ae);const O="pbrBlockSubSurface",ne=`struct subSurfaceOutParams
+{specularEnvironmentReflectance: vec3f,
+#ifdef SS_REFRACTION
+finalRefraction: vec3f,
+surfaceAlbedo: vec3f,
+#ifdef SS_LINKREFRACTIONTOTRANSPARENCY
+alpha: f32,
+#endif
+refractionOpacity: f32,
+#endif
+#ifdef SS_TRANSLUCENCY
+transmittance: vec3f,
+translucencyIntensity: f32,
+#ifdef REFLECTION
+refractionIrradiance: vec3f,
+#endif
+#endif
+#if DEBUGMODE>0
+#ifdef SS_THICKNESSANDMASK_TEXTURE
+thicknessMap: vec4f,
+#endif
+#ifdef SS_REFRACTION
+environmentRefraction: vec4f,
+refractionTransmittance: vec3f
+#endif
+#endif
+};
+#ifdef SUBSURFACE
+#ifdef SS_REFRACTION
+#define pbr_inline
+fn sampleEnvironmentRefraction(
+ior: f32
+,thickness: f32
+,refractionLOD: f32
+,normalW: vec3f
+,vPositionW: vec3f
+,viewDirectionW: vec3f
+,view: mat4x4f
+,vRefractionInfos: vec4f
+,refractionMatrix: mat4x4f
+,vRefractionMicrosurfaceInfos: vec4f
+,alphaG: f32
+#ifdef SS_REFRACTIONMAP_3D
+,refractionSampler: texture_cube<f32>
+,refractionSamplerSampler: sampler
+#ifndef LODBASEDMICROSFURACE
+,refractionLowSampler: texture_cube<f32>
+,refractionLowSamplerSampler: sampler
+,refractionHighSampler: texture_cube<f32>
+,refractionHighSamplerSampler: sampler 
+#endif
+#else
+,refractionSampler: texture_2d<f32>
+,refractionSamplerSampler: sampler
+#ifndef LODBASEDMICROSFURACE
+,refractionLowSampler: texture_2d<f32>
+,refractionLowSamplerSampler: sampler
+,refractionHighSampler: texture_2d<f32>
+,refractionHighSamplerSampler: sampler 
+#endif
+#endif
+#ifdef ANISOTROPIC
+,anisotropicOut: anisotropicOutParams
+#endif
+#ifdef REALTIME_FILTERING
+,vRefractionFilteringInfo: vec2f
+#endif
+#ifdef SS_USE_LOCAL_REFRACTIONMAP_CUBIC
+,refractionPosition: vec3f
+,refractionSize: vec3f
+#endif
+)->vec4f {var environmentRefraction: vec4f= vec4f(0.,0.,0.,0.);
+#ifdef ANISOTROPIC
+var refractionVector: vec3f=refract(-viewDirectionW,anisotropicOut.anisotropicNormal,ior);
+#else
+var refractionVector: vec3f=refract(-viewDirectionW,normalW,ior);
+#endif
+#ifdef SS_REFRACTIONMAP_OPPOSITEZ
+refractionVector.z*=-1.0;
+#endif
+#ifdef SS_REFRACTIONMAP_3D
+#ifdef SS_USE_LOCAL_REFRACTIONMAP_CUBIC
+refractionVector=parallaxCorrectNormal(vPositionW,refractionVector,refractionSize,refractionPosition);
+#endif
+refractionVector.y=refractionVector.y*vRefractionInfos.w;var refractionCoords: vec3f=refractionVector;refractionCoords= (refractionMatrix* vec4f(refractionCoords,0)).xyz;
+#else
+#ifdef SS_USE_THICKNESS_AS_DEPTH
+var vRefractionUVW: vec3f= (refractionMatrix*(view* vec4f(vPositionW+refractionVector*thickness,1.0))).xyz;
+#else
+var vRefractionUVW: vec3f= (refractionMatrix*(view* vec4f(vPositionW+refractionVector*vRefractionInfos.z,1.0))).xyz;
+#endif
+var refractionCoords: vec2f=vRefractionUVW.xy/vRefractionUVW.z;refractionCoords.y=1.0-refractionCoords.y;
+#endif
+#ifdef LODBASEDMICROSFURACE
+var lod=refractionLOD*vRefractionMicrosurfaceInfos.y+vRefractionMicrosurfaceInfos.z;
+#ifdef SS_LODINREFRACTIONALPHA
+var automaticRefractionLOD: f32=UNPACK_LOD(textureSample(refractionSampler,refractionSampl

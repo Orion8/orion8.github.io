@@ -1,0 +1,152 @@
+
+,select(-1.,1.,fragmentInputs.frontFacing)
+#endif
+);
+#else
+clearcoatOut.specularEnvironmentR0=specularEnvironmentR0;
+#endif
+#include<pbrBlockReflectance>
+var subSurfaceOut: subSurfaceOutParams;
+#ifdef SUBSURFACE
+#ifdef SS_THICKNESSANDMASK_TEXTURE
+var thicknessMap: vec4f=textureSample(thicknessSampler,thicknessSamplerSampler,fragmentInputs.vThicknessUV+uvOffset);
+#endif
+#ifdef SS_REFRACTIONINTENSITY_TEXTURE
+var refractionIntensityMap: vec4f=textureSample(refractionIntensitySampler,refractionIntensitySamplerSampler,fragmentInputs.vRefractionIntensityUV+uvOffset);
+#endif
+#ifdef SS_TRANSLUCENCYINTENSITY_TEXTURE
+var translucencyIntensityMap: vec4f=textureSample(translucencyIntensitySampler,translucencyIntensitySamplerSampler,fragmentInputs.vTranslucencyIntensityUV+uvOffset);
+#endif
+#ifdef SS_TRANSLUCENCYCOLOR_TEXTURE
+var translucencyColorMap: vec4f=textureSample(translucencyColorSampler,translucencyColorSamplerSampler,fragmentInputs.vTranslucencyColorUV+uvOffset);
+#ifdef SS_TRANSLUCENCYCOLOR_TEXTURE_GAMMA
+translucencyColorMap=toLinearSpaceVec4(translucencyColorMap);
+#endif
+#endif
+subSurfaceOut=subSurfaceBlock(
+uniforms.vSubSurfaceIntensity
+,uniforms.vThicknessParam
+,uniforms.vTintColor
+,normalW
+#ifdef LEGACY_SPECULAR_ENERGY_CONSERVATION
+,vec3f(max(colorSpecularEnvironmentReflectance.r,max(colorSpecularEnvironmentReflectance.g,colorSpecularEnvironmentReflectance.b)))
+#else
+,baseSpecularEnvironmentReflectance
+#endif
+#ifdef SS_THICKNESSANDMASK_TEXTURE
+,thicknessMap
+#endif
+#ifdef SS_REFRACTIONINTENSITY_TEXTURE
+,refractionIntensityMap
+#endif
+#ifdef SS_TRANSLUCENCYINTENSITY_TEXTURE
+,translucencyIntensityMap
+#endif
+#ifdef REFLECTION
+#ifdef SS_TRANSLUCENCY
+,uniforms.reflectionMatrix
+#ifdef USESPHERICALFROMREFLECTIONMAP
+#if !defined(NORMAL) || !defined(USESPHERICALINVERTEX)
+,reflectionOut.irradianceVector
+#endif
+#if defined(REALTIME_FILTERING)
+,reflectionSampler
+,reflectionSamplerSampler
+,uniforms.vReflectionFilteringInfo
+#ifdef IBL_CDF_FILTERING
+,icdfSampler
+,icdfSamplerSampler
+#endif
+#endif
+#endif
+#ifdef USEIRRADIANCEMAP
+,irradianceSampler
+,irradianceSamplerSampler
+#endif
+#endif
+#endif
+#if defined(SS_REFRACTION) || defined(SS_TRANSLUCENCY)
+,surfaceAlbedo
+#endif
+#ifdef SS_REFRACTION
+,fragmentInputs.vPositionW
+,viewDirectionW
+,scene.view
+,uniforms.vRefractionInfos
+,uniforms.refractionMatrix
+,uniforms.vRefractionMicrosurfaceInfos
+,uniforms.vLightingIntensity
+#ifdef SS_LINKREFRACTIONTOTRANSPARENCY
+,alpha
+#endif
+#ifdef SS_LODINREFRACTIONALPHA
+,NdotVUnclamped
+#endif
+#ifdef SS_LINEARSPECULARREFRACTION
+,roughness
+#endif
+,alphaG
+,refractionSampler
+,refractionSamplerSampler
+#ifndef LODBASEDMICROSFURACE
+,refractionLowSampler
+,refractionLowSamplerSampler
+,refractionHighSampler
+,refractionHighSamplerSampler
+#endif
+#ifdef ANISOTROPIC
+,anisotropicOut
+#endif
+#ifdef REALTIME_FILTERING
+,uniforms.vRefractionFilteringInfo
+#endif
+#ifdef SS_USE_LOCAL_REFRACTIONMAP_CUBIC
+,uniforms.vRefractionPosition
+,uniforms.vRefractionSize
+#endif
+#ifdef SS_DISPERSION
+,dispersion
+#endif
+#endif
+#ifdef SS_TRANSLUCENCY
+,uniforms.vDiffusionDistance
+,uniforms.vTranslucencyColor
+#ifdef SS_TRANSLUCENCYCOLOR_TEXTURE
+,translucencyColorMap
+#endif
+#endif
+);
+#ifdef SS_REFRACTION
+surfaceAlbedo=subSurfaceOut.surfaceAlbedo;
+#ifdef SS_LINKREFRACTIONTOTRANSPARENCY
+alpha=subSurfaceOut.alpha;
+#endif
+#endif
+#else
+subSurfaceOut.specularEnvironmentReflectance=colorSpecularEnvironmentReflectance;
+#endif
+#include<pbrBlockDirectLighting>
+#include<lightFragment>[0..maxSimultaneousLights]
+#include<pbrBlockFinalLitComponents>
+#endif 
+#include<pbrBlockFinalUnlitComponents>
+#define CUSTOM_FRAGMENT_BEFORE_FINALCOLORCOMPOSITION
+#include<pbrBlockFinalColorComposition>
+#include<logDepthFragment>
+#include<fogFragment>(color,finalColor)
+#include<pbrBlockImageProcessing>
+#define CUSTOM_FRAGMENT_BEFORE_FRAGCOLOR
+#ifdef PREPASS
+#include<pbrBlockPrePass>
+#endif
+#if !defined(PREPASS) && !defined(ORDER_INDEPENDENT_TRANSPARENCY)
+fragmentOutputs.color=finalColor;
+#endif
+#include<oitFragment>
+#if ORDER_INDEPENDENT_TRANSPARENCY
+if (fragDepth==nearestDepth) {fragmentOutputs.frontColor=vec4f(fragmentOutputs.frontColor.rgb+finalColor.rgb*finalColor.a*alphaMultiplier,1.0-alphaMultiplier*(1.0-finalColor.a));} else {fragmentOutputs.backColor+=finalColor;}
+#endif
+#include<pbrDebug>
+#define CUSTOM_FRAGMENT_MAIN_END
+}
+`;e.ShadersStoreWGSL[i]||(e.ShadersStoreWGSL[i]=G);const _e={name:i,shader:G};export{_e as pbrPixelShaderWGSL};

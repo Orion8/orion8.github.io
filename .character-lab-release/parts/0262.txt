@@ -1,0 +1,251 @@
+;vec3 surfaceAlbedo;
+#ifdef IRIDESCENCE
+float iridescenceIntensity;
+#endif
+#if defined(AREALIGHTUSED) && defined(AREALIGHTSUPPORTED)
+vec3 areaLightDiffuse;
+#ifdef SPECULARTERM
+vec3 areaLightSpecular;vec4 areaLightFresnel;
+#endif
+#endif
+};preLightingInfo computePointAndSpotPreLightingInfo(vec4 lightData,vec3 V,vec3 N,vec3 posW) {preLightingInfo result;result.lightOffset=lightData.xyz-posW;result.lightDistanceSquared=dot(result.lightOffset,result.lightOffset);result.lightDistance=sqrt(result.lightDistanceSquared);result.L=normalize(result.lightOffset);result.H=normalize(V+result.L);result.VdotH=saturate(dot(V,result.H));result.NdotLUnclamped=dot(N,result.L);result.NdotL=saturateEps(result.NdotLUnclamped);result.LdotV=0.;result.roughness=0.;result.diffuseRoughness=0.;result.surfaceAlbedo=vec3(0.);return result;}
+preLightingInfo computeDirectionalPreLightingInfo(vec4 lightData,vec3 V,vec3 N) {preLightingInfo result;result.lightDistance=length(-lightData.xyz);result.L=normalize(-lightData.xyz);result.H=normalize(V+result.L);result.VdotH=saturate(dot(V,result.H));result.NdotLUnclamped=dot(N,result.L);result.NdotL=saturateEps(result.NdotLUnclamped);result.LdotV=dot(result.L,V);result.roughness=0.;result.diffuseRoughness=0.;result.surfaceAlbedo=vec3(0.);return result;}
+preLightingInfo computeHemisphericPreLightingInfo(vec4 lightData,vec3 V,vec3 N) {preLightingInfo result;result.NdotL=dot(N,lightData.xyz)*0.5+0.5;result.NdotL=saturateEps(result.NdotL);result.NdotLUnclamped=result.NdotL;
+#ifdef SPECULARTERM
+result.L=normalize(lightData.xyz);result.H=normalize(V+result.L);result.VdotH=saturate(dot(V,result.H));
+#endif
+result.LdotV=0.;result.roughness=0.;result.diffuseRoughness=0.;result.surfaceAlbedo=vec3(0.);return result;}
+#if defined(AREALIGHTUSED) && defined(AREALIGHTSUPPORTED)
+#include<ltcHelperFunctions>
+uniform sampler2D areaLightsLTC1Sampler;uniform sampler2D areaLightsLTC2Sampler;preLightingInfo computeAreaPreLightingInfo(sampler2D ltc1,sampler2D ltc2,vec3 viewDirectionW,vec3 vNormal,vec3 vPosition,vec4 lightData,vec3 halfWidth,vec3 halfHeight,float roughness )
+{preLightingInfo result;result.lightOffset=lightData.xyz-vPosition;result.lightDistanceSquared=dot(result.lightOffset,result.lightOffset);result.lightDistance=sqrt(result.lightDistanceSquared);areaLightData data=computeAreaLightSpecularDiffuseFresnel(ltc1,ltc2,viewDirectionW,vNormal,vPosition,lightData.xyz,halfWidth,halfHeight,roughness);
+#ifdef SPECULARTERM
+result.areaLightFresnel=data.Fresnel;result.areaLightSpecular=data.Specular;
+#endif
+result.areaLightDiffuse=data.Diffuse;result.LdotV=0.;result.roughness=0.;result.diffuseRoughness=0.;result.surfaceAlbedo=vec3(0.);return result;}
+#endif
+`;e.IncludesShadersStore[l]||(e.IncludesShadersStore[l]=z);const d="pbrDirectLightingFalloffFunctions",K=`float computeDistanceLightFalloff_Standard(vec3 lightOffset,float range)
+{return max(0.,1.0-length(lightOffset)/range);}
+float computeDistanceLightFalloff_Physical(float lightDistanceSquared)
+{return 1.0/maxEps(lightDistanceSquared);}
+float computeDistanceLightFalloff_GLTF(float lightDistanceSquared,float inverseSquaredRange)
+{float lightDistanceFalloff=1.0/maxEps(lightDistanceSquared);float factor=lightDistanceSquared*inverseSquaredRange;float attenuation=saturate(1.0-factor*factor);attenuation*=attenuation;lightDistanceFalloff*=attenuation;return lightDistanceFalloff;}
+float computeDistanceLightFalloff(vec3 lightOffset,float lightDistanceSquared,float range,float inverseSquaredRange)
+{
+#ifdef USEPHYSICALLIGHTFALLOFF
+return computeDistanceLightFalloff_Physical(lightDistanceSquared);
+#elif defined(USEGLTFLIGHTFALLOFF)
+return computeDistanceLightFalloff_GLTF(lightDistanceSquared,inverseSquaredRange);
+#else
+return computeDistanceLightFalloff_Standard(lightOffset,range);
+#endif
+}
+float computeDirectionalLightFalloff_Standard(vec3 lightDirection,vec3 directionToLightCenterW,float cosHalfAngle,float exponent)
+{float falloff=0.0;float cosAngle=maxEps(dot(-lightDirection,directionToLightCenterW));if (cosAngle>=cosHalfAngle)
+{falloff=max(0.,pow(cosAngle,exponent));}
+return falloff;}
+float computeDirectionalLightFalloff_IES(vec3 lightDirection,vec3 directionToLightCenterW,sampler2D iesLightSampler)
+{float cosAngle=dot(-lightDirection,directionToLightCenterW);float angle=acos(cosAngle)/PI;return texture2D(iesLightSampler,vec2(angle,0.)).r;}
+float computeDirectionalLightFalloff_Physical(vec3 lightDirection,vec3 directionToLightCenterW,float cosHalfAngle)
+{const float kMinusLog2ConeAngleIntensityRatio=6.64385618977; 
+float concentrationKappa=kMinusLog2ConeAngleIntensityRatio/(1.0-cosHalfAngle);vec4 lightDirectionSpreadSG=vec4(-lightDirection*concentrationKappa,-concentrationKappa);float falloff=exp2(dot(vec4(directionToLightCenterW,1.0),lightDirectionSpreadSG));return falloff;}
+float computeDirectionalLightFalloff_GLTF(vec3 lightDirection,vec3 directionToLightCenterW,float lightAngleScale,float lightAngleOffset)
+{float cd=dot(-lightDirection,directionToLightCenterW);float falloff=saturate(cd*lightAngleScale+lightAngleOffset);falloff*=falloff;return falloff;}
+float computeDirectionalLightFalloff(vec3 lightDirection,vec3 directionToLightCenterW,float cosHalfAngle,float exponent,float lightAngleScale,float lightAngleOffset)
+{
+#ifdef USEPHYSICALLIGHTFALLOFF
+return computeDirectionalLightFalloff_Physical(lightDirection,directionToLightCenterW,cosHalfAngle);
+#elif defined(USEGLTFLIGHTFALLOFF)
+return computeDirectionalLightFalloff_GLTF(lightDirection,directionToLightCenterW,lightAngleScale,lightAngleOffset);
+#else
+return computeDirectionalLightFalloff_Standard(lightDirection,directionToLightCenterW,cosHalfAngle,exponent);
+#endif
+}`;e.IncludesShadersStore[d]||(e.IncludesShadersStore[d]=K);const s="hdrFilteringFunctions",$=`#if NUM_SAMPLES
+#if NUM_SAMPLES>0
+#if defined(WEBGL2) || defined(WEBGPU) || defined(NATIVE)
+float radicalInverse_VdC(uint bits) 
+{bits=(bits<<16u) | (bits>>16u);bits=((bits & 0x55555555u)<<1u) | ((bits & 0xAAAAAAAAu)>>1u);bits=((bits & 0x33333333u)<<2u) | ((bits & 0xCCCCCCCCu)>>2u);bits=((bits & 0x0F0F0F0Fu)<<4u) | ((bits & 0xF0F0F0F0u)>>4u);bits=((bits & 0x00FF00FFu)<<8u) | ((bits & 0xFF00FF00u)>>8u);return float(bits)*2.3283064365386963e-10; }
+vec2 hammersley(uint i,uint N)
+{return vec2(float(i)/float(N),radicalInverse_VdC(i));}
+#else
+float vanDerCorpus(int n,int base)
+{float invBase=1.0/float(base);float denom =1.0;float result =0.0;for(int i=0; i<32; ++i)
+{if(n>0)
+{denom =mod(float(n),2.0);result+=denom*invBase;invBase=invBase/2.0;n =int(float(n)/2.0);}}
+return result;}
+vec2 hammersley(int i,int N)
+{return vec2(float(i)/float(N),vanDerCorpus(i,2));}
+#endif
+float log4(float x) {return log2(x)/2.;}
+vec3 uv_to_normal(vec2 uv) {vec3 N;vec2 uvRange=uv;float theta=uvRange.x*2.*PI;float phi=uvRange.y*PI;float sinPhi=sin(phi);N.x=cos(theta)*sinPhi;N.z=sin(theta)*sinPhi;N.y=cos(phi);return N;}
+const float NUM_SAMPLES_FLOAT=float(NUM_SAMPLES);const float NUM_SAMPLES_FLOAT_INVERSED=1./NUM_SAMPLES_FLOAT;const float K=4.;
+#define inline
+vec3 irradiance(
+#ifdef CUSTOM_IRRADIANCE_FILTERING_INPUT
+CUSTOM_IRRADIANCE_FILTERING_INPUT
+#else
+samplerCube inputTexture,
+#endif
+vec3 inputN,vec2 filteringInfo,
+float diffuseRoughness,
+vec3 surfaceAlbedo,
+vec3 inputV
+#if IBL_CDF_FILTERING
+,sampler2D icdfSampler
+#endif
+)
+{vec3 n=normalize(inputN);vec3 result=vec3(0.);
+#ifndef IBL_CDF_FILTERING
+vec3 tangent=abs(n.z)<0.999 ? vec3(0.,0.,1.) : vec3(1.,0.,0.);tangent=normalize(cross(tangent,n));vec3 bitangent=cross(n,tangent);mat3 tbn=mat3(tangent,bitangent,n);mat3 tbnInverse=mat3(tangent.x,bitangent.x,n.x,tangent.y,bitangent.y,n.y,tangent.z,bitangent.z,n.z);
+#endif
+float maxLevel=filteringInfo.y;float dim0=filteringInfo.x;float omegaP=(4.*PI)/(6.*dim0*dim0);vec3 clampedAlbedo=clamp(surfaceAlbedo,vec3(0.1),vec3(1.0));
+#if defined(WEBGL2) || defined(WEBGPU) || defined(NATIVE)
+for(uint i=0u; i<NUM_SAMPLES; ++i)
+#else
+for(int i=0; i<NUM_SAMPLES; ++i)
+#endif
+{vec2 Xi=hammersley(i,NUM_SAMPLES);
+#if IBL_CDF_FILTERING
+vec2 T;T.x=texture2D(icdfSampler,vec2(Xi.x,0.)).x;T.y=texture2D(icdfSampler,vec2(T.x,Xi.y)).y;vec3 Ls=uv_to_normal(vec2(1.0-fract(T.x+0.25),T.y));float NoL=dot(n,Ls);float NoV=dot(n,inputV);
+#if BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_EON
+float LoV=dot (Ls,inputV);
+#elif BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_BURLEY
+vec3 H=(inputV+Ls)*0.5;float VoH=dot(inputV,H);
+#endif
+#else
+vec3 Ls=hemisphereCosSample(Xi);Ls=normalize(Ls);float NoL=Ls.z; 
+vec3 V=tbnInverse*inputV;float NoV=V.z; 
+#if BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_EON
+float LoV=dot (Ls,V);
+#elif BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_BURLEY
+vec3 H=(V+Ls)*0.5;float VoH=dot(V,H);
+#endif
+#endif
+if (NoL>0.) {
+#if IBL_CDF_FILTERING
+float pdf=texture2D(icdfSampler,T).z;vec3 c=textureCubeLodEXT(inputTexture,Ls,0.).rgb;
+#else
+float pdf_inversed=PI/NoL;float omegaS=NUM_SAMPLES_FLOAT_INVERSED*pdf_inversed;float l=log4(omegaS)-log4(omegaP)+log4(K);float mipLevel=clamp(l,0.,maxLevel);
+#ifdef CUSTOM_IRRADIANCE_FILTERING_FUNCTION
+CUSTOM_IRRADIANCE_FILTERING_FUNCTION
+#else
+vec3 c=textureCubeLodEXT(inputTexture,tbn*Ls,mipLevel).rgb;
+#endif
+#endif
+#if GAMMA_INPUT
+c=toLinearSpace(c);
+#endif
+vec3 diffuseRoughnessTerm=vec3(1.0);
+#if BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_EON
+diffuseRoughnessTerm=diffuseBRDF_EON(clampedAlbedo,diffuseRoughness,NoL,NoV,LoV)*PI;
+#elif BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_BURLEY
+diffuseRoughnessTerm=vec3(diffuseBRDF_Burley(NoL,NoV,VoH,diffuseRoughness)*PI);
+#endif
+#if IBL_CDF_FILTERING
+vec3 light=pdf<1e-6 ? vec3(0.0) : vec3(1.0)/vec3(pdf)*c;result+=NoL*diffuseRoughnessTerm*light;
+#else
+result+=c*diffuseRoughnessTerm;
+#endif
+}}
+result=result*NUM_SAMPLES_FLOAT_INVERSED;
+#if BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_EON
+result=result/clampedAlbedo;
+#endif
+return result;}
+#define inline
+vec3 radiance(float alphaG,samplerCube inputTexture,vec3 inputN,vec2 filteringInfo)
+{vec3 n=normalize(inputN);vec3 c=textureCube(inputTexture,n).rgb; 
+if (alphaG==0.) {
+#if GAMMA_INPUT
+c=toLinearSpace(c);
+#endif
+return c;} else {vec3 result=vec3(0.);vec3 tangent=abs(n.z)<0.999 ? vec3(0.,0.,1.) : vec3(1.,0.,0.);tangent=normalize(cross(tangent,n));vec3 bitangent=cross(n,tangent);mat3 tbn=mat3(tangent,bitangent,n);float maxLevel=filteringInfo.y;float dim0=filteringInfo.x;float omegaP=(4.*PI)/(6.*dim0*dim0);float weight=0.;
+#if defined(WEBGL2) || defined(WEBGPU) || defined(NATIVE)
+for(uint i=0u; i<NUM_SAMPLES; ++i)
+#else
+for(int i=0; i<NUM_SAMPLES; ++i)
+#endif
+{vec2 Xi=hammersley(i,NUM_SAMPLES);vec3 H=hemisphereImportanceSampleDggx(Xi,alphaG);float NoV=1.;float NoH=H.z;float NoH2=H.z*H.z;float NoL=2.*NoH2-1.;vec3 L=vec3(2.*NoH*H.x,2.*NoH*H.y,NoL);L=normalize(L);if (NoL>0.) {float pdf_inversed=4./normalDistributionFunction_TrowbridgeReitzGGX(NoH,alphaG);float omegaS=NUM_SAMPLES_FLOAT_INVERSED*pdf_inversed;float l=log4(omegaS)-log4(omegaP)+log4(K);float mipLevel=clamp(float(l),0.0,maxLevel);weight+=NoL;vec3 c=textureCubeLodEXT(inputTexture,tbn*L,mipLevel).rgb;
+#if GAMMA_INPUT
+c=toLinearSpace(c);
+#endif
+result+=c*NoL;}}
+result=result/weight;return result;}}
+#endif
+#endif
+`;e.IncludesShadersStore[s]||(e.IncludesShadersStore[s]=$);const E="pbrDirectLightingFunctions",q=`#define CLEARCOATREFLECTANCE90 1.0
+struct lightingInfo
+{vec3 diffuse;
+#ifdef SS_TRANSLUCENCY
+vec3 diffuseTransmission;
+#endif
+#ifdef SPECULARTERM
+vec3 specular;
+#endif
+#ifdef CLEARCOAT
+vec4 clearCoat;
+#endif
+#ifdef SHEEN
+vec3 sheen;
+#endif
+};float adjustRoughnessFromLightProperties(float roughness,float lightRadius,float lightDistance) {
+#if defined(USEPHYSICALLIGHTFALLOFF) || defined(USEGLTFLIGHTFALLOFF)
+float lightRoughness=lightRadius/lightDistance;float totalRoughness=saturate(lightRoughness+roughness);return totalRoughness;
+#else
+return roughness;
+#endif
+}
+vec3 computeHemisphericDiffuseLighting(preLightingInfo info,vec3 lightColor,vec3 groundColor) {return mix(groundColor,lightColor,info.NdotL);}
+#if defined(AREALIGHTUSED) && defined(AREALIGHTSUPPORTED)
+vec3 computeAreaDiffuseLighting(preLightingInfo info,vec3 lightColor) {return info.areaLightDiffuse*lightColor;}
+#endif
+vec3 computeDiffuseLighting(preLightingInfo info,vec3 lightColor) {vec3 diffuseTerm=vec3(1.0/PI);
+#if BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_LEGACY
+diffuseTerm=vec3(diffuseBRDF_Burley(info.NdotL,info.NdotV,info.VdotH,info.roughness));
+#elif BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_BURLEY
+diffuseTerm=vec3(diffuseBRDF_Burley(info.NdotL,info.NdotV,info.VdotH,info.diffuseRoughness));
+#elif BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_EON
+vec3 clampedAlbedo=clamp(info.surfaceAlbedo,vec3(0.1),vec3(1.0));diffuseTerm=diffuseBRDF_EON(clampedAlbedo,info.diffuseRoughness,info.NdotL,info.NdotV,info.LdotV);diffuseTerm/=clampedAlbedo;
+#endif
+return diffuseTerm*info.attenuation*info.NdotL*lightColor;}
+#define inline
+vec3 computeProjectionTextureDiffuseLighting(sampler2D projectionLightSampler,mat4 textureProjectionMatrix,vec3 posW){vec4 strq=textureProjectionMatrix*vec4(posW,1.0);strq/=strq.w;vec3 textureColor=texture2D(projectionLightSampler,strq.xy).rgb;return toLinearSpace(textureColor);}
+#ifdef SS_TRANSLUCENCY
+vec3 computeDiffuseTransmittedLighting(preLightingInfo info,vec3 lightColor,vec3 transmittance) {vec3 transmittanceNdotL=vec3(0.);float NdotL=absEps(info.NdotLUnclamped);
+#ifndef SS_TRANSLUCENCY_LEGACY
+if (info.NdotLUnclamped<0.0) {
+#endif
+float wrapNdotL=computeWrappedDiffuseNdotL(NdotL,0.02);float trAdapt=step(0.,info.NdotLUnclamped);transmittanceNdotL=mix(transmittance*wrapNdotL,vec3(wrapNdotL),trAdapt);
+#ifndef SS_TRANSLUCENCY_LEGACY
+}
+vec3 diffuseTerm=vec3(1.0/PI);
+#if BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_LEGACY
+diffuseTerm=vec3(diffuseBRDF_Burley(info.NdotL,info.NdotV,info.VdotH,info.roughness));
+#elif BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_BURLEY
+diffuseTerm=vec3(diffuseBRDF_Burley(info.NdotL,info.NdotV,info.VdotH,info.diffuseRoughness));
+#elif BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_EON
+vec3 clampedAlbedo=clamp(info.surfaceAlbedo,vec3(0.1),vec3(1.0));diffuseTerm=diffuseBRDF_EON(clampedAlbedo,info.diffuseRoughness,info.NdotL,info.NdotV,info.LdotV);diffuseTerm/=clampedAlbedo;
+#endif
+#else
+float diffuseTerm=diffuseBRDF_Burley(NdotL,info.NdotV,info.VdotH,info.roughness);
+#endif
+return diffuseTerm*transmittanceNdotL*info.attenuation*lightColor;}
+#endif
+#ifdef SPECULARTERM
+vec3 computeSpecularLighting(preLightingInfo info,vec3 N,vec3 reflectance0,vec3 fresnel,float geometricRoughnessFactor,vec3 lightColor) {float NdotH=saturateEps(dot(N,info.H));float roughness=max(info.roughness,geometricRoughnessFactor);float alphaG=convertRoughnessToAverageSlope(roughness);
+#ifdef IRIDESCENCE
+fresnel=mix(fresnel,reflectance0,info.iridescenceIntensity);
+#endif
+float distribution=normalDistributionFunction_TrowbridgeReitzGGX(NdotH,alphaG);
+#ifdef BRDF_V_HEIGHT_CORRELATED
+float smithVisibility=smithVisibility_GGXCorrelated(info.NdotL,info.NdotV,alphaG);
+#else
+float smithVisibility=smithVisibility_TrowbridgeReitzGGXFast(info.NdotL,info.NdotV,alphaG);
+#endif
+vec3 specTerm=fresnel*distribution*smithVisibility;return specTerm*info.attenuation*info.NdotL*lightColor;}
+#if defined(AREALIGHTUSED) && defined(AREALIGHTSUPPORTED)
+vec3 computeAreaSpecularLighting(preLightingInfo info,vec3 specularColor,vec3 reflectance0,vec3 reflectance90) {vec3 fresnel=specularColor*info.areaLightFresnel.x*reflectance0+( vec3( 1.0 )-specularColor )*info.areaLightFresnel.y*reflectance90;return specularColor*fresnel*info.areaLightSpecular;}
+#endif
+#endif
+#ifdef ANISOTROPIC
+vec3 computeAnisotropicSpecularLighting(preLightingInfo info,vec3 V,vec3 N,vec3 T,vec3 B,float anisotropy,vec3 reflectance0,vec3 reflectance90,float geometricRoughnessFactor,vec3 lightColor) {float NdotH=saturateEps(dot(N,info.H));float TdotH=dot(T,info.H);float BdotH=dot(B,info.H);float TdotV=dot(T,V);float BdotV=dot(B,V);float TdotL=dot(T,info.L);float BdotL=dot(B,info.L);float alphaG=convertRoughnessToAverageSlope(info.roughness);vec2 alphaTB=getAnisotropicRoughness(alphaG,anisotropy);alphaTB=max(alphaTB,square(geometricRoughnessFactor));vec3 fresnel=fresnelSchlickGGX(info.VdotH,ref

@@ -1,0 +1,294 @@
+y(uv);var dp2perp: vec3f=cross(dp2,normal);var dp1perp: vec3f=cross(normal,dp1);var tangent: vec3f=dp2perp*duv1.x+dp1perp*duv2.x;var bitangent: vec3f=dp2perp*duv1.y+dp1perp*duv2.y;tangent*=tangentSpaceParams.x;bitangent*=tangentSpaceParams.y;var det: f32=max(dot(tangent,tangent),dot(bitangent,bitangent));var invmax: f32=select(inverseSqrt(det),0.0,det==0.0);return mat3x3f(tangent*invmax,bitangent*invmax,normal);}
+#endif
+`;e.IncludesShadersStoreWGSL[v]||(e.IncludesShadersStoreWGSL[v]=P);const c="bumpFragmentFunctions",A=`#if defined(BUMP)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,BUMP,_VARYINGNAME_,Bump,_SAMPLERNAME_,bump)
+#endif
+#if defined(DETAIL)
+#include<samplerFragmentDeclaration>(_DEFINENAME_,DETAIL,_VARYINGNAME_,Detail,_SAMPLERNAME_,detail)
+#endif
+#if defined(BUMP) && defined(PARALLAX)
+const minSamples: f32=4.;const maxSamples: f32=15.;const iMaxSamples: i32=15;fn parallaxOcclusion(vViewDirCoT: vec3f,vNormalCoT: vec3f,texCoord: vec2f,parallaxScale: f32)->vec2f {var parallaxLimit: f32=length(vViewDirCoT.xy)/vViewDirCoT.z;parallaxLimit*=parallaxScale;var vOffsetDir: vec2f=normalize(vViewDirCoT.xy);var vMaxOffset: vec2f=vOffsetDir*parallaxLimit;var numSamples: f32=maxSamples+(dot(vViewDirCoT,vNormalCoT)*(minSamples-maxSamples));var stepSize: f32=1.0/numSamples;var currRayHeight: f32=1.0;var vCurrOffset: vec2f= vec2f(0,0);var vLastOffset: vec2f= vec2f(0,0);var lastSampledHeight: f32=1.0;var currSampledHeight: f32=1.0;var keepWorking: bool=true;for (var i: i32=0; i<iMaxSamples; i++)
+{currSampledHeight=textureSample(bumpSampler,bumpSamplerSampler,texCoord+vCurrOffset).w;if (!keepWorking)
+{}
+else if (currSampledHeight>currRayHeight)
+{var delta1: f32=currSampledHeight-currRayHeight;var delta2: f32=(currRayHeight+stepSize)-lastSampledHeight;var ratio: f32=delta1/(delta1+delta2);vCurrOffset=(ratio)* vLastOffset+(1.0-ratio)*vCurrOffset;keepWorking=false;}
+else
+{currRayHeight-=stepSize;vLastOffset=vCurrOffset;
+#ifdef PARALLAX_RHS
+vCurrOffset-=stepSize*vMaxOffset;
+#else
+vCurrOffset+=stepSize*vMaxOffset;
+#endif
+lastSampledHeight=currSampledHeight;}}
+return vCurrOffset;}
+fn parallaxOffset(viewDir: vec3f,heightScale: f32)->vec2f
+{var height: f32=textureSample(bumpSampler,bumpSamplerSampler,fragmentInputs.vBumpUV).w;var texCoordOffset: vec2f=heightScale*viewDir.xy*height;
+#ifdef PARALLAX_RHS
+return texCoordOffset;
+#else
+return -texCoordOffset;
+#endif
+}
+#endif
+`;e.IncludesShadersStoreWGSL[c]||(e.IncludesShadersStoreWGSL[c]=A);const h="bumpFragment",y=`var uvOffset: vec2f= vec2f(0.0,0.0);
+#if defined(BUMP) || defined(PARALLAX) || defined(DETAIL)
+#ifdef NORMALXYSCALE
+var normalScale: f32=1.0;
+#elif defined(BUMP)
+var normalScale: f32=uniforms.vBumpInfos.y;
+#else
+var normalScale: f32=1.0;
+#endif
+#if defined(TANGENT) && defined(NORMAL)
+var TBN: mat3x3f=mat3x3<f32>(input.vTBN0,input.vTBN1,input.vTBN2); 
+#elif defined(BUMP)
+var TBNUV: vec2f=select(-fragmentInputs.vBumpUV,fragmentInputs.vBumpUV,fragmentInputs.frontFacing);var TBN: mat3x3f=cotangent_frame(normalW*normalScale,input.vPositionW,TBNUV,uniforms.vTangentSpaceParams);
+#else
+var TBNUV: vec2f=select(-fragmentInputs.vDetailUV,fragmentInputs.vDetailUV,fragmentInputs.frontFacing);var TBN: mat3x3f=cotangent_frame(normalW*normalScale,input.vPositionW,TBNUV, vec2f(1.,1.));
+#endif
+#elif defined(ANISOTROPIC)
+#if defined(TANGENT) && defined(NORMAL)
+var TBN: mat3x3f=mat3x3<f32>(input.vTBN0,input.vTBN1,input.vTBN2); 
+#else
+var TBNUV: vec2f=select( -fragmentInputs.vMainUV1,fragmentInputs.vMainUV1,fragmentInputs.frontFacing);var TBN: mat3x3f=cotangent_frame(normalW,input.vPositionW,TBNUV, vec2f(1.,1.));
+#endif
+#endif
+#ifdef PARALLAX
+var invTBN: mat3x3f=transposeMat3(TBN);
+#ifdef PARALLAXOCCLUSION
+uvOffset=parallaxOcclusion(invTBN*-viewDirectionW,invTBN*normalW,fragmentInputs.vBumpUV,uniforms.vBumpInfos.z);
+#else
+uvOffset=parallaxOffset(invTBN*viewDirectionW,uniforms.vBumpInfos.z);
+#endif
+#endif
+#ifdef DETAIL
+var detailColor: vec4f=textureSample(detailSampler,detailSamplerSampler,fragmentInputs.vDetailUV+uvOffset);var detailNormalRG: vec2f=detailColor.wy*2.0-1.0;var detailNormalB: f32=sqrt(1.-saturate(dot(detailNormalRG,detailNormalRG)));var detailNormal: vec3f= vec3f(detailNormalRG,detailNormalB);
+#endif
+#ifdef BUMP
+#ifdef OBJECTSPACE_NORMALMAP
+#define CUSTOM_FRAGMENT_BUMP_FRAGMENT
+normalW=normalize(textureSample(bumpSampler,bumpSamplerSampler,fragmentInputs.vBumpUV).xyz *2.0-1.0);normalW=normalize(mat3x3f(uniforms.normalMatrix[0].xyz,uniforms.normalMatrix[1].xyz,uniforms.normalMatrix[2].xyz)*normalW);
+#elif !defined(DETAIL)
+normalW=perturbNormal(TBN,textureSample(bumpSampler,bumpSamplerSampler,fragmentInputs.vBumpUV+uvOffset).xyz,uniforms.vBumpInfos.y);
+#else
+var bumpNormal: vec3f=textureSample(bumpSampler,bumpSamplerSampler,fragmentInputs.vBumpUV+uvOffset).xyz*2.0-1.0;
+#if DETAIL_NORMALBLENDMETHOD==0 
+detailNormal=vec3f(detailNormal.xy*uniforms.vDetailInfos.z,detailNormal.z);var blendedNormal: vec3f=normalize( vec3f(bumpNormal.xy+detailNormal.xy,bumpNormal.z*detailNormal.z));
+#elif DETAIL_NORMALBLENDMETHOD==1 
+detailNormal=vec3f(detailNormal.xy*uniforms.vDetailInfos.z,detailNormal.z);bumpNormal+= vec3f(0.0,0.0,1.0);detailNormal*= vec3f(-1.0,-1.0,1.0);var blendedNormal: vec3f=bumpNormal*dot(bumpNormal,detailNormal)/bumpNormal.z-detailNormal;
+#endif
+normalW=perturbNormalBase(TBN,blendedNormal,uniforms.vBumpInfos.y);
+#endif
+#elif defined(DETAIL)
+detailNormal=vec3f(detailNormal.xy*uniforms.vDetailInfos.z,detailNormal.z);normalW=perturbNormalBase(TBN,detailNormal,uniforms.vDetailInfos.z);
+#endif
+`;e.IncludesShadersStoreWGSL[h]||(e.IncludesShadersStoreWGSL[h]=y);const u="decalFragment",M=`#ifdef DECAL
+var decalTempColor=decalColor.rgb;var decalTempAlpha=decalColor.a;
+#ifdef GAMMADECAL
+decalTempColor=toLinearSpaceVec3(decalColor.rgb);
+#endif
+#ifdef DECAL_SMOOTHALPHA
+decalTempAlpha=decalColor.a*decalColor.a;
+#endif
+surfaceAlbedo=mix(surfaceAlbedo.rgb,decalTempColor,decalTempAlpha);
+#endif
+`;e.IncludesShadersStoreWGSL[u]||(e.IncludesShadersStoreWGSL[u]=M);const p="depthPrePass",F=`#ifdef DEPTHPREPASS
+fragmentOutputs.color= vec4f(0.,0.,0.,1.0);return fragmentOutputs;
+#endif
+`;e.IncludesShadersStoreWGSL[p]||(e.IncludesShadersStoreWGSL[p]=F);const m="lightFragment",_=`#ifdef LIGHT{X}
+#if defined(SHADOWONLY) || defined(LIGHTMAP) && defined(LIGHTMAPEXCLUDED{X}) && defined(LIGHTMAPNOSPECULAR{X})
+#else
+var diffuse{X}: vec4f=light{X}.vLightDiffuse;
+#define CUSTOM_LIGHT{X}_COLOR 
+#if defined(PBR) && defined(CLUSTLIGHT{X})
+{let sliceIndex=min(getClusteredSliceIndex(light{X}.vSliceData,fragmentInputs.vViewDepth),CLUSTLIGHT_SLICES-1);info=computeClusteredLighting(
+lightDataTexture{X},
+&tileMaskBuffer{X},
+light{X}.vLightData,
+vec2u(light{X}.vSliceRanges[sliceIndex].xy),
+viewDirectionW,
+normalW,
+fragmentInputs.vPositionW,
+surfaceAlbedo,
+reflectivityOut,
+#ifdef IRIDESCENCE
+iridescenceIntensity,
+#endif
+#ifdef SS_TRANSLUCENCY
+subSurfaceOut,
+#endif
+#ifdef SPECULARTERM
+AARoughnessFactors.x,
+#endif
+#ifdef ANISOTROPIC
+anisotropicOut,
+#endif
+#ifdef SHEEN
+sheenOut,
+#endif
+#ifdef CLEARCOAT
+clearcoatOut,
+#endif
+);}
+#elif defined(PBR)
+#ifdef SPOTLIGHT{X}
+preInfo=computePointAndSpotPreLightingInfo(light{X}.vLightData,viewDirectionW,normalW,fragmentInputs.vPositionW);
+#elif defined(POINTLIGHT{X})
+preInfo=computePointAndSpotPreLightingInfo(light{X}.vLightData,viewDirectionW,normalW,fragmentInputs.vPositionW);
+#elif defined(HEMILIGHT{X})
+preInfo=computeHemisphericPreLightingInfo(light{X}.vLightData,viewDirectionW,normalW);
+#elif defined(DIRLIGHT{X})
+preInfo=computeDirectionalPreLightingInfo(light{X}.vLightData,viewDirectionW,normalW);
+#elif defined(AREALIGHT{X}) && defined(AREALIGHTSUPPORTED)
+preInfo=computeAreaPreLightingInfo(areaLightsLTC1Sampler,areaLightsLTC1SamplerSampler,areaLightsLTC2Sampler,areaLightsLTC2SamplerSampler,viewDirectionW,normalW,fragmentInputs.vPositionW,light{X}.vLightData.xyz,light{X}.vLightWidth.xyz,light{X}.vLightHeight.xyz,roughness);
+#endif
+preInfo.NdotV=NdotV;
+#ifdef SPOTLIGHT{X}
+#ifdef LIGHT_FALLOFF_GLTF{X}
+preInfo.attenuation=computeDistanceLightFalloff_GLTF(preInfo.lightDistanceSquared,light{X}.vLightFalloff.y);
+#ifdef IESLIGHTTEXTURE{X}
+preInfo.attenuation*=computeDirectionalLightFalloff_IES(light{X}.vLightDirection.xyz,preInfo.L,iesLightTexture{X},iesLightTexture{X}Sampler);
+#else
+preInfo.attenuation*=computeDirectionalLightFalloff_GLTF(light{X}.vLightDirection.xyz,preInfo.L,light{X}.vLightFalloff.z,light{X}.vLightFalloff.w);
+#endif
+#elif defined(LIGHT_FALLOFF_PHYSICAL{X})
+preInfo.attenuation=computeDistanceLightFalloff_Physical(preInfo.lightDistanceSquared);
+#ifdef IESLIGHTTEXTURE{X}
+preInfo.attenuation*=computeDirectionalLightFalloff_IES(light{X}.vLightDirection.xyz,preInfo.L,iesLightTexture{X},iesLightTexture{X}Sampler);
+#else
+preInfo.attenuation*=computeDirectionalLightFalloff_Physical(light{X}.vLightDirection.xyz,preInfo.L,light{X}.vLightDirection.w);
+#endif
+#elif defined(LIGHT_FALLOFF_STANDARD{X})
+preInfo.attenuation=computeDistanceLightFalloff_Standard(preInfo.lightOffset,light{X}.vLightFalloff.x);
+#ifdef IESLIGHTTEXTURE{X}
+preInfo.attenuation*=computeDirectionalLightFalloff_IES(light{X}.vLightDirection.xyz,preInfo.L,iesLightTexture{X},iesLightTexture{X}Sampler);
+#else
+preInfo.attenuation*=computeDirectionalLightFalloff_Standard(light{X}.vLightDirection.xyz,preInfo.L,light{X}.vLightDirection.w,light{X}.vLightData.w);
+#endif
+#else
+preInfo.attenuation=computeDistanceLightFalloff(preInfo.lightOffset,preInfo.lightDistanceSquared,light{X}.vLightFalloff.x,light{X}.vLightFalloff.y);
+#ifdef IESLIGHTTEXTURE{X}
+preInfo.attenuation*=computeDirectionalLightFalloff_IES(light{X}.vLightDirection.xyz,preInfo.L,iesLightTexture{X},iesLightTexture{X}Sampler);
+#else
+preInfo.attenuation*=computeDirectionalLightFalloff(light{X}.vLightDirection.xyz,preInfo.L,light{X}.vLightDirection.w,light{X}.vLightData.w,light{X}.vLightFalloff.z,light{X}.vLightFalloff.w);
+#endif
+#endif
+#elif defined(POINTLIGHT{X})
+#ifdef LIGHT_FALLOFF_GLTF{X}
+preInfo.attenuation=computeDistanceLightFalloff_GLTF(preInfo.lightDistanceSquared,light{X}.vLightFalloff.y);
+#elif defined(LIGHT_FALLOFF_PHYSICAL{X})
+preInfo.attenuation=computeDistanceLightFalloff_Physical(preInfo.lightDistanceSquared);
+#elif defined(LIGHT_FALLOFF_STANDARD{X})
+preInfo.attenuation=computeDistanceLightFalloff_Standard(preInfo.lightOffset,light{X}.vLightFalloff.x);
+#else
+preInfo.attenuation=computeDistanceLightFalloff(preInfo.lightOffset,preInfo.lightDistanceSquared,light{X}.vLightFalloff.x,light{X}.vLightFalloff.y);
+#endif
+#else
+preInfo.attenuation=1.0;
+#endif
+#if defined(HEMILIGHT{X}) || defined(AREALIGHT{X})
+preInfo.roughness=roughness;
+#else
+preInfo.roughness=adjustRoughnessFromLightProperties(roughness,light{X}.vLightSpecular.a,preInfo.lightDistance);
+#endif
+preInfo.diffuseRoughness=diffuseRoughness;preInfo.surfaceAlbedo=surfaceAlbedo;
+#ifdef IRIDESCENCE
+preInfo.iridescenceIntensity=iridescenceIntensity;
+#endif
+#ifdef SS_TRANSLUCENCY
+info.diffuseTransmission=vec3f(0.0);
+#endif
+#ifdef HEMILIGHT{X}
+info.diffuse=computeHemisphericDiffuseLighting(preInfo,diffuse{X}.rgb,light{X}.vLightGround);
+#elif defined(AREALIGHT{X})
+info.diffuse=computeAreaDiffuseLighting(preInfo,diffuse{X}.rgb);
+#elif defined(SS_TRANSLUCENCY)
+#ifndef SS_TRANSLUCENCY_LEGACY
+info.diffuse=computeDiffuseLighting(preInfo,diffuse{X}.rgb)*(1.0-subSurfaceOut.translucencyIntensity);info.diffuseTransmission=computeDiffuseTransmittedLighting(preInfo,diffuse{X}.rgb,subSurfaceOut.transmittance); 
+#else
+info.diffuse=computeDiffuseTransmittedLighting(preInfo,diffuse{X}.rgb,subSurfaceOut.transmittance);
+#endif
+#else
+info.diffuse=computeDiffuseLighting(preInfo,diffuse{X}.rgb);
+#endif
+#ifdef SPECULARTERM
+#if AREALIGHT{X}
+info.specular=computeAreaSpecularLighting(preInfo,light{X}.vLightSpecular.rgb,clearcoatOut.specularEnvironmentR0,reflectivityOut.colorReflectanceF90);
+#else
+#if (CONDUCTOR_SPECULAR_MODEL==CONDUCTOR_SPECULAR_MODEL_OPENPBR)
+{let metalFresnel: vec3f=vec3f(reflectivityOut.specularWeight)*getF82Specular(preInfo.VdotH,clearcoatOut.specularEnvironmentR0,reflectivityOut.colorReflectanceF90,reflectivityOut.roughness);let dielectricFresnel: vec3f=fresnelSchlickGGXVec3(preInfo.VdotH,reflectivityOut.dielectricColorF0,reflectivityOut.colorReflectanceF90);coloredFresnel=mix(dielectricFresnel,metalFresnel,reflectivityOut.metallic);}
+#else
+coloredFresnel=fresnelSchlickGGXVec3(preInfo.VdotH,clearcoatOut.specularEnvironmentR0,reflectivityOut.colorReflectanceF90);
+#endif
+#ifndef LEGACY_SPECULAR_ENERGY_CONSERVATION
+{let NdotH: f32=dot(normalW,preInfo.H);let fresnel: vec3f=fresnelSchlickGGXVec3(NdotH,vec3f(reflectanceF0),specularEnvironmentR90);info.diffuse*=(vec3f(1.0)-fresnel);}
+#endif
+#ifdef ANISOTROPIC
+info.specular=computeAnisotropicSpecularLighting(preInfo,viewDirectionW,normalW,anisotropicOut.anisotropicTangent,anisotropicOut.anisotropicBitangent,anisotropicOut.anisotropy,clearcoatOut.specularEnvironmentR0,specularEnvironmentR90,AARoughnessFactors.x,diffuse{X}.rgb);
+#else
+info.specular=computeSpecularLighting(preInfo,normalW,clearcoatOut.specularEnvironmentR0,coloredFresnel,AARoughnessFactors.x,diffuse{X}.rgb);
+#endif
+#endif
+#endif
+#ifndef AREALIGHT{X}
+#ifdef SHEEN
+#ifdef SHEEN_LINKWITHALBEDO
+preInfo.roughness=sheenOut.sheenIntensity;
+#else
+#ifdef HEMILIGHT{X}
+preInfo.roughness=sheenOut.sheenRoughness;
+#else
+preInfo.roughness=adjustRoughnessFromLightProperties(sheenOut.sheenRoughness,light{X}.vLightSpecular.a,preInfo.lightDistance);
+#endif
+#endif
+info.sheen=computeSheenLighting(preInfo,normalW,sheenOut.sheenColor,specularEnvironmentR90,AARoughnessFactors.x,diffuse{X}.rgb);
+#endif
+#ifdef CLEARCOAT
+#ifdef HEMILIGHT{X}
+preInfo.roughness=clearcoatOut.clearCoatRoughness;
+#else
+preInfo.roughness=adjustRoughnessFromLightProperties(clearcoatOut.clearCoatRoughness,light{X}.vLightSpecular.a,preInfo.lightDistance);
+#endif
+info.clearCoat=computeClearCoatLighting(preInfo,clearcoatOut.clearCoatNormalW,clearcoatOut.clearCoatAARoughnessFactors.x,clearcoatOut.clearCoatIntensity,diffuse{X}.rgb);
+#ifdef CLEARCOAT_TINT
+absorption=computeClearCoatLightingAbsorption(clearcoatOut.clearCoatNdotVRefract,preInfo.L,clearcoatOut.clearCoatNormalW,clearcoatOut.clearCoatColor,clearcoatOut.clearCoatThickness,clearcoatOut.clearCoatIntensity);info.diffuse*=absorption;
+#ifdef SS_TRANSLUCENCY
+info.diffuseTransmission*=absorption;
+#endif
+#ifdef SPECULARTERM
+info.specular*=absorption;
+#endif
+#endif
+info.diffuse*=info.clearCoat.w;
+#ifdef SS_TRANSLUCENCY
+info.diffuseTransmission*=info.clearCoat.w;
+#endif
+#ifdef SPECULARTERM
+info.specular*=info.clearCoat.w;
+#endif
+#ifdef SHEEN
+info.sheen*=info.clearCoat.w;
+#endif
+#endif
+#endif
+#else
+#ifdef SPOTLIGHT{X}
+#ifdef IESLIGHTTEXTURE{X}
+info=computeIESSpotLighting(viewDirectionW,normalW,light{X}.vLightData,light{X}.vLightDirection,diffuse{X}.rgb,light{X}.vLightSpecular.rgb,diffuse{X}.a,glossiness,iesLightTexture{X},iesLightTexture{X}Sampler);
+#else
+info=computeSpotLighting(viewDirectionW,normalW,light{X}.vLightData,light{X}.vLightDirection,diffuse{X}.rgb,light{X}.vLightSpecular.rgb,diffuse{X}.a,glossiness);
+#endif
+#elif defined(HEMILIGHT{X})
+info=computeHemisphericLighting(viewDirectionW,normalW,light{X}.vLightData,diffuse{X}.rgb,light{X}.vLightSpecular.rgb,light{X}.vLightGround,glossiness);
+#elif defined(POINTLIGHT{X}) || defined(DIRLIGHT{X})
+info=computeLighting(viewDirectionW,normalW,light{X}.vLightData,diffuse{X}.rgb,light{X}.vLightSpecular.rgb,diffuse{X}.a,glossiness);
+#elif define(AREALIGHT{X}) && defined(AREALIGHTSUPPORTED)
+info=computeAreaLighting(areaLightsLTC1Sampler,areaLightsLTC1SamplerSampler,areaLightsLTC2Sampler,areaLightsLTC2SamplerSampler,viewDirectionW,normalW,fragmentInputs.vPositionW,light{X}.vLightData.xyz,light{X}.vLightWidth.xyz,light{X}.vLightHeight.xyz,diffuse{X}.rgb,light{X}.vLightSpecular.rgb,
+#ifdef AREALIGHTNOROUGHTNESS
+0.5
+#else
+uniforms.vReflectionInfos.y
+#endif
+);
+#elif defined(CLUSTLIGHT{X})
+{let sliceIndex=min(getClusteredSliceIndex(light{X}.vSliceData,fragmentInputs.vViewDepth),CLUSTLIGHT_SLICES-1);info=computeClusteredLighting(lightDataTexture{X}

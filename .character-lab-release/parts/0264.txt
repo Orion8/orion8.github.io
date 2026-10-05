@@ -1,0 +1,520 @@
+arams anisotropicOut,
+#endif
+#ifdef REFLECTIONMAP_3D
+out vec3 reflectionCoords
+#else
+out vec2 reflectionCoords
+#endif
+)
+{
+#ifdef ANISOTROPIC
+vec3 reflectionVector=computeReflectionCoords(vec4(vPositionW,1.0),anisotropicOut.anisotropicNormal);
+#else
+vec3 reflectionVector=computeReflectionCoords(vec4(vPositionW,1.0),normalW);
+#endif
+#ifdef REFLECTIONMAP_OPPOSITEZ
+reflectionVector.z*=-1.0;
+#endif
+#ifdef REFLECTIONMAP_3D
+reflectionCoords=reflectionVector;
+#else
+reflectionCoords=reflectionVector.xy;
+#ifdef REFLECTIONMAP_PROJECTION
+reflectionCoords/=reflectionVector.z;
+#endif
+reflectionCoords.y=1.0-reflectionCoords.y;
+#endif
+}
+#define pbr_inline
+#define inline
+void sampleReflectionTexture(
+in float alphaG,
+in vec3 vReflectionMicrosurfaceInfos,
+in vec2 vReflectionInfos,
+in vec3 vReflectionColor,
+#if defined(LODINREFLECTIONALPHA) && !defined(REFLECTIONMAP_SKYBOX)
+in float NdotVUnclamped,
+#endif
+#ifdef LINEARSPECULARREFLECTION
+in float roughness,
+#endif
+#ifdef REFLECTIONMAP_3D
+in samplerCube reflectionSampler,
+const vec3 reflectionCoords,
+#else
+in sampler2D reflectionSampler,
+const vec2 reflectionCoords,
+#endif
+#ifndef LODBASEDMICROSFURACE
+#ifdef REFLECTIONMAP_3D
+in samplerCube reflectionSamplerLow,
+in samplerCube reflectionSamplerHigh,
+#else
+in sampler2D reflectionSamplerLow,
+in sampler2D reflectionSamplerHigh,
+#endif
+#endif
+#ifdef REALTIME_FILTERING
+in vec2 vReflectionFilteringInfo,
+#endif
+out vec4 environmentRadiance
+)
+{
+#if defined(LODINREFLECTIONALPHA) && !defined(REFLECTIONMAP_SKYBOX)
+float reflectionLOD=getLodFromAlphaG(vReflectionMicrosurfaceInfos.x,alphaG,NdotVUnclamped);
+#elif defined(LINEARSPECULARREFLECTION)
+float reflectionLOD=getLinearLodFromRoughness(vReflectionMicrosurfaceInfos.x,roughness);
+#else
+float reflectionLOD=getLodFromAlphaG(vReflectionMicrosurfaceInfos.x,alphaG);
+#endif
+#ifdef LODBASEDMICROSFURACE
+reflectionLOD=reflectionLOD*vReflectionMicrosurfaceInfos.y+vReflectionMicrosurfaceInfos.z;
+#ifdef LODINREFLECTIONALPHA
+float automaticReflectionLOD=UNPACK_LOD(sampleReflection(reflectionSampler,reflectionCoords).a);float requestedReflectionLOD=max(automaticReflectionLOD,reflectionLOD);
+#else
+float requestedReflectionLOD=reflectionLOD;
+#endif
+#ifdef REALTIME_FILTERING
+environmentRadiance=vec4(radiance(alphaG,reflectionSampler,reflectionCoords,vReflectionFilteringInfo),1.0);
+#else
+environmentRadiance=sampleReflectionLod(reflectionSampler,reflectionCoords,reflectionLOD);
+#endif
+#else
+float lodReflectionNormalized=saturate(reflectionLOD/log2(vReflectionMicrosurfaceInfos.x));float lodReflectionNormalizedDoubled=lodReflectionNormalized*2.0;vec4 environmentMid=sampleReflection(reflectionSampler,reflectionCoords);if (lodReflectionNormalizedDoubled<1.0){environmentRadiance=mix(
+sampleReflection(reflectionSamplerHigh,reflectionCoords),
+environmentMid,
+lodReflectionNormalizedDoubled
+);} else {environmentRadiance=mix(
+environmentMid,
+sampleReflection(reflectionSamplerLow,reflectionCoords),
+lodReflectionNormalizedDoubled-1.0
+);}
+#endif
+#ifdef RGBDREFLECTION
+environmentRadiance.rgb=fromRGBD(environmentRadiance);
+#endif
+#ifdef GAMMAREFLECTION
+environmentRadiance.rgb=toLinearSpace(environmentRadiance.rgb);
+#endif
+environmentRadiance.rgb*=vReflectionInfos.x;environmentRadiance.rgb*=vReflectionColor.rgb;}
+#define pbr_inline
+#define inline
+reflectionOutParams reflectionBlock(
+in vec3 vPositionW
+,in vec3 normalW
+,in float alphaG
+,in vec3 vReflectionMicrosurfaceInfos
+,in vec2 vReflectionInfos
+,in vec3 vReflectionColor
+#ifdef ANISOTROPIC
+,in anisotropicOutParams anisotropicOut
+#endif
+#if defined(LODINREFLECTIONALPHA) && !defined(REFLECTIONMAP_SKYBOX)
+,in float NdotVUnclamped
+#endif
+#ifdef LINEARSPECULARREFLECTION
+,in float roughness
+#endif
+#ifdef REFLECTIONMAP_3D
+,in samplerCube reflectionSampler
+#else
+,in sampler2D reflectionSampler
+#endif
+#if defined(NORMAL) && defined(USESPHERICALINVERTEX)
+,in vec3 vEnvironmentIrradiance
+#endif
+#if (defined(USESPHERICALFROMREFLECTIONMAP) && (!defined(NORMAL) || !defined(USESPHERICALINVERTEX))) || (defined(USEIRRADIANCEMAP) && defined(REFLECTIONMAP_3D))
+,in mat4 reflectionMatrix
+#endif
+#ifdef USEIRRADIANCEMAP
+#ifdef REFLECTIONMAP_3D
+,in samplerCube irradianceSampler
+#else
+,in sampler2D irradianceSampler
+#endif
+#ifdef USE_IRRADIANCE_DOMINANT_DIRECTION
+,in vec3 reflectionDominantDirection
+#endif
+#endif
+#ifndef LODBASEDMICROSFURACE
+#ifdef REFLECTIONMAP_3D
+,in samplerCube reflectionSamplerLow
+,in samplerCube reflectionSamplerHigh
+#else
+,in sampler2D reflectionSamplerLow
+,in sampler2D reflectionSamplerHigh
+#endif
+#endif
+#ifdef REALTIME_FILTERING
+,in vec2 vReflectionFilteringInfo
+#ifdef IBL_CDF_FILTERING
+,in sampler2D icdfSampler
+#endif
+#endif
+,in vec3 viewDirectionW
+,in float diffuseRoughness
+,in vec3 surfaceAlbedo
+)
+{reflectionOutParams outParams;vec4 environmentRadiance=vec4(0.,0.,0.,0.);
+#ifdef REFLECTIONMAP_3D
+vec3 reflectionCoords=vec3(0.);
+#else
+vec2 reflectionCoords=vec2(0.);
+#endif
+createReflectionCoords(
+vPositionW,
+normalW,
+#ifdef ANISOTROPIC
+anisotropicOut,
+#endif
+reflectionCoords
+);sampleReflectionTexture(
+alphaG,
+vReflectionMicrosurfaceInfos,
+vReflectionInfos,
+vReflectionColor,
+#if defined(LODINREFLECTIONALPHA) && !defined(REFLECTIONMAP_SKYBOX)
+NdotVUnclamped,
+#endif
+#ifdef LINEARSPECULARREFLECTION
+roughness,
+#endif
+#ifdef REFLECTIONMAP_3D
+reflectionSampler,
+reflectionCoords,
+#else
+reflectionSampler,
+reflectionCoords,
+#endif
+#ifndef LODBASEDMICROSFURACE
+reflectionSamplerLow,
+reflectionSamplerHigh,
+#endif
+#ifdef REALTIME_FILTERING
+vReflectionFilteringInfo,
+#endif
+environmentRadiance
+);vec3 environmentIrradiance=vec3(0.,0.,0.);
+#if (defined(USESPHERICALFROMREFLECTIONMAP) && (!defined(NORMAL) || !defined(USESPHERICALINVERTEX))) || (defined(USEIRRADIANCEMAP) && defined(REFLECTIONMAP_3D))
+#ifdef ANISOTROPIC
+vec3 irradianceVector=vec3(reflectionMatrix*vec4(anisotropicOut.anisotropicNormal,0)).xyz;
+#else
+vec3 irradianceVector=vec3(reflectionMatrix*vec4(normalW,0)).xyz;
+#endif
+vec3 irradianceView=vec3(reflectionMatrix*vec4(viewDirectionW,0)).xyz;
+#if !defined(USE_IRRADIANCE_DOMINANT_DIRECTION) && !defined(REALTIME_FILTERING)
+#if BASE_DIFFUSE_MODEL != BRDF_DIFFUSE_MODEL_LAMBERT && BASE_DIFFUSE_MODEL != BRDF_DIFFUSE_MODEL_LEGACY
+float NdotV=max(dot(normalW,viewDirectionW),0.0);irradianceVector=mix(irradianceVector,irradianceView,(0.5*(1.0-NdotV))*diffuseRoughness);
+#endif
+#endif
+#ifdef REFLECTIONMAP_OPPOSITEZ
+irradianceVector.z*=-1.0;
+#endif
+#ifdef INVERTCUBICMAP
+irradianceVector.y*=-1.0;
+#endif
+#endif
+#ifdef USESPHERICALFROMREFLECTIONMAP
+#if defined(NORMAL) && defined(USESPHERICALINVERTEX)
+environmentIrradiance=vEnvironmentIrradiance;
+#else
+#if defined(REALTIME_FILTERING)
+environmentIrradiance=irradiance(reflectionSampler,irradianceVector,vReflectionFilteringInfo,diffuseRoughness,surfaceAlbedo,irradianceView
+#ifdef IBL_CDF_FILTERING
+,icdfSampler
+#endif
+);
+#else
+environmentIrradiance=computeEnvironmentIrradiance(irradianceVector);
+#endif
+#ifdef SS_TRANSLUCENCY
+outParams.irradianceVector=irradianceVector;
+#endif
+#endif
+#elif defined(USEIRRADIANCEMAP)
+#ifdef REFLECTIONMAP_3D
+vec4 environmentIrradiance4=sampleReflection(irradianceSampler,irradianceVector);
+#else
+vec4 environmentIrradiance4=sampleReflection(irradianceSampler,reflectionCoords);
+#endif
+environmentIrradiance=environmentIrradiance4.rgb;
+#ifdef RGBDREFLECTION
+environmentIrradiance.rgb=fromRGBD(environmentIrradiance4);
+#endif
+#ifdef GAMMAREFLECTION
+environmentIrradiance.rgb=toLinearSpace(environmentIrradiance.rgb);
+#endif
+#ifdef USE_IRRADIANCE_DOMINANT_DIRECTION
+vec3 Ls=normalize(reflectionDominantDirection);float NoL=dot(irradianceVector,Ls);float NoV=dot(irradianceVector,irradianceView);vec3 diffuseRoughnessTerm=vec3(1.0);
+#if BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_EON
+float LoV=dot (Ls,irradianceView);float mag=length(reflectionDominantDirection)*2.0;vec3 clampedAlbedo=clamp(surfaceAlbedo,vec3(0.1),vec3(1.0));diffuseRoughnessTerm=diffuseBRDF_EON(clampedAlbedo,diffuseRoughness,NoL,NoV,LoV)*PI;diffuseRoughnessTerm=diffuseRoughnessTerm/clampedAlbedo;diffuseRoughnessTerm=mix(vec3(1.0),diffuseRoughnessTerm,sqrt(clamp(mag*NoV,0.0,1.0)));
+#elif BASE_DIFFUSE_MODEL==BRDF_DIFFUSE_MODEL_BURLEY
+vec3 H=(irradianceView+Ls)*0.5;float VoH=dot(irradianceView,H);diffuseRoughnessTerm=vec3(diffuseBRDF_Burley(NoL,NoV,VoH,diffuseRoughness)*PI);
+#endif
+environmentIrradiance=environmentIrradiance.rgb*diffuseRoughnessTerm;
+#endif
+#endif
+environmentIrradiance*=vReflectionColor.rgb*vReflectionInfos.x;
+#ifdef MIX_IBL_RADIANCE_WITH_IRRADIANCE
+outParams.environmentRadiance=vec4(mix(environmentRadiance.rgb,environmentIrradiance,alphaG),environmentRadiance.a);
+#else
+outParams.environmentRadiance=environmentRadiance;
+#endif
+outParams.environmentIrradiance=environmentIrradiance;outParams.reflectionCoords=reflectionCoords;return outParams;}
+#endif
+`;e.IncludesShadersStore[I]||(e.IncludesShadersStore[I]=ne);const v="pbrBlockSheen",ae=`#ifdef SHEEN
+struct sheenOutParams
+{float sheenIntensity;vec3 sheenColor;float sheenRoughness;
+#ifdef SHEEN_LINKWITHALBEDO
+vec3 surfaceAlbedo;
+#endif
+#if defined(ENVIRONMENTBRDF) && defined(SHEEN_ALBEDOSCALING)
+float sheenAlbedoScaling;
+#endif
+#if defined(REFLECTION) && defined(ENVIRONMENTBRDF)
+vec3 finalSheenRadianceScaled;
+#endif
+#if DEBUGMODE>0
+#ifdef SHEEN_TEXTURE
+vec4 sheenMapData;
+#endif
+#if defined(REFLECTION) && defined(ENVIRONMENTBRDF)
+vec3 sheenEnvironmentReflectance;
+#endif
+#endif
+};
+#define pbr_inline
+#define inline
+sheenOutParams sheenBlock(
+in vec4 vSheenColor
+#ifdef SHEEN_ROUGHNESS
+,in float vSheenRoughness
+#if defined(SHEEN_TEXTURE_ROUGHNESS) && !defined(SHEEN_USE_ROUGHNESS_FROM_MAINTEXTURE)
+,in vec4 sheenMapRoughnessData
+#endif
+#endif
+,in float roughness
+#ifdef SHEEN_TEXTURE
+,in vec4 sheenMapData
+,in float sheenMapLevel
+#endif
+,in float reflectance
+#ifdef SHEEN_LINKWITHALBEDO
+,in vec3 baseColor
+,in vec3 surfaceAlbedo
+#endif
+#ifdef ENVIRONMENTBRDF
+,in float NdotV
+,in vec3 environmentBrdf
+#endif
+#if defined(REFLECTION) && defined(ENVIRONMENTBRDF)
+,in vec2 AARoughnessFactors
+,in vec3 vReflectionMicrosurfaceInfos
+,in vec2 vReflectionInfos
+,in vec3 vReflectionColor
+,in vec4 vLightingIntensity
+#ifdef REFLECTIONMAP_3D
+,in samplerCube reflectionSampler
+,in vec3 reflectionCoords
+#else
+,in sampler2D reflectionSampler
+,in vec2 reflectionCoords
+#endif
+,in float NdotVUnclamped
+#ifndef LODBASEDMICROSFURACE
+#ifdef REFLECTIONMAP_3D
+,in samplerCube reflectionSamplerLow
+,in samplerCube reflectionSamplerHigh
+#else
+,in sampler2D reflectionSamplerLow
+,in sampler2D reflectionSamplerHigh
+#endif
+#endif
+#ifdef REALTIME_FILTERING
+,in vec2 vReflectionFilteringInfo
+#endif
+#if !defined(REFLECTIONMAP_SKYBOX) && defined(RADIANCEOCCLUSION)
+,in float seo
+#endif
+#if !defined(REFLECTIONMAP_SKYBOX) && defined(HORIZONOCCLUSION) && defined(BUMP) && defined(REFLECTIONMAP_3D)
+,in float eho
+#endif
+#endif
+)
+{sheenOutParams outParams;float sheenIntensity=vSheenColor.a;
+#ifdef SHEEN_TEXTURE
+#if DEBUGMODE>0
+outParams.sheenMapData=sheenMapData;
+#endif
+#endif
+#ifdef SHEEN_LINKWITHALBEDO
+float sheenFactor=pow5(1.0-sheenIntensity);vec3 sheenColor=baseColor.rgb*(1.0-sheenFactor);float sheenRoughness=sheenIntensity;outParams.surfaceAlbedo=surfaceAlbedo*sheenFactor;
+#ifdef SHEEN_TEXTURE
+sheenIntensity*=sheenMapData.a;
+#endif
+#else
+vec3 sheenColor=vSheenColor.rgb;
+#ifdef SHEEN_TEXTURE
+#ifdef SHEEN_GAMMATEXTURE
+sheenColor.rgb*=toLinearSpace(sheenMapData.rgb);
+#else
+sheenColor.rgb*=sheenMapData.rgb;
+#endif
+sheenColor.rgb*=sheenMapLevel;
+#endif
+#ifdef SHEEN_ROUGHNESS
+float sheenRoughness=vSheenRoughness;
+#ifdef SHEEN_USE_ROUGHNESS_FROM_MAINTEXTURE
+#if defined(SHEEN_TEXTURE)
+sheenRoughness*=sheenMapData.a;
+#endif
+#elif defined(SHEEN_TEXTURE_ROUGHNESS)
+sheenRoughness*=sheenMapRoughnessData.a;
+#endif
+#else
+float sheenRoughness=roughness;
+#ifdef SHEEN_TEXTURE
+sheenIntensity*=sheenMapData.a;
+#endif
+#endif
+#if !defined(SHEEN_ALBEDOSCALING)
+sheenIntensity*=(1.-reflectance);
+#endif
+sheenColor*=sheenIntensity;
+#endif
+#ifdef ENVIRONMENTBRDF
+/*#ifdef SHEEN_SOFTER
+vec3 environmentSheenBrdf=vec3(0.,0.,getBRDFLookupCharlieSheen(NdotV,sheenRoughness));
+#else*/
+#ifdef SHEEN_ROUGHNESS
+vec3 environmentSheenBrdf=getBRDFLookup(NdotV,sheenRoughness);
+#else
+vec3 environmentSheenBrdf=environmentBrdf;
+#endif
+/*#endif*/
+#endif
+#if defined(REFLECTION) && defined(ENVIRONMENTBRDF)
+float sheenAlphaG=convertRoughnessToAverageSlope(sheenRoughness);
+#ifdef SPECULARAA
+sheenAlphaG+=AARoughnessFactors.y;
+#endif
+vec4 environmentSheenRadiance=vec4(0.,0.,0.,0.);sampleReflectionTexture(
+sheenAlphaG,
+vReflectionMicrosurfaceInfos,
+vReflectionInfos,
+vReflectionColor,
+#if defined(LODINREFLECTIONALPHA) && !defined(REFLECTIONMAP_SKYBOX)
+NdotVUnclamped,
+#endif
+#ifdef LINEARSPECULARREFLECTION
+sheenRoughness,
+#endif
+reflectionSampler,
+reflectionCoords,
+#ifndef LODBASEDMICROSFURACE
+reflectionSamplerLow,
+reflectionSamplerHigh,
+#endif
+#ifdef REALTIME_FILTERING
+vReflectionFilteringInfo,
+#endif
+environmentSheenRadiance
+);vec3 sheenEnvironmentReflectance=getSheenReflectanceFromBRDFLookup(sheenColor,environmentSheenBrdf);
+#if !defined(REFLECTIONMAP_SKYBOX) && defined(RADIANCEOCCLUSION)
+sheenEnvironmentReflectance*=seo;
+#endif
+#if !defined(REFLECTIONMAP_SKYBOX) && defined(HORIZONOCCLUSION) && defined(BUMP) && defined(REFLECTIONMAP_3D)
+sheenEnvironmentReflectance*=eho;
+#endif
+#if DEBUGMODE>0
+outParams.sheenEnvironmentReflectance=sheenEnvironmentReflectance;
+#endif
+outParams.finalSheenRadianceScaled=
+environmentSheenRadiance.rgb *
+sheenEnvironmentReflectance *
+vLightingIntensity.z;
+#endif
+#if defined(ENVIRONMENTBRDF) && defined(SHEEN_ALBEDOSCALING)
+outParams.sheenAlbedoScaling=1.0-sheenIntensity*max(max(sheenColor.r,sheenColor.g),sheenColor.b)*environmentSheenBrdf.b;
+#endif
+outParams.sheenIntensity=sheenIntensity;outParams.sheenColor=sheenColor;outParams.sheenRoughness=sheenRoughness;return outParams;}
+#endif
+`;e.IncludesShadersStore[v]||(e.IncludesShadersStore[v]=ae);const N="pbrBlockClearcoat",oe=`struct clearcoatOutParams
+{vec3 specularEnvironmentR0;float conservationFactor;vec3 clearCoatNormalW;vec2 clearCoatAARoughnessFactors;float clearCoatIntensity;float clearCoatRoughness;
+#ifdef REFLECTION
+vec3 finalClearCoatRadianceScaled;
+#endif
+#ifdef CLEARCOAT_TINT
+vec3 absorption;float clearCoatNdotVRefract;vec3 clearCoatColor;float clearCoatThickness;
+#endif
+#if defined(ENVIRONMENTBRDF) && defined(MS_BRDF_ENERGY_CONSERVATION)
+vec3 energyConservationFactorClearCoat;
+#endif
+#if DEBUGMODE>0
+#ifdef CLEARCOAT_BUMP
+mat3 TBNClearCoat;
+#endif
+#ifdef CLEARCOAT_TEXTURE
+vec2 clearCoatMapData;
+#endif
+#if defined(CLEARCOAT_TINT) && defined(CLEARCOAT_TINT_TEXTURE)
+vec4 clearCoatTintMapData;
+#endif
+#ifdef REFLECTION
+vec4 environmentClearCoatRadiance;vec3 clearCoatEnvironmentReflectance;
+#endif
+float clearCoatNdotV;
+#endif
+};
+#ifdef CLEARCOAT
+#define pbr_inline
+#define inline
+clearcoatOutParams clearcoatBlock(
+in vec3 vPositionW
+,in vec3 geometricNormalW
+,in vec3 viewDirectionW
+,in vec2 vClearCoatParams
+#if defined(CLEARCOAT_TEXTURE_ROUGHNESS) && !defined(CLEARCOAT_TEXTURE_ROUGHNESS_IDENTICAL) && !defined(CLEARCOAT_USE_ROUGHNESS_FROM_MAINTEXTURE)
+,in vec4 clearCoatMapRoughnessData
+#endif
+,in vec3 specularEnvironmentR0
+#ifdef CLEARCOAT_TEXTURE
+,in vec2 clearCoatMapData
+#endif
+#ifdef CLEARCOAT_TINT
+,in vec4 vClearCoatTintParams
+,in float clearCoatColorAtDistance
+,in vec4 vClearCoatRefractionParams
+#ifdef CLEARCOAT_TINT_TEXTURE
+,in vec4 clearCoatTintMapData
+#endif
+#endif
+#ifdef CLEARCOAT_BUMP
+,in vec2 vClearCoatBumpInfos
+,in vec4 clearCoatBumpMapData
+,in vec2 vClearCoatBumpUV
+#if defined(TANGENT) && defined(NORMAL)
+,in mat3 vTBN
+#else
+,in vec2 vClearCoatTangentSpaceParams
+#endif
+#ifdef OBJECTSPACE_NORMALMAP
+,in mat4 normalMatrix
+#endif
+#endif
+#if defined(FORCENORMALFORWARD) && defined(NORMAL)
+,in vec3 faceNormal
+#endif
+#ifdef REFLECTION
+,in vec3 vReflectionMicrosurfaceInfos
+,in vec2 vReflectionInfos
+,in vec3 vReflectionColor
+,in vec4 vLightingIntensity
+#ifdef REFLECTIONMAP_3D
+,in samplerCube reflectionSampler
+#else
+,in sampler2D reflectionSampler
+#endif
+#ifndef LODBASEDMICROSFURACE
+#ifdef REFLECTIONMAP_3D
+,in samplerCube reflectio
