@@ -1,8 +1,153 @@
 {
-  "catalogVersion": "0.0.145",
-  "updatedAt": "2026-10-04T17:33:36.940Z",
+  "catalogVersion": "0.0.146",
+  "updatedAt": "2026-10-05T06:58:11.657Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-7a3a22543a1af81c30908e41",
+      "title": "BT, 브로드밴드 사업자 톡톡(TalkTalk) 인수 구조 합의",
+      "titleTranslations": {
+        "en": "BT agrees rescue deal to buy broadband operator TalkTalk"
+      },
+      "startAt": "2026-10-05T06:52:56.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC는 BT가 구제(구조) 합의를 통해 브로드밴드 사업자 톡톡을 인수하기로 합의했다고 보도했다. 인수는 규제당국의 승인을 받아야 하지만 톡톡의 수백만 고객에게 불확실성을 해소해줄 것이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports BT has agreed a rescue deal to buy broadband operator TalkTalk. The takeover still requires regulator approval but would provide certainty to TalkTalk’s millions of customers."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvze4g06526ro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cvze4g06526ro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-05T06:52:56.000Z",
+        "lastObservedAt": "2026-10-05T06:58:11.657Z"
+      }
+    },
+    {
+      "id": "news-ee9cfb9e6e636de26ebcc9fa",
+      "title": "트럼프, '슈퍼 인텔리전스 포스' 수장에 국가정보국장 지명",
+      "titleTranslations": {
+        "en": "Trump names national intelligence chief to head 'Super Intelligence Force'"
+      },
+      "startAt": "2026-10-05T06:15:29.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC는 대통령이 AI에 대한 우려가 커지는 가운데 새 태스크포스의 책임자로 국가정보국장을 지명했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports the president has named his national intelligence chief to lead a new taskforce amid growing concerns about AI."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory",
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+          "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-04T15:15:10.000Z",
+        "lastObservedAt": "2026-10-05T06:58:11.657Z"
+      }
+    },
+    {
+      "id": "news-beda29121c512ea5f7ddf5a8",
+      "title": "분쟁 속에서도 중동 원유 수출, 전쟁 전 수준 초과",
+      "titleTranslations": {
+        "en": "Middle East oil exports surpass pre‑war levels despite tensions"
+      },
+      "startAt": "2026-10-05T05:20:57.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도는 데이터가 중동의 원유 수출이 분쟁 이전 수준을 넘어섰음을 보여준다고 전했다. 기사는 IRGC 사령관의 발언(호르무즈의 미 관리 항로를 통한 유출은 '미미하다')도 전했다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports data showing Middle Eastern oil exports have exceeded pre‑war levels despite regional tensions. The article also cites an IRGC commander saying flows via the US‑supervised Hormuz route are 'negligible.'"
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-05T05:20:57.000Z",
+        "lastObservedAt": "2026-10-05T06:58:11.657Z"
+      }
+    },
+    {
+      "id": "news-1838985c2f6917589ffe921c",
+      "title": "고대 이집트 '시종 희생' 가설 지지하는 새로운 법의학 증거",
+      "titleTranslations": {
+        "en": "New forensic evidence supports Egyptian \"retainer sacrifice\""
+      },
+      "startAt": "2026-10-05T04:00:52.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica 보도는 초기 왕조(First Dynasty)의 집단 매장에 대한 신뢰분석에서 두개골의 약 39%에서 치명적 둔력 외상 징후가 발견돼 이른바 '시종 희생' 해석을 뒷받침한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports fresh forensic analysis of First Dynasty mass burials found signs of fatal blunt‑force trauma on about 39% of skulls, supporting interpretations of so‑called 'retainer sacrifice.'"
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/"
+        ],
+        "firstPublishedAt": "2026-10-05T04:00:52.000Z",
+        "lastObservedAt": "2026-10-05T06:58:11.657Z"
+      }
+    },
+    {
+      "id": "news-eeb360467eb306c7f47d4b3a",
+      "title": "인도, 중국산 수입 의존 심화 실태 보도",
+      "titleTranslations": {
+        "en": "How India became dangerously addicted to Chinese imports"
+      },
+      "startAt": "2026-10-05T01:42:11.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 비즈니스는 인도의 장난감 가게 등을 예로 들어 중국과의 경제관계에서 인도가 중국산 수입에 심각하게 의존하게 된 과정을 분석해 보도했다.",
+      "descriptionTranslations": {
+        "en": "BBC Business examines how India has become deeply dependent on Chinese imports, using toy shops as an unlikely barometer of the economic relationship."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5pve834grpno?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5pve834grpno?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-05T01:42:11.000Z",
+        "lastObservedAt": "2026-10-05T06:58:11.657Z"
+      }
+    },
     {
       "id": "news-2ebb5eac41a3dccaaa3da424",
       "title": "예멘 정부, 후티로부터 영토 회복 위해 전면전 선포",
@@ -85,35 +230,6 @@
           "https://www.bbc.co.uk/sport/snooker/articles/cq4g1l0gxl44o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-03T16:56:14.000Z",
-        "lastObservedAt": "2026-10-04T17:33:36.940Z"
-      }
-    },
-    {
-      "id": "news-ee9cfb9e6e636de26ebcc9fa",
-      "title": "트럼프, ‘슈퍼 인텔리전스 포스’ 신설 발표",
-      "titleTranslations": {
-        "en": "Trump unveils his new Super Intelligence Force"
-      },
-      "startAt": "2026-10-04T15:15:10.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "도널드 트럼프 전 대통령은 AI 안전 논쟁에 대한 대응으로 '슈퍼 인텔리전스 포스'라는 새로운 태스크포스를 발표했다.",
-      "descriptionTranslations": {
-        "en": "Former President Donald Trump unveiled a new 'Super Intelligence Force' as his latest response to the debate over AI safety."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/"
-        ],
-        "firstPublishedAt": "2026-10-04T15:15:10.000Z",
         "lastObservedAt": "2026-10-04T17:33:36.940Z"
       }
     },
@@ -693,34 +809,6 @@
       }
     },
     {
-      "id": "news-e90781a58b70bd0cd2e9fef2",
-      "title": "서울, 포로 논란에 대한 우크라이나 사과 요구…'추가 조치' 경고",
-      "titleTranslations": {
-        "en": "Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row"
-      },
-      "startAt": "2026-10-02T03:09:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "한국 대통령 이재명은 우크라이나가 포로 관련 문제에 대해 사과하지 않으면 '추가 조치'를 취하겠다고 경고하며, 보도에 따르면 우크라이나가 한반도 전쟁을 유도하려 시도하고 있다고 비판했다.",
-      "descriptionTranslations": {
-        "en": "BBC reports that South Korea's President Lee Jae Myung warned Ukraine it will take 'further action' if Kyiv does not apologise over a prisoner‑of‑war dispute, accusing Ukraine of attempting to provoke a war on the Korean Peninsula."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-02T03:09:13.000Z",
-        "lastObservedAt": "2026-10-02T06:58:56.747Z"
-      }
-    },
-    {
       "id": "news-cc08d45dc3873df6b2ba3c4d",
       "title": "영국 정신건강 병동 사망사건 조사 — 검시관, 향후 사망 위험 경고 및 절차상 문제 지적",
       "titleTranslations": {
@@ -861,35 +949,6 @@
         ],
         "firstPublishedAt": "2026-10-01T18:38:22.000Z",
         "lastObservedAt": "2026-10-01T18:50:56.038Z"
-      }
-    },
-    {
-      "id": "news-3df0942dcead660981619ffc",
-      "title": "브라질 검찰총장, 美 인권기금 배분 보도에 ‘외부 개입 용납 못해’ 경고",
-      "titleTranslations": {
-        "en": "Brazil attorney‑general says foreign meddling 'cannot be tolerated' after US funding report"
-      },
-      "startAt": "2026-10-01T18:34:10.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "호르헤 메시아스 브라질 검찰총장은 가디언 보도를 인용해 미국 행정부의 일부 인권기금 배분 관련 보도가 ‘브라질 주권에 대한 중요한 경고’라며 외부의 기관·민주제도 개입은 용납할 수 없다고 밝혔다. 발언은 브라질의 선거 과정을 앞두고 제기된 외부 압력·자금 운용 의혹을 배경으로 한다.",
-      "descriptionTranslations": {
-        "en": "Jorge Messias, Brazil's attorney‑general, described The Guardian's reporting on US allocations of human‑rights funds as 'an important alert for Brazilian sovereignty' and said foreign interference in the country’s institutions and democracy 'cannot be tolerated.' His remarks come amid allegations of external pressure and funding activity raised ahead of Brazil’s elections."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund",
-          "https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans"
-        ],
-        "firstPublishedAt": "2026-09-30T19:51:24.000Z",
-        "lastObservedAt": "2026-10-01T18:50:56.037Z"
       }
     },
     {
@@ -1347,36 +1406,6 @@
         ],
         "firstPublishedAt": "2026-09-30T12:00:43.000Z",
         "lastObservedAt": "2026-10-01T15:34:35.147Z"
-      }
-    },
-    {
-      "id": "news-686b46df29329966fbde195f",
-      "title": "클라우드플레어, 양자내성(quantum‑safe) TLS 인증서 발급 계획 발표",
-      "titleTranslations": {
-        "en": "Cloudflare plans to issue quantum‑safe TLS certificates"
-      },
-      "startAt": "2026-09-30T11:15:14.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아르스테크니카 보도에 따르면 클라우드플레어는 웹사이트 인증 체계의 대대적 개편의 일환으로 양자컴퓨터 위협에 대비한 양자내성 TLS 인증서를 발급할 계획이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that Cloudflare plans to issue quantum‑safe TLS certificates as part of a major overhaul of the website authentication ecosystem to guard against future quantum threats."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/"
-        ],
-        "firstPublishedAt": "2026-09-30T11:15:14.000Z",
-        "lastObservedAt": "2026-09-30T18:26:05.533Z"
       }
     },
     {
