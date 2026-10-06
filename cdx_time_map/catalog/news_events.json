@@ -1,8 +1,234 @@
 {
-  "catalogVersion": "0.0.148",
-  "updatedAt": "2026-10-06T07:31:31.732Z",
+  "catalogVersion": "0.0.149",
+  "updatedAt": "2026-10-06T18:54:14.550Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-49a9b938fe2d630a6f31b975",
+      "title": "해리 케인, 잉글랜드 대표팀 최다 출전 기록과 타이",
+      "titleTranslations": {
+        "en": "Kane's rise from childhood keeper to equalling England cap record"
+      },
+      "startAt": "2026-10-06T18:45:39.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "BBC 스포츠는 해리 케인이 잉글랜드 대표팀 최다 출전 기록을 피터 실튼과 동률로 만들며 중요한 이정표에 도달했다고 보도했다. 보도는 그의 대표팀 업적이 재조명되고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC Sport reports that Harry Kane has equalled Peter Shilton's record for most England appearances, reaching a notable milestone and prompting renewed assessment of his international legacy."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cx2ln5n7yqdo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/football/articles/cx2ln5n7yqdo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-06T18:45:39.000Z",
+        "lastObservedAt": "2026-10-06T18:54:14.550Z"
+      }
+    },
+    {
+      "id": "news-3e0e4d16f9091f332a92e041",
+      "title": "시위 속 코소보 정치 교착, 새 총선 가능성 대두",
+      "titleTranslations": {
+        "en": "Kosovo’s political deadlock amid protests raises prospect of new elections"
+      },
+      "startAt": "2026-10-06T18:25:45.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "알자지라 보도에 따르면 코소보는 전직 반군 지도자들의 유죄 판결에 반대하는 시위가 이어지는 가운데 정치적 교착 상태에 직면해 있으며, 이로 인해 새 총선 가능성이 제기되고 있다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports that Kosovo faces a political deadlock as protests against convictions of former rebel leaders continue, raising the prospect of new elections."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/6/amid-protests-kosovos-political-deadlock-raises-prospect-of-new-elections?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/6/amid-protests-kosovos-political-deadlock-raises-prospect-of-new-elections?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-06T18:25:45.000Z",
+        "lastObservedAt": "2026-10-06T18:54:14.550Z"
+      }
+    },
+    {
+      "id": "news-1833e630965b08ce7304e88d",
+      "title": "트리니다드토바고, 언론 자유 위협 우려 속 강력한 경찰수사법 통과",
+      "titleTranslations": {
+        "en": "Outcry in Trinidad and Tobago after passing of police bill that could threaten press freedom"
+      },
+      "startAt": "2026-10-06T16:53:21.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "가디언은 트리니다드토바고에서 수색·압수 권한을 확대하는 포괄적 새 법안(특수작전법 2026)이 통과되자 언론인들이 즉각 수정을 촉구하고 있다고 보도했다. 정부는 법안이 높은 범죄·살인율에 대응하기 위한 것이라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that journalists in Trinidad and Tobago have called for urgent amendments after the passage of a sweeping new bill—the Special Operations Bill 2026—which expands police search and seizure powers; the government says the measure is intended to tackle high crime and murder rates."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/06/outcry-in-trinidad-and-tobago-after-passing-of-police-bill-that-could-threaten-press-freedom",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/06/outcry-in-trinidad-and-tobago-after-passing-of-police-bill-that-could-threaten-press-freedom"
+        ],
+        "firstPublishedAt": "2026-10-06T16:53:21.000Z",
+        "lastObservedAt": "2026-10-06T18:54:14.550Z"
+      }
+    },
+    {
+      "id": "news-4d1d06731004a185b4784e4c",
+      "title": "파라마운트, 1,100억 달러 규모로 워너브라더스 인수",
+      "titleTranslations": {
+        "en": "Paramount takes over Warner Bros in $110bn Hollywood merger"
+      },
+      "startAt": "2026-10-06T16:01:11.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "BBC 비즈니스는 두 할리우드 대형 영화사의 합병이 수개월 간의 법적 분쟁과 경쟁 우려를 거친 끝에 이뤄졌다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "BBC Business reports that the merger of two of Hollywood's biggest studios has gone ahead after months of legal disputes and concerns about competition, with Paramount taking over Warner Bros in a $110 billion deal."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxj0604d33qzo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cxj0604d33qzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-06T16:01:11.000Z",
+        "lastObservedAt": "2026-10-06T18:54:14.550Z"
+      }
+    },
+    {
+      "id": "news-189a59772523fe892390a90e",
+      "title": "웹 망원경, 성운의 별 제트에서 발생한 활동 영상 공개",
+      "titleTranslations": {
+        "en": "Webb captures commotion from nebula’s stellar jets"
+      },
+      "startAt": "2026-10-06T13:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국(ESA)은 제임스 웹 우주망원경이 성운의 별 제트에서 발생한 동요를 포착한 이미지를 공개했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "The European Space Agency says the James Webb Space Telescope has captured images showing commotion from a nebula's stellar jets."
+      },
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Webb_captures_commotion_from_nebula_s_stellar_jets",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/ESA_Multimedia/Images/2026/10/Webb_captures_commotion_from_nebula_s_stellar_jets"
+        ],
+        "firstPublishedAt": "2026-10-06T13:00:00.000Z",
+        "lastObservedAt": "2026-10-06T18:54:14.550Z"
+      }
+    },
+    {
+      "id": "news-9589a4d97f8587c7e93ba940",
+      "title": "노벨 물리학상, 남극 아이스큐브로 고에너지 중성미자 관측 연구한 프랜시스 할젠에게",
+      "titleTranslations": {
+        "en": "Nobel Prize in Physics awarded to Francis Halzen for South Pole neutrino work"
+      },
+      "startAt": "2026-10-06T11:25:25.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "가디언은 벨기에 물리학자 프랜시스 할젠이 남극의 거대한 얼음 블록을 검출기로 활용해 외부 우주에서 오는 고에너지 중성미자를 관측한 아이스큐브 관측소 연구 공로로 2026년 노벨 물리학상을 수상했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Belgian physicist Francis Halzen has been awarded the 2026 Nobel Prize in Physics for his work on the IceCube detector at the South Pole, which uses a large block of ice to observe high‑energy extraterrestrial neutrinos."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/06/nobel-prize-in-physics-francis-halzen-south-pole-neutrinos-icecube-detector",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/06/nobel-prize-in-physics-francis-halzen-south-pole-neutrinos-icecube-detector"
+        ],
+        "firstPublishedAt": "2026-10-06T11:25:25.000Z",
+        "lastObservedAt": "2026-10-06T18:54:14.550Z"
+      }
+    },
+    {
+      "id": "news-a83108900f5757e78edc92b1",
+      "title": "흡연 경험 없는 영국 성인 100만명 이상 전자담배 사용 시작",
+      "titleTranslations": {
+        "en": "One million UK people who have never smoked are now vaping"
+      },
+      "startAt": "2026-10-06T10:09:28.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 흡연 경험이 없는 약 100만 명의 영국인이 전자담배를 사용하고 있으며, 16세 이상에서 전자담배 사용자가 담배 흡연자를 초과한 것이 2년 연속이라고 통계가 보여준다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports that around one million people in the UK who have never smoked are now vaping, and that for a second consecutive year, more over‑16s vape than smoke."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwe8ldgzj277o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwe8ldgzj277o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-06T10:09:28.000Z",
+        "lastObservedAt": "2026-10-06T18:54:14.550Z"
+      }
+    },
+    {
+      "id": "news-7b6a1414b9f2be3eb509e251",
+      "title": "미국 가정의 식수 요금, 10년 새 62% 상승 — 연구",
+      "titleTranslations": {
+        "en": "US households pay 62% more for water than they did a decade ago, study finds"
+      },
+      "startAt": "2026-10-06T09:00:09.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언은 비영리단체 Food & Water Watch의 분석을 인용해, 미국 500대 상수도 시스템의 요금이 지난 10년 동안 평균 62% 상승했다고 보도했다. 보도는 영리 상수도회사, 연방 예산 삭감, 기후 위기가 요금 상승을 촉진했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian, citing analysis by Food & Water Watch, reports that drinking water rates across the 500 largest community water systems in the US have risen by an average of 62% over the past decade, outpacing inflation; the study points to for‑profit water corporations, federal cuts and the climate crisis as contributing factors."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/06/households-drinking-water-cost-study",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/06/households-drinking-water-cost-study"
+        ],
+        "firstPublishedAt": "2026-10-06T09:00:09.000Z",
+        "lastObservedAt": "2026-10-06T18:54:14.550Z"
+      }
+    },
     {
       "id": "news-633a0a24e1ccf995b00bdd95",
       "title": "LIV 골프, 구조조정 탈피 위해 BC 파트너스 크레딧으로 잠재적 3억 달러 자금 확보",
@@ -948,62 +1174,6 @@
       }
     },
     {
-      "id": "news-4166fad21affe6a8491a6304",
-      "title": "리비아 통합 협상 흔들려 — 하프타르 아들 새담, 연료시설 드론 공격 연루 지목",
-      "titleTranslations": {
-        "en": "Libyan unity talks upended as warlord’s son linked to drone attacks on fuel facilities"
-      },
-      "startAt": "2026-10-03T09:00:56.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 서부 리비아의 연합정부(GNU)는 칼리파 하프타르의 아들 새담 하프타르가 서부 리비아의 연료 저장 시설과 발전소를 대상으로 한 드론 공격을 감독한 '테러 셀'과 연루됐다는 의혹으로 인해 하프타르 측과의 협력을 계속하기 어렵다고 밝혔다. 이 사건은 워싱턴이 주도한 치안·사법·정치 기관 통합 계획에 차질을 빚게 했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that Libya’s Tripoli‑based Government of National Unity (GNU) says continuing to work with Khalifa Haftar is 'impossible' after allegations that his son, Saddam Haftar, oversaw a 'terror cell' that launched drone attacks on fuel storage facilities and power stations in western Libya. The allegations have upended a U.S.‑backed plan to unify Libyan security, judicial and political institutions."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar"
-        ],
-        "firstPublishedAt": "2026-10-03T09:00:56.000Z",
-        "lastObservedAt": "2026-10-03T17:14:08.025Z"
-      }
-    },
-    {
-      "id": "news-12bbd5dc0ec7d55d4e6b7579",
-      "title": "러시아, 키이우의 또 다른 주요 교량 공격—북부교(노던브릿지) 타격",
-      "titleTranslations": {
-        "en": "Russia strikes another major bridge in Kyiv — Northern Bridge hit, mayor says"
-      },
-      "startAt": "2026-10-03T06:13:22.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 우크라이나 키이우의 북부교(Northern Bridge)가 러시아의 공습으로 타격을 받았다. 이번 공격은 최근 며칠 사이 다른 주요 교량에 대한 반복 공격에 이어 발생했다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that Kyiv's Northern Bridge was struck in a Russian attack. The strike follows repeated attacks on another major bridge in recent days, the report says."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-03T06:13:22.000Z",
-        "lastObservedAt": "2026-10-03T06:25:20.765Z"
-      }
-    },
-    {
       "id": "news-4b7633ee5217136de4e43575",
       "title": "엘니뇨로 올해 대서양 허리케인 활동 급감 가능성 제기",
       "titleTranslations": {
@@ -1404,34 +1574,6 @@
         ],
         "firstPublishedAt": "2026-10-01T21:41:19.000Z",
         "lastObservedAt": "2026-10-02T06:58:56.747Z"
-      }
-    },
-    {
-      "id": "news-f830528e18966e17a12ffbd2",
-      "title": "총리 측에 로즈뱅크 유전, 서안 제재 위반 우려 제기",
-      "titleTranslations": {
-        "en": "PM warned Rosebank oil field could breach West Bank sanctions"
-      },
-      "startAt": "2026-10-01T18:38:22.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC는 운동가들과 녹색당 대표 잭 폴란스키가 로즈뱅크 유전의 이스라엘 연관성으로 인해 서안지구 관련 제재를 위반할 가능성이 있다는 우려를 총리에게 제기했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports campaigners and Green Party leader Zack Polanski have warned the prime minister that the Rosebank oil field’s ties to an Israeli firm could risk breaching sanctions related to the West Bank."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmrl6lz454lgo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmrl6lz454lgo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-01T18:38:22.000Z",
-        "lastObservedAt": "2026-10-01T18:50:56.038Z"
       }
     },
     {
@@ -1974,36 +2116,6 @@
       }
     },
     {
-      "id": "news-a8e036c9038bdc443b6a7e4a",
-      "title": "동물실험 대체 기술 급진전 — 과학계는 수용에 신중",
-      "titleTranslations": {
-        "en": "Alternatives to animal testing near readiness — scientists remain cautious"
-      },
-      "startAt": "2026-09-29T13:00:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "장기적으로 인간 조직을 모사하는 '오가노이드'·오가논칩 등 동물실험 대체 기술이 크게 발전했으나, 과학자들 사이에선 아직 광범위한 대체 적용과 수용에 신중한 시각이 남아있다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Technologies such as organoids and organ‑on‑a‑chip that aim to replace animal testing have advanced significantly, but scientists remain cautious about broad adoption and validation of these alternatives."
-      },
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/alternatives-to-animal-testing",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/alternatives-to-animal-testing"
-        ],
-        "firstPublishedAt": "2026-09-29T13:00:02.000Z",
-        "lastObservedAt": "2026-09-30T06:38:54.853Z"
-      }
-    },
-    {
       "id": "news-3f2cce1106d423abc54437f4",
       "title": "제약사, 약가 유지 위해 특허 쌓기 — 부속 특허로 특허기간 연장",
       "titleTranslations": {
@@ -2292,35 +2404,6 @@
         ],
         "firstPublishedAt": "2026-09-22T15:00:00.000Z",
         "lastObservedAt": "2026-09-22T17:38:10.336Z"
-      }
-    },
-    {
-      "id": "news-62d937d9bc4a192dcc196719",
-      "title": "허블·NASA·ESA, '비동기' 나선은하 NGC 4698 이미지 공개",
-      "startAt": "2026-09-18T08:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "ESA가 공개한 설명에 따르면 처녀자리 군에 속한 나선은하 NGC 4698은 외견상 평온하지만 내부적으로는 혼란스러운 구조를 지니고 있다. 은하는 약 5,500만 광년 떨어져 있으며 중심의 초대질량블랙홀에 가스가 유입되어 활동성이 관측된다고 전해진다.",
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
-          "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync"
-        ],
-        "firstPublishedAt": "2026-09-18T13:38:12.000Z",
-        "lastObservedAt": "2026-09-24T17:51:51.129Z"
-      },
-      "titleTranslations": {
-        "en": "Hubble images 'asynchronous' spiral galaxy NGC 4698"
-      },
-      "descriptionTranslations": {
-        "en": "ESA reports that the spiral galaxy NGC 4698 in the Virgo Cluster appears serene externally but hides internally disturbed structure. The galaxy lies about 55 million light‑years away and shows signs of gas accretion onto a central supermassive black hole."
       }
     }
   ]
