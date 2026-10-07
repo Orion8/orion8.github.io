@@ -1,8 +1,206 @@
 {
-  "catalogVersion": "0.0.149",
-  "updatedAt": "2026-10-06T18:54:14.550Z",
+  "catalogVersion": "0.0.150",
+  "updatedAt": "2026-10-07T19:19:57.939Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-a7a36dc662303dca5a5865b8",
+      "title": "정신질환만 있는 사람의 조력자살 접근 차단 위한 캐나다 법안 추진",
+      "titleTranslations": {
+        "en": "Canada to advance law preventing assisted dying for people whose sole condition is mental illness"
+      },
+      "startAt": "2026-10-07T19:00:44.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "캐나다 연방정부는 단독 기저질환이 정신질환인 사람들에게 의료적 조력자살(MAID) 접근을 허용하지 않도록 하는 법안을 추진하겠다고 밝혔다. 현 규정상 정신질환만 있는 사람들은 접근이 금지되어 있으며, 오는 3월 만료 예정이던 금지 조치를 연장하려는 시도로 해석된다.",
+      "descriptionTranslations": {
+        "en": "Canada's federal government said it will advance legislation to prevent people whose sole underlying medical condition is a mental illness from accessing medical assistance in dying (MAID). Under current rules such people have been barred, and the move seeks to address debate over a ban that was due to be lifted in March."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/07/canada-assisted-dying-mental-illness",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/07/canada-assisted-dying-mental-illness"
+        ],
+        "firstPublishedAt": "2026-10-07T19:00:44.000Z",
+        "lastObservedAt": "2026-10-07T19:19:57.938Z"
+      }
+    },
+    {
+      "id": "news-ef1cb57263e715da30abec18",
+      "title": "영국 유통체인 Boots, 70억 파운드 규모로 캐나다 억만장자 가문에 매각",
+      "titleTranslations": {
+        "en": "Boots sold in £7bn deal to Canadian billionaire family"
+      },
+      "startAt": "2026-10-07T17:18:30.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "영국의 주요 고용·유통체인 Boots의 매각이 발표됐다. 이번 거래는 약 70억 파운드(£7bn) 규모로 보도되었으며, 매각 발표는 수요일 공개됐다.",
+      "descriptionTranslations": {
+        "en": "The sale of major UK retailer Boots was announced in a deal reported at £7 billion to a Canadian billionaire family. The sale was announced on Wednesday."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwly0jyk2vl5o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwly0jyk2vl5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-07T17:18:30.000Z",
+        "lastObservedAt": "2026-10-07T19:19:57.939Z"
+      }
+    },
+    {
+      "id": "news-4795a6ae30bd611b4cb996c6",
+      "title": "NASA 큐리오시티, 고도 1km 도달한 뒤 뒤돌아본 관측 사진 공개",
+      "titleTranslations": {
+        "en": "NASA’s Curiosity rover marks elevation milestone and captures panorama"
+      },
+      "startAt": "2026-10-07T17:00:47.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "큐리오시티 화성 로버는 임무 5,006번째 솔(화성일)에 갈레 분화구 바닥을 되돌아보는 관측 사진을 촬영했다. 9일 전(솔 4,996)에 로버는 임무상 고도 1km 도달이라는 이정표를 세웠다.",
+      "descriptionTranslations": {
+        "en": "NASA’s Curiosity Mars rover captured views looking back at the floor of Gale Crater on Sol 5,006 and reached a mission milestone nine days earlier (Sol 4,996) by attaining an elevation gain of 1 kilometer."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/"
+        ],
+        "firstPublishedAt": "2026-10-07T17:00:47.000Z",
+        "lastObservedAt": "2026-10-07T19:19:57.939Z"
+      }
+    },
+    {
+      "id": "news-7066f755ea85d6381fb46ea9",
+      "title": "캘리포니아, 엘니뇨 영향 대비에 직면 — 산사태·급류·해안 영향 우려",
+      "titleTranslations": {
+        "en": "California faces El Niño threats — landslides, flash floods and coastal impacts"
+      },
+      "startAt": "2026-10-07T14:30:52.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "캘리포니아 해안과 내륙 지역에서 높은 해수면·고조된 조류와 더불어 산사태·급류 위험이 대두되며 엘니뇨에 따른 복합 자연재해 대비가 주목받고 있다. 고조된 해수로 인해 일부 지역의 도로 침수 및 교통 지연이 보고됐다.",
+      "descriptionTranslations": {
+        "en": "California is bracing for El Niño impacts — including higher tides, coastal swelling, landslides and flash floods. High tides have already caused localized flooding and traffic disruption along parts of the coast."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/07/california-el-nino-preparedness",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/07/california-el-nino-preparedness"
+        ],
+        "firstPublishedAt": "2026-10-07T14:30:52.000Z",
+        "lastObservedAt": "2026-10-07T19:19:57.939Z"
+      }
+    },
+    {
+      "id": "news-dc2db02a7c1a356f01898a8f",
+      "title": "2026년 노벨 화학상, '거울상 분자' 연구 공로로 수상",
+      "titleTranslations": {
+        "en": "Nobel Prize in Chemistry 2026 awarded for mirror‑image molecule research"
+      },
+      "startAt": "2026-10-07T13:36:45.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "2026년 노벨 화학상이 거울상 형태의 분자(비대칭 유기합성)에서 비선형 효과와 자기촉매(autocatalysis)를 밝힌 공로로 Henri B. Kagan(파리‑수드 대학)과 Kensō Soai(도쿄과학대)에 수여됐다. 수상은 약물이 체내에서 어떻게 작동하는지 이해를 돕는 발견으로 소개되었다.",
+      "descriptionTranslations": {
+        "en": "The 2026 Nobel Prize in Chemistry was awarded to Henri B. Kagan (Paris‑Sud University) and Kensō Soai (Tokyo University of Science) for discoveries showing how chemical reactions can produce overwhelming excesses of one mirror‑image form of a molecule, revealing nonlinear effects and autocatalysis in asymmetric synthesis."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/07/nobel-prize-chemistry-awarded-work-on-mirror-image-molecules",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/07/nobel-prize-chemistry-awarded-work-on-mirror-image-molecules"
+        ],
+        "firstPublishedAt": "2026-10-07T13:36:45.000Z",
+        "lastObservedAt": "2026-10-07T19:19:57.939Z"
+      }
+    },
+    {
+      "id": "news-8c125dd1867aa0b89e004d82",
+      "title": "새 글로벌 지침: 10세 미만 어린이에게 비만 약물 사용 권고하지 말라",
+      "titleTranslations": {
+        "en": "New global guidelines advise against obesity drugs for children under 10"
+      },
+      "startAt": "2026-10-07T08:07:54.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "세계보건기구(WHO)의 새 지침은 10세 미만 아동에 대한 비만 약물(예: 체중 감량 주사) 사용을 권고하지 않으며, 돌봄과 치료는 건강한 식습관과 운동 등 생활양식 중심으로 해야 한다고 권고했다.",
+      "descriptionTranslations": {
+        "en": "New global guidelines from the World Health Organization advise against the use of obesity drugs for children under 10. Care should focus on healthy eating and exercise rather than medicines such as weight‑loss injections."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crvg904yw397o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crvg904yw397o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-07T08:07:54.000Z",
+        "lastObservedAt": "2026-10-07T19:19:57.939Z"
+      }
+    },
+    {
+      "id": "news-d5313c8ebd3fefb49d655bc1",
+      "title": "S&P500·나스닥 사상 최고치 경신 — AI 칩메이커 랠리 영향",
+      "titleTranslations": {
+        "en": "S&P 500 and Nasdaq hit record highs after AI chipmaker rally"
+      },
+      "startAt": "2026-10-06T20:28:42.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "AI 칩 제조업체 중심의 랠리와 미 국채 금리 하락을 배경으로 S&P500과 나스닥이 장 마감 기준 사상 최고치를 기록했다. S&P500은 사상 처음 7,800선을 넘어섰다.",
+      "descriptionTranslations": {
+        "en": "The S&P 500 and Nasdaq closed at record highs after a rally in AI chipmakers and a drop in US Treasury yields. The S&P 500 topped 7,800 for the first time in its history."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/06/sp-500-nasdaq-stocks-ai-chipmakers",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/06/sp-500-nasdaq-stocks-ai-chipmakers"
+        ],
+        "firstPublishedAt": "2026-10-06T20:28:42.000Z",
+        "lastObservedAt": "2026-10-07T19:19:57.939Z"
+      }
+    },
     {
       "id": "news-49a9b938fe2d630a6f31b975",
       "title": "해리 케인, 잉글랜드 대표팀 최다 출전 기록과 타이",
@@ -141,6 +339,34 @@
         ],
         "firstPublishedAt": "2026-10-06T13:00:00.000Z",
         "lastObservedAt": "2026-10-06T18:54:14.550Z"
+      }
+    },
+    {
+      "id": "news-c692a64a3ecdefa3c878a1c9",
+      "title": "케냐, DRC에서 온 시민 사망으로 첫 에볼라 사례 보고",
+      "titleTranslations": {
+        "en": "Kenya confirms first Ebola death after arrival from DRC"
+      },
+      "startAt": "2026-10-06T12:46:56.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "케냐 보건부 장관은 콩고민주공화국(DRC)에서 온 시민의 사망과 관련해 케냐의 첫 에볼라 사망자를 확인했다고 발표했다. 당국은 사망자와 접촉한 28명을 식별했다고 밝혔다. 이번 유행은 DRC 북동부에서 계속 확산 중인 번디부교(Bundibugyo) 계열과 관련된다.",
+      "descriptionTranslations": {
+        "en": "Kenya's health minister announced the country's first Ebola death linked to an individual who arrived from the Democratic Republic of Congo (DRC). Authorities identified 28 contacts. The outbreak is connected to a rapidly spreading Bundibugyo strain in eastern DRC."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc"
+        ],
+        "firstPublishedAt": "2026-10-06T12:46:56.000Z",
+        "lastObservedAt": "2026-10-07T19:19:57.939Z"
       }
     },
     {
@@ -1115,35 +1341,6 @@
       }
     },
     {
-      "id": "news-b4396359d6d8a5470d0771ed",
-      "title": "미군의 이라크 주둔 완전 철수 완료",
-      "titleTranslations": {
-        "en": "U.S. withdrawal from Iraq is complete"
-      },
-      "startAt": "2026-10-03T21:57:33.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 조지 W. 부시 대통령의 '충격과 공포' 캠페인 이후 23년 만에 미군이 이라크에서의 철수를 완료했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Twenty‑three years after President George W. Bush's campaign of 'shock and awe,' the U.S. military has completed its withdrawal from Iraq, reports say."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/03/nx-s1-5987758/u-s-withdrawal-from-iraq-is-complete",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/03/nx-s1-5987758/u-s-withdrawal-from-iraq-is-complete"
-        ],
-        "firstPublishedAt": "2026-10-03T21:57:33.000Z",
-        "lastObservedAt": "2026-10-04T06:48:58.264Z"
-      }
-    },
-    {
       "id": "news-21efa3195b110268437380e3",
       "title": "외골격(엑소스켈레톤) 시대의 도래",
       "titleTranslations": {
@@ -1372,35 +1569,6 @@
         ],
         "firstPublishedAt": "2026-10-02T15:54:18.000Z",
         "lastObservedAt": "2026-10-02T18:23:40.084Z"
-      }
-    },
-    {
-      "id": "news-e2e6aecbfabbca5f77179653",
-      "title": "미국 고용시장 급격한 둔화 — 중간선거 한 달 앞두고 채용 일시중단",
-      "titleTranslations": {
-        "en": "US jobs market sees sharp slowdown ahead of midterm elections"
-      },
-      "startAt": "2026-10-02T14:30:48.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "BBC 보도는 9월 미국의 고용이 급격히 둔화되었고 실업률이 소폭 상승했다고 전했다. 보도에 따르면 고용주는 중간선거를 앞두고 채용을 보류하는 경향을 보였다고 한다.",
-      "descriptionTranslations": {
-        "en": "BBC reports that US job growth sharply slowed in September and unemployment edged up, with American employers pausing hiring as the midterm elections approach."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/02/september-jobs-report",
-          "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-02T14:04:29.000Z",
-        "lastObservedAt": "2026-10-03T17:14:08.025Z"
       }
     },
     {
@@ -2004,34 +2172,6 @@
       }
     },
     {
-      "id": "news-90249c2a3882c6d31b88e7ce",
-      "title": "오픈AI, 조정된 모델‑증류 캠페인 차단 및 방어 강화 발표",
-      "titleTranslations": {
-        "en": "OpenAI disrupts a coordinated model‑distillation campaign"
-      },
-      "startAt": "2026-09-30T10:30:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "오픈AI는 보호된 모델의 추론을 추출하려는 조정된 모델‑증류(distillation) 캠페인을 차단했다고 밝히며, 적대적 증류에 대한 방어를 강화하고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "OpenAI says it disrupted a coordinated model‑distillation campaign aimed at extracting protected model reasoning and is strengthening defenses against adversarial distillation."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
-        ],
-        "firstPublishedAt": "2026-09-30T10:30:00.000Z",
-        "lastObservedAt": "2026-10-01T07:10:03.687Z"
-      }
-    },
-    {
       "id": "news-3bf2aef00178636c4b6cc3b2",
       "title": "유럽‑중국 공동 SMILE 미션, 9월 과학 운용 시작 선언",
       "titleTranslations": {
@@ -2088,34 +2228,6 @@
       }
     },
     {
-      "id": "news-86004ddfdbd826a42e8f167f",
-      "title": "번햄 총리, 2030년까지 기존 연금 '트리플 록' 종료 약속 — 돌봄 재원 마련 목적",
-      "titleTranslations": {
-        "en": "Burnham vows to end existing pension triple lock in 2030 to help fund care"
-      },
-      "startAt": "2026-09-29T17:39:06.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "번햄 총리가 당대회 연설에서 2030년까지 기존 연금 '트리플 록'을 종료하겠다고 약속했으며, 그 목적은 돌봄 서비스를 위한 재원을 마련하기 위한 것이라고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Prime Minister Burnham vowed in a conference speech to end the existing pension 'triple lock' by 2030, saying the move is intended to help fund care services."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cve8x724e9ezo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cve8x724e9ezo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-29T17:39:06.000Z",
-        "lastObservedAt": "2026-09-29T18:35:56.384Z"
-      }
-    },
-    {
       "id": "news-3f2cce1106d423abc54437f4",
       "title": "제약사, 약가 유지 위해 특허 쌓기 — 부속 특허로 특허기간 연장",
       "titleTranslations": {
@@ -2142,34 +2254,6 @@
           "https://arstechnica.com/health/2026/09/to-keep-drug-prices-high-pharma-has-been-piling-up-the-patents/"
         ],
         "firstPublishedAt": "2026-09-28T19:53:37.000Z",
-        "lastObservedAt": "2026-09-28T20:06:51.082Z"
-      }
-    },
-    {
-      "id": "news-730f2f80339354ed0527d118",
-      "title": "엔비디아, AI 에이전트 통제용 보안 플랫폼 공개·역대 최대 1,500억 달러 자사주 매입 발표",
-      "titleTranslations": {
-        "en": "Nvidia unveils security platform for AI agents and announces $150bn stock buyback"
-      },
-      "startAt": "2026-09-28T19:24:07.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "칩 제조사 엔비디아는 AI 에이전트의 '탈주'를 막기 위한 보안 플랫폼을 공개했으며, 같은 날 미 기업 역사상 최대 규모인 1,500억 달러의 자사주 매입 계획을 발표했다.",
-      "descriptionTranslations": {
-        "en": "Nvidia announced a new security platform designed to rein in AI agents and, on the same day, unveiled a $150 billion stock buyback—the largest in U.S. corporate history."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback"
-        ],
-        "firstPublishedAt": "2026-09-28T19:24:07.000Z",
         "lastObservedAt": "2026-09-28T20:06:51.082Z"
       }
     },
@@ -2230,34 +2314,6 @@
         ],
         "firstPublishedAt": "2026-09-21T14:00:00.000Z",
         "lastObservedAt": "2026-09-28T20:06:51.082Z"
-      }
-    },
-    {
-      "id": "news-c88ef522a895f600c053f518",
-      "title": "그린란드 빙상 아래 숨겨진 계곡들 지도화",
-      "titleTranslations": {
-        "en": "Uncovering the Valleys Hidden Below Greenland’s Ice"
-      },
-      "startAt": "2026-09-28T04:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "새 지형 지도는 그린란드 빙상 아래의 지형을 재구성해 이전 지도들이 놓쳤거나 단편화했던 수백 개의 계곡을 연결했다고 보고했다.",
-      "descriptionTranslations": {
-        "en": "A new map of the terrain beneath the Greenland Ice Sheet links hundreds of valleys that previous maps missed or left fragmented."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/uncovering-the-valleys-hidden-below-greenlands-ice/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://science.nasa.gov/earth/earth-observatory/uncovering-the-valleys-hidden-below-greenlands-ice/"
-        ],
-        "firstPublishedAt": "2026-09-28T04:00:00.000Z",
-        "lastObservedAt": "2026-09-28T06:46:01.974Z"
       }
     },
     {
