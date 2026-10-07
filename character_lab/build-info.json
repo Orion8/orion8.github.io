@@ -1,13 +1,13 @@
 {
-  "sourceCommit": "458bff825a7ed07b8eeaf455ad2d7f8c5f397054",
-  "runId": "37360797156",
-  "timestamp": "2026-10-05T19:07:30.768Z",
+  "sourceCommit": "ae28a006dbdf18a05d72496a6cfb6f3430e39162",
+  "runId": "37677173227",
+  "timestamp": "2026-10-07T19:51:48.543Z",
   "gltfErrors": 0,
   "gltfWarnings": 2,
   "browserStats": {
-    "startTime": "2026-10-05T19:05:41.051Z",
-    "duration": 109584.849,
-    "expected": 9,
+    "startTime": "2026-10-07T19:48:27.847Z",
+    "duration": 200556.308,
+    "expected": 10,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
