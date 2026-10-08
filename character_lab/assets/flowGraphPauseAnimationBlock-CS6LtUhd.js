@@ -1,0 +1,1 @@
+import{v as t,R as e,u as i}from"./index-BWYMgpPI.js";class o extends t{constructor(a){super(a),this.animationToPause=this.registerDataInput("animationToPause",e)}_execute(a){this.animationToPause.getValue(a).pause(),this.out._activateSignal(a)}getClassName(){return"FlowGraphPauseAnimationBlock"}}i("FlowGraphPauseAnimationBlock",o);export{o as FlowGraphPauseAnimationBlock};
