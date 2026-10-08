@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pip-root-motion-v2",
   "name": "Pip",
-  "asset": "test-character-motions.glb?v=0.4.0",
+  "asset": "test-character-motions.glb?v=0.4.1",
   "clips": {
     "idle": "Idle",
     "walk": "Walk",
