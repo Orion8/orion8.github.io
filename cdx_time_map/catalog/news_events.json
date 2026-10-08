@@ -1,8 +1,121 @@
 {
-  "catalogVersion": "0.0.150",
-  "updatedAt": "2026-10-07T19:19:57.939Z",
+  "catalogVersion": "0.0.151",
+  "updatedAt": "2026-10-08T07:18:14.887Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-c2494a992a48d07897f90756",
+      "title": "이스라엘, 영국 예루살렘 총영사관에서 대부분 외교관 철수 통보",
+      "titleTranslations": {
+        "en": "Most UK diplomats to leave East Jerusalem consulate, Israel says"
+      },
+      "startAt": "2026-10-08T07:06:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 이스라엘은 영국의 요건 부과(서안 불법 정착촌 제재)에 대응해 예루살렘의 영국 총영사관에서 대부분의 영국 외교관이 떠나게 될 것이라고 밝혔다. 영국 측은 밀리밴드 외무장관이 ‘필수 서비스’는 계속 제공될 것이라고 말했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports Israel has said most UK diplomats will leave the East Jerusalem consulate in response to UK measures on illegal West Bank settlements. UK foreign minister David Miliband (Miliband in the article) said 'vital services' would remain in place."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-08T07:06:15.000Z",
+        "lastObservedAt": "2026-10-08T07:18:14.887Z"
+      }
+    },
+    {
+      "id": "news-883e2809d59e1d08bf06f8e8",
+      "title": "10월 7일 사태가 중동의 지도를 다시 그리다",
+      "titleTranslations": {
+        "en": "How October 7 redrew the map of the Middle East"
+      },
+      "startAt": "2026-10-08T06:11:24.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 지면 분석은 3년간의 전쟁이 동맹 관계를 뒤흔들고 미(美) 영향력을 약화시키며 지역 세력 균형을 재편했다고 평가했다. 분쟁은 정치·안보 동맹과 지역 역학에 지속적 변화를 초래했다는 내용이다.",
+      "descriptionTranslations": {
+        "en": "An Al Jazeera analysis says three years of war since October 7 have upended alliances, weakened US influence and reshaped the balance of power across the Middle East, producing lasting changes in regional political and security dynamics."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/8/how-october-7-redrew-the-map-of-the-middle-east?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/8/how-october-7-redrew-the-map-of-the-middle-east?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-08T06:11:24.000Z",
+        "lastObservedAt": "2026-10-08T07:18:14.887Z"
+      }
+    },
+    {
+      "id": "news-f08f8de24a5938b60dfd4ddb",
+      "title": "AI 칩 수요에 힘입어 삼성, 사상 최대 영업이익 800억 달러 달성",
+      "titleTranslations": {
+        "en": "AI chip boom pushes Samsung profits to record $80bn"
+      },
+      "startAt": "2026-10-08T01:59:54.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 비즈니스는 AI 칩 수요 급증이 삼성전자의 실적을 견인해 사상 최대 영업이익 약 800억 달러를 기록했다고 보도했다. 회사는 8월 출시된 최신 폴더블 기기도 실적에 기여했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC Business reports that strong demand for AI chips helped Samsung record a record operating profit of about $80 billion. The company also benefited from its recently launched foldable devices, the coverage says."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-08T01:59:54.000Z",
+        "lastObservedAt": "2026-10-08T07:18:14.887Z"
+      }
+    },
+    {
+      "id": "news-f79fc1981148f96dddbc69f9",
+      "title": "Nous Research, 기업가치 15억 달러 확인하고 기업용 AI 에이전트 출시",
+      "titleTranslations": {
+        "en": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users"
+      },
+      "startAt": "2026-10-07T20:48:45.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "TechCrunch는 Hermes Agent 개발사 Nous Research가 9천만 달러 규모의 시리즈B를 유치해 기업가치를 15억 달러로 확인했고, 기업용 AI 에이전트 제품을 출시했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "TechCrunch reports Hermes Agent developer Nous Research raised a $90 million Series B, confirming a $1.5 billion valuation, and launched AI agents aimed at business users."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/"
+        ],
+        "firstPublishedAt": "2026-10-07T20:48:45.000Z",
+        "lastObservedAt": "2026-10-08T07:18:14.887Z"
+      }
+    },
     {
       "id": "news-a7a36dc662303dca5a5865b8",
       "title": "정신질환만 있는 사람의 조력자살 접근 차단 위한 캐나다 법안 추진",
@@ -88,6 +201,34 @@
       }
     },
     {
+      "id": "news-718e414f27ebb38177b4b19e",
+      "title": "ESA, 화성의 가장 기묘한 구름에 대해 이례적 물리 작용 가능성 제기",
+      "titleTranslations": {
+        "en": "Mars’s oddest cloud may be even odder than we thought"
+      },
+      "startAt": "2026-10-07T15:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국(ESA)은 Mars Express 관측 자료와 최신 기상 모델을 결합해 화성의 가장 특이한 구름 현상이 더욱 이례적인 물리 작용을 필요로 할 수 있다는 연구 결과를 발표했다. 연구진은 기존 해석을 재검토할 근거가 될 수 있다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "The European Space Agency reports that analysis combining Mars Express observations with a state‑of‑the‑art meteorological model suggests Mars’s most unusual cloud may involve exotic physical processes, prompting fresh reconsideration of its origin."
+      },
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought"
+        ],
+        "firstPublishedAt": "2026-10-07T15:00:00.000Z",
+        "lastObservedAt": "2026-10-08T07:18:14.887Z"
+      }
+    },
+    {
       "id": "news-7066f755ea85d6381fb46ea9",
       "title": "캘리포니아, 엘니뇨 영향 대비에 직면 — 산사태·급류·해안 영향 우려",
       "titleTranslations": {
@@ -143,6 +284,34 @@
         ],
         "firstPublishedAt": "2026-10-07T13:36:45.000Z",
         "lastObservedAt": "2026-10-07T19:19:57.939Z"
+      }
+    },
+    {
+      "id": "news-26dfc0024c6b91a0d2e2ff5f",
+      "title": "노스캐롤라이나 농장 노동자들, 폭염 노출로 건강 심각 악화 사례 보도",
+      "titleTranslations": {
+        "en": "Heatstroke ruined his health. Years before, it took the life of another farm worker at the same company"
+      },
+      "startAt": "2026-10-07T11:00:08.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언은 H‑2A 농업 비자를 가진 이주 노동자들이 고온·고습 작업 환경에 반복적으로 노출돼 열질환과 장기 건강 악화를 겪는 사례를 보도했다. 기사에는 골즈버로의 한 수박밭에서 오후 4시에 기온 약 90°F(32°C), 체감온도(heat index) 98.3°F였다는 사례가 소개됐다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that migrant farm workers on H‑2A visas have been repeatedly exposed to high heat and humidity, suffering heat‑related illness and long‑term health harms. The article cites a Goldsboro watermelon field where temperatures reached about 90°F (32°C) with a heat index of 98.3°F at 4pm."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/ng-interactive/2026/oct/07/north-carolina-farm-workers-disability-health-heat",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/ng-interactive/2026/oct/07/north-carolina-farm-workers-disability-health-heat"
+        ],
+        "firstPublishedAt": "2026-10-07T11:00:08.000Z",
+        "lastObservedAt": "2026-10-08T07:18:14.887Z"
       }
     },
     {
@@ -568,6 +737,34 @@
       }
     },
     {
+      "id": "news-b0727b41ea43c89e987b89da",
+      "title": "제2차세계대전 폭탄 제거의 예술 — 건설현장·마리나서의 고위험 해제 작전",
+      "titleTranslations": {
+        "en": "‘It could knock a whole street down’: the art of defusing a second world war bomb"
+      },
+      "startAt": "2026-10-06T04:00:02.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 1,
+      "description": "가디언은 플리머스 공사현장과 엑스머스 마리나에서 발견된 제2차 세계대전 폭탄을 해체한 사례를 통해 현대 도시공사에서 여전히 발생하는 대규모 폭발물 제거 작업의 위험과 기술을 조명했다. 기사에서는 1월 14일 발생한 두 건을 중심으로 절차와 난관을 소개했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian profiles the risks and techniques of defusing Second World War bombs encountered in modern construction and marina work, focusing on two incidents on 14 January in Plymouth and Exmouth that illustrate the high‑risk procedures involved in urban bomb clearance."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb"
+        ],
+        "firstPublishedAt": "2026-10-06T04:00:02.000Z",
+        "lastObservedAt": "2026-10-08T07:18:14.887Z"
+      }
+    },
+    {
       "id": "news-6bb4791051558224c2ec5e5c",
       "title": "작가 겸 전 정치인 제프리 아처 별세, 300만권 이상 판매 경력",
       "titleTranslations": {
@@ -708,6 +905,34 @@
         ],
         "firstPublishedAt": "2026-10-05T20:36:48.000Z",
         "lastObservedAt": "2026-10-05T21:12:03.775Z"
+      }
+    },
+    {
+      "id": "news-662afd1317447569c46b90a9",
+      "title": "런던→시카고 BA 항공편, 아일랜드 상공서 2만8천피트 급강하 후 귀환",
+      "titleTranslations": {
+        "en": "London to Chicago BA flight declares emergency after dropping 28,000 feet"
+      },
+      "startAt": "2026-10-05T20:33:30.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 BA295 편이 아일랜드 상공에서 '기술적 문제'로 약 2만8천피트(약 8,500m)를 급강하했고 객실의 산소마스크가 전개된 뒤 런던 히드로로 되돌아왔다. 항공사는 안전한 착륙을 보고했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that British Airways flight BA295 experienced a 'technical issue' and a sudden descent of about 28,000 feet over Ireland, deploying oxygen masks, before turning back and landing safely at London Heathrow."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/05/london-to-chicago-ba-flight-declares-emergency-after-dropping-28000-feet",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/05/london-to-chicago-ba-flight-declares-emergency-after-dropping-28000-feet"
+        ],
+        "firstPublishedAt": "2026-10-05T20:33:30.000Z",
+        "lastObservedAt": "2026-10-08T07:18:14.887Z"
       }
     },
     {
@@ -1143,34 +1368,6 @@
       }
     },
     {
-      "id": "news-eeb360467eb306c7f47d4b3a",
-      "title": "인도, 중국산 수입 의존 심화 실태 보도",
-      "titleTranslations": {
-        "en": "How India became dangerously addicted to Chinese imports"
-      },
-      "startAt": "2026-10-05T01:42:11.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 비즈니스는 인도의 장난감 가게 등을 예로 들어 중국과의 경제관계에서 인도가 중국산 수입에 심각하게 의존하게 된 과정을 분석해 보도했다.",
-      "descriptionTranslations": {
-        "en": "BBC Business examines how India has become deeply dependent on Chinese imports, using toy shops as an unlikely barometer of the economic relationship."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5pve834grpno?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5pve834grpno?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-05T01:42:11.000Z",
-        "lastObservedAt": "2026-10-05T06:58:11.657Z"
-      }
-    },
-    {
       "id": "news-2ebb5eac41a3dccaaa3da424",
       "title": "예멘 정부, 후티로부터 영토 회복 위해 전면전 선포",
       "titleTranslations": {
@@ -1196,34 +1393,6 @@
         ],
         "firstPublishedAt": "2026-10-04T16:51:30.000Z",
         "lastObservedAt": "2026-10-04T17:33:36.939Z"
-      }
-    },
-    {
-      "id": "news-df42a7f55faaf55d10b9d1d3",
-      "title": "수단 공습으로 유엔 구호 트럭 운전사 사망 — WFP",
-      "titleTranslations": {
-        "en": "Air strike in Sudan kills UN aid truck driver: WFP"
-      },
-      "startAt": "2026-10-04T16:28:43.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "세계식량계획(WFP)은 공습으로 구호품을 실은 트럭의 운전사가 사망했다고 전했다. 해당 트럭은 '명확히 인도적 차량으로 표시'되어 있었다고 기관은 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The UN World Food Programme says an air strike in Sudan killed the driver of a clearly marked humanitarian aid truck."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/4/air-strike-in-sudan-kills-un-aid-truck-driver-wfp?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/4/air-strike-in-sudan-kills-un-aid-truck-driver-wfp?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-04T16:28:43.000Z",
-        "lastObservedAt": "2026-10-04T17:33:36.940Z"
       }
     },
     {
@@ -1309,35 +1478,6 @@
         ],
         "firstPublishedAt": "2026-10-04T10:00:25.000Z",
         "lastObservedAt": "2026-10-04T17:33:36.940Z"
-      }
-    },
-    {
-      "id": "news-29ebe0b28ec43e80e025b99f",
-      "title": "프랑스 학교 시위 확산에 따라 약 5,000명 체포",
-      "titleTranslations": {
-        "en": "France arrests about 5,000 people as school protests spread"
-      },
-      "startAt": "2026-10-03T21:57:35.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "고등학생들은 교실 과밀, 교사 부족, 건물 수리 필요 등을 호소하며 시위를 벌이고 있다. 이 시위는 프랑스 전역의 도시들로 확산됐고, 보도에 따르면 약 5,000명이 체포됐으며 체포자 대다수는 10대다.",
-      "descriptionTranslations": {
-        "en": "High school students say their classrooms are overcrowded, teachers are missing and buildings need repairs. The protests have spread to cities across France, and reports say some 5,000 people — mostly teenagers — have been arrested."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/03/nx-s1-5989532/france-arrests-5-000-people-mostly-teens-as-school-protests-spread",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/03/nx-s1-5989532/france-arrests-5-000-people-mostly-teens-as-school-protests-spread"
-        ],
-        "firstPublishedAt": "2026-10-03T21:57:35.000Z",
-        "lastObservedAt": "2026-10-04T06:48:58.264Z"
       }
     },
     {
@@ -1889,34 +2029,6 @@
       }
     },
     {
-      "id": "news-3e4c7558782a1f6c93a8a2b7",
-      "title": "베드포드 열차 충돌 조사: 운전자가 적색 신호 경고 후에도 가속",
-      "titleTranslations": {
-        "en": "Bedford rail crash: train sped up after red light warning, say investigators"
-      },
-      "startAt": "2026-10-01T12:40:56.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언에 따르면 조사관들은 6월의 베드포드 충돌에서 사고 열차 운전자가 적색 신호를 지나친 뒤 자동 경고를 받았음에도 추가로 가속한 정황을 확인했다고 밝혔다. 해당 사고로 운전자가 사망했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports investigators found that the train involved in the June Bedford collision accelerated after the driver received an automatic warning for passing a red signal. The driver later died in the crash."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/01/bedford-rail-crash-report-train-sped-up-red-light-warning",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/uk-news/2026/oct/01/bedford-rail-crash-report-train-sped-up-red-light-warning"
-        ],
-        "firstPublishedAt": "2026-10-01T12:40:56.000Z",
-        "lastObservedAt": "2026-10-01T18:50:56.038Z"
-      }
-    },
-    {
       "id": "news-06024677b65ae0214f11f330",
       "title": "카니예 웨스트의 상트페테르부르크 공연 공식 취소",
       "titleTranslations": {
@@ -1941,34 +2053,6 @@
           "https://www.bbc.co.uk/news/articles/cm74k417wpjxo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-01T12:13:28.000Z",
-        "lastObservedAt": "2026-10-01T15:34:35.147Z"
-      }
-    },
-    {
-      "id": "news-13664d73504d14501d49bce2",
-      "title": "뉴저지 데이터센터, 무허가 발전기 가동으로 장기간 유해배출 발생 기록",
-      "titleTranslations": {
-        "en": "US datacenter discharged large amounts of pollution for almost a year with no permits"
-      },
-      "startAt": "2026-10-01T12:00:51.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "공개 기록에 따르면 뉴저지 빈랜드의 데이터센터가 허가 없이 가동한 62대의 가스발전기에서 거의 1년 가까이 건강에 해로운 대기오염 물질을 배출한 정황이 드러났고, 주 규제당국이 개입해 과징금을 부과했다는 보도가 나왔다.",
-      "descriptionTranslations": {
-        "en": "Public records show a Vineland, New Jersey datacenter ran 62 gas‑fired generators without permits and emitted significant amounts of health‑harmful air pollution for nearly a year before state regulators intervened and fined the operator, according to reporting."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/01/us-datacenter-new-jersey-pollution",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/01/us-datacenter-new-jersey-pollution"
-        ],
-        "firstPublishedAt": "2026-10-01T12:00:51.000Z",
         "lastObservedAt": "2026-10-01T15:34:35.147Z"
       }
     },
@@ -2113,62 +2197,6 @@
         ],
         "firstPublishedAt": "2026-09-30T18:01:14.000Z",
         "lastObservedAt": "2026-09-30T18:26:05.533Z"
-      }
-    },
-    {
-      "id": "news-c696e8b1f34224735a5b522f",
-      "title": "딥마인드, 단백질에 기능 훼손 없이 워터마크 넣는 'SynthID Bio' 개념증명 발표",
-      "titleTranslations": {
-        "en": "Introducing SynthID Bio"
-      },
-      "startAt": "2026-09-30T15:03:07.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "딥마인드는 AI가 생성한 단백질에 생물학적 기능을 보존하면서 워터마크를 삽입하는 기술의 개념증명 'SynthID Bio'를 공개했다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "DeepMind announced a proof of concept called 'SynthID Bio' for watermarking AI‑generated proteins while preserving their biological function."
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/introducing-synthid-bio/"
-        ],
-        "firstPublishedAt": "2026-09-30T15:03:07.000Z",
-        "lastObservedAt": "2026-09-30T18:26:05.533Z"
-      }
-    },
-    {
-      "id": "news-94fb6a179526bde2e5c0866f",
-      "title": "HS2 노선 주변에 조성된 인공 초지에서 야생동물 빠르게 정착",
-      "titleTranslations": {
-        "en": "Wildlife arrives on time at rewilded chalk grasslands built along HS2 route"
-      },
-      "startAt": "2026-09-30T12:00:43.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 1,
-      "description": "보도는 HS2 공사 구간 주변에 조성된 인공 초지가 4년 만에 조류·나비 등 다양한 야생생물을 불러들이며 성공적으로 조성되었다고 전했다. 대규모 재조성 사업이 상대적으로 짧은 기간에 생태적 성과를 낸 사례로 소개됐다.",
-      "descriptionTranslations": {
-        "en": "Coverage reports that artificial chalk grasslands created along the HS2 route have, within four years, attracted a variety of wildlife — birds, butterflies and insects — demonstrating rapid ecological establishment from a large‑scale rewilding project."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/sep/30/hs2-colne-valley-wildlife-rewilding-chalk-grasslands",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/uk-news/2026/sep/30/hs2-colne-valley-wildlife-rewilding-chalk-grasslands"
-        ],
-        "firstPublishedAt": "2026-09-30T12:00:43.000Z",
-        "lastObservedAt": "2026-10-01T15:34:35.147Z"
       }
     },
     {
@@ -2431,35 +2459,6 @@
         ],
         "firstPublishedAt": "2026-09-23T17:15:32.000Z",
         "lastObservedAt": "2026-09-23T17:50:38.833Z"
-      }
-    },
-    {
-      "id": "news-caaf4b1f8cd66a723a0674cc",
-      "title": "AstroForge, 차기 우주선 'Autonomy‑1'에 소형 AI 모델 탑재해 자율 운용 계획",
-      "titleTranslations": {
-        "en": "AstroForge to put a small, transformer‑based AI model in command of its next spacecraft, Autonomy‑1"
-      },
-      "startAt": "2026-09-22T15:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "TechCrunch 보도에 따르면 우주 스타트업 AstroForge는 차기 탐사선 'Autonomy‑1'에 트랜스포머 기반의 소형 AI 모델을 탑재해 우주선의 자율 제어·운용을 맡기겠다고 밝혔다. 이는 우주 분야에서의 자율화와 AI 적용 확대를 보여주는 사례다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch reports that space startup AstroForge plans to equip its next spacecraft, Autonomy‑1, with a small transformer‑based AI model to take on autonomous control of the probe. The move exemplifies expanded use of autonomy and AI in space operations."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/"
-        ],
-        "firstPublishedAt": "2026-09-22T15:00:00.000Z",
-        "lastObservedAt": "2026-09-22T17:38:10.336Z"
       }
     }
   ]
