@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "pip-motions-v1",
+  "id": "pip-root-motion-v2",
   "name": "Pip",
-  "asset": "test-character-motions.glb",
+  "asset": "test-character-motions.glb?v=0.4.0",
   "clips": {
     "idle": "Idle",
     "walk": "Walk",
