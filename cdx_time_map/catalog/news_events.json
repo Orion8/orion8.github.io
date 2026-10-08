@@ -1,8 +1,293 @@
 {
-  "catalogVersion": "0.0.151",
-  "updatedAt": "2026-10-08T07:18:14.887Z",
+  "catalogVersion": "0.0.152",
+  "updatedAt": "2026-10-08T19:17:02.143Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-88e135495155bb9585b24058",
+      "title": "마드리드 중심가에 텐트촌…시위대, ‘독수리펀드(vulture funds)’를 주택위기의 책임으로 비난",
+      "titleTranslations": {
+        "en": "Hundreds pitch tents in central Madrid as protesters blame ‘vulture funds’ for housing crisis"
+      },
+      "startAt": "2026-10-08T19:10:06.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC는 수백 명의 시위대가 마드리드 중심부에 텐트를 치고 주택 위기를 항의하며 '독수리펀드'를 비난했다고 보도했다. 보도는 이 시위가 총리의 조기 총선 선언과 맞물려 일어났다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports hundreds of protesters have pitched tents in central Madrid blaming so‑called 'vulture funds' for Spain's housing crisis. The coverage notes the demonstrations come as the prime minister has called a snap election."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-05T19:30:50.000Z",
+        "lastObservedAt": "2026-10-08T19:17:02.142Z"
+      }
+    },
+    {
+      "id": "news-5a9a117643219a5e7ee4ba66",
+      "title": "NASA SPHEREx 망원경, 갈색왜성의 화학적으로 풍부한 대기 관측",
+      "titleTranslations": {
+        "en": "NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs"
+      },
+      "startAt": "2026-10-08T18:22:48.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 SPHEREx 망원경 관측을 통해 별과 외계행성의 중간에 위치한 갈색왜성들이 화학적으로 풍부한 대기를 지닌 것으로 나타났다고 전했다. 새로운 결과는 The Astrophysical Journal에 소개되었다.",
+      "descriptionTranslations": {
+        "en": "NASA reports that its SPHEREx telescope observations reveal brown dwarfs — objects between stars and planets — have chemically rich atmospheres. The new findings are presented in The Astrophysical Journal."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+        ],
+        "firstPublishedAt": "2026-10-08T18:22:48.000Z",
+        "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
+    {
+      "id": "news-ce4759d985bb5f9264acadee",
+      "title": "골드만삭스 최고임원들, 최대 5억 달러 규모 보너스 분배 예정",
+      "titleTranslations": {
+        "en": "Top bosses at Goldman Sachs to share bonus pot worth up to $500m"
+      },
+      "startAt": "2026-10-08T18:09:14.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "가디언은 골드만삭스 최고 경영진 20명이 최대 5억 달러(약 3억7,800만 파운드) 규모의 보너스 풀을 나누게 되며, 데이비드 솔로몬 CEO가 약 1억 달러를 받을 전망이라고 보도했다. 보상은 주식 형태로 지급된다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports 20 senior bankers at Goldman Sachs are set to share a bonus pool worth up to $500m, with CEO David Solomon expected to receive about $100m of the award, paid in stock."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/08/top-bosses-goldman-sachs-bonus-pot",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/08/top-bosses-goldman-sachs-bonus-pot"
+        ],
+        "firstPublishedAt": "2026-10-08T18:09:14.000Z",
+        "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
+    {
+      "id": "news-5fbc1e1fe902455527958953",
+      "title": "베네수엘라 전 지도자 니콜라스 마두로, 고문 공모 혐의로 기소",
+      "titleTranslations": {
+        "en": "Venezuela's ex‑leader Nicolás Maduro charged with conspiracy to commit torture"
+      },
+      "startAt": "2026-10-08T17:38:59.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC는 니콜라스 마두로 전 베네수엘라 대통령이 임기 시절 억류됐던 미국 시민들에 대한 고문 관련 공모 혐의로 기소됐다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports former Venezuelan leader Nicolás Maduro has been charged with conspiracy to commit torture over alleged abuse of US citizens held while he was in power."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-08T17:38:59.000Z",
+        "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
+    {
+      "id": "news-508dbedb31c35a4cfe4c1134",
+      "title": "스페이스X 크루‑12 승무원, 태평양에 무사히 착수(스플래시다운)",
+      "titleTranslations": {
+        "en": "NASA’s SpaceX Crew‑12 Splashes Down, Sets Briefing to Discuss Mission"
+      },
+      "startAt": "2026-10-08T17:02:28.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 7개월 넘게 국제우주정거장에서 임무를 수행한 스페이스X 크루‑12 승무원들이 태평양(로스앤젤레스 해안 인근)에 안전하게 착수했다고 발표했다. 승무원들은 미시간 존슨 우주센터에서 임무 관련 브리핑을 할 예정이다.",
+      "descriptionTranslations": {
+        "en": "NASA announced that the SpaceX Crew‑12 astronauts, who spent more than seven months aboard the International Space Station, safely splashed down in the Pacific Ocean off the coast of Los Angeles. The crew will hold a briefing at Johnson Space Center to discuss their mission."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/"
+        ],
+        "firstPublishedAt": "2026-10-08T17:02:28.000Z",
+        "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
+    {
+      "id": "news-aba2301676c90bdcbb4e8634",
+      "title": "아마존, 1천번째 위성 완성…연말까지 우주 인터넷 서비스 롤아웃 예고",
+      "titleTranslations": {
+        "en": "Amazon builds 1,000th satellite, will launch space internet service by end of year"
+      },
+      "startAt": "2026-10-08T15:28:36.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Ars Technica는 아마존이 1,000번째 통신 위성을 조립했으며 연말까지 우주 기반 인터넷 서비스를 시작할 계획이라고 보도했다. 보도는 위성 네트워크 구축의 이정표라고 평가했다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports Amazon has completed its 1,000th satellite and plans to launch its space‑based internet service by the end of the year — a milestone in building its satellite network."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/"
+        ],
+        "firstPublishedAt": "2026-10-08T15:28:36.000Z",
+        "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
+    {
+      "id": "news-560eca729a882f92e6b6dc69",
+      "title": "법정 제출된 내부 문서, 엑슨모빌의 기후 관련 오도 의혹을 뒷받침",
+      "titleTranslations": {
+        "en": "Internal files add to evidence of an ExxonMobil climate deception campaign"
+      },
+      "startAt": "2026-10-08T14:04:42.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Ars Technica는 소송 관련 법원 제출 자료가 수십 년간의 엑슨모빌 내부 기후 논의를 드러내며 회사의 기후 정보 전달 방식에 대한 추가 증거를 제공한다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports court filings have revealed new details of ExxonMobil's decades‑long internal deliberations on climate, adding to evidence of allegations the company misled the public about climate risks."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/"
+        ],
+        "firstPublishedAt": "2026-10-08T14:04:42.000Z",
+        "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
+    {
+      "id": "news-2551c688cfa7115fd10a9e30",
+      "title": "앤 카슨, 2026년 노벨문학상 수상",
+      "titleTranslations": {
+        "en": "Anne Carson wins Nobel Prize in Literature 2026"
+      },
+      "startAt": "2026-10-08T14:03:29.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 3,
+      "description": "가디언은 캐나다의 시인이자 수필가인 앤 카슨이 2026년 노벨문학상을 수상했다고 보도했다. 스웨덴 아카데미는 고전 전통과 대담하게 대화하며 현대문학의 새로운 형식을 창조한 점을 수상 이유로 밝혔다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports Canadian poet and essayist Anne Carson has been awarded the 2026 Nobel Prize in Literature. The Swedish Academy cited her bold, inventive oeuvre and its playful dialogue with the classical tradition."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026"
+        ],
+        "firstPublishedAt": "2026-10-08T14:03:29.000Z",
+        "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
+    {
+      "id": "news-ea13eba4a7e8245e72ccafac",
+      "title": "크라이슬러 빌딩 매각…맨해튼 상징 '크라운' 복원 계획",
+      "titleTranslations": {
+        "en": "Chrysler Building to get its crown restored after being sold"
+      },
+      "startAt": "2026-10-08T12:49:12.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC는 뉴욕 맨해튼의 상징적 고층건물 크라이슬러 빌딩이 매각되었으며, 대대적 보수와 '크라운' 복원을 통해 새 사무공간을 공급할 예정이라고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports the iconic Chrysler Building in Manhattan has been sold and will undergo major renovations, including restoring its distinctive crown, to provide new office space."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8g47z3r4dzvo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c8g47z3r4dzvo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-08T12:49:12.000Z",
+        "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
+    {
+      "id": "news-a6d379b967c52bdf822983b9",
+      "title": "런던~웨릭샴·로치데일 직행 열차 도입 계획 규제당국 거부",
+      "titleTranslations": {
+        "en": "New direct train services from London to Wrexham and Rochdale rejected"
+      },
+      "startAt": "2026-10-08T09:38:00.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언은 철도 규제기관(Office of Rail and Road)이 서부 회선의 혼잡으로 인해 런던에서 웨릭샴(Wrexham)과 로치데일(Rochdale)로 향하는 새로운 직행 노선 도입을 거부했다고 보도했다. 블랙풀 추가 서비스도 수용되지 않았다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports the Office of Rail and Road rejected plans to introduce direct services from London to Wrexham and Rochdale because of significant pressure and lack of capacity on the West Coast mainline; an extra Blackpool service was also vetoed."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/08/wrexham-rochdale-train-services-rejected-west-coast-line-blackpool-london",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/08/wrexham-rochdale-train-services-rejected-west-coast-line-blackpool-london"
+        ],
+        "firstPublishedAt": "2026-10-08T09:38:00.000Z",
+        "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
     {
       "id": "news-c2494a992a48d07897f90756",
       "title": "이스라엘, 영국 예루살렘 총영사관에서 대부분 외교관 철수 통보",
@@ -995,34 +1280,6 @@
       }
     },
     {
-      "id": "news-88e135495155bb9585b24058",
-      "title": "스페인 총리, 주택 문제에 기대 걸고 총선 조기 선거 단행",
-      "titleTranslations": {
-        "en": "Spain PM pins hopes on housing crisis to help win snap election"
-      },
-      "startAt": "2026-10-05T19:30:50.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "BBC는 페드로 산체스 총리가 주택 위기를 정면에 내세워 신중히 계획된 조기 총선을 단행했다고 보도했다. 보도는 선거 판단이 산체스의 정치적 의도에 따른 계산된 결단이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports Prime Minister Pedro Sánchez called a snap election, framing the move around the housing crisis. The coverage says the decision was a calculated political manoeuvre rather than a knee‑jerk reaction."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-05T19:30:50.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.775Z"
-      }
-    },
-    {
       "id": "news-3e38a0d033570718aa393cde",
       "title": "해리 케인, 잉글랜드 최다 출전 기록에 근접 — 대표팀 위상 재조명",
       "titleTranslations": {
@@ -1251,34 +1508,6 @@
       }
     },
     {
-      "id": "news-7a3a22543a1af81c30908e41",
-      "title": "BT, 브로드밴드 사업자 톡톡(TalkTalk) 인수 구조 합의",
-      "titleTranslations": {
-        "en": "BT agrees rescue deal to buy broadband operator TalkTalk"
-      },
-      "startAt": "2026-10-05T06:52:56.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC는 BT가 구제(구조) 합의를 통해 브로드밴드 사업자 톡톡을 인수하기로 합의했다고 보도했다. 인수는 규제당국의 승인을 받아야 하지만 톡톡의 수백만 고객에게 불확실성을 해소해줄 것이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports BT has agreed a rescue deal to buy broadband operator TalkTalk. The takeover still requires regulator approval but would provide certainty to TalkTalk’s millions of customers."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvze4g06526ro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cvze4g06526ro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-05T06:52:56.000Z",
-        "lastObservedAt": "2026-10-05T06:58:11.657Z"
-      }
-    },
-    {
       "id": "news-ee9cfb9e6e636de26ebcc9fa",
       "title": "트럼프, '슈퍼 인텔리전스 포스' 수장에 국가정보국장 지명",
       "titleTranslations": {
@@ -1365,34 +1594,6 @@
         ],
         "firstPublishedAt": "2026-10-05T04:00:52.000Z",
         "lastObservedAt": "2026-10-05T06:58:11.657Z"
-      }
-    },
-    {
-      "id": "news-2ebb5eac41a3dccaaa3da424",
-      "title": "예멘 정부, 후티로부터 영토 회복 위해 전면전 선포",
-      "titleTranslations": {
-        "en": "Yemen government announces all‑out war to reclaim land from Houthis"
-      },
-      "startAt": "2026-10-04T16:51:30.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "예멘 대통령이 후티 반군으로부터 영토를 되찾기 위해 전면전을 선포했다고 발표했다. 이 발표는 후티와 사우디 주도 연합 간의 공습 교환이 이어지는 가운데 나왔다.",
-      "descriptionTranslations": {
-        "en": "The Yemeni president announced an all‑out war to reclaim land from the Houthis. The announcement comes amid an exchange of strikes between the Houthis and the Saudi‑led coalition."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-04T16:51:30.000Z",
-        "lastObservedAt": "2026-10-04T17:33:36.939Z"
       }
     },
     {
@@ -1799,36 +2000,6 @@
       }
     },
     {
-      "id": "news-3e79d557acc7c9987dde3763",
-      "title": "금성의 신비한 연무, 사실은 우주먼지일 수 있다는 연구",
-      "titleTranslations": {
-        "en": "Venus' mysterious haze is actually cosmic dust"
-      },
-      "startAt": "2026-10-01T22:27:04.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아르스테크니카 보도에 따르면 물리적 모델 연구에서 철(iron) 먼지와 황산이 결합해 금성 상층의 관측된 연무 성질을 설명할 수 있다는 결과가 나왔다. 연구는 금성 대기의 연무 기원에 대한 새로운 해석을 제시한다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that a physical model indicates iron dust combined with sulfuric acid can reproduce the observed properties of Venus's mysterious haze, offering a new interpretation of the haze's origin in Venusian atmosphere studies."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/"
-        ],
-        "firstPublishedAt": "2026-10-01T22:27:04.000Z",
-        "lastObservedAt": "2026-10-02T06:58:56.747Z"
-      }
-    },
-    {
       "id": "news-09a227382f8aa4fff1bb7bb2",
       "title": "미국 주(州)·도시들, 트럼프 행정부의 발전소 온실가스 규정 폐지에 대해 소송 제기",
       "titleTranslations": {
@@ -1853,34 +2024,6 @@
           "https://www.theguardian.com/environment/2026/oct/01/us-states-cities-trump-epa-climate-emissions"
         ],
         "firstPublishedAt": "2026-10-01T22:24:25.000Z",
-        "lastObservedAt": "2026-10-02T06:58:56.747Z"
-      }
-    },
-    {
-      "id": "news-9be4503a986a4cda369c7a4a",
-      "title": "영국, 항공사가 부모들에게 아이와 함께 앉는 자리를 유료로 판매하는 관행 금지 계획",
-      "titleTranslations": {
-        "en": "UK airlines to be banned from charging parents to sit with children"
-      },
-      "startAt": "2026-10-01T21:41:19.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언은 영국 정부가 14세 미만 승객이 부모나 동반 성인 옆에 무료로 앉도록 항공사에 요구하는 규정을 포함한 계획을 검토 중이라고 보도했다. 또한 예약 시 이름 수정에 요금을 부과하지 못하도록 하는 방안도 검토되고 있다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports the UK government plans to ban airlines from charging parents extra to sit next to their children under 14, requiring airlines to seat such passengers next to a parent or accompanying adult free of charge. Proposals also include banning name‑change fees for minor corrections."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/01/uk-airlines-to-be-banned-from-charging-parents-to-sit-with-children",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/01/uk-airlines-to-be-banned-from-charging-parents-to-sit-with-children"
-        ],
-        "firstPublishedAt": "2026-10-01T21:41:19.000Z",
         "lastObservedAt": "2026-10-02T06:58:56.747Z"
       }
     },
@@ -1943,34 +2086,6 @@
       }
     },
     {
-      "id": "news-cc530636f53150f8479850be",
-      "title": "NASA·스페이스X 크루‑13, 국제우주정거장행 발사 성공",
-      "titleTranslations": {
-        "en": "NASA’s SpaceX Crew‑13 Launches to International Space Station"
-      },
-      "startAt": "2026-10-01T15:59:24.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 크루‑13의 승무원 4명이 플로리다 케이프커내버럴에서 발사돼 국제우주정거장으로 향하는 과학 원정에 나섰다고 발표했다.",
-      "descriptionTranslations": {
-        "en": "NASA says four crew members of the SpaceX Crew‑13 mission launched from Cape Canaveral, Florida, en route to the International Space Station for a science expedition."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/"
-        ],
-        "firstPublishedAt": "2026-10-01T15:59:24.000Z",
-        "lastObservedAt": "2026-10-01T18:50:56.038Z"
-      }
-    },
-    {
       "id": "news-bc44a1b0bed66f710a34d039",
       "title": "콜로라도강 저수지 급감 — 미 서부 주요 저수지 역사적 저수위",
       "titleTranslations": {
@@ -1996,36 +2111,6 @@
         ],
         "firstPublishedAt": "2026-10-01T15:55:58.000Z",
         "lastObservedAt": "2026-10-02T18:23:40.084Z"
-      }
-    },
-    {
-      "id": "news-67539dd92a44e131582e79c1",
-      "title": "미‧중 관계 긴장 속 캐나다 자체 발사 산업 본격화",
-      "titleTranslations": {
-        "en": "As US relations fray, Canada gets serious about its own launch industry"
-      },
-      "startAt": "2026-10-01T15:30:49.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아르스테크니카 보도에 따르면 캐나다 내 민간업체들이 중형 발사체 개발을 본격화하고 있으며, 미·중 등 국제 정세 변화 속에 자국 발사 능력 확보 움직임이 빨라지고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports Canadian private firms are accelerating development of medium‑lift launch vehicles as Canada seeks to bolster domestic launch capability amid shifting international relations and reduced reliance on US launch services."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/"
-        ],
-        "firstPublishedAt": "2026-10-01T15:30:49.000Z",
-        "lastObservedAt": "2026-10-01T18:50:56.038Z"
       }
     },
     {
@@ -2172,34 +2257,6 @@
       }
     },
     {
-      "id": "news-1a256a6cd7fcd9a7ec501a6a",
-      "title": "트럼프, 한국으로부터 2천억달러 규모 에너지 투자 발표 예정",
-      "titleTranslations": {
-        "en": "Trump set to announce $200bn in energy investments from South Korea"
-      },
-      "startAt": "2026-09-30T18:01:14.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도에 따르면 도널드 트럼프 전 대통령은 공화당의 경제 실적을 부각하기 위해 한국 측으로부터 약 2천억 달러 규모의 에너지 투자를 발표할 예정이라고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say former President Donald Trump is set to announce roughly $200 billion in energy investments from South Korea, part of an effort to tout the Republican Party's economic record."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/economy/2026/9/30/trump-set-to-announce-200bn-in-energy-investments-from-south-korea?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/economy/2026/9/30/trump-set-to-announce-200bn-in-energy-investments-from-south-korea?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-09-30T18:01:14.000Z",
-        "lastObservedAt": "2026-09-30T18:26:05.533Z"
-      }
-    },
-    {
       "id": "news-3bf2aef00178636c4b6cc3b2",
       "title": "유럽‑중국 공동 SMILE 미션, 9월 과학 운용 시작 선언",
       "titleTranslations": {
@@ -2225,34 +2282,6 @@
         ],
         "firstPublishedAt": "2026-09-30T07:05:00.000Z",
         "lastObservedAt": "2026-09-30T18:26:05.533Z"
-      }
-    },
-    {
-      "id": "news-c3bccf2fbab336e5659f90eb",
-      "title": "NASA, 2027년 인간 착륙선 통신 과제 개방 — 대학생 아이디어 모집",
-      "titleTranslations": {
-        "en": "NASA opens 2027 Human Lander Challenge for lunar communications — solicits student ideas"
-      },
-      "startAt": "2026-09-29T21:27:56.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA가 2027년 인간 착륙선 통신 문제를 다루는 'Human Lander Challenge'를 개방하고 대학·대학원생들의 아이디어를 모집한다고 밝혔다. 해당 과제는 달 장기 탐사에서 신뢰할 수 있는 통신 체계의 필요성을 겨냥한 것이다.",
-      "descriptionTranslations": {
-        "en": "NASA opened the 2027 Human Lander Challenge focused on lunar communications and is seeking ideas from college and university students. The challenge targets the need for reliable communications in long‑term lunar exploration."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/"
-        ],
-        "firstPublishedAt": "2026-09-29T21:27:56.000Z",
-        "lastObservedAt": "2026-09-30T06:38:54.853Z"
       }
     },
     {
