@@ -1,8 +1,204 @@
 {
-  "catalogVersion": "0.0.153",
-  "updatedAt": "2026-10-09T07:22:01.130Z",
+  "catalogVersion": "0.0.154",
+  "updatedAt": "2026-10-09T18:47:28.069Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-22a5f858763d26f1554fef85",
+      "title": "미국, 국제형사재판소(ICC)에 제재 발표 — 법원은 ‘법치에 대한 공격’이라 비판",
+      "titleTranslations": {
+        "en": "US unveils sanctions on the ICC as court condemns move as an 'assault on rule of law'"
+      },
+      "startAt": "2026-10-09T18:40:10.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 보도에 따르면 미국은 국제형사재판소(ICC)에 대한 제재를 발표했다. 보도는 재판부가 이를 '법치에 대한 공격(assault on rule of law)'이라고 규탄했으며, 몇몇 회원국(영국 포함)이 강하게 반대한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC reports the United States has announced sanctions on the International Criminal Court (ICC). The coverage says the court condemned the move as an 'assault on the rule of law' and that several member states, including the UK, have said they strongly disagree."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-09T18:40:10.000Z",
+        "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
+    {
+      "id": "news-a4106c4b8a33ca378d9f3f2b",
+      "title": "NASA, 차세대 상업용 우주정거장 계획 제출 위한 최종 제안요청서(RFP) 발표",
+      "titleTranslations": {
+        "en": "NASA releases final Request for Proposals seeking industry plans for next‑generation commercial space stations"
+      },
+      "startAt": "2026-10-09T18:11:44.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA는 저궤도에서 상업용 우주정거장이 주도하는 미래를 향해 미국의 우주 리더십을 진전시키기 위해 업계에 차세대 상업용 우주정거장 계획 제출을 요청하는 최종 RFP를 공개했다고 밝혔다(보도자료).",
+      "descriptionTranslations": {
+        "en": "NASA announced it has issued a final Request for Proposals inviting industry to submit plans for the next generation of commercial space stations, advancing US leadership in low Earth orbit, according to the agency's announcement."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/"
+        ],
+        "firstPublishedAt": "2026-10-09T18:11:44.000Z",
+        "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
+    {
+      "id": "news-1b37092663e082cee13f0957",
+      "title": "나비 필레이 전 유엔 인권최고대표, 2026년 노벨평화상 수상",
+      "titleTranslations": {
+        "en": "Navi Pillay, former UN human rights chief, wins the Nobel Peace Prize"
+      },
+      "startAt": "2026-10-09T17:37:10.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC는 노르웨이 노벨위원회가 나비 필레이(Navi Pillay)를 '평화와 국제법 증진을 위한 노력'을 이유로 노벨평화상 수상자로 선정했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports that the Norwegian Nobel Committee has awarded the 2026 Nobel Peace Prize to Navi Pillay, citing her 'efforts to promote peace and international law.'"
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-09T17:37:10.000Z",
+        "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
+    {
+      "id": "news-b85427f614ddb37d467c541d",
+      "title": "NASA, 재진입용 차세대 히트쉴드 기술 시연 — 소형 실험 캡슐 탑재 화물선 활용",
+      "titleTranslations": {
+        "en": "NASA demonstrates next‑generation heat‑shield technologies using experimental capsules flown on a cargo vehicle"
+      },
+      "startAt": "2026-10-09T16:59:24.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 국제우주정거장에서 분리된 노스롭 그루먼의 24번째 보급 임무가 12개의 소형 실험 캡슐을 탑재해 우주에서 재진입용 차세대 히트쉴드 기술을 시험했다고 밝혔다. 기관은 이 기술이 달·화성 임무의 귀환 시 우주비행사 보호에 기여할 것이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "NASA says that Northrop Grumman’s 24th cargo resupply mission undocked carrying 12 small experimental capsules designed to test next‑generation heat‑shield technologies, and that the agency demonstrated these technologies aimed at keeping astronauts safe on returns from Moon and Mars missions."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/"
+        ],
+        "firstPublishedAt": "2026-10-09T16:59:24.000Z",
+        "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
+    {
+      "id": "news-27e565231ea632c0ce1e1eed",
+      "title": "버넘 총리(또는 Burnham), 근로계약의 경쟁금지 조항 제한 약속",
+      "titleTranslations": {
+        "en": "Burnham promises to curb non‑compete rules in job contracts"
+      },
+      "startAt": "2026-10-09T16:15:30.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 총리는 퇴직 후 근로자가 할 수 있는 활동을 제한하는 경쟁금지 조항이 '지나치게 확대됐다'며 해당 규정을 제약하겠다고 약속했다.",
+      "descriptionTranslations": {
+        "en": "BBC reports the prime minister said restrictions in non‑compete clauses that limit what workers can do after leaving roles have 'gone too far' and pledged to curb such rules in employment contracts."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-09T16:15:30.000Z",
+        "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
+    {
+      "id": "news-5c865f02f0f95e22da4886e7",
+      "title": "보고서: 트럼프의 반이민 정책이 2034년 이후 미 노령층 연간 사회보장 지급을 약 8.6% 줄일 수 있어",
+      "titleTranslations": {
+        "en": "Report: Trump’s anti‑immigration measures could cut US Social Security payments by about 8.6% by 2034"
+      },
+      "startAt": "2026-10-09T12:00:28.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 새 보고서는 도널드 트럼프 행정부의 반이민 캠페인이 이어질 경우 2034년부터 미국의 은퇴 연금(사회보장)이 연평균 약 8.6% 감소해 노인 1인당 연간 약 2,152달러(평균 손실)를 잃을 수 있다고 전망했다. 보고서는 지난 2년간 외국인 노동자 약 120만 명의 급작스러운 이탈로 식품 물가 상승, 주택 건축 허가 감소, 일부 일자리 손실 등이 발생했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports a new study projects that if President Trump’s anti‑immigration campaign continues, US Social Security retirement payments could fall by about 8.6% from 2034 onward, equating to an average loss of roughly $2,152 per retiree annually. The report says the past two years have seen a sudden exodus of about 1.2 million foreign‑born workers, contributing to higher food prices, fewer housing permits and some native‑born job losses."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/09/trump-immigration-cost-social-security",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/09/trump-immigration-cost-social-security"
+        ],
+        "firstPublishedAt": "2026-10-09T12:00:28.000Z",
+        "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
+    {
+      "id": "news-d49e7336b11d2f1551c7d44d",
+      "title": "영화 '크레이지 리치 아시안' 원작 배우들로 TV 시리즈 제작 결정",
+      "titleTranslations": {
+        "en": "'Crazy Rich Asians' to return as a TV show starring the original film's leads"
+      },
+      "startAt": "2026-10-09T10:54:21.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "description": "BBC 문화 보도에 따르면 2018년 영화 '크레이지 리치 아시안'의 이야기를 이어가는 TV 시리즈가 제작되며, 원작 영화의 주연들(콘스턴스 우, 헨리 골딩, 미셀 여, 로니 치엥 등)이 출연할 예정이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC Culture reports that 'Crazy Rich Asians' will return as a television series continuing the 2018 film, with the original film’s stars — including Constance Wu, Henry Golding, Michelle Yeoh and Ronny Chieng — set to appear."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm5yne8k6zw8o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm5yne8k6zw8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-09T10:54:21.000Z",
+        "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
     {
       "id": "news-2eced5b9b09d88190f57c849",
       "title": "엔비디아 지원 데이터센터업체 Firmus, IPO 철회",
@@ -717,6 +913,36 @@
       }
     },
     {
+      "id": "news-db23c0e6d497c6d618760cd8",
+      "title": "IEEE 보고서: AI가 에너지·인프라·물리시스템과 결합하는 등 2030년까지 생활을 바꿀 기술 예측",
+      "titleTranslations": {
+        "en": "IEEE report forecasts technologies and megatrends that will transform lives by 2030, with AI embedded across sectors"
+      },
+      "startAt": "2026-10-07T18:00:02.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "IEEE가 발표한 '2030 Technology Megatrends' 보고서를 보도한 IEEE Spectrum은 인공지능이 에너지, 인프라, 물리적 시스템과 깊게 연결되며 유전자공학·유전자치료의 보급 등 30개 기술과 5대 메가트렌드가 향후 수년 내 삶을 변화시킬 것이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "IEEE Spectrum reports on the IEEE '2030 Technology Megatrends' report, which forecasts that artificial intelligence will be deeply integrated with energy, infrastructure and physical systems and that advances — including more widespread use of genetic engineering and gene therapies — among 30 technologies and five megatrends could reshape life by 2030."
+      },
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/ieee-report-predicts-tech",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/ieee-report-predicts-tech"
+        ],
+        "firstPublishedAt": "2026-10-07T18:00:02.000Z",
+        "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
+    {
       "id": "news-ef1cb57263e715da30abec18",
       "title": "영국 유통체인 Boots, 70억 파운드 규모로 캐나다 억만장자 가문에 매각",
       "titleTranslations": {
@@ -1225,34 +1451,6 @@
       }
     },
     {
-      "id": "news-d12cb19015e1afd72c258724",
-      "title": "오픈AI, 호주 정부 해킹 대응 '부족했다' 인정 — 청문회서 경영진 발언",
-      "titleTranslations": {
-        "en": "OpenAI admits response to Australian government hacks 'not good enough'"
-      },
-      "startAt": "2026-10-06T06:53:17.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 오픈AI의 고위 임원 제이슨 권은 청문회에서 자사 대응이 \"충분치 않았다\"고 인정하면서 훈련 환경에 \"더 많은 예방조치\"를 추가했다고 밝혔다. 보도는 이번 청문회가 기업의 보안·책임 문제를 환기시켰다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that OpenAI executive Jason Kwon told a hearing the company's response to hacks affecting the Australian government was \"not good enough,\" and that OpenAI has added \"more precautions\" to its training environments. The hearing has highlighted questions about corporate security and accountability."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-06T06:53:17.000Z",
-        "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
       "id": "news-ad970488ae153dfbda798dad",
       "title": "NHS 10개 트러스트, 적외선 침실 감시 장비 사용 동의 문제로 조사 의뢰",
       "titleTranslations": {
@@ -1508,37 +1706,6 @@
       }
     },
     {
-      "id": "news-e2184b73d2fcd8a28689498a",
-      "title": "플라비우 보우소나루, 브라질 대선 1차 투표에서 충격적 선두",
-      "titleTranslations": {
-        "en": "Flávio Bolsonaro poised to win Brazilian presidency after shock first‑round victory"
-      },
-      "startAt": "2026-10-05T20:06:18.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언은 플라비우 보우소나루가 1차 투표에서 5610만 표(47.03%)를 얻어, 루이스 이나시우 룰라 다 시우바의 5380만 표(45.16%)를 앞섰다고 보도했다. 기사는 결선투표가 10월 25일로 예정돼 있으며, 1985년 민주화 이후 1차 투표의 역전 승리는 전례가 거의 없다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports Flávio Bolsonaro led the first round with 56.1 million votes (47.03%) to Luiz Inácio Lula da Silva’s 53.8 million (45.16%). The story notes a runoff is scheduled for 25 October and that, since Brazil’s return to democracy in 1985, a first‑round runner‑up has rarely overturned the result."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/05/flavio-bolsonaro-brazilian-presidency-election-shock-first-round-victory",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
-          "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
-          "https://www.theguardian.com/world/2026/oct/05/flavio-bolsonaro-brazilian-presidency-election-shock-first-round-victory"
-        ],
-        "firstPublishedAt": "2026-10-03T02:57:07.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.775Z"
-      }
-    },
-    {
       "id": "news-0d628683405b9be7049e5b15",
       "title": "미 대법원, 대형 석유기업의 기후 피해 소송 차단 시도 심리(새 심기)",
       "titleTranslations": {
@@ -1767,37 +1934,6 @@
       }
     },
     {
-      "id": "news-ee9cfb9e6e636de26ebcc9fa",
-      "title": "트럼프, '슈퍼 인텔리전스 포스' 수장에 국가정보국장 지명",
-      "titleTranslations": {
-        "en": "Trump names national intelligence chief to head 'Super Intelligence Force'"
-      },
-      "startAt": "2026-10-05T06:15:29.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC는 대통령이 AI에 대한 우려가 커지는 가운데 새 태스크포스의 책임자로 국가정보국장을 지명했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports the president has named his national intelligence chief to lead a new taskforce amid growing concerns about AI."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
-          "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-04T15:15:10.000Z",
-        "lastObservedAt": "2026-10-05T06:58:11.657Z"
-      }
-    },
-    {
       "id": "news-1838985c2f6917589ffe921c",
       "title": "고대 이집트 '시종 희생' 가설 지지하는 새로운 법의학 증거",
       "titleTranslations": {
@@ -1973,63 +2109,6 @@
       }
     },
     {
-      "id": "news-9303edfce056f1aa358aa8cc",
-      "title": "NASA: 스페이스X 크루‑12 과학 임무 마무리 — 승무원 곧 귀환",
-      "titleTranslations": {
-        "en": "Heading Home: NASA’s SpaceX Crew‑12 Concludes Station Science Mission"
-      },
-      "startAt": "2026-10-02T19:30:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 크루‑12 승무원들이 국제우주정거장에서의 과학 임무를 마치고 10월 초 귀환할 예정이라고 밝혔다. 승무원은 제시카 메어, 잭 헤이저웨이, 유럽우주국의 소피 에드노트, 러시아의 안드레이 페댜예프이다.",
-      "descriptionTranslations": {
-        "en": "NASA says the SpaceX Crew‑12 mission has concluded its science mission on the International Space Station and that the crew — Jessica Meir, Jack Hathaway, ESA astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev — are scheduled to return to Earth in early October after supporting research that benefits life on Earth and prepares humans for future missions."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/"
-        ],
-        "firstPublishedAt": "2026-10-02T19:30:00.000Z",
-        "lastObservedAt": "2026-10-03T17:14:08.025Z"
-      }
-    },
-    {
-      "id": "news-36367861a20bb5c741a538db",
-      "title": "G7, 최대 1억 배럴의 원유·디젤 비축분 공동 방출 합의",
-      "titleTranslations": {
-        "en": "G7 agrees to release up to 100 million barrels of oil and diesel"
-      },
-      "startAt": "2026-10-02T18:52:03.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 G7 정상들은 유가 급등과 미국의 디젤 공급 차단 위협을 배경으로 전략적 원유·디젤 비축분에서 최대 1억 배럴을 coordinated 방식으로 방출하기로 합의했다. 프랑스 대통령은 일부 주요 경제국 장관들이 관련 비축분 방출에 동의했다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports G7 leaders have agreed to coordinate a drawdown of strategic crude oil and diesel reserves of up to 100 million barrels, following price spikes and concerns including a U.S. threat to cut diesel supplies. France's president said ministers from several major economies agreed to the release."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency"
-        ],
-        "firstPublishedAt": "2026-10-02T17:29:56.000Z",
-        "lastObservedAt": "2026-10-03T06:25:20.765Z"
-      }
-    },
-    {
       "id": "news-b25f6ac771241232e92089e2",
       "title": "맨체스터 시티, 유죄 판정에 항소 결정 공식 발표",
       "titleTranslations": {
@@ -2054,34 +2133,6 @@
           "https://www.bbc.co.uk/sport/football/articles/cqn7470513n0o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-02T17:43:48.000Z",
-        "lastObservedAt": "2026-10-02T18:23:40.084Z"
-      }
-    },
-    {
-      "id": "news-2b3fb9c367c3391384b26e4c",
-      "title": "NASA, 트랜소닉 동역학 터널에서 최초의 압력감응 페인트 시험 성공",
-      "titleTranslations": {
-        "en": "NASA conducts first pressure‑sensitive paint tests on a model wing in Transonic Dynamics Tunnel"
-      },
-      "startAt": "2026-10-02T16:10:55.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 랭글리 연구소의 트랜소닉 동역학 터널에서 최초의 종류 실험으로 비정상(언스테디) 압력감응 페인트를 사용해 표준 풍동 모델 주위의 공기 흐름을 연구했다고 밝혔다. 기관은 이 시험이 미래 항공기 기술 설계용 풍동 역량을 확장하는 데 기여할 것이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "NASA says researchers at Langley Research Center used unsteady Pressure Sensitive Paint in a first‑of‑its‑kind test in the Transonic Dynamics Tunnel to study airflow around a standard wind‑tunnel model wing. The agency says the tests will help expand wind‑tunnel capabilities for designing future aircraft technologies."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/"
-        ],
-        "firstPublishedAt": "2026-10-02T16:10:55.000Z",
         "lastObservedAt": "2026-10-02T18:23:40.084Z"
       }
     },
@@ -2254,64 +2305,6 @@
         ],
         "firstPublishedAt": "2026-10-01T15:55:58.000Z",
         "lastObservedAt": "2026-10-02T18:23:40.084Z"
-      }
-    },
-    {
-      "id": "news-06024677b65ae0214f11f330",
-      "title": "카니예 웨스트의 상트페테르부르크 공연 공식 취소",
-      "titleTranslations": {
-        "en": "Kanye West's Russia shows officially cancelled after weeks of uncertainty"
-      },
-      "startAt": "2026-10-01T12:13:28.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 1,
-      "description": "보도는 상트페테르부르크 공연을 둘러싼 혼선 끝에 해당 공연들이 공식적으로 취소됐다고 전했다. 경기장 측이 개최 동의를 부인하는 등 혼란이 지속된 이후의 결정이다.",
-      "descriptionTranslations": {
-        "en": "After weeks of uncertainty and confusion — including a stadium saying it had not agreed to host the shows — Kanye West's scheduled performances in St. Petersburg were officially cancelled, reporting says."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm74k417wpjxo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm74k417wpjxo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-01T12:13:28.000Z",
-        "lastObservedAt": "2026-10-01T15:34:35.147Z"
-      }
-    },
-    {
-      "id": "news-b0a68bf94cf796d660a356d9",
-      "title": "전기 도둑질 심각성·손실 줄이기 해법 — 델리의 실무적 해결 사례 보도",
-      "titleTranslations": {
-        "en": "Electricity theft is rampant, but Delhi found a fix"
-      },
-      "startAt": "2026-10-01T12:00:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보도는 전력망에서 발생하는 손실과 도난이 많은 국가들에서의 규모 문제를 지적하며, 델리가 도난·손실을 줄이는 실무적 방법을 찾아 성과를 낸 사례를 소개했다. 전력 손실을 줄이면 새로운 발전소 건설 수요를 일부 경감할 수 있다고 분석했다.",
-      "descriptionTranslations": {
-        "en": "Coverage highlights the widespread problem of electricity losses and theft in many countries and profiles Delhi's practical measures to reduce pilferage and losses. It notes that cutting losses can help meet rising demand without building as many new power plants."
-      },
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/electricity-theft",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/electricity-theft"
-        ],
-        "firstPublishedAt": "2026-10-01T12:00:02.000Z",
-        "lastObservedAt": "2026-10-01T15:34:35.147Z"
       }
     },
     {
