@@ -1,8 +1,150 @@
 {
-  "catalogVersion": "0.0.152",
-  "updatedAt": "2026-10-08T19:17:02.143Z",
+  "catalogVersion": "0.0.153",
+  "updatedAt": "2026-10-09T07:22:01.130Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-2eced5b9b09d88190f57c849",
+      "title": "엔비디아 지원 데이터센터업체 Firmus, IPO 철회",
+      "titleTranslations": {
+        "en": "Nvidia‑backed data centre firm scraps IPO"
+      },
+      "startAt": "2026-10-09T07:14:30.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 비즈니스는 엔비디아의 지원을 받는 데이터센터 업체 Firmus가 최근 시장 변동성과 현재의 시장 여건을 이유로 상장 계획을 철회했다고 보도했다. 보도는 인공지능 관련 밸류에이션 우려가 영향을 미쳤다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC Business reports that Firmus, a data‑centre firm backed by Nvidia, has scrapped its planned IPO, citing recent market volatility and prevailing market conditions amid concerns about AI‑related valuations."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-09T07:14:30.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
+      }
+    },
+    {
+      "id": "news-94b5fb9a44e2cc35c4a6aef5",
+      "title": "버진, 2030년 런던∼유럽 횡단 직행 열차 모형 공개 — 유로스타에 도전장",
+      "titleTranslations": {
+        "en": "Virgin unveils its future cross‑Channel train as it gears up to take on Eurostar"
+      },
+      "startAt": "2026-10-09T06:00:39.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언은 버진 그룹이 2030년 런던발 유럽 직행 열차 서비스 출시에 맞춰 내부 모형을 공개하고, 항공·크루즈·호텔 사업의 디자인 요소를 철도에 접목해 유로스타와 경쟁하겠다는 계획을 발표했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports Virgin Group has unveiled a mock‑up of its planned cross‑Channel train as it prepares to launch London‑to‑continental services in 2030, aiming to compete with Eurostar by applying design and service ideas from its airline, cruise and hotel businesses."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/09/virgin-cross-channel-train-eurostar",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/09/virgin-cross-channel-train-eurostar"
+        ],
+        "firstPublishedAt": "2026-10-09T06:00:39.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
+      }
+    },
+    {
+      "id": "news-80d942c554d1a4cea680659e",
+      "title": "정부 검토위, ADHD·자폐에 대해 과잉진단 위험 경고",
+      "titleTranslations": {
+        "en": "Government review warns of risk of over‑diagnosis of ADHD and autism"
+      },
+      "startAt": "2026-10-08T23:01:30.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 정부 검토는 어린 연령층을 중심으로 ADHD와 자폐 스펙트럼 장애에 대한 진단이 과거의 과소진단 시대에서 과잉진단 쪽으로 기울 위험이 있다고 경고했다. 검토는 진단 및 처치 접근 방식의 재평가 필요성을 제기했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports a government review warns there is a risk that diagnoses of ADHD and autism — particularly among younger people — may be shifting from past under‑diagnosis toward over‑diagnosis, calling for reassessment of diagnostic and treatment approaches."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crkg7n1ypj24o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crkg7n1ypj24o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-08T23:01:30.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
+      }
+    },
+    {
+      "id": "news-d39f5eac4fae4b4c94955b5f",
+      "title": "스페이스X, 스타링크 관련 근접 충돌 후 궤도 조정·조정 협력 강화 촉구",
+      "titleTranslations": {
+        "en": "SpaceX calls for better coordination in orbit after near‑misses with Starlink"
+      },
+      "startAt": "2026-10-08T21:37:32.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica는 스페이스X가 위성 간 또는 우주물체와의 근접 위험(수십~수백미터 수준의 접촉 가능성)을 보고하며 궤도 운영과 위성 조정에 대한 더 나은 국제적·산업적 협력을 촉구했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports SpaceX has described near‑misses — conjunctions measured in tens to hundreds of metres — involving Starlink satellites and has called for improved coordination in orbit among operators and regulators to reduce collision risk."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/"
+        ],
+        "firstPublishedAt": "2026-10-08T21:37:32.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
+      }
+    },
+    {
+      "id": "news-21dbc3bb11b8ef372699eaa8",
+      "title": "인도 배우 나나 파테카르 별세(75) — 강렬한 연기로 인도영화서 독자적 입지 구축",
+      "titleTranslations": {
+        "en": "Outspoken Indian actor Nana Patekar dies aged 75"
+      },
+      "startAt": "2026-10-08T20:38:11.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "BBC 문화 보도는 강렬한 연기와 독특한 연기 세계로 알려진 인도 배우 나나 파테카르가 75세로 갑자기 별세했다고 전했다. 보도는 그의 경력과 영화계에서의 영향력을 조명했다.",
+      "descriptionTranslations": {
+        "en": "BBC Culture reports that influential Indian actor Nana Patekar, known for intense performances and a distinctive place in Indian cinema, has died suddenly at the age of 75; coverage reviews his career and impact on film."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj3vqr5rknpeo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cj3vqr5rknpeo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-08T20:38:11.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
+      }
+    },
     {
       "id": "news-88e135495155bb9585b24058",
       "title": "마드리드 중심가에 텐트촌…시위대, ‘독수리펀드(vulture funds)’를 주택위기의 책임으로 비난",
@@ -30,6 +172,34 @@
         ],
         "firstPublishedAt": "2026-10-05T19:30:50.000Z",
         "lastObservedAt": "2026-10-08T19:17:02.142Z"
+      }
+    },
+    {
+      "id": "news-d59cc0b77d168d9bb5c389bf",
+      "title": "부통령 JD 밴스, 마이크로소프트의 H‑1B 근로자 영주권 신청 '정지' 발표",
+      "titleTranslations": {
+        "en": "JD Vance says Microsoft suspended from applying for green cards for H‑1B workers"
+      },
+      "startAt": "2026-10-08T18:23:47.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언은 미국 부통령 JD 밴스가 마이크로소프트가 H‑1B 비자 소지 근로자들의 영주권(그린카드) 신청을 할 수 없도록 정지되었다고 발표했다고 보도했다. 보도는 부통령의 주장이 회사 측 입장과 상충할 수 있음을 시사한다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports U.S. Vice‑President JD Vance announced that Microsoft has been suspended from applying for green cards for workers on H‑1B visas. Coverage notes the vice‑president’s claim may conflict with the company’s position."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/08/jd-vance-microsoft-visa-workers-green-card-suspension",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/oct/08/jd-vance-microsoft-visa-workers-green-card-suspension"
+        ],
+        "firstPublishedAt": "2026-10-08T18:23:47.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
       }
     },
     {
@@ -89,31 +259,61 @@
       }
     },
     {
-      "id": "news-5fbc1e1fe902455527958953",
-      "title": "베네수엘라 전 지도자 니콜라스 마두로, 고문 공모 혐의로 기소",
+      "id": "news-8c7682c88c8abe91c1ef4052",
+      "title": "천문학자들, 지금까지 관측된 것 중 가장 먼 패스트 라디오 버스트(FRB) 검출",
       "titleTranslations": {
-        "en": "Venezuela's ex‑leader Nicolás Maduro charged with conspiracy to commit torture"
+        "en": "Astronomers detect one of the most distant fast radio bursts ever recorded"
       },
-      "startAt": "2026-10-08T17:38:59.000Z",
+      "startAt": "2026-10-08T18:00:25.000Z",
       "lane": "world",
-      "category": "politicsSociety",
+      "category": "scienceTechnology",
       "importance": 3,
-      "description": "BBC는 니콜라스 마두로 전 베네수엘라 대통령이 임기 시절 억류됐던 미국 시민들에 대한 고문 관련 공모 혐의로 기소됐다고 보도했다.",
+      "description": "가디언 과학 보도는 천문학자들이 100억년 이상 전의 은하에서 방출된 강렬한 전파 섬광을 검출해, 지금까지 기록된 것 중 가장 먼 패스트 라디오 버스트(FRB)로 보인다고 전했다. 관측은 우주의 긴 역사를 통과한 신호를 포착한 것으로 평가된다.",
       "descriptionTranslations": {
-        "en": "The BBC reports former Venezuelan leader Nicolás Maduro has been charged with conspiracy to commit torture over alleged abuse of US citizens held while he was in power."
+        "en": "The Guardian reports astronomers have detected an intense flash of radio waves from a galaxy more than 10 billion years away, representing one of the most distant fast radio bursts (FRBs) yet recorded and providing a probe of much of cosmic history."
       },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/09/astronomy-fast-radio-bursts-frb-radio-waves",
       "topicIds": [
-        "politicsHumanRights"
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/09/astronomy-fast-radio-bursts-frb-radio-waves"
+        ],
+        "firstPublishedAt": "2026-10-08T18:00:25.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
+      }
+    },
+    {
+      "id": "news-0d6fcf01f6a4899d320191b1",
+      "title": "이스라엘 정부, 가자 민간인 학살을 다룬 다큐멘터리 스타일을 모방한 영화 홍보",
+      "titleTranslations": {
+        "en": "Israel promotes film that mimics NAZA documentary"
+      },
+      "startAt": "2026-10-08T17:52:35.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "가디언은 이스라엘 정부가 예컨대 영사관 등을 통해 NAZA(가자 민간인 대량 살해 관련 실제 다큐) 스타일을 모방한 온라인 영화를 홍보해 원작의 발견에 대응하려는 시도를 하고 있다고 보도했다. 보도는 정부의 홍보 전략과 문화적 파장에 주목했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports the Israeli government has promoted an online film produced to mimic the style of NAZA — an award‑winning documentary about mass killings of Gaza civilians — in an apparent effort to counter the real film’s findings, raising questions about state‑led information campaigns."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/08/israel-promotes-film-that-mimics-naza-documentary",
+      "topicIds": [
+        "artsFilm"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss"
+          "https://www.theguardian.com/world/2026/oct/08/israel-promotes-film-that-mimics-naza-documentary"
         ],
-        "firstPublishedAt": "2026-10-08T17:38:59.000Z",
-        "lastObservedAt": "2026-10-08T19:17:02.143Z"
+        "firstPublishedAt": "2026-10-08T17:52:35.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
       }
     },
     {
@@ -142,6 +342,36 @@
         ],
         "firstPublishedAt": "2026-10-08T17:02:28.000Z",
         "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
+    {
+      "id": "news-5fbc1e1fe902455527958953",
+      "title": "미 법무부, 니콜라스 마두로에 추가 고문 혐의로 기소",
+      "titleTranslations": {
+        "en": "U.S. justice officials add torture charges against Nicolás Maduro"
+      },
+      "startAt": "2026-10-08T16:05:37.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR는 미 당국이 전 베네수엘라 대통령 니콜라스 마두로에 대해 기존 마약 밀매 혐의에 더해 고문 혐의를 새로 추가했다고 보도했다. 보도는 이번 기소가 이미 형사 절차를 받고 있는 마두로에 대한 압박을 강화하는 조치라고 전했다.",
+      "descriptionTranslations": {
+        "en": "NPR reports U.S. authorities have added new torture charges to the case against former Venezuelan president Nicolás Maduro, intensifying legal pressure on the leader who is already facing drug‑trafficking allegations."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges"
+        ],
+        "firstPublishedAt": "2026-10-08T17:38:59.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
       }
     },
     {
@@ -261,6 +491,35 @@
       }
     },
     {
+      "id": "news-1bd84ab444f01174f13e6531",
+      "title": "한국, 대북 포로 문제를 둘러싼 분쟁으로 우크라이나 주재 대사 소환 발표",
+      "titleTranslations": {
+        "en": "South Korea to recall its ambassador to Ukraine over North Korean POW dispute"
+      },
+      "startAt": "2026-10-08T12:13:54.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "NPR는 한국 정부가 우크라이나가 사과하지 않을 경우 처벌 조치를 경고한 데 이어 북·한국 포로 문제를 둘러싼 분쟁으로 우크라이나 주재 대사를 소환하기로 했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "NPR reports South Korea has announced it will recall its ambassador to Ukraine amid a dispute over North Korean prisoners of war, after threats of punitive measures if Ukraine does not apologize."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/08/g-s1-147115/south-korea-to-recall-its-ambassador-to-ukraine-over-north-korean-pow-dispute",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/08/g-s1-147115/south-korea-to-recall-its-ambassador-to-ukraine-over-north-korean-pow-dispute"
+        ],
+        "firstPublishedAt": "2026-10-08T12:13:54.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
+      }
+    },
+    {
       "id": "news-a6d379b967c52bdf822983b9",
       "title": "런던~웨릭샴·로치데일 직행 열차 도입 계획 규제당국 거부",
       "titleTranslations": {
@@ -286,6 +545,34 @@
         ],
         "firstPublishedAt": "2026-10-08T09:38:00.000Z",
         "lastObservedAt": "2026-10-08T19:17:02.143Z"
+      }
+    },
+    {
+      "id": "news-f433a319fc4cd0e6b12ccaeb",
+      "title": "ESA 솔라 오비터, 태양 표면 기원의 자기 '스위치백' 추적 성공",
+      "titleTranslations": {
+        "en": "Solar Orbiter tracks origin of mysterious magnetic switchbacks"
+      },
+      "startAt": "2026-10-08T09:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "유럽우주국(ESA)은 솔라 오비터가 태양풍의 S자형 '스위치백' 구조를 통과하며 포함된 입자의 지문을 분석해 그 기원을 태양 표면으로 추적했다고 발표했다. 연구는 태양 자기 현상을 이해하고 태양 폭풍에 대한 지식을 확장한다는 의미가 있다.",
+      "descriptionTranslations": {
+        "en": "The European Space Agency reports its Solar Orbiter spacecraft flew through an S‑shaped 'switchback' in the solar wind’s magnetic field and, by fingerprinting particles within it, traced the structure’s origin back to the Sun’s surface — shedding light on solar magnetism and drivers of space weather."
+      },
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
+        ],
+        "firstPublishedAt": "2026-10-08T09:00:00.000Z",
+        "lastObservedAt": "2026-10-09T07:22:01.130Z"
       }
     },
     {
@@ -1308,34 +1595,6 @@
       }
     },
     {
-      "id": "news-143400a2145b294b840648c0",
-      "title": "미 국방부, 블랙리스트된 앤트로픽 도구 사용 중단",
-      "titleTranslations": {
-        "en": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told"
-      },
-      "startAt": "2026-10-05T16:13:21.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC는 미 국방부가 앤트로픽을 '공급망 위험'으로 지정한 뒤 같은 회사의 AI 도구 사용을 중단했다고 보도했다. 보도에 따르면 이는 회사가 안전 가드레일 제거 요청을 거부한 데 따른 조치로 전해졌다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports the Pentagon has stopped using Anthropic’s AI tools after labelling the company a \"supply chain risk\". The move followed the firm’s refusal to remove safety guardrails from its tools, the report says."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-05T16:13:21.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.775Z"
-      }
-    },
-    {
       "id": "news-2a40ba055a44d196509c8b1f",
       "title": "허블 자료 재분석으로 '2세대 행성' 가능성 제기 — 백색왜성 주위 행성계 단서",
       "titleTranslations": {
@@ -1539,34 +1798,6 @@
       }
     },
     {
-      "id": "news-beda29121c512ea5f7ddf5a8",
-      "title": "분쟁 속에서도 중동 원유 수출, 전쟁 전 수준 초과",
-      "titleTranslations": {
-        "en": "Middle East oil exports surpass pre‑war levels despite tensions"
-      },
-      "startAt": "2026-10-05T05:20:57.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 보도는 데이터가 중동의 원유 수출이 분쟁 이전 수준을 넘어섰음을 보여준다고 전했다. 기사는 IRGC 사령관의 발언(호르무즈의 미 관리 항로를 통한 유출은 '미미하다')도 전했다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports data showing Middle Eastern oil exports have exceeded pre‑war levels despite regional tensions. The article also cites an IRGC commander saying flows via the US‑supervised Hormuz route are 'negligible.'"
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-05T05:20:57.000Z",
-        "lastObservedAt": "2026-10-05T06:58:11.657Z"
-      }
-    },
-    {
       "id": "news-1838985c2f6917589ffe921c",
       "title": "고대 이집트 '시종 희생' 가설 지지하는 새로운 법의학 증거",
       "titleTranslations": {
@@ -1742,36 +1973,6 @@
       }
     },
     {
-      "id": "news-4be7cfcbd6cc6cf19a77a209",
-      "title": "애플, AI 에이전트 악용 차단 위해 전체 디스크 접근 권한 변경",
-      "titleTranslations": {
-        "en": "Apple tightens full‑disk access permissions to curb abuse by AI agents"
-      },
-      "startAt": "2026-10-02T23:03:16.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica 보도에 따르면 애플이 AI 에이전트에 의한 오용을 막기 위해 macOS의 전체 디스크 접근(Full Disk Access) 권한 동작을 변경했다. 이번 조치는 AI 에이전트가 메시지 등 민감 데이터를 무단으로 읽는 것을 방지하려는 취지로 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that Apple has changed how Full Disk Access permissions work in macOS to curb abuse by AI agents. The change aims to prevent AI agents from improperly reading sensitive data such as messages."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
-        ],
-        "firstPublishedAt": "2026-10-02T23:03:16.000Z",
-        "lastObservedAt": "2026-10-03T06:25:20.765Z"
-      }
-    },
-    {
       "id": "news-9303edfce056f1aa358aa8cc",
       "title": "NASA: 스페이스X 크루‑12 과학 임무 마무리 — 승무원 곧 귀환",
       "titleTranslations": {
@@ -1881,34 +2082,6 @@
           "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/"
         ],
         "firstPublishedAt": "2026-10-02T16:10:55.000Z",
-        "lastObservedAt": "2026-10-02T18:23:40.084Z"
-      }
-    },
-    {
-      "id": "news-809c1fe49b2d32c1edd55402",
-      "title": "영국 철도 차량 임대사 임원들 작년 총 350만 파운드 수령…주주 배당 약 3억9천만 파운드",
-      "titleTranslations": {
-        "en": "Bosses of three UK train leasing firms received £3.5m last year as firms paid nearly £400m to shareholders"
-      },
-      "startAt": "2026-10-02T15:54:18.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언은 철도 차량을 임대하는 세 회사의 최고경영진이 지난해 합쳐 350만 파운드를 받았고, 이들 회사가 주주들에게 약 3억9천만 파운드를 배당했다고 보도했다. 철도노조들은 이를 승객 비용으로 이익을 챙긴다고 비판했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that the chief executives of three rolling‑stock leasing companies in the UK received a combined £3.5m last year, while the firms paid nearly £400m to shareholders. Rail unions criticised the companies for profiting at passengers' expense."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/02/bosses-firms-trains-uk-35m-pounds-last-year",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/02/bosses-firms-trains-uk-35m-pounds-last-year"
-        ],
-        "firstPublishedAt": "2026-10-02T15:54:18.000Z",
         "lastObservedAt": "2026-10-02T18:23:40.084Z"
       }
     },
@@ -2028,36 +2201,6 @@
       }
     },
     {
-      "id": "news-fe358ee7d12eba8074188f3b",
-      "title": "미 재정비용 상승 — 글로벌 채권 매도세 심화, 미 국채 24년래 최고치",
-      "titleTranslations": {
-        "en": "US borrowing costs hit 24‑year high as global bond sell‑off intensifies"
-      },
-      "startAt": "2026-10-01T17:56:18.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 보도는 글로벌 채권 매도세가 심화되며 10년 만기 미 국채 수익률이 24년 만에 최고 수준으로 치솟았고 유가 상승 우려로 중앙은행들의 추가 금리 인상 가능성이 거론된다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports a renewed global bond sell‑off has driven 10‑year US government yields to their highest level in 24 years, with worries about higher oil prices and renewed inflation risks prompting expectations of further central‑bank rate action."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/live/2026/oct/01/uk-house-prices-september-mortgage-rates-bonds-stock-markets-manufacturing-latest-news-updates",
-          "https://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed",
-          "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield"
-        ],
-        "firstPublishedAt": "2026-10-01T15:06:25.000Z",
-        "lastObservedAt": "2026-10-01T18:50:56.038Z"
-      }
-    },
-    {
       "id": "news-71bc90fcb4fd4b12a5628187",
       "title": "잉글랜드, 2027 크리켓 월드컵 조편성에서 호주·인도와 같은 조 회피",
       "titleTranslations": {
@@ -2172,34 +2315,6 @@
       }
     },
     {
-      "id": "news-8402516ce8f912bd3ca7b188",
-      "title": "인도 발라가트 지역에서 홍역·말라리아 등 복합 위기로 어린이 32명 사망",
-      "titleTranslations": {
-        "en": "At least 32 children die in India's Balaghat district amid measles and malaria outbreaks"
-      },
-      "startAt": "2026-09-30T23:41:34.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "보도에 따르면 발라가트 지구의 산림마을들에서 홍역과 말라리아 발생이 겹치며 최소 32명의 어린이가 5월 이후 사망했다. 현지 환경·보건 위기가 집단적 건강 피해로 이어진 사례로 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Reporting says that in forest villages of Balaghat district, outbreaks of measles and malaria have coincided, resulting in at least 32 child deaths since May — a local health crisis with combined disease impacts."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmn9wr84v1qno?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmn9wr84v1qno?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-30T23:41:34.000Z",
-        "lastObservedAt": "2026-10-01T15:34:35.147Z"
-      }
-    },
-    {
       "id": "news-cde3e751edf0549c3367b8a0",
       "title": "스위스 빙하, 또다시 기록적 얼음 손실",
       "titleTranslations": {
@@ -2226,34 +2341,6 @@
         ],
         "firstPublishedAt": "2026-09-30T23:00:00.000Z",
         "lastObservedAt": "2026-10-01T07:10:03.687Z"
-      }
-    },
-    {
-      "id": "news-ce56aa83d0064ef1be25967d",
-      "title": "딥마인드, 'Gemini 4 Argon' 발표",
-      "titleTranslations": {
-        "en": "DeepMind announces 'Gemini 4 Argon'"
-      },
-      "startAt": "2026-09-30T20:01:45.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "딥마인드 블로그는 'Gemini 4 Argon'을 소개하며 차세대 프런티어 인텔리전스(Frontier Intelligence)의 시대라고 명명한 새 모델을 발표했다.",
-      "descriptionTranslations": {
-        "en": "DeepMind's blog introduces 'Gemini 4 Argon', presenting it as a new model marking the next era of 'frontier intelligence.'"
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-        ],
-        "firstPublishedAt": "2026-09-30T20:01:45.000Z",
-        "lastObservedAt": "2026-10-02T18:23:40.084Z"
       }
     },
     {
@@ -2341,35 +2428,6 @@
           "https://www.theguardian.com/science/2026/sep/28/spacex-starship-rocket-orbits-earth-texas"
         ],
         "firstPublishedAt": "2026-09-28T16:23:49.000Z",
-        "lastObservedAt": "2026-09-28T20:06:51.082Z"
-      }
-    },
-    {
-      "id": "news-89cffd08a80b28f1d120401a",
-      "title": "ESA의 주스, 지구 근접비행으로 목성행 항로 개선 성공",
-      "titleTranslations": {
-        "en": "ESA's JUICE completes Earth flyby to improve course to Jupiter"
-      },
-      "startAt": "2026-09-28T15:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "유럽우주국(ESA)의 목성 탐사선 주스(JUICE)가 9월 28일 지구 대기 가장자리를 근접 통과하면서 지구 중력을 이용해 목성으로 가는 항로를 연료를 적게 써서 조정하는 데 성공했다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency's Jupiter Icy Moons Explorer (JUICE) skimmed the outer edge of Earth's atmosphere on 28 September, using Earth's gravity to alter its route to Jupiter while using very little fuel."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_to_fly_past_Earth_for_third_gravity_assist",
-          "https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter"
-        ],
-        "firstPublishedAt": "2026-09-21T14:00:00.000Z",
         "lastObservedAt": "2026-09-28T20:06:51.082Z"
       }
     },
