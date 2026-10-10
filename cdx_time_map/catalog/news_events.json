@@ -1,8 +1,66 @@
 {
-  "catalogVersion": "0.0.154",
-  "updatedAt": "2026-10-09T18:47:28.069Z",
+  "catalogVersion": "0.0.155",
+  "updatedAt": "2026-10-10T07:00:09.796Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-88927fbf176d02832bc5d362",
+      "title": "미국, 러시아·우크라이나 전쟁 종식 위해 '생산적' 3자 회담 주최",
+      "titleTranslations": {
+        "en": "US hosts ‘productive’ trilateral talks to end Russia‑Ukraine war"
+      },
+      "startAt": "2026-10-10T05:43:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "미국 특사 스티브 위트코프는 겨울이 닥치기 전에 지속 가능한 평화를 보장하기 위한 재개된 협상이 목표라고 밝히며 미국이 관련 당사자들과 3자 협의를 주최했다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "US envoy Steve Witkoff said renewed negotiations aim to ensure lasting peace before winter approaches, and the United States hosted trilateral talks with relevant parties, the coverage says."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/10/us-hosts-productive-trilateral-talks-to-end-russia-ukraine-war?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/10/us-hosts-productive-trilateral-talks-to-end-russia-ukraine-war?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-10T05:43:33.000Z",
+        "lastObservedAt": "2026-10-10T07:00:09.796Z"
+      }
+    },
+    {
+      "id": "news-1b37092663e082cee13f0957",
+      "title": "나비 필레이 전 유엔 인권최고대표, 2026년 노벨평화상 수상",
+      "titleTranslations": {
+        "en": "South African human rights lawyer Navi Pillay wins the Nobel Peace Prize"
+      },
+      "startAt": "2026-10-09T21:25:59.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "노르웨이 노벨위원회는 인권과 국제법 수호를 위한 평생의 공로로 남아프리카 인권법률가 나비 필레이를 2026년 노벨평화상 수상자로 선정했다는 보도가 나왔다.",
+      "descriptionTranslations": {
+        "en": "The Norwegian Nobel Committee awarded the 2026 Nobel Peace Prize to South African human rights lawyer Navi Pillay for her lifelong defence of human rights and international law, the coverage says."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize"
+        ],
+        "firstPublishedAt": "2026-10-09T17:37:10.000Z",
+        "lastObservedAt": "2026-10-10T07:00:09.796Z"
+      }
+    },
     {
       "id": "news-22a5f858763d26f1554fef85",
       "title": "미국, 국제형사재판소(ICC)에 제재 발표 — 법원은 ‘법치에 대한 공격’이라 비판",
@@ -60,31 +118,31 @@
       }
     },
     {
-      "id": "news-1b37092663e082cee13f0957",
-      "title": "나비 필레이 전 유엔 인권최고대표, 2026년 노벨평화상 수상",
+      "id": "news-953575e074a592cd50971cab",
+      "title": "트럼프, 연준 이사 리사 쿡 조사 위해 위원회 설치 발표",
       "titleTranslations": {
-        "en": "Navi Pillay, former UN human rights chief, wins the Nobel Peace Prize"
+        "en": "Trump establishes committee to investigate Fed governor Lisa Cook"
       },
-      "startAt": "2026-10-09T17:37:10.000Z",
+      "startAt": "2026-10-09T18:05:12.000Z",
       "lane": "world",
-      "category": "politicsSociety",
+      "category": "economyBusiness",
       "importance": 3,
-      "description": "BBC는 노르웨이 노벨위원회가 나비 필레이(Navi Pillay)를 '평화와 국제법 증진을 위한 노력'을 이유로 노벨평화상 수상자로 선정했다고 보도했다.",
+      "description": "도널드 트럼프 대통령은 연준 이사 리사 쿡에 대한 모기지 사기 의혹을 조사하기 위해 위원회를 설치하겠다고 발표했다. 위원회는 법무부와 협의해 해임 사유가 있는지 판단하고, 11월 5일 비공개 청문회를 열되 기록을 전사·공개하겠다고 밝혔다. 쿡은 서면 진술 제출 기회를 갖게 된다고 보도됐다.",
       "descriptionTranslations": {
-        "en": "The BBC reports that the Norwegian Nobel Committee has awarded the 2026 Nobel Peace Prize to Navi Pillay, citing her 'efforts to promote peace and international law.'"
+        "en": "President Donald Trump announced he is establishing a committee to investigate Federal Reserve governor Lisa Cook over allegations of mortgage fraud. The committee will consult with the Justice Department to decide whether there is cause for removal and will hold a closed hearing on 5 November that will be transcribed and published; Cook may submit a written statement, the coverage says."
       },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor",
       "topicIds": [
-        "politicsHumanRights"
+        "economyFinance"
       ],
       "news": {
-        "status": "breaking",
+        "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss"
+          "https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor"
         ],
-        "firstPublishedAt": "2026-10-09T17:37:10.000Z",
-        "lastObservedAt": "2026-10-09T18:47:28.069Z"
+        "firstPublishedAt": "2026-10-09T18:05:12.000Z",
+        "lastObservedAt": "2026-10-10T07:00:09.796Z"
       }
     },
     {
@@ -141,6 +199,62 @@
         ],
         "firstPublishedAt": "2026-10-09T16:15:30.000Z",
         "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
+    {
+      "id": "news-ccc8cfcec63655ab18aae96e",
+      "title": "전 도이체방크 트레이더 크리스티안 비타르 유죄 판결 뒤집혀",
+      "titleTranslations": {
+        "en": "Ex‑Deutsche Bank trader jailed for rigging rates has conviction overturned"
+      },
+      "startAt": "2026-10-09T14:36:35.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "항소법원은 2018년에 징역형을 선고받았던 전 도이체방크 트레이더 크리스티안 비타르의 유죄 판결을 파기했다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "The Court of Appeal quashed the conviction of Christian Bittar, a former Deutsche Bank trader who was jailed in 2018, the coverage reports."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-09T14:36:35.000Z",
+        "lastObservedAt": "2026-10-10T07:00:09.796Z"
+      }
+    },
+    {
+      "id": "news-42b4a00689d6e052568354f6",
+      "title": "ADHD·자폐·정신건강 검토보고서 발표 — NHS·복지·교육·고용에 교훈",
+      "titleTranslations": {
+        "en": "Autism, ADHD and mental health review: What you need to know"
+      },
+      "startAt": "2026-10-09T12:16:11.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "정부 검토는 NHS, 복지, 교육 및 고용 정책에 대한 중요한 교훈을 담고 있다고 보도됐다. 보고서는 진단·치료 접근 방식 전반에 걸친 시사점을 제기한다.",
+      "descriptionTranslations": {
+        "en": "A government review contains major lessons for the NHS, welfare, education and employment policies, the coverage says, raising implications for diagnostic and treatment approaches across systems."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crn8wyl4n42yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crn8wyl4n42yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-09T12:16:11.000Z",
+        "lastObservedAt": "2026-10-10T07:00:09.796Z"
       }
     },
     {
@@ -716,6 +830,34 @@
       }
     },
     {
+      "id": "news-e7e24fca08921ba46df52dd4",
+      "title": "시카고 주민, 모나크 나비 보호 위해 주택을 생태 교육 공간으로 전환",
+      "titleTranslations": {
+        "en": "As monarch butterflies migrate for the fall, meet the Chicago woman trying to protect them"
+      },
+      "startAt": "2026-10-08T11:00:18.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 1,
+      "description": "클라우디아 갈레노‑산체스는 자택 정원을 유제품풀(milkweed)과 야생화로 채워 모나크 나비의 서식지를 조성하고 지역 교육 공간으로 활용하고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Claudia Galeno‑Sánchez has turned her home garden into a sanctuary by planting native milkweed and wildflowers to protect migrating monarch butterflies and to serve as an educational space, the coverage reports."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/artanddesign/2026/oct/08/monarch-butterflies-chicago-garden",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/artanddesign/2026/oct/08/monarch-butterflies-chicago-garden"
+        ],
+        "firstPublishedAt": "2026-10-08T11:00:18.000Z",
+        "lastObservedAt": "2026-10-10T07:00:09.796Z"
+      }
+    },
+    {
       "id": "news-a6d379b967c52bdf822983b9",
       "title": "런던~웨릭샴·로치데일 직행 열차 도입 계획 규제당국 거부",
       "titleTranslations": {
@@ -1253,34 +1395,6 @@
       }
     },
     {
-      "id": "news-4d1d06731004a185b4784e4c",
-      "title": "파라마운트, 1,100억 달러 규모로 워너브라더스 인수",
-      "titleTranslations": {
-        "en": "Paramount takes over Warner Bros in $110bn Hollywood merger"
-      },
-      "startAt": "2026-10-06T16:01:11.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "BBC 비즈니스는 두 할리우드 대형 영화사의 합병이 수개월 간의 법적 분쟁과 경쟁 우려를 거친 끝에 이뤄졌다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "BBC Business reports that the merger of two of Hollywood's biggest studios has gone ahead after months of legal disputes and concerns about competition, with Paramount taking over Warner Bros in a $110 billion deal."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxj0604d33qzo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cxj0604d33qzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-06T16:01:11.000Z",
-        "lastObservedAt": "2026-10-06T18:54:14.550Z"
-      }
-    },
-    {
       "id": "news-189a59772523fe892390a90e",
       "title": "웹 망원경, 성운의 별 제트에서 발생한 활동 영상 공개",
       "titleTranslations": {
@@ -1563,34 +1677,6 @@
       }
     },
     {
-      "id": "news-bc815d92d43acdd3bfeb713e",
-      "title": "퀘벡 선거서 분리주의 정당 우세 전망 — 캐나다 통합에 새 시험대",
-      "titleTranslations": {
-        "en": "Separatist party projected to win Quebec election, adding new test to Canada's unity"
-      },
-      "startAt": "2026-10-06T02:37:46.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC는 퀘벡 주총선에서 분리주의 성향의 파르티 케베코아(Parti Québécois)가 소수 정부를 확보하며 승리할 것으로 예측됐다고 보도했다. 기사에 따르면 당은 향후 수년에 걸쳐 독립 국민투표를 추진하겠다고 공언해 캐나다의 통합 문제에 새로운 시험을 제기하고 있다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports the Parti Québécois is projected to win the Quebec election with a minority, and has vowed to pursue an independence referendum in the years ahead — posing a fresh test to Canadian unity."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-06T02:37:46.000Z",
-        "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
       "id": "news-d68100f6bca0fe6ee88a8b3b",
       "title": "작곡가 조지 펜턴 별세(76) — '블루 플래닛'·'간디' 음악 담당",
       "titleTranslations": {
@@ -1843,34 +1929,6 @@
         ],
         "firstPublishedAt": "2026-10-05T14:16:06.000Z",
         "lastObservedAt": "2026-10-05T21:12:03.776Z"
-      }
-    },
-    {
-      "id": "news-d26bb467a12e52872e6cdcc9",
-      "title": "마크 톰슨, 파라마운트‑스카이다운스 인수 후에도 CNN 최고경영자 유지 발표",
-      "titleTranslations": {
-        "en": "Mark Thompson will remain chief executive at CNN after Paramount sale"
-      },
-      "startAt": "2026-10-05T14:14:17.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언은 파라마운트 스카이다운스가 워너브라더스디스커버리와의 합병 이후 CNN을 인수하더라도 마크 톰슨이 네트워크의 의장 겸 최고경영자 직을 유지할 것이라고 전했다. 톰슨은 통합 이후 CNN의 운영 방식 등 구체적 세부사항은 아직 확정되지 않았다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that Mark Thompson will remain chair and chief executive of CNN even after Paramount Skydance takes control following the deal with Warner Bros. Discovery. Thompson said specifics of how CNN will operate within the new company have yet to be finalised."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/media/2026/oct/05/mark-thompson-cnn-chief-paramount-sale",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/media/2026/oct/05/mark-thompson-cnn-chief-paramount-sale"
-        ],
-        "firstPublishedAt": "2026-10-05T14:14:17.000Z",
-        "lastObservedAt": "2026-10-06T07:31:31.732Z"
       }
     },
     {
@@ -2195,35 +2253,6 @@
       }
     },
     {
-      "id": "news-cc08d45dc3873df6b2ba3c4d",
-      "title": "영국 정신건강 병동 사망사건 조사 — 검시관, 향후 사망 위험 경고 및 절차상 문제 지적",
-      "titleTranslations": {
-        "en": "Coroner warns of risk of future deaths at mental health unit where patient was killed"
-      },
-      "startAt": "2026-10-01T23:59:44.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC는 런던 동부의 한 정신건강 신탁(mental health trust)에서 발생한 살인 사건을 계기로 검시관이 향후 유사 사건으로 인한 사망 위험을 경고했으며, 독립경찰윤리위원회(IOPC)는 가족의 우려 신고가 정신건강 서비스에 적절히 연결되지 않았다고 지적했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "BBC reports that following a fatal attack at an east London mental health trust, a coroner warned of the risk of future deaths. The Independent Office for Police Conduct (IOPC) said a family's report of concerns about their son was not properly flagged to mental health services."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqn747k6pem0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqn747k6pem0o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cwe9eyj4gpgzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-01T23:59:44.000Z",
-        "lastObservedAt": "2026-10-02T06:58:56.747Z"
-      }
-    },
-    {
       "id": "news-09a227382f8aa4fff1bb7bb2",
       "title": "미국 주(州)·도시들, 트럼프 행정부의 발전소 온실가스 규정 폐지에 대해 소송 제기",
       "titleTranslations": {
@@ -2277,34 +2306,6 @@
         ],
         "firstPublishedAt": "2026-10-01T16:31:47.000Z",
         "lastObservedAt": "2026-10-01T18:50:56.038Z"
-      }
-    },
-    {
-      "id": "news-bc44a1b0bed66f710a34d039",
-      "title": "콜로라도강 저수지 급감 — 미 서부 주요 저수지 역사적 저수위",
-      "titleTranslations": {
-        "en": "Colorado River reservoirs slump as Lake Mead and Lake Powell hit historic lows"
-      },
-      "startAt": "2026-10-01T15:55:58.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "가디언은 레이크 미드가 호수 조성 이후 거의 90년 만에 최저 수준에 도달했으며 레이크 파월도 역사적 저수위를 기록했다고 보도했다. 보도에는 과거 취수구가 드러나는 등 물 공급 인프라에 변화가 관측된다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports Lake Mead is at its lowest level since it was filled nearly 90 years ago, and Lake Powell is also at historic lows. The coverage notes visible changes to water‑infrastructure such as formerly submerged intakes being exposed."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/01/colorado-river-nevada-shrinking",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/01/colorado-river-nevada-shrinking"
-        ],
-        "firstPublishedAt": "2026-10-01T15:55:58.000Z",
-        "lastObservedAt": "2026-10-02T18:23:40.084Z"
       }
     },
     {
