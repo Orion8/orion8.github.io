@@ -1,8 +1,64 @@
 {
-  "catalogVersion": "0.0.155",
-  "updatedAt": "2026-10-10T07:00:09.796Z",
+  "catalogVersion": "0.0.156",
+  "updatedAt": "2026-10-10T17:49:54.355Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-fa3c90015cac0c633aa0045b",
+      "title": "교황, 사형제 '허용 불가' 주장 — 미국의 사형 생중계 계획과 교차",
+      "titleTranslations": {
+        "en": "Pope says death penalty ‘inadmissible’ as US plans to livestream execution"
+      },
+      "startAt": "2026-10-10T17:38:18.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "교황 레오 14세는 X(구 트위터) 게시물에서 사형제는 \"인간의 불가침성과 존엄성에 대한 공격\"이라며 '허용 불가(admissible)'하다고 주장했다. 이 발언은 미국이 특정 사형 집행을 생중계할 계획을 발표한 시점에 나왔다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Pope Leo XIV posted on X (formerly Twitter) saying the death penalty is \"an attack on the inviolability and dignity of the person\" and described it as 'inadmissible'. The remark came as the United States planned to livestream a scheduled execution, the coverage says."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/10/pope-says-death-penalty-inadmissible-as-us-plans-to-livestream-execution?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/10/pope-says-death-penalty-inadmissible-as-us-plans-to-livestream-execution?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-10T17:38:18.000Z",
+        "lastObservedAt": "2026-10-10T17:49:54.355Z"
+      }
+    },
+    {
+      "id": "news-26642edca61eefe9f39f1909",
+      "title": "트럼프, 러시아산 디젤 도입 합의 발표 — 젤렌스키는 '푸틴에 대한 선물' 비판",
+      "titleTranslations": {
+        "en": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin"
+      },
+      "startAt": "2026-10-10T14:24:14.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "도널드 트럼프 미국 대통령은 러시아산 디젤 도입을 위한 합의를 발표했다는 보도가 나왔다. 우크라이나 대통령 볼로디미르 젤렌스키는 이를 \"전쟁에 대한 투자\"라며 중단시켜야 한다고 강하게 비판했다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "President Donald Trump announced a deal to bring in Russian diesel, the coverage says. Ukraine’s president, Volodymyr Zelensky, sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged,\" the report adds."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-10T14:24:14.000Z",
+        "lastObservedAt": "2026-10-10T17:49:54.355Z"
+      }
+    },
     {
       "id": "news-88927fbf176d02832bc5d362",
       "title": "미국, 러시아·우크라이나 전쟁 종식 위해 '생산적' 3자 회담 주최",
@@ -29,6 +85,36 @@
         ],
         "firstPublishedAt": "2026-10-10T05:43:33.000Z",
         "lastObservedAt": "2026-10-10T07:00:09.796Z"
+      }
+    },
+    {
+      "id": "news-36cc2f96c79b2aa54f5624e1",
+      "title": "우크라이나 드론, '러시아의 구글' 소유 AI 데이터센터 타격",
+      "titleTranslations": {
+        "en": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\""
+      },
+      "startAt": "2026-10-09T22:04:07.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "우크라이나의 드론 공격으로 한 데이터센터가 손상됐다는 보도가 나왔다. 해당 데이터센터에는 얀덱스(Yandex)의 AI 모델 훈련에 사용되는 슈퍼컴퓨터들이 포함되어 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Ukraine’s drones reportedly damaged a data centre that houses supercomputers used for training Yandex’s AI models, the coverage says."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/"
+        ],
+        "firstPublishedAt": "2026-10-09T22:04:07.000Z",
+        "lastObservedAt": "2026-10-10T17:49:54.355Z"
       }
     },
     {
@@ -1085,34 +1171,6 @@
       }
     },
     {
-      "id": "news-ef1cb57263e715da30abec18",
-      "title": "영국 유통체인 Boots, 70억 파운드 규모로 캐나다 억만장자 가문에 매각",
-      "titleTranslations": {
-        "en": "Boots sold in £7bn deal to Canadian billionaire family"
-      },
-      "startAt": "2026-10-07T17:18:30.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "영국의 주요 고용·유통체인 Boots의 매각이 발표됐다. 이번 거래는 약 70억 파운드(£7bn) 규모로 보도되었으며, 매각 발표는 수요일 공개됐다.",
-      "descriptionTranslations": {
-        "en": "The sale of major UK retailer Boots was announced in a deal reported at £7 billion to a Canadian billionaire family. The sale was announced on Wednesday."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwly0jyk2vl5o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwly0jyk2vl5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-07T17:18:30.000Z",
-        "lastObservedAt": "2026-10-07T19:19:57.939Z"
-      }
-    },
-    {
       "id": "news-4795a6ae30bd611b4cb996c6",
       "title": "NASA 큐리오시티, 고도 1km 도달한 뒤 뒤돌아본 관측 사진 공개",
       "titleTranslations": {
@@ -1590,34 +1648,6 @@
         ],
         "firstPublishedAt": "2026-10-06T05:42:35.000Z",
         "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
-      "id": "news-416513099ba6cf83d2ad73ce",
-      "title": "티그라이 반군, 15세 소년까지 강제징집 보고 — 전투 확산 속 인도주의 우려",
-      "titleTranslations": {
-        "en": "Tigray rebel groups ‘forcibly recruiting boys as young as 15’ as fighting spreads"
-      },
-      "startAt": "2026-10-06T05:00:02.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언은 티그라이의 새로운 무장 연합이 길거리에서 남성과 소년들을 집단으로 포획해 징집하고 있다는 보고가 나오고 있다고 보도했다. 보도는 9월 23일 재개된 연방정부와 티그라이 인민해방전선(TPLF) 간 전투가 2022년의 프레토리아 평화 합의를 파괴하면서 북부 지역에 새로운 인도주의 위기를 촉발할 우려가 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that a new alliance of armed groups in Tigray has been rounding up men and boys on the streets and forcibly recruiting them. The article says renewed fighting, which erupted on 23 September between Ethiopia’s federal government and the TPLF, risks triggering a fresh humanitarian crisis and has shattered the Pretoria peace agreement of 2022."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/06/ethiopia-tigray-conflict-tplf-rebels-forcibly-recruit-boys-war-crimes",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/global-development/2026/oct/06/ethiopia-tigray-conflict-tplf-rebels-forcibly-recruit-boys-war-crimes"
-        ],
-        "firstPublishedAt": "2026-10-06T05:00:02.000Z",
-        "lastObservedAt": "2026-10-06T07:31:31.731Z"
       }
     },
     {
@@ -2104,36 +2134,6 @@
         ],
         "firstPublishedAt": "2026-10-04T10:00:25.000Z",
         "lastObservedAt": "2026-10-04T17:33:36.940Z"
-      }
-    },
-    {
-      "id": "news-21efa3195b110268437380e3",
-      "title": "외골격(엑소스켈레톤) 시대의 도래",
-      "titleTranslations": {
-        "en": "The dawn of the age of the exoskeleton"
-      },
-      "startAt": "2026-10-03T11:15:33.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보도는 외골격 장치들이 다양한 실제 작업에서 사용자에게 눈에 띄는 이점을 계속해서 보여주고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The report says exoskeleton devices continue to show noticeable benefits for users in various real‑world tasks."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/"
-        ],
-        "firstPublishedAt": "2026-10-03T11:15:33.000Z",
-        "lastObservedAt": "2026-10-04T06:48:58.264Z"
       }
     },
     {
