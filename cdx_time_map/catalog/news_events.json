@@ -1,8 +1,37 @@
 {
-  "catalogVersion": "0.0.157",
-  "updatedAt": "2026-10-11T07:06:52.641Z",
+  "catalogVersion": "0.0.158",
+  "updatedAt": "2026-10-11T18:02:10.484Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-bd9080c07517bb4bf2927cef",
+      "title": "사우디 리야드에 대한 후티 공격 — 수도 공항·석유시설 겨냥, 민간인 피해 보고",
+      "titleTranslations": {
+        "en": "Houthi strikes on Riyadh — airports and oil facilities targeted, civilian casualties reported"
+      },
+      "startAt": "2026-10-11T16:41:37.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC는 예멘 후티가 리야드에서 주말 공격을 단행해 두 개의 공항과 석유시설을 겨냥했다고 보도했다. 사우디 측은 특히 킹 칼리드 국제공항 공격과 관련해 후티가 12명을 살해하고 300명을 부상시켰다고 비난한 반면, 후티는 리야드에서 13명이 사망했다고 주장했다. 이번 공격은 최근 이틀 사이 수도를 향한 두 번째 타격으로 전해졌다.",
+      "descriptionTranslations": {
+        "en": "BBC reported that Yemen’s Houthi group carried out weekend attacks on Riyadh, targeting two airports and oil facilities. Saudi authorities accused the Houthis of killing 12 and injuring 300 in an attack on King Khalid (international airport), while the Houthis said the strikes killed 13 people in Riyadh. The report says this was the second strike on the Saudi capital in two days."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-11T16:41:37.000Z",
+        "lastObservedAt": "2026-10-11T18:02:10.484Z"
+      }
+    },
     {
       "id": "news-dc5714215dcf9e6ccfb3c005",
       "title": "가자 전쟁의 '대학살' 서술이 이스라엘 선거에 영향",
@@ -169,6 +198,34 @@
         ],
         "firstPublishedAt": "2026-10-10T01:50:32.000Z",
         "lastObservedAt": "2026-10-11T07:06:52.641Z"
+      }
+    },
+    {
+      "id": "news-c4d3de43f668164e824f576a",
+      "title": "부츠(영국 약국체인) 매각 — 캐나다 억만장자 가족이 인수",
+      "titleTranslations": {
+        "en": "Boots (UK pharmacy chain) sold — acquired by Canadian billionaire family"
+      },
+      "startAt": "2026-10-09T23:01:14.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 비즈니스는 영국의 고전적 약국 체인 부츠(Boots)가 캐나다의 억만장자 가족에게 매각되었다고 보도했다. 보도는 소유권 변경이 소매업·고용·매장 서비스에 미칠 영향을 분석하고 있다.",
+      "descriptionTranslations": {
+        "en": "BBC Business reports that UK pharmacy chain Boots has been sold to a Canadian billionaire family. Coverage examines how the change of ownership could affect retail operations, employment and in‑store services."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-09T23:01:14.000Z",
+        "lastObservedAt": "2026-10-11T18:02:10.484Z"
       }
     },
     {
@@ -484,6 +541,39 @@
         ],
         "firstPublishedAt": "2026-10-09T12:00:28.000Z",
         "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
+    {
+      "id": "news-ecc588528d6344dc70ad7f2f",
+      "title": "AI 거버넌스·공학 교육 논의 확대 — 나델라의 '비상 브레이크' 주장과 윤리 교육 요구",
+      "titleTranslations": {
+        "en": "AI governance and engineering ethics debate escalates — Nadella calls for an ‘emergency brake’ and experts urge ethics in curricula"
+      },
+      "startAt": "2026-10-09T12:00:02.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "TechCrunch는 마이크로소프트 CEO 사티아 나델라가 AI 모델 개발에 대해 \"비상 브레이크\"를 거는 등 신뢰 인프라를 재평가할 시점이라고 주장한 글을 보도했다. IEEE 스펙트럼은 엔지니어링 과정에 윤리를 내재화해야 한다는 주장을 싣고, 빠른 개발 압력이 새로운 위험을 충분히 평가·통제하기 어렵게 만든다고 지적했다. 두 보도는 기업·학계·업계에서 AI 안전·윤리 논의가 확산하고 있음을 보여준다.",
+      "descriptionTranslations": {
+        "en": "TechCrunch reported Microsoft CEO Satya Nadella wrote that AI models need an ‘emergency brake’ and that it is time to \"step back and assess the trust architecture\" of AI. IEEE Spectrum argued for embedding ethics into engineering courses, warning that pressure to move quickly makes it hard for engineers to assess and manage new AI risks. Together the pieces indicate growing debate across industry and academia over AI safety and ethics."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory",
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+          "https://spectrum.ieee.org/integrating-engineering-ethics-education"
+        ],
+        "firstPublishedAt": "2026-10-10T21:47:51.000Z",
+        "lastObservedAt": "2026-10-11T18:02:10.484Z"
       }
     },
     {
@@ -1171,34 +1261,6 @@
       }
     },
     {
-      "id": "news-f08f8de24a5938b60dfd4ddb",
-      "title": "AI 칩 수요에 힘입어 삼성, 사상 최대 영업이익 800억 달러 달성",
-      "titleTranslations": {
-        "en": "AI chip boom pushes Samsung profits to record $80bn"
-      },
-      "startAt": "2026-10-08T01:59:54.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 비즈니스는 AI 칩 수요 급증이 삼성전자의 실적을 견인해 사상 최대 영업이익 약 800억 달러를 기록했다고 보도했다. 회사는 8월 출시된 최신 폴더블 기기도 실적에 기여했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC Business reports that strong demand for AI chips helped Samsung record a record operating profit of about $80 billion. The company also benefited from its recently launched foldable devices, the coverage says."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-08T01:59:54.000Z",
-        "lastObservedAt": "2026-10-08T07:18:14.887Z"
-      }
-    },
-    {
       "id": "news-f79fc1981148f96dddbc69f9",
       "title": "Nous Research, 기업가치 15억 달러 확인하고 기업용 AI 에이전트 출시",
       "titleTranslations": {
@@ -1512,34 +1574,6 @@
       }
     },
     {
-      "id": "news-3e0e4d16f9091f332a92e041",
-      "title": "시위 속 코소보 정치 교착, 새 총선 가능성 대두",
-      "titleTranslations": {
-        "en": "Kosovo’s political deadlock amid protests raises prospect of new elections"
-      },
-      "startAt": "2026-10-06T18:25:45.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "알자지라 보도에 따르면 코소보는 전직 반군 지도자들의 유죄 판결에 반대하는 시위가 이어지는 가운데 정치적 교착 상태에 직면해 있으며, 이로 인해 새 총선 가능성이 제기되고 있다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that Kosovo faces a political deadlock as protests against convictions of former rebel leaders continue, raising the prospect of new elections."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/6/amid-protests-kosovos-political-deadlock-raises-prospect-of-new-elections?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/6/amid-protests-kosovos-political-deadlock-raises-prospect-of-new-elections?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-06T18:25:45.000Z",
-        "lastObservedAt": "2026-10-06T18:54:14.550Z"
-      }
-    },
-    {
       "id": "news-189a59772523fe892390a90e",
       "title": "웹 망원경, 성운의 별 제트에서 발생한 활동 영상 공개",
       "titleTranslations": {
@@ -1849,35 +1883,6 @@
         ],
         "firstPublishedAt": "2026-10-05T22:26:35.000Z",
         "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
-      "id": "news-97444bbb8a512f1589ca4cb3",
-      "title": "오픈AI, EU 규제 준수를 위해 ChatGPT 출력에 워터마크 도입",
-      "titleTranslations": {
-        "en": "OpenAI will start watermarking ChatGPT's text in the EU"
-      },
-      "startAt": "2026-10-05T20:36:48.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "테크크런치는 오픈AI가 EU의 AI법(AI Act) 준수를 위해 EU에서 제공되는 ChatGPT 및 Codex의 텍스트에 워터마크를 삽입하겠다고 보도했다. 보도는 편집을 통해 표시가 희박해질 수 있다고 회사가 설명했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch reports OpenAI will watermark ChatGPT and Codex text in the EU to comply with the EU AI Act. The company said edits can make the invisible marks harder to detect."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
-        ],
-        "firstPublishedAt": "2026-10-05T20:36:48.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.775Z"
       }
     },
     {
