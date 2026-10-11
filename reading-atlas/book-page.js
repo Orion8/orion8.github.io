@@ -13,7 +13,7 @@
   const name=b=>{const translated=language==='ko'?b.koTitle:b.title;return b.original===translated?b.original:`${b.original} (${translated})`};
   const retail=b=>{
     const ancient=b.year<1500,englishQuery=b.title+(ancient?'':' '+b.authorEN.split(' · ')[0]);
-    const koreanQuery=b.koTitle+(ancient?'':' '+b.author.split(' · ')[0]);
+    const koreanQuery=b.koTitle;
     const amazon=`https://www.amazon.com/s?k=${encodeURIComponent(englishQuery)}`;
     const yes=`https://www.yes24.com/product/search?query=${encodeURIComponent(koreanQuery)}`;
     return {amazon:`${amazon}&i=digital-text`,yes:`${yes}&domain=EBOOK`,amazonAll:`${amazon}&i=stripbooks`,yesAll:`${yes}&domain=ALL`};
