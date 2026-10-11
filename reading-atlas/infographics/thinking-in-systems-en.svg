@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 2200" width="1600" height="2200" role="img">
+<rect width="1600" height="2200" fill="#f7f3e9"/>
+<path d="M0 0 H1600 V24 H0Z" fill="#39847c"/>
+<defs><marker id="arr" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#39847c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<text x="92" y="88" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start" letter-spacing="2.6">THE READING ATLAS   /   BOOK ANATOMY</text>
+<text x="1508" y="88" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="end" letter-spacing="0">02 / 03</text>
+<text x="90" y="208" fill="#18333d" font-family="Georgia, 'Times New Roman', serif" font-size="83" font-weight="400" text-anchor="start" letter-spacing="-2">Thinking in Systems</text>
+<text x="94" y="269" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start" letter-spacing="0">Donella H. Meadows · 2008</text>
+<text x="1508" y="269" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="23" font-weight="400" text-anchor="end" letter-spacing="0">BOOK ANATOMY</text>
+<rect x="90" y="318" width="1420" height="132" rx="20" fill="#e0eee8" stroke="none" stroke-width="2"/>
+<rect x="90" y="318" width="9" height="132" rx="0" fill="#39847c" stroke="none" stroke-width="2"/>
+<text x="130" y="363" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="19" font-weight="700" text-anchor="start" letter-spacing="2">THE QUESTION</text>
+<text x="130" y="416" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="34" font-weight="500" text-anchor="start" letter-spacing="0">How can we read and change the structure behind events?</text>
+<circle cx="108" cy="507" r="17" fill="#39847c" stroke="none" stroke-width="2"/>
+<text x="108" y="514" fill="#fffdf8" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">1</text>
+<text x="139" y="517" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start" letter-spacing="0.5">BOOK STRUCTURE · THREE PARTS</text>
+<line x1="90" y1="541" x2="1510" y2="541" stroke="#d9dfd6" stroke-width="2"/>
+<rect x="90" y="573" width="460" height="214" rx="16" fill="#fffdf8" stroke="#d9dfd6" stroke-width="2"/>
+<text x="118" y="629" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start" letter-spacing="0">I</text>
+<text x="160" y="629" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start" letter-spacing="0">STRUCTURE</text>
+<text x="118" y="700" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start" letter-spacing="0">Structure &amp; behavior</text>
+<text x="118" y="753" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start" letter-spacing="0">Stocks · flows · feedback</text>
+<rect x="570" y="573" width="460" height="214" rx="16" fill="#fffdf8" stroke="#d9dfd6" stroke-width="2"/>
+<text x="598" y="629" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start" letter-spacing="0">II</text>
+<text x="640" y="629" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start" letter-spacing="0">SYSTEMS &amp; US</text>
+<text x="598" y="700" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start" letter-spacing="0">Systems and us</text>
+<text x="598" y="753" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start" letter-spacing="0">Traps · boundaries · seeing</text>
+<rect x="1050" y="573" width="460" height="214" rx="16" fill="#fffdf8" stroke="#d9dfd6" stroke-width="2"/>
+<text x="1078" y="629" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start" letter-spacing="0">III</text>
+<text x="1120" y="629" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start" letter-spacing="0">CHANGE</text>
+<text x="1078" y="700" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start" letter-spacing="0">Creating change</text>
+<text x="1078" y="753" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start" letter-spacing="0">Leverage · ways of thinking</text>
+<circle cx="108" cy="848" r="17" fill="#39847c" stroke="none" stroke-width="2"/>
+<text x="108" y="855" fill="#fffdf8" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">2</text>
+<text x="139" y="858" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start" letter-spacing="0.5">CORE MODEL · STOCK, FLOW, FEEDBACK</text>
+<line x1="90" y1="882" x2="1510" y2="882" stroke="#d9dfd6" stroke-width="2"/>
+<rect x="90" y="915" width="1420" height="585" rx="24" fill="#f9fcf8" stroke="#d9dfd6" stroke-width="2"/>
+<rect x="575" y="1072" width="450" height="218" rx="20" fill="#d8ece3" stroke="#39847c" stroke-width="4"/>
+<rect x="575" y="1200" width="450" height="90" rx="0" fill="#8dc3af" stroke="none" stroke-width="2"/>
+<text x="800" y="1140" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" letter-spacing="0">STOCK  /  ACCUMULATION</text>
+<text x="800" y="1190" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="middle" letter-spacing="0">What remains over time</text>
+<path d="M195 1176 H560" stroke="#39847c" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M1040 1176 H1400" stroke="#39847c" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<circle cx="355" cy="1176" r="17" fill="#fffdf8" stroke="#39847c" stroke-width="4"/>
+<circle cx="1245" cy="1176" r="17" fill="#fffdf8" stroke="#39847c" stroke-width="4"/>
+<text x="225" y="1108" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start" letter-spacing="0">INFLOW  +</text>
+<text x="1165" y="1108" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start" letter-spacing="0">OUTFLOW  −</text>
+<text x="225" y="1234" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start" letter-spacing="0">IN</text>
+<text x="1358" y="1234" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="22" font-weight="end" text-anchor="start" letter-spacing="0">OUT</text>
+<path d="M975 1304 C1050 1432 1140 1454 1178 1380 C1245 1280 1225 1265 1245 1208" stroke="#b58c58" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M650 1304 C580 1425 490 1450 424 1376 C350 1295 365 1260 355 1210" stroke="#39847c" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="1050" y="1348" width="290" height="77" rx="14" fill="#f3e7d3" stroke="none" stroke-width="2"/>
+<text x="1195" y="1395" fill="#8b6d41" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="0">B  /  BALANCING</text>
+<rect x="260" y="1348" width="290" height="77" rx="14" fill="#dcefe7" stroke="none" stroke-width="2"/>
+<text x="405" y="1395" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="0">R  /  REINFORCING</text>
+<text x="800" y="1470" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="23" font-weight="400" text-anchor="middle" letter-spacing="0">Delays can hide the effects of a change</text>
+<circle cx="108" cy="1560" r="17" fill="#39847c" stroke="none" stroke-width="2"/>
+<text x="108" y="1567" fill="#fffdf8" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">3</text>
+<text x="139" y="1570" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start" letter-spacing="0.5">THE LEVERAGE LADDER · WHERE TO ACT?</text>
+<line x1="90" y1="1594" x2="1510" y2="1594" stroke="#d9dfd6" stroke-width="2"/>
+<rect x="90" y="1650" width="420" height="188" rx="17" fill="#e9f0e9" stroke="none" stroke-width="2"/>
+<text x="114" y="1699" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start" letter-spacing="0">01</text>
+<text x="114" y="1753" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start" letter-spacing="0">Change numbers</text>
+<text x="114" y="1804" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start" letter-spacing="0">Parameters · budgets · limits</text>
+<path d="M515 1743 h20" stroke="#39847c" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="535" y="1650" width="450" height="188" rx="17" fill="#dcebe2" stroke="none" stroke-width="2"/>
+<text x="559" y="1699" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start" letter-spacing="0">02</text>
+<text x="559" y="1753" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start" letter-spacing="0">Redesign flows</text>
+<text x="559" y="1804" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start" letter-spacing="0">Information · feedback · rules</text>
+<path d="M990 1743 h20" stroke="#39847c" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="1010" y="1650" width="480" height="188" rx="17" fill="#c7dfd4" stroke="none" stroke-width="2"/>
+<text x="1034" y="1699" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start" letter-spacing="0">03</text>
+<text x="1034" y="1753" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start" letter-spacing="0">Revisit the goal</text>
+<text x="1034" y="1804" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start" letter-spacing="0">Goals · mental models</text>
+<rect x="90" y="1872" width="1420" height="107" rx="14" fill="#fffdf8" stroke="#d9dfd6" stroke-width="2"/>
+<text x="125" y="1915" fill="#39847c" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start" letter-spacing="0">IN PRACTICE</text>
+<text x="125" y="1950" fill="#18333d" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="24" font-weight="500" text-anchor="start" letter-spacing="0">Name the event → map stocks and flows → trace feedback and delays</text>
+<rect x="90" y="2022" width="1420" height="116" rx="18" fill="#18333d" stroke="none" stroke-width="2"/>
+<text x="122" y="2062" fill="#c7ad81" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="19" font-weight="700" text-anchor="start" letter-spacing="1.6">READ WITH THIS QUESTION</text>
+<text x="122" y="2111" fill="#fffdf8" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="27" font-weight="500" text-anchor="start" letter-spacing="0">Which structure keeps producing the event I want to fix?</text>
+<line x1="90" y1="2162" x2="1510" y2="2162" stroke="#d9dfd6" stroke-width="2"/>
+<text x="90" y="2187" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start" letter-spacing="0">Editorial reading map · leverage ladder condenses twelve points</text>
+<text x="1510" y="2187" fill="#667a78" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="16" font-weight="400" text-anchor="end" letter-spacing="0">Sources: Chelsea Green · donellameadows.org</text>
+</svg>
