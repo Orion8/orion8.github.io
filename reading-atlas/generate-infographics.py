@@ -16,7 +16,7 @@ RULE = '#d9dfd6'
 class Poster:
     def __init__(self, accent, soft, lang):
         self.accent, self.soft, self.lang = accent, soft, lang
-        self.parts = [f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img">',
+        self.parts = [f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {W} {H}" width="{W}" height="{H}" style="width:100%;height:auto;max-width:{W}px" role="img">',
                       f'<rect width="{W}" height="{H}" fill="{PAPER}"/>',
                       f'<path d="M0 0 H{W} V24 H0Z" fill="{accent}"/>',
                       '<defs><marker id="arr" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="'+accent+'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>']
