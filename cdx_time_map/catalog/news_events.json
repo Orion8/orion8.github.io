@@ -1,8 +1,36 @@
 {
-  "catalogVersion": "0.0.156",
-  "updatedAt": "2026-10-10T17:49:54.355Z",
+  "catalogVersion": "0.0.157",
+  "updatedAt": "2026-10-11T07:06:52.641Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-dc5714215dcf9e6ccfb3c005",
+      "title": "가자 전쟁의 '대학살' 서술이 이스라엘 선거에 영향",
+      "titleTranslations": {
+        "en": "How genocidal war on Gaza is shaping Israel’s election"
+      },
+      "startAt": "2026-10-11T05:35:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 분석은 10월 7일 이후 촉발된 전쟁과 '대학살' 서술이 이스라엘 유권자들과 정당의 태도를 강화하며, 이번 선거가 변화를 요구하는 신호라기보다 대중적 군국주의·수사(라독성) 심화의 반영이라고 평가했다.",
+      "descriptionTranslations": {
+        "en": "An Al Jazeera analysis says the war since October 7 and the framing of events in Gaza as genocidal have hardened voter and party positions in Israel, arguing the election signals not a demand for change but a deepening of jingoistic rhetoric and attitudes."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news-analysis/2026/10/11/how-genocidal-war-on-gaza-is-shaping-israels-election?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news-analysis/2026/10/11/how-genocidal-war-on-gaza-is-shaping-israels-election?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-11T05:35:09.000Z",
+        "lastObservedAt": "2026-10-11T07:06:52.640Z"
+      }
+    },
     {
       "id": "news-fa3c90015cac0c633aa0045b",
       "title": "교황, 사형제 '허용 불가' 주장 — 미국의 사형 생중계 계획과 교차",
@@ -60,6 +88,34 @@
       }
     },
     {
+      "id": "news-19f7d088c06dfd2943e719db",
+      "title": "전미자동차노조(UAW) 회장 션 페인 압도적 재선",
+      "titleTranslations": {
+        "en": "United Auto Workers president Shawn Fain easily wins re-election"
+      },
+      "startAt": "2026-10-10T13:46:49.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 션 페인은 부패·선거 개입 의혹이 제기된 가운데서도 경선에서 결선 상대 리치 보이어를 크게 제치고 재선에 성공했다. 우편투표로 진행된 이번 선거는 4년 임기의 노조 지도부 선출 절차의 일부였다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports Shawn Fain has been re‑elected as president of the United Auto Workers, decisively defeating challenger Rich Boyer despite a campaign marred by accusations of corruption and election interference. The union leadership vote was conducted by mail and fills a four‑year term."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/10/uaw-president-shawn-fain-wins-re-election",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/10/uaw-president-shawn-fain-wins-re-election"
+        ],
+        "firstPublishedAt": "2026-10-10T13:46:49.000Z",
+        "lastObservedAt": "2026-10-11T07:06:52.641Z"
+      }
+    },
+    {
       "id": "news-88927fbf176d02832bc5d362",
       "title": "미국, 러시아·우크라이나 전쟁 종식 위해 '생산적' 3자 회담 주최",
       "titleTranslations": {
@@ -85,6 +141,34 @@
         ],
         "firstPublishedAt": "2026-10-10T05:43:33.000Z",
         "lastObservedAt": "2026-10-10T07:00:09.796Z"
+      }
+    },
+    {
+      "id": "news-e534b54b109b9aa796181514",
+      "title": "허리케인 이사이아스, 미 걸프 연안 상륙 — 수백만 대피·카테고리 2 상륙",
+      "titleTranslations": {
+        "en": "Hurricane Isaias makes landfall on US Gulf coast — millions under evacuation orders"
+      },
+      "startAt": "2026-10-10T01:50:32.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "가디언은 허리케인 이사이아스가 미 걸프 연안에 상륙해 플로리다·조지아·앨라배마 등 여러 주에서 수백만 명이 대피 명령을 받았고, 위험한 폭풍해일·강우·홍수·강풍이 예상된다고 보도했다. 이 허리케인은 시속 105마일(카테고리 2)의 지속풍을 기록하고 있다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports Hurricane Isaias made landfall on the US Gulf coast, prompting evacuation orders for millions across several states including Florida, Georgia and Alabama, and bringing dangerous storm surge, heavy rain, flooding and strong winds. The storm made landfall as a Category 2 with sustained winds of 105 mph."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/global/2026/oct/09/hurricane-isaias-where-path-landfall-preparation",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/global/2026/oct/09/hurricane-isaias-where-path-landfall-preparation"
+        ],
+        "firstPublishedAt": "2026-10-10T01:50:32.000Z",
+        "lastObservedAt": "2026-10-11T07:06:52.641Z"
       }
     },
     {
@@ -115,36 +199,6 @@
         ],
         "firstPublishedAt": "2026-10-09T22:04:07.000Z",
         "lastObservedAt": "2026-10-10T17:49:54.355Z"
-      }
-    },
-    {
-      "id": "news-1b37092663e082cee13f0957",
-      "title": "나비 필레이 전 유엔 인권최고대표, 2026년 노벨평화상 수상",
-      "titleTranslations": {
-        "en": "South African human rights lawyer Navi Pillay wins the Nobel Peace Prize"
-      },
-      "startAt": "2026-10-09T21:25:59.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "노르웨이 노벨위원회는 인권과 국제법 수호를 위한 평생의 공로로 남아프리카 인권법률가 나비 필레이를 2026년 노벨평화상 수상자로 선정했다는 보도가 나왔다.",
-      "descriptionTranslations": {
-        "en": "The Norwegian Nobel Committee awarded the 2026 Nobel Peace Prize to South African human rights lawyer Navi Pillay for her lifelong defence of human rights and international law, the coverage says."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize"
-        ],
-        "firstPublishedAt": "2026-10-09T17:37:10.000Z",
-        "lastObservedAt": "2026-10-10T07:00:09.796Z"
       }
     },
     {
@@ -232,6 +286,36 @@
       }
     },
     {
+      "id": "news-b14be23d64c1650b0b5c0484",
+      "title": "IEEE, AI 칩 설계 교육 프로그램 발표",
+      "titleTranslations": {
+        "en": "Master AI Chip Principles With New IEEE Design Program"
+      },
+      "startAt": "2026-10-09T18:00:02.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "IEEE 스펙트럼 보도는 급속히 복잡해지는 AI 하드웨어 요구를 다루기 위해 IEEE가 AI 칩 설계를 다루는 새 교육·설계 프로그램을 공개했다고 전했다. 보도는 메모리와 프로세서 간 데이터 이동이 AI 성능의 주요 제약이 되며, 업계가 특정 작업에 최적화된 AI 칩을 늘리고 있다고 설명했다.",
+      "descriptionTranslations": {
+        "en": "IEEE Spectrum reports that IEEE has launched a new design and education program addressing rapidly increasing AI hardware complexity. The coverage notes that moving data between memory and processor is a major limit on AI performance and that the industry is increasingly developing task‑specific AI chips to meet scaling demands."
+      },
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/master-ai-chip-principles-ieee"
+        ],
+        "firstPublishedAt": "2026-10-09T18:00:02.000Z",
+        "lastObservedAt": "2026-10-11T07:06:52.641Z"
+      }
+    },
+    {
       "id": "news-b85427f614ddb37d467c541d",
       "title": "NASA, 재진입용 차세대 히트쉴드 기술 시연 — 소형 실험 캡슐 탑재 화물선 활용",
       "titleTranslations": {
@@ -257,6 +341,37 @@
         ],
         "firstPublishedAt": "2026-10-09T16:59:24.000Z",
         "lastObservedAt": "2026-10-09T18:47:28.069Z"
+      }
+    },
+    {
+      "id": "news-1b37092663e082cee13f0957",
+      "title": "나비 필레이 ICJ 판사, 2026년 노벨평화상 수상",
+      "titleTranslations": {
+        "en": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law"
+      },
+      "startAt": "2026-10-09T16:30:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "노르웨이 노벨위원회는 전 UN 인권최고대표이자 국제사법재판소(ICJ) 판사인 나비 필레이에게 국제법과 인권 수호 공로로 2026년 노벨평화상을 수여했다고 가디언이 보도했다. 위원회는 법적 조치가 전쟁과 폭력을 예방하는 데 기여할 수 있음을 인정했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Norwegian Nobel Committee awarded the 2026 Nobel Peace Prize to former UN human rights chief and International Court of Justice judge Navi Pillay for her work defending international law and human rights, the Guardian reports. The committee said legal measures can help prevent acts of war and violence."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
+          "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
+        ],
+        "firstPublishedAt": "2026-10-09T17:37:10.000Z",
+        "lastObservedAt": "2026-10-11T07:06:52.641Z"
       }
     },
     {
@@ -1425,34 +1540,6 @@
       }
     },
     {
-      "id": "news-1833e630965b08ce7304e88d",
-      "title": "트리니다드토바고, 언론 자유 위협 우려 속 강력한 경찰수사법 통과",
-      "titleTranslations": {
-        "en": "Outcry in Trinidad and Tobago after passing of police bill that could threaten press freedom"
-      },
-      "startAt": "2026-10-06T16:53:21.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "가디언은 트리니다드토바고에서 수색·압수 권한을 확대하는 포괄적 새 법안(특수작전법 2026)이 통과되자 언론인들이 즉각 수정을 촉구하고 있다고 보도했다. 정부는 법안이 높은 범죄·살인율에 대응하기 위한 것이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that journalists in Trinidad and Tobago have called for urgent amendments after the passage of a sweeping new bill—the Special Operations Bill 2026—which expands police search and seizure powers; the government says the measure is intended to tackle high crime and murder rates."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/06/outcry-in-trinidad-and-tobago-after-passing-of-police-bill-that-could-threaten-press-freedom",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/06/outcry-in-trinidad-and-tobago-after-passing-of-police-bill-that-could-threaten-press-freedom"
-        ],
-        "firstPublishedAt": "2026-10-06T16:53:21.000Z",
-        "lastObservedAt": "2026-10-06T18:54:14.550Z"
-      }
-    },
-    {
       "id": "news-189a59772523fe892390a90e",
       "title": "웹 망원경, 성운의 별 제트에서 발생한 활동 영상 공개",
       "titleTranslations": {
@@ -1822,34 +1909,6 @@
       }
     },
     {
-      "id": "news-0d628683405b9be7049e5b15",
-      "title": "미 대법원, 대형 석유기업의 기후 피해 소송 차단 시도 심리(새 심기)",
-      "titleTranslations": {
-        "en": "US supreme court hears big oil’s bid to block climate damage lawsuits"
-      },
-      "startAt": "2026-10-05T19:57:36.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언은 새 대법원 심리가 대형 석유업체들이 주(州) 수준의 기후 피해 소송을 봉쇄하려는 시도를 심리 중이라고 전했다. 보도는 변론 후 법관들이 어느 쪽으로 기울지 아직 불확실하다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports the US Supreme Court began hearing arguments in a major case in which big oil firms seek to halt state‑level climate damage lawsuits. After nearly two hours of argument, observers said it remained unclear which way the justices were leaning."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits"
-        ],
-        "firstPublishedAt": "2026-10-05T19:57:36.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.775Z"
-      }
-    },
-    {
       "id": "news-3e38a0d033570718aa393cde",
       "title": "해리 케인, 잉글랜드 최다 출전 기록에 근접 — 대표팀 위상 재조명",
       "titleTranslations": {
@@ -2019,36 +2078,6 @@
         ],
         "firstPublishedAt": "2026-10-05T09:04:45.000Z",
         "lastObservedAt": "2026-10-05T21:12:03.776Z"
-      }
-    },
-    {
-      "id": "news-1838985c2f6917589ffe921c",
-      "title": "고대 이집트 '시종 희생' 가설 지지하는 새로운 법의학 증거",
-      "titleTranslations": {
-        "en": "New forensic evidence supports Egyptian \"retainer sacrifice\""
-      },
-      "startAt": "2026-10-05T04:00:52.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica 보도는 초기 왕조(First Dynasty)의 집단 매장에 대한 신뢰분석에서 두개골의 약 39%에서 치명적 둔력 외상 징후가 발견돼 이른바 '시종 희생' 해석을 뒷받침한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports fresh forensic analysis of First Dynasty mass burials found signs of fatal blunt‑force trauma on about 39% of skulls, supporting interpretations of so‑called 'retainer sacrifice.'"
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/"
-        ],
-        "firstPublishedAt": "2026-10-05T04:00:52.000Z",
-        "lastObservedAt": "2026-10-05T06:58:11.657Z"
       }
     },
     {
@@ -2250,34 +2279,6 @@
         ],
         "firstPublishedAt": "2026-10-02T03:18:45.000Z",
         "lastObservedAt": "2026-10-03T17:14:08.025Z"
-      }
-    },
-    {
-      "id": "news-09a227382f8aa4fff1bb7bb2",
-      "title": "미국 주(州)·도시들, 트럼프 행정부의 발전소 온실가스 규정 폐지에 대해 소송 제기",
-      "titleTranslations": {
-        "en": "US states and cities sue over Trump EPA’s repeal of emissions rules"
-      },
-      "startAt": "2026-10-01T22:24:25.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 뉴욕을 선두로 한 21개 주와 페인트롤베이커 등 주요 도시들이 트럼프 행정부가 석탄·가스 발전소의 온실가스 규제를 폐지한 것에 대해 소송을 제기했다. 원고들은 규제 폐지가 주요 기후 보호 장치를 약화시키고 수십 년간의 성과를 뒤로 돌릴 것이라고 주장한다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that a coalition led by New York—comprising 21 states and several major cities—has sued the Trump administration over its repeal of rules limiting greenhouse‑gas emissions from coal and gas‑fired power plants, arguing the rollback weakens a key climate protection."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/01/us-states-cities-trump-epa-climate-emissions",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/01/us-states-cities-trump-epa-climate-emissions"
-        ],
-        "firstPublishedAt": "2026-10-01T22:24:25.000Z",
-        "lastObservedAt": "2026-10-02T06:58:56.747Z"
       }
     },
     {
