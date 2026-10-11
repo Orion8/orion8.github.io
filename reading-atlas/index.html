@@ -301,7 +301,14 @@
     document.querySelectorAll('.map-group-spotlight').forEach(node=>node.classList.remove('map-group-spotlight'));
     const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     target.scrollIntoView({behavior:reduceMotion?'instant':'smooth',block:'center'});
-    spotlightStart=setTimeout(()=>{target.focus({preventScroll:true});target.classList.add('map-group-spotlight');spotlightEnd=setTimeout(()=>target.classList.remove('map-group-spotlight'),reduceMotion?2300:2600)},reduceMotion?0:450);
+    const deadline=performance.now()+2200;
+    function reveal(){
+      const rect=target.getBoundingClientRect();
+      if(!reduceMotion&&(rect.top>innerHeight*.7||rect.bottom<innerHeight*.3)&&performance.now()<deadline){spotlightStart=setTimeout(reveal,80);return}
+      target.focus({preventScroll:true});target.classList.add('map-group-spotlight');
+      spotlightEnd=setTimeout(()=>target.classList.remove('map-group-spotlight'),reduceMotion?2300:2600);
+    }
+    spotlightStart=setTimeout(reveal,reduceMotion?0:80);
   }
   document.addEventListener('keydown',e=>{const node=e.target.closest('.orbit-hit');if(node&&(e.key==='Enter'||e.key===' ')){e.preventDefault();jumpToGroup(+node.dataset.orbitGroup)}});
   document.addEventListener('click',e=>{const lang=e.target.closest('[data-lang]');if(lang){setLanguage(lang.dataset.lang);return}const orbit=e.target.closest('[data-orbit-group]');if(orbit){jumpToGroup(+orbit.dataset.orbitGroup);return}const save=e.target.closest('[data-save]');if(save){const id=+save.dataset.save;saved.has(id)?saved.delete(id):saved.add(id);try{localStorage.setItem('readingAtlasSaved',JSON.stringify([...saved]))}catch{}render();return}const cat=e.target.closest('[data-category]');if(cat){state.category=cat.dataset.category;state.path=null;$('category').value=state.category;render();$('library').scrollIntoView({behavior:'smooth'});return}const ep=e.target.closest('[data-period]');if(ep){state.period=state.period===ep.dataset.period?'all':ep.dataset.period;$('period').value=state.period;state.path=null;render();$('library').scrollIntoView({behavior:'smooth'});return}const path=e.target.closest('[data-path]');if(path){state.path=path.dataset.path;state.category='all';state.period='all';state.query='';$('category').value='all';$('period').value='all';$('search').value='';render();$('library').scrollIntoView({behavior:'smooth'});return}const feature=e.target.closest('[data-feature]');if(feature){const b=books[+feature.dataset.feature];state.category=String(b.category);state.period='all';state.path=null;state.query=b.original;$('category').value=state.category;$('period').value='all';$('search').value=b.original;render();$('library').scrollIntoView({behavior:'smooth'})}});
