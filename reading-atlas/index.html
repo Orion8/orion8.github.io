@@ -142,7 +142,7 @@
   function init(){
     $('features').innerHTML=featured.map((title,i)=>{const b=books.find(x=>x.title===title);return `<button class="feature" data-feature="${b.id}"><span class="num">0${i+1}</span><div><h3>${escapeHTML(title)}</h3><p>${escapeHTML(categories[b.category].name)} · ${escapeHTML(b.author)}</p></div><span class="arrow">↗</span></button>`}).join('');
     $('legend').innerHTML=groups.map(g=>`<span><i style="background:${g.color}"></i>${g.name}</span>`).join('');
-    $('categoryMap').innerHTML=groups.map((g,gi)=>`<div class="map-group"><div class="map-group-title"><i style="background:${g.color}"></i>${g.name}</div>${categories.map((c,ci)=>c.group===gi?`<button class="map-node" data-category="${ci}" aria-pressed="false"><small>0${ci+1} / 05</small>${c.name}</button>`:'').join('')}</div>`).join('');
+    $('categoryMap').innerHTML=groups.map((g,gi)=>`<div class="map-group"><div class="map-group-title"><i style="background:${g.color}"></i>${g.name}</div>${categories.map((c,ci)=>c.group===gi?`<button class="map-node" data-category="${ci}" aria-pressed="false"><small>${String(ci+1).padStart(2,'0')} / 15</small>${c.name}</button>`:'').join('')}</div>`).join('');
     $('category').innerHTML+='<option value="saved">☆ 저장한 책</option>'+categories.map((c,i)=>`<option value="${i}">${c.name}</option>`).join('');
     $('period').innerHTML+=epochs.map(e=>`<option value="${e.key}">${e.name}</option>`).join('');
     const counts=epochs.map(e=>books.filter(b=>e.test(b.year)).length),max=Math.max(...counts);
