@@ -3,7 +3,7 @@
   const id=Number(document.body.dataset.bookId);
   const escapeHTML=value=>String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
   let data;
-  try{const response=await fetch('../books.json');if(!response.ok)throw Error(response.status);data=await response.json()}catch{document.getElementById('app').innerHTML='<main class="error">Book details could not be loaded. <a href="../index.html">Return to Reading Atlas</a></main>';return}
+  try{const response=await fetch('../books.json?v=retail-20261011',{cache:'no-store'});if(!response.ok)throw Error(response.status);data=await response.json()}catch{document.getElementById('app').innerHTML='<main class="error">Book details could not be loaded. <a href="../index.html">Return to Reading Atlas</a></main>';return}
   const book=data.books[id];if(!book)return;
   let language='ko';try{language=localStorage.getItem('readingAtlasLanguage')==='en'?'en':'ko'}catch{}
   const words={
@@ -13,7 +13,7 @@
   const name=b=>{const translated=language==='ko'?b.koTitle:b.title;return b.original===translated?b.original:`${b.original} (${translated})`};
   const retail=b=>{
     const ancient=b.year<1500,englishQuery=b.title+(ancient?'':' '+b.authorEN.split(' · ')[0]);
-    const amazonFormat=b.retail.amazonFormat,yesEbook=b.retail.yes24EbookUrl;
+    const amazonFormat=b.retail?.amazonFormat||'paper',yesEbook=b.retail?.yes24EbookUrl;
     return {amazon:{url:`https://www.amazon.com/s?k=${encodeURIComponent(englishQuery)}&i=${amazonFormat==='ebook'?'digital-text':'stripbooks'}`,format:amazonFormat},yes:{url:yesEbook||`https://www.yes24.com/product/search?query=${encodeURIComponent(b.koTitle)}&domain=BOOK`,format:yesEbook?'ebook':'paper'}};
   };
   const retailerLabel=(store,link)=>`<span class="format-icon" aria-hidden="true">${link.format==='ebook'?'📱':'📖'}</span> ${store} · ${link.format==='ebook'?'eBook':language==='ko'?'종이책':'Paper'} ↗`;
