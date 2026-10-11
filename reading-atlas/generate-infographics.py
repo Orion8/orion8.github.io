@@ -55,7 +55,7 @@ class Poster:
         self.line(90, y+24, 1510, y+24, RULE, 2)
 
     def base(self, index, title, translated, byline, question_ko, question_en):
-        self.txt(92, 88, 'THE READING ATLAS   /   BOOK ANATOMY', 20, self.accent, 700, tracking=2.6)
+        self.txt(92, 88, '독서 지형도   /   책 해부도' if self.lang == 'ko' else 'THE READING ATLAS   /   BOOK ANATOMY', 20, self.accent, 700, tracking=2.6)
         self.txt(1508, 88, f'{index:02} / 03', 22, self.accent, 700, 'end')
         self.txt(90, 208, title, 83 if len(title)<25 else 70, INK, 400, family='serif', tracking=-2)
         self.txt(94, 269, f'({translated})' if self.lang == 'ko' else byline, 29, MUTED, 400)
@@ -87,35 +87,35 @@ def being_you(lang):
            'How do conscious experience and the sense of self arise?')
     p.section(517, 1, '책의 구조 · 네 부분', 'BOOK STRUCTURE · FOUR PARTS')
     parts = [
-        ('01', 'LEVEL', '의식의 수준', 'Level of consciousness', 'ch. 1–3'),
-        ('02', 'CONTENT', '경험의 내용', 'What is experienced', 'ch. 4–6'),
-        ('03', 'SELF', '자아의 여러 층', 'Layers of selfhood', 'ch. 7–11'),
-        ('04', 'OTHER', '타자의 의식', 'Other minds', 'ch. 12–13')]
+        ('01', 'LEVEL', '의식의 수준', 'Level of consciousness', '1–3'),
+        ('02', 'CONTENT', '경험의 내용', 'What is experienced', '4–6'),
+        ('03', 'SELF', '자아의 여러 층', 'Layers of selfhood', '7–11'),
+        ('04', 'OTHER', '타자의 의식', 'Other minds', '12–13')]
     for i,(n,head,ko,en,ch) in enumerate(parts):
         x=90+i*360
         p.rect(x, 573, 340, 214, WHITE, RULE, 16)
         p.rect(x, 573, 340, 10, p.accent if i==2 else '#d7b4a5', 'none', 0)
         p.txt(x+24, 623, n, 28, p.accent, 700)
-        p.txt(x+24, 665, head, 28, INK, 700, tracking=1)
+        p.txt(x+24, 665, ['수준','내용','자아','타자'][i] if lang=='ko' else head, 28, INK, 700, tracking=1)
         p.txt(x+24, 712, ko if lang=='ko' else en, 23, MUTED)
-        p.txt(x+24, 759, ch, 18, '#8d9691')
+        p.txt(x+24, 759, f'{ch}장' if lang=='ko' else f'ch. {ch}', 18, '#8d9691')
     p.section(858, 2, '핵심 도식 · 예측하는 뇌, 살아 있는 몸', 'CORE MODEL · PREDICTIVE BRAIN, LIVING BODY')
     p.rect(90, 915, 1420, 585, '#fffaf3', RULE, 24)
     # Outer world, brain, body, and experienced world; directional flows.
     p.circle(800, 1210, 226, '#f4e2d8', '#d4a798', 3)
     p.circle(800, 1210, 151, WHITE, p.accent, 4)
     p.circle(800, 1210, 88, INK)
-    p.txt(800, 1200, 'EXPERIENCE', 20, '#d3dcd4', 700, 'middle', tracking=1)
-    p.txt(800, 1240, '경험' if lang=='ko' else 'YOU', 33, WHITE, 700, 'middle')
+    p.txt(800, 1200, '경험' if lang=='ko' else 'EXPERIENCE', 20, '#d3dcd4', 700, 'middle', tracking=1)
+    p.txt(800, 1240, '나' if lang=='ko' else 'YOU', 33, WHITE, 700, 'middle')
     p.rect(150, 1080, 330, 185, '#e4eeea', 'none', 20)
-    p.txt(184, 1132, 'WORLD', 24, '#2a7777', 700)
+    p.txt(184, 1132, '외부 세계' if lang=='ko' else 'WORLD', 24, '#2a7777', 700)
     p.lines(184, 1185, ['빛 · 소리 · 사건', '감각 신호'] if lang=='ko' else ['Light · sound · events', 'Sensory signals'], 24, INK, 39)
     p.rect(1120, 1080, 330, 185, '#ebe5ef', 'none', 20)
-    p.txt(1154, 1132, 'BODY', 24, '#795a89', 700)
+    p.txt(1154, 1132, '몸' if lang=='ko' else 'BODY', 24, '#795a89', 700)
     p.lines(1154, 1185, ['심장 · 호흡 · 내부 상태', '살아 있음의 신호'] if lang=='ko' else ['Heart · breath · internal state', 'Signals of being alive'], 23, INK, 39)
     p.path('M480 1176 C555 1126 590 1112 634 1124', p.accent, 4, arrow=True)
     p.path('M1120 1176 C1040 1126 1010 1112 966 1124', p.accent, 4, arrow=True)
-    p.txt(800, 1010, 'BRAIN  /  PREDICTION ↔ ERROR', 21, p.accent, 700, 'middle', tracking=1)
+    p.txt(800, 1010, '뇌  /  예측 ↔ 오차' if lang=='ko' else 'BRAIN  /  PREDICTION ↔ ERROR', 21, p.accent, 700, 'middle', tracking=1)
     p.path('M744 1062 C600 966 930 938 858 1059', '#9d7770', 3, arrow=True)
     p.rect(315, 1362, 970, 98, WHITE, '#e0c8bb', 14)
     p.txt(800, 1405, '지각 = 예측과 감각의 지속적인 조율' if lang=='ko' else 'Perception = continual tuning of prediction and sensation', 26, INK, 600, 'middle')
@@ -134,12 +134,12 @@ def being_you(lang):
         p.txt(x+29, 1763, title, 26 if lang=='ko' else 27, INK, 700)
         p.lines(x+29, 1833, bodyko if lang=='ko' else bodyen, 23, MUTED, 38)
         p.line(x+29, 1928, x+431, 1928, '#e7e8df')
-        p.txt(x+29, 1953, ['LEVEL → CONTENT','CONTENT → SELF','SELF → OTHER'][i], 17, p.accent, 700, tracking=1)
+        p.txt(x+29, 1953, (['수준 → 내용','내용 → 자아','자아 → 타자'] if lang=='ko' else ['LEVEL → CONTENT','CONTENT → SELF','SELF → OTHER'])[i], 17, p.accent, 700, tracking=1)
     p.footer('내 경험의 어느 부분이 감각이고, 어느 부분이 예측일까?',
              'Which parts of my experience are sensation, and which prediction?',
              '독서용 재구성 · 도식은 저자의 이론을 단순화함',
              'Editorial reading map · diagram simplifies the author’s account',
-             'Source: Being You · anilseth.com')
+             ('자료: Being You · anilseth.com' if lang=='ko' else 'Source: Being You · anilseth.com'))
     p.save('being-you')
 
 
@@ -156,7 +156,7 @@ def thinking(lang):
         x=90+i*480
         p.rect(x, 573, 460, 214, WHITE, RULE, 16)
         p.txt(x+28, 629, n, 30, p.accent, 700)
-        p.txt(x+70, 629, head, 25, INK, 700)
+        p.txt(x+70, 629, ['구조','시스템과 우리','변화'][i] if lang=='ko' else head, 25, INK, 700)
         p.txt(x+28, 700, ko if lang=='ko' else en, 28, INK, 600)
         p.txt(x+28, 753, subko if lang=='ko' else suben, 21, MUTED)
     p.section(858, 2, '핵심 도식 · 쌓이고, 흐르고, 되돌아온다', 'CORE MODEL · STOCK, FLOW, FEEDBACK')
@@ -164,22 +164,22 @@ def thinking(lang):
     # Stock and flow architecture.
     p.rect(575, 1072, 450, 218, '#d8ece3', p.accent, 20, 4)
     p.rect(575, 1200, 450, 90, '#8dc3af', 'none', 0)
-    p.txt(800, 1140, 'STOCK  /  축적' if lang=='ko' else 'STOCK  /  ACCUMULATION', 30, INK, 700, 'middle')
+    p.txt(800, 1140, '축적' if lang=='ko' else 'STOCK  /  ACCUMULATION', 30, INK, 700, 'middle')
     p.txt(800, 1190, '시간이 지나도 남는 양' if lang=='ko' else 'What remains over time', 24, INK, 400, 'middle')
     p.path('M195 1176 H560', p.accent, 6, arrow=True)
     p.path('M1040 1176 H1400', p.accent, 6, arrow=True)
     p.circle(355,1176,17,WHITE,p.accent,4)
     p.circle(1245,1176,17,WHITE,p.accent,4)
-    p.txt(225, 1108, 'INFLOW  +', 25, p.accent, 700)
-    p.txt(1165, 1108, 'OUTFLOW  −', 25, p.accent, 700)
+    p.txt(225, 1108, '유입  +' if lang=='ko' else 'INFLOW  +', 25, p.accent, 700)
+    p.txt(1165, 1108, '유출  −' if lang=='ko' else 'OUTFLOW  −', 25, p.accent, 700)
     p.txt(225, 1234, '유입' if lang=='ko' else 'IN', 22, MUTED)
     p.txt(1358, 1234, '유출' if lang=='ko' else 'OUT', 22, MUTED, 'end')
     p.path('M975 1304 C1050 1432 1140 1454 1178 1380 C1245 1280 1225 1265 1245 1208', '#b58c58', 4, arrow=True)
     p.path('M650 1304 C580 1425 490 1450 424 1376 C350 1295 365 1260 355 1210', p.accent, 4, arrow=True)
     p.rect(1050, 1348, 290, 77, '#f3e7d3', 'none', 14)
-    p.txt(1195, 1395, 'B  /  균형' if lang=='ko' else 'B  /  BALANCING', 22, '#8b6d41', 700, 'middle')
+    p.txt(1195, 1395, '균형 되먹임' if lang=='ko' else 'B  /  BALANCING', 22, '#8b6d41', 700, 'middle')
     p.rect(260, 1348, 290, 77, '#dcefe7', 'none', 14)
-    p.txt(405, 1395, 'R  /  강화' if lang=='ko' else 'R  /  REINFORCING', 22, p.accent, 700, 'middle')
+    p.txt(405, 1395, '강화 되먹임' if lang=='ko' else 'R  /  REINFORCING', 22, p.accent, 700, 'middle')
     p.txt(800, 1470, '지연(delay)이 있으면 개입의 결과가 늦게 나타난다' if lang=='ko' else 'Delays can hide the effects of a change', 23, MUTED, 400, 'middle')
     p.section(1570, 3, '개입의 사다리 · 어디를 바꿀까?', 'THE LEVERAGE LADDER · WHERE TO ACT?')
     stages=[
@@ -201,7 +201,7 @@ def thinking(lang):
              'Which structure keeps producing the event I want to fix?',
              '독서용 재구성 · 개입 사다리는 12개 지점의 압축 요약',
              'Editorial reading map · leverage ladder condenses twelve points',
-             'Sources: Chelsea Green · donellameadows.org')
+             ('자료: Chelsea Green · donellameadows.org' if lang=='ko' else 'Sources: Chelsea Green · donellameadows.org'))
     p.save('thinking-in-systems')
 
 
@@ -218,7 +218,7 @@ def infinity(lang):
     for i,(ch,ko,en,bodyko,bodyen) in enumerate(route):
         x=90+i*480
         p.rect(x, 573, 460, 214, WHITE, RULE, 16)
-        p.txt(x+26, 626, 'CH '+ch, 24, p.accent, 700, tracking=1)
+        p.txt(x+26, 626, ch+'장' if lang=='ko' else 'CH '+ch, 24, p.accent, 700, tracking=1)
         p.txt(x+26, 697, ko if lang=='ko' else en, 25, INK, 700)
         p.txt(x+26, 753, bodyko if lang=='ko' else bodyen, 21, MUTED)
     p.section(858, 2, '핵심 도식 · 끝나지 않는 설명의 개선', 'CORE MODEL · AN OPEN-ENDED KNOWLEDGE CYCLE')
@@ -235,7 +235,7 @@ def infinity(lang):
     p.path('M1123 1132 C1184 1170 1207 1203 1230 1222',p.accent,4,arrow=True)
     p.path('M1260 1410 C990 1530 420 1460 286 1234',p.accent,4,arrow=True)
     p.rect(490, 1237, 578, 135, WHITE, '#d8d3e9', 18)
-    p.txt(779, 1292, 'GOOD EXPLANATION', 22, p.accent, 700, 'middle', tracking=1)
+    p.txt(779, 1292, '좋은 설명' if lang=='ko' else 'GOOD EXPLANATION', 22, p.accent, 700, 'middle', tracking=1)
     p.txt(779, 1342, '핵심을 멋대로 바꾸기 어렵다' if lang=='ko' else 'Hard to vary while solving the same problem', 22, INK, 600, 'middle')
     p.txt(800, 1461, '새 설명은 새 문제를 드러낸다  ↗' if lang=='ko' else 'Each improvement reveals new problems  ↗', 23, MUTED, 400, 'middle')
     p.section(1570, 3, '무엇을 캐갈까 · 사고의 세 가지 도구', 'TAKEAWAYS · THREE THINKING TOOLS')
@@ -251,12 +251,12 @@ def infinity(lang):
         p.txt(x+29, 1763, ko if lang=='ko' else en, 25, INK, 700)
         p.lines(x+29, 1833, bodyko if lang=='ko' else bodyen, 23, MUTED, 38)
         p.line(x+29, 1928, x+431, 1928, '#e7e8df')
-        p.txt(x+29, 1953, ['EXPLANATION','ERROR CORRECTION','OPEN FUTURE'][i], 17, p.accent, 700, tracking=1)
+        p.txt(x+29, 1953, (['설명','오류 교정','열린 미래'] if lang=='ko' else ['EXPLANATION','ERROR CORRECTION','OPEN FUTURE'])[i], 17, p.accent, 700, tracking=1)
     p.footer('지금의 문제에서 “아직 모르는 것”은 정확히 무엇인가?',
              'What, exactly, do we not yet know about this problem?',
              '독서용 재구성 · 세 갈래는 공식 목차의 편집상 묶음',
              'Editorial reading map · three threads are an editorial grouping',
-             'Source: The Beginning of Infinity · official excerpt')
+             ('자료: The Beginning of Infinity · 공식 발췌' if lang=='ko' else 'Source: The Beginning of Infinity · official excerpt'))
     p.save('beginning-of-infinity')
 
 
