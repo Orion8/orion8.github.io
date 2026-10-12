@@ -55,6 +55,21 @@
       "source": "https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html",
       "edition": "1859 first edition",
       "completedOn": "2026-10-12"
+    },
+    {
+      "id": 2,
+      "title": "The Mathematical Theory of Communication",
+      "englishIllustrated": "mathematical-theory-of-communication-en-illustrated.webp",
+      "sources": [
+        "https://www.press.uillinois.edu/books/?id=p725487",
+        "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+        "https://raley.english.ucsb.edu/wp-content/Engl800/Shannon-Weaver.pdf",
+        "https://agnd.net/valpo/490/the-mathematical-theory-of-communication_weaver-shannon.pdf"
+      ],
+      "edition": "1949 book; Shannon's 1948 paper and Weaver's opening essay",
+      "completedOn": "2026-10-12",
+      "language": "English only",
+      "sourceNotes": "sources/mathematical-theory-of-communication.md"
     }
   ]
 }
