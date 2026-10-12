@@ -47,6 +47,14 @@
         "https://mathcs.clarku.edu/~djoyce/java/elements/elements.html"
       ],
       "completedOn": "2026-10-12"
+    },
+    {
+      "id": 1,
+      "title": "On the Origin of Species",
+      "englishIllustrated": "on-the-origin-of-species-en-illustrated.svg",
+      "source": "https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html",
+      "edition": "1859 first edition",
+      "completedOn": "2026-10-12"
     }
   ]
 }
