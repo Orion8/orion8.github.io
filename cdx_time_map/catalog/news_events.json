@@ -1,24 +1,52 @@
 {
-  "catalogVersion": "0.0.158",
-  "updatedAt": "2026-10-11T18:02:10.484Z",
+  "catalogVersion": "0.0.159",
+  "updatedAt": "2026-10-12T07:18:44.237Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-bd9080c07517bb4bf2927cef",
-      "title": "사우디 리야드에 대한 후티 공격 — 수도 공항·석유시설 겨냥, 민간인 피해 보고",
+      "id": "news-6490f52bc4e27312714a75a7",
+      "title": "재정 싱크탱크, 힐리 재무장관에 350억 파운드(Budget) 격차 경고",
       "titleTranslations": {
-        "en": "Houthi strikes on Riyadh — airports and oil facilities targeted, civilian casualties reported"
+        "en": "Healey faces £35bn Budget challenge to meet spending pledges, says think tank"
       },
-      "startAt": "2026-10-11T16:41:37.000Z",
+      "startAt": "2026-10-12T07:15:18.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 비즈니스 보도에 따르면 싱크탱크인 재정연구소(Institute for Fiscal Studies)는 재무장관 힐리가 지출 약속을 이행하려면 약 350억 파운드의 어려움에 직면해 있다고 분석했다. 보고서는 이란 전쟁의 영향이 정부 재정 계획에 중대한 위험 요인으로 작용할 수 있다고 지적했다.",
+      "descriptionTranslations": {
+        "en": "BBC Business reports that the Institute for Fiscal Studies says Chancellor Healey faces about a £35bn shortfall to meet spending pledges. The think‑tank warns that the Iran war poses material risks to the government's fiscal plans."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm78pwdp3n5qo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm78pwdp3n5qo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-12T07:15:18.000Z",
+        "lastObservedAt": "2026-10-12T07:18:44.237Z"
+      }
+    },
+    {
+      "id": "news-bd9080c07517bb4bf2927cef",
+      "title": "후티 공격 뒤 여러 국가, 사우디아라비아 여행 경고",
+      "titleTranslations": {
+        "en": "Countries warn against travel to Saudi Arabia following Houthi attacks"
+      },
+      "startAt": "2026-10-12T05:53:45.000Z",
       "lane": "world",
       "category": "politicsSociety",
       "importance": 3,
-      "description": "BBC는 예멘 후티가 리야드에서 주말 공격을 단행해 두 개의 공항과 석유시설을 겨냥했다고 보도했다. 사우디 측은 특히 킹 칼리드 국제공항 공격과 관련해 후티가 12명을 살해하고 300명을 부상시켰다고 비난한 반면, 후티는 리야드에서 13명이 사망했다고 주장했다. 이번 공격은 최근 이틀 사이 수도를 향한 두 번째 타격으로 전해졌다.",
+      "description": "미국·호주·캐나다·일본·한국·뉴질랜드 등 여러 나라가 예멘 후티의 리야드 공격 직후 자국민에게 사우디아라비아 여행을 자제하라고 권고했다고 알자지라가 보도했다. 이번 경고는 수도에 대한 연이은 공격과 지역적 긴장 고조에 따른 외교·안보적 반응의 하나로 전해진다.",
       "descriptionTranslations": {
-        "en": "BBC reported that Yemen’s Houthi group carried out weekend attacks on Riyadh, targeting two airports and oil facilities. Saudi authorities accused the Houthis of killing 12 and injuring 300 in an attack on King Khalid (international airport), while the Houthis said the strikes killed 13 people in Riyadh. The report says this was the second strike on the Saudi capital in two days."
+        "en": "Al Jazeera reports that the United States, Australia, Canada, Japan, South Korea and New Zealand have urged their citizens to avoid travel to Saudi Arabia following Houthi attacks on Riyadh. The travel advisories are part of international reactions to repeated strikes on the Saudi capital and rising regional tensions."
       },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/economy/2026/10/12/countries-warn-against-travel-to-saudi-arabia-following-houthi-attacks?traffic_source=rss",
       "topicIds": [
         "politicsHumanRights"
       ],
@@ -26,10 +54,69 @@
         "status": "developing",
         "sourceUrls": [
           "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss"
+          "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss",
+          "https://www.aljazeera.com/economy/2026/10/12/countries-warn-against-travel-to-saudi-arabia-following-houthi-attacks?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-10-11T16:41:37.000Z",
-        "lastObservedAt": "2026-10-11T18:02:10.484Z"
+        "lastObservedAt": "2026-10-12T07:18:44.236Z"
+      }
+    },
+    {
+      "id": "news-532401ef0fa9fb90e02e4018",
+      "title": "가을 홍수 대비 경고 — 피해지역 주민들 준비 시작",
+      "titleTranslations": {
+        "en": "'Prepare for the unthinkable' warning over autumn flooding"
+      },
+      "startAt": "2026-10-12T05:24:10.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "BBC 과학·환경 보도는 당국과 전문가들이 가을철 집중강우에 따른 홍수 위험에 대비하라는 경고를 내렸다고 전했다. 이미 피해를 본 지역 주민들은 우려를 표하며 대비를 시작했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "BBC Science & Environment reports authorities and experts have warned communities to prepare for possible autumn flooding from heavy rains. Residents in flood‑hit areas say they are worried and have begun preparing."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g1pqyqzqwo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm4g1pqyqzqwo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-12T05:24:10.000Z",
+        "lastObservedAt": "2026-10-12T07:18:44.237Z"
+      }
+    },
+    {
+      "id": "news-a7867473cdb52eec78505be6",
+      "title": "남극 해빙, 2026년 최대 면적 도달 — 관측 역사상 세 번째로 적은 최대치 기록",
+      "titleTranslations": {
+        "en": "Antarctic Sea Ice Grows to Its 2026 Maximum"
+      },
+      "startAt": "2026-10-12T04:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 남극 해빙이 올해 최대 면적에 도달했지만 위성 관측 이래 세 번째로 적은 최대 확장 정도를 기록했다고 밝혔다. 관측 결과는 기후·해양 변화 추세를 평가하는 자료로 제시되었다.",
+      "descriptionTranslations": {
+        "en": "NASA reports Antarctic sea ice reached its 2026 maximum extent, which was the third‑lowest maximum since satellite observations began. The data contribute to assessments of climate and ocean change trends."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/"
+        ],
+        "firstPublishedAt": "2026-10-12T04:00:00.000Z",
+        "lastObservedAt": "2026-10-12T07:18:44.237Z"
       }
     },
     {
@@ -58,6 +145,64 @@
         ],
         "firstPublishedAt": "2026-10-11T05:35:09.000Z",
         "lastObservedAt": "2026-10-11T07:06:52.640Z"
+      }
+    },
+    {
+      "id": "news-7113efc77f1c641cb47d729d",
+      "title": "랜싯 보고서 평가: 핵전쟁과 악의적 AI 사용이 2100년까지 인류 멸종 가능성 제기",
+      "titleTranslations": {
+        "en": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment"
+      },
+      "startAt": "2026-10-10T23:01:09.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "가디언 과학 보도는 새로 구성된 위원회의 글로벌 위험 평가를 인용해 핵전쟁과 악의적 인공지능 사용이 2100년까지 인류 멸종을 초래할 수 있다고 경고했다고 전했다. 위원회는 17개의 심각한 위협을 식별했으나 각 위협에 대응할 현실적 방안이 있다고도 밝혔다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports a newly established commission's Lancet assessment warns that nuclear war and the malicious use of artificial intelligence could threaten human survival by 2100. The commission identified 17 catastrophic health threats but said realistic routes exist to act on each."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment"
+        ],
+        "firstPublishedAt": "2026-10-10T23:01:09.000Z",
+        "lastObservedAt": "2026-10-12T07:18:44.237Z"
+      }
+    },
+    {
+      "id": "news-cb13376954d1a2740e83ec5a",
+      "title": "미국-멕시코 국경 공사로 200년 된 ‘할머니’ 면양나무(코튼우드) 훼손 — 시위·트리시트 해산",
+      "titleTranslations": {
+        "en": "Despair after 200‑year‑old ‘grandmother’ tree toppled for Trump’s border wall: ‘It crushes your heart’"
+      },
+      "startAt": "2026-10-10T20:57:32.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 1,
+      "description": "가디언은 애리조나 로치엘에 있던 200년 된 코튼우드 나무가 도널드 트럼프 행정부의 국경 장벽 공사를 위해 제거되었고, 이를 막기 위해 수개월간 이어진 점거 시위(나무 위 트리시트)가 끝났다고 보도했다. 현지 활동가들은 나무의 상징성과 문화적 충격을 언급했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that a 200‑year‑old cottonwood tree near Lochiel, Arizona — known as the 'grandmother' — was cut down to make way for construction of President Trump's border wall, ending a months‑long occupation and tree‑sit by protesters. Activists described the loss as culturally devastating."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/10/cottonwood-tree-toppling-trump-mexico-border-wall-arizona",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/10/cottonwood-tree-toppling-trump-mexico-border-wall-arizona"
+        ],
+        "firstPublishedAt": "2026-10-10T20:57:32.000Z",
+        "lastObservedAt": "2026-10-12T07:18:44.237Z"
       }
     },
     {
@@ -256,6 +401,34 @@
         ],
         "firstPublishedAt": "2026-10-09T22:04:07.000Z",
         "lastObservedAt": "2026-10-10T17:49:54.355Z"
+      }
+    },
+    {
+      "id": "news-d7aed4fb31d4181be64afc72",
+      "title": "기니비사우 신생아 대상 간염B 백신 일부 보류 연구 승인 — RFK 주도 백신정책 논란과 연계",
+      "titleTranslations": {
+        "en": "Controversial vaccine trial touted by RFK Jr gets go‑ahead in Guinea‑Bissau"
+      },
+      "startAt": "2026-10-09T21:36:18.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 덴마크 연구진이 수천 명의 신생아에게 권장 용량의 간염 B 백신을 일부러 보류하는 연구를 기니비사우에서 진행하도록 승인받았다. 이 시험은 보건부 장관으로서 백신에 비판적 입장을 보여온 로버트 F. 케네디 주니어의 백신 구상과 연결돼 논란이 되고 있다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Danish researchers have been approved to withhold the recommended dose of hepatitis B vaccine from some newborns in a trial in Guinea‑Bissau. The study is controversial and is tied to the vaccine agenda of Robert F. Kennedy Jr., who serves as US HHS secretary and has a long record of vaccine opposition."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr"
+        ],
+        "firstPublishedAt": "2026-10-09T21:36:18.000Z",
+        "lastObservedAt": "2026-10-12T07:18:44.237Z"
       }
     },
     {
@@ -1064,34 +1237,6 @@
       }
     },
     {
-      "id": "news-ea13eba4a7e8245e72ccafac",
-      "title": "크라이슬러 빌딩 매각…맨해튼 상징 '크라운' 복원 계획",
-      "titleTranslations": {
-        "en": "Chrysler Building to get its crown restored after being sold"
-      },
-      "startAt": "2026-10-08T12:49:12.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC는 뉴욕 맨해튼의 상징적 고층건물 크라이슬러 빌딩이 매각되었으며, 대대적 보수와 '크라운' 복원을 통해 새 사무공간을 공급할 예정이라고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports the iconic Chrysler Building in Manhattan has been sold and will undergo major renovations, including restoring its distinctive crown, to provide new office space."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8g47z3r4dzvo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c8g47z3r4dzvo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-08T12:49:12.000Z",
-        "lastObservedAt": "2026-10-08T19:17:02.143Z"
-      }
-    },
-    {
       "id": "news-1bd84ab444f01174f13e6531",
       "title": "한국, 대북 포로 문제를 둘러싼 분쟁으로 우크라이나 주재 대사 소환 발표",
       "titleTranslations": {
@@ -1856,36 +2001,6 @@
       }
     },
     {
-      "id": "news-4aec355d748974ab05356af4",
-      "title": "에이전트 간 통신 프로토콜 MCP의 신뢰구조 취약성 지적",
-      "titleTranslations": {
-        "en": "MCP for agent‑to‑agent comms may be the riskiest protocol you've never heard of"
-      },
-      "startAt": "2026-10-05T22:26:35.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica는 에이전트 간 통신을 위해 고안된 MCP 프로토콜에서 신뢰의 균열이 있어 한 에이전트의 악의적 프롬프트가 다른 에이전트로 전파될 수 있다고 보도했다. 기사는 이 프로토콜의 구조적 결함이 에이전트 보안에 중요한 위험을 제기한다고 지적했다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that trust gaps in the MCP protocol for agent‑to‑agent communications can allow malicious prompts from one agent to spread to others. The article warns the structural flaws in the protocol pose significant risks to agent security."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
-        ],
-        "firstPublishedAt": "2026-10-05T22:26:35.000Z",
-        "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
       "id": "news-662afd1317447569c46b90a9",
       "title": "런던→시카고 BA 항공편, 아일랜드 상공서 2만8천피트 급강하 후 귀환",
       "titleTranslations": {
@@ -1938,34 +2053,6 @@
           "https://www.bbc.co.uk/sport/football/articles/cm5ynj882zw0o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-05T19:05:52.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.776Z"
-      }
-    },
-    {
-      "id": "news-2a40ba055a44d196509c8b1f",
-      "title": "허블 자료 재분석으로 '2세대 행성' 가능성 제기 — 백색왜성 주위 행성계 단서",
-      "titleTranslations": {
-        "en": "Suspected Second‑generation Planet Solves NASA Hubble Cold Case"
-      },
-      "startAt": "2026-10-05T15:00:35.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 허블우주망원경의 기록 자료 재분석 결과 일부 백색왜성 주변에서 '2세대' 행성계가 형성되었을 가능성을 시사하는 증거가 나왔다고 보도했다. 기관은 이번 해석이 백색왜성 주변 행성 기원 연구에 기여할 수 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "NASA reports a new analysis of archival Hubble data points to the possibility that some white dwarfs host second‑generation planetary systems. The agency says the finding could help resolve questions about planet formation around white dwarfs."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/"
-        ],
-        "firstPublishedAt": "2026-10-05T15:00:35.000Z",
         "lastObservedAt": "2026-10-05T21:12:03.776Z"
       }
     },
@@ -2140,34 +2227,6 @@
         ],
         "firstPublishedAt": "2026-10-04T12:30:27.000Z",
         "lastObservedAt": "2026-10-05T21:12:03.775Z"
-      }
-    },
-    {
-      "id": "news-6c83cf760d896bfcab207eee",
-      "title": "영국 철도에서 승무원·승객 대상 폭력 사건 급증",
-      "titleTranslations": {
-        "en": "Assaults on trains in Great Britain soar, staff and passengers at risk"
-      },
-      "startAt": "2026-10-04T10:00:25.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언은 영국 철도에서 폭행, 침 뱉기, 머리박기, 성희롱 등 사례가 급증하고 있으며, 한편으로는 교통경찰 인력이 줄어들어 승무원과 승객의 안전 우려가 커지고 있다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports assaults on Britain's railways — including abuse, spitting, head‑butting and sexual harassment — have spiked, raising safety concerns as transport police numbers have dwindled."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/04/violence-rail-workers-passengers-risk-assaults-uk-railways-soar-record-high-transport",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/uk-news/2026/oct/04/violence-rail-workers-passengers-risk-assaults-uk-railways-soar-record-high-transport"
-        ],
-        "firstPublishedAt": "2026-10-04T10:00:25.000Z",
-        "lastObservedAt": "2026-10-04T17:33:36.940Z"
       }
     },
     {
