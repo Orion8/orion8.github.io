@@ -2,10 +2,51 @@
   "collectionTotal": 75,
   "priorityBasis": "Reading Atlas featured sequence first, then the remaining books by catalogue order",
   "completed": [
-    {"id": 40, "title": "Being You", "koreanIllustrated": "being-you-ko-illustrated.webp", "englishImage": "being-you-en.svg", "completedEarlier": true},
-    {"id": 50, "title": "Thinking in Systems", "koreanIllustrated": "thinking-in-systems-ko-illustrated.webp", "englishImage": "thinking-in-systems-en.svg", "completedEarlier": true},
-    {"id": 65, "title": "The Beginning of Infinity", "koreanIllustrated": "beginning-of-infinity-ko-illustrated.webp", "englishIllustrated": "beginning-of-infinity-en-illustrated.webp", "source": "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/"},
-    {"id": 51, "title": "Complexity: A Guided Tour", "koreanIllustrated": "complexity-a-guided-tour-ko-illustrated.webp", "englishIllustrated": "complexity-a-guided-tour-en-illustrated.webp", "source": "https://academic.oup.com/book/51004"},
-    {"id": 45, "title": "The Society of Mind", "koreanIllustrated": "the-society-of-mind-ko-illustrated.webp", "englishIllustrated": "the-society-of-mind-en-illustrated.webp", "source": "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130"}
+    {
+      "id": 40,
+      "title": "Being You",
+      "koreanIllustrated": "being-you-ko-illustrated.webp",
+      "englishImage": "being-you-en.svg",
+      "completedEarlier": true
+    },
+    {
+      "id": 50,
+      "title": "Thinking in Systems",
+      "koreanIllustrated": "thinking-in-systems-ko-illustrated.webp",
+      "englishImage": "thinking-in-systems-en.svg",
+      "completedEarlier": true
+    },
+    {
+      "id": 65,
+      "title": "The Beginning of Infinity",
+      "koreanIllustrated": "beginning-of-infinity-ko-illustrated.webp",
+      "englishIllustrated": "beginning-of-infinity-en-illustrated.webp",
+      "source": "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/"
+    },
+    {
+      "id": 51,
+      "title": "Complexity: A Guided Tour",
+      "koreanIllustrated": "complexity-a-guided-tour-ko-illustrated.webp",
+      "englishIllustrated": "complexity-a-guided-tour-en-illustrated.webp",
+      "source": "https://academic.oup.com/book/51004"
+    },
+    {
+      "id": 45,
+      "title": "The Society of Mind",
+      "koreanIllustrated": "the-society-of-mind-ko-illustrated.webp",
+      "englishIllustrated": "the-society-of-mind-en-illustrated.webp",
+      "source": "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130"
+    },
+    {
+      "id": 0,
+      "title": "Euclid's Elements",
+      "koreanIllustrated": "euclids-elements-ko-illustrated.svg",
+      "englishIllustrated": "euclids-elements-en-illustrated.svg",
+      "sources": [
+        "https://www.claymath.org/online-resources/euclids-elements/",
+        "https://mathcs.clarku.edu/~djoyce/java/elements/elements.html"
+      ],
+      "completedOn": "2026-10-12"
+    }
   ]
 }
