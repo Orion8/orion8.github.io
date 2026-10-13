@@ -1,8 +1,36 @@
 {
-  "catalogVersion": "0.0.160",
-  "updatedAt": "2026-10-12T21:43:38.927Z",
+  "catalogVersion": "0.0.161",
+  "updatedAt": "2026-10-13T07:40:53.402Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-0222bcff775b1692fcad54d0",
+      "title": "가디언 조사: 라틴 아메리카 조직범죄가 유럽 전역에 뿌리내리고 있다",
+      "titleTranslations": {
+        "en": "Guardian investigation: Latin American organised crime taking root across Europe"
+      },
+      "startAt": "2026-10-13T07:00:18.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언의 4개월 조사 결과는 코카인 밀수가 유럽으로 급증한 배경에 라틴아메리카 범죄조직의 유럽 진출과 현지 마피아와의 결탁이 있다는 점을 보여준다. 보도는 콜롬비아·브라질·에콰도르·베네수엘라·멕시코 등지의 카르텔과 분파들이 유럽의 최소 12개국에서 활동하고 있으며, 지난 10년간 유럽 내 코카인 압수량이 5배 이상 늘었다고 전했다.",
+      "descriptionTranslations": {
+        "en": "A four‑month Guardian investigation links the surge in cocaine trafficking to an expanding presence of Latin American criminal networks in Europe and their ties with local mafias. The report says cartels and factions from countries including Colombia, Brazil, Ecuador, Venezuela and Mexico are active in at least 12 European countries, and that cocaine seizures in Europe have increased more than fivefold over the past decade."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe"
+        ],
+        "firstPublishedAt": "2026-10-13T07:00:18.000Z",
+        "lastObservedAt": "2026-10-13T07:40:53.402Z"
+      }
+    },
     {
       "id": "news-6909a43c1c76da4b1268360d",
       "title": "터키로 취업 이주한 이란인들, 착취 피해 보고",
@@ -86,6 +114,34 @@
         ],
         "firstPublishedAt": "2026-10-12T17:45:27.000Z",
         "lastObservedAt": "2026-10-12T21:43:38.927Z"
+      }
+    },
+    {
+      "id": "news-8f122a9cc1aea0774e9fbcc9",
+      "title": "연방법원 판사, 트럼프가 확장 계획을 추진 중인 워싱턴 골프장 나무 절단 일시 중단 명령",
+      "titleTranslations": {
+        "en": "Federal judge orders temporary halt to tree removal at Washington golf course linked to Trump's expansion plans"
+      },
+      "startAt": "2026-10-12T16:55:37.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "미 연방지방법원 판사 아나 레예스는 워싱턴의 역사적 이스트 포토맥 골프장의 나무 절단을 24시간 동안 중단하라고 명령했다. 판사는 원고들이 임박한 불가역적 피해를 입을 가능성이 높다며 '일상적 유지관리'라는 이유로 나무 절단이 면제되지 않는다고 적시했다. 이 조처는 트럼프 측의 골프장 확장 계획을 둘러싼 소송 진행 중 내려진 긴급 조치다.",
+      "descriptionTranslations": {
+        "en": "U.S. district judge Ana Reyes ordered a 24‑hour halt to tree cutting at the historic East Potomac golf course in Washington. She wrote that plaintiffs are likely to suffer immediate and irreparable harm and that tree removal is not exempt as 'routine maintenance'. The emergency order was issued amid litigation challenging plans by Trump‑linked parties to expand the course."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/12/order-halt-tree-removal-washington-dc-golf-course-trump",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/12/order-halt-tree-removal-washington-dc-golf-course-trump"
+        ],
+        "firstPublishedAt": "2026-10-12T16:55:37.000Z",
+        "lastObservedAt": "2026-10-13T07:40:53.402Z"
       }
     },
     {
@@ -1550,34 +1606,6 @@
       }
     },
     {
-      "id": "news-c2494a992a48d07897f90756",
-      "title": "이스라엘, 영국 예루살렘 총영사관에서 대부분 외교관 철수 통보",
-      "titleTranslations": {
-        "en": "Most UK diplomats to leave East Jerusalem consulate, Israel says"
-      },
-      "startAt": "2026-10-08T07:06:15.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 이스라엘은 영국의 요건 부과(서안 불법 정착촌 제재)에 대응해 예루살렘의 영국 총영사관에서 대부분의 영국 외교관이 떠나게 될 것이라고 밝혔다. 영국 측은 밀리밴드 외무장관이 ‘필수 서비스’는 계속 제공될 것이라고 말했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports Israel has said most UK diplomats will leave the East Jerusalem consulate in response to UK measures on illegal West Bank settlements. UK foreign minister David Miliband (Miliband in the article) said 'vital services' would remain in place."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-08T07:06:15.000Z",
-        "lastObservedAt": "2026-10-08T07:18:14.887Z"
-      }
-    },
-    {
       "id": "news-f79fc1981148f96dddbc69f9",
       "title": "Nous Research, 기업가치 15억 달러 확인하고 기업용 AI 에이전트 출시",
       "titleTranslations": {
@@ -2200,34 +2228,6 @@
         ],
         "firstPublishedAt": "2026-10-05T11:04:37.000Z",
         "lastObservedAt": "2026-10-05T21:12:03.775Z"
-      }
-    },
-    {
-      "id": "news-6dce0fa071188248c558bcb7",
-      "title": "영국 코치업계, 기록적 디젤값으로 운행 축소 가능성 경고",
-      "titleTranslations": {
-        "en": "Coach services could be cut due to record diesel prices, UK operators warn"
-      },
-      "startAt": "2026-10-05T09:04:45.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언은 영국에서 디젤 가격이 리터당 2파운드를 넘어서는 등 기록적 수준으로 오르자 코치(장거리버스) 운영업체들이 학교 교통을 포함한 서비스 축소를 경고했다고 보도했다. 기사에서는 중소업체 폐업 우려도 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that record diesel prices in the UK — topping over £2 per litre — have led coach operators to warn of service cuts, including school transport, and that hundreds of firms may be pushed out of business."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/05/coach-services-cut-record-diesel-prices-fuel-school-transport",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/uk-news/2026/oct/05/coach-services-cut-record-diesel-prices-fuel-school-transport"
-        ],
-        "firstPublishedAt": "2026-10-05T09:04:45.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.776Z"
       }
     },
     {
