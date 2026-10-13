@@ -120,6 +120,22 @@
       "completedOn": "2026-10-13",
       "language": "English only",
       "sourceNotes": "sources/brothers-karamazov.md"
+    },
+    {
+      "id": 6,
+      "title": "Преступление и наказание",
+      "englishTitle": "Crime and Punishment",
+      "englishIllustrated": "crime-and-punishment-en-illustrated.webp",
+      "sources": [
+        "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm",
+        "https://www.oup.com.au/books/general-interest/literature/9780198709701",
+        "https://www.penguinrandomhouse.com/books/286337/crime-and-punishment-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780140449136/",
+        "https://wwnorton.co.uk/books/9780393264272-crime-and-punishment"
+      ],
+      "edition": "First published in 1866; six-part structure and two-chapter epilogue checked against the Constance Garnett contents",
+      "completedOn": "2026-10-13",
+      "language": "English only",
+      "sourceNotes": "sources/crime-and-punishment.md"
     }
   ]
 }
