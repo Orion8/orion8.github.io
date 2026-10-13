@@ -70,6 +70,22 @@
       "completedOn": "2026-10-12",
       "language": "English only",
       "sourceNotes": "sources/mathematical-theory-of-communication.md"
+    },
+    {
+      "id": 3,
+      "title": "論語",
+      "englishTitle": "The Analects",
+      "englishIllustrated": "analects-en-illustrated.webp",
+      "sources": [
+        "https://ctext.org/analects",
+        "https://plato.stanford.edu/entries/confucius/",
+        "https://cup.columbia.edu/book/the-analects-of-confucius/9780231141659/",
+        "https://www.penguin.co.uk/books/266562/the-analects-by-confucius/9780143106852"
+      ],
+      "edition": "Transmitted 20-book text; layered compilation associated with Confucius and his followers",
+      "completedOn": "2026-10-12",
+      "language": "English only",
+      "sourceNotes": "sources/analects.md"
     }
   ]
 }
