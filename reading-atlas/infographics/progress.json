@@ -103,6 +103,23 @@
       "completedOn": "2026-10-13",
       "language": "English only",
       "sourceNotes": "sources/principia.md"
+    },
+    {
+      "id": 5,
+      "title": "Братья Карамазовы",
+      "englishTitle": "The Brothers Karamazov",
+      "englishIllustrated": "brothers-karamazov-en-illustrated.webp",
+      "sources": [
+        "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm",
+        "https://www.penguinrandomhouse.com/books/286344/the-brothers-karamazov-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/",
+        "https://www.oup.com.au/books/general-interest/literature/9780199536375",
+        "https://wwnorton.co.uk/books/9781324084273-the-brothers-karamazov",
+        "https://www.rplrt.org/article/volume-1/05-zhernokleyev-on-the-absence/article/"
+      ],
+      "edition": "First published in book form in 1880; structure checked against the Constance Garnett English contents",
+      "completedOn": "2026-10-13",
+      "language": "English only",
+      "sourceNotes": "sources/brothers-karamazov.md"
     }
   ]
 }
