@@ -1,8 +1,206 @@
 {
-  "catalogVersion": "0.0.161",
-  "updatedAt": "2026-10-13T07:40:53.402Z",
+  "catalogVersion": "0.0.162",
+  "updatedAt": "2026-10-13T19:51:52.841Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-1cf9843ea2aec14751338a5b",
+      "title": "젤렌스키 대통령, 우크라이나는 평화 원하지만 러시아가 휴전에 따를 때까지 타격 계속할 것이라고 밝혀",
+      "titleTranslations": {
+        "en": "Zelenskyy says Ukraine wants peace but will keep striking Russia until it abides by a ceasefire"
+      },
+      "startAt": "2026-10-13T18:51:55.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "볼로디미르 젤렌스키 우크라이나 대통령은 NPR 인터뷰에서 우크라이나가 평화를 원한다고 했지만 러시아가 휴전에 따르지 않는 한 공세를 계속할 것이라고 밝혔다. 젤렌스키는 미국이 무기와 정보 접근을 끊을 수 있다고 경고했다는 통보를 받은 적이 있으나 아직 그런 조치는 이뤄지지 않았다고 말했다.",
+      "descriptionTranslations": {
+        "en": "Ukrainian President Volodymyr Zelenskyy told NPR that while Ukraine seeks peace, it will continue to strike Russia until Moscow complies with a ceasefire. He said he had been informed that the U.S. warned it could cut off access to U.S. weapons and intelligence, but that such measures had not yet occurred."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war"
+        ],
+        "firstPublishedAt": "2026-10-13T18:51:55.000Z",
+        "lastObservedAt": "2026-10-13T19:51:52.841Z"
+      }
+    },
+    {
+      "id": "news-ec0308048ea2d0e396c9c9e6",
+      "title": "잉글랜드 축구 규제 책임자, 맨체스터 시티 관련 정치적 개입 시 사임 의향 밝혀",
+      "titleTranslations": {
+        "en": "Head of English football regulator says he would quit if there is political interference over Man City"
+      },
+      "startAt": "2026-10-13T16:00:18.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "잉글랜드 축구 독립 규제기관의 수장은 맨체스터 시티의 향후 처리에 정치적 간섭이 있을 경우 사임하겠다고 밝혔다. 이는 축구 거버넌스와 정치적 영향력 문제에 대한 경고로 풀이된다.",
+      "descriptionTranslations": {
+        "en": "The head of England’s independent football regulator said he would resign if he encounters political interference over Manchester City’s future — a warning highlighting tensions around football governance and political influence."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cjkge245n0gzo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/football/articles/cjkge245n0gzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-13T16:00:18.000Z",
+        "lastObservedAt": "2026-10-13T19:51:52.841Z"
+      }
+    },
+    {
+      "id": "news-cb1d9e3f6689c3d20db4c806",
+      "title": "영국 축구 규제기관, 다수 클럽이 '재정적 재난' 직전이라고 경고",
+      "titleTranslations": {
+        "en": "Football regulator warns majority of clubs are on the edge of 'financial disaster'"
+      },
+      "startAt": "2026-10-13T16:00:11.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "영국 독립 축구 규제기관은 많은 클럽이 재정적으로 심각하게 취약해 '재정적 재난' 직전에 있다고 경고했다. 보고서는 클럽 재무 구조와 지속가능성 문제를 강조한다.",
+      "descriptionTranslations": {
+        "en": "The independent regulator for English football warned that a majority of clubs are dangerously exposed financially and are living on the edge of 'financial disaster', highlighting structural financial and sustainability issues across the game."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/c6vgx70pzq1jo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/football/articles/c6vgx70pzq1jo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-13T16:00:11.000Z",
+        "lastObservedAt": "2026-10-13T19:51:52.841Z"
+      }
+    },
+    {
+      "id": "news-9c4c927e6cfff2ec2b3a6bf3",
+      "title": "IMF, AI주 관련 주가 붕괴 위험이 세계 금융안정 위협 가능성 경고",
+      "titleTranslations": {
+        "en": "IMF warns that an AI stock‑price crash could threaten global financial stability"
+      },
+      "startAt": "2026-10-13T12:30:01.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "국제통화기금(IMF)은 고평가된 AI 기업들의 주가 급락과 이들 기업의 증가한 부채가 금융시스템의 취약성을 높여 세계 금융안정을 위협할 수 있다고 경고했다. 보고서는 정부 차원의 차입·사이버공격 위험 등도 함께 지목했다.",
+      "descriptionTranslations": {
+        "en": "The International Monetary Fund warned that sky‑high valuations in AI stocks and rising debt among AI firms could elevate systemic risks and threaten global financial stability. The IMF’s report also flagged risks from sovereign borrowing and cyberattacks."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks"
+        ],
+        "firstPublishedAt": "2026-10-13T12:30:01.000Z",
+        "lastObservedAt": "2026-10-13T19:51:52.841Z"
+      }
+    },
+    {
+      "id": "news-5d19b3ca69a98ff1198ab399",
+      "title": "연구진, 캘리포니아 켈프 숲 복원을 위해 태양무늬성게(해성) 복원 시도",
+      "titleTranslations": {
+        "en": "Scientists deploy sunflower sea stars to help restore California’s kelp forests"
+      },
+      "startAt": "2026-10-13T12:00:01.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "몬터레이 연안 연구팀과 비영리단체는 지난 10년간 태평양 연안에서 95% 가까이 줄어든 해양생태계 복원을 위해 해성(해성성게 유사 종) 복원 작업을 개시했다. 팀은 번식·방사 등 직접 개입을 통해 켈프 숲 회복을 도모하고 있다.",
+      "descriptionTranslations": {
+        "en": "Researchers off the coast of Monterey and a nonprofit have begun efforts to restore the sunflower sea star — a keystone species that has been nearly decimated (about 95% decline) along Pacific coast kelp forests over the past decade — through breeding and reintroduction work aimed at recovering kelp ecosystems."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/13/sunflower-sea-star-california-kelp-forests",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/13/sunflower-sea-star-california-kelp-forests"
+        ],
+        "firstPublishedAt": "2026-10-13T12:00:01.000Z",
+        "lastObservedAt": "2026-10-13T19:51:52.841Z"
+      }
+    },
+    {
+      "id": "news-1697c0accd91f236677afa10",
+      "title": "IMF로부터 본 영국 경제의 핵심 세 가지 — 성장 상향에도 불확실성 존재",
+      "titleTranslations": {
+        "en": "Three key takeaways about the UK economy from the IMF"
+      },
+      "startAt": "2026-10-13T11:58:43.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "국제통화기금(IMF)은 올해 영국 성장 전망을 상향 조정했지만 여전히 리스크가 남아있다고 평가했다. BBC는 IMF 관측을 바탕으로 경제 회복의 신호와 재정·외부 위험 등이 병존한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The IMF has upgraded its growth forecast for the UK this year but warns that risks remain. The BBC highlights the IMF’s assessment that while some recovery signs exist, fiscal and external vulnerabilities continue to pose challenges."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmly05l1g15yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmly05l1g15yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-13T11:58:43.000Z",
+        "lastObservedAt": "2026-10-13T19:51:52.841Z"
+      }
+    },
+    {
+      "id": "news-34aa8522a584b6ce12bbc8eb",
+      "title": "파키스탄, 전 총리 임란 칸 측 강세 지역에 비상사태 선포",
+      "titleTranslations": {
+        "en": "Pakistan imposes emergency rule in the former prime minister’s stronghold"
+      },
+      "startAt": "2026-10-13T10:51:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "파키스탄 정부는 구속된 전 총리 임란 칸의 정당이 집권한 지방에 대해 비상사태를 선포했다. 보도는 해당 조치가 정치적 긴장과 치안 우려 속에서 내려졌다고 전한다.",
+      "descriptionTranslations": {
+        "en": "Pakistan has imposed emergency rule in a province governed by the political party of imprisoned former prime minister Imran Khan. Reports say the move was made amid heightened political tensions and security concerns."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/13/nx-s1-5998798/pakistan-imposes-emergency-rule-in-former-prime-ministers-stronghold",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/13/nx-s1-5998798/pakistan-imposes-emergency-rule-in-former-prime-ministers-stronghold"
+        ],
+        "firstPublishedAt": "2026-10-13T10:51:33.000Z",
+        "lastObservedAt": "2026-10-13T19:51:52.841Z"
+      }
+    },
     {
       "id": "news-0222bcff775b1692fcad54d0",
       "title": "가디언 조사: 라틴 아메리카 조직범죄가 유럽 전역에 뿌리내리고 있다",
@@ -917,34 +1115,6 @@
       }
     },
     {
-      "id": "news-ccc8cfcec63655ab18aae96e",
-      "title": "전 도이체방크 트레이더 크리스티안 비타르 유죄 판결 뒤집혀",
-      "titleTranslations": {
-        "en": "Ex‑Deutsche Bank trader jailed for rigging rates has conviction overturned"
-      },
-      "startAt": "2026-10-09T14:36:35.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "항소법원은 2018년에 징역형을 선고받았던 전 도이체방크 트레이더 크리스티안 비타르의 유죄 판결을 파기했다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "The Court of Appeal quashed the conviction of Christian Bittar, a former Deutsche Bank trader who was jailed in 2018, the coverage reports."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-09T14:36:35.000Z",
-        "lastObservedAt": "2026-10-10T07:00:09.796Z"
-      }
-    },
-    {
       "id": "news-42b4a00689d6e052568354f6",
       "title": "ADHD·자폐·정신건강 검토보고서 발표 — NHS·복지·교육·고용에 교훈",
       "titleTranslations": {
@@ -1261,34 +1431,6 @@
       }
     },
     {
-      "id": "news-ce4759d985bb5f9264acadee",
-      "title": "골드만삭스 최고임원들, 최대 5억 달러 규모 보너스 분배 예정",
-      "titleTranslations": {
-        "en": "Top bosses at Goldman Sachs to share bonus pot worth up to $500m"
-      },
-      "startAt": "2026-10-08T18:09:14.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언은 골드만삭스 최고 경영진 20명이 최대 5억 달러(약 3억7,800만 파운드) 규모의 보너스 풀을 나누게 되며, 데이비드 솔로몬 CEO가 약 1억 달러를 받을 전망이라고 보도했다. 보상은 주식 형태로 지급된다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports 20 senior bankers at Goldman Sachs are set to share a bonus pool worth up to $500m, with CEO David Solomon expected to receive about $100m of the award, paid in stock."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/08/top-bosses-goldman-sachs-bonus-pot",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/08/top-bosses-goldman-sachs-bonus-pot"
-        ],
-        "firstPublishedAt": "2026-10-08T18:09:14.000Z",
-        "lastObservedAt": "2026-10-08T19:17:02.143Z"
-      }
-    },
-    {
       "id": "news-8c7682c88c8abe91c1ef4052",
       "title": "천문학자들, 지금까지 관측된 것 중 가장 먼 패스트 라디오 버스트(FRB) 검출",
       "titleTranslations": {
@@ -1372,36 +1514,6 @@
         ],
         "firstPublishedAt": "2026-10-08T17:02:28.000Z",
         "lastObservedAt": "2026-10-08T19:17:02.143Z"
-      }
-    },
-    {
-      "id": "news-5fbc1e1fe902455527958953",
-      "title": "미 법무부, 니콜라스 마두로에 추가 고문 혐의로 기소",
-      "titleTranslations": {
-        "en": "U.S. justice officials add torture charges against Nicolás Maduro"
-      },
-      "startAt": "2026-10-08T16:05:37.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR는 미 당국이 전 베네수엘라 대통령 니콜라스 마두로에 대해 기존 마약 밀매 혐의에 더해 고문 혐의를 새로 추가했다고 보도했다. 보도는 이번 기소가 이미 형사 절차를 받고 있는 마두로에 대한 압박을 강화하는 조치라고 전했다.",
-      "descriptionTranslations": {
-        "en": "NPR reports U.S. authorities have added new torture charges to the case against former Venezuelan president Nicolás Maduro, intensifying legal pressure on the leader who is already facing drug‑trafficking allegations."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges"
-        ],
-        "firstPublishedAt": "2026-10-08T17:38:59.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
       }
     },
     {
@@ -1490,35 +1602,6 @@
         ],
         "firstPublishedAt": "2026-10-08T14:03:29.000Z",
         "lastObservedAt": "2026-10-08T19:17:02.143Z"
-      }
-    },
-    {
-      "id": "news-1bd84ab444f01174f13e6531",
-      "title": "한국, 대북 포로 문제를 둘러싼 분쟁으로 우크라이나 주재 대사 소환 발표",
-      "titleTranslations": {
-        "en": "South Korea to recall its ambassador to Ukraine over North Korean POW dispute"
-      },
-      "startAt": "2026-10-08T12:13:54.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "NPR는 한국 정부가 우크라이나가 사과하지 않을 경우 처벌 조치를 경고한 데 이어 북·한국 포로 문제를 둘러싼 분쟁으로 우크라이나 주재 대사를 소환하기로 했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "NPR reports South Korea has announced it will recall its ambassador to Ukraine amid a dispute over North Korean prisoners of war, after threats of punitive measures if Ukraine does not apologize."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/08/g-s1-147115/south-korea-to-recall-its-ambassador-to-ukraine-over-north-korean-pow-dispute",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/08/g-s1-147115/south-korea-to-recall-its-ambassador-to-ukraine-over-north-korean-pow-dispute"
-        ],
-        "firstPublishedAt": "2026-10-08T12:13:54.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
       }
     },
     {
@@ -1919,34 +2002,6 @@
       }
     },
     {
-      "id": "news-7b6a1414b9f2be3eb509e251",
-      "title": "미국 가정의 식수 요금, 10년 새 62% 상승 — 연구",
-      "titleTranslations": {
-        "en": "US households pay 62% more for water than they did a decade ago, study finds"
-      },
-      "startAt": "2026-10-06T09:00:09.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언은 비영리단체 Food & Water Watch의 분석을 인용해, 미국 500대 상수도 시스템의 요금이 지난 10년 동안 평균 62% 상승했다고 보도했다. 보도는 영리 상수도회사, 연방 예산 삭감, 기후 위기가 요금 상승을 촉진했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian, citing analysis by Food & Water Watch, reports that drinking water rates across the 500 largest community water systems in the US have risen by an average of 62% over the past decade, outpacing inflation; the study points to for‑profit water corporations, federal cuts and the climate crisis as contributing factors."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/06/households-drinking-water-cost-study",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/06/households-drinking-water-cost-study"
-        ],
-        "firstPublishedAt": "2026-10-06T09:00:09.000Z",
-        "lastObservedAt": "2026-10-06T18:54:14.550Z"
-      }
-    },
-    {
       "id": "news-633a0a24e1ccf995b00bdd95",
       "title": "LIV 골프, 구조조정 탈피 위해 BC 파트너스 크레딧으로 잠재적 3억 달러 자금 확보",
       "titleTranslations": {
@@ -2290,34 +2345,6 @@
       }
     },
     {
-      "id": "news-b25f6ac771241232e92089e2",
-      "title": "맨체스터 시티, 유죄 판정에 항소 결정 공식 발표",
-      "titleTranslations": {
-        "en": "Manchester City confirms appeal against guilty verdict"
-      },
-      "startAt": "2026-10-02T17:43:48.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 2,
-      "description": "BBC는 맨체스터 시티가 유죄 판정에 대해 항소를 진행하겠다고 공식 발표했다고 전했다. 구단 성명은 해당 판결에 '법·원칙·사실상의 명백한 중대한 오류'가 있어 '안전하지 않다'고 주장했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports Manchester City has formally confirmed it will appeal a guilty verdict. In its statement the club said the ruling contained 'clear material errors, of law, principle and fact, and is unsafe.'"
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cqn7470513n0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/football/articles/cqn7470513n0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-02T17:43:48.000Z",
-        "lastObservedAt": "2026-10-02T18:23:40.084Z"
-      }
-    },
-    {
       "id": "news-6306776fe77a246bed524e56",
       "title": "스페이스X '8시간 익스프레스'로 미 속도 기록 수립 — 최초 흑인 여성 임무 지휘관",
       "titleTranslations": {
@@ -2345,34 +2372,6 @@
         ],
         "firstPublishedAt": "2026-10-02T03:18:45.000Z",
         "lastObservedAt": "2026-10-03T17:14:08.025Z"
-      }
-    },
-    {
-      "id": "news-71bc90fcb4fd4b12a5628187",
-      "title": "잉글랜드, 2027 크리켓 월드컵 조편성에서 호주·인도와 같은 조 회피",
-      "titleTranslations": {
-        "en": "England avoid Australia & India in World Cup draw"
-      },
-      "startAt": "2026-10-01T16:31:47.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 1,
-      "description": "BBC 스포츠는 2027 ICC 크리켓 월드컵 조별 추첨 결과 잉글랜드가 디펜딩 챔피언 호주와 세계 1위 인도와 같은 조에 들지 않게 됐다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC Sport reports that in the 2027 ICC Cricket World Cup group‑stage draw, England avoided being drawn into the same group as defending champions Australia and world number‑one India."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/cricket/articles/cqlylygyl3pro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/cricket/articles/cqlylygyl3pro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-01T16:31:47.000Z",
-        "lastObservedAt": "2026-10-01T18:50:56.038Z"
       }
     },
     {
