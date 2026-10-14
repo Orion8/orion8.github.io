@@ -1,8 +1,210 @@
 {
-  "catalogVersion": "0.0.163",
-  "updatedAt": "2026-10-14T06:06:02.516Z",
+  "catalogVersion": "0.0.164",
+  "updatedAt": "2026-10-14T17:59:18.190Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-5bc59241b64860dea72f101b",
+      "title": "러셀 브랜드 강간 재판 본격 시작 — 기소측, '성적 약탈자' 주장",
+      "titleTranslations": {
+        "en": "Russell Brand rape trial begins — prosecution alleges he was a 'sexual predator'"
+      },
+      "startAt": "2026-10-14T17:55:53.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "코미디언 러셀 브랜드의 강간·성폭행 재판이 시작됐다. 검찰은 6명의 여성 고소인들이 서로 알지 못하는 상태에서 공통된 피해를 주장한다고 밝히며 피고를 '성적 포식자'로 규정하는 취지의 주장을 제시했다. 브랜드는 혐의를 부인하고 있다.",
+      "descriptionTranslations": {
+        "en": "The rape and sexual assault trial of comedian Russell Brand has begun. Prosecutors say six complainants, who do not know one another, have alleged similar abuse and characterised the defendant as a 'sexual predator'. Brand denies the charges."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-12T12:44:38.000Z",
+        "lastObservedAt": "2026-10-14T17:59:18.189Z"
+      }
+    },
+    {
+      "id": "news-d99898d8d7f4f5f918b975fe",
+      "title": "넷플릭스, 전 세계 직원 약 1,000명 해고 발표 — 전체 인력의 약 6%",
+      "titleTranslations": {
+        "en": "Netflix to lay off 1,000 staff in steepest cuts since 2022"
+      },
+      "startAt": "2026-10-14T16:47:32.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "스트리밍 기업 넷플릭스는 약 1,000명의 직원을 해고할 계획이라고 밝혔으며 이는 회사 전체 인력의 약 6%에 해당한다. 회사는 이번 감원이 구조조정의 일부라고 설명했다.",
+      "descriptionTranslations": {
+        "en": "Netflix said it will cut around 1,000 jobs — roughly 6% of its global workforce — marking the company’s steepest cuts since 2022. The company described the layoffs as part of a restructuring effort."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-14T16:47:32.000Z",
+        "lastObservedAt": "2026-10-14T17:59:18.189Z"
+      }
+    },
+    {
+      "id": "news-51101f00c73fb45cc236cf40",
+      "title": "NASA, 달 남극 작전용 배터리 개발 중단계 발표 및 Artemis 가속 계획 브리핑 예고",
+      "titleTranslations": {
+        "en": "NASA develops batteries for Moon south‑pole operations and plans Artemis acceleration briefing"
+      },
+      "startAt": "2026-10-14T13:32:25.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA는 달 남극의 극한 저온에서도 작동할 수 있는 배터리 기술을 개발 중이라고 알리고, 10월 23일 케네디 우주센터에서 달 표면 복귀(Artemis) 가속화와 향후 임무 현황에 대한 브리핑을 개최할 예정이라고 발표했다. 기관은 이번 기술과 브리핑이 2028년 달 착륙 계획 등 인류의 달 복귀 준비에 중요하다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "NASA said researchers are developing batteries capable of functioning in the extreme cold of the Moon’s south pole, and announced it will hold a briefing at Kennedy Space Center on 23 October to discuss Artemis acceleration and the status of upcoming Moon missions. The agency said these technologies and updates are important for plans to return humans to the lunar surface."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
+          "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon/"
+        ],
+        "firstPublishedAt": "2026-10-14T13:32:25.000Z",
+        "lastObservedAt": "2026-10-14T17:59:18.189Z"
+      }
+    },
+    {
+      "id": "news-d7aed4fb31d4181be64afc72",
+      "title": "기니비사우, RFK 주도 논란의 신생아 간염B 연구 ‘승인 안 했다’고 부인",
+      "titleTranslations": {
+        "en": "Guinea‑Bissau denies it has approved controversial vaccine trial in newborns"
+      },
+      "startAt": "2026-10-14T13:16:30.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "기니비사우 보건장관은 덴마크 주도의 신생아 대상 간염B 연구가 정부의 승인을 받지 못했다고 밝혔다. 해당 연구는 백신의 안전·효능을 직접 평가하지 않고 사망률·신경발달 등 '비특이적' 결과를 추적하려는 설계로, 미국 보건부·민간 파트너 자금과 RFK 주니어의 지지가 연결되며 논란이 되고 있다.",
+      "descriptionTranslations": {
+        "en": "Guinea‑Bissau’s health minister said the Danish‑led newborn hepatitis B study has not been authorised by the government. The trial — which would not test vaccine safety or effectiveness but would track ‘nonspecific’ outcomes like overall mortality or neurodevelopment — has become controversial and is linked in coverage to US government and private funding and the backing of RFK Jr."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
+          "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial"
+        ],
+        "firstPublishedAt": "2026-10-09T21:36:18.000Z",
+        "lastObservedAt": "2026-10-14T17:59:18.189Z"
+      }
+    },
+    {
+      "id": "news-5c5071e769ff6f37fa743af7",
+      "title": "우버, 맨체스터에서 자율주행 로보택시 시험 운행 시작",
+      "titleTranslations": {
+        "en": "Uber begins self‑driving robotaxi trial in Manchester"
+      },
+      "startAt": "2026-10-14T13:11:35.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "우버는 파트너사인 폰니(Pony)와 버른(Verne) 기술을 활용해 영국 맨체스터에서 자율주행 차량 시험 운영을 시작했다고 밝혔다. 회사는 이번 조처를 영국 내 로보택시 확대를 위한 첫 단계라고 설명했다.",
+      "descriptionTranslations": {
+        "en": "Uber has started trial operations of autonomous vehicles on the streets of Manchester using technology from partners Pony and Verne. The company describes the move as a first step toward rolling out robotaxis more broadly across UK cities."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/14/uber-self-driving-robotaxi-trial-manchester",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/oct/14/uber-self-driving-robotaxi-trial-manchester"
+        ],
+        "firstPublishedAt": "2026-10-14T13:11:35.000Z",
+        "lastObservedAt": "2026-10-14T17:59:18.189Z"
+      }
+    },
+    {
+      "id": "news-1429e29f28cf5f2d4fd3d0c5",
+      "title": "뱅크오브아메리카, 자금세탁 적발·보고 실패로 12억 달러 규제 벌금",
+      "titleTranslations": {
+        "en": "Bank of America fined $1.2bn for money‑laundering failings"
+      },
+      "startAt": "2026-10-14T11:54:29.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "미 규제당국은 뱅크오브아메리카가 잠재적 자금세탁 관련 거래를 적절히 적발·보고하지 못했다고 결론내리고 12억 1,000만 달러의 과징금을 부과했다. 보도에 따르면 규제당국은 50억 달러가 넘는 의심거래 중 특히 10억 달러 규모의 우선적(국가안보 관련 등) 위험 거래를 보고하지 못한 점을 지적했다.",
+      "descriptionTranslations": {
+        "en": "U.S. regulators have slapped Bank of America with a $1.21 billion penalty after finding the bank failed to adequately detect and report potentially illicit transactions. Coverage says regulators flagged more than $5 billion in suspicious activity the bank did not report, including roughly $1 billion that posed priority national‑security or related illicit‑finance risks."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering"
+        ],
+        "firstPublishedAt": "2026-10-14T02:05:32.000Z",
+        "lastObservedAt": "2026-10-14T17:59:18.189Z"
+      }
+    },
+    {
+      "id": "news-0adfdddd930842e8c85bcc0b",
+      "title": "해저 인프라 위험 경고서 발간: 엘리자베스 브라우의 ‘Undersea War’가 제기하는 우려",
+      "titleTranslations": {
+        "en": "The internet’s undersea backbone is slipping into the danger zone — warnings from 'Undersea War'"
+      },
+      "startAt": "2026-10-14T11:15:24.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Ars Technica는 엘리자베스 브라우의 책 'Undersea War'를 소개하며 해저 케이블과 기타 해저 인프라의 취약성이 커지고 있음을 경고했다. 저자는 지정학적·군사적·사이버·환경적 요인들이 해저 통신망과 글로벌 인터넷 연결의 안정성에 미치는 위험을 분석한다고 전한다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica highlights Elisabeth Braw’s book 'Undersea War', which warns that undersea cables and related infrastructure face rising risks. The author analyses how geopolitical, military, cyber and environmental factors are increasingly threatening the stability of the global internet backbone."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/10/the-internets-undersea-backbone-is-slipping-into-to-the-danger-zone/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/gadgets/2026/10/the-internets-undersea-backbone-is-slipping-into-to-the-danger-zone/"
+        ],
+        "firstPublishedAt": "2026-10-14T11:15:24.000Z",
+        "lastObservedAt": "2026-10-14T17:59:18.189Z"
+      }
+    },
     {
       "id": "news-4092a753c1b1f9a60820419e",
       "title": "터키 연안에서 세계에서 가장 오래된 선박 잔해 발견 — 최대 4,700년 전",
@@ -34,31 +236,31 @@
       }
     },
     {
-      "id": "news-1429e29f28cf5f2d4fd3d0c5",
-      "title": "뱅크오브아메리카, 자금세탁 방지 실패로 12억 달러 벌금",
+      "id": "news-200a5d3dd39c6bfb7a201928",
+      "title": "EU 기업들 사이에서 '에이전트형 AI' 채용 가속 — OpenAI 분석",
       "titleTranslations": {
-        "en": "Bank of America hit with $1.2bn fine for money laundering failings"
+        "en": "The EU’s next chapter in AI is agentic — adoption grows across enterprises, OpenAI analysis says"
       },
-      "startAt": "2026-10-14T02:05:32.000Z",
+      "startAt": "2026-10-14T00:00:00.000Z",
       "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "미 재무부는 뱅크오브아메리카가 잠재적 중국계 자금세탁 네트워크와 연관된 거래를 적절히 적발·표시하지 못했다고 지적하며 12억 달러 규모의 과징금을 부과했다.",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "OpenAI의 분석은 에이전트형(자율적 실행 능력이 있는) AI 도입이 유럽의 기업들과 중소기업 사이에서 증가하고 있으며, 보다 깊은 활용이 이뤄질 경우 추가적 가치 창출이 가능하다고 밝혔다. 보고서는 채택 추세와 잠재적 적용 분야를 제시한다.",
       "descriptionTranslations": {
-        "en": "The U.S. Treasury said Bank of America failed adequately to flag transactions linked to potential Chinese money‑laundering networks and imposed a $1.2 billion fine."
+        "en": "OpenAI’s analysis shows that 'agentic' AI — systems capable of autonomous task execution — is increasingly being adopted across EU enterprises and small businesses, and that deeper use could unlock additional value. The analysis outlines adoption trends and potential application areas."
       },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "topicIds": [
-        "economyFinance"
+        "aiHistory"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss"
+          "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
         ],
-        "firstPublishedAt": "2026-10-14T02:05:32.000Z",
-        "lastObservedAt": "2026-10-14T06:06:02.516Z"
+        "firstPublishedAt": "2026-10-14T00:00:00.000Z",
+        "lastObservedAt": "2026-10-14T17:59:18.189Z"
       }
     },
     {
@@ -628,34 +830,6 @@
       }
     },
     {
-      "id": "news-5bc59241b64860dea72f101b",
-      "title": "러셀 브랜드, 강간·성폭행 혐의 재판 첫 출두",
-      "titleTranslations": {
-        "en": "Russell Brand appears in court for start of rape trial"
-      },
-      "startAt": "2026-10-12T12:44:38.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "배우 겸 코미디언 러셀 브랜드가 6명의 여성에 대한 강간 및 성폭행 혐의로 기소돼 법정에 출석했다. 피고는 혐의를 부인하고 있다.",
-      "descriptionTranslations": {
-        "en": "Actor and comedian Russell Brand appeared in court at the start of a rape trial in which he faces charges of rape and sexual assault involving six women. He denies the allegations."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-12T12:44:38.000Z",
-        "lastObservedAt": "2026-10-12T21:43:38.927Z"
-      }
-    },
-    {
       "id": "news-6490f52bc4e27312714a75a7",
       "title": "재정 싱크탱크, 힐리 재무장관에 350억 파운드(Budget) 격차 경고",
       "titleTranslations": {
@@ -1056,34 +1230,6 @@
       }
     },
     {
-      "id": "news-d7aed4fb31d4181be64afc72",
-      "title": "기니비사우 신생아 대상 간염B 백신 일부 보류 연구 승인 — RFK 주도 백신정책 논란과 연계",
-      "titleTranslations": {
-        "en": "Controversial vaccine trial touted by RFK Jr gets go‑ahead in Guinea‑Bissau"
-      },
-      "startAt": "2026-10-09T21:36:18.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 덴마크 연구진이 수천 명의 신생아에게 권장 용량의 간염 B 백신을 일부러 보류하는 연구를 기니비사우에서 진행하도록 승인받았다. 이 시험은 보건부 장관으로서 백신에 비판적 입장을 보여온 로버트 F. 케네디 주니어의 백신 구상과 연결돼 논란이 되고 있다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that Danish researchers have been approved to withhold the recommended dose of hepatitis B vaccine from some newborns in a trial in Guinea‑Bissau. The study is controversial and is tied to the vaccine agenda of Robert F. Kennedy Jr., who serves as US HHS secretary and has a long record of vaccine opposition."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr"
-        ],
-        "firstPublishedAt": "2026-10-09T21:36:18.000Z",
-        "lastObservedAt": "2026-10-12T07:18:44.237Z"
-      }
-    },
-    {
       "id": "news-22a5f858763d26f1554fef85",
       "title": "미국, 국제형사재판소(ICC)에 제재 발표 — 법원은 ‘법치에 대한 공격’이라 비판",
       "titleTranslations": {
@@ -1223,37 +1369,6 @@
         ],
         "firstPublishedAt": "2026-10-09T16:59:24.000Z",
         "lastObservedAt": "2026-10-09T18:47:28.069Z"
-      }
-    },
-    {
-      "id": "news-1b37092663e082cee13f0957",
-      "title": "나비 필레이 ICJ 판사, 2026년 노벨평화상 수상",
-      "titleTranslations": {
-        "en": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law"
-      },
-      "startAt": "2026-10-09T16:30:09.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "노르웨이 노벨위원회는 전 UN 인권최고대표이자 국제사법재판소(ICJ) 판사인 나비 필레이에게 국제법과 인권 수호 공로로 2026년 노벨평화상을 수여했다고 가디언이 보도했다. 위원회는 법적 조치가 전쟁과 폭력을 예방하는 데 기여할 수 있음을 인정했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Norwegian Nobel Committee awarded the 2026 Nobel Peace Prize to former UN human rights chief and International Court of Justice judge Navi Pillay for her work defending international law and human rights, the Guardian reports. The committee said legal measures can help prevent acts of war and violence."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
-          "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
-        ],
-        "firstPublishedAt": "2026-10-09T17:37:10.000Z",
-        "lastObservedAt": "2026-10-11T07:06:52.641Z"
       }
     },
     {
@@ -1488,34 +1603,6 @@
       }
     },
     {
-      "id": "news-d59cc0b77d168d9bb5c389bf",
-      "title": "부통령 JD 밴스, 마이크로소프트의 H‑1B 근로자 영주권 신청 '정지' 발표",
-      "titleTranslations": {
-        "en": "JD Vance says Microsoft suspended from applying for green cards for H‑1B workers"
-      },
-      "startAt": "2026-10-08T18:23:47.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언은 미국 부통령 JD 밴스가 마이크로소프트가 H‑1B 비자 소지 근로자들의 영주권(그린카드) 신청을 할 수 없도록 정지되었다고 발표했다고 보도했다. 보도는 부통령의 주장이 회사 측 입장과 상충할 수 있음을 시사한다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports U.S. Vice‑President JD Vance announced that Microsoft has been suspended from applying for green cards for workers on H‑1B visas. Coverage notes the vice‑president’s claim may conflict with the company’s position."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/08/jd-vance-microsoft-visa-workers-green-card-suspension",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/oct/08/jd-vance-microsoft-visa-workers-green-card-suspension"
-        ],
-        "firstPublishedAt": "2026-10-08T18:23:47.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
       "id": "news-5a9a117643219a5e7ee4ba66",
       "title": "NASA SPHEREx 망원경, 갈색왜성의 화학적으로 풍부한 대기 관측",
       "titleTranslations": {
@@ -1599,34 +1686,6 @@
         ],
         "firstPublishedAt": "2026-10-08T17:52:35.000Z",
         "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
-      "id": "news-508dbedb31c35a4cfe4c1134",
-      "title": "스페이스X 크루‑12 승무원, 태평양에 무사히 착수(스플래시다운)",
-      "titleTranslations": {
-        "en": "NASA’s SpaceX Crew‑12 Splashes Down, Sets Briefing to Discuss Mission"
-      },
-      "startAt": "2026-10-08T17:02:28.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 7개월 넘게 국제우주정거장에서 임무를 수행한 스페이스X 크루‑12 승무원들이 태평양(로스앤젤레스 해안 인근)에 안전하게 착수했다고 발표했다. 승무원들은 미시간 존슨 우주센터에서 임무 관련 브리핑을 할 예정이다.",
-      "descriptionTranslations": {
-        "en": "NASA announced that the SpaceX Crew‑12 astronauts, who spent more than seven months aboard the International Space Station, safely splashed down in the Pacific Ocean off the coast of Los Angeles. The crew will hold a briefing at Johnson Space Center to discuss their mission."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/"
-        ],
-        "firstPublishedAt": "2026-10-08T17:02:28.000Z",
-        "lastObservedAt": "2026-10-08T19:17:02.143Z"
       }
     },
     {
@@ -1799,65 +1858,6 @@
         ],
         "firstPublishedAt": "2026-10-08T09:00:00.000Z",
         "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
-      "id": "news-f79fc1981148f96dddbc69f9",
-      "title": "Nous Research, 기업가치 15억 달러 확인하고 기업용 AI 에이전트 출시",
-      "titleTranslations": {
-        "en": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users"
-      },
-      "startAt": "2026-10-07T20:48:45.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "TechCrunch는 Hermes Agent 개발사 Nous Research가 9천만 달러 규모의 시리즈B를 유치해 기업가치를 15억 달러로 확인했고, 기업용 AI 에이전트 제품을 출시했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch reports Hermes Agent developer Nous Research raised a $90 million Series B, confirming a $1.5 billion valuation, and launched AI agents aimed at business users."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/"
-        ],
-        "firstPublishedAt": "2026-10-07T20:48:45.000Z",
-        "lastObservedAt": "2026-10-08T07:18:14.887Z"
-      }
-    },
-    {
-      "id": "news-db23c0e6d497c6d618760cd8",
-      "title": "IEEE 보고서: AI가 에너지·인프라·물리시스템과 결합하는 등 2030년까지 생활을 바꿀 기술 예측",
-      "titleTranslations": {
-        "en": "IEEE report forecasts technologies and megatrends that will transform lives by 2030, with AI embedded across sectors"
-      },
-      "startAt": "2026-10-07T18:00:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "IEEE가 발표한 '2030 Technology Megatrends' 보고서를 보도한 IEEE Spectrum은 인공지능이 에너지, 인프라, 물리적 시스템과 깊게 연결되며 유전자공학·유전자치료의 보급 등 30개 기술과 5대 메가트렌드가 향후 수년 내 삶을 변화시킬 것이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "IEEE Spectrum reports on the IEEE '2030 Technology Megatrends' report, which forecasts that artificial intelligence will be deeply integrated with energy, infrastructure and physical systems and that advances — including more widespread use of genetic engineering and gene therapies — among 30 technologies and five megatrends could reshape life by 2030."
-      },
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/ieee-report-predicts-tech",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/ieee-report-predicts-tech"
-        ],
-        "firstPublishedAt": "2026-10-07T18:00:02.000Z",
-        "lastObservedAt": "2026-10-09T18:47:28.069Z"
       }
     },
     {
@@ -2222,34 +2222,6 @@
         ],
         "firstPublishedAt": "2026-10-05T22:58:25.000Z",
         "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
-      "id": "news-662afd1317447569c46b90a9",
-      "title": "런던→시카고 BA 항공편, 아일랜드 상공서 2만8천피트 급강하 후 귀환",
-      "titleTranslations": {
-        "en": "London to Chicago BA flight declares emergency after dropping 28,000 feet"
-      },
-      "startAt": "2026-10-05T20:33:30.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 BA295 편이 아일랜드 상공에서 '기술적 문제'로 약 2만8천피트(약 8,500m)를 급강하했고 객실의 산소마스크가 전개된 뒤 런던 히드로로 되돌아왔다. 항공사는 안전한 착륙을 보고했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that British Airways flight BA295 experienced a 'technical issue' and a sudden descent of about 28,000 feet over Ireland, deploying oxygen masks, before turning back and landing safely at London Heathrow."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/05/london-to-chicago-ba-flight-declares-emergency-after-dropping-28000-feet",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/05/london-to-chicago-ba-flight-declares-emergency-after-dropping-28000-feet"
-        ],
-        "firstPublishedAt": "2026-10-05T20:33:30.000Z",
-        "lastObservedAt": "2026-10-08T07:18:14.887Z"
       }
     },
     {
