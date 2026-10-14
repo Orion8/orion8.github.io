@@ -154,6 +154,24 @@
       "completedOn": "2026-10-13",
       "language": "English only",
       "sourceNotes": "sources/don-quixote.md"
+    },
+    {
+      "id": 8,
+      "title": "Cien años de soledad",
+      "englishTitle": "One Hundred Years of Solitude",
+      "englishIllustrated": "one-hundred-years-of-solitude-en-illustrated.webp",
+      "sources": [
+        "https://cvc.cervantes.es/actcult/garcia_marquez/obra/novelas/cien_anos_de_soledad.htm",
+        "https://www.penguin.co.uk/books/482987/one-hundred-years-of-solitude-by-marquez-gabriel-garcia/9780241998502",
+        "https://www.penguinrandomhouse.com/books/196323/cien-anos-de-soledad-50-aniversario--one-hundred-years-of-solitude-by-gabriel-garcia-marquez/",
+        "https://www.nobelprize.org/prizes/literature/1982/marquez/lecture/",
+        "https://www.nobelprize.org/prizes/literature/1982/summary/",
+        "https://cdn.penguin.co.uk/dam-assets/books/9780241968581/9780241968581-sample.pdf"
+      ],
+      "edition": "First published in Spanish in 1967; 20 unnumbered chapters and a seven-generation family structure",
+      "completedOn": "2026-10-13",
+      "language": "English only",
+      "sourceNotes": "sources/one-hundred-years-of-solitude.md"
     }
   ]
 }
