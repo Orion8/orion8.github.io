@@ -192,6 +192,26 @@
       "completedOn": "2026-10-14",
       "language": "English only",
       "sourceNotes": "sources/dream-of-the-red-chamber.md"
+    },
+    {
+      "id": 10,
+      "title": "Πολιτεία",
+      "englishTitle": "The Republic",
+      "englishIllustrated": "the-republic-en-infographic.webp",
+      "sources": [
+        "https://classics.mit.edu/Plato/republic.html",
+        "https://plato.stanford.edu/entries/plato-ethics-politics/",
+        "https://plato.stanford.edu/entries/ancient-political/",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0168%3Abook%3D4%3Asection%3D433a",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0168%3Abook%3D7%3Asection%3D514a",
+        "https://www.cambridge.org/core/books/abs/plato-primer/republic/8A71DCAFC366EE41006608AD48AD22B1",
+        "https://www.cambridge.org/core/books/proclus-commentary-on-platos-republic/38E7D9B214AD4AAA3F2C777E371D204E/listing"
+      ],
+      "edition": "Composed in the fourth century BCE; traditional ten-book arrangement used as the reading baseline, with reader-supplied movement groupings clearly labeled",
+      "completedOn": "2026-10-14",
+      "language": "English only",
+      "visualStyle": "Diagram and graph only; no background poster illustration",
+      "sourceNotes": "sources/the-republic.md"
     }
   ]
 }
