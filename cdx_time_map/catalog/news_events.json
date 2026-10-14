@@ -1,8 +1,122 @@
 {
-  "catalogVersion": "0.0.162",
-  "updatedAt": "2026-10-13T19:51:52.841Z",
+  "catalogVersion": "0.0.163",
+  "updatedAt": "2026-10-14T06:06:02.516Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-4092a753c1b1f9a60820419e",
+      "title": "터키 연안에서 세계에서 가장 오래된 선박 잔해 발견 — 최대 4,700년 전",
+      "titleTranslations": {
+        "en": "World's oldest shipwreck found off coast of Turkey"
+      },
+      "startAt": "2026-10-14T05:00:35.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "고고학자들은 터키 해안에서 초기 청동기시대에 해당하는, 최대 4,700년 전의 선박 잔해를 확인했다고 발표했다. 연대는 해양 교통과 고대 문명 연구에 중요한 자료를 제공할 것으로 보인다.",
+      "descriptionTranslations": {
+        "en": "Archaeologists say they have identified a shipwreck off the coast of Turkey dating to the Early Bronze Age — up to 4,700 years old. The find offers important material for understanding ancient maritime activity and civilizations."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-14T05:00:35.000Z",
+        "lastObservedAt": "2026-10-14T06:06:02.516Z"
+      }
+    },
+    {
+      "id": "news-1429e29f28cf5f2d4fd3d0c5",
+      "title": "뱅크오브아메리카, 자금세탁 방지 실패로 12억 달러 벌금",
+      "titleTranslations": {
+        "en": "Bank of America hit with $1.2bn fine for money laundering failings"
+      },
+      "startAt": "2026-10-14T02:05:32.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "미 재무부는 뱅크오브아메리카가 잠재적 중국계 자금세탁 네트워크와 연관된 거래를 적절히 적발·표시하지 못했다고 지적하며 12억 달러 규모의 과징금을 부과했다.",
+      "descriptionTranslations": {
+        "en": "The U.S. Treasury said Bank of America failed adequately to flag transactions linked to potential Chinese money‑laundering networks and imposed a $1.2 billion fine."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-14T02:05:32.000Z",
+        "lastObservedAt": "2026-10-14T06:06:02.516Z"
+      }
+    },
+    {
+      "id": "news-682415106c6cc7b9ba3c3400",
+      "title": "독일, 노드스트림 파이프라인 폭파 혐의로 우크라니아인 재판 개시",
+      "titleTranslations": {
+        "en": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines"
+      },
+      "startAt": "2026-10-13T23:42:22.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "2018년 노드스트림 파이프라인 폭발 사건 발생 4년 뒤, 세르히이 K가 러시아‑독일 가스관 파괴 음모 혐의로 독일 법정에 출두한다. 이번 재판은 유럽 에너지 인프라에 대한 공격과 관련한 법적 책임을 가리는 중요한 사안이다.",
+      "descriptionTranslations": {
+        "en": "Four years after the 2018 attacks on the Nord Stream pipelines, Serhii K will appear in a German court accused of plotting to destroy the Russia‑to‑Germany gas pipelines. The trial addresses legal accountability for attacks on European energy infrastructure."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-13T23:42:22.000Z",
+        "lastObservedAt": "2026-10-14T06:06:02.516Z"
+      }
+    },
+    {
+      "id": "news-8b986843f40961ed2e6be21e",
+      "title": "듀안 ‘Keffe D’ 데이비스, 투팍 샤커 살해 관련 최소 40년형 선고",
+      "titleTranslations": {
+        "en": "Duane ‘Keffe D’ Davis sentenced to 40 years to life over Tupac Shakur’s murder"
+      },
+      "startAt": "2026-10-13T19:43:45.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "전 갱단 지도자 듀안 데이비스가 1996년 래퍼 투팍 샤커의 치명적 총격을 기획한 혐의로 유죄 판결을 받은 뒤 최소 40년에서 종신형까지 선고받았다. 판사는 가족을 앗아간 행위에 대해 엄중한 형을 선고했다.",
+      "descriptionTranslations": {
+        "en": "Former gang leader Duane Davis has been sentenced to 40 years to life after being convicted of orchestrating the 1996 fatal shooting of rapper Tupac Shakur. The judge emphasised the gravity of taking a life from a family when imposing a heavy sentence."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/music/2026/oct/13/duane-davis-sentencing-tupac-shakur-murder",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/music/2026/oct/13/duane-davis-sentencing-tupac-shakur-murder"
+        ],
+        "firstPublishedAt": "2026-10-13T19:43:45.000Z",
+        "lastObservedAt": "2026-10-14T06:06:02.516Z"
+      }
+    },
     {
       "id": "news-1cf9843ea2aec14751338a5b",
       "title": "젤렌스키 대통령, 우크라이나는 평화 원하지만 러시아가 휴전에 따를 때까지 타격 계속할 것이라고 밝혀",
@@ -145,6 +259,34 @@
       }
     },
     {
+      "id": "news-9216e6cae5d0a88ae46315df",
+      "title": "JAXA 주도 MMX 화성 위성 달 탐사선, 10월 19일 발사 예정",
+      "titleTranslations": {
+        "en": "Mars moon lander set to launch on 19 October"
+      },
+      "startAt": "2026-10-13T12:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "일본 우주항공연구개발기구(JAXA) 주도의 MMX(Martian Moons eXploration) 임무가 10월 19일 다네가시마에서 H3 로켓으로 발사될 예정이다. MMX는 화성의 위성 포보스에서 표본을 채취해 지구로 가져오는 최초의 임무가 될 것이며 NASA, CNES, DLR, ESA가 협력한다.",
+      "descriptionTranslations": {
+        "en": "The JAXA‑led MMX (Martian Moons eXploration) mission is scheduled to launch on an H3 rocket from Tanegashima on 19 October. MMX aims to be the first mission to collect a sample from Mars’s moon Phobos and return it to Earth, in collaboration with NASA, CNES, DLR and ESA."
+      },
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October"
+        ],
+        "firstPublishedAt": "2026-10-13T12:00:00.000Z",
+        "lastObservedAt": "2026-10-14T06:06:02.516Z"
+      }
+    },
+    {
       "id": "news-1697c0accd91f236677afa10",
       "title": "IMF로부터 본 영국 경제의 핵심 세 가지 — 성장 상향에도 불확실성 존재",
       "titleTranslations": {
@@ -199,6 +341,34 @@
         ],
         "firstPublishedAt": "2026-10-13T10:51:33.000Z",
         "lastObservedAt": "2026-10-13T19:51:52.841Z"
+      }
+    },
+    {
+      "id": "news-47a242204bba4fae04a82c3b",
+      "title": "임상의들, 교실 내 스크린 사용 제한 권고 — 장기적 건강 문제 우려",
+      "titleTranslations": {
+        "en": "Cut screen time in classrooms to avoid long-term health issues, clinicians urge"
+      },
+      "startAt": "2026-10-13T09:35:43.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "영국의 임상의 그룹은 학교에서의 기술 사용 증가가 근시 등 장기적 건강 문제를 촉진할 수 있다며, 교실 내 스크린 시간을 줄일 것을 권고했다. 권고는 학생 건강 영향 연구에 근거한 임상 권고다.",
+      "descriptionTranslations": {
+        "en": "A group of clinicians in the UK warns that rising technology use in schools may be driving increases in health problems such as short‑sightedness and urges reductions in classroom screen time. The recommendations are grounded in clinical concerns about pupil health."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq4g18prn4l4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cq4g18prn4l4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-13T09:35:43.000Z",
+        "lastObservedAt": "2026-10-14T06:06:02.516Z"
       }
     },
     {
@@ -1087,34 +1257,6 @@
       }
     },
     {
-      "id": "news-27e565231ea632c0ce1e1eed",
-      "title": "버넘 총리(또는 Burnham), 근로계약의 경쟁금지 조항 제한 약속",
-      "titleTranslations": {
-        "en": "Burnham promises to curb non‑compete rules in job contracts"
-      },
-      "startAt": "2026-10-09T16:15:30.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 총리는 퇴직 후 근로자가 할 수 있는 활동을 제한하는 경쟁금지 조항이 '지나치게 확대됐다'며 해당 규정을 제약하겠다고 약속했다.",
-      "descriptionTranslations": {
-        "en": "BBC reports the prime minister said restrictions in non‑compete clauses that limit what workers can do after leaving roles have 'gone too far' and pledged to curb such rules in employment contracts."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-09T16:15:30.000Z",
-        "lastObservedAt": "2026-10-09T18:47:28.069Z"
-      }
-    },
-    {
       "id": "news-42b4a00689d6e052568354f6",
       "title": "ADHD·자폐·정신건강 검토보고서 발표 — NHS·복지·교육·고용에 교훈",
       "titleTranslations": {
@@ -1343,35 +1485,6 @@
         ],
         "firstPublishedAt": "2026-10-08T20:38:11.000Z",
         "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
-      "id": "news-88e135495155bb9585b24058",
-      "title": "마드리드 중심가에 텐트촌…시위대, ‘독수리펀드(vulture funds)’를 주택위기의 책임으로 비난",
-      "titleTranslations": {
-        "en": "Hundreds pitch tents in central Madrid as protesters blame ‘vulture funds’ for housing crisis"
-      },
-      "startAt": "2026-10-08T19:10:06.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC는 수백 명의 시위대가 마드리드 중심부에 텐트를 치고 주택 위기를 항의하며 '독수리펀드'를 비난했다고 보도했다. 보도는 이 시위가 총리의 조기 총선 선언과 맞물려 일어났다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports hundreds of protesters have pitched tents in central Madrid blaming so‑called 'vulture funds' for Spain's housing crisis. The coverage notes the demonstrations come as the prime minister has called a snap election."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-05T19:30:50.000Z",
-        "lastObservedAt": "2026-10-08T19:17:02.142Z"
       }
     },
     {
@@ -1804,36 +1917,6 @@
       }
     },
     {
-      "id": "news-dc2db02a7c1a356f01898a8f",
-      "title": "2026년 노벨 화학상, '거울상 분자' 연구 공로로 수상",
-      "titleTranslations": {
-        "en": "Nobel Prize in Chemistry 2026 awarded for mirror‑image molecule research"
-      },
-      "startAt": "2026-10-07T13:36:45.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "2026년 노벨 화학상이 거울상 형태의 분자(비대칭 유기합성)에서 비선형 효과와 자기촉매(autocatalysis)를 밝힌 공로로 Henri B. Kagan(파리‑수드 대학)과 Kensō Soai(도쿄과학대)에 수여됐다. 수상은 약물이 체내에서 어떻게 작동하는지 이해를 돕는 발견으로 소개되었다.",
-      "descriptionTranslations": {
-        "en": "The 2026 Nobel Prize in Chemistry was awarded to Henri B. Kagan (Paris‑Sud University) and Kensō Soai (Tokyo University of Science) for discoveries showing how chemical reactions can produce overwhelming excesses of one mirror‑image form of a molecule, revealing nonlinear effects and autocatalysis in asymmetric synthesis."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/oct/07/nobel-prize-chemistry-awarded-work-on-mirror-image-molecules",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/oct/07/nobel-prize-chemistry-awarded-work-on-mirror-image-molecules"
-        ],
-        "firstPublishedAt": "2026-10-07T13:36:45.000Z",
-        "lastObservedAt": "2026-10-07T19:19:57.939Z"
-      }
-    },
-    {
       "id": "news-26dfc0024c6b91a0d2e2ff5f",
       "title": "노스캐롤라이나 농장 노동자들, 폭염 노출로 건강 심각 악화 사례 보도",
       "titleTranslations": {
@@ -2254,38 +2337,6 @@
       }
     },
     {
-      "id": "news-592a4eb4d1d3ffb5150a0d93",
-      "title": "빛으로 뇌를 제어하는 연구에 생리의학 노벨상 수여",
-      "titleTranslations": {
-        "en": "Controlling the brain with light earns a physiology Nobel"
-      },
-      "startAt": "2026-10-05T11:04:37.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "BBC와 아스테크니카는 카를 데이서로스와 페터 헤겔만·게오르크 나겔 등 연구진이 빛으로 뉴런을 조절하는 옵토제네틱스 분야의 공로로 생리의학(혹은 생리학) 노벨상을 받았다고 보도했다. 수상은 뇌 연구 분야의 핵심 발견으로 소개됐다.",
-      "descriptionTranslations": {
-        "en": "BBC and Ars Technica report that Karl Deisseroth and German colleagues Peter Hegemann and Georg Nagel have been awarded the Nobel Prize for work on optogenetics — using light to control neurons. The prize was presented as a key advance in understanding brain function."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb",
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
-          "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/"
-        ],
-        "firstPublishedAt": "2026-10-05T11:04:37.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.775Z"
-      }
-    },
-    {
       "id": "news-542ffd715fa2a0ff7ec19751",
       "title": "우이저, 세계 챔피언 등극 뒤 첫 랭킹 타이틀 획득",
       "titleTranslations": {
@@ -2458,36 +2509,6 @@
           "https://arstechnica.com/health/2026/09/to-keep-drug-prices-high-pharma-has-been-piling-up-the-patents/"
         ],
         "firstPublishedAt": "2026-09-28T19:53:37.000Z",
-        "lastObservedAt": "2026-09-28T20:06:51.082Z"
-      }
-    },
-    {
-      "id": "news-9e9d07bf36629b8d02738860",
-      "title": "스페이스X 대형 스타십, 사상 처음 지구 궤도 진입",
-      "titleTranslations": {
-        "en": "SpaceX's massive Starship reaches Earth orbit for the first time"
-      },
-      "startAt": "2026-09-28T16:23:49.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "스페이스X가 텍사스 스타베이스에서 발사한 초대형 로켓 스타십이 지구 궤도에 진입해 지구를 한 바퀴 돈 것으로 보도됐다. 이번 비행은 달·화성 등 향후 임무를 위한 주요 이정표로 평가된다.",
-      "descriptionTranslations": {
-        "en": "SpaceX launched its enormous Starship from its Starbase facility in Texas and sent the rocket into Earth orbit for the first time, a milestone flight intended to pave the way for future lunar and Mars missions."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/sep/28/spacex-starship-rocket-orbits-earth-texas",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/sep/28/spacex-starship-rocket-orbits-earth-texas"
-        ],
-        "firstPublishedAt": "2026-09-28T16:23:49.000Z",
         "lastObservedAt": "2026-09-28T20:06:51.082Z"
       }
     },
