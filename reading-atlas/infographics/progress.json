@@ -172,6 +172,26 @@
       "completedOn": "2026-10-13",
       "language": "English only",
       "sourceNotes": "sources/one-hundred-years-of-solitude.md"
+    },
+    {
+      "id": 9,
+      "title": "紅樓夢",
+      "englishTitle": "Dream of the Red Chamber",
+      "englishIllustrated": "dream-of-the-red-chamber-en-illustrated.webp",
+      "sources": [
+        "https://open.lib.umn.edu/redchamber/",
+        "https://open.lib.umn.edu/redchamber/chapter/controversy-over-the-last-40-chapters/",
+        "https://hrc.cass.anu.edu.au/events/books-changed-humanity-story-stonedream-red-chamber",
+        "https://www.penguin.co.uk/series/STORSTONE/the-story-of-the-stone",
+        "https://open.lib.umn.edu/redchamber/chapter/lin-daiyu/",
+        "https://open.lib.umn.edu/redchamber/chapter/xue-baochai/",
+        "https://open.lib.umn.edu/redchamber/part/the-social-world-of-the-dream/",
+        "https://ctext.org/hongloumeng/zh"
+      ],
+      "edition": "120-chapter Cheng–Gao reading text first printed in 1791; chapters 1–80 from the early manuscript tradition attributed to Cao Xueqin, chapters 81–120 a disputed printed completion",
+      "completedOn": "2026-10-14",
+      "language": "English only",
+      "sourceNotes": "sources/dream-of-the-red-chamber.md"
     }
   ]
 }
