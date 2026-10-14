@@ -1,7 +1,7 @@
 {
   "collectionTotal": 75,
   "priorityBasis": "Reading Atlas featured sequence first, then the remaining books by catalogue order",
-  "completed": [
+  "legacyCompleted": [
     {
       "id": 40,
       "title": "Being You",
@@ -213,5 +213,38 @@
       "visualStyle": "Diagram and graph only; no background poster illustration",
       "sourceNotes": "sources/the-republic.md"
     }
-  ]
+  ],
+  "currentFormat": {
+    "version": 2,
+    "name": "Bilingual self-contained illustrated anatomy",
+    "startedOn": "2026-10-14",
+    "completedCount": 1,
+    "collectionTotal": 75,
+    "completed": [
+      {
+        "sequence": 1,
+        "id": 40,
+        "title": "Being You",
+        "koreanTitle": "내가 된다는 것",
+        "koreanIllustrated": "being-you-v2-ko-illustrated.webp",
+        "englishIllustrated": "being-you-v2-en-illustrated.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "completedOn": "2026-10-14",
+        "sourceNotes": "sources/being-you-v2.md",
+        "sources": [
+          "https://www.anilseth.com/being-you/",
+          "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/",
+          "https://books.google.com/books/about/Being_You.html?id=arVCEAAAQBAJ",
+          "https://www.kriso.ee/being-you-new-science-consciousness-db-9781524742874.html",
+          "https://www.anilseth.com/research/chapters/",
+          "https://www.anilseth.com/research/journals/"
+        ]
+      }
+    ]
+  }
 }
