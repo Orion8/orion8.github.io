@@ -136,6 +136,24 @@
       "completedOn": "2026-10-13",
       "language": "English only",
       "sourceNotes": "sources/crime-and-punishment.md"
+    },
+    {
+      "id": 7,
+      "title": "Don Quijote de la Mancha",
+      "englishTitle": "Don Quixote",
+      "englishIllustrated": "don-quixote-en-illustrated.webp",
+      "sources": [
+        "https://cvc.cervantes.es/literatura/clasicos/quijote/edicion/parte1/default.htm",
+        "https://cvc.cervantes.es/literatura/clasicos/quijote/edicion/parte2/default.htm",
+        "https://cvc.cervantes.es/literatura/clasicos/quijote/introduccion/prologo/rico.htm",
+        "https://www.penguinrandomhouse.com/books/286028/don-quixote-by-miguel-de-cervantes-translated-with-an-introduction-and-notes-by-john-d-rutherford/",
+        "https://global.oup.com/academic/product/don-quixote-9780199537891",
+        "https://wwnorton.com/books/9780393617474"
+      ],
+      "edition": "Part I first published in 1605 and Part II in 1615; 52 + 74 chapters checked against the Instituto Cervantes critical edition",
+      "completedOn": "2026-10-13",
+      "language": "English only",
+      "sourceNotes": "sources/don-quixote.md"
     }
   ]
 }
