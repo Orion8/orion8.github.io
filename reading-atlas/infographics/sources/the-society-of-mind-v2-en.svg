@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <image x="0" y="0" width="1024" height="1536" xlink:href="the-society-of-mind-v2-base.png"/>
+  <style>
+    .t{font-family:'DejaVu Sans',sans-serif;fill:#071d33}.title{font-size:55px;font-weight:900}.sub{font-size:16px;font-weight:800}.author{font-size:13px;font-weight:700;fill:#284f6b}.sec{font-size:21px;font-weight:900}.h{font-size:15px;font-weight:900}.b{font-size:12.5px;font-weight:700}.s{font-size:11px;font-weight:650}.q{font-size:17px;font-weight:900}.num{font-size:18px;font-weight:900;fill:#fff}.wash{fill:#fffdf8;fill-opacity:.94}.wash2{fill:#f4fbff;fill-opacity:.95}.rule{stroke:#2c7895;stroke-width:2.5}.badge{fill:#175f7c}
+  </style>
+  <rect class="wash" x="40" y="24" width="944" height="158"/>
+  <text class="t title" x="512" y="87" text-anchor="middle">THE SOCIETY OF MIND</text>
+  <text class="t sub" x="512" y="128" text-anchor="middle">HOW MINDLESS PARTS CAN BUILD INTELLIGENCE</text>
+  <text class="t author" x="512" y="161" text-anchor="middle">MARVIN MINSKY · 1986</text>
+
+  <rect class="wash2" x="0" y="330" width="1024" height="64"/>
+  <circle class="badge" cx="34" cy="360" r="23"/><text class="t num" x="34" y="367" text-anchor="middle">1</text>
+  <text class="t sec" x="72" y="367">CORE QUESTION</text><line class="rule" x1="255" y1="360" x2="992" y2="360"/>
+  <rect class="wash" x="82" y="406" width="860" height="76"/>
+  <text class="t q" x="512" y="437" text-anchor="middle">How can intelligence emerge from processes</text>
+  <text class="t q" x="512" y="463" text-anchor="middle">that are not intelligent by themselves?</text>
+
+  <rect class="wash2" x="0" y="497" width="1024" height="61"/>
+  <circle class="badge" cx="34" cy="525" r="23"/><text class="t num" x="34" y="532" text-anchor="middle">2</text>
+  <text class="t sec" x="72" y="532">BOOK MAP · 30 THEMATIC CHAPTERS</text><line class="rule" x1="449" y1="525" x2="992" y2="525"/>
+  <rect class="wash" x="16" y="676" width="992" height="112"/>
+  <text class="t h" x="112" y="704" text-anchor="middle">CH. 1–7</text><text class="t b" x="112" y="728" text-anchor="middle">BUILDING A MIND</text><text class="t s" x="112" y="752" text-anchor="middle">agents · parts · conflict</text><text class="t s" x="112" y="772" text-anchor="middle">self · goals</text>
+  <text class="t h" x="312" y="704" text-anchor="middle">CH. 8–13</text><text class="t b" x="312" y="728" text-anchor="middle">MEMORY &amp; LEARNING</text><text class="t s" x="312" y="752" text-anchor="middle">K-lines · summaries</text><text class="t s" x="312" y="772" text-anchor="middle">meaning · representation</text>
+  <text class="t h" x="512" y="704" text-anchor="middle">CH. 14–17</text><text class="t b" x="512" y="728" text-anchor="middle">INNER LIFE</text><text class="t s" x="512" y="752" text-anchor="middle">consciousness · emotion</text><text class="t s" x="512" y="772" text-anchor="middle">development</text>
+  <text class="t h" x="712" y="704" text-anchor="middle">CH. 18–26</text><text class="t b" x="712" y="728" text-anchor="middle">THOUGHT &amp; LANGUAGE</text><text class="t s" x="712" y="752" text-anchor="middle">reasoning · words · frames</text><text class="t s" x="712" y="772" text-anchor="middle">stories · grammar</text>
+  <text class="t h" x="912" y="704" text-anchor="middle">CH. 27–30</text><text class="t b" x="912" y="728" text-anchor="middle">CONTROL &amp; MODELS</text><text class="t s" x="912" y="752" text-anchor="middle">censors · realms</text><text class="t s" x="912" y="772" text-anchor="middle">world and self-models</text>
+
+  <rect class="wash2" x="0" y="795" width="1024" height="62"/>
+  <circle class="badge" cx="34" cy="824" r="23"/><text class="t num" x="34" y="831" text-anchor="middle">3</text>
+  <text class="t sec" x="72" y="831">THE CORE MODEL</text><line class="rule" x1="259" y1="824" x2="992" y2="824"/>
+  <rect class="wash" x="22" y="870" width="980" height="68"/>
+  <text class="t h" x="130" y="900" text-anchor="middle">SIMPLE AGENTS</text><text class="t h" x="380" y="900" text-anchor="middle">AGENCIES</text><text class="t h" x="640" y="900" text-anchor="middle">CONFLICT + CONTROL</text><text class="t h" x="897" y="900" text-anchor="middle">COORDINATED ACTION</text>
+  <text class="t s" x="130" y="924" text-anchor="middle">specialists do one small job</text><text class="t s" x="380" y="924" text-anchor="middle">groups combine abilities</text><text class="t s" x="640" y="924" text-anchor="middle">critics select and inhibit</text><text class="t s" x="897" y="924" text-anchor="middle">intelligence emerges</text>
+  <rect class="wash" x="130" y="1051" width="764" height="69"/>
+  <text class="t q" x="512" y="1081" text-anchor="middle">No single agent understands the whole.</text>
+  <text class="t b" x="512" y="1107" text-anchor="middle">The organization of many limited processes creates flexible intelligence.</text>
+
+  <rect class="wash2" x="0" y="1128" width="1024" height="62"/>
+  <circle class="badge" cx="34" cy="1157" r="23"/><text class="t num" x="34" y="1164" text-anchor="middle">4</text>
+  <text class="t sec" x="72" y="1164">FOUR WORKING IDEAS</text><line class="rule" x1="309" y1="1157" x2="992" y2="1157"/>
+  <rect class="wash" x="8" y="1265" width="1008" height="105"/>
+  <text class="t h" x="128" y="1292" text-anchor="middle">K-LINES · MEMORY</text><text class="t s" x="128" y="1316" text-anchor="middle">Recall reactivates a useful</text><text class="t s" x="128" y="1337" text-anchor="middle">coalition of earlier agents.</text>
+  <text class="t h" x="384" y="1292" text-anchor="middle">FRAMES · EXPECTATION</text><text class="t s" x="384" y="1316" text-anchor="middle">Structured templates fill roles</text><text class="t s" x="384" y="1337" text-anchor="middle">and supply sensible defaults.</text>
+  <text class="t h" x="640" y="1292" text-anchor="middle">CENSORS · CONTROL</text><text class="t s" x="640" y="1316" text-anchor="middle">Some agents activate plans;</text><text class="t s" x="640" y="1337" text-anchor="middle">others suppress bad ones.</text>
+  <text class="t h" x="896" y="1292" text-anchor="middle">SELF · COALITION</text><text class="t s" x="896" y="1316" text-anchor="middle">Continuity comes from layered</text><text class="t s" x="896" y="1337" text-anchor="middle">goals—not one inner ruler.</text>
+
+  <rect class="wash2" x="0" y="1378" width="1024" height="62"/>
+  <circle class="badge" cx="34" cy="1407" r="23"/><text class="t num" x="34" y="1414" text-anchor="middle">5</text>
+  <text class="t sec" x="72" y="1414">WHAT TO TAKE AWAY</text><line class="rule" x1="321" y1="1407" x2="992" y2="1407"/>
+  <rect class="wash" x="22" y="1445" width="980" height="84"/>
+  <text class="t b" x="180" y="1471" text-anchor="middle">LOOK FOR SPECIALISTS</text><text class="t s" x="180" y="1493" text-anchor="middle">Break intelligence into small jobs.</text>
+  <text class="t b" x="512" y="1471" text-anchor="middle">LOOK FOR CONTROL</text><text class="t s" x="512" y="1493" text-anchor="middle">Ask what activates, competes, or stops.</text>
+  <text class="t b" x="844" y="1471" text-anchor="middle">READING QUESTION</text><text class="t s" x="844" y="1493" text-anchor="middle">Which society of agents made this thought?</text>
+  <text class="t s" x="512" y="1520" text-anchor="middle">A mind is less like a monarch and more like an evolving organization.</text>
+</svg>
