@@ -1,8 +1,92 @@
 {
-  "catalogVersion": "0.0.164",
-  "updatedAt": "2026-10-14T17:59:18.190Z",
+  "catalogVersion": "0.0.165",
+  "updatedAt": "2026-10-15T05:51:51.961Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-9e6806e699cfb7bb7e72e290",
+      "title": "이스라엘, 2023년 이후 팔레스타인 아동 2,000명 이상 구금",
+      "titleTranslations": {
+        "en": "Israel has detained more than 2,000 Palestinian children since 2023"
+      },
+      "startAt": "2026-10-15T04:43:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보고서는 2023년 이후 이스라엘이 2,000명 이상(어린이)을 구금했으며, 최소 350명의 팔레스타인 아동이 현재 이스라엘 교도소에서 '가혹한 조건'에 직면해 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The report says Israel has detained more than 2,000 Palestinian children since 2023, and that at least 350 Palestinian children currently face 'harsh conditions' in Israeli prisons."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/15/israel-has-detained-more-than-2000-palestinian-children-since-2023-report?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/15/israel-has-detained-more-than-2000-palestinian-children-since-2023-report?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-15T04:43:15.000Z",
+        "lastObservedAt": "2026-10-15T05:51:51.961Z"
+      }
+    },
+    {
+      "id": "news-0b7274ba05c98359d99b394f",
+      "title": "앤트로픽, 상장 전 투자자에 매출 급증 보고",
+      "titleTranslations": {
+        "en": "Anthropic flags revenue surge to investors ahead of stock market debut"
+      },
+      "startAt": "2026-10-15T04:19:17.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "앤트로픽은 기업 공개(상장)를 앞두고 투자자들에게 매출 급증을 보고했다. 보도는 일부 투자자들이 AI 인프라에 대한 지출 규모를 우려하고 있다고 덧붙였다.",
+      "descriptionTranslations": {
+        "en": "Anthropic reported a surge in revenue to investors ahead of its stock market debut. Coverage notes some investors have become concerned about the amount of money being spent on AI infrastructure."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-15T04:19:17.000Z",
+        "lastObservedAt": "2026-10-15T05:51:51.961Z"
+      }
+    },
+    {
+      "id": "news-43ffee1ed695d91c615266bc",
+      "title": "브라질 의회, 주당 근로시간을 최대 40시간으로 단축하는 헌법 개정안 통과",
+      "titleTranslations": {
+        "en": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff"
+      },
+      "startAt": "2026-10-15T02:45:42.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "의회는 최대 주당 근로시간을 40시간으로 단축하고 6일제 근무를 금지하는 헌법 개정안을 승인했다. 이 조치는 최대 3,000만 명의 노동자에게 영향을 미칠 수 있으며, 결선투표를 앞둔 대통령 루이스 이나시우 룰라 다 시우바에게 정치적 승리를 안겨주었다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Congress approved a constitutional amendment to shorten the working week to a maximum of 40 hours and ban six‑day workweeks. The move could affect up to 30 million workers and was reported as a political victory for President Luiz Inácio Lula da Silva ahead of the presidential runoff."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff"
+        ],
+        "firstPublishedAt": "2026-10-15T02:45:42.000Z",
+        "lastObservedAt": "2026-10-15T05:51:51.961Z"
+      }
+    },
     {
       "id": "news-5bc59241b64860dea72f101b",
       "title": "러셀 브랜드 강간 재판 본격 시작 — 기소측, '성적 약탈자' 주장",
@@ -1116,34 +1200,6 @@
       }
     },
     {
-      "id": "news-88927fbf176d02832bc5d362",
-      "title": "미국, 러시아·우크라이나 전쟁 종식 위해 '생산적' 3자 회담 주최",
-      "titleTranslations": {
-        "en": "US hosts ‘productive’ trilateral talks to end Russia‑Ukraine war"
-      },
-      "startAt": "2026-10-10T05:43:33.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미국 특사 스티브 위트코프는 겨울이 닥치기 전에 지속 가능한 평화를 보장하기 위한 재개된 협상이 목표라고 밝히며 미국이 관련 당사자들과 3자 협의를 주최했다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "US envoy Steve Witkoff said renewed negotiations aim to ensure lasting peace before winter approaches, and the United States hosted trilateral talks with relevant parties, the coverage says."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/10/us-hosts-productive-trilateral-talks-to-end-russia-ukraine-war?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/10/us-hosts-productive-trilateral-talks-to-end-russia-ukraine-war?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-10T05:43:33.000Z",
-        "lastObservedAt": "2026-10-10T07:00:09.796Z"
-      }
-    },
-    {
       "id": "news-e534b54b109b9aa796181514",
       "title": "허리케인 이사이아스, 미 걸프 연안 상륙 — 수백만 대피·카테고리 2 상륙",
       "titleTranslations": {
@@ -1169,34 +1225,6 @@
         ],
         "firstPublishedAt": "2026-10-10T01:50:32.000Z",
         "lastObservedAt": "2026-10-11T07:06:52.641Z"
-      }
-    },
-    {
-      "id": "news-c4d3de43f668164e824f576a",
-      "title": "부츠(영국 약국체인) 매각 — 캐나다 억만장자 가족이 인수",
-      "titleTranslations": {
-        "en": "Boots (UK pharmacy chain) sold — acquired by Canadian billionaire family"
-      },
-      "startAt": "2026-10-09T23:01:14.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 비즈니스는 영국의 고전적 약국 체인 부츠(Boots)가 캐나다의 억만장자 가족에게 매각되었다고 보도했다. 보도는 소유권 변경이 소매업·고용·매장 서비스에 미칠 영향을 분석하고 있다.",
-      "descriptionTranslations": {
-        "en": "BBC Business reports that UK pharmacy chain Boots has been sold to a Canadian billionaire family. Coverage examines how the change of ownership could affect retail operations, employment and in‑store services."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-09T23:01:14.000Z",
-        "lastObservedAt": "2026-10-11T18:02:10.484Z"
       }
     },
     {
@@ -1227,34 +1255,6 @@
         ],
         "firstPublishedAt": "2026-10-09T22:04:07.000Z",
         "lastObservedAt": "2026-10-10T17:49:54.355Z"
-      }
-    },
-    {
-      "id": "news-22a5f858763d26f1554fef85",
-      "title": "미국, 국제형사재판소(ICC)에 제재 발표 — 법원은 ‘법치에 대한 공격’이라 비판",
-      "titleTranslations": {
-        "en": "US unveils sanctions on the ICC as court condemns move as an 'assault on rule of law'"
-      },
-      "startAt": "2026-10-09T18:40:10.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 미국은 국제형사재판소(ICC)에 대한 제재를 발표했다. 보도는 재판부가 이를 '법치에 대한 공격(assault on rule of law)'이라고 규탄했으며, 몇몇 회원국(영국 포함)이 강하게 반대한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC reports the United States has announced sanctions on the International Criminal Court (ICC). The coverage says the court condemned the move as an 'assault on the rule of law' and that several member states, including the UK, have said they strongly disagree."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-09T18:40:10.000Z",
-        "lastObservedAt": "2026-10-09T18:47:28.069Z"
       }
     },
     {
