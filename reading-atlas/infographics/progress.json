@@ -218,7 +218,7 @@
     "version": 2,
     "name": "Bilingual self-contained illustrated anatomy",
     "startedOn": "2026-10-14",
-    "completedCount": 1,
+    "completedCount": 2,
     "collectionTotal": 75,
     "completed": [
       {
@@ -243,6 +243,28 @@
           "https://www.kriso.ee/being-you-new-science-consciousness-db-9781524742874.html",
           "https://www.anilseth.com/research/chapters/",
           "https://www.anilseth.com/research/journals/"
+        ]
+      },
+      {
+        "sequence": 2,
+        "id": 50,
+        "title": "Thinking in Systems",
+        "koreanTitle": "시스템 사고",
+        "koreanIllustrated": "thinking-in-systems-v2-ko-illustrated.webp",
+        "englishIllustrated": "thinking-in-systems-v2-en-illustrated.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "completedOn": "2026-10-14",
+        "sourceNotes": "sources/thinking-in-systems-v2.md",
+        "sources": [
+          "https://www.chelseagreen.com/product/thinking-in-systems/",
+          "https://catdir.loc.gov/catdir/toc/ecip0825/2008035211.html",
+          "https://donellameadows.org/systems-thinking-book-sale/",
+          "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/"
         ]
       }
     ]
