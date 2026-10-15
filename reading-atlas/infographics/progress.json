@@ -214,7 +214,7 @@
       "sourceNotes": "sources/the-republic.md"
     }
   ],
-  "currentFormat": {
+  "previousFormats": [{
     "version": 2,
     "name": "Bilingual self-contained illustrated anatomy",
     "startedOn": "2026-10-14",
@@ -337,5 +337,37 @@
         "https://courses.csail.mit.edu/6.803/pdf/aim-516.pdf"
       ]
     }
+  }],
+  "integratedLayout": {
+    "version": 3,
+    "name": "Fully integrated bilingual illustrated anatomy",
+    "startedOn": "2026-10-15",
+    "completedCount": 1,
+    "collectionTotal": 75,
+    "completed": [
+      {
+        "sequence": 1,
+        "id": 40,
+        "title": "Being You",
+        "koreanTitle": "내가 된다는 것",
+        "koreanImage": "being-you-v3-integrated-ko.webp",
+        "englishImage": "being-you-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": false,
+        "englishCardVerified": false,
+        "publicUrlsVerified": false,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "completedOn": "2026-10-15",
+        "sourceNotes": "sources/being-you-v3-integrated.md",
+        "sources": [
+          "https://www.anilseth.com/being-you/",
+          "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/",
+          "https://books.google.com/books/about/Being_You.html?id=arVCEAAAQBAJ",
+          "https://www.anilseth.com/research/journals/"
+        ]
+      }
+    ]
   }
 }
