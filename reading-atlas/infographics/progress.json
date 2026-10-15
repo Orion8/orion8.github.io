@@ -218,7 +218,7 @@
     "version": 2,
     "name": "Bilingual self-contained illustrated anatomy",
     "startedOn": "2026-10-14",
-    "completedCount": 5,
+    "completedCount": 4,
     "collectionTotal": 75,
     "completed": [
       {
@@ -312,29 +312,30 @@
           "https://melaniemitchell.me/ExplorationsContent/RobbyTheRobot/",
           "https://catdir.loc.gov/catdir/toc/ecip0819/2008023794.html"
         ]
-      },
-      {
-        "sequence": 5,
-        "id": 45,
-        "title": "The Society of Mind",
-        "koreanTitle": "마음의 사회",
-        "koreanIllustrated": "the-society-of-mind-v2-ko-illustrated.webp",
-        "englishIllustrated": "the-society-of-mind-v2-en-illustrated.webp",
-        "koreanComplete": true,
-        "englishComplete": true,
-        "koreanCardVerified": false,
-        "englishCardVerified": false,
-        "mobileVerifiedAtWidth": 390,
-        "dimensions": "2048x3072",
-        "completedOn": "2026-10-15",
-        "sourceNotes": "sources/the-society-of-mind-v2.md",
-        "sources": [
-          "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
-          "https://openlibrary.org/books/OL21593952M/The_society_of_mind",
-          "https://books.google.com/books/about/Society_Of_Mind.html?id=bLDLllfRpdkC",
-          "https://courses.csail.mit.edu/6.803/pdf/aim-516.pdf"
-        ]
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 5,
+      "id": 45,
+      "title": "The Society of Mind",
+      "koreanTitle": "마음의 사회",
+      "status": "public-deployment-verification-pending",
+      "koreanIllustrated": "the-society-of-mind-v2-ko-illustrated.webp",
+      "englishIllustrated": "the-society-of-mind-v2-en-illustrated.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "2048x3072",
+      "preparedOn": "2026-10-15",
+      "sourceNotes": "sources/the-society-of-mind-v2.md",
+      "sources": [
+        "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
+        "https://openlibrary.org/books/OL21593952M/The_society_of_mind",
+        "https://books.google.com/books/about/Society_Of_Mind.html?id=bLDLllfRpdkC",
+        "https://courses.csail.mit.edu/6.803/pdf/aim-516.pdf"
+      ]
+    }
   }
 }
