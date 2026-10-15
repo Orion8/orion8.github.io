@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <style>
+    .t{font-family:'Noto Sans KR',sans-serif;fill:#071d33}.title{font-family:'DejaVu Sans',sans-serif;font-size:46px;font-weight:900}.kt{font-size:29px;font-weight:900}.sub{font-size:15px;font-weight:700}.author{font-size:12px;font-weight:700;fill:#284f6b}.sec{font-size:19px;font-weight:900}.h{font-size:13.5px;font-weight:900}.b{font-size:11px;font-weight:700}.s{font-size:9.5px;font-weight:650}.q{font-size:15.5px;font-weight:900}.num{font-size:17px;font-weight:900;fill:#fff}.direct{paint-order:stroke fill;stroke:#071d33;stroke-width:.85px;stroke-linejoin:round}
+    .wash{fill:#fffdf8;fill-opacity:.95}.wash2{fill:#f5fbff;fill-opacity:.96}.rule{stroke:#3e91b0;stroke-width:2}.badge{fill:#1e6782}.muted{fill:#31566d}
+  </style>
+  <rect class="wash" x="150" y="22" width="724" height="174"/>
+  <text class="t title direct" x="512" y="76" text-anchor="middle">COMPLEXITY: A GUIDED TOUR</text>
+  <text class="t kt direct" x="512" y="119" text-anchor="middle">복잡성 안내서</text>
+  <text class="t sub direct" x="512" y="151" text-anchor="middle">단순한 상호작용에서 복잡한 세계가 나타나는 방식</text>
+  <text class="t author direct" x="512" y="177" text-anchor="middle">멜라니 미첼 · 2009</text>
+
+  <rect class="wash2" x="0" y="238" width="1024" height="72"/>
+  <circle class="badge" cx="32" cy="264" r="22"/><text class="t num" x="32" y="271" text-anchor="middle">1</text>
+  <text class="t sec direct" x="68" y="271">핵심 질문</text><line class="rule" x1="174" y1="264" x2="995" y2="264"/>
+  <text class="t q direct" x="512" y="300" text-anchor="middle">어떻게 단순한 국소 상호작용이 조직·지능·적응을 만들어 내는가?</text>
+  <rect class="wash" x="30" y="334" width="964" height="55"/>
+  <text class="t h direct" x="170" y="359" text-anchor="middle">단순한 구성요소</text><text class="t h direct" x="512" y="359" text-anchor="middle">비선형 상호작용과 되먹임</text><text class="t h direct" x="854" y="359" text-anchor="middle">예측하기 힘든 전체 패턴</text>
+  <text class="t s direct" x="512" y="380" text-anchor="middle">부분의 목록만으로는 전체의 행동을 설명할 수 없다</text>
+
+  <rect class="wash2" x="0" y="397" width="1024" height="61"/>
+  <circle class="badge" cx="32" cy="424" r="22"/><text class="t num" x="32" y="431" text-anchor="middle">2</text>
+  <text class="t sec direct" x="68" y="431">책의 구조 · 5부 19장</text><line class="rule" x1="278" y1="424" x2="995" y2="424"/>
+  <rect class="wash" x="0" y="522" width="1024" height="85"/>
+  <text class="t h direct" x="102" y="547" text-anchor="middle">1부 · 1–7장</text><text class="t b direct" x="102" y="568" text-anchor="middle">배경과 역사</text><text class="t s direct" x="102" y="588" text-anchor="middle">혼돈·정보·계산·진화</text>
+  <text class="t h direct" x="306" y="547" text-anchor="middle">2부 · 8–9장</text><text class="t b direct" x="306" y="568" text-anchor="middle">컴퓨터 속 생명과 진화</text><text class="t s direct" x="306" y="588" text-anchor="middle">자기복제·유전 알고리즘</text>
+  <text class="t h direct" x="512" y="547" text-anchor="middle">3부 · 10–14장</text><text class="t b direct" x="512" y="568" text-anchor="middle">확장된 계산</text><text class="t s direct" x="512" y="588" text-anchor="middle">세포자동자·생명·유추</text>
+  <text class="t h direct" x="718" y="547" text-anchor="middle">4부 · 15–18장</text><text class="t b direct" x="718" y="568" text-anchor="middle">네트워크 사고</text><text class="t s direct" x="718" y="588" text-anchor="middle">연결망·척도·복잡한 진화</text>
+  <text class="t h direct" x="922" y="547" text-anchor="middle">5부 · 19장</text><text class="t b direct" x="922" y="568" text-anchor="middle">결론</text><text class="t s direct" x="922" y="588" text-anchor="middle">복잡성 과학의 미래</text>
+
+  <rect class="wash2" x="0" y="613" width="1024" height="58"/>
+  <circle class="badge" cx="32" cy="639" r="22"/><text class="t num" x="32" y="646" text-anchor="middle">3</text>
+  <text class="t sec direct" x="68" y="646">복잡계의 작동 엔진</text><line class="rule" x1="257" y1="639" x2="995" y2="639"/>
+  <text class="t h direct" x="300" y="708" text-anchor="middle">많은 국소 행위자</text><text class="t h direct" x="512" y="686" text-anchor="middle">상호작용</text><text class="t h direct" x="735" y="708" text-anchor="middle">되먹임</text>
+  <text class="t h direct" x="774" y="842" text-anchor="middle">자기조직화</text><text class="t h direct" x="512" y="905" text-anchor="middle">창발한 전체 패턴</text><text class="t h direct" x="244" y="842" text-anchor="middle">학습과 적응</text>
+  <rect class="wash" x="304" y="764" width="416" height="78"/>
+  <text class="t q direct" x="512" y="793" text-anchor="middle">중앙 통제자가 없어도</text><text class="t q direct" x="512" y="820" text-anchor="middle">연결과 되먹임이 질서를 만든다</text>
+
+  <rect class="wash2" x="0" y="936" width="1024" height="58"/>
+  <circle class="badge" cx="32" cy="962" r="22"/><text class="t num" x="32" y="969" text-anchor="middle">4</text>
+  <text class="t sec direct" x="68" y="969">복잡성을 읽는 네 렌즈</text><line class="rule" x1="292" y1="962" x2="995" y2="962"/>
+  <rect class="wash" x="0" y="1090" width="1024" height="142"/>
+  <text class="t h direct" x="128" y="1118" text-anchor="middle">동역학과 혼돈</text><text class="t s direct" x="128" y="1141" text-anchor="middle">단순한 결정론적 규칙도</text><text class="t s direct" x="128" y="1162" text-anchor="middle">반복되면 예측이 어려워진다</text><text class="t b direct" x="128" y="1195" text-anchor="middle">시간의 패턴을 본다</text>
+  <text class="t h direct" x="384" y="1118" text-anchor="middle">정보와 계산</text><text class="t s direct" x="384" y="1141" text-anchor="middle">복잡계는 신호를 저장하고</text><text class="t s direct" x="384" y="1162" text-anchor="middle">분산된 방식으로 변환한다</text><text class="t b direct" x="384" y="1195" text-anchor="middle">무엇을 처리하는가?</text>
+  <text class="t h direct" x="640" y="1118" text-anchor="middle">진화와 적응</text><text class="t s direct" x="640" y="1141" text-anchor="middle">변이와 선택이 구조를 바꾸고</text><text class="t s direct" x="640" y="1162" text-anchor="middle">환경과 함께 해법을 탐색한다</text><text class="t b direct" x="640" y="1195" text-anchor="middle">어떻게 달라지는가?</text>
+  <text class="t h direct" x="896" y="1118" text-anchor="middle">네트워크와 척도</text><text class="t s direct" x="896" y="1141" text-anchor="middle">연결의 배치와 허브가</text><text class="t s direct" x="896" y="1162" text-anchor="middle">흐름·취약성·성장을 좌우한다</text><text class="t b direct" x="896" y="1195" text-anchor="middle">무엇이 누구와 연결됐는가?</text>
+
+  <rect class="wash2" x="0" y="1256" width="1024" height="64"/>
+  <circle class="badge" cx="32" cy="1283" r="22"/><text class="t num" x="32" y="1290" text-anchor="middle">5</text>
+  <text class="t sec direct" x="68" y="1290">가져갈 관점</text><line class="rule" x1="190" y1="1283" x2="995" y2="1283"/>
+  <rect class="wash" x="42" y="1328" width="940" height="92"/>
+  <text class="t h direct" x="190" y="1357" text-anchor="middle">물체보다 상호작용</text><text class="t s direct" x="190" y="1380" text-anchor="middle">무엇이 있는가보다 어떻게 얽히는가</text>
+  <text class="t h direct" x="512" y="1357" text-anchor="middle">평균보다 분포와 극단</text><text class="t s direct" x="512" y="1380" text-anchor="middle">비선형 연결망의 긴 꼬리를 본다</text>
+  <text class="t h direct" x="834" y="1357" text-anchor="middle">정답보다 모델 비교</text><text class="t s direct" x="834" y="1380" text-anchor="middle">이론·실험·시뮬레이션을 함께 쓴다</text>
+  <rect class="wash" x="108" y="1450" width="808" height="62"/>
+  <text class="t q direct" x="512" y="1478" text-anchor="middle">읽기 질문 · 내가 보는 전체 패턴은 어떤 국소 규칙과 연결에서 생겼는가?</text>
+  <text class="t s direct" x="512" y="1502" text-anchor="middle">복잡함은 단지 부품이 많은 상태가 아니라, 상호작용이 새로운 행동을 만드는 상태다.</text>
+</svg>

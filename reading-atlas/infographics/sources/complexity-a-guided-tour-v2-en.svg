@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <style>
+    .t{font-family:'DejaVu Sans',sans-serif;fill:#071d33}.title{font-size:47px;font-weight:900}.sub{font-size:15px;font-weight:800}.author{font-size:12px;font-weight:700;fill:#284f6b}.sec{font-size:18px;font-weight:900}.h{font-size:12.5px;font-weight:900}.b{font-size:10.5px;font-weight:700}.s{font-size:9px;font-weight:650}.q{font-size:15px;font-weight:900}.num{font-size:17px;font-weight:900;fill:#fff}.direct{paint-order:stroke fill;stroke:#071d33;stroke-width:.3px;stroke-linejoin:round}
+    .wash{fill:#fffdf8;fill-opacity:.95}.wash2{fill:#f5fbff;fill-opacity:.96}.rule{stroke:#3e91b0;stroke-width:2}.badge{fill:#1e6782}.muted{fill:#31566d}
+  </style>
+  <rect class="wash" x="150" y="22" width="724" height="174"/>
+  <text class="t title direct" x="512" y="88" text-anchor="middle">COMPLEXITY: A GUIDED TOUR</text>
+  <text class="t sub direct" x="512" y="128" text-anchor="middle">HOW SIMPLE INTERACTIONS CREATE ORGANIZED WORLDS</text>
+  <text class="t author direct" x="512" y="163" text-anchor="middle">MELANIE MITCHELL · 2009</text>
+
+  <rect class="wash2" x="0" y="238" width="1024" height="72"/>
+  <circle class="badge" cx="32" cy="264" r="22"/><text class="t num" x="32" y="271" text-anchor="middle">1</text>
+  <text class="t sec direct" x="68" y="271">CORE QUESTION</text><line class="rule" x1="223" y1="264" x2="995" y2="264"/>
+  <text class="t q direct" x="512" y="300" text-anchor="middle">How do simple local interactions produce organization, intelligence, and adaptation?</text>
+  <rect class="wash" x="30" y="334" width="964" height="55"/>
+  <text class="t h direct" x="170" y="359" text-anchor="middle">SIMPLE COMPONENTS</text><text class="t h direct" x="512" y="359" text-anchor="middle">NONLINEAR INTERACTION + FEEDBACK</text><text class="t h direct" x="854" y="359" text-anchor="middle">UNEXPECTED GLOBAL PATTERN</text>
+  <text class="t s direct" x="512" y="380" text-anchor="middle">A list of the parts is not enough to explain the behavior of the whole.</text>
+
+  <rect class="wash2" x="0" y="397" width="1024" height="61"/>
+  <circle class="badge" cx="32" cy="424" r="22"/><text class="t num" x="32" y="431" text-anchor="middle">2</text>
+  <text class="t sec direct" x="68" y="431">BOOK STRUCTURE · 5 PARTS · 19 CHAPTERS</text><line class="rule" x1="458" y1="424" x2="995" y2="424"/>
+  <rect class="wash" x="0" y="522" width="1024" height="85"/>
+  <text class="t h direct" x="102" y="547" text-anchor="middle">PART 1 · CH. 1–7</text><text class="t b direct" x="102" y="568" text-anchor="middle">BACKGROUND &amp; HISTORY</text><text class="t s direct" x="102" y="588" text-anchor="middle">chaos · information · evolution</text>
+  <text class="t h direct" x="306" y="547" text-anchor="middle">PART 2 · CH. 8–9</text><text class="t b direct" x="306" y="568" text-anchor="middle">LIFE IN COMPUTERS</text><text class="t s direct" x="306" y="588" text-anchor="middle">self-reproduction · genetic algorithms</text>
+  <text class="t h direct" x="512" y="547" text-anchor="middle">PART 3 · CH. 10–14</text><text class="t b direct" x="512" y="568" text-anchor="middle">COMPUTATION WRIT LARGE</text><text class="t s direct" x="512" y="588" text-anchor="middle">automata · life · analogy</text>
+  <text class="t h direct" x="718" y="547" text-anchor="middle">PART 4 · CH. 15–18</text><text class="t b direct" x="718" y="568" text-anchor="middle">NETWORK THINKING</text><text class="t s direct" x="718" y="588" text-anchor="middle">networks · scaling · evolution</text>
+  <text class="t h direct" x="922" y="547" text-anchor="middle">PART 5 · CH. 19</text><text class="t b direct" x="922" y="568" text-anchor="middle">CONCLUSION</text><text class="t s direct" x="922" y="588" text-anchor="middle">the field's future</text>
+
+  <rect class="wash2" x="0" y="613" width="1024" height="58"/>
+  <circle class="badge" cx="32" cy="639" r="22"/><text class="t num" x="32" y="646" text-anchor="middle">3</text>
+  <text class="t sec direct" x="68" y="646">THE ENGINE OF A COMPLEX SYSTEM</text><line class="rule" x1="387" y1="639" x2="995" y2="639"/>
+  <text class="t h direct" x="300" y="708" text-anchor="middle">MANY LOCAL AGENTS</text><text class="t h direct" x="512" y="686" text-anchor="middle">INTERACTION</text><text class="t h direct" x="735" y="708" text-anchor="middle">FEEDBACK</text>
+  <text class="t h direct" x="774" y="842" text-anchor="middle">SELF-ORGANIZATION</text><text class="t h direct" x="512" y="905" text-anchor="middle">EMERGENT GLOBAL PATTERN</text><text class="t h direct" x="244" y="842" text-anchor="middle">LEARNING + ADAPTATION</text>
+  <rect class="wash" x="304" y="764" width="416" height="78"/>
+  <text class="t q direct" x="512" y="793" text-anchor="middle">No central controller is required.</text><text class="t q direct" x="512" y="820" text-anchor="middle">Connections and feedback can create order.</text>
+
+  <rect class="wash2" x="0" y="936" width="1024" height="58"/>
+  <circle class="badge" cx="32" cy="962" r="22"/><text class="t num" x="32" y="969" text-anchor="middle">4</text>
+  <text class="t sec direct" x="68" y="969">FOUR LENSES ON COMPLEXITY</text><line class="rule" x1="347" y1="962" x2="995" y2="962"/>
+  <rect class="wash" x="0" y="1090" width="1024" height="142"/>
+  <text class="t h direct" x="128" y="1118" text-anchor="middle">DYNAMICS &amp; CHAOS</text><text class="t s direct" x="128" y="1141" text-anchor="middle">Simple deterministic rules</text><text class="t s direct" x="128" y="1162" text-anchor="middle">can become unpredictable</text><text class="t b direct" x="128" y="1195" text-anchor="middle">FOLLOW PATTERNS IN TIME</text>
+  <text class="t h direct" x="384" y="1118" text-anchor="middle">INFORMATION &amp; COMPUTATION</text><text class="t s direct" x="384" y="1141" text-anchor="middle">Systems store signals and</text><text class="t s direct" x="384" y="1162" text-anchor="middle">transform them distributively</text><text class="t b direct" x="384" y="1195" text-anchor="middle">WHAT IS BEING PROCESSED?</text>
+  <text class="t h direct" x="640" y="1118" text-anchor="middle">EVOLUTION &amp; ADAPTATION</text><text class="t s direct" x="640" y="1141" text-anchor="middle">Variation and selection reshape</text><text class="t s direct" x="640" y="1162" text-anchor="middle">organization with the environment</text><text class="t b direct" x="640" y="1195" text-anchor="middle">HOW DOES IT CHANGE?</text>
+  <text class="t h direct" x="896" y="1118" text-anchor="middle">NETWORKS &amp; SCALING</text><text class="t s direct" x="896" y="1141" text-anchor="middle">Topology and hubs govern</text><text class="t s direct" x="896" y="1162" text-anchor="middle">flow, fragility, and growth</text><text class="t b direct" x="896" y="1195" text-anchor="middle">WHO CONNECTS TO WHOM?</text>
+
+  <rect class="wash2" x="0" y="1256" width="1024" height="64"/>
+  <circle class="badge" cx="32" cy="1283" r="22"/><text class="t num" x="32" y="1290" text-anchor="middle">5</text>
+  <text class="t sec direct" x="68" y="1290">PERSPECTIVES TO KEEP</text><line class="rule" x1="297" y1="1283" x2="995" y2="1283"/>
+  <rect class="wash" x="42" y="1328" width="940" height="92"/>
+  <text class="t h direct" x="190" y="1357" text-anchor="middle">INTERACTIONS OVER OBJECTS</text><text class="t s direct" x="190" y="1380" text-anchor="middle">Ask how components constrain one another.</text>
+  <text class="t h direct" x="512" y="1357" text-anchor="middle">DISTRIBUTIONS OVER AVERAGES</text><text class="t s direct" x="512" y="1380" text-anchor="middle">Look for long tails and rare cascades.</text>
+  <text class="t h direct" x="834" y="1357" text-anchor="middle">MODEL COMPARISON OVER CERTAINTY</text><text class="t s direct" x="834" y="1380" text-anchor="middle">Combine theory, experiment, and simulation.</text>
+  <rect class="wash" x="108" y="1450" width="808" height="62"/>
+  <text class="t q direct" x="512" y="1478" text-anchor="middle">READING QUESTION · Which local rules and connections generate the pattern I see?</text>
+  <text class="t s direct" x="512" y="1502" text-anchor="middle">Complexity is not merely many parts; it is interaction producing new behavior.</text>
+</svg>
