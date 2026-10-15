@@ -218,7 +218,7 @@
     "version": 2,
     "name": "Bilingual self-contained illustrated anatomy",
     "startedOn": "2026-10-14",
-    "completedCount": 2,
+    "completedCount": 3,
     "collectionTotal": 75,
     "completed": [
       {
@@ -265,6 +265,28 @@
           "https://catdir.loc.gov/catdir/toc/ecip0825/2008035211.html",
           "https://donellameadows.org/systems-thinking-book-sale/",
           "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/"
+        ]
+      },
+      {
+        "sequence": 3,
+        "id": 65,
+        "title": "The Beginning of Infinity",
+        "koreanTitle": "무한의 시작",
+        "koreanIllustrated": "beginning-of-infinity-v2-ko-illustrated.webp",
+        "englishIllustrated": "beginning-of-infinity-v2-en-illustrated.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "completedOn": "2026-10-14",
+        "sourceNotes": "sources/beginning-of-infinity-v2.md",
+        "sources": [
+          "https://www.thebeginningofinfinity.com/book/excerpt/",
+          "https://www.thebeginningofinfinity.com/book/excerpt/opening/",
+          "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/",
+          "https://www.daviddeutsch.org.uk/videos/tedglobal-2005-transcript/"
         ]
       }
     ]
