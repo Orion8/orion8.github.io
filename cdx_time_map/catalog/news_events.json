@@ -1,8 +1,325 @@
 {
-  "catalogVersion": "0.0.165",
-  "updatedAt": "2026-10-15T05:51:51.961Z",
+  "catalogVersion": "0.0.166",
+  "updatedAt": "2026-10-15T17:45:31.321Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-249fd8d9e74a7921bc415ffe",
+      "title": "ISS 전력 증강을 위한 롤아웃 태양전지판 도입 — 우주정거장 전력 공급 향상",
+      "titleTranslations": {
+        "en": "Roll‑out solar arrays boost International Space Station power supply"
+      },
+      "startAt": "2026-10-15T17:30:39.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 국제우주정거장(ISS)의 전력 공급을 강화하기 위해 롤아웃 태양전지판을 도입했다고 밝혔다. 태양에너지는 정거장의 생명유지·일상업무·다수 연구 활동을 지탱하는 핵심 자원이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "NASA says roll‑out solar arrays have been added to boost the International Space Station’s power supply; solar power supports the station’s life‑support systems, daily activities and hundreds of research investigations."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/"
+        ],
+        "firstPublishedAt": "2026-10-15T17:30:39.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-e7d48fa290a0b766e043cf85",
+      "title": "은행권, 힐리 재무장관의 예산안에서 은행 이익 과세 가능성 예측",
+      "titleTranslations": {
+        "en": "Banks say Chancellor Healey may target their profits in upcoming Budget"
+      },
+      "startAt": "2026-10-15T17:14:36.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "영국의 고위 은행 임원들은 BBC에 재무장관의 이번 예산에서 은행들이 '메뉴에 오를 것'이라며 은행 이익에 대한 세제 변화 가능성을 예상한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Senior banking executives told the BBC they expect to be ‘on the menu’ in Chancellor Healey’s Budget later this month, signalling banks may face tax changes on their profits."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-15T17:14:36.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-52a16e16972c71c77905829c",
+      "title": "럭비리그 월드컵 개막전서 호주, 뉴질랜드에 극적 승리(24‑22) — 보스톡 해트트릭",
+      "titleTranslations": {
+        "en": "Australia clinch thrilling Rugby League World Cup opener, 24–22 over New Zealand"
+      },
+      "startAt": "2026-10-15T17:00:06.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "시드니에서 열린 럭비리그 월드컵 개막전에서 호주가 뉴질랜드를 24‑22로 꺾고 개막전을 승리로 장식했다. 데뷔 선수 잭 보스톡이 해트트릭을 기록했고 몇몇 선수는 경기 중 극심한 육체적 부담을 겪었다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "In the Rugby League World Cup opener in Sydney, Australia beat New Zealand 24–22 with debutant Jack Bostock scoring a hat‑trick. Reports note intense physical tolls on players during the dramatic match."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/rugby-league/articles/c574pn7j0yp3o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/rugby-league/articles/c574pn7j0yp3o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/sport/rugby-league/videos/cmn4eqpvw1ppo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-15T15:07:28.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-5bc59241b64860dea72f101b",
+      "title": "러셀 브랜드 재판: 고소인 증언 등 재판 과정 추가 보도",
+      "titleTranslations": {
+        "en": "Russell Brand trial continues as accuser describes alleged assault behaviour"
+      },
+      "startAt": "2026-10-15T16:35:05.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "코미디언 러셀 브랜드의 강간·성폭행 재판에서 고소인 중 한 명이 브랜드가 성폭행을 저질렀다고 주장하며 '괴물과 같아졌다'고 진술했다. 브랜드는 여러 건의 강간·성폭행·부당행위 혐의를 부인하고 있다.",
+      "descriptionTranslations": {
+        "en": "In the ongoing rape and sexual assault trial of comedian Russell Brand, an accuser testified that the defendant became ‘monster‑like’ before the alleged rape. Brand denies the charges; he faces counts including rape and sexual assault."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-12T12:44:38.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-139e756ddb8276a5a6f3f6c9",
+      "title": "국제 계측위원회, 리프 초(seconds) 대신 ‘리프 아워’ 채택 합의",
+      "titleTranslations": {
+        "en": "International timekeepers vote to replace leap second with a leap hour"
+      },
+      "startAt": "2026-10-15T16:16:10.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "국제도량형국 회의에서 전통적 보정인 리프 초(leap second)가 지속 불가능하다는 결론에 따라 이를 장기적으로 리프 아워(leap hour)로 대체하는 결의가 채택되었다. 첫 번째 리프 아워 시행은 수천년 뒤가 될 가능성이 크다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Delegates at a conference of the International Bureau of Weights and Measures voted that the leap second is no longer tenable and agreed to replace it long‑term with a leap hour; reports note the first leap hour is unlikely to be needed for thousands of years."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/15/times-up-for-the-leap-second-as-scientists-swap-it-for-the-leap-hour",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/15/times-up-for-the-leap-second-as-scientists-swap-it-for-the-leap-hour"
+        ],
+        "firstPublishedAt": "2026-10-15T16:16:10.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-eff8bf7827199e132af13ae1",
+      "title": "NHS 잉글랜드 지침: 트랜스 환자는 '생물학적 성' 기준의 단일성별 병동 배치 권고",
+      "titleTranslations": {
+        "en": "NHS England guidance says trans patients should use hospital spaces aligned with biological sex"
+      },
+      "startAt": "2026-10-15T16:07:26.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "NHS 잉글랜드의 새 지침은 트랜스 환자들이 병원 내 단일성별 병동이나 병상 배치에서 '생물학적 성'과 일치하는 공간에서 치료받아야 한다고 밝혔다. 정책은 입원 환경과 돌봄 배치에 변화를 요구한다.",
+      "descriptionTranslations": {
+        "en": "New NHS England guidance says transgender patients should be cared for in single‑sex hospital wards or bays that align with their biological sex, affecting patient placement and care arrangements in hospitals."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cry83dyddv6no?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cry83dyddv6no?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-15T16:07:26.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-a41ce0e0a54c0b0683933deb",
+      "title": "중국 바오터우의 모나자이트 처리와 희토류 산업이 남긴 환경·방사능 문제 조명",
+      "titleTranslations": {
+        "en": "Report examines China’s monazite processing and its environmental legacy"
+      },
+      "startAt": "2026-10-15T14:54:03.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "IEEE 스펙트럼 기사는 내몽골 바오터우의 대규모 폐광저수지가 모나자이트 등 광물 처리로 인해 고독성 혼합물과 방사성 토륨을 포함하게 됐다고 전했다. 보도는 중국의 희토류·광물 처리 역사와 최근 환경·규제 변화도 다뤘다.",
+      "descriptionTranslations": {
+        "en": "An IEEE Spectrum piece highlights Baotou’s large tailings lake — polluted by decades of minerals processing — containing toxic chemicals and substantial radioactive thorium from monazite processing, and discusses China’s dominant role in rare‑earths industries and evolving environmental regulations."
+      },
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/china-rare-earth-minerals",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/china-rare-earth-minerals"
+        ],
+        "firstPublishedAt": "2026-10-15T14:54:03.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-bb92c371629fda3025cea503",
+      "title": "AI 관련 주식 급락 심화 — 인플레이션·금리 우려에 반도체·투자자들 타격",
+      "titleTranslations": {
+        "en": "Tech market sell‑off deepens as inflation and rate fears hit AI‑linked stocks"
+      },
+      "startAt": "2026-10-15T14:33:12.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "AI 관련 종목과 반도체업체, 삼성·소프트뱅크 등 주요 투자자의 주가가 급락했다. 보도는 상승하는 인플레이션과 향후 금리 인상 우려가 이미 고부채 상태인 섹터에 매도세를 촉발했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "AI‑linked shares, chipmakers and investors such as Samsung and SoftBank plunged as fears over rising US inflation and possible interest‑rate hikes deepened a market sell‑off, the coverage says."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt"
+        ],
+        "firstPublishedAt": "2026-10-15T14:33:12.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-5cfe821513d5c5eec4d209a0",
+      "title": "BBC 뉴스 채널, 영국·미국 시청자 대상 유튜브 채널 개설",
+      "titleTranslations": {
+        "en": "BBC launches its news channel on YouTube for UK and US audiences"
+      },
+      "startAt": "2026-10-15T11:26:30.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "BBC는 디지털 원주민과 젊은 시청자층에 도달하기 위한 전략의 일환으로 영국과 미국 시청자를 대상으로 한 BBC 뉴스 채널을 유튜브에서 시작했다고 발표했다.",
+      "descriptionTranslations": {
+        "en": "The BBC has launched a BBC News channel on YouTube for viewers in the UK and US as part of a wider strategy to reach digitally‑native and younger audiences."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60merk2je80o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c60merk2je80o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-15T11:26:30.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-1cf9843ea2aec14751338a5b",
+      "title": "우크라이나, 모스크바가 합의를 깨자 러시아 정유시설 공격 재개",
+      "titleTranslations": {
+        "en": "Ukraine resumes attacks on Russian oil refineries after Moscow spurns brief truce"
+      },
+      "startAt": "2026-10-15T10:05:58.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "우크라이나 드론이 러시아 리아잔 지역의 정유시설을 공격했다고 보도됐다. 이번 공격은 우크라이나 대통령이 모스크바가 거부한 짧은 휴전이 끝났다고 밝힌 직후에 이뤄졌다.",
+      "descriptionTranslations": {
+        "en": "Ukrainian drones struck an oil refinery in Russia’s Ryazan region, hours after Ukraine’s president said a brief truce — which Moscow spurned — was over."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war",
+          "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war"
+        ],
+        "firstPublishedAt": "2026-10-13T18:51:55.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-e93b074ca9083cba37d5565d",
+      "title": "세네갈, 성소수자 단속 강화로 수백 명 체포·강제 HIV 검사 보고",
+      "titleTranslations": {
+        "en": "Senegal arrests hundreds of LGBTQ+ people as crackdown intensifies"
+      },
+      "startAt": "2026-10-15T08:00:25.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "인권단체 보고서를 인용한 보도에 따르면 세네갈에서 ‘자연에 반하는 행위’ 혐의로 최소 320명이 체포·구금됐고, 그중 최소 84명이 HIV 전염 혐의로 기소되었다. 체포·강제 검사·법적 대리인 접근 제한 등 인권 침해 사례가 보고됐다.",
+      "descriptionTranslations": {
+        "en": "Reporting citing a Human Rights Watch report says at least 320 people in Senegal have been detained on allegations of ‘acts against nature’, with at least 84 charged with ‘voluntary HIV transmission’; mass arrests, forced HIV testing and barriers to legal representation are described."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch"
+        ],
+        "firstPublishedAt": "2026-10-15T08:00:25.000Z",
+        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
     {
       "id": "news-9e6806e699cfb7bb7e72e290",
       "title": "이스라엘, 2023년 이후 팔레스타인 아동 2,000명 이상 구금",
@@ -85,35 +402,6 @@
         ],
         "firstPublishedAt": "2026-10-15T02:45:42.000Z",
         "lastObservedAt": "2026-10-15T05:51:51.961Z"
-      }
-    },
-    {
-      "id": "news-5bc59241b64860dea72f101b",
-      "title": "러셀 브랜드 강간 재판 본격 시작 — 기소측, '성적 약탈자' 주장",
-      "titleTranslations": {
-        "en": "Russell Brand rape trial begins — prosecution alleges he was a 'sexual predator'"
-      },
-      "startAt": "2026-10-14T17:55:53.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "코미디언 러셀 브랜드의 강간·성폭행 재판이 시작됐다. 검찰은 6명의 여성 고소인들이 서로 알지 못하는 상태에서 공통된 피해를 주장한다고 밝히며 피고를 '성적 포식자'로 규정하는 취지의 주장을 제시했다. 브랜드는 혐의를 부인하고 있다.",
-      "descriptionTranslations": {
-        "en": "The rape and sexual assault trial of comedian Russell Brand has begun. Prosecutors say six complainants, who do not know one another, have alleged similar abuse and characterised the defendant as a 'sexual predator'. Brand denies the charges."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-12T12:44:38.000Z",
-        "lastObservedAt": "2026-10-14T17:59:18.189Z"
       }
     },
     {
@@ -401,35 +689,6 @@
         ],
         "firstPublishedAt": "2026-10-13T19:43:45.000Z",
         "lastObservedAt": "2026-10-14T06:06:02.516Z"
-      }
-    },
-    {
-      "id": "news-1cf9843ea2aec14751338a5b",
-      "title": "젤렌스키 대통령, 우크라이나는 평화 원하지만 러시아가 휴전에 따를 때까지 타격 계속할 것이라고 밝혀",
-      "titleTranslations": {
-        "en": "Zelenskyy says Ukraine wants peace but will keep striking Russia until it abides by a ceasefire"
-      },
-      "startAt": "2026-10-13T18:51:55.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "볼로디미르 젤렌스키 우크라이나 대통령은 NPR 인터뷰에서 우크라이나가 평화를 원한다고 했지만 러시아가 휴전에 따르지 않는 한 공세를 계속할 것이라고 밝혔다. 젤렌스키는 미국이 무기와 정보 접근을 끊을 수 있다고 경고했다는 통보를 받은 적이 있으나 아직 그런 조치는 이뤄지지 않았다고 말했다.",
-      "descriptionTranslations": {
-        "en": "Ukrainian President Volodymyr Zelenskyy told NPR that while Ukraine seeks peace, it will continue to strike Russia until Moscow complies with a ceasefire. He said he had been informed that the U.S. warned it could cut off access to U.S. weapons and intelligence, but that such measures had not yet occurred."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war"
-        ],
-        "firstPublishedAt": "2026-10-13T18:51:55.000Z",
-        "lastObservedAt": "2026-10-13T19:51:52.841Z"
       }
     },
     {
@@ -1116,62 +1375,6 @@
       }
     },
     {
-      "id": "news-fa3c90015cac0c633aa0045b",
-      "title": "교황, 사형제 '허용 불가' 주장 — 미국의 사형 생중계 계획과 교차",
-      "titleTranslations": {
-        "en": "Pope says death penalty ‘inadmissible’ as US plans to livestream execution"
-      },
-      "startAt": "2026-10-10T17:38:18.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "교황 레오 14세는 X(구 트위터) 게시물에서 사형제는 \"인간의 불가침성과 존엄성에 대한 공격\"이라며 '허용 불가(admissible)'하다고 주장했다. 이 발언은 미국이 특정 사형 집행을 생중계할 계획을 발표한 시점에 나왔다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Pope Leo XIV posted on X (formerly Twitter) saying the death penalty is \"an attack on the inviolability and dignity of the person\" and described it as 'inadmissible'. The remark came as the United States planned to livestream a scheduled execution, the coverage says."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/10/pope-says-death-penalty-inadmissible-as-us-plans-to-livestream-execution?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/10/pope-says-death-penalty-inadmissible-as-us-plans-to-livestream-execution?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-10T17:38:18.000Z",
-        "lastObservedAt": "2026-10-10T17:49:54.355Z"
-      }
-    },
-    {
-      "id": "news-26642edca61eefe9f39f1909",
-      "title": "트럼프, 러시아산 디젤 도입 합의 발표 — 젤렌스키는 '푸틴에 대한 선물' 비판",
-      "titleTranslations": {
-        "en": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin"
-      },
-      "startAt": "2026-10-10T14:24:14.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "도널드 트럼프 미국 대통령은 러시아산 디젤 도입을 위한 합의를 발표했다는 보도가 나왔다. 우크라이나 대통령 볼로디미르 젤렌스키는 이를 \"전쟁에 대한 투자\"라며 중단시켜야 한다고 강하게 비판했다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "President Donald Trump announced a deal to bring in Russian diesel, the coverage says. Ukraine’s president, Volodymyr Zelensky, sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged,\" the report adds."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-10T14:24:14.000Z",
-        "lastObservedAt": "2026-10-10T17:49:54.355Z"
-      }
-    },
-    {
       "id": "news-19f7d088c06dfd2943e719db",
       "title": "전미자동차노조(UAW) 회장 션 페인 압도적 재선",
       "titleTranslations": {
@@ -1400,34 +1603,6 @@
       }
     },
     {
-      "id": "news-5c865f02f0f95e22da4886e7",
-      "title": "보고서: 트럼프의 반이민 정책이 2034년 이후 미 노령층 연간 사회보장 지급을 약 8.6% 줄일 수 있어",
-      "titleTranslations": {
-        "en": "Report: Trump’s anti‑immigration measures could cut US Social Security payments by about 8.6% by 2034"
-      },
-      "startAt": "2026-10-09T12:00:28.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 새 보고서는 도널드 트럼프 행정부의 반이민 캠페인이 이어질 경우 2034년부터 미국의 은퇴 연금(사회보장)이 연평균 약 8.6% 감소해 노인 1인당 연간 약 2,152달러(평균 손실)를 잃을 수 있다고 전망했다. 보고서는 지난 2년간 외국인 노동자 약 120만 명의 급작스러운 이탈로 식품 물가 상승, 주택 건축 허가 감소, 일부 일자리 손실 등이 발생했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports a new study projects that if President Trump’s anti‑immigration campaign continues, US Social Security retirement payments could fall by about 8.6% from 2034 onward, equating to an average loss of roughly $2,152 per retiree annually. The report says the past two years have seen a sudden exodus of about 1.2 million foreign‑born workers, contributing to higher food prices, fewer housing permits and some native‑born job losses."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/09/trump-immigration-cost-social-security",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/09/trump-immigration-cost-social-security"
-        ],
-        "firstPublishedAt": "2026-10-09T12:00:28.000Z",
-        "lastObservedAt": "2026-10-09T18:47:28.069Z"
-      }
-    },
-    {
       "id": "news-ecc588528d6344dc70ad7f2f",
       "title": "AI 거버넌스·공학 교육 논의 확대 — 나델라의 '비상 브레이크' 주장과 윤리 교육 요구",
       "titleTranslations": {
@@ -1603,34 +1778,6 @@
       }
     },
     {
-      "id": "news-5a9a117643219a5e7ee4ba66",
-      "title": "NASA SPHEREx 망원경, 갈색왜성의 화학적으로 풍부한 대기 관측",
-      "titleTranslations": {
-        "en": "NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs"
-      },
-      "startAt": "2026-10-08T18:22:48.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 SPHEREx 망원경 관측을 통해 별과 외계행성의 중간에 위치한 갈색왜성들이 화학적으로 풍부한 대기를 지닌 것으로 나타났다고 전했다. 새로운 결과는 The Astrophysical Journal에 소개되었다.",
-      "descriptionTranslations": {
-        "en": "NASA reports that its SPHEREx telescope observations reveal brown dwarfs — objects between stars and planets — have chemically rich atmospheres. The new findings are presented in The Astrophysical Journal."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
-        ],
-        "firstPublishedAt": "2026-10-08T18:22:48.000Z",
-        "lastObservedAt": "2026-10-08T19:17:02.143Z"
-      }
-    },
-    {
       "id": "news-8c7682c88c8abe91c1ef4052",
       "title": "천문학자들, 지금까지 관측된 것 중 가장 먼 패스트 라디오 버스트(FRB) 검출",
       "titleTranslations": {
@@ -1686,66 +1833,6 @@
         ],
         "firstPublishedAt": "2026-10-08T17:52:35.000Z",
         "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
-      "id": "news-aba2301676c90bdcbb4e8634",
-      "title": "아마존, 1천번째 위성 완성…연말까지 우주 인터넷 서비스 롤아웃 예고",
-      "titleTranslations": {
-        "en": "Amazon builds 1,000th satellite, will launch space internet service by end of year"
-      },
-      "startAt": "2026-10-08T15:28:36.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Ars Technica는 아마존이 1,000번째 통신 위성을 조립했으며 연말까지 우주 기반 인터넷 서비스를 시작할 계획이라고 보도했다. 보도는 위성 네트워크 구축의 이정표라고 평가했다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports Amazon has completed its 1,000th satellite and plans to launch its space‑based internet service by the end of the year — a milestone in building its satellite network."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/"
-        ],
-        "firstPublishedAt": "2026-10-08T15:28:36.000Z",
-        "lastObservedAt": "2026-10-08T19:17:02.143Z"
-      }
-    },
-    {
-      "id": "news-560eca729a882f92e6b6dc69",
-      "title": "법정 제출된 내부 문서, 엑슨모빌의 기후 관련 오도 의혹을 뒷받침",
-      "titleTranslations": {
-        "en": "Internal files add to evidence of an ExxonMobil climate deception campaign"
-      },
-      "startAt": "2026-10-08T14:04:42.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Ars Technica는 소송 관련 법원 제출 자료가 수십 년간의 엑슨모빌 내부 기후 논의를 드러내며 회사의 기후 정보 전달 방식에 대한 추가 증거를 제공한다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports court filings have revealed new details of ExxonMobil's decades‑long internal deliberations on climate, adding to evidence of allegations the company misled the public about climate risks."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/"
-        ],
-        "firstPublishedAt": "2026-10-08T14:04:42.000Z",
-        "lastObservedAt": "2026-10-08T19:17:02.143Z"
       }
     },
     {
@@ -2113,34 +2200,6 @@
       }
     },
     {
-      "id": "news-ad970488ae153dfbda798dad",
-      "title": "NHS 10개 트러스트, 적외선 침실 감시 장비 사용 동의 문제로 조사 의뢰",
-      "titleTranslations": {
-        "en": "Ten NHS trusts referred over monitoring consent"
-      },
-      "startAt": "2026-10-06T05:42:35.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC는 병실·침실에서 호흡·맥박을 감시할 수 있는 적외선 기술의 사용과 관련해 영국의 10개 NHS 트러스트가 환자 동의 처리 문제로 외부 기관에 회부됐다고 보도했다. 보도는 기술의 민감한 감시 능력과 동의 절차의 중요성을 지적했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that ten NHS trusts have been referred over concerns about consent procedures for infrared monitoring technology used in patients' bedrooms, which can monitor breathing and pulse. Coverage highlights the sensitivity of such monitoring and the importance of consent processes."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxm234pzj952o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cxm234pzj952o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-06T05:42:35.000Z",
-        "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
       "id": "news-b0727b41ea43c89e987b89da",
       "title": "제2차세계대전 폭탄 제거의 예술 — 건설현장·마리나서의 고위험 해제 작전",
       "titleTranslations": {
@@ -2278,63 +2337,6 @@
         ],
         "firstPublishedAt": "2026-10-05T14:18:42.000Z",
         "lastObservedAt": "2026-10-05T21:12:03.775Z"
-      }
-    },
-    {
-      "id": "news-d939ffafa62f32b7af91104c",
-      "title": "BBC 뉴스 신임 국장에 레이첼 저프 임명 — 새 경영진 진용 완성",
-      "titleTranslations": {
-        "en": "Rachel Jupp is a bold choice for BBC News chief, says Katie Razzall"
-      },
-      "startAt": "2026-10-05T14:16:06.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 1,
-      "description": "BBC는 레이첼 저프가 BBC 뉴스의 새 국장으로 발탁되어 데보라 터니스 전 CEO의 사임 이후 뉴스 조직의 수장을 맡게 되었다고 보도했다. 보도는 저프의 전력과 이번 인사가 뉴스 이사진에 미칠 의미를 다뤘다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports Rachel Jupp has been named the new director of BBC News, succeeding Deborah Turness who resigned as CEO last year. Coverage discusses Jupp’s background and the implications for the news organisation."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqwy79l7d78yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqwy79l7d78yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-05T14:16:06.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.776Z"
-      }
-    },
-    {
-      "id": "news-542ffd715fa2a0ff7ec19751",
-      "title": "우이저, 세계 챔피언 등극 뒤 첫 랭킹 타이틀 획득",
-      "titleTranslations": {
-        "en": "Wu wins first ranking title since becoming world champion"
-      },
-      "startAt": "2026-10-04T15:42:24.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 1,
-      "description": "BBC는 우이저가 세계 챔피언이 된 이후 첫 랭킹 타이틀을 차지했으며, 이 결과로 중국 선수가 처음으로 세계 랭킹 1·2위를 점하게 됐다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "BBC reports that Wu Yize claimed his first ranking title since becoming world champion, and the result means China will have the top two players in the rankings for the first time."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/snooker/articles/cq4g1l0gxl44o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/snooker/articles/cm1exp2nj1y9o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/sport/snooker/articles/cq4g1l0gxl44o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-03T16:56:14.000Z",
-        "lastObservedAt": "2026-10-04T17:33:36.940Z"
       }
     },
     {
