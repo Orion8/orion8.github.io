@@ -342,7 +342,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 1,
+    "completedCount": 2,
     "collectionTotal": 75,
     "completed": [
       {
@@ -366,6 +366,29 @@
           "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/",
           "https://books.google.com/books/about/Being_You.html?id=arVCEAAAQBAJ",
           "https://www.anilseth.com/research/journals/"
+        ]
+      },
+      {
+        "sequence": 2,
+        "id": 50,
+        "title": "Thinking in Systems",
+        "koreanTitle": "시스템 사고",
+        "koreanImage": "thinking-in-systems-v3-integrated-ko.webp",
+        "englishImage": "thinking-in-systems-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": false,
+        "englishCardVerified": false,
+        "publicUrlsVerified": false,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "preparedOn": "2026-10-15",
+        "sourceNotes": "sources/thinking-in-systems-v3-integrated.md",
+        "sources": [
+          "https://www.chelseagreen.com/product/thinking-in-systems/",
+          "https://catdir.loc.gov/catdir/toc/ecip0825/2008035211.html",
+          "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+          "https://donellameadows.org/a-visual-approach-to-leverage-points/"
         ]
       }
     ]
