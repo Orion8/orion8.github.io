@@ -391,6 +391,28 @@
           "https://donellameadows.org/a-visual-approach-to-leverage-points/"
         ]
       }
-    ]
+    ],
+    "inProgress": {
+        "sequence": 3,
+        "id": 65,
+        "title": "The Beginning of Infinity",
+        "koreanTitle": "세상의 설명을 바꾸는 끝없는 지식",
+        "koreanImage": "beginning-of-infinity-v3-integrated-ko.webp",
+        "englishImage": "beginning-of-infinity-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": false,
+        "englishCardVerified": false,
+        "publicUrlsVerified": false,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "preparedOn": "2026-10-16",
+        "sourceNotes": "sources/beginning-of-infinity-v3-integrated.md",
+        "sources": [
+          "https://www.thebeginningofinfinity.com/book/excerpt/",
+          "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/",
+          "https://www.daviddeutsch.org.uk/videos/tedglobal-2005-transcript/"
+        ]
+      }
+    }
   }
-}
