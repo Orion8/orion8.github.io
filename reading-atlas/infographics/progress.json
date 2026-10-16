@@ -342,7 +342,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 2,
+    "completedCount": 3,
     "collectionTotal": 75,
     "completed": [
       {
@@ -390,9 +390,8 @@
           "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
           "https://donellameadows.org/a-visual-approach-to-leverage-points/"
         ]
-      }
-    ],
-    "inProgress": {
+      },
+      {
         "sequence": 3,
         "id": 65,
         "title": "The Beginning of Infinity",
@@ -401,12 +400,12 @@
         "englishImage": "beginning-of-infinity-v3-integrated-en.webp",
         "koreanComplete": true,
         "englishComplete": true,
-        "koreanCardVerified": false,
-        "englishCardVerified": false,
-        "publicUrlsVerified": false,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
         "mobileVerifiedAtWidth": 390,
         "dimensions": "2048x3072",
-        "preparedOn": "2026-10-16",
+        "completedOn": "2026-10-16",
         "sourceNotes": "sources/beginning-of-infinity-v3-integrated.md",
         "sources": [
           "https://www.thebeginningofinfinity.com/book/excerpt/",
@@ -414,5 +413,6 @@
           "https://www.daviddeutsch.org.uk/videos/tedglobal-2005-transcript/"
         ]
       }
-    }
+    ]
   }
+}
