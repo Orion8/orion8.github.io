@@ -214,135 +214,137 @@
       "sourceNotes": "sources/the-republic.md"
     }
   ],
-  "previousFormats": [{
-    "version": 2,
-    "name": "Bilingual self-contained illustrated anatomy",
-    "startedOn": "2026-10-14",
-    "completedCount": 4,
-    "collectionTotal": 75,
-    "completed": [
-      {
-        "sequence": 1,
-        "id": 40,
-        "title": "Being You",
-        "koreanTitle": "내가 된다는 것",
-        "koreanIllustrated": "being-you-v2-ko-illustrated.webp",
-        "englishIllustrated": "being-you-v2-en-illustrated.webp",
+  "previousFormats": [
+    {
+      "version": 2,
+      "name": "Bilingual self-contained illustrated anatomy",
+      "startedOn": "2026-10-14",
+      "completedCount": 4,
+      "collectionTotal": 75,
+      "completed": [
+        {
+          "sequence": 1,
+          "id": 40,
+          "title": "Being You",
+          "koreanTitle": "내가 된다는 것",
+          "koreanIllustrated": "being-you-v2-ko-illustrated.webp",
+          "englishIllustrated": "being-you-v2-en-illustrated.webp",
+          "koreanComplete": true,
+          "englishComplete": true,
+          "koreanCardVerified": true,
+          "englishCardVerified": true,
+          "mobileVerifiedAtWidth": 390,
+          "dimensions": "2048x3072",
+          "completedOn": "2026-10-14",
+          "sourceNotes": "sources/being-you-v2.md",
+          "sources": [
+            "https://www.anilseth.com/being-you/",
+            "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/",
+            "https://books.google.com/books/about/Being_You.html?id=arVCEAAAQBAJ",
+            "https://www.kriso.ee/being-you-new-science-consciousness-db-9781524742874.html",
+            "https://www.anilseth.com/research/chapters/",
+            "https://www.anilseth.com/research/journals/"
+          ]
+        },
+        {
+          "sequence": 2,
+          "id": 50,
+          "title": "Thinking in Systems",
+          "koreanTitle": "시스템 사고",
+          "koreanIllustrated": "thinking-in-systems-v2-ko-illustrated.webp",
+          "englishIllustrated": "thinking-in-systems-v2-en-illustrated.webp",
+          "koreanComplete": true,
+          "englishComplete": true,
+          "koreanCardVerified": true,
+          "englishCardVerified": true,
+          "mobileVerifiedAtWidth": 390,
+          "dimensions": "2048x3072",
+          "completedOn": "2026-10-14",
+          "sourceNotes": "sources/thinking-in-systems-v2.md",
+          "sources": [
+            "https://www.chelseagreen.com/product/thinking-in-systems/",
+            "https://catdir.loc.gov/catdir/toc/ecip0825/2008035211.html",
+            "https://donellameadows.org/systems-thinking-book-sale/",
+            "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/"
+          ]
+        },
+        {
+          "sequence": 3,
+          "id": 65,
+          "title": "The Beginning of Infinity",
+          "koreanTitle": "무한의 시작",
+          "koreanIllustrated": "beginning-of-infinity-v2-ko-illustrated.webp",
+          "englishIllustrated": "beginning-of-infinity-v2-en-illustrated.webp",
+          "koreanComplete": true,
+          "englishComplete": true,
+          "koreanCardVerified": true,
+          "englishCardVerified": true,
+          "mobileVerifiedAtWidth": 390,
+          "dimensions": "2048x3072",
+          "completedOn": "2026-10-14",
+          "sourceNotes": "sources/beginning-of-infinity-v2.md",
+          "sources": [
+            "https://www.thebeginningofinfinity.com/book/excerpt/",
+            "https://www.thebeginningofinfinity.com/book/excerpt/opening/",
+            "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/",
+            "https://www.daviddeutsch.org.uk/videos/tedglobal-2005-transcript/"
+          ]
+        },
+        {
+          "sequence": 4,
+          "id": 51,
+          "title": "Complexity: A Guided Tour",
+          "koreanTitle": "복잡성 안내서",
+          "koreanIllustrated": "complexity-a-guided-tour-v2-ko-illustrated.webp",
+          "englishIllustrated": "complexity-a-guided-tour-v2-en-illustrated.webp",
+          "koreanComplete": true,
+          "englishComplete": true,
+          "koreanCardVerified": true,
+          "englishCardVerified": true,
+          "mobileVerifiedAtWidth": 390,
+          "dimensions": "2048x3072",
+          "completedOn": "2026-10-15",
+          "sourceNotes": "sources/complexity-a-guided-tour-v2.md",
+          "sources": [
+            "https://academic.oup.com/book/51004",
+            "https://global.oup.com/academic/product/complexity-9780195124415",
+            "https://melaniemitchell.me/EssaysContent/MitchellBigQuestionsEssay.pdf",
+            "https://melaniemitchell.me/",
+            "https://melaniemitchell.me/ExplorationsContent/RobbyTheRobot/",
+            "https://catdir.loc.gov/catdir/toc/ecip0819/2008023794.html"
+          ]
+        }
+      ],
+      "inProgress": {
+        "sequence": 5,
+        "id": 45,
+        "title": "The Society of Mind",
+        "koreanTitle": "마음의 사회",
+        "status": "public-deployment-verification-pending",
+        "koreanIllustrated": "the-society-of-mind-v2-ko-illustrated.webp",
+        "englishIllustrated": "the-society-of-mind-v2-en-illustrated.webp",
         "koreanComplete": true,
         "englishComplete": true,
-        "koreanCardVerified": true,
-        "englishCardVerified": true,
+        "koreanCardVerified": false,
+        "englishCardVerified": false,
         "mobileVerifiedAtWidth": 390,
         "dimensions": "2048x3072",
-        "completedOn": "2026-10-14",
-        "sourceNotes": "sources/being-you-v2.md",
+        "preparedOn": "2026-10-15",
+        "sourceNotes": "sources/the-society-of-mind-v2.md",
         "sources": [
-          "https://www.anilseth.com/being-you/",
-          "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/",
-          "https://books.google.com/books/about/Being_You.html?id=arVCEAAAQBAJ",
-          "https://www.kriso.ee/being-you-new-science-consciousness-db-9781524742874.html",
-          "https://www.anilseth.com/research/chapters/",
-          "https://www.anilseth.com/research/journals/"
-        ]
-      },
-      {
-        "sequence": 2,
-        "id": 50,
-        "title": "Thinking in Systems",
-        "koreanTitle": "시스템 사고",
-        "koreanIllustrated": "thinking-in-systems-v2-ko-illustrated.webp",
-        "englishIllustrated": "thinking-in-systems-v2-en-illustrated.webp",
-        "koreanComplete": true,
-        "englishComplete": true,
-        "koreanCardVerified": true,
-        "englishCardVerified": true,
-        "mobileVerifiedAtWidth": 390,
-        "dimensions": "2048x3072",
-        "completedOn": "2026-10-14",
-        "sourceNotes": "sources/thinking-in-systems-v2.md",
-        "sources": [
-          "https://www.chelseagreen.com/product/thinking-in-systems/",
-          "https://catdir.loc.gov/catdir/toc/ecip0825/2008035211.html",
-          "https://donellameadows.org/systems-thinking-book-sale/",
-          "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/"
-        ]
-      },
-      {
-        "sequence": 3,
-        "id": 65,
-        "title": "The Beginning of Infinity",
-        "koreanTitle": "무한의 시작",
-        "koreanIllustrated": "beginning-of-infinity-v2-ko-illustrated.webp",
-        "englishIllustrated": "beginning-of-infinity-v2-en-illustrated.webp",
-        "koreanComplete": true,
-        "englishComplete": true,
-        "koreanCardVerified": true,
-        "englishCardVerified": true,
-        "mobileVerifiedAtWidth": 390,
-        "dimensions": "2048x3072",
-        "completedOn": "2026-10-14",
-        "sourceNotes": "sources/beginning-of-infinity-v2.md",
-        "sources": [
-          "https://www.thebeginningofinfinity.com/book/excerpt/",
-          "https://www.thebeginningofinfinity.com/book/excerpt/opening/",
-          "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/",
-          "https://www.daviddeutsch.org.uk/videos/tedglobal-2005-transcript/"
-        ]
-      },
-      {
-        "sequence": 4,
-        "id": 51,
-        "title": "Complexity: A Guided Tour",
-        "koreanTitle": "복잡성 안내서",
-        "koreanIllustrated": "complexity-a-guided-tour-v2-ko-illustrated.webp",
-        "englishIllustrated": "complexity-a-guided-tour-v2-en-illustrated.webp",
-        "koreanComplete": true,
-        "englishComplete": true,
-        "koreanCardVerified": true,
-        "englishCardVerified": true,
-        "mobileVerifiedAtWidth": 390,
-        "dimensions": "2048x3072",
-        "completedOn": "2026-10-15",
-        "sourceNotes": "sources/complexity-a-guided-tour-v2.md",
-        "sources": [
-          "https://academic.oup.com/book/51004",
-          "https://global.oup.com/academic/product/complexity-9780195124415",
-          "https://melaniemitchell.me/EssaysContent/MitchellBigQuestionsEssay.pdf",
-          "https://melaniemitchell.me/",
-          "https://melaniemitchell.me/ExplorationsContent/RobbyTheRobot/",
-          "https://catdir.loc.gov/catdir/toc/ecip0819/2008023794.html"
+          "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
+          "https://openlibrary.org/books/OL21593952M/The_society_of_mind",
+          "https://books.google.com/books/about/Society_Of_Mind.html?id=bLDLllfRpdkC",
+          "https://courses.csail.mit.edu/6.803/pdf/aim-516.pdf"
         ]
       }
-    ],
-    "inProgress": {
-      "sequence": 5,
-      "id": 45,
-      "title": "The Society of Mind",
-      "koreanTitle": "마음의 사회",
-      "status": "public-deployment-verification-pending",
-      "koreanIllustrated": "the-society-of-mind-v2-ko-illustrated.webp",
-      "englishIllustrated": "the-society-of-mind-v2-en-illustrated.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "2048x3072",
-      "preparedOn": "2026-10-15",
-      "sourceNotes": "sources/the-society-of-mind-v2.md",
-      "sources": [
-        "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
-        "https://openlibrary.org/books/OL21593952M/The_society_of_mind",
-        "https://books.google.com/books/about/Society_Of_Mind.html?id=bLDLllfRpdkC",
-        "https://courses.csail.mit.edu/6.803/pdf/aim-516.pdf"
-      ]
     }
-  }],
+  ],
   "integratedLayout": {
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 4,
+    "completedCount": 5,
     "collectionTotal": 75,
     "completed": [
       {
@@ -435,31 +437,42 @@
           "https://global.oup.com/academic/product/complexity-9780195124415",
           "https://melaniemitchell.me/"
         ]
+      },
+      {
+        "sequence": 5,
+        "id": 45,
+        "title": "The Society of Mind",
+        "koreanTitle": "마음의 사회",
+        "koreanImage": "the-society-of-mind-v3-integrated-ko.webp",
+        "englishImage": "the-society-of-mind-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "publicResponses": {
+          "korean": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 389312
+          },
+          "english": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 321784
+          }
+        },
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "completedOn": "2026-10-16",
+        "sourceNotes": "sources/the-society-of-mind-v3-integrated.md",
+        "sources": [
+          "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
+          "https://mitpressbookstore.mit.edu/book/9780671657130",
+          "https://courses.media.mit.edu/2016spring/mass63/wp-content/uploads/sites/40/2015/09/Society-of-Mind.pdf",
+          "https://www.yes24.com/Product/goods/69318285"
+        ]
       }
-    ],
-    "inProgress": {
-      "sequence": 5,
-      "id": 45,
-      "title": "The Society of Mind",
-      "koreanTitle": "마음의 사회",
-      "status": "assets-and-card-paths-prepared; public-deployment-verification-pending",
-      "koreanImage": "the-society-of-mind-v3-integrated-ko.webp",
-      "englishImage": "the-society-of-mind-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "2048x3072",
-      "preparedOn": "2026-10-16",
-      "sourceNotes": "sources/the-society-of-mind-v3-integrated.md",
-      "sources": [
-        "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
-        "https://mitpressbookstore.mit.edu/book/9780671657130",
-        "https://courses.media.mit.edu/2016spring/mass63/wp-content/uploads/sites/40/2015/09/Society-of-Mind.pdf",
-        "https://www.yes24.com/Product/goods/69318285"
-      ]
-    }
+    ]
   }
 }
