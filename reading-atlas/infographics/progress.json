@@ -413,6 +413,30 @@
           "https://www.daviddeutsch.org.uk/videos/tedglobal-2005-transcript/"
         ]
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 4,
+      "id": 51,
+      "title": "Complexity: A Guided Tour",
+      "koreanTitle": "복잡성 안내서",
+      "status": "assets-and-card-paths-prepared; public-deployment-verification-pending",
+      "koreanImage": "complexity-a-guided-tour-v3-integrated-ko.webp",
+      "englishImage": "complexity-a-guided-tour-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "2048x3072",
+      "preparedOn": "2026-10-16",
+      "sourceNotes": "sources/complexity-a-guided-tour-v3-integrated.md",
+      "sources": [
+        "https://academic.oup.com/book/51004",
+        "https://academic.oup.com/book/51004/chapter-abstract/422426600",
+        "https://global.oup.com/academic/product/complexity-9780195124415",
+        "https://melaniemitchell.me/"
+      ]
+    }
   }
 }
