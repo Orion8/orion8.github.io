@@ -1,8 +1,121 @@
 {
-  "catalogVersion": "0.0.166",
-  "updatedAt": "2026-10-15T17:45:31.321Z",
+  "catalogVersion": "0.0.167",
+  "updatedAt": "2026-10-16T05:49:07.046Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-74c88b1ab02bab05a987af83",
+      "title": "루비오, 레바논에 헤즈볼라 무장 회수 촉구 — 대통령은 국가 통제 의지 재확인",
+      "titleTranslations": {
+        "en": "Rubio presses Lebanon on confiscation of weapons from Hezbollah"
+      },
+      "startAt": "2026-10-16T05:28:29.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "미 상원 의원 마르코 루비오가 레바논에 헤즈볼라 무장 회수 조치를 촉구했다는 보도이다. 레바논 대통령은 모든 무기를 국가 통제하에 두겠다는 약속을 재확인했다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Senator Marco Rubio has pressed Lebanon to confiscate weapons held by Hezbollah, the coverage says. Lebanon’s president has reaffirmed a commitment to bring all arms under state control."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/16/rubio-presses-lebanon-on-confiscation-of-weapons-from-hezbollah?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/16/rubio-presses-lebanon-on-confiscation-of-weapons-from-hezbollah?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-16T05:28:29.000Z",
+        "lastObservedAt": "2026-10-16T05:49:07.046Z"
+      }
+    },
+    {
+      "id": "news-a06797f3d253aec3882ed218",
+      "title": "호르무즈 인근 선박 공격 보고 급증 — 원유 수출 지연 우려",
+      "titleTranslations": {
+        "en": "Ship attack reports near Hormuz reach record high as oil exports slow"
+      },
+      "startAt": "2026-10-16T05:00:17.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC의 해상안전기관 데이터 분석에서 최근 일주일간 12척의 선박이 공격을 받았다는 보고가 나왔다. 보도는 호르무즈 인근에서의 선박 공격이 기록적 수준으로 늘어나며 원유 수출 지연 등 해상 물류에 영향을 미치고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC analysis of data from a UK maritime agency shows 12 vessels were struck in a week. Coverage says ship attacks near the Strait of Hormuz have reached a record high and are slowing oil exports and affecting maritime logistics."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-16T05:00:17.000Z",
+        "lastObservedAt": "2026-10-16T05:49:07.046Z"
+      }
+    },
+    {
+      "id": "news-40218d857821681549eb8fcc",
+      "title": "중증 소아 감염 진단에 하루 내 결과 제공하는 메타게노믹 검사 보도",
+      "titleTranslations": {
+        "en": "Same‑day test helps doctors detect hidden infections in critically ill children"
+      },
+      "startAt": "2026-10-16T00:34:45.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 메타게노믹스 기반의 검사로 중환자실에 있는 어린 환자의 숨은 감염을 하루 내에 탐지할 수 있는 사례가 보고되었다. 보도는 이 접근법이 집중치료 환자 감염 진단에 새 길을 열 수 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC reports that metagenomic testing can help detect hidden infections in critically ill children within a single day. Coverage says the approach could open new diagnostic pathways for infections in intensive‑care patients."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw5yn83m8gypo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw5yn83m8gypo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-16T00:34:45.000Z",
+        "lastObservedAt": "2026-10-16T05:49:07.046Z"
+      }
+    },
+    {
+      "id": "news-9216e6cae5d0a88ae46315df",
+      "title": "NASA, JAXA의 MMX 임무에 참여해 화성 위성 탐사 지원 예정",
+      "titleTranslations": {
+        "en": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission"
+      },
+      "startAt": "2026-10-15T19:58:08.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA가 일본 JAXA의 MMX(Martian Moons eXploration) 임무에 협력해 포보스·데이모스의 기원 규명과 표본 회수를 돕는 역할을 한다고 발표했다. 보도는 MMX가 화성 위성의 특성 규명과 시료 반환을 목표로 한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "NASA says it will play an important role in JAXA’s MMX mission to characterize Mars’s moons Phobos and Deimos and to help return a sample to Earth. The coverage notes MMX aims to determine the moons’ origins and deliver a sample."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
+          "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/"
+        ],
+        "firstPublishedAt": "2026-10-13T12:00:00.000Z",
+        "lastObservedAt": "2026-10-16T05:49:07.046Z"
+      }
+    },
     {
       "id": "news-249fd8d9e74a7921bc415ffe",
       "title": "ISS 전력 증강을 위한 롤아웃 태양전지판 도입 — 우주정거장 전력 공급 향상",
@@ -178,20 +291,20 @@
     },
     {
       "id": "news-a41ce0e0a54c0b0683933deb",
-      "title": "중국 바오터우의 모나자이트 처리와 희토류 산업이 남긴 환경·방사능 문제 조명",
+      "title": "모나자이트 처리와 희토류 산업의 환경·방사능 유산에 대한 분석(IEEE)",
       "titleTranslations": {
         "en": "Report examines China’s monazite processing and its environmental legacy"
       },
-      "startAt": "2026-10-15T14:54:03.000Z",
+      "startAt": "2026-10-15T14:53:02.000Z",
       "lane": "world",
       "category": "scienceTechnology",
       "importance": 2,
-      "description": "IEEE 스펙트럼 기사는 내몽골 바오터우의 대규모 폐광저수지가 모나자이트 등 광물 처리로 인해 고독성 혼합물과 방사성 토륨을 포함하게 됐다고 전했다. 보도는 중국의 희토류·광물 처리 역사와 최근 환경·규제 변화도 다뤘다.",
+      "description": "IEEE 스펙트럼은 내몽골 바오터우의 대규모 폐광저수지와 모나자이트 처리로 인한 독성 혼합물·방사성 토륨 오염을 조명하며, 중국이 지배하는 희토류 시장과 환경·규제 문제를 분석했다.",
       "descriptionTranslations": {
-        "en": "An IEEE Spectrum piece highlights Baotou’s large tailings lake — polluted by decades of minerals processing — containing toxic chemicals and substantial radioactive thorium from monazite processing, and discusses China’s dominant role in rare‑earths industries and evolving environmental regulations."
+        "en": "IEEE Spectrum highlights Baotou’s large tailings lake polluted by decades of minerals processing and containing toxic chemicals and radioactive thorium from monazite processing, and examines China’s dominant role in rare‑earth markets and related environmental and regulatory issues."
       },
       "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/china-rare-earth-minerals",
+      "sourceUrl": "https://spectrum.ieee.org/monazite-rare-earth",
       "topicIds": [
         "technologyComputing",
         "semiconductor",
@@ -200,10 +313,11 @@
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://spectrum.ieee.org/china-rare-earth-minerals"
+          "https://spectrum.ieee.org/china-rare-earth-minerals",
+          "https://spectrum.ieee.org/monazite-rare-earth"
         ],
         "firstPublishedAt": "2026-10-15T14:54:03.000Z",
-        "lastObservedAt": "2026-10-15T17:45:31.321Z"
+        "lastObservedAt": "2026-10-16T05:49:07.046Z"
       }
     },
     {
@@ -232,6 +346,34 @@
         ],
         "firstPublishedAt": "2026-10-15T14:33:12.000Z",
         "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-5d99388c2160c13056d0d672",
+      "title": "美 의회, ‘에프스타인 연루’ 월가 경영진 책임 묻는 법안 발의",
+      "titleTranslations": {
+        "en": "US lawmakers unveil bill to hold Wall Street’s ‘Epstein‑connected’ bosses to account"
+      },
+      "startAt": "2026-10-15T13:30:11.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "미 의회 의원들이 월가의 ‘에프스타인과 연루된’ 경영진이 성범죄 자금 조달에 관여했을 경우 책임을 묻는 법안을 제시했다. 보도는 엘리자베스 워런 상원의원이 전 블랙리더의 연루 의혹과 관련한 은행의 대응을 비판했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "U.S. lawmakers have unveiled legislation intended to hold Wall Street executives who were connected to Jeffrey Epstein accountable if they helped finance his crimes. Coverage notes Senator Elizabeth Warren criticised banks — including questioning Barclays over its handling of ties to former executive Jes Staley."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/15/new-bill-wall-street-bosses-epstein-connections",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/15/new-bill-wall-street-bosses-epstein-connections"
+        ],
+        "firstPublishedAt": "2026-10-15T13:30:11.000Z",
+        "lastObservedAt": "2026-10-16T05:49:07.046Z"
       }
     },
     {
@@ -318,6 +460,34 @@
         ],
         "firstPublishedAt": "2026-10-15T08:00:25.000Z",
         "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-5d3c9cc9740eaf5381029cca",
+      "title": "폴란드, 공산주의 탈피 후 20대 경제권 진입 — 인재 유출 역전의 이야기",
+      "titleTranslations": {
+        "en": "Poland’s ascent from communist state to top 20 economy reverses the brain drain"
+      },
+      "startAt": "2026-10-15T05:56:12.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언은 폴란드가 공산주의 체제에서 벗어나며 상위 20위 내 경제로 성장하고, 임금 상승과 생활비 상승 속에서 고향에 남거나 복귀하는 인재들이 늘어나는 등 브레인드레인(인재 유출) 현상이 일부 역전되고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Poland has risen from its communist past to become a top‑20 economy, with rising wages and costs of living and signs that the country’s earlier brain‑drain is reversing as skilled people stay or return."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub"
+        ],
+        "firstPublishedAt": "2026-10-15T05:56:12.000Z",
+        "lastObservedAt": "2026-10-16T05:49:07.046Z"
       }
     },
     {
@@ -804,34 +974,6 @@
       }
     },
     {
-      "id": "news-9216e6cae5d0a88ae46315df",
-      "title": "JAXA 주도 MMX 화성 위성 달 탐사선, 10월 19일 발사 예정",
-      "titleTranslations": {
-        "en": "Mars moon lander set to launch on 19 October"
-      },
-      "startAt": "2026-10-13T12:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "일본 우주항공연구개발기구(JAXA) 주도의 MMX(Martian Moons eXploration) 임무가 10월 19일 다네가시마에서 H3 로켓으로 발사될 예정이다. MMX는 화성의 위성 포보스에서 표본을 채취해 지구로 가져오는 최초의 임무가 될 것이며 NASA, CNES, DLR, ESA가 협력한다.",
-      "descriptionTranslations": {
-        "en": "The JAXA‑led MMX (Martian Moons eXploration) mission is scheduled to launch on an H3 rocket from Tanegashima on 19 October. MMX aims to be the first mission to collect a sample from Mars’s moon Phobos and return it to Earth, in collaboration with NASA, CNES, DLR and ESA."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October"
-        ],
-        "firstPublishedAt": "2026-10-13T12:00:00.000Z",
-        "lastObservedAt": "2026-10-14T06:06:02.516Z"
-      }
-    },
-    {
       "id": "news-1697c0accd91f236677afa10",
       "title": "IMF로부터 본 영국 경제의 핵심 세 가지 — 성장 상향에도 불확실성 존재",
       "titleTranslations": {
@@ -1201,36 +1343,6 @@
       }
     },
     {
-      "id": "news-bd9080c07517bb4bf2927cef",
-      "title": "후티 공격 뒤 여러 국가, 사우디아라비아 여행 경고",
-      "titleTranslations": {
-        "en": "Countries warn against travel to Saudi Arabia following Houthi attacks"
-      },
-      "startAt": "2026-10-12T05:53:45.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미국·호주·캐나다·일본·한국·뉴질랜드 등 여러 나라가 예멘 후티의 리야드 공격 직후 자국민에게 사우디아라비아 여행을 자제하라고 권고했다고 알자지라가 보도했다. 이번 경고는 수도에 대한 연이은 공격과 지역적 긴장 고조에 따른 외교·안보적 반응의 하나로 전해진다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that the United States, Australia, Canada, Japan, South Korea and New Zealand have urged their citizens to avoid travel to Saudi Arabia following Houthi attacks on Riyadh. The travel advisories are part of international reactions to repeated strikes on the Saudi capital and rising regional tensions."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/economy/2026/10/12/countries-warn-against-travel-to-saudi-arabia-following-houthi-attacks?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss",
-          "https://www.aljazeera.com/economy/2026/10/12/countries-warn-against-travel-to-saudi-arabia-following-houthi-attacks?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-11T16:41:37.000Z",
-        "lastObservedAt": "2026-10-12T07:18:44.236Z"
-      }
-    },
-    {
       "id": "news-532401ef0fa9fb90e02e4018",
       "title": "가을 홍수 대비 경고 — 피해지역 주민들 준비 시작",
       "titleTranslations": {
@@ -1286,34 +1398,6 @@
         ],
         "firstPublishedAt": "2026-10-12T04:00:00.000Z",
         "lastObservedAt": "2026-10-12T07:18:44.237Z"
-      }
-    },
-    {
-      "id": "news-dc5714215dcf9e6ccfb3c005",
-      "title": "가자 전쟁의 '대학살' 서술이 이스라엘 선거에 영향",
-      "titleTranslations": {
-        "en": "How genocidal war on Gaza is shaping Israel’s election"
-      },
-      "startAt": "2026-10-11T05:35:09.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라 분석은 10월 7일 이후 촉발된 전쟁과 '대학살' 서술이 이스라엘 유권자들과 정당의 태도를 강화하며, 이번 선거가 변화를 요구하는 신호라기보다 대중적 군국주의·수사(라독성) 심화의 반영이라고 평가했다.",
-      "descriptionTranslations": {
-        "en": "An Al Jazeera analysis says the war since October 7 and the framing of events in Gaza as genocidal have hardened voter and party positions in Israel, arguing the election signals not a demand for change but a deepening of jingoistic rhetoric and attitudes."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news-analysis/2026/10/11/how-genocidal-war-on-gaza-is-shaping-israels-election?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news-analysis/2026/10/11/how-genocidal-war-on-gaza-is-shaping-israels-election?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-11T05:35:09.000Z",
-        "lastObservedAt": "2026-10-11T07:06:52.640Z"
       }
     },
     {
@@ -1489,34 +1573,6 @@
       }
     },
     {
-      "id": "news-953575e074a592cd50971cab",
-      "title": "트럼프, 연준 이사 리사 쿡 조사 위해 위원회 설치 발표",
-      "titleTranslations": {
-        "en": "Trump establishes committee to investigate Fed governor Lisa Cook"
-      },
-      "startAt": "2026-10-09T18:05:12.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "도널드 트럼프 대통령은 연준 이사 리사 쿡에 대한 모기지 사기 의혹을 조사하기 위해 위원회를 설치하겠다고 발표했다. 위원회는 법무부와 협의해 해임 사유가 있는지 판단하고, 11월 5일 비공개 청문회를 열되 기록을 전사·공개하겠다고 밝혔다. 쿡은 서면 진술 제출 기회를 갖게 된다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "President Donald Trump announced he is establishing a committee to investigate Federal Reserve governor Lisa Cook over allegations of mortgage fraud. The committee will consult with the Justice Department to decide whether there is cause for removal and will hold a closed hearing on 5 November that will be transcribed and published; Cook may submit a written statement, the coverage says."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor"
-        ],
-        "firstPublishedAt": "2026-10-09T18:05:12.000Z",
-        "lastObservedAt": "2026-10-10T07:00:09.796Z"
-      }
-    },
-    {
       "id": "news-b14be23d64c1650b0b5c0484",
       "title": "IEEE, AI 칩 설계 교육 프로그램 발표",
       "titleTranslations": {
@@ -1544,34 +1600,6 @@
         ],
         "firstPublishedAt": "2026-10-09T18:00:02.000Z",
         "lastObservedAt": "2026-10-11T07:06:52.641Z"
-      }
-    },
-    {
-      "id": "news-b85427f614ddb37d467c541d",
-      "title": "NASA, 재진입용 차세대 히트쉴드 기술 시연 — 소형 실험 캡슐 탑재 화물선 활용",
-      "titleTranslations": {
-        "en": "NASA demonstrates next‑generation heat‑shield technologies using experimental capsules flown on a cargo vehicle"
-      },
-      "startAt": "2026-10-09T16:59:24.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 국제우주정거장에서 분리된 노스롭 그루먼의 24번째 보급 임무가 12개의 소형 실험 캡슐을 탑재해 우주에서 재진입용 차세대 히트쉴드 기술을 시험했다고 밝혔다. 기관은 이 기술이 달·화성 임무의 귀환 시 우주비행사 보호에 기여할 것이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "NASA says that Northrop Grumman’s 24th cargo resupply mission undocked carrying 12 small experimental capsules designed to test next‑generation heat‑shield technologies, and that the agency demonstrated these technologies aimed at keeping astronauts safe on returns from Moon and Mars missions."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/"
-        ],
-        "firstPublishedAt": "2026-10-09T16:59:24.000Z",
-        "lastObservedAt": "2026-10-09T18:47:28.069Z"
       }
     },
     {
@@ -2144,34 +2172,6 @@
       }
     },
     {
-      "id": "news-a83108900f5757e78edc92b1",
-      "title": "흡연 경험 없는 영국 성인 100만명 이상 전자담배 사용 시작",
-      "titleTranslations": {
-        "en": "One million UK people who have never smoked are now vaping"
-      },
-      "startAt": "2026-10-06T10:09:28.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 흡연 경험이 없는 약 100만 명의 영국인이 전자담배를 사용하고 있으며, 16세 이상에서 전자담배 사용자가 담배 흡연자를 초과한 것이 2년 연속이라고 통계가 보여준다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that around one million people in the UK who have never smoked are now vaping, and that for a second consecutive year, more over‑16s vape than smoke."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwe8ldgzj277o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwe8ldgzj277o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-06T10:09:28.000Z",
-        "lastObservedAt": "2026-10-06T18:54:14.550Z"
-      }
-    },
-    {
       "id": "news-633a0a24e1ccf995b00bdd95",
       "title": "LIV 골프, 구조조정 탈피 위해 BC 파트너스 크레딧으로 잠재적 3억 달러 자금 확보",
       "titleTranslations": {
@@ -2197,34 +2197,6 @@
         ],
         "firstPublishedAt": "2026-10-06T07:02:33.000Z",
         "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
-      "id": "news-b0727b41ea43c89e987b89da",
-      "title": "제2차세계대전 폭탄 제거의 예술 — 건설현장·마리나서의 고위험 해제 작전",
-      "titleTranslations": {
-        "en": "‘It could knock a whole street down’: the art of defusing a second world war bomb"
-      },
-      "startAt": "2026-10-06T04:00:02.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 1,
-      "description": "가디언은 플리머스 공사현장과 엑스머스 마리나에서 발견된 제2차 세계대전 폭탄을 해체한 사례를 통해 현대 도시공사에서 여전히 발생하는 대규모 폭발물 제거 작업의 위험과 기술을 조명했다. 기사에서는 1월 14일 발생한 두 건을 중심으로 절차와 난관을 소개했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian profiles the risks and techniques of defusing Second World War bombs encountered in modern construction and marina work, focusing on two incidents on 14 January in Plymouth and Exmouth that illustrate the high‑risk procedures involved in urban bomb clearance."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb"
-        ],
-        "firstPublishedAt": "2026-10-06T04:00:02.000Z",
-        "lastObservedAt": "2026-10-08T07:18:14.887Z"
       }
     },
     {
