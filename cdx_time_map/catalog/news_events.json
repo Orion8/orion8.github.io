@@ -1,8 +1,66 @@
 {
-  "catalogVersion": "0.0.168",
-  "updatedAt": "2026-10-17T05:33:39.452Z",
+  "catalogVersion": "0.0.169",
+  "updatedAt": "2026-10-17T16:21:41.478Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-33216f8cfc71284845c2b752",
+      "title": "가정·공장용 전기모터에 가변주파수드라이브(VFD) 보급하면 수기가와트 확보 가능",
+      "titleTranslations": {
+        "en": "This hidden device — variable‑frequency drives — could free up gigawatts of grid power"
+      },
+      "startAt": "2026-10-17T13:00:02.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "IEEE 스펙트럼(원문 Canary Media 보도 인용)은 미국에서 팬·펌프·압축기를 돌리는 약 5천만 대의 전기모터가 전체 전력 수요의 거의 3분의 1에 해당하는 전력을 소비한다고 전했다. 모터에 가변주파수드라이브(VFD)를 설치하면 에너지 사용을 크게 줄일 수 있지만 채택률은 비교적 낮다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "IEEE Spectrum (citing Canary Media) reports that some 50 million electric motors in the U.S. — driving fans, pumps and compressors — consume nearly a third of total U.S. power demand. Installing variable‑frequency drives (VFDs) can make these motors far more efficient, but adoption remains relatively low, the coverage says."
+      },
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/variable-frequency-drives"
+        ],
+        "firstPublishedAt": "2026-10-17T13:00:02.000Z",
+        "lastObservedAt": "2026-10-17T16:21:41.477Z"
+      }
+    },
+    {
+      "id": "news-578ef30bdd4c92867ac25090",
+      "title": "미국 기업 로비단체들, EU 벌채 규제 약화·지연 시도 조사",
+      "titleTranslations": {
+        "en": "US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds"
+      },
+      "startAt": "2026-10-17T11:00:31.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "환경단체 Mighty Earth의 조사에 따르면 캐글, 번지, 몬델레즈 등 주요 미국 기업들과 무역단체들이 2년간 350건이 넘는 회의를 통해 EU 벌채규제(EUDR)를 연기하거나 약화시키려 시도한 정황이 드러났다고 보도되었다.",
+      "descriptionTranslations": {
+        "en": "An investigation by environmental watchdog Mighty Earth found that major US firms and trade associations — including Cargill, Bunge and Mondelēz — sought to influence the EU Deforestation Regulation over a two‑year effort, taking part in more than 350 meetings to delay or weaken the law, the coverage says."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/17/us-corporate-lobbyists-europe-deforestation",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/17/us-corporate-lobbyists-europe-deforestation"
+        ],
+        "firstPublishedAt": "2026-10-17T11:00:31.000Z",
+        "lastObservedAt": "2026-10-17T16:21:41.477Z"
+      }
+    },
     {
       "id": "news-b677fdedabaf44798b79a308",
       "title": "트럼프, 새 법 발효에 맞춰 대러 제재 조항 일부 면제",
@@ -88,6 +146,34 @@
       }
     },
     {
+      "id": "news-8a1b843b0022bd89883d4f1e",
+      "title": "힐리, 히드로 제3활주로에 대해 ‘성장론’으로 지지 입장 표명",
+      "titleTranslations": {
+        "en": "Healey backs pro‑growth case for Heathrow third runway after Burnham ducks issue"
+      },
+      "startAt": "2026-10-16T21:30:12.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언은 영국 재무장관 존 힐리가 히드로 제3활주로에 대해 '성장' 논리를 들어 진행 가능성을 시사했다고 전했다. 힐리는 공청회 응답을 검토하겠다고 밝히며 공항이 일자리와 성장의 중요한 부분이라고 언급했다(총리의 명확한 지지 표명은 없었다고 보도됨).",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that UK Chancellor John Healey said there is a pro‑growth case for proceeding with a third runway at Heathrow, stating the government will study responses to the public consultation and that airports are an important part of jobs and growth; the prime minister has not given clear backing, the coverage notes."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/16/healey-pro-growth-heathrow-third-runway-burnham",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/16/healey-pro-growth-heathrow-third-runway-burnham"
+        ],
+        "firstPublishedAt": "2026-10-16T21:30:12.000Z",
+        "lastObservedAt": "2026-10-17T16:21:41.477Z"
+      }
+    },
+    {
       "id": "news-16df95b107d5471097959026",
       "title": "OpenAI 모델들, 암호화폐 지갑 해킹·다수 웹사이트 침해에 이용돼",
       "titleTranslations": {
@@ -146,6 +232,34 @@
       }
     },
     {
+      "id": "news-f1315209d972f617ce6525a1",
+      "title": "런던 병원 해킹 연루 혐의 러시아인, 독일 경찰에 체포",
+      "titleTranslations": {
+        "en": "Russian man linked to deadly London hospitals hack arrested"
+      },
+      "startAt": "2026-10-16T15:31:33.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 독일 경찰이 28세의 러시아인을 체포했다고 전했다. 그는 2024년 혈액검사업체 신노비스(Synnovis)를 해킹한 사이버범죄 조직과 연루된 혐의를 받고 있다.",
+      "descriptionTranslations": {
+        "en": "BBC reports that German police have detained a 28‑year‑old Russian man accused of being part of the cyber‑crime gang that hacked blood‑test firm Synnovis in 2024, the coverage says."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-16T15:31:33.000Z",
+        "lastObservedAt": "2026-10-17T16:21:41.477Z"
+      }
+    },
+    {
       "id": "news-c5a54b88edbd17621f5afb2a",
       "title": "영국, 코로나 백신 피해 보상제도 인콰이어리 비판으로 개편 예고",
       "titleTranslations": {
@@ -171,6 +285,34 @@
         ],
         "firstPublishedAt": "2026-10-16T15:02:46.000Z",
         "lastObservedAt": "2026-10-17T05:33:39.452Z"
+      }
+    },
+    {
+      "id": "news-cf2a495483ffda4e6c906787",
+      "title": "미 유권자들, 기후 위기 대응 요구하지만 중간선거 후보들엔 침묵",
+      "titleTranslations": {
+        "en": "US voters want more action on global heating. Why are Democrats and Republicans staying silent?"
+      },
+      "startAt": "2026-10-16T15:00:04.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언 보도는 경쟁적 격전지 유권자 여론조사에서 유권자들이 기후위기에 대한 후보들의 정책을 더 듣기를 원하지만, 이번 중간선거 캠페인에서는 양당 후보들이 이에 관해 거의 발언하지 않고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that polls in battleground US states show voters want to hear more from candidates about the climate crisis, but that Democratic and Republican midterm campaigns have largely remained silent on the issue, the coverage says."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/16/midterms-voters-climate-crisis-candidates",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/16/midterms-voters-climate-crisis-candidates"
+        ],
+        "firstPublishedAt": "2026-10-16T15:00:04.000Z",
+        "lastObservedAt": "2026-10-17T16:21:41.477Z"
       }
     },
     {
@@ -284,6 +426,34 @@
         ],
         "firstPublishedAt": "2026-10-16T05:00:17.000Z",
         "lastObservedAt": "2026-10-16T05:49:07.046Z"
+      }
+    },
+    {
+      "id": "news-0c18af1d5bd3e9493f5ad203",
+      "title": "영국에서 복제 번호판 관련 보고·이의 제기 건수 역대 최고치 기록",
+      "titleTranslations": {
+        "en": "Number of cloned number plates on UK roads at record high, data shows"
+      },
+      "startAt": "2026-10-16T04:00:52.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언은 지난해 영국에서 1만1,400명 이상이 자신들이 범죄를 저지르지 않았다고 주장하며 DVLA에 이의를 제기했다고 보도했다. 보도는 대부분 사례가 카메라를 회피하기 위해 유사 차량에 번호판을 복제하는 '클로닝' 때문인 것으로 추정된다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that more than 11,400 drivers in the UK last year contacted the DVLA after being issued fines for offences they said they did not recognise; most such cases are believed to be due to number‑plate cloning, where plates are fraudulently copied onto similar vehicles to avoid enforcement cameras, the coverage says."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/16/cloned-number-plates-uk-roads-record-high",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/2026/oct/16/cloned-number-plates-uk-roads-record-high"
+        ],
+        "firstPublishedAt": "2026-10-16T04:00:52.000Z",
+        "lastObservedAt": "2026-10-17T16:21:41.478Z"
       }
     },
     {
@@ -1399,34 +1569,6 @@
       }
     },
     {
-      "id": "news-e6beb5e2739d057b871a6a5a",
-      "title": "노벨경제학상, 경기 '완화' 모델 연구로 로버트 홀·마이클 우드포드 수상",
-      "titleTranslations": {
-        "en": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises"
-      },
-      "startAt": "2026-10-12T14:20:53.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "2026년 노벨경제학상이 중앙은행과 재무장관이 경기 침체와 과도한 물가상승을 피해 경제를 안정화할 수 있도록 돕는 미시경제적 기반의 거시경제 안정화 모델을 개발한 공로로 로버트 홀과 마이클 우드포드에게 수여됐다.",
-      "descriptionTranslations": {
-        "en": "The 2026 Nobel Prize in Economics was awarded to Robert Hall and Michael Woodford for developing microeconomic foundations of macroeconomic stabilisation, providing models that help central banks and finance ministries smooth recessions and runaway inflation."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models"
-        ],
-        "firstPublishedAt": "2026-10-12T14:20:53.000Z",
-        "lastObservedAt": "2026-10-12T21:43:38.927Z"
-      }
-    },
-    {
       "id": "news-ce8a84563526ed426a3b00c8",
       "title": "‘슈퍼 엘니뇨’가 식량체계 위협 — 농가의 대비책 촉구",
       "titleTranslations": {
@@ -1717,34 +1859,6 @@
       }
     },
     {
-      "id": "news-42b4a00689d6e052568354f6",
-      "title": "ADHD·자폐·정신건강 검토보고서 발표 — NHS·복지·교육·고용에 교훈",
-      "titleTranslations": {
-        "en": "Autism, ADHD and mental health review: What you need to know"
-      },
-      "startAt": "2026-10-09T12:16:11.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "정부 검토는 NHS, 복지, 교육 및 고용 정책에 대한 중요한 교훈을 담고 있다고 보도됐다. 보고서는 진단·치료 접근 방식 전반에 걸친 시사점을 제기한다.",
-      "descriptionTranslations": {
-        "en": "A government review contains major lessons for the NHS, welfare, education and employment policies, the coverage says, raising implications for diagnostic and treatment approaches across systems."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crn8wyl4n42yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crn8wyl4n42yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-09T12:16:11.000Z",
-        "lastObservedAt": "2026-10-10T07:00:09.796Z"
-      }
-    },
-    {
       "id": "news-ecc588528d6344dc70ad7f2f",
       "title": "AI 거버넌스·공학 교육 논의 확대 — 나델라의 '비상 브레이크' 주장과 윤리 교육 요구",
       "titleTranslations": {
@@ -1803,64 +1917,6 @@
         ],
         "firstPublishedAt": "2026-10-09T10:54:21.000Z",
         "lastObservedAt": "2026-10-09T18:47:28.069Z"
-      }
-    },
-    {
-      "id": "news-94b5fb9a44e2cc35c4a6aef5",
-      "title": "버진, 2030년 런던∼유럽 횡단 직행 열차 모형 공개 — 유로스타에 도전장",
-      "titleTranslations": {
-        "en": "Virgin unveils its future cross‑Channel train as it gears up to take on Eurostar"
-      },
-      "startAt": "2026-10-09T06:00:39.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언은 버진 그룹이 2030년 런던발 유럽 직행 열차 서비스 출시에 맞춰 내부 모형을 공개하고, 항공·크루즈·호텔 사업의 디자인 요소를 철도에 접목해 유로스타와 경쟁하겠다는 계획을 발표했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports Virgin Group has unveiled a mock‑up of its planned cross‑Channel train as it prepares to launch London‑to‑continental services in 2030, aiming to compete with Eurostar by applying design and service ideas from its airline, cruise and hotel businesses."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/09/virgin-cross-channel-train-eurostar",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/09/virgin-cross-channel-train-eurostar"
-        ],
-        "firstPublishedAt": "2026-10-09T06:00:39.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
-      "id": "news-d39f5eac4fae4b4c94955b5f",
-      "title": "스페이스X, 스타링크 관련 근접 충돌 후 궤도 조정·조정 협력 강화 촉구",
-      "titleTranslations": {
-        "en": "SpaceX calls for better coordination in orbit after near‑misses with Starlink"
-      },
-      "startAt": "2026-10-08T21:37:32.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica는 스페이스X가 위성 간 또는 우주물체와의 근접 위험(수십~수백미터 수준의 접촉 가능성)을 보고하며 궤도 운영과 위성 조정에 대한 더 나은 국제적·산업적 협력을 촉구했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports SpaceX has described near‑misses — conjunctions measured in tens to hundreds of metres — involving Starlink satellites and has called for improved coordination in orbit among operators and regulators to reduce collision risk."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/"
-        ],
-        "firstPublishedAt": "2026-10-08T21:37:32.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
       }
     },
     {
@@ -1976,34 +2032,6 @@
       }
     },
     {
-      "id": "news-a6d379b967c52bdf822983b9",
-      "title": "런던~웨릭샴·로치데일 직행 열차 도입 계획 규제당국 거부",
-      "titleTranslations": {
-        "en": "New direct train services from London to Wrexham and Rochdale rejected"
-      },
-      "startAt": "2026-10-08T09:38:00.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언은 철도 규제기관(Office of Rail and Road)이 서부 회선의 혼잡으로 인해 런던에서 웨릭샴(Wrexham)과 로치데일(Rochdale)로 향하는 새로운 직행 노선 도입을 거부했다고 보도했다. 블랙풀 추가 서비스도 수용되지 않았다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports the Office of Rail and Road rejected plans to introduce direct services from London to Wrexham and Rochdale because of significant pressure and lack of capacity on the West Coast mainline; an extra Blackpool service was also vetoed."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/08/wrexham-rochdale-train-services-rejected-west-coast-line-blackpool-london",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/08/wrexham-rochdale-train-services-rejected-west-coast-line-blackpool-london"
-        ],
-        "firstPublishedAt": "2026-10-08T09:38:00.000Z",
-        "lastObservedAt": "2026-10-08T19:17:02.143Z"
-      }
-    },
-    {
       "id": "news-f433a319fc4cd0e6b12ccaeb",
       "title": "ESA 솔라 오비터, 태양 표면 기원의 자기 '스위치백' 추적 성공",
       "titleTranslations": {
@@ -2085,34 +2113,6 @@
         ],
         "firstPublishedAt": "2026-10-07T14:30:52.000Z",
         "lastObservedAt": "2026-10-07T19:19:57.939Z"
-      }
-    },
-    {
-      "id": "news-26dfc0024c6b91a0d2e2ff5f",
-      "title": "노스캐롤라이나 농장 노동자들, 폭염 노출로 건강 심각 악화 사례 보도",
-      "titleTranslations": {
-        "en": "Heatstroke ruined his health. Years before, it took the life of another farm worker at the same company"
-      },
-      "startAt": "2026-10-07T11:00:08.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언은 H‑2A 농업 비자를 가진 이주 노동자들이 고온·고습 작업 환경에 반복적으로 노출돼 열질환과 장기 건강 악화를 겪는 사례를 보도했다. 기사에는 골즈버로의 한 수박밭에서 오후 4시에 기온 약 90°F(32°C), 체감온도(heat index) 98.3°F였다는 사례가 소개됐다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that migrant farm workers on H‑2A visas have been repeatedly exposed to high heat and humidity, suffering heat‑related illness and long‑term health harms. The article cites a Goldsboro watermelon field where temperatures reached about 90°F (32°C) with a heat index of 98.3°F at 4pm."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/ng-interactive/2026/oct/07/north-carolina-farm-workers-disability-health-heat",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/ng-interactive/2026/oct/07/north-carolina-farm-workers-disability-health-heat"
-        ],
-        "firstPublishedAt": "2026-10-07T11:00:08.000Z",
-        "lastObservedAt": "2026-10-08T07:18:14.887Z"
       }
     },
     {
