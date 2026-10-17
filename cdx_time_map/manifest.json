@@ -8,6 +8,15 @@
     "description": "MomentAtlas — a spatial timeline for events.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
+    "share_target": {
+        "action": "./",
+        "method": "GET",
+        "params": {
+            "title": "sharedTitle",
+            "text": "sharedText",
+            "url": "sharedUrl"
+        }
+    },
     "icons": [
         {
             "src": "icons/Icon-192.png",
