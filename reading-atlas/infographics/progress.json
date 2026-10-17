@@ -508,6 +508,29 @@
           }
         }
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 7,
+      "id": 1,
+      "title": "On the Origin of Species",
+      "koreanTitle": "종의 기원",
+      "status": "assets-and-card-paths-prepared; public-deployment-verification-pending",
+      "koreanImage": "on-the-origin-of-species-v3-integrated-ko.webp",
+      "englishImage": "on-the-origin-of-species-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-17",
+      "sourceNotes": "sources/on-the-origin-of-species-v3-integrated.md",
+      "sources": [
+        "https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html",
+        "https://www.gutenberg.org/files/1228/1228-h/1228-h.htm",
+        "https://darwin-online.org.uk/"
+      ]
+    }
   }
 }
