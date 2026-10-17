@@ -541,6 +541,29 @@
           "https://www.gutenberg.org/files/1228/1228-h/1228-h.htm"
         ]
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 8,
+      "id": 2,
+      "title": "The Mathematical Theory of Communication",
+      "koreanTitle": "통신의 수학적 이론",
+      "koreanImage": "mathematical-theory-of-communication-v3-integrated-ko.webp",
+      "englishImage": "mathematical-theory-of-communication-v3-integrated-en.webp",
+      "status": "assets-and-card-paths-prepared; public-deployment-verification-pending",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-17",
+      "sourceNotes": "sources/mathematical-theory-of-communication-v3-integrated.md",
+      "sources": [
+        "https://www.press.uillinois.edu/books/?id=p725487",
+        "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+        "https://onlinelibrary.wiley.com/doi/10.1002/j.1538-7305.1948.tb01338.x"
+      ]
+    }
   }
 }
