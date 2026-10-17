@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 9,
+    "completedCount": 10,
     "collectionTotal": 75,
     "completed": [
       {
@@ -616,32 +616,48 @@
           }
         },
         "completedOn": "2026-10-17"
+      },
+      {
+        "sequence": 10,
+        "id": 4,
+        "title": "Philosophiæ Naturalis Principia Mathematica",
+        "englishTitle": "The Mathematical Principles of Natural Philosophy",
+        "koreanTitle": "프린키피아 — 자연철학의 수학적 원리",
+        "status": "completed-and-verified",
+        "koreanImage": "principia-mathematica-v3-integrated-ko.webp",
+        "englishImage": "principia-mathematica-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-17",
+        "sourceNotes": "sources/principia-mathematica-v3-integrated.md",
+        "sources": [
+          "https://www.ucpress.edu/books/the-principia-the-authoritative-translation-and-guide/paper",
+          "https://www.loc.gov/item/2021667054/",
+          "https://www.newtonproject.ox.ac.uk/view/texts/normalized/NATP00084",
+          "https://www.ucpress.edu/books/sir-isaac-newtons-mathematical-principles-of-natural-philosophy-and-his-system-of-the-world"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/principia-mathematica-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/principia-mathematica-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-17"
       }
-    ],
-    "inProgress": {
-      "sequence": 10,
-      "id": 4,
-      "title": "Philosophiæ Naturalis Principia Mathematica",
-      "englishTitle": "The Mathematical Principles of Natural Philosophy",
-      "koreanTitle": "프린키피아 — 자연철학의 수학적 원리",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "principia-mathematica-v3-integrated-ko.webp",
-      "englishImage": "principia-mathematica-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-17",
-      "sourceNotes": "sources/principia-mathematica-v3-integrated.md",
-      "sources": [
-        "https://www.ucpress.edu/books/the-principia-the-authoritative-translation-and-guide/paper",
-        "https://www.loc.gov/item/2021667054/",
-        "https://www.newtonproject.ox.ac.uk/view/texts/normalized/NATP00084",
-        "https://www.ucpress.edu/books/sir-isaac-newtons-mathematical-principles-of-natural-philosophy-and-his-system-of-the-world"
-      ]
-    }
+    ]
   }
 }
