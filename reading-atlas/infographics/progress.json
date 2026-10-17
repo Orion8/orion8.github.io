@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 5,
+    "completedCount": 6,
     "collectionTotal": 75,
     "completed": [
       {
@@ -472,29 +472,42 @@
           "https://courses.media.mit.edu/2016spring/mass63/wp-content/uploads/sites/40/2015/09/Society-of-Mind.pdf",
           "https://www.yes24.com/Product/goods/69318285"
         ]
+      },
+      {
+        "sequence": 6,
+        "id": 0,
+        "title": "Euclid's Elements",
+        "koreanTitle": "유클리드의 원론",
+        "koreanImage": "euclids-elements-v3-integrated-ko.webp",
+        "englishImage": "euclids-elements-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-17",
+        "sourceNotes": "sources/euclids-elements-v3-integrated.md",
+        "sources": [
+          "https://www.claymath.org/online-resources/euclids-elements/",
+          "https://math.clarku.edu/~djoyce/java/elements/toc.html",
+          "https://mathcs.clarku.edu/~DJoyce/java/elements/elements.html"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "completedOn": "2026-10-17",
+        "publicResponses": {
+          "korean": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 116902
+          },
+          "english": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 122688
+          }
+        }
       }
-    ],
-    "inProgress": {
-      "sequence": 6,
-      "id": 0,
-      "title": "Euclid's Elements",
-      "koreanTitle": "유클리드의 원론",
-      "koreanImage": "euclids-elements-v3-integrated-ko.webp",
-      "englishImage": "euclids-elements-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-17",
-      "status": "assets-published; card-and-public-url-verification-pending",
-      "sourceNotes": "sources/euclids-elements-v3-integrated.md",
-      "sources": [
-        "https://www.claymath.org/online-resources/euclids-elements/",
-        "https://math.clarku.edu/~djoyce/java/elements/toc.html",
-        "https://mathcs.clarku.edu/~DJoyce/java/elements/elements.html"
-      ]
-    }
+    ]
   }
 }
