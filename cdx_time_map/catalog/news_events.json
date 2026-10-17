@@ -1,8 +1,235 @@
 {
-  "catalogVersion": "0.0.167",
-  "updatedAt": "2026-10-16T05:49:07.046Z",
+  "catalogVersion": "0.0.168",
+  "updatedAt": "2026-10-17T05:33:39.452Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-b677fdedabaf44798b79a308",
+      "title": "트럼프, 새 법 발효에 맞춰 대러 제재 조항 일부 면제",
+      "titleTranslations": {
+        "en": "Trump waives several Russia sanctions as new US law takes effect"
+      },
+      "startAt": "2026-10-17T05:02:50.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "도널드 트럼프 미국 대통령은 우크라이나 전쟁을 처벌하려는 새 법의 일부 조항이 미국의 국가 이익에 반한다고 주장하며 여러 대러(對러시아) 제재 권한을 면제했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "President Donald Trump said parts of a new US law aimed at punishing Moscow for its war in Ukraine were against US national interests and waived several Russia‑related sanctions provisions."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-17T05:02:50.000Z",
+        "lastObservedAt": "2026-10-17T05:33:39.452Z"
+      }
+    },
+    {
+      "id": "news-a1365c50f71f1cd7c301b03d",
+      "title": "브라질, 대선 앞두고 아마존 벌채 사상 최대 폭 감소 보고",
+      "titleTranslations": {
+        "en": "Brazil sees record fall in Amazon deforestation as key election looms"
+      },
+      "startAt": "2026-10-17T02:33:09.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "선거를 앞둔 브라질에서 아마존 열대우림 벌채가 기록적인 수준으로 감소한 것으로 보도됐다. 아마존은 기후변화 완화에 중요한 완충 지대이며, 이전에는 자이르 보우소나루 전 대통령 재임 기간에 벌채가 확대된 바 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say deforestation in the Amazon has fallen to a record low ahead of a key election in Brazil. The Amazon is an important buffer against climate change, and deforestation had expanded under former president Jair Bolsonaro."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-17T02:33:09.000Z",
+        "lastObservedAt": "2026-10-17T05:33:39.452Z"
+      }
+    },
+    {
+      "id": "news-044b4bea2d1a4758f81a6614",
+      "title": "교황, 수술·폐암 진단 이후 첫 공개 사진 공개",
+      "titleTranslations": {
+        "en": "Pope pictured for first time since surgery and cancer diagnosis"
+      },
+      "startAt": "2026-10-16T23:20:37.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "로마의 제멜리 병원에서 수술을 받은 후 폐암 진단을 받은 것으로 알려진 교황이 수술과 진단 이후 처음으로 공개된 사진에 등장했다는 보도가 나왔다.",
+      "descriptionTranslations": {
+        "en": "The Pope, who underwent surgery at Rome's Gemelli Hospital and was diagnosed with lung cancer, has been pictured for the first time since the operation and diagnosis, according to reports."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-16T23:20:37.000Z",
+        "lastObservedAt": "2026-10-17T05:33:39.452Z"
+      }
+    },
+    {
+      "id": "news-16df95b107d5471097959026",
+      "title": "OpenAI 모델들, 암호화폐 지갑 해킹·다수 웹사이트 침해에 이용돼",
+      "titleTranslations": {
+        "en": "OpenAI models hacked a crypto wallet and breached more websites"
+      },
+      "startAt": "2026-10-16T20:59:01.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Ars Technica 보도에 따르면 악성 행위자가 OpenAI 모델을 악용해 암호화폐 지갑을 해킹하고 여러 웹사이트를 침해하는 등의 행동을 수행했다. 이러한 자동화된 행위는 사람이 직접 수행했을 경우 형사 처벌에 해당할 수 있는 수준의 활동을 초래할 수 있었다고 전한다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that attackers abused OpenAI models to hack a crypto wallet and breach multiple websites. The actions could have amounted to criminal acts if carried out by humans, illustrating new security risks from model misuse."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+        ],
+        "firstPublishedAt": "2026-10-16T20:59:01.000Z",
+        "lastObservedAt": "2026-10-17T05:33:39.452Z"
+      }
+    },
+    {
+      "id": "news-f899e30222bf644bedc9f6c9",
+      "title": "아르테미스 II 착수 검증: 오리온 열차폐, 대기권 재진입시 승무원·시스템 보호 확인",
+      "titleTranslations": {
+        "en": "Artemis II heat shield analysis after splashdown confirms thermal protection"
+      },
+      "startAt": "2026-10-16T16:28:01.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 아르테미스 II 임무가 대기권 재진입한 뒤 오리온 우주선의 열차폐(히트실드)가 승무원과 우주선 시스템을 효과적으로 보호했는지에 대한 측정을 진행했고, 초기 분석이 이를 확인했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "NASA reported that after the Artemis II splashdown it measured whether the Orion spacecraft’s heat shield effectively protected the crew and systems during reentry, and initial analysis confirmed the thermal protection worked as intended."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/"
+        ],
+        "firstPublishedAt": "2026-10-16T16:28:01.000Z",
+        "lastObservedAt": "2026-10-17T05:33:39.452Z"
+      }
+    },
+    {
+      "id": "news-c5a54b88edbd17621f5afb2a",
+      "title": "영국, 코로나 백신 피해 보상제도 인콰이어리 비판으로 개편 예고",
+      "titleTranslations": {
+        "en": "Covid vaccine compensation scheme set for overhaul after Inquiry criticism"
+      },
+      "startAt": "2026-10-16T15:02:46.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "영국 정부는 코로나19 백신으로 인한 피해자와 유족에게 재정적 지원을 제공하는 보상제도가 인콰이어리(조사)의 비판을 받아 개편될 예정이라고 발표했다.",
+      "descriptionTranslations": {
+        "en": "Ministers in the UK have pledged to reform the Covid‑vaccine compensation scheme — which provides financial support to those injured or bereaved by vaccines — following criticism from an Inquiry."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3pwgqd4gz9xo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c3pwgqd4gz9xo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-16T15:02:46.000Z",
+        "lastObservedAt": "2026-10-17T05:33:39.452Z"
+      }
+    },
+    {
+      "id": "news-5c5071e769ff6f37fa743af7",
+      "title": "런던 로보택시 확대에 규제·노동자 우려 확산 — 기존 맨체스터 시범과 관련된 업데이트",
+      "titleTranslations": {
+        "en": "Calls grow to limit London rollout of robotaxis amid regulatory and driver concerns"
+      },
+      "startAt": "2026-10-16T11:00:46.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 런던에서 로보택시 서비스가 9월 첫 운행을 시작한 이후 운전기사들의 생계 우려와 도시 정치인들의 규제 권한 요구가 커지며 시범사업 확산을 제한하라는 목소리가 커지고 있다. 우버 드라이버들은 반발과 시위를 계획하고 있으며, 등록·허가 권한을 둘러싼 논쟁이 진행 중이다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that after initial robotaxi services began in London, concerns from drivers and city politicians have grown. Uber drivers plan protests and call for limits, while politicians demand Transport for London should have licensing power — intensifying debate over expanding autonomous taxis. (Update related to earlier Manchester trial coverage.)"
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/16/london-driverless-robotaxis-uber-drivers-wayve-tfl-licences",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/oct/14/uber-self-driving-robotaxi-trial-manchester",
+          "https://www.theguardian.com/uk-news/2026/oct/16/london-driverless-robotaxis-uber-drivers-wayve-tfl-licences"
+        ],
+        "firstPublishedAt": "2026-10-14T13:11:35.000Z",
+        "lastObservedAt": "2026-10-17T05:33:39.452Z"
+      }
+    },
+    {
+      "id": "news-1f1ce6b603bd537e755078bd",
+      "title": "VW·Ford·Tesla 배터리 공급망, 인도네시아 토착림 파괴와 연결",
+      "titleTranslations": {
+        "en": "Revealed: VW, Ford and Tesla batteries linked to destructive deforestation of indigenous lands"
+      },
+      "startAt": "2026-10-16T07:00:56.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언 분석에 따르면 폭스바겐·포드·테슬라 등 서구 완성차업체의 배터리 공급망에 포함된 니켈 광산이 인도네시아 술라웨시의 톨라키(Tolaki) 원주민 숲에서 광범위한 원시림 벌채와 연결된 것으로 드러났다. 니켈은 전기차 배터리의 에너지 밀도와 주행거리를 높이는 재료로 널리 사용된다.",
+      "descriptionTranslations": {
+        "en": "A Guardian analysis found that mines in the battery supply chains of automakers including Volkswagen, Ford and Tesla are linked to widespread deforestation of primary rainforest in Sulawesi, Indonesia — lands inhabited by the Tolaki people. Nickel, used in battery cathodes, boosts energy density and range."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/16/vw-ford-tesla-batteries-deforestation-indigenous-lands",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/16/vw-ford-tesla-batteries-deforestation-indigenous-lands"
+        ],
+        "firstPublishedAt": "2026-10-16T07:00:56.000Z",
+        "lastObservedAt": "2026-10-17T05:33:39.452Z"
+      }
+    },
     {
       "id": "news-74c88b1ab02bab05a987af83",
       "title": "루비오, 레바논에 헤즈볼라 무장 회수 촉구 — 대통령은 국가 통제 의지 재확인",
@@ -661,34 +888,6 @@
       }
     },
     {
-      "id": "news-5c5071e769ff6f37fa743af7",
-      "title": "우버, 맨체스터에서 자율주행 로보택시 시험 운행 시작",
-      "titleTranslations": {
-        "en": "Uber begins self‑driving robotaxi trial in Manchester"
-      },
-      "startAt": "2026-10-14T13:11:35.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "우버는 파트너사인 폰니(Pony)와 버른(Verne) 기술을 활용해 영국 맨체스터에서 자율주행 차량 시험 운영을 시작했다고 밝혔다. 회사는 이번 조처를 영국 내 로보택시 확대를 위한 첫 단계라고 설명했다.",
-      "descriptionTranslations": {
-        "en": "Uber has started trial operations of autonomous vehicles on the streets of Manchester using technology from partners Pony and Verne. The company describes the move as a first step toward rolling out robotaxis more broadly across UK cities."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/14/uber-self-driving-robotaxi-trial-manchester",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/oct/14/uber-self-driving-robotaxi-trial-manchester"
-        ],
-        "firstPublishedAt": "2026-10-14T13:11:35.000Z",
-        "lastObservedAt": "2026-10-14T17:59:18.189Z"
-      }
-    },
-    {
       "id": "news-1429e29f28cf5f2d4fd3d0c5",
       "title": "뱅크오브아메리카, 자금세탁 적발·보고 실패로 12억 달러 규제 벌금",
       "titleTranslations": {
@@ -1200,35 +1399,6 @@
       }
     },
     {
-      "id": "news-caef46f177037f13a08f734d",
-      "title": "인도 야당, 유권자 명부 개정에 항의하며 대법원으로 행진",
-      "titleTranslations": {
-        "en": "India's opposition parties march to top court as protests over voter lists escalate"
-      },
-      "startAt": "2026-10-12T16:01:54.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "야당들은 유권자 명부 개정이 현 총리의 당에 유리하게 작용한다며 대법원 행진을 벌였다. 보도에 따르면 당국은 유권자 명부에서 1억3천만명 이상을 삭제했다.",
-      "descriptionTranslations": {
-        "en": "Opposition parties in India marched to the top court protesting revisions to the voter rolls, saying changes favour the prime minister’s party. Reports say over 130 million names have been removed from the voter list."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests"
-        ],
-        "firstPublishedAt": "2026-10-12T16:01:54.000Z",
-        "lastObservedAt": "2026-10-12T21:43:38.927Z"
-      }
-    },
-    {
       "id": "news-e6beb5e2739d057b871a6a5a",
       "title": "노벨경제학상, 경기 '완화' 모델 연구로 로버트 홀·마이클 우드포드 수상",
       "titleTranslations": {
@@ -1459,34 +1629,6 @@
       }
     },
     {
-      "id": "news-19f7d088c06dfd2943e719db",
-      "title": "전미자동차노조(UAW) 회장 션 페인 압도적 재선",
-      "titleTranslations": {
-        "en": "United Auto Workers president Shawn Fain easily wins re-election"
-      },
-      "startAt": "2026-10-10T13:46:49.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 션 페인은 부패·선거 개입 의혹이 제기된 가운데서도 경선에서 결선 상대 리치 보이어를 크게 제치고 재선에 성공했다. 우편투표로 진행된 이번 선거는 4년 임기의 노조 지도부 선출 절차의 일부였다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports Shawn Fain has been re‑elected as president of the United Auto Workers, decisively defeating challenger Rich Boyer despite a campaign marred by accusations of corruption and election interference. The union leadership vote was conducted by mail and fills a four‑year term."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/10/uaw-president-shawn-fain-wins-re-election",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/10/uaw-president-shawn-fain-wins-re-election"
-        ],
-        "firstPublishedAt": "2026-10-10T13:46:49.000Z",
-        "lastObservedAt": "2026-10-11T07:06:52.641Z"
-      }
-    },
-    {
       "id": "news-e534b54b109b9aa796181514",
       "title": "허리케인 이사이아스, 미 걸프 연안 상륙 — 수백만 대피·카테고리 2 상륙",
       "titleTranslations": {
@@ -1542,34 +1684,6 @@
         ],
         "firstPublishedAt": "2026-10-09T22:04:07.000Z",
         "lastObservedAt": "2026-10-10T17:49:54.355Z"
-      }
-    },
-    {
-      "id": "news-a4106c4b8a33ca378d9f3f2b",
-      "title": "NASA, 차세대 상업용 우주정거장 계획 제출 위한 최종 제안요청서(RFP) 발표",
-      "titleTranslations": {
-        "en": "NASA releases final Request for Proposals seeking industry plans for next‑generation commercial space stations"
-      },
-      "startAt": "2026-10-09T18:11:44.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "NASA는 저궤도에서 상업용 우주정거장이 주도하는 미래를 향해 미국의 우주 리더십을 진전시키기 위해 업계에 차세대 상업용 우주정거장 계획 제출을 요청하는 최종 RFP를 공개했다고 밝혔다(보도자료).",
-      "descriptionTranslations": {
-        "en": "NASA announced it has issued a final Request for Proposals inviting industry to submit plans for the next generation of commercial space stations, advancing US leadership in low Earth orbit, according to the agency's announcement."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/"
-        ],
-        "firstPublishedAt": "2026-10-09T18:11:44.000Z",
-        "lastObservedAt": "2026-10-09T18:47:28.069Z"
       }
     },
     {
@@ -1720,34 +1834,6 @@
       }
     },
     {
-      "id": "news-80d942c554d1a4cea680659e",
-      "title": "정부 검토위, ADHD·자폐에 대해 과잉진단 위험 경고",
-      "titleTranslations": {
-        "en": "Government review warns of risk of over‑diagnosis of ADHD and autism"
-      },
-      "startAt": "2026-10-08T23:01:30.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 정부 검토는 어린 연령층을 중심으로 ADHD와 자폐 스펙트럼 장애에 대한 진단이 과거의 과소진단 시대에서 과잉진단 쪽으로 기울 위험이 있다고 경고했다. 검토는 진단 및 처치 접근 방식의 재평가 필요성을 제기했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports a government review warns there is a risk that diagnoses of ADHD and autism — particularly among younger people — may be shifting from past under‑diagnosis toward over‑diagnosis, calling for reassessment of diagnostic and treatment approaches."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crkg7n1ypj24o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crkg7n1ypj24o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-08T23:01:30.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
       "id": "news-d39f5eac4fae4b4c94955b5f",
       "title": "스페이스X, 스타링크 관련 근접 충돌 후 궤도 조정·조정 협력 강화 촉구",
       "titleTranslations": {
@@ -1802,36 +1888,6 @@
           "https://www.bbc.co.uk/news/articles/cj3vqr5rknpeo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-08T20:38:11.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
-      "id": "news-8c7682c88c8abe91c1ef4052",
-      "title": "천문학자들, 지금까지 관측된 것 중 가장 먼 패스트 라디오 버스트(FRB) 검출",
-      "titleTranslations": {
-        "en": "Astronomers detect one of the most distant fast radio bursts ever recorded"
-      },
-      "startAt": "2026-10-08T18:00:25.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "가디언 과학 보도는 천문학자들이 100억년 이상 전의 은하에서 방출된 강렬한 전파 섬광을 검출해, 지금까지 기록된 것 중 가장 먼 패스트 라디오 버스트(FRB)로 보인다고 전했다. 관측은 우주의 긴 역사를 통과한 신호를 포착한 것으로 평가된다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports astronomers have detected an intense flash of radio waves from a galaxy more than 10 billion years away, representing one of the most distant fast radio bursts (FRBs) yet recorded and providing a probe of much of cosmic history."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/oct/09/astronomy-fast-radio-bursts-frb-radio-waves",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/oct/09/astronomy-fast-radio-bursts-frb-radio-waves"
-        ],
-        "firstPublishedAt": "2026-10-08T18:00:25.000Z",
         "lastObservedAt": "2026-10-09T07:22:01.130Z"
       }
     },
@@ -2057,34 +2113,6 @@
         ],
         "firstPublishedAt": "2026-10-07T11:00:08.000Z",
         "lastObservedAt": "2026-10-08T07:18:14.887Z"
-      }
-    },
-    {
-      "id": "news-8c125dd1867aa0b89e004d82",
-      "title": "새 글로벌 지침: 10세 미만 어린이에게 비만 약물 사용 권고하지 말라",
-      "titleTranslations": {
-        "en": "New global guidelines advise against obesity drugs for children under 10"
-      },
-      "startAt": "2026-10-07T08:07:54.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "세계보건기구(WHO)의 새 지침은 10세 미만 아동에 대한 비만 약물(예: 체중 감량 주사) 사용을 권고하지 않으며, 돌봄과 치료는 건강한 식습관과 운동 등 생활양식 중심으로 해야 한다고 권고했다.",
-      "descriptionTranslations": {
-        "en": "New global guidelines from the World Health Organization advise against the use of obesity drugs for children under 10. Care should focus on healthy eating and exercise rather than medicines such as weight‑loss injections."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crvg904yw397o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crvg904yw397o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-07T08:07:54.000Z",
-        "lastObservedAt": "2026-10-07T19:19:57.939Z"
       }
     },
     {
@@ -2545,34 +2573,6 @@
         ],
         "firstPublishedAt": "2026-09-26T16:55:37.000Z",
         "lastObservedAt": "2026-09-26T17:07:46.088Z"
-      }
-    },
-    {
-      "id": "news-07adcb70e5ace7bdf167b56b",
-      "title": "북극 해빙, 2026년 연중 최저면적 도달 — 위성기록과 동률",
-      "titleTranslations": {
-        "en": "Arctic sea ice reaches its 2026 annual minimum extent"
-      },
-      "startAt": "2026-09-23T17:15:32.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "NASA와 NSIDC는 9월 12일 북극 해빙이 연중 최저 면적에 도달했으며, 추정 면적은 약 460만 제곱킬로미터(약 178만 제곱마일)로 위성 기록상 2008·2010·2025년과 동률인 10번째 최저치를 기록했다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "NASA and the National Snow and Ice Data Center reported that Arctic sea ice reached its annual minimum on Sept. 12, covering an estimated 4.6 million km² (1.78 million sq mi), tying 2008, 2010, and 2025 for the 10th‑lowest minimum in the satellite record."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/"
-        ],
-        "firstPublishedAt": "2026-09-23T17:15:32.000Z",
-        "lastObservedAt": "2026-09-23T17:50:38.833Z"
       }
     }
   ]
