@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 8,
+    "completedCount": 9,
     "collectionTotal": 75,
     "completed": [
       {
@@ -576,31 +576,47 @@
           }
         },
         "completedOn": "2026-10-17"
+      },
+      {
+        "sequence": 9,
+        "id": 3,
+        "title": "論語",
+        "englishTitle": "The Analects",
+        "koreanTitle": "논어",
+        "koreanImage": "analects-v3-integrated-ko.webp",
+        "englishImage": "analects-v3-integrated-en.webp",
+        "status": "completed-and-verified",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-17",
+        "sourceNotes": "sources/analects-v3-integrated.md",
+        "sources": [
+          "https://plato.stanford.edu/entries/confucius/",
+          "https://cup.columbia.edu/book/the-analects-of-confucius/9780231511995/",
+          "https://www.loc.gov/item/2021666313"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/analects-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/analects-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-17"
       }
-    ],
-    "inProgress": {
-      "sequence": 9,
-      "id": 3,
-      "title": "論語",
-      "englishTitle": "The Analects",
-      "koreanTitle": "논어",
-      "koreanImage": "analects-v3-integrated-ko.webp",
-      "englishImage": "analects-v3-integrated-en.webp",
-      "status": "assets-and-card-paths-prepared; public-deployment-verification-pending",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-17",
-      "sourceNotes": "sources/analects-v3-integrated.md",
-      "sources": [
-        "https://plato.stanford.edu/entries/confucius/",
-        "https://cup.columbia.edu/book/the-analects-of-confucius/9780231511995/",
-        "https://www.loc.gov/item/2021666313"
-      ]
-    }
+    ]
   }
 }
