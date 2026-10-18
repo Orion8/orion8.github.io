@@ -1,4 +1,4 @@
-import{g as e}from"./index-Dutv6lk6.js";import{a as t,i as ee,n as te,o as ne,r as re,s as ie,t as ae}from"./pbrBRDFFunctions-Dw0UnVKu.js";import{t as oe}from"./helperFunctions-CWTt0F2e.js";var n=`objectIdFunctions`,se=`highp vec4 encodeObjectId(highp float objectId) {
+import{g as e}from"./index-CLjIvhI2.js";import{a as t,i as ee,n as te,o as ne,r as re,s as ie,t as ae}from"./pbrBRDFFunctions-Cx5PTJOd.js";import{t as oe}from"./helperFunctions-CFFDThct.js";var n=`objectIdFunctions`,se=`highp vec4 encodeObjectId(highp float objectId) {
 #ifdef PREPASS_OBJECT_ID_R8
 return vec4(objectId/255.0,0.0,0.0,1.0);
 #else

@@ -1,4 +1,4 @@
-import{g as e}from"./index-Dutv6lk6.js";import{a as t,i as ee,n as te,o as ne,r as re,s as ie,t as ae}from"./pbrBRDFFunctions-Dw0UnVKu.js";import{t as oe}from"./helperFunctions-CWTt0F2e.js";var n=`decalVertexDeclaration`,se=`#ifdef DECAL
+import{g as e}from"./index-CLjIvhI2.js";import{a as t,i as ee,n as te,o as ne,r as re,s as ie,t as ae}from"./pbrBRDFFunctions-Cx5PTJOd.js";import{t as oe}from"./helperFunctions-CFFDThct.js";var n=`decalVertexDeclaration`,se=`#ifdef DECAL
 uniform vec4 vDecalInfos;uniform mat4 decalMatrix;
 #endif
 `;e.IncludesShadersStore[n]||(e.IncludesShadersStore[n]=se);var ce={name:n,shader:se},r=`pbrVertexDeclaration`,i=`uniform mat4 view;uniform mat4 viewProjection;uniform vec4 vEyePosition;
