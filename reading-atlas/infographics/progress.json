@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 10,
+    "completedCount": 11,
     "collectionTotal": 75,
     "completed": [
       {
@@ -657,31 +657,48 @@
           }
         },
         "completedOn": "2026-10-17"
+      },
+      {
+        "sequence": 11,
+        "id": 5,
+        "title": "Братья Карамазовы",
+        "englishTitle": "The Brothers Karamazov",
+        "koreanTitle": "카라마조프가의 형제들",
+        "status": "completed-and-verified",
+        "koreanImage": "brothers-karamazov-v3-integrated-ko.webp",
+        "englishImage": "brothers-karamazov-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-17",
+        "sourceNotes": "sources/brothers-karamazov-v3-integrated.md",
+        "sources": [
+          "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm",
+          "https://www.penguinrandomhouse.com/books/286344/the-brothers-karamazov-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780241655566/",
+          "https://www.penguinrandomhouse.com/books/42256/the-brothers-karamazov-by-fyodor-dostoevsky/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/brothers-karamazov-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/brothers-karamazov-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-17"
       }
-    ],
-    "inProgress": {
-      "sequence": 11,
-      "id": 5,
-      "title": "Братья Карамазовы",
-      "englishTitle": "The Brothers Karamazov",
-      "koreanTitle": "카라마조프가의 형제들",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "brothers-karamazov-v3-integrated-ko.webp",
-      "englishImage": "brothers-karamazov-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-17",
-      "sourceNotes": "sources/brothers-karamazov-v3-integrated.md",
-      "sources": [
-        "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm",
-        "https://www.penguinrandomhouse.com/books/286344/the-brothers-karamazov-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780241655566/",
-        "https://www.penguinrandomhouse.com/books/42256/the-brothers-karamazov-by-fyodor-dostoevsky/"
-      ]
-    }
+    ]
   }
 }
