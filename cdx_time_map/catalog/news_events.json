@@ -1,8 +1,122 @@
 {
-  "catalogVersion": "0.0.169",
-  "updatedAt": "2026-10-17T16:21:41.478Z",
+  "catalogVersion": "0.0.170",
+  "updatedAt": "2026-10-18T05:49:53.515Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-6d2c2f650e3dab91f24af72f",
+      "title": "포클랜드 제도 긴장 고조 — 아르헨티나, 섬의 석유 산업 겨냥",
+      "titleTranslations": {
+        "en": "Falklands tension rises as Argentina targets island's oil industry"
+      },
+      "startAt": "2026-10-18T04:00:49.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "선거 여론 부진 속에서 아르헨티나 대통령이 포클랜드 제도의 석유 산업을 경제적으로 압박하는 발언을 하고 주요 어업 산업까지 거론하면서 제도와 본국 간 긴장이 다시 고조되고 있다는 보도다.",
+      "descriptionTranslations": {
+        "en": "Facing weak poll numbers, Argentina’s president has made economic attacks on the Falkland Islands’ oil industry and suggested the islands’ key fisheries could be next, raising renewed tensions between the islands and Argentina, the coverage says."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina"
+        ],
+        "firstPublishedAt": "2026-10-18T04:00:49.000Z",
+        "lastObservedAt": "2026-10-18T05:49:53.515Z"
+      }
+    },
+    {
+      "id": "news-3b66d0c24891895d4f7bec94",
+      "title": "애리조나, 네바다와 함께 콜로라도강 물 할당 삭감에 법적 대응",
+      "titleTranslations": {
+        "en": "Arizona joins Nevada to challenge proposed cuts to Colorado River allocations"
+      },
+      "startAt": "2026-10-17T23:40:11.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "애리조나는 네바다와 함께 미 내무부가 제안한 콜로라도강 배분 삭감 방침에 대해 법적 대응을 펼치기로 했다는 보도다. 해당 제안은 강 상태에 따라 향후 2년 동안 하부 분지 주들의 물 공급을 크게 줄일 수 있다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Arizona has joined Nevada in a legal challenge to the Interior Department’s proposed cuts to shares of the shrinking Colorado River. The announced restrictions could slash water supplies to lower‑basin states over the next two years depending on river conditions, the coverage says."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/17/arizona-nevada-water-rights-colorado-river",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/17/arizona-nevada-water-rights-colorado-river"
+        ],
+        "firstPublishedAt": "2026-10-17T23:40:11.000Z",
+        "lastObservedAt": "2026-10-18T05:49:53.515Z"
+      }
+    },
+    {
+      "id": "news-bc0a3e3e3becf0957b4025ef",
+      "title": "프랑스 전역서 학생 합류 시위 확산 — 충돌·방화 발생",
+      "titleTranslations": {
+        "en": "Scuffles and fires as protests spread across France, joining students"
+      },
+      "startAt": "2026-10-17T15:57:40.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "전국에서의 시위에 학생들이 합류하며 일부 지역에서 충돌과 방화가 발생했다는 보도다. 보도는 생활비 상승과 재정 위기 속에서 시위가 확산하고 있음을 전한다.",
+      "descriptionTranslations": {
+        "en": "Protests across France have converged with students, with reports of scuffles and fires in some areas. Coverage says demonstrations reflect rising living costs amid a deepening fiscal crisis."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france"
+        ],
+        "firstPublishedAt": "2026-10-17T15:57:40.000Z",
+        "lastObservedAt": "2026-10-18T05:49:53.515Z"
+      }
+    },
+    {
+      "id": "news-044b4bea2d1a4758f81a6614",
+      "title": "교황, 폐암 수술 며칠 만에 병원 퇴원",
+      "titleTranslations": {
+        "en": "Pope discharged from hospital days after lung cancer surgery"
+      },
+      "startAt": "2026-10-17T13:51:36.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "로마 병원에서 폐암 수술을 받고 치료를 받은 교황이 퇴원했으며, 보도는 교황이 일요일에 성 베드로 광장에서 전통적 앵글루스(Angelus) 기도와 축복을 할 예정이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Pope, who underwent lung cancer surgery at a Rome hospital, has been discharged, and reports say he is expected to give the traditional Angelus prayer and blessing in St Peter’s Square on Sunday."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-16T23:20:37.000Z",
+        "lastObservedAt": "2026-10-18T05:49:53.515Z"
+      }
+    },
     {
       "id": "news-33216f8cfc71284845c2b752",
       "title": "가정·공장용 전기모터에 가변주파수드라이브(VFD) 보급하면 수기가와트 확보 가능",
@@ -118,34 +232,6 @@
       }
     },
     {
-      "id": "news-044b4bea2d1a4758f81a6614",
-      "title": "교황, 수술·폐암 진단 이후 첫 공개 사진 공개",
-      "titleTranslations": {
-        "en": "Pope pictured for first time since surgery and cancer diagnosis"
-      },
-      "startAt": "2026-10-16T23:20:37.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "로마의 제멜리 병원에서 수술을 받은 후 폐암 진단을 받은 것으로 알려진 교황이 수술과 진단 이후 처음으로 공개된 사진에 등장했다는 보도가 나왔다.",
-      "descriptionTranslations": {
-        "en": "The Pope, who underwent surgery at Rome's Gemelli Hospital and was diagnosed with lung cancer, has been pictured for the first time since the operation and diagnosis, according to reports."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-16T23:20:37.000Z",
-        "lastObservedAt": "2026-10-17T05:33:39.452Z"
-      }
-    },
-    {
       "id": "news-8a1b843b0022bd89883d4f1e",
       "title": "힐리, 히드로 제3활주로에 대해 ‘성장론’으로 지지 입장 표명",
       "titleTranslations": {
@@ -201,6 +287,34 @@
         ],
         "firstPublishedAt": "2026-10-16T20:59:01.000Z",
         "lastObservedAt": "2026-10-17T05:33:39.452Z"
+      }
+    },
+    {
+      "id": "news-472f9f8e7d3f265b598f26b0",
+      "title": "스티븐 캐시, NASA 마샬 우주비행센터 소장 임명",
+      "titleTranslations": {
+        "en": "NASA names Stephen Cash Marshall as Marshall Space Flight Center director"
+      },
+      "startAt": "2026-10-16T20:14:39.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "NASA는 스티븐 캐시를 앨라배마 헌츠빌의 마샬 우주비행센터 소장으로 임명했다고 발표했다. 캐시는 수십 년 경력의 NASA 엔지니어이자 항공우주 임원으로, 경력 초기 마샬에서 일한 뒤 복귀한다는 보도다.",
+      "descriptionTranslations": {
+        "en": "NASA announced that it has named Stephen Cash as director of the Marshall Space Flight Center in Huntsville, Alabama. Cash is a veteran NASA engineer and aerospace executive who began his career at the center and is now returning to lead it, the release says."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/"
+        ],
+        "firstPublishedAt": "2026-10-16T20:14:39.000Z",
+        "lastObservedAt": "2026-10-18T05:49:53.515Z"
       }
     },
     {
@@ -656,6 +770,34 @@
         ],
         "firstPublishedAt": "2026-10-15T16:16:10.000Z",
         "lastObservedAt": "2026-10-15T17:45:31.321Z"
+      }
+    },
+    {
+      "id": "news-ad09b0946a60b7ff505a8aa2",
+      "title": "딥마인드, ‘구글 안티그래비티’로 항균 펩타이드 탐색 가속화",
+      "titleTranslations": {
+        "en": "DeepMind accelerates search for antimicrobial peptides with Google Antigravity"
+      },
+      "startAt": "2026-10-15T16:08:03.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "딥마인드가 Google Antigravity를 이용해 새로운 항균 펩타이드 탐색 과정을 가속화했다고 발표했다(연구·발표 관련 보도).",
+      "descriptionTranslations": {
+        "en": "DeepMind says it has used Google Antigravity to accelerate the search for novel antimicrobial peptides, according to reporting on the research announcement."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
+        ],
+        "firstPublishedAt": "2026-10-15T16:08:03.000Z",
+        "lastObservedAt": "2026-10-18T05:49:53.515Z"
       }
     },
     {
@@ -1231,6 +1373,34 @@
       }
     },
     {
+      "id": "news-8b1ab1df41ac00d8450a9c25",
+      "title": "딥마인드, ‘제미니 4 아르곤’의 책임 있고 안전한 개발 방향 공개",
+      "titleTranslations": {
+        "en": "DeepMind outlines responsible, safe development for Gemini 4 Argon"
+      },
+      "startAt": "2026-10-13T19:43:07.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "딥마인드는 ‘Gemini 4 Argon’ 모델을 책임감 있고 안전하게 개발·운영하려는 접근을 설명하는 내용을 공개했다는 보도다.",
+      "descriptionTranslations": {
+        "en": "DeepMind published material describing its approach to developing and deploying the Gemini 4 Argon model responsibly and safely, the coverage says."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+        ],
+        "firstPublishedAt": "2026-10-13T19:43:07.000Z",
+        "lastObservedAt": "2026-10-18T05:49:53.515Z"
+      }
+    },
+    {
       "id": "news-ec0308048ea2d0e396c9c9e6",
       "title": "잉글랜드 축구 규제 책임자, 맨체스터 시티 관련 정치적 개입 시 사임 의향 밝혀",
       "titleTranslations": {
@@ -1425,63 +1595,6 @@
         ],
         "firstPublishedAt": "2026-10-13T09:35:43.000Z",
         "lastObservedAt": "2026-10-14T06:06:02.516Z"
-      }
-    },
-    {
-      "id": "news-0222bcff775b1692fcad54d0",
-      "title": "가디언 조사: 라틴 아메리카 조직범죄가 유럽 전역에 뿌리내리고 있다",
-      "titleTranslations": {
-        "en": "Guardian investigation: Latin American organised crime taking root across Europe"
-      },
-      "startAt": "2026-10-13T07:00:18.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언의 4개월 조사 결과는 코카인 밀수가 유럽으로 급증한 배경에 라틴아메리카 범죄조직의 유럽 진출과 현지 마피아와의 결탁이 있다는 점을 보여준다. 보도는 콜롬비아·브라질·에콰도르·베네수엘라·멕시코 등지의 카르텔과 분파들이 유럽의 최소 12개국에서 활동하고 있으며, 지난 10년간 유럽 내 코카인 압수량이 5배 이상 늘었다고 전했다.",
-      "descriptionTranslations": {
-        "en": "A four‑month Guardian investigation links the surge in cocaine trafficking to an expanding presence of Latin American criminal networks in Europe and their ties with local mafias. The report says cartels and factions from countries including Colombia, Brazil, Ecuador, Venezuela and Mexico are active in at least 12 European countries, and that cocaine seizures in Europe have increased more than fivefold over the past decade."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe"
-        ],
-        "firstPublishedAt": "2026-10-13T07:00:18.000Z",
-        "lastObservedAt": "2026-10-13T07:40:53.402Z"
-      }
-    },
-    {
-      "id": "news-6909a43c1c76da4b1268360d",
-      "title": "터키로 취업 이주한 이란인들, 착취 피해 보고",
-      "titleTranslations": {
-        "en": "Many Iranians who go to Turkey to find jobs are exploited"
-      },
-      "startAt": "2026-10-12T21:37:21.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "절박한 생활비 마련을 위해 터키로 일자리를 찾아간 이란인들이 임금 체불·부당한 노동조건 등으로 착취당하고 빚만 늘어난 사례가 보고됐다.",
-      "descriptionTranslations": {
-        "en": "Desperate Iranians who travelled to Turkey seeking work are being exploited, with reports of unpaid wages, poor working conditions and mounting debt."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/12/nx-s1-5979836/many-iranians-who-go-to-turkey-to-find-jobs-are-exploited",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/12/nx-s1-5979836/many-iranians-who-go-to-turkey-to-find-jobs-are-exploited"
-        ],
-        "firstPublishedAt": "2026-10-12T21:37:21.000Z",
-        "lastObservedAt": "2026-10-12T21:43:38.927Z"
       }
     },
     {
@@ -1685,34 +1798,6 @@
       }
     },
     {
-      "id": "news-a7867473cdb52eec78505be6",
-      "title": "남극 해빙, 2026년 최대 면적 도달 — 관측 역사상 세 번째로 적은 최대치 기록",
-      "titleTranslations": {
-        "en": "Antarctic Sea Ice Grows to Its 2026 Maximum"
-      },
-      "startAt": "2026-10-12T04:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 남극 해빙이 올해 최대 면적에 도달했지만 위성 관측 이래 세 번째로 적은 최대 확장 정도를 기록했다고 밝혔다. 관측 결과는 기후·해양 변화 추세를 평가하는 자료로 제시되었다.",
-      "descriptionTranslations": {
-        "en": "NASA reports Antarctic sea ice reached its 2026 maximum extent, which was the third‑lowest maximum since satellite observations began. The data contribute to assessments of climate and ocean change trends."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/"
-        ],
-        "firstPublishedAt": "2026-10-12T04:00:00.000Z",
-        "lastObservedAt": "2026-10-12T07:18:44.237Z"
-      }
-    },
-    {
       "id": "news-7113efc77f1c641cb47d729d",
       "title": "랜싯 보고서 평가: 핵전쟁과 악의적 AI 사용이 2100년까지 인류 멸종 가능성 제기",
       "titleTranslations": {
@@ -1826,69 +1911,6 @@
         ],
         "firstPublishedAt": "2026-10-09T22:04:07.000Z",
         "lastObservedAt": "2026-10-10T17:49:54.355Z"
-      }
-    },
-    {
-      "id": "news-b14be23d64c1650b0b5c0484",
-      "title": "IEEE, AI 칩 설계 교육 프로그램 발표",
-      "titleTranslations": {
-        "en": "Master AI Chip Principles With New IEEE Design Program"
-      },
-      "startAt": "2026-10-09T18:00:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "IEEE 스펙트럼 보도는 급속히 복잡해지는 AI 하드웨어 요구를 다루기 위해 IEEE가 AI 칩 설계를 다루는 새 교육·설계 프로그램을 공개했다고 전했다. 보도는 메모리와 프로세서 간 데이터 이동이 AI 성능의 주요 제약이 되며, 업계가 특정 작업에 최적화된 AI 칩을 늘리고 있다고 설명했다.",
-      "descriptionTranslations": {
-        "en": "IEEE Spectrum reports that IEEE has launched a new design and education program addressing rapidly increasing AI hardware complexity. The coverage notes that moving data between memory and processor is a major limit on AI performance and that the industry is increasingly developing task‑specific AI chips to meet scaling demands."
-      },
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/master-ai-chip-principles-ieee"
-        ],
-        "firstPublishedAt": "2026-10-09T18:00:02.000Z",
-        "lastObservedAt": "2026-10-11T07:06:52.641Z"
-      }
-    },
-    {
-      "id": "news-ecc588528d6344dc70ad7f2f",
-      "title": "AI 거버넌스·공학 교육 논의 확대 — 나델라의 '비상 브레이크' 주장과 윤리 교육 요구",
-      "titleTranslations": {
-        "en": "AI governance and engineering ethics debate escalates — Nadella calls for an ‘emergency brake’ and experts urge ethics in curricula"
-      },
-      "startAt": "2026-10-09T12:00:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "TechCrunch는 마이크로소프트 CEO 사티아 나델라가 AI 모델 개발에 대해 \"비상 브레이크\"를 거는 등 신뢰 인프라를 재평가할 시점이라고 주장한 글을 보도했다. IEEE 스펙트럼은 엔지니어링 과정에 윤리를 내재화해야 한다는 주장을 싣고, 빠른 개발 압력이 새로운 위험을 충분히 평가·통제하기 어렵게 만든다고 지적했다. 두 보도는 기업·학계·업계에서 AI 안전·윤리 논의가 확산하고 있음을 보여준다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch reported Microsoft CEO Satya Nadella wrote that AI models need an ‘emergency brake’ and that it is time to \"step back and assess the trust architecture\" of AI. IEEE Spectrum argued for embedding ethics into engineering courses, warning that pressure to move quickly makes it hard for engineers to assess and manage new AI risks. Together the pieces indicate growing debate across industry and academia over AI safety and ethics."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory",
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-          "https://spectrum.ieee.org/integrating-engineering-ethics-education"
-        ],
-        "firstPublishedAt": "2026-10-10T21:47:51.000Z",
-        "lastObservedAt": "2026-10-11T18:02:10.484Z"
       }
     },
     {
@@ -2085,34 +2107,6 @@
         ],
         "firstPublishedAt": "2026-10-07T15:00:00.000Z",
         "lastObservedAt": "2026-10-08T07:18:14.887Z"
-      }
-    },
-    {
-      "id": "news-7066f755ea85d6381fb46ea9",
-      "title": "캘리포니아, 엘니뇨 영향 대비에 직면 — 산사태·급류·해안 영향 우려",
-      "titleTranslations": {
-        "en": "California faces El Niño threats — landslides, flash floods and coastal impacts"
-      },
-      "startAt": "2026-10-07T14:30:52.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "캘리포니아 해안과 내륙 지역에서 높은 해수면·고조된 조류와 더불어 산사태·급류 위험이 대두되며 엘니뇨에 따른 복합 자연재해 대비가 주목받고 있다. 고조된 해수로 인해 일부 지역의 도로 침수 및 교통 지연이 보고됐다.",
-      "descriptionTranslations": {
-        "en": "California is bracing for El Niño impacts — including higher tides, coastal swelling, landslides and flash floods. High tides have already caused localized flooding and traffic disruption along parts of the coast."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/07/california-el-nino-preparedness",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/07/california-el-nino-preparedness"
-        ],
-        "firstPublishedAt": "2026-10-07T14:30:52.000Z",
-        "lastObservedAt": "2026-10-07T19:19:57.939Z"
       }
     },
     {
