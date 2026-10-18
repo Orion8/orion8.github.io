@@ -658,6 +658,30 @@
         },
         "completedOn": "2026-10-17"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 11,
+      "id": 5,
+      "title": "Братья Карамазовы",
+      "englishTitle": "The Brothers Karamazov",
+      "koreanTitle": "카라마조프가의 형제들",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "brothers-karamazov-v3-integrated-ko.webp",
+      "englishImage": "brothers-karamazov-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-17",
+      "sourceNotes": "sources/brothers-karamazov-v3-integrated.md",
+      "sources": [
+        "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm",
+        "https://www.penguinrandomhouse.com/books/286344/the-brothers-karamazov-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780241655566/",
+        "https://www.penguinrandomhouse.com/books/42256/the-brothers-karamazov-by-fyodor-dostoevsky/"
+      ]
+    }
   }
 }
