@@ -739,6 +739,31 @@
         },
         "completedOn": "2026-10-18"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 13,
+      "id": 7,
+      "title": "Don Quijote de la Mancha",
+      "englishTitle": "Don Quixote",
+      "koreanTitle": "돈키호테",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "don-quixote-v3-integrated-ko.webp",
+      "englishImage": "don-quixote-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-18",
+      "sourceNotes": "sources/don-quixote-v3-integrated.md",
+      "sources": [
+        "https://www.gutenberg.org/files/996/996-h/996-h.htm",
+        "https://www.penguinrandomhouse.com/books/580416/don-quixote-by-miguel-de-cervantes-saavedra-translated-with-an-introduction-and-notes-by-john-rutherford-illustrated-by-coralie-bickford-smith/",
+        "https://cvc.cervantes.es/literatura/clasicos/quijote/edicion/parte1/cap52/default.htm",
+        "https://cvc.cervantes.es/literatura/clasicos/quijote/edicion/parte2/cap74/cap74_02.htm"
+      ]
+    }
   }
 }
