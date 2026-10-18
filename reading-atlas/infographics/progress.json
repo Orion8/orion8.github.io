@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 11,
+    "completedCount": 12,
     "collectionTotal": 75,
     "completed": [
       {
@@ -698,30 +698,47 @@
           }
         },
         "completedOn": "2026-10-17"
+      },
+      {
+        "sequence": 12,
+        "id": 6,
+        "title": "Преступление и наказание",
+        "englishTitle": "Crime and Punishment",
+        "koreanTitle": "죄와 벌",
+        "status": "completed-and-verified",
+        "koreanImage": "crime-and-punishment-v3-integrated-ko.webp",
+        "englishImage": "crime-and-punishment-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-18",
+        "sourceNotes": "sources/crime-and-punishment-v3-integrated.md",
+        "sources": [
+          "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm",
+          "https://www.penguinrandomhouse.com/books/286337/crime-and-punishment-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780140449136/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/crime-and-punishment-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/crime-and-punishment-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-18"
       }
-    ],
-    "inProgress": {
-      "sequence": 12,
-      "id": 6,
-      "title": "Преступление и наказание",
-      "englishTitle": "Crime and Punishment",
-      "koreanTitle": "죄와 벌",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "crime-and-punishment-v3-integrated-ko.webp",
-      "englishImage": "crime-and-punishment-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-18",
-      "sourceNotes": "sources/crime-and-punishment-v3-integrated.md",
-      "sources": [
-        "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm",
-        "https://www.penguinrandomhouse.com/books/286337/crime-and-punishment-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780140449136/"
-      ]
-    }
+    ]
   }
 }
