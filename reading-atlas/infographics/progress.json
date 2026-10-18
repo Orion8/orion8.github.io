@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 13,
+    "completedCount": 14,
     "collectionTotal": 75,
     "completed": [
       {
@@ -780,30 +780,47 @@
           }
         },
         "completedOn": "2026-10-18"
+      },
+      {
+        "sequence": 14,
+        "id": 8,
+        "title": "Cien años de soledad",
+        "englishTitle": "One Hundred Years of Solitude",
+        "koreanTitle": "백년의 고독",
+        "status": "completed-and-verified",
+        "koreanImage": "one-hundred-years-of-solitude-v3-integrated-ko.webp",
+        "englishImage": "one-hundred-years-of-solitude-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-18",
+        "sourceNotes": "sources/one-hundred-years-of-solitude-v3-integrated.md",
+        "sources": [
+          "https://www.penguin.co.uk/books/482987/one-hundred-years-of-solitude-by-marquez-gabriel-garcia/9780241998502",
+          "https://www.penguinrandomhouse.com/books/196323/cien-anos-de-soledad-50-aniversario--one-hundred-years-of-solitude-by-gabriel-garcia-marquez/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/one-hundred-years-of-solitude-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/one-hundred-years-of-solitude-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-18"
       }
-    ],
-    "inProgress": {
-      "sequence": 14,
-      "id": 8,
-      "title": "Cien años de soledad",
-      "englishTitle": "One Hundred Years of Solitude",
-      "koreanTitle": "백년의 고독",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "one-hundred-years-of-solitude-v3-integrated-ko.webp",
-      "englishImage": "one-hundred-years-of-solitude-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-18",
-      "sourceNotes": "sources/one-hundred-years-of-solitude-v3-integrated.md",
-      "sources": [
-        "https://www.penguin.co.uk/books/482987/one-hundred-years-of-solitude-by-marquez-gabriel-garcia/9780241998502",
-        "https://www.penguinrandomhouse.com/books/196323/cien-anos-de-soledad-50-aniversario--one-hundred-years-of-solitude-by-gabriel-garcia-marquez/"
-      ]
-    }
+    ]
   }
 }
