@@ -781,6 +781,29 @@
         },
         "completedOn": "2026-10-18"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 14,
+      "id": 8,
+      "title": "Cien años de soledad",
+      "englishTitle": "One Hundred Years of Solitude",
+      "koreanTitle": "백년의 고독",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "one-hundred-years-of-solitude-v3-integrated-ko.webp",
+      "englishImage": "one-hundred-years-of-solitude-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-18",
+      "sourceNotes": "sources/one-hundred-years-of-solitude-v3-integrated.md",
+      "sources": [
+        "https://www.penguin.co.uk/books/482987/one-hundred-years-of-solitude-by-marquez-gabriel-garcia/9780241998502",
+        "https://www.penguinrandomhouse.com/books/196323/cien-anos-de-soledad-50-aniversario--one-hundred-years-of-solitude-by-gabriel-garcia-marquez/"
+      ]
+    }
   }
 }
