@@ -699,6 +699,29 @@
         },
         "completedOn": "2026-10-17"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 12,
+      "id": 6,
+      "title": "Преступление и наказание",
+      "englishTitle": "Crime and Punishment",
+      "koreanTitle": "죄와 벌",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "crime-and-punishment-v3-integrated-ko.webp",
+      "englishImage": "crime-and-punishment-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-18",
+      "sourceNotes": "sources/crime-and-punishment-v3-integrated.md",
+      "sources": [
+        "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm",
+        "https://www.penguinrandomhouse.com/books/286337/crime-and-punishment-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780140449136/"
+      ]
+    }
   }
 }
