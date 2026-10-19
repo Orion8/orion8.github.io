@@ -1,8 +1,234 @@
 {
-  "catalogVersion": "0.0.171",
-  "updatedAt": "2026-10-18T16:29:59.471Z",
+  "catalogVersion": "0.0.172",
+  "updatedAt": "2026-10-19T06:07:06.976Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-28c133f0806d21029cefec3f",
+      "title": "원데이 국제(ODI) 크리켓 판도를 바꾼 규칙 변경 영향 분석",
+      "titleTranslations": {
+        "en": "How one rule change is altering the face of one‑day cricket"
+      },
+      "startAt": "2026-10-19T05:27:56.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "description": "보도는 단일 규칙 변경이 원데이 국제(ODI) 크리켓의 경기 방식과 선수·팀에 미치는 영향을 어떻게 바꿔왔는지를 분석한다. 누가 혜택을 보고 있는지와 향후 경기의 의미를 조명한다.",
+      "descriptionTranslations": {
+        "en": "The coverage examines how a single rule change has transformed one‑day international (ODI) cricket — its impact on gameplay, which players and teams benefit, and what it could mean for the sport’s future."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/cricket/articles/c6eweg47wv11o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/cricket/articles/c6eweg47wv11o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-19T05:27:56.000Z",
+        "lastObservedAt": "2026-10-19T06:07:06.976Z"
+      }
+    },
+    {
+      "id": "news-e5cad304e22ba05947df1834",
+      "title": "중국 성장 가속: AI 수출 호조가 내수 약세 상쇄",
+      "titleTranslations": {
+        "en": "China's growth accelerates as AI export boom outweighs domestic weakness"
+      },
+      "startAt": "2026-10-19T05:17:35.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보고서는 중국의 수출, 특히 AI 관련 수출 호조가 약한 국내 소비를 상쇄하며 성장률을 끌어올렸다고 전한다. 다만 무역 긴장과 AI 수요의 불확실성이 향후 전망을 흐릴 수 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Reporting says exports — boosted by AI‑related shipments — have helped offset weak domestic spending and sped up China’s growth. However, trade tensions and doubts over AI demand cloud the outlook, the coverage notes."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-19T05:17:35.000Z",
+        "lastObservedAt": "2026-10-19T06:07:06.975Z"
+      }
+    },
+    {
+      "id": "news-f44ff57d59e6a8e8e8445a66",
+      "title": "앨버타 주민투표: ‘캐나다 잔류 또는 추가 독립투표’ 여부 결정",
+      "titleTranslations": {
+        "en": "Alberta referendum asks whether to remain in Canada or hold a second binding independence vote"
+      },
+      "startAt": "2026-10-19T05:00:22.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "앨버타 주민들이 자신들의 캐나다 내 지위를 결정하기 위한 주민투표에 참여한다. 투표는 주가 캐나다에 남을지, 아니면 두 번째로 구속력 있는 독립투표를 실시할지를 묻는 방식으로 진행되며 이번 과정은 주 내 분열, 특히 분리주의자들 사이의 내부 분열을 드러냈다고 보도되었다.",
+      "descriptionTranslations": {
+        "en": "Albertans are going to the polls to decide their place in Canada. Voters will be asked whether the province should remain part of Canada or hold a second binding independence referendum; reporting says the referendum has exposed deep divisions within the province, including within the separatist movement itself."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada"
+        ],
+        "firstPublishedAt": "2026-10-19T05:00:22.000Z",
+        "lastObservedAt": "2026-10-19T06:07:06.975Z"
+      }
+    },
+    {
+      "id": "news-c2a0803a24844f9b472dba05",
+      "title": "NHS 지도부, 산모·신생아 진료 조직이 '목적에 부적합'하다고 경고",
+      "titleTranslations": {
+        "en": "NHS leaders say maternity care organisation is 'not fit for purpose'"
+      },
+      "startAt": "2026-10-19T05:00:08.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "NHS 연합체는 영국의 일부 산부인과 조직이 '목적에 부적합'하다고 평가하며 어려운 결정들이 앞에 놓여 있고 일부 산모·신생아 서비스는 통합이 필요할 수 있다고 경고했다. 보도는 조직 개편과 자원 재배치 가능성을 제기한다.",
+      "descriptionTranslations": {
+        "en": "The NHS Alliance said parts of the maternity‑care system in England are 'not fit for purpose', warning that difficult decisions lie ahead and that some maternity services may need to be consolidated. Reporting highlights potential organisational change and resource reallocation."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm040rgv7wz4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm040rgv7wz4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-19T05:00:08.000Z",
+        "lastObservedAt": "2026-10-19T06:07:06.975Z"
+      }
+    },
+    {
+      "id": "news-98e9f3ac55769e8baf6fc22e",
+      "title": "브라질 결선투표 1차 토론: 룰라·보우소나루 격렬 공방",
+      "titleTranslations": {
+        "en": "Lula and Bolsonaro spar in Brazil’s fiery first presidential run‑off debate"
+      },
+      "startAt": "2026-10-19T04:27:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "브라질 대통령과 야당 후보가 10월 25일 결선투표를 일주일 앞두고 열린 첫 토론에서 날카롭게 공방을 벌였다. 보도는 양측이 서로에게 집중공격을 가하며 시험대에 오른 대선전의 긴장감을 전했다.",
+      "descriptionTranslations": {
+        "en": "Brazil’s president and his opponent exchanged sharp attacks in the first presidential run‑off debate, held a week before the October 25 vote. Reporting says the debate intensified the high‑stakes campaign as the runoff approaches."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-19T04:27:00.000Z",
+        "lastObservedAt": "2026-10-19T06:07:06.975Z"
+      }
+    },
+    {
+      "id": "news-db24df068a53eedbb5d62c93",
+      "title": "앤디 번햄, 대중교통 소음 단속 캠페인 발표 — 최대 £100 벌금 권고",
+      "titleTranslations": {
+        "en": "Andy Burnham launches campaign against ‘headphone dodgers’ on public transport"
+      },
+      "startAt": "2026-10-18T23:01:12.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 1,
+      "description": "영국 총리 앤디 번햄이 공공교통 내 소란 행위를 막기 위한 캠페인을 발표했다. 지침은 지역 교통당국이 불응자에게 최대 £100의 벌금을 부과할 수 있도록 허용하는 내용을 담고 있다(캠페인 구호: '칸을 나누고 소음은 나누지 말자').",
+      "descriptionTranslations": {
+        "en": "Prime Minister Andy Burnham announced a campaign against nuisance noise on public transport. Guidance would allow local transport authorities to levy fines of up to £100 for non‑compliance, part of a broader effort to curb disruptive behaviour on trains and buses (campaign slogan: 'share the carriage, not the noise')."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/politics/2026/oct/19/andy-burnham-launches-campaign-against-headphone-dodgers-on-public-transport",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/politics/2026/oct/19/andy-burnham-launches-campaign-against-headphone-dodgers-on-public-transport"
+        ],
+        "firstPublishedAt": "2026-10-18T23:01:12.000Z",
+        "lastObservedAt": "2026-10-19T06:07:06.975Z"
+      }
+    },
+    {
+      "id": "news-d54fc7597418b304da556336",
+      "title": "시카고, 합성 향정신성 약물 확산과 지역사회 대응 심층 보도",
+      "titleTranslations": {
+        "en": "Inside Chicago's battle against the synthetic drugs flooding the US"
+      },
+      "startAt": "2026-10-18T21:00:22.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "보도는 시카고 지역사회가 최근 미국 전역에 확산되는 새로운 합성 향정신성 약물과 싸우고 있다고 전한다. 사례 취재를 통해 병원·응급 대응과 지역의 대응 노력이 부각되었다.",
+      "descriptionTranslations": {
+        "en": "Reporting from Chicago describes communities battling a new wave of synthetic drugs that are flooding the US. The coverage highlights hospital and emergency responses and local efforts to confront the crisis."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-18T21:00:22.000Z",
+        "lastObservedAt": "2026-10-19T06:07:06.975Z"
+      }
+    },
+    {
+      "id": "news-796bbd796e41457364e77c7b",
+      "title": "앤트로픽, 외부 AI 감시기구에 ‘직원급’ 접근권 부여",
+      "titleTranslations": {
+        "en": "Anthropic gives outside AI watchdog “employee‑like” access"
+      },
+      "startAt": "2026-10-18T16:25:19.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "앤트로픽이 외부의 AI 감시기구에 대해 직원과 유사한 수준의 내부 접근을 허용했다고 보도됐다. 보도는 감시기구가 앤트로픽의 승인 없이 조사 결과를 발표할 수 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Anthropic has granted an outside AI watchdog ‘employee‑like’ access to its systems, reporting says. Coverage notes the watchdog can publish its findings without Anthropic’s approval."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+        ],
+        "firstPublishedAt": "2026-10-18T16:25:19.000Z",
+        "lastObservedAt": "2026-10-19T06:07:06.975Z"
+      }
+    },
     {
       "id": "news-0bd6429ce4de8bfba62f811d",
       "title": "유럽 외교관들, 서안에서 정착민 폭력 피해 보고",
@@ -115,6 +341,34 @@
         ],
         "firstPublishedAt": "2026-10-18T12:00:03.000Z",
         "lastObservedAt": "2026-10-18T16:29:59.470Z"
+      }
+    },
+    {
+      "id": "news-90e3456ac871cb90ac530370",
+      "title": "미국 노동자들, 폭염 보호 요구에 브랜드·여론전 전략 동원",
+      "titleTranslations": {
+        "en": "US workers facing deadly heat borrow from tomato pickers to win key protections"
+      },
+      "startAt": "2026-10-18T12:00:02.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언 보도는 기록적 폭염 속에 밭·온실·무냉방 작업장 노동자들이 직장 내 열 보호를 확보하기 위해 토마토 수확자들이 사용한 전략을 차용하고 있다고 전했다. 대부분 현장 노동자들은 열 보호 규정이 부족해 건강 위험에 노출돼 있다는 점이 지적됐다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that, amid record heat, US farm, greenhouse and unconditioned‑indoor workers are adopting tactics used by tomato pickers to win heat‑protection measures. Coverage notes many such workers still lack workplace heat protections and face health risks as extreme heat becomes more frequent."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/18/workers-heat-protections",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/18/workers-heat-protections"
+        ],
+        "firstPublishedAt": "2026-10-18T12:00:02.000Z",
+        "lastObservedAt": "2026-10-19T06:07:06.975Z"
       }
     },
     {
@@ -742,34 +996,6 @@
       }
     },
     {
-      "id": "news-40218d857821681549eb8fcc",
-      "title": "중증 소아 감염 진단에 하루 내 결과 제공하는 메타게노믹 검사 보도",
-      "titleTranslations": {
-        "en": "Same‑day test helps doctors detect hidden infections in critically ill children"
-      },
-      "startAt": "2026-10-16T00:34:45.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 메타게노믹스 기반의 검사로 중환자실에 있는 어린 환자의 숨은 감염을 하루 내에 탐지할 수 있는 사례가 보고되었다. 보도는 이 접근법이 집중치료 환자 감염 진단에 새 길을 열 수 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC reports that metagenomic testing can help detect hidden infections in critically ill children within a single day. Coverage says the approach could open new diagnostic pathways for infections in intensive‑care patients."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw5yn83m8gypo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw5yn83m8gypo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-16T00:34:45.000Z",
-        "lastObservedAt": "2026-10-16T05:49:07.046Z"
-      }
-    },
-    {
       "id": "news-9216e6cae5d0a88ae46315df",
       "title": "NASA, JAXA의 MMX 임무에 참여해 화성 위성 탐사 지원 예정",
       "titleTranslations": {
@@ -969,34 +1195,6 @@
         ],
         "firstPublishedAt": "2026-10-15T16:08:03.000Z",
         "lastObservedAt": "2026-10-18T05:49:53.515Z"
-      }
-    },
-    {
-      "id": "news-eff8bf7827199e132af13ae1",
-      "title": "NHS 잉글랜드 지침: 트랜스 환자는 '생물학적 성' 기준의 단일성별 병동 배치 권고",
-      "titleTranslations": {
-        "en": "NHS England guidance says trans patients should use hospital spaces aligned with biological sex"
-      },
-      "startAt": "2026-10-15T16:07:26.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "NHS 잉글랜드의 새 지침은 트랜스 환자들이 병원 내 단일성별 병동이나 병상 배치에서 '생물학적 성'과 일치하는 공간에서 치료받아야 한다고 밝혔다. 정책은 입원 환경과 돌봄 배치에 변화를 요구한다.",
-      "descriptionTranslations": {
-        "en": "New NHS England guidance says transgender patients should be cared for in single‑sex hospital wards or bays that align with their biological sex, affecting patient placement and care arrangements in hospitals."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cry83dyddv6no?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cry83dyddv6no?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-15T16:07:26.000Z",
-        "lastObservedAt": "2026-10-15T17:45:31.321Z"
       }
     },
     {
@@ -1342,35 +1540,6 @@
       }
     },
     {
-      "id": "news-d7aed4fb31d4181be64afc72",
-      "title": "기니비사우, RFK 주도 논란의 신생아 간염B 연구 ‘승인 안 했다’고 부인",
-      "titleTranslations": {
-        "en": "Guinea‑Bissau denies it has approved controversial vaccine trial in newborns"
-      },
-      "startAt": "2026-10-14T13:16:30.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "기니비사우 보건장관은 덴마크 주도의 신생아 대상 간염B 연구가 정부의 승인을 받지 못했다고 밝혔다. 해당 연구는 백신의 안전·효능을 직접 평가하지 않고 사망률·신경발달 등 '비특이적' 결과를 추적하려는 설계로, 미국 보건부·민간 파트너 자금과 RFK 주니어의 지지가 연결되며 논란이 되고 있다.",
-      "descriptionTranslations": {
-        "en": "Guinea‑Bissau’s health minister said the Danish‑led newborn hepatitis B study has not been authorised by the government. The trial — which would not test vaccine safety or effectiveness but would track ‘nonspecific’ outcomes like overall mortality or neurodevelopment — has become controversial and is linked in coverage to US government and private funding and the backing of RFK Jr."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
-          "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial"
-        ],
-        "firstPublishedAt": "2026-10-09T21:36:18.000Z",
-        "lastObservedAt": "2026-10-14T17:59:18.189Z"
-      }
-    },
-    {
       "id": "news-1429e29f28cf5f2d4fd3d0c5",
       "title": "뱅크오브아메리카, 자금세탁 적발·보고 실패로 12억 달러 규제 벌금",
       "titleTranslations": {
@@ -1513,34 +1682,6 @@
         ],
         "firstPublishedAt": "2026-10-14T00:00:00.000Z",
         "lastObservedAt": "2026-10-14T17:59:18.189Z"
-      }
-    },
-    {
-      "id": "news-682415106c6cc7b9ba3c3400",
-      "title": "독일, 노드스트림 파이프라인 폭파 혐의로 우크라니아인 재판 개시",
-      "titleTranslations": {
-        "en": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines"
-      },
-      "startAt": "2026-10-13T23:42:22.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "2018년 노드스트림 파이프라인 폭발 사건 발생 4년 뒤, 세르히이 K가 러시아‑독일 가스관 파괴 음모 혐의로 독일 법정에 출두한다. 이번 재판은 유럽 에너지 인프라에 대한 공격과 관련한 법적 책임을 가리는 중요한 사안이다.",
-      "descriptionTranslations": {
-        "en": "Four years after the 2018 attacks on the Nord Stream pipelines, Serhii K will appear in a German court accused of plotting to destroy the Russia‑to‑Germany gas pipelines. The trial addresses legal accountability for attacks on European energy infrastructure."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-13T23:42:22.000Z",
-        "lastObservedAt": "2026-10-14T06:06:02.516Z"
       }
     },
     {
@@ -1740,34 +1881,6 @@
       }
     },
     {
-      "id": "news-f01b2978388106ae470bb299",
-      "title": "프랑스 슈퍼마켓 냉장설비 해킹으로 신선·냉동식품 폐기 피해",
-      "titleTranslations": {
-        "en": "Fridges in French supermarkets hit by cyber attack"
-      },
-      "startAt": "2026-10-12T18:31:32.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "수백 개 매장의 냉장·냉동설비가 야간 사이 사이버공격을 받아 신선 및 냉동식품이 상했고, 피해액이 수백만 유로에 이르는 것으로 알려졌다.",
-      "descriptionTranslations": {
-        "en": "Hundreds of stores had refrigeration and freezer systems targeted in an overnight cyberattack, spoiling fresh and frozen food estimated to be worth millions of euros."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-12T18:31:32.000Z",
-        "lastObservedAt": "2026-10-12T21:43:38.927Z"
-      }
-    },
-    {
       "id": "news-5142995a1ac90d87163682f0",
       "title": "NASA·스페이스X CRS‑35, 우주정거장 향해 인간·식물·약물 연구 수송",
       "titleTranslations": {
@@ -1821,34 +1934,6 @@
         ],
         "firstPublishedAt": "2026-10-12T16:55:37.000Z",
         "lastObservedAt": "2026-10-13T07:40:53.402Z"
-      }
-    },
-    {
-      "id": "news-ce8a84563526ed426a3b00c8",
-      "title": "‘슈퍼 엘니뇨’가 식량체계 위협 — 농가의 대비책 촉구",
-      "titleTranslations": {
-        "en": "A super El Niño threatens our food system. Here’s how farms can prepare"
-      },
-      "startAt": "2026-10-12T13:00:55.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "기상 전망이 올해 엘니뇨가 기록적 강도로 발달할 가능성을 제기하자 전문가들은 저지대 침수에 대비한 피복작물·다년생 작물 도입 등 토양 보호와 농업 대비책을 강조하며 의회 차원의 정책 대응을 촉구했다(칼럼).",
-      "descriptionTranslations": {
-        "en": "With forecasts warning this year’s El Niño could become exceptionally strong, experts urge farms to prepare — for example by planting cover crops or perennials to protect soil — and call for congressional action to support such practices (opinion piece)."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/oct/12/super-el-nino-farms-prepare",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/commentisfree/2026/oct/12/super-el-nino-farms-prepare"
-        ],
-        "firstPublishedAt": "2026-10-12T13:00:55.000Z",
-        "lastObservedAt": "2026-10-12T21:43:38.927Z"
       }
     },
     {
@@ -1908,64 +1993,6 @@
           "https://www.bbc.co.uk/news/articles/cm4g1pqyqzqwo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-12T05:24:10.000Z",
-        "lastObservedAt": "2026-10-12T07:18:44.237Z"
-      }
-    },
-    {
-      "id": "news-7113efc77f1c641cb47d729d",
-      "title": "랜싯 보고서 평가: 핵전쟁과 악의적 AI 사용이 2100년까지 인류 멸종 가능성 제기",
-      "titleTranslations": {
-        "en": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment"
-      },
-      "startAt": "2026-10-10T23:01:09.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "가디언 과학 보도는 새로 구성된 위원회의 글로벌 위험 평가를 인용해 핵전쟁과 악의적 인공지능 사용이 2100년까지 인류 멸종을 초래할 수 있다고 경고했다고 전했다. 위원회는 17개의 심각한 위협을 식별했으나 각 위협에 대응할 현실적 방안이 있다고도 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports a newly established commission's Lancet assessment warns that nuclear war and the malicious use of artificial intelligence could threaten human survival by 2100. The commission identified 17 catastrophic health threats but said realistic routes exist to act on each."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment"
-        ],
-        "firstPublishedAt": "2026-10-10T23:01:09.000Z",
-        "lastObservedAt": "2026-10-12T07:18:44.237Z"
-      }
-    },
-    {
-      "id": "news-cb13376954d1a2740e83ec5a",
-      "title": "미국-멕시코 국경 공사로 200년 된 ‘할머니’ 면양나무(코튼우드) 훼손 — 시위·트리시트 해산",
-      "titleTranslations": {
-        "en": "Despair after 200‑year‑old ‘grandmother’ tree toppled for Trump’s border wall: ‘It crushes your heart’"
-      },
-      "startAt": "2026-10-10T20:57:32.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 1,
-      "description": "가디언은 애리조나 로치엘에 있던 200년 된 코튼우드 나무가 도널드 트럼프 행정부의 국경 장벽 공사를 위해 제거되었고, 이를 막기 위해 수개월간 이어진 점거 시위(나무 위 트리시트)가 끝났다고 보도했다. 현지 활동가들은 나무의 상징성과 문화적 충격을 언급했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that a 200‑year‑old cottonwood tree near Lochiel, Arizona — known as the 'grandmother' — was cut down to make way for construction of President Trump's border wall, ending a months‑long occupation and tree‑sit by protesters. Activists described the loss as culturally devastating."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/10/cottonwood-tree-toppling-trump-mexico-border-wall-arizona",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/10/cottonwood-tree-toppling-trump-mexico-border-wall-arizona"
-        ],
-        "firstPublishedAt": "2026-10-10T20:57:32.000Z",
         "lastObservedAt": "2026-10-12T07:18:44.237Z"
       }
     },
@@ -2303,34 +2330,6 @@
         ],
         "firstPublishedAt": "2026-10-05T22:58:25.000Z",
         "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
-      "id": "news-3e38a0d033570718aa393cde",
-      "title": "해리 케인, 잉글랜드 최다 출전 기록에 근접 — 대표팀 위상 재조명",
-      "titleTranslations": {
-        "en": "England's greatest international? Kane is now a serious contender"
-      },
-      "startAt": "2026-10-05T19:05:52.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 1,
-      "description": "BBC 스포츠는 해리 케인이 피터 실튼의 잉글랜드 최다 출전 기록에 접근하면서 그의 대표팀 업적이 재평가되고 있다고 보도했다. 기사에서는 기록·비교·역사적 맥락을 다뤘다.",
-      "descriptionTranslations": {
-        "en": "BBC Sport reports Harry Kane is poised to equal Peter Shilton’s all‑time England appearance record, prompting renewed discussion of his place among England’s greatest internationals. The piece examines his achievements in context."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cm5ynj882zw0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/football/articles/cm5ynj882zw0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-05T19:05:52.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.776Z"
       }
     },
     {
