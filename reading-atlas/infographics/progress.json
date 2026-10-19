@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 15,
+    "completedCount": 16,
     "collectionTotal": 75,
     "completed": [
       {
@@ -863,33 +863,50 @@
           }
         },
         "completedOn": "2026-10-18"
+      },
+      {
+        "sequence": 16,
+        "id": 10,
+        "title": "Πολιτεία",
+        "englishTitle": "The Republic",
+        "koreanTitle": "국가",
+        "status": "completed-and-verified",
+        "koreanImage": "the-republic-v3-integrated-ko.webp",
+        "englishImage": "the-republic-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-19",
+        "sourceNotes": "sources/the-republic-v3-integrated.md",
+        "sources": [
+          "https://classics.mit.edu/Plato/republic.html",
+          "https://classics.mit.edu/Plato/republic.5.iv.html",
+          "https://classics.mit.edu/Plato/republic.8.vii.html",
+          "https://classics.mit.edu/Plato/republic.11.x.html",
+          "https://plato.stanford.edu/entries/plato-ethics-politics/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-republic-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-republic-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-19"
       }
-    ],
-    "inProgress": {
-      "sequence": 16,
-      "id": 10,
-      "title": "Πολιτεία",
-      "englishTitle": "The Republic",
-      "koreanTitle": "국가",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "the-republic-v3-integrated-ko.webp",
-      "englishImage": "the-republic-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-19",
-      "sourceNotes": "sources/the-republic-v3-integrated.md",
-      "sources": [
-        "https://classics.mit.edu/Plato/republic.html",
-        "https://classics.mit.edu/Plato/republic.5.iv.html",
-        "https://classics.mit.edu/Plato/republic.8.vii.html",
-        "https://classics.mit.edu/Plato/republic.11.x.html",
-        "https://plato.stanford.edu/entries/plato-ethics-politics/"
-      ]
-    }
+    ]
   }
 }
