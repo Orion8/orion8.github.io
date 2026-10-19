@@ -907,6 +907,31 @@
         },
         "completedOn": "2026-10-19"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 17,
+      "id": 11,
+      "title": "道德經",
+      "englishTitle": "Daodejing",
+      "koreanTitle": "도덕경",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "daodejing-v3-integrated-ko.webp",
+      "englishImage": "daodejing-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-19",
+      "sourceNotes": "sources/daodejing-v3-integrated.md",
+      "sources": [
+        "https://plato.stanford.edu/entries/laozi/",
+        "https://content.ucpress.edu/title/9780520305571/9780520305571_intro.pdf",
+        "https://www.gutenberg.org/files/49965/49965-h/49965-h.htm",
+        "https://www.penguinrandomhouse.com/books/529321/tao-te-ching-by-lao-tzu-translated-with-an-introduction-and-commentary-by-john-minford/"
+      ]
+    }
   }
 }
