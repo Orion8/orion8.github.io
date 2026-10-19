@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 14,
+    "completedCount": 15,
     "collectionTotal": 75,
     "completed": [
       {
@@ -820,33 +820,50 @@
           }
         },
         "completedOn": "2026-10-18"
+      },
+      {
+        "sequence": 15,
+        "id": 9,
+        "title": "紅樓夢",
+        "englishTitle": "Dream of the Red Chamber",
+        "koreanTitle": "홍루몽",
+        "status": "completed-and-verified",
+        "koreanImage": "dream-of-the-red-chamber-v3-integrated-ko.webp",
+        "englishImage": "dream-of-the-red-chamber-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-18",
+        "sourceNotes": "sources/dream-of-the-red-chamber-v3-integrated.md",
+        "sources": [
+          "https://www.penguin.co.uk/series/STORSTONE/the-story-of-the-stone",
+          "https://hrc.cass.anu.edu.au/events/books-changed-humanity-story-stonedream-red-chamber",
+          "https://open.lib.umn.edu/redchamber/chapter/controversy-over-the-last-40-chapters/",
+          "https://open.lib.umn.edu/redchamber/chapter/jia-baoyu/",
+          "https://open.lib.umn.edu/redchamber/chapter/daily-life-in-the-novel/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/dream-of-the-red-chamber-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/dream-of-the-red-chamber-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-18"
       }
-    ],
-    "inProgress": {
-      "sequence": 15,
-      "id": 9,
-      "title": "紅樓夢",
-      "englishTitle": "Dream of the Red Chamber",
-      "koreanTitle": "홍루몽",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "dream-of-the-red-chamber-v3-integrated-ko.webp",
-      "englishImage": "dream-of-the-red-chamber-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-18",
-      "sourceNotes": "sources/dream-of-the-red-chamber-v3-integrated.md",
-      "sources": [
-        "https://www.penguin.co.uk/series/STORSTONE/the-story-of-the-stone",
-        "https://hrc.cass.anu.edu.au/events/books-changed-humanity-story-stonedream-red-chamber",
-        "https://open.lib.umn.edu/redchamber/chapter/controversy-over-the-last-40-chapters/",
-        "https://open.lib.umn.edu/redchamber/chapter/jia-baoyu/",
-        "https://open.lib.umn.edu/redchamber/chapter/daily-life-in-the-novel/"
-      ]
-    }
+    ]
   }
 }
