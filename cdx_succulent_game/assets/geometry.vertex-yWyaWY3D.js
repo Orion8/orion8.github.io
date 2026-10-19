@@ -1,4 +1,4 @@
-import{t as e}from"./shaderStore-D-XQlhUT.js";import{t}from"./sceneUboDeclaration-B96Tfx7b.js";import{a as n,c as r,d as i,i as a,l as o,n as s,o as c,r as l,s as u,t as d,u as f}from"./clipPlaneVertex-D8i8RFgb.js";import{n as p,t as m}from"./bumpVertex-CxMWhvt-.js";import{t as h}from"./harmonicsFunctions-CMr56qfT.js";var g=`geometryVertexShader`,_=`#include<bonesDeclaration>
+import{t as e}from"./shaderStore-D-XQlhUT.js";import{t}from"./sceneUboDeclaration-B96Tfx7b.js";import{a as n,c as r,d as i,i as a,l as o,n as s,o as c,r as l,s as u,t as d,u as f}from"./clipPlaneVertex-BjlyOJ3Z.js";import{n as p,t as m}from"./bumpVertex-CxMWhvt-.js";import{t as h}from"./harmonicsFunctions-CMr56qfT.js";var g=`geometryVertexShader`,_=`#include<bonesDeclaration>
 #include<bakedVertexAnimationDeclaration>
 #include<morphTargetsVertexGlobalDeclaration>
 #include<morphTargetsVertexDeclaration>[0..maxSimultaneousMorphTargets]
@@ -209,4 +209,4 @@ vertexOutputs.vEnvironmentIrradiance=computeEnvironmentIrradiance(reflectionVect
 #endif
 #endif
 }
-`;e.ShadersStoreWGSL[g]||(e.ShadersStoreWGSL[g]=_);var v=[i,f,o,r,p,t,u,h,c,n,a,l,s,d,m];for(let t of v)e.IncludesShadersStoreWGSL[t.name]||(e.IncludesShadersStoreWGSL[t.name]=t.shader);var y={name:g,shader:_};export{y as geometryVertexShaderWGSL};
+`;e.ShadersStoreWGSL[g]||(e.ShadersStoreWGSL[g]=_);var v=[i,f,r,u,p,t,o,h,c,n,a,l,s,d,m];for(let t of v)e.IncludesShadersStoreWGSL[t.name]||(e.IncludesShadersStoreWGSL[t.name]=t.shader);var y={name:g,shader:_};export{y as geometryVertexShaderWGSL};

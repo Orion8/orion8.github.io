@@ -2,10 +2,4 @@ import{t as e}from"./shaderStore-D-XQlhUT.js";import"./sceneUboDeclaration-B96Tf
 #define ADDITIONAL_UBO_DECLARATION
 #include<sceneUboDeclaration>
 #include<meshUboDeclaration>
-`;e.IncludesShadersStoreWGSL[t]||(e.IncludesShadersStoreWGSL[t]=n);var r={name:t,shader:n},i=`mainUVVaryingDeclaration`,a=`#ifdef MAINUV{X}
-varying vMainUV{X}: vec2f;
-#endif
-`;e.IncludesShadersStoreWGSL[i]||(e.IncludesShadersStoreWGSL[i]=a);var o={name:i,shader:a},s=`logDepthDeclaration`,c=`#ifdef LOGARITHMICDEPTH
-uniform logarithmicDepthConstant: f32;varying vFragmentDepth: f32;
-#endif
-`;e.IncludesShadersStoreWGSL[s]||(e.IncludesShadersStoreWGSL[s]=c);var l={name:s,shader:c};export{o as n,r,l as t};
+`;e.IncludesShadersStoreWGSL[t]||(e.IncludesShadersStoreWGSL[t]=n);var r={name:t,shader:n};export{r as t};

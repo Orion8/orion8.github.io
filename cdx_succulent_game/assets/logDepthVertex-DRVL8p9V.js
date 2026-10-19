@@ -1,7 +1,7 @@
-import{t as e}from"./shaderStore-D-XQlhUT.js";import{t}from"./helperFunctions-BH8P-eyq.js";import{t as n}from"./sceneUboDeclaration-B96Tfx7b.js";import{t as r}from"./pbrBRDFFunctions-DxfbxN23.js";import{a as ee,c as te,d as ne,i as re,l as ie,n as ae,o as oe,r as i,s as a,t as o,u as s}from"./clipPlaneVertex-D8i8RFgb.js";import{n as c,t as l}from"./bumpVertex-CxMWhvt-.js";import{t as u}from"./harmonicsFunctions-CMr56qfT.js";import{t as d}from"./meshUboDeclaration-BATNZvmb.js";import{n as f,r as p,t as m}from"./logDepthDeclaration-Qv4ogAAa.js";var h=`uvAttributeDeclaration`,g=`#if defined(UV{X}) && !defined(USE_VERTEX_PULLING)
+import{t as e}from"./shaderStore-D-XQlhUT.js";var t=`uvAttributeDeclaration`,n=`#if defined(UV{X}) && !defined(USE_VERTEX_PULLING)
 attribute uv{X}: vec2f;
 #endif
-`;e.IncludesShadersStoreWGSL[h]||(e.IncludesShadersStoreWGSL[h]=g);var _={name:h,shader:g},v=`prePassVertexDeclaration`,y=`#ifdef PREPASS
+`;e.IncludesShadersStoreWGSL[t]||(e.IncludesShadersStoreWGSL[t]=n);var r={name:t,shader:n},i=`prePassVertexDeclaration`,a=`#ifdef PREPASS
 #ifdef PREPASS_LOCAL_POSITION
 varying vPosition : vec3f;
 #endif
@@ -15,18 +15,18 @@ varying vNormViewDepth: f32;
 uniform previousViewProjection: mat4x4f;varying vCurrentPosition: vec4f;varying vPreviousPosition: vec4f;
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[v]||(e.IncludesShadersStoreWGSL[v]=y);var se={name:v,shader:y},b=`samplerVertexDeclaration`,x=`#if defined(_DEFINENAME_) && _DEFINENAME_DIRECTUV==0
+`;e.IncludesShadersStoreWGSL[i]||(e.IncludesShadersStoreWGSL[i]=a);var o={name:i,shader:a},s=`samplerVertexDeclaration`,c=`#if defined(_DEFINENAME_) && _DEFINENAME_DIRECTUV==0
 varying v_VARYINGNAME_UV: vec2f;
 #endif
-`;e.IncludesShadersStoreWGSL[b]||(e.IncludesShadersStoreWGSL[b]=x);var ce={name:b,shader:x},S=`bumpVertexDeclaration`,C=`#if defined(BUMP) || defined(PARALLAX) || defined(CLEARCOAT_BUMP) || defined(ANISOTROPIC)
+`;e.IncludesShadersStoreWGSL[s]||(e.IncludesShadersStoreWGSL[s]=c);var l={name:s,shader:c},u=`bumpVertexDeclaration`,d=`#if defined(BUMP) || defined(PARALLAX) || defined(CLEARCOAT_BUMP) || defined(ANISOTROPIC)
 #if defined(TANGENT) && defined(NORMAL) 
 varying vTBN0: vec3f;varying vTBN1: vec3f;varying vTBN2: vec3f;
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[S]||(e.IncludesShadersStoreWGSL[S]=C);var le={name:S,shader:C},w=`fogVertexDeclaration`,T=`#ifdef FOG
+`;e.IncludesShadersStoreWGSL[u]||(e.IncludesShadersStoreWGSL[u]=d);var f={name:u,shader:d},p=`fogVertexDeclaration`,m=`#ifdef FOG
 varying vFogDistance: vec3f;
 #endif
-`;e.IncludesShadersStoreWGSL[w]||(e.IncludesShadersStoreWGSL[w]=T);var E={name:w,shader:T},D=`lightVxUboDeclaration`,O=`#ifdef LIGHT{X}
+`;e.IncludesShadersStoreWGSL[p]||(e.IncludesShadersStoreWGSL[p]=m);var h={name:p,shader:m},g=`lightVxUboDeclaration`,_=`#ifdef LIGHT{X}
 struct Light{X}
 {vLightData: vec4f,
 vLightDiffuse: vec4f,
@@ -57,7 +57,7 @@ varying vPositionFromLight{X}: vec4f;varying vDepthMetric{X}: f32;uniform lightM
 #endif
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[D]||(e.IncludesShadersStoreWGSL[D]=O);var k={name:D,shader:O},A=`vertexPullingDeclaration`,j=`#ifdef USE_VERTEX_PULLING
+`;e.IncludesShadersStoreWGSL[g]||(e.IncludesShadersStoreWGSL[g]=_);var v={name:g,shader:_},y=`vertexPullingDeclaration`,b=`#ifdef USE_VERTEX_PULLING
 #ifdef VERTEX_PULLING_USE_INDEX_BUFFER
 var<storage,read> indices : array<u32>;
 #endif
@@ -235,7 +235,7 @@ vp_readMatrixWeightExtraValue(offset+cs*3u,dataType,normalized)
 #endif
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[A]||(e.IncludesShadersStoreWGSL[A]=j);var M={name:A,shader:j},N=`vertexPullingVertex`,P=`#ifdef USE_VERTEX_PULLING
+`;e.IncludesShadersStoreWGSL[y]||(e.IncludesShadersStoreWGSL[y]=b);var x={name:y,shader:b},S=`vertexPullingVertex`,C=`#ifdef USE_VERTEX_PULLING
 let vpVertexIndex: u32=vp_readVertexIndex(vertexInputs.vertexIndex);positionUpdated=vp_readPosition(uniforms.vp_position_info,vpVertexIndex);
 #ifdef NORMAL
 normalUpdated=vp_readNormal(uniforms.vp_normal_info,vpVertexIndex);
@@ -289,7 +289,7 @@ var vp_matricesIndicesExtra: vec4f=vp_readBoneIndicesExtra(uniforms.vp_matricesI
 #endif
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[N]||(e.IncludesShadersStoreWGSL[N]=P);var F={name:N,shader:P},I=`prePassVertex`,L=`#ifdef PREPASS_DEPTH
+`;e.IncludesShadersStoreWGSL[S]||(e.IncludesShadersStoreWGSL[S]=C);var w={name:S,shader:C},T=`prePassVertex`,E=`#ifdef PREPASS_DEPTH
 vertexOutputs.vViewPos=(scene.view*worldPos).rgb;
 #endif
 #ifdef PREPASS_NORMALIZED_VIEW_DEPTH
@@ -328,7 +328,7 @@ vertexOutputs.vPreviousPosition=uniforms.previousViewProjection*finalPreviousWor
 vertexOutputs.vPreviousPosition=uniforms.previousViewProjection*finalPreviousWorld* vec4f(positionUpdated,1.0);
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[I]||(e.IncludesShadersStoreWGSL[I]=L);var R={name:I,shader:L},z=`uvVariableDeclaration`,B=`#ifdef MAINUV{X}
+`;e.IncludesShadersStoreWGSL[T]||(e.IncludesShadersStoreWGSL[T]=E);var D={name:T,shader:E},O=`uvVariableDeclaration`,k=`#ifdef MAINUV{X}
 #if !defined(UV{X})
 var uv{X}: vec2f=vec2f(0.,0.);
 #elif defined(USE_VERTEX_PULLING)
@@ -338,7 +338,7 @@ var uv{X}: vec2f=vertexInputs.uv{X};
 #endif
 vertexOutputs.vMainUV{X}=uv{X};
 #endif
-`;e.IncludesShadersStoreWGSL[z]||(e.IncludesShadersStoreWGSL[z]=B);var ue={name:z,shader:B},V=`samplerVertexImplementation`,H=`#if defined(_DEFINENAME_) && _DEFINENAME_DIRECTUV==0
+`;e.IncludesShadersStoreWGSL[O]||(e.IncludesShadersStoreWGSL[O]=k);var A={name:O,shader:k},j=`samplerVertexImplementation`,M=`#if defined(_DEFINENAME_) && _DEFINENAME_DIRECTUV==0
 if (uniforms.v_INFONAME_==0.)
 {vertexOutputs.v_VARYINGNAME_UV= (uniforms._MATRIXNAME_Matrix* vec4f(uvUpdated,1.0,0.0)).xy;}
 #ifdef UV2
@@ -362,14 +362,14 @@ else if (uniforms.v_INFONAME_==5.)
 {vertexOutputs.v_VARYINGNAME_UV= (uniforms._MATRIXNAME_Matrix* vec4f(vertexInputs.uv6,1.0,0.0)).xy;}
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[V]||(e.IncludesShadersStoreWGSL[V]=H);var U={name:V,shader:H},W=`fogVertex`,G=`#ifdef FOG
+`;e.IncludesShadersStoreWGSL[j]||(e.IncludesShadersStoreWGSL[j]=M);var N={name:j,shader:M},P=`fogVertex`,F=`#ifdef FOG
 #ifdef SCENE_UBO
 vertexOutputs.vFogDistance=(scene.view*worldPos).xyz;
 #else
 vertexOutputs.vFogDistance=(uniforms.view*worldPos).xyz;
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[W]||(e.IncludesShadersStoreWGSL[W]=G);var de={name:W,shader:G},K=`shadowsVertex`,q=`#ifdef SHADOWS
+`;e.IncludesShadersStoreWGSL[P]||(e.IncludesShadersStoreWGSL[P]=F);var I={name:P,shader:F},L=`shadowsVertex`,R=`#ifdef SHADOWS
 #if defined(SHADOWCSM{X})
 #ifdef SCENE_UBO
 vertexOutputs.vPositionFromCamera{X}=scene.view*worldPos;
@@ -417,7 +417,7 @@ vertexOutputs.vDepthMetric{X}=(vertexOutputs.vPositionFromLight{X}.z+light{X}.de
 #endif
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[K]||(e.IncludesShadersStoreWGSL[K]=q);var fe={name:K,shader:q},J=`vertexColorMixing`,Y=`#if defined(VERTEXCOLOR) || defined(INSTANCESCOLOR) && defined(INSTANCES)
+`;e.IncludesShadersStoreWGSL[L]||(e.IncludesShadersStoreWGSL[L]=R);var z={name:L,shader:R},B=`vertexColorMixing`,V=`#if defined(VERTEXCOLOR) || defined(INSTANCESCOLOR) && defined(INSTANCES)
 vertexOutputs.vColor=vec4f(1.0);
 #ifdef VERTEXCOLOR
 #ifdef VERTEXALPHA
@@ -430,261 +430,7 @@ vertexOutputs.vColor=vec4f(vertexOutputs.vColor.rgb*colorUpdated.rgb,vertexOutpu
 vertexOutputs.vColor*=vertexInputs.instanceColor;
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[J]||(e.IncludesShadersStoreWGSL[J]=Y);var pe={name:J,shader:Y},X=`logDepthVertex`,Z=`#ifdef LOGARITHMICDEPTH
+`;e.IncludesShadersStoreWGSL[B]||(e.IncludesShadersStoreWGSL[B]=V);var H={name:B,shader:V},U=`logDepthVertex`,W=`#ifdef LOGARITHMICDEPTH
 vertexOutputs.vFragmentDepth=1.0+vertexOutputs.position.w;vertexOutputs.position.z=log2(max(0.000001,vertexOutputs.vFragmentDepth))*uniforms.logarithmicDepthConstant;
 #endif
-`;e.IncludesShadersStoreWGSL[X]||(e.IncludesShadersStoreWGSL[X]=Z);var me={name:X,shader:Z},Q=`pbrVertexShader`,$=`#define PBR_VERTEX_SHADER
-#include<pbrUboDeclaration>
-#define CUSTOM_VERTEX_BEGIN
-#ifndef USE_VERTEX_PULLING
-attribute position: vec3f;
-#ifdef NORMAL
-attribute normal: vec3f;
-#endif
-#ifdef TANGENT
-attribute tangent: vec4f;
-#endif
-#ifdef UV1
-attribute uv: vec2f;
-#endif
-#include<uvAttributeDeclaration>[2..7]
-#ifdef VERTEXCOLOR
-attribute color: vec4f;
-#endif
-#endif
-#include<mainUVVaryingDeclaration>[1..7]
-#include<helperFunctions>
-#include<pbrBRDFFunctions>
-#include<bonesDeclaration>
-#include<bakedVertexAnimationDeclaration>
-#include<instancesDeclaration>
-#include<prePassVertexDeclaration>
-#include<samplerVertexDeclaration>(_DEFINENAME_,ALBEDO,_VARYINGNAME_,Albedo)
-#include<samplerVertexDeclaration>(_DEFINENAME_,BASE_WEIGHT,_VARYINGNAME_,BaseWeight)
-#include<samplerVertexDeclaration>(_DEFINENAME_,BASE_DIFFUSE_ROUGHNESS,_VARYINGNAME_,BaseDiffuseRoughness)
-#include<samplerVertexDeclaration>(_DEFINENAME_,DETAIL,_VARYINGNAME_,Detail)
-#include<samplerVertexDeclaration>(_DEFINENAME_,AMBIENT,_VARYINGNAME_,Ambient)
-#include<samplerVertexDeclaration>(_DEFINENAME_,OPACITY,_VARYINGNAME_,Opacity)
-#include<samplerVertexDeclaration>(_DEFINENAME_,EMISSIVE,_VARYINGNAME_,Emissive)
-#include<samplerVertexDeclaration>(_DEFINENAME_,LIGHTMAP,_VARYINGNAME_,Lightmap)
-#include<samplerVertexDeclaration>(_DEFINENAME_,REFLECTIVITY,_VARYINGNAME_,Reflectivity)
-#include<samplerVertexDeclaration>(_DEFINENAME_,MICROSURFACEMAP,_VARYINGNAME_,MicroSurfaceSampler)
-#include<samplerVertexDeclaration>(_DEFINENAME_,METALLIC_REFLECTANCE,_VARYINGNAME_,MetallicReflectance)
-#include<samplerVertexDeclaration>(_DEFINENAME_,REFLECTANCE,_VARYINGNAME_,Reflectance)
-#include<samplerVertexDeclaration>(_DEFINENAME_,BUMP,_VARYINGNAME_,Bump)
-#include<samplerVertexDeclaration>(_DEFINENAME_,DECAL,_VARYINGNAME_,Decal)
-#ifdef CLEARCOAT
-#include<samplerVertexDeclaration>(_DEFINENAME_,CLEARCOAT_TEXTURE,_VARYINGNAME_,ClearCoat)
-#include<samplerVertexDeclaration>(_DEFINENAME_,CLEARCOAT_TEXTURE_ROUGHNESS,_VARYINGNAME_,ClearCoatRoughness)
-#include<samplerVertexDeclaration>(_DEFINENAME_,CLEARCOAT_BUMP,_VARYINGNAME_,ClearCoatBump)
-#include<samplerVertexDeclaration>(_DEFINENAME_,CLEARCOAT_TINT_TEXTURE,_VARYINGNAME_,ClearCoatTint)
-#endif
-#ifdef IRIDESCENCE
-#include<samplerVertexDeclaration>(_DEFINENAME_,IRIDESCENCE_TEXTURE,_VARYINGNAME_,Iridescence)
-#include<samplerVertexDeclaration>(_DEFINENAME_,IRIDESCENCE_THICKNESS_TEXTURE,_VARYINGNAME_,IridescenceThickness)
-#endif
-#ifdef SHEEN
-#include<samplerVertexDeclaration>(_DEFINENAME_,SHEEN_TEXTURE,_VARYINGNAME_,Sheen)
-#include<samplerVertexDeclaration>(_DEFINENAME_,SHEEN_TEXTURE_ROUGHNESS,_VARYINGNAME_,SheenRoughness)
-#endif
-#ifdef ANISOTROPIC
-#include<samplerVertexDeclaration>(_DEFINENAME_,ANISOTROPIC_TEXTURE,_VARYINGNAME_,Anisotropy)
-#endif
-#ifdef SUBSURFACE
-#include<samplerVertexDeclaration>(_DEFINENAME_,SS_THICKNESSANDMASK_TEXTURE,_VARYINGNAME_,Thickness)
-#include<samplerVertexDeclaration>(_DEFINENAME_,SS_REFRACTIONINTENSITY_TEXTURE,_VARYINGNAME_,RefractionIntensity)
-#include<samplerVertexDeclaration>(_DEFINENAME_,SS_TRANSLUCENCYINTENSITY_TEXTURE,_VARYINGNAME_,TranslucencyIntensity)
-#include<samplerVertexDeclaration>(_DEFINENAME_,SS_TRANSLUCENCYCOLOR_TEXTURE,_VARYINGNAME_,TranslucencyColor)
-#endif
-varying vPositionW: vec3f;
-#if DEBUGMODE>0
-varying vClipSpacePosition: vec4f;
-#endif
-#ifdef NORMAL
-varying vNormalW: vec3f;
-#if defined(USESPHERICALFROMREFLECTIONMAP) && defined(USESPHERICALINVERTEX)
-varying vEnvironmentIrradiance: vec3f;
-#include<harmonicsFunctions>
-#endif
-#endif
-#if defined(VERTEXCOLOR) || defined(INSTANCESCOLOR) && defined(INSTANCES)
-varying vColor: vec4f;
-#endif
-#include<bumpVertexDeclaration>
-#include<clipPlaneVertexDeclaration>
-#include<fogVertexDeclaration>
-#include<lightVxUboDeclaration>[0..maxSimultaneousLights]
-#include<morphTargetsVertexGlobalDeclaration>
-#include<morphTargetsVertexDeclaration>[0..maxSimultaneousMorphTargets]
-#ifdef REFLECTIONMAP_SKYBOX
-varying vPositionUVW: vec3f;
-#endif
-#if defined(REFLECTIONMAP_EQUIRECTANGULAR_FIXED) || defined(REFLECTIONMAP_MIRROREDEQUIRECTANGULAR_FIXED)
-varying vDirectionW: vec3f;
-#endif
-#if defined(CLUSTLIGHT_BATCH) && CLUSTLIGHT_BATCH>0
-varying vViewDepth: f32;
-#endif
-#include<logDepthDeclaration>
-#include<vertexPullingDeclaration>
-#define CUSTOM_VERTEX_DEFINITIONS
-@vertex
-fn main(input : VertexInputs)->FragmentInputs {
-#define CUSTOM_VERTEX_MAIN_BEGIN
-#ifdef USE_VERTEX_PULLING
-var positionUpdated: vec3f=vec3f(0.0);
-#ifdef NORMAL
-var normalUpdated: vec3f=vec3f(0.0);
-#endif
-#ifdef TANGENT
-var tangentUpdated: vec4f=vec4f(0.0);
-#endif
-#ifdef UV1
-var uvUpdated: vec2f=vec2f(0.0);
-#endif
-#ifdef UV2
-var uv2Updated: vec2f=vec2f(0.0);
-#endif
-#ifdef VERTEXCOLOR
-var colorUpdated: vec4f=vec4f(0.0);
-#endif
-#else
-var positionUpdated: vec3f=vertexInputs.position;
-#ifdef NORMAL
-var normalUpdated: vec3f=vertexInputs.normal;
-#endif
-#ifdef TANGENT
-var tangentUpdated: vec4f=vertexInputs.tangent;
-#endif
-#ifdef UV1
-var uvUpdated: vec2f=vertexInputs.uv;
-#endif
-#ifdef UV2
-var uv2Updated: vec2f=vertexInputs.uv2;
-#endif
-#ifdef VERTEXCOLOR
-var colorUpdated: vec4f=vertexInputs.color;
-#endif
-#endif
-#include<vertexPullingVertex>
-#include<morphTargetsVertexGlobal>
-#include<morphTargetsVertex>[0..maxSimultaneousMorphTargets]
-#ifdef REFLECTIONMAP_SKYBOX
-vertexOutputs.vPositionUVW=positionUpdated;
-#endif
-#define CUSTOM_VERTEX_UPDATE_POSITION
-#define CUSTOM_VERTEX_UPDATE_NORMAL
-#include<instancesVertex>
-#if defined(PREPASS) && ((defined(PREPASS_VELOCITY) || defined(PREPASS_VELOCITY_LINEAR)) && !defined(BONES_VELOCITY_ENABLED)
-vertexOutputs.vCurrentPosition=scene.viewProjection*finalWorld*vec4f(positionUpdated,1.0);vertexOutputs.vPreviousPosition=uniforms.previousViewProjection*finalPreviousWorld*vec4f(positionUpdated,1.0);
-#endif
-#ifdef USE_VERTEX_PULLING
-#include<bonesVertex>(vertexInputs.matricesIndices,vp_matricesIndices,vertexInputs.matricesWeights,vp_matricesWeights,vertexInputs.matricesIndicesExtra,vp_matricesIndicesExtra,vertexInputs.matricesWeightsExtra,vp_matricesWeightsExtra)
-#include<bakedVertexAnimation>(vertexInputs.matricesIndices,vp_matricesIndices,vertexInputs.matricesWeights,vp_matricesWeights,vertexInputs.matricesIndicesExtra,vp_matricesIndicesExtra,vertexInputs.matricesWeightsExtra,vp_matricesWeightsExtra)
-#else
-#include<bonesVertex>
-#include<bakedVertexAnimation>
-#endif
-var worldPos: vec4f=finalWorld* vec4f(positionUpdated,1.0);vertexOutputs.vPositionW= worldPos.xyz;
-#ifdef PREPASS
-#include<prePassVertex>
-#endif
-#ifdef NORMAL
-var normalWorld: mat3x3f= mat3x3f(finalWorld[0].xyz,finalWorld[1].xyz,finalWorld[2].xyz);
-#if defined(INSTANCES) && defined(THIN_INSTANCES)
-vertexOutputs.vNormalW=normalUpdated/ vec3f(dot(normalWorld[0],normalWorld[0]),dot(normalWorld[1],normalWorld[1]),dot(normalWorld[2],normalWorld[2]));vertexOutputs.vNormalW=normalize(normalWorld*vertexOutputs.vNormalW);
-#else
-#ifdef NONUNIFORMSCALING
-normalWorld=transposeMat3(inverseMat3(normalWorld));
-#endif
-vertexOutputs.vNormalW=normalize(normalWorld*normalUpdated);
-#endif
-#if defined(USESPHERICALFROMREFLECTIONMAP) && defined(USESPHERICALINVERTEX)
-#if BASE_DIFFUSE_MODEL != BRDF_DIFFUSE_MODEL_LAMBERT && BASE_DIFFUSE_MODEL != BRDF_DIFFUSE_MODEL_LEGACY
-var viewDirectionW: vec3f=normalize(scene.vEyePosition.xyz-vertexOutputs.vPositionW);var NdotV: f32=max(dot(vertexOutputs.vNormalW,viewDirectionW),0.0);var roughNormal: vec3f=mix(vertexOutputs.vNormalW,viewDirectionW,(0.5*(1.0-NdotV))*uniforms.baseDiffuseRoughness);var reflectionVector: vec3f= (uniforms.reflectionMatrix* vec4f(roughNormal,0)).xyz;
-#else
-var reflectionVector: vec3f= (uniforms.reflectionMatrix* vec4f(vertexOutputs.vNormalW,0)).xyz;
-#endif
-#ifdef REFLECTIONMAP_OPPOSITEZ
-reflectionVector.z*=-1.0;
-#endif
-vertexOutputs.vEnvironmentIrradiance=computeEnvironmentIrradiance(reflectionVector);
-#endif
-#endif
-#define CUSTOM_VERTEX_UPDATE_WORLDPOS
-#ifdef MULTIVIEW
-if (gl_ViewID_OVR==0u) {vertexOutputs.position=scene.viewProjection*worldPos;} else {vertexOutputs.position=scene.viewProjectionR*worldPos;}
-#else
-vertexOutputs.position=scene.viewProjection*worldPos;
-#endif
-#if DEBUGMODE>0
-vertexOutputs.vClipSpacePosition=vertexOutputs.position;
-#endif
-#if defined(REFLECTIONMAP_EQUIRECTANGULAR_FIXED) || defined(REFLECTIONMAP_MIRROREDEQUIRECTANGULAR_FIXED)
-vertexOutputs.vDirectionW=normalize((finalWorld*vec4f(positionUpdated,0.0)).xyz);
-#endif
-#if defined(CLUSTLIGHT_BATCH) && CLUSTLIGHT_BATCH>0
-#ifdef RIGHT_HANDED
-vertexOutputs.vViewDepth=-(scene.view*worldPos).z;
-#else
-vertexOutputs.vViewDepth=(scene.view*worldPos).z;
-#endif
-#endif
-#ifndef UV1
-var uvUpdated: vec2f= vec2f(0.,0.);
-#endif
-#ifdef MAINUV1
-vertexOutputs.vMainUV1=uvUpdated;
-#endif
-#ifndef UV2
-var uv2Updated: vec2f= vec2f(0.,0.);
-#endif
-#ifdef MAINUV2
-vertexOutputs.vMainUV2=uv2Updated;
-#endif
-#include<uvVariableDeclaration>[3..7]
-#include<samplerVertexImplementation>(_DEFINENAME_,ALBEDO,_VARYINGNAME_,Albedo,_MATRIXNAME_,albedo,_INFONAME_,AlbedoInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,BASE_WEIGHT,_VARYINGNAME_,BaseWeight,_MATRIXNAME_,baseWeight,_INFONAME_,BaseWeightInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,BASE_DIFFUSE_ROUGHNESS,_VARYINGNAME_,BaseDiffuseRoughness,_MATRIXNAME_,baseDiffuseRoughness,_INFONAME_,BaseDiffuseRoughnessInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,DETAIL,_VARYINGNAME_,Detail,_MATRIXNAME_,detail,_INFONAME_,DetailInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,AMBIENT,_VARYINGNAME_,Ambient,_MATRIXNAME_,ambient,_INFONAME_,AmbientInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,OPACITY,_VARYINGNAME_,Opacity,_MATRIXNAME_,opacity,_INFONAME_,OpacityInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,EMISSIVE,_VARYINGNAME_,Emissive,_MATRIXNAME_,emissive,_INFONAME_,EmissiveInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,LIGHTMAP,_VARYINGNAME_,Lightmap,_MATRIXNAME_,lightmap,_INFONAME_,LightmapInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,REFLECTIVITY,_VARYINGNAME_,Reflectivity,_MATRIXNAME_,reflectivity,_INFONAME_,ReflectivityInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,MICROSURFACEMAP,_VARYINGNAME_,MicroSurfaceSampler,_MATRIXNAME_,microSurfaceSampler,_INFONAME_,MicroSurfaceSamplerInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,METALLIC_REFLECTANCE,_VARYINGNAME_,MetallicReflectance,_MATRIXNAME_,metallicReflectance,_INFONAME_,MetallicReflectanceInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,REFLECTANCE,_VARYINGNAME_,Reflectance,_MATRIXNAME_,reflectance,_INFONAME_,ReflectanceInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,BUMP,_VARYINGNAME_,Bump,_MATRIXNAME_,bump,_INFONAME_,BumpInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,DECAL,_VARYINGNAME_,Decal,_MATRIXNAME_,decal,_INFONAME_,DecalInfos.x)
-#ifdef CLEARCOAT
-#include<samplerVertexImplementation>(_DEFINENAME_,CLEARCOAT_TEXTURE,_VARYINGNAME_,ClearCoat,_MATRIXNAME_,clearCoat,_INFONAME_,ClearCoatInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,CLEARCOAT_TEXTURE_ROUGHNESS,_VARYINGNAME_,ClearCoatRoughness,_MATRIXNAME_,clearCoatRoughness,_INFONAME_,ClearCoatInfos.z)
-#include<samplerVertexImplementation>(_DEFINENAME_,CLEARCOAT_BUMP,_VARYINGNAME_,ClearCoatBump,_MATRIXNAME_,clearCoatBump,_INFONAME_,ClearCoatBumpInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,CLEARCOAT_TINT_TEXTURE,_VARYINGNAME_,ClearCoatTint,_MATRIXNAME_,clearCoatTint,_INFONAME_,ClearCoatTintInfos.x)
-#endif
-#ifdef IRIDESCENCE
-#include<samplerVertexImplementation>(_DEFINENAME_,IRIDESCENCE_TEXTURE,_VARYINGNAME_,Iridescence,_MATRIXNAME_,iridescence,_INFONAME_,IridescenceInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,IRIDESCENCE_THICKNESS_TEXTURE,_VARYINGNAME_,IridescenceThickness,_MATRIXNAME_,iridescenceThickness,_INFONAME_,IridescenceInfos.z)
-#endif
-#ifdef SHEEN
-#include<samplerVertexImplementation>(_DEFINENAME_,SHEEN_TEXTURE,_VARYINGNAME_,Sheen,_MATRIXNAME_,sheen,_INFONAME_,SheenInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,SHEEN_TEXTURE_ROUGHNESS,_VARYINGNAME_,SheenRoughness,_MATRIXNAME_,sheenRoughness,_INFONAME_,SheenInfos.z)
-#endif
-#ifdef ANISOTROPIC
-#include<samplerVertexImplementation>(_DEFINENAME_,ANISOTROPIC_TEXTURE,_VARYINGNAME_,Anisotropy,_MATRIXNAME_,anisotropy,_INFONAME_,AnisotropyInfos.x)
-#endif
-#ifdef SUBSURFACE
-#include<samplerVertexImplementation>(_DEFINENAME_,SS_THICKNESSANDMASK_TEXTURE,_VARYINGNAME_,Thickness,_MATRIXNAME_,thickness,_INFONAME_,ThicknessInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,SS_REFRACTIONINTENSITY_TEXTURE,_VARYINGNAME_,RefractionIntensity,_MATRIXNAME_,refractionIntensity,_INFONAME_,RefractionIntensityInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,SS_TRANSLUCENCYINTENSITY_TEXTURE,_VARYINGNAME_,TranslucencyIntensity,_MATRIXNAME_,translucencyIntensity,_INFONAME_,TranslucencyIntensityInfos.x)
-#include<samplerVertexImplementation>(_DEFINENAME_,SS_TRANSLUCENCYCOLOR_TEXTURE,_VARYINGNAME_,TranslucencyColor,_MATRIXNAME_,translucencyColor,_INFONAME_,TranslucencyColorInfos.x)
-#endif
-#include<bumpVertex>
-#include<clipPlaneVertex>
-#include<fogVertex>
-#include<shadowsVertex>[0..maxSimultaneousLights]
-#include<vertexColorMixing>
-#include<logDepthVertex>
-#define CUSTOM_VERTEX_MAIN_END
-}`;e.ShadersStoreWGSL[Q]||(e.ShadersStoreWGSL[Q]=$);var he=[n,d,p,_,f,t,r,ne,s,c,se,ce,u,le,a,E,k,ie,te,m,M,F,oe,ee,re,i,ae,R,ue,U,l,o,de,fe,pe,me];for(let t of he)e.IncludesShadersStoreWGSL[t.name]||(e.IncludesShadersStoreWGSL[t.name]=t.shader);var ge={name:Q,shader:$};export{ge as pbrVertexShaderWGSL};
+`;e.IncludesShadersStoreWGSL[U]||(e.IncludesShadersStoreWGSL[U]=W);var G={name:U,shader:W};export{N as a,w as c,h as d,f,r as h,I as i,x as l,o as m,H as n,A as o,l as p,z as r,D as s,G as t,v as u};

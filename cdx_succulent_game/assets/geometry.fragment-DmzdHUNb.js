@@ -1,4 +1,4 @@
-import{t as e}from"./shaderStore-D-XQlhUT.js";import{a as t,c as n,i as r,n as i,o as a,r as o,s,t as c}from"./bumpFragment-CTevZrZb.js";import{n as l,t as u}from"./clipPlaneFragment-Ct2VqHzk.js";import{t as d}from"./helperFunctions-BH8P-eyq.js";import{t as f}from"./sceneUboDeclaration-B96Tfx7b.js";import{t as p}from"./pbrBRDFFunctions-DxfbxN23.js";var m=`openpbrDielectricReflectance`,h=`struct ReflectanceParams
+import{t as e}from"./shaderStore-D-XQlhUT.js";import{t}from"./sceneUboDeclaration-B96Tfx7b.js";import{a as n,i as r,n as i,o as a,r as o,t as s}from"./bumpFragment-BNg6pO9F.js";import{t as c}from"./helperFunctions-BH8P-eyq.js";import{n as l,t as u}from"./clipPlaneFragment-Ct2VqHzk.js";import{n as d,t as f}from"./pbrIBLFunctions-b8fwQKtH.js";import{t as p}from"./pbrBRDFFunctions-DxfbxN23.js";var m=`openpbrDielectricReflectance`,h=`struct ReflectanceParams
 {F0: f32,
 F90: f32,
 coloredF0: vec3f,
@@ -648,4 +648,4 @@ fragmentOutputs.fragData7=fragData[7];
 #endif
 #endif
 }
-`;e.ShadersStoreWGSL[k]||(e.ShadersStoreWGSL[k]=A);var j=[n,l,s,a,t,d,r,f,p,g,o,i,y,S,u,c,T,O];for(let t of j)e.IncludesShadersStoreWGSL[t.name]||(e.IncludesShadersStoreWGSL[t.name]=t.shader);var M={name:k,shader:A};export{M as geometryPixelShaderWGSL};
+`;e.ShadersStoreWGSL[k]||(e.ShadersStoreWGSL[k]=A);var j=[a,l,o,n,i,c,d,t,p,g,f,r,y,S,u,s,T,O];for(let t of j)e.IncludesShadersStoreWGSL[t.name]||(e.IncludesShadersStoreWGSL[t.name]=t.shader);var M={name:k,shader:A};export{M as geometryPixelShaderWGSL};

@@ -46,7 +46,25 @@ float offset=index*4.0;float frameUV=(frame+0.5)*bakedVertexAnimationTextureSize
 #endif
 }
 #endif
-`;e.IncludesShadersStore[i]||(e.IncludesShadersStore[i]=a);var o={name:i,shader:a},s=`morphTargetsVertexGlobalDeclaration`,c=`#ifdef MORPHTARGETS
+`;e.IncludesShadersStore[i]||(e.IncludesShadersStore[i]=a);var o={name:i,shader:a},s=`clipPlaneVertexDeclaration`,c=`#ifdef CLIPPLANE
+uniform vec4 vClipPlane;varying float fClipDistance;
+#endif
+#ifdef CLIPPLANE2
+uniform vec4 vClipPlane2;varying float fClipDistance2;
+#endif
+#ifdef CLIPPLANE3
+uniform vec4 vClipPlane3;varying float fClipDistance3;
+#endif
+#ifdef CLIPPLANE4
+uniform vec4 vClipPlane4;varying float fClipDistance4;
+#endif
+#ifdef CLIPPLANE5
+uniform vec4 vClipPlane5;varying float fClipDistance5;
+#endif
+#ifdef CLIPPLANE6
+uniform vec4 vClipPlane6;varying float fClipDistance6;
+#endif
+`;e.IncludesShadersStore[s]||(e.IncludesShadersStore[s]=c);var l={name:s,shader:c},u=`morphTargetsVertexGlobalDeclaration`,d=`#ifdef MORPHTARGETS
 uniform float morphTargetInfluences[NUM_MORPH_INFLUENCERS];
 #ifdef MORPHTARGETS_TEXTURE 
 uniform float morphTargetTextureIndices[NUM_MORPH_INFLUENCERS];uniform vec3 morphTargetTextureInfo;uniform highp sampler2DArray morphTargets;vec3 readVector3FromRawSampler(int targetIndex,float vertexIndex)
@@ -67,7 +85,7 @@ float y=floor(vertexIndex/morphTargetTextureInfo.y);float x=vertexIndex-y*morphT
 }
 #endif
 #endif
-`;e.IncludesShadersStore[s]||(e.IncludesShadersStore[s]=c);var l={name:s,shader:c},u=`morphTargetsVertexDeclaration`,d=`#ifdef MORPHTARGETS
+`;e.IncludesShadersStore[u]||(e.IncludesShadersStore[u]=d);var f={name:u,shader:d},p=`morphTargetsVertexDeclaration`,m=`#ifdef MORPHTARGETS
 #ifndef MORPHTARGETS_TEXTURE
 #ifdef MORPHTARGETS_POSITION
 attribute vec3 position{X};
@@ -90,24 +108,6 @@ attribute vec4 color{X};
 #elif {X}==0
 uniform float morphTargetCount;
 #endif
-#endif
-`;e.IncludesShadersStore[u]||(e.IncludesShadersStore[u]=d);var f={name:u,shader:d},p=`clipPlaneVertexDeclaration`,m=`#ifdef CLIPPLANE
-uniform vec4 vClipPlane;varying float fClipDistance;
-#endif
-#ifdef CLIPPLANE2
-uniform vec4 vClipPlane2;varying float fClipDistance2;
-#endif
-#ifdef CLIPPLANE3
-uniform vec4 vClipPlane3;varying float fClipDistance3;
-#endif
-#ifdef CLIPPLANE4
-uniform vec4 vClipPlane4;varying float fClipDistance4;
-#endif
-#ifdef CLIPPLANE5
-uniform vec4 vClipPlane5;varying float fClipDistance5;
-#endif
-#ifdef CLIPPLANE6
-uniform vec4 vClipPlane6;varying float fClipDistance6;
 #endif
 `;e.IncludesShadersStore[p]||(e.IncludesShadersStore[p]=m);var h={name:p,shader:m},g=`morphTargetsVertexGlobal`,_=`#ifdef MORPHTARGETS
 #ifdef MORPHTARGETS_TEXTURE

@@ -6,10 +6,10 @@
     <meta name="theme-color" content="#f4f3ef" />
     <meta
       name="description"
-      content="다육이 화분 하나를 가까이, 여러 방향으로 바라보는 창가의 시간의 첫 3D 장면."
+      content="다육이 화분을 가까이 살펴보고 햇빛 드는 창가에 놓아 보는 창가의 시간."
     />
     <title>창가의 시간 · 첫 화분</title>
-    <script type="module" crossorigin src="/cdx_succulent_game/assets/index-B5bHdxY6.js"></script>
+    <script type="module" crossorigin src="/cdx_succulent_game/assets/index-D0gZeyYY.js"></script>
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/engineStore-Bn2tApal.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/internalTexture-B3djGrls.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/logger-CuBYPcDK.js">
@@ -20,8 +20,8 @@
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/math.scalar.functions-Bcxiuh2E.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/halfFloat-Cfx5m4ll.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/math.color.pure-BKetBbK_.js">
-    <link rel="stylesheet" crossorigin href="/cdx_succulent_game/assets/index-oS_ZAZmc.css">
-    <meta name="game-version" content="0.1.0+build.11.1">
+    <link rel="stylesheet" crossorigin href="/cdx_succulent_game/assets/index-D20DEdBe.css">
+    <meta name="game-version" content="0.1.0+build.12.1">
   </head>
   <body>
     <aside id="build-badge" aria-label="실행 버전">
@@ -29,7 +29,7 @@
     </aside>
     <header class="identity">
       <h1>창가의 시간</h1>
-      <p>첫 번째 화분</p>
+      <p id="scene-caption">첫 번째 화분</p>
     </header>
     <main aria-label="다육이 화분 관찰">
       <canvas
@@ -40,24 +40,29 @@
       ></canvas>
       <p id="render-status" role="status" aria-live="polite">작은 화분을 준비하고 있어요.</p>
       <div class="observation-tools">
-        <div
-          id="view-controls"
-          class="view-controls"
-          role="group"
-          aria-label="화분 보기 조작"
-          hidden
-        >
-          <button type="button" data-action="out" aria-label="축소" title="축소">−</button>
-          <button
-            type="button"
-            data-action="reset"
-            class="reset"
-            aria-label="처음 시점으로"
-            title="처음 시점으로"
+        <div class="control-row">
+          <div
+            id="view-controls"
+            class="view-controls"
+            role="group"
+            aria-label="화분 보기 조작"
+            hidden
           >
-            처음 시점
+            <button type="button" data-action="out" aria-label="축소" title="축소">−</button>
+            <button
+              type="button"
+              data-action="reset"
+              class="reset"
+              aria-label="처음 시점으로"
+              title="처음 시점으로"
+            >
+              처음 시점
+            </button>
+            <button type="button" data-action="in" aria-label="확대" title="확대">+</button>
+          </div>
+          <button id="scene-toggle" class="scene-toggle" type="button" aria-controls="scene" hidden>
+            창가에 놓기
           </button>
-          <button type="button" data-action="in" aria-label="확대" title="확대">+</button>
         </div>
         <p id="gesture-hint">
           <span class="desktop-hint">드래그로 회전 · 휠로 확대</span

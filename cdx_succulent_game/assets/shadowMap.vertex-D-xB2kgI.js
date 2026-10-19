@@ -1,4 +1,4 @@
-import{t as e}from"./shaderStore-D-XQlhUT.js";import{t}from"./helperFunctions-BH8P-eyq.js";import{t as n}from"./sceneUboDeclaration-B96Tfx7b.js";import{a as r,c as i,d as a,i as o,l as s,n as c,o as l,r as u,s as d,t as f,u as p}from"./clipPlaneVertex-D8i8RFgb.js";import{t as m}from"./meshUboDeclaration-BATNZvmb.js";var h=`shadowMapVertexExtraDeclaration`,g=`#if SM_NORMALBIAS==1
+import{t as e}from"./shaderStore-D-XQlhUT.js";import{t}from"./sceneUboDeclaration-B96Tfx7b.js";import{t as n}from"./meshUboDeclaration-BATNZvmb.js";import{t as r}from"./helperFunctions-BH8P-eyq.js";import{a as i,c as a,d as o,i as s,l as c,n as l,o as u,r as d,s as f,t as p,u as m}from"./clipPlaneVertex-BjlyOJ3Z.js";var h=`shadowMapVertexExtraDeclaration`,g=`#if SM_NORMALBIAS==1
 uniform lightDataSM: vec3f;
 #endif
 uniform biasAndScaleSM: vec3f;uniform depthValuesSM: vec2f;varying vDepthMetricSM: f32;
@@ -106,4 +106,4 @@ vertexOutputs.vUV= (uniforms.diffuseMatrix* vec4f(uv2Updated,1.0,0.0)).xy;
 #endif
 #endif
 #include<clipPlaneVertex>
-}`;e.ShadersStoreWGSL[w]||(e.ShadersStoreWGSL[w]=T);var E=[a,p,s,i,t,n,m,_,d,l,r,o,u,c,b,C,f];for(let t of E)e.IncludesShadersStoreWGSL[t.name]||(e.IncludesShadersStoreWGSL[t.name]=t.shader);var D={name:w,shader:T};export{D as shadowMapVertexShaderWGSL};
+}`;e.ShadersStoreWGSL[w]||(e.ShadersStoreWGSL[w]=T);var E=[o,m,a,f,r,t,n,_,c,u,i,s,d,l,b,C,p];for(let t of E)e.IncludesShadersStoreWGSL[t.name]||(e.IncludesShadersStoreWGSL[t.name]=t.shader);var D={name:w,shader:T};export{D as shadowMapVertexShaderWGSL};

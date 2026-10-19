@@ -1,4 +1,4 @@
-import{t as e}from"./shaderStore-D-XQlhUT.js";import{a as t,c as n,i as r,n as i,o as a,r as o,s,t as c}from"./bumpFragment-twPvj_t2.js";import{n as l,t as u}from"./clipPlaneFragment-DVK0wgyZ.js";import{t as d}from"./helperFunctions-gEnZbjN3.js";import{t as f}from"./sceneUboDeclaration-B5VhSG0v.js";import{t as p}from"./pbrBRDFFunctions-BCNINF-p.js";var m=`mrtFragmentDeclaration`,h=`#if defined(WEBGL2) || defined(WEBGPU) || defined(NATIVE)
+import{t as e}from"./shaderStore-D-XQlhUT.js";import{t}from"./sceneUboDeclaration-B5VhSG0v.js";import{a as n,i as r,n as i,o as a,r as o,t as s}from"./bumpFragment-Dy5wKBof.js";import{t as c}from"./helperFunctions-gEnZbjN3.js";import{n as l,t as u}from"./clipPlaneFragment-DVK0wgyZ.js";import{n as d,t as f}from"./pbrIBLFunctions-CSlJv7qb.js";import{t as p}from"./pbrBRDFFunctions-BCNINF-p.js";var m=`mrtFragmentDeclaration`,h=`#if defined(WEBGL2) || defined(WEBGPU) || defined(NATIVE)
 #ifdef MESH_BLEND_TAG
 #if {X}>0
 #if MESH_BLEND_TAG_INDEX==0
@@ -680,4 +680,4 @@ irradiance_alpha=min(subsurface_weight+transmission_weight,1.0);
 WRITE_GEOMETRY_FRAGMENT_OUTPUT(IRRADIANCE_INDEX,vec4(irradiance,irradiance_alpha));
 #endif
 }
-`;e.ShadersStore[F]||(e.ShadersStore[F]=I);var L=[n,l,g,s,a,t,d,r,y,f,p,S,o,i,T,O,u,c,j,P];for(let t of L)e.IncludesShadersStore[t.name]||(e.IncludesShadersStore[t.name]=t.shader);var R={name:F,shader:I};export{R as geometryPixelShader};
+`;e.ShadersStore[F]||(e.ShadersStore[F]=I);var L=[a,l,g,o,n,i,c,d,y,t,p,S,f,r,T,O,u,s,j,P];for(let t of L)e.IncludesShadersStore[t.name]||(e.IncludesShadersStore[t.name]=t.shader);var R={name:F,shader:I};export{R as geometryPixelShader};

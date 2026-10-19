@@ -29,7 +29,25 @@ attribute bakedVertexAnimationSettingsInstanced : vec4<f32>;
 fn readMatrixFromRawSamplerVAT(smp : texture_2d<f32>,index : f32,frame : f32)->mat4x4<f32>
 {let offset=i32(index)*4;let frameUV=i32(frame);let m0=textureLoad(smp,vec2<i32>(offset+0,frameUV),0);let m1=textureLoad(smp,vec2<i32>(offset+1,frameUV),0);let m2=textureLoad(smp,vec2<i32>(offset+2,frameUV),0);let m3=textureLoad(smp,vec2<i32>(offset+3,frameUV),0);return mat4x4<f32>(m0,m1,m2,m3);}
 #endif
-`;e.IncludesShadersStoreWGSL[i]||(e.IncludesShadersStoreWGSL[i]=a);var o={name:i,shader:a},s=`morphTargetsVertexGlobalDeclaration`,c=`#ifdef MORPHTARGETS
+`;e.IncludesShadersStoreWGSL[i]||(e.IncludesShadersStoreWGSL[i]=a);var o={name:i,shader:a},s=`clipPlaneVertexDeclaration`,c=`#ifdef CLIPPLANE
+uniform vClipPlane: vec4<f32>;varying fClipDistance: f32;
+#endif
+#ifdef CLIPPLANE2
+uniform vClipPlane2: vec4<f32>;varying fClipDistance2: f32;
+#endif
+#ifdef CLIPPLANE3
+uniform vClipPlane3: vec4<f32>;varying fClipDistance3: f32;
+#endif
+#ifdef CLIPPLANE4
+uniform vClipPlane4: vec4<f32>;varying fClipDistance4: f32;
+#endif
+#ifdef CLIPPLANE5
+uniform vClipPlane5: vec4<f32>;varying fClipDistance5: f32;
+#endif
+#ifdef CLIPPLANE6
+uniform vClipPlane6: vec4<f32>;varying fClipDistance6: f32;
+#endif
+`;e.IncludesShadersStoreWGSL[s]||(e.IncludesShadersStoreWGSL[s]=c);var l={name:s,shader:c},u=`morphTargetsVertexGlobalDeclaration`,d=`#ifdef MORPHTARGETS
 uniform morphTargetInfluences : array<f32,NUM_MORPH_INFLUENCERS>;
 #ifdef MORPHTARGETS_TEXTURE 
 uniform morphTargetTextureIndices : array<f32,NUM_MORPH_INFLUENCERS>;uniform morphTargetTextureInfo : vec3<f32>;var morphTargets : texture_2d_array<f32>;fn readVector3FromRawSampler(targetIndex : i32,vertexIndex : f32)->vec3<f32>
@@ -41,7 +59,7 @@ let textureWidth: i32=i32(uniforms.morphTargetTextureInfo.y);
 let y: i32=i32(vertexIndex)/textureWidth;let x: i32=i32(vertexIndex) % textureWidth;return textureLoad(morphTargets,vec2i(x,y),i32(uniforms.morphTargetTextureIndices[targetIndex]),0);}
 #endif
 #endif
-`;e.IncludesShadersStoreWGSL[s]||(e.IncludesShadersStoreWGSL[s]=c);var l={name:s,shader:c},u=`morphTargetsVertexDeclaration`,d=`#ifdef MORPHTARGETS
+`;e.IncludesShadersStoreWGSL[u]||(e.IncludesShadersStoreWGSL[u]=d);var f={name:u,shader:d},p=`morphTargetsVertexDeclaration`,m=`#ifdef MORPHTARGETS
 #ifndef MORPHTARGETS_TEXTURE
 #ifdef MORPHTARGETS_POSITION
 attribute position{X} : vec3<f32>;
@@ -64,24 +82,6 @@ attribute color{X} : vec4<f32>;
 #elif {X}==0
 uniform morphTargetCount: f32;
 #endif
-#endif
-`;e.IncludesShadersStoreWGSL[u]||(e.IncludesShadersStoreWGSL[u]=d);var f={name:u,shader:d},p=`clipPlaneVertexDeclaration`,m=`#ifdef CLIPPLANE
-uniform vClipPlane: vec4<f32>;varying fClipDistance: f32;
-#endif
-#ifdef CLIPPLANE2
-uniform vClipPlane2: vec4<f32>;varying fClipDistance2: f32;
-#endif
-#ifdef CLIPPLANE3
-uniform vClipPlane3: vec4<f32>;varying fClipDistance3: f32;
-#endif
-#ifdef CLIPPLANE4
-uniform vClipPlane4: vec4<f32>;varying fClipDistance4: f32;
-#endif
-#ifdef CLIPPLANE5
-uniform vClipPlane5: vec4<f32>;varying fClipDistance5: f32;
-#endif
-#ifdef CLIPPLANE6
-uniform vClipPlane6: vec4<f32>;varying fClipDistance6: f32;
 #endif
 `;e.IncludesShadersStoreWGSL[p]||(e.IncludesShadersStoreWGSL[p]=m);var h={name:p,shader:m},g=`morphTargetsVertexGlobal`,_=`#ifdef MORPHTARGETS
 #ifdef MORPHTARGETS_TEXTURE

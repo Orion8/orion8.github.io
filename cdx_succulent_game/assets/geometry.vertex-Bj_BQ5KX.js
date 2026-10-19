@@ -1,4 +1,4 @@
-import{t as e}from"./shaderStore-D-XQlhUT.js";import{t}from"./sceneUboDeclaration-B5VhSG0v.js";import{a as n,c as r,d as i,i as a,l as o,n as s,o as c,r as l,s as u,t as d,u as f}from"./clipPlaneVertex-kepLFcc-.js";import{n as p,t as m}from"./bumpVertex-DiBXqM5h.js";import{t as h}from"./harmonicsFunctions-QSz_WdsQ.js";var g=`geometryVertexDeclaration`,_=`uniform mat4 viewProjection;uniform mat4 view;`;e.IncludesShadersStore[g]||(e.IncludesShadersStore[g]=_);var v={name:g,shader:_},y=`geometryUboDeclaration`,b=`#include<sceneUboDeclaration>
+import{t as e}from"./shaderStore-D-XQlhUT.js";import{t}from"./sceneUboDeclaration-B5VhSG0v.js";import{a as n,c as r,d as i,i as a,l as o,n as s,o as c,r as l,s as u,t as d,u as f}from"./clipPlaneVertex-D0NeDy6h.js";import{n as p,t as m}from"./bumpVertex-DiBXqM5h.js";import{t as h}from"./harmonicsFunctions-QSz_WdsQ.js";var g=`geometryVertexDeclaration`,_=`uniform mat4 viewProjection;uniform mat4 view;`;e.IncludesShadersStore[g]||(e.IncludesShadersStore[g]=_);var v={name:g,shader:_},y=`geometryUboDeclaration`,b=`#include<sceneUboDeclaration>
 `;e.IncludesShadersStore[y]||(e.IncludesShadersStore[y]=b);var x={name:y,shader:b},S=`geometryVertexShader`,C=`precision highp float;
 #include<bonesDeclaration>
 #include<bakedVertexAnimationDeclaration>
@@ -211,4 +211,4 @@ vEnvironmentIrradiance=computeEnvironmentIrradiance(reflectionVector)*vReflectio
 #endif
 #endif
 }
-`;e.ShadersStore[S]||(e.ShadersStore[S]=C);var w=[i,f,o,r,p,v,t,x,u,h,c,n,a,l,s,d,m];for(let t of w)e.IncludesShadersStore[t.name]||(e.IncludesShadersStore[t.name]=t.shader);var T={name:S,shader:C};export{T as geometryVertexShader};
+`;e.ShadersStore[S]||(e.ShadersStore[S]=C);var w=[i,f,r,u,p,v,t,x,o,h,c,n,a,l,s,d,m];for(let t of w)e.IncludesShadersStore[t.name]||(e.IncludesShadersStore[t.name]=t.shader);var T={name:S,shader:C};export{T as geometryVertexShader};
