@@ -1,8 +1,204 @@
 {
-  "catalogVersion": "0.0.172",
-  "updatedAt": "2026-10-19T06:07:06.976Z",
+  "catalogVersion": "0.0.173",
+  "updatedAt": "2026-10-19T19:17:31.888Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-0d1ca7925e7422f4d2945ba6",
+      "title": "자녀 굶겨 죽이라 지시한 케냐 컬트 지도자, 191건의 살인 유죄 판결",
+      "titleTranslations": {
+        "en": "Kenya cult leader who told parents to starve children guilty of 191 murders"
+      },
+      "startAt": "2026-10-19T17:18:04.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "자칭 목사 폴 매켄지가 부모들에게 자녀를 굶기라고 지시한 혐의 등을 포함해 191건의 살인 혐의에 대해 유죄 판결을 받았다고 보도됐다. 보도는 유죄 가운데 대부분이 어린이와 관련됐다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Self‑proclaimed pastor Paul Mackenzie has been found guilty on 191 murder charges, reporting says. Coverage notes that the vast majority of the convictions involve children."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-19T17:18:04.000Z",
+        "lastObservedAt": "2026-10-19T19:17:31.888Z"
+      }
+    },
+    {
+      "id": "news-766a23e8525d3c02e7a4feb2",
+      "title": "수단 시장 인근 드론 공격으로 80명 사망",
+      "titleTranslations": {
+        "en": "Drone attack near market kills 80 in Sudan"
+      },
+      "startAt": "2026-10-19T14:45:53.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언 보도는 수단 서 코르두판주 알‑디밥의 교통 허브 인근 시장에서 일어난 드론 공격으로 일요일 저녁 약 80명이 사망했다고 전했다. 보도는 희생자 대부분이 귀가를 위해 교통편을 기다리던 통근자들이었다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports a drone strike near a transport hub in al‑Dibab, West Kordofan, killed about 80 people on Sunday evening. Coverage says most of the victims were commuters waiting for rides home."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
+        ],
+        "firstPublishedAt": "2026-10-19T14:45:53.000Z",
+        "lastObservedAt": "2026-10-19T19:17:31.888Z"
+      }
+    },
+    {
+      "id": "news-ceb85490656a3dea7afe7688",
+      "title": "집 판매자들, 하루 3,000건 매매가 인하—15년 만의 최고치",
+      "titleTranslations": {
+        "en": "Home sellers cut asking prices on 3,000 properties a day"
+      },
+      "startAt": "2026-10-19T12:54:03.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC가 공유한 데이터에 따르면 하루 약 3,000건의 매물가격이 인하되며, 매매 희망가 인하 건수는 15년 만에 가장 많은 수준이라고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Data shared with the BBC shows about 3,000 property asking prices are being cut each day, the highest rate in 15 years, reporting says."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c84g13z6xx4eo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c84g13z6xx4eo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-19T12:54:03.000Z",
+        "lastObservedAt": "2026-10-19T19:17:31.888Z"
+      }
+    },
+    {
+      "id": "news-eddb5d017fd2cee9119b22d2",
+      "title": "앤트로픽, ‘공익’ 기금에 지분 5% 출연 약속",
+      "titleTranslations": {
+        "en": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’"
+      },
+      "startAt": "2026-10-19T12:51:04.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "앤트로픽은 상장을 앞두고 지분 5%를 ‘공익’을 위한 기금에 출연하겠다고 발표했다고 보도됐다. 보도는 해당 지분이 5월 기준 최신 기업가치로 약 480억 달러 상당이라고 전했고, 주주 승인 조건과 함께 가치가 기준선보다 50% 오를 때마다 추가로 2%를 기부한다는 방침도 보도했다.",
+      "descriptionTranslations": {
+        "en": "Anthropic has said it will commit 5% of its shares to a fund for the 'public good' ahead of a stock market listing, reporting says. Coverage notes the shares were worth about $48bn at its latest May valuation, the move is subject to shareholder approval, and the company would add a further 2% for every 50% increase in value above an undisclosed baseline."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good"
+        ],
+        "firstPublishedAt": "2026-10-19T12:51:04.000Z",
+        "lastObservedAt": "2026-10-19T19:17:31.888Z"
+      }
+    },
+    {
+      "id": "news-3f74e87dc29c538b58b24f79",
+      "title": "ESA 유클리드 우주망원경, 미지의 혜성 첫 발견",
+      "titleTranslations": {
+        "en": "Euclid discovers new comet"
+      },
+      "startAt": "2026-10-19T12:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유럽우주국(ESA)은 유클리드 우주망원경이 2026년 9월 16~24일 촬영한 이미지에서 이전에 알려지지 않은 혜성을 발견했다고 발표했다.",
+      "descriptionTranslations": {
+        "en": "The European Space Agency says its Euclid space telescope discovered a previously unknown comet in images taken between 16 and 24 September 2026."
+      },
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+        ],
+        "firstPublishedAt": "2026-10-19T12:00:00.000Z",
+        "lastObservedAt": "2026-10-19T19:17:31.888Z"
+      }
+    },
+    {
+      "id": "news-32e90d6004276724e234f56c",
+      "title": "미 재난 생존자들, 최소 100억달러 연방 복구자금 대기",
+      "titleTranslations": {
+        "en": "US disaster survivors still await at least $10bn in federal aid: ‘It’s devastating’"
+      },
+      "startAt": "2026-10-19T10:00:03.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "가디언은 미국 내 극한기상 피해 지역의 장기 복구를 위한 연방 자금이 최소 100억 달러 이상 필요하다고 정부 관리들이 추정한다고 보도했다. 보도는 마지막 장기 복구기금이 2024년 허리케인 밀튼 때 배정됐다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that government officials estimate more than $10bn is needed in long‑term federal recovery funding to rebuild communities affected by extreme weather in the US. The coverage notes the last long‑term recovery funds were allocated for Hurricane Milton in 2024."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/19/us-disaster-survivor-payouts-fema",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/19/us-disaster-survivor-payouts-fema"
+        ],
+        "firstPublishedAt": "2026-10-19T10:00:03.000Z",
+        "lastObservedAt": "2026-10-19T19:17:31.888Z"
+      }
+    },
+    {
+      "id": "news-34b9cbcc7b7b0b2ca2b878e9",
+      "title": "영국 정부, 항공 장애인 승객 보호 강화 약속",
+      "titleTranslations": {
+        "en": "UK government promises disabled air passengers better safeguards"
+      },
+      "startAt": "2026-10-19T07:00:21.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "영국 정부는 손상된 휠체어에 대한 보상과 훈련된 직원의 지원 등 장애인 항공 승객의 보호를 강화하겠다고 약속했다고 보도됐다. 업계 주도 접근그룹의 보고서는 진전이 있었지만 여전히 '더 많은 조치가 필요하다'고 평가했다.",
+      "descriptionTranslations": {
+        "en": "The UK government has pledged stronger safeguards for disabled air passengers, including protection for damaged wheelchairs and support from trained staff, reporting says. An industry‑led accessibility group's report said progress has been made but more remains to be done."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/19/uk-government-promises-disabled-air-passengers-better-safeguards",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/19/uk-government-promises-disabled-air-passengers-better-safeguards"
+        ],
+        "firstPublishedAt": "2026-10-19T07:00:21.000Z",
+        "lastObservedAt": "2026-10-19T19:17:31.888Z"
+      }
+    },
     {
       "id": "news-28c133f0806d21029cefec3f",
       "title": "원데이 국제(ODI) 크리켓 판도를 바꾼 규칙 변경 영향 분석",
@@ -169,6 +365,36 @@
         ],
         "firstPublishedAt": "2026-10-18T23:01:12.000Z",
         "lastObservedAt": "2026-10-19T06:07:06.975Z"
+      }
+    },
+    {
+      "id": "news-5edf6b0b57bd4a5472eb4c75",
+      "title": "염증성 장질환, 진단 10년 전 경고 신호 포착 가능성 연구",
+      "titleTranslations": {
+        "en": "Warning signs could predict inflammatory bowel disease a decade before diagnosis"
+      },
+      "startAt": "2026-10-18T22:01:10.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "연구자들은 혈액 속 항체 패턴이 크론병과 궤양성대장염 같은 염증성 장질환(IBD)의 발병을 진단보다 최대 10년 앞서 예측할 수 있음을 시사하는 결과를 발표했다고 보도됐다. 보도는 이 발견이 조기 발견과 잠재적 예방의 길을 열 수 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Researchers report that patterns of antibodies in blood could predict onset of inflammatory bowel disease (IBD) up to a decade before diagnosis, coverage says. The reporting notes the finding could enable earlier detection and potentially prevention."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/18/research-predict-inflammatory-bowel-disease-decade-before-diagnosis",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/18/research-predict-inflammatory-bowel-disease-decade-before-diagnosis"
+        ],
+        "firstPublishedAt": "2026-10-18T22:01:10.000Z",
+        "lastObservedAt": "2026-10-19T19:17:31.888Z"
       }
     },
     {
@@ -1399,34 +1625,6 @@
       }
     },
     {
-      "id": "news-9e6806e699cfb7bb7e72e290",
-      "title": "이스라엘, 2023년 이후 팔레스타인 아동 2,000명 이상 구금",
-      "titleTranslations": {
-        "en": "Israel has detained more than 2,000 Palestinian children since 2023"
-      },
-      "startAt": "2026-10-15T04:43:15.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보고서는 2023년 이후 이스라엘이 2,000명 이상(어린이)을 구금했으며, 최소 350명의 팔레스타인 아동이 현재 이스라엘 교도소에서 '가혹한 조건'에 직면해 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The report says Israel has detained more than 2,000 Palestinian children since 2023, and that at least 350 Palestinian children currently face 'harsh conditions' in Israeli prisons."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/15/israel-has-detained-more-than-2000-palestinian-children-since-2023-report?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/15/israel-has-detained-more-than-2000-palestinian-children-since-2023-report?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-15T04:43:15.000Z",
-        "lastObservedAt": "2026-10-15T05:51:51.961Z"
-      }
-    },
-    {
       "id": "news-0b7274ba05c98359d99b394f",
       "title": "앤트로픽, 상장 전 투자자에 매출 급증 보고",
       "titleTranslations": {
@@ -1451,34 +1649,6 @@
           "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-15T04:19:17.000Z",
-        "lastObservedAt": "2026-10-15T05:51:51.961Z"
-      }
-    },
-    {
-      "id": "news-43ffee1ed695d91c615266bc",
-      "title": "브라질 의회, 주당 근로시간을 최대 40시간으로 단축하는 헌법 개정안 통과",
-      "titleTranslations": {
-        "en": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff"
-      },
-      "startAt": "2026-10-15T02:45:42.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "의회는 최대 주당 근로시간을 40시간으로 단축하고 6일제 근무를 금지하는 헌법 개정안을 승인했다. 이 조치는 최대 3,000만 명의 노동자에게 영향을 미칠 수 있으며, 결선투표를 앞둔 대통령 루이스 이나시우 룰라 다 시우바에게 정치적 승리를 안겨주었다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Congress approved a constitutional amendment to shorten the working week to a maximum of 40 hours and ban six‑day workweeks. The move could affect up to 30 million workers and was reported as a political victory for President Luiz Inácio Lula da Silva ahead of the presidential runoff."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff"
-        ],
-        "firstPublishedAt": "2026-10-15T02:45:42.000Z",
         "lastObservedAt": "2026-10-15T05:51:51.961Z"
       }
     },
@@ -1797,90 +1967,6 @@
       }
     },
     {
-      "id": "news-9c4c927e6cfff2ec2b3a6bf3",
-      "title": "IMF, AI주 관련 주가 붕괴 위험이 세계 금융안정 위협 가능성 경고",
-      "titleTranslations": {
-        "en": "IMF warns that an AI stock‑price crash could threaten global financial stability"
-      },
-      "startAt": "2026-10-13T12:30:01.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "국제통화기금(IMF)은 고평가된 AI 기업들의 주가 급락과 이들 기업의 증가한 부채가 금융시스템의 취약성을 높여 세계 금융안정을 위협할 수 있다고 경고했다. 보고서는 정부 차원의 차입·사이버공격 위험 등도 함께 지목했다.",
-      "descriptionTranslations": {
-        "en": "The International Monetary Fund warned that sky‑high valuations in AI stocks and rising debt among AI firms could elevate systemic risks and threaten global financial stability. The IMF’s report also flagged risks from sovereign borrowing and cyberattacks."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks"
-        ],
-        "firstPublishedAt": "2026-10-13T12:30:01.000Z",
-        "lastObservedAt": "2026-10-13T19:51:52.841Z"
-      }
-    },
-    {
-      "id": "news-5d19b3ca69a98ff1198ab399",
-      "title": "연구진, 캘리포니아 켈프 숲 복원을 위해 태양무늬성게(해성) 복원 시도",
-      "titleTranslations": {
-        "en": "Scientists deploy sunflower sea stars to help restore California’s kelp forests"
-      },
-      "startAt": "2026-10-13T12:00:01.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "몬터레이 연안 연구팀과 비영리단체는 지난 10년간 태평양 연안에서 95% 가까이 줄어든 해양생태계 복원을 위해 해성(해성성게 유사 종) 복원 작업을 개시했다. 팀은 번식·방사 등 직접 개입을 통해 켈프 숲 회복을 도모하고 있다.",
-      "descriptionTranslations": {
-        "en": "Researchers off the coast of Monterey and a nonprofit have begun efforts to restore the sunflower sea star — a keystone species that has been nearly decimated (about 95% decline) along Pacific coast kelp forests over the past decade — through breeding and reintroduction work aimed at recovering kelp ecosystems."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/13/sunflower-sea-star-california-kelp-forests",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/13/sunflower-sea-star-california-kelp-forests"
-        ],
-        "firstPublishedAt": "2026-10-13T12:00:01.000Z",
-        "lastObservedAt": "2026-10-13T19:51:52.841Z"
-      }
-    },
-    {
-      "id": "news-1697c0accd91f236677afa10",
-      "title": "IMF로부터 본 영국 경제의 핵심 세 가지 — 성장 상향에도 불확실성 존재",
-      "titleTranslations": {
-        "en": "Three key takeaways about the UK economy from the IMF"
-      },
-      "startAt": "2026-10-13T11:58:43.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "국제통화기금(IMF)은 올해 영국 성장 전망을 상향 조정했지만 여전히 리스크가 남아있다고 평가했다. BBC는 IMF 관측을 바탕으로 경제 회복의 신호와 재정·외부 위험 등이 병존한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The IMF has upgraded its growth forecast for the UK this year but warns that risks remain. The BBC highlights the IMF’s assessment that while some recovery signs exist, fiscal and external vulnerabilities continue to pose challenges."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmly05l1g15yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmly05l1g15yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-13T11:58:43.000Z",
-        "lastObservedAt": "2026-10-13T19:51:52.841Z"
-      }
-    },
-    {
       "id": "news-5142995a1ac90d87163682f0",
       "title": "NASA·스페이스X CRS‑35, 우주정거장 향해 인간·식물·약물 연구 수송",
       "titleTranslations": {
@@ -1906,34 +1992,6 @@
         ],
         "firstPublishedAt": "2026-10-12T17:45:27.000Z",
         "lastObservedAt": "2026-10-12T21:43:38.927Z"
-      }
-    },
-    {
-      "id": "news-8f122a9cc1aea0774e9fbcc9",
-      "title": "연방법원 판사, 트럼프가 확장 계획을 추진 중인 워싱턴 골프장 나무 절단 일시 중단 명령",
-      "titleTranslations": {
-        "en": "Federal judge orders temporary halt to tree removal at Washington golf course linked to Trump's expansion plans"
-      },
-      "startAt": "2026-10-12T16:55:37.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "미 연방지방법원 판사 아나 레예스는 워싱턴의 역사적 이스트 포토맥 골프장의 나무 절단을 24시간 동안 중단하라고 명령했다. 판사는 원고들이 임박한 불가역적 피해를 입을 가능성이 높다며 '일상적 유지관리'라는 이유로 나무 절단이 면제되지 않는다고 적시했다. 이 조처는 트럼프 측의 골프장 확장 계획을 둘러싼 소송 진행 중 내려진 긴급 조치다.",
-      "descriptionTranslations": {
-        "en": "U.S. district judge Ana Reyes ordered a 24‑hour halt to tree cutting at the historic East Potomac golf course in Washington. She wrote that plaintiffs are likely to suffer immediate and irreparable harm and that tree removal is not exempt as 'routine maintenance'. The emergency order was issued amid litigation challenging plans by Trump‑linked parties to expand the course."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/12/order-halt-tree-removal-washington-dc-golf-course-trump",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/12/order-halt-tree-removal-washington-dc-golf-course-trump"
-        ],
-        "firstPublishedAt": "2026-10-12T16:55:37.000Z",
-        "lastObservedAt": "2026-10-13T07:40:53.402Z"
       }
     },
     {
@@ -2447,34 +2505,6 @@
         ],
         "firstPublishedAt": "2026-09-30T23:00:00.000Z",
         "lastObservedAt": "2026-10-01T07:10:03.687Z"
-      }
-    },
-    {
-      "id": "news-3bf2aef00178636c4b6cc3b2",
-      "title": "유럽‑중국 공동 SMILE 미션, 9월 과학 운용 시작 선언",
-      "titleTranslations": {
-        "en": "Science begins for Smile"
-      },
-      "startAt": "2026-09-30T07:05:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)은 5월 19일 발사된 유럽‑중국 합동 SMILE 우주선이 우주에서의 점검 기간을 마치고 표적 궤도에 도달한 뒤(6월 20일) 9월 23일부터 과학 운영을 시작할 준비가 됐다고 선언했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency said the European‑Chinese SMILE mission, launched on 19 May and having completed commissioning and reached its target orbit on 20 June, was declared ready to begin science operations on 23 September."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile"
-        ],
-        "firstPublishedAt": "2026-09-30T07:05:00.000Z",
-        "lastObservedAt": "2026-09-30T18:26:05.533Z"
       }
     },
     {
