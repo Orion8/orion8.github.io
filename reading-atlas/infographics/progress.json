@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 17,
+    "completedCount": 18,
     "collectionTotal": 75,
     "completed": [
       {
@@ -948,34 +948,51 @@
           }
         },
         "completedOn": "2026-10-19"
+      },
+      {
+        "sequence": 18,
+        "id": 12,
+        "title": "An Enquiry Concerning Human Understanding",
+        "koreanTitle": "인간 지성에 관한 탐구",
+        "status": "completed-and-verified",
+        "koreanImage": "enquiry-human-understanding-v3-integrated-ko.webp",
+        "englishImage": "enquiry-human-understanding-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-19",
+        "sourceNotes": "sources/enquiry-human-understanding-v3-integrated.md",
+        "sources": [
+          "https://davidhume.org/texts/e/",
+          "https://davidhume.org/texts/e/notes",
+          "https://davidhume.org/texts/e/2",
+          "https://davidhume.org/texts/e/4",
+          "https://davidhume.org/texts/e/5",
+          "https://davidhume.org/texts/e/7",
+          "https://davidhume.org/texts/e/12"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/enquiry-human-understanding-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/enquiry-human-understanding-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-19"
       }
-    ],
-    "inProgress": {
-      "sequence": 18,
-      "id": 12,
-      "title": "An Enquiry Concerning Human Understanding",
-      "koreanTitle": "인간 지성에 관한 탐구",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "enquiry-human-understanding-v3-integrated-ko.webp",
-      "englishImage": "enquiry-human-understanding-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-19",
-      "sourceNotes": "sources/enquiry-human-understanding-v3-integrated.md",
-      "sources": [
-        "https://davidhume.org/texts/e/",
-        "https://davidhume.org/texts/e/notes",
-        "https://davidhume.org/texts/e/2",
-        "https://davidhume.org/texts/e/4",
-        "https://davidhume.org/texts/e/5",
-        "https://davidhume.org/texts/e/7",
-        "https://davidhume.org/texts/e/12"
-      ]
-    }
+    ]
   }
 }
