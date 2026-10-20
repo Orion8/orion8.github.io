@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 22,
+    "completedCount": 23,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1162,32 +1162,49 @@
           }
         },
         "completedOn": "2026-10-20"
+      },
+      {
+        "sequence": 23,
+        "id": 17,
+        "title": "भगवद्गीता",
+        "englishTitle": "The Bhagavad Gita",
+        "koreanTitle": "바가바드 기타",
+        "status": "completed-and-verified",
+        "koreanImage": "bhagavad-gita-v3-integrated-ko.webp",
+        "englishImage": "bhagavad-gita-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-20",
+        "sourceNotes": "sources/bhagavad-gita-v3-integrated.md",
+        "sources": [
+          "https://www.gitasupersite.iitk.ac.in/srimad/intro",
+          "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&field_chapter_value=18&field_nsutra_value=66&language=dv&scms=1",
+          "https://academic.oup.com/reference/62357/reference-article-abstract/554517840",
+          "https://www.penguinrandomhouse.com/books/286340/the-bhagavad-gita-by-anonymous-translated-by-juan-mascaro-introduction-by-simon-brodbeck/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/bhagavad-gita-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/bhagavad-gita-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-20"
       }
-    ],
-    "inProgress": {
-      "sequence": 23,
-      "id": 17,
-      "title": "भगवद्गीता",
-      "englishTitle": "The Bhagavad Gita",
-      "koreanTitle": "바가바드 기타",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "bhagavad-gita-v3-integrated-ko.webp",
-      "englishImage": "bhagavad-gita-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-20",
-      "sourceNotes": "sources/bhagavad-gita-v3-integrated.md",
-      "sources": [
-        "https://www.gitasupersite.iitk.ac.in/srimad/intro",
-        "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&field_chapter_value=18&field_nsutra_value=66&language=dv&scms=1",
-        "https://academic.oup.com/reference/62357/reference-article-abstract/554517840",
-        "https://www.penguinrandomhouse.com/books/286340/the-bhagavad-gita-by-anonymous-translated-by-juan-mascaro-introduction-by-simon-brodbeck/"
-      ]
-    }
+    ]
   }
 }
