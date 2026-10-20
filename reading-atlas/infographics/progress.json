@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 21,
+    "completedCount": 22,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1117,35 +1117,52 @@
           }
         },
         "completedOn": "2026-10-20"
+      },
+      {
+        "sequence": 22,
+        "id": 16,
+        "title": "القرآن",
+        "englishTitle": "The Qur’an",
+        "koreanTitle": "쿠란",
+        "status": "completed-and-verified",
+        "koreanImage": "the-quran-v3-integrated-ko.webp",
+        "englishImage": "the-quran-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-20",
+        "sourceNotes": "sources/the-quran-v3-integrated.md",
+        "sources": [
+          "https://quran.com/",
+          "https://quran.com/1",
+          "https://quran.com/112",
+          "https://quran.com/2/177",
+          "https://quran.com/4/135",
+          "https://quran.com/16/102",
+          "https://quran.net/read"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-quran-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-quran-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-20"
       }
-    ],
-    "inProgress": {
-      "sequence": 22,
-      "id": 16,
-      "title": "القرآن",
-      "englishTitle": "The Qur’an",
-      "koreanTitle": "쿠란",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "the-quran-v3-integrated-ko.webp",
-      "englishImage": "the-quran-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-20",
-      "sourceNotes": "sources/the-quran-v3-integrated.md",
-      "sources": [
-        "https://quran.com/",
-        "https://quran.com/1",
-        "https://quran.com/112",
-        "https://quran.com/2/177",
-        "https://quran.com/4/135",
-        "https://quran.com/16/102",
-        "https://quran.net/read"
-      ]
-    }
+    ]
   }
 }
