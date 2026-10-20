@@ -1035,6 +1035,29 @@
         },
         "completedOn": "2026-10-19"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 20,
+      "id": 14,
+      "title": "Conjectures and Refutations",
+      "koreanTitle": "추측과 논박",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "conjectures-and-refutations-v3-integrated-ko.webp",
+      "englishImage": "conjectures-and-refutations-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-19",
+      "sourceNotes": "sources/conjectures-and-refutations-v3-integrated.md",
+      "sources": [
+        "https://www.routledge.com/Conjectures-and-Refutations-The-Growth-of-Scientific-Knowledge/Popper/p/book/9780415285940",
+        "https://joelvelasco.net/teaching/hum9/popper-conjecturesrefutations.pdf",
+        "https://plato.stanford.edu/entries/popper/"
+      ]
+    }
   }
 }
