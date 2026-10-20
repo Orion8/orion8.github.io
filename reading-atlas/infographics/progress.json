@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 18,
+    "completedCount": 19,
     "collectionTotal": 75,
     "completed": [
       {
@@ -992,32 +992,49 @@
           }
         },
         "completedOn": "2026-10-19"
+      },
+      {
+        "sequence": 19,
+        "id": 13,
+        "title": "Kritik der reinen Vernunft",
+        "englishTitle": "Critique of Pure Reason",
+        "koreanTitle": "순수이성비판",
+        "status": "completed-and-verified",
+        "koreanImage": "critique-of-pure-reason-v3-integrated-ko.webp",
+        "englishImage": "critique-of-pure-reason-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-19",
+        "sourceNotes": "sources/critique-of-pure-reason-v3-integrated.md",
+        "sources": [
+          "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+          "https://www.cambridge.org/core/books/abs/critique-of-pure-reason/contents/A493121789B849857211E46B2D3218F4",
+          "https://assets.cambridge.org/97813165/06073/excerpt/9781316506073_excerpt.pdf",
+          "https://plato.stanford.edu/entries/kant/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/critique-of-pure-reason-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/critique-of-pure-reason-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-19"
       }
-    ],
-    "inProgress": {
-      "sequence": 19,
-      "id": 13,
-      "title": "Kritik der reinen Vernunft",
-      "englishTitle": "Critique of Pure Reason",
-      "koreanTitle": "순수이성비판",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "critique-of-pure-reason-v3-integrated-ko.webp",
-      "englishImage": "critique-of-pure-reason-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-19",
-      "sourceNotes": "sources/critique-of-pure-reason-v3-integrated.md",
-      "sources": [
-        "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
-        "https://www.cambridge.org/core/books/abs/critique-of-pure-reason/contents/A493121789B849857211E46B2D3218F4",
-        "https://assets.cambridge.org/97813165/06073/excerpt/9781316506073_excerpt.pdf",
-        "https://plato.stanford.edu/entries/kant/"
-      ]
-    }
+    ]
   }
 }
