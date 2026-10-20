@@ -1163,6 +1163,31 @@
         },
         "completedOn": "2026-10-20"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 23,
+      "id": 17,
+      "title": "भगवद्गीता",
+      "englishTitle": "The Bhagavad Gita",
+      "koreanTitle": "바가바드 기타",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "bhagavad-gita-v3-integrated-ko.webp",
+      "englishImage": "bhagavad-gita-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-20",
+      "sourceNotes": "sources/bhagavad-gita-v3-integrated.md",
+      "sources": [
+        "https://www.gitasupersite.iitk.ac.in/srimad/intro",
+        "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&field_chapter_value=18&field_nsutra_value=66&language=dv&scms=1",
+        "https://academic.oup.com/reference/62357/reference-article-abstract/554517840",
+        "https://www.penguinrandomhouse.com/books/286340/the-bhagavad-gita-by-anonymous-translated-by-juan-mascaro-introduction-by-simon-brodbeck/"
+      ]
+    }
   }
 }
