@@ -993,6 +993,31 @@
         },
         "completedOn": "2026-10-19"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 19,
+      "id": 13,
+      "title": "Kritik der reinen Vernunft",
+      "englishTitle": "Critique of Pure Reason",
+      "koreanTitle": "순수이성비판",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "critique-of-pure-reason-v3-integrated-ko.webp",
+      "englishImage": "critique-of-pure-reason-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-19",
+      "sourceNotes": "sources/critique-of-pure-reason-v3-integrated.md",
+      "sources": [
+        "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+        "https://www.cambridge.org/core/books/abs/critique-of-pure-reason/contents/A493121789B849857211E46B2D3218F4",
+        "https://assets.cambridge.org/97813165/06073/excerpt/9781316506073_excerpt.pdf",
+        "https://plato.stanford.edu/entries/kant/"
+      ]
+    }
   }
 }
