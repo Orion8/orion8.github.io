@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 19,
+    "completedCount": 20,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1034,30 +1034,47 @@
           }
         },
         "completedOn": "2026-10-19"
+      },
+      {
+        "sequence": 20,
+        "id": 14,
+        "title": "Conjectures and Refutations",
+        "koreanTitle": "추측과 논박",
+        "status": "completed-and-verified",
+        "koreanImage": "conjectures-and-refutations-v3-integrated-ko.webp",
+        "englishImage": "conjectures-and-refutations-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-19",
+        "sourceNotes": "sources/conjectures-and-refutations-v3-integrated.md",
+        "sources": [
+          "https://www.routledge.com/Conjectures-and-Refutations-The-Growth-of-Scientific-Knowledge/Popper/p/book/9780415285940",
+          "https://joelvelasco.net/teaching/hum9/popper-conjecturesrefutations.pdf",
+          "https://plato.stanford.edu/entries/popper/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/conjectures-and-refutations-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/conjectures-and-refutations-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-19"
       }
-    ],
-    "inProgress": {
-      "sequence": 20,
-      "id": 14,
-      "title": "Conjectures and Refutations",
-      "koreanTitle": "추측과 논박",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "conjectures-and-refutations-v3-integrated-ko.webp",
-      "englishImage": "conjectures-and-refutations-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-19",
-      "sourceNotes": "sources/conjectures-and-refutations-v3-integrated.md",
-      "sources": [
-        "https://www.routledge.com/Conjectures-and-Refutations-The-Growth-of-Scientific-Knowledge/Popper/p/book/9780415285940",
-        "https://joelvelasco.net/teaching/hum9/popper-conjecturesrefutations.pdf",
-        "https://plato.stanford.edu/entries/popper/"
-      ]
-    }
+    ]
   }
 }
