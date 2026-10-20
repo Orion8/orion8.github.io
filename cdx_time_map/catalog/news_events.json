@@ -1,8 +1,214 @@
 {
-  "catalogVersion": "0.0.174",
-  "updatedAt": "2026-10-20T05:59:08.234Z",
+  "catalogVersion": "0.0.175",
+  "updatedAt": "2026-10-20T17:58:33.161Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-766a23e8525d3c02e7a4feb2",
+      "title": "수단 군대 드론, 장례 행렬과 연료 시장 공격해 300명 이상 사망했다고 소식통 전해",
+      "titleTranslations": {
+        "en": "Sudan army drones hit mourners and fuel market, sources say over 300 killed"
+      },
+      "startAt": "2026-10-20T17:30:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "소식통들은 수단 군의 드론이 장례 행렬을 태운 트럭과 연료를 공급하는 것으로 알려진 시장을 목표로 한 공격을 가해 300명 넘게 사망했다고 전했다. 보도는 희생자 수와 공격 대상이 높은 인명 피해를 초래했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Sources say Sudan army drones struck a truck carrying people to a funeral and a market alleged to supply fuel, killing more than 300 people. Coverage reports the targets and casualty figures point to a large‑scale lethal attack."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
+          "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-19T14:45:53.000Z",
+        "lastObservedAt": "2026-10-20T17:58:33.160Z"
+      }
+    },
+    {
+      "id": "news-5bc59241b64860dea72f101b",
+      "title": "러셀 브랜드 재판: 고소인 진술 추가—'말도 못하고 숨도 쉬지 못했다'고 주장",
+      "titleTranslations": {
+        "en": "Woman says she 'couldn't speak or breathe' during alleged rape by Russell Brand"
+      },
+      "startAt": "2026-10-20T16:02:03.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "러셀 브랜드에 대한 강간·성폭행 재판에서 한 고소인이 브랜드가 주장한 행위를 저지르며 자신은 '말할 수 없었고 숨도 쉴 수 없었다'고 진술했다. 브랜드는 모든 혐의를 부인하고 있다.",
+      "descriptionTranslations": {
+        "en": "In the trial of Russell Brand on rape and sexual assault charges, an accuser testified that during the alleged assault she 'couldn't speak or breathe'. Brand denies the allegations; the trial continues."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck240rr10jdqo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ck240rr10jdqo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-12T12:44:38.000Z",
+        "lastObservedAt": "2026-10-20T17:58:33.161Z"
+      }
+    },
+    {
+      "id": "news-2eb8826a3da4b03f0f2db32d",
+      "title": "코로나 조사, 요양시설 확산 허용한 정부 실패 지적—PPE·병원 퇴원 절차 비판",
+      "titleTranslations": {
+        "en": "Covid inquiry finds government failings allowed Covid 'to spread like wildfire' in care homes"
+      },
+      "startAt": "2026-10-20T15:32:36.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "코로나 조사 위원회의 여섯 번째 보고서는 개인보호장비(PPE) 부족과 병원에서의 환자 퇴원 방식 등 정부의 실패가 요양시설에서 코로나가 급속히 퍼지도록 했다고 비판했다.",
+      "descriptionTranslations": {
+        "en": "The sixth report of the Covid inquiry criticises government failings — including lack of PPE and hospital discharge procedures — that allowed Covid to 'spread like wildfire' in care homes, coverage says."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck1l38z0v3v6o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck1l38z0v3v6o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-20T15:32:36.000Z",
+        "lastObservedAt": "2026-10-20T17:58:33.160Z"
+      }
+    },
+    {
+      "id": "news-e94a5ee8d763551ad13c6280",
+      "title": "NASA, 달 기지용 탐사·운반·자원탐사에 쓰일 달 표면 주행차(로버) 개발 경과 공개",
+      "titleTranslations": {
+        "en": "NASA Provides Progress Update on Moon Base Rovers"
+      },
+      "startAt": "2026-10-20T15:00:10.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 달 기지 건설을 준비하며 유인·무인 달 로버들이 초기 개발에서 기술시연·우주인 이동·지형 매핑·과학조사·자원 탐사에 핵심적 역할을 할 것이라며 관련 기술 개발 진행 상황을 공개했다. 초기사업들의 데이터가 향후 이동체계 설계에 반영될 예정이라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "NASA provided a progress update on rover development for Moon base operations, saying crewed and robotic lunar rovers will support early development through tech demonstrations, astronaut transport, terrain mapping, scientific investigations and resource prospecting, with data from these missions informing future mobility systems."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/"
+        ],
+        "firstPublishedAt": "2026-10-20T15:00:10.000Z",
+        "lastObservedAt": "2026-10-20T17:58:33.160Z"
+      }
+    },
+    {
+      "id": "news-b3392fc08df83576929e41e8",
+      "title": "라이언에어 CEO, 중동 분쟁으로 제트유 비용 상승 시 2027년 유럽 항공료 최대 20% 인상 전망",
+      "titleTranslations": {
+        "en": "Ryanair boss predicts European air fares could rise by as much as 20% in 2027"
+      },
+      "startAt": "2026-10-20T14:28:56.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "라이언에어 최고경영자는 중동 분쟁이 제트유 비용을 끌어올리며 많은 항공사가 연료 헤지(선물계약)를 하지 않은 상태라면 2027년에 항공권 가격이 최대 20%까지 오를 수 있다고 경고했다. 그는 일부 항공사들의 파산·인수 가능성도 언급했다.",
+      "descriptionTranslations": {
+        "en": "Ryanair’s CEO warned that the Middle East conflict is pushing jet fuel costs higher, and with many carriers unhedged against such increases he predicts European air fares could rise by up to 20% in 2027, potentially prompting bankruptcies and takeovers in the industry."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/20/european-air-fares-rise-2027-ryanair-fuel-costs",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/20/european-air-fares-rise-2027-ryanair-fuel-costs"
+        ],
+        "firstPublishedAt": "2026-10-20T14:28:56.000Z",
+        "lastObservedAt": "2026-10-20T17:58:33.160Z"
+      }
+    },
+    {
+      "id": "news-509f48468ef3f724c455119a",
+      "title": "메타 ‘Muse’ 대화 공유 기능, 대화 내용으로 개인·업무 비밀 노출 가능성 제기로 일시 중단",
+      "titleTranslations": {
+        "en": "Meta Muse exposes users' personal and business secrets when they share conversations"
+      },
+      "startAt": "2026-10-20T12:33:13.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보안 보도는 메타의 대화형 시스템 ‘Muse’가 사용자가 대화를 공유할 때 개인적·업무상 비밀을 노출할 가능성이 있다는 문제로 인해 메타가 공유 기능을 일시 중단하고 조사에 착수했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Security reporting says Meta’s conversational system ‘Muse’ could expose users’ personal and business secrets when conversations are shared; Meta has suspended the sharing feature while it investigates the privacy issue."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
+        ],
+        "firstPublishedAt": "2026-10-20T12:33:13.000Z",
+        "lastObservedAt": "2026-10-20T17:58:33.160Z"
+      }
+    },
+    {
+      "id": "news-cc92798eba888b22e599af6b",
+      "title": "MMX 발사—일본의 화성 위성 포보스 표본회수 임무 발사 확인",
+      "titleTranslations": {
+        "en": "MMX lifts off to Mars’s moon Phobos"
+      },
+      "startAt": "2026-10-20T07:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "유럽우주국(ESA)이 공개한 이미지·보도는 JAXA 주도의 MMX(Martian Moons eXploration) 임무가 화성의 위성 포보스를 향해 발사되었음을 확인한다. 이 임무는 포보스 표본 회수와 위성 기원 규명을 목표로 한다는 점에서 의미가 있다.",
+      "descriptionTranslations": {
+        "en": "ESA imagery and reporting confirm the launch of JAXA’s MMX mission to Mars’s moon Phobos. The mission aims to return a sample and help determine the origin of Phobos, marking a major step in the planned sample‑return effort."
+      },
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/10/MMX_lifts_off_to_Mars_s_moon_Phobos",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment",
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/18/japan-mission-mars-moon-phobos-samples",
+          "https://www.esa.int/ESA_Multimedia/Images/2026/10/MMX_lifts_off_to_Mars_s_moon_Phobos"
+        ],
+        "firstPublishedAt": "2026-10-18T08:11:55.000Z",
+        "lastObservedAt": "2026-10-20T17:58:33.160Z"
+      }
+    },
     {
       "id": "news-5f5ed2da3fd0ea68d1c26a08",
       "title": "트럼프 행정부 시기 미국 경제 실상 점검 — 물가·고용·성장 분석",
@@ -145,6 +351,64 @@
       }
     },
     {
+      "id": "news-8efa433127974306fb985192",
+      "title": "미국, 우크라이나·수단 출신 이민자들 추방 유예—임시보호 유지",
+      "titleTranslations": {
+        "en": "US grants deportation reprieve to migrants from Ukraine and Sudan"
+      },
+      "startAt": "2026-10-19T22:34:43.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "미 국토안보부(DHS)는 약 101,000명의 우크라이나인과 1,800명의 수단인에 대한 임시보호지위(TPS) 종료가 예정돼 있었으나 발표 시점까지 이들이 보호를 유지하며 즉시 추방 위험에서 벗어난다고 밝혔다. 당국은 추가 발표를 ‘적절한 시점’에 할 것이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "The US Department of Homeland Security said temporary protected status (TPS) set to expire for about 101,000 Ukrainians and 1,800 Sudanese will be treated such that those covered retain protection and are not at immediate risk of deportation, with a formal announcement to follow at an appropriate time."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan"
+        ],
+        "firstPublishedAt": "2026-10-19T22:34:43.000Z",
+        "lastObservedAt": "2026-10-20T17:58:33.160Z"
+      }
+    },
+    {
+      "id": "news-f5de104106419b7644fe57ee",
+      "title": "단 한 장의 환자 얼굴사진으로 암 생존 예측 가능한 AI 도구 개발 연구 제시",
+      "titleTranslations": {
+        "en": "New AI tool can predict cancer survival by a single patient selfie, study suggests"
+      },
+      "startAt": "2026-10-19T22:30:08.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "매사추세츠의 비영리 의료체계 연구진이 한 장의 얼굴사진으로 환자의 생물학적 연령을 추정하고 암 진단 환자의 생존 가능성을 예측하는 AI 시스템을 개발했다고 보도됐다. 연구진은 모델이 생존 결과를 직접 예측하도록 설계했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Researchers at Mass General Brigham developed an AI system that can estimate a person’s biological age from a single photograph and directly predict survival outcomes for cancer patients, the study reports."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie"
+        ],
+        "firstPublishedAt": "2026-10-19T22:30:08.000Z",
+        "lastObservedAt": "2026-10-20T17:58:33.160Z"
+      }
+    },
+    {
       "id": "news-f44ff57d59e6a8e8e8445a66",
       "title": "앨버타 주민투표 진행 — '캐나다 잔류 또는 추가 독립투표' 여부 결정",
       "titleTranslations": {
@@ -228,34 +492,6 @@
         ],
         "firstPublishedAt": "2026-10-19T16:17:48.000Z",
         "lastObservedAt": "2026-10-20T05:59:08.234Z"
-      }
-    },
-    {
-      "id": "news-766a23e8525d3c02e7a4feb2",
-      "title": "수단 시장 인근 드론 공격으로 80명 사망",
-      "titleTranslations": {
-        "en": "Drone attack near market kills 80 in Sudan"
-      },
-      "startAt": "2026-10-19T14:45:53.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언 보도는 수단 서 코르두판주 알‑디밥의 교통 허브 인근 시장에서 일어난 드론 공격으로 일요일 저녁 약 80명이 사망했다고 전했다. 보도는 희생자 대부분이 귀가를 위해 교통편을 기다리던 통근자들이었다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports a drone strike near a transport hub in al‑Dibab, West Kordofan, killed about 80 people on Sunday evening. Coverage says most of the victims were commuters waiting for rides home."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
-        ],
-        "firstPublishedAt": "2026-10-19T14:45:53.000Z",
-        "lastObservedAt": "2026-10-19T19:17:31.888Z"
       }
     },
     {
@@ -825,36 +1061,6 @@
       }
     },
     {
-      "id": "news-cc92798eba888b22e599af6b",
-      "title": "일본, 화성 위성 포보스 시료 반환 세계 최초 임무 착수 계획",
-      "titleTranslations": {
-        "en": "Japan to launch world‑first mission to return samples from Mars moon Phobos"
-      },
-      "startAt": "2026-10-18T08:11:55.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "일본 우주기관이 화성의 작은 위성 포보스에서 시료를 회수해 지구로 반환하는 세계 최초의 임무를 발사할 계획이라고 보도되었다. 임무는 약 5년이 소요될 것으로 예상되며 포보스·데이모스의 기원과 태양계 초기 환경·생명 기원 규명에 단서를 제공할 것으로 기대된다.",
-      "descriptionTranslations": {
-        "en": "Japan's space agency plans to launch the world's first mission to collect and return samples from Phobos, a small moon of Mars. The mission is expected to take about five years and scientists hope it will shed light on the origins of Phobos and Deimos and on early solar system conditions relevant to the origins of life."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/oct/18/japan-mission-mars-moon-phobos-samples",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/oct/18/japan-mission-mars-moon-phobos-samples"
-        ],
-        "firstPublishedAt": "2026-10-18T08:11:55.000Z",
-        "lastObservedAt": "2026-10-18T16:29:59.470Z"
-      }
-    },
-    {
       "id": "news-6d2c2f650e3dab91f24af72f",
       "title": "포클랜드 제도 긴장 고조 — 아르헨티나, 섬의 석유 산업 겨냥",
       "titleTranslations": {
@@ -1196,34 +1402,6 @@
       }
     },
     {
-      "id": "news-c5a54b88edbd17621f5afb2a",
-      "title": "영국, 코로나 백신 피해 보상제도 인콰이어리 비판으로 개편 예고",
-      "titleTranslations": {
-        "en": "Covid vaccine compensation scheme set for overhaul after Inquiry criticism"
-      },
-      "startAt": "2026-10-16T15:02:46.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "영국 정부는 코로나19 백신으로 인한 피해자와 유족에게 재정적 지원을 제공하는 보상제도가 인콰이어리(조사)의 비판을 받아 개편될 예정이라고 발표했다.",
-      "descriptionTranslations": {
-        "en": "Ministers in the UK have pledged to reform the Covid‑vaccine compensation scheme — which provides financial support to those injured or bereaved by vaccines — following criticism from an Inquiry."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3pwgqd4gz9xo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c3pwgqd4gz9xo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-16T15:02:46.000Z",
-        "lastObservedAt": "2026-10-17T05:33:39.452Z"
-      }
-    },
-    {
       "id": "news-cf2a495483ffda4e6c906787",
       "title": "미 유권자들, 기후 위기 대응 요구하지만 중간선거 후보들엔 침묵",
       "titleTranslations": {
@@ -1479,36 +1657,6 @@
       }
     },
     {
-      "id": "news-5bc59241b64860dea72f101b",
-      "title": "러셀 브랜드 재판: 고소인 증언 등 재판 과정 추가 보도",
-      "titleTranslations": {
-        "en": "Russell Brand trial continues as accuser describes alleged assault behaviour"
-      },
-      "startAt": "2026-10-15T16:35:05.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "코미디언 러셀 브랜드의 강간·성폭행 재판에서 고소인 중 한 명이 브랜드가 성폭행을 저질렀다고 주장하며 '괴물과 같아졌다'고 진술했다. 브랜드는 여러 건의 강간·성폭행·부당행위 혐의를 부인하고 있다.",
-      "descriptionTranslations": {
-        "en": "In the ongoing rape and sexual assault trial of comedian Russell Brand, an accuser testified that the defendant became ‘monster‑like’ before the alleged rape. Brand denies the charges; he faces counts including rape and sexual assault."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-12T12:44:38.000Z",
-        "lastObservedAt": "2026-10-15T17:45:31.321Z"
-      }
-    },
-    {
       "id": "news-139e756ddb8276a5a6f3f6c9",
       "title": "국제 계측위원회, 리프 초(seconds) 대신 ‘리프 아워’ 채택 합의",
       "titleTranslations": {
@@ -1682,36 +1830,6 @@
       }
     },
     {
-      "id": "news-1cf9843ea2aec14751338a5b",
-      "title": "우크라이나, 모스크바가 합의를 깨자 러시아 정유시설 공격 재개",
-      "titleTranslations": {
-        "en": "Ukraine resumes attacks on Russian oil refineries after Moscow spurns brief truce"
-      },
-      "startAt": "2026-10-15T10:05:58.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "우크라이나 드론이 러시아 리아잔 지역의 정유시설을 공격했다고 보도됐다. 이번 공격은 우크라이나 대통령이 모스크바가 거부한 짧은 휴전이 끝났다고 밝힌 직후에 이뤄졌다.",
-      "descriptionTranslations": {
-        "en": "Ukrainian drones struck an oil refinery in Russia’s Ryazan region, hours after Ukraine’s president said a brief truce — which Moscow spurned — was over."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war",
-          "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war"
-        ],
-        "firstPublishedAt": "2026-10-13T18:51:55.000Z",
-        "lastObservedAt": "2026-10-15T17:45:31.321Z"
-      }
-    },
-    {
       "id": "news-0b7274ba05c98359d99b394f",
       "title": "앤트로픽, 상장 전 투자자에 매출 급증 보고",
       "titleTranslations": {
@@ -1765,35 +1883,6 @@
           "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon/"
         ],
         "firstPublishedAt": "2026-10-14T13:32:25.000Z",
-        "lastObservedAt": "2026-10-14T17:59:18.189Z"
-      }
-    },
-    {
-      "id": "news-1429e29f28cf5f2d4fd3d0c5",
-      "title": "뱅크오브아메리카, 자금세탁 적발·보고 실패로 12억 달러 규제 벌금",
-      "titleTranslations": {
-        "en": "Bank of America fined $1.2bn for money‑laundering failings"
-      },
-      "startAt": "2026-10-14T11:54:29.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "미 규제당국은 뱅크오브아메리카가 잠재적 자금세탁 관련 거래를 적절히 적발·보고하지 못했다고 결론내리고 12억 1,000만 달러의 과징금을 부과했다. 보도에 따르면 규제당국은 50억 달러가 넘는 의심거래 중 특히 10억 달러 규모의 우선적(국가안보 관련 등) 위험 거래를 보고하지 못한 점을 지적했다.",
-      "descriptionTranslations": {
-        "en": "U.S. regulators have slapped Bank of America with a $1.21 billion penalty after finding the bank failed to adequately detect and report potentially illicit transactions. Coverage says regulators flagged more than $5 billion in suspicious activity the bank did not report, including roughly $1 billion that posed priority national‑security or related illicit‑finance risks."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering"
-        ],
-        "firstPublishedAt": "2026-10-14T02:05:32.000Z",
         "lastObservedAt": "2026-10-14T17:59:18.189Z"
       }
     },
@@ -1942,34 +2031,6 @@
       }
     },
     {
-      "id": "news-8b1ab1df41ac00d8450a9c25",
-      "title": "딥마인드, ‘제미니 4 아르곤’의 책임 있고 안전한 개발 방향 공개",
-      "titleTranslations": {
-        "en": "DeepMind outlines responsible, safe development for Gemini 4 Argon"
-      },
-      "startAt": "2026-10-13T19:43:07.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "딥마인드는 ‘Gemini 4 Argon’ 모델을 책임감 있고 안전하게 개발·운영하려는 접근을 설명하는 내용을 공개했다는 보도다.",
-      "descriptionTranslations": {
-        "en": "DeepMind published material describing its approach to developing and deploying the Gemini 4 Argon model responsibly and safely, the coverage says."
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-        ],
-        "firstPublishedAt": "2026-10-13T19:43:07.000Z",
-        "lastObservedAt": "2026-10-18T05:49:53.515Z"
-      }
-    },
-    {
       "id": "news-ec0308048ea2d0e396c9c9e6",
       "title": "잉글랜드 축구 규제 책임자, 맨체스터 시티 관련 정치적 개입 시 사임 의향 밝혀",
       "titleTranslations": {
@@ -2023,64 +2084,6 @@
         ],
         "firstPublishedAt": "2026-10-13T16:00:11.000Z",
         "lastObservedAt": "2026-10-13T19:51:52.841Z"
-      }
-    },
-    {
-      "id": "news-5142995a1ac90d87163682f0",
-      "title": "NASA·스페이스X CRS‑35, 우주정거장 향해 인간·식물·약물 연구 수송",
-      "titleTranslations": {
-        "en": "NASA’s SpaceX CRS-35 Mission to Launch Health Research"
-      },
-      "startAt": "2026-10-12T17:45:27.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 인간·식물 건강과 내성균 관련 연구를 포함한 실험들이 케이프커내버럴에서 출발하는 스페이스X의 35번째 보급임무(CRS‑35)를 통해 국제우주정거장으로 운송된다고 밝혔다. 이 연구들은 장기 우주비행과 지구상의 응용에 기여할 예정이다.",
-      "descriptionTranslations": {
-        "en": "NASA says experiments focused on human and plant health and on drug‑resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission from Cape Canaveral, advancing research relevant to astronaut health and life on Earth."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/"
-        ],
-        "firstPublishedAt": "2026-10-12T17:45:27.000Z",
-        "lastObservedAt": "2026-10-12T21:43:38.927Z"
-      }
-    },
-    {
-      "id": "news-b795e824f954fe02479fe070",
-      "title": "세계 최초 상업 규모 차세대 지열발전소 '케이프 스테이션' 전력 판매 시작",
-      "titleTranslations": {
-        "en": "First Utility-Scale Enhanced Geothermal Plant Goes Live"
-      },
-      "startAt": "2026-10-12T13:00:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "지열 스타트업 Fervo Energy가 미국 유타의 케이프 스테이션 프로젝트에서 초기 33메가와트 단위를 가동해 전력망에 판매를 시작했다. 이 프로젝트는 총사업비 20억 달러 규모로 궁극적으로 500MW를 목표로 한다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Geothermal startup Fervo Energy began selling power from an initial 33‑megawatt unit at its Cape Station project in Utah — the first time a utility‑scale, next‑generation enhanced geothermal facility has supplied the grid. The $2 billion project aims for an eventual 500 MW capacity."
-      },
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/fervo-cape-station-geothermal",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/fervo-cape-station-geothermal"
-        ],
-        "firstPublishedAt": "2026-10-12T13:00:02.000Z",
-        "lastObservedAt": "2026-10-12T21:43:38.927Z"
       }
     },
     {
