@@ -1075,6 +1075,32 @@
         },
         "completedOn": "2026-10-19"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 21,
+      "id": 15,
+      "title": "The Bible",
+      "koreanTitle": "성경",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "the-bible-v3-integrated-ko.webp",
+      "englishImage": "the-bible-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-20",
+      "sourceNotes": "sources/the-bible-v3-integrated.md",
+      "sources": [
+        "https://bible.usccb.org/bible",
+        "https://www.usccb.org/faq",
+        "https://www.biblesociety.org.uk/uploads/content/shop/files/9780564046072_Sources-of-Wisdom-edexcel-look-inside.pdf",
+        "https://www.sefaria.org/texts/Tanakh",
+        "https://bible.usccb.org/bible/genesis/0",
+        "https://bible.usccb.org/bible/revelation/21"
+      ]
+    }
   }
 }
