@@ -1118,6 +1118,34 @@
         },
         "completedOn": "2026-10-20"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 22,
+      "id": 16,
+      "title": "القرآن",
+      "englishTitle": "The Qur’an",
+      "koreanTitle": "쿠란",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "the-quran-v3-integrated-ko.webp",
+      "englishImage": "the-quran-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-20",
+      "sourceNotes": "sources/the-quran-v3-integrated.md",
+      "sources": [
+        "https://quran.com/",
+        "https://quran.com/1",
+        "https://quran.com/112",
+        "https://quran.com/2/177",
+        "https://quran.com/4/135",
+        "https://quran.com/16/102",
+        "https://quran.net/read"
+      ]
+    }
   }
 }
