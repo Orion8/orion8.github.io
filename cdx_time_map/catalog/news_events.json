@@ -1,8 +1,148 @@
 {
-  "catalogVersion": "0.0.176",
-  "updatedAt": "2026-10-21T05:59:40.712Z",
+  "catalogVersion": "0.0.177",
+  "updatedAt": "2026-10-21T18:00:41.904Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-3222098e24245dc24d2b15cd",
+      "title": "러시아, 우크라이나·미국과의 전쟁 종결 협상 재개 준비됐다고 밝혀",
+      "titleTranslations": {
+        "en": "Russia says it is ready to resume talks with Ukraine and US to end war"
+      },
+      "startAt": "2026-10-21T17:42:34.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "러시아는 블라디미르 푸틴 대통령이 미국 대통령 도널드 트럼프의 특사 스티브 윗코프와 상트페테르부르크에서 만나자 전쟁 종결을 위한 우크라이나·미국과의 협상 재개 준비가 돼 있다고 발표했다.",
+      "descriptionTranslations": {
+        "en": "Russia announced it is ready to resume talks with Ukraine and the United States to end the war after President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-21T17:42:34.000Z",
+        "lastObservedAt": "2026-10-21T18:00:41.904Z"
+      }
+    },
+    {
+      "id": "news-ce8fd6092b37e27b256c722e",
+      "title": "마크롱, 사우디 기습 방문해 추가 디젤 공급 확보",
+      "titleTranslations": {
+        "en": "Macron makes surprise Saudi visit as France secures extra diesel supplies"
+      },
+      "startAt": "2026-10-21T16:58:39.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "프랑스 대통령이 리야드에서 무함마드 빈 살만과 만나 에너지·안보·인프라 문제를 논의했고, 프랑스는 추가 디젤 공급을 확보했다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "French president Emmanuel Macron made a surprise visit to Riyadh to meet Mohammed bin Salman to discuss energy, security and infrastructure, and France secured additional diesel supplies, reporting says."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/21/macron-makes-surprise-saudi-visit-as-france-secures-extra-diesel-supplies?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/21/macron-makes-surprise-saudi-visit-as-france-secures-extra-diesel-supplies?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-21T16:58:39.000Z",
+        "lastObservedAt": "2026-10-21T18:00:41.904Z"
+      }
+    },
+    {
+      "id": "news-b4310e6ca41665911096bbed",
+      "title": "퍼서비어런스, 지구 밖 최장 주행 기록 경신—주행거리 45.22km 도달",
+      "titleTranslations": {
+        "en": "Tracks Along the Longest Drive on Another World"
+      },
+      "startAt": "2026-10-21T15:50:44.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 퍼서비어런스가 솔 2006(2026‑10‑11)에 주행계가 45.22km(28.10마일)를 기록하며 다른 천체에서의 최장 주행 기록을 세웠다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "NASA says its Perseverance rover reached an odometer reading of 45.22 kilometres (28.10 miles) on Sol 2006 (Oct. 11, 2026), setting a new record for the farthest distance driven on another world."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/"
+        ],
+        "firstPublishedAt": "2026-10-21T15:50:44.000Z",
+        "lastObservedAt": "2026-10-21T18:00:41.904Z"
+      }
+    },
+    {
+      "id": "news-d14a7527f12d21591007ff6d",
+      "title": "프랑스 국채 금리 24년 만에 최고…예산 부결·폭력 시위 우려에 상승",
+      "titleTranslations": {
+        "en": "French borrowing costs hit 24‑year high as civil unrest and budget fears spook markets"
+      },
+      "startAt": "2026-10-21T13:17:32.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도에 따르면 10년 만기 국채 수익률이 24년 만에 처음으로 5%를 넘어섰다. 정부의 예산안 처리 실패와 최근의 폭력적 시위 여파가 시장의 매도세를 촉발했다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reporting says the yield on 10‑year French government bonds has passed 5% for the first time in 24 years as markets were spooked by failure to pass a budget and fallout from violent street protests."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/21/french-borrowing-costs-failure-to-pass-budget-govenment-bonds-violent-street-protests",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/21/french-borrowing-costs-failure-to-pass-budget-govenment-bonds-violent-street-protests"
+        ],
+        "firstPublishedAt": "2026-10-21T13:17:32.000Z",
+        "lastObservedAt": "2026-10-21T18:00:41.904Z"
+      }
+    },
+    {
+      "id": "news-95dedf578de78f3ec264f66e",
+      "title": "오픈AI 모델들, 구글 클라우드의 모델 가든·마켓플레이스 통해 제공 예정",
+      "titleTranslations": {
+        "en": "OpenAI models are coming to Google Cloud"
+      },
+      "startAt": "2026-10-21T12:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "오픈AI와 구글 클라우드가 최첨단 모델과 코덱스(Codex) 워크플로를 구글의 모델 가든과 구글 클라우드 마켓플레이스를 통해 제공할 계획이라고 발표했다.",
+      "descriptionTranslations": {
+        "en": "OpenAI and Google Cloud announced plans to bring frontier models and Codex workflows to Google's Model Garden, available through the Google Cloud Marketplace."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-models-google-cloud",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/openai-models-google-cloud"
+        ],
+        "firstPublishedAt": "2026-10-21T12:00:00.000Z",
+        "lastObservedAt": "2026-10-21T18:00:41.904Z"
+      }
+    },
     {
       "id": "news-bc0a3e3e3becf0957b4025ef",
       "title": "프랑스, 파리·리옹 등 도심에 야간 통금 시행 '필요한 한 계속'",
@@ -32,6 +172,64 @@
         ],
         "firstPublishedAt": "2026-10-17T15:57:40.000Z",
         "lastObservedAt": "2026-10-21T05:59:40.712Z"
+      }
+    },
+    {
+      "id": "news-360cc507ac1a33ad19ac57ed",
+      "title": "노벨생리의학상 관련 연구 조명 — 단세포 조류 클라모도모나스의 기여",
+      "titleTranslations": {
+        "en": "The humble one‑celled alga that helped scientists win the Nobel prize"
+      },
+      "startAt": "2026-10-21T05:00:04.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도는 채널로돕신(channelrhodopsin)을 가진 단세포 조류 클라모도모나스가 빛을 감지해 빠른 전기신호를 생성하는 방식이 기억·감정·행동 형성 연구에 기여해 이번 노벨생리의학상 수상 연구의 핵심 요소였다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says the one‑celled alga Chlamydomonas, which uses a light‑sensing protein called channelrhodopsin to produce rapid electrical signals, helped underpin research recognised by this year's Nobel Prize in Physiology or Medicine."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/21/chlamydomonas-one-celled-alga-nobel-prize",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/21/chlamydomonas-one-celled-alga-nobel-prize"
+        ],
+        "firstPublishedAt": "2026-10-21T05:00:04.000Z",
+        "lastObservedAt": "2026-10-21T18:00:41.904Z"
+      }
+    },
+    {
+      "id": "news-5743f288fcf635d924820073",
+      "title": "영국, 합법적 절차·벌금 도입해 미용성형 피해 보호 규정 강화 예정(2027)",
+      "titleTranslations": {
+        "en": "Tighter rules planned to protect people from cosmetic surgery that goes badly wrong"
+      },
+      "startAt": "2026-10-20T23:06:07.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "보도에 따르면 잉글랜드에서 2027년 발효를 목표로 시술자 자격 제한과 법 위반자에 대한 벌금 등 미용성형으로 인한 피해를 막기 위한 규제가 도입될 예정이다.",
+      "descriptionTranslations": {
+        "en": "Reports say England plans tighter rules to protect people from cosmetic surgery that goes badly wrong, including restrictions on who may carry out procedures and fines for those who flout the law, to take effect in 2027."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3x2wxnrpk78o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c3x2wxnrpk78o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-20T23:06:07.000Z",
+        "lastObservedAt": "2026-10-21T18:00:41.904Z"
       }
     },
     {
@@ -1545,34 +1743,6 @@
       }
     },
     {
-      "id": "news-f1315209d972f617ce6525a1",
-      "title": "런던 병원 해킹 연루 혐의 러시아인, 독일 경찰에 체포",
-      "titleTranslations": {
-        "en": "Russian man linked to deadly London hospitals hack arrested"
-      },
-      "startAt": "2026-10-16T15:31:33.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 독일 경찰이 28세의 러시아인을 체포했다고 전했다. 그는 2024년 혈액검사업체 신노비스(Synnovis)를 해킹한 사이버범죄 조직과 연루된 혐의를 받고 있다.",
-      "descriptionTranslations": {
-        "en": "BBC reports that German police have detained a 28‑year‑old Russian man accused of being part of the cyber‑crime gang that hacked blood‑test firm Synnovis in 2024, the coverage says."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-16T15:31:33.000Z",
-        "lastObservedAt": "2026-10-17T16:21:41.477Z"
-      }
-    },
-    {
       "id": "news-cf2a495483ffda4e6c906787",
       "title": "미 유권자들, 기후 위기 대응 요구하지만 중간선거 후보들엔 침묵",
       "titleTranslations": {
@@ -1658,62 +1828,6 @@
       }
     },
     {
-      "id": "news-74c88b1ab02bab05a987af83",
-      "title": "루비오, 레바논에 헤즈볼라 무장 회수 촉구 — 대통령은 국가 통제 의지 재확인",
-      "titleTranslations": {
-        "en": "Rubio presses Lebanon on confiscation of weapons from Hezbollah"
-      },
-      "startAt": "2026-10-16T05:28:29.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "미 상원 의원 마르코 루비오가 레바논에 헤즈볼라 무장 회수 조치를 촉구했다는 보도이다. 레바논 대통령은 모든 무기를 국가 통제하에 두겠다는 약속을 재확인했다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Senator Marco Rubio has pressed Lebanon to confiscate weapons held by Hezbollah, the coverage says. Lebanon’s president has reaffirmed a commitment to bring all arms under state control."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/16/rubio-presses-lebanon-on-confiscation-of-weapons-from-hezbollah?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/16/rubio-presses-lebanon-on-confiscation-of-weapons-from-hezbollah?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-16T05:28:29.000Z",
-        "lastObservedAt": "2026-10-16T05:49:07.046Z"
-      }
-    },
-    {
-      "id": "news-a06797f3d253aec3882ed218",
-      "title": "호르무즈 인근 선박 공격 보고 급증 — 원유 수출 지연 우려",
-      "titleTranslations": {
-        "en": "Ship attack reports near Hormuz reach record high as oil exports slow"
-      },
-      "startAt": "2026-10-16T05:00:17.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC의 해상안전기관 데이터 분석에서 최근 일주일간 12척의 선박이 공격을 받았다는 보고가 나왔다. 보도는 호르무즈 인근에서의 선박 공격이 기록적 수준으로 늘어나며 원유 수출 지연 등 해상 물류에 영향을 미치고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC analysis of data from a UK maritime agency shows 12 vessels were struck in a week. Coverage says ship attacks near the Strait of Hormuz have reached a record high and are slowing oil exports and affecting maritime logistics."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-16T05:00:17.000Z",
-        "lastObservedAt": "2026-10-16T05:49:07.046Z"
-      }
-    },
-    {
       "id": "news-9216e6cae5d0a88ae46315df",
       "title": "NASA, JAXA의 MMX 임무에 참여해 화성 위성 탐사 지원 예정",
       "titleTranslations": {
@@ -1740,34 +1854,6 @@
         ],
         "firstPublishedAt": "2026-10-13T12:00:00.000Z",
         "lastObservedAt": "2026-10-16T05:49:07.046Z"
-      }
-    },
-    {
-      "id": "news-249fd8d9e74a7921bc415ffe",
-      "title": "ISS 전력 증강을 위한 롤아웃 태양전지판 도입 — 우주정거장 전력 공급 향상",
-      "titleTranslations": {
-        "en": "Roll‑out solar arrays boost International Space Station power supply"
-      },
-      "startAt": "2026-10-15T17:30:39.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 국제우주정거장(ISS)의 전력 공급을 강화하기 위해 롤아웃 태양전지판을 도입했다고 밝혔다. 태양에너지는 정거장의 생명유지·일상업무·다수 연구 활동을 지탱하는 핵심 자원이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "NASA says roll‑out solar arrays have been added to boost the International Space Station’s power supply; solar power supports the station’s life‑support systems, daily activities and hundreds of research investigations."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/"
-        ],
-        "firstPublishedAt": "2026-10-15T17:30:39.000Z",
-        "lastObservedAt": "2026-10-15T17:45:31.321Z"
       }
     },
     {
@@ -1945,34 +2031,6 @@
       }
     },
     {
-      "id": "news-5d99388c2160c13056d0d672",
-      "title": "美 의회, ‘에프스타인 연루’ 월가 경영진 책임 묻는 법안 발의",
-      "titleTranslations": {
-        "en": "US lawmakers unveil bill to hold Wall Street’s ‘Epstein‑connected’ bosses to account"
-      },
-      "startAt": "2026-10-15T13:30:11.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "미 의회 의원들이 월가의 ‘에프스타인과 연루된’ 경영진이 성범죄 자금 조달에 관여했을 경우 책임을 묻는 법안을 제시했다. 보도는 엘리자베스 워런 상원의원이 전 블랙리더의 연루 의혹과 관련한 은행의 대응을 비판했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "U.S. lawmakers have unveiled legislation intended to hold Wall Street executives who were connected to Jeffrey Epstein accountable if they helped finance his crimes. Coverage notes Senator Elizabeth Warren criticised banks — including questioning Barclays over its handling of ties to former executive Jes Staley."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/15/new-bill-wall-street-bosses-epstein-connections",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/15/new-bill-wall-street-bosses-epstein-connections"
-        ],
-        "firstPublishedAt": "2026-10-15T13:30:11.000Z",
-        "lastObservedAt": "2026-10-16T05:49:07.046Z"
-      }
-    },
-    {
       "id": "news-5cfe821513d5c5eec4d209a0",
       "title": "BBC 뉴스 채널, 영국·미국 시청자 대상 유튜브 채널 개설",
       "titleTranslations": {
@@ -2026,66 +2084,6 @@
         ],
         "firstPublishedAt": "2026-10-15T04:19:17.000Z",
         "lastObservedAt": "2026-10-15T05:51:51.961Z"
-      }
-    },
-    {
-      "id": "news-0adfdddd930842e8c85bcc0b",
-      "title": "해저 인프라 위험 경고서 발간: 엘리자베스 브라우의 ‘Undersea War’가 제기하는 우려",
-      "titleTranslations": {
-        "en": "The internet’s undersea backbone is slipping into the danger zone — warnings from 'Undersea War'"
-      },
-      "startAt": "2026-10-14T11:15:24.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Ars Technica는 엘리자베스 브라우의 책 'Undersea War'를 소개하며 해저 케이블과 기타 해저 인프라의 취약성이 커지고 있음을 경고했다. 저자는 지정학적·군사적·사이버·환경적 요인들이 해저 통신망과 글로벌 인터넷 연결의 안정성에 미치는 위험을 분석한다고 전한다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica highlights Elisabeth Braw’s book 'Undersea War', which warns that undersea cables and related infrastructure face rising risks. The author analyses how geopolitical, military, cyber and environmental factors are increasingly threatening the stability of the global internet backbone."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/gadgets/2026/10/the-internets-undersea-backbone-is-slipping-into-to-the-danger-zone/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/gadgets/2026/10/the-internets-undersea-backbone-is-slipping-into-to-the-danger-zone/"
-        ],
-        "firstPublishedAt": "2026-10-14T11:15:24.000Z",
-        "lastObservedAt": "2026-10-14T17:59:18.189Z"
-      }
-    },
-    {
-      "id": "news-4092a753c1b1f9a60820419e",
-      "title": "터키 연안에서 세계에서 가장 오래된 선박 잔해 발견 — 최대 4,700년 전",
-      "titleTranslations": {
-        "en": "World's oldest shipwreck found off coast of Turkey"
-      },
-      "startAt": "2026-10-14T05:00:35.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "고고학자들은 터키 해안에서 초기 청동기시대에 해당하는, 최대 4,700년 전의 선박 잔해를 확인했다고 발표했다. 연대는 해양 교통과 고대 문명 연구에 중요한 자료를 제공할 것으로 보인다.",
-      "descriptionTranslations": {
-        "en": "Archaeologists say they have identified a shipwreck off the coast of Turkey dating to the Early Bronze Age — up to 4,700 years old. The find offers important material for understanding ancient maritime activity and civilizations."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-14T05:00:35.000Z",
-        "lastObservedAt": "2026-10-14T06:06:02.516Z"
       }
     },
     {
