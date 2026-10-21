@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 24,
+    "completedCount": 25,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1247,34 +1247,52 @@
           }
         },
         "completedOn": "2026-10-20"
+      },
+      {
+        "sequence": 25,
+        "id": 19,
+        "title": "The Epic of Gilgamesh",
+        "englishTitle": "The Epic of Gilgamesh",
+        "koreanTitle": "길가메시 서사시",
+        "status": "completed-and-verified",
+        "koreanImage": "epic-of-gilgamesh-v3-integrated-ko.webp",
+        "englishImage": "epic-of-gilgamesh-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-21",
+        "sourceNotes": "sources/epic-of-gilgamesh-v3-integrated.md",
+        "sources": [
+          "https://www.britishmuseum.org/collection/object/W_K-3375",
+          "https://www.metmuseum.org/essays/gilgamesh",
+          "https://yalebooks.yale.edu/2020/04/30/the-epic-of-gilgamesh/",
+          "https://www.penguinrandomhouse.com/books/670028/the-epic-of-gilgamesh-by-translated-with-an-introduction-by-andrew-george/",
+          "https://cdn.penguin.co.uk/dam-assets/books/9780140449198/9780140449198-sample.pdf",
+          "https://soas-repository.worktribe.com/output/446250/the-epic-of-gilgamesh-a-new-translation"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/epic-of-gilgamesh-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/epic-of-gilgamesh-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-21"
       }
     ],
-    "inProgress": {
-      "sequence": 25,
-      "id": 19,
-      "title": "The Epic of Gilgamesh",
-      "englishTitle": "The Epic of Gilgamesh",
-      "koreanTitle": "길가메시 서사시",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "epic-of-gilgamesh-v3-integrated-ko.webp",
-      "englishImage": "epic-of-gilgamesh-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-21",
-      "sourceNotes": "sources/epic-of-gilgamesh-v3-integrated.md",
-      "sources": [
-        "https://www.britishmuseum.org/collection/object/W_K-3375",
-        "https://www.metmuseum.org/essays/gilgamesh",
-        "https://yalebooks.yale.edu/2020/04/30/the-epic-of-gilgamesh/",
-        "https://www.penguinrandomhouse.com/books/670028/the-epic-of-gilgamesh-by-translated-with-an-introduction-by-andrew-george/",
-        "https://cdn.penguin.co.uk/dam-assets/books/9780140449198/9780140449198-sample.pdf",
-        "https://soas-repository.worktribe.com/output/446250/the-epic-of-gilgamesh-a-new-translation"
-      ]
-    }
+    "inProgress": null
   }
 }
