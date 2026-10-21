@@ -1293,6 +1293,32 @@
         "completedOn": "2026-10-21"
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 26,
+      "id": 20,
+      "title": "The Dawn of Everything",
+      "englishTitle": "The Dawn of Everything",
+      "koreanTitle": "모든 것의 새벽",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "the-dawn-of-everything-v3-integrated-ko.webp",
+      "englishImage": "the-dawn-of-everything-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-21",
+      "sourceNotes": "sources/the-dawn-of-everything-v3-integrated.md",
+      "sources": [
+        "https://us.macmillan.com/books/9780374157357/thedawnofeverything/",
+        "https://www.penguin.co.uk/books/314162/the-dawn-of-everything-by-wengrow-david-graeber-and-david/9780141991061",
+        "https://us.macmillan.com/author/davidwengrow",
+        "https://www.lse.ac.uk/events/humanity",
+        "https://discovery.ucl.ac.uk/id/eprint/10225081/1/01-Article%20WENGROW.pdf",
+        "https://blackbooksdotpub.wordpress.com/wp-content/uploads/2021/10/david-graeber-david-wengrow-the-dawn-of-everything_-a-new-history-of-humanity-farrar-straus-and-giroux-2021.pdf"
+      ]
+    }
   }
 }
