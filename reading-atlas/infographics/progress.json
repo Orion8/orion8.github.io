@@ -1205,6 +1205,32 @@
         },
         "completedOn": "2026-10-20"
       }
-    ]
+    ],
+    "inProgress": {
+      "sequence": 24,
+      "id": 18,
+      "title": "Dhammapada",
+      "englishTitle": "The Dhammapada",
+      "koreanTitle": "법구경",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "dhammapada-v3-integrated-ko.webp",
+      "englishImage": "dhammapada-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-20",
+      "sourceNotes": "sources/dhammapada-v3-integrated.md",
+      "sources": [
+        "https://ancient-buddhist-texts.net/Texts-and-Translations/Dhammapada/Dhammapada.pdf",
+        "https://suttacentral.net/edition/dhp/en/buddharakkhita",
+        "https://suttacentral.net/dhp1-20/en/sujato",
+        "https://www.penguinrandomhouse.com/books/673323/the-dhammapada-by-anonymous-translated-with-an-introduction-and-notes-by-valerie-roebuck/",
+        "https://www.penguinrandomhouse.com/books/20846/the-dhammapada-by-a-new-translation-of-the-teachings-of-the-buddha-with-a-guide-to-reading-the-text-by-glenn-wallis/"
+      ]
+    }
   }
 }
