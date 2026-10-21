@@ -1337,6 +1337,31 @@
         "completedOn": "2026-10-21"
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 27,
+      "id": 21,
+      "title": "קיצור תולדות האנושות",
+      "englishTitle": "Sapiens: A Brief History of Humankind",
+      "koreanTitle": "사피엔스",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "sapiens-v3-integrated-ko.webp",
+      "englishImage": "sapiens-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-21",
+      "sourceNotes": "sources/sapiens-v3-integrated.md",
+      "sources": [
+        "https://www.ynharari.com/book/sapiens/",
+        "https://www.ynharari.com/sapiens-references/",
+        "https://www.harpercollins.com/products/sapiens-tenth-anniversary-edition-yuval-noah-harari",
+        "https://www.ynharari.com/topic/power-and-imagination/",
+        "https://www.ynharari.com/topic/money-and-politics/"
+      ]
+    }
   }
 }
