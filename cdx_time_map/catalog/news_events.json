@@ -1,8 +1,124 @@
 {
-  "catalogVersion": "0.0.175",
-  "updatedAt": "2026-10-20T17:58:33.161Z",
+  "catalogVersion": "0.0.176",
+  "updatedAt": "2026-10-21T05:59:40.712Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-bc0a3e3e3becf0957b4025ef",
+      "title": "프랑스, 파리·리옹 등 도심에 야간 통금 시행 '필요한 한 계속'",
+      "titleTranslations": {
+        "en": "France announces nightly curfews 'for as long as necessary' in Paris and other cities"
+      },
+      "startAt": "2026-10-21T05:37:28.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 파리와 리옹 등 도심에 치안 유지를 위해 야간 통금이 다시 부과되었으며, 이는 최근 수년 내 최악의 폭력·약탈 사태 이후 처음으로 잔잔했던 밤에 이어진 조치라고 전했다. 정부는 통금을 '필요한 한' 유지할 것이라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Reports say nightly curfews have been reimposed in central Paris, Lyon and other cities to maintain order, following the first relatively quiet night since some of France's most destructive rioting in years. Authorities said curfews would remain 'for as long as necessary.'"
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+          "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews"
+        ],
+        "firstPublishedAt": "2026-10-17T15:57:40.000Z",
+        "lastObservedAt": "2026-10-21T05:59:40.712Z"
+      }
+    },
+    {
+      "id": "news-a81619fcbafafbb9e5e7a90e",
+      "title": "챔피언스리그, 이번 시즌 최다 득점 신기록 수립",
+      "titleTranslations": {
+        "en": "Champions League sets new goals record"
+      },
+      "startAt": "2026-10-20T23:03:11.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "description": "보도에 따르면 이번 시즌 UEFA 챔피언스리그에서는 다득점 경기가 이어지며 대회 역사상 한 시즌 최다 득점 기록이 새로 세워졌다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reporting says this season's UEFA Champions League has seen goal‑heavy matches and has set a new record for the most goals scored in a single season of the competition."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-20T23:03:11.000Z",
+        "lastObservedAt": "2026-10-21T05:59:40.712Z"
+      }
+    },
+    {
+      "id": "news-2d2caae98728dfe7fcc2bc80",
+      "title": "앤트로픽, '50명 이상 사망 가능' 판단되면 모델 공개 차단할 수 있는 AI 안전 법안 제안",
+      "titleTranslations": {
+        "en": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed"
+      },
+      "startAt": "2026-10-20T23:01:23.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "보도는 앤트로픽이 제안한 법안 초안이 AI 모델의 위험을 다루는 보호 장치를 제시하는 듯 보이지만, 연방 기관이 판사의 허가 없이 모델 공개를 차단할 수 없도록 금지하는 조항을 포함해 논란을 불러일으킨다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Anthropic has pitched a draft AI safety bill that appears to offer protections against dangerous models but includes provisions that would bar federal agencies from blocking a model's release without a judge's permission, raising controversy about its practical effect."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+        ],
+        "firstPublishedAt": "2026-10-20T23:01:23.000Z",
+        "lastObservedAt": "2026-10-21T05:59:40.712Z"
+      }
+    },
+    {
+      "id": "news-ec7a3b45638121f8120d77cb",
+      "title": "NASA, 텍사스 농지 상공에서 온실가스·입자 배출 측정 위한 저고도 연구비행 실시",
+      "titleTranslations": {
+        "en": "NASA to conduct low‑altitude flights over Texas farmland"
+      },
+      "startAt": "2026-10-20T20:21:36.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 다이내믹 항공의 A200 기체를 이용해 텍사스 애마릴로 인근 농지 상공에서 10월 22일부터 11월 9일까지 저고도 연구비행을 실시해 기체 및 입자상 배출을 측정할 예정이라고 밝혔다(기사 업데이트 포함).",
+      "descriptionTranslations": {
+        "en": "NASA said a Dynamic Aviation A200 aircraft will conduct low‑flying research flights over farmland near Amarillo, Texas, from Oct. 22 through Nov. 9 to measure gaseous and particulate emissions, the agency announced (article updated to correct locations)."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/"
+        ],
+        "firstPublishedAt": "2026-10-20T20:21:36.000Z",
+        "lastObservedAt": "2026-10-21T05:59:40.712Z"
+      }
+    },
     {
       "id": "news-766a23e8525d3c02e7a4feb2",
       "title": "수단 군대 드론, 장례 행렬과 연료 시장 공격해 300명 이상 사망했다고 소식통 전해",
@@ -30,6 +146,37 @@
         ],
         "firstPublishedAt": "2026-10-19T14:45:53.000Z",
         "lastObservedAt": "2026-10-20T17:58:33.160Z"
+      }
+    },
+    {
+      "id": "news-f44ff57d59e6a8e8e8445a66",
+      "title": "앨버타 주민투표, 분리 절차 개시 안건 압도적 부결",
+      "titleTranslations": {
+        "en": "Alberta voters overwhelmingly reject plan to begin independence process"
+      },
+      "startAt": "2026-10-20T16:24:05.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "앨버타 주민투표에서 비공식 집계 기준으로 약 76%가 캐나다에 잔류할 것을 지지했고, 약 24%가 분리 절차 개시를 지지했다. 약 190만 표가 집계되며 분리주의 운동 내 분열을 드러내는 결정적 결과가 나왔다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "In Alberta's referendum, unofficial results show roughly 76% voted to remain in Canada while about 24% supported beginning a process toward separation, with nearly 1.9 million votes counted. Reporting says the result delivers a decisive setback and highlights divisions within the separatist movement."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
+          "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
+          "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum"
+        ],
+        "firstPublishedAt": "2026-10-19T05:00:22.000Z",
+        "lastObservedAt": "2026-10-21T05:59:40.712Z"
       }
     },
     {
@@ -89,6 +236,34 @@
         ],
         "firstPublishedAt": "2026-10-20T15:32:36.000Z",
         "lastObservedAt": "2026-10-20T17:58:33.160Z"
+      }
+    },
+    {
+      "id": "news-feb21eec35bc6663617f0081",
+      "title": "BBC, BBC Three·BBC Scotland·Radio 4 Extra 방송 채널 폐쇄 발표",
+      "titleTranslations": {
+        "en": "BBC to close BBC Three, BBC Scotland and Radio 4 Extra broadcast channels"
+      },
+      "startAt": "2026-10-20T15:14:58.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "BBC 내부 보도는 BBC가 비용 절감을 이유로 BBC Three와 BBC Scotland, Radio 4 Extra의 방송 채널을 폐쇄하기로 했으며, 내부 인사인 케이티 래절은 이런 조치가 '사업적 의미'가 있지만 더 많은 절감이 여전히 필요하다고 평가했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say the BBC will close its BBC Three, BBC Scotland and Radio 4 Extra broadcast channels as part of cost‑saving measures. Katie Razzall commented that the closures make business sense but that more savings will be needed, coverage says."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c63eln34yle3o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c63eln34yle3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-20T15:14:58.000Z",
+        "lastObservedAt": "2026-10-21T05:59:40.712Z"
       }
     },
     {
@@ -323,6 +498,34 @@
       }
     },
     {
+      "id": "news-1cfb6291fa158d05a5bad0e6",
+      "title": "오픈AI, 생명과학 R&D 역량 확보 위해 Orchestra Bio 인수",
+      "titleTranslations": {
+        "en": "OpenAI acquires Orchestra Bio"
+      },
+      "startAt": "2026-10-20T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "오픈AI가 Orchestra Bio를 인수해 생명과학 연구개발(R&D)에 AI 기반 운영을 도입하고 제약·바이오팀의 약물 개발 가속화와 신약 연구 지원을 목표로 한다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "OpenAI is acquiring Orchestra Bio to bring AI‑powered operations into life‑sciences R&D, aiming to help biopharma teams accelerate drug development and advance new treatments, reporting says."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/openai-to-acquire-orchestra-bio"
+        ],
+        "firstPublishedAt": "2026-10-20T00:00:00.000Z",
+        "lastObservedAt": "2026-10-21T05:59:40.712Z"
+      }
+    },
+    {
       "id": "news-bca75adfe0ce20cf400183b3",
       "title": "콜로라도 야생동물 육교, 차량·동물 충돌 91% 감소 보고",
       "titleTranslations": {
@@ -409,36 +612,6 @@
       }
     },
     {
-      "id": "news-f44ff57d59e6a8e8e8445a66",
-      "title": "앨버타 주민투표 진행 — '캐나다 잔류 또는 추가 독립투표' 여부 결정",
-      "titleTranslations": {
-        "en": "Alberta referendum asks whether to remain in Canada or hold a second binding independence vote"
-      },
-      "startAt": "2026-10-19T22:29:57.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "앨버타 주민들이 주의 캐나다 내 지위를 결정하는 주민투표를 치르고 있다. 유권자들은 주에 남을지, 아니면 두 번째 구속력 있는 독립투표를 실시할지를 묻는 표를 행사하며 이번 절차는 주 내 분열과 분리주의자 간 내부 갈등을 드러냈다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Albertans are voting in a referendum that asks whether the province should remain in Canada or hold a second binding independence referendum; reporting says the vote has exposed deep divisions within the province, including within the separatist movement."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
-          "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada"
-        ],
-        "firstPublishedAt": "2026-10-19T05:00:22.000Z",
-        "lastObservedAt": "2026-10-20T05:59:08.233Z"
-      }
-    },
-    {
       "id": "news-0d1ca7925e7422f4d2945ba6",
       "title": "자녀 굶겨 죽이라 지시한 케냐 컬트 지도자, 191건의 살인 유죄 판결",
       "titleTranslations": {
@@ -492,6 +665,34 @@
         ],
         "firstPublishedAt": "2026-10-19T16:17:48.000Z",
         "lastObservedAt": "2026-10-20T05:59:08.234Z"
+      }
+    },
+    {
+      "id": "news-0502a592ce1ff45a70ad4c17",
+      "title": "BepiColombo, 8년 여정 끝에 2026년 12월 수성 도착 예정 — 임무 기념 영상 공개",
+      "titleTranslations": {
+        "en": "Celebrating BepiColombo as it approaches Mercury arrival in December 2026"
+      },
+      "startAt": "2026-10-19T15:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "ESA는 BepiColombo가 2018년 10월 20일 발사된 이후 8년간 태양계 내부를 항행해 2026년 12월 9일 수성에 도착할 예정이라며, 임무 팀의 소회를 담은 세 단어 영상으로 도착을 기념하는 내용을 공개했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The European Space Agency said BepiColombo, launched on 20 October 2018, has travelled eight years through the inner solar system and will arrive at Mercury on 9 December 2026. To celebrate, the mission team released a short video describing the mission in three words, ESA reported."
+      },
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Celebrating_BepiColombo_three_words_at_a_time",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Celebrating_BepiColombo_three_words_at_a_time"
+        ],
+        "firstPublishedAt": "2026-10-19T15:00:00.000Z",
+        "lastObservedAt": "2026-10-21T05:59:40.712Z"
       }
     },
     {
@@ -943,36 +1144,6 @@
           "https://www.bbc.co.uk/news/articles/cm2kezgd77qlo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-18T12:09:04.000Z",
-        "lastObservedAt": "2026-10-18T16:29:59.470Z"
-      }
-    },
-    {
-      "id": "news-bc0a3e3e3becf0957b4025ef",
-      "title": "프랑스 시위 추가 격화 — 파리 도심에 방화·약탈·차량 소실, 1,800명 체포",
-      "titleTranslations": {
-        "en": "Protests escalate across France — arson, looting and burnt‑out cars in Paris; 1,800 arrested"
-      },
-      "startAt": "2026-10-18T12:07:31.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "전국 시위가 격화되며 파리 거리에서 차량이 불타고 유리창이 산산조각나는 등 폭력과 약탈이 발생했다. 보도는 약 1,800명이 체포되었다고 전하며 학생들이 합류한 전국적 시위의 충돌·방화 양상을 업데이트한다.",
-      "descriptionTranslations": {
-        "en": "Nationwide demonstrations have escalated into episodes of violence and looting in Paris, with cars burned out and windows smashed. Reports say about 1,800 people were arrested, updating coverage of clashes and arson as student‑joined protests spread across the country."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
-          "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-17T15:57:40.000Z",
         "lastObservedAt": "2026-10-18T16:29:59.470Z"
       }
     },
@@ -1858,35 +2029,6 @@
       }
     },
     {
-      "id": "news-51101f00c73fb45cc236cf40",
-      "title": "NASA, 달 남극 작전용 배터리 개발 중단계 발표 및 Artemis 가속 계획 브리핑 예고",
-      "titleTranslations": {
-        "en": "NASA develops batteries for Moon south‑pole operations and plans Artemis acceleration briefing"
-      },
-      "startAt": "2026-10-14T13:32:25.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "NASA는 달 남극의 극한 저온에서도 작동할 수 있는 배터리 기술을 개발 중이라고 알리고, 10월 23일 케네디 우주센터에서 달 표면 복귀(Artemis) 가속화와 향후 임무 현황에 대한 브리핑을 개최할 예정이라고 발표했다. 기관은 이번 기술과 브리핑이 2028년 달 착륙 계획 등 인류의 달 복귀 준비에 중요하다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "NASA said researchers are developing batteries capable of functioning in the extreme cold of the Moon’s south pole, and announced it will hold a briefing at Kennedy Space Center on 23 October to discuss Artemis acceleration and the status of upcoming Moon missions. The agency said these technologies and updates are important for plans to return humans to the lunar surface."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
-          "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon/"
-        ],
-        "firstPublishedAt": "2026-10-14T13:32:25.000Z",
-        "lastObservedAt": "2026-10-14T17:59:18.189Z"
-      }
-    },
-    {
       "id": "news-0adfdddd930842e8c85bcc0b",
       "title": "해저 인프라 위험 경고서 발간: 엘리자베스 브라우의 ‘Undersea War’가 제기하는 우려",
       "titleTranslations": {
@@ -1944,62 +2086,6 @@
         ],
         "firstPublishedAt": "2026-10-14T05:00:35.000Z",
         "lastObservedAt": "2026-10-14T06:06:02.516Z"
-      }
-    },
-    {
-      "id": "news-36a7e1c23fbbe3b1fdc0232b",
-      "title": "딥마인드·싱가포르 정부 협력: 기기 내 AI로 대화형 사기 탐지 추진",
-      "titleTranslations": {
-        "en": "DeepMind and Singapore government collaborate to build on‑device AI for scam detection"
-      },
-      "startAt": "2026-10-14T02:00:14.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "구글 딥마인드와 싱가포르 정부가 경량화된 기기 내(Gemma) 모델을 활용해 개인 대화에서 발생하는 사기 시도를 클라우드 전송 없이 차단하는 시스템을 공동 개발했다고 보도되었다. 보도는 이 접근이 개인정보 유출을 줄이는 방식으로 사기 탐지를 목표로 한다고 전한다.",
-      "descriptionTranslations": {
-        "en": "Google DeepMind and the Singapore government have collaborated to develop lightweight on‑device Gemma models that intercept conversational scams in private chats without sending data to the cloud. Coverage says the approach aims to detect scams while reducing cloud data egress and protecting user privacy."
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
-        ],
-        "firstPublishedAt": "2026-10-14T02:00:14.000Z",
-        "lastObservedAt": "2026-10-18T16:29:59.470Z"
-      }
-    },
-    {
-      "id": "news-200a5d3dd39c6bfb7a201928",
-      "title": "EU 기업들 사이에서 '에이전트형 AI' 채용 가속 — OpenAI 분석",
-      "titleTranslations": {
-        "en": "The EU’s next chapter in AI is agentic — adoption grows across enterprises, OpenAI analysis says"
-      },
-      "startAt": "2026-10-14T00:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "OpenAI의 분석은 에이전트형(자율적 실행 능력이 있는) AI 도입이 유럽의 기업들과 중소기업 사이에서 증가하고 있으며, 보다 깊은 활용이 이뤄질 경우 추가적 가치 창출이 가능하다고 밝혔다. 보고서는 채택 추세와 잠재적 적용 분야를 제시한다.",
-      "descriptionTranslations": {
-        "en": "OpenAI’s analysis shows that 'agentic' AI — systems capable of autonomous task execution — is increasingly being adopted across EU enterprises and small businesses, and that deeper use could unlock additional value. The analysis outlines adoption trends and potential application areas."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
-        ],
-        "firstPublishedAt": "2026-10-14T00:00:00.000Z",
-        "lastObservedAt": "2026-10-14T17:59:18.189Z"
       }
     },
     {
@@ -2369,62 +2455,6 @@
       }
     },
     {
-      "id": "news-633a0a24e1ccf995b00bdd95",
-      "title": "LIV 골프, 구조조정 탈피 위해 BC 파트너스 크레딧으로 잠재적 3억 달러 자금 확보",
-      "titleTranslations": {
-        "en": "LIV Golf secures potential $300m investment"
-      },
-      "startAt": "2026-10-06T07:02:33.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 2,
-      "description": "BBC 스포츠는 LIV 골프가 구조조정에서 벗어나 2027 시즌을 준비하기 위해 BC Partners Credit으로부터 최대 3억 달러 규모의 자금 조달을 확보했다고 보도했다. 보도는 자금이 확보되면 리그가 재정적 기반을 다지는 데 도움이 될 것이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC Sport reports that LIV Golf has secured a potential $300 million financing package from BC Partners Credit to emerge from restructuring ahead of the 2027 season. The funding could help stabilise the league's finances."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/golf/articles/ckjwe02v4xdlo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/golf/articles/ckjwe02v4xdlo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-06T07:02:33.000Z",
-        "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
-      "id": "news-6bb4791051558224c2ec5e5c",
-      "title": "작가 겸 전 정치인 제프리 아처 별세, 300만권 이상 판매 경력",
-      "titleTranslations": {
-        "en": "Author and former politician Jeffrey Archer dies aged 86"
-      },
-      "startAt": "2026-10-06T03:19:57.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "BBC는 소설가이자 전 정치인인 제프리 아처가 86세로 별세했다고 보도했다. 기사에 따르면 그는 5개 대륙에서 3억 권이 넘는 도서 판매를 기록했으며, 유작으로 알려진 'Adam and Eve'가 이달 후반 출간될 예정이었다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that author and former politician Jeffrey Archer has died aged 86. The article notes he sold more than 300 million books worldwide over a five‑decade career and had a final book, 'Adam and Eve', due for release later this month."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-06T03:19:57.000Z",
-        "lastObservedAt": "2026-10-06T07:31:31.732Z"
-      }
-    },
-    {
       "id": "news-cb52dace1b689bef779b6cbd",
       "title": "미국 공립학교의 도서 금지 건수, 연간 최고치 약 1만2천건 보고",
       "titleTranslations": {
@@ -2479,36 +2509,6 @@
           "https://www.bbc.co.uk/weather/articles/cwgkvyyg8115o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-02T23:37:13.000Z",
-        "lastObservedAt": "2026-10-03T17:14:08.025Z"
-      }
-    },
-    {
-      "id": "news-6306776fe77a246bed524e56",
-      "title": "스페이스X '8시간 익스프레스'로 미 속도 기록 수립 — 최초 흑인 여성 임무 지휘관",
-      "titleTranslations": {
-        "en": "'An amazing ride': SpaceX flight led by first Black female commander sets US speed record"
-      },
-      "startAt": "2026-10-02T03:18:45.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 스페이스X가 발사한 우주선이 8시간 만에 국제우주정거장에 도착하며 미국 기록을 세웠고, 이번 임무는 제시카 왓킨스가 지휘한 최초의 흑인 여성 우주비행대장으로 추가 역사를 썼다. 발사는 드래곤 캡슐 연료계 누출 수리를 위해 세 차례 지연된 뒤 이뤄졌다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that SpaceX launched a crew that reached the International Space Station in an eight‑hour 'express' flight, setting a US speed record, and marking the first time a Black woman — Jessica Watkins — commanded a crew to orbit. The launch followed a three‑week delay to fix a leaking fuel system on the Dragon capsule."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/oct/01/spacex-speed-record-first-black-female-commander",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/oct/01/spacex-speed-record-first-black-female-commander"
-        ],
-        "firstPublishedAt": "2026-10-02T03:18:45.000Z",
         "lastObservedAt": "2026-10-03T17:14:08.025Z"
       }
     },
