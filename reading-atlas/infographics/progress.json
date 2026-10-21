@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 27,
+    "completedCount": 28,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1378,33 +1378,51 @@
           }
         },
         "completedOn": "2026-10-21"
+      },
+      {
+        "sequence": 28,
+        "id": 22,
+        "title": "The Silk Roads",
+        "englishTitle": "The Silk Roads: A New History of the World",
+        "koreanTitle": "실크로드 세계사",
+        "status": "completed-and-verified",
+        "koreanImage": "the-silk-roads-v3-integrated-ko.webp",
+        "englishImage": "the-silk-roads-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-21",
+        "sourceNotes": "sources/the-silk-roads-v3-integrated.md",
+        "sources": [
+          "https://www.bloomsbury.com/uk/discover/non-fiction-features/the-silk-roads-by-peter-frankopan/",
+          "https://www.si.edu/object/silk-roads-new-history-world-peter-frankopan%3Asiris_sil_1072014",
+          "https://cdn.waterstones.com/special/pdf/9781408839997.pdf",
+          "https://books.google.com/books/about/The_Silk_Roads.html?id=9RBsCQAAQBAJ",
+          "https://escholarship.org/uc/item/2s02n9b5"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-silk-roads-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-silk-roads-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-21"
       }
     ],
-    "inProgress": {
-      "sequence": 28,
-      "id": 22,
-      "title": "The Silk Roads",
-      "englishTitle": "The Silk Roads: A New History of the World",
-      "koreanTitle": "실크로드 세계사",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "the-silk-roads-v3-integrated-ko.webp",
-      "englishImage": "the-silk-roads-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "localPreviewAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-21",
-      "sourceNotes": "sources/the-silk-roads-v3-integrated.md",
-      "sources": [
-        "https://www.bloomsbury.com/uk/discover/non-fiction-features/the-silk-roads-by-peter-frankopan/",
-        "https://www.si.edu/object/silk-roads-new-history-world-peter-frankopan%3Asiris_sil_1072014",
-        "https://cdn.waterstones.com/special/pdf/9781408839997.pdf",
-        "https://books.google.com/books/about/The_Silk_Roads.html?id=9RBsCQAAQBAJ",
-        "https://escholarship.org/uc/item/2s02n9b5"
-      ]
-    }
+    "inProgress": null
   }
 }
