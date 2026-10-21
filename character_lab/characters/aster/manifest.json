@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "aster-v1",
+  "name": "Aster",
+  "asset": "aster.glb?v=1",
+  "clips": {
+    "idle": "Idle",
+    "walk": "Walk",
+    "run": "Run",
+    "jump": "Jump",
+    "wave": "Wave"
+  },
+  "oneShots": [
+    "jump",
+    "wave"
+  ],
+  "expressions": {
+    "smile": {
+      "mesh": "FaceControls",
+      "target": "smile"
+    }
+  },
+  "rootNode": "root"
+}
