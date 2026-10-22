@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 32,
+    "completedCount": 33,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1590,29 +1590,48 @@
           }
         },
         "completedOn": "2026-10-22"
+      },
+      {
+        "sequence": 33,
+        "id": 27,
+        "title": "The Structure of Scientific Revolutions",
+        "koreanTitle": "과학혁명의 구조",
+        "status": "completed-and-verified",
+        "koreanImage": "the-structure-of-scientific-revolutions-v3-integrated-ko.webp",
+        "englishImage": "the-structure-of-scientific-revolutions-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-22",
+        "sourceNotes": "sources/the-structure-of-scientific-revolutions-v3-integrated.md",
+        "sources": [
+          "https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html",
+          "https://plato.stanford.edu/entries/thomas-kuhn/",
+          "https://plato.stanford.edu/entries/scientific-revolutions/"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-structure-of-scientific-revolutions-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-structure-of-scientific-revolutions-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-22"
       }
     ],
-    "inProgress": {
-      "sequence": 33,
-      "id": 27,
-      "title": "The Structure of Scientific Revolutions",
-      "koreanTitle": "과학혁명의 구조",
-      "status": "images-and-cards-deployed-awaiting-public-verification",
-      "koreanImage": "the-structure-of-scientific-revolutions-v3-integrated-ko.webp",
-      "englishImage": "the-structure-of-scientific-revolutions-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-22",
-      "sourceNotes": "sources/the-structure-of-scientific-revolutions-v3-integrated.md",
-      "sources": [
-        "https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html",
-        "https://plato.stanford.edu/entries/thomas-kuhn/",
-        "https://plato.stanford.edu/entries/scientific-revolutions/"
-      ]
-    }
+    "inProgress": null
   }
 }
