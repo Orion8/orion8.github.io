@@ -1466,6 +1466,28 @@
         "completedOn": "2026-10-21"
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 30,
+      "id": 24,
+      "title": "The Lessons of History",
+      "koreanTitle": "역사의 교훈",
+      "status": "images-and-cards-deployed-awaiting-public-verification",
+      "koreanImage": "the-lessons-of-history-v3-integrated-ko.webp",
+      "englishImage": "the-lessons-of-history-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-22",
+      "sourceNotes": "sources/the-lessons-of-history-v3-integrated.md",
+      "sources": [
+        "https://www.simonandschuster.com/books/The-Lessons-of-History/Will-Durant/9781439149959",
+        "https://books.google.com/books/about/The_Lessons_of_History.html?id=LWNQ2_4wkocC",
+        "https://cpcglobal.org/publications/The%20Lesson%20Of%20History.pdf",
+        "https://philpapers.org/rec/DURLOH"
+      ]
+    }
   }
 }
