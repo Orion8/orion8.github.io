@@ -1,8 +1,235 @@
 {
-  "catalogVersion": "0.0.177",
-  "updatedAt": "2026-10-21T18:00:41.904Z",
+  "catalogVersion": "0.0.178",
+  "updatedAt": "2026-10-22T06:08:00.502Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-2a375ccbde887f9c949e6da3",
+      "title": "전세계 사이버 보안 경고에 정부·기업 대응 분주",
+      "titleTranslations": {
+        "en": "Governments and companies scramble after global cyber‑security warning"
+      },
+      "startAt": "2026-10-22T05:37:53.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "정부들과 기업들이 웹사이트 보호를 위해 긴급 대응에 나섰다. 보도에 따르면 아마존은 경고가 공개되기 전에 공격을 당했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Governments and companies are rushing to protect their websites. Reporting says Amazon experienced attacks before the warning was made public."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-22T05:37:53.000Z",
+        "lastObservedAt": "2026-10-22T06:08:00.502Z"
+      }
+    },
+    {
+      "id": "news-4ee3b561f36bdd306b2d06e6",
+      "title": "북아일랜드, 2030 에너지 목표 달성 위험 경고",
+      "titleTranslations": {
+        "en": "Northern Ireland risks missing 2030 energy goals, committee warns"
+      },
+      "startAt": "2026-10-22T05:09:52.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "의회 위원회 심의에서 북아일랜드가 조치를 서두르지 않으면 2030 에너지 목표를 달성하지 못하고 경제적 기회를 잃을 수 있다는 우려가 제기됐다.",
+      "descriptionTranslations": {
+        "en": "A committee heard that Northern Ireland could miss its 2030 energy targets and lose economic opportunities if action is not accelerated."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c623d18dl3v0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c623d18dl3v0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-22T05:09:52.000Z",
+        "lastObservedAt": "2026-10-22T06:08:00.502Z"
+      }
+    },
+    {
+      "id": "news-46665bca9da4861381d4821c",
+      "title": "옥스퍼드 스트리트 일부 구간 보행자 전용화 10월 26일 시행",
+      "titleTranslations": {
+        "en": "Part of Oxford Street to be pedestrianised from 26 October"
+      },
+      "startAt": "2026-10-22T04:00:07.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도에 따르면 런던 시내 가장 번잡한 쇼핑 거리 중 절반(1.2마일 구간의 절반)이 10월 26일부터 차량 통행이 금지되고 보행자 전용으로 전환된다. 차량·택시·자전거·스쿠터 등 대부분의 통행이 차단된다.",
+      "descriptionTranslations": {
+        "en": "Reporting says half of Oxford Street — part of the 1.2‑mile thoroughfare — will be closed to traffic from 26 October, banning cars, lorries, vans, taxis, buses, bicycles, e‑bikes and scooters and making it a pedestrian‑only space (except emergency vehicles)."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/news/2026/oct/22/everyone-hates-oxford-street-will-pedestrianisation-save-it",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/news/2026/oct/22/everyone-hates-oxford-street-will-pedestrianisation-save-it"
+        ],
+        "firstPublishedAt": "2026-10-22T04:00:07.000Z",
+        "lastObservedAt": "2026-10-22T06:08:00.502Z"
+      }
+    },
+    {
+      "id": "news-eabfdab6b5261ba0c2d8297e",
+      "title": "재무부, 북해 수익 투자로 ‘조(兆) 파운드’ 규모 기금 가능성 산정",
+      "titleTranslations": {
+        "en": "Treasury calculates how much a 'trillion‑pound' oil fund Britain could have built"
+      },
+      "startAt": "2026-10-21T23:27:05.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도에 따르면 재무부가 북해 자원 수익을 투자했다면 영국이 얼마를 모을 수 있었는지 처음으로 계산해 '조(兆) 파운드' 규모의 기금 가능성을 제시했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says the Treasury has, for the first time, calculated how much the UK could have raised by investing North Sea proceeds, outlining a potential 'trillion‑pound' fund."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-21T23:27:05.000Z",
+        "lastObservedAt": "2026-10-22T06:08:00.502Z"
+      }
+    },
+    {
+      "id": "news-7e7b341d271497a8ccb486dd",
+      "title": "UK 문화수도 2029 후보지 4곳 확정",
+      "titleTranslations": {
+        "en": "Four locations in the running to be UK City of Culture 2029"
+      },
+      "startAt": "2026-10-21T23:02:37.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "description": "보도에 따르면 2029년 UK 시티 오브 컬처 후보지 4곳이 선정되었으며 우승 지역은 2027년 초에 발표되고 1,000만 파운드의 지원을 받게 된다.",
+      "descriptionTranslations": {
+        "en": "Reporting says four locations have been shortlisted to be the UK City of Culture 2029; the winner will be announced in early 2027 and will receive £10m to deliver a year of cultural activities."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6jrw03njgxzo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6jrw03njgxzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-21T23:02:37.000Z",
+        "lastObservedAt": "2026-10-22T06:08:00.502Z"
+      }
+    },
+    {
+      "id": "news-c8fbd486e702c8f02d519998",
+      "title": "푸틴, 미국인 스티븐 허바드 러시아 수감에서 석방",
+      "titleTranslations": {
+        "en": "Putin releases American Stephen Hubbard from Russian prison"
+      },
+      "startAt": "2026-10-21T22:39:19.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도에 따르면 블라디미르 푸틴 대통령이 도널드 트럼프 대통령의 요청에 따라 74세의 미시간 출신 스티븐 허바드를 러시아의 감옥에서 석방했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says President Vladimir Putin freed 74‑year‑old Michigan native Stephen Hubbard from a Russian prison following a request from President Trump."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison"
+        ],
+        "firstPublishedAt": "2026-10-21T22:39:19.000Z",
+        "lastObservedAt": "2026-10-22T06:08:00.502Z"
+      }
+    },
+    {
+      "id": "news-2f964328fd1393fd1cb39ec9",
+      "title": "메타, 이용자 데이터 거짓 주장으로 250억 달러 벌금 부과",
+      "titleTranslations": {
+        "en": "Meta fined $25bn for 'lies' over user data privacy"
+      },
+      "startAt": "2026-10-21T21:49:07.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도에 따르면 페이스북의 모회사 메타가 이용자 데이터 관련 허위 주장으로 250억 달러(미화 25억 달러 ×10의 표기법에 유의)의 벌금을 부과받았다(기사 제목 인용).",
+      "descriptionTranslations": {
+        "en": "Reporting says Meta, the owner of Facebook, has been fined $25bn over 'lies' about user data privacy."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-21T21:49:07.000Z",
+        "lastObservedAt": "2026-10-22T06:08:00.502Z"
+      }
+    },
+    {
+      "id": "news-ecc61938bb8bf98662f87b53",
+      "title": "교황, 폐암 수술 후 추가 치료 불필요 판정",
+      "titleTranslations": {
+        "en": "Pope does not need further treatment after lung cancer surgery"
+      },
+      "startAt": "2026-10-21T20:09:10.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "보도에 따르면 교황이 받은 검사 결과는 국소화된 폐 선암(adenocarcinoma)으로 확인되었고 추가 치료는 필요하지 않다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reporting says tests confirmed the Pope had a localized lung adenocarcinoma and that he does not need further treatment."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-21T20:09:10.000Z",
+        "lastObservedAt": "2026-10-22T06:08:00.502Z"
+      }
+    },
     {
       "id": "news-3222098e24245dc24d2b15cd",
       "title": "러시아, 우크라이나·미국과의 전쟁 종결 협상 재개 준비됐다고 밝혀",
@@ -141,6 +368,62 @@
         ],
         "firstPublishedAt": "2026-10-21T12:00:00.000Z",
         "lastObservedAt": "2026-10-21T18:00:41.904Z"
+      }
+    },
+    {
+      "id": "news-6323854e4daed12ea3dcb193",
+      "title": "스트래퍼드 인터내셔널, 예산 지원으로 국제열차 허브화될 전망",
+      "titleTranslations": {
+        "en": "Stratford International set to receive budget boost to become cross‑Channel train hub"
+      },
+      "startAt": "2026-10-21T10:59:12.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도에 따르면 스트래퍼드 인터내셔널 역의 업그레이드 자금이 다음 주 예산에 포함될 가능성이 제기되어 역이 국제 열차 서비스를 수용할 수 있는 허브로 거듭날 전망이라고 전했다. 런던 시장 사디크 칸이 정부에 자금을 요청해왔다고 보도된다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Stratford International is likely to receive funding in the upcoming Budget to upgrade the station to allow cross‑Channel services, potentially unlocking its role as an international rail hub; Mayor Sadiq Khan has been lobbying ministers for the upgrade, coverage says."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/21/stratford-internationalinternational-trains-budget-boost",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/2026/oct/21/stratford-internationalinternational-trains-budget-boost"
+        ],
+        "firstPublishedAt": "2026-10-21T10:59:12.000Z",
+        "lastObservedAt": "2026-10-22T06:08:00.502Z"
+      }
+    },
+    {
+      "id": "news-b590be06d9c9262e22a37fdf",
+      "title": "미국 극한기상 생존자들, 정치적 영향력 확보 위해 조직화",
+      "titleTranslations": {
+        "en": "US extreme weather survivors organise to become a political force"
+      },
+      "startAt": "2026-10-21T10:00:02.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "텍사스에서 열린 모임에서 지난해 홍수로 136명이 사망한 지역 인근의 생존자들이 재난 대응 개선과 기후변화 대응을 요구하며 정치적 목소리를 키우려는 움직임을 보였다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Reporting says survivors of extreme weather in the US — including people near where floods killed 136 last year — are organising to push for better disaster response and action on global heating."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis"
+        ],
+        "firstPublishedAt": "2026-10-21T10:00:02.000Z",
+        "lastObservedAt": "2026-10-22T06:08:00.502Z"
       }
     },
     {
@@ -1486,35 +1769,6 @@
       }
     },
     {
-      "id": "news-044b4bea2d1a4758f81a6614",
-      "title": "교황, 폐암 수술 며칠 만에 병원 퇴원",
-      "titleTranslations": {
-        "en": "Pope discharged from hospital days after lung cancer surgery"
-      },
-      "startAt": "2026-10-17T13:51:36.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "로마 병원에서 폐암 수술을 받고 치료를 받은 교황이 퇴원했으며, 보도는 교황이 일요일에 성 베드로 광장에서 전통적 앵글루스(Angelus) 기도와 축복을 할 예정이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Pope, who underwent lung cancer surgery at a Rome hospital, has been discharged, and reports say he is expected to give the traditional Angelus prayer and blessing in St Peter’s Square on Sunday."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-16T23:20:37.000Z",
-        "lastObservedAt": "2026-10-18T05:49:53.515Z"
-      }
-    },
-    {
       "id": "news-33216f8cfc71284845c2b752",
       "title": "가정·공장용 전기모터에 가변주파수드라이브(VFD) 보급하면 수기가와트 확보 가능",
       "titleTranslations": {
@@ -1573,34 +1827,6 @@
       }
     },
     {
-      "id": "news-b677fdedabaf44798b79a308",
-      "title": "트럼프, 새 법 발효에 맞춰 대러 제재 조항 일부 면제",
-      "titleTranslations": {
-        "en": "Trump waives several Russia sanctions as new US law takes effect"
-      },
-      "startAt": "2026-10-17T05:02:50.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "도널드 트럼프 미국 대통령은 우크라이나 전쟁을 처벌하려는 새 법의 일부 조항이 미국의 국가 이익에 반한다고 주장하며 여러 대러(對러시아) 제재 권한을 면제했다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "President Donald Trump said parts of a new US law aimed at punishing Moscow for its war in Ukraine were against US national interests and waived several Russia‑related sanctions provisions."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-17T05:02:50.000Z",
-        "lastObservedAt": "2026-10-17T05:33:39.452Z"
-      }
-    },
-    {
       "id": "news-a1365c50f71f1cd7c301b03d",
       "title": "브라질, 대선 앞두고 아마존 벌채 사상 최대 폭 감소 보고",
       "titleTranslations": {
@@ -1626,34 +1852,6 @@
         ],
         "firstPublishedAt": "2026-10-17T02:33:09.000Z",
         "lastObservedAt": "2026-10-17T05:33:39.452Z"
-      }
-    },
-    {
-      "id": "news-8a1b843b0022bd89883d4f1e",
-      "title": "힐리, 히드로 제3활주로에 대해 ‘성장론’으로 지지 입장 표명",
-      "titleTranslations": {
-        "en": "Healey backs pro‑growth case for Heathrow third runway after Burnham ducks issue"
-      },
-      "startAt": "2026-10-16T21:30:12.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언은 영국 재무장관 존 힐리가 히드로 제3활주로에 대해 '성장' 논리를 들어 진행 가능성을 시사했다고 전했다. 힐리는 공청회 응답을 검토하겠다고 밝히며 공항이 일자리와 성장의 중요한 부분이라고 언급했다(총리의 명확한 지지 표명은 없었다고 보도됨).",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that UK Chancellor John Healey said there is a pro‑growth case for proceeding with a third runway at Heathrow, stating the government will study responses to the public consultation and that airports are an important part of jobs and growth; the prime minister has not given clear backing, the coverage notes."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/16/healey-pro-growth-heathrow-third-runway-burnham",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/16/healey-pro-growth-heathrow-third-runway-burnham"
-        ],
-        "firstPublishedAt": "2026-10-16T21:30:12.000Z",
-        "lastObservedAt": "2026-10-17T16:21:41.477Z"
       }
     },
     {
@@ -1743,63 +1941,6 @@
       }
     },
     {
-      "id": "news-cf2a495483ffda4e6c906787",
-      "title": "미 유권자들, 기후 위기 대응 요구하지만 중간선거 후보들엔 침묵",
-      "titleTranslations": {
-        "en": "US voters want more action on global heating. Why are Democrats and Republicans staying silent?"
-      },
-      "startAt": "2026-10-16T15:00:04.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언 보도는 경쟁적 격전지 유권자 여론조사에서 유권자들이 기후위기에 대한 후보들의 정책을 더 듣기를 원하지만, 이번 중간선거 캠페인에서는 양당 후보들이 이에 관해 거의 발언하지 않고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that polls in battleground US states show voters want to hear more from candidates about the climate crisis, but that Democratic and Republican midterm campaigns have largely remained silent on the issue, the coverage says."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/16/midterms-voters-climate-crisis-candidates",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/16/midterms-voters-climate-crisis-candidates"
-        ],
-        "firstPublishedAt": "2026-10-16T15:00:04.000Z",
-        "lastObservedAt": "2026-10-17T16:21:41.477Z"
-      }
-    },
-    {
-      "id": "news-5c5071e769ff6f37fa743af7",
-      "title": "런던 로보택시 확대에 규제·노동자 우려 확산 — 기존 맨체스터 시범과 관련된 업데이트",
-      "titleTranslations": {
-        "en": "Calls grow to limit London rollout of robotaxis amid regulatory and driver concerns"
-      },
-      "startAt": "2026-10-16T11:00:46.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 런던에서 로보택시 서비스가 9월 첫 운행을 시작한 이후 운전기사들의 생계 우려와 도시 정치인들의 규제 권한 요구가 커지며 시범사업 확산을 제한하라는 목소리가 커지고 있다. 우버 드라이버들은 반발과 시위를 계획하고 있으며, 등록·허가 권한을 둘러싼 논쟁이 진행 중이다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that after initial robotaxi services began in London, concerns from drivers and city politicians have grown. Uber drivers plan protests and call for limits, while politicians demand Transport for London should have licensing power — intensifying debate over expanding autonomous taxis. (Update related to earlier Manchester trial coverage.)"
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/16/london-driverless-robotaxis-uber-drivers-wayve-tfl-licences",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/oct/14/uber-self-driving-robotaxi-trial-manchester",
-          "https://www.theguardian.com/uk-news/2026/oct/16/london-driverless-robotaxis-uber-drivers-wayve-tfl-licences"
-        ],
-        "firstPublishedAt": "2026-10-14T13:11:35.000Z",
-        "lastObservedAt": "2026-10-17T05:33:39.452Z"
-      }
-    },
-    {
       "id": "news-1f1ce6b603bd537e755078bd",
       "title": "VW·Ford·Tesla 배터리 공급망, 인도네시아 토착림 파괴와 연결",
       "titleTranslations": {
@@ -1854,34 +1995,6 @@
         ],
         "firstPublishedAt": "2026-10-13T12:00:00.000Z",
         "lastObservedAt": "2026-10-16T05:49:07.046Z"
-      }
-    },
-    {
-      "id": "news-e7d48fa290a0b766e043cf85",
-      "title": "은행권, 힐리 재무장관의 예산안에서 은행 이익 과세 가능성 예측",
-      "titleTranslations": {
-        "en": "Banks say Chancellor Healey may target their profits in upcoming Budget"
-      },
-      "startAt": "2026-10-15T17:14:36.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "영국의 고위 은행 임원들은 BBC에 재무장관의 이번 예산에서 은행들이 '메뉴에 오를 것'이라며 은행 이익에 대한 세제 변화 가능성을 예상한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Senior banking executives told the BBC they expect to be ‘on the menu’ in Chancellor Healey’s Budget later this month, signalling banks may face tax changes on their profits."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-15T17:14:36.000Z",
-        "lastObservedAt": "2026-10-15T17:45:31.321Z"
       }
     },
     {
@@ -1944,65 +2057,6 @@
       }
     },
     {
-      "id": "news-ad09b0946a60b7ff505a8aa2",
-      "title": "딥마인드, ‘구글 안티그래비티’로 항균 펩타이드 탐색 가속화",
-      "titleTranslations": {
-        "en": "DeepMind accelerates search for antimicrobial peptides with Google Antigravity"
-      },
-      "startAt": "2026-10-15T16:08:03.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "딥마인드가 Google Antigravity를 이용해 새로운 항균 펩타이드 탐색 과정을 가속화했다고 발표했다(연구·발표 관련 보도).",
-      "descriptionTranslations": {
-        "en": "DeepMind says it has used Google Antigravity to accelerate the search for novel antimicrobial peptides, according to reporting on the research announcement."
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
-        ],
-        "firstPublishedAt": "2026-10-15T16:08:03.000Z",
-        "lastObservedAt": "2026-10-18T05:49:53.515Z"
-      }
-    },
-    {
-      "id": "news-a41ce0e0a54c0b0683933deb",
-      "title": "모나자이트 처리와 희토류 산업의 환경·방사능 유산에 대한 분석(IEEE)",
-      "titleTranslations": {
-        "en": "Report examines China’s monazite processing and its environmental legacy"
-      },
-      "startAt": "2026-10-15T14:53:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "IEEE 스펙트럼은 내몽골 바오터우의 대규모 폐광저수지와 모나자이트 처리로 인한 독성 혼합물·방사성 토륨 오염을 조명하며, 중국이 지배하는 희토류 시장과 환경·규제 문제를 분석했다.",
-      "descriptionTranslations": {
-        "en": "IEEE Spectrum highlights Baotou’s large tailings lake polluted by decades of minerals processing and containing toxic chemicals and radioactive thorium from monazite processing, and examines China’s dominant role in rare‑earth markets and related environmental and regulatory issues."
-      },
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/monazite-rare-earth",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/china-rare-earth-minerals",
-          "https://spectrum.ieee.org/monazite-rare-earth"
-        ],
-        "firstPublishedAt": "2026-10-15T14:54:03.000Z",
-        "lastObservedAt": "2026-10-16T05:49:07.046Z"
-      }
-    },
-    {
       "id": "news-bb92c371629fda3025cea503",
       "title": "AI 관련 주식 급락 심화 — 인플레이션·금리 우려에 반도체·투자자들 타격",
       "titleTranslations": {
@@ -2056,34 +2110,6 @@
         ],
         "firstPublishedAt": "2026-10-15T11:26:30.000Z",
         "lastObservedAt": "2026-10-15T17:45:31.321Z"
-      }
-    },
-    {
-      "id": "news-0b7274ba05c98359d99b394f",
-      "title": "앤트로픽, 상장 전 투자자에 매출 급증 보고",
-      "titleTranslations": {
-        "en": "Anthropic flags revenue surge to investors ahead of stock market debut"
-      },
-      "startAt": "2026-10-15T04:19:17.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "앤트로픽은 기업 공개(상장)를 앞두고 투자자들에게 매출 급증을 보고했다. 보도는 일부 투자자들이 AI 인프라에 대한 지출 규모를 우려하고 있다고 덧붙였다.",
-      "descriptionTranslations": {
-        "en": "Anthropic reported a surge in revenue to investors ahead of its stock market debut. Coverage notes some investors have become concerned about the amount of money being spent on AI infrastructure."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-15T04:19:17.000Z",
-        "lastObservedAt": "2026-10-15T05:51:51.961Z"
       }
     },
     {
@@ -2226,34 +2252,6 @@
         ],
         "firstPublishedAt": "2026-10-09T10:54:21.000Z",
         "lastObservedAt": "2026-10-09T18:47:28.069Z"
-      }
-    },
-    {
-      "id": "news-21dbc3bb11b8ef372699eaa8",
-      "title": "인도 배우 나나 파테카르 별세(75) — 강렬한 연기로 인도영화서 독자적 입지 구축",
-      "titleTranslations": {
-        "en": "Outspoken Indian actor Nana Patekar dies aged 75"
-      },
-      "startAt": "2026-10-08T20:38:11.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "BBC 문화 보도는 강렬한 연기와 독특한 연기 세계로 알려진 인도 배우 나나 파테카르가 75세로 갑자기 별세했다고 전했다. 보도는 그의 경력과 영화계에서의 영향력을 조명했다.",
-      "descriptionTranslations": {
-        "en": "BBC Culture reports that influential Indian actor Nana Patekar, known for intense performances and a distinctive place in Indian cinema, has died suddenly at the age of 75; coverage reviews his career and impact on film."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj3vqr5rknpeo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cj3vqr5rknpeo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-08T20:38:11.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
       }
     },
     {
