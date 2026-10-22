@@ -1423,6 +1423,30 @@
         "completedOn": "2026-10-21"
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 29,
+      "id": 23,
+      "title": "1491: New Revelations of the Americas Before Columbus",
+      "koreanTitle": "콜럼버스 이전 아메리카",
+      "status": "images-and-cards-deployed-awaiting-public-verification",
+      "koreanImage": "1491-v3-integrated-ko.webp",
+      "englishImage": "1491-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "localPreviewAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-21",
+      "sourceNotes": "sources/1491-v3-integrated.md",
+      "sources": [
+        "https://catdir.loc.gov/catdir/enhancements/fy0619/2004061547-t.html",
+        "https://www.penguinrandomhouse.com/books/107178/1491-second-edition-by-charles-c-mann/",
+        "https://www.penguinrandomhouse.com/books/107178/1491-second-edition-by-charles-c-mann/9780307278180/readers-guide/",
+        "https://escholarship.org/uc/item/8z19q4tw",
+        "https://www.si.edu/object/1491-new-revelations-americas-columbus-charles-c-mann%3Asiris_sil_772691"
+      ]
+    }
   }
 }
