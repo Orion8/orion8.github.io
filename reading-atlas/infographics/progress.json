@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 31,
+    "completedCount": 32,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1547,32 +1547,51 @@
           }
         },
         "completedOn": "2026-10-22"
+      },
+      {
+        "sequence": 32,
+        "id": 26,
+        "title": "The Big Picture",
+        "englishTitle": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself",
+        "koreanTitle": "빅 픽처",
+        "status": "completed-and-verified",
+        "koreanImage": "the-big-picture-v3-integrated-ko.webp",
+        "englishImage": "the-big-picture-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-22",
+        "sourceNotes": "sources/the-big-picture-v3-integrated.md",
+        "sources": [
+          "https://preposterousuniverse.com/blog/2015/12/10/the-big-picture-table-of-contents/",
+          "https://preposterousuniverse.com/bigpicture/",
+          "https://www.penguinrandomhouse.com/books/316646/the-big-picture-by-sean-carroll/",
+          "https://preposterousuniverse.com/blog/2016/05/12/big-picture-part-five-thinking/",
+          "https://preposterousuniverse.com/blog/2016/05/13/big-picture-part-six-caring/"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-big-picture-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-big-picture-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-22"
       }
     ],
-    "inProgress": {
-      "sequence": 32,
-      "id": 26,
-      "title": "The Big Picture",
-      "englishTitle": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself",
-      "koreanTitle": "빅 픽처",
-      "status": "images-and-cards-deployed-awaiting-public-verification",
-      "koreanImage": "the-big-picture-v3-integrated-ko.webp",
-      "englishImage": "the-big-picture-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-22",
-      "sourceNotes": "sources/the-big-picture-v3-integrated.md",
-      "sources": [
-        "https://preposterousuniverse.com/blog/2015/12/10/the-big-picture-table-of-contents/",
-        "https://preposterousuniverse.com/bigpicture/",
-        "https://www.penguinrandomhouse.com/books/316646/the-big-picture-by-sean-carroll/",
-        "https://preposterousuniverse.com/blog/2016/05/12/big-picture-part-five-thinking/",
-        "https://preposterousuniverse.com/blog/2016/05/13/big-picture-part-six-caring/"
-      ]
-    }
+    "inProgress": null
   }
 }
