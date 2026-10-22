@@ -1,1 +1,0 @@
-export{t as PBRMaterialLoadingAdapter}from"./modelAsset-BAKUYcZ3.js";
