@@ -1592,6 +1592,27 @@
         "completedOn": "2026-10-22"
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 33,
+      "id": 27,
+      "title": "The Structure of Scientific Revolutions",
+      "koreanTitle": "과학혁명의 구조",
+      "status": "images-and-cards-deployed-awaiting-public-verification",
+      "koreanImage": "the-structure-of-scientific-revolutions-v3-integrated-ko.webp",
+      "englishImage": "the-structure-of-scientific-revolutions-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-22",
+      "sourceNotes": "sources/the-structure-of-scientific-revolutions-v3-integrated.md",
+      "sources": [
+        "https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html",
+        "https://plato.stanford.edu/entries/thomas-kuhn/",
+        "https://plato.stanford.edu/entries/scientific-revolutions/"
+      ]
+    }
   }
 }
