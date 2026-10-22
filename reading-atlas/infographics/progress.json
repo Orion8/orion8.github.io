@@ -1507,6 +1507,29 @@
         "completedOn": "2026-10-22"
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 31,
+      "id": 25,
+      "title": "Six Easy Pieces",
+      "koreanTitle": "파인만의 여섯 가지 물리 이야기",
+      "status": "images-and-cards-deployed-awaiting-public-verification",
+      "koreanImage": "six-easy-pieces-v3-integrated-ko.webp",
+      "englishImage": "six-easy-pieces-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-22",
+      "sourceNotes": "sources/six-easy-pieces-v3-integrated.md",
+      "sources": [
+        "https://www.basicbooks.com/titles/richard-p-feynman/six-easy-pieces/9780465025275/",
+        "https://www.feynmanlectures.caltech.edu/info/index_content.html",
+        "https://www.feynmanlectures.caltech.edu/info/i6EP_press_release.html",
+        "https://books.google.com/books/about/Six_Easy_Pieces.html?id=Syi8yu46xIgC",
+        "https://www.feynmanlectures.caltech.edu/I_01.html"
+      ]
+    }
   }
 }
