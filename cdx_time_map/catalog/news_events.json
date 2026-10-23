@@ -1,8 +1,208 @@
 {
-  "catalogVersion": "0.0.179",
-  "updatedAt": "2026-10-22T17:58:06.389Z",
+  "catalogVersion": "0.0.180",
+  "updatedAt": "2026-10-23T06:00:48.524Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-ec3bc3e869d143fdc02d121b",
+      "title": "올해 엘니뇨 비교를 위한 위성 고도계 35년 기록 공개 — 'El Niño Then and Now'",
+      "titleTranslations": {
+        "en": "El Niño Then and Now — a 35‑year satellite altimetry record used to compare this year’s El Niño with past events"
+      },
+      "startAt": "2026-10-23T04:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA의 보도는 35년 치 위성 고도계 기록을 통해 올해의 엘니뇨를 과거의 강력한 엘니뇨들과 비교할 수 있게 됐다고 전했다. 장기 위성 자료는 이번 현상의 규모와 영향 평가에 활용된다.",
+      "descriptionTranslations": {
+        "en": "NASA reports that a 35‑year satellite altimetry record allows scientists to compare this year’s El Niño against its strongest predecessors. The long‑term data help assess the event’s scale and impacts."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/"
+        ],
+        "firstPublishedAt": "2026-10-23T04:00:00.000Z",
+        "lastObservedAt": "2026-10-23T06:00:48.524Z"
+      }
+    },
+    {
+      "id": "news-d36b74aa246a7f9f73c2da66",
+      "title": "레이(Raye), 앨범 'This Music May Contain Hope'로 머큐리상 수상",
+      "titleTranslations": {
+        "en": "Raye wins the Mercury Prize with This Music May Contain Hope"
+      },
+      "startAt": "2026-10-23T00:14:08.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "description": "영국 팝 아티스트 레이가 앨범 'This Music May Contain Hope'로 2026년 머큐리상을 수상했다. 경쟁 후보로는 폴 매카트니, 수에이드, 제이드 씰월 등이 포함됐다.",
+      "descriptionTranslations": {
+        "en": "Pop star Raye won the 2026 Mercury Prize for the album This Music May Contain Hope, beating nominees including Paul McCartney, Suede and Jade Thirlwall."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw073mj02v72o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw073mj02v72o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-23T00:14:08.000Z",
+        "lastObservedAt": "2026-10-23T06:00:48.524Z"
+      }
+    },
+    {
+      "id": "news-a0eb2965186242b66b4aa557",
+      "title": "수단 RSF, 병원들을 고의로 표적 삼아 공격했다는 BBC 조사 — 유엔 인권수장 '전쟁범죄' 가능성 제기",
+      "titleTranslations": {
+        "en": "BBC investigation finds Sudan’s RSF fighters deliberately targeted hospitals — UN rights chief says 'may amount to war crimes'"
+      },
+      "startAt": "2026-10-22T23:16:16.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 조사에 따르면 수단의 준군사조직 RSF(민병대 성격 병력)가 병원들을 고의로 표적 삼아 공격한 정황이 확인됐다. 유엔 인권최고대표 볼커 튀르크는 다수의 공격 정황이 전쟁범죄에 해당할 가능성이 있다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "A BBC investigation found evidence that Sudan’s Rapid Support Forces (RSF) deliberately targeted hospitals. UN human rights chief Volker Türk said the multiple attacks may amount to war crimes."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-22T23:16:16.000Z",
+        "lastObservedAt": "2026-10-23T06:00:48.524Z"
+      }
+    },
+    {
+      "id": "news-7b0085dd772c1d5003235981",
+      "title": "MP들, NHS에 체중감량 주사 제공 확대 촉구",
+      "titleTranslations": {
+        "en": "MPs urge broader access to weight‑loss injections on the NHS"
+      },
+      "startAt": "2026-10-22T23:06:04.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "영국의회 의원들이 NHS에서 체중감량 주사(예: Mounjaro)의 대상 확대를 촉구했다. 보도는 현재 2028년까지 대상의 약 6%만 접종 예정인 점을 '야망이 부족하다'고 평가한 의원들의 주장을 전했다.",
+      "descriptionTranslations": {
+        "en": "Members of Parliament are calling for wider access to weight‑loss injections on the NHS. MPs criticised plans that would see only around 6% of eligible patients receive Mounjaro by 2028 as insufficiently ambitious, the reporting says."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g1pkwxdqwo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm4g1pkwxdqwo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-22T23:06:04.000Z",
+        "lastObservedAt": "2026-10-23T06:00:48.524Z"
+      }
+    },
+    {
+      "id": "news-d8c2497a7a86b63bd8950c2b",
+      "title": "모더나·머크의 개인맞춤형 mRNA 암 백신, 사망·재발률 42% 감소 탑라인 결과 발표",
+      "titleTranslations": {
+        "en": "Moderna and Merck report their personalized mRNA cancer vaccine reduced death and recurrence by 42%"
+      },
+      "startAt": "2026-10-22T22:12:19.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "제약사들이 공개한 탑라인 결과에 따르면 모더나와 머크가 공동 개발한 개인맞춤형 mRNA 암 백신이 사망과 재발을 42% 낮춘 것으로 나왔다. 회사들은 이전에 이 임상시험이 성공했다고 보고한 바 있다.",
+      "descriptionTranslations": {
+        "en": "Top‑line results released by the companies indicate Moderna and Merck’s personalized mRNA cancer vaccine reduced death and recurrence by 42%. The firms had earlier reported the trial had succeeded."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
+        ],
+        "firstPublishedAt": "2026-10-22T22:12:19.000Z",
+        "lastObservedAt": "2026-10-23T06:00:48.524Z"
+      }
+    },
+    {
+      "id": "news-5ad6cfcc6b70cfedaf966083",
+      "title": "달 착륙을 지원하려면 스타십 발사 22회 필요 추정(보도)",
+      "titleTranslations": {
+        "en": "Estimate: 22 Starship launches required to support a Moon landing"
+      },
+      "startAt": "2026-10-22T21:52:31.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "기술 보도는 달 착륙을 지원하기 위해서는 착륙선 연료 보급 등 다수의 필수 연료 주입을 포함해 약 22회의 스타십 발사가 필요하다는 최신 추정치를 보도했다. 설계·지속적 보급 요구가 핵심 변수로 제시된다.",
+      "descriptionTranslations": {
+        "en": "Technical reporting estimates that about 22 Starship launches would be required to support a crewed Moon landing, noting numerous required fuelings for the lander and other logistics as key variables."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/"
+        ],
+        "firstPublishedAt": "2026-10-22T21:52:31.000Z",
+        "lastObservedAt": "2026-10-23T06:00:48.524Z"
+      }
+    },
+    {
+      "id": "news-27738afdc0f1e05588811ddb",
+      "title": "엘론 머스크, 데이비드 엘리슨의 스카이댄스에 약 10억달러 투자 보도",
+      "titleTranslations": {
+        "en": "Elon Musk reportedly invests $1bn in David Ellison’s Skydance"
+      },
+      "startAt": "2026-10-22T21:23:39.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도에 따르면 엘론 머스크가 데이비드 엘리슨이 이끄는 미디어 기업 스카이댄스에 약 10억달러를 투자한 것으로 전해졌다. 이 투자는 다른 기존 투자자들의 추가 지분 투입과 함께 이뤄진다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Reports say Elon Musk has invested approximately $1bn in Skydance, the media company led by David Ellison. The investment reportedly accompanies fresh equity infusions from existing investors."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment"
+        ],
+        "firstPublishedAt": "2026-10-22T21:23:39.000Z",
+        "lastObservedAt": "2026-10-23T06:00:48.524Z"
+      }
+    },
     {
       "id": "news-2f964328fd1393fd1cb39ec9",
       "title": "메타, 뉴멕시코가 다주 합의에 불참하자 250억달러 벌금 판결에 항소 계획(업데이트)",
@@ -119,6 +319,34 @@
         ],
         "firstPublishedAt": "2026-10-22T13:53:32.000Z",
         "lastObservedAt": "2026-10-22T17:58:06.389Z"
+      }
+    },
+    {
+      "id": "news-209857475b34bfca03ec7c5b",
+      "title": "치리카후아(Chiricahua) 바위 군집, 미국의 새 국립공원으로 지정",
+      "titleTranslations": {
+        "en": "Chiricahua’s rock spires designated as a new US national park"
+      },
+      "startAt": "2026-10-22T12:08:40.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "의회 통과와 대통령 서명으로 사우스이스트 애리조나의 유명한 거대 기암군 ‘치리카후아’가 미국의 64번째 국립공원으로 지정됐다. 법안은 의회에서 초당적 지지를 받고 대통령이 서명해 공원 지위가 확정됐다.",
+      "descriptionTranslations": {
+        "en": "Legislation creating a national park for the towering rock spires of Chiricahua in southeastern Arizona has been passed by Congress and signed by the President, making it the United States’ 64th national park; the bill had bipartisan support."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/22/chiricahua-monument-arizona-new-national-park",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/22/chiricahua-monument-arizona-new-national-park"
+        ],
+        "firstPublishedAt": "2026-10-22T12:08:40.000Z",
+        "lastObservedAt": "2026-10-23T06:00:48.524Z"
       }
     },
     {
@@ -1632,34 +1860,6 @@
       }
     },
     {
-      "id": "news-98e9f3ac55769e8baf6fc22e",
-      "title": "브라질 결선투표 1차 토론: 룰라·보우소나루 격렬 공방",
-      "titleTranslations": {
-        "en": "Lula and Bolsonaro spar in Brazil’s fiery first presidential run‑off debate"
-      },
-      "startAt": "2026-10-19T04:27:00.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "브라질 대통령과 야당 후보가 10월 25일 결선투표를 일주일 앞두고 열린 첫 토론에서 날카롭게 공방을 벌였다. 보도는 양측이 서로에게 집중공격을 가하며 시험대에 오른 대선전의 긴장감을 전했다.",
-      "descriptionTranslations": {
-        "en": "Brazil’s president and his opponent exchanged sharp attacks in the first presidential run‑off debate, held a week before the October 25 vote. Reporting says the debate intensified the high‑stakes campaign as the runoff approaches."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-19T04:27:00.000Z",
-        "lastObservedAt": "2026-10-19T06:07:06.975Z"
-      }
-    },
-    {
       "id": "news-db24df068a53eedbb5d62c93",
       "title": "앤디 번햄, 대중교통 소음 단속 캠페인 발표 — 최대 £100 벌금 권고",
       "titleTranslations": {
@@ -1715,64 +1915,6 @@
         ],
         "firstPublishedAt": "2026-10-18T22:01:10.000Z",
         "lastObservedAt": "2026-10-19T19:17:31.888Z"
-      }
-    },
-    {
-      "id": "news-d54fc7597418b304da556336",
-      "title": "시카고, 합성 향정신성 약물 확산과 지역사회 대응 심층 보도",
-      "titleTranslations": {
-        "en": "Inside Chicago's battle against the synthetic drugs flooding the US"
-      },
-      "startAt": "2026-10-18T21:00:22.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "보도는 시카고 지역사회가 최근 미국 전역에 확산되는 새로운 합성 향정신성 약물과 싸우고 있다고 전한다. 사례 취재를 통해 병원·응급 대응과 지역의 대응 노력이 부각되었다.",
-      "descriptionTranslations": {
-        "en": "Reporting from Chicago describes communities battling a new wave of synthetic drugs that are flooding the US. The coverage highlights hospital and emergency responses and local efforts to confront the crisis."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-18T21:00:22.000Z",
-        "lastObservedAt": "2026-10-19T06:07:06.975Z"
-      }
-    },
-    {
-      "id": "news-796bbd796e41457364e77c7b",
-      "title": "앤트로픽, 외부 AI 감시기구에 ‘직원급’ 접근권 부여",
-      "titleTranslations": {
-        "en": "Anthropic gives outside AI watchdog “employee‑like” access"
-      },
-      "startAt": "2026-10-18T16:25:19.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "앤트로픽이 외부의 AI 감시기구에 대해 직원과 유사한 수준의 내부 접근을 허용했다고 보도됐다. 보도는 감시기구가 앤트로픽의 승인 없이 조사 결과를 발표할 수 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Anthropic has granted an outside AI watchdog ‘employee‑like’ access to its systems, reporting says. Coverage notes the watchdog can publish its findings without Anthropic’s approval."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
-        ],
-        "firstPublishedAt": "2026-10-18T16:25:19.000Z",
-        "lastObservedAt": "2026-10-19T06:07:06.975Z"
       }
     },
     {
@@ -1857,36 +1999,6 @@
         ],
         "firstPublishedAt": "2026-10-18T11:00:03.000Z",
         "lastObservedAt": "2026-10-18T16:29:59.470Z"
-      }
-    },
-    {
-      "id": "news-33216f8cfc71284845c2b752",
-      "title": "가정·공장용 전기모터에 가변주파수드라이브(VFD) 보급하면 수기가와트 확보 가능",
-      "titleTranslations": {
-        "en": "This hidden device — variable‑frequency drives — could free up gigawatts of grid power"
-      },
-      "startAt": "2026-10-17T13:00:02.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "IEEE 스펙트럼(원문 Canary Media 보도 인용)은 미국에서 팬·펌프·압축기를 돌리는 약 5천만 대의 전기모터가 전체 전력 수요의 거의 3분의 1에 해당하는 전력을 소비한다고 전했다. 모터에 가변주파수드라이브(VFD)를 설치하면 에너지 사용을 크게 줄일 수 있지만 채택률은 비교적 낮다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "IEEE Spectrum (citing Canary Media) reports that some 50 million electric motors in the U.S. — driving fans, pumps and compressors — consume nearly a third of total U.S. power demand. Installing variable‑frequency drives (VFDs) can make these motors far more efficient, but adoption remains relatively low, the coverage says."
-      },
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/variable-frequency-drives"
-        ],
-        "firstPublishedAt": "2026-10-17T13:00:02.000Z",
-        "lastObservedAt": "2026-10-17T16:21:41.477Z"
       }
     },
     {
@@ -1999,63 +2111,6 @@
         ],
         "firstPublishedAt": "2026-10-16T16:28:01.000Z",
         "lastObservedAt": "2026-10-17T05:33:39.452Z"
-      }
-    },
-    {
-      "id": "news-1f1ce6b603bd537e755078bd",
-      "title": "VW·Ford·Tesla 배터리 공급망, 인도네시아 토착림 파괴와 연결",
-      "titleTranslations": {
-        "en": "Revealed: VW, Ford and Tesla batteries linked to destructive deforestation of indigenous lands"
-      },
-      "startAt": "2026-10-16T07:00:56.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 분석에 따르면 폭스바겐·포드·테슬라 등 서구 완성차업체의 배터리 공급망에 포함된 니켈 광산이 인도네시아 술라웨시의 톨라키(Tolaki) 원주민 숲에서 광범위한 원시림 벌채와 연결된 것으로 드러났다. 니켈은 전기차 배터리의 에너지 밀도와 주행거리를 높이는 재료로 널리 사용된다.",
-      "descriptionTranslations": {
-        "en": "A Guardian analysis found that mines in the battery supply chains of automakers including Volkswagen, Ford and Tesla are linked to widespread deforestation of primary rainforest in Sulawesi, Indonesia — lands inhabited by the Tolaki people. Nickel, used in battery cathodes, boosts energy density and range."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/16/vw-ford-tesla-batteries-deforestation-indigenous-lands",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/16/vw-ford-tesla-batteries-deforestation-indigenous-lands"
-        ],
-        "firstPublishedAt": "2026-10-16T07:00:56.000Z",
-        "lastObservedAt": "2026-10-17T05:33:39.452Z"
-      }
-    },
-    {
-      "id": "news-9216e6cae5d0a88ae46315df",
-      "title": "NASA, JAXA의 MMX 임무에 참여해 화성 위성 탐사 지원 예정",
-      "titleTranslations": {
-        "en": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission"
-      },
-      "startAt": "2026-10-15T19:58:08.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA가 일본 JAXA의 MMX(Martian Moons eXploration) 임무에 협력해 포보스·데이모스의 기원 규명과 표본 회수를 돕는 역할을 한다고 발표했다. 보도는 MMX가 화성 위성의 특성 규명과 시료 반환을 목표로 한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "NASA says it will play an important role in JAXA’s MMX mission to characterize Mars’s moons Phobos and Deimos and to help return a sample to Earth. The coverage notes MMX aims to determine the moons’ origins and deliver a sample."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
-          "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/"
-        ],
-        "firstPublishedAt": "2026-10-13T12:00:00.000Z",
-        "lastObservedAt": "2026-10-16T05:49:07.046Z"
       }
     },
     {
@@ -2227,34 +2282,6 @@
         ],
         "firstPublishedAt": "2026-10-12T05:24:10.000Z",
         "lastObservedAt": "2026-10-12T07:18:44.237Z"
-      }
-    },
-    {
-      "id": "news-d49e7336b11d2f1551c7d44d",
-      "title": "영화 '크레이지 리치 아시안' 원작 배우들로 TV 시리즈 제작 결정",
-      "titleTranslations": {
-        "en": "'Crazy Rich Asians' to return as a TV show starring the original film's leads"
-      },
-      "startAt": "2026-10-09T10:54:21.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 1,
-      "description": "BBC 문화 보도에 따르면 2018년 영화 '크레이지 리치 아시안'의 이야기를 이어가는 TV 시리즈가 제작되며, 원작 영화의 주연들(콘스턴스 우, 헨리 골딩, 미셀 여, 로니 치엥 등)이 출연할 예정이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC Culture reports that 'Crazy Rich Asians' will return as a television series continuing the 2018 film, with the original film’s stars — including Constance Wu, Henry Golding, Michelle Yeoh and Ronny Chieng — set to appear."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm5yne8k6zw8o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm5yne8k6zw8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-09T10:54:21.000Z",
-        "lastObservedAt": "2026-10-09T18:47:28.069Z"
       }
     },
     {
