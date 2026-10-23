@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 33,
+    "completedCount": 34,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1630,34 +1630,52 @@
           }
         },
         "completedOn": "2026-10-22"
+      },
+      {
+        "sequence": 34,
+        "id": 28,
+        "title": "The Demon-Haunted World",
+        "englishTitle": "The Demon-Haunted World: Science as a Candle in the Dark",
+        "koreanTitle": "악령이 출몰하는 세상",
+        "status": "completed-and-verified",
+        "koreanImage": "the-demon-haunted-world-v3-integrated-ko.webp",
+        "englishImage": "the-demon-haunted-world-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-22",
+        "sourceNotes": "sources/the-demon-haunted-world-v3-integrated.md",
+        "sources": [
+          "https://www.penguinrandomhouse.com/books/159731/the-demon-haunted-world-by-carl-sagan/",
+          "https://www.loc.gov/item/cosmos000005/",
+          "https://tile.loc.gov/storage-services/service/mss/mss85590/004/004.pdf",
+          "https://www.inf.fu-berlin.de/lehre/pmo/eng/Sagan-Baloney.pdf",
+          "https://libcat.kyu.ac.ug/cgi-bin/koha/opac-detail.pl?biblionumber=1230"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-demon-haunted-world-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-demon-haunted-world-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-22"
       }
     ],
-    "inProgress": {
-      "sequence": 34,
-      "id": 28,
-      "title": "The Demon-Haunted World",
-      "englishTitle": "The Demon-Haunted World: Science as a Candle in the Dark",
-      "koreanTitle": "악령이 출몰하는 세상",
-      "status": "assets-prepared-public-verification-pending",
-      "koreanImage": "the-demon-haunted-world-v3-integrated-ko.webp",
-      "englishImage": "the-demon-haunted-world-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-22",
-      "sourceNotes": "sources/the-demon-haunted-world-v3-integrated.md",
-      "sources": [
-        "https://www.penguinrandomhouse.com/books/159731/the-demon-haunted-world-by-carl-sagan/",
-        "https://www.loc.gov/item/cosmos000005/",
-        "https://tile.loc.gov/storage-services/service/mss/mss85590/004/004.pdf",
-        "https://www.inf.fu-berlin.de/lehre/pmo/eng/Sagan-Baloney.pdf",
-        "https://libcat.kyu.ac.ug/cgi-bin/koha/opac-detail.pl?biblionumber=1230"
-      ],
-      "localPreviewAtWidth": 390
-    }
+    "inProgress": null
   }
 }
 
