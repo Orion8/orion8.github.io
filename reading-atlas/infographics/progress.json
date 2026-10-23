@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 34,
+    "completedCount": 35,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1673,33 +1673,49 @@
           }
         },
         "completedOn": "2026-10-22"
+      },
+      {
+        "sequence": 35,
+        "id": 29,
+        "title": "A Brief History of Time",
+        "koreanTitle": "시간의 역사",
+        "status": "completed-and-verified",
+        "koreanImage": "a-brief-history-of-time-v3-integrated-ko.webp",
+        "englishImage": "a-brief-history-of-time-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-23",
+        "sourceNotes": "sources/a-brief-history-of-time-v3-integrated.md",
+        "sources": [
+          "https://www.penguinrandomhouse.com/books/77010/a-brief-history-of-time-by-stephen-hawking/",
+          "https://www.hawking.org.uk/in-print/books/a-brief-history-of-time",
+          "https://www.penguinrandomhouse.com/books/77019/the-illustrated-a-brief-history-of-time-by-stephen-hawking/",
+          "https://www.cam.ac.uk/stories/stephen-hawking"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/a-brief-history-of-time-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/a-brief-history-of-time-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-23"
       }
     ],
-    "inProgress": {
-      "sequence": 35,
-      "id": 29,
-      "title": "A Brief History of Time",
-      "koreanTitle": "시간의 역사",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "a-brief-history-of-time-v3-integrated-ko.webp",
-      "englishImage": "a-brief-history-of-time-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-23",
-      "sourceNotes": "sources/a-brief-history-of-time-v3-integrated.md",
-      "sources": [
-        "https://www.penguinrandomhouse.com/books/77010/a-brief-history-of-time-by-stephen-hawking/",
-        "https://www.hawking.org.uk/in-print/books/a-brief-history-of-time",
-        "https://www.penguinrandomhouse.com/books/77019/the-illustrated-a-brief-history-of-time-by-stephen-hawking/",
-        "https://www.cam.ac.uk/stories/stephen-hawking"
-      ],
-      "localPreviewAtWidth": 390,
-      "mobileVerifiedAtWidth": 390,
-      "mobileVerificationMethod": "Full-image raster previews at 390px; section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Public cards and image URLs pending."
-    }
+    "inProgress": null
   }
 }
