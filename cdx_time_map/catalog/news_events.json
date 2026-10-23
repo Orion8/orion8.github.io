@@ -1,8 +1,236 @@
 {
-  "catalogVersion": "0.0.180",
-  "updatedAt": "2026-10-23T06:00:48.524Z",
+  "catalogVersion": "0.0.181",
+  "updatedAt": "2026-10-23T17:53:07.944Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-f5f129983c01e29f2c10548f",
+      "title": "네타냐후, 총격 발생 후 점령지 서안 전면 봉쇄 명령",
+      "titleTranslations": {
+        "en": "Netanyahu orders full lockdown of the occupied West Bank after a shooting"
+      },
+      "startAt": "2026-10-23T17:30:51.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "이스라엘 총리 베냐민 네타냐후가 서안(점령지)에서 발생한 총격 사건을 계기로 '전면 봉쇄(full lockdown)'를 지시했다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Israeli Prime Minister Benjamin Netanyahu has ordered a 'full lockdown' of the occupied West Bank following a shooting, reporting says."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-23T17:30:51.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
+      "id": "news-1d17155788833fd03f861993",
+      "title": "중동 긴장 우려에 브렌트유가 배럴당 $117 돌파",
+      "titleTranslations": {
+        "en": "Oil price rises above $117 a barrel amid fears of renewed strikes on Iran"
+      },
+      "startAt": "2026-10-23T16:48:28.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "브렌트유가 약 3.5% 상승해 한때 배럴당 $117를 넘겼다. 보도는 이는 중동에서의 추가 군사행동 우려와 테헤란의 보복 위협이 에너지 시장을 압박한 결과라고 전한다.",
+      "descriptionTranslations": {
+        "en": "Brent crude rose by about 3.5% to top $117 a barrel at one point. Reporting says the rise reflects market fears of fresh escalation in the Middle East and retaliatory threats from Tehran."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran"
+        ],
+        "firstPublishedAt": "2026-10-23T16:48:28.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
+      "id": "news-72788e19edcb4ffc1a5b2b4f",
+      "title": "소설가 류 무라카미(Ryu Murakami) 별세, 향년 74",
+      "titleTranslations": {
+        "en": "Ryu Murakami, cult Japanese author, dies aged 74"
+      },
+      "startAt": "2026-10-23T13:21:16.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "영화화된 소설 '오디션' 등으로 알려진 일본의 소설가 겸 영화감독 류 무라카미가 향년 74세로 사망했다고 보도됐다. 그는 사회 어두운 면을 탐구한 작품들로 널리 알려졌다.",
+      "descriptionTranslations": {
+        "en": "Japanese novelist and filmmaker Ryu Murakami, known for works including Audition, has died aged 74, reporting says. He was renowned for exploring the darker sides of society in his fiction."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/books/2026/oct/23/ryu-murakami-cult-author-of-coin-locker-babies-and-audition-dies-aged-74",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/books/2026/oct/23/ryu-murakami-cult-author-of-coin-locker-babies-and-audition-dies-aged-74"
+        ],
+        "firstPublishedAt": "2026-10-23T13:21:16.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
+      "id": "news-a2942cdad3f6804df91978d8",
+      "title": "앤디 번햄, '일상 문제 해결' 우선 전략으로 소규모 개혁 강조",
+      "titleTranslations": {
+        "en": "Andy Burnham prioritises 'everyday fixes' strategy to deliver small‑scale reforms"
+      },
+      "startAt": "2026-10-23T12:26:53.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "신임 총리로 보도된 앤디 번햄은 보도에 따르면 도로 포트홀, 버스 요금, 공공질서 등 '일상 문제' 해결을 통해 유권자에게 실질적 변화를 보여주려는 전략을 내세우고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say Andy Burnham, described as the new prime minister, is prioritising a strategy of 'everyday fixes' — small, tangible reforms such as pothole repairs, bus fares and public‑transport etiquette — to show voters practical improvements."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/politics/2026/oct/23/andy-burnham-everyday-fixes-strategy-bus-fares-pubs-potholes-headphone-dodgers",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/politics/2026/oct/23/andy-burnham-everyday-fixes-strategy-bus-fares-pubs-potholes-headphone-dodgers"
+        ],
+        "firstPublishedAt": "2026-10-23T12:26:53.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
+      "id": "news-4bb3ee66a0c59f7c7a2082e0",
+      "title": "미 서부, 1960년대 이래 거의 300개 빙하 소실 — 기후 위기로 축소 가속",
+      "titleTranslations": {
+        "en": "US West has lost nearly 300 glaciers since the 1960s as climate crisis shrinks what’s left"
+      },
+      "startAt": "2026-10-23T12:00:26.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "새 연구에 따르면 1960년대 중반 이후 미 서부 지역에서 약 300개의 빙하가 사라졌고 남은 빙하들도 급격히 축소되고 있다. 보도는 이로 인해 물 공급과 생태계에 장기적 영향이 우려된다고 전한다.",
+      "descriptionTranslations": {
+        "en": "A new study finds that nearly 300 glaciers in the US West have disappeared since the 1960s and remaining glaciers are shrinking rapidly. Reporting warns of long‑term impacts on water supplies and ecosystems."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/ng-interactive/2026/oct/23/glacier-loss-climate-crisis-west",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/ng-interactive/2026/oct/23/glacier-loss-climate-crisis-west"
+        ],
+        "firstPublishedAt": "2026-10-23T12:00:26.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
+      "id": "news-564659a5fdbe389d735d0c71",
+      "title": "EPA의 아트라진 대응 부족 주장한 소송 제기",
+      "titleTranslations": {
+        "en": "Lawsuit alleges EPA failed to tackle cancer‑linked pesticide pollution"
+      },
+      "startAt": "2026-10-23T12:00:26.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "환경단체의 소송은 EPA가 수십 년간 클린워터법에 따른 아트라진(호르몬 교란 농약) 오염 대응을 소홀히 해왔다고 주장하며 연방 법원에 시정 명령을 요청했다. 보도는 관련 화학물이 넓은 수계에 오염을 일으켰다고 전한다.",
+      "descriptionTranslations": {
+        "en": "A lawsuit alleges the EPA has long failed to address atrazine pollution under the Clean Water Act and asks a federal judge to order corrective action. Reporting says the chemical has contaminated large stretches of US waterways."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/23/lawsuit-atrazine-pesticide-cancer-epa",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/23/lawsuit-atrazine-pesticide-cancer-epa"
+        ],
+        "firstPublishedAt": "2026-10-23T12:00:26.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
+      "id": "news-d2f08bc4bcc7ea7f197cb149",
+      "title": "영국 첫 주택 구입 지원 제도 소득 상한 최대 £140,000 제시",
+      "titleTranslations": {
+        "en": "Earnings limit of up to £140K set for first‑time buyers loan scheme"
+      },
+      "startAt": "2026-10-23T11:48:04.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "잉글랜드의 신축 주택을 대상으로 한 정부 보증 대출 'Your First Home' 제도에 대해 소득 상한선이 최대 연 £140,000로 설정된다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "The government‑backed 'Your First Home' loan scheme for new‑builds in England will set an earnings cap of up to £140,000, reporting says."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-23T11:48:04.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
+      "id": "news-d8c2497a7a86b63bd8950c2b",
+      "title": "개인맞춤형 암 백신, 재발·사망 위험 42% 감소 — 주요 임상 결과(업데이트)",
+      "titleTranslations": {
+        "en": "Personalized mRNA cancer vaccine reduces death and recurrence by 42% — major trial (update)"
+      },
+      "startAt": "2026-10-23T07:49:02.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "임상 탑라인 결과에 따르면 모더나와 머크의 개인맞춤형 mRNA 암 백신이 사망과 재발을 42% 낮춘 것으로 보고됐다. BBC 등의 보도는 이 결과가 개인맞춤 의학의 전환점이 될 수 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Top‑line results indicate Moderna and Merck’s personalized mRNA cancer vaccine reduced death and recurrence by 42%. Coverage, including the BBC, says the findings could mark a turning point for personalized medicine."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq0ld9g9e913o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb",
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+          "https://www.bbc.co.uk/news/articles/cq0ld9g9e913o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-22T22:12:19.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
     {
       "id": "news-ec3bc3e869d143fdc02d121b",
       "title": "올해 엘니뇨 비교를 위한 위성 고도계 35년 기록 공개 — 'El Niño Then and Now'",
@@ -60,6 +288,62 @@
       }
     },
     {
+      "id": "news-1a543055a02f9816518cc039",
+      "title": "오픈AI·폴란드 NASK, AI 안전·보안 분야 협력 발표",
+      "titleTranslations": {
+        "en": "OpenAI and Poland’s NASK partner on AI safety and security"
+      },
+      "startAt": "2026-10-23T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "오픈AI와 폴란드의 네트워크·정보안보 기관 NASK가 AI 안전·보안과 기술 연구 분야에서 협력하기로 했다고 발표했다. 보도는 협력이 안전장치 강화와 디지털 생태계 회복력 제고를 목표로 한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "OpenAI and Poland’s NASK have announced a partnership on AI safety, security and technical research, aiming to strengthen safeguards and build a more resilient digital ecosystem, reporting says."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+        ],
+        "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
+      "id": "news-5b0ddeb17606b1cdc6d3c4c5",
+      "title": "대형 민간업체 매입·가정간병 분열로 국영요양서비스 위기 우려",
+      "titleTranslations": {
+        "en": "Rapid changes in the care market risk undermining the National Care Service"
+      },
+      "startAt": "2026-10-22T23:20:05.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "대형 민간 기업들이 요양원을 대거 인수하고 가정 도우미 서비스가 파편화되는 등 급격한 시장 변화가 영국의 National Care Service(국영요양서비스)에 위협이 될 수 있다는 우려가 제기됐다.",
+      "descriptionTranslations": {
+        "en": "Rapid changes in the care market — including large private firms buying care homes and fragmentation of home‑help services — risk undermining the UK’s National Care Service, reporting warns."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cke8r6543gplo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cke8r6543gplo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-22T23:20:05.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
       "id": "news-a0eb2965186242b66b4aa557",
       "title": "수단 RSF, 병원들을 고의로 표적 삼아 공격했다는 BBC 조사 — 유엔 인권수장 '전쟁범죄' 가능성 제기",
       "titleTranslations": {
@@ -112,36 +396,6 @@
           "https://www.bbc.co.uk/news/articles/cm4g1pkwxdqwo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-22T23:06:04.000Z",
-        "lastObservedAt": "2026-10-23T06:00:48.524Z"
-      }
-    },
-    {
-      "id": "news-d8c2497a7a86b63bd8950c2b",
-      "title": "모더나·머크의 개인맞춤형 mRNA 암 백신, 사망·재발률 42% 감소 탑라인 결과 발표",
-      "titleTranslations": {
-        "en": "Moderna and Merck report their personalized mRNA cancer vaccine reduced death and recurrence by 42%"
-      },
-      "startAt": "2026-10-22T22:12:19.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "제약사들이 공개한 탑라인 결과에 따르면 모더나와 머크가 공동 개발한 개인맞춤형 mRNA 암 백신이 사망과 재발을 42% 낮춘 것으로 나왔다. 회사들은 이전에 이 임상시험이 성공했다고 보고한 바 있다.",
-      "descriptionTranslations": {
-        "en": "Top‑line results released by the companies indicate Moderna and Merck’s personalized mRNA cancer vaccine reduced death and recurrence by 42%. The firms had earlier reported the trial had succeeded."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
-        ],
-        "firstPublishedAt": "2026-10-22T22:12:19.000Z",
         "lastObservedAt": "2026-10-23T06:00:48.524Z"
       }
     },
@@ -264,6 +518,34 @@
       }
     },
     {
+      "id": "news-301925b8adfcebab105ac576",
+      "title": "딥마인드, 10m 해상도로 세계 숲 유형을 분류한 글로벌 지도 발표",
+      "titleTranslations": {
+        "en": "DeepMind maps the world’s forest types at 10‑metre resolution"
+      },
+      "startAt": "2026-10-22T14:30:24.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "딥마인드는 지구 표면의 10미터 단위 구역을 서로 다른 숲 유형으로 분류한 글로벌 지도를 발표했다. 보도는 이 지도가 산림 연구와 보전 정책에 활용될 수 있다고 전한다.",
+      "descriptionTranslations": {
+        "en": "DeepMind has released a global map that classifies every 10‑metre patch of land into distinct forest types. Reporting says the map could be used to support forest research and conservation policy."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
+        ],
+        "firstPublishedAt": "2026-10-22T14:30:24.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
       "id": "news-6e1142813e707b23d8cce4b0",
       "title": "바클레이스, AI 확대로 인력 5,000명 감축 발표",
       "titleTranslations": {
@@ -376,6 +658,36 @@
         ],
         "firstPublishedAt": "2026-10-22T11:28:24.000Z",
         "lastObservedAt": "2026-10-22T17:58:06.389Z"
+      }
+    },
+    {
+      "id": "news-7e7b341d271497a8ccb486dd",
+      "title": "UK 시티 오브 컬처 2029 후보지 4곳 확정 — 블랙풀·셰필드·밀턴케인스·렉섬",
+      "titleTranslations": {
+        "en": "Four locations shortlisted to be UK City of Culture 2029 — Blackpool, Sheffield, Milton Keynes and Wrexham"
+      },
+      "startAt": "2026-10-22T11:24:44.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 1,
+      "description": "UK 시티 오브 컬처 2029 최종 후보지로 블랙풀, 셰필드, 밀턴케인스, 렉섬 4곳이 선정됐다. 우승 도시는 £10m의 지원을 받게 되며 최종 결과는 내년 초 발표된다.",
+      "descriptionTranslations": {
+        "en": "Blackpool, Sheffield, Milton Keynes and Wrexham have been shortlisted to become the UK City of Culture 2029. The winning location will receive £10m and the final result will be announced in early 2027, reporting says."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/culture/2026/oct/22/uk-city-culture-2029-shortlist-blackpool-sheffield-milton-keynes-wrexham",
+      "topicIds": [
+        "artsFilm",
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6jrw03njgxzo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/culture/2026/oct/22/uk-city-culture-2029-shortlist-blackpool-sheffield-milton-keynes-wrexham"
+        ],
+        "firstPublishedAt": "2026-10-21T23:02:37.000Z",
+        "lastObservedAt": "2026-10-23T17:53:07.944Z"
       }
     },
     {
@@ -517,34 +829,6 @@
           "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-21T23:27:05.000Z",
-        "lastObservedAt": "2026-10-22T06:08:00.502Z"
-      }
-    },
-    {
-      "id": "news-7e7b341d271497a8ccb486dd",
-      "title": "UK 문화수도 2029 후보지 4곳 확정",
-      "titleTranslations": {
-        "en": "Four locations in the running to be UK City of Culture 2029"
-      },
-      "startAt": "2026-10-21T23:02:37.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 1,
-      "description": "보도에 따르면 2029년 UK 시티 오브 컬처 후보지 4곳이 선정되었으며 우승 지역은 2027년 초에 발표되고 1,000만 파운드의 지원을 받게 된다.",
-      "descriptionTranslations": {
-        "en": "Reporting says four locations have been shortlisted to be the UK City of Culture 2029; the winner will be announced in early 2027 and will receive £10m to deliver a year of cultural activities."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6jrw03njgxzo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6jrw03njgxzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-21T23:02:37.000Z",
         "lastObservedAt": "2026-10-22T06:08:00.502Z"
       }
     },
@@ -1123,34 +1407,6 @@
       }
     },
     {
-      "id": "news-2eb8826a3da4b03f0f2db32d",
-      "title": "코로나 조사, 요양시설 확산 허용한 정부 실패 지적—PPE·병원 퇴원 절차 비판",
-      "titleTranslations": {
-        "en": "Covid inquiry finds government failings allowed Covid 'to spread like wildfire' in care homes"
-      },
-      "startAt": "2026-10-20T15:32:36.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "코로나 조사 위원회의 여섯 번째 보고서는 개인보호장비(PPE) 부족과 병원에서의 환자 퇴원 방식 등 정부의 실패가 요양시설에서 코로나가 급속히 퍼지도록 했다고 비판했다.",
-      "descriptionTranslations": {
-        "en": "The sixth report of the Covid inquiry criticises government failings — including lack of PPE and hospital discharge procedures — that allowed Covid to 'spread like wildfire' in care homes, coverage says."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck1l38z0v3v6o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck1l38z0v3v6o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-20T15:32:36.000Z",
-        "lastObservedAt": "2026-10-20T17:58:33.160Z"
-      }
-    },
-    {
       "id": "news-feb21eec35bc6663617f0081",
       "title": "BBC, BBC Three·BBC Scotland·Radio 4 Extra 방송 채널 폐쇄 발표",
       "titleTranslations": {
@@ -1494,64 +1750,6 @@
       }
     },
     {
-      "id": "news-f5de104106419b7644fe57ee",
-      "title": "단 한 장의 환자 얼굴사진으로 암 생존 예측 가능한 AI 도구 개발 연구 제시",
-      "titleTranslations": {
-        "en": "New AI tool can predict cancer survival by a single patient selfie, study suggests"
-      },
-      "startAt": "2026-10-19T22:30:08.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "매사추세츠의 비영리 의료체계 연구진이 한 장의 얼굴사진으로 환자의 생물학적 연령을 추정하고 암 진단 환자의 생존 가능성을 예측하는 AI 시스템을 개발했다고 보도됐다. 연구진은 모델이 생존 결과를 직접 예측하도록 설계했다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Researchers at Mass General Brigham developed an AI system that can estimate a person’s biological age from a single photograph and directly predict survival outcomes for cancer patients, the study reports."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie"
-        ],
-        "firstPublishedAt": "2026-10-19T22:30:08.000Z",
-        "lastObservedAt": "2026-10-20T17:58:33.160Z"
-      }
-    },
-    {
-      "id": "news-0d1ca7925e7422f4d2945ba6",
-      "title": "자녀 굶겨 죽이라 지시한 케냐 컬트 지도자, 191건의 살인 유죄 판결",
-      "titleTranslations": {
-        "en": "Kenya cult leader who told parents to starve children guilty of 191 murders"
-      },
-      "startAt": "2026-10-19T17:18:04.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "자칭 목사 폴 매켄지가 부모들에게 자녀를 굶기라고 지시한 혐의 등을 포함해 191건의 살인 혐의에 대해 유죄 판결을 받았다고 보도됐다. 보도는 유죄 가운데 대부분이 어린이와 관련됐다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Self‑proclaimed pastor Paul Mackenzie has been found guilty on 191 murder charges, reporting says. Coverage notes that the vast majority of the convictions involve children."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-19T17:18:04.000Z",
-        "lastObservedAt": "2026-10-19T19:17:31.888Z"
-      }
-    },
-    {
       "id": "news-0d938f5ec690dc72af384a6c",
       "title": "'You Can See Everything' 다큐, 비밀스런 연출로 흥행·수상권 논의 촉발",
       "titleTranslations": {
@@ -1748,34 +1946,6 @@
       }
     },
     {
-      "id": "news-34b9cbcc7b7b0b2ca2b878e9",
-      "title": "영국 정부, 항공 장애인 승객 보호 강화 약속",
-      "titleTranslations": {
-        "en": "UK government promises disabled air passengers better safeguards"
-      },
-      "startAt": "2026-10-19T07:00:21.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "영국 정부는 손상된 휠체어에 대한 보상과 훈련된 직원의 지원 등 장애인 항공 승객의 보호를 강화하겠다고 약속했다고 보도됐다. 업계 주도 접근그룹의 보고서는 진전이 있었지만 여전히 '더 많은 조치가 필요하다'고 평가했다.",
-      "descriptionTranslations": {
-        "en": "The UK government has pledged stronger safeguards for disabled air passengers, including protection for damaged wheelchairs and support from trained staff, reporting says. An industry‑led accessibility group's report said progress has been made but more remains to be done."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/19/uk-government-promises-disabled-air-passengers-better-safeguards",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/19/uk-government-promises-disabled-air-passengers-better-safeguards"
-        ],
-        "firstPublishedAt": "2026-10-19T07:00:21.000Z",
-        "lastObservedAt": "2026-10-19T19:17:31.888Z"
-      }
-    },
-    {
       "id": "news-28c133f0806d21029cefec3f",
       "title": "원데이 국제(ODI) 크리켓 판도를 바꾼 규칙 변경 영향 분석",
       "titleTranslations": {
@@ -1801,90 +1971,6 @@
         ],
         "firstPublishedAt": "2026-10-19T05:27:56.000Z",
         "lastObservedAt": "2026-10-19T06:07:06.976Z"
-      }
-    },
-    {
-      "id": "news-e5cad304e22ba05947df1834",
-      "title": "중국 성장 가속: AI 수출 호조가 내수 약세 상쇄",
-      "titleTranslations": {
-        "en": "China's growth accelerates as AI export boom outweighs domestic weakness"
-      },
-      "startAt": "2026-10-19T05:17:35.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보고서는 중국의 수출, 특히 AI 관련 수출 호조가 약한 국내 소비를 상쇄하며 성장률을 끌어올렸다고 전한다. 다만 무역 긴장과 AI 수요의 불확실성이 향후 전망을 흐릴 수 있다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Reporting says exports — boosted by AI‑related shipments — have helped offset weak domestic spending and sped up China’s growth. However, trade tensions and doubts over AI demand cloud the outlook, the coverage notes."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-19T05:17:35.000Z",
-        "lastObservedAt": "2026-10-19T06:07:06.975Z"
-      }
-    },
-    {
-      "id": "news-c2a0803a24844f9b472dba05",
-      "title": "NHS 지도부, 산모·신생아 진료 조직이 '목적에 부적합'하다고 경고",
-      "titleTranslations": {
-        "en": "NHS leaders say maternity care organisation is 'not fit for purpose'"
-      },
-      "startAt": "2026-10-19T05:00:08.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "NHS 연합체는 영국의 일부 산부인과 조직이 '목적에 부적합'하다고 평가하며 어려운 결정들이 앞에 놓여 있고 일부 산모·신생아 서비스는 통합이 필요할 수 있다고 경고했다. 보도는 조직 개편과 자원 재배치 가능성을 제기한다.",
-      "descriptionTranslations": {
-        "en": "The NHS Alliance said parts of the maternity‑care system in England are 'not fit for purpose', warning that difficult decisions lie ahead and that some maternity services may need to be consolidated. Reporting highlights potential organisational change and resource reallocation."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm040rgv7wz4o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm040rgv7wz4o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-19T05:00:08.000Z",
-        "lastObservedAt": "2026-10-19T06:07:06.975Z"
-      }
-    },
-    {
-      "id": "news-db24df068a53eedbb5d62c93",
-      "title": "앤디 번햄, 대중교통 소음 단속 캠페인 발표 — 최대 £100 벌금 권고",
-      "titleTranslations": {
-        "en": "Andy Burnham launches campaign against ‘headphone dodgers’ on public transport"
-      },
-      "startAt": "2026-10-18T23:01:12.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 1,
-      "description": "영국 총리 앤디 번햄이 공공교통 내 소란 행위를 막기 위한 캠페인을 발표했다. 지침은 지역 교통당국이 불응자에게 최대 £100의 벌금을 부과할 수 있도록 허용하는 내용을 담고 있다(캠페인 구호: '칸을 나누고 소음은 나누지 말자').",
-      "descriptionTranslations": {
-        "en": "Prime Minister Andy Burnham announced a campaign against nuisance noise on public transport. Guidance would allow local transport authorities to levy fines of up to £100 for non‑compliance, part of a broader effort to curb disruptive behaviour on trains and buses (campaign slogan: 'share the carriage, not the noise')."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/politics/2026/oct/19/andy-burnham-launches-campaign-against-headphone-dodgers-on-public-transport",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/politics/2026/oct/19/andy-burnham-launches-campaign-against-headphone-dodgers-on-public-transport"
-        ],
-        "firstPublishedAt": "2026-10-18T23:01:12.000Z",
-        "lastObservedAt": "2026-10-19T06:07:06.975Z"
       }
     },
     {
@@ -1943,90 +2029,6 @@
         ],
         "firstPublishedAt": "2026-10-18T12:00:03.000Z",
         "lastObservedAt": "2026-10-18T16:29:59.470Z"
-      }
-    },
-    {
-      "id": "news-90e3456ac871cb90ac530370",
-      "title": "미국 노동자들, 폭염 보호 요구에 브랜드·여론전 전략 동원",
-      "titleTranslations": {
-        "en": "US workers facing deadly heat borrow from tomato pickers to win key protections"
-      },
-      "startAt": "2026-10-18T12:00:02.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언 보도는 기록적 폭염 속에 밭·온실·무냉방 작업장 노동자들이 직장 내 열 보호를 확보하기 위해 토마토 수확자들이 사용한 전략을 차용하고 있다고 전했다. 대부분 현장 노동자들은 열 보호 규정이 부족해 건강 위험에 노출돼 있다는 점이 지적됐다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that, amid record heat, US farm, greenhouse and unconditioned‑indoor workers are adopting tactics used by tomato pickers to win heat‑protection measures. Coverage notes many such workers still lack workplace heat protections and face health risks as extreme heat becomes more frequent."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/18/workers-heat-protections",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/18/workers-heat-protections"
-        ],
-        "firstPublishedAt": "2026-10-18T12:00:02.000Z",
-        "lastObservedAt": "2026-10-19T06:07:06.975Z"
-      }
-    },
-    {
-      "id": "news-0d2ca5c4952d6e6c3a77aa08",
-      "title": "캘리포니아 해안 침식 가속 — 산클레멘테 등 해변 규모 축소로 지역 사회·경제 위협",
-      "titleTranslations": {
-        "en": "California coastal erosion accelerates — San Clemente beaches threatened"
-      },
-      "startAt": "2026-10-18T11:00:03.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언은 남가주 산클레멘테 등 해안 도시에서 최근의 폭풍과 파도로 해변 침식이 심화되어 해변이 좁아지고 있으며, 문화·경제적 중심인 해변의 상실이 지역 사회에 위협이 된다고 보도했다. 보도는 '슈퍼 엘니뇨' 전망이 상황을 악화시킬 수 있다고 전한다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports accelerated coastal erosion in Southern California — including San Clemente — where storms and pounding waves are narrowing beaches, threatening the cultural and economic lifeblood of coastal communities. Coverage warns that forecasts for a strong 'super El Niño' could worsen the situation."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/california-beach-erosion-san-clemente",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/18/california-beach-erosion-san-clemente"
-        ],
-        "firstPublishedAt": "2026-10-18T11:00:03.000Z",
-        "lastObservedAt": "2026-10-18T16:29:59.470Z"
-      }
-    },
-    {
-      "id": "news-578ef30bdd4c92867ac25090",
-      "title": "미국 기업 로비단체들, EU 벌채 규제 약화·지연 시도 조사",
-      "titleTranslations": {
-        "en": "US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds"
-      },
-      "startAt": "2026-10-17T11:00:31.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "환경단체 Mighty Earth의 조사에 따르면 캐글, 번지, 몬델레즈 등 주요 미국 기업들과 무역단체들이 2년간 350건이 넘는 회의를 통해 EU 벌채규제(EUDR)를 연기하거나 약화시키려 시도한 정황이 드러났다고 보도되었다.",
-      "descriptionTranslations": {
-        "en": "An investigation by environmental watchdog Mighty Earth found that major US firms and trade associations — including Cargill, Bunge and Mondelēz — sought to influence the EU Deforestation Regulation over a two‑year effort, taking part in more than 350 meetings to delay or weaken the law, the coverage says."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/17/us-corporate-lobbyists-europe-deforestation",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/17/us-corporate-lobbyists-europe-deforestation"
-        ],
-        "firstPublishedAt": "2026-10-17T11:00:31.000Z",
-        "lastObservedAt": "2026-10-17T16:21:41.477Z"
       }
     },
     {
@@ -2478,34 +2480,6 @@
         ],
         "firstPublishedAt": "2026-10-06T12:46:56.000Z",
         "lastObservedAt": "2026-10-07T19:19:57.939Z"
-      }
-    },
-    {
-      "id": "news-cb52dace1b689bef779b6cbd",
-      "title": "미국 공립학교의 도서 금지 건수, 연간 최고치 약 1만2천건 보고",
-      "titleTranslations": {
-        "en": "US book bans in public schools reach record annual high of 12,000"
-      },
-      "startAt": "2026-10-05T14:18:42.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 3,
-      "description": "가디언은 비영리단체 펜아메리카의 보고를 인용해 2025–2026 학년 동안 미국 공립학교에서 약 1만2천건의 도서 금지 사례가 집계되어 역대 최고치를 기록했다고 보도했다. 텍사스가 8,100건으로 최다였고 스티븐 킹이 가장 많이 금지된 작가로 지목됐다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian, citing PEN America, reports nearly 12,000 instances of book bans in US public schools during the 2025–2026 school year — a record high. Texas led with 8,100 bans, and Stephen King was again the most banned author, the report says."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/05/book-bans-schools-record-high",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/05/book-bans-schools-record-high"
-        ],
-        "firstPublishedAt": "2026-10-05T14:18:42.000Z",
-        "lastObservedAt": "2026-10-05T21:12:03.775Z"
       }
     },
     {
