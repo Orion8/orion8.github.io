@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "aster-v1",
+  "id": "aster-v2",
   "name": "Aster",
-  "asset": "aster.glb?v=1",
+  "asset": "aster.glb?v=2",
   "clips": {
     "idle": "Idle",
     "walk": "Walk",
