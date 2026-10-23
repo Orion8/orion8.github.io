@@ -1,12 +1,12 @@
 {
-  "sourceCommit": "c064101d59a52c2d502cd92fd45210fffd253ad1",
-  "runId": "39895575349",
-  "timestamp": "2026-10-23T03:41:53.123Z",
+  "sourceCommit": "dc2882cab412453020984d9b50199fe57bfede2a",
+  "runId": "39947917009",
+  "timestamp": "2026-10-23T11:54:59.786Z",
   "gltfErrors": 0,
   "gltfWarnings": 4,
   "characters": [
     {
-      "id": "aster-v2",
+      "id": "aster-v3",
       "name": "Aster",
       "asset": "aster.glb",
       "errors": 0,
@@ -21,8 +21,8 @@
     }
   ],
   "browserStats": {
-    "startTime": "2026-10-23T03:33:28.639Z",
-    "duration": 504317.658,
+    "startTime": "2026-10-23T11:42:58.538Z",
+    "duration": 721090.603,
     "expected": 12,
     "skipped": 0,
     "unexpected": 0,
@@ -30,8 +30,10 @@
   },
   "basePath": "/character_lab/",
   "defaultCharacter": "aster",
-  "viewerVersion": "0.6.0",
-  "modelVersion": "aster-v2",
-  "asterSha256": "772310778e3db8f1ff2e9a41f575edfef78e1a0ae2579efea53c7031e85b44aa",
-  "verificationUrl": "https://github.com/Orion8/character_lab/actions/runs/39895575349"
+  "viewerVersion": "0.7.0",
+  "modelVersion": "aster-v3",
+  "asterSha256": "9d998f0ca27734022cb62c33836a4bf73822a501d68645a7cb8c99af326c92f4",
+  "triangles": 795484,
+  "renderPrimitives": 5,
+  "verificationUrl": "https://github.com/Orion8/character_lab/actions/runs/39947917009"
 }
