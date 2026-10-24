@@ -1,1 +1,1789 @@
-/bin/bash: line 1: reading-atlas/work/progress.json: Permission denied
+{
+  "collectionTotal": 75,
+  "priorityBasis": "Reading Atlas featured sequence first, then the remaining books by catalogue order",
+  "legacyCompleted": [
+    {
+      "id": 40,
+      "title": "Being You",
+      "koreanIllustrated": "being-you-ko-illustrated.webp",
+      "englishImage": "being-you-en.svg",
+      "completedEarlier": true
+    },
+    {
+      "id": 50,
+      "title": "Thinking in Systems",
+      "koreanIllustrated": "thinking-in-systems-ko-illustrated.webp",
+      "englishImage": "thinking-in-systems-en.svg",
+      "completedEarlier": true
+    },
+    {
+      "id": 65,
+      "title": "The Beginning of Infinity",
+      "koreanIllustrated": "beginning-of-infinity-ko-illustrated.webp",
+      "englishIllustrated": "beginning-of-infinity-en-illustrated.webp",
+      "source": "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/"
+    },
+    {
+      "id": 51,
+      "title": "Complexity: A Guided Tour",
+      "koreanIllustrated": "complexity-a-guided-tour-ko-illustrated.webp",
+      "englishIllustrated": "complexity-a-guided-tour-en-illustrated.webp",
+      "source": "https://academic.oup.com/book/51004"
+    },
+    {
+      "id": 45,
+      "title": "The Society of Mind",
+      "koreanIllustrated": "the-society-of-mind-ko-illustrated.webp",
+      "englishIllustrated": "the-society-of-mind-en-illustrated.webp",
+      "source": "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130"
+    },
+    {
+      "id": 0,
+      "title": "Euclid's Elements",
+      "koreanIllustrated": "euclids-elements-ko-illustrated.svg",
+      "englishIllustrated": "euclids-elements-en-illustrated.svg",
+      "sources": [
+        "https://www.claymath.org/online-resources/euclids-elements/",
+        "https://mathcs.clarku.edu/~djoyce/java/elements/elements.html"
+      ],
+      "completedOn": "2026-10-12"
+    },
+    {
+      "id": 1,
+      "title": "On the Origin of Species",
+      "englishIllustrated": "on-the-origin-of-species-en-illustrated.svg",
+      "source": "https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html",
+      "edition": "1859 first edition",
+      "completedOn": "2026-10-12"
+    },
+    {
+      "id": 2,
+      "title": "The Mathematical Theory of Communication",
+      "englishIllustrated": "mathematical-theory-of-communication-en-illustrated.webp",
+      "sources": [
+        "https://www.press.uillinois.edu/books/?id=p725487",
+        "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+        "https://raley.english.ucsb.edu/wp-content/Engl800/Shannon-Weaver.pdf",
+        "https://agnd.net/valpo/490/the-mathematical-theory-of-communication_weaver-shannon.pdf"
+      ],
+      "edition": "1949 book; Shannon's 1948 paper and Weaver's opening essay",
+      "completedOn": "2026-10-12",
+      "language": "English only",
+      "sourceNotes": "sources/mathematical-theory-of-communication.md"
+    },
+    {
+      "id": 3,
+      "title": "論語",
+      "englishTitle": "The Analects",
+      "englishIllustrated": "analects-en-illustrated.webp",
+      "sources": [
+        "https://ctext.org/analects",
+        "https://plato.stanford.edu/entries/confucius/",
+        "https://cup.columbia.edu/book/the-analects-of-confucius/9780231141659/",
+        "https://www.penguin.co.uk/books/266562/the-analects-by-confucius/9780143106852"
+      ],
+      "edition": "Transmitted 20-book text; layered compilation associated with Confucius and his followers",
+      "completedOn": "2026-10-12",
+      "language": "English only",
+      "sourceNotes": "sources/analects.md"
+    },
+    {
+      "id": 4,
+      "title": "Philosophiæ Naturalis Principia Mathematica",
+      "englishTitle": "The Mathematical Principles of Natural Philosophy",
+      "englishIllustrated": "principia-mathematica-en-illustrated.webp",
+      "sources": [
+        "https://www.gutenberg.org/files/76404/76404-h/76404-h.htm",
+        "https://www.ucpress.edu/books/the-principia-the-authoritative-translation-and-guide/paper",
+        "https://www.loc.gov/item/2021667054/",
+        "https://newtonproject.ox.ac.uk/view/texts/normalized/THEM00291",
+        "https://royalsociety.org/blog/2014/07/principia/"
+      ],
+      "edition": "First published 1687; poster structure based on Newton's final 1726 third edition and Motte's 1729 English translation",
+      "completedOn": "2026-10-13",
+      "language": "English only",
+      "sourceNotes": "sources/principia.md"
+    },
+    {
+      "id": 5,
+      "title": "Братья Карамазовы",
+      "englishTitle": "The Brothers Karamazov",
+      "englishIllustrated": "brothers-karamazov-en-illustrated.webp",
+      "sources": [
+        "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm",
+        "https://www.penguinrandomhouse.com/books/286344/the-brothers-karamazov-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/",
+        "https://www.oup.com.au/books/general-interest/literature/9780199536375",
+        "https://wwnorton.co.uk/books/9781324084273-the-brothers-karamazov",
+        "https://www.rplrt.org/article/volume-1/05-zhernokleyev-on-the-absence/article/"
+      ],
+      "edition": "First published in book form in 1880; structure checked against the Constance Garnett English contents",
+      "completedOn": "2026-10-13",
+      "language": "English only",
+      "sourceNotes": "sources/brothers-karamazov.md"
+    },
+    {
+      "id": 6,
+      "title": "Преступление и наказание",
+      "englishTitle": "Crime and Punishment",
+      "englishIllustrated": "crime-and-punishment-en-illustrated.webp",
+      "sources": [
+        "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm",
+        "https://www.oup.com.au/books/general-interest/literature/9780198709701",
+        "https://www.penguinrandomhouse.com/books/286337/crime-and-punishment-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780140449136/",
+        "https://wwnorton.co.uk/books/9780393264272-crime-and-punishment"
+      ],
+      "edition": "First published in 1866; six-part structure and two-chapter epilogue checked against the Constance Garnett contents",
+      "completedOn": "2026-10-13",
+      "language": "English only",
+      "sourceNotes": "sources/crime-and-punishment.md"
+    },
+    {
+      "id": 7,
+      "title": "Don Quijote de la Mancha",
+      "englishTitle": "Don Quixote",
+      "englishIllustrated": "don-quixote-en-illustrated.webp",
+      "sources": [
+        "https://cvc.cervantes.es/literatura/clasicos/quijote/edicion/parte1/default.htm",
+        "https://cvc.cervantes.es/literatura/clasicos/quijote/edicion/parte2/default.htm",
+        "https://cvc.cervantes.es/literatura/clasicos/quijote/introduccion/prologo/rico.htm",
+        "https://www.penguinrandomhouse.com/books/286028/don-quixote-by-miguel-de-cervantes-translated-with-an-introduction-and-notes-by-john-d-rutherford/",
+        "https://global.oup.com/academic/product/don-quixote-9780199537891",
+        "https://wwnorton.com/books/9780393617474"
+      ],
+      "edition": "Part I first published in 1605 and Part II in 1615; 52 + 74 chapters checked against the Instituto Cervantes critical edition",
+      "completedOn": "2026-10-13",
+      "language": "English only",
+      "sourceNotes": "sources/don-quixote.md"
+    },
+    {
+      "id": 8,
+      "title": "Cien años de soledad",
+      "englishTitle": "One Hundred Years of Solitude",
+      "englishIllustrated": "one-hundred-years-of-solitude-en-illustrated.webp",
+      "sources": [
+        "https://cvc.cervantes.es/actcult/garcia_marquez/obra/novelas/cien_anos_de_soledad.htm",
+        "https://www.penguin.co.uk/books/482987/one-hundred-years-of-solitude-by-marquez-gabriel-garcia/9780241998502",
+        "https://www.penguinrandomhouse.com/books/196323/cien-anos-de-soledad-50-aniversario--one-hundred-years-of-solitude-by-gabriel-garcia-marquez/",
+        "https://www.nobelprize.org/prizes/literature/1982/marquez/lecture/",
+        "https://www.nobelprize.org/prizes/literature/1982/summary/",
+        "https://cdn.penguin.co.uk/dam-assets/books/9780241968581/9780241968581-sample.pdf"
+      ],
+      "edition": "First published in Spanish in 1967; 20 unnumbered chapters and a seven-generation family structure",
+      "completedOn": "2026-10-13",
+      "language": "English only",
+      "sourceNotes": "sources/one-hundred-years-of-solitude.md"
+    },
+    {
+      "id": 9,
+      "title": "紅樓夢",
+      "englishTitle": "Dream of the Red Chamber",
+      "englishIllustrated": "dream-of-the-red-chamber-en-illustrated.webp",
+      "sources": [
+        "https://open.lib.umn.edu/redchamber/",
+        "https://open.lib.umn.edu/redchamber/chapter/controversy-over-the-last-40-chapters/",
+        "https://hrc.cass.anu.edu.au/events/books-changed-humanity-story-stonedream-red-chamber",
+        "https://www.penguin.co.uk/series/STORSTONE/the-story-of-the-stone",
+        "https://open.lib.umn.edu/redchamber/chapter/lin-daiyu/",
+        "https://open.lib.umn.edu/redchamber/chapter/xue-baochai/",
+        "https://open.lib.umn.edu/redchamber/part/the-social-world-of-the-dream/",
+        "https://ctext.org/hongloumeng/zh"
+      ],
+      "edition": "120-chapter Cheng–Gao reading text first printed in 1791; chapters 1–80 from the early manuscript tradition attributed to Cao Xueqin, chapters 81–120 a disputed printed completion",
+      "completedOn": "2026-10-14",
+      "language": "English only",
+      "sourceNotes": "sources/dream-of-the-red-chamber.md"
+    },
+    {
+      "id": 10,
+      "title": "Πολιτεία",
+      "englishTitle": "The Republic",
+      "englishIllustrated": "the-republic-en-infographic.webp",
+      "sources": [
+        "https://classics.mit.edu/Plato/republic.html",
+        "https://plato.stanford.edu/entries/plato-ethics-politics/",
+        "https://plato.stanford.edu/entries/ancient-political/",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0168%3Abook%3D4%3Asection%3D433a",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0168%3Abook%3D7%3Asection%3D514a",
+        "https://www.cambridge.org/core/books/abs/plato-primer/republic/8A71DCAFC366EE41006608AD48AD22B1",
+        "https://www.cambridge.org/core/books/proclus-commentary-on-platos-republic/38E7D9B214AD4AAA3F2C777E371D204E/listing"
+      ],
+      "edition": "Composed in the fourth century BCE; traditional ten-book arrangement used as the reading baseline, with reader-supplied movement groupings clearly labeled",
+      "completedOn": "2026-10-14",
+      "language": "English only",
+      "visualStyle": "Diagram and graph only; no background poster illustration",
+      "sourceNotes": "sources/the-republic.md"
+    }
+  ],
+  "previousFormats": [
+    {
+      "version": 2,
+      "name": "Bilingual self-contained illustrated anatomy",
+      "startedOn": "2026-10-14",
+      "completedCount": 4,
+      "collectionTotal": 75,
+      "completed": [
+        {
+          "sequence": 1,
+          "id": 40,
+          "title": "Being You",
+          "koreanTitle": "내가 된다는 것",
+          "koreanIllustrated": "being-you-v2-ko-illustrated.webp",
+          "englishIllustrated": "being-you-v2-en-illustrated.webp",
+          "koreanComplete": true,
+          "englishComplete": true,
+          "koreanCardVerified": true,
+          "englishCardVerified": true,
+          "mobileVerifiedAtWidth": 390,
+          "dimensions": "2048x3072",
+          "completedOn": "2026-10-14",
+          "sourceNotes": "sources/being-you-v2.md",
+          "sources": [
+            "https://www.anilseth.com/being-you/",
+            "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/",
+            "https://books.google.com/books/about/Being_You.html?id=arVCEAAAQBAJ",
+            "https://www.kriso.ee/being-you-new-science-consciousness-db-9781524742874.html",
+            "https://www.anilseth.com/research/chapters/",
+            "https://www.anilseth.com/research/journals/"
+          ]
+        },
+        {
+          "sequence": 2,
+          "id": 50,
+          "title": "Thinking in Systems",
+          "koreanTitle": "시스템 사고",
+          "koreanIllustrated": "thinking-in-systems-v2-ko-illustrated.webp",
+          "englishIllustrated": "thinking-in-systems-v2-en-illustrated.webp",
+          "koreanComplete": true,
+          "englishComplete": true,
+          "koreanCardVerified": true,
+          "englishCardVerified": true,
+          "mobileVerifiedAtWidth": 390,
+          "dimensions": "2048x3072",
+          "completedOn": "2026-10-14",
+          "sourceNotes": "sources/thinking-in-systems-v2.md",
+          "sources": [
+            "https://www.chelseagreen.com/product/thinking-in-systems/",
+            "https://catdir.loc.gov/catdir/toc/ecip0825/2008035211.html",
+            "https://donellameadows.org/systems-thinking-book-sale/",
+            "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/"
+          ]
+        },
+        {
+          "sequence": 3,
+          "id": 65,
+          "title": "The Beginning of Infinity",
+          "koreanTitle": "무한의 시작",
+          "koreanIllustrated": "beginning-of-infinity-v2-ko-illustrated.webp",
+          "englishIllustrated": "beginning-of-infinity-v2-en-illustrated.webp",
+          "koreanComplete": true,
+          "englishComplete": true,
+          "koreanCardVerified": true,
+          "englishCardVerified": true,
+          "mobileVerifiedAtWidth": 390,
+          "dimensions": "2048x3072",
+          "completedOn": "2026-10-14",
+          "sourceNotes": "sources/beginning-of-infinity-v2.md",
+          "sources": [
+            "https://www.thebeginningofinfinity.com/book/excerpt/",
+            "https://www.thebeginningofinfinity.com/book/excerpt/opening/",
+            "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/",
+            "https://www.daviddeutsch.org.uk/videos/tedglobal-2005-transcript/"
+          ]
+        },
+        {
+          "sequence": 4,
+          "id": 51,
+          "title": "Complexity: A Guided Tour",
+          "koreanTitle": "복잡성 안내서",
+          "koreanIllustrated": "complexity-a-guided-tour-v2-ko-illustrated.webp",
+          "englishIllustrated": "complexity-a-guided-tour-v2-en-illustrated.webp",
+          "koreanComplete": true,
+          "englishComplete": true,
+          "koreanCardVerified": true,
+          "englishCardVerified": true,
+          "mobileVerifiedAtWidth": 390,
+          "dimensions": "2048x3072",
+          "completedOn": "2026-10-15",
+          "sourceNotes": "sources/complexity-a-guided-tour-v2.md",
+          "sources": [
+            "https://academic.oup.com/book/51004",
+            "https://global.oup.com/academic/product/complexity-9780195124415",
+            "https://melaniemitchell.me/EssaysContent/MitchellBigQuestionsEssay.pdf",
+            "https://melaniemitchell.me/",
+            "https://melaniemitchell.me/ExplorationsContent/RobbyTheRobot/",
+            "https://catdir.loc.gov/catdir/toc/ecip0819/2008023794.html"
+          ]
+        }
+      ],
+      "inProgress": {
+        "sequence": 5,
+        "id": 45,
+        "title": "The Society of Mind",
+        "koreanTitle": "마음의 사회",
+        "status": "public-deployment-verification-pending",
+        "koreanIllustrated": "the-society-of-mind-v2-ko-illustrated.webp",
+        "englishIllustrated": "the-society-of-mind-v2-en-illustrated.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": false,
+        "englishCardVerified": false,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "preparedOn": "2026-10-15",
+        "sourceNotes": "sources/the-society-of-mind-v2.md",
+        "sources": [
+          "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
+          "https://openlibrary.org/books/OL21593952M/The_society_of_mind",
+          "https://books.google.com/books/about/Society_Of_Mind.html?id=bLDLllfRpdkC",
+          "https://courses.csail.mit.edu/6.803/pdf/aim-516.pdf"
+        ]
+      }
+    }
+  ],
+  "integratedLayout": {
+    "version": 3,
+    "name": "Fully integrated bilingual illustrated anatomy",
+    "startedOn": "2026-10-15",
+    "completedCount": 36,
+    "collectionTotal": 75,
+    "completed": [
+      {
+        "sequence": 1,
+        "id": 40,
+        "title": "Being You",
+        "koreanTitle": "내가 된다는 것",
+        "koreanImage": "being-you-v3-integrated-ko.webp",
+        "englishImage": "being-you-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "completedOn": "2026-10-15",
+        "sourceNotes": "sources/being-you-v3-integrated.md",
+        "sources": [
+          "https://www.anilseth.com/being-you/",
+          "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/",
+          "https://books.google.com/books/about/Being_You.html?id=arVCEAAAQBAJ",
+          "https://www.anilseth.com/research/journals/"
+        ]
+      },
+      {
+        "sequence": 2,
+        "id": 50,
+        "title": "Thinking in Systems",
+        "koreanTitle": "시스템 사고",
+        "koreanImage": "thinking-in-systems-v3-integrated-ko.webp",
+        "englishImage": "thinking-in-systems-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "completedOn": "2026-10-15",
+        "sourceNotes": "sources/thinking-in-systems-v3-integrated.md",
+        "sources": [
+          "https://www.chelseagreen.com/product/thinking-in-systems/",
+          "https://catdir.loc.gov/catdir/toc/ecip0825/2008035211.html",
+          "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+          "https://donellameadows.org/a-visual-approach-to-leverage-points/"
+        ]
+      },
+      {
+        "sequence": 3,
+        "id": 65,
+        "title": "The Beginning of Infinity",
+        "koreanTitle": "세상의 설명을 바꾸는 끝없는 지식",
+        "koreanImage": "beginning-of-infinity-v3-integrated-ko.webp",
+        "englishImage": "beginning-of-infinity-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "completedOn": "2026-10-16",
+        "sourceNotes": "sources/beginning-of-infinity-v3-integrated.md",
+        "sources": [
+          "https://www.thebeginningofinfinity.com/book/excerpt/",
+          "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/",
+          "https://www.daviddeutsch.org.uk/videos/tedglobal-2005-transcript/"
+        ]
+      },
+      {
+        "sequence": 4,
+        "id": 51,
+        "title": "Complexity: A Guided Tour",
+        "koreanTitle": "복잡성 안내서",
+        "koreanImage": "complexity-a-guided-tour-v3-integrated-ko.webp",
+        "englishImage": "complexity-a-guided-tour-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "completedOn": "2026-10-16",
+        "sourceNotes": "sources/complexity-a-guided-tour-v3-integrated.md",
+        "sources": [
+          "https://academic.oup.com/book/51004",
+          "https://academic.oup.com/book/51004/chapter-abstract/422426600",
+          "https://global.oup.com/academic/product/complexity-9780195124415",
+          "https://melaniemitchell.me/"
+        ]
+      },
+      {
+        "sequence": 5,
+        "id": 45,
+        "title": "The Society of Mind",
+        "koreanTitle": "마음의 사회",
+        "koreanImage": "the-society-of-mind-v3-integrated-ko.webp",
+        "englishImage": "the-society-of-mind-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "publicResponses": {
+          "korean": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 389312
+          },
+          "english": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 321784
+          }
+        },
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "2048x3072",
+        "completedOn": "2026-10-16",
+        "sourceNotes": "sources/the-society-of-mind-v3-integrated.md",
+        "sources": [
+          "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
+          "https://mitpressbookstore.mit.edu/book/9780671657130",
+          "https://courses.media.mit.edu/2016spring/mass63/wp-content/uploads/sites/40/2015/09/Society-of-Mind.pdf",
+          "https://www.yes24.com/Product/goods/69318285"
+        ]
+      },
+      {
+        "sequence": 6,
+        "id": 0,
+        "title": "Euclid's Elements",
+        "koreanTitle": "유클리드의 원론",
+        "koreanImage": "euclids-elements-v3-integrated-ko.webp",
+        "englishImage": "euclids-elements-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-17",
+        "sourceNotes": "sources/euclids-elements-v3-integrated.md",
+        "sources": [
+          "https://www.claymath.org/online-resources/euclids-elements/",
+          "https://math.clarku.edu/~djoyce/java/elements/toc.html",
+          "https://mathcs.clarku.edu/~DJoyce/java/elements/elements.html"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "completedOn": "2026-10-17",
+        "publicResponses": {
+          "korean": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 116902
+          },
+          "english": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 122688
+          }
+        }
+      },
+      {
+        "sequence": 7,
+        "id": 1,
+        "title": "On the Origin of Species",
+        "koreanTitle": "종의 기원",
+        "koreanImage": "on-the-origin-of-species-v3-integrated-ko.webp",
+        "englishImage": "on-the-origin-of-species-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "publicResponses": {
+          "korean": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 194704
+          },
+          "english": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 216006
+          }
+        },
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "completedOn": "2026-10-17",
+        "sourceNotes": "sources/on-the-origin-of-species-v3-integrated.md",
+        "sources": [
+          "https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html",
+          "https://www.gutenberg.org/files/1228/1228-h/1228-h.htm"
+        ]
+      },
+      {
+        "sequence": 8,
+        "id": 2,
+        "title": "The Mathematical Theory of Communication",
+        "koreanTitle": "통신의 수학적 이론",
+        "koreanImage": "mathematical-theory-of-communication-v3-integrated-ko.webp",
+        "englishImage": "mathematical-theory-of-communication-v3-integrated-en.webp",
+        "status": "completed-and-verified",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-17",
+        "sourceNotes": "sources/mathematical-theory-of-communication-v3-integrated.md",
+        "sources": [
+          "https://www.press.uillinois.edu/books/?id=p725487",
+          "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+          "https://onlinelibrary.wiley.com/doi/10.1002/j.1538-7305.1948.tb01338.x"
+        ],
+        "publicResponses": {
+          "korean": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 139024
+          },
+          "english": {
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 149510
+          }
+        },
+        "completedOn": "2026-10-17"
+      },
+      {
+        "sequence": 9,
+        "id": 3,
+        "title": "論語",
+        "englishTitle": "The Analects",
+        "koreanTitle": "논어",
+        "koreanImage": "analects-v3-integrated-ko.webp",
+        "englishImage": "analects-v3-integrated-en.webp",
+        "status": "completed-and-verified",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-17",
+        "sourceNotes": "sources/analects-v3-integrated.md",
+        "sources": [
+          "https://plato.stanford.edu/entries/confucius/",
+          "https://cup.columbia.edu/book/the-analects-of-confucius/9780231511995/",
+          "https://www.loc.gov/item/2021666313"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/analects-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/analects-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-17"
+      },
+      {
+        "sequence": 10,
+        "id": 4,
+        "title": "Philosophiæ Naturalis Principia Mathematica",
+        "englishTitle": "The Mathematical Principles of Natural Philosophy",
+        "koreanTitle": "프린키피아 — 자연철학의 수학적 원리",
+        "status": "completed-and-verified",
+        "koreanImage": "principia-mathematica-v3-integrated-ko.webp",
+        "englishImage": "principia-mathematica-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-17",
+        "sourceNotes": "sources/principia-mathematica-v3-integrated.md",
+        "sources": [
+          "https://www.ucpress.edu/books/the-principia-the-authoritative-translation-and-guide/paper",
+          "https://www.loc.gov/item/2021667054/",
+          "https://www.newtonproject.ox.ac.uk/view/texts/normalized/NATP00084",
+          "https://www.ucpress.edu/books/sir-isaac-newtons-mathematical-principles-of-natural-philosophy-and-his-system-of-the-world"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/principia-mathematica-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/principia-mathematica-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-17"
+      },
+      {
+        "sequence": 11,
+        "id": 5,
+        "title": "Братья Карамазовы",
+        "englishTitle": "The Brothers Karamazov",
+        "koreanTitle": "카라마조프가의 형제들",
+        "status": "completed-and-verified",
+        "koreanImage": "brothers-karamazov-v3-integrated-ko.webp",
+        "englishImage": "brothers-karamazov-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-17",
+        "sourceNotes": "sources/brothers-karamazov-v3-integrated.md",
+        "sources": [
+          "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm",
+          "https://www.penguinrandomhouse.com/books/286344/the-brothers-karamazov-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780241655566/",
+          "https://www.penguinrandomhouse.com/books/42256/the-brothers-karamazov-by-fyodor-dostoevsky/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/brothers-karamazov-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/brothers-karamazov-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-17"
+      },
+      {
+        "sequence": 12,
+        "id": 6,
+        "title": "Преступление и наказание",
+        "englishTitle": "Crime and Punishment",
+        "koreanTitle": "죄와 벌",
+        "status": "completed-and-verified",
+        "koreanImage": "crime-and-punishment-v3-integrated-ko.webp",
+        "englishImage": "crime-and-punishment-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-18",
+        "sourceNotes": "sources/crime-and-punishment-v3-integrated.md",
+        "sources": [
+          "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm",
+          "https://www.penguinrandomhouse.com/books/286337/crime-and-punishment-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780140449136/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/crime-and-punishment-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/crime-and-punishment-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-18"
+      },
+      {
+        "sequence": 13,
+        "id": 7,
+        "title": "Don Quijote de la Mancha",
+        "englishTitle": "Don Quixote",
+        "koreanTitle": "돈키호테",
+        "status": "completed-and-verified",
+        "koreanImage": "don-quixote-v3-integrated-ko.webp",
+        "englishImage": "don-quixote-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-18",
+        "sourceNotes": "sources/don-quixote-v3-integrated.md",
+        "sources": [
+          "https://www.gutenberg.org/files/996/996-h/996-h.htm",
+          "https://www.penguinrandomhouse.com/books/580416/don-quixote-by-miguel-de-cervantes-saavedra-translated-with-an-introduction-and-notes-by-john-rutherford-illustrated-by-coralie-bickford-smith/",
+          "https://cvc.cervantes.es/literatura/clasicos/quijote/edicion/parte1/cap52/default.htm",
+          "https://cvc.cervantes.es/literatura/clasicos/quijote/edicion/parte2/cap74/cap74_02.htm"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/don-quixote-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/don-quixote-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-18"
+      },
+      {
+        "sequence": 14,
+        "id": 8,
+        "title": "Cien años de soledad",
+        "englishTitle": "One Hundred Years of Solitude",
+        "koreanTitle": "백년의 고독",
+        "status": "completed-and-verified",
+        "koreanImage": "one-hundred-years-of-solitude-v3-integrated-ko.webp",
+        "englishImage": "one-hundred-years-of-solitude-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-18",
+        "sourceNotes": "sources/one-hundred-years-of-solitude-v3-integrated.md",
+        "sources": [
+          "https://www.penguin.co.uk/books/482987/one-hundred-years-of-solitude-by-marquez-gabriel-garcia/9780241998502",
+          "https://www.penguinrandomhouse.com/books/196323/cien-anos-de-soledad-50-aniversario--one-hundred-years-of-solitude-by-gabriel-garcia-marquez/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/one-hundred-years-of-solitude-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/one-hundred-years-of-solitude-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-18"
+      },
+      {
+        "sequence": 15,
+        "id": 9,
+        "title": "紅樓夢",
+        "englishTitle": "Dream of the Red Chamber",
+        "koreanTitle": "홍루몽",
+        "status": "completed-and-verified",
+        "koreanImage": "dream-of-the-red-chamber-v3-integrated-ko.webp",
+        "englishImage": "dream-of-the-red-chamber-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-18",
+        "sourceNotes": "sources/dream-of-the-red-chamber-v3-integrated.md",
+        "sources": [
+          "https://www.penguin.co.uk/series/STORSTONE/the-story-of-the-stone",
+          "https://hrc.cass.anu.edu.au/events/books-changed-humanity-story-stonedream-red-chamber",
+          "https://open.lib.umn.edu/redchamber/chapter/controversy-over-the-last-40-chapters/",
+          "https://open.lib.umn.edu/redchamber/chapter/jia-baoyu/",
+          "https://open.lib.umn.edu/redchamber/chapter/daily-life-in-the-novel/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/dream-of-the-red-chamber-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/dream-of-the-red-chamber-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-18"
+      },
+      {
+        "sequence": 16,
+        "id": 10,
+        "title": "Πολιτεία",
+        "englishTitle": "The Republic",
+        "koreanTitle": "국가",
+        "status": "completed-and-verified",
+        "koreanImage": "the-republic-v3-integrated-ko.webp",
+        "englishImage": "the-republic-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-19",
+        "sourceNotes": "sources/the-republic-v3-integrated.md",
+        "sources": [
+          "https://classics.mit.edu/Plato/republic.html",
+          "https://classics.mit.edu/Plato/republic.5.iv.html",
+          "https://classics.mit.edu/Plato/republic.8.vii.html",
+          "https://classics.mit.edu/Plato/republic.11.x.html",
+          "https://plato.stanford.edu/entries/plato-ethics-politics/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-republic-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-republic-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-19"
+      },
+      {
+        "sequence": 17,
+        "id": 11,
+        "title": "道德經",
+        "englishTitle": "Daodejing",
+        "koreanTitle": "도덕경",
+        "status": "completed-and-verified",
+        "koreanImage": "daodejing-v3-integrated-ko.webp",
+        "englishImage": "daodejing-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-19",
+        "sourceNotes": "sources/daodejing-v3-integrated.md",
+        "sources": [
+          "https://plato.stanford.edu/entries/laozi/",
+          "https://content.ucpress.edu/title/9780520305571/9780520305571_intro.pdf",
+          "https://www.gutenberg.org/files/49965/49965-h/49965-h.htm",
+          "https://www.penguinrandomhouse.com/books/529321/tao-te-ching-by-lao-tzu-translated-with-an-introduction-and-commentary-by-john-minford/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/daodejing-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/daodejing-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-19"
+      },
+      {
+        "sequence": 18,
+        "id": 12,
+        "title": "An Enquiry Concerning Human Understanding",
+        "koreanTitle": "인간 지성에 관한 탐구",
+        "status": "completed-and-verified",
+        "koreanImage": "enquiry-human-understanding-v3-integrated-ko.webp",
+        "englishImage": "enquiry-human-understanding-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-19",
+        "sourceNotes": "sources/enquiry-human-understanding-v3-integrated.md",
+        "sources": [
+          "https://davidhume.org/texts/e/",
+          "https://davidhume.org/texts/e/notes",
+          "https://davidhume.org/texts/e/2",
+          "https://davidhume.org/texts/e/4",
+          "https://davidhume.org/texts/e/5",
+          "https://davidhume.org/texts/e/7",
+          "https://davidhume.org/texts/e/12"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/enquiry-human-understanding-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/enquiry-human-understanding-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-19"
+      },
+      {
+        "sequence": 19,
+        "id": 13,
+        "title": "Kritik der reinen Vernunft",
+        "englishTitle": "Critique of Pure Reason",
+        "koreanTitle": "순수이성비판",
+        "status": "completed-and-verified",
+        "koreanImage": "critique-of-pure-reason-v3-integrated-ko.webp",
+        "englishImage": "critique-of-pure-reason-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-19",
+        "sourceNotes": "sources/critique-of-pure-reason-v3-integrated.md",
+        "sources": [
+          "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+          "https://www.cambridge.org/core/books/abs/critique-of-pure-reason/contents/A493121789B849857211E46B2D3218F4",
+          "https://assets.cambridge.org/97813165/06073/excerpt/9781316506073_excerpt.pdf",
+          "https://plato.stanford.edu/entries/kant/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/critique-of-pure-reason-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/critique-of-pure-reason-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-19"
+      },
+      {
+        "sequence": 20,
+        "id": 14,
+        "title": "Conjectures and Refutations",
+        "koreanTitle": "추측과 논박",
+        "status": "completed-and-verified",
+        "koreanImage": "conjectures-and-refutations-v3-integrated-ko.webp",
+        "englishImage": "conjectures-and-refutations-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-19",
+        "sourceNotes": "sources/conjectures-and-refutations-v3-integrated.md",
+        "sources": [
+          "https://www.routledge.com/Conjectures-and-Refutations-The-Growth-of-Scientific-Knowledge/Popper/p/book/9780415285940",
+          "https://joelvelasco.net/teaching/hum9/popper-conjecturesrefutations.pdf",
+          "https://plato.stanford.edu/entries/popper/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/conjectures-and-refutations-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/conjectures-and-refutations-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-19"
+      },
+      {
+        "sequence": 21,
+        "id": 15,
+        "title": "The Bible",
+        "koreanTitle": "성경",
+        "status": "completed-and-verified",
+        "koreanImage": "the-bible-v3-integrated-ko.webp",
+        "englishImage": "the-bible-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-20",
+        "sourceNotes": "sources/the-bible-v3-integrated.md",
+        "sources": [
+          "https://bible.usccb.org/bible",
+          "https://www.usccb.org/faq",
+          "https://www.biblesociety.org.uk/uploads/content/shop/files/9780564046072_Sources-of-Wisdom-edexcel-look-inside.pdf",
+          "https://www.sefaria.org/texts/Tanakh",
+          "https://bible.usccb.org/bible/genesis/0",
+          "https://bible.usccb.org/bible/revelation/21"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-bible-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-bible-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-20"
+      },
+      {
+        "sequence": 22,
+        "id": 16,
+        "title": "القرآن",
+        "englishTitle": "The Qur’an",
+        "koreanTitle": "쿠란",
+        "status": "completed-and-verified",
+        "koreanImage": "the-quran-v3-integrated-ko.webp",
+        "englishImage": "the-quran-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-20",
+        "sourceNotes": "sources/the-quran-v3-integrated.md",
+        "sources": [
+          "https://quran.com/",
+          "https://quran.com/1",
+          "https://quran.com/112",
+          "https://quran.com/2/177",
+          "https://quran.com/4/135",
+          "https://quran.com/16/102",
+          "https://quran.net/read"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-quran-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-quran-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-20"
+      },
+      {
+        "sequence": 23,
+        "id": 17,
+        "title": "भगवद्गीता",
+        "englishTitle": "The Bhagavad Gita",
+        "koreanTitle": "바가바드 기타",
+        "status": "completed-and-verified",
+        "koreanImage": "bhagavad-gita-v3-integrated-ko.webp",
+        "englishImage": "bhagavad-gita-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-20",
+        "sourceNotes": "sources/bhagavad-gita-v3-integrated.md",
+        "sources": [
+          "https://www.gitasupersite.iitk.ac.in/srimad/intro",
+          "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&field_chapter_value=18&field_nsutra_value=66&language=dv&scms=1",
+          "https://academic.oup.com/reference/62357/reference-article-abstract/554517840",
+          "https://www.penguinrandomhouse.com/books/286340/the-bhagavad-gita-by-anonymous-translated-by-juan-mascaro-introduction-by-simon-brodbeck/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/bhagavad-gita-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/bhagavad-gita-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-20"
+      },
+      {
+        "sequence": 24,
+        "id": 18,
+        "title": "Dhammapada",
+        "englishTitle": "The Dhammapada",
+        "koreanTitle": "법구경",
+        "status": "completed-and-verified",
+        "koreanImage": "dhammapada-v3-integrated-ko.webp",
+        "englishImage": "dhammapada-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-20",
+        "sourceNotes": "sources/dhammapada-v3-integrated.md",
+        "sources": [
+          "https://ancient-buddhist-texts.net/Texts-and-Translations/Dhammapada/Dhammapada.pdf",
+          "https://suttacentral.net/edition/dhp/en/buddharakkhita",
+          "https://suttacentral.net/dhp1-20/en/sujato",
+          "https://www.penguinrandomhouse.com/books/673323/the-dhammapada-by-anonymous-translated-with-an-introduction-and-notes-by-valerie-roebuck/",
+          "https://www.penguinrandomhouse.com/books/20846/the-dhammapada-by-a-new-translation-of-the-teachings-of-the-buddha-with-a-guide-to-reading-the-text-by-glenn-wallis/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/dhammapada-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/dhammapada-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-20"
+      },
+      {
+        "sequence": 25,
+        "id": 19,
+        "title": "The Epic of Gilgamesh",
+        "englishTitle": "The Epic of Gilgamesh",
+        "koreanTitle": "길가메시 서사시",
+        "status": "completed-and-verified",
+        "koreanImage": "epic-of-gilgamesh-v3-integrated-ko.webp",
+        "englishImage": "epic-of-gilgamesh-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-21",
+        "sourceNotes": "sources/epic-of-gilgamesh-v3-integrated.md",
+        "sources": [
+          "https://www.britishmuseum.org/collection/object/W_K-3375",
+          "https://www.metmuseum.org/essays/gilgamesh",
+          "https://yalebooks.yale.edu/2020/04/30/the-epic-of-gilgamesh/",
+          "https://www.penguinrandomhouse.com/books/670028/the-epic-of-gilgamesh-by-translated-with-an-introduction-by-andrew-george/",
+          "https://cdn.penguin.co.uk/dam-assets/books/9780140449198/9780140449198-sample.pdf",
+          "https://soas-repository.worktribe.com/output/446250/the-epic-of-gilgamesh-a-new-translation"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/epic-of-gilgamesh-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/epic-of-gilgamesh-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-21"
+      },
+      {
+        "sequence": 26,
+        "id": 20,
+        "title": "The Dawn of Everything",
+        "englishTitle": "The Dawn of Everything",
+        "koreanTitle": "모든 것의 새벽",
+        "status": "completed-and-verified",
+        "koreanImage": "the-dawn-of-everything-v3-integrated-ko.webp",
+        "englishImage": "the-dawn-of-everything-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-21",
+        "sourceNotes": "sources/the-dawn-of-everything-v3-integrated.md",
+        "sources": [
+          "https://us.macmillan.com/books/9780374157357/thedawnofeverything/",
+          "https://www.penguin.co.uk/books/314162/the-dawn-of-everything-by-wengrow-david-graeber-and-david/9780141991061",
+          "https://us.macmillan.com/author/davidwengrow",
+          "https://www.lse.ac.uk/events/humanity",
+          "https://discovery.ucl.ac.uk/id/eprint/10225081/1/01-Article%20WENGROW.pdf",
+          "https://blackbooksdotpub.wordpress.com/wp-content/uploads/2021/10/david-graeber-david-wengrow-the-dawn-of-everything_-a-new-history-of-humanity-farrar-straus-and-giroux-2021.pdf"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-dawn-of-everything-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-dawn-of-everything-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-21"
+      },
+      {
+        "sequence": 27,
+        "id": 21,
+        "title": "קיצור תולדות האנושות",
+        "englishTitle": "Sapiens: A Brief History of Humankind",
+        "koreanTitle": "사피엔스",
+        "status": "completed-and-verified",
+        "koreanImage": "sapiens-v3-integrated-ko.webp",
+        "englishImage": "sapiens-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-21",
+        "sourceNotes": "sources/sapiens-v3-integrated.md",
+        "sources": [
+          "https://www.ynharari.com/book/sapiens/",
+          "https://www.ynharari.com/sapiens-references/",
+          "https://www.harpercollins.com/products/sapiens-tenth-anniversary-edition-yuval-noah-harari",
+          "https://www.ynharari.com/topic/power-and-imagination/",
+          "https://www.ynharari.com/topic/money-and-politics/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/sapiens-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/sapiens-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-21"
+      },
+      {
+        "sequence": 28,
+        "id": 22,
+        "title": "The Silk Roads",
+        "englishTitle": "The Silk Roads: A New History of the World",
+        "koreanTitle": "실크로드 세계사",
+        "status": "completed-and-verified",
+        "koreanImage": "the-silk-roads-v3-integrated-ko.webp",
+        "englishImage": "the-silk-roads-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-21",
+        "sourceNotes": "sources/the-silk-roads-v3-integrated.md",
+        "sources": [
+          "https://www.bloomsbury.com/uk/discover/non-fiction-features/the-silk-roads-by-peter-frankopan/",
+          "https://www.si.edu/object/silk-roads-new-history-world-peter-frankopan%3Asiris_sil_1072014",
+          "https://cdn.waterstones.com/special/pdf/9781408839997.pdf",
+          "https://books.google.com/books/about/The_Silk_Roads.html?id=9RBsCQAAQBAJ",
+          "https://escholarship.org/uc/item/2s02n9b5"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-silk-roads-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-silk-roads-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-21"
+      },
+      {
+        "sequence": 29,
+        "id": 23,
+        "title": "1491: New Revelations of the Americas Before Columbus",
+        "englishTitle": "1491: New Revelations of the Americas Before Columbus",
+        "koreanTitle": "콜럼버스 이전 아메리카",
+        "status": "completed-and-verified",
+        "koreanImage": "1491-v3-integrated-ko.webp",
+        "englishImage": "1491-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "localPreviewAtWidth": 390,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-21",
+        "sourceNotes": "sources/1491-v3-integrated.md",
+        "sources": [
+          "https://catdir.loc.gov/catdir/enhancements/fy0619/2004061547-t.html",
+          "https://www.penguinrandomhouse.com/books/107178/1491-second-edition-by-charles-c-mann/",
+          "https://www.penguinrandomhouse.com/books/107178/1491-second-edition-by-charles-c-mann/9780307278180/readers-guide/",
+          "https://escholarship.org/uc/item/8z19q4tw",
+          "https://www.si.edu/object/1491-new-revelations-americas-columbus-charles-c-mann%3Asiris_sil_772691"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image local raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/1491-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/1491-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-21"
+      },
+      {
+        "sequence": 30,
+        "id": 24,
+        "title": "The Lessons of History",
+        "koreanTitle": "역사의 교훈",
+        "status": "completed-and-verified",
+        "koreanImage": "the-lessons-of-history-v3-integrated-ko.webp",
+        "englishImage": "the-lessons-of-history-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-22",
+        "sourceNotes": "sources/the-lessons-of-history-v3-integrated.md",
+        "sources": [
+          "https://www.simonandschuster.com/books/The-Lessons-of-History/Will-Durant/9781439149959",
+          "https://books.google.com/books/about/The_Lessons_of_History.html?id=LWNQ2_4wkocC",
+          "https://cpcglobal.org/publications/The%20Lesson%20Of%20History.pdf",
+          "https://philpapers.org/rec/DURLOH"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-lessons-of-history-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-lessons-of-history-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-22"
+      },
+      {
+        "sequence": 31,
+        "id": 25,
+        "title": "Six Easy Pieces",
+        "koreanTitle": "파인만의 여섯 가지 물리 이야기",
+        "status": "completed-and-verified",
+        "koreanImage": "six-easy-pieces-v3-integrated-ko.webp",
+        "englishImage": "six-easy-pieces-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-22",
+        "sourceNotes": "sources/six-easy-pieces-v3-integrated.md",
+        "sources": [
+          "https://www.basicbooks.com/titles/richard-p-feynman/six-easy-pieces/9780465025275/",
+          "https://www.feynmanlectures.caltech.edu/info/index_content.html",
+          "https://www.feynmanlectures.caltech.edu/info/i6EP_press_release.html",
+          "https://books.google.com/books/about/Six_Easy_Pieces.html?id=Syi8yu46xIgC",
+          "https://www.feynmanlectures.caltech.edu/I_01.html"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/six-easy-pieces-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/six-easy-pieces-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-22"
+      },
+      {
+        "sequence": 32,
+        "id": 26,
+        "title": "The Big Picture",
+        "englishTitle": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself",
+        "koreanTitle": "빅 픽처",
+        "status": "completed-and-verified",
+        "koreanImage": "the-big-picture-v3-integrated-ko.webp",
+        "englishImage": "the-big-picture-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-22",
+        "sourceNotes": "sources/the-big-picture-v3-integrated.md",
+        "sources": [
+          "https://preposterousuniverse.com/blog/2015/12/10/the-big-picture-table-of-contents/",
+          "https://preposterousuniverse.com/bigpicture/",
+          "https://www.penguinrandomhouse.com/books/316646/the-big-picture-by-sean-carroll/",
+          "https://preposterousuniverse.com/blog/2016/05/12/big-picture-part-five-thinking/",
+          "https://preposterousuniverse.com/blog/2016/05/13/big-picture-part-six-caring/"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-big-picture-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-big-picture-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-22"
+      },
+      {
+        "sequence": 33,
+        "id": 27,
+        "title": "The Structure of Scientific Revolutions",
+        "koreanTitle": "과학혁명의 구조",
+        "status": "completed-and-verified",
+        "koreanImage": "the-structure-of-scientific-revolutions-v3-integrated-ko.webp",
+        "englishImage": "the-structure-of-scientific-revolutions-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-22",
+        "sourceNotes": "sources/the-structure-of-scientific-revolutions-v3-integrated.md",
+        "sources": [
+          "https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html",
+          "https://plato.stanford.edu/entries/thomas-kuhn/",
+          "https://plato.stanford.edu/entries/scientific-revolutions/"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-structure-of-scientific-revolutions-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-structure-of-scientific-revolutions-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-22"
+      },
+      {
+        "sequence": 34,
+        "id": 28,
+        "title": "The Demon-Haunted World",
+        "englishTitle": "The Demon-Haunted World: Science as a Candle in the Dark",
+        "koreanTitle": "악령이 출몰하는 세상",
+        "status": "completed-and-verified",
+        "koreanImage": "the-demon-haunted-world-v3-integrated-ko.webp",
+        "englishImage": "the-demon-haunted-world-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-22",
+        "sourceNotes": "sources/the-demon-haunted-world-v3-integrated.md",
+        "sources": [
+          "https://www.penguinrandomhouse.com/books/159731/the-demon-haunted-world-by-carl-sagan/",
+          "https://www.loc.gov/item/cosmos000005/",
+          "https://tile.loc.gov/storage-services/service/mss/mss85590/004/004.pdf",
+          "https://www.inf.fu-berlin.de/lehre/pmo/eng/Sagan-Baloney.pdf",
+          "https://libcat.kyu.ac.ug/cgi-bin/koha/opac-detail.pl?biblionumber=1230"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text requires pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-demon-haunted-world-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-demon-haunted-world-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-22"
+      },
+      {
+        "sequence": 35,
+        "id": 29,
+        "title": "A Brief History of Time",
+        "koreanTitle": "시간의 역사",
+        "status": "completed-and-verified",
+        "koreanImage": "a-brief-history-of-time-v3-integrated-ko.webp",
+        "englishImage": "a-brief-history-of-time-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-23",
+        "sourceNotes": "sources/a-brief-history-of-time-v3-integrated.md",
+        "sources": [
+          "https://www.penguinrandomhouse.com/books/77010/a-brief-history-of-time-by-stephen-hawking/",
+          "https://www.hawking.org.uk/in-print/books/a-brief-history-of-time",
+          "https://www.penguinrandomhouse.com/books/77019/the-illustrated-a-brief-history-of-time-by-stephen-hawking/",
+          "https://www.cam.ac.uk/stories/stephen-hawking"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/a-brief-history-of-time-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/a-brief-history-of-time-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-23"
+      },
+      {
+        "sequence": 36,
+        "id": 30,
+        "title": "The Book of Why",
+        "koreanTitle": "인과의 과학",
+        "status": "completed-and-verified",
+        "koreanImage": "the-book-of-why-v3-integrated-ko.webp",
+        "englishImage": "the-book-of-why-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-23",
+        "sourceNotes": "sources/the-book-of-why-v3-integrated.md",
+        "sources": [
+          "https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9780465097616/",
+          "https://bayes.cs.ucla.edu/WHY/",
+          "https://bayes.cs.ucla.edu/WHY/why-ch1.pdf",
+          "https://bayes.cs.ucla.edu/WHY/why-ch2.pdf",
+          "https://www.hachettebookgroup.com/wp-content/uploads/2017/08/basicbooks-s18-catalog.pdf"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-book-of-why-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-book-of-why-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-23"
+      }
+    ],
+    "inProgress": {
+      "sequence": 37,
+      "id": 31,
+      "title": "Gödel, Escher, Bach",
+      "koreanTitle": "괴델, 에셔, 바흐",
+      "status": "assets-prepared-pending-deployment",
+      "koreanImage": "godel-escher-bach-v3-integrated-ko.webp",
+      "englishImage": "godel-escher-bach-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-23",
+      "sourceNotes": "sources/godel-escher-bach-v3-integrated.md",
+      "sources": [
+        "https://www.hachettebookgroup.com/titles/douglas-r-hofstadter/g%C3%B6del-escher-bach/9780465026562/?lens=basic-books",
+        "https://cogs.indiana.edu/directory/faculty/profile.php?faculty=dughof",
+        "https://www.pulitzer.org/prize-winners-by-year/1980",
+        "https://www.nationalbook.org/books/godel-escher-bach-an-eternal-golden-braid/"
+      ],
+      "localPreviewAtWidth": 390,
+      "mobileVerifiedAtWidth": 390,
+      "mobileVerificationMethod": "Full-image raster previews at 390px prepared locally; public URLs and language-specific live cards are pending browser verification. Not physical-device testing."
+    }
+  }
+}
+
