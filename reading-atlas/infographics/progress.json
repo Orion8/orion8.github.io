@@ -1842,6 +1842,31 @@
         "completedOn": "2026-10-23"
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 39,
+      "id": 33,
+      "title": "The Art of Statistics",
+      "koreanTitle": "통계의 기술",
+      "status": "assets-prepared-pending-deployment-verification",
+      "koreanImage": "the-art-of-statistics-v3-integrated-ko.webp",
+      "englishImage": "the-art-of-statistics-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-24",
+      "sourceNotes": "sources/the-art-of-statistics-v3-integrated.md",
+      "sources": [
+        "https://www.statslab.cam.ac.uk/~david/",
+        "https://cdn.penguin.co.uk/dam-assets/books/9780241258767/9780241258767-sample.pdf",
+        "https://www.penguin.co.uk/books/294857/the-art-of-statistics-by-spiegelhalter-david/9780241258767",
+        "https://www.hachettebookgroup.com/titles/david-spiegelhalter/the-art-of-statistics/9781541618510/"
+      ],
+      "localPreviewAtWidth": 390,
+      "mobileVerifiedAtWidth": null,
+      "mobileVerificationMethod": "Pending public deployment and browser checks"
+    }
   }
 }
