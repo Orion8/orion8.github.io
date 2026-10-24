@@ -1,8 +1,156 @@
 {
-  "catalogVersion": "0.0.181",
-  "updatedAt": "2026-10-23T17:53:07.944Z",
+  "catalogVersion": "0.0.182",
+  "updatedAt": "2026-10-24T05:46:11.719Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-d173b365f099e59d7d5ad743",
+      "title": "네타냐후의 제도 재편 분석 — 10월 27일 총선 앞둔 영향력 재조명",
+      "titleTranslations": {
+        "en": "How Benjamin Netanyahu reshaped Israel’s institutions — influence highlighted ahead of Oct 27 election"
+      },
+      "startAt": "2026-10-24T05:29:07.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도는 재선에 도전하는 베냐민 네타냐후 총리가 장기간 집권과 정치적 분열 속에서 이스라엘의 여러 제도를 어떻게 재편·영향력화했는지를 분석하고 있다. 해당 분석은 10월 27일 치러지는 총선의 맥락에서 그의 정치적 유산과 선거 쟁점을 조명한다.",
+      "descriptionTranslations": {
+        "en": "Reporting examines how Benjamin Netanyahu, seeking re‑election, has reshaped Israeli institutions during his long and polarising tenure. The analysis highlights the institutional changes and their relevance to the Oct. 27 national election."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/24/how-benjamin-netanyahu-reshaped-israels-institutions?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/24/how-benjamin-netanyahu-reshaped-israels-institutions?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-24T05:29:07.000Z",
+        "lastObservedAt": "2026-10-24T05:46:11.718Z"
+      }
+    },
+    {
+      "id": "news-bc0a3e3e3becf0957b4025ef",
+      "title": "프랑스, 전국적 폭동 일주일 만에 대규모 시위 대비해 7만명 이상 경찰 배치",
+      "titleTranslations": {
+        "en": "France deploys more than 70,000 police ahead of planned protests a week after nationwide riots"
+      },
+      "startAt": "2026-10-24T04:03:46.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 프랑스는 최근 전국적 폭동 발생 일주일을 맞아 제한된 집회를 무시하려는 시위대 대응을 우려하며 7만명 이상의 경찰을 배치해 대규모 시위에 대비하고 있다. 이번 조치는 도심의 야간 통금과 연계된 광범위한 치안 대응 상황의 연속선상에 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say France will deploy over 70,000 police ahead of planned demonstrations a week after nationwide riots, amid fears protesters will defy demonstration restrictions. The move is part of broader public‑order measures connected to recently imposed nightly curfews."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+          "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews",
+          "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-17T15:57:40.000Z",
+        "lastObservedAt": "2026-10-24T05:46:11.718Z"
+      }
+    },
+    {
+      "id": "news-dbf5d10f1cf5d9a679c2aa4e",
+      "title": "오픈AI, '프런티어' 모델 훈련 환경에 대한 격리·오프라인 조치 강화 — 인터넷 실시간 데이터 사용 중단 방침 보도",
+      "titleTranslations": {
+        "en": "OpenAI strengthens containment for frontier model training and reportedly stops training on the live internet"
+      },
+      "startAt": "2026-10-23T23:05:49.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "오픈AI는 프런티어 모델의 훈련·평가 환경에 대한 격리 조치를 강화하고 오프라인 환경과 고성능 레드‑팀 작업을 포함한 보강을 설명했다(OpenAI 보도). 복수 보도는 오픈AI가 '중대한 위험'을 이유로 프런티어 모델을 더 이상 실시간 인터넷에서 직접 훈련하지 않기로 했다고 전했다(TechCrunch 보도).",
+      "descriptionTranslations": {
+        "en": "OpenAI has described strengthened containment measures for frontier model training and evaluation, including offline environments and enhanced high‑compute red‑teaming (per OpenAI’s post). Multiple reports say OpenAI will no longer train frontier models on the live internet, citing 'significant risks' (TechCrunch)."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+        ],
+        "firstPublishedAt": "2026-10-23T10:00:00.000Z",
+        "lastObservedAt": "2026-10-24T05:46:11.718Z"
+      }
+    },
+    {
+      "id": "news-12219a05e251eacbdc67e04b",
+      "title": "나사, 아르테미스 III 달 착륙선 운용 시험 임무와 2028년 달 착륙선 개발 가속화 발표",
+      "titleTranslations": {
+        "en": "NASA outlines Artemis III test of future moon‑lander operations and accelerates lander development for 2028 missions"
+      },
+      "startAt": "2026-10-23T22:37:53.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "NASA는 2027년에 발사될 아르테미스 III 임무가 향후 유인 달 착륙선 운용을 시험할 예정이라고 밝혔으며, 동시에 나사와 상업적 유인착륙시스템 공급사(보도는 블루 오리진·스페이스X 언급)가 2028년 달 임무를 위해 설계와 운용 개념을 간소화·가속화하고 있다고 보도됐다. 해당 내용은 달 반환 및 장기 주둔 준비의 주요 진전으로 소개되고 있다.",
+      "descriptionTranslations": {
+        "en": "NASA says Artemis III, launching in 2027, will test future crewed moon‑lander operations, and reports indicate NASA and commercial human landing system providers (the coverage mentions Blue Origin and SpaceX) have streamlined designs and changed concepts of operations to accelerate lander development for planned 2028 missions. The announcements mark significant progress toward returning humans to the lunar surface and building a sustained presence."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+          "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/"
+        ],
+        "firstPublishedAt": "2026-10-23T22:37:53.000Z",
+        "lastObservedAt": "2026-10-24T05:46:11.718Z"
+      }
+    },
+    {
+      "id": "news-5590d522acab14195862d6f7",
+      "title": "백악관, 일부 캐나다산 품목에 대한 관세 완화 발표",
+      "titleTranslations": {
+        "en": "White House eases tariffs on some Canadian goods"
+      },
+      "startAt": "2026-10-23T22:03:07.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "가디언과 BBC 보도에 따르면 백악관은 일부 캐나다산 품목에 대한 관세 규정을 완화하기로 결정했다. 가디언은 예외 적용 대상에 블루베리·감자·사과·해조류 등 농산물을 포함한 9개 품목이 언급됐다고 전했고, BBC는 일부 기계류에 대한 완화와 특정 품목(예: 카펫)에 대한 관세 부과 조정이 10월 30일부터 적용된다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "According to reporting in The Guardian and the BBC, the White House has eased tariffs on certain Canadian goods. The Guardian says exemptions cover nine agricultural products including blueberries, potatoes, apples and seaweed, while the BBC reports tariff adjustments — easing for some machinery and changes for other items such as carpets — will take effect from Oct. 30."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
+          "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-23T22:03:07.000Z",
+        "lastObservedAt": "2026-10-24T05:46:11.718Z"
+      }
+    },
     {
       "id": "news-f5f129983c01e29f2c10548f",
       "title": "네타냐후, 총격 발생 후 점령지 서안 전면 봉쇄 명령",
@@ -1142,37 +1290,6 @@
       }
     },
     {
-      "id": "news-bc0a3e3e3becf0957b4025ef",
-      "title": "프랑스, 파리·리옹 등 도심에 야간 통금 시행 '필요한 한 계속'",
-      "titleTranslations": {
-        "en": "France announces nightly curfews 'for as long as necessary' in Paris and other cities"
-      },
-      "startAt": "2026-10-21T05:37:28.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 파리와 리옹 등 도심에 치안 유지를 위해 야간 통금이 다시 부과되었으며, 이는 최근 수년 내 최악의 폭력·약탈 사태 이후 처음으로 잔잔했던 밤에 이어진 조치라고 전했다. 정부는 통금을 '필요한 한' 유지할 것이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Reports say nightly curfews have been reimposed in central Paris, Lyon and other cities to maintain order, following the first relatively quiet night since some of France's most destructive rioting in years. Authorities said curfews would remain 'for as long as necessary.'"
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
-          "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews"
-        ],
-        "firstPublishedAt": "2026-10-17T15:57:40.000Z",
-        "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
       "id": "news-360cc507ac1a33ad19ac57ed",
       "title": "노벨생리의학상 관련 연구 조명 — 단세포 조류 클라모도모나스의 기여",
       "titleTranslations": {
@@ -1666,34 +1783,6 @@
       }
     },
     {
-      "id": "news-1cfb6291fa158d05a5bad0e6",
-      "title": "오픈AI, 생명과학 R&D 역량 확보 위해 Orchestra Bio 인수",
-      "titleTranslations": {
-        "en": "OpenAI acquires Orchestra Bio"
-      },
-      "startAt": "2026-10-20T00:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "오픈AI가 Orchestra Bio를 인수해 생명과학 연구개발(R&D)에 AI 기반 운영을 도입하고 제약·바이오팀의 약물 개발 가속화와 신약 연구 지원을 목표로 한다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "OpenAI is acquiring Orchestra Bio to bring AI‑powered operations into life‑sciences R&D, aiming to help biopharma teams accelerate drug development and advance new treatments, reporting says."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/openai-to-acquire-orchestra-bio"
-        ],
-        "firstPublishedAt": "2026-10-20T00:00:00.000Z",
-        "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
       "id": "news-bca75adfe0ce20cf400183b3",
       "title": "콜로라도 야생동물 육교, 차량·동물 충돌 91% 감소 보고",
       "titleTranslations": {
@@ -1719,34 +1808,6 @@
         ],
         "firstPublishedAt": "2026-10-19T23:17:12.000Z",
         "lastObservedAt": "2026-10-20T05:59:08.234Z"
-      }
-    },
-    {
-      "id": "news-8efa433127974306fb985192",
-      "title": "미국, 우크라이나·수단 출신 이민자들 추방 유예—임시보호 유지",
-      "titleTranslations": {
-        "en": "US grants deportation reprieve to migrants from Ukraine and Sudan"
-      },
-      "startAt": "2026-10-19T22:34:43.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "미 국토안보부(DHS)는 약 101,000명의 우크라이나인과 1,800명의 수단인에 대한 임시보호지위(TPS) 종료가 예정돼 있었으나 발표 시점까지 이들이 보호를 유지하며 즉시 추방 위험에서 벗어난다고 밝혔다. 당국은 추가 발표를 ‘적절한 시점’에 할 것이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "The US Department of Homeland Security said temporary protected status (TPS) set to expire for about 101,000 Ukrainians and 1,800 Sudanese will be treated such that those covered retain protection and are not at immediate risk of deportation, with a formal announcement to follow at an appropriate time."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan"
-        ],
-        "firstPublishedAt": "2026-10-19T22:34:43.000Z",
-        "lastObservedAt": "2026-10-20T17:58:33.160Z"
       }
     },
     {
@@ -1858,34 +1919,6 @@
           "https://www.bbc.co.uk/news/articles/c84g13z6xx4eo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-19T12:54:03.000Z",
-        "lastObservedAt": "2026-10-19T19:17:31.888Z"
-      }
-    },
-    {
-      "id": "news-eddb5d017fd2cee9119b22d2",
-      "title": "앤트로픽, ‘공익’ 기금에 지분 5% 출연 약속",
-      "titleTranslations": {
-        "en": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’"
-      },
-      "startAt": "2026-10-19T12:51:04.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "앤트로픽은 상장을 앞두고 지분 5%를 ‘공익’을 위한 기금에 출연하겠다고 발표했다고 보도됐다. 보도는 해당 지분이 5월 기준 최신 기업가치로 약 480억 달러 상당이라고 전했고, 주주 승인 조건과 함께 가치가 기준선보다 50% 오를 때마다 추가로 2%를 기부한다는 방침도 보도했다.",
-      "descriptionTranslations": {
-        "en": "Anthropic has said it will commit 5% of its shares to a fund for the 'public good' ahead of a stock market listing, reporting says. Coverage notes the shares were worth about $48bn at its latest May valuation, the move is subject to shareholder approval, and the company would add a further 2% for every 50% increase in value above an undisclosed baseline."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good"
-        ],
-        "firstPublishedAt": "2026-10-19T12:51:04.000Z",
         "lastObservedAt": "2026-10-19T19:17:31.888Z"
       }
     },
@@ -2085,34 +2118,6 @@
         ],
         "firstPublishedAt": "2026-10-16T20:14:39.000Z",
         "lastObservedAt": "2026-10-18T05:49:53.515Z"
-      }
-    },
-    {
-      "id": "news-f899e30222bf644bedc9f6c9",
-      "title": "아르테미스 II 착수 검증: 오리온 열차폐, 대기권 재진입시 승무원·시스템 보호 확인",
-      "titleTranslations": {
-        "en": "Artemis II heat shield analysis after splashdown confirms thermal protection"
-      },
-      "startAt": "2026-10-16T16:28:01.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 아르테미스 II 임무가 대기권 재진입한 뒤 오리온 우주선의 열차폐(히트실드)가 승무원과 우주선 시스템을 효과적으로 보호했는지에 대한 측정을 진행했고, 초기 분석이 이를 확인했다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "NASA reported that after the Artemis II splashdown it measured whether the Orion spacecraft’s heat shield effectively protected the crew and systems during reentry, and initial analysis confirmed the thermal protection worked as intended."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/"
-        ],
-        "firstPublishedAt": "2026-10-16T16:28:01.000Z",
-        "lastObservedAt": "2026-10-17T05:33:39.452Z"
       }
     },
     {
