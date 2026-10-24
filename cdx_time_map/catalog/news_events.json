@@ -1,8 +1,178 @@
 {
-  "catalogVersion": "0.0.182",
-  "updatedAt": "2026-10-24T05:46:11.719Z",
+  "catalogVersion": "0.0.183",
+  "updatedAt": "2026-10-24T16:34:36.430Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-f5f129983c01e29f2c10548f",
+      "title": "헤브론서 2,000명 이상 주거지서 강제 이주 보고 — 서안 전역 급습과 연계",
+      "titleTranslations": {
+        "en": "More than 2,000 forced from homes in Hebron amid West Bank raids"
+      },
+      "startAt": "2026-10-24T15:50:49.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라 보도에 따르면 헤브론에서 이스라엘군의 작전으로 2,000명 이상이 집에서 쫓겨났고 도시가 사실상 봉쇄된 가운데 서안지구 전역에서 다수의 체포가 이뤄졌다. 현지 거주민들은 격렬한 불안과 공포를 호소하고 있다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports that more than 2,000 people were forced from their homes in Hebron amid Israeli operations; the city is effectively closed and arrests have been made across the West Bank. Residents say they are living in fear."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss",
+          "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-23T17:30:51.000Z",
+        "lastObservedAt": "2026-10-24T16:34:36.430Z"
+      }
+    },
+    {
+      "id": "news-2db7fc025a9b60df15ca2000",
+      "title": "제이크 저먼, 세계선수권 도마 은메달로 영국 체조 역사 새로 작성",
+      "titleTranslations": {
+        "en": "Jarman makes British gymnastics history with World floor silver"
+      },
+      "startAt": "2026-10-24T15:14:14.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "description": "BBC 스포츠는 제이크 저먼이 세계체조선수권 남자 마루에서 은메달을 따며 영국 선수로서 해당 기구에서 최다 메달 기록을 세웠다고 전한다. 저먼은 경기 후 기쁨을 표했다.",
+      "descriptionTranslations": {
+        "en": "BBC Sport reports Jake Jarman claimed silver in the men's floor final at the World Gymnastics Championships, becoming the most decorated British athlete on the floor apparatus."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/gymnastics/videos/c6zxjpv95ey8o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/gymnastics/videos/c6zxjpv95ey8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-24T15:14:14.000Z",
+        "lastObservedAt": "2026-10-24T16:34:36.430Z"
+      }
+    },
+    {
+      "id": "news-60a5f8f3c28a09ea19a37bda",
+      "title": "스카이댄스·파라마운트·워너 합병 여파 — 직원 구조조정 우려 고조",
+      "titleTranslations": {
+        "en": "Skydance staff brace for shake‑up after $110bn megamerger"
+      },
+      "startAt": "2026-10-24T12:00:32.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 파라마운트와 워너 브라더스 디스커버리의 합병으로 만들어진 거대 미디어 그룹 스카이댄스 내부에서 대규모 인력·조직 개편 우려가 커지고 있다. 보도는 직원들이 감축 가능성에 대비하고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that following the $110bn megamerger creating media giant Skydance, employees are bracing for significant restructuring and potential job cuts as the new company integrates legacy studios and networks."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles"
+        ],
+        "firstPublishedAt": "2026-10-24T12:00:32.000Z",
+        "lastObservedAt": "2026-10-24T16:34:36.430Z"
+      }
+    },
+    {
+      "id": "news-97677e7897f02058145f8c4c",
+      "title": "알래스카 연방 토지서 사냥용 곰 미끼 허용 — 트럼프 행정부 규정 변경",
+      "titleTranslations": {
+        "en": "New Trump rule allows hunters to bait bears on federal lands in Alaska"
+      },
+      "startAt": "2026-10-24T11:00:32.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 트럼프 행정부가 연방 소유 알래스카 지역에서 베이컨·도넛·고기 부스러기 등 인간 식품을 이용해 곰을 유인하는 것을 허용하는 규정을 도입했다. 환경단체들은 곰의 인간 접근성 증가와 안전 위험을 우려하며 비판하고 있다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports the Trump administration has issued a rule permitting hunters to bait bears with human food such as bacon, doughnuts and meat scraps on federal lands in Alaska. Environmental groups criticize the change, warning it could increase bear encounters with people and pose safety risks."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/trump-administration-alaska-bear-hunting-bait",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/24/trump-administration-alaska-bear-hunting-bait"
+        ],
+        "firstPublishedAt": "2026-10-24T11:00:32.000Z",
+        "lastObservedAt": "2026-10-24T16:34:36.430Z"
+      }
+    },
+    {
+      "id": "news-2f85a91b545e153ef5356943",
+      "title": "예멘 타이즈 봉쇄로 식수 공급 급감 — 도시가 포위된 가운데 인도적 위기 심화",
+      "titleTranslations": {
+        "en": "Drinking water supplies dwindle in besieged Yemeni city of Taiz"
+      },
+      "startAt": "2026-10-24T07:04:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도는 남서부 예멘의 타이즈가 후티 반군의 포위가 강화되며 식수 공급이 급격히 줄어들고 있다고 전한다. 해당 도시는 수년간 물 문제를 겪어왔으나 최근 몇 주 상황이 특히 악화돼 주민들의 인도적 고통이 커지고 있다.",
+      "descriptionTranslations": {
+        "en": "NPR reports that drinking water supplies in Taiz, a city in southwestern Yemen, are dwindling as Houthi rebels tighten their encirclement. The city has struggled with water issues for years, but conditions have worsened in recent weeks, deepening the humanitarian crisis."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/24/g-s1-149729/drinking-water-supplies-dwindle-in-yemeni-city-besieged-by-houthi-rebels",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/24/g-s1-149729/drinking-water-supplies-dwindle-in-yemeni-city-besieged-by-houthi-rebels"
+        ],
+        "firstPublishedAt": "2026-10-24T07:04:13.000Z",
+        "lastObservedAt": "2026-10-24T16:34:36.430Z"
+      }
+    },
+    {
+      "id": "news-322315c951a03eb33f46aff9",
+      "title": "영국 정부의 £58억(£5.8bn) 도시재생 계획, 그림스비 등 중심으로 지역상권 재활 시도",
+      "titleTranslations": {
+        "en": "Can a £5.8bn scheme help revive Grimsby and other town centres?"
+      },
+      "startAt": "2026-10-24T06:00:26.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언 보도는 정부의 58억 파운드 규모 도시재생 계획이 폐점·방치된 상가를 커뮤니티 공간으로 바꾸는 방식으로 그림스비 등 침체된 타운센터를 되살리려 한다고 전한다. 보도는 실행의 난제와 장기 지속성 문제를 지적한다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports a £5.8bn government scheme aims to revive struggling town centres — including Grimsby — by converting boarded‑up shops into community spaces and other interventions. The coverage highlights implementation challenges and questions about long‑term sustainability."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/24/can-new-scheme-help-revive-grimsby-britain-struggling-town-centres",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/2026/oct/24/can-new-scheme-help-revive-grimsby-britain-struggling-town-centres"
+        ],
+        "firstPublishedAt": "2026-10-24T06:00:26.000Z",
+        "lastObservedAt": "2026-10-24T16:34:36.430Z"
+      }
+    },
     {
       "id": "news-d173b365f099e59d7d5ad743",
       "title": "네타냐후의 제도 재편 분석 — 10월 27일 총선 앞둔 영향력 재조명",
@@ -64,6 +234,34 @@
       }
     },
     {
+      "id": "news-3a411ea5e3414a5be7c514f3",
+      "title": "영국, ‘세계 최초’ AI 생물안전 연구소에 1억 파운드 투자 발표 예정",
+      "titleTranslations": {
+        "en": "UK to invest £100m in 'world first' AI Biosecurity Lab"
+      },
+      "startAt": "2026-10-24T00:05:45.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 영국 재무장관은 예산에서 AI 관련 지출의 일환으로 AI를 활용한 생물안전 연구소에 약 1억 파운드를 투자할 계획을 공개할 예정이다. 정부는 이 투자가 국가의 생물안전·대응 역량을 강화하는 목표라고 설명했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports the UK chancellor will unveil plans in the Budget to invest about £100m in an AI Biosecurity Lab, described as a 'world first'. The government says the funding aims to bolster national biosecurity and response capabilities using AI."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-24T00:05:45.000Z",
+        "lastObservedAt": "2026-10-24T16:34:36.430Z"
+      }
+    },
+    {
       "id": "news-dbf5d10f1cf5d9a679c2aa4e",
       "title": "오픈AI, '프런티어' 모델 훈련 환경에 대한 격리·오프라인 조치 강화 — 인터넷 실시간 데이터 사용 중단 방침 보도",
       "titleTranslations": {
@@ -95,31 +293,35 @@
     },
     {
       "id": "news-12219a05e251eacbdc67e04b",
-      "title": "나사, 아르테미스 III 달 착륙선 운용 시험 임무와 2028년 달 착륙선 개발 가속화 발표",
+      "title": "나사, 달 착륙선 운용 시험 임무 계획 갱신 — 아르테미스 착륙선 개발 가속화 발표",
       "titleTranslations": {
-        "en": "NASA outlines Artemis III test of future moon‑lander operations and accelerates lander development for 2028 missions"
+        "en": "NASA updates lander plans for Moon landings and accelerates lander development"
       },
-      "startAt": "2026-10-23T22:37:53.000Z",
+      "startAt": "2026-10-23T22:48:25.000Z",
       "lane": "world",
-      "category": "space",
+      "category": "scienceTechnology",
       "importance": 3,
-      "description": "NASA는 2027년에 발사될 아르테미스 III 임무가 향후 유인 달 착륙선 운용을 시험할 예정이라고 밝혔으며, 동시에 나사와 상업적 유인착륙시스템 공급사(보도는 블루 오리진·스페이스X 언급)가 2028년 달 임무를 위해 설계와 운용 개념을 간소화·가속화하고 있다고 보도됐다. 해당 내용은 달 반환 및 장기 주둔 준비의 주요 진전으로 소개되고 있다.",
+      "description": "아스테크니카 보도에 따르면 NASA는 향후 유인 달 착륙선 운용을 시험하기 위해 아르테미스 관련 계획을 업데이트했고, 착륙선 설계 및 운용 개념을 간소화·가속화해 2028년 임무 준비를 앞당기고 있다고 밝혔다. 이는 달 복귀와 지속적 주둔 준비의 진전으로 소개된다.",
       "descriptionTranslations": {
-        "en": "NASA says Artemis III, launching in 2027, will test future crewed moon‑lander operations, and reports indicate NASA and commercial human landing system providers (the coverage mentions Blue Origin and SpaceX) have streamlined designs and changed concepts of operations to accelerate lander development for planned 2028 missions. The announcements mark significant progress toward returning humans to the lunar surface and building a sustained presence."
+        "en": "Ars Technica reports NASA has updated plans to test future moon‑lander operations and has streamlined and accelerated lander design and concepts of operations to speed development for planned 2028 missions. The changes are presented as significant progress toward returning humans to the Moon and enabling sustained presence."
       },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
       "topicIds": [
-        "spaceDevelopment"
+        "spaceDevelopment",
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
           "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-          "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/"
+          "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+          "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/"
         ],
         "firstPublishedAt": "2026-10-23T22:37:53.000Z",
-        "lastObservedAt": "2026-10-24T05:46:11.718Z"
+        "lastObservedAt": "2026-10-24T16:34:36.430Z"
       }
     },
     {
@@ -149,34 +351,6 @@
         ],
         "firstPublishedAt": "2026-10-23T22:03:07.000Z",
         "lastObservedAt": "2026-10-24T05:46:11.718Z"
-      }
-    },
-    {
-      "id": "news-f5f129983c01e29f2c10548f",
-      "title": "네타냐후, 총격 발생 후 점령지 서안 전면 봉쇄 명령",
-      "titleTranslations": {
-        "en": "Netanyahu orders full lockdown of the occupied West Bank after a shooting"
-      },
-      "startAt": "2026-10-23T17:30:51.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "이스라엘 총리 베냐민 네타냐후가 서안(점령지)에서 발생한 총격 사건을 계기로 '전면 봉쇄(full lockdown)'를 지시했다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Israeli Prime Minister Benjamin Netanyahu has ordered a 'full lockdown' of the occupied West Bank following a shooting, reporting says."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-23T17:30:51.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
       }
     },
     {
@@ -377,6 +551,36 @@
         ],
         "firstPublishedAt": "2026-10-22T22:12:19.000Z",
         "lastObservedAt": "2026-10-23T17:53:07.944Z"
+      }
+    },
+    {
+      "id": "news-e4e9b36a9b37e2ce37991331",
+      "title": "개인맞춤형 mRNA 흑색종 백신, 재발·사망 위험 크게 낮춰 — 임상 결과",
+      "titleTranslations": {
+        "en": "‘Bespoke’ mRNA melanoma vaccine significantly reduces risk of recurrence or death, trial shows"
+      },
+      "startAt": "2026-10-23T04:27:18.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "가디언 보도는 개인의 흑색종 유전자 변이를 표적화하는 맞춤형 mRNA 백신 'intismeran'이 2년 내 암 재발 또는 사망 위험을 유의미하게 감소시켰다는 임상 결과를 보도했다. 보도는 이 결과가 개인맞춤 항암 치료 접근법의 전환점이 될 수 있다고 평가했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports clinical‑trial results showing a personalized mRNA melanoma vaccine, intismeran, significantly reduced the risk of recurrence or death within two years. The coverage suggests the findings could represent a turning point for personalized cancer vaccines."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/society/2026/oct/23/mrna-vaccine-melanoma-cancer-breakthrough-australia",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/society/2026/oct/23/mrna-vaccine-melanoma-cancer-breakthrough-australia"
+        ],
+        "firstPublishedAt": "2026-10-23T04:27:18.000Z",
+        "lastObservedAt": "2026-10-24T16:34:36.430Z"
       }
     },
     {
@@ -1376,35 +1580,6 @@
       }
     },
     {
-      "id": "news-2d2caae98728dfe7fcc2bc80",
-      "title": "앤트로픽, '50명 이상 사망 가능' 판단되면 모델 공개 차단할 수 있는 AI 안전 법안 제안",
-      "titleTranslations": {
-        "en": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed"
-      },
-      "startAt": "2026-10-20T23:01:23.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도는 앤트로픽이 제안한 법안 초안이 AI 모델의 위험을 다루는 보호 장치를 제시하는 듯 보이지만, 연방 기관이 판사의 허가 없이 모델 공개를 차단할 수 없도록 금지하는 조항을 포함해 논란을 불러일으킨다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says Anthropic has pitched a draft AI safety bill that appears to offer protections against dangerous models but includes provisions that would bar federal agencies from blocking a model's release without a judge's permission, raising controversy about its practical effect."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
-        ],
-        "firstPublishedAt": "2026-10-20T23:01:23.000Z",
-        "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
       "id": "news-ec7a3b45638121f8120d77cb",
       "title": "NASA, 텍사스 농지 상공에서 온실가스·입자 배출 측정 위한 저고도 연구비행 실시",
       "titleTranslations": {
@@ -1608,36 +1783,6 @@
       }
     },
     {
-      "id": "news-509f48468ef3f724c455119a",
-      "title": "메타 ‘Muse’ 대화 공유 기능, 대화 내용으로 개인·업무 비밀 노출 가능성 제기로 일시 중단",
-      "titleTranslations": {
-        "en": "Meta Muse exposes users' personal and business secrets when they share conversations"
-      },
-      "startAt": "2026-10-20T12:33:13.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보안 보도는 메타의 대화형 시스템 ‘Muse’가 사용자가 대화를 공유할 때 개인적·업무상 비밀을 노출할 가능성이 있다는 문제로 인해 메타가 공유 기능을 일시 중단하고 조사에 착수했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Security reporting says Meta’s conversational system ‘Muse’ could expose users’ personal and business secrets when conversations are shared; Meta has suspended the sharing feature while it investigates the privacy issue."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
-        ],
-        "firstPublishedAt": "2026-10-20T12:33:13.000Z",
-        "lastObservedAt": "2026-10-20T17:58:33.160Z"
-      }
-    },
-    {
       "id": "news-cc92798eba888b22e599af6b",
       "title": "MMX 발사—일본의 화성 위성 포보스 표본회수 임무 발사 확인",
       "titleTranslations": {
@@ -1726,34 +1871,6 @@
       }
     },
     {
-      "id": "news-aea4d17bc1113926d36a0331",
-      "title": "미 대법원, 학교 입시에 인종 요소 관련 소송 심리 예정",
-      "titleTranslations": {
-        "en": "US Supreme Court to hear case on race in school admissions"
-      },
-      "startAt": "2026-10-20T04:38:07.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "일부 학부모들이 지역의 입학 정책이 흑인·라틴계 학생을 우대하는 반면 아시아계 지원자를 제약한다고 주장하며 제기한 소송을 미 연방 대법원이 심리할 예정이라고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "The US Supreme Court will hear a case brought by parents who say a local admissions policy advantages Black and Latino students while constraining Asian applicants, reporting says."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/20/us-supreme-court-to-hear-case-on-race-in-school-admissions?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/20/us-supreme-court-to-hear-case-on-race-in-school-admissions?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-20T04:38:07.000Z",
-        "lastObservedAt": "2026-10-20T05:59:08.233Z"
-      }
-    },
-    {
       "id": "news-7ce76d9833babb6d603ef30b",
       "title": "재무장관, 예산에서 자본이득세 인상 요구 반대 입장 표명",
       "titleTranslations": {
@@ -1779,34 +1896,6 @@
           "https://www.bbc.co.uk/news/articles/c50me4w4x1vyo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-18T10:22:17.000Z",
-        "lastObservedAt": "2026-10-20T05:59:08.234Z"
-      }
-    },
-    {
-      "id": "news-bca75adfe0ce20cf400183b3",
-      "title": "콜로라도 야생동물 육교, 차량·동물 충돌 91% 감소 보고",
-      "titleTranslations": {
-        "en": "Colorado wildlife overpass cut vehicle‑animal collisions by 91%, report finds"
-      },
-      "startAt": "2026-10-19T23:17:12.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "콜로라도 당국이 설치한 대형 야생동물 육교가 완공 10개월 만에 엘크·곰·프롱혼 등 서식지를 연결하며 차량과 동물의 충돌을 91% 감소시켰다는 보고서가 공개됐다. 육교는 울타리와 지하 통로를 포함한 광범위한 횡단 시스템의 핵심이라고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "A report finds that a large wildlife overpass in Colorado — connecting tens of thousands of acres of habitat and accompanied by fencing and underpasses — has cut vehicle‑animal collisions by 91% since its completion about 10 months ago, coverage says."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/19/colorado-wildlife-overpass-vehicle-animal-collisions-results",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/19/colorado-wildlife-overpass-vehicle-animal-collisions-results"
-        ],
-        "firstPublishedAt": "2026-10-19T23:17:12.000Z",
         "lastObservedAt": "2026-10-20T05:59:08.234Z"
       }
     },
@@ -1892,34 +1981,6 @@
         ],
         "firstPublishedAt": "2026-10-19T13:22:24.000Z",
         "lastObservedAt": "2026-10-20T05:59:08.234Z"
-      }
-    },
-    {
-      "id": "news-ceb85490656a3dea7afe7688",
-      "title": "집 판매자들, 하루 3,000건 매매가 인하—15년 만의 최고치",
-      "titleTranslations": {
-        "en": "Home sellers cut asking prices on 3,000 properties a day"
-      },
-      "startAt": "2026-10-19T12:54:03.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC가 공유한 데이터에 따르면 하루 약 3,000건의 매물가격이 인하되며, 매매 희망가 인하 건수는 15년 만에 가장 많은 수준이라고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Data shared with the BBC shows about 3,000 property asking prices are being cut each day, the highest rate in 15 years, reporting says."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c84g13z6xx4eo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c84g13z6xx4eo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-19T12:54:03.000Z",
-        "lastObservedAt": "2026-10-19T19:17:31.888Z"
       }
     },
     {
@@ -2034,34 +2095,6 @@
         ],
         "firstPublishedAt": "2026-10-18T22:01:10.000Z",
         "lastObservedAt": "2026-10-19T19:17:31.888Z"
-      }
-    },
-    {
-      "id": "news-770b600e451f6d25f7bf20e0",
-      "title": "EPA, PFOA·PFOS 퇴출 주장 표현 수정 — 일부 제품 제조 지속 표기 변경",
-      "titleTranslations": {
-        "en": "EPA quietly backtracks on claims US has phased out PFOA and PFOS"
-      },
-      "startAt": "2026-10-18T12:00:03.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "환경보건 보도는 미국 EPA가 PFOA·PFOS가 단계적으로 퇴출되었다는 문구를 웹사이트에서 조용히 수정했다고 전했다. 보도는 EPA가 극히 낮은 노출 수준조차 안전하지 않다고 결론내렸음에도 일부 기업이 관련 플라스틱 용기를 계속 제조하고 있다고 지적한다.",
-      "descriptionTranslations": {
-        "en": "Reporting says the US Environmental Protection Agency quietly changed wording on its website that had implied PFOA and PFOS were being phased out. Coverage notes the EPA has found virtually no level of exposure to these substances in drinking water is safe, while some companies continue to manufacture related plastic containers."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/18/epa-pfas-compounds-toxins",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/18/epa-pfas-compounds-toxins"
-        ],
-        "firstPublishedAt": "2026-10-18T12:00:03.000Z",
-        "lastObservedAt": "2026-10-18T16:29:59.470Z"
       }
     },
     {
@@ -2320,34 +2353,6 @@
       }
     },
     {
-      "id": "news-2551c688cfa7115fd10a9e30",
-      "title": "앤 카슨, 2026년 노벨문학상 수상",
-      "titleTranslations": {
-        "en": "Anne Carson wins Nobel Prize in Literature 2026"
-      },
-      "startAt": "2026-10-08T14:03:29.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 3,
-      "description": "가디언은 캐나다의 시인이자 수필가인 앤 카슨이 2026년 노벨문학상을 수상했다고 보도했다. 스웨덴 아카데미는 고전 전통과 대담하게 대화하며 현대문학의 새로운 형식을 창조한 점을 수상 이유로 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports Canadian poet and essayist Anne Carson has been awarded the 2026 Nobel Prize in Literature. The Swedish Academy cited her bold, inventive oeuvre and its playful dialogue with the classical tradition."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026"
-        ],
-        "firstPublishedAt": "2026-10-08T14:03:29.000Z",
-        "lastObservedAt": "2026-10-08T19:17:02.143Z"
-      }
-    },
-    {
       "id": "news-f433a319fc4cd0e6b12ccaeb",
       "title": "ESA 솔라 오비터, 태양 표면 기원의 자기 '스위치백' 추적 성공",
       "titleTranslations": {
@@ -2401,34 +2406,6 @@
         ],
         "firstPublishedAt": "2026-10-07T15:00:00.000Z",
         "lastObservedAt": "2026-10-08T07:18:14.887Z"
-      }
-    },
-    {
-      "id": "news-49a9b938fe2d630a6f31b975",
-      "title": "해리 케인, 잉글랜드 대표팀 최다 출전 기록과 타이",
-      "titleTranslations": {
-        "en": "Kane's rise from childhood keeper to equalling England cap record"
-      },
-      "startAt": "2026-10-06T18:45:39.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 2,
-      "description": "BBC 스포츠는 해리 케인이 잉글랜드 대표팀 최다 출전 기록을 피터 실튼과 동률로 만들며 중요한 이정표에 도달했다고 보도했다. 보도는 그의 대표팀 업적이 재조명되고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC Sport reports that Harry Kane has equalled Peter Shilton's record for most England appearances, reaching a notable milestone and prompting renewed assessment of his international legacy."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cx2ln5n7yqdo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/football/articles/cx2ln5n7yqdo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-06T18:45:39.000Z",
-        "lastObservedAt": "2026-10-06T18:54:14.550Z"
       }
     },
     {
