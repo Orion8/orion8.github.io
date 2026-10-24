@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 38,
+    "completedCount": 39,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1840,33 +1840,61 @@
           }
         },
         "completedOn": "2026-10-23"
+      },
+      {
+        "sequence": 39,
+        "id": 33,
+        "title": "The Art of Statistics",
+        "koreanTitle": "통계의 기술",
+        "status": "completed-and-verified",
+        "koreanImage": "the-art-of-statistics-v3-integrated-ko.webp",
+        "englishImage": "the-art-of-statistics-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-24",
+        "sourceNotes": "sources/the-art-of-statistics-v3-integrated.md",
+        "sources": [
+          "https://www.statslab.cam.ac.uk/~david/",
+          "https://cdn.penguin.co.uk/dam-assets/books/9780241258767/9780241258767-sample.pdf",
+          "https://www.penguin.co.uk/books/294857/the-art-of-statistics-by-spiegelhalter-david/9780241258767",
+          "https://www.hachettebookgroup.com/titles/david-spiegelhalter/the-art-of-statistics/9781541618510/"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-art-of-statistics-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-art-of-statistics-v3-integrated-en.webp"
+          },
+          "koreanMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/the-art-of-statistics-v3-integrated-ko-mobile.webp"
+          },
+          "englishMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/the-art-of-statistics-v3-integrated-en-mobile.webp"
+          }
+        },
+        "completedOn": "2026-10-24"
       }
     ],
-    "inProgress": {
-      "sequence": 39,
-      "id": 33,
-      "title": "The Art of Statistics",
-      "koreanTitle": "통계의 기술",
-      "status": "assets-prepared-pending-deployment-verification",
-      "koreanImage": "the-art-of-statistics-v3-integrated-ko.webp",
-      "englishImage": "the-art-of-statistics-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-24",
-      "sourceNotes": "sources/the-art-of-statistics-v3-integrated.md",
-      "sources": [
-        "https://www.statslab.cam.ac.uk/~david/",
-        "https://cdn.penguin.co.uk/dam-assets/books/9780241258767/9780241258767-sample.pdf",
-        "https://www.penguin.co.uk/books/294857/the-art-of-statistics-by-spiegelhalter-david/9780241258767",
-        "https://www.hachettebookgroup.com/titles/david-spiegelhalter/the-art-of-statistics/9781541618510/"
-      ],
-      "localPreviewAtWidth": 390,
-      "mobileVerifiedAtWidth": null,
-      "mobileVerificationMethod": "Pending public deployment and browser checks"
-    }
+    "inProgress": null
   }
 }
