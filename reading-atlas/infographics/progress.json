@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 39,
+    "completedCount": 40,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1893,32 +1893,62 @@
           }
         },
         "completedOn": "2026-10-24"
+      },
+      {
+        "sequence": 40,
+        "id": 34,
+        "title": "Information Theory, Inference, and Learning Algorithms",
+        "koreanTitle": "정보이론, 추론, 학습 알고리즘",
+        "status": "completed-and-verified",
+        "koreanImage": "information-theory-inference-learning-algorithms-v3-integrated-ko.webp",
+        "englishImage": "information-theory-inference-learning-algorithms-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-24",
+        "sourceNotes": "sources/information-theory-inference-learning-algorithms-v3-integrated.md",
+        "sources": [
+          "https://www.inference.org.uk/mackay/itila/book.html",
+          "https://www.inference.org.uk/itprnn/book.pdf",
+          "https://www.inference.org.uk/mackay/itila/toc.html",
+          "https://www.inference.org.uk/mackay/itila/p0.html",
+          "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/information-theory-inference-and-learning-algorithms-by-david-j-c-mackay-cambridge-university-press-2003-xii-628-pp-6000-us8000-isbn-0-521-64298-1/4DCE0A375B3A2B813B7471BA5BA621A2"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/information-theory-inference-learning-algorithms-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/information-theory-inference-learning-algorithms-v3-integrated-en.webp"
+          },
+          "koreanMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/information-theory-inference-learning-algorithms-v3-integrated-ko-mobile.webp"
+          },
+          "englishMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/information-theory-inference-learning-algorithms-v3-integrated-en-mobile.webp"
+          }
+        },
+        "completedOn": "2026-10-24"
       }
     ],
-    "inProgress": {
-      "sequence": 40,
-      "id": 34,
-      "title": "Information Theory, Inference, and Learning Algorithms",
-      "koreanTitle": "정보이론, 추론, 학습 알고리즘",
-      "status": "assets-prepared-pending-public-verification",
-      "koreanImage": "information-theory-inference-learning-algorithms-v3-integrated-ko.webp",
-      "englishImage": "information-theory-inference-learning-algorithms-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-24",
-      "sourceNotes": "sources/information-theory-inference-learning-algorithms-v3-integrated.md",
-      "sources": [
-        "https://www.inference.org.uk/mackay/itila/book.html",
-        "https://www.inference.org.uk/itprnn/book.pdf",
-        "https://www.inference.org.uk/mackay/itila/toc.html",
-        "https://www.inference.org.uk/mackay/itila/p0.html",
-        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/information-theory-inference-and-learning-algorithms-by-david-j-c-mackay-cambridge-university-press-2003-xii-628-pp-6000-us8000-isbn-0-521-64298-1/4DCE0A375B3A2B813B7471BA5BA621A2"
-      ],
-      "localPreviewAtWidth": 390
-    }
+    "inProgress": null
   }
 }
