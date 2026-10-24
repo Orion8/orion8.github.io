@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 36,
+    "completedCount": 37,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1756,21 +1756,20 @@
           }
         },
         "completedOn": "2026-10-23"
-      }
-    ],
-    "inProgress": {
+      },
+      {
       "sequence": 37,
       "id": 31,
       "title": "Gödel, Escher, Bach",
       "koreanTitle": "괴델, 에셔, 바흐",
-      "status": "assets-prepared-pending-deployment",
+      "status": "completed-and-verified",
       "koreanImage": "godel-escher-bach-v3-integrated-ko.webp",
       "englishImage": "godel-escher-bach-v3-integrated-en.webp",
       "koreanComplete": true,
       "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
+      "koreanCardVerified": true,
+      "englishCardVerified": true,
+      "publicUrlsVerified": true,
       "dimensions": "1024x1536",
       "preparedOn": "2026-10-23",
       "sourceNotes": "sources/godel-escher-bach-v3-integrated.md",
@@ -1782,8 +1781,25 @@
       ],
       "localPreviewAtWidth": 390,
       "mobileVerifiedAtWidth": 390,
-      "mobileVerificationMethod": "Full-image raster previews at 390px prepared locally; public URLs and language-specific live cards are pending browser verification. Not physical-device testing."
+      "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+      "publicBrowserChecks": {
+        "korean": {
+          "imageLoaded": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 1536,
+          "url": "https://orion8.github.io/reading-atlas/infographics/godel-escher-bach-v3-integrated-ko.webp"
+        },
+        "english": {
+          "imageLoaded": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 1536,
+          "url": "https://orion8.github.io/reading-atlas/infographics/godel-escher-bach-v3-integrated-en.webp"
+        }
+      },
+      "completedOn": "2026-10-23"
     }
+    ],
+    "inProgress": null
   }
 }
 
