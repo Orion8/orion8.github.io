@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 37,
+    "completedCount": 38,
     "collectionTotal": 75,
     "completed": [
       {
@@ -1797,35 +1797,51 @@
           }
         },
         "completedOn": "2026-10-23"
+      },
+      {
+        "sequence": 38,
+        "id": 32,
+        "title": "Infinite Powers",
+        "koreanTitle": "미적분의 힘",
+        "status": "completed-and-verified",
+        "koreanImage": "infinite-powers-v3-integrated-ko.webp",
+        "englishImage": "infinite-powers-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-23",
+        "sourceNotes": "sources/infinite-powers-v3-integrated.md",
+        "sources": [
+          "https://www.stevenstrogatz.com/books",
+          "https://atlantic-books.co.uk/book/infinite-powers/",
+          "https://business.cornell.edu/news/2019/01/15/strogatz-reveals-calculus/",
+          "https://math.cornell.edu/steven-strogatz",
+          "https://royalsociety.org/medals-and-prizes/science-book-prize/books/2019/infinite-powers/",
+          "https://books.google.com/books/about/Infinite_Powers.html?id=WJlPuQEACAAJ"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/infinite-powers-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/infinite-powers-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-23"
       }
     ],
-    "inProgress": {
-      "sequence": 38,
-      "id": 32,
-      "title": "Infinite Powers",
-      "koreanTitle": "미적분의 힘",
-      "status": "assets-prepared-pending-deployment",
-      "koreanImage": "infinite-powers-v3-integrated-ko.webp",
-      "englishImage": "infinite-powers-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-23",
-      "sourceNotes": "sources/infinite-powers-v3-integrated.md",
-      "sources": [
-        "https://www.stevenstrogatz.com/books",
-        "https://atlantic-books.co.uk/book/infinite-powers/",
-        "https://business.cornell.edu/news/2019/01/15/strogatz-reveals-calculus/",
-        "https://math.cornell.edu/steven-strogatz",
-        "https://royalsociety.org/medals-and-prizes/science-book-prize/books/2019/infinite-powers/",
-        "https://books.google.com/books/about/Infinite_Powers.html?id=WJlPuQEACAAJ"
-      ],
-      "localPreviewAtWidth": 390,
-      "mobileVerifiedAtWidth": 390,
-      "mobileVerificationMethod": "Full-image raster previews at 390px prepared locally; public URLs and language-specific live cards are pending browser verification. Not physical-device testing."
-    }
+    "inProgress": null
   }
 }
