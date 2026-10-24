@@ -1758,48 +1758,74 @@
         "completedOn": "2026-10-23"
       },
       {
-      "sequence": 37,
-      "id": 31,
-      "title": "Gödel, Escher, Bach",
-      "koreanTitle": "괴델, 에셔, 바흐",
-      "status": "completed-and-verified",
-      "koreanImage": "godel-escher-bach-v3-integrated-ko.webp",
-      "englishImage": "godel-escher-bach-v3-integrated-en.webp",
+        "sequence": 37,
+        "id": 31,
+        "title": "Gödel, Escher, Bach",
+        "koreanTitle": "괴델, 에셔, 바흐",
+        "status": "completed-and-verified",
+        "koreanImage": "godel-escher-bach-v3-integrated-ko.webp",
+        "englishImage": "godel-escher-bach-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "preparedOn": "2026-10-23",
+        "sourceNotes": "sources/godel-escher-bach-v3-integrated.md",
+        "sources": [
+          "https://www.hachettebookgroup.com/titles/douglas-r-hofstadter/g%C3%B6del-escher-bach/9780465026562/?lens=basic-books",
+          "https://cogs.indiana.edu/directory/faculty/profile.php?faculty=dughof",
+          "https://www.pulitzer.org/prize-winners-by-year/1980",
+          "https://www.nationalbook.org/books/godel-escher-bach-an-eternal-golden-braid/"
+        ],
+        "localPreviewAtWidth": 390,
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "publicBrowserChecks": {
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/godel-escher-bach-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/godel-escher-bach-v3-integrated-en.webp"
+          }
+        },
+        "completedOn": "2026-10-23"
+      }
+    ],
+    "inProgress": {
+      "sequence": 38,
+      "id": 32,
+      "title": "Infinite Powers",
+      "koreanTitle": "미적분의 힘",
+      "status": "assets-prepared-pending-deployment",
+      "koreanImage": "infinite-powers-v3-integrated-ko.webp",
+      "englishImage": "infinite-powers-v3-integrated-en.webp",
       "koreanComplete": true,
       "englishComplete": true,
-      "koreanCardVerified": true,
-      "englishCardVerified": true,
-      "publicUrlsVerified": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
       "dimensions": "1024x1536",
       "preparedOn": "2026-10-23",
-      "sourceNotes": "sources/godel-escher-bach-v3-integrated.md",
+      "sourceNotes": "sources/infinite-powers-v3-integrated.md",
       "sources": [
-        "https://www.hachettebookgroup.com/titles/douglas-r-hofstadter/g%C3%B6del-escher-bach/9780465026562/?lens=basic-books",
-        "https://cogs.indiana.edu/directory/faculty/profile.php?faculty=dughof",
-        "https://www.pulitzer.org/prize-winners-by-year/1980",
-        "https://www.nationalbook.org/books/godel-escher-bach-an-eternal-golden-braid/"
+        "https://www.stevenstrogatz.com/books",
+        "https://atlantic-books.co.uk/book/infinite-powers/",
+        "https://business.cornell.edu/news/2019/01/15/strogatz-reveals-calculus/",
+        "https://math.cornell.edu/steven-strogatz",
+        "https://royalsociety.org/medals-and-prizes/science-book-prize/books/2019/infinite-powers/",
+        "https://books.google.com/books/about/Infinite_Powers.html?id=WJlPuQEACAAJ"
       ],
       "localPreviewAtWidth": 390,
       "mobileVerifiedAtWidth": 390,
-      "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
-      "publicBrowserChecks": {
-        "korean": {
-          "imageLoaded": true,
-          "naturalWidth": 1024,
-          "naturalHeight": 1536,
-          "url": "https://orion8.github.io/reading-atlas/infographics/godel-escher-bach-v3-integrated-ko.webp"
-        },
-        "english": {
-          "imageLoaded": true,
-          "naturalWidth": 1024,
-          "naturalHeight": 1536,
-          "url": "https://orion8.github.io/reading-atlas/infographics/godel-escher-bach-v3-integrated-en.webp"
-        }
-      },
-      "completedOn": "2026-10-23"
+      "mobileVerificationMethod": "Full-image raster previews at 390px prepared locally; public URLs and language-specific live cards are pending browser verification. Not physical-device testing."
     }
-    ],
-    "inProgress": null
   }
 }
-
