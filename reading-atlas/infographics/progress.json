@@ -2131,6 +2131,31 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 44,
+      "id": 38,
+      "title": "Immune",
+      "koreanTitle": "면역: 당신의 생명을 지켜 주는 경이로운 작은 우주",
+      "status": "assets-prepared-pending-public-verification",
+      "koreanImage": "immune-v3-integrated-ko.webp",
+      "englishImage": "immune-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "localPreviewAtWidth": 390,
+      "preparedOn": "2026-10-25",
+      "sourceNotes": "sources/immune-v3-integrated.md",
+      "sources": [
+        "https://www.philippdettmer.net/immune",
+        "https://www.penguinrandomhouse.ca/books/669586/immune-by-philipp-dettmer/9780593241318",
+        "https://search.library.wisc.edu/catalog/9913460835902121",
+        "https://sciencebooks.tistory.com/1695",
+        "https://product.kyobobook.co.kr/detail/S000200560227"
+      ]
+    }
   }
 }
