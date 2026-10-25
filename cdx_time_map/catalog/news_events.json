@@ -1,24 +1,85 @@
 {
-  "catalogVersion": "0.0.183",
-  "updatedAt": "2026-10-24T16:34:36.430Z",
+  "catalogVersion": "0.0.184",
+  "updatedAt": "2026-10-25T06:02:18.765Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-f5f129983c01e29f2c10548f",
-      "title": "헤브론서 2,000명 이상 주거지서 강제 이주 보고 — 서안 전역 급습과 연계",
+      "id": "news-bc0a3e3e3becf0957b4025ef",
+      "title": "프랑스 전국 대규모 시위 격화로 거의 1,000명 체포",
       "titleTranslations": {
-        "en": "More than 2,000 forced from homes in Hebron amid West Bank raids"
+        "en": "Almost 1,000 arrested as clashes follow mass protests across France"
       },
-      "startAt": "2026-10-24T15:50:49.000Z",
+      "startAt": "2026-10-25T04:16:52.000Z",
       "lane": "world",
       "category": "politicsSociety",
       "importance": 3,
-      "description": "알자지라 보도에 따르면 헤브론에서 이스라엘군의 작전으로 2,000명 이상이 집에서 쫓겨났고 도시가 사실상 봉쇄된 가운데 서안지구 전역에서 다수의 체포가 이뤄졌다. 현지 거주민들은 격렬한 불안과 공포를 호소하고 있다.",
+      "description": "BBC 보도에 따르면 수십만명이 참여한 프랑스 전역의 대규모 시위가 격화되며 여러 지역에서 충돌이 발생했고, 사법·치안 당국은 거의 1,000여명의 체포가 이뤄졌다고 보고했다. 시위는 유럽의 다른 국가들에서도 일부 열렸다.",
       "descriptionTranslations": {
-        "en": "Al Jazeera reports that more than 2,000 people were forced from their homes in Hebron amid Israeli operations; the city is effectively closed and arrests have been made across the West Bank. Residents say they are living in fear."
+        "en": "According to the BBC, nationwide mass protests in France involving hundreds of thousands of people turned violent in places, with authorities reporting nearly 1,000 arrests. Demonstrations also took place in other European countries."
       },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+          "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews",
+          "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-17T15:57:40.000Z",
+        "lastObservedAt": "2026-10-25T06:02:18.765Z"
+      }
+    },
+    {
+      "id": "news-859e9cf18ee4c2046a9ff553",
+      "title": "예산안에 사회·공공임대주택에 £10억 배정 계획 포함",
+      "titleTranslations": {
+        "en": "Budget to include £1bn for social and affordable housing"
+      },
+      "startAt": "2026-10-25T02:57:30.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 비즈니스는 새 예산안에 사회 및 공공임대주택을 위한 £10억(약 1억 파운드) 규모의 자금이 포함될 예정이라고 보도했다. 보도는 이 추가로 10년 계획의 전체 자금이 £400억을 넘게 된다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC Business reports the upcoming Budget will include £1bn for social and affordable housing. The coverage says this addition brings the 10‑year programme’s funding to more than £40bn."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-25T02:57:30.000Z",
+        "lastObservedAt": "2026-10-25T06:02:18.765Z"
+      }
+    },
+    {
+      "id": "news-f5f129983c01e29f2c10548f",
+      "title": "헤브론서 이스라엘군의 주택 철거로 팔레스타인 가족들 이주",
+      "titleTranslations": {
+        "en": "Palestinian families displaced as Israeli forces demolish Hebron homes"
+      },
+      "startAt": "2026-10-24T23:02:06.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC는 헤브론에서 이스라엘군이 주택을 철거해 여러 팔레스타인 가족이 거처를 잃었다고 보도했다. 해당 철거 작전은 금요일 이스라엘 병사 2명이 팔레스타인 무장대원에게 살해된 사건 이후 이뤄졌으며, 이른바 총선을 며칠 앞둔 시점이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports that Israeli forces demolished homes in Hebron, displacing multiple Palestinian families. The demolitions followed the killing of two Israeli soldiers by Palestinian gunmen on Friday and took place days before Israel’s national election."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
       "topicIds": [
         "politicsHumanRights"
       ],
@@ -26,10 +87,39 @@
         "status": "developing",
         "sourceUrls": [
           "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss",
-          "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss"
+          "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
+          "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-23T17:30:51.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
+        "lastObservedAt": "2026-10-25T06:02:18.765Z"
+      }
+    },
+    {
+      "id": "news-23703444006e5e19ad7efd7b",
+      "title": "달턴 스미스, 쉐필드서 푸엘로 상대로 WBC 라이트웰터급 타이틀 방어",
+      "titleTranslations": {
+        "en": "Dalton Smith retains WBC light‑welterweight title in split‑decision win over Puello"
+      },
+      "startAt": "2026-10-24T21:44:12.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "description": "BBC 스포츠는 영국 권투선수 달턴 스미스가 쉐필드에서 열린 경기에서 알베르토 푸엘로를 상대로 스플릿 디시전을 통해 WBC 라이트웰터급 세계 타이틀을 방어했다고 보도했다. 보도에 따르면 이는 그의 성공적인 홈 복귀전이었다.",
+      "descriptionTranslations": {
+        "en": "BBC Sport reports British boxer Dalton Smith defended his WBC light‑welterweight world title with a split‑decision victory over Alberto Puello in Sheffield. Coverage describes it as a triumphant homecoming for Smith."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/boxing/articles/cqn73k05xjx6o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/boxing/articles/cqn73k05xjx6o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-24T21:44:12.000Z",
+        "lastObservedAt": "2026-10-25T06:02:18.765Z"
       }
     },
     {
@@ -198,38 +288,6 @@
           "https://www.aljazeera.com/news/2026/10/24/how-benjamin-netanyahu-reshaped-israels-institutions?traffic_source=rss"
         ],
         "firstPublishedAt": "2026-10-24T05:29:07.000Z",
-        "lastObservedAt": "2026-10-24T05:46:11.718Z"
-      }
-    },
-    {
-      "id": "news-bc0a3e3e3becf0957b4025ef",
-      "title": "프랑스, 전국적 폭동 일주일 만에 대규모 시위 대비해 7만명 이상 경찰 배치",
-      "titleTranslations": {
-        "en": "France deploys more than 70,000 police ahead of planned protests a week after nationwide riots"
-      },
-      "startAt": "2026-10-24T04:03:46.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 프랑스는 최근 전국적 폭동 발생 일주일을 맞아 제한된 집회를 무시하려는 시위대 대응을 우려하며 7만명 이상의 경찰을 배치해 대규모 시위에 대비하고 있다. 이번 조치는 도심의 야간 통금과 연계된 광범위한 치안 대응 상황의 연속선상에 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say France will deploy over 70,000 police ahead of planned demonstrations a week after nationwide riots, amid fears protesters will defy demonstration restrictions. The move is part of broader public‑order measures connected to recently imposed nightly curfews."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
-          "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews",
-          "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-17T15:57:40.000Z",
         "lastObservedAt": "2026-10-24T05:46:11.718Z"
       }
     },
@@ -1871,35 +1929,6 @@
       }
     },
     {
-      "id": "news-7ce76d9833babb6d603ef30b",
-      "title": "재무장관, 예산에서 자본이득세 인상 요구 반대 입장 표명",
-      "titleTranslations": {
-        "en": "Chancellor rejects calls to raise Capital Gains Tax in Budget"
-      },
-      "startAt": "2026-10-20T01:31:09.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "영국 재무장관이 예산 관련 논의에서 자본이득세(CGT) 인상 요구를 거부했다고 보도됐다. 보도는 일부 노동당 인사들이 CGT와 소득세의 형평성을 요구했지만 반대론자들은 고액 자산가의 이탈 우려를 제기했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The UK Chancellor has rejected calls to raise Capital Gains Tax in the upcoming Budget. Reporting notes influential Labour figures had pushed to align CGT with income tax, while critics warned such a move could drive wealthy individuals out of Britain."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c50me4w4x1vyo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c50me4w4x1vyo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-18T10:22:17.000Z",
-        "lastObservedAt": "2026-10-20T05:59:08.234Z"
-      }
-    },
-    {
       "id": "news-0d938f5ec690dc72af384a6c",
       "title": "'You Can See Everything' 다큐, 비밀스런 연출로 흥행·수상권 논의 촉발",
       "titleTranslations": {
@@ -2263,34 +2292,6 @@
           "https://www.bbc.co.uk/sport/football/articles/cjkge245n0gzo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-13T16:00:18.000Z",
-        "lastObservedAt": "2026-10-13T19:51:52.841Z"
-      }
-    },
-    {
-      "id": "news-cb1d9e3f6689c3d20db4c806",
-      "title": "영국 축구 규제기관, 다수 클럽이 '재정적 재난' 직전이라고 경고",
-      "titleTranslations": {
-        "en": "Football regulator warns majority of clubs are on the edge of 'financial disaster'"
-      },
-      "startAt": "2026-10-13T16:00:11.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 2,
-      "description": "영국 독립 축구 규제기관은 많은 클럽이 재정적으로 심각하게 취약해 '재정적 재난' 직전에 있다고 경고했다. 보고서는 클럽 재무 구조와 지속가능성 문제를 강조한다.",
-      "descriptionTranslations": {
-        "en": "The independent regulator for English football warned that a majority of clubs are dangerously exposed financially and are living on the edge of 'financial disaster', highlighting structural financial and sustainability issues across the game."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/c6vgx70pzq1jo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/football/articles/c6vgx70pzq1jo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-13T16:00:11.000Z",
         "lastObservedAt": "2026-10-13T19:51:52.841Z"
       }
     },
