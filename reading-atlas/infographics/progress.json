@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 44,
+    "completedCount": 45,
     "collectionTotal": 75,
     "completed": [
       {
@@ -2190,33 +2190,69 @@
             "url": "https://orion8.github.io/reading-atlas/previews/immune-v3-integrated-en-mobile.webp"
           }
         }
+      },
+      {
+        "sequence": 45,
+        "id": 39,
+        "title": "The Sixth Extinction",
+        "koreanTitle": "여섯 번째 대멸종",
+        "status": "completed-and-verified",
+        "koreanImage": "the-sixth-extinction-v3-integrated-ko.webp",
+        "englishImage": "the-sixth-extinction-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "preparedOn": "2026-10-25",
+        "sourceNotes": "sources/the-sixth-extinction-v3-integrated.md",
+        "sources": [
+          "https://us.macmillan.com/books/9780805099799/thesixthextinction/",
+          "https://academic.macmillan.com/academictrade/9781250887313/thesixthextinction10thanniversaryedition/",
+          "https://www.si.edu/object/siris_sil_1023678",
+          "https://www.pulitzer.org/winners/elizabeth-kolbert",
+          "https://www.samnparkers.com/book/book_detail.do?bkcd=2211080002"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "completedOn": "2026-10-25",
+        "publicBrowserChecks": {
+          "koreanCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-sixth-extinction-v3-integrated-ko.webp"
+          },
+          "englishCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-sixth-extinction-v3-integrated-en.webp"
+          },
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-sixth-extinction-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-sixth-extinction-v3-integrated-en.webp"
+          },
+          "koreanMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/the-sixth-extinction-v3-integrated-ko-mobile.webp"
+          },
+          "englishMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/the-sixth-extinction-v3-integrated-en-mobile.webp"
+          }
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 45,
-      "id": 39,
-      "title": "The Sixth Extinction",
-      "koreanTitle": "여섯 번째 대멸종",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "the-sixth-extinction-v3-integrated-ko.webp",
-      "englishImage": "the-sixth-extinction-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-10-25",
-      "sourceNotes": "sources/the-sixth-extinction-v3-integrated.md",
-      "sources": [
-        "https://us.macmillan.com/books/9780805099799/thesixthextinction/",
-        "https://academic.macmillan.com/academictrade/9781250887313/thesixthextinction10thanniversaryedition/",
-        "https://www.si.edu/object/siris_sil_1023678",
-        "https://www.pulitzer.org/winners/elizabeth-kolbert",
-        "https://www.samnparkers.com/book/book_detail.do?bkcd=2211080002"
-      ],
-      "mobileVerifiedAtWidth": 390
-    }
+    "inProgress": null
   }
 }
