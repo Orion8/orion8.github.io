@@ -2070,6 +2070,31 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 43,
+      "id": 37,
+      "title": "The Vital Question",
+      "koreanTitle": "바이털 퀘스천: 생명은 어떻게 탄생했는가",
+      "status": "assets-prepared-pending-public-verification",
+      "koreanImage": "the-vital-question-v3-integrated-ko.webp",
+      "englishImage": "the-vital-question-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "localPreviewAtWidth": 390,
+      "preparedOn": "2026-10-25",
+      "sourceNotes": "sources/the-vital-question-v3-integrated.md",
+      "sources": [
+        "https://nick-lane.net/books/the-vital-question-why-is-life-the-way-it-is/",
+        "https://nick-lane.net/chapters/vital-question-introduction-life-way/",
+        "https://openlibrary.org/books/OL26882634M/The_vital_question",
+        "https://www.ucl.ac.uk/research-innovation/case-studies/2022/apr/new-spin-evolution-informs-search-extra-terrestrial-life",
+        "https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=677781&se=b0&ty=B"
+      ]
+    }
   }
 }
