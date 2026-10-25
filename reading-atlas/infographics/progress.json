@@ -2010,6 +2010,29 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 42,
+      "id": 36,
+      "title": "The Gene: An Intimate History",
+      "koreanTitle": "유전자: 내밀한 역사",
+      "status": "assets-prepared-pending-public-verification",
+      "koreanImage": "the-gene-an-intimate-history-v3-integrated-ko.webp",
+      "englishImage": "the-gene-an-intimate-history-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "localPreviewAtWidth": 390,
+      "preparedOn": "2026-10-24",
+      "sourceNotes": "sources/the-gene-an-intimate-history-v3-integrated.md",
+      "sources": [
+        "https://www.simonandschuster.com/books/The-Gene/Siddhartha-Mukherjee/9781476733524",
+        "https://www.si.edu/object/gene-intimate-history-siddhartha-mukherjee%3Asiris_sil_1101833",
+        "https://www.cshl.edu/library-event/siddhartha-mukherjee-discusses-the-gene-an-intimate-history/",
+        "https://royalsociety.org/medals-and-prizes/science-book-prize/books/2016/gene/"
+      ]
+    }
   }
 }
