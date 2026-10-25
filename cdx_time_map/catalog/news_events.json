@@ -1,8 +1,177 @@
 {
-  "catalogVersion": "0.0.184",
-  "updatedAt": "2026-10-25T06:02:18.765Z",
+  "catalogVersion": "0.0.185",
+  "updatedAt": "2026-10-25T17:03:28.194Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-21259562a429c62e16554286",
+      "title": "수년간의 전쟁 이후 치러지는 중대한 이스라엘 총선",
+      "titleTranslations": {
+        "en": "Israel holds a consequential general election after years of war"
+      },
+      "startAt": "2026-10-25T16:00:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도는 2026년 선거가 2023년 10월 7일 공격 이후 이어진 전쟁과 충격에 따라 많은 유권자에게 수십 년 만의 중대 국면이라며, 전쟁을 거치며 변한 유권자들이 지도부 교체에 나설지 주목된다고 전한다.",
+      "descriptionTranslations": {
+        "en": "NPR reports that Israel is holding a general election after years of war and the Oct. 7, 2023 attacks, describing it as one of the most consequential votes in decades as voters — shaken by conflict — consider whether to change their leadership."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu"
+        ],
+        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
+        "lastObservedAt": "2026-10-25T17:03:28.193Z"
+      }
+    },
+    {
+      "id": "news-df72b971e5b915a709c685a2",
+      "title": "야운데의 녹지 상실과 시민 대응 — 아스팔트 아래서 시작된 복구 움직임",
+      "titleTranslations": {
+        "en": "Yaoundé’s loss of green spaces and community pushback"
+      },
+      "startAt": "2026-10-25T15:00:05.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언 도시면 보도는 카메룬 수도 야운데에서 콘크리트 확장으로 도시의 공원과 나무들이 크게 훼손되자 자원봉사자들이 한 뿌리씩 나무를 심고 녹지 보전을 위해 나서는 모습을 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian Cities reports that in Yaoundé, Cameroon, concrete sprawl has devastated parks and trees, prompting volunteers to respond by replanting shrubs and working to protect remaining green space."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/25/environment-cities-cameroon-yaounde-green-space-trees",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/global-development/2026/oct/25/environment-cities-cameroon-yaounde-green-space-trees"
+        ],
+        "firstPublishedAt": "2026-10-25T15:00:05.000Z",
+        "lastObservedAt": "2026-10-25T17:03:28.193Z"
+      }
+    },
+    {
+      "id": "news-4446d7ab28b5c10bdeeb8863",
+      "title": "브라질 대선 결선투표, 좌파 루라와 극우 플라비우 보우소나루 정면대결",
+      "titleTranslations": {
+        "en": "Brazil presidential runoff pits leftist Lula against far‑right Flávio Bolsonaro"
+      },
+      "startAt": "2026-10-25T14:41:17.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 재선 도전 중인 좌파 루이즈 이나시우 루라 다 실바 대통령이 전례 없는 복귀를 시도하는 가운데, 1차 투표에서 승리한 극우 상원 의원 플라비우 보우소나루와 결선에서 격돌한다. 여론조사 변동 속에서 양측은 근접한 접전을 벌이고 있다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that incumbent leftist president Luiz Inácio Lula da Silva is attempting an unprecedented comeback in a runoff against far‑right senator Flávio Bolsonaro, who won the first round. Polling has tightened and the two head into a closely contested contest."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election"
+        ],
+        "firstPublishedAt": "2026-10-25T14:41:17.000Z",
+        "lastObservedAt": "2026-10-25T17:03:28.193Z"
+      }
+    },
+    {
+      "id": "news-097ce32a83063d9a75795b17",
+      "title": "폭스바겐, 조지아 매콘에 40억달러 규모 아우디 SUV 공장 건설",
+      "titleTranslations": {
+        "en": "Volkswagen to build $4bn Audi SUV factory in Macon, Georgia"
+      },
+      "startAt": "2026-10-25T13:43:19.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "가디언 비즈니스에 따르면 아우디는 미국에서 처음으로 공장을 짓기 위해 매콘(조지아)에 약 40억 달러를 투자해 4,500개의 일자리를 창출할 계획이다. 보도는 이 발표가 트럼프의 관세 압박, 중국 경쟁, 전기차 전환 비용 등 배경 속에서 나왔다고 전한다.",
+      "descriptionTranslations": {
+        "en": "The Guardian Business reports that Audi will invest about $4bn to build its first US factory in Macon, Georgia, creating some 4,500 jobs. The coverage places the investment amid Trump‑era tariffs, intense Chinese competition and costly shifts toward electric vehicles."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home"
+        ],
+        "firstPublishedAt": "2026-10-25T13:43:19.000Z",
+        "lastObservedAt": "2026-10-25T17:03:28.193Z"
+      }
+    },
+    {
+      "id": "news-02986a017ad14e8ee89e2853",
+      "title": "로즈뱅크 유전: 정치적 논란의 중심에 선 북해 유전 현장 보도",
+      "titleTranslations": {
+        "en": "Rosebank: life on the North Sea oil field at the centre of a political storm"
+      },
+      "startAt": "2026-10-25T07:15:38.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 비즈니스는 미개발 상태로 남아 있는 북해 로즈뱅크 유전의 배에서 일하는 사람들의 삶을 취재하며, 이 유전이 정치적·환경적 논쟁의 중심에 놓여 있음을 조명했다.",
+      "descriptionTranslations": {
+        "en": "BBC Business reports from aboard a ship at the untapped Rosebank oil field in the North Sea, profiling life on the field as it awaits decisions amid political and environmental controversy."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-25T07:15:38.000Z",
+        "lastObservedAt": "2026-10-25T17:03:28.193Z"
+      }
+    },
+    {
+      "id": "news-ec49e5f2d20f449310e47f24",
+      "title": "맨체스터의 변화: UAE 자본이 도심 지형에 미친 영향 분석",
+      "titleTranslations": {
+        "en": "How UAE investment has changed the face of Manchester"
+      },
+      "startAt": "2026-10-25T06:00:54.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언 인터랙티브는 아랍의 봄 이후 아랍에미리트의 자본 유입이 맨체스터의 토지 소유와 도시 경관에 미친 영향을 추적하며, 일부 지역의 토지 소유 구조와 사회적 결과를 조명했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian interactive traces how investment from the United Arab Emirates since the Arab Spring has reshaped Manchester’s land ownership and urban landscape, examining social and economic consequences in affected areas."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/news/ng-interactive/2026/oct/25/thats-the-way-the-city-works-how-the-uae-changed-the-face-of-andy-burnhams-manchester",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/news/ng-interactive/2026/oct/25/thats-the-way-the-city-works-how-the-uae-changed-the-face-of-andy-burnhams-manchester"
+        ],
+        "firstPublishedAt": "2026-10-25T06:00:54.000Z",
+        "lastObservedAt": "2026-10-25T17:03:28.193Z"
+      }
+    },
     {
       "id": "news-bc0a3e3e3becf0957b4025ef",
       "title": "프랑스 전국 대규모 시위 격화로 거의 1,000명 체포",
@@ -179,6 +348,36 @@
       }
     },
     {
+      "id": "news-28a3ac1f48449efd79c12c50",
+      "title": "화성의 1,000마일 구름 — 이전에 관찰된 적 없는 물리현상 가능성 제기",
+      "titleTranslations": {
+        "en": "A 1,000‑mile cloud on Mars may reveal physics never seen in nature"
+      },
+      "startAt": "2026-10-24T11:50:28.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "아스테크니카 보도에 따르면 새로운 모델은 화성에서 생성되는 구름의 물리 과정이 이전에 직접 관찰된 바 없는 방식의 얼음 형성 과정을 포함할 수 있음을 시사한다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that a new model suggests a 1,000‑mile cloud on Mars may involve ice‑forming physics not previously directly observed, pointing to potentially novel atmospheric processes on Mars."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/"
+        ],
+        "firstPublishedAt": "2026-10-24T11:50:28.000Z",
+        "lastObservedAt": "2026-10-25T17:03:28.193Z"
+      }
+    },
+    {
       "id": "news-97677e7897f02058145f8c4c",
       "title": "알래스카 연방 토지서 사냥용 곰 미끼 허용 — 트럼프 행정부 규정 변경",
       "titleTranslations": {
@@ -204,6 +403,36 @@
         ],
         "firstPublishedAt": "2026-10-24T11:00:32.000Z",
         "lastObservedAt": "2026-10-24T16:34:36.430Z"
+      }
+    },
+    {
+      "id": "news-bc0ee4ef9353aebda5552926",
+      "title": "라우리엔타이드 빙하 잔존부의 확장 신호 — 약 2,000년 전 시작 가능성 제시",
+      "titleTranslations": {
+        "en": "Ice‑sheet expansion may have begun 2,000 years ago, new analysis suggests"
+      },
+      "startAt": "2026-10-24T11:00:09.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "아스테크니카는 라우리엔타이드(Laurentide) 빙하의 잔존 분출이 과거 생각보다 일찍 확장되기 시작했을 가능성을 제시하는 연구 결과를 보도했다. 보도는 작은 잔존부가 다소 확장되는 징후를 보였다고 전한다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports research indicating that remnants of the Laurentide Ice Sheet show signs of expansion that may have begun around 2,000 years ago, with the tiny remaining ice masses showing modest growth."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/"
+        ],
+        "firstPublishedAt": "2026-10-24T11:00:09.000Z",
+        "lastObservedAt": "2026-10-25T17:03:28.193Z"
       }
     },
     {
@@ -1101,6 +1330,34 @@
       }
     },
     {
+      "id": "news-29a4ffbe1d32dba88cabfc88",
+      "title": "성운 속에서 별이 태어나는 장면 — ESA 이미지 공개",
+      "titleTranslations": {
+        "en": "Stars brewing in a nebulous cauldron (ESA image release)"
+      },
+      "startAt": "2026-10-22T08:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "유럽우주국(ESA)은 성운 속에서 별이 형성되는 모습을 포착한 이미지를 공개했다. 해당 이미지는 성간 물질과 별 형성 과정을 보여준다.",
+      "descriptionTranslations": {
+        "en": "The European Space Agency released an image showing stars brewing within a nebulous region, illustrating interstellar material and star‑formation activity."
+      },
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron"
+        ],
+        "firstPublishedAt": "2026-10-22T08:00:00.000Z",
+        "lastObservedAt": "2026-10-25T17:03:28.193Z"
+      }
+    },
+    {
       "id": "news-2a375ccbde887f9c949e6da3",
       "title": "전세계 사이버 보안 경고에 정부·기업 대응 분주",
       "titleTranslations": {
@@ -1468,62 +1725,6 @@
       }
     },
     {
-      "id": "news-95dedf578de78f3ec264f66e",
-      "title": "오픈AI 모델들, 구글 클라우드의 모델 가든·마켓플레이스 통해 제공 예정",
-      "titleTranslations": {
-        "en": "OpenAI models are coming to Google Cloud"
-      },
-      "startAt": "2026-10-21T12:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "오픈AI와 구글 클라우드가 최첨단 모델과 코덱스(Codex) 워크플로를 구글의 모델 가든과 구글 클라우드 마켓플레이스를 통해 제공할 계획이라고 발표했다.",
-      "descriptionTranslations": {
-        "en": "OpenAI and Google Cloud announced plans to bring frontier models and Codex workflows to Google's Model Garden, available through the Google Cloud Marketplace."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-models-google-cloud",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/openai-models-google-cloud"
-        ],
-        "firstPublishedAt": "2026-10-21T12:00:00.000Z",
-        "lastObservedAt": "2026-10-21T18:00:41.904Z"
-      }
-    },
-    {
-      "id": "news-6323854e4daed12ea3dcb193",
-      "title": "스트래퍼드 인터내셔널, 예산 지원으로 국제열차 허브화될 전망",
-      "titleTranslations": {
-        "en": "Stratford International set to receive budget boost to become cross‑Channel train hub"
-      },
-      "startAt": "2026-10-21T10:59:12.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "보도에 따르면 스트래퍼드 인터내셔널 역의 업그레이드 자금이 다음 주 예산에 포함될 가능성이 제기되어 역이 국제 열차 서비스를 수용할 수 있는 허브로 거듭날 전망이라고 전했다. 런던 시장 사디크 칸이 정부에 자금을 요청해왔다고 보도된다.",
-      "descriptionTranslations": {
-        "en": "Reporting says Stratford International is likely to receive funding in the upcoming Budget to upgrade the station to allow cross‑Channel services, potentially unlocking its role as an international rail hub; Mayor Sadiq Khan has been lobbying ministers for the upgrade, coverage says."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/21/stratford-internationalinternational-trains-budget-boost",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/uk-news/2026/oct/21/stratford-internationalinternational-trains-budget-boost"
-        ],
-        "firstPublishedAt": "2026-10-21T10:59:12.000Z",
-        "lastObservedAt": "2026-10-22T06:08:00.502Z"
-      }
-    },
-    {
       "id": "news-b590be06d9c9262e22a37fdf",
       "title": "미국 극한기상 생존자들, 정치적 영향력 확보 위해 조직화",
       "titleTranslations": {
@@ -1549,36 +1750,6 @@
         ],
         "firstPublishedAt": "2026-10-21T10:00:02.000Z",
         "lastObservedAt": "2026-10-22T06:08:00.502Z"
-      }
-    },
-    {
-      "id": "news-360cc507ac1a33ad19ac57ed",
-      "title": "노벨생리의학상 관련 연구 조명 — 단세포 조류 클라모도모나스의 기여",
-      "titleTranslations": {
-        "en": "The humble one‑celled alga that helped scientists win the Nobel prize"
-      },
-      "startAt": "2026-10-21T05:00:04.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보도는 채널로돕신(channelrhodopsin)을 가진 단세포 조류 클라모도모나스가 빛을 감지해 빠른 전기신호를 생성하는 방식이 기억·감정·행동 형성 연구에 기여해 이번 노벨생리의학상 수상 연구의 핵심 요소였다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says the one‑celled alga Chlamydomonas, which uses a light‑sensing protein called channelrhodopsin to produce rapid electrical signals, helped underpin research recognised by this year's Nobel Prize in Physiology or Medicine."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/oct/21/chlamydomonas-one-celled-alga-nobel-prize",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/oct/21/chlamydomonas-one-celled-alga-nobel-prize"
-        ],
-        "firstPublishedAt": "2026-10-21T05:00:04.000Z",
-        "lastObservedAt": "2026-10-21T18:00:41.904Z"
       }
     },
     {
@@ -1662,66 +1833,6 @@
           "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/"
         ],
         "firstPublishedAt": "2026-10-20T20:21:36.000Z",
-        "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
-      "id": "news-766a23e8525d3c02e7a4feb2",
-      "title": "수단 군대 드론, 장례 행렬과 연료 시장 공격해 300명 이상 사망했다고 소식통 전해",
-      "titleTranslations": {
-        "en": "Sudan army drones hit mourners and fuel market, sources say over 300 killed"
-      },
-      "startAt": "2026-10-20T17:30:15.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "소식통들은 수단 군의 드론이 장례 행렬을 태운 트럭과 연료를 공급하는 것으로 알려진 시장을 목표로 한 공격을 가해 300명 넘게 사망했다고 전했다. 보도는 희생자 수와 공격 대상이 높은 인명 피해를 초래했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Sources say Sudan army drones struck a truck carrying people to a funeral and a market alleged to supply fuel, killing more than 300 people. Coverage reports the targets and casualty figures point to a large‑scale lethal attack."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
-          "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-19T14:45:53.000Z",
-        "lastObservedAt": "2026-10-20T17:58:33.160Z"
-      }
-    },
-    {
-      "id": "news-f44ff57d59e6a8e8e8445a66",
-      "title": "앨버타 주민투표, 분리 절차 개시 안건 압도적 부결",
-      "titleTranslations": {
-        "en": "Alberta voters overwhelmingly reject plan to begin independence process"
-      },
-      "startAt": "2026-10-20T16:24:05.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "앨버타 주민투표에서 비공식 집계 기준으로 약 76%가 캐나다에 잔류할 것을 지지했고, 약 24%가 분리 절차 개시를 지지했다. 약 190만 표가 집계되며 분리주의 운동 내 분열을 드러내는 결정적 결과가 나왔다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "In Alberta's referendum, unofficial results show roughly 76% voted to remain in Canada while about 24% supported beginning a process toward separation, with nearly 1.9 million votes counted. Reporting says the result delivers a decisive setback and highlights divisions within the separatist movement."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
-          "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
-          "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum"
-        ],
-        "firstPublishedAt": "2026-10-19T05:00:22.000Z",
         "lastObservedAt": "2026-10-21T05:59:40.712Z"
       }
     },
@@ -1813,34 +1924,6 @@
       }
     },
     {
-      "id": "news-b3392fc08df83576929e41e8",
-      "title": "라이언에어 CEO, 중동 분쟁으로 제트유 비용 상승 시 2027년 유럽 항공료 최대 20% 인상 전망",
-      "titleTranslations": {
-        "en": "Ryanair boss predicts European air fares could rise by as much as 20% in 2027"
-      },
-      "startAt": "2026-10-20T14:28:56.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "라이언에어 최고경영자는 중동 분쟁이 제트유 비용을 끌어올리며 많은 항공사가 연료 헤지(선물계약)를 하지 않은 상태라면 2027년에 항공권 가격이 최대 20%까지 오를 수 있다고 경고했다. 그는 일부 항공사들의 파산·인수 가능성도 언급했다.",
-      "descriptionTranslations": {
-        "en": "Ryanair’s CEO warned that the Middle East conflict is pushing jet fuel costs higher, and with many carriers unhedged against such increases he predicts European air fares could rise by up to 20% in 2027, potentially prompting bankruptcies and takeovers in the industry."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/20/european-air-fares-rise-2027-ryanair-fuel-costs",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/20/european-air-fares-rise-2027-ryanair-fuel-costs"
-        ],
-        "firstPublishedAt": "2026-10-20T14:28:56.000Z",
-        "lastObservedAt": "2026-10-20T17:58:33.160Z"
-      }
-    },
-    {
       "id": "news-cc92798eba888b22e599af6b",
       "title": "MMX 발사—일본의 화성 위성 포보스 표본회수 임무 발사 확인",
       "titleTranslations": {
@@ -1870,62 +1953,6 @@
         ],
         "firstPublishedAt": "2026-10-18T08:11:55.000Z",
         "lastObservedAt": "2026-10-20T17:58:33.160Z"
-      }
-    },
-    {
-      "id": "news-5f5ed2da3fd0ea68d1c26a08",
-      "title": "트럼프 행정부 시기 미국 경제 실상 점검 — 물가·고용·성장 분석",
-      "titleTranslations": {
-        "en": "How is the US economy really doing under President Trump?"
-      },
-      "startAt": "2026-10-20T05:00:45.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "중간선거를 앞두고 BBC가 물가·고용·경제성장 지표를 검증하며 미국 경제상태를 점검했다는 보도다. 보도는 인플레이션, 고용과 성장률 수치의 해석을 통해 현 경제 성과를 분석했다.",
-      "descriptionTranslations": {
-        "en": "Ahead of the midterms, the BBC examines inflation, jobs and growth data to assess how the US economy is performing under President Trump, reporting provides a review of the indicators and their interpretation."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cv98ze40jz18o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cv98ze40jz18o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-20T05:00:45.000Z",
-        "lastObservedAt": "2026-10-20T05:59:08.234Z"
-      }
-    },
-    {
-      "id": "news-32e66f113c7d907f68c5e3d7",
-      "title": "브래드포드 새 철도역 건설 발표 — 북부 교통 연결 개선 목표",
-      "titleTranslations": {
-        "en": "New Bradford railway station will ‘transform travel across the north’"
-      },
-      "startAt": "2026-10-20T05:00:16.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "영국 정부가 브래드포드 인터체인지 부지에 새로운 철도역을 건설해 리즈와 맨체스터 간 직통 운행과 '턴업앤고' 서비스를 제공하겠다고 발표했다. 정부는 이 역이 북부 지역 간 이동을 크게 변화시킬 것이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The UK government announced plans to build a new Bradford railway station on the Bradford Interchange site, aiming to allow through trains between Leeds and Manchester and to transform travel across the North with more frequent 'turn‑up‑and‑go' services, reporting says."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/20/bradford-railway-station-transform-travel-north",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/20/bradford-railway-station-transform-travel-north"
-        ],
-        "firstPublishedAt": "2026-10-20T05:00:16.000Z",
-        "lastObservedAt": "2026-10-20T05:59:08.234Z"
       }
     },
     {
@@ -2407,34 +2434,6 @@
         ],
         "firstPublishedAt": "2026-10-07T15:00:00.000Z",
         "lastObservedAt": "2026-10-08T07:18:14.887Z"
-      }
-    },
-    {
-      "id": "news-189a59772523fe892390a90e",
-      "title": "웹 망원경, 성운의 별 제트에서 발생한 활동 영상 공개",
-      "titleTranslations": {
-        "en": "Webb captures commotion from nebula’s stellar jets"
-      },
-      "startAt": "2026-10-06T13:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)은 제임스 웹 우주망원경이 성운의 별 제트에서 발생한 동요를 포착한 이미지를 공개했다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency says the James Webb Space Telescope has captured images showing commotion from a nebula's stellar jets."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Webb_captures_commotion_from_nebula_s_stellar_jets",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/ESA_Multimedia/Images/2026/10/Webb_captures_commotion_from_nebula_s_stellar_jets"
-        ],
-        "firstPublishedAt": "2026-10-06T13:00:00.000Z",
-        "lastObservedAt": "2026-10-06T18:54:14.550Z"
       }
     },
     {
