@@ -1949,6 +1949,30 @@
         "completedOn": "2026-10-24"
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 41,
+      "id": 35,
+      "title": "The Selfish Gene",
+      "koreanTitle": "이기적 유전자",
+      "status": "assets-prepared-pending-public-verification",
+      "koreanImage": "the-selfish-gene-v3-integrated-ko.webp",
+      "englishImage": "the-selfish-gene-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-24",
+      "sourceNotes": "sources/the-selfish-gene-v3-integrated.md",
+      "sources": [
+        "https://global.oup.com/academic/product/the-selfish-gene-9780198788607",
+        "https://richarddawkins.com/books/book/the-selfish-gene",
+        "https://academic.oup.com/cz/article/62/6/659/2745836",
+        "https://academic.oup.com/book/39940",
+        "https://www.pbs.org/faithandreason/transcript/dawk-body.html"
+      ],
+      "localPreviewAtWidth": 390
+    }
   }
 }
