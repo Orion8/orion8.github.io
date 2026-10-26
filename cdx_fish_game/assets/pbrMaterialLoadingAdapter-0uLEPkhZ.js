@@ -1,1 +1,0 @@
-export{t as PBRMaterialLoadingAdapter}from"./modelAsset-BOAEYfyk.js";
