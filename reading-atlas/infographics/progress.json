@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 48,
+    "completedCount": 49,
     "collectionTotal": 75,
     "completed": [
       {
@@ -2440,32 +2440,70 @@
             "url": "https://orion8.github.io/reading-atlas/previews/the-hidden-spring-v3-integrated-en-mobile.webp"
           }
         }
+      },
+      {
+        "sequence": 49,
+        "id": 44,
+        "title": "Surfing Uncertainty",
+        "koreanTitle": "불확실성 위에서 서핑하기",
+        "status": "completed-and-verified",
+        "koreanImage": "surfing-uncertainty-v3-integrated-ko.webp",
+        "englishImage": "surfing-uncertainty-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "preparedOn": "2026-10-26",
+        "sourceNotes": "sources/surfing-uncertainty-v3-integrated.md",
+        "sources": [
+          "https://academic.oup.com/book/7843",
+          "https://academic.oup.com/book/7843/chapter-abstract/153055966",
+          "https://global.oup.com/academic/product/surfing-uncertainty-9780190217013",
+          "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science/33542C736E17E3D1D44E8D03BE5F4CD9",
+          "https://academic.oup.com/book/7843/chapter/153052802"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "completedOn": "2026-10-26",
+        "publicBrowserChecks": {
+          "koreanCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/surfing-uncertainty-v3-integrated-ko.webp"
+          },
+          "englishCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/surfing-uncertainty-v3-integrated-en.webp"
+          },
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/surfing-uncertainty-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/surfing-uncertainty-v3-integrated-en.webp"
+          },
+          "koreanMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/surfing-uncertainty-v3-integrated-ko-mobile.webp"
+          },
+          "englishMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/surfing-uncertainty-v3-integrated-en-mobile.webp"
+          }
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 49,
-      "id": 44,
-      "title": "Surfing Uncertainty",
-      "koreanTitle": "불확실성 위에서 서핑하기",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "surfing-uncertainty-v3-integrated-ko.webp",
-      "englishImage": "surfing-uncertainty-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-10-26",
-      "sourceNotes": "sources/surfing-uncertainty-v3-integrated.md",
-      "sources": [
-        "https://academic.oup.com/book/7843",
-        "https://academic.oup.com/book/7843/chapter-abstract/153055966",
-        "https://global.oup.com/academic/product/surfing-uncertainty-9780190217013",
-        "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science/33542C736E17E3D1D44E8D03BE5F4CD9",
-        "https://academic.oup.com/book/7843/chapter/153052802"
-      ]
-    }
+    "inProgress": null
   }
 }
