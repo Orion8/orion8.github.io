@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 47,
+    "completedCount": 48,
     "collectionTotal": 75,
     "completed": [
       {
@@ -2376,34 +2376,72 @@
             "url": "https://orion8.github.io/reading-atlas/previews/the-feeling-of-what-happens-v3-integrated-en-mobile.webp"
           }
         }
+      },
+      {
+        "sequence": 48,
+        "id": 43,
+        "title": "The Hidden Spring",
+        "koreanTitle": "의식은 어디에서 오는가",
+        "status": "completed-and-verified",
+        "koreanImage": "the-hidden-spring-v3-integrated-ko.webp",
+        "englishImage": "the-hidden-spring-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "preparedOn": "2026-10-26",
+        "sourceNotes": "sources/the-hidden-spring-v3-integrated.md",
+        "sources": [
+          "https://wwnorton.com/books/9780393542011",
+          "https://profilebooks.com/work/the-hidden-spring/",
+          "https://profilebooks.com/wp-content/uploads/2021/01/The-Hidden-Spring-Extract.pdf",
+          "https://humanities.uct.ac.za/sites/default/files/content_migration/health_uct_ac_za/533/files/Solms%2520Pr%25C3%25A9cis%2520The%2520Hidden%2520Spring.pdf",
+          "https://doi.org/10.1038/s41583-022-00587-4",
+          "https://www.bookkorea.co.kr/goods/goods_view.php?goodsNo=1000348205",
+          "https://www.yes24.com/product/goods/126918112"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "completedOn": "2026-10-26",
+        "publicBrowserChecks": {
+          "koreanCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-hidden-spring-v3-integrated-ko.webp"
+          },
+          "englishCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-hidden-spring-v3-integrated-en.webp"
+          },
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-hidden-spring-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-hidden-spring-v3-integrated-en.webp"
+          },
+          "koreanMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/the-hidden-spring-v3-integrated-ko-mobile.webp"
+          },
+          "englishMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/the-hidden-spring-v3-integrated-en-mobile.webp"
+          }
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 48,
-      "id": 43,
-      "title": "The Hidden Spring",
-      "koreanTitle": "의식은 어디에서 오는가",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "the-hidden-spring-v3-integrated-ko.webp",
-      "englishImage": "the-hidden-spring-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-10-26",
-      "sourceNotes": "sources/the-hidden-spring-v3-integrated.md",
-      "sources": [
-        "https://wwnorton.com/books/9780393542011",
-        "https://profilebooks.com/work/the-hidden-spring/",
-        "https://profilebooks.com/wp-content/uploads/2021/01/The-Hidden-Spring-Extract.pdf",
-        "https://humanities.uct.ac.za/sites/default/files/content_migration/health_uct_ac_za/533/files/Solms%2520Pr%25C3%25A9cis%2520The%2520Hidden%2520Spring.pdf",
-        "https://doi.org/10.1038/s41583-022-00587-4",
-        "https://www.bookkorea.co.kr/goods/goods_view.php?goodsNo=1000348205",
-        "https://www.yes24.com/product/goods/126918112"
-      ]
-    }
+    "inProgress": null
   }
 }
