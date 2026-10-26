@@ -1,24 +1,52 @@
 {
-  "catalogVersion": "0.0.186",
-  "updatedAt": "2026-10-26T06:06:12.045Z",
+  "catalogVersion": "0.0.187",
+  "updatedAt": "2026-10-26T19:14:44.655Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-4446d7ab28b5c10bdeeb8863",
-      "title": "루라, 브라질 결선 승리 — 보우소나루 측 '승복 불가' 주장·지방 법원, 교통복구·관리자 체포영장 명령",
+      "id": "news-9dd2f7177d8d8160728bfd8f",
+      "title": "스타트렉 배우 월터 코닉(파벨 체코프 역) 별세, 향년 90",
       "titleTranslations": {
-        "en": "Lula wins Brazil runoff — Bolsonaro‑aligned camp says 'impossible to concede'; local court orders transport restoration and arrest warrant"
+        "en": "Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90"
       },
-      "startAt": "2026-10-26T05:53:54.000Z",
+      "startAt": "2026-10-26T18:34:15.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "BBC 연예·예술 보도는 원작 스타트렉 시리즈에서 러시아 승무원 파벨 체코프 역으로 알려진 배우 월터 코닉이 90세를 일기로 별세했다고 전했다. 보도는 코닉이 이후 '바빌론 5' 등에도 출연했다고 덧붙였다.",
+      "descriptionTranslations": {
+        "en": "BBC Entertainment & Arts reports that Walter Koenig, who played the eager Russian crewman Pavel Chekov in the original Star Trek series, has died aged 90. Coverage notes he later appeared in productions such as Babylon 5."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cv0ldjzg9xppo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cv0ldjzg9xppo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-26T18:34:15.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.655Z"
+      }
+    },
+    {
+      "id": "news-4446d7ab28b5c10bdeeb8863",
+      "title": "루라, 드라마틱한 역전으로 네 번째 대통령 임기 획득",
+      "titleTranslations": {
+        "en": "Lula wins fourth term in dramatic election comeback"
+      },
+      "startAt": "2026-10-26T18:26:19.000Z",
       "lane": "world",
       "category": "politicsSociety",
       "importance": 3,
-      "description": "가디언은 좌파 루이즈 이나시우 루라 다 실바가 극우 상원 의원 플라비우 보우소나루를 꺾고 네 번째 비연속 집권을 확정했다고 보도했다. 보도는 보우소나루 측이 결과에 대해 '승복하기 어렵다'고 주장하는 가운데, 한 지방 선거법원이 시내 버스 대수의 100% 즉시 복원을 명령하고 선거범죄 및 법원 명령 불이행 혐의로 시 교통국장 파블로 수자(Pablo Souza)에 대한 체포영장을 발부했다고 전했다. 체포영장은 수자가 파리의 '공식 임무'로 인해 체포되지 못했다고 덧붙였다.",
+      "description": "좌파 현직 대통령 루이스 이나시우 루라 다 실바가 결선에서 극우 도전자 플라비우 보우소나루를 꺾고 네 번째 대통령 임기를 확보했다고 BBC가 보도했다. 보도는 루라가 1차 투표에서 패한 뒤 결선에서 역전승을 거뒀다고 전했다.",
       "descriptionTranslations": {
-        "en": "The Guardian reports leftist Luiz Inácio Lula da Silva defeated far‑right senator Flávio Bolsonaro to secure a fourth non‑consecutive term. The coverage says Bolsonaro‑aligned figures have called it 'impossible to concede' while a local electoral court ordered immediate restoration of 100% of the city bus fleet and issued an arrest warrant for municipal transport secretary Pablo Souza on suspicion of an electoral offence and disobeying court orders; the warrant could not be carried out because Souza was in Paris on what the city government described as an 'official mission.'"
+        "en": "BBC reports that left‑wing incumbent Luiz Inácio Lula da Silva defeated right‑wing challenger Flávio Bolsonaro in the runoff to secure a fourth presidential term. The coverage notes Lula overturned an initial first‑round loss to win the decisive vote."
       },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
       "topicIds": [
         "politicsHumanRights"
       ],
@@ -26,10 +54,293 @@
         "status": "resolved",
         "sourceUrls": [
           "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-          "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula"
+          "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+          "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-25T14:41:17.000Z",
-        "lastObservedAt": "2026-10-26T06:06:12.045Z"
+        "lastObservedAt": "2026-10-26T19:14:44.654Z"
+      }
+    },
+    {
+      "id": "news-4cf5d2571e45c7064a60310e",
+      "title": "U‑15 월드컵 경기, 인종차별 의혹으로 중단돼 경기 포기",
+      "titleTranslations": {
+        "en": "England‑Republic of Ireland U15 World Cup game ends over alleged racism"
+      },
+      "startAt": "2026-10-26T18:17:25.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "BBC 스포츠는 잉글랜드와 아일랜드의 U‑15 월드컵 조별리그 경기가 한 상대 선수의 인종차별적 발언 의혹이 제기되며 중단·취소되었다고 보도했다. 보도는 해당 경기가 중도 종료된 사실을 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC Sport reports that the Under‑15 World Cup Group C match between England and the Republic of Ireland was abandoned after England alleged an opponent made a racist comment. The coverage notes the match was halted and not completed."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-26T18:17:25.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.655Z"
+      }
+    },
+    {
+      "id": "news-d6e31d9e0fa6ab5ca38f13c2",
+      "title": "SpaceX, 약 400억달러 규모 GPU 자금 조달 약정 체결",
+      "titleTranslations": {
+        "en": "SpaceX locks in $40B GPU financing deal with Apollo"
+      },
+      "startAt": "2026-10-26T16:46:36.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "테크크런치는 SpaceX가 AI 칩과 데이터센터 장비 비용을 충당하기 위한 약 400억 달러 규모의 구속력 있는 자금 조달 약정을 체결했다고 보도했다. 회사는 이를 '지금까지의 최대 규모 GPU 자금 조달'이라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "TechCrunch reports that SpaceX has secured a binding commitment of roughly $40 billion in financing to pay for AI chips and related data‑center equipment. The company described the deal as the largest committed GPU financing ever."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+        ],
+        "firstPublishedAt": "2026-10-26T16:46:36.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.654Z"
+      }
+    },
+    {
+      "id": "news-8239d000cbf4efda46b67abb",
+      "title": "메타, AI 확장 비용 충당 위해 950억달러 조달 계획 발표",
+      "titleTranslations": {
+        "en": "Meta announces $95bn fundraising drive to pay for AI expansion"
+      },
+      "startAt": "2026-10-26T15:33:24.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "가디언는 메타가 AI 인프라와 개인용 '슈퍼지능' 투자 지속을 위해 주식 매도 등으로 약 950억 달러 규모의 자금조달을 추진한다고 보도했다. 보도는 이 조치가 회사의 AI 확대 전략을 뒷받침하기 위한 것이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Meta plans a fundraising drive of about $95 billion, including a share sale, to support continued investment in AI infrastructure and personal‑superintelligence. The coverage frames the move as part of the company's AI expansion strategy."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates"
+        ],
+        "firstPublishedAt": "2026-10-26T15:33:24.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.654Z"
+      }
+    },
+    {
+      "id": "news-c889760de5d37b0559553666",
+      "title": "영국, 엘파셔(El Fasher) ‘강간 캠페인’ 관련 수단 군 지휘관들 제재",
+      "titleTranslations": {
+        "en": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’"
+      },
+      "startAt": "2026-10-26T15:07:23.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언은 영국 정부가 엘파셔에서 수만 명의 민간인 학살이 발생한 사건과 관련해 성폭력에 연루된 것으로 의심되는 수단의 고위 지휘관들에게 여행금지와 자산동결 제재를 가했다고 보도했다. 발표는 사건 1주년에 맞춰 이뤄졌다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that the UK has imposed travel bans and asset freezes on senior Sudanese commanders suspected of involvement in sexual violence during the mass atrocity in El Fasher. The sanctions were announced on the first anniversary of the events."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
+        ],
+        "firstPublishedAt": "2026-10-26T15:07:23.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.654Z"
+      }
+    },
+    {
+      "id": "news-b67fd02a214f91e2b5ea9e84",
+      "title": "Anthropic, 기업공개(IPO) 공식 신청",
+      "titleTranslations": {
+        "en": "Anthropic officially files for its public debut"
+      },
+      "startAt": "2026-10-26T14:35:22.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "AI 기업 Anthropic이 공식적으로 IPO 서류를 제출했다고 테크크런치가 보도했다. 보도는 높은 매출 증가와 함께 적자 지속, 주요 기업 고객 확보, 창업자 통제와 AI 안전 임무를 보전하려는 이례적 지배구조가 공개되었다고 전했다.",
+      "descriptionTranslations": {
+        "en": "TechCrunch reports that AI company Anthropic has officially filed for an IPO. Coverage says the filing reveals soaring revenue alongside mounting losses, major enterprise adoption, and an unusual governance structure intended to preserve founder control and the company's AI‑safety mission."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+        ],
+        "firstPublishedAt": "2026-10-26T14:35:22.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.654Z"
+      }
+    },
+    {
+      "id": "news-4e6f5c4fdf0aa6532ef9c967",
+      "title": "NASA·USDA, 지구관측·지리공간 분석 협력 확대하는 양해각서 체결",
+      "titleTranslations": {
+        "en": "NASA, USDA Sign Agreement Advancing Earth Science, Agriculture"
+      },
+      "startAt": "2026-10-26T13:54:25.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA 보도자료에 따르면 NASA와 미국 농무부(USDA)가 지구관측, 지리공간 분석 및 고급 데이터 기술 분야에서 협력 확대를 위한 양해각서(MOU)를 체결해 미 농업의 데이터 현대화 계획을 지원한다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "A NASA news release says NASA and the U.S. Department of Agriculture have signed an MOU to expand cooperation in Earth observation, geospatial analytics and advanced data technologies to support the USDA’s data modernization plan for U.S. agriculture."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/"
+        ],
+        "firstPublishedAt": "2026-10-26T13:54:25.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.655Z"
+      }
+    },
+    {
+      "id": "news-c07eb56e557593adc41a833c",
+      "title": "우주 거울로 밤에 지구를 비추려는 스타트업 시범에 과학자·환경단체·주민 반발",
+      "titleTranslations": {
+        "en": "Sunlight‑from‑space demonstration by US startup draws criticism"
+      },
+      "startAt": "2026-10-26T12:00:41.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언은 캘리포니아 주민들이 밤에 산 아래로 비치는 강한 빛에 놀랐으며, 한 스타트업이 우주에 수천 개의 거대한 거울을 배치해 야간에 태양빛을 반사하려는 계획의 실증 단계가 과학자·환경단체·지역 주민들의 반발을 불러일으켰다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that a US startup's demonstration of reflecting sunlight from space startled California locals and prompted criticism from scientists, environmentalists and residents. The company plans thousands of large mirrors in orbit to reflect sunlight to Earth at night, raising environmental and social concerns."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/26/california-sunlight-space-mirrors-satellites",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/26/california-sunlight-space-mirrors-satellites"
+        ],
+        "firstPublishedAt": "2026-10-26T12:00:41.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.654Z"
+      }
+    },
+    {
+      "id": "news-0406b1e01a0d5fce1b49db68",
+      "title": "영국 수석 의사들, 임금·연금 분쟁으로 48시간 파업 예고",
+      "titleTranslations": {
+        "en": "Consultant doctors in England to strike next month"
+      },
+      "startAt": "2026-10-26T11:45:48.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "BBC는 영국의 고위 임상의들이 임금과 연금 문제를 두고 11월 25일부터 48시간 동안 파업을 벌일 예정이라고 보도했다. 보도는 이번 파업이 의료 제공과 병원 운영에 영향을 미칠 것으로 전망된다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC reports that senior consultant doctors in England will stage a 48‑hour walkout beginning on 25 November in a dispute over pay and pensions. Coverage says the strike is expected to affect service provision and hospital operations."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c69wzxw2pvv0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c69wzxw2pvv0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-26T11:45:48.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.654Z"
+      }
+    },
+    {
+      "id": "news-48726c8e96bae6628b1b4db1",
+      "title": "힐리, 예산안에서 저소득 연금수급자의 소득세 부담 보호 계획 발표",
+      "titleTranslations": {
+        "en": "Healey to shield low‑income pensioners from income tax in the Budget"
+      },
+      "startAt": "2026-10-26T10:28:12.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 비즈니스는 예산안에서 저소득 연금수급자들이 4월 연금 인상 이후 소득세 대상이 되는 것을 막기 위한 변화가 포함될 것이라고 보도했다. 보도는 이러한 조치가 해당 대상자들의 세부담을 보호하기 위한 것이라고 전한다.",
+      "descriptionTranslations": {
+        "en": "BBC Business reports that the Budget will include measures to shield low‑income pensioners from becoming liable for income tax after the full, flat‑rate state pension rises in April. The coverage says the change is intended to protect those pensioners from additional tax burdens."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-26T10:28:12.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.654Z"
+      }
+    },
+    {
+      "id": "news-24f4e73ce7f92a3648d27ebe",
+      "title": "목소리 배우 에릭 바우자 별세, 향년 46",
+      "titleTranslations": {
+        "en": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46"
+      },
+      "startAt": "2026-10-26T06:16:15.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "BBC는 버그스 버니와 대피 덕의 목소리를 맡아온 성우 에릭 바우자가 46세로 사망했다고 보도했다. 보도는 그가 최근 작품인 'Coyote vs. Acme' 등에서 여러 캐릭터를 연기했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC reports that voice actor Eric Bauza, known for voicing characters including Bugs Bunny and Daffy Duck, has died aged 46. Coverage notes he voiced multiple characters in recent productions such as Coyote vs. Acme."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-26T06:16:15.000Z",
+        "lastObservedAt": "2026-10-26T19:14:44.655Z"
       }
     },
     {
@@ -1445,64 +1756,6 @@
       }
     },
     {
-      "id": "news-2a375ccbde887f9c949e6da3",
-      "title": "전세계 사이버 보안 경고에 정부·기업 대응 분주",
-      "titleTranslations": {
-        "en": "Governments and companies scramble after global cyber‑security warning"
-      },
-      "startAt": "2026-10-22T05:37:53.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "정부들과 기업들이 웹사이트 보호를 위해 긴급 대응에 나섰다. 보도에 따르면 아마존은 경고가 공개되기 전에 공격을 당했다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Governments and companies are rushing to protect their websites. Reporting says Amazon experienced attacks before the warning was made public."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-22T05:37:53.000Z",
-        "lastObservedAt": "2026-10-22T06:08:00.502Z"
-      }
-    },
-    {
-      "id": "news-4ee3b561f36bdd306b2d06e6",
-      "title": "북아일랜드, 2030 에너지 목표 달성 위험 경고",
-      "titleTranslations": {
-        "en": "Northern Ireland risks missing 2030 energy goals, committee warns"
-      },
-      "startAt": "2026-10-22T05:09:52.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "의회 위원회 심의에서 북아일랜드가 조치를 서두르지 않으면 2030 에너지 목표를 달성하지 못하고 경제적 기회를 잃을 수 있다는 우려가 제기됐다.",
-      "descriptionTranslations": {
-        "en": "A committee heard that Northern Ireland could miss its 2030 energy targets and lose economic opportunities if action is not accelerated."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c623d18dl3v0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c623d18dl3v0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-22T05:09:52.000Z",
-        "lastObservedAt": "2026-10-22T06:08:00.502Z"
-      }
-    },
-    {
       "id": "news-46665bca9da4861381d4821c",
       "title": "옥스퍼드 스트리트 일부 구간 보행자 전용화 10월 26일 시행",
       "titleTranslations": {
@@ -1556,34 +1809,6 @@
         ],
         "firstPublishedAt": "2026-10-21T23:36:31.000Z",
         "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
-      "id": "news-eabfdab6b5261ba0c2d8297e",
-      "title": "재무부, 북해 수익 투자로 ‘조(兆) 파운드’ 규모 기금 가능성 산정",
-      "titleTranslations": {
-        "en": "Treasury calculates how much a 'trillion‑pound' oil fund Britain could have built"
-      },
-      "startAt": "2026-10-21T23:27:05.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도에 따르면 재무부가 북해 자원 수익을 투자했다면 영국이 얼마를 모을 수 있었는지 처음으로 계산해 '조(兆) 파운드' 규모의 기금 가능성을 제시했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says the Treasury has, for the first time, calculated how much the UK could have raised by investing North Sea proceeds, outlining a potential 'trillion‑pound' fund."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-21T23:27:05.000Z",
-        "lastObservedAt": "2026-10-22T06:08:00.502Z"
       }
     },
     {
@@ -1700,34 +1925,6 @@
       }
     },
     {
-      "id": "news-ce8fd6092b37e27b256c722e",
-      "title": "마크롱, 사우디 기습 방문해 추가 디젤 공급 확보",
-      "titleTranslations": {
-        "en": "Macron makes surprise Saudi visit as France secures extra diesel supplies"
-      },
-      "startAt": "2026-10-21T16:58:39.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "프랑스 대통령이 리야드에서 무함마드 빈 살만과 만나 에너지·안보·인프라 문제를 논의했고, 프랑스는 추가 디젤 공급을 확보했다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "French president Emmanuel Macron made a surprise visit to Riyadh to meet Mohammed bin Salman to discuss energy, security and infrastructure, and France secured additional diesel supplies, reporting says."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/21/macron-makes-surprise-saudi-visit-as-france-secures-extra-diesel-supplies?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/21/macron-makes-surprise-saudi-visit-as-france-secures-extra-diesel-supplies?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-21T16:58:39.000Z",
-        "lastObservedAt": "2026-10-21T18:00:41.904Z"
-      }
-    },
-    {
       "id": "news-b4310e6ca41665911096bbed",
       "title": "퍼서비어런스, 지구 밖 최장 주행 기록 경신—주행거리 45.22km 도달",
       "titleTranslations": {
@@ -1752,90 +1949,6 @@
           "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/"
         ],
         "firstPublishedAt": "2026-10-21T15:50:44.000Z",
-        "lastObservedAt": "2026-10-21T18:00:41.904Z"
-      }
-    },
-    {
-      "id": "news-d14a7527f12d21591007ff6d",
-      "title": "프랑스 국채 금리 24년 만에 최고…예산 부결·폭력 시위 우려에 상승",
-      "titleTranslations": {
-        "en": "French borrowing costs hit 24‑year high as civil unrest and budget fears spook markets"
-      },
-      "startAt": "2026-10-21T13:17:32.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도에 따르면 10년 만기 국채 수익률이 24년 만에 처음으로 5%를 넘어섰다. 정부의 예산안 처리 실패와 최근의 폭력적 시위 여파가 시장의 매도세를 촉발했다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reporting says the yield on 10‑year French government bonds has passed 5% for the first time in 24 years as markets were spooked by failure to pass a budget and fallout from violent street protests."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/21/french-borrowing-costs-failure-to-pass-budget-govenment-bonds-violent-street-protests",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/21/french-borrowing-costs-failure-to-pass-budget-govenment-bonds-violent-street-protests"
-        ],
-        "firstPublishedAt": "2026-10-21T13:17:32.000Z",
-        "lastObservedAt": "2026-10-21T18:00:41.904Z"
-      }
-    },
-    {
-      "id": "news-b590be06d9c9262e22a37fdf",
-      "title": "미국 극한기상 생존자들, 정치적 영향력 확보 위해 조직화",
-      "titleTranslations": {
-        "en": "US extreme weather survivors organise to become a political force"
-      },
-      "startAt": "2026-10-21T10:00:02.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "텍사스에서 열린 모임에서 지난해 홍수로 136명이 사망한 지역 인근의 생존자들이 재난 대응 개선과 기후변화 대응을 요구하며 정치적 목소리를 키우려는 움직임을 보였다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Reporting says survivors of extreme weather in the US — including people near where floods killed 136 last year — are organising to push for better disaster response and action on global heating."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis"
-        ],
-        "firstPublishedAt": "2026-10-21T10:00:02.000Z",
-        "lastObservedAt": "2026-10-22T06:08:00.502Z"
-      }
-    },
-    {
-      "id": "news-5743f288fcf635d924820073",
-      "title": "영국, 합법적 절차·벌금 도입해 미용성형 피해 보호 규정 강화 예정(2027)",
-      "titleTranslations": {
-        "en": "Tighter rules planned to protect people from cosmetic surgery that goes badly wrong"
-      },
-      "startAt": "2026-10-20T23:06:07.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "보도에 따르면 잉글랜드에서 2027년 발효를 목표로 시술자 자격 제한과 법 위반자에 대한 벌금 등 미용성형으로 인한 피해를 막기 위한 규제가 도입될 예정이다.",
-      "descriptionTranslations": {
-        "en": "Reports say England plans tighter rules to protect people from cosmetic surgery that goes badly wrong, including restrictions on who may carry out procedures and fines for those who flout the law, to take effect in 2027."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3x2wxnrpk78o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c3x2wxnrpk78o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-20T23:06:07.000Z",
         "lastObservedAt": "2026-10-21T18:00:41.904Z"
       }
     },
@@ -2270,34 +2383,6 @@
       }
     },
     {
-      "id": "news-5cfe821513d5c5eec4d209a0",
-      "title": "BBC 뉴스 채널, 영국·미국 시청자 대상 유튜브 채널 개설",
-      "titleTranslations": {
-        "en": "BBC launches its news channel on YouTube for UK and US audiences"
-      },
-      "startAt": "2026-10-15T11:26:30.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "BBC는 디지털 원주민과 젊은 시청자층에 도달하기 위한 전략의 일환으로 영국과 미국 시청자를 대상으로 한 BBC 뉴스 채널을 유튜브에서 시작했다고 발표했다.",
-      "descriptionTranslations": {
-        "en": "The BBC has launched a BBC News channel on YouTube for viewers in the UK and US as part of a wider strategy to reach digitally‑native and younger audiences."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60merk2je80o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c60merk2je80o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-15T11:26:30.000Z",
-        "lastObservedAt": "2026-10-15T17:45:31.321Z"
-      }
-    },
-    {
       "id": "news-8b986843f40961ed2e6be21e",
       "title": "듀안 ‘Keffe D’ 데이비스, 투팍 샤커 살해 관련 최소 40년형 선고",
       "titleTranslations": {
@@ -2323,34 +2408,6 @@
         ],
         "firstPublishedAt": "2026-10-13T19:43:45.000Z",
         "lastObservedAt": "2026-10-14T06:06:02.516Z"
-      }
-    },
-    {
-      "id": "news-ec0308048ea2d0e396c9c9e6",
-      "title": "잉글랜드 축구 규제 책임자, 맨체스터 시티 관련 정치적 개입 시 사임 의향 밝혀",
-      "titleTranslations": {
-        "en": "Head of English football regulator says he would quit if there is political interference over Man City"
-      },
-      "startAt": "2026-10-13T16:00:18.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 2,
-      "description": "잉글랜드 축구 독립 규제기관의 수장은 맨체스터 시티의 향후 처리에 정치적 간섭이 있을 경우 사임하겠다고 밝혔다. 이는 축구 거버넌스와 정치적 영향력 문제에 대한 경고로 풀이된다.",
-      "descriptionTranslations": {
-        "en": "The head of England’s independent football regulator said he would resign if he encounters political interference over Manchester City’s future — a warning highlighting tensions around football governance and political influence."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cjkge245n0gzo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/football/articles/cjkge245n0gzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-13T16:00:18.000Z",
-        "lastObservedAt": "2026-10-13T19:51:52.841Z"
       }
     },
     {
@@ -2465,34 +2522,6 @@
         ],
         "firstPublishedAt": "2026-10-08T09:00:00.000Z",
         "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
-      "id": "news-718e414f27ebb38177b4b19e",
-      "title": "ESA, 화성의 가장 기묘한 구름에 대해 이례적 물리 작용 가능성 제기",
-      "titleTranslations": {
-        "en": "Mars’s oddest cloud may be even odder than we thought"
-      },
-      "startAt": "2026-10-07T15:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)은 Mars Express 관측 자료와 최신 기상 모델을 결합해 화성의 가장 특이한 구름 현상이 더욱 이례적인 물리 작용을 필요로 할 수 있다는 연구 결과를 발표했다. 연구진은 기존 해석을 재검토할 근거가 될 수 있다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency reports that analysis combining Mars Express observations with a state‑of‑the‑art meteorological model suggests Mars’s most unusual cloud may involve exotic physical processes, prompting fresh reconsideration of its origin."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought"
-        ],
-        "firstPublishedAt": "2026-10-07T15:00:00.000Z",
-        "lastObservedAt": "2026-10-08T07:18:14.887Z"
       }
     },
     {
@@ -2669,36 +2698,6 @@
         ],
         "firstPublishedAt": "2026-09-26T21:13:52.000Z",
         "lastObservedAt": "2026-09-27T06:34:53.570Z"
-      }
-    },
-    {
-      "id": "news-c40a3dfae780cf5bfc424e97",
-      "title": "노르이스터 폭풍, 해안가 홍수 발생 — 뉴욕·뉴저지 비상사태 선포",
-      "titleTranslations": {
-        "en": "Nor'easter storm brings coastal flooding as New York and New Jersey declare emergency"
-      },
-      "startAt": "2026-09-26T16:55:37.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "메인에서 버지니아까지 수천만 명이 영향권에 든 강력한 노르이스터 폭풍이 해안가에 홍수를 일으켰다. 뉴욕과 뉴저지 주정부는 비상사태를 선포했다.",
-      "descriptionTranslations": {
-        "en": "A powerful nor'easter affecting tens of millions from Maine to Virginia has caused coastal flooding. New York and New Jersey have declared states of emergency."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-26T16:55:37.000Z",
-        "lastObservedAt": "2026-09-26T17:07:46.088Z"
       }
     }
   ]
