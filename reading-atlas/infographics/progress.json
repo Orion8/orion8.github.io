@@ -2314,6 +2314,32 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 47,
+      "id": 42,
+      "title": "The Feeling of What Happens",
+      "koreanTitle": "느낌의 발견",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "the-feeling-of-what-happens-v3-integrated-ko.webp",
+      "englishImage": "the-feeling-of-what-happens-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-26",
+      "sourceNotes": "sources/the-feeling-of-what-happens-v3-integrated.md",
+      "sources": [
+        "https://www.penguinrandomhouse.com/authors/109226/antonio-damasio/",
+        "https://archive.org/details/feelingofwhathap00dama",
+        "https://archive.org/details/feelingofwhathap1999dama/mode/2up",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10851942/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8146510/",
+        "https://book21.com/p/6290",
+        "https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=1043438&ty=B"
+      ]
+    }
   }
 }
