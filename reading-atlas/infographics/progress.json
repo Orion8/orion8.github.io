@@ -2378,6 +2378,32 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 48,
+      "id": 43,
+      "title": "The Hidden Spring",
+      "koreanTitle": "의식은 어디에서 오는가",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "the-hidden-spring-v3-integrated-ko.webp",
+      "englishImage": "the-hidden-spring-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-26",
+      "sourceNotes": "sources/the-hidden-spring-v3-integrated.md",
+      "sources": [
+        "https://wwnorton.com/books/9780393542011",
+        "https://profilebooks.com/work/the-hidden-spring/",
+        "https://profilebooks.com/wp-content/uploads/2021/01/The-Hidden-Spring-Extract.pdf",
+        "https://humanities.uct.ac.za/sites/default/files/content_migration/health_uct_ac_za/533/files/Solms%2520Pr%25C3%25A9cis%2520The%2520Hidden%2520Spring.pdf",
+        "https://doi.org/10.1038/s41583-022-00587-4",
+        "https://www.bookkorea.co.kr/goods/goods_view.php?goodsNo=1000348205",
+        "https://www.yes24.com/product/goods/126918112"
+      ]
+    }
   }
 }
