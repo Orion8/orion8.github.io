@@ -2253,6 +2253,30 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 46,
+      "id": 41,
+      "title": "Consciousness and the Brain",
+      "koreanTitle": "뇌의식의 탄생",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "consciousness-and-the-brain-v3-integrated-ko.webp",
+      "englishImage": "consciousness-and-the-brain-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-25",
+      "sourceNotes": "sources/consciousness-and-the-brain-v3-integrated.md",
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/308282/consciousness-and-the-brain-by-stanislas-dehaene/",
+        "https://books.google.com/books/about/Consciousness_and_the_Brain.html?id=CWw2AAAAQBAJ",
+        "https://www.ncbi.nlm.nih.gov/nlmcatalog/101629037",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8770991/",
+        "https://www.yes24.com/product/goods/46218274"
+      ]
+    }
   }
 }
