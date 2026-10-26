@@ -1,8 +1,93 @@
 {
-  "catalogVersion": "0.0.185",
-  "updatedAt": "2026-10-25T17:03:28.194Z",
+  "catalogVersion": "0.0.186",
+  "updatedAt": "2026-10-26T06:06:12.045Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-4446d7ab28b5c10bdeeb8863",
+      "title": "루라, 브라질 결선 승리 — 보우소나루 측 '승복 불가' 주장·지방 법원, 교통복구·관리자 체포영장 명령",
+      "titleTranslations": {
+        "en": "Lula wins Brazil runoff — Bolsonaro‑aligned camp says 'impossible to concede'; local court orders transport restoration and arrest warrant"
+      },
+      "startAt": "2026-10-26T05:53:54.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언은 좌파 루이즈 이나시우 루라 다 실바가 극우 상원 의원 플라비우 보우소나루를 꺾고 네 번째 비연속 집권을 확정했다고 보도했다. 보도는 보우소나루 측이 결과에 대해 '승복하기 어렵다'고 주장하는 가운데, 한 지방 선거법원이 시내 버스 대수의 100% 즉시 복원을 명령하고 선거범죄 및 법원 명령 불이행 혐의로 시 교통국장 파블로 수자(Pablo Souza)에 대한 체포영장을 발부했다고 전했다. 체포영장은 수자가 파리의 '공식 임무'로 인해 체포되지 못했다고 덧붙였다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports leftist Luiz Inácio Lula da Silva defeated far‑right senator Flávio Bolsonaro to secure a fourth non‑consecutive term. The coverage says Bolsonaro‑aligned figures have called it 'impossible to concede' while a local electoral court ordered immediate restoration of 100% of the city bus fleet and issued an arrest warrant for municipal transport secretary Pablo Souza on suspicion of an electoral offence and disobeying court orders; the warrant could not be carried out because Souza was in Paris on what the city government described as an 'official mission.'"
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+          "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula"
+        ],
+        "firstPublishedAt": "2026-10-25T14:41:17.000Z",
+        "lastObservedAt": "2026-10-26T06:06:12.045Z"
+      }
+    },
+    {
+      "id": "news-a187897975e8b3a3b3829d92",
+      "title": "알렉산다르 부치치, 학생 주도 운동에 패배 인정 — 세르비아 장기 집권 세력에 타격",
+      "titleTranslations": {
+        "en": "Aleksandar Vučić concedes after student‑led movement defeats longtime leader in Serbia"
+      },
+      "startAt": "2026-10-26T05:24:59.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "알자지라는 세르비아의 오랜 지도자 알렉산다르 부치치가 학생들이 주도한 시위 운동에 의해 의회 선거에서 패배를 인정했다고 보도했다. 보도는 이번 결과가 오랜 집권에 대한 도전이자 정치적 분수령이 될 가능성이 있다고 전한다.",
+      "descriptionTranslations": {
+        "en": "Al Jazeera reports that Serbia's longtime leader Aleksandar Vučić conceded defeat to a student‑led protest movement in parliamentary elections. The coverage frames the result as a significant challenge to entrenched rule with potential political consequences."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-26T05:24:59.000Z",
+        "lastObservedAt": "2026-10-26T06:06:12.045Z"
+      }
+    },
+    {
+      "id": "news-b425a5697e07a66f72df80be",
+      "title": "미 서남부, 연일 폭우·홍수 경계 — Four Corners 지역 추가 폭우 예보",
+      "titleTranslations": {
+        "en": "US south‑west braces for more storms after days of rain and flooding in Four Corners region"
+      },
+      "startAt": "2026-10-25T19:02:51.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언은 애리조나·콜로라도·뉴멕시코·유타가 만나는 Four Corners 지역이 며칠간의 집중호우로 대규모 홍수·대피·수상구조·수백만 달러 피해를 겪은 뒤 추가 폭우와 뇌우가 예보되고 있다고 보도했다. 국립기상청은 해당 지역에 대해 홍수 주의보를 발령했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports the Four Corners area — where Arizona, Colorado, New Mexico and Utah meet — has endured days of heavy rain that prompted evacuations, water rescues and multi‑million‑dollar damage, and that another round of heavy showers and thunderstorms was forecast. The National Weather Service issued a flood watch for much of the region."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms"
+        ],
+        "firstPublishedAt": "2026-10-25T19:02:51.000Z",
+        "lastObservedAt": "2026-10-26T06:06:12.045Z"
+      }
+    },
     {
       "id": "news-21259562a429c62e16554286",
       "title": "수년간의 전쟁 이후 치러지는 중대한 이스라엘 총선",
@@ -61,34 +146,6 @@
       }
     },
     {
-      "id": "news-4446d7ab28b5c10bdeeb8863",
-      "title": "브라질 대선 결선투표, 좌파 루라와 극우 플라비우 보우소나루 정면대결",
-      "titleTranslations": {
-        "en": "Brazil presidential runoff pits leftist Lula against far‑right Flávio Bolsonaro"
-      },
-      "startAt": "2026-10-25T14:41:17.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 재선 도전 중인 좌파 루이즈 이나시우 루라 다 실바 대통령이 전례 없는 복귀를 시도하는 가운데, 1차 투표에서 승리한 극우 상원 의원 플라비우 보우소나루와 결선에서 격돌한다. 여론조사 변동 속에서 양측은 근접한 접전을 벌이고 있다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that incumbent leftist president Luiz Inácio Lula da Silva is attempting an unprecedented comeback in a runoff against far‑right senator Flávio Bolsonaro, who won the first round. Polling has tightened and the two head into a closely contested contest."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election"
-        ],
-        "firstPublishedAt": "2026-10-25T14:41:17.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
       "id": "news-097ce32a83063d9a75795b17",
       "title": "폭스바겐, 조지아 매콘에 40억달러 규모 아우디 SUV 공장 건설",
       "titleTranslations": {
@@ -114,6 +171,36 @@
         ],
         "firstPublishedAt": "2026-10-25T13:43:19.000Z",
         "lastObservedAt": "2026-10-25T17:03:28.193Z"
+      }
+    },
+    {
+      "id": "news-9679049c03ff86245cab16f4",
+      "title": "미 군, 스페이스X에 제한적 궤도 추적 데이터 접근 허용 — 산업·안보 우려 제기",
+      "titleTranslations": {
+        "en": "US military gives SpaceX access to restricted orbit‑tracking data — industry and security concerns raised"
+      },
+      "startAt": "2026-10-25T12:00:05.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "가디언은 미국 군이 일론 머스크의 스페이스X에 제한적이지만 민감한 궤도 추적 데이터를 제공했다고 보도했다. 보도는 이 접근이 회사에 궤도 물체 추적에서 이점을 줄 수 있고 우주산업 통제와 국가 안보에 관한 새로운 의문을 불러일으킨다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports the US military has granted Elon Musk’s SpaceX access to restricted space‑tracking data. The coverage says the access could give the company an advantage in tracking objects in orbit and raises new questions about control over orbital traffic and national‑security implications."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/25/spacex-access-sensitive-tracking-data",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/25/spacex-access-sensitive-tracking-data"
+        ],
+        "firstPublishedAt": "2026-10-25T12:00:05.000Z",
+        "lastObservedAt": "2026-10-26T06:06:12.045Z"
       }
     },
     {
@@ -1669,34 +1756,6 @@
       }
     },
     {
-      "id": "news-6a97ce52b9519b9d7b74ac85",
-      "title": "중증 병환 ICE 구금자들, 알 수 없는 아프리카 국가로의 즉시 추방 예정이라 가족들 우려",
-      "titleTranslations": {
-        "en": "Severely ill ICE detainees face imminent deportation to unknown African states, relatives say"
-      },
-      "startAt": "2026-10-21T13:40:08.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언은 플로리다의 두 곳 ICE 구금시설에 수감된 중증 환자들이 가족들과 이민단체의 전언으로 이르면 수요일부터 이들이 연고가 없는 제3국(아프리카)으로 추방될 예정이라고 보도했다. 가족과 옹호단체는 환자들의 악화한 의료상태를 우려하고 있다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that relatives and an advocacy group say severely ill detainees at two Florida ICE facilities are scheduled to be deported as early as Wednesday to third countries in Africa where they have no ties. Families and advocates say they are concerned about the detainees’ deteriorating medical conditions."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/21/ice-detention-illness-deportation-florida",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/21/ice-detention-illness-deportation-florida"
-        ],
-        "firstPublishedAt": "2026-10-21T13:40:08.000Z",
-        "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
       "id": "news-d14a7527f12d21591007ff6d",
       "title": "프랑스 국채 금리 24년 만에 최고…예산 부결·폭력 시위 우려에 상승",
       "titleTranslations": {
@@ -2068,34 +2127,6 @@
       }
     },
     {
-      "id": "news-32e90d6004276724e234f56c",
-      "title": "미 재난 생존자들, 최소 100억달러 연방 복구자금 대기",
-      "titleTranslations": {
-        "en": "US disaster survivors still await at least $10bn in federal aid: ‘It’s devastating’"
-      },
-      "startAt": "2026-10-19T10:00:03.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "가디언은 미국 내 극한기상 피해 지역의 장기 복구를 위한 연방 자금이 최소 100억 달러 이상 필요하다고 정부 관리들이 추정한다고 보도했다. 보도는 마지막 장기 복구기금이 2024년 허리케인 밀튼 때 배정됐다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that government officials estimate more than $10bn is needed in long‑term federal recovery funding to rebuild communities affected by extreme weather in the US. The coverage notes the last long‑term recovery funds were allocated for Hurricane Milton in 2024."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/19/us-disaster-survivor-payouts-fema",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/19/us-disaster-survivor-payouts-fema"
-        ],
-        "firstPublishedAt": "2026-10-19T10:00:03.000Z",
-        "lastObservedAt": "2026-10-19T19:17:31.888Z"
-      }
-    },
-    {
       "id": "news-28c133f0806d21029cefec3f",
       "title": "원데이 국제(ODI) 크리켓 판도를 바꾼 규칙 변경 영향 분석",
       "titleTranslations": {
@@ -2350,6 +2381,34 @@
         ],
         "firstPublishedAt": "2026-10-12T05:24:10.000Z",
         "lastObservedAt": "2026-10-12T07:18:44.237Z"
+      }
+    },
+    {
+      "id": "news-3f409a5d27f5d39ab0022e70",
+      "title": "WHO, COVID‑19 대응과 그 이후를 위한 'SCORE for Health Data' 기술 패키지 공개",
+      "titleTranslations": {
+        "en": "WHO unveils 'SCORE for Health Data' technical package to improve COVID‑19 response and beyond"
+      },
+      "startAt": "2026-10-10T07:49:45.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "WHO는 국가들이 시의적절하고 신뢰할 수 있는 보건 데이터를 수집·활용할 수 있도록 지원하는 'SCORE for Health Data Technical Package'를 공개했다고 발표했다. 보도는 이 패키지가 팬데믹 대응 역량과 전반적 보건정보시스템 강화를 목표로 한다고 전하며, WHO 사무총장은 '진전을 측정할 수 있어야 진전을 이룰 수 있다'고 말했다.",
+      "descriptionTranslations": {
+        "en": "The World Health Organization announced the 'SCORE for Health Data Technical Package' to help countries improve timely, reliable health data for COVID‑19 response and broader health system strengthening. Reporting says the package aims to bolster health information systems and includes WHO Director‑General Dr Tedros’s assertion that 'countries must be able to measure progress to make progress.'"
+      },
+      "sourceName": "World Health Organization",
+      "sourceUrl": "https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response"
+        ],
+        "firstPublishedAt": "2026-10-10T07:49:45.000Z",
+        "lastObservedAt": "2026-10-26T06:06:12.045Z"
       }
     },
     {
