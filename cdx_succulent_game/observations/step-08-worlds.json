@@ -1,7 +1,7 @@
 {
   "version": 1,
   "simulationSource": {
-    "sha256": "393d426679ca54f8121e8fdde25dfe6455e84258aa0aeee24b9201e26abc3b11",
+    "sha256": "c86289ae9f5fc1ef7401b211840afaedfde88b306c3a493b4b397c163c9cb6f5",
     "files": {
       "scripts/compare-scenarios.mjs": "9503f74d22b091cf571ab9548f60f77306897849a8b6b07991052eebd45de7ba",
       "scripts/scenario-report.mjs": "4d0551516d26408975f3cb83b003ef204cf56ca74cc93c2b5a214be7ecfb197e",
@@ -12,15 +12,16 @@
       "src/simulation/development.ts": "f826c18dd9d75713a6fdfd0939e55a644d0d619d497342c7f6057bda9cbb71a2",
       "src/simulation/environment.ts": "5fa8fcd05139d3314375d63befb4fcc6d949884c07f03787f93a36c5e200b056",
       "src/simulation/ids.ts": "eff902364960e3c782131b6fa6a72bb3ecdc3223e6d5e9890a96c7270730cd3e",
-      "src/simulation/model.ts": "39d459ae50957e638561492f05ade37b2497537effebd831c658d64007794937",
+      "src/simulation/model.ts": "b08ba6efc47755bc5fbf8b32070d0e7adce505a527901e2e55fc5a8b4328e5b1",
+      "src/simulation/place-plant.ts": "8158c6e66cc0f3d17d7c91fd3ed2dedfb1660861a2f84ddad6d761f8dbf29bcf",
       "src/simulation/regeneration.ts": "3698040a0b2d227a170595153f4b9b318bc4e19c3a560510e3b22403a8947477",
       "src/simulation/resources.ts": "c92064b367f051baf931359877a9397dad8339ad72ced2ad4df1383296b58df6",
-      "src/simulation/rules.ts": "4de261bda2e5df51bb2784110489e19464afd04265c4575473967230f994f7ea",
+      "src/simulation/rules.ts": "6170bc11aab1cd466c5bff3a97175612ae6f44fda76a5fb02048ba46772685d7",
       "src/simulation/scenarios.ts": "719116886e09e583a507296b36ac480f7aa6c31a53cbdd5b738bbfb944ea55b7",
       "src/simulation/step-world.ts": "2d4a9699f2dbddaf0cc1ebb0a3cae046b3af16a30c0386471c56c184bad1a332",
       "src/simulation/units.ts": "114a8935af95de6ed51add1bdba52876941755dfa544379616263f5adaaa962b",
-      "src/simulation/validate-world.ts": "3b9e242001b4da657d0beae1d2e9f7f873b465ee6a57046a88320905b30f53a8",
-      "src/simulation/versions.ts": "0e93cc8a5fca706e813ef9443f5d2d57b7b1f8298c3e6e81bbf58221e39a3a3e",
+      "src/simulation/validate-world.ts": "3e371ac87aa6ddfd579b5be2c916ceb13486bee50008a177897246a5185b2266",
+      "src/simulation/versions.ts": "e6b9c3697012edddfb358c2d6cbc8a6b3e0d17288a4f574a73e5814cdd78eb7d",
       "src/simulation/water-pot.ts": "7010ae67dbb4423195354ce9d376a8bc0e10da49f1df1bce0e39ce58d03a0d5a",
       "src/simulation/world-codec.ts": "8c663f508e4f3baf05a68ec035194d711f031ea19c03a86655ea9a156eddcef4"
     }
@@ -37,10 +38,10 @@
           "day": 0,
           "label": "처음 모습",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 0,
             "tick": 256,
@@ -1566,10 +1567,10 @@
           "day": 0,
           "label": "같은 세 갈래의 시작",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 0,
             "tick": 256,
@@ -4216,10 +4217,10 @@
           "day": 7,
           "label": "7일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 28,
             "tick": 284,
@@ -6955,10 +6956,10 @@
           "day": 14,
           "label": "14일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 57,
             "tick": 312,
@@ -9703,10 +9704,10 @@
           "day": 21,
           "label": "21일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 86,
             "tick": 340,
@@ -12460,10 +12461,10 @@
           "day": 28,
           "label": "28일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 115,
             "tick": 368,
@@ -15235,10 +15236,10 @@
           "day": 40,
           "label": "40일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 165,
             "tick": 416,
@@ -18129,10 +18130,10 @@
           "day": 0,
           "label": "같은 세 갈래의 시작",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 0,
             "tick": 256,
@@ -20779,10 +20780,10 @@
           "day": 7,
           "label": "7일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 28,
             "tick": 284,
@@ -23429,10 +23430,10 @@
           "day": 14,
           "label": "14일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 57,
             "tick": 312,
@@ -26098,10 +26099,10 @@
           "day": 21,
           "label": "21일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 86,
             "tick": 340,
@@ -28776,10 +28777,10 @@
           "day": 28,
           "label": "28일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 115,
             "tick": 368,
@@ -31463,10 +31464,10 @@
           "day": 40,
           "label": "40일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 165,
             "tick": 416,
@@ -34311,10 +34312,10 @@
           "day": 0,
           "label": "같은 세 갈래의 시작",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 0,
             "tick": 256,
@@ -36961,10 +36962,10 @@
           "day": 7,
           "label": "7일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 34,
             "tick": 284,
@@ -39784,10 +39785,10 @@
           "day": 14,
           "label": "14일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 69,
             "tick": 312,
@@ -42670,10 +42671,10 @@
           "day": 21,
           "label": "21일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 104,
             "tick": 340,
@@ -45619,10 +45620,10 @@
           "day": 28,
           "label": "28일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 139,
             "tick": 368,
@@ -48631,10 +48632,10 @@
           "day": 40,
           "label": "40일의 기록",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 199,
             "tick": 416,
@@ -51788,10 +51789,10 @@
           "day": 0,
           "label": "같은 세 갈래의 시작",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 0,
             "tick": 256,
@@ -54438,10 +54439,10 @@
           "day": 7,
           "label": "가지 나누기 전",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 28,
             "tick": 284,
@@ -57177,10 +57178,10 @@
           "day": 7.25,
           "label": "가지를 나눈 뒤",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 31,
             "tick": 285,
@@ -59975,10 +59976,10 @@
           "day": 9.5,
           "label": "절단면이 아문 뒤",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 40,
             "tick": 294,
@@ -62789,10 +62790,10 @@
           "day": 14.25,
           "label": "새 화분에 심은 뒤",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 62,
             "tick": 313,
@@ -65640,10 +65641,10 @@
           "day": 18.25,
           "label": "새 뿌리가 난 뒤",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 78,
             "tick": 329,
@@ -68537,10 +68538,10 @@
           "day": 23.75,
           "label": "절편의 새잎이 난 뒤",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 102,
             "tick": 351,
@@ -71531,10 +71532,10 @@
           "day": 40,
           "label": "두 화분의 다음 모습",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 171,
             "tick": 416,
@@ -74599,10 +74600,10 @@
           "day": 0,
           "label": "눈을 남긴 별도 시작 조건",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 0,
             "tick": 256,
@@ -77245,10 +77246,10 @@
           "day": 0,
           "label": "세 가지를 나눈 직후",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 3,
             "tick": 256,
@@ -80038,10 +80039,10 @@
           "day": 2.5,
           "label": "2.5일의 회복",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 13,
             "tick": 266,
@@ -82901,10 +82902,10 @@
           "day": 7.25,
           "label": "남겨 둔 눈에서 새순이 난 뒤",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 32,
             "tick": 285,
@@ -85881,10 +85882,10 @@
           "day": 10,
           "label": "10일의 회복",
           "world": {
-            "schemaVersion": 3,
+            "schemaVersion": 4,
             "rules": {
-              "version": "0.4.0",
-              "hash": "sha256:ea1e82858c18299d254fecce5a7d2fbf9a095de2f61725d862b0d4a9e9907fd4"
+              "version": "0.5.0",
+              "hash": "sha256:41dad2bd36192911c691e8ffd95a09c84e8ca514e0c5de03d714c87ef8039cf6"
             },
             "revision": 43,
             "tick": 296,
