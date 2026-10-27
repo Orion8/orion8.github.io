@@ -9,19 +9,19 @@
       content="다육이 화분을 가까이 살펴보고 햇빛 드는 창가에 놓아 보는 창가의 시간."
     />
     <title>창가의 시간 · 첫 화분</title>
-    <script type="module" crossorigin src="/cdx_succulent_game/assets/index-CV-17m_o.js"></script>
+    <script type="module" crossorigin src="/cdx_succulent_game/assets/index-ByhSxjt6.js"></script>
+    <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/performanceConfigurator-UtxC_Odd.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/engineStore-Bn2tApal.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/internalTexture-B3djGrls.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/logger-CuBYPcDK.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/shaderStore-D-XQlhUT.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/precisionDate-DgO8bWsc.js">
-    <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/performanceConfigurator-UtxC_Odd.js">
-    <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/thinEngine.pure-Ci1gr3qi.js">
+    <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/thinEngine.pure-C9obQWyA.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/math.scalar.functions-Bcxiuh2E.js">
     <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/halfFloat-Cfx5m4ll.js">
-    <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/math.color.pure-BKetBbK_.js">
-    <link rel="stylesheet" crossorigin href="/cdx_succulent_game/assets/index-D20DEdBe.css">
-    <meta name="game-version" content="0.1.0+build.19.1">
+    <link rel="modulepreload" crossorigin href="/cdx_succulent_game/assets/math.color.pure-DBZ15I_y.js">
+    <link rel="stylesheet" crossorigin href="/cdx_succulent_game/assets/index-CHuGo73C.css">
+    <meta name="game-version" content="0.1.0+build.21.1">
   </head>
   <body>
     <aside id="build-badge" aria-label="실행 버전">
@@ -70,6 +70,42 @@
         </p>
       </div>
       <noscript><p>화분을 보려면 브라우저의 JavaScript를 켜 주세요.</p></noscript>
+      <details id="observation-records" class="observation-records" hidden>
+        <summary>돌봄 기록 살펴보기</summary>
+        <div class="record-panel">
+          <label for="record-select">어떤 기록을 볼까요?</label>
+          <select id="record-select">
+            <option>기록을 준비하고 있어요</option>
+          </select>
+          <p id="record-note">같은 식물의 지난 모습을 비교해 보세요.</p>
+          <div class="record-timeline">
+            <button type="button" id="previous-frame" aria-label="이전 모습">‹</button>
+            <output id="record-day" for="record-frame">처음 모습</output>
+            <button type="button" id="next-frame" aria-label="다음 모습">›</button>
+          </div>
+          <input
+            id="record-frame"
+            type="range"
+            min="0"
+            max="0"
+            value="0"
+            step="1"
+            aria-label="기록의 시점"
+          />
+          <div class="record-options">
+            <label><input id="roots-visible" type="checkbox" /> 뿌리 함께 보기</label>
+            <label
+              >화면
+              <select id="render-quality" aria-label="화면 품질">
+                <option value="standard">자세히</option>
+                <option value="economy">가볍게</option>
+              </select></label
+            >
+          </div>
+          <button id="focus-organ" type="button" disabled>선택한 곳 보기</button>
+          <p id="organ-note" aria-live="polite">잎이나 줄기를 눌러 살펴볼 수 있어요.</p>
+        </div>
+      </details>
     </main>
   </body>
 </html>
