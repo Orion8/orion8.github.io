@@ -2629,6 +2629,30 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 52,
+      "id": 48,
+      "title": "The Alignment Problem",
+      "koreanTitle": "정렬 문제: 머신러닝과 인간의 가치",
+      "status": "assets-deployed-awaiting-public-verification",
+      "koreanImage": "the-alignment-problem-v3-integrated-ko.webp",
+      "englishImage": "the-alignment-problem-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-27",
+      "sourceNotes": "sources/the-alignment-problem-v3-integrated.md",
+      "sources": [
+        "https://brianchristian.org/the-alignment-problem/",
+        "https://wwnorton.com/books/9780393635829",
+        "https://books.google.com/books?id=KGCNEAAAQBAJ",
+        "https://jaapl.org/content/52/2/274",
+        "https://www.nationalacademies.org/news/the-human-implications-of-ai-with-brian-christian"
+      ]
+    }
   }
 }
