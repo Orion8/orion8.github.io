@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 51,
+    "completedCount": 52,
     "collectionTotal": 75,
     "completed": [
       {
@@ -2627,32 +2627,70 @@
             "url": "https://orion8.github.io/reading-atlas/previews/deep-learning-v3-integrated-en-mobile.webp"
           }
         }
+      },
+      {
+        "sequence": 52,
+        "id": 48,
+        "title": "The Alignment Problem",
+        "koreanTitle": "정렬 문제: 머신러닝과 인간의 가치",
+        "status": "completed-and-verified",
+        "koreanImage": "the-alignment-problem-v3-integrated-ko.webp",
+        "englishImage": "the-alignment-problem-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "preparedOn": "2026-10-27",
+        "sourceNotes": "sources/the-alignment-problem-v3-integrated.md",
+        "sources": [
+          "https://brianchristian.org/the-alignment-problem/",
+          "https://wwnorton.com/books/9780393635829",
+          "https://books.google.com/books?id=KGCNEAAAQBAJ",
+          "https://jaapl.org/content/52/2/274",
+          "https://www.nationalacademies.org/news/the-human-implications-of-ai-with-brian-christian"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "completedOn": "2026-10-27",
+        "publicBrowserChecks": {
+          "koreanCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-alignment-problem-v3-integrated-ko.webp"
+          },
+          "englishCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-alignment-problem-v3-integrated-en.webp"
+          },
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-alignment-problem-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/the-alignment-problem-v3-integrated-en.webp"
+          },
+          "koreanMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/the-alignment-problem-v3-integrated-ko-mobile.webp"
+          },
+          "englishMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/the-alignment-problem-v3-integrated-en-mobile.webp"
+          }
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 52,
-      "id": 48,
-      "title": "The Alignment Problem",
-      "koreanTitle": "정렬 문제: 머신러닝과 인간의 가치",
-      "status": "assets-deployed-awaiting-public-verification",
-      "koreanImage": "the-alignment-problem-v3-integrated-ko.webp",
-      "englishImage": "the-alignment-problem-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-10-27",
-      "sourceNotes": "sources/the-alignment-problem-v3-integrated.md",
-      "sources": [
-        "https://brianchristian.org/the-alignment-problem/",
-        "https://wwnorton.com/books/9780393635829",
-        "https://books.google.com/books?id=KGCNEAAAQBAJ",
-        "https://jaapl.org/content/52/2/274",
-        "https://www.nationalacademies.org/news/the-human-implications-of-ai-with-brian-christian"
-      ]
-    }
+    "inProgress": null
   }
 }
