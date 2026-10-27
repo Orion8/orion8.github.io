@@ -2565,6 +2565,32 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 51,
+      "id": 47,
+      "title": "Deep Learning",
+      "koreanTitle": "딥러닝",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "deep-learning-v3-integrated-ko.webp",
+      "englishImage": "deep-learning-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-27",
+      "sourceNotes": "sources/deep-learning-v3-integrated.md",
+      "sources": [
+        "https://www.deeplearningbook.org/",
+        "https://www.deeplearningbook.org/contents/TOC.html",
+        "https://www.deeplearningbook.org/contents/intro.html",
+        "https://www.deeplearningbook.org/contents/regularization.html",
+        "https://www.deeplearningbook.org/contents/convnets.html",
+        "https://www.deeplearningbook.org/contents/guidelines.html",
+        "https://mitpress.mit.edu/9780262035613/deep-learning/"
+      ]
+    }
   }
 }
