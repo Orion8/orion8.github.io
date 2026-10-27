@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 49,
+    "completedCount": 50,
     "collectionTotal": 75,
     "completed": [
       {
@@ -2502,31 +2502,69 @@
             "url": "https://orion8.github.io/reading-atlas/previews/surfing-uncertainty-v3-integrated-en-mobile.webp"
           }
         }
+      },
+      {
+        "sequence": 50,
+        "id": 46,
+        "title": "Reinforcement Learning: An Introduction",
+        "koreanTitle": "강화학습 입문",
+        "status": "completed-and-verified",
+        "koreanImage": "reinforcement-learning-an-introduction-v3-integrated-ko.webp",
+        "englishImage": "reinforcement-learning-an-introduction-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "preparedOn": "2026-10-27",
+        "sourceNotes": "sources/reinforcement-learning-an-introduction-v3-integrated.md",
+        "sources": [
+          "https://www.incompleteideas.net/book/the-book-2nd.html",
+          "https://www.incompleteideas.net/book/bookdraft2018mar21.pdf",
+          "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
+          "https://mitpress.mit.edu/9780262193986/reinforcement-learning/"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "completedOn": "2026-10-27",
+        "publicBrowserChecks": {
+          "koreanCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/reinforcement-learning-an-introduction-v3-integrated-ko.webp"
+          },
+          "englishCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/reinforcement-learning-an-introduction-v3-integrated-en.webp"
+          },
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/reinforcement-learning-an-introduction-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/reinforcement-learning-an-introduction-v3-integrated-en.webp"
+          },
+          "koreanMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/reinforcement-learning-an-introduction-v3-integrated-ko-mobile.webp"
+          },
+          "englishMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/reinforcement-learning-an-introduction-v3-integrated-en-mobile.webp"
+          }
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 50,
-      "id": 46,
-      "title": "Reinforcement Learning: An Introduction",
-      "koreanTitle": "강화학습 입문",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "reinforcement-learning-an-introduction-v3-integrated-ko.webp",
-      "englishImage": "reinforcement-learning-an-introduction-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-10-27",
-      "sourceNotes": "sources/reinforcement-learning-an-introduction-v3-integrated.md",
-      "sources": [
-        "https://www.incompleteideas.net/book/the-book-2nd.html",
-        "https://www.incompleteideas.net/book/bookdraft2018mar21.pdf",
-        "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
-        "https://mitpress.mit.edu/9780262193986/reinforcement-learning/"
-      ]
-    }
+    "inProgress": null
   }
 }
