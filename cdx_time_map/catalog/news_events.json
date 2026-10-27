@@ -1,8 +1,178 @@
 {
-  "catalogVersion": "0.0.188",
-  "updatedAt": "2026-10-27T06:14:00.925Z",
+  "catalogVersion": "0.0.189",
+  "updatedAt": "2026-10-27T18:40:30.181Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-72a2d33b808a214be974bc22",
+      "title": "노르웨이·핀란드 정상, 푸틴과 드문 전화 회담 개최",
+      "titleTranslations": {
+        "en": "Norway and Finland leaders hold rare call with Putin"
+      },
+      "startAt": "2026-10-27T18:28:23.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "노르웨이와 핀란드 정상의 푸틴과의 이례적 통화가 보도됐다. 해당 보도는 핀란드 대통령이 우크라이나 분쟁 해결은 침묵으로 달성되지 않을 것이라고 말한 점을 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say the leaders of Norway and Finland held a rare phone call with Vladimir Putin. The Finnish president was quoted saying an end to the conflict in Ukraine 'will not be achieved through silence.'"
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-27T18:28:23.000Z",
+        "lastObservedAt": "2026-10-27T18:40:30.181Z"
+      }
+    },
+    {
+      "id": "news-6f7b94d4e0f7d4bc45e8caf6",
+      "title": "나사 NEO 서베이어(NEO Surveyor) 태양 차광막 점검 이미지 공개",
+      "titleTranslations": {
+        "en": "NASA releases image of NEO Surveyor sunshade"
+      },
+      "startAt": "2026-10-27T17:58:57.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 근지구천체(Near‑Earth Object) 탐사용 적외선 우주망원경 NEO Surveyor의 대형 태양 차광막을 점검하는 사진을 공개했다. 보도는 차광막이 망원경을 냉각시켜 소행성 탐색을 지원할 것이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "NASA released an image showing a technician inspecting the large sunshade for the NEO Surveyor mission. Reporting notes the sunshade will keep the infrared space telescope cool as it searches for near‑Earth asteroids."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/"
+        ],
+        "firstPublishedAt": "2026-10-27T17:58:57.000Z",
+        "lastObservedAt": "2026-10-27T18:40:30.181Z"
+      }
+    },
+    {
+      "id": "news-1fa24dedc7c445b42a7af858",
+      "title": "오레쉬키(Oleshky)에서 한정적 휴전 발효 — 백악관은 멜라니아 트럼프 중재 성과라고 밝혀",
+      "titleTranslations": {
+        "en": "Localized ceasefire begins in Oleshky — White House says brokered by Melania Trump"
+      },
+      "startAt": "2026-10-27T15:13:24.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "백악관은 우크라이나 남부 오레쉬키 지역에서 주민 대피와 인도주의 지원을 위해 한정적 휴전이 시작됐다고 밝혔다. 보도는 휴전이 민간인 대피와 구호 물자 진입을 허용하는 목적이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "The White House said a localized ceasefire has begun in Oleshky in southern Ukraine to allow evacuations and humanitarian aid access. Reporting states the truce is intended to permit civilians to leave and aid to enter."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+          "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
+        "lastObservedAt": "2026-10-27T18:40:30.180Z"
+      }
+    },
+    {
+      "id": "news-b64f67eedfb83e74f5e89f73",
+      "title": "네이선 필더 연출 엘리자베스 홈즈 다큐 'You Can See Everything' 흥행·관심 촉발",
+      "titleTranslations": {
+        "en": "Nathan Fielder’s Elizabeth Holmes documentary becomes a major hit and drives renewed interest"
+      },
+      "startAt": "2026-10-27T14:34:55.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "네이선 필더가 공동 연출한 엘리자베스 홈즈 다큐멘터리 'You Can See Everything'가 흥행을 기록하며 관객들을 다시 2022년 드라마 'The Dropout'으로 이끌고 있다고 보도됐다. 보도는 영화가 상업적 성공과 문화적 논의를 불러일으키고 있다고 전한다.",
+      "descriptionTranslations": {
+        "en": "Nathan Fielder‑co‑directed documentary 'You Can See Everything' about Elizabeth Holmes has become a hit, driving audiences back to the 2022 TV drama 'The Dropout' and sparking renewed cultural discussion, reporting says."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/tv-and-radio/2026/oct/27/elizabeth-holmes-documentary-mania-you-can-see-everything-the-dropout",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/tv-and-radio/2026/oct/27/elizabeth-holmes-documentary-mania-you-can-see-everything-the-dropout"
+        ],
+        "firstPublishedAt": "2026-10-27T14:34:55.000Z",
+        "lastObservedAt": "2026-10-27T18:40:30.181Z"
+      }
+    },
+    {
+      "id": "news-a8b557c74308b442270c6688",
+      "title": "네덜란드 방송사, 이스라엘 참가 ‘민감성’ 이유로 유로비전 출전 철회",
+      "titleTranslations": {
+        "en": "Dutch broadcaster pulls out of Eurovision over sensitivities about Israel’s participation"
+      },
+      "startAt": "2026-10-27T11:23:19.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "네덜란드의 한 방송사가 유로비전 대회에서 이스라엘의 참가를 이유로 민감성을 들어 출전 철회를 결정했다고 보도됐다. 보도는 이 결정이 문화·정치적 논란의 일부로 보인다고 전했다.",
+      "descriptionTranslations": {
+        "en": "A Dutch broadcaster has reversed its decision to take part in Eurovision, citing 'sensitivities' over Israel’s participation, reporting says. The move is presented as part of broader cultural and political tensions surrounding the contest."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-27T11:23:19.000Z",
+        "lastObservedAt": "2026-10-27T18:40:30.181Z"
+      }
+    },
+    {
+      "id": "news-d851e9552dd716e2968db931",
+      "title": "트럼프 행정부의 NOAA 예산 감축이 엘니뇨 대응 능력 약화시켰다는 경고",
+      "titleTranslations": {
+        "en": "Experts warn Trump cuts to NOAA have weakened US El Niño preparedness"
+      },
+      "startAt": "2026-10-27T11:00:38.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "보도는 도널드 트럼프 대통령 취임 이후 NOAA 인력과 계약·연구 예산 삭감이 기상·기후 연구와 엘니뇨 대응 능력을 약화시켜 올해 전망되는 역사적 엘니뇨에 노출됐다고 과학자·전직 관료들이 우려한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say sweeping cuts to NOAA under President Trump — including staff reductions and cancelled contracts and grants — have hampered climate research and forecasting capacity, leaving the US more exposed to hazards from a potentially historic El Niño, experts and former officials warn."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/27/trump-cuts-el-nino-noaa",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/27/trump-cuts-el-nino-noaa"
+        ],
+        "firstPublishedAt": "2026-10-27T11:00:38.000Z",
+        "lastObservedAt": "2026-10-27T18:40:30.181Z"
+      }
+    },
     {
       "id": "news-46665bca9da4861381d4821c",
       "title": "옥스퍼드 스트리트 일부 구간 보행자 전용화 시행 후 이용자들 ‘만족’…버스 우회는 혼란도 초래",
@@ -33,32 +203,63 @@
       }
     },
     {
-      "id": "news-1fa24dedc7c445b42a7af858",
-      "title": "멜라니아 트럼프 중재로 우크라이나 남부 일부 지역 한정 휴전 발효",
+      "id": "news-b67fd02a214f91e2b5ea9e84",
+      "title": "Anthropic 증시 상장 서류 공개 관련 첫 분석 — 성장·비용·리스크 드러나",
       "titleTranslations": {
-        "en": "Local ceasefire brokered by Melania Trump starts in southern Ukraine"
+        "en": "Takeaways from Anthropic’s stock‑market filing — growth, costs and risks revealed"
       },
-      "startAt": "2026-10-27T05:26:58.000Z",
+      "startAt": "2026-10-27T05:00:04.000Z",
       "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "NPR 보도에 따르면 미 퍼스트레이디 멜라니아 트럼프가 중재한 인도주의 작전을 앞두고 우크라이나 남부에서 일부 지역에 한정된 휴전이 발효되었다. 보도는 휴전 발효와 동시에 키이우 등지에서는 미사일 공격이 재개되는 상황도 전했다.",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Anthropic이 미국 증시 상장을 위한 공개 서류(S‑1)를 제출하며 재무와 위험 요인 등이 공개되었다는 보도가 나왔다. 보도는 빠른 성장과 막대한 비용, 사이버공격과 안전조치의 한계 등 다양한 리스크를 지적했다.",
       "descriptionTranslations": {
-        "en": "According to NPR, a localized ceasefire in southern Ukraine brokered by U.S. first lady Melania Trump took effect ahead of a humanitarian mission she helped arrange. The reporting notes that missile strikes resumed in Kyiv at the same time."
+        "en": "Anthropic has filed an S‑1 to go public in the US, publishing financials and detailed risk disclosures. Reporting highlights explosive growth, very high costs, and risks ranging from cyber‑attacks to limits of safeguards."
       },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
       "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
+        "aiHistory",
+        "computerHistory",
+        "economyFinance"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war"
+          "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
+          "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways"
         ],
-        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
-        "lastObservedAt": "2026-10-27T06:14:00.925Z"
+        "firstPublishedAt": "2026-10-26T14:35:22.000Z",
+        "lastObservedAt": "2026-10-27T18:40:30.180Z"
+      }
+    },
+    {
+      "id": "news-e6d594ea2a28ff43dd710023",
+      "title": "중국 증시, 미·중 AI 경쟁 우려로 수조원 증발 — STAR 50 지수 40% 급락 보도",
+      "titleTranslations": {
+        "en": "Chinese markets lose trillions amid US‑China AI race fears — STAR 50 index down ~40%"
+      },
+      "startAt": "2026-10-27T04:42:50.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도는 중국의 AI 붐 지속 가능성에 대한 우려와 서방의 위협 때문에 중국 증시가 최근 몇 달간 수조 달러 규모로 급락했다고 전했다. 특히 상하이의 혁신 추적 지수(STAR 50)는 6월 이후 약 40% 하락했다고 보도되었다.",
+      "descriptionTranslations": {
+        "en": "Reporting says China’s stock markets have lost trillions in recent months amid concerns about the sustainability of Beijing’s AI boom and threats from western countries. The STAR 50 index tracking Shanghai innovation firms has plunged about 40% since June."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing"
+        ],
+        "firstPublishedAt": "2026-10-27T04:42:50.000Z",
+        "lastObservedAt": "2026-10-27T18:40:30.181Z"
       }
     },
     {
@@ -289,37 +490,6 @@
         ],
         "firstPublishedAt": "2026-10-26T16:46:36.000Z",
         "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
-      "id": "news-b67fd02a214f91e2b5ea9e84",
-      "title": "Anthropic, 잠재적 기록적 기업가치로 증시 상장 서류 제출 (업데이트)",
-      "titleTranslations": {
-        "en": "Anthropic files for potentially record‑breaking stock market valuation (update)"
-      },
-      "startAt": "2026-10-26T16:22:28.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 AI 기업 Anthropic이 미국 시장 상장을 위한 서류를 공개로 제출했으며, 일부 분석가는 회사 가치를 1.5조 달러 이상으로 평가하고 있다. 보도는 회사가 상장 기호 ANT로 등재될 예정이며 6월에 비공개 제출을 했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that AI company Anthropic has publicly filed for a US stock market listing, with some analysts valuing the firm at more than $1.5 trillion. Coverage says the company will list under the symbol ANT and previously filed confidentially in June."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-          "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market"
-        ],
-        "firstPublishedAt": "2026-10-26T14:35:22.000Z",
-        "lastObservedAt": "2026-10-27T06:14:00.925Z"
       }
     },
     {
@@ -1732,34 +1902,6 @@
       }
     },
     {
-      "id": "news-301925b8adfcebab105ac576",
-      "title": "딥마인드, 10m 해상도로 세계 숲 유형을 분류한 글로벌 지도 발표",
-      "titleTranslations": {
-        "en": "DeepMind maps the world’s forest types at 10‑metre resolution"
-      },
-      "startAt": "2026-10-22T14:30:24.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "딥마인드는 지구 표면의 10미터 단위 구역을 서로 다른 숲 유형으로 분류한 글로벌 지도를 발표했다. 보도는 이 지도가 산림 연구와 보전 정책에 활용될 수 있다고 전한다.",
-      "descriptionTranslations": {
-        "en": "DeepMind has released a global map that classifies every 10‑metre patch of land into distinct forest types. Reporting says the map could be used to support forest research and conservation policy."
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
-        ],
-        "firstPublishedAt": "2026-10-22T14:30:24.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
-      }
-    },
-    {
       "id": "news-209857475b34bfca03ec7c5b",
       "title": "치리카후아(Chiricahua) 바위 군집, 미국의 새 국립공원으로 지정",
       "titleTranslations": {
@@ -1875,34 +2017,6 @@
       }
     },
     {
-      "id": "news-c44512dfde6baf5a85982865",
-      "title": "텍사스 야생 엘크에서 ‘뉴월드 스크류웜’ 확인 — USDA 경고",
-      "titleTranslations": {
-        "en": "New World screwworm parasite confirmed in US wildlife, officials say"
-      },
-      "startAt": "2026-10-21T23:36:31.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "가디언은 미국 농무부(USDA가 텍사스의 사냥터에서 수확된 엘크에서 사람·가축에 치명적인 것으로 알려진 뉴월드 스크류웜이 처음으로 확인되었다고 발표했으며, 사냥꾼과 목장주에 대해 확산 방지를 위한 경계를 촉구했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports the US Department of Agriculture has confirmed the first detection of the New World screwworm in US wildlife — found in an elk on a game ranch in Pecos County, Texas — and warned hunters and ranchers to be vigilant to help stop its spread."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/21/new-world-screwworm-texas",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/21/new-world-screwworm-texas"
-        ],
-        "firstPublishedAt": "2026-10-21T23:36:31.000Z",
-        "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
       "id": "news-c974c204e1a237d5b88920a1",
       "title": "당뇨·ADHD 약물, 알츠하이머 환자 대상 동시시험으로 치료 속도화 시도",
       "titleTranslations": {
@@ -1928,35 +2042,6 @@
         ],
         "firstPublishedAt": "2026-10-21T23:02:30.000Z",
         "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
-      "id": "news-c8fbd486e702c8f02d519998",
-      "title": "푸틴, 미국인 스티븐 허바드 러시아 수감에서 석방",
-      "titleTranslations": {
-        "en": "Putin releases American Stephen Hubbard from Russian prison"
-      },
-      "startAt": "2026-10-21T22:39:19.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도에 따르면 블라디미르 푸틴 대통령이 도널드 트럼프 대통령의 요청에 따라 74세의 미시간 출신 스티븐 허바드를 러시아의 감옥에서 석방했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says President Vladimir Putin freed 74‑year‑old Michigan native Stephen Hubbard from a Russian prison following a request from President Trump."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison"
-        ],
-        "firstPublishedAt": "2026-10-21T22:39:19.000Z",
-        "lastObservedAt": "2026-10-22T06:08:00.502Z"
       }
     },
     {
@@ -2128,34 +2213,6 @@
         ],
         "firstPublishedAt": "2026-10-20T15:14:58.000Z",
         "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
-      "id": "news-e94a5ee8d763551ad13c6280",
-      "title": "NASA, 달 기지용 탐사·운반·자원탐사에 쓰일 달 표면 주행차(로버) 개발 경과 공개",
-      "titleTranslations": {
-        "en": "NASA Provides Progress Update on Moon Base Rovers"
-      },
-      "startAt": "2026-10-20T15:00:10.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 달 기지 건설을 준비하며 유인·무인 달 로버들이 초기 개발에서 기술시연·우주인 이동·지형 매핑·과학조사·자원 탐사에 핵심적 역할을 할 것이라며 관련 기술 개발 진행 상황을 공개했다. 초기사업들의 데이터가 향후 이동체계 설계에 반영될 예정이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "NASA provided a progress update on rover development for Moon base operations, saying crewed and robotic lunar rovers will support early development through tech demonstrations, astronaut transport, terrain mapping, scientific investigations and resource prospecting, with data from these missions informing future mobility systems."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/"
-        ],
-        "firstPublishedAt": "2026-10-20T15:00:10.000Z",
-        "lastObservedAt": "2026-10-20T17:58:33.160Z"
       }
     },
     {
@@ -2415,34 +2472,6 @@
         ],
         "firstPublishedAt": "2026-10-15T15:07:28.000Z",
         "lastObservedAt": "2026-10-15T17:45:31.321Z"
-      }
-    },
-    {
-      "id": "news-8b986843f40961ed2e6be21e",
-      "title": "듀안 ‘Keffe D’ 데이비스, 투팍 샤커 살해 관련 최소 40년형 선고",
-      "titleTranslations": {
-        "en": "Duane ‘Keffe D’ Davis sentenced to 40 years to life over Tupac Shakur’s murder"
-      },
-      "startAt": "2026-10-13T19:43:45.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "전 갱단 지도자 듀안 데이비스가 1996년 래퍼 투팍 샤커의 치명적 총격을 기획한 혐의로 유죄 판결을 받은 뒤 최소 40년에서 종신형까지 선고받았다. 판사는 가족을 앗아간 행위에 대해 엄중한 형을 선고했다.",
-      "descriptionTranslations": {
-        "en": "Former gang leader Duane Davis has been sentenced to 40 years to life after being convicted of orchestrating the 1996 fatal shooting of rapper Tupac Shakur. The judge emphasised the gravity of taking a life from a family when imposing a heavy sentence."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/music/2026/oct/13/duane-davis-sentencing-tupac-shakur-murder",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/music/2026/oct/13/duane-davis-sentencing-tupac-shakur-murder"
-        ],
-        "firstPublishedAt": "2026-10-13T19:43:45.000Z",
-        "lastObservedAt": "2026-10-14T06:06:02.516Z"
       }
     },
     {
