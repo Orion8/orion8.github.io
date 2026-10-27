@@ -1,34 +1,177 @@
 {
-  "catalogVersion": "0.0.187",
-  "updatedAt": "2026-10-26T19:14:44.655Z",
+  "catalogVersion": "0.0.188",
+  "updatedAt": "2026-10-27T06:14:00.925Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-9dd2f7177d8d8160728bfd8f",
-      "title": "스타트렉 배우 월터 코닉(파벨 체코프 역) 별세, 향년 90",
+      "id": "news-46665bca9da4861381d4821c",
+      "title": "옥스퍼드 스트리트 일부 구간 보행자 전용화 시행 후 이용자들 ‘만족’…버스 우회는 혼란도 초래",
       "titleTranslations": {
-        "en": "Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90"
+        "en": "Part of Oxford Street pedestrianised; shoppers praise change while bus rerouting causes disruption"
       },
-      "startAt": "2026-10-26T18:34:15.000Z",
+      "startAt": "2026-10-27T06:00:04.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "가디언 도시 보도는 런던 옥스퍼드 스트리트의 일부 구간 보행자 전용화가 시행된 뒤 쇼핑객들이 더 안전하고 넓어진 공간을 환영하는 반응을 보였다고 전했다. 보도는 한편 동쪽 구간에서는 버스 우회 등으로 혼란이 일어나는 모습도 관찰된다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian Cities reports that the partial pedestrianisation of Oxford Street in London has drawn praise from shoppers for providing more space and a better experience, while bus rerouting to the east of Oxford Circus has caused disruption and some complaints."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/cities/2026/oct/27/shoppers-praise-oxford-street-pedestrianisation",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/news/2026/oct/22/everyone-hates-oxford-street-will-pedestrianisation-save-it",
+          "https://www.theguardian.com/cities/2026/oct/27/shoppers-praise-oxford-street-pedestrianisation"
+        ],
+        "firstPublishedAt": "2026-10-22T04:00:07.000Z",
+        "lastObservedAt": "2026-10-27T06:14:00.925Z"
+      }
+    },
+    {
+      "id": "news-1fa24dedc7c445b42a7af858",
+      "title": "멜라니아 트럼프 중재로 우크라이나 남부 일부 지역 한정 휴전 발효",
+      "titleTranslations": {
+        "en": "Local ceasefire brokered by Melania Trump starts in southern Ukraine"
+      },
+      "startAt": "2026-10-27T05:26:58.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "NPR 보도에 따르면 미 퍼스트레이디 멜라니아 트럼프가 중재한 인도주의 작전을 앞두고 우크라이나 남부에서 일부 지역에 한정된 휴전이 발효되었다. 보도는 휴전 발효와 동시에 키이우 등지에서는 미사일 공격이 재개되는 상황도 전했다.",
+      "descriptionTranslations": {
+        "en": "According to NPR, a localized ceasefire in southern Ukraine brokered by U.S. first lady Melania Trump took effect ahead of a humanitarian mission she helped arrange. The reporting notes that missile strikes resumed in Kyiv at the same time."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war"
+        ],
+        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
+        "lastObservedAt": "2026-10-27T06:14:00.925Z"
+      }
+    },
+    {
+      "id": "news-3a3dad32dd0ee3f0a309cd8c",
+      "title": "남극 빙산 A‑81이 사우스조지아 해역에 도달",
+      "titleTranslations": {
+        "en": "A‑81 iceberg reaches South Georgia"
+      },
+      "startAt": "2026-10-27T04:00:00.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "NASA(지구관측 관련 보도)에 따르면 남극 빙산 A‑81이 웨델해를 빠져나와 상대적으로 빠르게 이동한 뒤 외딴 섬(사우스조지아) 해저 선반 가장자리에 도달해 속도가 느려졌다고 전했다.",
+      "descriptionTranslations": {
+        "en": "A NASA Earth Observatory item reports that Antarctic iceberg A‑81 exited the Weddell Sea relatively quickly and then slowed at the edge of the underwater shelf around the remote island of South Georgia."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/"
+        ],
+        "firstPublishedAt": "2026-10-27T04:00:00.000Z",
+        "lastObservedAt": "2026-10-27T06:14:00.925Z"
+      }
+    },
+    {
+      "id": "news-e070fb278b64a849d96c66f4",
+      "title": "영국 재무장관 힐리, 예산 전 일상물품 부담 완화 위해 일부 품목 관세 철폐 약속",
+      "titleTranslations": {
+        "en": "Healey pledges to axe some tariffs on staples in pre‑Budget package"
+      },
+      "startAt": "2026-10-27T01:57:48.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "BBC 비즈니스 보도에 따르면 영국 재무장관은 예산안 발표를 앞두고 가정의 '숨통'을 틔우기 위한 일환으로 잼·피클 등 일부 필수품에 대한 관세를 면제하는 방안을 포함한 정책을 약속했다. 정부는 이를 통해 가계 부담을 줄이겠다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "BBC Business reports that the UK chancellor has pledged to remove tariffs on some staple items as part of a pre‑Budget package intended to give households 'breathing space'. The government says the measure aims to reduce household costs."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-27T01:57:48.000Z",
+        "lastObservedAt": "2026-10-27T06:14:00.925Z"
+      }
+    },
+    {
+      "id": "news-577fd304a66d204d40f29381",
+      "title": "나사 퍼서비어런스가 네레트바 계곡의 360도 전경 영상 공개",
+      "titleTranslations": {
+        "en": "NASA’s Perseverance views dust at Neretva Vallis"
+      },
+      "startAt": "2026-10-26T22:48:12.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA 보도자료에 따르면 퍼서비어런스 로버의 Mastcam‑Z가 촬영한 217장의 이미지를 이어붙여 네레트바 계곡(예제로 분지 내)의 360도 전경을 공개했다. 보도는 현재는 바람에 쓸린 먼지투성이 경관이지만 수십억 년 전에는 강이 있었음을 상기시킨다고 전했다.",
+      "descriptionTranslations": {
+        "en": "A NASA release says the Perseverance rover’s Mastcam‑Z captured 217 images that were stitched into a 360‑degree view of Neretva Vallis within Jezero Crater. The agency notes the scene is dusty and wind‑swept today but recalls that billions of years ago it hosted a river channel."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/"
+        ],
+        "firstPublishedAt": "2026-10-26T22:48:12.000Z",
+        "lastObservedAt": "2026-10-27T06:14:00.925Z"
+      }
+    },
+    {
+      "id": "news-9dd2f7177d8d8160728bfd8f",
+      "title": "월터 코닉(스타트렉 파벨 체코프 역) 별세 — 향년 90",
+      "titleTranslations": {
+        "en": "Walter Koenig, actor best known as Chekov on Star Trek, dies aged 90"
+      },
+      "startAt": "2026-10-26T18:42:11.000Z",
       "lane": "world",
       "category": "cultureEntertainment",
       "importance": 2,
-      "description": "BBC 연예·예술 보도는 원작 스타트렉 시리즈에서 러시아 승무원 파벨 체코프 역으로 알려진 배우 월터 코닉이 90세를 일기로 별세했다고 전했다. 보도는 코닉이 이후 '바빌론 5' 등에도 출연했다고 덧붙였다.",
+      "description": "가디언 문화 보도에 따르면 배우 월터 코닉이 스타트렉 프랜차이즈에서 파벨 체코프 역으로 잘 알려진 채 향년 90세로 사망했다고 확인됐다. 보도는 코닉이 노년의 자택에서 가족과 함께한 가운데 숨졌고 사인은 '노환'으로 전해졌다고 밝혔다.",
       "descriptionTranslations": {
-        "en": "BBC Entertainment & Arts reports that Walter Koenig, who played the eager Russian crewman Pavel Chekov in the original Star Trek series, has died aged 90. Coverage notes he later appeared in productions such as Babylon 5."
+        "en": "The Guardian’s culture reporting confirms that actor Walter Koenig, famed for playing Pavel Chekov across the Star Trek franchise, has died aged 90. Coverage says he died at home surrounded by family and that the cause was attributed to old age."
       },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cv0ldjzg9xppo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/culture/2026/oct/26/walter-koenig-actor-star-trek-dies",
       "topicIds": [
         "artsFilm"
       ],
       "news": {
         "status": "resolved",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cv0ldjzg9xppo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/cv0ldjzg9xppo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/culture/2026/oct/26/walter-koenig-actor-star-trek-dies"
         ],
         "firstPublishedAt": "2026-10-26T18:34:15.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.655Z"
+        "lastObservedAt": "2026-10-27T06:14:00.925Z"
       }
     },
     {
@@ -90,6 +233,36 @@
       }
     },
     {
+      "id": "news-e33b638042c7bcbf870ce89c",
+      "title": "IEEE Xplore 디지털 라이브러리에 AI 어시스턴트 기능 추가",
+      "titleTranslations": {
+        "en": "IEEE Xplore Digital Library adds AI assistant"
+      },
+      "startAt": "2026-10-26T18:00:03.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "IEEE 스펙트럼 보도에 따르면 IEEE Xplore가 수백만 건의 동료심사 논문 전문을 기반으로 작동하는 AI 리서치 스위트를 도입해, 기관 구독자 대상 옵셔널 업그레이드로 제공한다. 이 도구는 STEM 문헌에 최적화된 독점 AI 시스템을 활용해 근거 기반 답변과 심층 통찰을 제공한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "IEEE Spectrum reports that the IEEE Xplore Digital Library introduced an AI Research Suite built on the full texts of millions of peer‑reviewed publications. Available as an optional subscription upgrade, the suite uses a proprietary STEM‑optimized AI to provide grounded answers and deep insights."
+      },
+      "sourceName": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+      "topicIds": [
+        "technologyComputing",
+        "semiconductor",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://spectrum.ieee.org/ieee-xplore-digital-library-ai"
+        ],
+        "firstPublishedAt": "2026-10-26T18:00:03.000Z",
+        "lastObservedAt": "2026-10-27T06:14:00.925Z"
+      }
+    },
+    {
       "id": "news-d6e31d9e0fa6ab5ca38f13c2",
       "title": "SpaceX, 약 400억달러 규모 GPU 자금 조달 약정 체결",
       "titleTranslations": {
@@ -116,6 +289,37 @@
         ],
         "firstPublishedAt": "2026-10-26T16:46:36.000Z",
         "lastObservedAt": "2026-10-26T19:14:44.654Z"
+      }
+    },
+    {
+      "id": "news-b67fd02a214f91e2b5ea9e84",
+      "title": "Anthropic, 잠재적 기록적 기업가치로 증시 상장 서류 제출 (업데이트)",
+      "titleTranslations": {
+        "en": "Anthropic files for potentially record‑breaking stock market valuation (update)"
+      },
+      "startAt": "2026-10-26T16:22:28.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 AI 기업 Anthropic이 미국 시장 상장을 위한 서류를 공개로 제출했으며, 일부 분석가는 회사 가치를 1.5조 달러 이상으로 평가하고 있다. 보도는 회사가 상장 기호 ANT로 등재될 예정이며 6월에 비공개 제출을 했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that AI company Anthropic has publicly filed for a US stock market listing, with some analysts valuing the firm at more than $1.5 trillion. Coverage says the company will list under the symbol ANT and previously filed confidentially in June."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market"
+        ],
+        "firstPublishedAt": "2026-10-26T14:35:22.000Z",
+        "lastObservedAt": "2026-10-27T06:14:00.925Z"
       }
     },
     {
@@ -171,35 +375,6 @@
           "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
         ],
         "firstPublishedAt": "2026-10-26T15:07:23.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
-      "id": "news-b67fd02a214f91e2b5ea9e84",
-      "title": "Anthropic, 기업공개(IPO) 공식 신청",
-      "titleTranslations": {
-        "en": "Anthropic officially files for its public debut"
-      },
-      "startAt": "2026-10-26T14:35:22.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "AI 기업 Anthropic이 공식적으로 IPO 서류를 제출했다고 테크크런치가 보도했다. 보도는 높은 매출 증가와 함께 적자 지속, 주요 기업 고객 확보, 창업자 통제와 AI 안전 임무를 보전하려는 이례적 지배구조가 공개되었다고 전했다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch reports that AI company Anthropic has officially filed for an IPO. Coverage says the filing reveals soaring revenue alongside mounting losses, major enterprise adoption, and an unusual governance structure intended to preserve founder control and the company's AI‑safety mission."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
-        ],
-        "firstPublishedAt": "2026-10-26T14:35:22.000Z",
         "lastObservedAt": "2026-10-26T19:14:44.654Z"
       }
     },
@@ -540,6 +715,36 @@
         ],
         "firstPublishedAt": "2026-10-25T07:15:38.000Z",
         "lastObservedAt": "2026-10-25T17:03:28.193Z"
+      }
+    },
+    {
+      "id": "news-3931d62b4da17dbeced1689a",
+      "title": "고대 로마의 색상 변환 유리 제작법 과학자들이 재현",
+      "titleTranslations": {
+        "en": "Scientists rediscover how to make ancient Roman colour‑changing glass"
+      },
+      "startAt": "2026-10-25T06:00:55.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "가디언 과학 보도는 1,600년 된 리키르구스 컵(Lycurgus Cup)의 빛 방향에 따라 색이 변하는 광학적 성질을 재현하는 제작법을 과학자들이 재발견했다고 전했다. 보도는 해당 유물의 루비빛·녹색 변색 현상이 오래전 로마의 광학 공학 수준을 보여준다고 설명했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian’s science reporting says researchers have rediscovered how to reproduce the optical engineering behind the 1,600‑year‑old Lycurgus Cup, which changes colour from jade green to ruby red depending on lighting. Coverage highlights the sophistication of Roman glasswork."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass"
+        ],
+        "firstPublishedAt": "2026-10-25T06:00:55.000Z",
+        "lastObservedAt": "2026-10-27T06:14:00.925Z"
       }
     },
     {
@@ -1527,34 +1732,6 @@
       }
     },
     {
-      "id": "news-2a69001ff7979826d71c1e8e",
-      "title": "메타, 저커버그의 ‘부유세’ 부담 지원 합의…최소 8년간 캘리포니아 거주 약속",
-      "titleTranslations": {
-        "en": "Meta strikes deal to help Mark Zuckerberg pay possible California wealth tax and keep him in state"
-      },
-      "startAt": "2026-10-22T15:40:03.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 메타는 최고경영자 마크 저커버그가 캘리포니아가 도입할 수 있는 일회성 5% 부유세를 부담하는 데 도움을 주는 합의를 체결했고, 저커버그는 이로 인해 최소 8년 동안 캘리포니아에 거주하겠다고 동의했다는 내용이 보도되었다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports Meta has struck an agreement to help CEO Mark Zuckerberg cover a potential one‑off 5% California wealth tax, and that Zuckerberg has agreed to remain living in California for at least eight years as part of the arrangement."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/22/meta-mark-zuckerberg-california-wealth-tax",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/oct/22/meta-mark-zuckerberg-california-wealth-tax"
-        ],
-        "firstPublishedAt": "2026-10-22T15:40:03.000Z",
-        "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
       "id": "news-301925b8adfcebab105ac576",
       "title": "딥마인드, 10m 해상도로 세계 숲 유형을 분류한 글로벌 지도 발표",
       "titleTranslations": {
@@ -1580,64 +1757,6 @@
         ],
         "firstPublishedAt": "2026-10-22T14:30:24.000Z",
         "lastObservedAt": "2026-10-23T17:53:07.944Z"
-      }
-    },
-    {
-      "id": "news-6e1142813e707b23d8cce4b0",
-      "title": "바클레이스, AI 확대로 인력 5,000명 감축 발표",
-      "titleTranslations": {
-        "en": "Barclays to cut 5,000 jobs as it increases reliance on AI"
-      },
-      "startAt": "2026-10-22T14:28:59.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "BBC는 바클레이스가 인공지능 활용을 늘리는 과정에서 인력 구조조정을 통해 약 5,000명을 감축할 계획이라고 보도했다. 회사는 AI 도입이 인력 규모를 약 5% 줄이는 결과를 초래한다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that Barclays plans to cut about 5,000 jobs as it increases its use of AI. The bank says the move will reduce its workforce by roughly 5% as AI is rolled out."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-22T14:28:59.000Z",
-        "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
-      "id": "news-ddf54823830bcf52ebc786be",
-      "title": "프랑스서 사람 감염 첫 확인 — 샤몬다 바이러스 관련 사망 발생",
-      "titleTranslations": {
-        "en": "First human case of Shamonda virus detected in France, patient died"
-      },
-      "startAt": "2026-10-22T13:53:32.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "BBC는 평소 가축에서 주로 발생하던 샤몬다(Shamonda) 바이러스의 사람 감염 사례가 프랑스에서 처음 확인되었고, 해당 환자가 10월 초에 사망했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that the Shamonda virus, which typically affects cattle, has been identified in a human in France for the first time, and the patient died in early October."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-22T13:53:32.000Z",
-        "lastObservedAt": "2026-10-22T17:58:06.389Z"
       }
     },
     {
@@ -1756,34 +1875,6 @@
       }
     },
     {
-      "id": "news-46665bca9da4861381d4821c",
-      "title": "옥스퍼드 스트리트 일부 구간 보행자 전용화 10월 26일 시행",
-      "titleTranslations": {
-        "en": "Part of Oxford Street to be pedestrianised from 26 October"
-      },
-      "startAt": "2026-10-22T04:00:07.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "보도에 따르면 런던 시내 가장 번잡한 쇼핑 거리 중 절반(1.2마일 구간의 절반)이 10월 26일부터 차량 통행이 금지되고 보행자 전용으로 전환된다. 차량·택시·자전거·스쿠터 등 대부분의 통행이 차단된다.",
-      "descriptionTranslations": {
-        "en": "Reporting says half of Oxford Street — part of the 1.2‑mile thoroughfare — will be closed to traffic from 26 October, banning cars, lorries, vans, taxis, buses, bicycles, e‑bikes and scooters and making it a pedestrian‑only space (except emergency vehicles)."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/news/2026/oct/22/everyone-hates-oxford-street-will-pedestrianisation-save-it",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/news/2026/oct/22/everyone-hates-oxford-street-will-pedestrianisation-save-it"
-        ],
-        "firstPublishedAt": "2026-10-22T04:00:07.000Z",
-        "lastObservedAt": "2026-10-22T06:08:00.502Z"
-      }
-    },
-    {
       "id": "news-c44512dfde6baf5a85982865",
       "title": "텍사스 야생 엘크에서 ‘뉴월드 스크류웜’ 확인 — USDA 경고",
       "titleTranslations": {
@@ -1894,34 +1985,6 @@
         ],
         "firstPublishedAt": "2026-10-21T20:09:10.000Z",
         "lastObservedAt": "2026-10-22T06:08:00.502Z"
-      }
-    },
-    {
-      "id": "news-3222098e24245dc24d2b15cd",
-      "title": "러시아, 우크라이나·미국과의 전쟁 종결 협상 재개 준비됐다고 밝혀",
-      "titleTranslations": {
-        "en": "Russia says it is ready to resume talks with Ukraine and US to end war"
-      },
-      "startAt": "2026-10-21T17:42:34.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "러시아는 블라디미르 푸틴 대통령이 미국 대통령 도널드 트럼프의 특사 스티브 윗코프와 상트페테르부르크에서 만나자 전쟁 종결을 위한 우크라이나·미국과의 협상 재개 준비가 돼 있다고 발표했다.",
-      "descriptionTranslations": {
-        "en": "Russia announced it is ready to resume talks with Ukraine and the United States to end the war after President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-21T17:42:34.000Z",
-        "lastObservedAt": "2026-10-21T18:00:41.904Z"
       }
     },
     {
@@ -2326,34 +2389,6 @@
       }
     },
     {
-      "id": "news-472f9f8e7d3f265b598f26b0",
-      "title": "스티븐 캐시, NASA 마샬 우주비행센터 소장 임명",
-      "titleTranslations": {
-        "en": "NASA names Stephen Cash Marshall as Marshall Space Flight Center director"
-      },
-      "startAt": "2026-10-16T20:14:39.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 1,
-      "description": "NASA는 스티븐 캐시를 앨라배마 헌츠빌의 마샬 우주비행센터 소장으로 임명했다고 발표했다. 캐시는 수십 년 경력의 NASA 엔지니어이자 항공우주 임원으로, 경력 초기 마샬에서 일한 뒤 복귀한다는 보도다.",
-      "descriptionTranslations": {
-        "en": "NASA announced that it has named Stephen Cash as director of the Marshall Space Flight Center in Huntsville, Alabama. Cash is a veteran NASA engineer and aerospace executive who began his career at the center and is now returning to lead it, the release says."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/"
-        ],
-        "firstPublishedAt": "2026-10-16T20:14:39.000Z",
-        "lastObservedAt": "2026-10-18T05:49:53.515Z"
-      }
-    },
-    {
       "id": "news-52a16e16972c71c77905829c",
       "title": "럭비리그 월드컵 개막전서 호주, 뉴질랜드에 극적 승리(24‑22) — 보스톡 해트트릭",
       "titleTranslations": {
@@ -2466,34 +2501,6 @@
         ],
         "firstPublishedAt": "2026-10-10T07:49:45.000Z",
         "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
-      "id": "news-0d6fcf01f6a4899d320191b1",
-      "title": "이스라엘 정부, 가자 민간인 학살을 다룬 다큐멘터리 스타일을 모방한 영화 홍보",
-      "titleTranslations": {
-        "en": "Israel promotes film that mimics NAZA documentary"
-      },
-      "startAt": "2026-10-08T17:52:35.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "가디언은 이스라엘 정부가 예컨대 영사관 등을 통해 NAZA(가자 민간인 대량 살해 관련 실제 다큐) 스타일을 모방한 온라인 영화를 홍보해 원작의 발견에 대응하려는 시도를 하고 있다고 보도했다. 보도는 정부의 홍보 전략과 문화적 파장에 주목했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports the Israeli government has promoted an online film produced to mimic the style of NAZA — an award‑winning documentary about mass killings of Gaza civilians — in an apparent effort to counter the real film’s findings, raising questions about state‑led information campaigns."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/08/israel-promotes-film-that-mimics-naza-documentary",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/08/israel-promotes-film-that-mimics-naza-documentary"
-        ],
-        "firstPublishedAt": "2026-10-08T17:52:35.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
       }
     },
     {
@@ -2639,65 +2646,6 @@
         ],
         "firstPublishedAt": "2026-09-28T19:53:37.000Z",
         "lastObservedAt": "2026-09-28T20:06:51.082Z"
-      }
-    },
-    {
-      "id": "news-3905074a13675726570d62a4",
-      "title": "태국 방콕, 폭우로 도로 침수·홍수 재난 선포",
-      "titleTranslations": {
-        "en": "Bangkok roads submerged as authorities declare a flood disaster"
-      },
-      "startAt": "2026-09-27T04:45:08.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 집중호우로 방콕 시내 도로들이 침수되자 당국이 홍수 재난을 선포했다. 보도는 강우는 잠잠해졌지만 홍수 사태가 아직 끝나지 않았다고 전한다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that heavy rains have submerged roads across Bangkok, prompting authorities to declare a flood disaster. The coverage says the heavy rains have eased but flooding is not yet over."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-09-27T04:45:08.000Z",
-        "lastObservedAt": "2026-09-27T06:34:53.570Z"
-      }
-    },
-    {
-      "id": "news-8c3fbd2285e86abed8789741",
-      "title": "콩고(민주공화국) 에볼라 유행, 확산세 둔화 여부 불확실",
-      "titleTranslations": {
-        "en": "Congo’s Ebola outbreak: experts disagree on whether it’s slowing"
-      },
-      "startAt": "2026-09-26T21:13:52.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 4개월째 이어진 콩고의 에볼라 유행은 역대 최대 규모 중 하나로 기록되고 있다. 당국과 외부 전문가들 사이에서 확산이 마침내 둔화되고 있는지에 대해 의견이 엇갈리고 있다.",
-      "descriptionTranslations": {
-        "en": "NPR reports that four months into the outbreak, Congo’s Ebola epidemic is one of the largest on record. Officials and outside experts disagree on whether the outbreak is finally slowing down."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/26/nx-s1-5976867/is-congos-ebola-outbreak-coming-under-control",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/26/nx-s1-5976867/is-congos-ebola-outbreak-coming-under-control"
-        ],
-        "firstPublishedAt": "2026-09-26T21:13:52.000Z",
-        "lastObservedAt": "2026-09-27T06:34:53.570Z"
       }
     }
   ]
