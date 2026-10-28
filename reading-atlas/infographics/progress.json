@@ -2879,6 +2879,30 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 56,
+      "id": 54,
+      "title": "The Nature of Technology",
+      "koreanTitle": "기술의 본성",
+      "status": "assets-complete-public-verification-pending",
+      "koreanImage": "the-nature-of-technology-v3-integrated-ko.webp",
+      "englishImage": "the-nature-of-technology-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-28",
+      "sourceNotes": "sources/the-nature-of-technology-v3-integrated.md",
+      "sources": [
+        "https://www.simonandschuster.com/books/The-Nature-of-Technology/W-Brian-Arthur/9781416544067",
+        "https://sites.santafe.edu/~wbarthur/thenatureoftechnology.htm",
+        "https://sites.santafe.edu/~wbarthur/technologybook.html",
+        "https://books.google.com/books/about/The_nature_of_technology.html?id=3qHs-XYXN0EC",
+        "https://www.santafe.edu/news-center/news/technology-under-microscope-and-macroscope"
+      ]
+    }
   }
 }
