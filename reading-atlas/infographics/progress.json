@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 54,
+    "completedCount": 55,
     "collectionTotal": 75,
     "completed": [
       {
@@ -2813,34 +2813,72 @@
             "url": "https://orion8.github.io/reading-atlas/previews/scale-v3-integrated-en-mobile.webp"
           }
         }
+      },
+      {
+        "sequence": 55,
+        "id": 53,
+        "title": "Sync",
+        "koreanTitle": "동시성의 과학, 싱크",
+        "status": "completed-and-verified",
+        "koreanImage": "sync-v3-integrated-ko.webp",
+        "englishImage": "sync-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "preparedOn": "2026-10-28",
+        "sourceNotes": "sources/sync-v3-integrated.md",
+        "sources": [
+          "https://www.stevenstrogatz.com/books/sync-the-emerging-science-of-spontaneous-order",
+          "https://www.hachettebookgroup.com/titles/steven-h-strogatz/sync/9780786868445/",
+          "https://books.google.com/books/about/Sync.html?id=ZQeZAAAAQBAJ",
+          "https://www.sciencedirect.com/science/article/pii/S0167278900000944",
+          "https://www.nature.com/articles/30918",
+          "https://www.yes24.com/product/goods/64122401",
+          "https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=363224&se=b0&ty=B"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings, equations, diagrams, and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "completedOn": "2026-10-28",
+        "publicBrowserChecks": {
+          "koreanCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/sync-v3-integrated-ko.webp"
+          },
+          "englishCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/sync-v3-integrated-en.webp"
+          },
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/sync-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/sync-v3-integrated-en.webp"
+          },
+          "koreanMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/sync-v3-integrated-ko-mobile.webp"
+          },
+          "englishMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/sync-v3-integrated-en-mobile.webp"
+          }
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 55,
-      "id": 53,
-      "title": "Sync",
-      "koreanTitle": "동시성의 과학, 싱크",
-      "status": "assets-complete-public-verification-pending",
-      "koreanImage": "sync-v3-integrated-ko.webp",
-      "englishImage": "sync-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-10-28",
-      "sourceNotes": "sources/sync-v3-integrated.md",
-      "sources": [
-        "https://www.stevenstrogatz.com/books/sync-the-emerging-science-of-spontaneous-order",
-        "https://www.hachettebookgroup.com/titles/steven-h-strogatz/sync/9780786868445/",
-        "https://books.google.com/books/about/Sync.html?id=ZQeZAAAAQBAJ",
-        "https://www.sciencedirect.com/science/article/pii/S0167278900000944",
-        "https://www.nature.com/articles/30918",
-        "https://www.yes24.com/product/goods/64122401",
-        "https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=363224&se=b0&ty=B"
-      ]
-    }
+    "inProgress": null
   }
 }
