@@ -1,8 +1,264 @@
 {
-  "catalogVersion": "0.0.190",
-  "updatedAt": "2026-10-28T06:50:10.247Z",
+  "catalogVersion": "0.0.191",
+  "updatedAt": "2026-10-28T18:50:15.130Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-4c467c18b392a33a2c110672",
+      "title": "영국, 소득세 과세 구간·상한 3년 추가 동결 발표",
+      "titleTranslations": {
+        "en": "UK freezes tax thresholds for three more years"
+      },
+      "startAt": "2026-10-28T18:12:24.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도에 따르면 세금 과세 시작점과 고율 과세 구간의 기준이 향후 3년간 동결되며, 정부는 이를 통해 재정 목표와 정책을 조정하려 한다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Reports say the UK government will freeze the income‑tax thresholds — including the points at which people start paying tax and move into higher rates — for three more years as part of fiscal policy measures."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/clydn7r5pn1o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/clydn7r5pn1o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-28T18:12:24.000Z",
+        "lastObservedAt": "2026-10-28T18:50:15.129Z"
+      }
+    },
+    {
+      "id": "news-24350fb4261b73b28af1c39f",
+      "title": "연준, 중간선거 직전 기준금리 동결",
+      "titleTranslations": {
+        "en": "Federal Reserve holds interest rates steady ahead of midterms"
+      },
+      "startAt": "2026-10-28T18:07:23.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도에 따르면 미 연방준비제도이사회는 중간선거에 앞선 마지막 회의에서 금리를 동결했다. 12명 위원 중 2명이 동결에 반대하며 0.25%포인트 인상을 선호했다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "The U.S. Federal Reserve left interest rates unchanged at its final meeting before the midterm elections; two of 12 board members dissented, preferring a quarter‑point increase."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms"
+        ],
+        "firstPublishedAt": "2026-10-28T18:07:23.000Z",
+        "lastObservedAt": "2026-10-28T18:50:15.129Z"
+      }
+    },
+    {
+      "id": "news-bbd99f7580a24ef6e93606af",
+      "title": "감독 피터 메닥 별세, 향년 88",
+      "titleTranslations": {
+        "en": "Film director Peter Medak dies aged 88"
+      },
+      "startAt": "2026-10-28T17:43:26.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "보도는 피터 메닥 감독이 로스앤젤레스에서 향년 88세로 사망했다고 가족의 발표를 인용해 전했다. 메닥은 The Changeling, The Krays 등 다양한 작품을 연출했다.",
+      "descriptionTranslations": {
+        "en": "Reports cite the family announcing that director Peter Medak has died in Los Angeles at age 88. Medak directed films including The Changeling and The Krays."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/film/2026/oct/28/peter-medak-veteran-director-of-the-krays-and-the-changeling-dies-aged-88",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/film/2026/oct/28/peter-medak-veteran-director-of-the-krays-and-the-changeling-dies-aged-88"
+        ],
+        "firstPublishedAt": "2026-10-28T17:43:26.000Z",
+        "lastObservedAt": "2026-10-28T18:50:15.129Z"
+      }
+    },
+    {
+      "id": "news-dc7790b3a03a16cfe3a5e172",
+      "title": "구글, 제미니·서치를 더 많은 앱에 연결하는 개발자 플랫폼 공개",
+      "titleTranslations": {
+        "en": "Google opens Gemini and Search to more apps via new developer platform"
+      },
+      "startAt": "2026-10-28T17:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "보도는 구글이 기업들이 자사 서비스를 구글의 AI 경험에 통합할 수 있게 하는 개발자 플랫폼을 발표했으며, 이는 소비자가 앱을 발견·이용하는 방식에 변화를 일으킬 수 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Google launched a developer platform that lets businesses integrate their services into Google's Gemini and Search AI experiences — a move that could change how consumers discover and use apps."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
+        ],
+        "firstPublishedAt": "2026-10-28T17:00:00.000Z",
+        "lastObservedAt": "2026-10-28T18:50:15.129Z"
+      }
+    },
+    {
+      "id": "news-21259562a429c62e16554286",
+      "title": "부분 개표: 네타냐후 연합 선두지만 과반수 확보 실패",
+      "titleTranslations": {
+        "en": "Partial results: Netanyahu's bloc leads but falls short of majority"
+      },
+      "startAt": "2026-10-28T16:59:47.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "개표율 85% 기준 보도에 따르면 베냐민 네타냐후의 리쿠드당과 우파 동맹이 총 120석 중 53석을 확보할 것으로 보이며, 과반수에는 미달한 상태다.",
+      "descriptionTranslations": {
+        "en": "With 85% of ballots counted, reports show Benjamin Netanyahu's Likud party and its right‑wing allies are projected to win 53 of 120 Knesset seats, short of an outright majority."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
+          "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
+          "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
+        "lastObservedAt": "2026-10-28T18:50:15.129Z"
+      }
+    },
+    {
+      "id": "news-dcf344de086bdca3e43864ed",
+      "title": "이란 감독 자파르 파나히에 새 형량 선고·자산 압류",
+      "titleTranslations": {
+        "en": "Iranian filmmaker Jafar Panahi given new prison sentence and asset seizure"
+      },
+      "startAt": "2026-10-28T16:56:10.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 3,
+      "description": "보도에 따르면 법원은 자파르 파나히에게 5년 1개월의 징역형을 선고하고 모든 자산을 압류하도록 명령했으며, 여행 금지와 소셜미디어 사용 금지 조치도 부과됐다.",
+      "descriptionTranslations": {
+        "en": "Reports say an Iranian court sentenced award‑winning director Jafar Panahi to five years and one month in prison, ordered the seizure of his assets, and imposed travel and social‑media bans."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/film/2026/oct/28/iran-film-maker-jafar-panahi-new-prison-sentence-assets-seized",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/film/2026/oct/28/iran-film-maker-jafar-panahi-new-prison-sentence-assets-seized"
+        ],
+        "firstPublishedAt": "2026-10-28T16:56:10.000Z",
+        "lastObservedAt": "2026-10-28T18:50:15.129Z"
+      }
+    },
+    {
+      "id": "news-64d1caf6b34e6ea87b274387",
+      "title": "NASA, 2026년 시민과학 제안 19건 선정",
+      "titleTranslations": {
+        "en": "NASA selects 19 new citizen‑science proposals for 2026"
+      },
+      "startAt": "2026-10-28T16:25:29.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "보도는 NASA가 2026년 시민과학 제안 19건을 선정했다고 발표했으며, 자원봉사자 참여가 우주과학 연구에 계속 기여하고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "NASA announced it selected 19 new citizen‑science proposals in 2026, highlighting the continued role of volunteers in contributing to agency science efforts."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/"
+        ],
+        "firstPublishedAt": "2026-10-28T16:25:29.000Z",
+        "lastObservedAt": "2026-10-28T18:50:15.129Z"
+      }
+    },
+    {
+      "id": "news-8ca2f0d9390b6938593a40f5",
+      "title": "웹브(다음세대 망원경), 대마젤란 성운의 격렬한 별 탄생 지역 N159 이미지 공개",
+      "titleTranslations": {
+        "en": "Webb releases image of turbulent star‑forming region N159 in the Large Magellanic Cloud"
+      },
+      "startAt": "2026-10-28T15:33:10.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA는 웹브가 161,000광년 떨어진 대마젤란 은하 주변의 N159 지역에서 빽빽한 기체 덩어리로 채워진 격렬한 별 형성 장면을 포착한 이미지를 공개했다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "NASA released a Webb image showing a turbulent cauldron of star formation — dense clumps of gas — in region N159, located about 161,000 light‑years away in the Large Magellanic Cloud."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/"
+        ],
+        "firstPublishedAt": "2026-10-28T15:33:10.000Z",
+        "lastObservedAt": "2026-10-28T18:50:15.129Z"
+      }
+    },
+    {
+      "id": "news-49c28743b6578f5f9bb3f532",
+      "title": "이집트, 독립매체 마다 마스르 편집장 리나 아탈라 벌금·매체 폐쇄 명령",
+      "titleTranslations": {
+        "en": "Egypt fines Mada Masr editor Lina Attalah and orders outlet closed"
+      },
+      "startAt": "2026-10-28T14:16:24.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "카이로 법원은 리나 아탈라를 '무면허 웹사이트 운영' 혐의로 유죄 판결하고 일시 구금된 뒤 벌금과 매체 폐쇄 명령을 내렸다. 이번 조치는 독립언론에 대한 단속이 심화된다는 국제적 우려를 불렀다.",
+      "descriptionTranslations": {
+        "en": "A Cairo court convicted Lina Attalah of managing an unlicensed website, briefly detained her, and ordered fines and the closure of Mada Masr — a move that has raised international concerns about a tightening clampdown on independent media."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown"
+        ],
+        "firstPublishedAt": "2026-10-28T14:16:24.000Z",
+        "lastObservedAt": "2026-10-28T18:50:15.129Z"
+      }
+    },
     {
       "id": "news-4446d7ab28b5c10bdeeb8863",
       "title": "플라비우 보우소나루, 대선 패배 뒤 브라질 떠나 미국 향한 것으로 보도",
@@ -87,36 +343,6 @@
           "https://www.theguardian.com/us-news/video/2026/oct/27/aerial-video-shows-california-flooding-amid-record-breaking-tides-video"
         ],
         "firstPublishedAt": "2026-10-27T21:55:44.000Z",
-        "lastObservedAt": "2026-10-28T06:50:10.247Z"
-      }
-    },
-    {
-      "id": "news-21259562a429c62e16554286",
-      "title": "이스라엘 투표율 20년 만의 최고치…네타냐후 초접전 선거 직면",
-      "titleTranslations": {
-        "en": "Israel records highest turnout in over two decades as Netanyahu faces a tight election"
-      },
-      "startAt": "2026-10-27T20:45:39.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 이스라엘의 총선 투표율이 20년 만에 최고 수준으로 치솟았다. 보도는 유권자들이 긴장된 분위기 속에서 투표에 참여했으며, 베냐민 네타냐후의 극우 연정 유지 여부를 놓고 초접전 양상이 전개되고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "NPR reports that Israel saw its highest voter turnout in over two decades. Coverage says voters cast ballots in a tense atmosphere as the country faces a closely contested election over whether to keep Benjamin Netanyahu’s far‑right coalition in power."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
-          "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections"
-        ],
-        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
         "lastObservedAt": "2026-10-28T06:50:10.247Z"
       }
     },
@@ -1556,34 +1782,6 @@
       }
     },
     {
-      "id": "news-d2f08bc4bcc7ea7f197cb149",
-      "title": "영국 첫 주택 구입 지원 제도 소득 상한 최대 £140,000 제시",
-      "titleTranslations": {
-        "en": "Earnings limit of up to £140K set for first‑time buyers loan scheme"
-      },
-      "startAt": "2026-10-23T11:48:04.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "잉글랜드의 신축 주택을 대상으로 한 정부 보증 대출 'Your First Home' 제도에 대해 소득 상한선이 최대 연 £140,000로 설정된다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "The government‑backed 'Your First Home' loan scheme for new‑builds in England will set an earnings cap of up to £140,000, reporting says."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-23T11:48:04.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
-      }
-    },
-    {
       "id": "news-d8c2497a7a86b63bd8950c2b",
       "title": "개인맞춤형 암 백신, 재발·사망 위험 42% 감소 — 주요 임상 결과(업데이트)",
       "titleTranslations": {
@@ -1844,123 +2042,6 @@
       }
     },
     {
-      "id": "news-27738afdc0f1e05588811ddb",
-      "title": "엘론 머스크, 데이비드 엘리슨의 스카이댄스에 약 10억달러 투자 보도",
-      "titleTranslations": {
-        "en": "Elon Musk reportedly invests $1bn in David Ellison’s Skydance"
-      },
-      "startAt": "2026-10-22T21:23:39.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도에 따르면 엘론 머스크가 데이비드 엘리슨이 이끄는 미디어 기업 스카이댄스에 약 10억달러를 투자한 것으로 전해졌다. 이 투자는 다른 기존 투자자들의 추가 지분 투입과 함께 이뤄진다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Reports say Elon Musk has invested approximately $1bn in Skydance, the media company led by David Ellison. The investment reportedly accompanies fresh equity infusions from existing investors."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment"
-        ],
-        "firstPublishedAt": "2026-10-22T21:23:39.000Z",
-        "lastObservedAt": "2026-10-23T06:00:48.524Z"
-      }
-    },
-    {
-      "id": "news-2f964328fd1393fd1cb39ec9",
-      "title": "메타, 뉴멕시코가 다주 합의에 불참하자 250억달러 벌금 판결에 항소 계획(업데이트)",
-      "titleTranslations": {
-        "en": "Meta to appeal $25bn fine after New Mexico refused to join multistate settlement (update)"
-      },
-      "startAt": "2026-10-22T17:04:31.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Ars Technica는 뉴멕시코 주가 다주 합의에 참여하지 않으면서 메타에 부과된 250억달러 규모의 벌금 판결이 내려졌고, 메타가 이 판결에 항소할 계획이라고 보도했다. 보도는 이 벌금이 저커버그에 대해 부과된 최대 규모라고 전했다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that New Mexico’s refusal to join a multistate settlement led to a $25bn fine being imposed on Meta, and that Meta intends to appeal the ruling. The coverage says it is the largest fine imposed in relation to Mark Zuckerberg."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/",
-      "topicIds": [
-        "economyFinance",
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
-          "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/"
-        ],
-        "firstPublishedAt": "2026-10-21T21:49:07.000Z",
-        "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
-      "id": "news-209857475b34bfca03ec7c5b",
-      "title": "치리카후아(Chiricahua) 바위 군집, 미국의 새 국립공원으로 지정",
-      "titleTranslations": {
-        "en": "Chiricahua’s rock spires designated as a new US national park"
-      },
-      "startAt": "2026-10-22T12:08:40.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "의회 통과와 대통령 서명으로 사우스이스트 애리조나의 유명한 거대 기암군 ‘치리카후아’가 미국의 64번째 국립공원으로 지정됐다. 법안은 의회에서 초당적 지지를 받고 대통령이 서명해 공원 지위가 확정됐다.",
-      "descriptionTranslations": {
-        "en": "Legislation creating a national park for the towering rock spires of Chiricahua in southeastern Arizona has been passed by Congress and signed by the President, making it the United States’ 64th national park; the bill had bipartisan support."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/22/chiricahua-monument-arizona-new-national-park",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/22/chiricahua-monument-arizona-new-national-park"
-        ],
-        "firstPublishedAt": "2026-10-22T12:08:40.000Z",
-        "lastObservedAt": "2026-10-23T06:00:48.524Z"
-      }
-    },
-    {
-      "id": "news-b38537a24a362208de4bc1ff",
-      "title": "미·이스라엘, 선거 후 이란 공격 가능성 검토 보도",
-      "titleTranslations": {
-        "en": "U.S. and Israel reportedly preparing for possible post‑election strike on Iran"
-      },
-      "startAt": "2026-10-22T11:28:24.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR는 익명의 소식통을 인용해 미국과 이스라엘이 중간선거 이후 이란에 대한 가능한 군사행동을 계획하고 있다고 보도했다. 보도는 사안이 검토 단계임을 전했다.",
-      "descriptionTranslations": {
-        "en": "NPR, citing an anonymous source, reports that the United States and Israel are preparing for a possible military action against Iran after the midterm elections. The reporting says the plans are at a planning stage."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla"
-        ],
-        "firstPublishedAt": "2026-10-22T11:28:24.000Z",
-        "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
       "id": "news-7e7b341d271497a8ccb486dd",
       "title": "UK 시티 오브 컬처 2029 후보지 4곳 확정 — 블랙풀·셰필드·밀턴케인스·렉섬",
       "titleTranslations": {
@@ -2075,34 +2156,6 @@
       }
     },
     {
-      "id": "news-b4310e6ca41665911096bbed",
-      "title": "퍼서비어런스, 지구 밖 최장 주행 기록 경신—주행거리 45.22km 도달",
-      "titleTranslations": {
-        "en": "Tracks Along the Longest Drive on Another World"
-      },
-      "startAt": "2026-10-21T15:50:44.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 퍼서비어런스가 솔 2006(2026‑10‑11)에 주행계가 45.22km(28.10마일)를 기록하며 다른 천체에서의 최장 주행 기록을 세웠다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "NASA says its Perseverance rover reached an odometer reading of 45.22 kilometres (28.10 miles) on Sol 2006 (Oct. 11, 2026), setting a new record for the farthest distance driven on another world."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/"
-        ],
-        "firstPublishedAt": "2026-10-21T15:50:44.000Z",
-        "lastObservedAt": "2026-10-21T18:00:41.904Z"
-      }
-    },
-    {
       "id": "news-a81619fcbafafbb9e5e7a90e",
       "title": "챔피언스리그, 이번 시즌 최다 득점 신기록 수립",
       "titleTranslations": {
@@ -2127,34 +2180,6 @@
           "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-20T23:03:11.000Z",
-        "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
-      "id": "news-ec7a3b45638121f8120d77cb",
-      "title": "NASA, 텍사스 농지 상공에서 온실가스·입자 배출 측정 위한 저고도 연구비행 실시",
-      "titleTranslations": {
-        "en": "NASA to conduct low‑altitude flights over Texas farmland"
-      },
-      "startAt": "2026-10-20T20:21:36.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 다이내믹 항공의 A200 기체를 이용해 텍사스 애마릴로 인근 농지 상공에서 10월 22일부터 11월 9일까지 저고도 연구비행을 실시해 기체 및 입자상 배출을 측정할 예정이라고 밝혔다(기사 업데이트 포함).",
-      "descriptionTranslations": {
-        "en": "NASA said a Dynamic Aviation A200 aircraft will conduct low‑flying research flights over farmland near Amarillo, Texas, from Oct. 22 through Nov. 9 to measure gaseous and particulate emissions, the agency announced (article updated to correct locations)."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/"
-        ],
-        "firstPublishedAt": "2026-10-20T20:21:36.000Z",
         "lastObservedAt": "2026-10-21T05:59:40.712Z"
       }
     },
@@ -2247,34 +2272,6 @@
         ],
         "firstPublishedAt": "2026-10-18T08:11:55.000Z",
         "lastObservedAt": "2026-10-20T17:58:33.160Z"
-      }
-    },
-    {
-      "id": "news-0d938f5ec690dc72af384a6c",
-      "title": "'You Can See Everything' 다큐, 비밀스런 연출로 흥행·수상권 논의 촉발",
-      "titleTranslations": {
-        "en": "Secrets, lies and a shock A‑list cameo: how You Can See Everything became the film of the year"
-      },
-      "startAt": "2026-10-19T16:17:48.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "네이선 필더가 공동 연출한 엘리자베스 홈즈 다큐멘터리 'You Can See Everything'가 스포일러를 엄격히 통제한 채 매진을 기록하며 흥행과 시상식 가능성까지 언급되는 성공을 거뒀다고 보도됐다. 보도는 영화의 특정 장면과 연출 방식이 논란과 관심을 동시에 불러일으켰다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Nathan Fielder‑co‑directed documentary 'You Can See Everything' about Elizabeth Holmes has become a sold‑out hit and is being discussed as a potential awards contender; reporting notes the film’s secretive presentation and particular directorial moments have provoked both controversy and attention."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/film/2026/oct/19/you-can-see-everything-movie-spoilers-success",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/film/2026/oct/19/you-can-see-everything-movie-spoilers-success"
-        ],
-        "firstPublishedAt": "2026-10-19T16:17:48.000Z",
-        "lastObservedAt": "2026-10-20T05:59:08.234Z"
       }
     },
     {
