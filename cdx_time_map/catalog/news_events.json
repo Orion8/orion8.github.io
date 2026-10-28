@@ -1,8 +1,125 @@
 {
-  "catalogVersion": "0.0.189",
-  "updatedAt": "2026-10-27T18:40:30.181Z",
+  "catalogVersion": "0.0.190",
+  "updatedAt": "2026-10-28T06:50:10.247Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-4446d7ab28b5c10bdeeb8863",
+      "title": "플라비우 보우소나루, 대선 패배 뒤 브라질 떠나 미국 향한 것으로 보도",
+      "titleTranslations": {
+        "en": "Flávio Bolsonaro reportedly flees Brazil for the US after election loss"
+      },
+      "startAt": "2026-10-28T06:36:14.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 극우 상원의원 플라비우 보우소나루가 일요일 대선 결선에서 좌파 현직 대통령 루이스 이나시우 루라 다 실바에게 패한 뒤 브라질을 떠나 미국으로 향하고 있다고 전해졌다. 보도는 보우소나루와 가족이 국경을 넘어 아르헨티나로 이동한 뒤 에콰도르행 개인 전세기에 탑승했다는 점을 인용했으며, 일부 보도는 이 전세기가 미국으로 향하고 있다고 전했다. 루라는 이 같은 행위를 '수치스러운 일'이라고 비판했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that far‑right senator Flávio Bolsonaro has reportedly left Brazil and is heading to the United States after losing the presidential runoff to left‑wing incumbent Luiz Inácio Lula da Silva. Coverage cites reports that he and his family crossed into Argentina and boarded a private plane bound for Ecuador, and that some outlets say the aircraft was en route to the US. Lula called the act 'shameful.'"
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+          "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+          "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled"
+        ],
+        "firstPublishedAt": "2026-10-25T14:41:17.000Z",
+        "lastObservedAt": "2026-10-28T06:50:10.247Z"
+      }
+    },
+    {
+      "id": "news-5c9f738eec108f93bacd0368",
+      "title": "트럼프, 바이든 시대 메탄 배출 규정 '종료' 발표",
+      "titleTranslations": {
+        "en": "Trump announces termination of Biden‑era methane emissions rules"
+      },
+      "startAt": "2026-10-28T01:45:27.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "가디언 환경 보도에 따르면 도널드 트럼프 대통령은 텍사스 루보크 집회에서 생산·소비자 비용 절감과 석유·가스 업계 지원을 이유로 바이든 행정부의 대규모 메탄 누출 규제를 '종료'하겠다고 선언했다. 그는 이 조치가 기업과 소비자에 450억 달러의 절감과 2억1000만 배럴의 석유를 해방할 것이라고 주장했으며, 비평가들은 기후에 미칠 위험을 경고했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that President Donald Trump announced at a rally in Lubbock, Texas, that his administration is terminating Biden‑era regulations that hold oil and gas companies accountable for large methane leaks. He said the change would save companies and consumers $45bn and 'unlock' 210 million barrels of oil; critics warned of the climate risks posed by rolling back the rules."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas"
+        ],
+        "firstPublishedAt": "2026-10-28T01:45:27.000Z",
+        "lastObservedAt": "2026-10-28T06:50:10.247Z"
+      }
+    },
+    {
+      "id": "news-90cb8501592e8648d3c543a3",
+      "title": "가디언 항공영상: '기록적 조위' 예보 속 캘리포니아 해안 침수 장면 공개",
+      "titleTranslations": {
+        "en": "Guardian aerial video shows California flooding amid forecast of 'record‑breaking tides'"
+      },
+      "startAt": "2026-10-27T21:55:44.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언 환경 보도는 캘리포니아 해안 지역이 수일간의 '기록적 조위' 가능성으로 침수 위험에 직면해 있으며, 여러 연안 공동체가 며칠간의 홍수에 대비 중이라고 전했다. 영상은 물이 빠르게 차오르는 장면을 담았으며 당국과 주민들이 피해에 대비하는 모습을 보여준다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that coastal communities across California are preparing for days of flooding amid forecasts of potentially 'record‑breaking tides.' An aerial video shows rising water levels and communities bracing for inundation as authorities and residents make preparations."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/video/2026/oct/27/aerial-video-shows-california-flooding-amid-record-breaking-tides-video",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/video/2026/oct/27/aerial-video-shows-california-flooding-amid-record-breaking-tides-video"
+        ],
+        "firstPublishedAt": "2026-10-27T21:55:44.000Z",
+        "lastObservedAt": "2026-10-28T06:50:10.247Z"
+      }
+    },
+    {
+      "id": "news-21259562a429c62e16554286",
+      "title": "이스라엘 투표율 20년 만의 최고치…네타냐후 초접전 선거 직면",
+      "titleTranslations": {
+        "en": "Israel records highest turnout in over two decades as Netanyahu faces a tight election"
+      },
+      "startAt": "2026-10-27T20:45:39.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 이스라엘의 총선 투표율이 20년 만에 최고 수준으로 치솟았다. 보도는 유권자들이 긴장된 분위기 속에서 투표에 참여했으며, 베냐민 네타냐후의 극우 연정 유지 여부를 놓고 초접전 양상이 전개되고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "NPR reports that Israel saw its highest voter turnout in over two decades. Coverage says voters cast ballots in a tense atmosphere as the country faces a closely contested election over whether to keep Benjamin Netanyahu’s far‑right coalition in power."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
+          "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections"
+        ],
+        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
+        "lastObservedAt": "2026-10-28T06:50:10.247Z"
+      }
+    },
     {
       "id": "news-72a2d33b808a214be974bc22",
       "title": "노르웨이·핀란드 정상, 푸틴과 드문 전화 회담 개최",
@@ -376,36 +493,6 @@
       }
     },
     {
-      "id": "news-4446d7ab28b5c10bdeeb8863",
-      "title": "루라, 드라마틱한 역전으로 네 번째 대통령 임기 획득",
-      "titleTranslations": {
-        "en": "Lula wins fourth term in dramatic election comeback"
-      },
-      "startAt": "2026-10-26T18:26:19.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "좌파 현직 대통령 루이스 이나시우 루라 다 실바가 결선에서 극우 도전자 플라비우 보우소나루를 꺾고 네 번째 대통령 임기를 확보했다고 BBC가 보도했다. 보도는 루라가 1차 투표에서 패한 뒤 결선에서 역전승을 거뒀다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC reports that left‑wing incumbent Luiz Inácio Lula da Silva defeated right‑wing challenger Flávio Bolsonaro in the runoff to secure a fourth presidential term. The coverage notes Lula overturned an initial first‑round loss to win the decisive vote."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-          "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
-          "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-25T14:41:17.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
       "id": "news-4cf5d2571e45c7064a60310e",
       "title": "U‑15 월드컵 경기, 인종차별 의혹으로 중단돼 경기 포기",
       "titleTranslations": {
@@ -742,35 +829,6 @@
         ],
         "firstPublishedAt": "2026-10-25T19:02:51.000Z",
         "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
-      "id": "news-21259562a429c62e16554286",
-      "title": "수년간의 전쟁 이후 치러지는 중대한 이스라엘 총선",
-      "titleTranslations": {
-        "en": "Israel holds a consequential general election after years of war"
-      },
-      "startAt": "2026-10-25T16:00:00.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도는 2026년 선거가 2023년 10월 7일 공격 이후 이어진 전쟁과 충격에 따라 많은 유권자에게 수십 년 만의 중대 국면이라며, 전쟁을 거치며 변한 유권자들이 지도부 교체에 나설지 주목된다고 전한다.",
-      "descriptionTranslations": {
-        "en": "NPR reports that Israel is holding a general election after years of war and the Oct. 7, 2023 attacks, describing it as one of the most consequential votes in decades as voters — shaken by conflict — consider whether to change their leadership."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu"
-        ],
-        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
       }
     },
     {
@@ -1494,62 +1552,6 @@
           "https://www.theguardian.com/politics/2026/oct/23/andy-burnham-everyday-fixes-strategy-bus-fares-pubs-potholes-headphone-dodgers"
         ],
         "firstPublishedAt": "2026-10-23T12:26:53.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
-      }
-    },
-    {
-      "id": "news-4bb3ee66a0c59f7c7a2082e0",
-      "title": "미 서부, 1960년대 이래 거의 300개 빙하 소실 — 기후 위기로 축소 가속",
-      "titleTranslations": {
-        "en": "US West has lost nearly 300 glaciers since the 1960s as climate crisis shrinks what’s left"
-      },
-      "startAt": "2026-10-23T12:00:26.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "새 연구에 따르면 1960년대 중반 이후 미 서부 지역에서 약 300개의 빙하가 사라졌고 남은 빙하들도 급격히 축소되고 있다. 보도는 이로 인해 물 공급과 생태계에 장기적 영향이 우려된다고 전한다.",
-      "descriptionTranslations": {
-        "en": "A new study finds that nearly 300 glaciers in the US West have disappeared since the 1960s and remaining glaciers are shrinking rapidly. Reporting warns of long‑term impacts on water supplies and ecosystems."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/ng-interactive/2026/oct/23/glacier-loss-climate-crisis-west",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/ng-interactive/2026/oct/23/glacier-loss-climate-crisis-west"
-        ],
-        "firstPublishedAt": "2026-10-23T12:00:26.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
-      }
-    },
-    {
-      "id": "news-564659a5fdbe389d735d0c71",
-      "title": "EPA의 아트라진 대응 부족 주장한 소송 제기",
-      "titleTranslations": {
-        "en": "Lawsuit alleges EPA failed to tackle cancer‑linked pesticide pollution"
-      },
-      "startAt": "2026-10-23T12:00:26.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "환경단체의 소송은 EPA가 수십 년간 클린워터법에 따른 아트라진(호르몬 교란 농약) 오염 대응을 소홀히 해왔다고 주장하며 연방 법원에 시정 명령을 요청했다. 보도는 관련 화학물이 넓은 수계에 오염을 일으켰다고 전한다.",
-      "descriptionTranslations": {
-        "en": "A lawsuit alleges the EPA has long failed to address atrazine pollution under the Clean Water Act and asks a federal judge to order corrective action. Reporting says the chemical has contaminated large stretches of US waterways."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/23/lawsuit-atrazine-pesticide-cancer-epa",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/23/lawsuit-atrazine-pesticide-cancer-epa"
-        ],
-        "firstPublishedAt": "2026-10-23T12:00:26.000Z",
         "lastObservedAt": "2026-10-23T17:53:07.944Z"
       }
     },
