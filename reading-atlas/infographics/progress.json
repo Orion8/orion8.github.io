@@ -2753,6 +2753,30 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 54,
+      "id": 52,
+      "title": "Scale",
+      "koreanTitle": "스케일: 생물·도시·기업의 성장과 죽음에 관한 보편 법칙",
+      "status": "assets-complete-public-verification-pending",
+      "koreanImage": "scale-v3-integrated-ko.webp",
+      "englishImage": "scale-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-28",
+      "sourceNotes": "sources/scale-v3-integrated.md",
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/314049/scale-by-geoffrey-west/",
+        "https://www.santafe.edu/news-center/news/geoffrey-wests-long-anticipated-book-scale-emerges",
+        "https://www.santafe.edu/research/themes/laws-life",
+        "https://www.santafe.edu/people/profile/geoffrey-west",
+        "https://www.yes24.com/Product/Goods/62791330"
+      ]
+    }
   }
 }
