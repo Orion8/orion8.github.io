@@ -520,7 +520,7 @@
         "en": "A visual countdown timer with a serpentine liquid chamber and Web Audio alerts."
       },
       "repo": "https://github.com/Orion8/orion8.github.io/tree/main/timer",
-      "demo": "https://orion8.github.io/timer/index.html",
+      "demo": "https://orion8.github.io/cdx_timer/",
       "thumbnail": null,
       "video": null,
       "source": "https://github.com/Orion8/orion8.github.io/blob/main/index.html"
