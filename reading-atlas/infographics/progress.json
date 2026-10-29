@@ -3005,6 +3005,31 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 58,
+      "id": 56,
+      "title": "Behave",
+      "koreanTitle": "행동",
+      "status": "content-verified-art-generation-pending",
+      "koreanImage": "behave-v3-integrated-ko.webp",
+      "englishImage": "behave-v3-integrated-en.webp",
+      "koreanComplete": false,
+      "englishComplete": false,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-28",
+      "sourceNotes": "sources/behave-v3-integrated.md",
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/311787/behave-by-robert-m-sapolsky/9780735222786/",
+        "https://books.google.com/books/about/Behave.html?id=WN5TDwAAQBAJ",
+        "https://www.ncbi.nlm.nih.gov/nlmcatalog/101708050",
+        "https://news.stanford.edu/stories/2017/05/biologist-robert-sapolsky-takes-human-behavior-free-will",
+        "https://iranian-studies.stanford.edu/events/science-society-events/robert-sapolsky-biology-humans-our-best-and-worst",
+        "https://www.yes24.com/Product/Goods/123757907"
+      ]
+    }
   }
 }
