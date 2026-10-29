@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 60,
+    "completedCount": 61,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3166,33 +3166,45 @@
           "englishMobile": "390x585",
           "checkedOn": "2026-10-29"
         }
+      },
+      {
+        "sequence": 61,
+        "id": 59,
+        "title": "The Evolution of Cooperation",
+        "koreanTitle": "협력의 진화",
+        "koreanImage": "the-evolution-of-cooperation-v3-integrated-ko.webp",
+        "englishImage": "the-evolution-of-cooperation-v3-integrated-en.webp",
+        "koreanPreview": "../previews/the-evolution-of-cooperation-v3-integrated-ko-mobile.webp",
+        "englishPreview": "../previews/the-evolution-of-cooperation-v3-integrated-en-mobile.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "completedOn": "2026-10-29",
+        "sourceNotes": "sources/the-evolution-of-cooperation-v3-integrated.md",
+        "sources": [
+          "https://www.hachettebookgroup.com/titles/robert-axelrod/the-evolution-of-cooperation/9781541606845/",
+          "https://public.websites.umich.edu/~axe/CC/ECHome.html",
+          "https://public.websites.umich.edu/~axe/research/ECCitationClassic.htm",
+          "https://pubmed.ncbi.nlm.nih.gov/7466396/",
+          "https://fordschool.umich.edu/news/2019/robert-axelrod-evolution-cooperation",
+          "https://www.yes24.com/product/Goods/3546521"
+        ],
+        "publicBrowserChecks": {
+          "koreanCardHref": "infographics/the-evolution-of-cooperation-v3-integrated-ko.webp",
+          "englishCardHref": "infographics/the-evolution-of-cooperation-v3-integrated-en.webp",
+          "koreanOriginal": "1024x1536",
+          "englishOriginal": "1024x1536",
+          "koreanMobile": "390x585",
+          "englishMobile": "390x585",
+          "checkedOn": "2026-10-29"
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 61,
-      "id": 59,
-      "title": "The Evolution of Cooperation",
-      "koreanTitle": "협력의 진화",
-      "status": "content-verified-art-generation-pending",
-      "koreanImage": "the-evolution-of-cooperation-v3-integrated-ko.webp",
-      "englishImage": "the-evolution-of-cooperation-v3-integrated-en.webp",
-      "koreanComplete": false,
-      "englishComplete": false,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-29",
-      "sourceNotes": "sources/the-evolution-of-cooperation-v3-integrated.md",
-      "sources": [
-        "https://www.hachettebookgroup.com/titles/robert-axelrod/the-evolution-of-cooperation/9781541606845/",
-        "https://public.websites.umich.edu/~axe/CC/ECHome.html",
-        "https://public.websites.umich.edu/~axe/research/ECCitationClassic.htm",
-        "https://pubmed.ncbi.nlm.nih.gov/7466396/",
-        "https://fordschool.umich.edu/news/2019/robert-axelrod-evolution-cooperation",
-        "https://www.yes24.com/product/Goods/3546521"
-      ]
-    }
+    "inProgress": null
   }
 }
