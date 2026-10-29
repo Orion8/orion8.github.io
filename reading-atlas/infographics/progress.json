@@ -3068,6 +3068,31 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 59,
+      "id": 57,
+      "title": "Influence",
+      "koreanTitle": "설득의 심리학 1",
+      "status": "content-verified-art-generation-pending",
+      "koreanImage": "influence-v3-integrated-ko.webp",
+      "englishImage": "influence-v3-integrated-en.webp",
+      "koreanComplete": false,
+      "englishComplete": false,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-29",
+      "sourceNotes": "sources/influence-v3-integrated.md",
+      "sources": [
+        "https://www.influenceatwork.com/books-and-publications/",
+        "https://cialdini.com/principles",
+        "https://cialdini.com/our-team/robert-cialdini",
+        "https://books.google.com/books/about/Influence_New_and_Expanded.html?id=4uf8DwAAQBAJ",
+        "https://www.psychologicalscience.org/observer/universal-principles-of-influence",
+        "https://www.yes24.com/product/goods/118483018"
+      ]
+    }
   }
 }
