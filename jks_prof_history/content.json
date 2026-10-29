@@ -541,23 +541,6 @@
       "thumbnail": null,
       "video": null,
       "source": "https://github.com/Orion8/orion8.github.io/blob/main/index.html"
-    },
-    {
-      "id": "history",
-      "title": "Pattern in History",
-      "category": {
-        "ko": "시각적 탐구",
-        "en": "Visual explorations"
-      },
-      "description": {
-        "ko": "역사 속 패턴과 흐름, 집단행동의 역학을 살펴보는 인포그래픽.",
-        "en": "An infographic exploring patterns, trends, and group behavior dynamics throughout history."
-      },
-      "repo": "https://github.com/Orion8/orion8.github.io/blob/main/group_behavior_in_history.html",
-      "demo": "https://orion8.github.io/group_behavior_in_history.html",
-      "thumbnail": null,
-      "video": null,
-      "source": "https://github.com/Orion8/orion8.github.io/blob/main/index.html"
     }
   ],
   "education": [
