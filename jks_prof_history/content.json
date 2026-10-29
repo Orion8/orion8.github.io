@@ -1,0 +1,562 @@
+{
+  "profile": {
+    "github": "https://github.com/Orion8",
+    "name": "Keeseok Jeong",
+    "role": {
+      "ko": "게임 · MR 소프트웨어 엔지니어",
+      "en": "Game & MR Software Engineer"
+    },
+    "summary": {
+      "ko": "콘솔에서 PC·모바일 게임, 그리고 Mixed Reality까지. 캐릭터의 움직임, 전투 시스템, NPC 대화와 물리 시뮬레이션으로 인터랙티브한 세계를 만들어 왔습니다.",
+      "en": "From console, PC, and mobile games to mixed reality, I have built interactive worlds through character behavior, combat systems, NPC dialogue, and physics simulation."
+    },
+    "email": "jeong.keeseok@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/keeseok-jeong",
+    "skills": [
+      "Unity",
+      "Unreal Engine 3",
+      "C#",
+      "C++",
+      "C",
+      "HLSL",
+      "MR / VR",
+      "Android / iOS",
+      "PC / Console"
+    ],
+    "source": "Resume_2024_Keeseok_1.pdf, p. 1"
+  },
+  "career": [
+    {
+      "date": "1996-08",
+      "end": "1999",
+      "title": {
+        "ko": "SOAR SOFTWARE",
+        "en": "SOAR SOFTWARE"
+      },
+      "role": {
+        "ko": "소프트웨어 엔지니어",
+        "en": "Software Engineer"
+      },
+      "location": {
+        "ko": "미국 샌프란시스코",
+        "en": "San Francisco, California"
+      },
+      "description": {
+        "ko": "PlayStation 낚시 게임에서 낚싯줄과 물, 보트와 물고기가 움직이는 세계를 구현했습니다.",
+        "en": "Built the world of a PlayStation fishing game: fishing lines, water, boats, and fish behavior."
+      },
+      "projects": [
+        "Black Bass with Blue Marlin · PlayStation"
+      ],
+      "details": [
+        {
+          "ko": "낚싯대의 휨·진동, 낚싯줄 물리, 보트 조작·동역학과 청새치 행동 구현.",
+          "en": "Implemented rod bending and vibration, fishing-line physics, boat controls and dynamics, and marlin behavior."
+        },
+        {
+          "ko": "호수 지형·수면 반사·환경 밉매핑, 수중·하늘 배경과 카메라 제어 구현.",
+          "en": "Built lake geometry, water reflections, environment mipmapping, underwater and sky backgrounds, and camera controls."
+        },
+        {
+          "ko": "인게임 캐릭터 애니메이션 도구, 충돌 검사, FMV 재생과 HUD 구현.",
+          "en": "Developed an in-game character animation tool, collision detection, FMV playback, and HUD systems."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, p. 4; start month supplied by user"
+    },
+    {
+      "date": "1999",
+      "end": "2003",
+      "title": {
+        "ko": "THE 3DO COMPANY",
+        "en": "THE 3DO COMPANY"
+      },
+      "role": {
+        "ko": "소프트웨어 엔지니어",
+        "en": "Software Engineer"
+      },
+      "location": {
+        "ko": "미국 캘리포니아 레드우드시티",
+        "en": "Redwood City, California"
+      },
+      "description": {
+        "ko": "PlayStation과 PS2에서 전차·차량·화염·파괴 시스템을 다루며 콘솔 게임을 개발했습니다.",
+        "en": "Developed console games for PlayStation and PS2, working on tanks, vehicles, fire, and destruction."
+      },
+      "projects": [
+        "BattleTanx: Global Assault · PlayStation",
+        "Monsters · PS2",
+        "Army Men: Squad Leader · PS2",
+        "WDL: Thunder Tank"
+      ],
+      "details": [
+        {
+          "ko": "BattleTanx: 컬링, 사운드 우선순위, 레이더 HUD, 메모리 카드 파일 시스템, 5개 언어 현지화, FMV와 VRAM 사용량 뷰어 구현.",
+          "en": "BattleTanx: implemented culling, sound priorities, radar HUD, memory-card file handling, five-language localization, FMV, and a VRAM usage viewer."
+        },
+        {
+          "ko": "Monsters: 건물 붕괴·변형 최적화, 화재 확산과 그을음 효과, 건물 층 비트마스크용 PS2 어셈블리 구현.",
+          "en": "Monsters: improved collapsing buildings and damaged geometry, fire propagation and scorch effects, and PS2 assembly for building-floor bitmasks."
+        },
+        {
+          "ko": "Army Men: 차량과 Havok 물리 연동, 캐릭터·월드 충돌, 운전·포수 카메라, NPC 차량 경로 추종과 화염방사기 구현.",
+          "en": "Army Men: implemented vehicle integration with Havok, character/world collisions, driver and gunner cameras, NPC vehicle path following, and flamethrowers."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+    },
+    {
+      "date": "2003",
+      "end": "2004",
+      "title": {
+        "ko": "HANBITSOFT",
+        "en": "HANBITSOFT"
+      },
+      "role": {
+        "ko": "프로젝트 매니저",
+        "en": "Project Manager"
+      },
+      "location": {
+        "ko": "대한민국 서울",
+        "en": "Seoul, Korea"
+      },
+      "description": {
+        "ko": "Tantra V2의 아트·기획·개발·QA 조직을 조율하고 첫 버전의 문제 해결을 관리했습니다.",
+        "en": "Coordinated art, design, engineering, and QA for Tantra V2 and managed resolution of issues in its first version."
+      },
+      "projects": [
+        "Tantra V2 · PC MMORPG"
+      ],
+      "details": [
+        {
+          "ko": "프로젝트 일정·우선순위 관리, 팀 간 협업 조율과 신규 인력 채용.",
+          "en": "Managed project schedules and priorities, coordinated teams, and hired new staff."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, p. 4"
+    },
+    {
+      "date": "2004",
+      "end": "2006",
+      "title": {
+        "ko": "WINDY SOFT",
+        "en": "WINDY SOFT"
+      },
+      "role": {
+        "ko": "시니어 소프트웨어 엔지니어",
+        "en": "Senior Software Engineer"
+      },
+      "location": {
+        "ko": "대한민국 서울",
+        "en": "Seoul, Korea"
+      },
+      "description": {
+        "ko": "온라인 격투 게임 Round 2에서 엔지니어링 팀을 이끌고 액션과 물리 시스템을 구현했습니다.",
+        "en": "Led an engineering team and built action and physics systems for the online fighting game Round 2."
+      },
+      "projects": [
+        "Round 2 · 온라인 액션 / Online action"
+      ],
+      "details": [
+        {
+          "ko": "캐릭터 액션 상태와 공격 충돌, Open Dynamics Engine 기반 아이템·오브젝트 동역학 구현.",
+          "en": "Developed character action states, attack collisions, and item/object dynamics using Open Dynamics Engine."
+        },
+        {
+          "ko": "삼각형 세분화와 조각별 물리 적용을 통한 자동 파편화 시스템, 프로젝트 일정·업무 우선순위 관리.",
+          "en": "Built automatic object fragmentation with triangle subdivision and per-fragment physics; managed schedules and task priorities."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, p. 4"
+    },
+    {
+      "date": "2006",
+      "end": "2010",
+      "title": {
+        "ko": "NURIEN",
+        "en": "NURIEN"
+      },
+      "role": {
+        "ko": "테크니컬 디렉터",
+        "en": "Technical Director"
+      },
+      "location": {
+        "ko": "대한민국 서울",
+        "en": "Seoul, Korea"
+      },
+      "description": {
+        "ko": "Unreal Engine 3 기반 리듬 게임 Mstar에서 클라이언트 3개 팀을 이끌고 캐릭터·물리·네트워크 시스템을 개발했습니다.",
+        "en": "Directed three client teams for Mstar, an Unreal Engine 3 rhythm game, and developed character, physics, and network systems."
+      },
+      "projects": [
+        "Mstar · PC / Unreal Engine 3"
+      ],
+      "details": [
+        {
+          "ko": "팀 구성, 일정·우선순위, 마일스톤·패치별 소스 브랜치 계획 관리.",
+          "en": "Managed team structure, schedules, priorities, and source-branch plans for milestones and patches."
+        },
+        {
+          "ko": "무대 액션용 캐릭터 상태, PhysX 강체 기반 의상·머리카락·액세서리 움직임 구현.",
+          "en": "Developed character states for stage actions and cloth, hair, and accessory movement using PhysX rigid bodies."
+        },
+        {
+          "ko": "플레이어 입력의 런타임 네트워크 동기화와 성능 프로파일링·병목 최적화.",
+          "en": "Managed runtime network synchronization of player inputs and profiled performance to identify optimization bottlenecks."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+    },
+    {
+      "date": "2010",
+      "end": "2011",
+      "title": {
+        "ko": "CATONLOFT (Indie)",
+        "en": "CATONLOFT (Indie)"
+      },
+      "role": {
+        "ko": "시니어 소프트웨어 엔지니어",
+        "en": "Senior Software Engineer"
+      },
+      "location": {
+        "ko": "대한민국 서울",
+        "en": "Seoul, Korea"
+      },
+      "description": {
+        "ko": "Unity 기반 iOS 인디 게임과 모바일 장치 실험을 진행했습니다.",
+        "en": "Developed Unity-based iOS indie games and explored mobile-device capabilities."
+      },
+      "projects": [
+        "InvaderZ · iOS",
+        "Bomb · iOS",
+        "Mobile device research · Unity"
+      ],
+      "details": [
+        {
+          "ko": "InvaderZ: 미사일·레이저·지뢰 등 무기, UI와 터치 조작 구현.",
+          "en": "InvaderZ: developed weapons including missiles, lasers, and mines, plus UI and touch controls."
+        },
+        {
+          "ko": "Bomb: 게임플레이 설계와 전체 게임플레이 기능 구현.",
+          "en": "Bomb: designed gameplay and implemented all gameplay functionality."
+        },
+        {
+          "ko": "iPhone 4 자이로 입력 기반 카메라 제어, 물고기 군집 행동과 수중 코스틱 조명 연구.",
+          "en": "Explored iPhone 4 gyroscope camera controls, fish schooling, and underwater caustic lighting."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 3–4"
+    },
+    {
+      "date": "2011",
+      "end": "2013",
+      "title": {
+        "ko": "Pangalore",
+        "en": "Pangalore"
+      },
+      "role": {
+        "ko": "테크니컬 디렉터",
+        "en": "Technical Director"
+      },
+      "location": {
+        "ko": "대한민국 서울",
+        "en": "Seoul, Korea"
+      },
+      "description": {
+        "ko": "농장 경영과 전투가 결합된 Knightly Adventure에서 캐릭터와 전투 시스템을 설계·구현했습니다.",
+        "en": "Designed and implemented character and combat systems for Knightly Adventure, combining farm management with action RPG gameplay."
+      },
+      "projects": [
+        "Knightly Adventure · iOS / Android / Facebook"
+      ],
+      "details": [
+        {
+          "ko": "플레이어·NPC 행동과 전투, 근접 검·화살·유도 마법탄 무기 시스템 구현.",
+          "en": "Built player and NPC behavior, combat, and melee swords, projectile arrows, and homing magic weapons."
+        },
+        {
+          "ko": "아트 요구에 따른 셰이더 개선, 연·새 같은 동적 환경 오브젝트 구현.",
+          "en": "Updated shaders for art requirements and developed dynamic environmental objects such as kites and birds."
+        },
+        {
+          "ko": "멀티플랫폼 빌드용 단일 프로젝트 버전 관리와 광고·분석 플러그인 통합.",
+          "en": "Managed a single version-controlled project for multiple platforms and integrated advertising and analytics plugins."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5"
+    },
+    {
+      "date": "2014",
+      "end": "2016",
+      "title": {
+        "ko": "Raiz",
+        "en": "Raiz"
+      },
+      "role": {
+        "ko": "시니어 소프트웨어 엔지니어",
+        "en": "Senior Software Engineer"
+      },
+      "location": {
+        "ko": "대한민국 서울",
+        "en": "Seoul, Korea"
+      },
+      "description": {
+        "ko": "Tower of God 액션 RPG의 실시간 전투 전반을 설계하고 행동 트리 기반 캐릭터 행동을 구현했습니다.",
+        "en": "Designed real-time combat for the Tower of God action RPG and implemented character behavior with behavior trees."
+      },
+      "projects": [
+        "Tower of God · Android / Unity"
+      ],
+      "details": [
+        {
+          "ko": "이동·피격·타기팅·캐릭터 유형별 피해 계산·콤보·스킬 쿨타임·보스전·PvP 구현.",
+          "en": "Built movement, hit reactions, targeting, character-dependent damage, combos, skill cooldowns, boss battles, and PvP."
+        },
+        {
+          "ko": "웨이브 스포너·트리거·목표 추적 미션, 근접·발사체·기절·패시브 스킬과 게임 데이터 테이블 설계.",
+          "en": "Developed wave spawners, triggers, mission tracking, melee/projectile/stun/passive skills, and game-property table structures."
+        },
+        {
+          "ko": "Unity Mecanim을 활용한 캐릭터 간 애니메이션 리타기팅 적용.",
+          "en": "Implemented animation retargeting across characters with Unity Mecanim."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5"
+    },
+    {
+      "date": "2016",
+      "end": "2017",
+      "title": {
+        "ko": "Huid",
+        "en": "Huid"
+      },
+      "role": {
+        "ko": "시니어 소프트웨어 엔지니어",
+        "en": "Senior Software Engineer"
+      },
+      "location": {
+        "ko": "대한민국 서울",
+        "en": "Seoul, Korea"
+      },
+      "description": {
+        "ko": "Android·Google Daydream·Oculus에서 편집 가능한 가상 공간과 음악에 반응하는 VR 프로토타입을 만들었습니다.",
+        "en": "Built editable virtual spaces and music-reactive VR prototypes for Android, Google Daydream, and Oculus."
+      },
+      "projects": [
+        "Augmented Virtuality Prototype · Android",
+        "Virtual Reality Prototype · Google Daydream",
+        "Virtual Reality Prototype · Oculus"
+      ],
+      "details": [
+        {
+          "ko": "카메라 프리뷰의 3D 공간 표시·화면 맞춤, 선택 배경색 제거와 3D 소품 생성·선택·삭제 구현.",
+          "en": "Implemented camera previews in 3D space, screen fitting, selected-background-color removal, and prop creation, selection, and deletion."
+        },
+        {
+          "ko": "런타임 편집 가능한 콘서트 무대와 배경 스크린 셰이더 구현.",
+          "en": "Built runtime-editable concert stages and background-screen shaders."
+        },
+        {
+          "ko": "음악 신호에 반응하는 조명·파티클·스포트라이트·오브젝트 이동 및 크기 변화 구현.",
+          "en": "Implemented audio-reactive lighting, particles, spotlights, object movement, and scaling."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, p. 3"
+    },
+    {
+      "date": "2017",
+      "end": "2018",
+      "title": {
+        "ko": "RHPlus (Indie)",
+        "en": "RHPlus (Indie)"
+      },
+      "role": {
+        "ko": "시니어 소프트웨어 엔지니어",
+        "en": "Senior Software Engineer"
+      },
+      "location": {
+        "ko": "대한민국 서울",
+        "en": "Seoul, Korea"
+      },
+      "description": {
+        "ko": "캐주얼 점프 게임 PoingPoing에서 캐릭터 액션과 런타임 레벨 생성 시스템을 구현했습니다.",
+        "en": "Implemented character actions and runtime level generation for the casual jumping game PoingPoing."
+      },
+      "projects": [
+        "PoingPoing · Android / iOS / Unity"
+      ],
+      "details": [
+        {
+          "ko": "캐릭터 액션 메커니즘, 레벨·점프 디딤돌 생성과 아이템 스포너 개발.",
+          "en": "Developed character action mechanics, level and stepping-stone generation, and item spawners."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 2–3"
+    },
+    {
+      "date": "2018-05",
+      "end": "2022-09",
+      "title": {
+        "ko": "Archipin Inc.",
+        "en": "Archipin Inc."
+      },
+      "role": {
+        "ko": "시니어 소프트웨어 엔지니어",
+        "en": "Senior Software Engineer"
+      },
+      "location": {
+        "ko": "서울 (2018.05–2019.04) · 미국 Edmonds (2019.04–2022.09)",
+        "en": "Seoul (May 2018–Apr 2019) · Edmonds, WA (Apr 2019–Sep 2022)"
+      },
+      "description": {
+        "ko": "RPG형 언어 학습 앱 Hello Ludi에서 NPC 대화 관리, 지식 그래프 연구와 멀티플레이 클라이언트를 개발했습니다.",
+        "en": "Developed NPC dialogue management, knowledge-graph research, and multiplayer client features for Hello Ludi, an RPG-based language-learning app."
+      },
+      "projects": [
+        "Hello Ludi · Android / Unity",
+        "3D RPG language-learning prototype"
+      ],
+      "details": [
+        {
+          "ko": "NLU의 의도·개체 정보와 NPC 데이터에 따른 응답 규칙, 애니메이션·음성용 Timeline 재생 큐 구현.",
+          "en": "Implemented response rules using NLU intents/entities and NPC data, plus Timeline playback queues for animation and voice."
+        },
+        {
+          "ko": "Neo4j Cypher 쿼리를 이용한 게임 세계 지식 그래프와 Wikipedia 답변 연동 연구·개발.",
+          "en": "Researched and developed game-world knowledge-graph queries using Neo4j Cypher and integrated Wikipedia answers."
+        },
+        {
+          "ko": "서버 엔지니어와 프로토콜 설계, WebSocket·패킷·씬 로딩과 초대 플레이어 위치 동기화 구현.",
+          "en": "Designed protocols with server engineers and implemented WebSocket handling, packets, scene loading, and invited-player position synchronization."
+        },
+        {
+          "ko": "프로토타입의 Timeline·Cinemachine 대화 액션, Blendshape 표정 트랙, 런타임 바인딩과 상태 기반 카메라 구현.",
+          "en": "Built prototype dialogue actions with Timeline and Cinemachine, Blendshape expression tracks, runtime bindings, and state-driven cameras."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 2, 5"
+    },
+    {
+      "date": "2022-09",
+      "end": "2024-04",
+      "title": {
+        "ko": "Project Archer (Walmart SN8)",
+        "en": "Project Archer (Walmart SN8)"
+      },
+      "role": {
+        "ko": "시니어 소프트웨어 엔지니어",
+        "en": "Senior Software Engineer"
+      },
+      "location": {
+        "ko": "미국 워싱턴 레드먼드",
+        "en": "Redmond, Washington"
+      },
+      "description": {
+        "ko": "Magic Leap 2와 Unity로 매장의 디지털 트윈 클라이언트와 시선·손동작 기반 MR 인터랙션 프로토타입을 개발했습니다.",
+        "en": "Developed a retail digital-twin client and gaze/gesture MR interaction prototypes using Magic Leap 2 and Unity."
+      },
+      "projects": [
+        "Custom Digital Twin · Android / Magic Leap 2",
+        "Associate Backroom Interaction Prototype"
+      ],
+      "details": [
+        {
+          "ko": "매장 설명 데이터로 공간을 생성하는 Unity 클라이언트 구성 요소와 사내 배포용 Unity 패키지 개발.",
+          "en": "Developed Unity client components that create stores from description data and packaged them for company-wide use."
+        },
+        {
+          "ko": "zBufferOnly·VisualModel·Wireframe·Frontframe 렌더링 모드와 매장 정렬 마법사 구현.",
+          "en": "Implemented zBufferOnly, VisualModel, Wireframe, and Frontframe rendering modes and a store-alignment wizard."
+        },
+        {
+          "ko": "시선·머리 추적 UI, 주시점 안정화, Multi-Line Raycast 버튼 선택과 손가락 뼈 위치 기반 제스처 인식 구현.",
+          "en": "Built gaze/head-tracked UI, fixation stabilization, multi-line raycast button selection, and gesture recognition using finger-bone positions."
+        }
+      ],
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 1–2, 5"
+    }
+  ],
+  "projects": [
+    {
+      "id": "liquid",
+      "title": "Visual Liquid Timer",
+      "category": {
+        "ko": "일상 속 도구",
+        "en": "Everyday tools"
+      },
+      "description": {
+        "ko": "구불구불한 액체 챔버와 Web Audio 알림을 갖춘 시각적 카운트다운 타이머.",
+        "en": "A visual countdown timer with a serpentine liquid chamber and Web Audio alerts."
+      },
+      "repo": "https://github.com/Orion8/orion8.github.io/tree/main/timer",
+      "demo": "https://orion8.github.io/timer/index.html",
+      "thumbnail": null,
+      "video": null,
+      "source": "https://github.com/Orion8/orion8.github.io/blob/main/index.html"
+    },
+    {
+      "id": "memory",
+      "title": "Memory",
+      "category": {
+        "ko": "인터랙티브 실험",
+        "en": "Interactive experiments"
+      },
+      "description": {
+        "ko": "인터랙티브 차트와 패턴을 통해 단기 시각 기억을 시험하고 훈련하는 실험.",
+        "en": "Test and train short-term visual memory through interactive charts and patterns."
+      },
+      "repo": "https://github.com/Orion8/orion8.github.io/blob/main/memory.html",
+      "demo": "https://orion8.github.io/memory.html",
+      "thumbnail": null,
+      "video": null,
+      "source": "https://github.com/Orion8/orion8.github.io/blob/main/index.html"
+    },
+    {
+      "id": "history",
+      "title": "Pattern in History",
+      "category": {
+        "ko": "시각적 탐구",
+        "en": "Visual explorations"
+      },
+      "description": {
+        "ko": "역사 속 패턴과 흐름, 집단행동의 역학을 살펴보는 인포그래픽.",
+        "en": "An infographic exploring patterns, trends, and group behavior dynamics throughout history."
+      },
+      "repo": "https://github.com/Orion8/orion8.github.io/blob/main/group_behavior_in_history.html",
+      "demo": "https://orion8.github.io/group_behavior_in_history.html",
+      "thumbnail": null,
+      "video": null,
+      "source": "https://github.com/Orion8/orion8.github.io/blob/main/index.html"
+    }
+  ],
+  "education": [
+    {
+      "degree": {
+        "ko": "컴퓨터 과학 석사",
+        "en": "M.S., Computer Science"
+      },
+      "school": "The George Washington University",
+      "source": "Resume_2024_Keeseok_1.pdf, p. 4"
+    },
+    {
+      "degree": {
+        "ko": "컴퓨터 과학 학사",
+        "en": "B.S., Computer Science"
+      },
+      "school": "Iowa State University",
+      "source": "Resume_2024_Keeseok_1.pdf, p. 5"
+    }
+  ],
+  "award": {
+    "title": {
+      "ko": "“PhyX Rocks Contest” 3위",
+      "en": "3rd place — “PhyX Rocks Contest”"
+    },
+    "description": {
+      "ko": "Ageia/Nvidia 주최. PhysX 강체로 의상·머리카락·귀걸이·목걸이·치마의 움직임을 구현한 작업으로 수상.",
+      "en": "Sponsored by Ageia/Nvidia. Awarded for simulating costume, hair, earring, necklace, and skirt movement with PhysX rigid bodies."
+    },
+    "source": "Resume_2024_Keeseok_1.pdf, p. 5"
+  },
+  "resumeAsOf": "2024-04"
+}
