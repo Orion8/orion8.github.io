@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 59,
+    "completedCount": 60,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3129,33 +3129,45 @@
             "url": "https://orion8.github.io/reading-atlas/previews/influence-v3-integrated-en-mobile.webp"
           }
         }
+      },
+      {
+        "sequence": 60,
+        "id": 58,
+        "title": "The Righteous Mind",
+        "koreanTitle": "바른 마음",
+        "koreanImage": "the-righteous-mind-v3-integrated-ko.webp",
+        "englishImage": "the-righteous-mind-v3-integrated-en.webp",
+        "koreanPreview": "../previews/the-righteous-mind-v3-integrated-ko-mobile.webp",
+        "englishPreview": "../previews/the-righteous-mind-v3-integrated-en-mobile.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "completedOn": "2026-10-29",
+        "sourceNotes": "sources/the-righteous-mind-v3-integrated.md",
+        "sources": [
+          "https://www.penguinrandomhouse.com/books/73535/the-righteous-mind-by-jonathan-haidt/9780307907035/",
+          "https://www.penguinrandomhouseretail.com/book/?isbn=9780307377906",
+          "https://righteousmind.com/about-the-book/introductory-chapter/",
+          "https://moralfoundations.org/",
+          "https://pubmed.ncbi.nlm.nih.gov/11699120/",
+          "https://www.yes24.com/Product/goods/12687530"
+        ],
+        "publicBrowserChecks": {
+          "koreanCardHref": "infographics/the-righteous-mind-v3-integrated-ko.webp",
+          "englishCardHref": "infographics/the-righteous-mind-v3-integrated-en.webp",
+          "koreanOriginal": "1024x1536",
+          "englishOriginal": "1024x1536",
+          "koreanMobile": "390x585",
+          "englishMobile": "390x585",
+          "checkedOn": "2026-10-29"
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 60,
-      "id": 58,
-      "title": "The Righteous Mind",
-      "koreanTitle": "바른 마음",
-      "status": "content-verified-art-generation-pending",
-      "koreanImage": "the-righteous-mind-v3-integrated-ko.webp",
-      "englishImage": "the-righteous-mind-v3-integrated-en.webp",
-      "koreanComplete": false,
-      "englishComplete": false,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-29",
-      "sourceNotes": "sources/the-righteous-mind-v3-integrated.md",
-      "sources": [
-        "https://www.penguinrandomhouse.com/books/73535/the-righteous-mind-by-jonathan-haidt/9780307907035/",
-        "https://www.penguinrandomhouseretail.com/book/?isbn=9780307377906",
-        "https://righteousmind.com/about-the-book/introductory-chapter/",
-        "https://moralfoundations.org/",
-        "https://pubmed.ncbi.nlm.nih.gov/11699120/",
-        "https://www.yes24.com/Product/goods/12687530"
-      ]
-    }
+    "inProgress": null
   }
 }
