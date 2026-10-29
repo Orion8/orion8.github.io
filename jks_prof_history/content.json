@@ -103,7 +103,12 @@
           "en": "Army Men: implemented vehicle integration with Havok, character/world collisions, driver and gunner cameras, NPC vehicle path following, and flamethrowers."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6",
+      "logo": {
+        "path": "./assets/companies/3do-1997.png",
+        "source": "https://en.wikipedia.org/wiki/The_3DO_Company",
+        "period": "1997–2003"
+      }
     },
     {
       "date": "2003",
@@ -167,7 +172,12 @@
           "en": "Built automatic object fragmentation with triangle subdivision and per-fragment physics; managed schedules and task priorities."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, p. 4"
+      "source": "Resume_2024_Keeseok_1.pdf, p. 4",
+      "logo": {
+        "path": "./assets/companies/windysoft-2006.png",
+        "source": "https://pdf.irpocket.com/C3810/RIfF/rJ4w.pdf#page=15",
+        "period": "2006"
+      }
     },
     {
       "date": "2006",
@@ -205,7 +215,12 @@
           "en": "Managed runtime network synchronization of player inputs and profiled performance to identify optimization bottlenecks."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6",
+      "logo": {
+        "path": "./assets/companies/nurien-2009.png",
+        "source": "https://www.nvidia.cn/docs/io/65527/ecs_show_guide_final.pdf#page=73",
+        "period": "2009"
+      }
     },
     {
       "date": "2010",
@@ -283,7 +298,13 @@
           "en": "Managed a single version-controlled project for multiple platforms and integrated advertising and analytics plugins."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5"
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5",
+      "logo": {
+        "path": "./assets/companies/pangalore-2011-reference.jpg",
+        "source": "https://gamesbeat.com/korean-game-startup-pangalore-targets-html5-games/",
+        "period": "2011",
+        "viewport": "pangalore"
+      }
     },
     {
       "date": "2014",
@@ -434,7 +455,12 @@
           "en": "Built prototype dialogue actions with Timeline and Cinemachine, Blendshape expression tracks, runtime bindings, and state-driven cameras."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, pp. 2, 5"
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 2, 5",
+      "logo": {
+        "path": "./assets/companies/archipin-2021.png",
+        "source": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01758086629281800",
+        "period": "2021"
+      }
     },
     {
       "date": "2022-09",
@@ -473,7 +499,12 @@
           "en": "Built gaze/head-tracked UI, fixation stabilization, multi-line raycast button selection, and gesture recognition using finger-bone positions."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, pp. 1–2, 5"
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 1–2, 5",
+      "logo": {
+        "path": "./assets/companies/project-archer-2021.png",
+        "source": "https://www.builtinseattle.com/articles/seattle-featured-companies-january-2022",
+        "period": "2021–2022"
+      }
     }
   ],
   "projects": [
