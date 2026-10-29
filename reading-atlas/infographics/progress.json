@@ -3131,6 +3131,31 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 60,
+      "id": 58,
+      "title": "The Righteous Mind",
+      "koreanTitle": "바른 마음",
+      "status": "content-verified-art-generation-pending",
+      "koreanImage": "the-righteous-mind-v3-integrated-ko.webp",
+      "englishImage": "the-righteous-mind-v3-integrated-en.webp",
+      "koreanComplete": false,
+      "englishComplete": false,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-29",
+      "sourceNotes": "sources/the-righteous-mind-v3-integrated.md",
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/73535/the-righteous-mind-by-jonathan-haidt/9780307907035/",
+        "https://www.penguinrandomhouseretail.com/book/?isbn=9780307377906",
+        "https://righteousmind.com/about-the-book/introductory-chapter/",
+        "https://moralfoundations.org/",
+        "https://pubmed.ncbi.nlm.nih.gov/11699120/",
+        "https://www.yes24.com/Product/goods/12687530"
+      ]
+    }
   }
 }
