@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 58,
+    "completedCount": 59,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3066,33 +3066,71 @@
             "url": "https://orion8.github.io/reading-atlas/previews/behave-v3-integrated-en-mobile.webp"
           }
         }
+      },
+      {
+        "sequence": 59,
+        "id": 57,
+        "title": "Influence",
+        "koreanTitle": "설득의 심리학 1",
+        "status": "completed-and-verified",
+        "koreanImage": "influence-v3-integrated-ko.webp",
+        "englishImage": "influence-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "preparedOn": "2026-10-29",
+        "sourceNotes": "sources/influence-v3-integrated.md",
+        "sources": [
+          "https://www.influenceatwork.com/books-and-publications/",
+          "https://cialdini.com/principles",
+          "https://cialdini.com/our-team/robert-cialdini",
+          "https://books.google.com/books/about/Influence_New_and_Expanded.html?id=4uf8DwAAQBAJ",
+          "https://www.psychologicalscience.org/observer/universal-principles-of-influence",
+          "https://www.yes24.com/product/goods/118483018"
+        ],
+        "mobileVerifiedAtWidth": 390,
+        "mobileVerificationMethod": "Full-image raster previews at 390px; public URLs and language-specific live cards checked in browser. Section headings, diagrams, and main labels remain legible; small supporting text may require pinch zoom at whole-page scale. Not physical-device testing.",
+        "completedOn": "2026-10-29",
+        "publicBrowserChecks": {
+          "koreanCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/influence-v3-integrated-ko.webp"
+          },
+          "englishCard": {
+            "linked": true,
+            "url": "https://orion8.github.io/reading-atlas/infographics/influence-v3-integrated-en.webp"
+          },
+          "korean": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/influence-v3-integrated-ko.webp"
+          },
+          "english": {
+            "imageLoaded": true,
+            "naturalWidth": 1024,
+            "naturalHeight": 1536,
+            "url": "https://orion8.github.io/reading-atlas/infographics/influence-v3-integrated-en.webp"
+          },
+          "koreanMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/influence-v3-integrated-ko-mobile.webp"
+          },
+          "englishMobile": {
+            "imageLoaded": true,
+            "naturalWidth": 390,
+            "naturalHeight": 585,
+            "url": "https://orion8.github.io/reading-atlas/previews/influence-v3-integrated-en-mobile.webp"
+          }
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 59,
-      "id": 57,
-      "title": "Influence",
-      "koreanTitle": "설득의 심리학 1",
-      "status": "content-verified-art-generation-pending",
-      "koreanImage": "influence-v3-integrated-ko.webp",
-      "englishImage": "influence-v3-integrated-en.webp",
-      "koreanComplete": false,
-      "englishComplete": false,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-10-29",
-      "sourceNotes": "sources/influence-v3-integrated.md",
-      "sources": [
-        "https://www.influenceatwork.com/books-and-publications/",
-        "https://cialdini.com/principles",
-        "https://cialdini.com/our-team/robert-cialdini",
-        "https://books.google.com/books/about/Influence_New_and_Expanded.html?id=4uf8DwAAQBAJ",
-        "https://www.psychologicalscience.org/observer/universal-principles-of-influence",
-        "https://www.yes24.com/product/goods/118483018"
-      ]
-    }
+    "inProgress": null
   }
 }
