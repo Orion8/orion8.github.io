@@ -2941,6 +2941,32 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 57,
+      "id": 55,
+      "title": "Thinking, Fast and Slow",
+      "koreanTitle": "생각에 관한 생각",
+      "status": "assets-complete-public-verification-pending",
+      "koreanImage": "thinking-fast-and-slow-v3-integrated-ko.webp",
+      "englishImage": "thinking-fast-and-slow-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-28",
+      "sourceNotes": "sources/thinking-fast-and-slow-v3-integrated.md",
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/89308/thinking-fast-and-slow-by-daniel-kahneman/",
+        "https://books.google.com/books?id=TA7Q27RWlj0C&rview=1",
+        "https://openlibrary.org/books/OL25426844M/Thinking_fast_and_slow",
+        "https://www.yes24.com/product/author/goods/148242",
+        "https://kahneman.scholar.princeton.edu/publications",
+        "https://pubmed.ncbi.nlm.nih.gov/19739881/",
+        "https://doi.org/10.1037/a0016755"
+      ]
+    }
   }
 }
