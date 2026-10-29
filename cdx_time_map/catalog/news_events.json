@@ -1,8 +1,123 @@
 {
-  "catalogVersion": "0.0.191",
-  "updatedAt": "2026-10-28T18:50:15.130Z",
+  "catalogVersion": "0.0.192",
+  "updatedAt": "2026-10-29T07:01:23.964Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-3fd55028484ec2521875f21d",
+      "title": "유럽의 자산 격차: 고령 가구가 젊은 가구보다 8배 더 부유",
+      "titleTranslations": {
+        "en": "Europe’s wealth gap: Older households eight times richer than young ones"
+      },
+      "startAt": "2026-10-29T06:25:02.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도에 따르면 유럽에서 35세 미만 가구가 전체 가계 자산의 2.8%만 보유하는 등 세대 간 자산 불평등이 심화되고 있으며, 고령 가구가 젊은 가구보다 약 8배 더 많은 자산을 보유한 것으로 나타났다.",
+      "descriptionTranslations": {
+        "en": "Reports say wealth inequality in Europe is pronounced: households under 35 hold just 2.8% of household wealth, and older households are about eight times richer than younger ones."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/29/europes-wealth-gap-older-households-eight-times-richer-than-young-ones?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/10/29/europes-wealth-gap-older-households-eight-times-richer-than-young-ones?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-10-29T06:25:02.000Z",
+        "lastObservedAt": "2026-10-29T07:01:23.964Z"
+      }
+    },
+    {
+      "id": "news-e9bfba10ec085dbed72d2bc5",
+      "title": "북인도양 첫 이름난 폭풍 'Arnab', 안드라프라데시 해안 상륙",
+      "titleTranslations": {
+        "en": "First named North Indian Ocean storm 'Arnab' makes landfall in Andhra Pradesh"
+      },
+      "startAt": "2026-10-29T04:01:00.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "보도는 북인도양 사이클론 시즌의 첫 이름난 폭풍인 'Arnab'이 안드라프라데시 해안을 따라 상륙했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say Arnab, the first named storm of the North Indian Ocean cyclone season, made landfall along the coast of Andhra Pradesh."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/"
+        ],
+        "firstPublishedAt": "2026-10-29T04:01:00.000Z",
+        "lastObservedAt": "2026-10-29T07:01:23.964Z"
+      }
+    },
+    {
+      "id": "news-9c5b37f8dc98b8bf7182d0b2",
+      "title": "ULA 벌칸 로켓, 금요일(13일) 비행 재개 예정",
+      "titleTranslations": {
+        "en": "ULA's Vulcan rocket set to return to flight on Friday the 13th"
+      },
+      "startAt": "2026-10-28T22:51:15.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도는 ULA의 벌칸 로켓이 비행 재개를 준비 중이며, 이번 발사는 여섯 개의 고체 로켓 부스터 전부를 사용한 첫 번째 벌칸 발사라고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says ULA's Vulcan rocket is preparing to return to flight; this launch will be the first Vulcan mission to use a full complement of six solid rocket boosters."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/"
+        ],
+        "firstPublishedAt": "2026-10-28T22:51:15.000Z",
+        "lastObservedAt": "2026-10-29T07:01:23.964Z"
+      }
+    },
+    {
+      "id": "news-90cb8501592e8648d3c543a3",
+      "title": "캘리포니아 해안에 기록적 만조 — 거리·주택 침수, 카약 통근 장면까지",
+      "titleTranslations": {
+        "en": "Record‑breaking high tides flood California coast — streets, homes submerged and kayak commutes"
+      },
+      "startAt": "2026-10-28T22:22:39.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "보도에 따르면 샌디에이고부터 샌프란시스코 베이 지역까지 기록적 조위로 저지대 공동체의 거리와 주택, 상점이 침수되었고 일부 지역에서는 카약과 패들보드를 이용한 통근 장면이 목격되는 등 혼란이 발생했다.",
+      "descriptionTranslations": {
+        "en": "Reports say record high tides have inundated low‑lying communities from San Diego to the San Francisco Bay Area, submerging streets, homes and businesses; in some places people were seen kayaking or paddle‑boarding through normally busy thoroughfares."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/28/california-extreme-weather-high-tides",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/video/2026/oct/27/aerial-video-shows-california-flooding-amid-record-breaking-tides-video",
+          "https://www.theguardian.com/us-news/2026/oct/28/california-extreme-weather-high-tides"
+        ],
+        "firstPublishedAt": "2026-10-27T21:55:44.000Z",
+        "lastObservedAt": "2026-10-29T07:01:23.964Z"
+      }
+    },
     {
       "id": "news-4c467c18b392a33a2c110672",
       "title": "영국, 소득세 과세 구간·상한 3년 추가 동결 발표",
@@ -113,37 +228,6 @@
           "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
         ],
         "firstPublishedAt": "2026-10-28T17:00:00.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
-      "id": "news-21259562a429c62e16554286",
-      "title": "부분 개표: 네타냐후 연합 선두지만 과반수 확보 실패",
-      "titleTranslations": {
-        "en": "Partial results: Netanyahu's bloc leads but falls short of majority"
-      },
-      "startAt": "2026-10-28T16:59:47.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "개표율 85% 기준 보도에 따르면 베냐민 네타냐후의 리쿠드당과 우파 동맹이 총 120석 중 53석을 확보할 것으로 보이며, 과반수에는 미달한 상태다.",
-      "descriptionTranslations": {
-        "en": "With 85% of ballots counted, reports show Benjamin Netanyahu's Likud party and its right‑wing allies are projected to win 53 of 120 Knesset seats, short of an outright majority."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
-          "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
-          "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
         "lastObservedAt": "2026-10-28T18:50:15.129Z"
       }
     },
@@ -260,6 +344,67 @@
       }
     },
     {
+      "id": "news-21259562a429c62e16554286",
+      "title": "이스라엘 총선 초접전 — 투표율 기록적 상승에도 최종 결과는 불확실",
+      "titleTranslations": {
+        "en": "Israel's election too close to call — turnout at record levels but result uncertain"
+      },
+      "startAt": "2026-10-28T11:28:55.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도는 이스라엘 유권자 투표율이 기록적으로 높았으나 개표 결과가 초접전 상태여서 승자가 확정되지 않았다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Israeli voter turnout was at record levels, but the count remains too close to call and no winner has been confirmed."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
+          "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
+          "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak"
+        ],
+        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
+        "lastObservedAt": "2026-10-29T07:01:23.964Z"
+      }
+    },
+    {
+      "id": "news-23855d994607aa8ed8fc4221",
+      "title": "에볼라 발생자 1만명 돌파 보고",
+      "titleTranslations": {
+        "en": "Ebola outbreak reaches more than 10,000 infections"
+      },
+      "startAt": "2026-10-28T11:28:55.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "보도는 이번 에볼라 발생이 5월 선언 이후 감염자 수가 1만 명을 넘었다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say the Ebola outbreak has infected more than 10,000 people since it was declared in May."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak"
+        ],
+        "firstPublishedAt": "2026-10-28T11:28:55.000Z",
+        "lastObservedAt": "2026-10-29T07:01:23.964Z"
+      }
+    },
+    {
       "id": "news-4446d7ab28b5c10bdeeb8863",
       "title": "플라비우 보우소나루, 대선 패배 뒤 브라질 떠나 미국 향한 것으로 보도",
       "titleTranslations": {
@@ -315,34 +460,6 @@
           "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas"
         ],
         "firstPublishedAt": "2026-10-28T01:45:27.000Z",
-        "lastObservedAt": "2026-10-28T06:50:10.247Z"
-      }
-    },
-    {
-      "id": "news-90cb8501592e8648d3c543a3",
-      "title": "가디언 항공영상: '기록적 조위' 예보 속 캘리포니아 해안 침수 장면 공개",
-      "titleTranslations": {
-        "en": "Guardian aerial video shows California flooding amid forecast of 'record‑breaking tides'"
-      },
-      "startAt": "2026-10-27T21:55:44.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언 환경 보도는 캘리포니아 해안 지역이 수일간의 '기록적 조위' 가능성으로 침수 위험에 직면해 있으며, 여러 연안 공동체가 며칠간의 홍수에 대비 중이라고 전했다. 영상은 물이 빠르게 차오르는 장면을 담았으며 당국과 주민들이 피해에 대비하는 모습을 보여준다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that coastal communities across California are preparing for days of flooding amid forecasts of potentially 'record‑breaking tides.' An aerial video shows rising water levels and communities bracing for inundation as authorities and residents make preparations."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/video/2026/oct/27/aerial-video-shows-california-flooding-amid-record-breaking-tides-video",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/video/2026/oct/27/aerial-video-shows-california-flooding-amid-record-breaking-tides-video"
-        ],
-        "firstPublishedAt": "2026-10-27T21:55:44.000Z",
         "lastObservedAt": "2026-10-28T06:50:10.247Z"
       }
     },
@@ -1956,34 +2073,6 @@
       }
     },
     {
-      "id": "news-a0eb2965186242b66b4aa557",
-      "title": "수단 RSF, 병원들을 고의로 표적 삼아 공격했다는 BBC 조사 — 유엔 인권수장 '전쟁범죄' 가능성 제기",
-      "titleTranslations": {
-        "en": "BBC investigation finds Sudan’s RSF fighters deliberately targeted hospitals — UN rights chief says 'may amount to war crimes'"
-      },
-      "startAt": "2026-10-22T23:16:16.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 조사에 따르면 수단의 준군사조직 RSF(민병대 성격 병력)가 병원들을 고의로 표적 삼아 공격한 정황이 확인됐다. 유엔 인권최고대표 볼커 튀르크는 다수의 공격 정황이 전쟁범죄에 해당할 가능성이 있다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "A BBC investigation found evidence that Sudan’s Rapid Support Forces (RSF) deliberately targeted hospitals. UN human rights chief Volker Türk said the multiple attacks may amount to war crimes."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-22T23:16:16.000Z",
-        "lastObservedAt": "2026-10-23T06:00:48.524Z"
-      }
-    },
-    {
       "id": "news-7b0085dd772c1d5003235981",
       "title": "MP들, NHS에 체중감량 주사 제공 확대 촉구",
       "titleTranslations": {
@@ -2008,36 +2097,6 @@
           "https://www.bbc.co.uk/news/articles/cm4g1pkwxdqwo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-22T23:06:04.000Z",
-        "lastObservedAt": "2026-10-23T06:00:48.524Z"
-      }
-    },
-    {
-      "id": "news-5ad6cfcc6b70cfedaf966083",
-      "title": "달 착륙을 지원하려면 스타십 발사 22회 필요 추정(보도)",
-      "titleTranslations": {
-        "en": "Estimate: 22 Starship launches required to support a Moon landing"
-      },
-      "startAt": "2026-10-22T21:52:31.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "기술 보도는 달 착륙을 지원하기 위해서는 착륙선 연료 보급 등 다수의 필수 연료 주입을 포함해 약 22회의 스타십 발사가 필요하다는 최신 추정치를 보도했다. 설계·지속적 보급 요구가 핵심 변수로 제시된다.",
-      "descriptionTranslations": {
-        "en": "Technical reporting estimates that about 22 Starship launches would be required to support a crewed Moon landing, noting numerous required fuelings for the lander and other logistics as key variables."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/"
-        ],
-        "firstPublishedAt": "2026-10-22T21:52:31.000Z",
         "lastObservedAt": "2026-10-23T06:00:48.524Z"
       }
     },
@@ -2644,36 +2703,6 @@
         ],
         "firstPublishedAt": "2026-09-30T23:00:00.000Z",
         "lastObservedAt": "2026-10-01T07:10:03.687Z"
-      }
-    },
-    {
-      "id": "news-3f2cce1106d423abc54437f4",
-      "title": "제약사, 약가 유지 위해 특허 쌓기 — 부속 특허로 특허기간 연장",
-      "titleTranslations": {
-        "en": "Pharma firms accumulating patents to keep drug prices high, lengthening patent periods"
-      },
-      "startAt": "2026-09-28T19:53:37.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "보도는 제약사들이 추가(부속) 특허를 통해 의약품의 특허 보호 기간을 연장해 왔으며, 이로 인해 특허 기간이 과거 평균 약 2년에서 6년 이상으로 길어졌다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports indicate pharmaceutical companies have been filing add‑on patents to extend drug patent protection, increasing effective patent periods from around two years to over six in some cases."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/health/2026/09/to-keep-drug-prices-high-pharma-has-been-piling-up-the-patents/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/health/2026/09/to-keep-drug-prices-high-pharma-has-been-piling-up-the-patents/"
-        ],
-        "firstPublishedAt": "2026-09-28T19:53:37.000Z",
-        "lastObservedAt": "2026-09-28T20:06:51.082Z"
       }
     }
   ]
