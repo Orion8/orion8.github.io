@@ -1,8 +1,290 @@
 {
-  "catalogVersion": "0.0.192",
-  "updatedAt": "2026-10-29T07:01:23.964Z",
+  "catalogVersion": "0.0.193",
+  "updatedAt": "2026-10-29T18:57:24.919Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-4b2c059bd94e7ed8fd721e38",
+      "title": "NASA 지원 연구, 지구에서 발견된 거의 가장 오래된 화성 운석 연대 확인",
+      "titleTranslations": {
+        "en": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found"
+      },
+      "startAt": "2026-10-29T18:18:09.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "보도는 사하라에서 발견된 마르스 조각 운석의 광물 연대를 측정한 결과 이 암석이 41억 년 이상 전에 형성된 화성 표본일 수 있음을 확인했다고 전했다. 이 연구는 해당 운석이 화성 형성 초기에 속할 수 있음을 시사한다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Reports say a NASA‑funded study dated minerals in a Mars meteorite found in the Sahara and concluded the nearly 800‑gram rock formed more than 4.1 billion years ago, making it one of the oldest known pieces of Mars and suggesting it dates to the planet's early formation."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/"
+        ],
+        "firstPublishedAt": "2026-10-29T18:18:09.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.919Z"
+      }
+    },
+    {
+      "id": "news-82a54f41de5451634a1b4b6b",
+      "title": "스코틀랜드 축구, 영국의 전통적 3시 TV 중계 금지 완화 가능성 첫 걸음",
+      "titleTranslations": {
+        "en": "Scottish football could pave way for 3pm TV blackout to end"
+      },
+      "startAt": "2026-10-29T17:43:53.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "보도는 스코틀랜드 축구가 다음 중계 주기에 대한 입찰을 시작하면서 영국의 전통적 토요일 15시(3pm) 텔레비전 방송 금지(blackout)를 끝낼 수 있는 첫 발걸음을 내디뎠다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say Scottish football has taken initial steps by seeking bids for the next broadcast cycle that could open the door to ending the UK's traditional Saturday 3pm television blackout."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cmgr8l87edyjo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/football/articles/cmgr8l87edyjo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-29T17:43:53.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.919Z"
+      }
+    },
+    {
+      "id": "news-20da383f1bcd89a8b1d8f157",
+      "title": "영국·웨일스 수백개 GP(개인의) 의원, 기술업체 붕괴로 온라인 서비스 중단",
+      "titleTranslations": {
+        "en": "Hundreds of GP practices lose online services after collapse of tech firm"
+      },
+      "startAt": "2026-10-29T17:13:40.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "보도는 기술업체의 붕괴로 인해 영국과 웨일스의 수백 곳 GP(일반의) 진료소가 온라인 서비스 접근을 잃어 큰 혼란과 의료 서비스 차질이 우려된다고 전했다. GP 지도자들은 상당한 중단을 예고했다.",
+      "descriptionTranslations": {
+        "en": "Reports say the collapse of a tech firm has caused hundreds of GP practices across England and Wales to lose online services, raising concerns about major disruption to primary care. GP leaders warned of significant impacts."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq146562ld3no?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cq146562ld3no?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-29T17:13:40.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.919Z"
+      }
+    },
+    {
+      "id": "news-9349f418e7bc7ab45091d36c",
+      "title": "오픈AI, 더 능력 있고 유익한 AI 위한 업데이트된 모델 명세 공개",
+      "titleTranslations": {
+        "en": "An updated Model Spec for more capable and beneficial AI"
+      },
+      "startAt": "2026-10-29T17:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "보도는 오픈AI가 더 능력 있는 AI를 건전한 판단·인간의 주체성·의도 충실성으로 안내하기 위한 핵심 가치를 담은 업데이트된 모델 명세를 공개했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say OpenAI published an updated Model Spec that outlines core values intended to guide more capable AI toward sound judgement, human agency and faithfulness to human intent."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/updated-model-spec",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/updated-model-spec"
+        ],
+        "firstPublishedAt": "2026-10-29T17:00:00.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.919Z"
+      }
+    },
+    {
+      "id": "news-62e979a207a72a6a98fd6266",
+      "title": "배우 엘케 졸머(Elke Sommer) 별세, 향년 85",
+      "titleTranslations": {
+        "en": "Elke Sommer, prolific German star of A Shot in the Dark and And Then There Were None, dies aged 85"
+      },
+      "startAt": "2026-10-29T16:36:52.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "보도는 독일 출신 배우 엘케 졸머가 향년 85세로 별세했다고 전했다. 졸머는 1960년대 할리우드에서 활동하며 여러 상업·비평적 작품에 출연했다.",
+      "descriptionTranslations": {
+        "en": "Reports say German actress Elke Sommer has died aged 85. Sommer was prolific in the 1960s in Hollywood and appeared in numerous commercial and critically noted films."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/film/2026/oct/29/elke-sommer-prolific-german-star-of-a-shot-in-the-dark-and-and-then-there-were-none-dies",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/film/2026/oct/29/elke-sommer-prolific-german-star-of-a-shot-in-the-dark-and-and-then-there-were-none-dies"
+        ],
+        "firstPublishedAt": "2026-10-29T16:36:52.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.919Z"
+      }
+    },
+    {
+      "id": "news-e1b04d92f42e71678c6b9bdd",
+      "title": "크리스틴 라가르드 ECB 총재, 임기 9개월 단축하고 조기 사임 발표",
+      "titleTranslations": {
+        "en": "Europe’s central bank chief, Christine Lagarde, steps down for ‘freedom of speech’"
+      },
+      "startAt": "2026-10-29T16:05:50.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도는 유로존 중앙은행(ECB) 총재 크리스틴 라가르드가 중립 규정 때문에 세계 정세에 대해 자유롭게 발언할 수 없다며 당초 예정보다 9개월 앞당겨 사임하겠다고 발표했다고 전했다. 라가르드는 3월에 퇴임할 것이라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Reports say European Central Bank President Christine Lagarde announced she will step down nine months early, saying the neutrality rules of her post prevent her from speaking freely about world affairs. She indicated she will leave in March rather than the following October."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/29/european-central-bank-chief-christine-lagarde-to-step-down-nine-months-early",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/29/european-central-bank-chief-christine-lagarde-to-step-down-nine-months-early"
+        ],
+        "firstPublishedAt": "2026-10-29T16:05:50.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.919Z"
+      }
+    },
+    {
+      "id": "news-e58da7a8afb04bf48229f33f",
+      "title": "미·일, 일본 내 공동 미사일 생산 시설 설립 합의",
+      "titleTranslations": {
+        "en": "US and Japan agree to establish a Japanese facility for joint missile production"
+      },
+      "startAt": "2026-10-29T15:58:27.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도는 미국과 일본이 일본 내에 공동 미사일 생산 시설을 설립하기로 합의했다고 전했다. 발표는 중국의 증가하는 군사적 위협에 대응하려는 동맹의 최신 조치로 소개됐다.",
+      "descriptionTranslations": {
+        "en": "Reports say the United States and Japan have agreed to establish a joint missile production facility in Japan. The announcement is presented as the allies' latest step in response to China's growing assertiveness."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production"
+        ],
+        "firstPublishedAt": "2026-10-29T15:58:27.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.918Z"
+      }
+    },
+    {
+      "id": "news-a43029d68bc6e9f642b89f05",
+      "title": "중국, 군 장성을 정치국에 진입시켜 당 기강 강화 나서",
+      "titleTranslations": {
+        "en": "China elevates a military general to the Politburo and seeks to strengthen party discipline"
+      },
+      "startAt": "2026-10-29T15:53:46.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도는 중국이 고위 군 장성을 정치국에 진입시키는 인사를 단행하고 당 기강 강화를 추진하고 있다고 전했다. 이 조치는 시진핑 주석의 예상되는 4기 임기 전 약 1년 시점에 이뤄졌다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Reports say China has elevated a senior military general to the Politburo and is moving to strengthen party discipline. Coverage notes the move comes about a year before President Xi Jinping is expected to secure a fourth five‑year term."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/29/g-s1-150645/china-elevates-a-military-general-to-the-politburo-and-seeks-to-strengthen-party-discipline",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/29/g-s1-150645/china-elevates-a-military-general-to-the-politburo-and-seeks-to-strengthen-party-discipline"
+        ],
+        "firstPublishedAt": "2026-10-29T15:53:46.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.919Z"
+      }
+    },
+    {
+      "id": "news-46e9220382855ee4cf978e57",
+      "title": "DoorDash, 대형 인수로 인스탁트(Instacart) 인수 합의",
+      "titleTranslations": {
+        "en": "DoorDash to buy Instacart for $17bn in major grocery delivery consolidation"
+      },
+      "startAt": "2026-10-29T13:41:43.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도는 DoorDash가 인스탁트(Instacart)를 약 170억 달러에 인수하기로 합의했다고 전했다. 회사들은 브랜드와 앱을 유지하고 매장·배달 인프라 결합을 통해 식료품 배달 역량을 강화하겠다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Reports say DoorDash has agreed to buy Instacart for about $17 billion, consolidating grocery‑delivery capacity. The companies say the Instacart brand and app will remain and that the deal will expand store and delivery coverage."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/29/doordash-buys-instacart-grocery-delivery",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/29/doordash-buys-instacart-grocery-delivery"
+        ],
+        "firstPublishedAt": "2026-10-29T13:41:43.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.919Z"
+      }
+    },
+    {
+      "id": "news-06a2c703111142070fa59601",
+      "title": "미국에 확산되는 전기 페리 물결—일부 선박은 '플라잉' 요소도",
+      "titleTranslations": {
+        "en": "A new wave of electric ferries is here in the US. Some even fly"
+      },
+      "startAt": "2026-10-29T10:00:31.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "보도는 미국에서 디젤 선박을 전기 추진 페리로 대체하는 움직임이 확산되고 있으며, 일부 설계는 공기역학적·전문화된 기능으로 '비행'처럼 보이는 요소를 갖춘다고 전했다. 전기 페리는 배출 저감과 대기질 개선 잠재력을 강조받고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say a wave of electric ferries is emerging in the US to replace diesel‑powered vessels, with some designs featuring aerodynamic or specialized elements that give a 'flying' appearance. Electric ferries are promoted for emissions reductions and air‑quality benefits."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries"
+        ],
+        "firstPublishedAt": "2026-10-29T10:00:31.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.919Z"
+      }
+    },
     {
       "id": "news-3fd55028484ec2521875f21d",
       "title": "유럽의 자산 격차: 고령 가구가 젊은 가구보다 8배 더 부유",
@@ -517,6 +799,34 @@
         ],
         "firstPublishedAt": "2026-10-27T17:58:57.000Z",
         "lastObservedAt": "2026-10-27T18:40:30.181Z"
+      }
+    },
+    {
+      "id": "news-393575ee7d83ff0a65d333d8",
+      "title": "DeepMind, 차세대 세계 시뮬레이션 'Genie 4' 공개",
+      "titleTranslations": {
+        "en": "Genie 4: A new generation of world simulation"
+      },
+      "startAt": "2026-10-27T16:01:38.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "보도는 구글 딥마인드가 실시간 시뮬레이션에서 이전보다 높은 현실감을 제공하는 차세대 세계 모델 'Genie 4'를 공개했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say Google DeepMind unveiled 'Genie 4', a next‑generation world model that claims to unlock unprecedented realism in real‑time simulation."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+        ],
+        "firstPublishedAt": "2026-10-27T16:01:38.000Z",
+        "lastObservedAt": "2026-10-29T18:57:24.919Z"
       }
     },
     {
@@ -1552,34 +1862,6 @@
       }
     },
     {
-      "id": "news-97677e7897f02058145f8c4c",
-      "title": "알래스카 연방 토지서 사냥용 곰 미끼 허용 — 트럼프 행정부 규정 변경",
-      "titleTranslations": {
-        "en": "New Trump rule allows hunters to bait bears on federal lands in Alaska"
-      },
-      "startAt": "2026-10-24T11:00:32.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 트럼프 행정부가 연방 소유 알래스카 지역에서 베이컨·도넛·고기 부스러기 등 인간 식품을 이용해 곰을 유인하는 것을 허용하는 규정을 도입했다. 환경단체들은 곰의 인간 접근성 증가와 안전 위험을 우려하며 비판하고 있다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports the Trump administration has issued a rule permitting hunters to bait bears with human food such as bacon, doughnuts and meat scraps on federal lands in Alaska. Environmental groups criticize the change, warning it could increase bear encounters with people and pose safety risks."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/trump-administration-alaska-bear-hunting-bait",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/24/trump-administration-alaska-bear-hunting-bait"
-        ],
-        "firstPublishedAt": "2026-10-24T11:00:32.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
       "id": "news-bc0ee4ef9353aebda5552926",
       "title": "라우리엔타이드 빙하 잔존부의 확장 신호 — 약 2,000년 전 시작 가능성 제시",
       "titleTranslations": {
@@ -1610,35 +1892,6 @@
       }
     },
     {
-      "id": "news-2f85a91b545e153ef5356943",
-      "title": "예멘 타이즈 봉쇄로 식수 공급 급감 — 도시가 포위된 가운데 인도적 위기 심화",
-      "titleTranslations": {
-        "en": "Drinking water supplies dwindle in besieged Yemeni city of Taiz"
-      },
-      "startAt": "2026-10-24T07:04:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도는 남서부 예멘의 타이즈가 후티 반군의 포위가 강화되며 식수 공급이 급격히 줄어들고 있다고 전한다. 해당 도시는 수년간 물 문제를 겪어왔으나 최근 몇 주 상황이 특히 악화돼 주민들의 인도적 고통이 커지고 있다.",
-      "descriptionTranslations": {
-        "en": "NPR reports that drinking water supplies in Taiz, a city in southwestern Yemen, are dwindling as Houthi rebels tighten their encirclement. The city has struggled with water issues for years, but conditions have worsened in recent weeks, deepening the humanitarian crisis."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/24/g-s1-149729/drinking-water-supplies-dwindle-in-yemeni-city-besieged-by-houthi-rebels",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/24/g-s1-149729/drinking-water-supplies-dwindle-in-yemeni-city-besieged-by-houthi-rebels"
-        ],
-        "firstPublishedAt": "2026-10-24T07:04:13.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
       "id": "news-322315c951a03eb33f46aff9",
       "title": "영국 정부의 £58억(£5.8bn) 도시재생 계획, 그림스비 등 중심으로 지역상권 재활 시도",
       "titleTranslations": {
@@ -1664,34 +1917,6 @@
         ],
         "firstPublishedAt": "2026-10-24T06:00:26.000Z",
         "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
-      "id": "news-d173b365f099e59d7d5ad743",
-      "title": "네타냐후의 제도 재편 분석 — 10월 27일 총선 앞둔 영향력 재조명",
-      "titleTranslations": {
-        "en": "How Benjamin Netanyahu reshaped Israel’s institutions — influence highlighted ahead of Oct 27 election"
-      },
-      "startAt": "2026-10-24T05:29:07.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도는 재선에 도전하는 베냐민 네타냐후 총리가 장기간 집권과 정치적 분열 속에서 이스라엘의 여러 제도를 어떻게 재편·영향력화했는지를 분석하고 있다. 해당 분석은 10월 27일 치러지는 총선의 맥락에서 그의 정치적 유산과 선거 쟁점을 조명한다.",
-      "descriptionTranslations": {
-        "en": "Reporting examines how Benjamin Netanyahu, seeking re‑election, has reshaped Israeli institutions during his long and polarising tenure. The analysis highlights the institutional changes and their relevance to the Oct. 27 national election."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/24/how-benjamin-netanyahu-reshaped-israels-institutions?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/24/how-benjamin-netanyahu-reshaped-israels-institutions?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-24T05:29:07.000Z",
-        "lastObservedAt": "2026-10-24T05:46:11.718Z"
       }
     },
     {
@@ -1786,91 +2011,6 @@
       }
     },
     {
-      "id": "news-5590d522acab14195862d6f7",
-      "title": "백악관, 일부 캐나다산 품목에 대한 관세 완화 발표",
-      "titleTranslations": {
-        "en": "White House eases tariffs on some Canadian goods"
-      },
-      "startAt": "2026-10-23T22:03:07.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언과 BBC 보도에 따르면 백악관은 일부 캐나다산 품목에 대한 관세 규정을 완화하기로 결정했다. 가디언은 예외 적용 대상에 블루베리·감자·사과·해조류 등 농산물을 포함한 9개 품목이 언급됐다고 전했고, BBC는 일부 기계류에 대한 완화와 특정 품목(예: 카펫)에 대한 관세 부과 조정이 10월 30일부터 적용된다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "According to reporting in The Guardian and the BBC, the White House has eased tariffs on certain Canadian goods. The Guardian says exemptions cover nine agricultural products including blueberries, potatoes, apples and seaweed, while the BBC reports tariff adjustments — easing for some machinery and changes for other items such as carpets — will take effect from Oct. 30."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
-          "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-23T22:03:07.000Z",
-        "lastObservedAt": "2026-10-24T05:46:11.718Z"
-      }
-    },
-    {
-      "id": "news-1d17155788833fd03f861993",
-      "title": "중동 긴장 우려에 브렌트유가 배럴당 $117 돌파",
-      "titleTranslations": {
-        "en": "Oil price rises above $117 a barrel amid fears of renewed strikes on Iran"
-      },
-      "startAt": "2026-10-23T16:48:28.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "브렌트유가 약 3.5% 상승해 한때 배럴당 $117를 넘겼다. 보도는 이는 중동에서의 추가 군사행동 우려와 테헤란의 보복 위협이 에너지 시장을 압박한 결과라고 전한다.",
-      "descriptionTranslations": {
-        "en": "Brent crude rose by about 3.5% to top $117 a barrel at one point. Reporting says the rise reflects market fears of fresh escalation in the Middle East and retaliatory threats from Tehran."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran"
-        ],
-        "firstPublishedAt": "2026-10-23T16:48:28.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
-      }
-    },
-    {
-      "id": "news-72788e19edcb4ffc1a5b2b4f",
-      "title": "소설가 류 무라카미(Ryu Murakami) 별세, 향년 74",
-      "titleTranslations": {
-        "en": "Ryu Murakami, cult Japanese author, dies aged 74"
-      },
-      "startAt": "2026-10-23T13:21:16.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "영화화된 소설 '오디션' 등으로 알려진 일본의 소설가 겸 영화감독 류 무라카미가 향년 74세로 사망했다고 보도됐다. 그는 사회 어두운 면을 탐구한 작품들로 널리 알려졌다.",
-      "descriptionTranslations": {
-        "en": "Japanese novelist and filmmaker Ryu Murakami, known for works including Audition, has died aged 74, reporting says. He was renowned for exploring the darker sides of society in his fiction."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/books/2026/oct/23/ryu-murakami-cult-author-of-coin-locker-babies-and-audition-dies-aged-74",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/books/2026/oct/23/ryu-murakami-cult-author-of-coin-locker-babies-and-audition-dies-aged-74"
-        ],
-        "firstPublishedAt": "2026-10-23T13:21:16.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
-      }
-    },
-    {
       "id": "news-a2942cdad3f6804df91978d8",
       "title": "앤디 번햄, '일상 문제 해결' 우선 전략으로 소규모 개혁 강조",
       "titleTranslations": {
@@ -1931,64 +2071,6 @@
       }
     },
     {
-      "id": "news-e4e9b36a9b37e2ce37991331",
-      "title": "개인맞춤형 mRNA 흑색종 백신, 재발·사망 위험 크게 낮춰 — 임상 결과",
-      "titleTranslations": {
-        "en": "‘Bespoke’ mRNA melanoma vaccine significantly reduces risk of recurrence or death, trial shows"
-      },
-      "startAt": "2026-10-23T04:27:18.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "가디언 보도는 개인의 흑색종 유전자 변이를 표적화하는 맞춤형 mRNA 백신 'intismeran'이 2년 내 암 재발 또는 사망 위험을 유의미하게 감소시켰다는 임상 결과를 보도했다. 보도는 이 결과가 개인맞춤 항암 치료 접근법의 전환점이 될 수 있다고 평가했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports clinical‑trial results showing a personalized mRNA melanoma vaccine, intismeran, significantly reduced the risk of recurrence or death within two years. The coverage suggests the findings could represent a turning point for personalized cancer vaccines."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/society/2026/oct/23/mrna-vaccine-melanoma-cancer-breakthrough-australia",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/society/2026/oct/23/mrna-vaccine-melanoma-cancer-breakthrough-australia"
-        ],
-        "firstPublishedAt": "2026-10-23T04:27:18.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
-      "id": "news-ec3bc3e869d143fdc02d121b",
-      "title": "올해 엘니뇨 비교를 위한 위성 고도계 35년 기록 공개 — 'El Niño Then and Now'",
-      "titleTranslations": {
-        "en": "El Niño Then and Now — a 35‑year satellite altimetry record used to compare this year’s El Niño with past events"
-      },
-      "startAt": "2026-10-23T04:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA의 보도는 35년 치 위성 고도계 기록을 통해 올해의 엘니뇨를 과거의 강력한 엘니뇨들과 비교할 수 있게 됐다고 전했다. 장기 위성 자료는 이번 현상의 규모와 영향 평가에 활용된다.",
-      "descriptionTranslations": {
-        "en": "NASA reports that a 35‑year satellite altimetry record allows scientists to compare this year’s El Niño against its strongest predecessors. The long‑term data help assess the event’s scale and impacts."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/"
-        ],
-        "firstPublishedAt": "2026-10-23T04:00:00.000Z",
-        "lastObservedAt": "2026-10-23T06:00:48.524Z"
-      }
-    },
-    {
       "id": "news-d36b74aa246a7f9f73c2da66",
       "title": "레이(Raye), 앨범 'This Music May Contain Hope'로 머큐리상 수상",
       "titleTranslations": {
@@ -2014,34 +2096,6 @@
         ],
         "firstPublishedAt": "2026-10-23T00:14:08.000Z",
         "lastObservedAt": "2026-10-23T06:00:48.524Z"
-      }
-    },
-    {
-      "id": "news-1a543055a02f9816518cc039",
-      "title": "오픈AI·폴란드 NASK, AI 안전·보안 분야 협력 발표",
-      "titleTranslations": {
-        "en": "OpenAI and Poland’s NASK partner on AI safety and security"
-      },
-      "startAt": "2026-10-23T00:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "오픈AI와 폴란드의 네트워크·정보안보 기관 NASK가 AI 안전·보안과 기술 연구 분야에서 협력하기로 했다고 발표했다. 보도는 협력이 안전장치 강화와 디지털 생태계 회복력 제고를 목표로 한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "OpenAI and Poland’s NASK have announced a partnership on AI safety, security and technical research, aiming to strengthen safeguards and build a more resilient digital ecosystem, reporting says."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/openai-nask-ai-safety-security-partnership"
-        ],
-        "firstPublishedAt": "2026-10-23T00:00:00.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
       }
     },
     {
@@ -2184,34 +2238,6 @@
         ],
         "firstPublishedAt": "2026-10-21T23:02:30.000Z",
         "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
-      "id": "news-ecc61938bb8bf98662f87b53",
-      "title": "교황, 폐암 수술 후 추가 치료 불필요 판정",
-      "titleTranslations": {
-        "en": "Pope does not need further treatment after lung cancer surgery"
-      },
-      "startAt": "2026-10-21T20:09:10.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "보도에 따르면 교황이 받은 검사 결과는 국소화된 폐 선암(adenocarcinoma)으로 확인되었고 추가 치료는 필요하지 않다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reporting says tests confirmed the Pope had a localized lung adenocarcinoma and that he does not need further treatment."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-21T20:09:10.000Z",
-        "lastObservedAt": "2026-10-22T06:08:00.502Z"
       }
     },
     {
@@ -2501,35 +2527,6 @@
         ],
         "firstPublishedAt": "2026-10-17T02:33:09.000Z",
         "lastObservedAt": "2026-10-17T05:33:39.452Z"
-      }
-    },
-    {
-      "id": "news-52a16e16972c71c77905829c",
-      "title": "럭비리그 월드컵 개막전서 호주, 뉴질랜드에 극적 승리(24‑22) — 보스톡 해트트릭",
-      "titleTranslations": {
-        "en": "Australia clinch thrilling Rugby League World Cup opener, 24–22 over New Zealand"
-      },
-      "startAt": "2026-10-15T17:00:06.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 2,
-      "description": "시드니에서 열린 럭비리그 월드컵 개막전에서 호주가 뉴질랜드를 24‑22로 꺾고 개막전을 승리로 장식했다. 데뷔 선수 잭 보스톡이 해트트릭을 기록했고 몇몇 선수는 경기 중 극심한 육체적 부담을 겪었다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "In the Rugby League World Cup opener in Sydney, Australia beat New Zealand 24–22 with debutant Jack Bostock scoring a hat‑trick. Reports note intense physical tolls on players during the dramatic match."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/rugby-league/articles/c574pn7j0yp3o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/rugby-league/articles/c574pn7j0yp3o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/sport/rugby-league/videos/cmn4eqpvw1ppo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-15T15:07:28.000Z",
-        "lastObservedAt": "2026-10-15T17:45:31.321Z"
       }
     },
     {
