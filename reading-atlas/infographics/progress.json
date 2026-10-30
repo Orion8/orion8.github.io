@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 63,
+    "completedCount": 64,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3280,35 +3280,48 @@
           "englishMobile": "390x585",
           "checkedOn": "2026-10-29"
         }
+      },
+      {
+        "sequence": 64,
+        "id": 62,
+        "title": "Le Capital au XXIe siècle",
+        "englishTitle": "Capital in the Twenty-First Century",
+        "koreanTitle": "21세기 자본",
+        "status": "completed-and-verified",
+        "koreanImage": "capital-in-the-twenty-first-century-v3-integrated-ko.webp",
+        "englishImage": "capital-in-the-twenty-first-century-v3-integrated-en.webp",
+        "koreanPreview": "../previews/capital-in-the-twenty-first-century-v3-integrated-ko-mobile.webp",
+        "englishPreview": "../previews/capital-in-the-twenty-first-century-v3-integrated-en-mobile.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "completedOn": "2026-10-30",
+        "sourceNotes": "sources/capital-in-the-twenty-first-century-v3-integrated.md",
+        "sources": [
+          "https://www.loc.gov/item/2013036024/",
+          "https://www.aeaweb.org/articles?id=10.1257/JEP.29.1.67",
+          "https://www.aeaweb.org/articles?id=10.1257/AER.P20151060",
+          "https://wid.world/document/piketty-thomas-2014-capital-21st-century-harvard-university-press-2014-introduction-chapter-1/",
+          "https://www.degruyter.com/document/doi/10.4159/9780674369542/html",
+          "https://www.yes24.com/product/goods/14156539",
+          "https://m.series.naver.com/ebook/moreDetail.series?productNo=1717251&type=index"
+        ],
+        "publicBrowserChecks": {
+          "koreanCardHref": "infographics/capital-in-the-twenty-first-century-v3-integrated-ko.webp",
+          "englishCardHref": "infographics/capital-in-the-twenty-first-century-v3-integrated-en.webp",
+          "koreanOriginal": "1024x1536",
+          "englishOriginal": "1024x1536",
+          "koreanMobile": "390x585",
+          "englishMobile": "390x585",
+          "checkedOn": "2026-10-30"
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 64,
-      "id": 62,
-      "title": "Le Capital au XXIe siècle",
-      "englishTitle": "Capital in the Twenty-First Century",
-      "koreanTitle": "21세기 자본",
-      "status": "content-verified-art-generation-pending",
-      "koreanImage": "capital-in-the-twenty-first-century-v3-integrated-ko.webp",
-      "englishImage": "capital-in-the-twenty-first-century-v3-integrated-en.webp",
-      "koreanComplete": false,
-      "englishComplete": false,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-30",
-      "sourceNotes": "sources/capital-in-the-twenty-first-century-v3-integrated.md",
-      "sources": [
-        "https://www.loc.gov/item/2013036024/",
-        "https://www.aeaweb.org/articles?id=10.1257/JEP.29.1.67",
-        "https://www.aeaweb.org/articles?id=10.1257/AER.P20151060",
-        "https://wid.world/document/piketty-thomas-2014-capital-21st-century-harvard-university-press-2014-introduction-chapter-1/",
-        "https://www.degruyter.com/document/doi/10.4159/9780674369542/html",
-        "https://www.yes24.com/product/goods/14156539",
-        "https://m.series.naver.com/ebook/moreDetail.series?productNo=1717251&type=index"
-      ]
-    }
+    "inProgress": null
   }
 }
