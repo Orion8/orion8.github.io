@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "3.8.0",
-  "updatedAt": "2026-09-25T18:00:00.000Z",
+  "catalogVersion": "3.9.0",
+  "updatedAt": "2026-10-30T19:20:27.000Z",
   "sourceType": "officialInstitution",
   "topicGroups": [
     {
@@ -269,6 +269,174 @@
     }
   ],
   "events": [
+    {
+      "id": "historic-big-bang",
+      "title": "빅뱅: 우주의 시작",
+      "titleTranslations": {
+        "en": "The Big Bang: Beginning of the Universe"
+      },
+      "startAt": "-13800000000-01-01T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "관측 가능한 우주의 초기 뜨겁고 조밀한 상태가 약 138억 년 전 시작되어 팽창했습니다. 표시된 연도는 우주의 추정 나이를 시간축에 옮긴 값이며 정확한 달력 날짜가 아닙니다.",
+      "descriptionTranslations": {
+        "en": "The observable universe expanded from an early hot, dense state about 13.8 billion years ago. The plotted year maps the estimated age onto the timeline; it is not an exact calendar date."
+      },
+      "sourceName": "NASA Science",
+      "sourceUrl": "https://science.nasa.gov/exoplanets/what-is-the-universe/",
+      "topicIds": ["spaceDevelopment", "physicsChemistry"],
+      "timeEstimate": {
+        "kind": "approximate",
+        "displayLabel": "약 138억 년 전",
+        "displayLabelTranslations": {"en": "About 13.8 billion years ago"},
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "historic-primordial-nucleosynthesis",
+      "title": "초기 우주에서 수소·헬륨 원자핵 형성",
+      "titleTranslations": {
+        "en": "Primordial Hydrogen and Helium Nuclei Form"
+      },
+      "startAt": "-13800000000-01-01T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "빅뱅 후 수 분 동안 우주가 식으면서 수소와 헬륨의 원자핵이 만들어졌습니다. 수 분 차이는 이 장기 시간축에서 분리해 표현할 수 없어 빅뱅과 같은 대략적 위치에 표시합니다.",
+      "descriptionTranslations": {
+        "en": "Within minutes of the Big Bang, cooling allowed hydrogen and helium nuclei to form. This minute-scale interval cannot be resolved on a billion-year timeline, so the event shares the Big Bang's approximate position."
+      },
+      "sourceName": "NASA Hubble",
+      "sourceUrl": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-big-bang/",
+      "topicIds": ["spaceDevelopment", "physicsChemistry"],
+      "timeEstimate": {
+        "kind": "approximate",
+        "displayLabel": "빅뱅 후 수 분 (약 138억 년 전)",
+        "displayLabelTranslations": {"en": "Minutes after the Big Bang (about 13.8 billion years ago)"},
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "historic-cosmic-microwave-background",
+      "title": "첫 원자와 우주배경복사",
+      "titleTranslations": {
+        "en": "First Atoms and the Cosmic Microwave Background"
+      },
+      "startAt": "-13799620000-01-01T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "빅뱅 약 38만 년 후 전자가 원자핵과 결합해 중성 원자가 형성되고, 빛이 자유롭게 퍼질 수 있게 됐습니다. 그 빛의 흔적이 오늘날 관측되는 우주배경복사입니다.",
+      "descriptionTranslations": {
+        "en": "About 380,000 years after the Big Bang, electrons combined with nuclei to form neutral atoms, allowing light to travel freely. Its afterglow is observed today as the cosmic microwave background."
+      },
+      "sourceName": "NASA Hubble",
+      "sourceUrl": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-big-bang/",
+      "topicIds": ["spaceDevelopment", "physicsChemistry"],
+      "timeEstimate": {
+        "kind": "approximate",
+        "displayLabel": "빅뱅 후 약 38만 년",
+        "displayLabelTranslations": {"en": "About 380,000 years after the Big Bang"},
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "historic-first-stars",
+      "title": "우주 최초의 별들 탄생",
+      "titleTranslations": {
+        "en": "The First Stars Form"
+      },
+      "startAt": "-13500000000-01-01T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "빅뱅 후 수억 년에 걸쳐 밀도가 높은 가스 구름에서 최초의 별들이 형성되었습니다. 초기 별은 주로 수소와 헬륨으로 이루어졌으며, 이후 별의 진화가 더 무거운 원소를 만들기 시작했습니다. 표시 시점은 이 넓은 추정 구간의 대표값입니다.",
+      "descriptionTranslations": {
+        "en": "A few hundred million years after the Big Bang, the densest gas clouds formed the first stars. They consisted mainly of hydrogen and helium; stellar evolution later began enriching the universe with heavier elements. The plotted time is a representative point within a broad estimated interval."
+      },
+      "sourceName": "ESA Planck",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Planck/History_of_cosmic_structure_formation",
+      "topicIds": ["spaceDevelopment", "physicsChemistry"],
+      "timeEstimate": {
+        "kind": "approximate",
+        "displayLabel": "빅뱅 후 수억 년 (약 135억 년 전)",
+        "displayLabelTranslations": {"en": "A few hundred million years after the Big Bang (about 13.5 billion years ago)"},
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "historic-first-galaxies",
+      "title": "초기 은하의 형성",
+      "titleTranslations": {
+        "en": "The First Galaxies Form"
+      },
+      "startAt": "-13200000000-01-01T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "빅뱅 후 수억 년 동안 별과 가스가 모여 최초의 은하들이 나타났습니다. 첫 별과 첫 은하의 형성은 겹쳐 진행된 과정이며, 표시 시점은 추정 시대를 나타내는 대표값입니다.",
+      "descriptionTranslations": {
+        "en": "Over the first several hundred million years after the Big Bang, stars and gas assembled into the earliest galaxies. The formation of the first stars and galaxies overlapped; the plotted time represents an estimated era, not a precisely dated event."
+      },
+      "sourceName": "ESA Planck",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Planck/History_of_cosmic_structure_formation",
+      "topicIds": ["spaceDevelopment"],
+      "timeEstimate": {
+        "kind": "approximate",
+        "displayLabel": "빅뱅 후 수억 년 (약 132억 년 전)",
+        "displayLabelTranslations": {"en": "Several hundred million years after the Big Bang (about 13.2 billion years ago)"},
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "historic-cosmic-reionization",
+      "title": "우주의 재이온화",
+      "titleTranslations": {
+        "en": "Cosmic Reionization"
+      },
+      "startAt": "-12800000000-01-01T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "초기 별과 은하의 빛이 우주에 퍼져 있던 중성 수소를 다시 이온화했습니다. 이 과정은 긴 시대에 걸쳐 진행됐으며, 빅뱅 후 약 10억 년에는 은하 사이 가스가 빛에 훨씬 투명해졌습니다.",
+      "descriptionTranslations": {
+        "en": "Light from early stars and galaxies reionized neutral hydrogen between galaxies. This was an extended process; by about one billion years after the Big Bang, intergalactic gas had become much more transparent to light."
+      },
+      "sourceName": "NASA Webb",
+      "sourceUrl": "https://science.nasa.gov/missions/webb/nasas-webb-proves-galaxies-transformed-the-early-universe/",
+      "topicIds": ["spaceDevelopment", "physicsChemistry"],
+      "timeEstimate": {
+        "kind": "approximate",
+        "displayLabel": "빅뱅 후 약 10억 년",
+        "displayLabelTranslations": {"en": "About 1 billion years after the Big Bang"},
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "historic-solar-system-formation",
+      "title": "태양과 태양계의 형성",
+      "titleTranslations": {
+        "en": "Formation of the Sun and Solar System"
+      },
+      "startAt": "-4600000000-01-01T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "약 46억 년 전 성간 가스·먼지 구름이 수축하면서 중심에 태양이 형성되고 주변 물질은 원시행성계 원반을 이루었습니다. 지구를 비롯한 행성은 그 원반에서 형성됐습니다. 지구 형성과 같은 넓은 추정 시대에 표시합니다.",
+      "descriptionTranslations": {
+        "en": "About 4.6 billion years ago, a cloud of interstellar gas and dust collapsed. The Sun formed at its center and surrounding material became a protoplanetary disk from which Earth and the other planets formed. It shares Earth's broad estimated formation era."
+      },
+      "sourceName": "NASA Science",
+      "sourceUrl": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "topicIds": ["spaceDevelopment", "earthDeepHistory"],
+      "timeEstimate": {
+        "kind": "approximate",
+        "displayLabel": "약 46억 년 전",
+        "displayLabelTranslations": {"en": "About 4.6 billion years ago"},
+        "confidence": "high"
+      }
+    },
     {
       "id": "historic-earth-formation",
       "title": "지구의 형성",
