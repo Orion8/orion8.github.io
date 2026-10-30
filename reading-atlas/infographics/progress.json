@@ -3243,6 +3243,32 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 63,
+      "id": 61,
+      "title": "Poor Economics",
+      "koreanTitle": "가난한 사람이 더 합리적이다",
+      "status": "content-verified-art-generation-pending",
+      "koreanImage": "poor-economics-v3-integrated-ko.webp",
+      "englishImage": "poor-economics-v3-integrated-en.webp",
+      "koreanComplete": false,
+      "englishComplete": false,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-29",
+      "sourceNotes": "sources/poor-economics-v3-integrated.md",
+      "sources": [
+        "https://economics.mit.edu/people/faculty/abhijit-banerjee/poor-economics",
+        "https://www.hbglibrary.com/titles/abhijit-v-banerjee/poor-economics/9781541706187/",
+        "https://books.google.com/books/about/Poor_Economics.html?id=2dlnBoX4licC",
+        "https://www.nber.org/papers/w14467",
+        "https://www.aeaweb.org/articles?id=10.1257/JEL.50.1.103",
+        "https://www.mcst.go.kr/site/s_culture/book/bookView.jsp?pDetailSeq=316",
+        "https://lib.kdi.re.kr/search/detail/CATTOT000113315067"
+      ]
+    }
   }
 }
