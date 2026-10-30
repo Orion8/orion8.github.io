@@ -523,7 +523,8 @@
       "demo": "https://orion8.github.io/cdx_timer/",
       "thumbnail": null,
       "video": null,
-      "source": "https://github.com/Orion8/orion8.github.io/blob/main/index.html"
+      "source": "https://github.com/Orion8/orion8.github.io/blob/main/index.html",
+      "type": "application"
     },
     {
       "id": "memory",
@@ -540,7 +541,8 @@
       "demo": "https://orion8.github.io/memory.html",
       "thumbnail": null,
       "video": null,
-      "source": "https://github.com/Orion8/orion8.github.io/blob/main/index.html"
+      "source": "https://github.com/Orion8/orion8.github.io/blob/main/index.html",
+      "type": "knowledge"
     }
   ],
   "education": [
