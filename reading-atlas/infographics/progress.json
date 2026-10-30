@@ -3361,6 +3361,32 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 66,
+      "id": 64,
+      "title": "Debt: The First 5,000 Years",
+      "englishTitle": "Debt: The First 5,000 Years",
+      "koreanTitle": "부채, 그 첫 5,000년",
+      "status": "content-verified-art-generation-pending",
+      "koreanImage": "debt-the-first-5000-years-v3-integrated-ko.webp",
+      "englishImage": "debt-the-first-5000-years-v3-integrated-en.webp",
+      "koreanComplete": false,
+      "englishComplete": false,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-30",
+      "sourceNotes": "sources/debt-the-first-5000-years-v3-integrated.md",
+      "sources": [
+        "https://davidgraeber.org/books/debt-the-first-5000-years/",
+        "https://penguinrandomhousehighereducation.com/book/?isbn=9781612199337",
+        "https://books.google.com/books?id=lliTBQAAQBAJ",
+        "https://iucat.iu.edu/iub/19814898",
+        "https://doi.org/10.1080/00664677.2012.729492",
+        "https://dl.kli.re.kr/%26/10110/contents/6003726"
+      ]
+    }
   }
 }
