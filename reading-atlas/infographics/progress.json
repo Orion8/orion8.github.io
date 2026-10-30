@@ -3322,6 +3322,32 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 65,
+      "id": 63,
+      "title": "The Origins of Political Order",
+      "englishTitle": "The Origins of Political Order",
+      "koreanTitle": "정치 질서의 기원",
+      "status": "content-verified-art-generation-pending",
+      "koreanImage": "the-origins-of-political-order-v3-integrated-ko.webp",
+      "englishImage": "the-origins-of-political-order-v3-integrated-en.webp",
+      "koreanComplete": false,
+      "englishComplete": false,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-30",
+      "sourceNotes": "sources/the-origins-of-political-order-v3-integrated.md",
+      "sources": [
+        "https://us.macmillan.com/books/9780374533229/theoriginsofpoliticalorder",
+        "https://fukuyama.stanford.edu/",
+        "https://doi.org/10.1111/gove.12035",
+        "https://catalog.loc.gov/vwebv/search?searchArg=The+Origins+of+Political+Order&searchCode=GKEY%5E*&searchType=0",
+        "https://search.worldcat.org/search?q=ti%3AThe+Origins+of+Political+Order+au%3AFrancis+Fukuyama",
+        "https://www.nl.go.kr/NL/contents/search.do?srchTarget=total&pageNum=1&pageSize=10&kwd=%EC%A0%95%EC%B9%98%20%EC%A7%88%EC%84%9C%EC%9D%98%20%EA%B8%B0%EC%9B%90"
+      ]
+    }
   }
 }
