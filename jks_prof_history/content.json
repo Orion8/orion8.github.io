@@ -3,12 +3,12 @@
     "github": "https://github.com/Orion8",
     "name": "Keeseok Jeong",
     "role": {
-      "ko": "게임 · MR 소프트웨어 엔지니어",
-      "en": "Game & MR Software Engineer"
+      "ko": "AI 도구로 창작을 넓혀가는 크리에이터",
+      "en": "Creator exploring with AI tools"
     },
     "summary": {
-      "ko": "콘솔에서 PC·모바일 게임, 그리고 Mixed Reality까지. 캐릭터의 움직임, 전투 시스템, NPC 대화와 물리 시뮬레이션으로 인터랙티브한 세계를 만들어 왔습니다.",
-      "en": "From console, PC, and mobile games to mixed reality, I have built interactive worlds through character behavior, combat systems, NPC dialogue, and physics simulation."
+      "ko": "게임과 인터랙티브한 세계를 만들어 온 경험을 바탕으로, 이제는 AI 도구를 활용하는 크리에이터로 나아가고 있습니다. 오래 품었던 아이디어와 일상의 호기심을 하나씩 창작으로 옮기려 합니다.",
+      "en": "After years of building games and interactive worlds, I’m growing into a creator who works with AI tools. I want to bring long-held ideas and everyday curiosities to life, one project at a time."
     },
     "email": "jeong.keeseok@gmail.com",
     "linkedin": "https://www.linkedin.com/in/keeseok-jeong",
@@ -23,7 +23,59 @@
       "Android / iOS",
       "PC / Console"
     ],
-    "source": "Resume_2024_Keeseok_1.pdf, p. 1"
+    "source": "User-provided creator direction, 2026-10-30; Resume_2024_Keeseok_1.pdf, p. 1 for name, contact, and career skills",
+    "focus": [
+      {
+        "title": {
+          "ko": "게임과 도구 앱",
+          "en": "Games & useful apps"
+        },
+        "description": {
+          "ko": "예전에 구상했던 게임과 일상을 편하게 하는 도구 앱을 하나씩 만들어가기.",
+          "en": "Bring long-imagined games and useful everyday apps to life, one at a time."
+        }
+      },
+      {
+        "title": {
+          "ko": "게임 엔진 영상",
+          "en": "Game-engine videos"
+        },
+        "description": {
+          "ko": "게임 엔진으로 장면을 만들고 녹화해 YouTube로 나누기.",
+          "en": "Create scenes in game engines, record them, and share them on YouTube."
+        }
+      },
+      {
+        "title": {
+          "ko": "AI 음악",
+          "en": "AI music"
+        },
+        "description": {
+          "ko": "내가 듣기에 즐거운 AI 음악을 만들고 YouTube에 올리기.",
+          "en": "Make AI music I enjoy listening to and share it on YouTube."
+        }
+      },
+      {
+        "title": {
+          "ko": "시각적인 지식 탐구",
+          "en": "Visual knowledge"
+        },
+        "description": {
+          "ko": "궁금한 분야를 깊이 조사하고, 내용을 보기 좋고 시각적인 웹으로 정리하기.",
+          "en": "Research subjects I want to understand more deeply and organize what I learn into clear, visual web pages."
+        }
+      },
+      {
+        "title": {
+          "ko": "새로운 아이디어 실험",
+          "en": "Experiments with new ideas"
+        },
+        "description": {
+          "ko": "떠오르는 아이디어를 실험하며 새로운 창작의 가능성을 찾아가기.",
+          "en": "Try out new ideas and explore where they might lead."
+        }
+      }
+    ]
   },
   "career": [
     {
