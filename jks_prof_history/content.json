@@ -138,7 +138,12 @@
           "en": "Managed project schedules and priorities, coordinated teams, and hired new staff."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, p. 4"
+      "source": "Resume_2024_Keeseok_1.pdf, p. 4",
+      "logo": {
+        "path": "./assets/companies/hanbitsoft-official.png",
+        "source": "https://www.hanbitsoft.co.kr/company/ci",
+        "period": "Official CI"
+      }
     },
     {
       "date": "2004",
