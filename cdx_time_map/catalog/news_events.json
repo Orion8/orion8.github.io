@@ -1,8 +1,182 @@
 {
-  "catalogVersion": "0.0.193",
-  "updatedAt": "2026-10-29T18:57:24.919Z",
+  "catalogVersion": "0.0.194",
+  "updatedAt": "2026-10-30T18:34:43.977Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-235bb524b25e5166740043aa",
+      "title": "구글의 첫 '데이터센터 위성' 가동 — 우주 TPU에서 제미니 4 모델 가동, 시(詩)도 창작",
+      "titleTranslations": {
+        "en": "Google’s first data‑center satellite is online — a TPU in space runs Gemini 4 and writes poetry"
+      },
+      "startAt": "2026-10-30T17:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "테크크런치 보도에 따르면 구글의 최초 TPU(텐서 처리 유닛) 탑재 위성이 작동을 시작했으며 우주에서 구글 딥마인드의 Gemma 4 모델을 실행해 시(詩)를 쓰는 등 실험적 작업을 수행하고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "TechCrunch reports that Google's first data‑center satellite, carrying a TPU to space, is online. The in‑orbit TPU is running a Google DeepMind Gemma 4 model and has been used to generate poetry as part of early experiments."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+        ],
+        "firstPublishedAt": "2026-10-30T17:00:00.000Z",
+        "lastObservedAt": "2026-10-30T18:34:43.977Z"
+      }
+    },
+    {
+      "id": "news-06dd76803e8b9715c5076919",
+      "title": "바이낸스 사상 최대 63억 달러 해킹 — 전문가들 '북한 배후 가능성' 지목",
+      "titleTranslations": {
+        "en": "Binance hit by historic $6.3bn crypto hack — experts point to North Korea as likely culprit"
+      },
+      "startAt": "2026-10-30T16:35:44.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도는 세계 최대 암호화폐 거래소 바이낸스가 기록적 규모인 약 63억 달러 해킹을 당했으며, 거래소는 고객 손실을 보전하겠다고 밝혔고 약 30억 달러 상당의 자산을 확인했다고 전했다. 일부 전문가들은 북한 연루 가능성을 제기했다.",
+      "descriptionTranslations": {
+        "en": "Reports say Binance, the world's largest cryptocurrency exchange, suffered a record $6.3bn hack. The exchange said it will cover customer losses and has so far located about $3bn in affected assets; some experts have identified North Korea as a likely actor."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack"
+        ],
+        "firstPublishedAt": "2026-10-30T16:35:44.000Z",
+        "lastObservedAt": "2026-10-30T18:34:43.977Z"
+      }
+    },
+    {
+      "id": "news-1fa24dedc7c445b42a7af858",
+      "title": "오레쉬키에서 드문 휴전 중 수백 명 대피 — 일부 주민은 전선에 잔류",
+      "titleTranslations": {
+        "en": "Hundreds evacuated from Oleshky during rare ceasefire — some residents remained in the frontline town"
+      },
+      "startAt": "2026-10-30T16:26:11.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 우크라이나 남부의 러시아가 점령한 오레쉬키 지역에서 인도적 대피·구호를 허용하기 위한 한정적 휴전이 발효돼 수백 명이 대피한 것으로 알려졌다. 보도는 일부 주민은 위험에도 불구하고 전선 도시 잔류를 선택했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say a localized ceasefire in Russian‑occupied Oleshky in southern Ukraine allowed evacuations and humanitarian access, with hundreds reported evacuated. Coverage notes that some residents chose to remain in the frontline town despite the dangers."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+          "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
+        "lastObservedAt": "2026-10-30T18:34:43.977Z"
+      }
+    },
+    {
+      "id": "news-0b103d9b36fda54e3b0cea7b",
+      "title": "분석가들: 다가오는 발사(런치) 위기 '예상보다 더 심각'",
+      "titleTranslations": {
+        "en": "Analysts say looming launch crisis is 'more severe' than anticipated"
+      },
+      "startAt": "2026-10-30T16:12:59.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "아르스테크니카 보도는 분석가들이 다가오는 로켓 발사 능력 문제를 예상보다 심각하다고 평가했다고 전했다. 보도는 추가로 Starship이 전통적 위성을 발사할 것이라는 증거도 없다고 지적했다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports that analysts warn of a looming crisis in launch capacity that is more severe than expected. The coverage also notes there is no evidence that Starship will be used to launch traditional satellites."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/"
+        ],
+        "firstPublishedAt": "2026-10-30T16:12:59.000Z",
+        "lastObservedAt": "2026-10-30T18:34:43.977Z"
+      }
+    },
+    {
+      "id": "news-7aa6dab0376044f6c887c5ca",
+      "title": "나사, 허블 망원경 상업적 정비 가능성 조사 위해 업계에 정보 요청(RFI) 발행",
+      "titleTranslations": {
+        "en": "NASA issues RFI to explore potential commercial servicing for the Hubble Telescope"
+      },
+      "startAt": "2026-10-30T14:51:21.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "나사 보도에 따르면 NASA는 허블 우주망원경을 지원하기 위한 우주 내 정비(in‑space servicing) 역량에 대해 업계의 가능성을 파악하기 위해 10월 29일 정보 요청(Request for Information)을 발행했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "NASA says it issued a Request for Information on Oct. 29 to learn more about industry capabilities for in‑space servicing to support the agency’s Hubble Space Telescope."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"
+        ],
+        "firstPublishedAt": "2026-10-30T14:51:21.000Z",
+        "lastObservedAt": "2026-10-30T18:34:43.977Z"
+      }
+    },
+    {
+      "id": "news-fd1bc1421536f42c3fa94ba6",
+      "title": "배우 패트릭 스튜어트 경 별세 — 향년 86",
+      "titleTranslations": {
+        "en": "Sir Patrick Stewart dies aged 86"
+      },
+      "startAt": "2026-10-30T12:43:46.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 배우 패트릭 스튜어트 경이 알츠하이머병과 루이체체병(Lewy body dementia)으로 인한 '짧고 의미 있는 여정'을 겪은 끝에 로스앤젤레스에서 향년 86세로 사망했다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports that actor Sir Patrick Stewart has died in Los Angeles at the age of 86 following a 'brief and poignant journey' with Alzheimer's disease and Lewy body dementia."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm20v3029p5xo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm20v3029p5xo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-30T12:43:46.000Z",
+        "lastObservedAt": "2026-10-30T18:34:43.977Z"
+      }
+    },
     {
       "id": "news-4b2c059bd94e7ed8fd721e38",
       "title": "NASA 지원 연구, 지구에서 발견된 거의 가장 오래된 화성 운석 연대 확인",
@@ -830,36 +1004,6 @@
       }
     },
     {
-      "id": "news-1fa24dedc7c445b42a7af858",
-      "title": "오레쉬키(Oleshky)에서 한정적 휴전 발효 — 백악관은 멜라니아 트럼프 중재 성과라고 밝혀",
-      "titleTranslations": {
-        "en": "Localized ceasefire begins in Oleshky — White House says brokered by Melania Trump"
-      },
-      "startAt": "2026-10-27T15:13:24.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "백악관은 우크라이나 남부 오레쉬키 지역에서 주민 대피와 인도주의 지원을 위해 한정적 휴전이 시작됐다고 밝혔다. 보도는 휴전이 민간인 대피와 구호 물자 진입을 허용하는 목적이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "The White House said a localized ceasefire has begun in Oleshky in southern Ukraine to allow evacuations and humanitarian aid access. Reporting states the truce is intended to permit civilians to leave and aid to enter."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
-          "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.180Z"
-      }
-    },
-    {
       "id": "news-b64f67eedfb83e74f5e89f73",
       "title": "네이선 필더 연출 엘리자베스 홈즈 다큐 'You Can See Everything' 흥행·관심 촉발",
       "titleTranslations": {
@@ -1289,34 +1433,6 @@
       }
     },
     {
-      "id": "news-4e6f5c4fdf0aa6532ef9c967",
-      "title": "NASA·USDA, 지구관측·지리공간 분석 협력 확대하는 양해각서 체결",
-      "titleTranslations": {
-        "en": "NASA, USDA Sign Agreement Advancing Earth Science, Agriculture"
-      },
-      "startAt": "2026-10-26T13:54:25.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 보도자료에 따르면 NASA와 미국 농무부(USDA)가 지구관측, 지리공간 분석 및 고급 데이터 기술 분야에서 협력 확대를 위한 양해각서(MOU)를 체결해 미 농업의 데이터 현대화 계획을 지원한다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "A NASA news release says NASA and the U.S. Department of Agriculture have signed an MOU to expand cooperation in Earth observation, geospatial analytics and advanced data technologies to support the USDA’s data modernization plan for U.S. agriculture."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/"
-        ],
-        "firstPublishedAt": "2026-10-26T13:54:25.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.655Z"
-      }
-    },
-    {
       "id": "news-c07eb56e557593adc41a833c",
       "title": "우주 거울로 밤에 지구를 비추려는 스타트업 시범에 과학자·환경단체·주민 반발",
       "titleTranslations": {
@@ -1509,34 +1625,6 @@
           "https://www.theguardian.com/global-development/2026/oct/25/environment-cities-cameroon-yaounde-green-space-trees"
         ],
         "firstPublishedAt": "2026-10-25T15:00:05.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
-      "id": "news-097ce32a83063d9a75795b17",
-      "title": "폭스바겐, 조지아 매콘에 40억달러 규모 아우디 SUV 공장 건설",
-      "titleTranslations": {
-        "en": "Volkswagen to build $4bn Audi SUV factory in Macon, Georgia"
-      },
-      "startAt": "2026-10-25T13:43:19.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언 비즈니스에 따르면 아우디는 미국에서 처음으로 공장을 짓기 위해 매콘(조지아)에 약 40억 달러를 투자해 4,500개의 일자리를 창출할 계획이다. 보도는 이 발표가 트럼프의 관세 압박, 중국 경쟁, 전기차 전환 비용 등 배경 속에서 나왔다고 전한다.",
-      "descriptionTranslations": {
-        "en": "The Guardian Business reports that Audi will invest about $4bn to build its first US factory in Macon, Georgia, creating some 4,500 jobs. The coverage places the investment amid Trump‑era tariffs, intense Chinese competition and costly shifts toward electric vehicles."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home"
-        ],
-        "firstPublishedAt": "2026-10-25T13:43:19.000Z",
         "lastObservedAt": "2026-10-25T17:03:28.193Z"
       }
     },
@@ -1948,69 +2036,6 @@
       }
     },
     {
-      "id": "news-dbf5d10f1cf5d9a679c2aa4e",
-      "title": "오픈AI, '프런티어' 모델 훈련 환경에 대한 격리·오프라인 조치 강화 — 인터넷 실시간 데이터 사용 중단 방침 보도",
-      "titleTranslations": {
-        "en": "OpenAI strengthens containment for frontier model training and reportedly stops training on the live internet"
-      },
-      "startAt": "2026-10-23T23:05:49.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "오픈AI는 프런티어 모델의 훈련·평가 환경에 대한 격리 조치를 강화하고 오프라인 환경과 고성능 레드‑팀 작업을 포함한 보강을 설명했다(OpenAI 보도). 복수 보도는 오픈AI가 '중대한 위험'을 이유로 프런티어 모델을 더 이상 실시간 인터넷에서 직접 훈련하지 않기로 했다고 전했다(TechCrunch 보도).",
-      "descriptionTranslations": {
-        "en": "OpenAI has described strengthened containment measures for frontier model training and evaluation, including offline environments and enhanced high‑compute red‑teaming (per OpenAI’s post). Multiple reports say OpenAI will no longer train frontier models on the live internet, citing 'significant risks' (TechCrunch)."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://openai.com/index/securing-our-frontier-model-training-environment",
-          "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
-        ],
-        "firstPublishedAt": "2026-10-23T10:00:00.000Z",
-        "lastObservedAt": "2026-10-24T05:46:11.718Z"
-      }
-    },
-    {
-      "id": "news-12219a05e251eacbdc67e04b",
-      "title": "나사, 달 착륙선 운용 시험 임무 계획 갱신 — 아르테미스 착륙선 개발 가속화 발표",
-      "titleTranslations": {
-        "en": "NASA updates lander plans for Moon landings and accelerates lander development"
-      },
-      "startAt": "2026-10-23T22:48:25.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "아스테크니카 보도에 따르면 NASA는 향후 유인 달 착륙선 운용을 시험하기 위해 아르테미스 관련 계획을 업데이트했고, 착륙선 설계 및 운용 개념을 간소화·가속화해 2028년 임무 준비를 앞당기고 있다고 밝혔다. 이는 달 복귀와 지속적 주둔 준비의 진전으로 소개된다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports NASA has updated plans to test future moon‑lander operations and has streamlined and accelerated lander design and concepts of operations to speed development for planned 2028 missions. The changes are presented as significant progress toward returning humans to the Moon and enabling sustained presence."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-      "topicIds": [
-        "spaceDevelopment",
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-          "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
-          "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/"
-        ],
-        "firstPublishedAt": "2026-10-23T22:37:53.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
       "id": "news-a2942cdad3f6804df91978d8",
       "title": "앤디 번햄, '일상 문제 해결' 우선 전략으로 소규모 개혁 강조",
       "titleTranslations": {
@@ -2385,34 +2410,6 @@
         ],
         "firstPublishedAt": "2026-10-19T15:00:00.000Z",
         "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
-      "id": "news-c16a95453c1771355251ef28",
-      "title": "심슨 가족의 아푸, 인종 논란 이후 새 목소리로 시리즈에 복귀",
-      "titleTranslations": {
-        "en": "Apu returns to The Simpsons with new voice after race row"
-      },
-      "startAt": "2026-10-19T13:22:24.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "8년간 모습을 드러냈지만 대사 없이 지내던 '심슨 가족'의 아푸 캐릭터가 인종 논란 이후 새 음성으로 시리즈에 복귀했다고 보도됐다. 보도는 캐릭터의 재등장이 문화적 논쟁과 팬 반응을 불러일으켰다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Apu, the long‑controversial character from The Simpsons who had appeared without speaking for eight years, has returned to the show with a new voice following earlier debates about race, reporting says."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw33x6gzgdm0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw33x6gzgdm0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-19T13:22:24.000Z",
-        "lastObservedAt": "2026-10-20T05:59:08.234Z"
       }
     },
     {
