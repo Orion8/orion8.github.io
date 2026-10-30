@@ -114,7 +114,29 @@
           "en": "Developed an in-game character animation tool, collision detection, FMV playback, and HUD systems."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, p. 4; start month supplied by user"
+      "source": "Resume_2024_Keeseok_1.pdf, p. 4; start month supplied by user",
+      "id": "soar",
+      "work": [
+        {
+          "id": "black-bass",
+          "title": "Black Bass with Blue Marlin · PlayStation",
+          "details": [
+            {
+              "ko": "낚싯대의 휨·진동, 낚싯줄 물리, 보트 조작·동역학과 청새치 행동 구현.",
+              "en": "Implemented rod bending and vibration, fishing-line physics, boat controls and dynamics, and marlin behavior."
+            },
+            {
+              "ko": "호수 지형·수면 반사·환경 밉매핑, 수중·하늘 배경과 카메라 제어 구현.",
+              "en": "Built lake geometry, water reflections, environment mipmapping, underwater and sky backgrounds, and camera controls."
+            },
+            {
+              "ko": "인게임 캐릭터 애니메이션 도구, 충돌 검사, FMV 재생과 HUD 구현.",
+              "en": "Developed an in-game character animation tool, collision detection, FMV playback, and HUD systems."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, p. 4; start month supplied by user"
+        }
+      ]
     },
     {
       "date": "1999",
@@ -160,7 +182,49 @@
         "path": "./assets/companies/3do-1997.png",
         "source": "https://en.wikipedia.org/wiki/The_3DO_Company",
         "period": "1997–2003"
-      }
+      },
+      "id": "3do",
+      "work": [
+        {
+          "id": "battletanx",
+          "title": "BattleTanx: Global Assault · PlayStation",
+          "details": [
+            {
+              "ko": "BattleTanx: 컬링, 사운드 우선순위, 레이더 HUD, 메모리 카드 파일 시스템, 5개 언어 현지화, FMV와 VRAM 사용량 뷰어 구현.",
+              "en": "BattleTanx: implemented culling, sound priorities, radar HUD, memory-card file handling, five-language localization, FMV, and a VRAM usage viewer."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+        },
+        {
+          "id": "monsters",
+          "title": "Monsters · PS2",
+          "details": [
+            {
+              "ko": "Monsters: 건물 붕괴·변형 최적화, 화재 확산과 그을음 효과, 건물 층 비트마스크용 PS2 어셈블리 구현.",
+              "en": "Monsters: improved collapsing buildings and damaged geometry, fire propagation and scorch effects, and PS2 assembly for building-floor bitmasks."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+        },
+        {
+          "id": "army-men",
+          "title": "Army Men: Squad Leader · PS2",
+          "details": [
+            {
+              "ko": "Army Men: 차량과 Havok 물리 연동, 캐릭터·월드 충돌, 운전·포수 카메라, NPC 차량 경로 추종과 화염방사기 구현.",
+              "en": "Army Men: implemented vehicle integration with Havok, character/world collisions, driver and gunner cameras, NPC vehicle path following, and flamethrowers."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+        },
+        {
+          "id": "wdl-thunder-tank",
+          "title": "WDL: Thunder Tank",
+          "details": [],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+        }
+      ]
     },
     {
       "date": "2003",
@@ -195,7 +259,21 @@
         "path": "./assets/companies/hanbitsoft-official.png",
         "source": "https://www.hanbitsoft.co.kr/company/ci",
         "period": "Official CI"
-      }
+      },
+      "id": "hanbitsoft",
+      "work": [
+        {
+          "id": "tantra-v2",
+          "title": "Tantra V2 · PC MMORPG",
+          "details": [
+            {
+              "ko": "프로젝트 일정·우선순위 관리, 팀 간 협업 조율과 신규 인력 채용.",
+              "en": "Managed project schedules and priorities, coordinated teams, and hired new staff."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, p. 4"
+        }
+      ]
     },
     {
       "date": "2004",
@@ -234,7 +312,25 @@
         "path": "./assets/companies/windysoft-2006.png",
         "source": "https://pdf.irpocket.com/C3810/RIfF/rJ4w.pdf#page=15",
         "period": "2006"
-      }
+      },
+      "id": "windysoft",
+      "work": [
+        {
+          "id": "round-2",
+          "title": "Round 2 · 온라인 액션 / Online action",
+          "details": [
+            {
+              "ko": "캐릭터 액션 상태와 공격 충돌, Open Dynamics Engine 기반 아이템·오브젝트 동역학 구현.",
+              "en": "Developed character action states, attack collisions, and item/object dynamics using Open Dynamics Engine."
+            },
+            {
+              "ko": "삼각형 세분화와 조각별 물리 적용을 통한 자동 파편화 시스템, 프로젝트 일정·업무 우선순위 관리.",
+              "en": "Built automatic object fragmentation with triangle subdivision and per-fragment physics; managed schedules and task priorities."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, p. 4"
+        }
+      ]
     },
     {
       "date": "2006",
@@ -277,7 +373,29 @@
         "path": "./assets/companies/nurien-2009.png",
         "source": "https://www.nvidia.cn/docs/io/65527/ecs_show_guide_final.pdf#page=73",
         "period": "2009"
-      }
+      },
+      "id": "nurien",
+      "work": [
+        {
+          "id": "mstar",
+          "title": "Mstar · PC / Unreal Engine 3",
+          "details": [
+            {
+              "ko": "팀 구성, 일정·우선순위, 마일스톤·패치별 소스 브랜치 계획 관리.",
+              "en": "Managed team structure, schedules, priorities, and source-branch plans for milestones and patches."
+            },
+            {
+              "ko": "무대 액션용 캐릭터 상태, PhysX 강체 기반 의상·머리카락·액세서리 움직임 구현.",
+              "en": "Developed character states for stage actions and cloth, hair, and accessory movement using PhysX rigid bodies."
+            },
+            {
+              "ko": "플레이어 입력의 런타임 네트워크 동기화와 성능 프로파일링·병목 최적화.",
+              "en": "Managed runtime network synchronization of player inputs and profiled performance to identify optimization bottlenecks."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+        }
+      ]
     },
     {
       "date": "2010",
@@ -317,7 +435,43 @@
           "en": "Explored iPhone 4 gyroscope camera controls, fish schooling, and underwater caustic lighting."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, pp. 3–4"
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 3–4",
+      "id": "catonloft",
+      "work": [
+        {
+          "id": "invaderz",
+          "title": "InvaderZ · iOS",
+          "details": [
+            {
+              "ko": "InvaderZ: 미사일·레이저·지뢰 등 무기, UI와 터치 조작 구현.",
+              "en": "InvaderZ: developed weapons including missiles, lasers, and mines, plus UI and touch controls."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 3–4"
+        },
+        {
+          "id": "bomb",
+          "title": "Bomb · iOS",
+          "details": [
+            {
+              "ko": "Bomb: 게임플레이 설계와 전체 게임플레이 기능 구현.",
+              "en": "Bomb: designed gameplay and implemented all gameplay functionality."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 3–4"
+        },
+        {
+          "id": "mobile-research",
+          "title": "Mobile device research · Unity",
+          "details": [
+            {
+              "ko": "iPhone 4 자이로 입력 기반 카메라 제어, 물고기 군집 행동과 수중 코스틱 조명 연구.",
+              "en": "Explored iPhone 4 gyroscope camera controls, fish schooling, and underwater caustic lighting."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 3–4"
+        }
+      ]
     },
     {
       "date": "2011",
@@ -361,7 +515,29 @@
         "source": "https://gamesbeat.com/korean-game-startup-pangalore-targets-html5-games/",
         "period": "2011",
         "viewport": "pangalore"
-      }
+      },
+      "id": "pangalore",
+      "work": [
+        {
+          "id": "knightly-adventure",
+          "title": "Knightly Adventure · iOS / Android / Facebook",
+          "details": [
+            {
+              "ko": "플레이어·NPC 행동과 전투, 근접 검·화살·유도 마법탄 무기 시스템 구현.",
+              "en": "Built player and NPC behavior, combat, and melee swords, projectile arrows, and homing magic weapons."
+            },
+            {
+              "ko": "아트 요구에 따른 셰이더 개선, 연·새 같은 동적 환경 오브젝트 구현.",
+              "en": "Updated shaders for art requirements and developed dynamic environmental objects such as kites and birds."
+            },
+            {
+              "ko": "멀티플랫폼 빌드용 단일 프로젝트 버전 관리와 광고·분석 플러그인 통합.",
+              "en": "Managed a single version-controlled project for multiple platforms and integrated advertising and analytics plugins."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5"
+        }
+      ]
     },
     {
       "date": "2014",
@@ -399,7 +575,29 @@
           "en": "Implemented animation retargeting across characters with Unity Mecanim."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5"
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5",
+      "id": "raiz",
+      "work": [
+        {
+          "id": "tower-of-god",
+          "title": "Tower of God · Android / Unity",
+          "details": [
+            {
+              "ko": "이동·피격·타기팅·캐릭터 유형별 피해 계산·콤보·스킬 쿨타임·보스전·PvP 구현.",
+              "en": "Built movement, hit reactions, targeting, character-dependent damage, combos, skill cooldowns, boss battles, and PvP."
+            },
+            {
+              "ko": "웨이브 스포너·트리거·목표 추적 미션, 근접·발사체·기절·패시브 스킬과 게임 데이터 테이블 설계.",
+              "en": "Developed wave spawners, triggers, mission tracking, melee/projectile/stun/passive skills, and game-property table structures."
+            },
+            {
+              "ko": "Unity Mecanim을 활용한 캐릭터 간 애니메이션 리타기팅 적용.",
+              "en": "Implemented animation retargeting across characters with Unity Mecanim."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5"
+        }
+      ]
     },
     {
       "date": "2016",
@@ -439,7 +637,43 @@
           "en": "Implemented audio-reactive lighting, particles, spotlights, object movement, and scaling."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, p. 3"
+      "source": "Resume_2024_Keeseok_1.pdf, p. 3",
+      "id": "huid",
+      "work": [
+        {
+          "id": "augmented-virtuality",
+          "title": "Augmented Virtuality Prototype · Android",
+          "details": [
+            {
+              "ko": "카메라 프리뷰의 3D 공간 표시·화면 맞춤, 선택 배경색 제거와 3D 소품 생성·선택·삭제 구현.",
+              "en": "Implemented camera previews in 3D space, screen fitting, selected-background-color removal, and prop creation, selection, and deletion."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, p. 3"
+        },
+        {
+          "id": "daydream-vr",
+          "title": "Virtual Reality Prototype · Google Daydream",
+          "details": [
+            {
+              "ko": "Google Daydream용으로 런타임 편집 가능한 콘서트 무대와 배경 스크린 셰이더를 구현하고, 음악 신호 세기에 따라 오브젝트가 움직이거나 크기가 바뀌도록 만들었습니다.",
+              "en": "For Google Daydream, built a runtime-editable concert stage and background-screen shader, with objects that move or scale with audio signal strength."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, p. 3"
+        },
+        {
+          "id": "oculus-vr",
+          "title": "Virtual Reality Prototype · Oculus",
+          "details": [
+            {
+              "ko": "Oculus용 오디오 액션 시스템에서 음악에 반응하는 조명, 파티클, 스포트라이트와 오브젝트 크기 변화를 구현했습니다.",
+              "en": "For Oculus, implemented an audio action system with audio-reactive lighting, particles, spotlights, and object scaling."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, p. 3"
+        }
+      ]
     },
     {
       "date": "2017",
@@ -469,7 +703,21 @@
           "en": "Developed character action mechanics, level and stepping-stone generation, and item spawners."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, pp. 2–3"
+      "source": "Resume_2024_Keeseok_1.pdf, pp. 2–3",
+      "id": "rhplus",
+      "work": [
+        {
+          "id": "poingpoing",
+          "title": "PoingPoing · Android / iOS / Unity",
+          "details": [
+            {
+              "ko": "캐릭터 액션 메커니즘, 레벨·점프 디딤돌 생성과 아이템 스포너 개발.",
+              "en": "Developed character action mechanics, level and stepping-stone generation, and item spawners."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 2–3"
+        }
+      ]
     },
     {
       "date": "2018-05",
@@ -517,7 +765,40 @@
         "path": "./assets/companies/archipin-2021.png",
         "source": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01758086629281800",
         "period": "2021"
-      }
+      },
+      "id": "archipin",
+      "work": [
+        {
+          "id": "hello-ludi",
+          "title": "Hello Ludi · Android / Unity",
+          "details": [
+            {
+              "ko": "NLU의 의도·개체 정보와 NPC 데이터에 따른 응답 규칙, 애니메이션·음성용 Timeline 재생 큐 구현.",
+              "en": "Implemented response rules using NLU intents/entities and NPC data, plus Timeline playback queues for animation and voice."
+            },
+            {
+              "ko": "Neo4j Cypher 쿼리를 이용한 게임 세계 지식 그래프와 Wikipedia 답변 연동 연구·개발.",
+              "en": "Researched and developed game-world knowledge-graph queries using Neo4j Cypher and integrated Wikipedia answers."
+            },
+            {
+              "ko": "서버 엔지니어와 프로토콜 설계, WebSocket·패킷·씬 로딩과 초대 플레이어 위치 동기화 구현.",
+              "en": "Designed protocols with server engineers and implemented WebSocket handling, packets, scene loading, and invited-player position synchronization."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 2, 5"
+        },
+        {
+          "id": "language-learning-prototype",
+          "title": "3D RPG language-learning prototype",
+          "details": [
+            {
+              "ko": "프로토타입의 Timeline·Cinemachine 대화 액션, Blendshape 표정 트랙, 런타임 바인딩과 상태 기반 카메라 구현.",
+              "en": "Built prototype dialogue actions with Timeline and Cinemachine, Blendshape expression tracks, runtime bindings, and state-driven cameras."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 2, 5"
+        }
+      ]
     },
     {
       "date": "2022-09",
@@ -561,7 +842,36 @@
         "path": "./assets/companies/project-archer-2021.png",
         "source": "https://www.builtinseattle.com/articles/seattle-featured-companies-january-2022",
         "period": "2021–2022"
-      }
+      },
+      "id": "project-archer",
+      "work": [
+        {
+          "id": "custom-digital-twin",
+          "title": "Custom Digital Twin · Android / Magic Leap 2",
+          "details": [
+            {
+              "ko": "매장 설명 데이터로 공간을 생성하는 Unity 클라이언트 구성 요소와 사내 배포용 Unity 패키지 개발.",
+              "en": "Developed Unity client components that create stores from description data and packaged them for company-wide use."
+            },
+            {
+              "ko": "zBufferOnly·VisualModel·Wireframe·Frontframe 렌더링 모드와 매장 정렬 마법사 구현.",
+              "en": "Implemented zBufferOnly, VisualModel, Wireframe, and Frontframe rendering modes and a store-alignment wizard."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 1–2, 5"
+        },
+        {
+          "id": "backroom-interaction",
+          "title": "Associate Backroom Interaction Prototype",
+          "details": [
+            {
+              "ko": "시선·머리 추적 UI, 주시점 안정화, Multi-Line Raycast 버튼 선택과 손가락 뼈 위치 기반 제스처 인식 구현.",
+              "en": "Built gaze/head-tracked UI, fixation stabilization, multi-line raycast button selection, and gesture recognition using finger-bone positions."
+            }
+          ],
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 1–2, 5"
+        }
+      ]
     }
   ],
   "projects": [
