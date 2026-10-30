@@ -3205,6 +3205,31 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 62,
+      "id": 60,
+      "title": "Why Nations Fail",
+      "koreanTitle": "국가는 왜 실패하는가",
+      "status": "content-verified-art-generation-pending",
+      "koreanImage": "why-nations-fail-v3-integrated-ko.webp",
+      "englishImage": "why-nations-fail-v3-integrated-en.webp",
+      "koreanComplete": false,
+      "englishComplete": false,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-10-29",
+      "sourceNotes": "sources/why-nations-fail-v3-integrated.md",
+      "sources": [
+        "https://penguinrandomhousehighereducation.com/book/?isbn=9780307719218",
+        "https://www.penguinrandomhouseretail.com/book/?isbn=9780307719218",
+        "https://www.nber.org/papers/w10481",
+        "https://dspace.mit.edu/entities/publication/0e419981-9e7b-457a-ae72-3f41bc590a01",
+        "https://bnk.kpipa.or.kr/home/v3/addition/adiPromoMetaDataView01/seq_20260320105654458462",
+        "https://lib.kdi.re.kr/search/detail/CATTOT000113315889"
+      ]
+    }
   }
 }
