@@ -1,8 +1,94 @@
 {
-  "catalogVersion": "0.0.194",
-  "updatedAt": "2026-10-30T18:34:43.977Z",
+  "catalogVersion": "0.0.195",
+  "updatedAt": "2026-10-31T06:57:05.940Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-b0b7c3efd75243fd6b1e49e6",
+      "title": "글로벌 자연보전 협상 타결 — 합의 도달했으나 자금 문제는 남아",
+      "titleTranslations": {
+        "en": "Global nature talks reach deal — agreement reached but funding remains an issue"
+      },
+      "startAt": "2026-10-31T01:27:05.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "BBC 과학·환경 보도에 따르면 여러 국가가 참여한 글로벌 자연보전 협상이 합의에 도달했으나, 합의를 이행할 자금 문제는 여전히 논란으로 남아 있다고 보도했다. 보도는 합의의 범위와 재원 조달의 난제를 짚었다.",
+      "descriptionTranslations": {
+        "en": "BBC Science & Environment reports that countries at global nature talks have reached a deal, but financing to implement the agreement remains a key unresolved issue. The coverage outlines the scope of the agreement and the challenges around funding."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-31T01:27:05.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
+    {
+      "id": "news-6c3081028a8f3e9100ef6f0a",
+      "title": "캐나다·EU, ‘미래를 위한 동맹(Alliance for the Future)’ 발표 — 같은 생각 가진 국가들에 개방",
+      "titleTranslations": {
+        "en": "Canada and EU announce 'Alliance for the Future' — open to like‑minded countries"
+      },
+      "startAt": "2026-10-30T19:42:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 캐나다와 유럽연합은 몬트리올 정상회의에서 'Alliance for the Future'라는 새로운 동맹을 공개했다. 마크 카니 캐나다 총리와 우르줄라 폰데어라이엔 유럽연합 집행위원장은 이 파트너십이 시민의 번영을 위한 보호막이자 지정학적 불확실성에 대한 대비가 될 것이라고 설명했으며, 다른 '같은 생각을 가진' 국가들의 참여도 환영한다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Canada and the European Union unveiled a new partnership called the 'Alliance for the Future' at a Montreal summit. Prime Minister Mark Carney and European Commission President Ursula von der Leyen said the partnership would serve as a 'protective canopy' for citizens and a hedge against geopolitical unpredictability, and that like‑minded countries are welcome to join."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance"
+        ],
+        "firstPublishedAt": "2026-10-30T19:42:15.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
+    {
+      "id": "news-ed86d275fc79f3d949920abb",
+      "title": "실적 부진에 따른 기술주 매도 확산 — 美 나스닥 등에서 약 1조달러 규모 가치 증발 보도",
+      "titleTranslations": {
+        "en": "Tech sell‑off after weak earnings drives US markets down — nearly $1tn wiped from Nasdaq in a week"
+      },
+      "startAt": "2026-10-30T18:27:51.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언 비즈니스 보도에 따르면 주요 기술기업들의 실적이 기대에 못 미치자 기술주 매도가 가속화돼 미국 증시에서 수백억 달러 규모의 시가총액이 증발했다. 보도는 나스닥이 한 주간에 약 1조 달러에 육박하는 가치 하락을 겪었고, 한 달 기준으로는 약 2조 달러가 사라졌다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian Business reports that disappointing earnings from leading tech companies sparked a sell‑off that knocked hundreds of billions off US markets. The coverage says the tech‑heavy Nasdaq lost nearly $1tn in value in one week and about $2tn over a month."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report"
+        ],
+        "firstPublishedAt": "2026-10-30T18:27:51.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
     {
       "id": "news-235bb524b25e5166740043aa",
       "title": "구글의 첫 '데이터센터 위성' 가동 — 우주 TPU에서 제미니 4 모델 가동, 시(詩)도 창작",
@@ -29,34 +115,6 @@
           "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
         ],
         "firstPublishedAt": "2026-10-30T17:00:00.000Z",
-        "lastObservedAt": "2026-10-30T18:34:43.977Z"
-      }
-    },
-    {
-      "id": "news-06dd76803e8b9715c5076919",
-      "title": "바이낸스 사상 최대 63억 달러 해킹 — 전문가들 '북한 배후 가능성' 지목",
-      "titleTranslations": {
-        "en": "Binance hit by historic $6.3bn crypto hack — experts point to North Korea as likely culprit"
-      },
-      "startAt": "2026-10-30T16:35:44.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도는 세계 최대 암호화폐 거래소 바이낸스가 기록적 규모인 약 63억 달러 해킹을 당했으며, 거래소는 고객 손실을 보전하겠다고 밝혔고 약 30억 달러 상당의 자산을 확인했다고 전했다. 일부 전문가들은 북한 연루 가능성을 제기했다.",
-      "descriptionTranslations": {
-        "en": "Reports say Binance, the world's largest cryptocurrency exchange, suffered a record $6.3bn hack. The exchange said it will cover customer losses and has so far located about $3bn in affected assets; some experts have identified North Korea as a likely actor."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack"
-        ],
-        "firstPublishedAt": "2026-10-30T16:35:44.000Z",
         "lastObservedAt": "2026-10-30T18:34:43.977Z"
       }
     },
@@ -122,6 +180,36 @@
       }
     },
     {
+      "id": "news-363571a466caa1af27c0db99",
+      "title": "폼페이서 2천년 봉인된 옷장에서 향수병·화장도구·어린이 목걸이 등 개인 유물 발굴",
+      "titleTranslations": {
+        "en": "Perfume bottle, cosmetics and a child's necklace among treasures found in wardrobe sealed since Pompeii eruption"
+      },
+      "startAt": "2026-10-30T15:06:39.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "가디언 과학 보도에 따르면 폼페이의 한 가옥 안에서 화산 분출(서기 79년) 이후 약 2천 년 동안 봉인된 채 보존된 나무 옷장에서 향수병, 화장 도구, 동전, 어린이 목걸이 등 개인 소지품이 발굴되었다. 보도는 이들 유물이 고대 로마인의 일상 생활을 엿보게 한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian Science reports that archaeologists uncovered personal items — including a perfume bottle, makeup tools, coins and a child's necklace — tucked away in a wooden wardrobe that had been sealed since the AD 79 eruption at Pompeii. The coverage says the artifacts offer an intimate glimpse of daily life in ancient Rome."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/30/perfume-bottle-child-necklace-pompeii-wardrobe",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/oct/30/perfume-bottle-child-necklace-pompeii-wardrobe"
+        ],
+        "firstPublishedAt": "2026-10-30T15:06:39.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
+    {
       "id": "news-7aa6dab0376044f6c887c5ca",
       "title": "나사, 허블 망원경 상업적 정비 가능성 조사 위해 업계에 정보 요청(RFI) 발행",
       "titleTranslations": {
@@ -175,6 +263,68 @@
         ],
         "firstPublishedAt": "2026-10-30T12:43:46.000Z",
         "lastObservedAt": "2026-10-30T18:34:43.977Z"
+      }
+    },
+    {
+      "id": "news-06dd76803e8b9715c5076919",
+      "title": "바이낸스 63억 달러 해킹 관련 정리 보도 — 추가 정황·분석 영상",
+      "titleTranslations": {
+        "en": "What we know about Binance's $6.3bn hack — summary and analysis"
+      },
+      "startAt": "2026-10-30T12:27:28.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "BBC 비즈니스 영상 보도는 기록적 규모로 알려진 약 63억 달러 규모의 바이낸스 해킹 사건 정황을 정리해 설명했다. 보도는 사건의 알려진 규모와 영향, 수사·복구 노력에 관한 현시점의 정보를 정리해 제공하고 있다.",
+      "descriptionTranslations": {
+        "en": "A BBC Business video explains what is known about the reported $6.3bn hack of Binance, summarizing the scale, impacts, and the current state of investigations and recovery efforts."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+          "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-30T16:35:44.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
+    {
+      "id": "news-21259562a429c62e16554286",
+      "title": "이스라엘 선거, 교착 상태 — 향후 절차와 전망",
+      "titleTranslations": {
+        "en": "Israel election ends in political deadlock — what comes next?"
+      },
+      "startAt": "2026-10-30T09:00:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 최근 이스라엘 총선은 결과가 교착되어 어느 쪽도 명확한 다수 확보에 실패한 상태로 남아 있다. 보도는 투표 이후의 정치적 과정과 가능한 향후 시나리오를 설명하며, 승자 확정이 지연되는 상황에 대해 전하고 있다.",
+      "descriptionTranslations": {
+        "en": "NPR reports that Israel's consequential election has ended in a deadlock, with neither side able to claim a majority. The coverage outlines the post‑vote political process and possible next steps as the result remains unresolved."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
+          "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
+          "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
+          "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs"
+        ],
+        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
       }
     },
     {
@@ -401,6 +551,34 @@
         ],
         "firstPublishedAt": "2026-10-29T15:53:46.000Z",
         "lastObservedAt": "2026-10-29T18:57:24.919Z"
+      }
+    },
+    {
+      "id": "news-e0d9543d681c95d920ecaf13",
+      "title": "허블·웹, 카리나 성운의 ‘고양이 머리 성운’ 상보적 관측 공개 — 별 형성 장면 보여줘",
+      "titleTranslations": {
+        "en": "Hubble and Webb release complementary images of the Cat’s Head Nebula in the Carina Nebula"
+      },
+      "startAt": "2026-10-29T14:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "ESA 보도에 따르면 허블과 제임스 웹 망원경이 카리나 성운 내 'Cat’s Head(고양이 머리) 성운'을 관측해 서로 보완하는 가시광·적외선 영상을 공개했다. 허블은 어두운 먼지 기둥과 젊은 별의 실루엣을, 웹은 적외선으로 숨어 있던 별들과 세부 구조를 드러냈다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The European Space Agency reports that NASA/ESA Hubble and NASA/ESA/CSA James Webb Space Telescopes observed the Cat’s Head Nebula within the Carina Nebula and released complementary images. Hubble’s visible‑light view shows the dark dust pillar and hints of young stars, while Webb’s infrared imagery reveals many hidden stars and additional detail."
+      },
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb"
+        ],
+        "firstPublishedAt": "2026-10-29T14:00:00.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
       }
     },
     {
@@ -797,38 +975,6 @@
         ],
         "firstPublishedAt": "2026-10-28T14:16:24.000Z",
         "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
-      "id": "news-21259562a429c62e16554286",
-      "title": "이스라엘 총선 초접전 — 투표율 기록적 상승에도 최종 결과는 불확실",
-      "titleTranslations": {
-        "en": "Israel's election too close to call — turnout at record levels but result uncertain"
-      },
-      "startAt": "2026-10-28T11:28:55.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 이스라엘 유권자 투표율이 기록적으로 높았으나 개표 결과가 초접전 상태여서 승자가 확정되지 않았다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says Israeli voter turnout was at record levels, but the count remains too close to call and no winner has been confirmed."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
-          "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
-          "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak"
-        ],
-        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
-        "lastObservedAt": "2026-10-29T07:01:23.964Z"
       }
     },
     {
@@ -1806,36 +1952,6 @@
       }
     },
     {
-      "id": "news-f5f129983c01e29f2c10548f",
-      "title": "헤브론서 이스라엘군의 주택 철거로 팔레스타인 가족들 이주",
-      "titleTranslations": {
-        "en": "Palestinian families displaced as Israeli forces demolish Hebron homes"
-      },
-      "startAt": "2026-10-24T23:02:06.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC는 헤브론에서 이스라엘군이 주택을 철거해 여러 팔레스타인 가족이 거처를 잃었다고 보도했다. 해당 철거 작전은 금요일 이스라엘 병사 2명이 팔레스타인 무장대원에게 살해된 사건 이후 이뤄졌으며, 이른바 총선을 며칠 앞둔 시점이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that Israeli forces demolished homes in Hebron, displacing multiple Palestinian families. The demolitions followed the killing of two Israeli soldiers by Palestinian gunmen on Friday and took place days before Israel’s national election."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss",
-          "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
-          "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-23T17:30:51.000Z",
-        "lastObservedAt": "2026-10-25T06:02:18.765Z"
-      }
-    },
-    {
       "id": "news-23703444006e5e19ad7efd7b",
       "title": "달턴 스미스, 쉐필드서 푸엘로 상대로 WBC 라이트웰터급 타이틀 방어",
       "titleTranslations": {
@@ -1920,66 +2036,6 @@
       }
     },
     {
-      "id": "news-28a3ac1f48449efd79c12c50",
-      "title": "화성의 1,000마일 구름 — 이전에 관찰된 적 없는 물리현상 가능성 제기",
-      "titleTranslations": {
-        "en": "A 1,000‑mile cloud on Mars may reveal physics never seen in nature"
-      },
-      "startAt": "2026-10-24T11:50:28.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아스테크니카 보도에 따르면 새로운 모델은 화성에서 생성되는 구름의 물리 과정이 이전에 직접 관찰된 바 없는 방식의 얼음 형성 과정을 포함할 수 있음을 시사한다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that a new model suggests a 1,000‑mile cloud on Mars may involve ice‑forming physics not previously directly observed, pointing to potentially novel atmospheric processes on Mars."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/"
-        ],
-        "firstPublishedAt": "2026-10-24T11:50:28.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
-      "id": "news-bc0ee4ef9353aebda5552926",
-      "title": "라우리엔타이드 빙하 잔존부의 확장 신호 — 약 2,000년 전 시작 가능성 제시",
-      "titleTranslations": {
-        "en": "Ice‑sheet expansion may have begun 2,000 years ago, new analysis suggests"
-      },
-      "startAt": "2026-10-24T11:00:09.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아스테크니카는 라우리엔타이드(Laurentide) 빙하의 잔존 분출이 과거 생각보다 일찍 확장되기 시작했을 가능성을 제시하는 연구 결과를 보도했다. 보도는 작은 잔존부가 다소 확장되는 징후를 보였다고 전한다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports research indicating that remnants of the Laurentide Ice Sheet show signs of expansion that may have begun around 2,000 years ago, with the tiny remaining ice masses showing modest growth."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/"
-        ],
-        "firstPublishedAt": "2026-10-24T11:00:09.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
       "id": "news-322315c951a03eb33f46aff9",
       "title": "영국 정부의 £58억(£5.8bn) 도시재생 계획, 그림스비 등 중심으로 지역상권 재활 시도",
       "titleTranslations": {
@@ -2004,34 +2060,6 @@
           "https://www.theguardian.com/uk-news/2026/oct/24/can-new-scheme-help-revive-grimsby-britain-struggling-town-centres"
         ],
         "firstPublishedAt": "2026-10-24T06:00:26.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
-      "id": "news-3a411ea5e3414a5be7c514f3",
-      "title": "영국, ‘세계 최초’ AI 생물안전 연구소에 1억 파운드 투자 발표 예정",
-      "titleTranslations": {
-        "en": "UK to invest £100m in 'world first' AI Biosecurity Lab"
-      },
-      "startAt": "2026-10-24T00:05:45.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 영국 재무장관은 예산에서 AI 관련 지출의 일환으로 AI를 활용한 생물안전 연구소에 약 1억 파운드를 투자할 계획을 공개할 예정이다. 정부는 이 투자가 국가의 생물안전·대응 역량을 강화하는 목표라고 설명했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports the UK chancellor will unveil plans in the Budget to invest about £100m in an AI Biosecurity Lab, described as a 'world first'. The government says the funding aims to bolster national biosecurity and response capabilities using AI."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-24T00:05:45.000Z",
         "lastObservedAt": "2026-10-24T16:34:36.430Z"
       }
     },
@@ -2585,34 +2613,6 @@
       }
     },
     {
-      "id": "news-f433a319fc4cd0e6b12ccaeb",
-      "title": "ESA 솔라 오비터, 태양 표면 기원의 자기 '스위치백' 추적 성공",
-      "titleTranslations": {
-        "en": "Solar Orbiter tracks origin of mysterious magnetic switchbacks"
-      },
-      "startAt": "2026-10-08T09:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "유럽우주국(ESA)은 솔라 오비터가 태양풍의 S자형 '스위치백' 구조를 통과하며 포함된 입자의 지문을 분석해 그 기원을 태양 표면으로 추적했다고 발표했다. 연구는 태양 자기 현상을 이해하고 태양 폭풍에 대한 지식을 확장한다는 의미가 있다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency reports its Solar Orbiter spacecraft flew through an S‑shaped 'switchback' in the solar wind’s magnetic field and, by fingerprinting particles within it, traced the structure’s origin back to the Sun’s surface — shedding light on solar magnetism and drivers of space weather."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
-        ],
-        "firstPublishedAt": "2026-10-08T09:00:00.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
       "id": "news-c692a64a3ecdefa3c878a1c9",
       "title": "케냐, DRC에서 온 시민 사망으로 첫 에볼라 사례 보고",
       "titleTranslations": {
@@ -2668,35 +2668,6 @@
         ],
         "firstPublishedAt": "2026-10-02T23:37:13.000Z",
         "lastObservedAt": "2026-10-03T17:14:08.025Z"
-      }
-    },
-    {
-      "id": "news-cde3e751edf0549c3367b8a0",
-      "title": "스위스 빙하, 또다시 기록적 얼음 손실",
-      "titleTranslations": {
-        "en": "Swiss glaciers suffer another year of record ice loss"
-      },
-      "startAt": "2026-09-30T23:00:00.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "보도에 따르면 스위스의 빙하가 또 한 해 동안 기록적인 속도로 소실되고 있으며, 올해만 5%가 넘는 얼음이 사라져 유럽의 물 공급과 생태계·지역사회에 위협이 되고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Coverage reports that Switzerland's glaciers are disappearing at a record pace again, with more than 5% of their ice lost this year alone — threatening water supplies, ecosystems and communities across Europe."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change"
-        ],
-        "firstPublishedAt": "2026-09-30T23:00:00.000Z",
-        "lastObservedAt": "2026-10-01T07:10:03.687Z"
       }
     }
   ]
