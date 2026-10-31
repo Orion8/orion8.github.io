@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 67,
+    "completedCount": 68,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3438,39 +3438,49 @@
           "englishMobile": "390x585",
           "checkedOn": "2026-10-30"
         }
+      },
+      {
+        "sequence": 68,
+        "id": 67,
+        "title": "How the World Really Works",
+        "englishTitle": "How the World Really Works",
+        "koreanTitle": "세상은 실제로 어떻게 돌아가는가",
+        "status": "completed-and-verified",
+        "koreanImage": "how-the-world-really-works-v3-integrated-ko.webp",
+        "englishImage": "how-the-world-really-works-v3-integrated-en.webp",
+        "koreanPreview": "../previews/how-the-world-really-works-v3-integrated-ko-mobile.webp",
+        "englishPreview": "../previews/how-the-world-really-works-v3-integrated-en-mobile.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "sourceNotes": "sources/how-the-world-really-works-v3-integrated.md",
+        "sources": [
+          "https://vaclavsmil.com/book/how-the-world-really-works-2/",
+          "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+          "https://prhinternationalsales.com/book/?isbn=9780593297087",
+          "https://www.penguin.co.uk/books/319141/how-the-world-really-works-by-smil-vaclav/9780241989678",
+          "https://journals.sagepub.com/doi/10.1177/01956574241288612",
+          "https://blogs.lse.ac.uk/lsereviewofbooks/2022/09/07/book-review-how-the-world-really-works-a-scientists-guide-to-our-past-present-and-future-by-vaclav-smil/",
+          "https://gimmyoung.com/book/books/view/book/5468",
+          "https://kobic.net/book/bookInfo/view.do?isbn=9788934950967"
+        ],
+        "completedOn": "2026-10-31",
+        "publicBrowserChecks": {
+          "koreanCardHref": "infographics/how-the-world-really-works-v3-integrated-ko.webp",
+          "englishCardHref": "infographics/how-the-world-really-works-v3-integrated-en.webp",
+          "koreanOriginal": "1024x1536",
+          "englishOriginal": "1024x1536",
+          "koreanMobile": "390x585",
+          "englishMobile": "390x585",
+          "checkedOn": "2026-10-31"
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 68,
-      "id": 67,
-      "title": "How the World Really Works",
-      "englishTitle": "How the World Really Works",
-      "koreanTitle": "세상은 실제로 어떻게 돌아가는가",
-      "status": "content-verified-art-generation-pending",
-      "koreanImage": "how-the-world-really-works-v3-integrated-ko.webp",
-      "englishImage": "how-the-world-really-works-v3-integrated-en.webp",
-      "koreanPreview": "../previews/how-the-world-really-works-v3-integrated-ko-mobile.webp",
-      "englishPreview": "../previews/how-the-world-really-works-v3-integrated-en-mobile.webp",
-      "koreanComplete": false,
-      "englishComplete": false,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-10-31",
-      "sourceNotes": "sources/how-the-world-really-works-v3-integrated.md",
-      "sources": [
-        "https://vaclavsmil.com/book/how-the-world-really-works-2/",
-        "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
-        "https://prhinternationalsales.com/book/?isbn=9780593297087",
-        "https://www.penguin.co.uk/books/319141/how-the-world-really-works-by-smil-vaclav/9780241989678",
-        "https://journals.sagepub.com/doi/10.1177/01956574241288612",
-        "https://blogs.lse.ac.uk/lsereviewofbooks/2022/09/07/book-review-how-the-world-really-works-a-scientists-guide-to-our-past-present-and-future-by-vaclav-smil/",
-        "https://gimmyoung.com/book/books/view/book/5468",
-        "https://kobic.net/book/bookInfo/view.do?isbn=9788934950967"
-      ]
-    }
+    "inProgress": null
   }
 }
