@@ -1,8 +1,96 @@
 {
-  "catalogVersion": "0.0.195",
-  "updatedAt": "2026-10-31T06:57:05.940Z",
+  "catalogVersion": "0.0.196",
+  "updatedAt": "2026-10-31T17:41:19.238Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-23855d994607aa8ed8fc4221",
+      "title": "콩고민주공화국 최악의 에볼라 유행 — 사망자 5,000명 이상",
+      "titleTranslations": {
+        "en": "DR Congo's deadliest Ebola outbreak — more than 5,000 dead"
+      },
+      "startAt": "2026-10-31T15:16:20.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "정부 통계에 따르면 이번 에볼라 유행으로 1만 명 이상이 감염된 가운데 사망자가 5,000명을 넘은 것으로 보고됐다. 보도는 확산 규모와 보건 대응의 압박을 전했다.",
+      "descriptionTranslations": {
+        "en": "Government data shows the Ebola outbreak has infected more than 10,000 people and that deaths have exceeded 5,000. Coverage outlines the scale of the outbreak and pressure on health responses."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
+          "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-28T11:28:55.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.237Z"
+      }
+    },
+    {
+      "id": "news-943e3ef344c64aecd919710c",
+      "title": "트럼프 행정부가 美 석탄발전소 절반에 9억5천만달러 지원·오염 면제 제공 — EDF 분석",
+      "titleTranslations": {
+        "en": "Trump boosted half of US coal plants with taxpayer dollars and ‘free passes to pollute’, report says"
+      },
+      "startAt": "2026-10-31T13:00:42.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "환경단체 분석에 따르면 트럼프 행정부는 그리드에 연결된 184개 운영 석탄발전소 가운데 약 90곳에 현금지급·청정공기법 예외 등 지원을 제공한 것으로 분석됐다.",
+      "descriptionTranslations": {
+        "en": "An Environmental Defense Fund analysis found the Trump administration provided support — including $950m and Clean Air Act exemptions — to about 90 of the 184 grid‑connected coal plants, effectively helping many stay online."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/31/trump-coal-plants-taxpayer-dollars",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/31/trump-coal-plants-taxpayer-dollars"
+        ],
+        "firstPublishedAt": "2026-10-31T13:00:42.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.238Z"
+      }
+    },
+    {
+      "id": "news-fc87e12aea801dc699686e0f",
+      "title": "FDA, 약물 'Tavneos' 승인 취소 추진",
+      "titleTranslations": {
+        "en": "The FDA wants to pull its approval of a drug — Tavneos"
+      },
+      "startAt": "2026-10-31T11:02:34.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "미 규제당국은 Tavneos가 조작된 연구 데이터를 근거로 승인되었다고 주장하면서 승인 취소를 추진 중이라고 보도했다. 논의는 환자의 접근권과 규제 절차 문제를 제기하고 있다.",
+      "descriptionTranslations": {
+        "en": "The US regulator says Tavneos was approved on the basis of manipulated study data and is seeking to withdraw its approval. The development raises questions about patient access and regulatory process."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/"
+        ],
+        "firstPublishedAt": "2026-10-31T11:02:34.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.238Z"
+      }
+    },
     {
       "id": "news-b0b7c3efd75243fd6b1e49e6",
       "title": "글로벌 자연보전 협상 타결 — 합의 도달했으나 자금 문제는 남아",
@@ -34,6 +122,65 @@
       }
     },
     {
+      "id": "news-06a2c703111142070fa59601",
+      "title": "바이낸스 63억 달러 해킹 수습 시도",
+      "titleTranslations": {
+        "en": "Crypto giant Binance attempting to recover $6.3bn stolen in hack"
+      },
+      "startAt": "2026-10-30T21:13:14.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "업체는 복잡한 사이버공격으로 약 63억 달러가 탈취된 것으로 추정된다고 밝혔으며, 수사·복구 작업을 진행 중이라고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "The company says a complex cyber‑attack is believed to have stolen about $6.3bn and that investigations and recovery efforts are underway."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
+          "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-29T10:00:31.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.237Z"
+      }
+    },
+    {
+      "id": "news-ed86d275fc79f3d949920abb",
+      "title": "AI 지출이 거의 1조달러에 근접하며 美 기술주 급락",
+      "titleTranslations": {
+        "en": "US tech stocks fall sharply as AI spending nears $1tn"
+      },
+      "startAt": "2026-10-30T20:34:46.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도는 AI 관련 지출 전망이 커지는 가운데 주요 기술주가 급락해 나스닥 등 기술 중심지수가 큰 폭으로 하락했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says rising expectations of AI‑related spending coincided with sharp falls in major tech stocks, driving big declines in tech‑heavy indexes such as the Nasdaq."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
+          "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-30T18:27:51.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.237Z"
+      }
+    },
+    {
       "id": "news-6c3081028a8f3e9100ef6f0a",
       "title": "캐나다·EU, ‘미래를 위한 동맹(Alliance for the Future)’ 발표 — 같은 생각 가진 국가들에 개방",
       "titleTranslations": {
@@ -58,34 +205,6 @@
           "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance"
         ],
         "firstPublishedAt": "2026-10-30T19:42:15.000Z",
-        "lastObservedAt": "2026-10-31T06:57:05.940Z"
-      }
-    },
-    {
-      "id": "news-ed86d275fc79f3d949920abb",
-      "title": "실적 부진에 따른 기술주 매도 확산 — 美 나스닥 등에서 약 1조달러 규모 가치 증발 보도",
-      "titleTranslations": {
-        "en": "Tech sell‑off after weak earnings drives US markets down — nearly $1tn wiped from Nasdaq in a week"
-      },
-      "startAt": "2026-10-30T18:27:51.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 비즈니스 보도에 따르면 주요 기술기업들의 실적이 기대에 못 미치자 기술주 매도가 가속화돼 미국 증시에서 수백억 달러 규모의 시가총액이 증발했다. 보도는 나스닥이 한 주간에 약 1조 달러에 육박하는 가치 하락을 겪었고, 한 달 기준으로는 약 2조 달러가 사라졌다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian Business reports that disappointing earnings from leading tech companies sparked a sell‑off that knocked hundreds of billions off US markets. The coverage says the tech‑heavy Nasdaq lost nearly $1tn in value in one week and about $2tn over a month."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report"
-        ],
-        "firstPublishedAt": "2026-10-30T18:27:51.000Z",
         "lastObservedAt": "2026-10-31T06:57:05.940Z"
       }
     },
@@ -325,6 +444,34 @@
         ],
         "firstPublishedAt": "2026-10-25T16:00:00.000Z",
         "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
+    {
+      "id": "news-1b177d530b43c0462ca89066",
+      "title": "수단 디아스포라·인권단체, UAE 유엔 사무총장 후보 지명 비판",
+      "titleTranslations": {
+        "en": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job"
+      },
+      "startAt": "2026-10-30T05:00:45.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "수단계 인사들과 인권단체들은 UAE가 유엔 사무총장 후보로 지명한 라나 누세이베를 비난하며, 그녀의 UAE의 수단 내 RSF 지원 부인 발언을 문제 삼았다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Members of the Sudanese diaspora and international human‑rights monitors have denounced the UAE's nomination of Lana Nusseibeh for UN secretary‑general, citing her denials of accusations that the UAE is fueling the Sudan war by supporting the paramilitary RSF."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job"
+        ],
+        "firstPublishedAt": "2026-10-30T05:00:45.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.238Z"
       }
     },
     {
@@ -610,34 +757,6 @@
       }
     },
     {
-      "id": "news-06a2c703111142070fa59601",
-      "title": "미국에 확산되는 전기 페리 물결—일부 선박은 '플라잉' 요소도",
-      "titleTranslations": {
-        "en": "A new wave of electric ferries is here in the US. Some even fly"
-      },
-      "startAt": "2026-10-29T10:00:31.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "보도는 미국에서 디젤 선박을 전기 추진 페리로 대체하는 움직임이 확산되고 있으며, 일부 설계는 공기역학적·전문화된 기능으로 '비행'처럼 보이는 요소를 갖춘다고 전했다. 전기 페리는 배출 저감과 대기질 개선 잠재력을 강조받고 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say a wave of electric ferries is emerging in the US to replace diesel‑powered vessels, with some designs featuring aerodynamic or specialized elements that give a 'flying' appearance. Electric ferries are promoted for emissions reductions and air‑quality benefits."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries"
-        ],
-        "firstPublishedAt": "2026-10-29T10:00:31.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
-      }
-    },
-    {
       "id": "news-3fd55028484ec2521875f21d",
       "title": "유럽의 자산 격차: 고령 가구가 젊은 가구보다 8배 더 부유",
       "titleTranslations": {
@@ -837,6 +956,34 @@
       }
     },
     {
+      "id": "news-e8e0cb1d0e685ced8c0e7ac9",
+      "title": "딥마인드, 차세대 모델 'Gemini 4 Carbon' 공개",
+      "titleTranslations": {
+        "en": "DeepMind unveils next‑generation model 'Gemini 4 Carbon'"
+      },
+      "startAt": "2026-10-28T17:00:58.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 3,
+      "description": "딥마인드는 'Gemini 4 Carbon'을 차세대 전방위 모델로 소개하는 새 발표문을 공개했다. 보도는 회사의 발표 내용을 전했다.",
+      "descriptionTranslations": {
+        "en": "DeepMind published a post introducing 'Gemini 4 Carbon' as a next‑frontier model. Coverage relays the company's announcement and description of the model."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+        ],
+        "firstPublishedAt": "2026-10-28T17:00:58.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.238Z"
+      }
+    },
+    {
       "id": "news-dc7790b3a03a16cfe3a5e172",
       "title": "구글, 제미니·서치를 더 많은 앱에 연결하는 개발자 플랫폼 공개",
       "titleTranslations": {
@@ -975,35 +1122,6 @@
         ],
         "firstPublishedAt": "2026-10-28T14:16:24.000Z",
         "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
-      "id": "news-23855d994607aa8ed8fc4221",
-      "title": "에볼라 발생자 1만명 돌파 보고",
-      "titleTranslations": {
-        "en": "Ebola outbreak reaches more than 10,000 infections"
-      },
-      "startAt": "2026-10-28T11:28:55.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "보도는 이번 에볼라 발생이 5월 선언 이후 감염자 수가 1만 명을 넘었다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the Ebola outbreak has infected more than 10,000 people since it was declared in May."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak"
-        ],
-        "firstPublishedAt": "2026-10-28T11:28:55.000Z",
-        "lastObservedAt": "2026-10-29T07:01:23.964Z"
       }
     },
     {
@@ -1805,64 +1923,6 @@
       }
     },
     {
-      "id": "news-02986a017ad14e8ee89e2853",
-      "title": "로즈뱅크 유전: 정치적 논란의 중심에 선 북해 유전 현장 보도",
-      "titleTranslations": {
-        "en": "Rosebank: life on the North Sea oil field at the centre of a political storm"
-      },
-      "startAt": "2026-10-25T07:15:38.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 비즈니스는 미개발 상태로 남아 있는 북해 로즈뱅크 유전의 배에서 일하는 사람들의 삶을 취재하며, 이 유전이 정치적·환경적 논쟁의 중심에 놓여 있음을 조명했다.",
-      "descriptionTranslations": {
-        "en": "BBC Business reports from aboard a ship at the untapped Rosebank oil field in the North Sea, profiling life on the field as it awaits decisions amid political and environmental controversy."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-25T07:15:38.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
-      "id": "news-3931d62b4da17dbeced1689a",
-      "title": "고대 로마의 색상 변환 유리 제작법 과학자들이 재현",
-      "titleTranslations": {
-        "en": "Scientists rediscover how to make ancient Roman colour‑changing glass"
-      },
-      "startAt": "2026-10-25T06:00:55.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "가디언 과학 보도는 1,600년 된 리키르구스 컵(Lycurgus Cup)의 빛 방향에 따라 색이 변하는 광학적 성질을 재현하는 제작법을 과학자들이 재발견했다고 전했다. 보도는 해당 유물의 루비빛·녹색 변색 현상이 오래전 로마의 광학 공학 수준을 보여준다고 설명했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian’s science reporting says researchers have rediscovered how to reproduce the optical engineering behind the 1,600‑year‑old Lycurgus Cup, which changes colour from jade green to ruby red depending on lighting. Coverage highlights the sophistication of Roman glasswork."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass"
-        ],
-        "firstPublishedAt": "2026-10-25T06:00:55.000Z",
-        "lastObservedAt": "2026-10-27T06:14:00.925Z"
-      }
-    },
-    {
       "id": "news-ec49e5f2d20f449310e47f24",
       "title": "맨체스터의 변화: UAE 자본이 도심 지형에 미친 영향 분석",
       "titleTranslations": {
@@ -1888,67 +1948,6 @@
         ],
         "firstPublishedAt": "2026-10-25T06:00:54.000Z",
         "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
-      "id": "news-bc0a3e3e3becf0957b4025ef",
-      "title": "프랑스 전국 대규모 시위 격화로 거의 1,000명 체포",
-      "titleTranslations": {
-        "en": "Almost 1,000 arrested as clashes follow mass protests across France"
-      },
-      "startAt": "2026-10-25T04:16:52.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 수십만명이 참여한 프랑스 전역의 대규모 시위가 격화되며 여러 지역에서 충돌이 발생했고, 사법·치안 당국은 거의 1,000여명의 체포가 이뤄졌다고 보고했다. 시위는 유럽의 다른 국가들에서도 일부 열렸다.",
-      "descriptionTranslations": {
-        "en": "According to the BBC, nationwide mass protests in France involving hundreds of thousands of people turned violent in places, with authorities reporting nearly 1,000 arrests. Demonstrations also took place in other European countries."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
-          "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews",
-          "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-17T15:57:40.000Z",
-        "lastObservedAt": "2026-10-25T06:02:18.765Z"
-      }
-    },
-    {
-      "id": "news-859e9cf18ee4c2046a9ff553",
-      "title": "예산안에 사회·공공임대주택에 £10억 배정 계획 포함",
-      "titleTranslations": {
-        "en": "Budget to include £1bn for social and affordable housing"
-      },
-      "startAt": "2026-10-25T02:57:30.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 비즈니스는 새 예산안에 사회 및 공공임대주택을 위한 £10억(약 1억 파운드) 규모의 자금이 포함될 예정이라고 보도했다. 보도는 이 추가로 10년 계획의 전체 자금이 £400억을 넘게 된다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC Business reports the upcoming Budget will include £1bn for social and affordable housing. The coverage says this addition brings the 10‑year programme’s funding to more than £40bn."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-25T02:57:30.000Z",
-        "lastObservedAt": "2026-10-25T06:02:18.765Z"
       }
     },
     {
@@ -2266,34 +2265,6 @@
       }
     },
     {
-      "id": "news-c974c204e1a237d5b88920a1",
-      "title": "당뇨·ADHD 약물, 알츠하이머 환자 대상 동시시험으로 치료 속도화 시도",
-      "titleTranslations": {
-        "en": "Diabetes and ADHD drugs to be tested on Alzheimer's patients in new study"
-      },
-      "startAt": "2026-10-21T23:02:30.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC는 당뇨·ADHD 치료제를 알츠하이머 환자에게 동시에 시험하는 연구가 시작된다고 보도했다. 연구진은 병렬 시험으로 치료 후보 탐색을 가속화하길 기대하고 있다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports a new study will test diabetes and ADHD drugs simultaneously in patients with Alzheimer's disease. Researchers hope the concurrent testing approach will speed up the search for effective treatments."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqlye4v721nwo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqlye4v721nwo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-21T23:02:30.000Z",
-        "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
       "id": "news-a81619fcbafafbb9e5e7a90e",
       "title": "챔피언스리그, 이번 시즌 최다 득점 신기록 수립",
       "titleTranslations": {
@@ -2438,34 +2409,6 @@
         ],
         "firstPublishedAt": "2026-10-19T15:00:00.000Z",
         "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
-      "id": "news-3f74e87dc29c538b58b24f79",
-      "title": "ESA 유클리드 우주망원경, 미지의 혜성 첫 발견",
-      "titleTranslations": {
-        "en": "Euclid discovers new comet"
-      },
-      "startAt": "2026-10-19T12:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)은 유클리드 우주망원경이 2026년 9월 16~24일 촬영한 이미지에서 이전에 알려지지 않은 혜성을 발견했다고 발표했다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency says its Euclid space telescope discovered a previously unknown comet in images taken between 16 and 24 September 2026."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
-        ],
-        "firstPublishedAt": "2026-10-19T12:00:00.000Z",
-        "lastObservedAt": "2026-10-19T19:17:31.888Z"
       }
     },
     {
