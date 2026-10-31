@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 66,
+    "completedCount": 67,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3398,38 +3398,48 @@
           "englishMobile": "390x585",
           "checkedOn": "2026-10-30"
         }
+      },
+      {
+        "sequence": 67,
+        "id": 66,
+        "title": "The Coming Wave",
+        "englishTitle": "The Coming Wave",
+        "koreanTitle": "더 커밍 웨이브",
+        "status": "completed-and-verified",
+        "koreanImage": "the-coming-wave-v3-integrated-ko.webp",
+        "englishImage": "the-coming-wave-v3-integrated-en.webp",
+        "koreanPreview": "../previews/the-coming-wave-v3-integrated-ko-mobile.webp",
+        "englishPreview": "../previews/the-coming-wave-v3-integrated-en-mobile.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "sourceNotes": "sources/the-coming-wave-v3-integrated.md",
+        "sources": [
+          "https://mustafa-suleyman.ai/",
+          "https://the-coming-wave.com/",
+          "https://www.penguinrandomhouse.com/books/722674/the-coming-wave-by-mustafa-suleyman-with-michael-bhaskar/9780593593967/",
+          "https://penguinrandomhousehighereducation.com/book/?isbn=9780593593974",
+          "https://cdn.penguin.co.uk/dam-assets/books/9781847927484/9781847927484-sample.pdf",
+          "https://digitalcommons.ndu.edu/joint-force-quarterly/vol116/iss4/17/",
+          "https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=1078631&ty=B"
+        ],
+        "completedOn": "2026-10-30",
+        "publicBrowserChecks": {
+          "koreanCardHref": "infographics/the-coming-wave-v3-integrated-ko.webp",
+          "englishCardHref": "infographics/the-coming-wave-v3-integrated-en.webp",
+          "koreanOriginal": "1024x1536",
+          "englishOriginal": "1024x1536",
+          "koreanMobile": "390x585",
+          "englishMobile": "390x585",
+          "checkedOn": "2026-10-30"
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 67,
-      "id": 66,
-      "title": "The Coming Wave",
-      "englishTitle": "The Coming Wave",
-      "koreanTitle": "더 커밍 웨이브",
-      "status": "content-verified-art-generation-pending",
-      "koreanImage": "the-coming-wave-v3-integrated-ko.webp",
-      "englishImage": "the-coming-wave-v3-integrated-en.webp",
-      "koreanPreview": "../previews/the-coming-wave-v3-integrated-ko-mobile.webp",
-      "englishPreview": "../previews/the-coming-wave-v3-integrated-en-mobile.webp",
-      "koreanComplete": false,
-      "englishComplete": false,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-10-30",
-      "sourceNotes": "sources/the-coming-wave-v3-integrated.md",
-      "sources": [
-        "https://mustafa-suleyman.ai/",
-        "https://the-coming-wave.com/",
-        "https://www.penguinrandomhouse.com/books/722674/the-coming-wave-by-mustafa-suleyman-with-michael-bhaskar/9780593593967/",
-        "https://penguinrandomhousehighereducation.com/book/?isbn=9780593593974",
-        "https://cdn.penguin.co.uk/dam-assets/books/9781847927484/9781847927484-sample.pdf",
-        "https://digitalcommons.ndu.edu/joint-force-quarterly/vol116/iss4/17/",
-        "https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=1078631&ty=B"
-      ]
-    }
+    "inProgress": null
   }
 }
