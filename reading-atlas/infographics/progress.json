@@ -3400,6 +3400,36 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 67,
+      "id": 66,
+      "title": "The Coming Wave",
+      "englishTitle": "The Coming Wave",
+      "koreanTitle": "더 커밍 웨이브",
+      "status": "content-verified-art-generation-pending",
+      "koreanImage": "the-coming-wave-v3-integrated-ko.webp",
+      "englishImage": "the-coming-wave-v3-integrated-en.webp",
+      "koreanPreview": "../previews/the-coming-wave-v3-integrated-ko-mobile.webp",
+      "englishPreview": "../previews/the-coming-wave-v3-integrated-en-mobile.webp",
+      "koreanComplete": false,
+      "englishComplete": false,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-10-30",
+      "sourceNotes": "sources/the-coming-wave-v3-integrated.md",
+      "sources": [
+        "https://mustafa-suleyman.ai/",
+        "https://the-coming-wave.com/",
+        "https://www.penguinrandomhouse.com/books/722674/the-coming-wave-by-mustafa-suleyman-with-michael-bhaskar/9780593593967/",
+        "https://penguinrandomhousehighereducation.com/book/?isbn=9780593593974",
+        "https://cdn.penguin.co.uk/dam-assets/books/9781847927484/9781847927484-sample.pdf",
+        "https://digitalcommons.ndu.edu/joint-force-quarterly/vol116/iss4/17/",
+        "https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=1078631&ty=B"
+      ]
+    }
   }
 }
