@@ -1,8 +1,95 @@
 {
-  "catalogVersion": "0.0.196",
-  "updatedAt": "2026-10-31T17:41:19.238Z",
+  "catalogVersion": "0.0.197",
+  "updatedAt": "2026-11-01T07:28:15.085Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-ac1ada03b98d3f979e038a6d",
+      "title": "'단공목' 기름딱정벌레, 60년 만에 웨일즈서 재발견",
+      "titleTranslations": {
+        "en": "'Short‑necked oil beetle' found in Wales again after 60 years"
+      },
+      "startAt": "2026-11-01T07:08:04.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도는 단공목(Short‑Necked) 기름딱정벌레가 최근 조사에서 60년 만에 웨일즈에서 발견됐다고 전했다. 이 종은 이전 조사에서 멸종된 것으로 여겨졌으나 재발견으로 보존 상태와 서식지 보호에 관한 관심이 다시 제기되고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say the short‑necked oil beetle has been found in Wales for the first time in about 60 years. The species had been feared extinct following recent surveys, and its rediscovery raises renewed attention for conservation and habitat protection."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-01T07:08:04.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-9fdd859de5445198a141ff8f",
+      "title": "인도 야권, 선거관리위원장 사임 촉구 대규모 집회 예정",
+      "titleTranslations": {
+        "en": "India's opposition to hold mega rally seeking election chief's resignation"
+      },
+      "startAt": "2026-11-01T07:00:55.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 인도 야권이 선거관리위원장의 사임을 요구하는 대규모 집회를 준비하고 있다. 이번 집회는 유권자명부 정정 작업을 둘러싼 시위가 커진 가운데 열리며, 해당 작업으로 최대 1억3천만 명이 명부에서 누락될 수 있다는 우려가 배경이 되었다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reporting says India's opposition is preparing a large rally calling for the resignation of the election chief. The rally follows growing protests over a voter‑list revision exercise that critics fear could leave up to 130 million voters off the rolls."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-01T07:00:55.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-98e47325920a6fd8509e34f0",
+      "title": "남부 필리핀 새 지방정부 출범 — 80년 분쟁 평화과정의 이정표",
+      "titleTranslations": {
+        "en": "A new local government takes office in southern Philippines — milestone in an 80‑year conflict peace process"
+      },
+      "startAt": "2026-10-31T21:14:32.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도는 남부 필리핀에서 새로운 지방정부가 공식적으로 출범했다고 전했다. 이는 약 80년간 이어진 분쟁의 평화 과정에서 중요한 이정표로 평가되며, 지역 정치와 보안 상황에 변화를 가져올 가능성이 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Reports say a new local government has formally taken office in the southern Philippines. The development is described as a milestone in the long‑running, roughly 80‑year conflict's peace process and could bring changes to local politics and security dynamics."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines"
+        ],
+        "firstPublishedAt": "2026-10-31T21:14:32.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
     {
       "id": "news-23855d994607aa8ed8fc4221",
       "title": "콩고민주공화국 최악의 에볼라 유행 — 사망자 5,000명 이상",
@@ -89,6 +176,90 @@
         ],
         "firstPublishedAt": "2026-10-31T11:02:34.000Z",
         "lastObservedAt": "2026-10-31T17:41:19.238Z"
+      }
+    },
+    {
+      "id": "news-38c651b07df005208a465fa8",
+      "title": "영국 크리스마스 기간 10일 철도 공사로 상당한 운행 차질 예고",
+      "titleTranslations": {
+        "en": "Ten days of railway engineering work planned over Christmas in Britain, causing major disruption"
+      },
+      "startAt": "2026-10-31T11:00:41.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도에 따르면 영국의 주요 철도 노선에서 크리스마스 기간 동안 10일간 대규모 공사가 예정돼 있어 승객들에게 상당한 혼란이 예상된다. 런던 패딩턴과 버밍엄 뉴스트리트 역은 일부 기간 폐쇄되지만 대부분 노선은 계속 운행될 것으로 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say major railway engineering works will cause 10 days of disruption over Christmas in Britain. London Paddington and Birmingham New Street will be closed for parts of the period, though most routes are expected to remain open."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/31/railway-engineering-work-christmas-disruption-london-birmingham",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/31/railway-engineering-work-christmas-disruption-london-birmingham"
+        ],
+        "firstPublishedAt": "2026-10-31T11:00:41.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-d6f64195eca2e8fbe2bbe1b5",
+      "title": "일론 머스크, 미 중간선거에 약 4억4,600만 달러 지출 — 현대사 최대 단일 기부자",
+      "titleTranslations": {
+        "en": "Elon Musk spent about $446m on US midterms — the largest single‑cycle political donor in modern history"
+      },
+      "startAt": "2026-10-31T10:00:40.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도는 일론 머스크가 이번 중간선거에서 공화당을 지원하는 정치행동위원회(PAC)와 단체들에 최소 4억4,577만 달러를 쏟아부어 현대사에서 단일 선거주기 기준 최대 정치 기부자가 됐다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Elon Musk has funneled at least $445.77m into Republican‑aligned PACs and groups during this midterm cycle, making him the largest single‑cycle political donor in modern US history."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/31/elon-musk-midterms-spending-visualized",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/ng-interactive/2026/oct/31/elon-musk-midterms-spending-visualized"
+        ],
+        "firstPublishedAt": "2026-10-31T10:00:40.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-e858852c6a61256aa0a3c3e0",
+      "title": "Avanti West Coast, 여름철 승객 지연 보상으로 2천만 파운드 이상 지급",
+      "titleTranslations": {
+        "en": "Avanti West Coast paid out over £20m in 'delay repay' refunds this summer"
+      },
+      "startAt": "2026-10-31T07:00:35.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도는 Avanti West Coast가 올여름 기간 동안 지연된 여객 운행에 대해 'Delay Repay' 방식으로 2천만 파운드가 넘는 환불을 지급했다고 전했다. 올해 재무연도 전체로는 보상액이 7천만 파운드를 넘을 가능성이 제기되고 있다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Avanti West Coast refunded more than £20m to passengers this summer through its 'Delay Repay' scheme for disrupted journeys. The operator's annual compensation bill is likely to exceed £70m for the financial year, reports say."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/31/avanti-west-coast-gwr-lner-train-delay-repay-passenger-refunds-compensation",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/31/avanti-west-coast-gwr-lner-train-delay-repay-passenger-refunds-compensation"
+        ],
+        "firstPublishedAt": "2026-10-31T07:00:35.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
       }
     },
     {
@@ -206,6 +377,62 @@
         ],
         "firstPublishedAt": "2026-10-30T19:42:15.000Z",
         "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
+    {
+      "id": "news-41fa33a940a90fd4f50dce1c",
+      "title": "나사, 새 항공우주 박람회 'MAX POWER' 주요 행사 일정 공개",
+      "titleTranslations": {
+        "en": "NASA releases key events for new aerospace expo and air show 'MAX POWER'"
+      },
+      "startAt": "2026-10-30T19:31:02.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "나사는 플로리다 케네디 우주센터 일대에서 열리는 새 항공우주 박람회 겸 에어쇼 'MAX POWER'의 주요 일정(11월 6일~8일)을 발표했다. 보도는 나사와 외부 협력자들이 여러 공원형 행사를 통해 참여한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "NASA announced key events for the new aerospace expo and air show 'MAX POWER', taking place near the agency's Kennedy Space Center from 6–8 November. The agency and various external collaborators will host multiple park‑style experiences, reporting says."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/"
+        ],
+        "firstPublishedAt": "2026-10-30T19:31:02.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-8f46fe2dc3e8f77c97848486",
+      "title": "시티 오브 런던 대표 이안 토마스, 블랙 파워리스트 1위 선정",
+      "titleTranslations": {
+        "en": "City of London chief Ian Thomas tops UK Black Powerlist"
+      },
+      "startAt": "2026-10-30T18:00:24.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 1,
+      "description": "보도는 시티 오브 런던을 이끄는 이안 토마스가 21주년 블랙 파워리스트에서 1위에 올랐다고 전했다. 이 리스트는 영국 사회·경제 분야에서 영향력을 행사하는 흑인 인사들을 선정해 발표한다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Ian Thomas, who heads the City of London Corporation, topped the UK Black Powerlist in its 21st year. The list recognises Black figures with influence across British society and the economy."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-30T18:00:24.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
       }
     },
     {
@@ -1497,34 +1724,6 @@
       }
     },
     {
-      "id": "news-577fd304a66d204d40f29381",
-      "title": "나사 퍼서비어런스가 네레트바 계곡의 360도 전경 영상 공개",
-      "titleTranslations": {
-        "en": "NASA’s Perseverance views dust at Neretva Vallis"
-      },
-      "startAt": "2026-10-26T22:48:12.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 보도자료에 따르면 퍼서비어런스 로버의 Mastcam‑Z가 촬영한 217장의 이미지를 이어붙여 네레트바 계곡(예제로 분지 내)의 360도 전경을 공개했다. 보도는 현재는 바람에 쓸린 먼지투성이 경관이지만 수십억 년 전에는 강이 있었음을 상기시킨다고 전했다.",
-      "descriptionTranslations": {
-        "en": "A NASA release says the Perseverance rover’s Mastcam‑Z captured 217 images that were stitched into a 360‑degree view of Neretva Vallis within Jezero Crater. The agency notes the scene is dusty and wind‑swept today but recalls that billions of years ago it hosted a river channel."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/"
-        ],
-        "firstPublishedAt": "2026-10-26T22:48:12.000Z",
-        "lastObservedAt": "2026-10-27T06:14:00.925Z"
-      }
-    },
-    {
       "id": "news-9dd2f7177d8d8160728bfd8f",
       "title": "월터 코닉(스타트렉 파벨 체코프 역) 별세 — 향년 90",
       "titleTranslations": {
@@ -1612,35 +1811,6 @@
       }
     },
     {
-      "id": "news-d6e31d9e0fa6ab5ca38f13c2",
-      "title": "SpaceX, 약 400억달러 규모 GPU 자금 조달 약정 체결",
-      "titleTranslations": {
-        "en": "SpaceX locks in $40B GPU financing deal with Apollo"
-      },
-      "startAt": "2026-10-26T16:46:36.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "테크크런치는 SpaceX가 AI 칩과 데이터센터 장비 비용을 충당하기 위한 약 400억 달러 규모의 구속력 있는 자금 조달 약정을 체결했다고 보도했다. 회사는 이를 '지금까지의 최대 규모 GPU 자금 조달'이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch reports that SpaceX has secured a binding commitment of roughly $40 billion in financing to pay for AI chips and related data‑center equipment. The company described the deal as the largest committed GPU financing ever."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
-        ],
-        "firstPublishedAt": "2026-10-26T16:46:36.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
       "id": "news-8239d000cbf4efda46b67abb",
       "title": "메타, AI 확장 비용 충당 위해 950억달러 조달 계획 발표",
       "titleTranslations": {
@@ -1665,34 +1835,6 @@
           "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates"
         ],
         "firstPublishedAt": "2026-10-26T15:33:24.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
-      "id": "news-c889760de5d37b0559553666",
-      "title": "영국, 엘파셔(El Fasher) ‘강간 캠페인’ 관련 수단 군 지휘관들 제재",
-      "titleTranslations": {
-        "en": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’"
-      },
-      "startAt": "2026-10-26T15:07:23.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언은 영국 정부가 엘파셔에서 수만 명의 민간인 학살이 발생한 사건과 관련해 성폭력에 연루된 것으로 의심되는 수단의 고위 지휘관들에게 여행금지와 자산동결 제재를 가했다고 보도했다. 발표는 사건 1주년에 맞춰 이뤄졌다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that the UK has imposed travel bans and asset freezes on senior Sudanese commanders suspected of involvement in sexual violence during the mass atrocity in El Fasher. The sanctions were announced on the first anniversary of the events."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
-        ],
-        "firstPublishedAt": "2026-10-26T15:07:23.000Z",
         "lastObservedAt": "2026-10-26T19:14:44.654Z"
       }
     },
@@ -1753,34 +1895,6 @@
       }
     },
     {
-      "id": "news-48726c8e96bae6628b1b4db1",
-      "title": "힐리, 예산안에서 저소득 연금수급자의 소득세 부담 보호 계획 발표",
-      "titleTranslations": {
-        "en": "Healey to shield low‑income pensioners from income tax in the Budget"
-      },
-      "startAt": "2026-10-26T10:28:12.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 비즈니스는 예산안에서 저소득 연금수급자들이 4월 연금 인상 이후 소득세 대상이 되는 것을 막기 위한 변화가 포함될 것이라고 보도했다. 보도는 이러한 조치가 해당 대상자들의 세부담을 보호하기 위한 것이라고 전한다.",
-      "descriptionTranslations": {
-        "en": "BBC Business reports that the Budget will include measures to shield low‑income pensioners from becoming liable for income tax after the full, flat‑rate state pension rises in April. The coverage says the change is intended to protect those pensioners from additional tax burdens."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-26T10:28:12.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
       "id": "news-24f4e73ce7f92a3648d27ebe",
       "title": "목소리 배우 에릭 바우자 별세, 향년 46",
       "titleTranslations": {
@@ -1806,34 +1920,6 @@
         ],
         "firstPublishedAt": "2026-10-26T06:16:15.000Z",
         "lastObservedAt": "2026-10-26T19:14:44.655Z"
-      }
-    },
-    {
-      "id": "news-a187897975e8b3a3b3829d92",
-      "title": "알렉산다르 부치치, 학생 주도 운동에 패배 인정 — 세르비아 장기 집권 세력에 타격",
-      "titleTranslations": {
-        "en": "Aleksandar Vučić concedes after student‑led movement defeats longtime leader in Serbia"
-      },
-      "startAt": "2026-10-26T05:24:59.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라는 세르비아의 오랜 지도자 알렉산다르 부치치가 학생들이 주도한 시위 운동에 의해 의회 선거에서 패배를 인정했다고 보도했다. 보도는 이번 결과가 오랜 집권에 대한 도전이자 정치적 분수령이 될 가능성이 있다고 전한다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that Serbia's longtime leader Aleksandar Vučić conceded defeat to a student‑led protest movement in parliamentary elections. The coverage frames the result as a significant challenge to entrenched rule with potential political consequences."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-26T05:24:59.000Z",
-        "lastObservedAt": "2026-10-26T06:06:12.045Z"
       }
     },
     {
@@ -2063,34 +2149,6 @@
       }
     },
     {
-      "id": "news-a2942cdad3f6804df91978d8",
-      "title": "앤디 번햄, '일상 문제 해결' 우선 전략으로 소규모 개혁 강조",
-      "titleTranslations": {
-        "en": "Andy Burnham prioritises 'everyday fixes' strategy to deliver small‑scale reforms"
-      },
-      "startAt": "2026-10-23T12:26:53.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "신임 총리로 보도된 앤디 번햄은 보도에 따르면 도로 포트홀, 버스 요금, 공공질서 등 '일상 문제' 해결을 통해 유권자에게 실질적 변화를 보여주려는 전략을 내세우고 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say Andy Burnham, described as the new prime minister, is prioritising a strategy of 'everyday fixes' — small, tangible reforms such as pothole repairs, bus fares and public‑transport etiquette — to show voters practical improvements."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/politics/2026/oct/23/andy-burnham-everyday-fixes-strategy-bus-fares-pubs-potholes-headphone-dodgers",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/politics/2026/oct/23/andy-burnham-everyday-fixes-strategy-bus-fares-pubs-potholes-headphone-dodgers"
-        ],
-        "firstPublishedAt": "2026-10-23T12:26:53.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
-      }
-    },
-    {
       "id": "news-d8c2497a7a86b63bd8950c2b",
       "title": "개인맞춤형 암 백신, 재발·사망 위험 42% 감소 — 주요 임상 결과(업데이트)",
       "titleTranslations": {
@@ -2204,36 +2262,6 @@
         ],
         "firstPublishedAt": "2026-10-22T23:06:04.000Z",
         "lastObservedAt": "2026-10-23T06:00:48.524Z"
-      }
-    },
-    {
-      "id": "news-7e7b341d271497a8ccb486dd",
-      "title": "UK 시티 오브 컬처 2029 후보지 4곳 확정 — 블랙풀·셰필드·밀턴케인스·렉섬",
-      "titleTranslations": {
-        "en": "Four locations shortlisted to be UK City of Culture 2029 — Blackpool, Sheffield, Milton Keynes and Wrexham"
-      },
-      "startAt": "2026-10-22T11:24:44.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 1,
-      "description": "UK 시티 오브 컬처 2029 최종 후보지로 블랙풀, 셰필드, 밀턴케인스, 렉섬 4곳이 선정됐다. 우승 도시는 £10m의 지원을 받게 되며 최종 결과는 내년 초 발표된다.",
-      "descriptionTranslations": {
-        "en": "Blackpool, Sheffield, Milton Keynes and Wrexham have been shortlisted to become the UK City of Culture 2029. The winning location will receive £10m and the final result will be announced in early 2027, reporting says."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/culture/2026/oct/22/uk-city-culture-2029-shortlist-blackpool-sheffield-milton-keynes-wrexham",
-      "topicIds": [
-        "artsFilm",
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6jrw03njgxzo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/culture/2026/oct/22/uk-city-culture-2029-shortlist-blackpool-sheffield-milton-keynes-wrexham"
-        ],
-        "firstPublishedAt": "2026-10-21T23:02:37.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
       }
     },
     {
