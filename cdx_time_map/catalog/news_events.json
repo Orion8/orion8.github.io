@@ -1,8 +1,151 @@
 {
-  "catalogVersion": "0.0.197",
-  "updatedAt": "2026-11-01T07:28:15.085Z",
+  "catalogVersion": "0.0.198",
+  "updatedAt": "2026-11-01T18:25:50.695Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-69c245550d646a9db4cdd473",
+      "title": "LA 시장 카렌 배스, 재선 경쟁 심화 — 진보 성향 도전자와 접전",
+      "titleTranslations": {
+        "en": "Embattled Karen Bass fights to keep Los Angeles mayorship as progressive challenger gains"
+      },
+      "startAt": "2026-11-01T18:19:06.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도는 LA 시장 카렌 배스가 주택·물가 등 문제를 둘러싼 선거전에서 진보 성향의 도전자와 치열한 경쟁을 벌이며 재선에 어려움을 겪고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Los Angeles mayor Karen Bass is facing a strong challenge and is fighting to retain her mayorship amid a tight race with a more progressive challenger, with affordability a key issue."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/01/karen-bass-los-angeles-mayoral-race",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/01/karen-bass-los-angeles-mayoral-race"
+        ],
+        "firstPublishedAt": "2026-11-01T18:19:06.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
+      }
+    },
+    {
+      "id": "news-15f19ca81ac7a3d7f09df68c",
+      "title": "콜로라도, 제초제 살포 드론 계획에 지역사회 반발",
+      "titleTranslations": {
+        "en": "Colorado community contests plan to use drones to spray weed killer"
+      },
+      "startAt": "2026-11-01T14:00:18.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 1,
+      "description": "콜로라도 보울더카운티 레드힐 일대에서 침입 식물을 제거하기 위해 드론으로 제초제를 살포하는 계획이 발표되자 지역 주민과 환경 단체들이 우려를 표명하며 반발하고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Officials in Red Hill, Colorado plan to use drones to spray weed killer to remove invasive plants, prompting concern and opposition from local residents and environmental groups, reporting says."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/01/colorado-drones-weed-killer",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/01/colorado-drones-weed-killer"
+        ],
+        "firstPublishedAt": "2026-11-01T14:00:18.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
+      }
+    },
+    {
+      "id": "news-06a2c703111142070fa59601",
+      "title": "바이낸스, 63억 달러 해킹 피해의 90% 보상 시도 — FBI는 북한 배후 지목",
+      "titleTranslations": {
+        "en": "Binance says it has covered 90% of $6.3bn hack — FBI attributes attack to North Korea"
+      },
+      "startAt": "2026-11-01T13:11:37.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "암호화폐 거래소 바이낸스가 약 63억 달러 규모로 추정되는 해킹 사건과 관련해 손실의 90%를 메우겠다고 밝혔으며, 미 연방수사국(FBI)은 이번 공격에 북한이 책임이 있다고 지목했다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Crypto exchange Binance said it has covered 90% of losses from a reported $6.3bn hack, and the FBI has identified North Korea as responsible, reporting says."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
+          "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-29T10:00:31.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.694Z"
+      }
+    },
+    {
+      "id": "news-f845da07825410f4870fccb8",
+      "title": "독일 물가 부담 시위 격화 — 상점 약탈·대도시 곳곳 충돌",
+      "titleTranslations": {
+        "en": "Shops looted as German cost‑of‑living protests turn violent"
+      },
+      "startAt": "2026-11-01T11:57:48.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "베를린·함부르크·프랑크푸르트 등 여러 도시에서 치러진 물가 부담 시위가 격화돼 일부 상점 약탈과 충돌이 발생했다고 보도됐다. 같은 날 프랑스에서도 수십만명이 시위에 참여했다는 보도가 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Cost‑of‑living protests in several German cities — including Berlin, Hamburg and Frankfurt — turned violent with shops looted and clashes reported. The protests took place on the same day that hundreds of thousands also demonstrated in France, reporting says."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-01T11:57:48.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
+      }
+    },
+    {
+      "id": "news-6adc980a9aea12f0fb12d785",
+      "title": "사디크 칸, 런던 로보택시 수 제한 촉구 — 공기질·혼잡·일자리 우려 제기",
+      "titleTranslations": {
+        "en": "Sadiq Khan calls for cap on robotaxis in London over air quality, congestion and jobs"
+      },
+      "startAt": "2026-11-01T10:00:09.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "런던 시장 사디크 칸은 정부가 완전자율주행 차량 운행을 허용할 태세인 가운데 로보택시 수에 대한 상한 도입을 촉구하며 공기질·혼잡·일자리 영향을 문제삼았다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "London mayor Sadiq Khan has called for a cap on the number of robotaxis on city streets, questioning the impact on air quality, congestion and jobs as the government considers allowing fully driverless vehicles, reporting says."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets"
+        ],
+        "firstPublishedAt": "2026-11-01T10:00:09.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
+      }
+    },
     {
       "id": "news-ac1ada03b98d3f979e038a6d",
       "title": "'단공목' 기름딱정벌레, 60년 만에 웨일즈서 재발견",
@@ -59,6 +202,64 @@
         ],
         "firstPublishedAt": "2026-11-01T07:00:55.000Z",
         "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-204d5faf405d3242c5f35b25",
+      "title": "법원, NAACP의 xAI 데이터센터 오염 소송 진행 허용",
+      "titleTranslations": {
+        "en": "Judge allows NAACP lawsuit over xAI data‑center pollution to move forward"
+      },
+      "startAt": "2026-10-31T21:17:03.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "NAACP가 제기한 소송이 진행 허가를 받았으며, 소송은 스페이스X 계열 AI업체 xAI가 대기오염법(Clean Air Act)을 위반했다는 주장을 담고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "A judge has allowed the NAACP’s lawsuit to proceed; the case alleges that SpaceX‑owned AI company xAI violated the Clean Air Act, reporting says."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+        ],
+        "firstPublishedAt": "2026-10-31T21:17:03.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.694Z"
+      }
+    },
+    {
+      "id": "news-7c0ce3d8dd2c4b7e24e448c1",
+      "title": "루비오 주최 G20 외교장관회의, 애틀랜타서 개막 — 경제·안보 논의 집중",
+      "titleTranslations": {
+        "en": "Secretary Rubio hosts G20 foreign ministers in Atlanta — focus on economic and security challenges"
+      },
+      "startAt": "2026-10-31T21:14:34.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "미 국무장관 마르코 루비오가 애틀랜타에서 G20 외교장관 회의를 주최했으며, 회의는 경제와 안보 문제에 집중하고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "U.S. Secretary of State Marco Rubio is hosting the G20 foreign ministers’ meeting in Atlanta, with a focus on economic and security challenges, reporting says."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/31/nx-s1-6022223/secretary-rubio-has-a-tough-time-getting-officials-at-g20-on-the-same-page",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/31/nx-s1-6022223/secretary-rubio-has-a-tough-time-getting-officials-at-g20-on-the-same-page"
+        ],
+        "firstPublishedAt": "2026-10-31T21:14:34.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
       }
     },
     {
@@ -293,33 +494,35 @@
       }
     },
     {
-      "id": "news-06a2c703111142070fa59601",
-      "title": "바이낸스 63억 달러 해킹 수습 시도",
+      "id": "news-7aa6dab0376044f6c887c5ca",
+      "title": "NASA, 허블 우주망원경 상업적 정비 가능성 조사 재문의 — 업계에 아이디어 재공모",
       "titleTranslations": {
-        "en": "Crypto giant Binance attempting to recover $6.3bn stolen in hack"
+        "en": "NASA again asks industry for ideas on commercial servicing to rescue Hubble"
       },
-      "startAt": "2026-10-30T21:13:14.000Z",
+      "startAt": "2026-10-31T00:07:22.000Z",
       "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "업체는 복잡한 사이버공격으로 약 63억 달러가 탈취된 것으로 추정된다고 밝혔으며, 수사·복구 작업을 진행 중이라고 보도됐다.",
+      "category": "space",
+      "importance": 2,
+      "description": "아르스테크니카 보도에 따르면 NASA가 허블 망원경을 지원·재부양하기 위한 상업적 정비 가능성을 알아보기 위해 업계에 다시 아이디어 제출을 요청했다고 보도됐다.",
       "descriptionTranslations": {
-        "en": "The company says a complex cyber‑attack is believed to have stolen about $6.3bn and that investigations and recovery efforts are underway."
+        "en": "Ars Technica reports NASA has once again solicited industry ideas to explore the potential for commercial in‑space servicing to support and reboost the Hubble Space Telescope."
       },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
       "topicIds": [
-        "climateEnvironment",
-        "economyFinance"
+        "spaceDevelopment",
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
-          "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss"
+          "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+          "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
         ],
-        "firstPublishedAt": "2026-10-29T10:00:31.000Z",
-        "lastObservedAt": "2026-10-31T17:41:19.237Z"
+        "firstPublishedAt": "2026-10-30T14:51:21.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
       }
     },
     {
@@ -553,34 +756,6 @@
         ],
         "firstPublishedAt": "2026-10-30T15:06:39.000Z",
         "lastObservedAt": "2026-10-31T06:57:05.940Z"
-      }
-    },
-    {
-      "id": "news-7aa6dab0376044f6c887c5ca",
-      "title": "나사, 허블 망원경 상업적 정비 가능성 조사 위해 업계에 정보 요청(RFI) 발행",
-      "titleTranslations": {
-        "en": "NASA issues RFI to explore potential commercial servicing for the Hubble Telescope"
-      },
-      "startAt": "2026-10-30T14:51:21.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "나사 보도에 따르면 NASA는 허블 우주망원경을 지원하기 위한 우주 내 정비(in‑space servicing) 역량에 대해 업계의 가능성을 파악하기 위해 10월 29일 정보 요청(Request for Information)을 발행했다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "NASA says it issued a Request for Information on Oct. 29 to learn more about industry capabilities for in‑space servicing to support the agency’s Hubble Space Telescope."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"
-        ],
-        "firstPublishedAt": "2026-10-30T14:51:21.000Z",
-        "lastObservedAt": "2026-10-30T18:34:43.977Z"
       }
     },
     {
@@ -1352,37 +1527,6 @@
       }
     },
     {
-      "id": "news-4446d7ab28b5c10bdeeb8863",
-      "title": "플라비우 보우소나루, 대선 패배 뒤 브라질 떠나 미국 향한 것으로 보도",
-      "titleTranslations": {
-        "en": "Flávio Bolsonaro reportedly flees Brazil for the US after election loss"
-      },
-      "startAt": "2026-10-28T06:36:14.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 극우 상원의원 플라비우 보우소나루가 일요일 대선 결선에서 좌파 현직 대통령 루이스 이나시우 루라 다 실바에게 패한 뒤 브라질을 떠나 미국으로 향하고 있다고 전해졌다. 보도는 보우소나루와 가족이 국경을 넘어 아르헨티나로 이동한 뒤 에콰도르행 개인 전세기에 탑승했다는 점을 인용했으며, 일부 보도는 이 전세기가 미국으로 향하고 있다고 전했다. 루라는 이 같은 행위를 '수치스러운 일'이라고 비판했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that far‑right senator Flávio Bolsonaro has reportedly left Brazil and is heading to the United States after losing the presidential runoff to left‑wing incumbent Luiz Inácio Lula da Silva. Coverage cites reports that he and his family crossed into Argentina and boarded a private plane bound for Ecuador, and that some outlets say the aircraft was en route to the US. Lula called the act 'shameful.'"
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-          "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
-          "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled"
-        ],
-        "firstPublishedAt": "2026-10-25T14:41:17.000Z",
-        "lastObservedAt": "2026-10-28T06:50:10.247Z"
-      }
-    },
-    {
       "id": "news-5c9f738eec108f93bacd0368",
       "title": "트럼프, 바이든 시대 메탄 배출 규정 '종료' 발표",
       "titleTranslations": {
@@ -1408,34 +1552,6 @@
         ],
         "firstPublishedAt": "2026-10-28T01:45:27.000Z",
         "lastObservedAt": "2026-10-28T06:50:10.247Z"
-      }
-    },
-    {
-      "id": "news-72a2d33b808a214be974bc22",
-      "title": "노르웨이·핀란드 정상, 푸틴과 드문 전화 회담 개최",
-      "titleTranslations": {
-        "en": "Norway and Finland leaders hold rare call with Putin"
-      },
-      "startAt": "2026-10-27T18:28:23.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "노르웨이와 핀란드 정상의 푸틴과의 이례적 통화가 보도됐다. 해당 보도는 핀란드 대통령이 우크라이나 분쟁 해결은 침묵으로 달성되지 않을 것이라고 말한 점을 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the leaders of Norway and Finland held a rare phone call with Vladimir Putin. The Finnish president was quoted saying an end to the conflict in Ukraine 'will not be achieved through silence.'"
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-27T18:28:23.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.181Z"
       }
     },
     {
@@ -1781,36 +1897,6 @@
       }
     },
     {
-      "id": "news-e33b638042c7bcbf870ce89c",
-      "title": "IEEE Xplore 디지털 라이브러리에 AI 어시스턴트 기능 추가",
-      "titleTranslations": {
-        "en": "IEEE Xplore Digital Library adds AI assistant"
-      },
-      "startAt": "2026-10-26T18:00:03.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "IEEE 스펙트럼 보도에 따르면 IEEE Xplore가 수백만 건의 동료심사 논문 전문을 기반으로 작동하는 AI 리서치 스위트를 도입해, 기관 구독자 대상 옵셔널 업그레이드로 제공한다. 이 도구는 STEM 문헌에 최적화된 독점 AI 시스템을 활용해 근거 기반 답변과 심층 통찰을 제공한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "IEEE Spectrum reports that the IEEE Xplore Digital Library introduced an AI Research Suite built on the full texts of millions of peer‑reviewed publications. Available as an optional subscription upgrade, the suite uses a proprietary STEM‑optimized AI to provide grounded answers and deep insights."
-      },
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/ieee-xplore-digital-library-ai"
-        ],
-        "firstPublishedAt": "2026-10-26T18:00:03.000Z",
-        "lastObservedAt": "2026-10-27T06:14:00.925Z"
-      }
-    },
-    {
       "id": "news-8239d000cbf4efda46b67abb",
       "title": "메타, AI 확장 비용 충당 위해 950억달러 조달 계획 발표",
       "titleTranslations": {
@@ -1923,34 +2009,6 @@
       }
     },
     {
-      "id": "news-b425a5697e07a66f72df80be",
-      "title": "미 서남부, 연일 폭우·홍수 경계 — Four Corners 지역 추가 폭우 예보",
-      "titleTranslations": {
-        "en": "US south‑west braces for more storms after days of rain and flooding in Four Corners region"
-      },
-      "startAt": "2026-10-25T19:02:51.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언은 애리조나·콜로라도·뉴멕시코·유타가 만나는 Four Corners 지역이 며칠간의 집중호우로 대규모 홍수·대피·수상구조·수백만 달러 피해를 겪은 뒤 추가 폭우와 뇌우가 예보되고 있다고 보도했다. 국립기상청은 해당 지역에 대해 홍수 주의보를 발령했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports the Four Corners area — where Arizona, Colorado, New Mexico and Utah meet — has endured days of heavy rain that prompted evacuations, water rescues and multi‑million‑dollar damage, and that another round of heavy showers and thunderstorms was forecast. The National Weather Service issued a flood watch for much of the region."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms"
-        ],
-        "firstPublishedAt": "2026-10-25T19:02:51.000Z",
-        "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
       "id": "news-df72b971e5b915a709c685a2",
       "title": "야운데의 녹지 상실과 시민 대응 — 아스팔트 아래서 시작된 복구 움직임",
       "titleTranslations": {
@@ -2006,34 +2064,6 @@
         ],
         "firstPublishedAt": "2026-10-25T12:00:05.000Z",
         "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
-      "id": "news-ec49e5f2d20f449310e47f24",
-      "title": "맨체스터의 변화: UAE 자본이 도심 지형에 미친 영향 분석",
-      "titleTranslations": {
-        "en": "How UAE investment has changed the face of Manchester"
-      },
-      "startAt": "2026-10-25T06:00:54.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언 인터랙티브는 아랍의 봄 이후 아랍에미리트의 자본 유입이 맨체스터의 토지 소유와 도시 경관에 미친 영향을 추적하며, 일부 지역의 토지 소유 구조와 사회적 결과를 조명했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian interactive traces how investment from the United Arab Emirates since the Arab Spring has reshaped Manchester’s land ownership and urban landscape, examining social and economic consequences in affected areas."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/news/ng-interactive/2026/oct/25/thats-the-way-the-city-works-how-the-uae-changed-the-face-of-andy-burnhams-manchester",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/news/ng-interactive/2026/oct/25/thats-the-way-the-city-works-how-the-uae-changed-the-face-of-andy-burnhams-manchester"
-        ],
-        "firstPublishedAt": "2026-10-25T06:00:54.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
       }
     },
     {
@@ -2117,34 +2147,6 @@
           "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles"
         ],
         "firstPublishedAt": "2026-10-24T12:00:32.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
-      "id": "news-322315c951a03eb33f46aff9",
-      "title": "영국 정부의 £58억(£5.8bn) 도시재생 계획, 그림스비 등 중심으로 지역상권 재활 시도",
-      "titleTranslations": {
-        "en": "Can a £5.8bn scheme help revive Grimsby and other town centres?"
-      },
-      "startAt": "2026-10-24T06:00:26.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언 보도는 정부의 58억 파운드 규모 도시재생 계획이 폐점·방치된 상가를 커뮤니티 공간으로 바꾸는 방식으로 그림스비 등 침체된 타운센터를 되살리려 한다고 전한다. 보도는 실행의 난제와 장기 지속성 문제를 지적한다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports a £5.8bn government scheme aims to revive struggling town centres — including Grimsby — by converting boarded‑up shops into community spaces and other interventions. The coverage highlights implementation challenges and questions about long‑term sustainability."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/24/can-new-scheme-help-revive-grimsby-britain-struggling-town-centres",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/uk-news/2026/oct/24/can-new-scheme-help-revive-grimsby-britain-struggling-town-centres"
-        ],
-        "firstPublishedAt": "2026-10-24T06:00:26.000Z",
         "lastObservedAt": "2026-10-24T16:34:36.430Z"
       }
     },
