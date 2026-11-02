@@ -1,8 +1,94 @@
 {
-  "catalogVersion": "0.0.198",
-  "updatedAt": "2026-11-01T18:25:50.695Z",
+  "catalogVersion": "0.0.199",
+  "updatedAt": "2026-11-02T07:38:15.232Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-f4c5be0a71e76073b83082bc",
+      "title": "유엔, 35년 임무 종료 — 서사하라 분쟁 평화유지 활동 종결",
+      "titleTranslations": {
+        "en": "UN ends 35‑year peacekeeping mission in disputed Western Sahara"
+      },
+      "startAt": "2026-11-02T07:19:35.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "유엔의 장기 평화유지 임무가 35년 만에 종료되었다. 서사하라는 과거 스페인령이었으며 모로코와 친(親)독립 폴리사리오 전선이 영유권을 주장해온 지역이다.",
+      "descriptionTranslations": {
+        "en": "The U.N.'s long‑running peacekeeping mission has ceased operations after 35 years. Western Sahara, once ruled by Spain, is claimed by both Morocco and the pro‑independence Polisario Front."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends"
+        ],
+        "firstPublishedAt": "2026-11-02T07:19:35.000Z",
+        "lastObservedAt": "2026-11-02T07:38:15.232Z"
+      }
+    },
+    {
+      "id": "news-355ad5ac5207f3333afa5663",
+      "title": "영국 응급실, 악화하는 소아환자 조기 식별 위한 경보 시스템 도입",
+      "titleTranslations": {
+        "en": "England to introduce A&E warning system to flag children deteriorating rapidly"
+      },
+      "startAt": "2026-11-02T00:51:24.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "영국에서 바쁜 응급실 직원들이 대기 중인 어린이들 가운데 빠르게 상태가 악화하는 환자를 식별할 수 있도록 돕는 경보 시스템을 도입할 계획이라고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "An initiative in England will introduce an A&E warning system to help busy staff identify children who are deteriorating quickly while waiting for emergency care, reporting says."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw1m42zdnn3go?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw1m42zdnn3go?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-02T00:51:24.000Z",
+        "lastObservedAt": "2026-11-02T07:38:15.232Z"
+      }
+    },
+    {
+      "id": "news-35c2e38b2bb7bd4eaa5979e1",
+      "title": "카타르 주도 걸프 중재, 미·이란 추가 공격 저지 노력",
+      "titleTranslations": {
+        "en": "Qatar leads Gulf talks aimed at averting new U.S. strikes on Iran"
+      },
+      "startAt": "2026-11-01T22:19:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "카타르는 최근 72시간 동안 중재를 주도하며 중간선거 이후 미국의 추가 공격 가능성을 막기 위한 집중 협상을 벌이고 있다고 보도됐다. 걸프 지역 전체가 불안정한 상태에 놓여 있다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Qatar has been leading intense mediation efforts over the past 72 hours to prevent a new round of possible U.S. attacks on Iran after the midterm elections, leaving the Gulf region on edge, reporting says."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war"
+        ],
+        "firstPublishedAt": "2026-11-01T22:19:13.000Z",
+        "lastObservedAt": "2026-11-02T07:38:15.232Z"
+      }
+    },
     {
       "id": "news-69c245550d646a9db4cdd473",
       "title": "LA 시장 카렌 배스, 재선 경쟁 심화 — 진보 성향 도전자와 접전",
@@ -88,6 +174,34 @@
         ],
         "firstPublishedAt": "2026-10-29T10:00:31.000Z",
         "lastObservedAt": "2026-11-01T18:25:50.694Z"
+      }
+    },
+    {
+      "id": "news-f063ceae6ff751ba9d7c0016",
+      "title": "미·중 무역갈등 일시 진정 — '안심은 금물' 분석",
+      "titleTranslations": {
+        "en": "US‑China trade war seems to have cooled — analysts warn the calm is misleading"
+      },
+      "startAt": "2026-11-01T12:00:12.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도는 미·중 간의 무역 갈등을 진정시키는 휴지가 나타났으나, 표면상의 안도감이 오해일 수 있으며 언제든 새로운 적대 상황이 벌어질 여지가 남아 있다고 지적했다.",
+      "descriptionTranslations": {
+        "en": "Coverage says a truce has cooled the US‑China trade conflict, but the sense of calm is misleading — underlying tensions remain and the risk of renewed hostilities persists, analysts warn."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi"
+        ],
+        "firstPublishedAt": "2026-11-01T12:00:12.000Z",
+        "lastObservedAt": "2026-11-02T07:38:15.232Z"
       }
     },
     {
@@ -849,6 +963,35 @@
       }
     },
     {
+      "id": "news-ed40a35379185b6603ff0531",
+      "title": "오픈AI, 청소년 보호 강화·웹사이트 'AI 훈련 선호' 신호 수용 발표",
+      "titleTranslations": {
+        "en": "OpenAI announces stronger teen protections and will honor a shared robots.txt signal for AI training preferences"
+      },
+      "startAt": "2026-10-30T09:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "오픈AI는 ChatGPT의 폭력 예방을 확대하고 청소년 대상 보호를 강화하는 커뮤니티 안전 보고서를 공개했으며, 웹사이트 운영자가 AI 훈련에 대한 선호를 표현할 수 있도록 공유 robots.txt 신호를 존중하겠다고 발표했다.",
+      "descriptionTranslations": {
+        "en": "OpenAI published a community safety report strengthening violence prevention in ChatGPT with expanded safeguards and earlier interventions for teens, and said it will honour a shared robots.txt signal to let website operators express AI‑training preferences."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "https://openai.com/index/helping-websites-express-ai-training-preferences"
+        ],
+        "firstPublishedAt": "2026-10-30T09:00:00.000Z",
+        "lastObservedAt": "2026-11-02T07:38:15.232Z"
+      }
+    },
+    {
       "id": "news-1b177d530b43c0462ca89066",
       "title": "수단 디아스포라·인권단체, UAE 유엔 사무총장 후보 지명 비판",
       "titleTranslations": {
@@ -1071,35 +1214,6 @@
         ],
         "firstPublishedAt": "2026-10-29T15:58:27.000Z",
         "lastObservedAt": "2026-10-29T18:57:24.918Z"
-      }
-    },
-    {
-      "id": "news-a43029d68bc6e9f642b89f05",
-      "title": "중국, 군 장성을 정치국에 진입시켜 당 기강 강화 나서",
-      "titleTranslations": {
-        "en": "China elevates a military general to the Politburo and seeks to strengthen party discipline"
-      },
-      "startAt": "2026-10-29T15:53:46.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 중국이 고위 군 장성을 정치국에 진입시키는 인사를 단행하고 당 기강 강화를 추진하고 있다고 전했다. 이 조치는 시진핑 주석의 예상되는 4기 임기 전 약 1년 시점에 이뤄졌다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Reports say China has elevated a senior military general to the Politburo and is moving to strengthen party discipline. Coverage notes the move comes about a year before President Xi Jinping is expected to secure a fourth five‑year term."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/29/g-s1-150645/china-elevates-a-military-general-to-the-politburo-and-seeks-to-strengthen-party-discipline",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/29/g-s1-150645/china-elevates-a-military-general-to-the-politburo-and-seeks-to-strengthen-party-discipline"
-        ],
-        "firstPublishedAt": "2026-10-29T15:53:46.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
       }
     },
     {
@@ -1499,34 +1613,6 @@
       }
     },
     {
-      "id": "news-49c28743b6578f5f9bb3f532",
-      "title": "이집트, 독립매체 마다 마스르 편집장 리나 아탈라 벌금·매체 폐쇄 명령",
-      "titleTranslations": {
-        "en": "Egypt fines Mada Masr editor Lina Attalah and orders outlet closed"
-      },
-      "startAt": "2026-10-28T14:16:24.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "카이로 법원은 리나 아탈라를 '무면허 웹사이트 운영' 혐의로 유죄 판결하고 일시 구금된 뒤 벌금과 매체 폐쇄 명령을 내렸다. 이번 조치는 독립언론에 대한 단속이 심화된다는 국제적 우려를 불렀다.",
-      "descriptionTranslations": {
-        "en": "A Cairo court convicted Lina Attalah of managing an unlicensed website, briefly detained her, and ordered fines and the closure of Mada Masr — a move that has raised international concerns about a tightening clampdown on independent media."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown"
-        ],
-        "firstPublishedAt": "2026-10-28T14:16:24.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
       "id": "news-5c9f738eec108f93bacd0368",
       "title": "트럼프, 바이든 시대 메탄 배출 규정 '종료' 발표",
       "titleTranslations": {
@@ -1724,38 +1810,6 @@
       }
     },
     {
-      "id": "news-b67fd02a214f91e2b5ea9e84",
-      "title": "Anthropic 증시 상장 서류 공개 관련 첫 분석 — 성장·비용·리스크 드러나",
-      "titleTranslations": {
-        "en": "Takeaways from Anthropic’s stock‑market filing — growth, costs and risks revealed"
-      },
-      "startAt": "2026-10-27T05:00:04.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Anthropic이 미국 증시 상장을 위한 공개 서류(S‑1)를 제출하며 재무와 위험 요인 등이 공개되었다는 보도가 나왔다. 보도는 빠른 성장과 막대한 비용, 사이버공격과 안전조치의 한계 등 다양한 리스크를 지적했다.",
-      "descriptionTranslations": {
-        "en": "Anthropic has filed an S‑1 to go public in the US, publishing financials and detailed risk disclosures. Reporting highlights explosive growth, very high costs, and risks ranging from cyber‑attacks to limits of safeguards."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-          "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
-          "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways"
-        ],
-        "firstPublishedAt": "2026-10-26T14:35:22.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.180Z"
-      }
-    },
-    {
       "id": "news-e6d594ea2a28ff43dd710023",
       "title": "중국 증시, 미·중 AI 경쟁 우려로 수조원 증발 — STAR 50 지수 40% 급락 보도",
       "titleTranslations": {
@@ -1894,34 +1948,6 @@
         ],
         "firstPublishedAt": "2026-10-26T18:17:25.000Z",
         "lastObservedAt": "2026-10-26T19:14:44.655Z"
-      }
-    },
-    {
-      "id": "news-8239d000cbf4efda46b67abb",
-      "title": "메타, AI 확장 비용 충당 위해 950억달러 조달 계획 발표",
-      "titleTranslations": {
-        "en": "Meta announces $95bn fundraising drive to pay for AI expansion"
-      },
-      "startAt": "2026-10-26T15:33:24.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언는 메타가 AI 인프라와 개인용 '슈퍼지능' 투자 지속을 위해 주식 매도 등으로 약 950억 달러 규모의 자금조달을 추진한다고 보도했다. 보도는 이 조치가 회사의 AI 확대 전략을 뒷받침하기 위한 것이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that Meta plans a fundraising drive of about $95 billion, including a share sale, to support continued investment in AI infrastructure and personal‑superintelligence. The coverage frames the move as part of the company's AI expansion strategy."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates"
-        ],
-        "firstPublishedAt": "2026-10-26T15:33:24.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
       }
     },
     {
@@ -2236,34 +2262,6 @@
         ],
         "firstPublishedAt": "2026-10-22T23:20:05.000Z",
         "lastObservedAt": "2026-10-23T17:53:07.944Z"
-      }
-    },
-    {
-      "id": "news-7b0085dd772c1d5003235981",
-      "title": "MP들, NHS에 체중감량 주사 제공 확대 촉구",
-      "titleTranslations": {
-        "en": "MPs urge broader access to weight‑loss injections on the NHS"
-      },
-      "startAt": "2026-10-22T23:06:04.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "영국의회 의원들이 NHS에서 체중감량 주사(예: Mounjaro)의 대상 확대를 촉구했다. 보도는 현재 2028년까지 대상의 약 6%만 접종 예정인 점을 '야망이 부족하다'고 평가한 의원들의 주장을 전했다.",
-      "descriptionTranslations": {
-        "en": "Members of Parliament are calling for wider access to weight‑loss injections on the NHS. MPs criticised plans that would see only around 6% of eligible patients receive Mounjaro by 2028 as insufficiently ambitious, the reporting says."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g1pkwxdqwo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm4g1pkwxdqwo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-22T23:06:04.000Z",
-        "lastObservedAt": "2026-10-23T06:00:48.524Z"
       }
     },
     {
@@ -2611,36 +2609,6 @@
         ],
         "firstPublishedAt": "2026-10-06T12:46:56.000Z",
         "lastObservedAt": "2026-10-07T19:19:57.939Z"
-      }
-    },
-    {
-      "id": "news-4b7633ee5217136de4e43575",
-      "title": "엘니뇨로 올해 대서양 허리케인 활동 급감 가능성 제기",
-      "titleTranslations": {
-        "en": "Could El Niño mean there are no Atlantic hurricanes this year?"
-      },
-      "startAt": "2026-10-02T23:37:13.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "BBC는 대서양에서 9월(통상 가장 활동적인 달)에 한 건의 허리케인도 관측되지 않은 것은 30년 만의 일이라며, 엘니뇨 영향으로 올해 대서양 허리케인 활동이 크게 줄어들 수 있다는 가능성을 보도했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that, for the first time in three decades, no Atlantic hurricane formed in September — normally the most active month — raising the possibility that El Niño conditions could substantially suppress Atlantic hurricane activity this year."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cwgkvyyg8115o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/weather/articles/cwgkvyyg8115o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-02T23:37:13.000Z",
-        "lastObservedAt": "2026-10-03T17:14:08.025Z"
       }
     }
   ]
