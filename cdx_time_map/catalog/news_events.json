@@ -1,8 +1,157 @@
 {
-  "catalogVersion": "0.0.199",
-  "updatedAt": "2026-11-02T07:38:15.232Z",
+  "catalogVersion": "0.0.200",
+  "updatedAt": "2026-11-02T22:19:07.405Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-ca204e1c0052a71213a13f97",
+      "title": "Anthropic 경고: 'RSI(자가훈련 가속)' 능력에 매우 근접",
+      "titleTranslations": {
+        "en": "Anthropic warns that it’s very close to RSI capability, aka self‑building AI"
+      },
+      "startAt": "2026-11-02T22:14:50.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Anthropic는 AI가 스스로를 훈련해 급격한 능력 가속을 일으키는 이른바 RSI(self‑improving AI) 능력에 '매우 가깝다'고 경고했다. 보도는 RSI 개념과 그 위험을 설명했다.",
+      "descriptionTranslations": {
+        "en": "Anthropic warned it is 'very close' to achieving RSI (recursive self‑improvement) capability — the point where AI trains itself and spawns rapid acceleration of capabilities. Coverage explains the RSI concept and its potential risks."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+        ],
+        "firstPublishedAt": "2026-11-02T22:14:50.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-9bcfdc55331da27bcd897749",
+      "title": "러시아 폭격으로 우크라이나 구호센터서 26명 사망, 키이우 발표",
+      "titleTranslations": {
+        "en": "Russian bombing kills 26 at Ukraine aid centre, Kyiv says"
+      },
+      "startAt": "2026-11-02T21:10:04.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "키이우 당국은 남부 우크라이나의 한 마을에서 최소 9발의 3,000kg급 공중폭탄이 떨어져 구호센터에서 26명이 숨졌다고 밝혔다. 대통령은 이번 공격을 '완전히 끔찍한' 공격이라고 표현했다.",
+      "descriptionTranslations": {
+        "en": "Kyiv authorities say at least nine 3,000kg aerial bombs struck a southern Ukrainian village, killing 26 people at an aid centre. The president described the attack as an 'utterly horrific' assault."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-02T21:10:04.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-b9ac585d42a76d26af690870",
+      "title": "이란 전쟁 종식 기대에 유가 급락 — 브렌트 6% 이상 하락",
+      "titleTranslations": {
+        "en": "Oil price falls amid hope of a breakthrough to end Iran war"
+      },
+      "startAt": "2026-11-02T17:14:23.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "브렌트유가 이란 전쟁을 끝낼 수 있다는 기대 속에 6.5% 이상 하락해 배럴당 105.55달러까지 떨어졌다. 보도는 항공사 주가가 오르고 국채 금리가 낮아졌다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Brent crude fell by more than 6.5% amid hopes of a breakthrough to end the Iran war, dropping to $105.55 a barrel. Coverage says airline shares rose and government borrowing costs fell."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war"
+        ],
+        "firstPublishedAt": "2026-11-02T17:14:23.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-1fa24dedc7c445b42a7af858",
+      "title": "일시적 휴전 종료 — 수백 명 대피 허용된 도시에서 휴전 끝나",
+      "titleTranslations": {
+        "en": "Temporary ceasefire ends after allowing hundreds to evacuate city"
+      },
+      "startAt": "2026-11-02T09:42:11.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "러시아가 점령한 한 우크라이나 도시에서 며칠간 유지된 제한적 휴전이 종료됐다. 이 임시 휴전 기간에 수백 명의 주민이 대피할 수 있었다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "A temporary ceasefire in a Russian‑occupied Ukrainian city has ended after several days. During the pause, hundreds of residents were able to evacuate, reporting says."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+          "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine"
+        ],
+        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-06a2c703111142070fa59601",
+      "title": "바이낸스 해킹 여파—이용자들 36억 달러 인출, 거래 동결",
+      "titleTranslations": {
+        "en": "Binance users withdraw $3.6bn after largest‑ever crypto hack"
+      },
+      "startAt": "2026-11-02T07:42:33.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도는 대규모 해킹 사건 후 바이낸스 이용자들이 약 36억 달러를 인출했으며, 거래소는 사건과 관련해 거래를 동결했다고 전했다. 이번 사건은 북한 연계 그룹과 관련이 있다는 보도가 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say Binance users have withdrawn about $3.6bn following a major hack, and the exchange froze transactions related to the incident. Coverage links the attack to a North Korean‑linked group."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
+          "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-29T10:00:31.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
     {
       "id": "news-f4c5be0a71e76073b83082bc",
       "title": "유엔, 35년 임무 종료 — 서사하라 분쟁 평화유지 활동 종결",
@@ -58,6 +207,36 @@
         ],
         "firstPublishedAt": "2026-11-02T00:51:24.000Z",
         "lastObservedAt": "2026-11-02T07:38:15.232Z"
+      }
+    },
+    {
+      "id": "news-275d1d7d06a994573dca092b",
+      "title": "UN 지원 보고서: 1.5°C 초과하면 빙권(cryosphere)에 영구적 손상 우려",
+      "titleTranslations": {
+        "en": "Cryosphere faces permanent damage when world overshoots 1.5C, scientists warn"
+      },
+      "startAt": "2026-11-02T00:01:25.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "유엔 지원 보고서는 파리협정 목표인 1.5°C를 일시적으로라도 초과하면 빙하와 극지의 얼음층에 광범위하고 영구적인 손실이 발생할 수 있다고 경고했다. 보고서는 일시적 초과도 관리 가능한 대안이 아니라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "A UN‑backed report warns that even temporary overshoots above the Paris target of 1.5°C could cause widespread and permanent losses to glaciers and polar ice sheets. The report says temporary overshoot is not a manageable alternative to urgent emissions cuts."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/nov/02/permanent-damage-crysophere-overshoots-15c-scientists-warn",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/nov/02/permanent-damage-crysophere-overshoots-15c-scientists-warn"
+        ],
+        "firstPublishedAt": "2026-11-02T00:01:25.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
       }
     },
     {
@@ -143,37 +322,6 @@
         ],
         "firstPublishedAt": "2026-11-01T14:00:18.000Z",
         "lastObservedAt": "2026-11-01T18:25:50.695Z"
-      }
-    },
-    {
-      "id": "news-06a2c703111142070fa59601",
-      "title": "바이낸스, 63억 달러 해킹 피해의 90% 보상 시도 — FBI는 북한 배후 지목",
-      "titleTranslations": {
-        "en": "Binance says it has covered 90% of $6.3bn hack — FBI attributes attack to North Korea"
-      },
-      "startAt": "2026-11-01T13:11:37.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "암호화폐 거래소 바이낸스가 약 63억 달러 규모로 추정되는 해킹 사건과 관련해 손실의 90%를 메우겠다고 밝혔으며, 미 연방수사국(FBI)은 이번 공격에 북한이 책임이 있다고 지목했다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Crypto exchange Binance said it has covered 90% of losses from a reported $6.3bn hack, and the FBI has identified North Korea as responsible, reporting says."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
-          "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-29T10:00:31.000Z",
-        "lastObservedAt": "2026-11-01T18:25:50.694Z"
       }
     },
     {
@@ -782,37 +930,6 @@
       }
     },
     {
-      "id": "news-1fa24dedc7c445b42a7af858",
-      "title": "오레쉬키에서 드문 휴전 중 수백 명 대피 — 일부 주민은 전선에 잔류",
-      "titleTranslations": {
-        "en": "Hundreds evacuated from Oleshky during rare ceasefire — some residents remained in the frontline town"
-      },
-      "startAt": "2026-10-30T16:26:11.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 우크라이나 남부의 러시아가 점령한 오레쉬키 지역에서 인도적 대피·구호를 허용하기 위한 한정적 휴전이 발효돼 수백 명이 대피한 것으로 알려졌다. 보도는 일부 주민은 위험에도 불구하고 전선 도시 잔류를 선택했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say a localized ceasefire in Russian‑occupied Oleshky in southern Ukraine allowed evacuations and humanitarian access, with hundreds reported evacuated. Coverage notes that some residents chose to remain in the frontline town despite the dangers."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
-          "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
-        "lastObservedAt": "2026-10-30T18:34:43.977Z"
-      }
-    },
-    {
       "id": "news-0b103d9b36fda54e3b0cea7b",
       "title": "분석가들: 다가오는 발사(런치) 위기 '예상보다 더 심각'",
       "titleTranslations": {
@@ -1185,35 +1302,6 @@
         ],
         "firstPublishedAt": "2026-10-29T16:05:50.000Z",
         "lastObservedAt": "2026-10-29T18:57:24.919Z"
-      }
-    },
-    {
-      "id": "news-e58da7a8afb04bf48229f33f",
-      "title": "미·일, 일본 내 공동 미사일 생산 시설 설립 합의",
-      "titleTranslations": {
-        "en": "US and Japan agree to establish a Japanese facility for joint missile production"
-      },
-      "startAt": "2026-10-29T15:58:27.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 미국과 일본이 일본 내에 공동 미사일 생산 시설을 설립하기로 합의했다고 전했다. 발표는 중국의 증가하는 군사적 위협에 대응하려는 동맹의 최신 조치로 소개됐다.",
-      "descriptionTranslations": {
-        "en": "Reports say the United States and Japan have agreed to establish a joint missile production facility in Japan. The announcement is presented as the allies' latest step in response to China's growing assertiveness."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production"
-        ],
-        "firstPublishedAt": "2026-10-29T15:58:27.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.918Z"
       }
     },
     {
@@ -1669,34 +1757,6 @@
       }
     },
     {
-      "id": "news-393575ee7d83ff0a65d333d8",
-      "title": "DeepMind, 차세대 세계 시뮬레이션 'Genie 4' 공개",
-      "titleTranslations": {
-        "en": "Genie 4: A new generation of world simulation"
-      },
-      "startAt": "2026-10-27T16:01:38.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도는 구글 딥마인드가 실시간 시뮬레이션에서 이전보다 높은 현실감을 제공하는 차세대 세계 모델 'Genie 4'를 공개했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say Google DeepMind unveiled 'Genie 4', a next‑generation world model that claims to unlock unprecedented realism in real‑time simulation."
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
-        ],
-        "firstPublishedAt": "2026-10-27T16:01:38.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
-      }
-    },
-    {
       "id": "news-b64f67eedfb83e74f5e89f73",
       "title": "네이선 필더 연출 엘리자베스 홈즈 다큐 'You Can See Everything' 흥행·관심 촉발",
       "titleTranslations": {
@@ -1810,34 +1870,6 @@
       }
     },
     {
-      "id": "news-e6d594ea2a28ff43dd710023",
-      "title": "중국 증시, 미·중 AI 경쟁 우려로 수조원 증발 — STAR 50 지수 40% 급락 보도",
-      "titleTranslations": {
-        "en": "Chinese markets lose trillions amid US‑China AI race fears — STAR 50 index down ~40%"
-      },
-      "startAt": "2026-10-27T04:42:50.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도는 중국의 AI 붐 지속 가능성에 대한 우려와 서방의 위협 때문에 중국 증시가 최근 몇 달간 수조 달러 규모로 급락했다고 전했다. 특히 상하이의 혁신 추적 지수(STAR 50)는 6월 이후 약 40% 하락했다고 보도되었다.",
-      "descriptionTranslations": {
-        "en": "Reporting says China’s stock markets have lost trillions in recent months amid concerns about the sustainability of Beijing’s AI boom and threats from western countries. The STAR 50 index tracking Shanghai innovation firms has plunged about 40% since June."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing"
-        ],
-        "firstPublishedAt": "2026-10-27T04:42:50.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.181Z"
-      }
-    },
-    {
       "id": "news-3a3dad32dd0ee3f0a309cd8c",
       "title": "남극 빙산 A‑81이 사우스조지아 해역에 도달",
       "titleTranslations": {
@@ -1948,34 +1980,6 @@
         ],
         "firstPublishedAt": "2026-10-26T18:17:25.000Z",
         "lastObservedAt": "2026-10-26T19:14:44.655Z"
-      }
-    },
-    {
-      "id": "news-c07eb56e557593adc41a833c",
-      "title": "우주 거울로 밤에 지구를 비추려는 스타트업 시범에 과학자·환경단체·주민 반발",
-      "titleTranslations": {
-        "en": "Sunlight‑from‑space demonstration by US startup draws criticism"
-      },
-      "startAt": "2026-10-26T12:00:41.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언은 캘리포니아 주민들이 밤에 산 아래로 비치는 강한 빛에 놀랐으며, 한 스타트업이 우주에 수천 개의 거대한 거울을 배치해 야간에 태양빛을 반사하려는 계획의 실증 단계가 과학자·환경단체·지역 주민들의 반발을 불러일으켰다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that a US startup's demonstration of reflecting sunlight from space startled California locals and prompted criticism from scientists, environmentalists and residents. The company plans thousands of large mirrors in orbit to reflect sunlight to Earth at night, raising environmental and social concerns."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/26/california-sunlight-space-mirrors-satellites",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/26/california-sunlight-space-mirrors-satellites"
-        ],
-        "firstPublishedAt": "2026-10-26T12:00:41.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
       }
     },
     {
