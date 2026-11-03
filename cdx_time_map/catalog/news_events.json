@@ -1,8 +1,126 @@
 {
-  "catalogVersion": "0.0.200",
-  "updatedAt": "2026-11-02T22:19:07.405Z",
+  "catalogVersion": "0.0.201",
+  "updatedAt": "2026-11-03T07:53:12.460Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-74eb36cdafe1bd2912151c12",
+      "title": "영국, 인체 내 '영구화학물질'(PFAS) 전수 조사하는 첫 대규모 연구 착수",
+      "titleTranslations": {
+        "en": "Major UK study launched to measure 'forever chemicals' (PFAS) in people"
+      },
+      "startAt": "2026-11-03T07:19:27.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도에 따르면 영국 정부는 인구 내 PFAS(영구화학물질) 농도를 측정하는 첫 연구를 시작해 이러한 물질의 위험과 분포를 이해하려 한다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Reports say the UK government has launched its first study to measure PFAS levels in the population to understand the risks and distribution of these 'forever chemicals.'"
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwly4ejrr72mo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwly4ejrr72mo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-03T07:19:27.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
+    {
+      "id": "news-589ab00bb3ff9ab96d79e9d3",
+      "title": "영국 내 대형 AI 데이터센터 계획, 배출 감축 목표 약화 가능성 제기",
+      "titleTranslations": {
+        "en": "Planned large AI data centres in UK could undermine emissions goals"
+      },
+      "startAt": "2026-11-03T06:27:17.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도는 네 곳의 계획된 '하이퍼스케일' AI 데이터센터가 전력 수요를 충당하기 위해 가스 발전 사용을 검토 중이라며, 이는 영국의 배출 감축 목표를 훼손할 수 있다고 경고했다.",
+      "descriptionTranslations": {
+        "en": "Reports say four planned 'hyperscale' AI data centres are considering using gas‑fired power to meet electricity needs, which could undermine the UK’s emissions reduction goals."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqvgrvx6ekl2o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqvgrvx6ekl2o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-03T06:27:17.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
+    {
+      "id": "news-35c2e38b2bb7bd4eaa5979e1",
+      "title": "미국, 중간선거를 앞두고 이란 케슈므(Qeshm) 섬에 공격 감행",
+      "titleTranslations": {
+        "en": "US strikes Iran's Qeshm Island ahead of midterm elections"
+      },
+      "startAt": "2026-11-03T03:39:08.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 미 당국은 중간선거를 앞두고 이란의 케슈므 섬에 대한 공격을 단행했으며, 미 관리는 CBS에 이번 공격을 '제한적이고 방어적'이라고 설명했다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say US forces struck Iran's Qeshm Island ahead of the midterm elections; US officials told CBS the strikes were 'limited and defensive.'"
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+          "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-01T22:19:13.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
+    {
+      "id": "news-e28f5ace93252c77d8f0a07e",
+      "title": "대법원, 트럼프의 캘리포니아 분쟁표 집계 중단 요청 기각",
+      "titleTranslations": {
+        "en": "Supreme Court rejects Trump's request to stop California counting disputed votes"
+      },
+      "startAt": "2026-11-03T03:32:36.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도는 대법원이 트럼프 측의 캘리포니아 내 분쟁표 집계 중단 요청을 기각했으며, 이 판결로 트럼프 측의 주 내 표 실격 시도는 사실상 종결됐다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say the Supreme Court rejected Trump's request to stop California from counting disputed votes; the ruling effectively ends his bid to disqualify ballots in the state."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-03T03:32:36.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
     {
       "id": "news-ca204e1c0052a71213a13f97",
       "title": "Anthropic 경고: 'RSI(자가훈련 가속)' 능력에 매우 근접",
@@ -30,6 +148,34 @@
         ],
         "firstPublishedAt": "2026-11-02T22:14:50.000Z",
         "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-79724c5608b9242f4b5a0bf7",
+      "title": "NASA 존슨 우주센터, 설립 65주년 회고",
+      "titleTranslations": {
+        "en": "NASA's Johnson Space Center marks 65 years"
+      },
+      "startAt": "2026-11-02T21:35:59.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "보도는 휴스턴의 NASA 존슨 우주센터가 설립 65주년을 맞았으며, 수십 년간 인류 유인 우주비행 프로그램을 지원해왔다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports note that NASA's Johnson Space Center in Houston is celebrating its 65th anniversary and has long been central to the nation's human spaceflight programme."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/"
+        ],
+        "firstPublishedAt": "2026-11-02T21:35:59.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
       }
     },
     {
@@ -86,6 +232,34 @@
         ],
         "firstPublishedAt": "2026-11-02T17:14:23.000Z",
         "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-efb5e46ff25eb37594fecdc5",
+      "title": "노스캐롤라이나 홍수 대응 미흡이 지역 공화당 지지 약화로 이어져",
+      "titleTranslations": {
+        "en": "Lacklustre flood response in North Carolina is eroding Republican support in one county"
+      },
+      "startAt": "2026-11-02T12:00:41.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "보도는 홍수 피해에 대한 미흡한 대응이 노스캐롤라이나의 한 카운티에서 공화당에 대한 지지를 약화시키고 있으며, 유권자들이 불만을 표시하고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say a lacklustre response to flooding in North Carolina is eroding Republican support in one county, with residents expressing frustration over the handling of flood impacts."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/02/north-carolina-congress-republicans",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/02/north-carolina-congress-republicans"
+        ],
+        "firstPublishedAt": "2026-11-02T12:00:41.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
       }
     },
     {
@@ -237,35 +411,6 @@
         ],
         "firstPublishedAt": "2026-11-02T00:01:25.000Z",
         "lastObservedAt": "2026-11-02T22:19:07.405Z"
-      }
-    },
-    {
-      "id": "news-35c2e38b2bb7bd4eaa5979e1",
-      "title": "카타르 주도 걸프 중재, 미·이란 추가 공격 저지 노력",
-      "titleTranslations": {
-        "en": "Qatar leads Gulf talks aimed at averting new U.S. strikes on Iran"
-      },
-      "startAt": "2026-11-01T22:19:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "카타르는 최근 72시간 동안 중재를 주도하며 중간선거 이후 미국의 추가 공격 가능성을 막기 위한 집중 협상을 벌이고 있다고 보도됐다. 걸프 지역 전체가 불안정한 상태에 놓여 있다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Qatar has been leading intense mediation efforts over the past 72 hours to prevent a new round of possible U.S. attacks on Iran after the midterm elections, leaving the Gulf region on edge, reporting says."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war"
-        ],
-        "firstPublishedAt": "2026-11-01T22:19:13.000Z",
-        "lastObservedAt": "2026-11-02T07:38:15.232Z"
       }
     },
     {
@@ -1361,34 +1506,6 @@
       }
     },
     {
-      "id": "news-3fd55028484ec2521875f21d",
-      "title": "유럽의 자산 격차: 고령 가구가 젊은 가구보다 8배 더 부유",
-      "titleTranslations": {
-        "en": "Europe’s wealth gap: Older households eight times richer than young ones"
-      },
-      "startAt": "2026-10-29T06:25:02.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도에 따르면 유럽에서 35세 미만 가구가 전체 가계 자산의 2.8%만 보유하는 등 세대 간 자산 불평등이 심화되고 있으며, 고령 가구가 젊은 가구보다 약 8배 더 많은 자산을 보유한 것으로 나타났다.",
-      "descriptionTranslations": {
-        "en": "Reports say wealth inequality in Europe is pronounced: households under 35 hold just 2.8% of household wealth, and older households are about eight times richer than younger ones."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/29/europes-wealth-gap-older-households-eight-times-richer-than-young-ones?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/29/europes-wealth-gap-older-households-eight-times-richer-than-young-ones?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-29T06:25:02.000Z",
-        "lastObservedAt": "2026-10-29T07:01:23.964Z"
-      }
-    },
-    {
       "id": "news-e9bfba10ec085dbed72d2bc5",
       "title": "북인도양 첫 이름난 폭풍 'Arnab', 안드라프라데시 해안 상륙",
       "titleTranslations": {
@@ -1413,36 +1530,6 @@
           "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/"
         ],
         "firstPublishedAt": "2026-10-29T04:01:00.000Z",
-        "lastObservedAt": "2026-10-29T07:01:23.964Z"
-      }
-    },
-    {
-      "id": "news-9c5b37f8dc98b8bf7182d0b2",
-      "title": "ULA 벌칸 로켓, 금요일(13일) 비행 재개 예정",
-      "titleTranslations": {
-        "en": "ULA's Vulcan rocket set to return to flight on Friday the 13th"
-      },
-      "startAt": "2026-10-28T22:51:15.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보도는 ULA의 벌칸 로켓이 비행 재개를 준비 중이며, 이번 발사는 여섯 개의 고체 로켓 부스터 전부를 사용한 첫 번째 벌칸 발사라고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says ULA's Vulcan rocket is preparing to return to flight; this launch will be the first Vulcan mission to use a full complement of six solid rocket boosters."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/"
-        ],
-        "firstPublishedAt": "2026-10-28T22:51:15.000Z",
         "lastObservedAt": "2026-10-29T07:01:23.964Z"
       }
     },
@@ -1585,35 +1672,6 @@
         ],
         "firstPublishedAt": "2026-10-28T17:00:58.000Z",
         "lastObservedAt": "2026-10-31T17:41:19.238Z"
-      }
-    },
-    {
-      "id": "news-dc7790b3a03a16cfe3a5e172",
-      "title": "구글, 제미니·서치를 더 많은 앱에 연결하는 개발자 플랫폼 공개",
-      "titleTranslations": {
-        "en": "Google opens Gemini and Search to more apps via new developer platform"
-      },
-      "startAt": "2026-10-28T17:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도는 구글이 기업들이 자사 서비스를 구글의 AI 경험에 통합할 수 있게 하는 개발자 플랫폼을 발표했으며, 이는 소비자가 앱을 발견·이용하는 방식에 변화를 일으킬 수 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says Google launched a developer platform that lets businesses integrate their services into Google's Gemini and Search AI experiences — a move that could change how consumers discover and use apps."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
-        ],
-        "firstPublishedAt": "2026-10-28T17:00:00.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
       }
     },
     {
@@ -1809,34 +1867,6 @@
           "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-27T11:23:19.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.181Z"
-      }
-    },
-    {
-      "id": "news-d851e9552dd716e2968db931",
-      "title": "트럼프 행정부의 NOAA 예산 감축이 엘니뇨 대응 능력 약화시켰다는 경고",
-      "titleTranslations": {
-        "en": "Experts warn Trump cuts to NOAA have weakened US El Niño preparedness"
-      },
-      "startAt": "2026-10-27T11:00:38.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "보도는 도널드 트럼프 대통령 취임 이후 NOAA 인력과 계약·연구 예산 삭감이 기상·기후 연구와 엘니뇨 대응 능력을 약화시켜 올해 전망되는 역사적 엘니뇨에 노출됐다고 과학자·전직 관료들이 우려한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say sweeping cuts to NOAA under President Trump — including staff reductions and cancelled contracts and grants — have hampered climate research and forecasting capacity, leaving the US more exposed to hazards from a potentially historic El Niño, experts and former officials warn."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/27/trump-cuts-el-nino-noaa",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/27/trump-cuts-el-nino-noaa"
-        ],
-        "firstPublishedAt": "2026-10-27T11:00:38.000Z",
         "lastObservedAt": "2026-10-27T18:40:30.181Z"
       }
     },
@@ -2413,34 +2443,6 @@
         ],
         "firstPublishedAt": "2026-10-18T08:11:55.000Z",
         "lastObservedAt": "2026-10-20T17:58:33.160Z"
-      }
-    },
-    {
-      "id": "news-0502a592ce1ff45a70ad4c17",
-      "title": "BepiColombo, 8년 여정 끝에 2026년 12월 수성 도착 예정 — 임무 기념 영상 공개",
-      "titleTranslations": {
-        "en": "Celebrating BepiColombo as it approaches Mercury arrival in December 2026"
-      },
-      "startAt": "2026-10-19T15:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "ESA는 BepiColombo가 2018년 10월 20일 발사된 이후 8년간 태양계 내부를 항행해 2026년 12월 9일 수성에 도착할 예정이라며, 임무 팀의 소회를 담은 세 단어 영상으로 도착을 기념하는 내용을 공개했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency said BepiColombo, launched on 20 October 2018, has travelled eight years through the inner solar system and will arrive at Mercury on 9 December 2026. To celebrate, the mission team released a short video describing the mission in three words, ESA reported."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Celebrating_BepiColombo_three_words_at_a_time",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Celebrating_BepiColombo_three_words_at_a_time"
-        ],
-        "firstPublishedAt": "2026-10-19T15:00:00.000Z",
-        "lastObservedAt": "2026-10-21T05:59:40.712Z"
       }
     },
     {
