@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 68,
+    "completedCount": 69,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3479,38 +3479,48 @@
           "englishMobile": "390x585",
           "checkedOn": "2026-10-31"
         }
+      },
+      {
+        "sequence": 69,
+        "id": 68,
+        "title": "The Precipice",
+        "englishTitle": "The Precipice",
+        "koreanTitle": "벼랑 끝에 선 인류",
+        "status": "completed-and-verified",
+        "koreanImage": "the-precipice-v3-integrated-ko.webp",
+        "englishImage": "the-precipice-v3-integrated-en.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "sourceNotes": "sources/the-precipice-v3-integrated.md",
+        "sources": [
+          "https://theprecipice.com/",
+          "https://theprecipice.com/faq",
+          "https://theprecipice.com/syllabus",
+          "https://www.hachettebookgroup.com/titles/toby-ord/the-precipice/9780316484893/",
+          "https://ndpr.nd.edu/reviews/the-precipice-existential-risk-and-the-future-of-humanity/",
+          "https://onlinelibrary.wiley.com/doi/10.1111/padr.12423",
+          "https://www.yes24.com/product/goods/103025916"
+        ],
+        "mobileDimensions": "390x585",
+        "koreanPreview": "../previews/the-precipice-v3-integrated-ko-mobile.webp",
+        "englishPreview": "../previews/the-precipice-v3-integrated-en-mobile.webp",
+        "completedOn": "2026-11-02",
+        "publicBrowserChecks": {
+          "koreanCardHref": "infographics/the-precipice-v3-integrated-ko.webp",
+          "englishCardHref": "infographics/the-precipice-v3-integrated-en.webp",
+          "koreanOriginal": "1024x1536",
+          "englishOriginal": "1024x1536",
+          "koreanMobile": "390x585",
+          "englishMobile": "390x585",
+          "checkedOn": "2026-11-02"
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 69,
-      "id": 68,
-      "title": "The Precipice",
-      "englishTitle": "The Precipice",
-      "koreanTitle": "벼랑 끝에 선 인류",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "the-precipice-v3-integrated-ko.webp",
-      "englishImage": "the-precipice-v3-integrated-en.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "1024x1536",
-      "preparedOn": "2026-10-31",
-      "sourceNotes": "sources/the-precipice-v3-integrated.md",
-      "sources": [
-        "https://theprecipice.com/",
-        "https://theprecipice.com/faq",
-        "https://theprecipice.com/syllabus",
-        "https://www.hachettebookgroup.com/titles/toby-ord/the-precipice/9780316484893/",
-        "https://ndpr.nd.edu/reviews/the-precipice-existential-risk-and-the-future-of-humanity/",
-        "https://onlinelibrary.wiley.com/doi/10.1111/padr.12423",
-        "https://www.yes24.com/product/goods/103025916"
-      ],
-      "koreanMobilePreview": "the-precipice-v3-integrated-ko-mobile.webp",
-      "englishMobilePreview": "the-precipice-v3-integrated-en-mobile.webp",
-      "mobileDimensions": "390x585"
-    }
+    "inProgress": null
   }
 }
