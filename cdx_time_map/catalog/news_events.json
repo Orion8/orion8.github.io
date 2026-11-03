@@ -1,8 +1,186 @@
 {
-  "catalogVersion": "0.0.201",
-  "updatedAt": "2026-11-03T07:53:12.460Z",
+  "catalogVersion": "0.0.202",
+  "updatedAt": "2026-11-03T20:05:49.601Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-9e27bbce589224e5f8afef5a",
+      "title": "예멘 정부, IRGC·헤즈볼라가 후티에 21명 전문가 파견했다고 비난",
+      "titleTranslations": {
+        "en": "Yemen government accuses IRGC and Hezbollah of sending 21 experts to back Houthis"
+      },
+      "startAt": "2026-11-03T19:09:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "예멘 내무장관은 이란 혁명수비대(IRGC)와 레바논의 헤즈볼라가 후티 반군을 지원하기 위해 21명의 전문가를 파견했다고 비난하며, 외국의 개입이 무기·훈련을 넘어 군사작전 지휘로 확대됐다고 주장했다.",
+      "descriptionTranslations": {
+        "en": "Yemen's interior minister accused Iran's Islamic Revolutionary Guard Corps (IRGC) and Lebanon's Hezbollah of sending 21 experts to support the Houthi rebels, saying foreign involvement has expanded beyond arms and training to directing military operations."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-11-03T19:09:09.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-89158d68bf9594ef8ca890b6",
+      "title": "Anthropic, 컴퓨트 비용의 경제성 문제 계속 고심",
+      "titleTranslations": {
+        "en": "Anthropic is still grappling with the economics of compute"
+      },
+      "startAt": "2026-11-03T17:07:01.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Anthropic은 당초 컴퓨트 마진이 개선돼야 할 시점에 오히려 악화되고 있다고 설명하며, 대규모 AI 운영에 따른 컴퓨트 비용의 경제성 문제를 계속 겪고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Anthropic says that, at a time when compute margins should be improving, they are instead getting worse, and the company continues to grapple with the economics of large‑scale AI compute."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+        ],
+        "firstPublishedAt": "2026-11-03T17:07:01.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-1fa24dedc7c445b42a7af858",
+      "title": "우크라이나 헤르손 지역, 짧은 휴전 동안 일시적 일상 회복",
+      "titleTranslations": {
+        "en": "For Ukraine’s Kherson region, a short ceasefire meant a momentary return to normal life"
+      },
+      "startAt": "2026-11-03T15:54:39.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "휴전이 유지된 기간 동안 헤르손 시에서는 카페와 상점이 붐비고 주민들이 외출하는 등 평상시와 같은 모습이 잠시 되돌아왔다고 보도됐다. 일부 주민은 도시가 '살아 있는 것 같다'고 말했다.",
+      "descriptionTranslations": {
+        "en": "During a brief ceasefire in Kherson city, cafes and shops were busy and residents went out, with some saying the city 'seemed alive' for a short period, reporting says."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+          "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine",
+          "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson"
+        ],
+        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-5bc59241b64860dea72f101b",
+      "title": "러셀 브랜드 강간 재판 — 배심 평의 시작",
+      "titleTranslations": {
+        "en": "Jury in Russell Brand rape trial begins considering verdicts"
+      },
+      "startAt": "2026-11-03T14:50:06.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 3,
+      "description": "영국의 미디어 인사인 러셀 브랜드에 대한 재판에서 배심원단이 평의를 시작했다. 브랜드는 모든 혐의를 부인한 채 3주간의 공판을 마쳤다.",
+      "descriptionTranslations": {
+        "en": "In the trial of media personality Russell Brand on rape charges, the jury has begun deliberations after a three‑week trial. Brand has pleaded not guilty to all charges."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckly4ed521emo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ck240rr10jdqo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ckly4ed521emo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-12T12:44:38.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-db8eb61a08b707994acf1df7",
+      "title": "북미 널리 분포한 사냥새 '러프드 그라우스' 개체수 감소 — 오하이오서 사냥 허가 첫 불발",
+      "titleTranslations": {
+        "en": "North America’s widely distributed game bird, the ruffed grouse, is under threat"
+      },
+      "startAt": "2026-11-03T13:00:07.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "보도는 러프드 그라우스의 개체수가 감소해 오하이오 주에서 1937년 이후 처음으로 개방 사냥 허가가 발급되지 않았다고 전했다. 개체 감소로 서식지 보호와 보존 조치에 대한 우려가 제기되고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say ruffed grouse populations have declined to the extent that Ohio has issued no open hunting permits for the first time since 1937. The fall in numbers raises concerns about habitat protection and conservation measures."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/04/ruffed-grouse-population-decline",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/nov/04/ruffed-grouse-population-decline"
+        ],
+        "firstPublishedAt": "2026-11-03T13:00:07.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-ed08a0256a77de2b48d5d389",
+      "title": "애플, 메모리 칩 가격의 '전례 없는' 상승 경고",
+      "titleTranslations": {
+        "en": "Apple warns of an 'unprecedented' rise in memory chip prices"
+      },
+      "startAt": "2026-11-03T09:01:19.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "애플은 메모리 칩 가격이 '전례 없는' 수준으로 오르고 있다고 경고했다. 회사는 가격 인상 조치로 영향의 일부를 상쇄했지만, 높은 칩값이 이익률을 갉아먹을 것이라고 투자자들에게 알렸다. 해당 발표 후 애플 주가는 장마감 후 하락했다.",
+      "descriptionTranslations": {
+        "en": "Apple warned that memory chip prices are rising at an 'unprecedented' rate. The company said price increases have offset some of the impact, but higher chip costs will eat into profit margins; Apple shares fell in after‑hours trading following the announcement."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings"
+        ],
+        "firstPublishedAt": "2026-11-03T09:01:19.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
     {
       "id": "news-74eb36cdafe1bd2912151c12",
       "title": "영국, 인체 내 '영구화학물질'(PFAS) 전수 조사하는 첫 대규모 연구 착수",
@@ -61,6 +239,34 @@
         ],
         "firstPublishedAt": "2026-11-03T06:27:17.000Z",
         "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
+    {
+      "id": "news-9074d1fb6285ef0eea8b2e26",
+      "title": "버밍엄 Digbeth 클럽 문화 지키려는 지역 주민·클럽 이용자들의 저항",
+      "titleTranslations": {
+        "en": "Birmingham clubbers fight to save Digbeth and Britain’s nightlife"
+      },
+      "startAt": "2026-11-03T05:00:39.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "버밍엄의 파티 지구 Digbeth는 철도 업그레이드 사업으로 인해 훼손될 우려가 제기되자 지역 클럽 이용자들과 주민들이 지역 보존을 위해 집회와 캠페인 등을 벌이고 있다. 보도는 이들이 문화적 중요성을 강조하며 당국에 중단을 촉구하고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "In Birmingham’s Digbeth nightlife district, clubbers and local residents are campaigning to protect the area from proposed railway upgrades that could tear the district apart. Reports say they are staging events and urging authorities to halt or alter the plans, stressing the cultural importance of the area."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/culture/2026/nov/03/birmingham-clubbers-fighting-to-save-britain-nightlife-digbeth",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/culture/2026/nov/03/birmingham-clubbers-fighting-to-save-britain-nightlife-digbeth"
+        ],
+        "firstPublishedAt": "2026-11-03T05:00:39.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
       }
     },
     {
@@ -260,38 +466,6 @@
         ],
         "firstPublishedAt": "2026-11-02T12:00:41.000Z",
         "lastObservedAt": "2026-11-03T07:53:12.460Z"
-      }
-    },
-    {
-      "id": "news-1fa24dedc7c445b42a7af858",
-      "title": "일시적 휴전 종료 — 수백 명 대피 허용된 도시에서 휴전 끝나",
-      "titleTranslations": {
-        "en": "Temporary ceasefire ends after allowing hundreds to evacuate city"
-      },
-      "startAt": "2026-11-02T09:42:11.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "러시아가 점령한 한 우크라이나 도시에서 며칠간 유지된 제한적 휴전이 종료됐다. 이 임시 휴전 기간에 수백 명의 주민이 대피할 수 있었다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "A temporary ceasefire in a Russian‑occupied Ukrainian city has ended after several days. During the pause, hundreds of residents were able to evacuate, reporting says."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
-          "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine"
-        ],
-        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
-        "lastObservedAt": "2026-11-02T22:19:07.405Z"
       }
     },
     {
@@ -1254,34 +1428,6 @@
       }
     },
     {
-      "id": "news-1b177d530b43c0462ca89066",
-      "title": "수단 디아스포라·인권단체, UAE 유엔 사무총장 후보 지명 비판",
-      "titleTranslations": {
-        "en": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job"
-      },
-      "startAt": "2026-10-30T05:00:45.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "수단계 인사들과 인권단체들은 UAE가 유엔 사무총장 후보로 지명한 라나 누세이베를 비난하며, 그녀의 UAE의 수단 내 RSF 지원 부인 발언을 문제 삼았다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Members of the Sudanese diaspora and international human‑rights monitors have denounced the UAE's nomination of Lana Nusseibeh for UN secretary‑general, citing her denials of accusations that the UAE is fueling the Sudan war by supporting the paramilitary RSF."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job"
-        ],
-        "firstPublishedAt": "2026-10-30T05:00:45.000Z",
-        "lastObservedAt": "2026-10-31T17:41:19.238Z"
-      }
-    },
-    {
       "id": "news-4b2c059bd94e7ed8fd721e38",
       "title": "NASA 지원 연구, 지구에서 발견된 거의 가장 오래된 화성 운석 연대 확인",
       "titleTranslations": {
@@ -1362,34 +1508,6 @@
           "https://www.bbc.co.uk/news/articles/cq146562ld3no?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-29T17:13:40.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
-      }
-    },
-    {
-      "id": "news-9349f418e7bc7ab45091d36c",
-      "title": "오픈AI, 더 능력 있고 유익한 AI 위한 업데이트된 모델 명세 공개",
-      "titleTranslations": {
-        "en": "An updated Model Spec for more capable and beneficial AI"
-      },
-      "startAt": "2026-10-29T17:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도는 오픈AI가 더 능력 있는 AI를 건전한 판단·인간의 주체성·의도 충실성으로 안내하기 위한 핵심 가치를 담은 업데이트된 모델 명세를 공개했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say OpenAI published an updated Model Spec that outlines core values intended to guide more capable AI toward sound judgement, human agency and faithfulness to human intent."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/updated-model-spec",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/updated-model-spec"
-        ],
-        "firstPublishedAt": "2026-10-29T17:00:00.000Z",
         "lastObservedAt": "2026-10-29T18:57:24.919Z"
       }
     },
@@ -1591,34 +1709,6 @@
       }
     },
     {
-      "id": "news-24350fb4261b73b28af1c39f",
-      "title": "연준, 중간선거 직전 기준금리 동결",
-      "titleTranslations": {
-        "en": "Federal Reserve holds interest rates steady ahead of midterms"
-      },
-      "startAt": "2026-10-28T18:07:23.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도에 따르면 미 연방준비제도이사회는 중간선거에 앞선 마지막 회의에서 금리를 동결했다. 12명 위원 중 2명이 동결에 반대하며 0.25%포인트 인상을 선호했다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "The U.S. Federal Reserve left interest rates unchanged at its final meeting before the midterm elections; two of 12 board members dissented, preferring a quarter‑point increase."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms"
-        ],
-        "firstPublishedAt": "2026-10-28T18:07:23.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
       "id": "news-bbd99f7580a24ef6e93606af",
       "title": "감독 피터 메닥 별세, 향년 88",
       "titleTranslations": {
@@ -1756,34 +1846,6 @@
         ],
         "firstPublishedAt": "2026-10-28T15:33:10.000Z",
         "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
-      "id": "news-5c9f738eec108f93bacd0368",
-      "title": "트럼프, 바이든 시대 메탄 배출 규정 '종료' 발표",
-      "titleTranslations": {
-        "en": "Trump announces termination of Biden‑era methane emissions rules"
-      },
-      "startAt": "2026-10-28T01:45:27.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "가디언 환경 보도에 따르면 도널드 트럼프 대통령은 텍사스 루보크 집회에서 생산·소비자 비용 절감과 석유·가스 업계 지원을 이유로 바이든 행정부의 대규모 메탄 누출 규제를 '종료'하겠다고 선언했다. 그는 이 조치가 기업과 소비자에 450억 달러의 절감과 2억1000만 배럴의 석유를 해방할 것이라고 주장했으며, 비평가들은 기후에 미칠 위험을 경고했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that President Donald Trump announced at a rally in Lubbock, Texas, that his administration is terminating Biden‑era regulations that hold oil and gas companies accountable for large methane leaks. He said the change would save companies and consumers $45bn and 'unlock' 210 million barrels of oil; critics warned of the climate risks posed by rolling back the rules."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas"
-        ],
-        "firstPublishedAt": "2026-10-28T01:45:27.000Z",
-        "lastObservedAt": "2026-10-28T06:50:10.247Z"
       }
     },
     {
@@ -2069,34 +2131,6 @@
       }
     },
     {
-      "id": "news-df72b971e5b915a709c685a2",
-      "title": "야운데의 녹지 상실과 시민 대응 — 아스팔트 아래서 시작된 복구 움직임",
-      "titleTranslations": {
-        "en": "Yaoundé’s loss of green spaces and community pushback"
-      },
-      "startAt": "2026-10-25T15:00:05.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언 도시면 보도는 카메룬 수도 야운데에서 콘크리트 확장으로 도시의 공원과 나무들이 크게 훼손되자 자원봉사자들이 한 뿌리씩 나무를 심고 녹지 보전을 위해 나서는 모습을 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian Cities reports that in Yaoundé, Cameroon, concrete sprawl has devastated parks and trees, prompting volunteers to respond by replanting shrubs and working to protect remaining green space."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/25/environment-cities-cameroon-yaounde-green-space-trees",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/global-development/2026/oct/25/environment-cities-cameroon-yaounde-green-space-trees"
-        ],
-        "firstPublishedAt": "2026-10-25T15:00:05.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
       "id": "news-9679049c03ff86245cab16f4",
       "title": "미 군, 스페이스X에 제한적 궤도 추적 데이터 접근 허용 — 산업·안보 우려 제기",
       "titleTranslations": {
@@ -2352,37 +2386,6 @@
         ],
         "firstPublishedAt": "2026-10-20T23:03:11.000Z",
         "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
-      "id": "news-5bc59241b64860dea72f101b",
-      "title": "러셀 브랜드 재판: 고소인 진술 추가—'말도 못하고 숨도 쉬지 못했다'고 주장",
-      "titleTranslations": {
-        "en": "Woman says she 'couldn't speak or breathe' during alleged rape by Russell Brand"
-      },
-      "startAt": "2026-10-20T16:02:03.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "러셀 브랜드에 대한 강간·성폭행 재판에서 한 고소인이 브랜드가 주장한 행위를 저지르며 자신은 '말할 수 없었고 숨도 쉴 수 없었다'고 진술했다. 브랜드는 모든 혐의를 부인하고 있다.",
-      "descriptionTranslations": {
-        "en": "In the trial of Russell Brand on rape and sexual assault charges, an accuser testified that during the alleged assault she 'couldn't speak or breathe'. Brand denies the allegations; the trial continues."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck240rr10jdqo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/ck240rr10jdqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-12T12:44:38.000Z",
-        "lastObservedAt": "2026-10-20T17:58:33.161Z"
       }
     },
     {
