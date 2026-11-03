@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 69,
+    "completedCount": 70,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3519,38 +3519,48 @@
           "englishMobile": "390x585",
           "checkedOn": "2026-11-02"
         }
+      },
+      {
+        "sequence": 70,
+        "id": 69,
+        "title": "The Ministry for the Future",
+        "englishTitle": "The Ministry for the Future",
+        "koreanTitle": "미래부",
+        "status": "completed-and-verified",
+        "koreanImage": "the-ministry-for-the-future-v3-integrated-ko.webp",
+        "englishImage": "the-ministry-for-the-future-v3-integrated-en-r1.webp",
+        "koreanPreview": "../previews/the-ministry-for-the-future-v3-integrated-ko-mobile.webp",
+        "englishPreview": "../previews/the-ministry-for-the-future-v3-integrated-en-mobile.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "sourceNotes": "sources/the-ministry-for-the-future-v3-integrated.md",
+        "sources": [
+          "https://specialsales.hbgusa.com/titles/kim-stanley-robinson/the-ministry-for-the-future/9780316300162/",
+          "https://www.orbit-books.co.uk/titles/kim-stanley-robinson/the-ministry-for-the-future/9780356508863/",
+          "https://onlinelibrary.wiley.com/doi/full/10.1002/fhu2.70018",
+          "https://publications-prairial.fr/representations/index.php?id=437&lang=en",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2906879/",
+          "https://news.berkeley.edu/2024/03/22/berkeley-talks-sci-fi-writer-kim-stanley-robinson/",
+          "https://www.yes24.com/product/goods/192647737"
+        ],
+        "completedOn": "2026-11-03",
+        "publicBrowserChecks": {
+          "koreanCardHref": "infographics/the-ministry-for-the-future-v3-integrated-ko.webp",
+          "englishCardHref": "infographics/the-ministry-for-the-future-v3-integrated-en-r1.webp",
+          "koreanOriginal": "1024x1536",
+          "englishOriginal": "1024x1536",
+          "koreanMobile": "390x585",
+          "englishMobile": "390x585",
+          "checkedOn": "2026-11-03"
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 70,
-      "id": 69,
-      "title": "The Ministry for the Future",
-      "englishTitle": "The Ministry for the Future",
-      "koreanTitle": "미래부",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "the-ministry-for-the-future-v3-integrated-ko.webp",
-      "englishImage": "the-ministry-for-the-future-v3-integrated-en-r1.webp",
-      "koreanPreview": "../previews/the-ministry-for-the-future-v3-integrated-ko-mobile.webp",
-      "englishPreview": "../previews/the-ministry-for-the-future-v3-integrated-en-mobile.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-11-03",
-      "sourceNotes": "sources/the-ministry-for-the-future-v3-integrated.md",
-      "sources": [
-        "https://specialsales.hbgusa.com/titles/kim-stanley-robinson/the-ministry-for-the-future/9780316300162/",
-        "https://www.orbit-books.co.uk/titles/kim-stanley-robinson/the-ministry-for-the-future/9780356508863/",
-        "https://onlinelibrary.wiley.com/doi/full/10.1002/fhu2.70018",
-        "https://publications-prairial.fr/representations/index.php?id=437&lang=en",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2906879/",
-        "https://news.berkeley.edu/2024/03/22/berkeley-talks-sci-fi-writer-kim-stanley-robinson/",
-        "https://www.yes24.com/product/goods/192647737"
-      ]
-    }
+    "inProgress": null
   }
 }
