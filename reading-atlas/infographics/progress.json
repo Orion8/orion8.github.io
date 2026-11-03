@@ -3601,6 +3601,29 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 72,
+      "id": 71,
+      "title": "Ways of Seeing",
+      "koreanTitle": "다른 방식으로 보기",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "ways-of-seeing-v3-integrated-ko.webp",
+      "englishImage": "ways-of-seeing-v3-integrated-en.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "1024x1536",
+      "preparedOn": "2026-11-03",
+      "sourceNotes": "sources/ways-of-seeing-v3-integrated.md",
+      "sources": [
+        "https://www.penguin.co.uk/books/56465/ways-of-seeing-by-berger-john/9780141035796",
+        "https://doi.org/10.1093/hwj/dbaa020",
+        "https://www.routledge.com/John-Bergers-Ways-of-Seeing/Kalkannis/p/book/9781912284641",
+        "https://www.daejeon.go.kr/hanbatlibrary/searchDetail.do?ctrl=000000502754&lang=kor&loca=H0000001&marcType=m&siteCodeGubun=home&sysDiv=TOT"
+      ]
+    }
   }
 }
