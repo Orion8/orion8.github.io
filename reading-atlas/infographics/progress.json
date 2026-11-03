@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 70,
+    "completedCount": 71,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3559,37 +3559,48 @@
           "englishMobile": "390x585",
           "checkedOn": "2026-11-03"
         }
+      },
+      {
+        "sequence": 71,
+        "id": 70,
+        "title": "The Story of Art",
+        "englishTitle": "The Story of Art",
+        "koreanTitle": "서양미술사",
+        "status": "completed-and-verified",
+        "koreanImage": "the-story-of-art-v3-integrated-ko.webp",
+        "englishImage": "the-story-of-art-v3-integrated-en.webp",
+        "koreanPreview": "../previews/the-story-of-art-v3-integrated-ko-mobile.webp",
+        "englishPreview": "../previews/the-story-of-art-v3-integrated-en-mobile.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "preparedOn": "2026-11-03",
+        "sourceNotes": "sources/the-story-of-art-v3-integrated.md",
+        "sources": [
+          "https://www.phaidon.com/en-ca/products/the-story-of-art-16th-edition",
+          "https://books.google.com/books/about/The_Story_of_Art_16th_Edition.html?id=rJFUAAAAMAAJ",
+          "https://www.gkedc.go.kr/library/search/catalog/view.do?bibctrlno=39330&se=b0&ty=B",
+          "https://ecip.libbook.co.kr/DetailView_new_utf.php?isbn=TW1tMFdSb1c0ZVUyWENLWlp2alQ2V2FYWmdPbnpJVnIxMlNxU1ZoRVl0QT0%3D&pUser=&pchunggu=&savepoint=acuser",
+          "https://academic.oup.com/oaj/article-abstract/33/2/127/1394395",
+          "https://www.theguardian.com/books/2006/dec/02/art"
+        ],
+        "completedOn": "2026-11-03",
+        "publicBrowserChecks": {
+          "koreanCardHref": "infographics/the-story-of-art-v3-integrated-ko.webp",
+          "englishCardHref": "infographics/the-story-of-art-v3-integrated-en.webp",
+          "koreanOriginal": "1024x1536",
+          "englishOriginal": "1024x1536",
+          "koreanMobile": "390x585",
+          "englishMobile": "390x585",
+          "checkedOn": "2026-11-03"
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 71,
-      "id": 70,
-      "title": "The Story of Art",
-      "englishTitle": "The Story of Art",
-      "koreanTitle": "서양미술사",
-      "status": "assets-and-cards-deployed-public-verification-pending",
-      "koreanImage": "the-story-of-art-v3-integrated-ko.webp",
-      "englishImage": "the-story-of-art-v3-integrated-en.webp",
-      "koreanPreview": "../previews/the-story-of-art-v3-integrated-ko-mobile.webp",
-      "englishPreview": "../previews/the-story-of-art-v3-integrated-en-mobile.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-11-03",
-      "sourceNotes": "sources/the-story-of-art-v3-integrated.md",
-      "sources": [
-        "https://www.phaidon.com/en-ca/products/the-story-of-art-16th-edition",
-        "https://books.google.com/books/about/The_Story_of_Art_16th_Edition.html?id=rJFUAAAAMAAJ",
-        "https://www.gkedc.go.kr/library/search/catalog/view.do?bibctrlno=39330&se=b0&ty=B",
-        "https://ecip.libbook.co.kr/DetailView_new_utf.php?isbn=TW1tMFdSb1c0ZVUyWENLWlp2alQ2V2FYWmdPbnpJVnIxMlNxU1ZoRVl0QT0%3D&pUser=&pchunggu=&savepoint=acuser",
-        "https://academic.oup.com/oaj/article-abstract/33/2/127/1394395",
-        "https://www.theguardian.com/books/2006/dec/02/art"
-      ]
-    }
+    "inProgress": null
   }
 }
