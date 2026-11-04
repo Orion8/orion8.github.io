@@ -1,0 +1,1 @@
+export{t as PBRMaterialLoadingAdapter}from"./modelAsset-Sq8MIZM2.js";
