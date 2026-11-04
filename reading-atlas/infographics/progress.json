@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 73,
+    "completedCount": 74,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3674,37 +3674,54 @@
           "koreanMobilePreview": "https://orion8.github.io/reading-atlas/previews/art-as-experience-v3-integrated-ko-mobile.webp",
           "englishMobilePreview": "https://orion8.github.io/reading-atlas/previews/art-as-experience-v3-integrated-en-mobile.webp"
         }
+      },
+      {
+        "sequence": 74,
+        "id": 73,
+        "title": "The Rest Is Noise",
+        "koreanTitle": "나머지는 소음이다",
+        "status": "completed-and-verified",
+        "koreanImage": "the-rest-is-noise-v3-integrated-ko.webp",
+        "englishImage": "the-rest-is-noise-v3-integrated-en.webp",
+        "koreanPreview": "../previews/the-rest-is-noise-v3-integrated-ko-mobile.webp",
+        "englishPreview": "../previews/the-rest-is-noise-v3-integrated-en-mobile.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "preparedOn": "2026-11-03",
+        "sourceNotes": "sources/the-rest-is-noise-v3-integrated.md",
+        "sources": [
+          "https://therestisnoise.com/what_is_this-2/",
+          "https://therestisnoise.com/book-faq/",
+          "https://therestisnoise.com/the-rest-is-noise-audio-guide-for-ipad/",
+          "https://us.macmillan.com/books/9780312427719/therestisnoise/",
+          "https://www.si.edu/object/rest-noise-listening-twentieth-century-alex-ross%3Asiris_sil_901435",
+          "https://psychiatryonline.org/doi/10.1176/appi.ajp.2010.10091249",
+          "https://www.yes24.com/product/goods/3965844"
+        ],
+        "completedOn": "2026-11-03",
+        "publicBrowserChecks": {
+          "koreanCardHref": "infographics/the-rest-is-noise-v3-integrated-ko.webp",
+          "englishCardHref": "infographics/the-rest-is-noise-v3-integrated-en.webp",
+          "koreanOriginal": "1024x1536",
+          "englishOriginal": "1024x1536",
+          "koreanMobile": "390x585",
+          "englishMobile": "390x585",
+          "checkedOn": "2026-11-03"
+        },
+        "verification": {
+          "koreanCardUrl": "https://orion8.github.io/reading-atlas/infographics/the-rest-is-noise-v3-integrated-ko.webp",
+          "englishCardUrl": "https://orion8.github.io/reading-atlas/infographics/the-rest-is-noise-v3-integrated-en.webp",
+          "koreanMobilePreview": "https://orion8.github.io/reading-atlas/previews/the-rest-is-noise-v3-integrated-ko-mobile.webp",
+          "englishMobilePreview": "https://orion8.github.io/reading-atlas/previews/the-rest-is-noise-v3-integrated-en-mobile.webp"
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 74,
-      "id": 73,
-      "title": "The Rest Is Noise",
-      "koreanTitle": "나머지는 소음이다",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "the-rest-is-noise-v3-integrated-ko.webp",
-      "englishImage": "the-rest-is-noise-v3-integrated-en.webp",
-      "koreanPreview": "../previews/the-rest-is-noise-v3-integrated-ko-mobile.webp",
-      "englishPreview": "../previews/the-rest-is-noise-v3-integrated-en-mobile.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-11-03",
-      "sourceNotes": "sources/the-rest-is-noise-v3-integrated.md",
-      "sources": [
-        "https://therestisnoise.com/what_is_this-2/",
-        "https://therestisnoise.com/book-faq/",
-        "https://therestisnoise.com/the-rest-is-noise-audio-guide-for-ipad/",
-        "https://us.macmillan.com/books/9780312427719/therestisnoise/",
-        "https://www.si.edu/object/rest-noise-listening-twentieth-century-alex-ross%3Asiris_sil_901435",
-        "https://psychiatryonline.org/doi/10.1176/appi.ajp.2010.10091249",
-        "https://www.yes24.com/product/goods/3965844"
-      ]
-    }
+    "inProgress": null
   }
 }
