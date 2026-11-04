@@ -3676,6 +3676,35 @@
         }
       }
     ],
-    "inProgress": null
+    "inProgress": {
+      "sequence": 74,
+      "id": 73,
+      "title": "The Rest Is Noise",
+      "koreanTitle": "나머지는 소음이다",
+      "status": "public-deployment-verification-pending",
+      "koreanImage": "the-rest-is-noise-v3-integrated-ko.webp",
+      "englishImage": "the-rest-is-noise-v3-integrated-en.webp",
+      "koreanPreview": "../previews/the-rest-is-noise-v3-integrated-ko-mobile.webp",
+      "englishPreview": "../previews/the-rest-is-noise-v3-integrated-en-mobile.webp",
+      "koreanComplete": true,
+      "englishComplete": true,
+      "koreanCardVerified": false,
+      "englishCardVerified": false,
+      "publicUrlsVerified": false,
+      "mobileVerifiedAtWidth": 390,
+      "dimensions": "1024x1536",
+      "mobileDimensions": "390x585",
+      "preparedOn": "2026-11-03",
+      "sourceNotes": "sources/the-rest-is-noise-v3-integrated.md",
+      "sources": [
+        "https://therestisnoise.com/what_is_this-2/",
+        "https://therestisnoise.com/book-faq/",
+        "https://therestisnoise.com/the-rest-is-noise-audio-guide-for-ipad/",
+        "https://us.macmillan.com/books/9780312427719/therestisnoise/",
+        "https://www.si.edu/object/rest-noise-listening-twentieth-century-alex-ross%3Asiris_sil_901435",
+        "https://psychiatryonline.org/doi/10.1176/appi.ajp.2010.10091249",
+        "https://www.yes24.com/product/goods/3965844"
+      ]
+    }
   }
 }
