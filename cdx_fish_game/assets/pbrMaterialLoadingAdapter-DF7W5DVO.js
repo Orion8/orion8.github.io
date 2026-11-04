@@ -1,0 +1,1 @@
+export{t as PBRMaterialLoadingAdapter}from"./modelAsset-Cmj9J1lg.js";

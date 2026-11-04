@@ -1,0 +1,1 @@
+export{n as OpenPBRMaterialLoadingAdapter}from"./modelAsset-Cmj9J1lg.js";
