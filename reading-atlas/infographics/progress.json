@@ -344,7 +344,7 @@
     "version": 3,
     "name": "Fully integrated bilingual illustrated anatomy",
     "startedOn": "2026-10-15",
-    "completedCount": 72,
+    "completedCount": 73,
     "collectionTotal": 75,
     "completed": [
       {
@@ -3629,36 +3629,53 @@
           "https://www.routledge.com/John-Bergers-Ways-of-Seeing/Kalkannis/p/book/9781912284641",
           "https://www.daejeon.go.kr/hanbatlibrary/searchDetail.do?ctrl=000000502754&lang=kor&loca=H0000001&marcType=m&siteCodeGubun=home&sysDiv=TOT"
         ]
+      },
+      {
+        "sequence": 73,
+        "id": 72,
+        "title": "Art as Experience",
+        "koreanTitle": "경험으로서의 예술",
+        "status": "completed-and-verified",
+        "koreanImage": "art-as-experience-v3-integrated-ko.webp",
+        "englishImage": "art-as-experience-v3-integrated-en.webp",
+        "koreanPreview": "../previews/art-as-experience-v3-integrated-ko-mobile.webp",
+        "englishPreview": "../previews/art-as-experience-v3-integrated-en-mobile.webp",
+        "koreanComplete": true,
+        "englishComplete": true,
+        "koreanCardVerified": true,
+        "englishCardVerified": true,
+        "publicUrlsVerified": true,
+        "mobileVerifiedAtWidth": 390,
+        "dimensions": "1024x1536",
+        "mobileDimensions": "390x585",
+        "preparedOn": "2026-11-03",
+        "sourceNotes": "sources/art-as-experience-v3-integrated.md",
+        "sources": [
+          "https://www.bibliovault.org/BV.book.epl?ISBN=9780809327907",
+          "https://plato.stanford.edu/entries/dewey-aesthetics/",
+          "https://academic.oup.com/jaac/article/83/1/1/7942752",
+          "https://www.iep.utm.edu/dewey-aesthetics/",
+          "https://www.daejeon.go.kr/hanbatlibrary/searchDetail.do?ctrl=000004190947&lang=kor&loca=H0000001&marcType=m&siteCodeGubun=home&sysDiv=TOT",
+          "https://www.yes24.com/product/goods/90384573"
+        ],
+        "completedOn": "2026-11-03",
+        "publicBrowserChecks": {
+          "koreanCardHref": "infographics/art-as-experience-v3-integrated-ko.webp",
+          "englishCardHref": "infographics/art-as-experience-v3-integrated-en.webp",
+          "koreanOriginal": "1024x1536",
+          "englishOriginal": "1024x1536",
+          "koreanMobile": "390x585",
+          "englishMobile": "390x585",
+          "checkedOn": "2026-11-03"
+        },
+        "verification": {
+          "koreanCardUrl": "https://orion8.github.io/reading-atlas/infographics/art-as-experience-v3-integrated-ko.webp",
+          "englishCardUrl": "https://orion8.github.io/reading-atlas/infographics/art-as-experience-v3-integrated-en.webp",
+          "koreanMobilePreview": "https://orion8.github.io/reading-atlas/previews/art-as-experience-v3-integrated-ko-mobile.webp",
+          "englishMobilePreview": "https://orion8.github.io/reading-atlas/previews/art-as-experience-v3-integrated-en-mobile.webp"
+        }
       }
     ],
-    "inProgress": {
-      "sequence": 73,
-      "id": 72,
-      "title": "Art as Experience",
-      "koreanTitle": "경험으로서의 예술",
-      "status": "public-deployment-verification-pending",
-      "koreanImage": "art-as-experience-v3-integrated-ko.webp",
-      "englishImage": "art-as-experience-v3-integrated-en.webp",
-      "koreanPreview": "../previews/art-as-experience-v3-integrated-ko-mobile.webp",
-      "englishPreview": "../previews/art-as-experience-v3-integrated-en-mobile.webp",
-      "koreanComplete": true,
-      "englishComplete": true,
-      "koreanCardVerified": false,
-      "englishCardVerified": false,
-      "publicUrlsVerified": false,
-      "mobileVerifiedAtWidth": 390,
-      "dimensions": "1024x1536",
-      "mobileDimensions": "390x585",
-      "preparedOn": "2026-11-03",
-      "sourceNotes": "sources/art-as-experience-v3-integrated.md",
-      "sources": [
-        "https://www.bibliovault.org/BV.book.epl?ISBN=9780809327907",
-        "https://plato.stanford.edu/entries/dewey-aesthetics/",
-        "https://academic.oup.com/jaac/article/83/1/1/7942752",
-        "https://www.iep.utm.edu/dewey-aesthetics/",
-        "https://www.daejeon.go.kr/hanbatlibrary/searchDetail.do?ctrl=000004190947&lang=kor&loca=H0000001&marcType=m&siteCodeGubun=home&sysDiv=TOT",
-        "https://www.yes24.com/product/goods/90384573"
-      ]
-    }
+    "inProgress": null
   }
 }
