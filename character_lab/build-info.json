@@ -1,7 +1,7 @@
 {
-  "viewerVersion": "0.8.0",
+  "viewerVersion": "0.9.0",
   "defaultCharacter": "silver",
-  "sourceCommit": "e58e045c7569900dd8542808a311ddd5886169f9",
+  "sourceCommit": "dbf3d72f2dfd406f07de9ea55ec9d676b5ebca14",
   "silverSha256": "fe085c8ff4291e366a784f39101b7481081669894bdf6711d8d9f3dcf27350bb",
   "verification": {
     "unitTests": 20,
@@ -9,5 +9,12 @@
     "gltfErrors": 0,
     "embeddedImages": 2
   },
-  "note": "Existing hosted Aster asset preserved; previous local sculpt revision is not part of this release."
+  "note": "Existing hosted Aster asset preserved; previous local sculpt revision is not part of this release.",
+  "silverAnimations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "animationSource": "Viewer-authored procedural Rigify clips; original GLB preserved"
 }
