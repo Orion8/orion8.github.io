@@ -1,8 +1,1224 @@
 {
-  "catalogVersion": "0.0.194",
-  "updatedAt": "2026-10-30T18:34:43.977Z",
+  "catalogVersion": "0.0.202",
+  "updatedAt": "2026-11-03T20:05:49.601Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-9e27bbce589224e5f8afef5a",
+      "title": "예멘 정부, IRGC·헤즈볼라가 후티에 21명 전문가 파견했다고 비난",
+      "titleTranslations": {
+        "en": "Yemen government accuses IRGC and Hezbollah of sending 21 experts to back Houthis"
+      },
+      "startAt": "2026-11-03T19:09:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "예멘 내무장관은 이란 혁명수비대(IRGC)와 레바논의 헤즈볼라가 후티 반군을 지원하기 위해 21명의 전문가를 파견했다고 비난하며, 외국의 개입이 무기·훈련을 넘어 군사작전 지휘로 확대됐다고 주장했다.",
+      "descriptionTranslations": {
+        "en": "Yemen's interior minister accused Iran's Islamic Revolutionary Guard Corps (IRGC) and Lebanon's Hezbollah of sending 21 experts to support the Houthi rebels, saying foreign involvement has expanded beyond arms and training to directing military operations."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-11-03T19:09:09.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-89158d68bf9594ef8ca890b6",
+      "title": "Anthropic, 컴퓨트 비용의 경제성 문제 계속 고심",
+      "titleTranslations": {
+        "en": "Anthropic is still grappling with the economics of compute"
+      },
+      "startAt": "2026-11-03T17:07:01.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "Anthropic은 당초 컴퓨트 마진이 개선돼야 할 시점에 오히려 악화되고 있다고 설명하며, 대규모 AI 운영에 따른 컴퓨트 비용의 경제성 문제를 계속 겪고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Anthropic says that, at a time when compute margins should be improving, they are instead getting worse, and the company continues to grapple with the economics of large‑scale AI compute."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+        ],
+        "firstPublishedAt": "2026-11-03T17:07:01.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-1fa24dedc7c445b42a7af858",
+      "title": "우크라이나 헤르손 지역, 짧은 휴전 동안 일시적 일상 회복",
+      "titleTranslations": {
+        "en": "For Ukraine’s Kherson region, a short ceasefire meant a momentary return to normal life"
+      },
+      "startAt": "2026-11-03T15:54:39.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "휴전이 유지된 기간 동안 헤르손 시에서는 카페와 상점이 붐비고 주민들이 외출하는 등 평상시와 같은 모습이 잠시 되돌아왔다고 보도됐다. 일부 주민은 도시가 '살아 있는 것 같다'고 말했다.",
+      "descriptionTranslations": {
+        "en": "During a brief ceasefire in Kherson city, cafes and shops were busy and residents went out, with some saying the city 'seemed alive' for a short period, reporting says."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+          "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine",
+          "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson"
+        ],
+        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-5bc59241b64860dea72f101b",
+      "title": "러셀 브랜드 강간 재판 — 배심 평의 시작",
+      "titleTranslations": {
+        "en": "Jury in Russell Brand rape trial begins considering verdicts"
+      },
+      "startAt": "2026-11-03T14:50:06.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 3,
+      "description": "영국의 미디어 인사인 러셀 브랜드에 대한 재판에서 배심원단이 평의를 시작했다. 브랜드는 모든 혐의를 부인한 채 3주간의 공판을 마쳤다.",
+      "descriptionTranslations": {
+        "en": "In the trial of media personality Russell Brand on rape charges, the jury has begun deliberations after a three‑week trial. Brand has pleaded not guilty to all charges."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckly4ed521emo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ck240rr10jdqo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ckly4ed521emo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-12T12:44:38.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-db8eb61a08b707994acf1df7",
+      "title": "북미 널리 분포한 사냥새 '러프드 그라우스' 개체수 감소 — 오하이오서 사냥 허가 첫 불발",
+      "titleTranslations": {
+        "en": "North America’s widely distributed game bird, the ruffed grouse, is under threat"
+      },
+      "startAt": "2026-11-03T13:00:07.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "보도는 러프드 그라우스의 개체수가 감소해 오하이오 주에서 1937년 이후 처음으로 개방 사냥 허가가 발급되지 않았다고 전했다. 개체 감소로 서식지 보호와 보존 조치에 대한 우려가 제기되고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say ruffed grouse populations have declined to the extent that Ohio has issued no open hunting permits for the first time since 1937. The fall in numbers raises concerns about habitat protection and conservation measures."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/04/ruffed-grouse-population-decline",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/nov/04/ruffed-grouse-population-decline"
+        ],
+        "firstPublishedAt": "2026-11-03T13:00:07.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-ed08a0256a77de2b48d5d389",
+      "title": "애플, 메모리 칩 가격의 '전례 없는' 상승 경고",
+      "titleTranslations": {
+        "en": "Apple warns of an 'unprecedented' rise in memory chip prices"
+      },
+      "startAt": "2026-11-03T09:01:19.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "애플은 메모리 칩 가격이 '전례 없는' 수준으로 오르고 있다고 경고했다. 회사는 가격 인상 조치로 영향의 일부를 상쇄했지만, 높은 칩값이 이익률을 갉아먹을 것이라고 투자자들에게 알렸다. 해당 발표 후 애플 주가는 장마감 후 하락했다.",
+      "descriptionTranslations": {
+        "en": "Apple warned that memory chip prices are rising at an 'unprecedented' rate. The company said price increases have offset some of the impact, but higher chip costs will eat into profit margins; Apple shares fell in after‑hours trading following the announcement."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings"
+        ],
+        "firstPublishedAt": "2026-11-03T09:01:19.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-74eb36cdafe1bd2912151c12",
+      "title": "영국, 인체 내 '영구화학물질'(PFAS) 전수 조사하는 첫 대규모 연구 착수",
+      "titleTranslations": {
+        "en": "Major UK study launched to measure 'forever chemicals' (PFAS) in people"
+      },
+      "startAt": "2026-11-03T07:19:27.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도에 따르면 영국 정부는 인구 내 PFAS(영구화학물질) 농도를 측정하는 첫 연구를 시작해 이러한 물질의 위험과 분포를 이해하려 한다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Reports say the UK government has launched its first study to measure PFAS levels in the population to understand the risks and distribution of these 'forever chemicals.'"
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwly4ejrr72mo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwly4ejrr72mo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-03T07:19:27.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
+    {
+      "id": "news-589ab00bb3ff9ab96d79e9d3",
+      "title": "영국 내 대형 AI 데이터센터 계획, 배출 감축 목표 약화 가능성 제기",
+      "titleTranslations": {
+        "en": "Planned large AI data centres in UK could undermine emissions goals"
+      },
+      "startAt": "2026-11-03T06:27:17.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도는 네 곳의 계획된 '하이퍼스케일' AI 데이터센터가 전력 수요를 충당하기 위해 가스 발전 사용을 검토 중이라며, 이는 영국의 배출 감축 목표를 훼손할 수 있다고 경고했다.",
+      "descriptionTranslations": {
+        "en": "Reports say four planned 'hyperscale' AI data centres are considering using gas‑fired power to meet electricity needs, which could undermine the UK’s emissions reduction goals."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqvgrvx6ekl2o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqvgrvx6ekl2o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-03T06:27:17.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
+    {
+      "id": "news-9074d1fb6285ef0eea8b2e26",
+      "title": "버밍엄 Digbeth 클럽 문화 지키려는 지역 주민·클럽 이용자들의 저항",
+      "titleTranslations": {
+        "en": "Birmingham clubbers fight to save Digbeth and Britain’s nightlife"
+      },
+      "startAt": "2026-11-03T05:00:39.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "버밍엄의 파티 지구 Digbeth는 철도 업그레이드 사업으로 인해 훼손될 우려가 제기되자 지역 클럽 이용자들과 주민들이 지역 보존을 위해 집회와 캠페인 등을 벌이고 있다. 보도는 이들이 문화적 중요성을 강조하며 당국에 중단을 촉구하고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "In Birmingham’s Digbeth nightlife district, clubbers and local residents are campaigning to protect the area from proposed railway upgrades that could tear the district apart. Reports say they are staging events and urging authorities to halt or alter the plans, stressing the cultural importance of the area."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/culture/2026/nov/03/birmingham-clubbers-fighting-to-save-britain-nightlife-digbeth",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/culture/2026/nov/03/birmingham-clubbers-fighting-to-save-britain-nightlife-digbeth"
+        ],
+        "firstPublishedAt": "2026-11-03T05:00:39.000Z",
+        "lastObservedAt": "2026-11-03T20:05:49.601Z"
+      }
+    },
+    {
+      "id": "news-35c2e38b2bb7bd4eaa5979e1",
+      "title": "미국, 중간선거를 앞두고 이란 케슈므(Qeshm) 섬에 공격 감행",
+      "titleTranslations": {
+        "en": "US strikes Iran's Qeshm Island ahead of midterm elections"
+      },
+      "startAt": "2026-11-03T03:39:08.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 미 당국은 중간선거를 앞두고 이란의 케슈므 섬에 대한 공격을 단행했으며, 미 관리는 CBS에 이번 공격을 '제한적이고 방어적'이라고 설명했다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say US forces struck Iran's Qeshm Island ahead of the midterm elections; US officials told CBS the strikes were 'limited and defensive.'"
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+          "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-01T22:19:13.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
+    {
+      "id": "news-e28f5ace93252c77d8f0a07e",
+      "title": "대법원, 트럼프의 캘리포니아 분쟁표 집계 중단 요청 기각",
+      "titleTranslations": {
+        "en": "Supreme Court rejects Trump's request to stop California counting disputed votes"
+      },
+      "startAt": "2026-11-03T03:32:36.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도는 대법원이 트럼프 측의 캘리포니아 내 분쟁표 집계 중단 요청을 기각했으며, 이 판결로 트럼프 측의 주 내 표 실격 시도는 사실상 종결됐다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say the Supreme Court rejected Trump's request to stop California from counting disputed votes; the ruling effectively ends his bid to disqualify ballots in the state."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-03T03:32:36.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
+    {
+      "id": "news-ca204e1c0052a71213a13f97",
+      "title": "Anthropic 경고: 'RSI(자가훈련 가속)' 능력에 매우 근접",
+      "titleTranslations": {
+        "en": "Anthropic warns that it’s very close to RSI capability, aka self‑building AI"
+      },
+      "startAt": "2026-11-02T22:14:50.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "Anthropic는 AI가 스스로를 훈련해 급격한 능력 가속을 일으키는 이른바 RSI(self‑improving AI) 능력에 '매우 가깝다'고 경고했다. 보도는 RSI 개념과 그 위험을 설명했다.",
+      "descriptionTranslations": {
+        "en": "Anthropic warned it is 'very close' to achieving RSI (recursive self‑improvement) capability — the point where AI trains itself and spawns rapid acceleration of capabilities. Coverage explains the RSI concept and its potential risks."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+        ],
+        "firstPublishedAt": "2026-11-02T22:14:50.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-79724c5608b9242f4b5a0bf7",
+      "title": "NASA 존슨 우주센터, 설립 65주년 회고",
+      "titleTranslations": {
+        "en": "NASA's Johnson Space Center marks 65 years"
+      },
+      "startAt": "2026-11-02T21:35:59.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "보도는 휴스턴의 NASA 존슨 우주센터가 설립 65주년을 맞았으며, 수십 년간 인류 유인 우주비행 프로그램을 지원해왔다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports note that NASA's Johnson Space Center in Houston is celebrating its 65th anniversary and has long been central to the nation's human spaceflight programme."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/"
+        ],
+        "firstPublishedAt": "2026-11-02T21:35:59.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
+    {
+      "id": "news-9bcfdc55331da27bcd897749",
+      "title": "러시아 폭격으로 우크라이나 구호센터서 26명 사망, 키이우 발표",
+      "titleTranslations": {
+        "en": "Russian bombing kills 26 at Ukraine aid centre, Kyiv says"
+      },
+      "startAt": "2026-11-02T21:10:04.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "키이우 당국은 남부 우크라이나의 한 마을에서 최소 9발의 3,000kg급 공중폭탄이 떨어져 구호센터에서 26명이 숨졌다고 밝혔다. 대통령은 이번 공격을 '완전히 끔찍한' 공격이라고 표현했다.",
+      "descriptionTranslations": {
+        "en": "Kyiv authorities say at least nine 3,000kg aerial bombs struck a southern Ukrainian village, killing 26 people at an aid centre. The president described the attack as an 'utterly horrific' assault."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-02T21:10:04.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-b9ac585d42a76d26af690870",
+      "title": "이란 전쟁 종식 기대에 유가 급락 — 브렌트 6% 이상 하락",
+      "titleTranslations": {
+        "en": "Oil price falls amid hope of a breakthrough to end Iran war"
+      },
+      "startAt": "2026-11-02T17:14:23.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "브렌트유가 이란 전쟁을 끝낼 수 있다는 기대 속에 6.5% 이상 하락해 배럴당 105.55달러까지 떨어졌다. 보도는 항공사 주가가 오르고 국채 금리가 낮아졌다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Brent crude fell by more than 6.5% amid hopes of a breakthrough to end the Iran war, dropping to $105.55 a barrel. Coverage says airline shares rose and government borrowing costs fell."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war"
+        ],
+        "firstPublishedAt": "2026-11-02T17:14:23.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-efb5e46ff25eb37594fecdc5",
+      "title": "노스캐롤라이나 홍수 대응 미흡이 지역 공화당 지지 약화로 이어져",
+      "titleTranslations": {
+        "en": "Lacklustre flood response in North Carolina is eroding Republican support in one county"
+      },
+      "startAt": "2026-11-02T12:00:41.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "보도는 홍수 피해에 대한 미흡한 대응이 노스캐롤라이나의 한 카운티에서 공화당에 대한 지지를 약화시키고 있으며, 유권자들이 불만을 표시하고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say a lacklustre response to flooding in North Carolina is eroding Republican support in one county, with residents expressing frustration over the handling of flood impacts."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/02/north-carolina-congress-republicans",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/02/north-carolina-congress-republicans"
+        ],
+        "firstPublishedAt": "2026-11-02T12:00:41.000Z",
+        "lastObservedAt": "2026-11-03T07:53:12.460Z"
+      }
+    },
+    {
+      "id": "news-06a2c703111142070fa59601",
+      "title": "바이낸스 해킹 여파—이용자들 36억 달러 인출, 거래 동결",
+      "titleTranslations": {
+        "en": "Binance users withdraw $3.6bn after largest‑ever crypto hack"
+      },
+      "startAt": "2026-11-02T07:42:33.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도는 대규모 해킹 사건 후 바이낸스 이용자들이 약 36억 달러를 인출했으며, 거래소는 사건과 관련해 거래를 동결했다고 전했다. 이번 사건은 북한 연계 그룹과 관련이 있다는 보도가 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say Binance users have withdrawn about $3.6bn following a major hack, and the exchange froze transactions related to the incident. Coverage links the attack to a North Korean‑linked group."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "climateEnvironment",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
+          "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-29T10:00:31.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-f4c5be0a71e76073b83082bc",
+      "title": "유엔, 35년 임무 종료 — 서사하라 분쟁 평화유지 활동 종결",
+      "titleTranslations": {
+        "en": "UN ends 35‑year peacekeeping mission in disputed Western Sahara"
+      },
+      "startAt": "2026-11-02T07:19:35.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "유엔의 장기 평화유지 임무가 35년 만에 종료되었다. 서사하라는 과거 스페인령이었으며 모로코와 친(親)독립 폴리사리오 전선이 영유권을 주장해온 지역이다.",
+      "descriptionTranslations": {
+        "en": "The U.N.'s long‑running peacekeeping mission has ceased operations after 35 years. Western Sahara, once ruled by Spain, is claimed by both Morocco and the pro‑independence Polisario Front."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends"
+        ],
+        "firstPublishedAt": "2026-11-02T07:19:35.000Z",
+        "lastObservedAt": "2026-11-02T07:38:15.232Z"
+      }
+    },
+    {
+      "id": "news-355ad5ac5207f3333afa5663",
+      "title": "영국 응급실, 악화하는 소아환자 조기 식별 위한 경보 시스템 도입",
+      "titleTranslations": {
+        "en": "England to introduce A&E warning system to flag children deteriorating rapidly"
+      },
+      "startAt": "2026-11-02T00:51:24.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "영국에서 바쁜 응급실 직원들이 대기 중인 어린이들 가운데 빠르게 상태가 악화하는 환자를 식별할 수 있도록 돕는 경보 시스템을 도입할 계획이라고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "An initiative in England will introduce an A&E warning system to help busy staff identify children who are deteriorating quickly while waiting for emergency care, reporting says."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw1m42zdnn3go?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw1m42zdnn3go?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-02T00:51:24.000Z",
+        "lastObservedAt": "2026-11-02T07:38:15.232Z"
+      }
+    },
+    {
+      "id": "news-275d1d7d06a994573dca092b",
+      "title": "UN 지원 보고서: 1.5°C 초과하면 빙권(cryosphere)에 영구적 손상 우려",
+      "titleTranslations": {
+        "en": "Cryosphere faces permanent damage when world overshoots 1.5C, scientists warn"
+      },
+      "startAt": "2026-11-02T00:01:25.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "유엔 지원 보고서는 파리협정 목표인 1.5°C를 일시적으로라도 초과하면 빙하와 극지의 얼음층에 광범위하고 영구적인 손실이 발생할 수 있다고 경고했다. 보고서는 일시적 초과도 관리 가능한 대안이 아니라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "A UN‑backed report warns that even temporary overshoots above the Paris target of 1.5°C could cause widespread and permanent losses to glaciers and polar ice sheets. The report says temporary overshoot is not a manageable alternative to urgent emissions cuts."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/nov/02/permanent-damage-crysophere-overshoots-15c-scientists-warn",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/nov/02/permanent-damage-crysophere-overshoots-15c-scientists-warn"
+        ],
+        "firstPublishedAt": "2026-11-02T00:01:25.000Z",
+        "lastObservedAt": "2026-11-02T22:19:07.405Z"
+      }
+    },
+    {
+      "id": "news-69c245550d646a9db4cdd473",
+      "title": "LA 시장 카렌 배스, 재선 경쟁 심화 — 진보 성향 도전자와 접전",
+      "titleTranslations": {
+        "en": "Embattled Karen Bass fights to keep Los Angeles mayorship as progressive challenger gains"
+      },
+      "startAt": "2026-11-01T18:19:06.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도는 LA 시장 카렌 배스가 주택·물가 등 문제를 둘러싼 선거전에서 진보 성향의 도전자와 치열한 경쟁을 벌이며 재선에 어려움을 겪고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Los Angeles mayor Karen Bass is facing a strong challenge and is fighting to retain her mayorship amid a tight race with a more progressive challenger, with affordability a key issue."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/01/karen-bass-los-angeles-mayoral-race",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/01/karen-bass-los-angeles-mayoral-race"
+        ],
+        "firstPublishedAt": "2026-11-01T18:19:06.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
+      }
+    },
+    {
+      "id": "news-15f19ca81ac7a3d7f09df68c",
+      "title": "콜로라도, 제초제 살포 드론 계획에 지역사회 반발",
+      "titleTranslations": {
+        "en": "Colorado community contests plan to use drones to spray weed killer"
+      },
+      "startAt": "2026-11-01T14:00:18.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 1,
+      "description": "콜로라도 보울더카운티 레드힐 일대에서 침입 식물을 제거하기 위해 드론으로 제초제를 살포하는 계획이 발표되자 지역 주민과 환경 단체들이 우려를 표명하며 반발하고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Officials in Red Hill, Colorado plan to use drones to spray weed killer to remove invasive plants, prompting concern and opposition from local residents and environmental groups, reporting says."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/01/colorado-drones-weed-killer",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/01/colorado-drones-weed-killer"
+        ],
+        "firstPublishedAt": "2026-11-01T14:00:18.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
+      }
+    },
+    {
+      "id": "news-f063ceae6ff751ba9d7c0016",
+      "title": "미·중 무역갈등 일시 진정 — '안심은 금물' 분석",
+      "titleTranslations": {
+        "en": "US‑China trade war seems to have cooled — analysts warn the calm is misleading"
+      },
+      "startAt": "2026-11-01T12:00:12.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도는 미·중 간의 무역 갈등을 진정시키는 휴지가 나타났으나, 표면상의 안도감이 오해일 수 있으며 언제든 새로운 적대 상황이 벌어질 여지가 남아 있다고 지적했다.",
+      "descriptionTranslations": {
+        "en": "Coverage says a truce has cooled the US‑China trade conflict, but the sense of calm is misleading — underlying tensions remain and the risk of renewed hostilities persists, analysts warn."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi"
+        ],
+        "firstPublishedAt": "2026-11-01T12:00:12.000Z",
+        "lastObservedAt": "2026-11-02T07:38:15.232Z"
+      }
+    },
+    {
+      "id": "news-f845da07825410f4870fccb8",
+      "title": "독일 물가 부담 시위 격화 — 상점 약탈·대도시 곳곳 충돌",
+      "titleTranslations": {
+        "en": "Shops looted as German cost‑of‑living protests turn violent"
+      },
+      "startAt": "2026-11-01T11:57:48.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "베를린·함부르크·프랑크푸르트 등 여러 도시에서 치러진 물가 부담 시위가 격화돼 일부 상점 약탈과 충돌이 발생했다고 보도됐다. 같은 날 프랑스에서도 수십만명이 시위에 참여했다는 보도가 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Cost‑of‑living protests in several German cities — including Berlin, Hamburg and Frankfurt — turned violent with shops looted and clashes reported. The protests took place on the same day that hundreds of thousands also demonstrated in France, reporting says."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-01T11:57:48.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
+      }
+    },
+    {
+      "id": "news-6adc980a9aea12f0fb12d785",
+      "title": "사디크 칸, 런던 로보택시 수 제한 촉구 — 공기질·혼잡·일자리 우려 제기",
+      "titleTranslations": {
+        "en": "Sadiq Khan calls for cap on robotaxis in London over air quality, congestion and jobs"
+      },
+      "startAt": "2026-11-01T10:00:09.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "런던 시장 사디크 칸은 정부가 완전자율주행 차량 운행을 허용할 태세인 가운데 로보택시 수에 대한 상한 도입을 촉구하며 공기질·혼잡·일자리 영향을 문제삼았다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "London mayor Sadiq Khan has called for a cap on the number of robotaxis on city streets, questioning the impact on air quality, congestion and jobs as the government considers allowing fully driverless vehicles, reporting says."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets"
+        ],
+        "firstPublishedAt": "2026-11-01T10:00:09.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
+      }
+    },
+    {
+      "id": "news-ac1ada03b98d3f979e038a6d",
+      "title": "'단공목' 기름딱정벌레, 60년 만에 웨일즈서 재발견",
+      "titleTranslations": {
+        "en": "'Short‑necked oil beetle' found in Wales again after 60 years"
+      },
+      "startAt": "2026-11-01T07:08:04.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도는 단공목(Short‑Necked) 기름딱정벌레가 최근 조사에서 60년 만에 웨일즈에서 발견됐다고 전했다. 이 종은 이전 조사에서 멸종된 것으로 여겨졌으나 재발견으로 보존 상태와 서식지 보호에 관한 관심이 다시 제기되고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say the short‑necked oil beetle has been found in Wales for the first time in about 60 years. The species had been feared extinct following recent surveys, and its rediscovery raises renewed attention for conservation and habitat protection."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-01T07:08:04.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-9fdd859de5445198a141ff8f",
+      "title": "인도 야권, 선거관리위원장 사임 촉구 대규모 집회 예정",
+      "titleTranslations": {
+        "en": "India's opposition to hold mega rally seeking election chief's resignation"
+      },
+      "startAt": "2026-11-01T07:00:55.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 인도 야권이 선거관리위원장의 사임을 요구하는 대규모 집회를 준비하고 있다. 이번 집회는 유권자명부 정정 작업을 둘러싼 시위가 커진 가운데 열리며, 해당 작업으로 최대 1억3천만 명이 명부에서 누락될 수 있다는 우려가 배경이 되었다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reporting says India's opposition is preparing a large rally calling for the resignation of the election chief. The rally follows growing protests over a voter‑list revision exercise that critics fear could leave up to 130 million voters off the rolls."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-01T07:00:55.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-204d5faf405d3242c5f35b25",
+      "title": "법원, NAACP의 xAI 데이터센터 오염 소송 진행 허용",
+      "titleTranslations": {
+        "en": "Judge allows NAACP lawsuit over xAI data‑center pollution to move forward"
+      },
+      "startAt": "2026-10-31T21:17:03.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "NAACP가 제기한 소송이 진행 허가를 받았으며, 소송은 스페이스X 계열 AI업체 xAI가 대기오염법(Clean Air Act)을 위반했다는 주장을 담고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "A judge has allowed the NAACP’s lawsuit to proceed; the case alleges that SpaceX‑owned AI company xAI violated the Clean Air Act, reporting says."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+        ],
+        "firstPublishedAt": "2026-10-31T21:17:03.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.694Z"
+      }
+    },
+    {
+      "id": "news-7c0ce3d8dd2c4b7e24e448c1",
+      "title": "루비오 주최 G20 외교장관회의, 애틀랜타서 개막 — 경제·안보 논의 집중",
+      "titleTranslations": {
+        "en": "Secretary Rubio hosts G20 foreign ministers in Atlanta — focus on economic and security challenges"
+      },
+      "startAt": "2026-10-31T21:14:34.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "미 국무장관 마르코 루비오가 애틀랜타에서 G20 외교장관 회의를 주최했으며, 회의는 경제와 안보 문제에 집중하고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "U.S. Secretary of State Marco Rubio is hosting the G20 foreign ministers’ meeting in Atlanta, with a focus on economic and security challenges, reporting says."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/31/nx-s1-6022223/secretary-rubio-has-a-tough-time-getting-officials-at-g20-on-the-same-page",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/31/nx-s1-6022223/secretary-rubio-has-a-tough-time-getting-officials-at-g20-on-the-same-page"
+        ],
+        "firstPublishedAt": "2026-10-31T21:14:34.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
+      }
+    },
+    {
+      "id": "news-98e47325920a6fd8509e34f0",
+      "title": "남부 필리핀 새 지방정부 출범 — 80년 분쟁 평화과정의 이정표",
+      "titleTranslations": {
+        "en": "A new local government takes office in southern Philippines — milestone in an 80‑year conflict peace process"
+      },
+      "startAt": "2026-10-31T21:14:32.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도는 남부 필리핀에서 새로운 지방정부가 공식적으로 출범했다고 전했다. 이는 약 80년간 이어진 분쟁의 평화 과정에서 중요한 이정표로 평가되며, 지역 정치와 보안 상황에 변화를 가져올 가능성이 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Reports say a new local government has formally taken office in the southern Philippines. The development is described as a milestone in the long‑running, roughly 80‑year conflict's peace process and could bring changes to local politics and security dynamics."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines"
+        ],
+        "firstPublishedAt": "2026-10-31T21:14:32.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-23855d994607aa8ed8fc4221",
+      "title": "콩고민주공화국 최악의 에볼라 유행 — 사망자 5,000명 이상",
+      "titleTranslations": {
+        "en": "DR Congo's deadliest Ebola outbreak — more than 5,000 dead"
+      },
+      "startAt": "2026-10-31T15:16:20.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "정부 통계에 따르면 이번 에볼라 유행으로 1만 명 이상이 감염된 가운데 사망자가 5,000명을 넘은 것으로 보고됐다. 보도는 확산 규모와 보건 대응의 압박을 전했다.",
+      "descriptionTranslations": {
+        "en": "Government data shows the Ebola outbreak has infected more than 10,000 people and that deaths have exceeded 5,000. Coverage outlines the scale of the outbreak and pressure on health responses."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
+          "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-28T11:28:55.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.237Z"
+      }
+    },
+    {
+      "id": "news-943e3ef344c64aecd919710c",
+      "title": "트럼프 행정부가 美 석탄발전소 절반에 9억5천만달러 지원·오염 면제 제공 — EDF 분석",
+      "titleTranslations": {
+        "en": "Trump boosted half of US coal plants with taxpayer dollars and ‘free passes to pollute’, report says"
+      },
+      "startAt": "2026-10-31T13:00:42.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "환경단체 분석에 따르면 트럼프 행정부는 그리드에 연결된 184개 운영 석탄발전소 가운데 약 90곳에 현금지급·청정공기법 예외 등 지원을 제공한 것으로 분석됐다.",
+      "descriptionTranslations": {
+        "en": "An Environmental Defense Fund analysis found the Trump administration provided support — including $950m and Clean Air Act exemptions — to about 90 of the 184 grid‑connected coal plants, effectively helping many stay online."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/31/trump-coal-plants-taxpayer-dollars",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/oct/31/trump-coal-plants-taxpayer-dollars"
+        ],
+        "firstPublishedAt": "2026-10-31T13:00:42.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.238Z"
+      }
+    },
+    {
+      "id": "news-fc87e12aea801dc699686e0f",
+      "title": "FDA, 약물 'Tavneos' 승인 취소 추진",
+      "titleTranslations": {
+        "en": "The FDA wants to pull its approval of a drug — Tavneos"
+      },
+      "startAt": "2026-10-31T11:02:34.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "미 규제당국은 Tavneos가 조작된 연구 데이터를 근거로 승인되었다고 주장하면서 승인 취소를 추진 중이라고 보도했다. 논의는 환자의 접근권과 규제 절차 문제를 제기하고 있다.",
+      "descriptionTranslations": {
+        "en": "The US regulator says Tavneos was approved on the basis of manipulated study data and is seeking to withdraw its approval. The development raises questions about patient access and regulatory process."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/"
+        ],
+        "firstPublishedAt": "2026-10-31T11:02:34.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.238Z"
+      }
+    },
+    {
+      "id": "news-38c651b07df005208a465fa8",
+      "title": "영국 크리스마스 기간 10일 철도 공사로 상당한 운행 차질 예고",
+      "titleTranslations": {
+        "en": "Ten days of railway engineering work planned over Christmas in Britain, causing major disruption"
+      },
+      "startAt": "2026-10-31T11:00:41.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도에 따르면 영국의 주요 철도 노선에서 크리스마스 기간 동안 10일간 대규모 공사가 예정돼 있어 승객들에게 상당한 혼란이 예상된다. 런던 패딩턴과 버밍엄 뉴스트리트 역은 일부 기간 폐쇄되지만 대부분 노선은 계속 운행될 것으로 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say major railway engineering works will cause 10 days of disruption over Christmas in Britain. London Paddington and Birmingham New Street will be closed for parts of the period, though most routes are expected to remain open."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/31/railway-engineering-work-christmas-disruption-london-birmingham",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/31/railway-engineering-work-christmas-disruption-london-birmingham"
+        ],
+        "firstPublishedAt": "2026-10-31T11:00:41.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-d6f64195eca2e8fbe2bbe1b5",
+      "title": "일론 머스크, 미 중간선거에 약 4억4,600만 달러 지출 — 현대사 최대 단일 기부자",
+      "titleTranslations": {
+        "en": "Elon Musk spent about $446m on US midterms — the largest single‑cycle political donor in modern history"
+      },
+      "startAt": "2026-10-31T10:00:40.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도는 일론 머스크가 이번 중간선거에서 공화당을 지원하는 정치행동위원회(PAC)와 단체들에 최소 4억4,577만 달러를 쏟아부어 현대사에서 단일 선거주기 기준 최대 정치 기부자가 됐다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Elon Musk has funneled at least $445.77m into Republican‑aligned PACs and groups during this midterm cycle, making him the largest single‑cycle political donor in modern US history."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/31/elon-musk-midterms-spending-visualized",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/ng-interactive/2026/oct/31/elon-musk-midterms-spending-visualized"
+        ],
+        "firstPublishedAt": "2026-10-31T10:00:40.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-e858852c6a61256aa0a3c3e0",
+      "title": "Avanti West Coast, 여름철 승객 지연 보상으로 2천만 파운드 이상 지급",
+      "titleTranslations": {
+        "en": "Avanti West Coast paid out over £20m in 'delay repay' refunds this summer"
+      },
+      "startAt": "2026-10-31T07:00:35.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도는 Avanti West Coast가 올여름 기간 동안 지연된 여객 운행에 대해 'Delay Repay' 방식으로 2천만 파운드가 넘는 환불을 지급했다고 전했다. 올해 재무연도 전체로는 보상액이 7천만 파운드를 넘을 가능성이 제기되고 있다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Avanti West Coast refunded more than £20m to passengers this summer through its 'Delay Repay' scheme for disrupted journeys. The operator's annual compensation bill is likely to exceed £70m for the financial year, reports say."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/oct/31/avanti-west-coast-gwr-lner-train-delay-repay-passenger-refunds-compensation",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/31/avanti-west-coast-gwr-lner-train-delay-repay-passenger-refunds-compensation"
+        ],
+        "firstPublishedAt": "2026-10-31T07:00:35.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-b0b7c3efd75243fd6b1e49e6",
+      "title": "글로벌 자연보전 협상 타결 — 합의 도달했으나 자금 문제는 남아",
+      "titleTranslations": {
+        "en": "Global nature talks reach deal — agreement reached but funding remains an issue"
+      },
+      "startAt": "2026-10-31T01:27:05.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "BBC 과학·환경 보도에 따르면 여러 국가가 참여한 글로벌 자연보전 협상이 합의에 도달했으나, 합의를 이행할 자금 문제는 여전히 논란으로 남아 있다고 보도했다. 보도는 합의의 범위와 재원 조달의 난제를 짚었다.",
+      "descriptionTranslations": {
+        "en": "BBC Science & Environment reports that countries at global nature talks have reached a deal, but financing to implement the agreement remains a key unresolved issue. The coverage outlines the scope of the agreement and the challenges around funding."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-31T01:27:05.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
+    {
+      "id": "news-7aa6dab0376044f6c887c5ca",
+      "title": "NASA, 허블 우주망원경 상업적 정비 가능성 조사 재문의 — 업계에 아이디어 재공모",
+      "titleTranslations": {
+        "en": "NASA again asks industry for ideas on commercial servicing to rescue Hubble"
+      },
+      "startAt": "2026-10-31T00:07:22.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "아르스테크니카 보도에 따르면 NASA가 허블 망원경을 지원·재부양하기 위한 상업적 정비 가능성을 알아보기 위해 업계에 다시 아이디어 제출을 요청했다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Ars Technica reports NASA has once again solicited industry ideas to explore the potential for commercial in‑space servicing to support and reboost the Hubble Space Telescope."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+      "topicIds": [
+        "spaceDevelopment",
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+          "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+        ],
+        "firstPublishedAt": "2026-10-30T14:51:21.000Z",
+        "lastObservedAt": "2026-11-01T18:25:50.695Z"
+      }
+    },
+    {
+      "id": "news-ed86d275fc79f3d949920abb",
+      "title": "AI 지출이 거의 1조달러에 근접하며 美 기술주 급락",
+      "titleTranslations": {
+        "en": "US tech stocks fall sharply as AI spending nears $1tn"
+      },
+      "startAt": "2026-10-30T20:34:46.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도는 AI 관련 지출 전망이 커지는 가운데 주요 기술주가 급락해 나스닥 등 기술 중심지수가 큰 폭으로 하락했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says rising expectations of AI‑related spending coincided with sharp falls in major tech stocks, driving big declines in tech‑heavy indexes such as the Nasdaq."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
+          "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-30T18:27:51.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.237Z"
+      }
+    },
+    {
+      "id": "news-6c3081028a8f3e9100ef6f0a",
+      "title": "캐나다·EU, ‘미래를 위한 동맹(Alliance for the Future)’ 발표 — 같은 생각 가진 국가들에 개방",
+      "titleTranslations": {
+        "en": "Canada and EU announce 'Alliance for the Future' — open to like‑minded countries"
+      },
+      "startAt": "2026-10-30T19:42:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "가디언 보도에 따르면 캐나다와 유럽연합은 몬트리올 정상회의에서 'Alliance for the Future'라는 새로운 동맹을 공개했다. 마크 카니 캐나다 총리와 우르줄라 폰데어라이엔 유럽연합 집행위원장은 이 파트너십이 시민의 번영을 위한 보호막이자 지정학적 불확실성에 대한 대비가 될 것이라고 설명했으며, 다른 '같은 생각을 가진' 국가들의 참여도 환영한다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Canada and the European Union unveiled a new partnership called the 'Alliance for the Future' at a Montreal summit. Prime Minister Mark Carney and European Commission President Ursula von der Leyen said the partnership would serve as a 'protective canopy' for citizens and a hedge against geopolitical unpredictability, and that like‑minded countries are welcome to join."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance"
+        ],
+        "firstPublishedAt": "2026-10-30T19:42:15.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
+    {
+      "id": "news-41fa33a940a90fd4f50dce1c",
+      "title": "나사, 새 항공우주 박람회 'MAX POWER' 주요 행사 일정 공개",
+      "titleTranslations": {
+        "en": "NASA releases key events for new aerospace expo and air show 'MAX POWER'"
+      },
+      "startAt": "2026-10-30T19:31:02.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "나사는 플로리다 케네디 우주센터 일대에서 열리는 새 항공우주 박람회 겸 에어쇼 'MAX POWER'의 주요 일정(11월 6일~8일)을 발표했다. 보도는 나사와 외부 협력자들이 여러 공원형 행사를 통해 참여한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "NASA announced key events for the new aerospace expo and air show 'MAX POWER', taking place near the agency's Kennedy Space Center from 6–8 November. The agency and various external collaborators will host multiple park‑style experiences, reporting says."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/"
+        ],
+        "firstPublishedAt": "2026-10-30T19:31:02.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
+    {
+      "id": "news-8f46fe2dc3e8f77c97848486",
+      "title": "시티 오브 런던 대표 이안 토마스, 블랙 파워리스트 1위 선정",
+      "titleTranslations": {
+        "en": "City of London chief Ian Thomas tops UK Black Powerlist"
+      },
+      "startAt": "2026-10-30T18:00:24.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 1,
+      "description": "보도는 시티 오브 런던을 이끄는 이안 토마스가 21주년 블랙 파워리스트에서 1위에 올랐다고 전했다. 이 리스트는 영국 사회·경제 분야에서 영향력을 행사하는 흑인 인사들을 선정해 발표한다.",
+      "descriptionTranslations": {
+        "en": "Reporting says Ian Thomas, who heads the City of London Corporation, topped the UK Black Powerlist in its 21st year. The list recognises Black figures with influence across British society and the economy."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-30T18:00:24.000Z",
+        "lastObservedAt": "2026-11-01T07:28:15.085Z"
+      }
+    },
     {
       "id": "news-235bb524b25e5166740043aa",
       "title": "구글의 첫 '데이터센터 위성' 가동 — 우주 TPU에서 제미니 4 모델 가동, 시(詩)도 창작",
@@ -29,65 +1245,6 @@
           "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
         ],
         "firstPublishedAt": "2026-10-30T17:00:00.000Z",
-        "lastObservedAt": "2026-10-30T18:34:43.977Z"
-      }
-    },
-    {
-      "id": "news-06dd76803e8b9715c5076919",
-      "title": "바이낸스 사상 최대 63억 달러 해킹 — 전문가들 '북한 배후 가능성' 지목",
-      "titleTranslations": {
-        "en": "Binance hit by historic $6.3bn crypto hack — experts point to North Korea as likely culprit"
-      },
-      "startAt": "2026-10-30T16:35:44.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도는 세계 최대 암호화폐 거래소 바이낸스가 기록적 규모인 약 63억 달러 해킹을 당했으며, 거래소는 고객 손실을 보전하겠다고 밝혔고 약 30억 달러 상당의 자산을 확인했다고 전했다. 일부 전문가들은 북한 연루 가능성을 제기했다.",
-      "descriptionTranslations": {
-        "en": "Reports say Binance, the world's largest cryptocurrency exchange, suffered a record $6.3bn hack. The exchange said it will cover customer losses and has so far located about $3bn in affected assets; some experts have identified North Korea as a likely actor."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack"
-        ],
-        "firstPublishedAt": "2026-10-30T16:35:44.000Z",
-        "lastObservedAt": "2026-10-30T18:34:43.977Z"
-      }
-    },
-    {
-      "id": "news-1fa24dedc7c445b42a7af858",
-      "title": "오레쉬키에서 드문 휴전 중 수백 명 대피 — 일부 주민은 전선에 잔류",
-      "titleTranslations": {
-        "en": "Hundreds evacuated from Oleshky during rare ceasefire — some residents remained in the frontline town"
-      },
-      "startAt": "2026-10-30T16:26:11.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 우크라이나 남부의 러시아가 점령한 오레쉬키 지역에서 인도적 대피·구호를 허용하기 위한 한정적 휴전이 발효돼 수백 명이 대피한 것으로 알려졌다. 보도는 일부 주민은 위험에도 불구하고 전선 도시 잔류를 선택했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say a localized ceasefire in Russian‑occupied Oleshky in southern Ukraine allowed evacuations and humanitarian access, with hundreds reported evacuated. Coverage notes that some residents chose to remain in the frontline town despite the dangers."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
-          "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
         "lastObservedAt": "2026-10-30T18:34:43.977Z"
       }
     },
@@ -122,31 +1279,33 @@
       }
     },
     {
-      "id": "news-7aa6dab0376044f6c887c5ca",
-      "title": "나사, 허블 망원경 상업적 정비 가능성 조사 위해 업계에 정보 요청(RFI) 발행",
+      "id": "news-363571a466caa1af27c0db99",
+      "title": "폼페이서 2천년 봉인된 옷장에서 향수병·화장도구·어린이 목걸이 등 개인 유물 발굴",
       "titleTranslations": {
-        "en": "NASA issues RFI to explore potential commercial servicing for the Hubble Telescope"
+        "en": "Perfume bottle, cosmetics and a child's necklace among treasures found in wardrobe sealed since Pompeii eruption"
       },
-      "startAt": "2026-10-30T14:51:21.000Z",
+      "startAt": "2026-10-30T15:06:39.000Z",
       "lane": "world",
-      "category": "space",
+      "category": "scienceTechnology",
       "importance": 2,
-      "description": "나사 보도에 따르면 NASA는 허블 우주망원경을 지원하기 위한 우주 내 정비(in‑space servicing) 역량에 대해 업계의 가능성을 파악하기 위해 10월 29일 정보 요청(Request for Information)을 발행했다고 밝혔다.",
+      "description": "가디언 과학 보도에 따르면 폼페이의 한 가옥 안에서 화산 분출(서기 79년) 이후 약 2천 년 동안 봉인된 채 보존된 나무 옷장에서 향수병, 화장 도구, 동전, 어린이 목걸이 등 개인 소지품이 발굴되었다. 보도는 이들 유물이 고대 로마인의 일상 생활을 엿보게 한다고 전했다.",
       "descriptionTranslations": {
-        "en": "NASA says it issued a Request for Information on Oct. 29 to learn more about industry capabilities for in‑space servicing to support the agency’s Hubble Space Telescope."
+        "en": "The Guardian Science reports that archaeologists uncovered personal items — including a perfume bottle, makeup tools, coins and a child's necklace — tucked away in a wooden wardrobe that had been sealed since the AD 79 eruption at Pompeii. The coverage says the artifacts offer an intimate glimpse of daily life in ancient Rome."
       },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/oct/30/perfume-bottle-child-necklace-pompeii-wardrobe",
       "topicIds": [
-        "spaceDevelopment"
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
       ],
       "news": {
-        "status": "developing",
+        "status": "resolved",
         "sourceUrls": [
-          "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"
+          "https://www.theguardian.com/science/2026/oct/30/perfume-bottle-child-necklace-pompeii-wardrobe"
         ],
-        "firstPublishedAt": "2026-10-30T14:51:21.000Z",
-        "lastObservedAt": "2026-10-30T18:34:43.977Z"
+        "firstPublishedAt": "2026-10-30T15:06:39.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
       }
     },
     {
@@ -175,6 +1334,97 @@
         ],
         "firstPublishedAt": "2026-10-30T12:43:46.000Z",
         "lastObservedAt": "2026-10-30T18:34:43.977Z"
+      }
+    },
+    {
+      "id": "news-06dd76803e8b9715c5076919",
+      "title": "바이낸스 63억 달러 해킹 관련 정리 보도 — 추가 정황·분석 영상",
+      "titleTranslations": {
+        "en": "What we know about Binance's $6.3bn hack — summary and analysis"
+      },
+      "startAt": "2026-10-30T12:27:28.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "BBC 비즈니스 영상 보도는 기록적 규모로 알려진 약 63억 달러 규모의 바이낸스 해킹 사건 정황을 정리해 설명했다. 보도는 사건의 알려진 규모와 영향, 수사·복구 노력에 관한 현시점의 정보를 정리해 제공하고 있다.",
+      "descriptionTranslations": {
+        "en": "A BBC Business video explains what is known about the reported $6.3bn hack of Binance, summarizing the scale, impacts, and the current state of investigations and recovery efforts."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+          "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-10-30T16:35:44.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
+    {
+      "id": "news-21259562a429c62e16554286",
+      "title": "이스라엘 선거, 교착 상태 — 향후 절차와 전망",
+      "titleTranslations": {
+        "en": "Israel election ends in political deadlock — what comes next?"
+      },
+      "startAt": "2026-10-30T09:00:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 최근 이스라엘 총선은 결과가 교착되어 어느 쪽도 명확한 다수 확보에 실패한 상태로 남아 있다. 보도는 투표 이후의 정치적 과정과 가능한 향후 시나리오를 설명하며, 승자 확정이 지연되는 상황에 대해 전하고 있다.",
+      "descriptionTranslations": {
+        "en": "NPR reports that Israel's consequential election has ended in a deadlock, with neither side able to claim a majority. The coverage outlines the post‑vote political process and possible next steps as the result remains unresolved."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
+          "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
+          "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
+          "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs"
+        ],
+        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
+      }
+    },
+    {
+      "id": "news-ed40a35379185b6603ff0531",
+      "title": "오픈AI, 청소년 보호 강화·웹사이트 'AI 훈련 선호' 신호 수용 발표",
+      "titleTranslations": {
+        "en": "OpenAI announces stronger teen protections and will honor a shared robots.txt signal for AI training preferences"
+      },
+      "startAt": "2026-10-30T09:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "오픈AI는 ChatGPT의 폭력 예방을 확대하고 청소년 대상 보호를 강화하는 커뮤니티 안전 보고서를 공개했으며, 웹사이트 운영자가 AI 훈련에 대한 선호를 표현할 수 있도록 공유 robots.txt 신호를 존중하겠다고 발표했다.",
+      "descriptionTranslations": {
+        "en": "OpenAI published a community safety report strengthening violence prevention in ChatGPT with expanded safeguards and earlier interventions for teens, and said it will honour a shared robots.txt signal to let website operators express AI‑training preferences."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "https://openai.com/index/helping-websites-express-ai-training-preferences"
+        ],
+        "firstPublishedAt": "2026-10-30T09:00:00.000Z",
+        "lastObservedAt": "2026-11-02T07:38:15.232Z"
       }
     },
     {
@@ -262,34 +1512,6 @@
       }
     },
     {
-      "id": "news-9349f418e7bc7ab45091d36c",
-      "title": "오픈AI, 더 능력 있고 유익한 AI 위한 업데이트된 모델 명세 공개",
-      "titleTranslations": {
-        "en": "An updated Model Spec for more capable and beneficial AI"
-      },
-      "startAt": "2026-10-29T17:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도는 오픈AI가 더 능력 있는 AI를 건전한 판단·인간의 주체성·의도 충실성으로 안내하기 위한 핵심 가치를 담은 업데이트된 모델 명세를 공개했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say OpenAI published an updated Model Spec that outlines core values intended to guide more capable AI toward sound judgement, human agency and faithfulness to human intent."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/updated-model-spec",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/updated-model-spec"
-        ],
-        "firstPublishedAt": "2026-10-29T17:00:00.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
-      }
-    },
-    {
       "id": "news-62e979a207a72a6a98fd6266",
       "title": "배우 엘케 졸머(Elke Sommer) 별세, 향년 85",
       "titleTranslations": {
@@ -346,61 +1568,31 @@
       }
     },
     {
-      "id": "news-e58da7a8afb04bf48229f33f",
-      "title": "미·일, 일본 내 공동 미사일 생산 시설 설립 합의",
+      "id": "news-e0d9543d681c95d920ecaf13",
+      "title": "허블·웹, 카리나 성운의 ‘고양이 머리 성운’ 상보적 관측 공개 — 별 형성 장면 보여줘",
       "titleTranslations": {
-        "en": "US and Japan agree to establish a Japanese facility for joint missile production"
+        "en": "Hubble and Webb release complementary images of the Cat’s Head Nebula in the Carina Nebula"
       },
-      "startAt": "2026-10-29T15:58:27.000Z",
+      "startAt": "2026-10-29T14:00:00.000Z",
       "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 미국과 일본이 일본 내에 공동 미사일 생산 시설을 설립하기로 합의했다고 전했다. 발표는 중국의 증가하는 군사적 위협에 대응하려는 동맹의 최신 조치로 소개됐다.",
+      "category": "space",
+      "importance": 2,
+      "description": "ESA 보도에 따르면 허블과 제임스 웹 망원경이 카리나 성운 내 'Cat’s Head(고양이 머리) 성운'을 관측해 서로 보완하는 가시광·적외선 영상을 공개했다. 허블은 어두운 먼지 기둥과 젊은 별의 실루엣을, 웹은 적외선으로 숨어 있던 별들과 세부 구조를 드러냈다고 전했다.",
       "descriptionTranslations": {
-        "en": "Reports say the United States and Japan have agreed to establish a joint missile production facility in Japan. The announcement is presented as the allies' latest step in response to China's growing assertiveness."
+        "en": "The European Space Agency reports that NASA/ESA Hubble and NASA/ESA/CSA James Webb Space Telescopes observed the Cat’s Head Nebula within the Carina Nebula and released complementary images. Hubble’s visible‑light view shows the dark dust pillar and hints of young stars, while Webb’s infrared imagery reveals many hidden stars and additional detail."
       },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production",
+      "sourceName": "European Space Agency",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb",
       "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
+        "spaceDevelopment"
       ],
       "news": {
-        "status": "developing",
+        "status": "resolved",
         "sourceUrls": [
-          "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production"
+          "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb"
         ],
-        "firstPublishedAt": "2026-10-29T15:58:27.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.918Z"
-      }
-    },
-    {
-      "id": "news-a43029d68bc6e9f642b89f05",
-      "title": "중국, 군 장성을 정치국에 진입시켜 당 기강 강화 나서",
-      "titleTranslations": {
-        "en": "China elevates a military general to the Politburo and seeks to strengthen party discipline"
-      },
-      "startAt": "2026-10-29T15:53:46.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 중국이 고위 군 장성을 정치국에 진입시키는 인사를 단행하고 당 기강 강화를 추진하고 있다고 전했다. 이 조치는 시진핑 주석의 예상되는 4기 임기 전 약 1년 시점에 이뤄졌다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Reports say China has elevated a senior military general to the Politburo and is moving to strengthen party discipline. Coverage notes the move comes about a year before President Xi Jinping is expected to secure a fourth five‑year term."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/29/g-s1-150645/china-elevates-a-military-general-to-the-politburo-and-seeks-to-strengthen-party-discipline",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/29/g-s1-150645/china-elevates-a-military-general-to-the-politburo-and-seeks-to-strengthen-party-discipline"
-        ],
-        "firstPublishedAt": "2026-10-29T15:53:46.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
+        "firstPublishedAt": "2026-10-29T14:00:00.000Z",
+        "lastObservedAt": "2026-10-31T06:57:05.940Z"
       }
     },
     {
@@ -432,62 +1624,6 @@
       }
     },
     {
-      "id": "news-06a2c703111142070fa59601",
-      "title": "미국에 확산되는 전기 페리 물결—일부 선박은 '플라잉' 요소도",
-      "titleTranslations": {
-        "en": "A new wave of electric ferries is here in the US. Some even fly"
-      },
-      "startAt": "2026-10-29T10:00:31.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "보도는 미국에서 디젤 선박을 전기 추진 페리로 대체하는 움직임이 확산되고 있으며, 일부 설계는 공기역학적·전문화된 기능으로 '비행'처럼 보이는 요소를 갖춘다고 전했다. 전기 페리는 배출 저감과 대기질 개선 잠재력을 강조받고 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say a wave of electric ferries is emerging in the US to replace diesel‑powered vessels, with some designs featuring aerodynamic or specialized elements that give a 'flying' appearance. Electric ferries are promoted for emissions reductions and air‑quality benefits."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries"
-        ],
-        "firstPublishedAt": "2026-10-29T10:00:31.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
-      }
-    },
-    {
-      "id": "news-3fd55028484ec2521875f21d",
-      "title": "유럽의 자산 격차: 고령 가구가 젊은 가구보다 8배 더 부유",
-      "titleTranslations": {
-        "en": "Europe’s wealth gap: Older households eight times richer than young ones"
-      },
-      "startAt": "2026-10-29T06:25:02.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도에 따르면 유럽에서 35세 미만 가구가 전체 가계 자산의 2.8%만 보유하는 등 세대 간 자산 불평등이 심화되고 있으며, 고령 가구가 젊은 가구보다 약 8배 더 많은 자산을 보유한 것으로 나타났다.",
-      "descriptionTranslations": {
-        "en": "Reports say wealth inequality in Europe is pronounced: households under 35 hold just 2.8% of household wealth, and older households are about eight times richer than younger ones."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/29/europes-wealth-gap-older-households-eight-times-richer-than-young-ones?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/29/europes-wealth-gap-older-households-eight-times-richer-than-young-ones?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-29T06:25:02.000Z",
-        "lastObservedAt": "2026-10-29T07:01:23.964Z"
-      }
-    },
-    {
       "id": "news-e9bfba10ec085dbed72d2bc5",
       "title": "북인도양 첫 이름난 폭풍 'Arnab', 안드라프라데시 해안 상륙",
       "titleTranslations": {
@@ -512,36 +1648,6 @@
           "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/"
         ],
         "firstPublishedAt": "2026-10-29T04:01:00.000Z",
-        "lastObservedAt": "2026-10-29T07:01:23.964Z"
-      }
-    },
-    {
-      "id": "news-9c5b37f8dc98b8bf7182d0b2",
-      "title": "ULA 벌칸 로켓, 금요일(13일) 비행 재개 예정",
-      "titleTranslations": {
-        "en": "ULA's Vulcan rocket set to return to flight on Friday the 13th"
-      },
-      "startAt": "2026-10-28T22:51:15.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보도는 ULA의 벌칸 로켓이 비행 재개를 준비 중이며, 이번 발사는 여섯 개의 고체 로켓 부스터 전부를 사용한 첫 번째 벌칸 발사라고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says ULA's Vulcan rocket is preparing to return to flight; this launch will be the first Vulcan mission to use a full complement of six solid rocket boosters."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/"
-        ],
-        "firstPublishedAt": "2026-10-28T22:51:15.000Z",
         "lastObservedAt": "2026-10-29T07:01:23.964Z"
       }
     },
@@ -603,34 +1709,6 @@
       }
     },
     {
-      "id": "news-24350fb4261b73b28af1c39f",
-      "title": "연준, 중간선거 직전 기준금리 동결",
-      "titleTranslations": {
-        "en": "Federal Reserve holds interest rates steady ahead of midterms"
-      },
-      "startAt": "2026-10-28T18:07:23.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도에 따르면 미 연방준비제도이사회는 중간선거에 앞선 마지막 회의에서 금리를 동결했다. 12명 위원 중 2명이 동결에 반대하며 0.25%포인트 인상을 선호했다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "The U.S. Federal Reserve left interest rates unchanged at its final meeting before the midterm elections; two of 12 board members dissented, preferring a quarter‑point increase."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms"
-        ],
-        "firstPublishedAt": "2026-10-28T18:07:23.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
       "id": "news-bbd99f7580a24ef6e93606af",
       "title": "감독 피터 메닥 별세, 향년 88",
       "titleTranslations": {
@@ -659,32 +1737,31 @@
       }
     },
     {
-      "id": "news-dc7790b3a03a16cfe3a5e172",
-      "title": "구글, 제미니·서치를 더 많은 앱에 연결하는 개발자 플랫폼 공개",
+      "id": "news-e8e0cb1d0e685ced8c0e7ac9",
+      "title": "딥마인드, 차세대 모델 'Gemini 4 Carbon' 공개",
       "titleTranslations": {
-        "en": "Google opens Gemini and Search to more apps via new developer platform"
+        "en": "DeepMind unveils next‑generation model 'Gemini 4 Carbon'"
       },
-      "startAt": "2026-10-28T17:00:00.000Z",
+      "startAt": "2026-10-28T17:00:58.000Z",
       "lane": "world",
-      "category": "scienceTechnology",
+      "category": "space",
       "importance": 3,
-      "description": "보도는 구글이 기업들이 자사 서비스를 구글의 AI 경험에 통합할 수 있게 하는 개발자 플랫폼을 발표했으며, 이는 소비자가 앱을 발견·이용하는 방식에 변화를 일으킬 수 있다고 전했다.",
+      "description": "딥마인드는 'Gemini 4 Carbon'을 차세대 전방위 모델로 소개하는 새 발표문을 공개했다. 보도는 회사의 발표 내용을 전했다.",
       "descriptionTranslations": {
-        "en": "Reporting says Google launched a developer platform that lets businesses integrate their services into Google's Gemini and Search AI experiences — a move that could change how consumers discover and use apps."
+        "en": "DeepMind published a post introducing 'Gemini 4 Carbon' as a next‑frontier model. Coverage relays the company's announcement and description of the model."
       },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
       "topicIds": [
-        "aiHistory",
-        "computerHistory"
+        "aiHistory"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
+          "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
         ],
-        "firstPublishedAt": "2026-10-28T17:00:00.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
+        "firstPublishedAt": "2026-10-28T17:00:58.000Z",
+        "lastObservedAt": "2026-10-31T17:41:19.238Z"
       }
     },
     {
@@ -772,182 +1849,6 @@
       }
     },
     {
-      "id": "news-49c28743b6578f5f9bb3f532",
-      "title": "이집트, 독립매체 마다 마스르 편집장 리나 아탈라 벌금·매체 폐쇄 명령",
-      "titleTranslations": {
-        "en": "Egypt fines Mada Masr editor Lina Attalah and orders outlet closed"
-      },
-      "startAt": "2026-10-28T14:16:24.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "카이로 법원은 리나 아탈라를 '무면허 웹사이트 운영' 혐의로 유죄 판결하고 일시 구금된 뒤 벌금과 매체 폐쇄 명령을 내렸다. 이번 조치는 독립언론에 대한 단속이 심화된다는 국제적 우려를 불렀다.",
-      "descriptionTranslations": {
-        "en": "A Cairo court convicted Lina Attalah of managing an unlicensed website, briefly detained her, and ordered fines and the closure of Mada Masr — a move that has raised international concerns about a tightening clampdown on independent media."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown"
-        ],
-        "firstPublishedAt": "2026-10-28T14:16:24.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
-      "id": "news-21259562a429c62e16554286",
-      "title": "이스라엘 총선 초접전 — 투표율 기록적 상승에도 최종 결과는 불확실",
-      "titleTranslations": {
-        "en": "Israel's election too close to call — turnout at record levels but result uncertain"
-      },
-      "startAt": "2026-10-28T11:28:55.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 이스라엘 유권자 투표율이 기록적으로 높았으나 개표 결과가 초접전 상태여서 승자가 확정되지 않았다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says Israeli voter turnout was at record levels, but the count remains too close to call and no winner has been confirmed."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
-          "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
-          "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak"
-        ],
-        "firstPublishedAt": "2026-10-25T16:00:00.000Z",
-        "lastObservedAt": "2026-10-29T07:01:23.964Z"
-      }
-    },
-    {
-      "id": "news-23855d994607aa8ed8fc4221",
-      "title": "에볼라 발생자 1만명 돌파 보고",
-      "titleTranslations": {
-        "en": "Ebola outbreak reaches more than 10,000 infections"
-      },
-      "startAt": "2026-10-28T11:28:55.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "보도는 이번 에볼라 발생이 5월 선언 이후 감염자 수가 1만 명을 넘었다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the Ebola outbreak has infected more than 10,000 people since it was declared in May."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak"
-        ],
-        "firstPublishedAt": "2026-10-28T11:28:55.000Z",
-        "lastObservedAt": "2026-10-29T07:01:23.964Z"
-      }
-    },
-    {
-      "id": "news-4446d7ab28b5c10bdeeb8863",
-      "title": "플라비우 보우소나루, 대선 패배 뒤 브라질 떠나 미국 향한 것으로 보도",
-      "titleTranslations": {
-        "en": "Flávio Bolsonaro reportedly flees Brazil for the US after election loss"
-      },
-      "startAt": "2026-10-28T06:36:14.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언 보도에 따르면 극우 상원의원 플라비우 보우소나루가 일요일 대선 결선에서 좌파 현직 대통령 루이스 이나시우 루라 다 실바에게 패한 뒤 브라질을 떠나 미국으로 향하고 있다고 전해졌다. 보도는 보우소나루와 가족이 국경을 넘어 아르헨티나로 이동한 뒤 에콰도르행 개인 전세기에 탑승했다는 점을 인용했으며, 일부 보도는 이 전세기가 미국으로 향하고 있다고 전했다. 루라는 이 같은 행위를 '수치스러운 일'이라고 비판했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that far‑right senator Flávio Bolsonaro has reportedly left Brazil and is heading to the United States after losing the presidential runoff to left‑wing incumbent Luiz Inácio Lula da Silva. Coverage cites reports that he and his family crossed into Argentina and boarded a private plane bound for Ecuador, and that some outlets say the aircraft was en route to the US. Lula called the act 'shameful.'"
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-          "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
-          "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled"
-        ],
-        "firstPublishedAt": "2026-10-25T14:41:17.000Z",
-        "lastObservedAt": "2026-10-28T06:50:10.247Z"
-      }
-    },
-    {
-      "id": "news-5c9f738eec108f93bacd0368",
-      "title": "트럼프, 바이든 시대 메탄 배출 규정 '종료' 발표",
-      "titleTranslations": {
-        "en": "Trump announces termination of Biden‑era methane emissions rules"
-      },
-      "startAt": "2026-10-28T01:45:27.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "가디언 환경 보도에 따르면 도널드 트럼프 대통령은 텍사스 루보크 집회에서 생산·소비자 비용 절감과 석유·가스 업계 지원을 이유로 바이든 행정부의 대규모 메탄 누출 규제를 '종료'하겠다고 선언했다. 그는 이 조치가 기업과 소비자에 450억 달러의 절감과 2억1000만 배럴의 석유를 해방할 것이라고 주장했으며, 비평가들은 기후에 미칠 위험을 경고했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that President Donald Trump announced at a rally in Lubbock, Texas, that his administration is terminating Biden‑era regulations that hold oil and gas companies accountable for large methane leaks. He said the change would save companies and consumers $45bn and 'unlock' 210 million barrels of oil; critics warned of the climate risks posed by rolling back the rules."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas"
-        ],
-        "firstPublishedAt": "2026-10-28T01:45:27.000Z",
-        "lastObservedAt": "2026-10-28T06:50:10.247Z"
-      }
-    },
-    {
-      "id": "news-72a2d33b808a214be974bc22",
-      "title": "노르웨이·핀란드 정상, 푸틴과 드문 전화 회담 개최",
-      "titleTranslations": {
-        "en": "Norway and Finland leaders hold rare call with Putin"
-      },
-      "startAt": "2026-10-27T18:28:23.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "노르웨이와 핀란드 정상의 푸틴과의 이례적 통화가 보도됐다. 해당 보도는 핀란드 대통령이 우크라이나 분쟁 해결은 침묵으로 달성되지 않을 것이라고 말한 점을 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the leaders of Norway and Finland held a rare phone call with Vladimir Putin. The Finnish president was quoted saying an end to the conflict in Ukraine 'will not be achieved through silence.'"
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-27T18:28:23.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.181Z"
-      }
-    },
-    {
       "id": "news-6f7b94d4e0f7d4bc45e8caf6",
       "title": "나사 NEO 서베이어(NEO Surveyor) 태양 차광막 점검 이미지 공개",
       "titleTranslations": {
@@ -973,34 +1874,6 @@
         ],
         "firstPublishedAt": "2026-10-27T17:58:57.000Z",
         "lastObservedAt": "2026-10-27T18:40:30.181Z"
-      }
-    },
-    {
-      "id": "news-393575ee7d83ff0a65d333d8",
-      "title": "DeepMind, 차세대 세계 시뮬레이션 'Genie 4' 공개",
-      "titleTranslations": {
-        "en": "Genie 4: A new generation of world simulation"
-      },
-      "startAt": "2026-10-27T16:01:38.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도는 구글 딥마인드가 실시간 시뮬레이션에서 이전보다 높은 현실감을 제공하는 차세대 세계 모델 'Genie 4'를 공개했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say Google DeepMind unveiled 'Genie 4', a next‑generation world model that claims to unlock unprecedented realism in real‑time simulation."
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
-        ],
-        "firstPublishedAt": "2026-10-27T16:01:38.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
       }
     },
     {
@@ -1060,34 +1933,6 @@
       }
     },
     {
-      "id": "news-d851e9552dd716e2968db931",
-      "title": "트럼프 행정부의 NOAA 예산 감축이 엘니뇨 대응 능력 약화시켰다는 경고",
-      "titleTranslations": {
-        "en": "Experts warn Trump cuts to NOAA have weakened US El Niño preparedness"
-      },
-      "startAt": "2026-10-27T11:00:38.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "보도는 도널드 트럼프 대통령 취임 이후 NOAA 인력과 계약·연구 예산 삭감이 기상·기후 연구와 엘니뇨 대응 능력을 약화시켜 올해 전망되는 역사적 엘니뇨에 노출됐다고 과학자·전직 관료들이 우려한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say sweeping cuts to NOAA under President Trump — including staff reductions and cancelled contracts and grants — have hampered climate research and forecasting capacity, leaving the US more exposed to hazards from a potentially historic El Niño, experts and former officials warn."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/oct/27/trump-cuts-el-nino-noaa",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/27/trump-cuts-el-nino-noaa"
-        ],
-        "firstPublishedAt": "2026-10-27T11:00:38.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.181Z"
-      }
-    },
-    {
       "id": "news-46665bca9da4861381d4821c",
       "title": "옥스퍼드 스트리트 일부 구간 보행자 전용화 시행 후 이용자들 ‘만족’…버스 우회는 혼란도 초래",
       "titleTranslations": {
@@ -1114,66 +1959,6 @@
         ],
         "firstPublishedAt": "2026-10-22T04:00:07.000Z",
         "lastObservedAt": "2026-10-27T06:14:00.925Z"
-      }
-    },
-    {
-      "id": "news-b67fd02a214f91e2b5ea9e84",
-      "title": "Anthropic 증시 상장 서류 공개 관련 첫 분석 — 성장·비용·리스크 드러나",
-      "titleTranslations": {
-        "en": "Takeaways from Anthropic’s stock‑market filing — growth, costs and risks revealed"
-      },
-      "startAt": "2026-10-27T05:00:04.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Anthropic이 미국 증시 상장을 위한 공개 서류(S‑1)를 제출하며 재무와 위험 요인 등이 공개되었다는 보도가 나왔다. 보도는 빠른 성장과 막대한 비용, 사이버공격과 안전조치의 한계 등 다양한 리스크를 지적했다.",
-      "descriptionTranslations": {
-        "en": "Anthropic has filed an S‑1 to go public in the US, publishing financials and detailed risk disclosures. Reporting highlights explosive growth, very high costs, and risks ranging from cyber‑attacks to limits of safeguards."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-          "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
-          "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways"
-        ],
-        "firstPublishedAt": "2026-10-26T14:35:22.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.180Z"
-      }
-    },
-    {
-      "id": "news-e6d594ea2a28ff43dd710023",
-      "title": "중국 증시, 미·중 AI 경쟁 우려로 수조원 증발 — STAR 50 지수 40% 급락 보도",
-      "titleTranslations": {
-        "en": "Chinese markets lose trillions amid US‑China AI race fears — STAR 50 index down ~40%"
-      },
-      "startAt": "2026-10-27T04:42:50.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도는 중국의 AI 붐 지속 가능성에 대한 우려와 서방의 위협 때문에 중국 증시가 최근 몇 달간 수조 달러 규모로 급락했다고 전했다. 특히 상하이의 혁신 추적 지수(STAR 50)는 6월 이후 약 40% 하락했다고 보도되었다.",
-      "descriptionTranslations": {
-        "en": "Reporting says China’s stock markets have lost trillions in recent months amid concerns about the sustainability of Beijing’s AI boom and threats from western countries. The STAR 50 index tracking Shanghai innovation firms has plunged about 40% since June."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing"
-        ],
-        "firstPublishedAt": "2026-10-27T04:42:50.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.181Z"
       }
     },
     {
@@ -1229,34 +2014,6 @@
           "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-27T01:57:48.000Z",
-        "lastObservedAt": "2026-10-27T06:14:00.925Z"
-      }
-    },
-    {
-      "id": "news-577fd304a66d204d40f29381",
-      "title": "나사 퍼서비어런스가 네레트바 계곡의 360도 전경 영상 공개",
-      "titleTranslations": {
-        "en": "NASA’s Perseverance views dust at Neretva Vallis"
-      },
-      "startAt": "2026-10-26T22:48:12.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 보도자료에 따르면 퍼서비어런스 로버의 Mastcam‑Z가 촬영한 217장의 이미지를 이어붙여 네레트바 계곡(예제로 분지 내)의 360도 전경을 공개했다. 보도는 현재는 바람에 쓸린 먼지투성이 경관이지만 수십억 년 전에는 강이 있었음을 상기시킨다고 전했다.",
-      "descriptionTranslations": {
-        "en": "A NASA release says the Perseverance rover’s Mastcam‑Z captured 217 images that were stitched into a 360‑degree view of Neretva Vallis within Jezero Crater. The agency notes the scene is dusty and wind‑swept today but recalls that billions of years ago it hosted a river channel."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/"
-        ],
-        "firstPublishedAt": "2026-10-26T22:48:12.000Z",
         "lastObservedAt": "2026-10-27T06:14:00.925Z"
       }
     },
@@ -1318,149 +2075,6 @@
       }
     },
     {
-      "id": "news-e33b638042c7bcbf870ce89c",
-      "title": "IEEE Xplore 디지털 라이브러리에 AI 어시스턴트 기능 추가",
-      "titleTranslations": {
-        "en": "IEEE Xplore Digital Library adds AI assistant"
-      },
-      "startAt": "2026-10-26T18:00:03.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "IEEE 스펙트럼 보도에 따르면 IEEE Xplore가 수백만 건의 동료심사 논문 전문을 기반으로 작동하는 AI 리서치 스위트를 도입해, 기관 구독자 대상 옵셔널 업그레이드로 제공한다. 이 도구는 STEM 문헌에 최적화된 독점 AI 시스템을 활용해 근거 기반 답변과 심층 통찰을 제공한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "IEEE Spectrum reports that the IEEE Xplore Digital Library introduced an AI Research Suite built on the full texts of millions of peer‑reviewed publications. Available as an optional subscription upgrade, the suite uses a proprietary STEM‑optimized AI to provide grounded answers and deep insights."
-      },
-      "sourceName": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-      "topicIds": [
-        "technologyComputing",
-        "semiconductor",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://spectrum.ieee.org/ieee-xplore-digital-library-ai"
-        ],
-        "firstPublishedAt": "2026-10-26T18:00:03.000Z",
-        "lastObservedAt": "2026-10-27T06:14:00.925Z"
-      }
-    },
-    {
-      "id": "news-d6e31d9e0fa6ab5ca38f13c2",
-      "title": "SpaceX, 약 400억달러 규모 GPU 자금 조달 약정 체결",
-      "titleTranslations": {
-        "en": "SpaceX locks in $40B GPU financing deal with Apollo"
-      },
-      "startAt": "2026-10-26T16:46:36.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "테크크런치는 SpaceX가 AI 칩과 데이터센터 장비 비용을 충당하기 위한 약 400억 달러 규모의 구속력 있는 자금 조달 약정을 체결했다고 보도했다. 회사는 이를 '지금까지의 최대 규모 GPU 자금 조달'이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch reports that SpaceX has secured a binding commitment of roughly $40 billion in financing to pay for AI chips and related data‑center equipment. The company described the deal as the largest committed GPU financing ever."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
-        ],
-        "firstPublishedAt": "2026-10-26T16:46:36.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
-      "id": "news-8239d000cbf4efda46b67abb",
-      "title": "메타, AI 확장 비용 충당 위해 950억달러 조달 계획 발표",
-      "titleTranslations": {
-        "en": "Meta announces $95bn fundraising drive to pay for AI expansion"
-      },
-      "startAt": "2026-10-26T15:33:24.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언는 메타가 AI 인프라와 개인용 '슈퍼지능' 투자 지속을 위해 주식 매도 등으로 약 950억 달러 규모의 자금조달을 추진한다고 보도했다. 보도는 이 조치가 회사의 AI 확대 전략을 뒷받침하기 위한 것이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that Meta plans a fundraising drive of about $95 billion, including a share sale, to support continued investment in AI infrastructure and personal‑superintelligence. The coverage frames the move as part of the company's AI expansion strategy."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates"
-        ],
-        "firstPublishedAt": "2026-10-26T15:33:24.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
-      "id": "news-c889760de5d37b0559553666",
-      "title": "영국, 엘파셔(El Fasher) ‘강간 캠페인’ 관련 수단 군 지휘관들 제재",
-      "titleTranslations": {
-        "en": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’"
-      },
-      "startAt": "2026-10-26T15:07:23.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "가디언은 영국 정부가 엘파셔에서 수만 명의 민간인 학살이 발생한 사건과 관련해 성폭력에 연루된 것으로 의심되는 수단의 고위 지휘관들에게 여행금지와 자산동결 제재를 가했다고 보도했다. 발표는 사건 1주년에 맞춰 이뤄졌다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that the UK has imposed travel bans and asset freezes on senior Sudanese commanders suspected of involvement in sexual violence during the mass atrocity in El Fasher. The sanctions were announced on the first anniversary of the events."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
-        ],
-        "firstPublishedAt": "2026-10-26T15:07:23.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
-      "id": "news-c07eb56e557593adc41a833c",
-      "title": "우주 거울로 밤에 지구를 비추려는 스타트업 시범에 과학자·환경단체·주민 반발",
-      "titleTranslations": {
-        "en": "Sunlight‑from‑space demonstration by US startup draws criticism"
-      },
-      "startAt": "2026-10-26T12:00:41.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언은 캘리포니아 주민들이 밤에 산 아래로 비치는 강한 빛에 놀랐으며, 한 스타트업이 우주에 수천 개의 거대한 거울을 배치해 야간에 태양빛을 반사하려는 계획의 실증 단계가 과학자·환경단체·지역 주민들의 반발을 불러일으켰다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that a US startup's demonstration of reflecting sunlight from space startled California locals and prompted criticism from scientists, environmentalists and residents. The company plans thousands of large mirrors in orbit to reflect sunlight to Earth at night, raising environmental and social concerns."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/26/california-sunlight-space-mirrors-satellites",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/26/california-sunlight-space-mirrors-satellites"
-        ],
-        "firstPublishedAt": "2026-10-26T12:00:41.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
       "id": "news-0406b1e01a0d5fce1b49db68",
       "title": "영국 수석 의사들, 임금·연금 분쟁으로 48시간 파업 예고",
       "titleTranslations": {
@@ -1485,34 +2099,6 @@
           "https://www.bbc.co.uk/news/articles/c69wzxw2pvv0o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-26T11:45:48.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
-      }
-    },
-    {
-      "id": "news-48726c8e96bae6628b1b4db1",
-      "title": "힐리, 예산안에서 저소득 연금수급자의 소득세 부담 보호 계획 발표",
-      "titleTranslations": {
-        "en": "Healey to shield low‑income pensioners from income tax in the Budget"
-      },
-      "startAt": "2026-10-26T10:28:12.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 비즈니스는 예산안에서 저소득 연금수급자들이 4월 연금 인상 이후 소득세 대상이 되는 것을 막기 위한 변화가 포함될 것이라고 보도했다. 보도는 이러한 조치가 해당 대상자들의 세부담을 보호하기 위한 것이라고 전한다.",
-      "descriptionTranslations": {
-        "en": "BBC Business reports that the Budget will include measures to shield low‑income pensioners from becoming liable for income tax after the full, flat‑rate state pension rises in April. The coverage says the change is intended to protect those pensioners from additional tax burdens."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-26T10:28:12.000Z",
         "lastObservedAt": "2026-10-26T19:14:44.654Z"
       }
     },
@@ -1545,90 +2131,6 @@
       }
     },
     {
-      "id": "news-a187897975e8b3a3b3829d92",
-      "title": "알렉산다르 부치치, 학생 주도 운동에 패배 인정 — 세르비아 장기 집권 세력에 타격",
-      "titleTranslations": {
-        "en": "Aleksandar Vučić concedes after student‑led movement defeats longtime leader in Serbia"
-      },
-      "startAt": "2026-10-26T05:24:59.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "알자지라는 세르비아의 오랜 지도자 알렉산다르 부치치가 학생들이 주도한 시위 운동에 의해 의회 선거에서 패배를 인정했다고 보도했다. 보도는 이번 결과가 오랜 집권에 대한 도전이자 정치적 분수령이 될 가능성이 있다고 전한다.",
-      "descriptionTranslations": {
-        "en": "Al Jazeera reports that Serbia's longtime leader Aleksandar Vučić conceded defeat to a student‑led protest movement in parliamentary elections. The coverage frames the result as a significant challenge to entrenched rule with potential political consequences."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-10-26T05:24:59.000Z",
-        "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
-      "id": "news-b425a5697e07a66f72df80be",
-      "title": "미 서남부, 연일 폭우·홍수 경계 — Four Corners 지역 추가 폭우 예보",
-      "titleTranslations": {
-        "en": "US south‑west braces for more storms after days of rain and flooding in Four Corners region"
-      },
-      "startAt": "2026-10-25T19:02:51.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언은 애리조나·콜로라도·뉴멕시코·유타가 만나는 Four Corners 지역이 며칠간의 집중호우로 대규모 홍수·대피·수상구조·수백만 달러 피해를 겪은 뒤 추가 폭우와 뇌우가 예보되고 있다고 보도했다. 국립기상청은 해당 지역에 대해 홍수 주의보를 발령했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports the Four Corners area — where Arizona, Colorado, New Mexico and Utah meet — has endured days of heavy rain that prompted evacuations, water rescues and multi‑million‑dollar damage, and that another round of heavy showers and thunderstorms was forecast. The National Weather Service issued a flood watch for much of the region."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms"
-        ],
-        "firstPublishedAt": "2026-10-25T19:02:51.000Z",
-        "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
-      "id": "news-df72b971e5b915a709c685a2",
-      "title": "야운데의 녹지 상실과 시민 대응 — 아스팔트 아래서 시작된 복구 움직임",
-      "titleTranslations": {
-        "en": "Yaoundé’s loss of green spaces and community pushback"
-      },
-      "startAt": "2026-10-25T15:00:05.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언 도시면 보도는 카메룬 수도 야운데에서 콘크리트 확장으로 도시의 공원과 나무들이 크게 훼손되자 자원봉사자들이 한 뿌리씩 나무를 심고 녹지 보전을 위해 나서는 모습을 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian Cities reports that in Yaoundé, Cameroon, concrete sprawl has devastated parks and trees, prompting volunteers to respond by replanting shrubs and working to protect remaining green space."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/25/environment-cities-cameroon-yaounde-green-space-trees",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/global-development/2026/oct/25/environment-cities-cameroon-yaounde-green-space-trees"
-        ],
-        "firstPublishedAt": "2026-10-25T15:00:05.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
       "id": "news-9679049c03ff86245cab16f4",
       "title": "미 군, 스페이스X에 제한적 궤도 추적 데이터 접근 허용 — 산업·안보 우려 제기",
       "titleTranslations": {
@@ -1656,183 +2158,6 @@
         ],
         "firstPublishedAt": "2026-10-25T12:00:05.000Z",
         "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
-      "id": "news-02986a017ad14e8ee89e2853",
-      "title": "로즈뱅크 유전: 정치적 논란의 중심에 선 북해 유전 현장 보도",
-      "titleTranslations": {
-        "en": "Rosebank: life on the North Sea oil field at the centre of a political storm"
-      },
-      "startAt": "2026-10-25T07:15:38.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 비즈니스는 미개발 상태로 남아 있는 북해 로즈뱅크 유전의 배에서 일하는 사람들의 삶을 취재하며, 이 유전이 정치적·환경적 논쟁의 중심에 놓여 있음을 조명했다.",
-      "descriptionTranslations": {
-        "en": "BBC Business reports from aboard a ship at the untapped Rosebank oil field in the North Sea, profiling life on the field as it awaits decisions amid political and environmental controversy."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-25T07:15:38.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
-      "id": "news-3931d62b4da17dbeced1689a",
-      "title": "고대 로마의 색상 변환 유리 제작법 과학자들이 재현",
-      "titleTranslations": {
-        "en": "Scientists rediscover how to make ancient Roman colour‑changing glass"
-      },
-      "startAt": "2026-10-25T06:00:55.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "가디언 과학 보도는 1,600년 된 리키르구스 컵(Lycurgus Cup)의 빛 방향에 따라 색이 변하는 광학적 성질을 재현하는 제작법을 과학자들이 재발견했다고 전했다. 보도는 해당 유물의 루비빛·녹색 변색 현상이 오래전 로마의 광학 공학 수준을 보여준다고 설명했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian’s science reporting says researchers have rediscovered how to reproduce the optical engineering behind the 1,600‑year‑old Lycurgus Cup, which changes colour from jade green to ruby red depending on lighting. Coverage highlights the sophistication of Roman glasswork."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass"
-        ],
-        "firstPublishedAt": "2026-10-25T06:00:55.000Z",
-        "lastObservedAt": "2026-10-27T06:14:00.925Z"
-      }
-    },
-    {
-      "id": "news-ec49e5f2d20f449310e47f24",
-      "title": "맨체스터의 변화: UAE 자본이 도심 지형에 미친 영향 분석",
-      "titleTranslations": {
-        "en": "How UAE investment has changed the face of Manchester"
-      },
-      "startAt": "2026-10-25T06:00:54.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언 인터랙티브는 아랍의 봄 이후 아랍에미리트의 자본 유입이 맨체스터의 토지 소유와 도시 경관에 미친 영향을 추적하며, 일부 지역의 토지 소유 구조와 사회적 결과를 조명했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian interactive traces how investment from the United Arab Emirates since the Arab Spring has reshaped Manchester’s land ownership and urban landscape, examining social and economic consequences in affected areas."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/news/ng-interactive/2026/oct/25/thats-the-way-the-city-works-how-the-uae-changed-the-face-of-andy-burnhams-manchester",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/news/ng-interactive/2026/oct/25/thats-the-way-the-city-works-how-the-uae-changed-the-face-of-andy-burnhams-manchester"
-        ],
-        "firstPublishedAt": "2026-10-25T06:00:54.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
-      "id": "news-bc0a3e3e3becf0957b4025ef",
-      "title": "프랑스 전국 대규모 시위 격화로 거의 1,000명 체포",
-      "titleTranslations": {
-        "en": "Almost 1,000 arrested as clashes follow mass protests across France"
-      },
-      "startAt": "2026-10-25T04:16:52.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 보도에 따르면 수십만명이 참여한 프랑스 전역의 대규모 시위가 격화되며 여러 지역에서 충돌이 발생했고, 사법·치안 당국은 거의 1,000여명의 체포가 이뤄졌다고 보고했다. 시위는 유럽의 다른 국가들에서도 일부 열렸다.",
-      "descriptionTranslations": {
-        "en": "According to the BBC, nationwide mass protests in France involving hundreds of thousands of people turned violent in places, with authorities reporting nearly 1,000 arrests. Demonstrations also took place in other European countries."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
-          "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews",
-          "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-17T15:57:40.000Z",
-        "lastObservedAt": "2026-10-25T06:02:18.765Z"
-      }
-    },
-    {
-      "id": "news-859e9cf18ee4c2046a9ff553",
-      "title": "예산안에 사회·공공임대주택에 £10억 배정 계획 포함",
-      "titleTranslations": {
-        "en": "Budget to include £1bn for social and affordable housing"
-      },
-      "startAt": "2026-10-25T02:57:30.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 비즈니스는 새 예산안에 사회 및 공공임대주택을 위한 £10억(약 1억 파운드) 규모의 자금이 포함될 예정이라고 보도했다. 보도는 이 추가로 10년 계획의 전체 자금이 £400억을 넘게 된다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC Business reports the upcoming Budget will include £1bn for social and affordable housing. The coverage says this addition brings the 10‑year programme’s funding to more than £40bn."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-25T02:57:30.000Z",
-        "lastObservedAt": "2026-10-25T06:02:18.765Z"
-      }
-    },
-    {
-      "id": "news-f5f129983c01e29f2c10548f",
-      "title": "헤브론서 이스라엘군의 주택 철거로 팔레스타인 가족들 이주",
-      "titleTranslations": {
-        "en": "Palestinian families displaced as Israeli forces demolish Hebron homes"
-      },
-      "startAt": "2026-10-24T23:02:06.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC는 헤브론에서 이스라엘군이 주택을 철거해 여러 팔레스타인 가족이 거처를 잃었다고 보도했다. 해당 철거 작전은 금요일 이스라엘 병사 2명이 팔레스타인 무장대원에게 살해된 사건 이후 이뤄졌으며, 이른바 총선을 며칠 앞둔 시점이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that Israeli forces demolished homes in Hebron, displacing multiple Palestinian families. The demolitions followed the killing of two Israeli soldiers by Palestinian gunmen on Friday and took place days before Israel’s national election."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss",
-          "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
-          "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-23T17:30:51.000Z",
-        "lastObservedAt": "2026-10-25T06:02:18.765Z"
       }
     },
     {
@@ -1917,150 +2242,6 @@
         ],
         "firstPublishedAt": "2026-10-24T12:00:32.000Z",
         "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
-      "id": "news-28a3ac1f48449efd79c12c50",
-      "title": "화성의 1,000마일 구름 — 이전에 관찰된 적 없는 물리현상 가능성 제기",
-      "titleTranslations": {
-        "en": "A 1,000‑mile cloud on Mars may reveal physics never seen in nature"
-      },
-      "startAt": "2026-10-24T11:50:28.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아스테크니카 보도에 따르면 새로운 모델은 화성에서 생성되는 구름의 물리 과정이 이전에 직접 관찰된 바 없는 방식의 얼음 형성 과정을 포함할 수 있음을 시사한다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that a new model suggests a 1,000‑mile cloud on Mars may involve ice‑forming physics not previously directly observed, pointing to potentially novel atmospheric processes on Mars."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/"
-        ],
-        "firstPublishedAt": "2026-10-24T11:50:28.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
-      "id": "news-bc0ee4ef9353aebda5552926",
-      "title": "라우리엔타이드 빙하 잔존부의 확장 신호 — 약 2,000년 전 시작 가능성 제시",
-      "titleTranslations": {
-        "en": "Ice‑sheet expansion may have begun 2,000 years ago, new analysis suggests"
-      },
-      "startAt": "2026-10-24T11:00:09.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아스테크니카는 라우리엔타이드(Laurentide) 빙하의 잔존 분출이 과거 생각보다 일찍 확장되기 시작했을 가능성을 제시하는 연구 결과를 보도했다. 보도는 작은 잔존부가 다소 확장되는 징후를 보였다고 전한다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports research indicating that remnants of the Laurentide Ice Sheet show signs of expansion that may have begun around 2,000 years ago, with the tiny remaining ice masses showing modest growth."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/"
-        ],
-        "firstPublishedAt": "2026-10-24T11:00:09.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
-      "id": "news-322315c951a03eb33f46aff9",
-      "title": "영국 정부의 £58억(£5.8bn) 도시재생 계획, 그림스비 등 중심으로 지역상권 재활 시도",
-      "titleTranslations": {
-        "en": "Can a £5.8bn scheme help revive Grimsby and other town centres?"
-      },
-      "startAt": "2026-10-24T06:00:26.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "가디언 보도는 정부의 58억 파운드 규모 도시재생 계획이 폐점·방치된 상가를 커뮤니티 공간으로 바꾸는 방식으로 그림스비 등 침체된 타운센터를 되살리려 한다고 전한다. 보도는 실행의 난제와 장기 지속성 문제를 지적한다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports a £5.8bn government scheme aims to revive struggling town centres — including Grimsby — by converting boarded‑up shops into community spaces and other interventions. The coverage highlights implementation challenges and questions about long‑term sustainability."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/24/can-new-scheme-help-revive-grimsby-britain-struggling-town-centres",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/uk-news/2026/oct/24/can-new-scheme-help-revive-grimsby-britain-struggling-town-centres"
-        ],
-        "firstPublishedAt": "2026-10-24T06:00:26.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
-      "id": "news-3a411ea5e3414a5be7c514f3",
-      "title": "영국, ‘세계 최초’ AI 생물안전 연구소에 1억 파운드 투자 발표 예정",
-      "titleTranslations": {
-        "en": "UK to invest £100m in 'world first' AI Biosecurity Lab"
-      },
-      "startAt": "2026-10-24T00:05:45.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 영국 재무장관은 예산에서 AI 관련 지출의 일환으로 AI를 활용한 생물안전 연구소에 약 1억 파운드를 투자할 계획을 공개할 예정이다. 정부는 이 투자가 국가의 생물안전·대응 역량을 강화하는 목표라고 설명했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports the UK chancellor will unveil plans in the Budget to invest about £100m in an AI Biosecurity Lab, described as a 'world first'. The government says the funding aims to bolster national biosecurity and response capabilities using AI."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-24T00:05:45.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
-      "id": "news-a2942cdad3f6804df91978d8",
-      "title": "앤디 번햄, '일상 문제 해결' 우선 전략으로 소규모 개혁 강조",
-      "titleTranslations": {
-        "en": "Andy Burnham prioritises 'everyday fixes' strategy to deliver small‑scale reforms"
-      },
-      "startAt": "2026-10-23T12:26:53.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "신임 총리로 보도된 앤디 번햄은 보도에 따르면 도로 포트홀, 버스 요금, 공공질서 등 '일상 문제' 해결을 통해 유권자에게 실질적 변화를 보여주려는 전략을 내세우고 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say Andy Burnham, described as the new prime minister, is prioritising a strategy of 'everyday fixes' — small, tangible reforms such as pothole repairs, bus fares and public‑transport etiquette — to show voters practical improvements."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/politics/2026/oct/23/andy-burnham-everyday-fixes-strategy-bus-fares-pubs-potholes-headphone-dodgers",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/politics/2026/oct/23/andy-burnham-everyday-fixes-strategy-bus-fares-pubs-potholes-headphone-dodgers"
-        ],
-        "firstPublishedAt": "2026-10-23T12:26:53.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
       }
     },
     {
@@ -2152,64 +2333,6 @@
       }
     },
     {
-      "id": "news-7b0085dd772c1d5003235981",
-      "title": "MP들, NHS에 체중감량 주사 제공 확대 촉구",
-      "titleTranslations": {
-        "en": "MPs urge broader access to weight‑loss injections on the NHS"
-      },
-      "startAt": "2026-10-22T23:06:04.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "영국의회 의원들이 NHS에서 체중감량 주사(예: Mounjaro)의 대상 확대를 촉구했다. 보도는 현재 2028년까지 대상의 약 6%만 접종 예정인 점을 '야망이 부족하다'고 평가한 의원들의 주장을 전했다.",
-      "descriptionTranslations": {
-        "en": "Members of Parliament are calling for wider access to weight‑loss injections on the NHS. MPs criticised plans that would see only around 6% of eligible patients receive Mounjaro by 2028 as insufficiently ambitious, the reporting says."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g1pkwxdqwo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm4g1pkwxdqwo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-22T23:06:04.000Z",
-        "lastObservedAt": "2026-10-23T06:00:48.524Z"
-      }
-    },
-    {
-      "id": "news-7e7b341d271497a8ccb486dd",
-      "title": "UK 시티 오브 컬처 2029 후보지 4곳 확정 — 블랙풀·셰필드·밀턴케인스·렉섬",
-      "titleTranslations": {
-        "en": "Four locations shortlisted to be UK City of Culture 2029 — Blackpool, Sheffield, Milton Keynes and Wrexham"
-      },
-      "startAt": "2026-10-22T11:24:44.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 1,
-      "description": "UK 시티 오브 컬처 2029 최종 후보지로 블랙풀, 셰필드, 밀턴케인스, 렉섬 4곳이 선정됐다. 우승 도시는 £10m의 지원을 받게 되며 최종 결과는 내년 초 발표된다.",
-      "descriptionTranslations": {
-        "en": "Blackpool, Sheffield, Milton Keynes and Wrexham have been shortlisted to become the UK City of Culture 2029. The winning location will receive £10m and the final result will be announced in early 2027, reporting says."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/culture/2026/oct/22/uk-city-culture-2029-shortlist-blackpool-sheffield-milton-keynes-wrexham",
-      "topicIds": [
-        "artsFilm",
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6jrw03njgxzo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/culture/2026/oct/22/uk-city-culture-2029-shortlist-blackpool-sheffield-milton-keynes-wrexham"
-        ],
-        "firstPublishedAt": "2026-10-21T23:02:37.000Z",
-        "lastObservedAt": "2026-10-23T17:53:07.944Z"
-      }
-    },
-    {
       "id": "news-29a4ffbe1d32dba88cabfc88",
       "title": "성운 속에서 별이 태어나는 장면 — ESA 이미지 공개",
       "titleTranslations": {
@@ -2238,34 +2361,6 @@
       }
     },
     {
-      "id": "news-c974c204e1a237d5b88920a1",
-      "title": "당뇨·ADHD 약물, 알츠하이머 환자 대상 동시시험으로 치료 속도화 시도",
-      "titleTranslations": {
-        "en": "Diabetes and ADHD drugs to be tested on Alzheimer's patients in new study"
-      },
-      "startAt": "2026-10-21T23:02:30.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC는 당뇨·ADHD 치료제를 알츠하이머 환자에게 동시에 시험하는 연구가 시작된다고 보도했다. 연구진은 병렬 시험으로 치료 후보 탐색을 가속화하길 기대하고 있다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports a new study will test diabetes and ADHD drugs simultaneously in patients with Alzheimer's disease. Researchers hope the concurrent testing approach will speed up the search for effective treatments."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqlye4v721nwo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqlye4v721nwo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-21T23:02:30.000Z",
-        "lastObservedAt": "2026-10-22T17:58:06.389Z"
-      }
-    },
-    {
       "id": "news-a81619fcbafafbb9e5e7a90e",
       "title": "챔피언스리그, 이번 시즌 최다 득점 신기록 수립",
       "titleTranslations": {
@@ -2291,37 +2386,6 @@
         ],
         "firstPublishedAt": "2026-10-20T23:03:11.000Z",
         "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
-      "id": "news-5bc59241b64860dea72f101b",
-      "title": "러셀 브랜드 재판: 고소인 진술 추가—'말도 못하고 숨도 쉬지 못했다'고 주장",
-      "titleTranslations": {
-        "en": "Woman says she 'couldn't speak or breathe' during alleged rape by Russell Brand"
-      },
-      "startAt": "2026-10-20T16:02:03.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "러셀 브랜드에 대한 강간·성폭행 재판에서 한 고소인이 브랜드가 주장한 행위를 저지르며 자신은 '말할 수 없었고 숨도 쉴 수 없었다'고 진술했다. 브랜드는 모든 혐의를 부인하고 있다.",
-      "descriptionTranslations": {
-        "en": "In the trial of Russell Brand on rape and sexual assault charges, an accuser testified that during the alleged assault she 'couldn't speak or breathe'. Brand denies the allegations; the trial continues."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck240rr10jdqo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmqxn0lw25r3o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/ck240rr10jdqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-12T12:44:38.000Z",
-        "lastObservedAt": "2026-10-20T17:58:33.161Z"
       }
     },
     {
@@ -2382,62 +2446,6 @@
         ],
         "firstPublishedAt": "2026-10-18T08:11:55.000Z",
         "lastObservedAt": "2026-10-20T17:58:33.160Z"
-      }
-    },
-    {
-      "id": "news-0502a592ce1ff45a70ad4c17",
-      "title": "BepiColombo, 8년 여정 끝에 2026년 12월 수성 도착 예정 — 임무 기념 영상 공개",
-      "titleTranslations": {
-        "en": "Celebrating BepiColombo as it approaches Mercury arrival in December 2026"
-      },
-      "startAt": "2026-10-19T15:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "ESA는 BepiColombo가 2018년 10월 20일 발사된 이후 8년간 태양계 내부를 항행해 2026년 12월 9일 수성에 도착할 예정이라며, 임무 팀의 소회를 담은 세 단어 영상으로 도착을 기념하는 내용을 공개했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency said BepiColombo, launched on 20 October 2018, has travelled eight years through the inner solar system and will arrive at Mercury on 9 December 2026. To celebrate, the mission team released a short video describing the mission in three words, ESA reported."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Celebrating_BepiColombo_three_words_at_a_time",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Celebrating_BepiColombo_three_words_at_a_time"
-        ],
-        "firstPublishedAt": "2026-10-19T15:00:00.000Z",
-        "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
-      "id": "news-3f74e87dc29c538b58b24f79",
-      "title": "ESA 유클리드 우주망원경, 미지의 혜성 첫 발견",
-      "titleTranslations": {
-        "en": "Euclid discovers new comet"
-      },
-      "startAt": "2026-10-19T12:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "유럽우주국(ESA)은 유클리드 우주망원경이 2026년 9월 16~24일 촬영한 이미지에서 이전에 알려지지 않은 혜성을 발견했다고 발표했다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency says its Euclid space telescope discovered a previously unknown comet in images taken between 16 and 24 September 2026."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
-        ],
-        "firstPublishedAt": "2026-10-19T12:00:00.000Z",
-        "lastObservedAt": "2026-10-19T19:17:31.888Z"
       }
     },
     {
@@ -2585,34 +2593,6 @@
       }
     },
     {
-      "id": "news-f433a319fc4cd0e6b12ccaeb",
-      "title": "ESA 솔라 오비터, 태양 표면 기원의 자기 '스위치백' 추적 성공",
-      "titleTranslations": {
-        "en": "Solar Orbiter tracks origin of mysterious magnetic switchbacks"
-      },
-      "startAt": "2026-10-08T09:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "유럽우주국(ESA)은 솔라 오비터가 태양풍의 S자형 '스위치백' 구조를 통과하며 포함된 입자의 지문을 분석해 그 기원을 태양 표면으로 추적했다고 발표했다. 연구는 태양 자기 현상을 이해하고 태양 폭풍에 대한 지식을 확장한다는 의미가 있다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency reports its Solar Orbiter spacecraft flew through an S‑shaped 'switchback' in the solar wind’s magnetic field and, by fingerprinting particles within it, traced the structure’s origin back to the Sun’s surface — shedding light on solar magnetism and drivers of space weather."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
-        ],
-        "firstPublishedAt": "2026-10-08T09:00:00.000Z",
-        "lastObservedAt": "2026-10-09T07:22:01.130Z"
-      }
-    },
-    {
       "id": "news-c692a64a3ecdefa3c878a1c9",
       "title": "케냐, DRC에서 온 시민 사망으로 첫 에볼라 사례 보고",
       "titleTranslations": {
@@ -2638,65 +2618,6 @@
         ],
         "firstPublishedAt": "2026-10-06T12:46:56.000Z",
         "lastObservedAt": "2026-10-07T19:19:57.939Z"
-      }
-    },
-    {
-      "id": "news-4b7633ee5217136de4e43575",
-      "title": "엘니뇨로 올해 대서양 허리케인 활동 급감 가능성 제기",
-      "titleTranslations": {
-        "en": "Could El Niño mean there are no Atlantic hurricanes this year?"
-      },
-      "startAt": "2026-10-02T23:37:13.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "BBC는 대서양에서 9월(통상 가장 활동적인 달)에 한 건의 허리케인도 관측되지 않은 것은 30년 만의 일이라며, 엘니뇨 영향으로 올해 대서양 허리케인 활동이 크게 줄어들 수 있다는 가능성을 보도했다.",
-      "descriptionTranslations": {
-        "en": "The BBC reports that, for the first time in three decades, no Atlantic hurricane formed in September — normally the most active month — raising the possibility that El Niño conditions could substantially suppress Atlantic hurricane activity this year."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cwgkvyyg8115o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/weather/articles/cwgkvyyg8115o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-02T23:37:13.000Z",
-        "lastObservedAt": "2026-10-03T17:14:08.025Z"
-      }
-    },
-    {
-      "id": "news-cde3e751edf0549c3367b8a0",
-      "title": "스위스 빙하, 또다시 기록적 얼음 손실",
-      "titleTranslations": {
-        "en": "Swiss glaciers suffer another year of record ice loss"
-      },
-      "startAt": "2026-09-30T23:00:00.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "보도에 따르면 스위스의 빙하가 또 한 해 동안 기록적인 속도로 소실되고 있으며, 올해만 5%가 넘는 얼음이 사라져 유럽의 물 공급과 생태계·지역사회에 위협이 되고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Coverage reports that Switzerland's glaciers are disappearing at a record pace again, with more than 5% of their ice lost this year alone — threatening water supplies, ecosystems and communities across Europe."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change"
-        ],
-        "firstPublishedAt": "2026-09-30T23:00:00.000Z",
-        "lastObservedAt": "2026-10-01T07:10:03.687Z"
       }
     }
   ]

@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#0e242d" />
     <title>Fish Aquarium Lab · Gallery of Light and Motion</title>
     <meta name="description" content="Babylon.js 물고기 모델·본 애니메이션 개발용 뷰어" />
-    <script type="module" crossorigin src="./assets/index-BUKHYoSD.js"></script>
+    <script type="module" crossorigin src="./assets/index-BpTsnrnn.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/math.scalar.functions-D-i-XBaP.js">
     <link rel="modulepreload" crossorigin href="./assets/engineStore-Bn2tApal.js">
     <link rel="modulepreload" crossorigin href="./assets/internalTexture-B3djGrls.js">
@@ -34,19 +34,23 @@
     <link rel="modulepreload" crossorigin href="./assets/sceneComponent-BNkEPXWk.js">
     <link rel="modulepreload" crossorigin href="./assets/animation.pure-Byszwi-1.js">
     <link rel="modulepreload" crossorigin href="./assets/material.pure-DTobcZuM.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-BH4_Z_fs.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-BJ841T0M.css">
   </head>
   <body>
     <div class="lab">
       <header>
         <div><span class="eyebrow">GALLERY OF LIGHT AND MOTION</span><h1>Fish Aquarium Lab <span>첫 번째 수조</span></h1></div>
         <div class="header-links">
-          <span class="app-version" aria-label="앱 버전">v0.1.5</span>
+          <span class="app-version" aria-label="앱 버전">v0.1.7</span>
           <a href="https://www.youtube.com/@galleryoflightandmotion" target="_blank" rel="noopener noreferrer">유튜브 채널 ↗</a>
         </div>
       </header>
       <main>
         <section class="viewport" aria-label="3D 모델 뷰어">
+          <div class="lighting-switch" role="group" aria-label="낮과 밤 조명">
+            <button id="lighting-day" type="button" aria-pressed="true">☀ 낮</button>
+            <button id="lighting-night" type="button" aria-pressed="false">☾ 밤</button>
+          </div>
           <canvas id="scene" aria-label="물고기 3D 화면. 드래그로 회전하고 스크롤 또는 두 손가락으로 확대합니다."></canvas>
           <div class="scene-label"><span class="status-dot"></span><span id="model-label">초기화 중</span></div>
           <div class="scene-hint">드래그 · 회전 &nbsp; / &nbsp; 스크롤·핀치 · 확대</div>
