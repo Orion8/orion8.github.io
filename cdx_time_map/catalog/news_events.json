@@ -1,8 +1,205 @@
 {
-  "catalogVersion": "0.0.203",
-  "updatedAt": "2026-11-05T07:53:51.571Z",
+  "catalogVersion": "0.0.204",
+  "updatedAt": "2026-11-05T20:39:09.503Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-ffff2886fc4b1906ffc939db",
+      "title": "캘리포니아 주지사, 사형수 548명 전원 형 집행 정지",
+      "titleTranslations": {
+        "en": "California governor commutes death sentences for all 548 people on death row"
+      },
+      "startAt": "2026-11-05T20:28:38.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 캘리포니아 주지사가 사형수 548명에 대한 사형을 전원 감형(형 집행 정지)했다고 발표했다. 캘리포니아는 미국에서 사형수 수가 가장 많은 주로 알려져 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say the governor of California has commuted the death sentences of all 548 people on the state's death row. California is noted as having the largest death‑row population in the United States."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-05T20:28:38.000Z",
+        "lastObservedAt": "2026-11-05T20:39:09.502Z"
+      }
+    },
+    {
+      "id": "news-c29fd770c68e8af632a0a2e3",
+      "title": "콩고민주공화국에서 에볼라에 감염된 영국인, 치료 위해 영국 도착",
+      "titleTranslations": {
+        "en": "British man infected with Ebola in DR Congo arrives in UK for treatment"
+      },
+      "startAt": "2026-11-05T19:49:14.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "보도에 따르면 콩고민주공화국에서 에볼라에 감염된 한 영국인이 치료를 받기 위해 영국에 도착했으며, 영국 정부는 이와 같은 사례에 대한 절차가 확립돼 있고 공중 보건 위험은 낮다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Reports say a British man infected with Ebola in the Democratic Republic of Congo has arrived in the UK for treatment. The UK government said established procedures exist for such cases and the risk to the public remains low."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqj34d3l0zlmo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqj34d3l0zlmo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-05T19:49:14.000Z",
+        "lastObservedAt": "2026-11-05T20:39:09.503Z"
+      }
+    },
+    {
+      "id": "news-a2c6e770ad911ecd8e3a37bd",
+      "title": "디지털은행 붕괴로 사임 직후 파라과이 대통령 탄핵",
+      "titleTranslations": {
+        "en": "Paraguay's president is impeached minutes after resigning following a bank collapse"
+      },
+      "startAt": "2026-11-05T18:30:16.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 파라과이의 대통령이 디지털 은행 붕괴로 수백만 명의 예금이 동결되는 사태가 발생한 가운데 사임했으며, 사임 직후 의회에서 탄핵 표결이 이뤄져 탄핵됐다.",
+      "descriptionTranslations": {
+        "en": "Reports say Paraguay’s president resigned after the collapse of a digital bank that froze millions of people’s savings, and was impeached by lawmakers minutes after his resignation."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse"
+        ],
+        "firstPublishedAt": "2026-11-05T18:30:16.000Z",
+        "lastObservedAt": "2026-11-05T20:39:09.503Z"
+      }
+    },
+    {
+      "id": "news-1e12b483f9faf77606bba4e7",
+      "title": "유럽 전역 항공편에 폭탄 위협…최소 25편 운항 차질로 혼선 발생",
+      "titleTranslations": {
+        "en": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears"
+      },
+      "startAt": "2026-11-05T18:17:36.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도에 따르면 유럽 여러 국가를 오가는 항공편에서 최소 25건 이상의 폭탄 위협이 접수돼 일부 항공편이 비상착륙하거나 경유지로 우회하는 등 운항이 중단·차질을 빚었다. 보도는 이 사건이 여행 혼란을 조성하려는 조직적·혼합전 양상의 시도라는 우려를 불러일으킨다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say hoax bomb threats affected at least 25 flights across Europe, forcing some planes to make emergency landings or diversions. Coverage says the incidents have raised concerns about an apparently coordinated effort to cause chaos and fears of hybrid‑warfare‑style disruption."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears"
+        ],
+        "firstPublishedAt": "2026-11-05T18:17:36.000Z",
+        "lastObservedAt": "2026-11-05T20:39:09.503Z"
+      }
+    },
+    {
+      "id": "news-c5cfc173e64341d80f41f230",
+      "title": "금리 3.75%에서 4%로 인상 — 3년여 만의 첫 금리 인상",
+      "titleTranslations": {
+        "en": "Interest rates hiked to 4% in first increase in over three years"
+      },
+      "startAt": "2026-11-05T17:09:55.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도에 따르면 기준금리가 3.75%에서 4%로 인상되었으며, 이는 3년 넘게 이어진 동결 이후의 첫 인상이다. 대부분 분석가는 이 같은 인상을 예상했다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say the policy rate was raised from 3.75% to 4%, marking the first increase in over three years. Most analysts had expected the move."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-05T17:09:55.000Z",
+        "lastObservedAt": "2026-11-05T20:39:09.503Z"
+      }
+    },
+    {
+      "id": "news-987bf29fcdd669542b91c707",
+      "title": "K‑팝 그룹 뉴진스 계약서에 ‘수면·자유 선택’ 권리 포기 조항 포함 보도",
+      "titleTranslations": {
+        "en": "Report: K‑pop group NewJeans’s contract omitted rights to ‘sleep and free choice’"
+      },
+      "startAt": "2026-11-05T17:08:29.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "보도는 뉴진스 멤버들이 14~17세였을 때 체결된 계약서에 수면·휴식·자유 선택 권리를 포기하도록 하는 조항이 포함돼 있다고 전했다. 해당 보도는 레이블이 미성년자 보호 조항을 제외했다고 지적한다.",
+      "descriptionTranslations": {
+        "en": "Reports say the contracts signed by K‑pop group NewJeans when members were aged 14–17 omitted protections and contained clauses that waived rights to sleep, rest and free choice, alleging the label stripped child‑protection provisions."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/music/2026/nov/05/k-pop-group-newjeans-contract",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/music/2026/nov/05/k-pop-group-newjeans-contract"
+        ],
+        "firstPublishedAt": "2026-11-05T17:08:29.000Z",
+        "lastObservedAt": "2026-11-05T20:39:09.503Z"
+      }
+    },
+    {
+      "id": "news-cfe4c0fbb54460410c8529bd",
+      "title": "러셀 브랜드, 강간 및 성폭행 혐의로 유죄 판결",
+      "titleTranslations": {
+        "en": "Russell Brand found guilty of rape and sexual assault"
+      },
+      "startAt": "2026-11-05T17:03:15.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 3,
+      "description": "보도에 따르면 배우이자 코미디언 러셀 브랜드가 한 여성에 대한 강간과 세 명에 대한 성폭행 혐의로 유죄 판결을 받았다. 재판에서 판사는 그가 중형의 실형에 직면할 수 있다고 말했다.",
+      "descriptionTranslations": {
+        "en": "Reports say actor and comedian Russell Brand was found guilty of raping a woman and sexually assaulting three others. During the trial, the judge said he faces a potentially significant custodial sentence."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/culture/2026/nov/05/russell-brand-found-guilty-rape-sexual-assault",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/culture/2026/nov/05/russell-brand-found-guilty-rape-sexual-assault"
+        ],
+        "firstPublishedAt": "2026-11-05T17:03:15.000Z",
+        "lastObservedAt": "2026-11-05T20:39:09.503Z"
+      }
+    },
     {
       "id": "news-33bb551745dcf2904ec1838c",
       "title": "LIV 골프, 후원 철회로 활동 축소(운영 중단) 예정",
@@ -141,6 +338,36 @@
         ],
         "firstPublishedAt": "2026-11-05T01:43:21.000Z",
         "lastObservedAt": "2026-11-05T07:53:51.571Z"
+      }
+    },
+    {
+      "id": "news-63b80da325130f73a469effc",
+      "title": "엘니뇨 영향으로 동아시아에 잇단 강한 태풍 — ‘평소보다 거친’ 계절적 이상 현상",
+      "titleTranslations": {
+        "en": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'"
+      },
+      "startAt": "2026-11-04T23:12:47.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "보도는 엘니뇨 현상으로 태평양이 평소보다 이례적으로 뜨거워지면서 동아시아에 잇단 강한 태풍과 이상기후가 발생해 평상시보다 훨씬 거친 날씨를 초래했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say El Niño has heated the Pacific unusually, contributing to a spate of strong typhoons pounding East Asia and producing weather that has been unusually severe even for typhoon‑prone countries."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-04T23:12:47.000Z",
+        "lastObservedAt": "2026-11-05T20:39:09.503Z"
       }
     },
     {
@@ -1038,34 +1265,6 @@
       }
     },
     {
-      "id": "news-9fdd859de5445198a141ff8f",
-      "title": "인도 야권, 선거관리위원장 사임 촉구 대규모 집회 예정",
-      "titleTranslations": {
-        "en": "India's opposition to hold mega rally seeking election chief's resignation"
-      },
-      "startAt": "2026-11-01T07:00:55.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 인도 야권이 선거관리위원장의 사임을 요구하는 대규모 집회를 준비하고 있다. 이번 집회는 유권자명부 정정 작업을 둘러싼 시위가 커진 가운데 열리며, 해당 작업으로 최대 1억3천만 명이 명부에서 누락될 수 있다는 우려가 배경이 되었다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reporting says India's opposition is preparing a large rally calling for the resignation of the election chief. The rally follows growing protests over a voter‑list revision exercise that critics fear could leave up to 130 million voters off the rolls."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-01T07:00:55.000Z",
-        "lastObservedAt": "2026-11-01T07:28:15.085Z"
-      }
-    },
-    {
       "id": "news-204d5faf405d3242c5f35b25",
       "title": "법원, NAACP의 xAI 데이터센터 오염 소송 진행 허용",
       "titleTranslations": {
@@ -1121,35 +1320,6 @@
         ],
         "firstPublishedAt": "2026-10-31T21:14:34.000Z",
         "lastObservedAt": "2026-11-01T18:25:50.695Z"
-      }
-    },
-    {
-      "id": "news-98e47325920a6fd8509e34f0",
-      "title": "남부 필리핀 새 지방정부 출범 — 80년 분쟁 평화과정의 이정표",
-      "titleTranslations": {
-        "en": "A new local government takes office in southern Philippines — milestone in an 80‑year conflict peace process"
-      },
-      "startAt": "2026-10-31T21:14:32.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 남부 필리핀에서 새로운 지방정부가 공식적으로 출범했다고 전했다. 이는 약 80년간 이어진 분쟁의 평화 과정에서 중요한 이정표로 평가되며, 지역 정치와 보안 상황에 변화를 가져올 가능성이 있다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Reports say a new local government has formally taken office in the southern Philippines. The development is described as a milestone in the long‑running, roughly 80‑year conflict's peace process and could bring changes to local politics and security dynamics."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines"
-        ],
-        "firstPublishedAt": "2026-10-31T21:14:32.000Z",
-        "lastObservedAt": "2026-11-01T07:28:15.085Z"
       }
     },
     {
@@ -1293,34 +1463,6 @@
           "https://www.theguardian.com/us-news/ng-interactive/2026/oct/31/elon-musk-midterms-spending-visualized"
         ],
         "firstPublishedAt": "2026-10-31T10:00:40.000Z",
-        "lastObservedAt": "2026-11-01T07:28:15.085Z"
-      }
-    },
-    {
-      "id": "news-e858852c6a61256aa0a3c3e0",
-      "title": "Avanti West Coast, 여름철 승객 지연 보상으로 2천만 파운드 이상 지급",
-      "titleTranslations": {
-        "en": "Avanti West Coast paid out over £20m in 'delay repay' refunds this summer"
-      },
-      "startAt": "2026-10-31T07:00:35.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "보도는 Avanti West Coast가 올여름 기간 동안 지연된 여객 운행에 대해 'Delay Repay' 방식으로 2천만 파운드가 넘는 환불을 지급했다고 전했다. 올해 재무연도 전체로는 보상액이 7천만 파운드를 넘을 가능성이 제기되고 있다.",
-      "descriptionTranslations": {
-        "en": "Reporting says Avanti West Coast refunded more than £20m to passengers this summer through its 'Delay Repay' scheme for disrupted journeys. The operator's annual compensation bill is likely to exceed £70m for the financial year, reports say."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/31/avanti-west-coast-gwr-lner-train-delay-repay-passenger-refunds-compensation",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/31/avanti-west-coast-gwr-lner-train-delay-repay-passenger-refunds-compensation"
-        ],
-        "firstPublishedAt": "2026-10-31T07:00:35.000Z",
         "lastObservedAt": "2026-11-01T07:28:15.085Z"
       }
     },
@@ -1841,34 +1983,6 @@
       }
     },
     {
-      "id": "news-4c467c18b392a33a2c110672",
-      "title": "영국, 소득세 과세 구간·상한 3년 추가 동결 발표",
-      "titleTranslations": {
-        "en": "UK freezes tax thresholds for three more years"
-      },
-      "startAt": "2026-10-28T18:12:24.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도에 따르면 세금 과세 시작점과 고율 과세 구간의 기준이 향후 3년간 동결되며, 정부는 이를 통해 재정 목표와 정책을 조정하려 한다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Reports say the UK government will freeze the income‑tax thresholds — including the points at which people start paying tax and move into higher rates — for three more years as part of fiscal policy measures."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/clydn7r5pn1o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/clydn7r5pn1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-28T18:12:24.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
       "id": "news-bbd99f7580a24ef6e93606af",
       "title": "감독 피터 메닥 별세, 향년 88",
       "titleTranslations": {
@@ -2093,35 +2207,6 @@
       }
     },
     {
-      "id": "news-9dd2f7177d8d8160728bfd8f",
-      "title": "월터 코닉(스타트렉 파벨 체코프 역) 별세 — 향년 90",
-      "titleTranslations": {
-        "en": "Walter Koenig, actor best known as Chekov on Star Trek, dies aged 90"
-      },
-      "startAt": "2026-10-26T18:42:11.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "가디언 문화 보도에 따르면 배우 월터 코닉이 스타트렉 프랜차이즈에서 파벨 체코프 역으로 잘 알려진 채 향년 90세로 사망했다고 확인됐다. 보도는 코닉이 노년의 자택에서 가족과 함께한 가운데 숨졌고 사인은 '노환'으로 전해졌다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "The Guardian’s culture reporting confirms that actor Walter Koenig, famed for playing Pavel Chekov across the Star Trek franchise, has died aged 90. Coverage says he died at home surrounded by family and that the cause was attributed to old age."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/culture/2026/oct/26/walter-koenig-actor-star-trek-dies",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cv0ldjzg9xppo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/culture/2026/oct/26/walter-koenig-actor-star-trek-dies"
-        ],
-        "firstPublishedAt": "2026-10-26T18:34:15.000Z",
-        "lastObservedAt": "2026-10-27T06:14:00.925Z"
-      }
-    },
-    {
       "id": "news-4cf5d2571e45c7064a60310e",
       "title": "U‑15 월드컵 경기, 인종차별 의혹으로 중단돼 경기 포기",
       "titleTranslations": {
@@ -2147,34 +2232,6 @@
         ],
         "firstPublishedAt": "2026-10-26T18:17:25.000Z",
         "lastObservedAt": "2026-10-26T19:14:44.655Z"
-      }
-    },
-    {
-      "id": "news-0406b1e01a0d5fce1b49db68",
-      "title": "영국 수석 의사들, 임금·연금 분쟁으로 48시간 파업 예고",
-      "titleTranslations": {
-        "en": "Consultant doctors in England to strike next month"
-      },
-      "startAt": "2026-10-26T11:45:48.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC는 영국의 고위 임상의들이 임금과 연금 문제를 두고 11월 25일부터 48시간 동안 파업을 벌일 예정이라고 보도했다. 보도는 이번 파업이 의료 제공과 병원 운영에 영향을 미칠 것으로 전망된다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC reports that senior consultant doctors in England will stage a 48‑hour walkout beginning on 25 November in a dispute over pay and pensions. Coverage says the strike is expected to affect service provision and hospital operations."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c69wzxw2pvv0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c69wzxw2pvv0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-26T11:45:48.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.654Z"
       }
     },
     {
@@ -2288,34 +2345,6 @@
           "https://www.bbc.co.uk/sport/gymnastics/videos/c6zxjpv95ey8o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-24T15:14:14.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
-      "id": "news-60a5f8f3c28a09ea19a37bda",
-      "title": "스카이댄스·파라마운트·워너 합병 여파 — 직원 구조조정 우려 고조",
-      "titleTranslations": {
-        "en": "Skydance staff brace for shake‑up after $110bn megamerger"
-      },
-      "startAt": "2026-10-24T12:00:32.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 파라마운트와 워너 브라더스 디스커버리의 합병으로 만들어진 거대 미디어 그룹 스카이댄스 내부에서 대규모 인력·조직 개편 우려가 커지고 있다. 보도는 직원들이 감축 가능성에 대비하고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that following the $110bn megamerger creating media giant Skydance, employees are bracing for significant restructuring and potential job cuts as the new company integrates legacy studios and networks."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles"
-        ],
-        "firstPublishedAt": "2026-10-24T12:00:32.000Z",
         "lastObservedAt": "2026-10-24T16:34:36.430Z"
       }
     },
@@ -2577,34 +2606,6 @@
         ],
         "firstPublishedAt": "2026-10-10T07:49:45.000Z",
         "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
-      "id": "news-c692a64a3ecdefa3c878a1c9",
-      "title": "케냐, DRC에서 온 시민 사망으로 첫 에볼라 사례 보고",
-      "titleTranslations": {
-        "en": "Kenya confirms first Ebola death after arrival from DRC"
-      },
-      "startAt": "2026-10-06T12:46:56.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "케냐 보건부 장관은 콩고민주공화국(DRC)에서 온 시민의 사망과 관련해 케냐의 첫 에볼라 사망자를 확인했다고 발표했다. 당국은 사망자와 접촉한 28명을 식별했다고 밝혔다. 이번 유행은 DRC 북동부에서 계속 확산 중인 번디부교(Bundibugyo) 계열과 관련된다.",
-      "descriptionTranslations": {
-        "en": "Kenya's health minister announced the country's first Ebola death linked to an individual who arrived from the Democratic Republic of Congo (DRC). Authorities identified 28 contacts. The outbreak is connected to a rapidly spreading Bundibugyo strain in eastern DRC."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc"
-        ],
-        "firstPublishedAt": "2026-10-06T12:46:56.000Z",
-        "lastObservedAt": "2026-10-07T19:19:57.939Z"
       }
     }
   ]
