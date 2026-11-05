@@ -1,0 +1,1 @@
+import{q as t,l as n}from"./index-BK7rXAv_.js";class a extends t{constructor(){super(...arguments),this.initPriority=-1,this.type="SceneReady"}_executeEvent(e,s){return this._execute(e),!0}_preparePendingTasks(e){}_cancelPendingTasks(e){}getClassName(){return"FlowGraphSceneReadyEventBlock"}}n("FlowGraphSceneReadyEventBlock",a);export{a as FlowGraphSceneReadyEventBlock};
