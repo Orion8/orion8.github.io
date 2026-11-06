@@ -1,8 +1,122 @@
 {
-  "catalogVersion": "0.0.204",
-  "updatedAt": "2026-11-05T20:39:09.503Z",
+  "catalogVersion": "0.0.205",
+  "updatedAt": "2026-11-06T07:54:34.001Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-5d7427350e81f87516f4543f",
+      "title": "영국, 채용 공고에 급여 공개 의무화하라고 기업에 지시",
+      "titleTranslations": {
+        "en": "Firms told to publish salaries in job adverts ahead of new law"
+      },
+      "startAt": "2026-11-06T07:36:41.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "영국 정부는 채용 공고에 급여를 명시하도록 기업들에 지시했다. 정부는 이 조치가 구직자에게 도움이 되고 임금 차별을 방지하는 데 기여할 것이라고 주장하며 관련 법 시행을 앞두고 준비를 촉구했다.",
+      "descriptionTranslations": {
+        "en": "The UK government has told firms to publish salaries in job adverts ahead of a new law. The government says the change will help jobseekers and could help prevent pay discrimination as the legislation approaches implementation."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-06T07:36:41.000Z",
+        "lastObservedAt": "2026-11-06T07:54:34.001Z"
+      }
+    },
+    {
+      "id": "news-ef462061cde94afcd33801b2",
+      "title": "NASA APOD, '스위프트'에 작별을 고하는 특집 공개",
+      "titleTranslations": {
+        "en": "APOD: A Farewell to Swift"
+      },
+      "startAt": "2026-11-06T05:05:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA의 아스트로노미 픽처 오브 더 데이(APOD)는 'A Farewell to Swift' 제목의 특집을 게재했다. 해당 게시물은 스위프트(Swift) 우주관측선에 대한 작별을 다루고 있다.",
+      "descriptionTranslations": {
+        "en": "NASA's Astronomy Picture of the Day (APOD) published a feature titled 'A Farewell to Swift'. The post addresses a farewell to the Swift space observatory."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/"
+        ],
+        "firstPublishedAt": "2026-11-06T05:05:00.000Z",
+        "lastObservedAt": "2026-11-06T07:54:34.001Z"
+      }
+    },
+    {
+      "id": "news-6050192b65fb2d16a51d6f61",
+      "title": "관측 사상 가장 이른 시점에 약화한 극성(Polar vortex), 영국 겨울 영향 불확실성 제기",
+      "titleTranslations": {
+        "en": "Could the earliest weakening of the polar vortex on record bring UK snow?"
+      },
+      "startAt": "2026-11-06T01:22:39.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "기상 전문가들은 극성(Polar vortex)이 관측 사상 가장 이른 시점에 약화한 현상이 영국의 겨울 날씨에 어떤 영향을 미칠지 예측하기 어렵다고 밝혔다. 조기 약화는 강수·한파 패턴에 변동을 일으킬 수 있어 향후 예보에 대한 불확실성을 높였다.",
+      "descriptionTranslations": {
+        "en": "Meteorologists say the polar vortex has weakened at the earliest point on record, creating uncertainty about its impact on UK winter weather. The unprecedented early weakening could affect precipitation and cold‑weather patterns, complicating forecasts."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cwyvrz09mnd6o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/weather/articles/cwyvrz09mnd6o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-06T01:22:39.000Z",
+        "lastObservedAt": "2026-11-06T07:54:34.001Z"
+      }
+    },
+    {
+      "id": "news-5c50352f02719aed8ed7ab31",
+      "title": "나스닥, 민주당 선거 성과·AI 규제 우려에 19개월 만에 최악의 하루 기록",
+      "titleTranslations": {
+        "en": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph"
+      },
+      "startAt": "2026-11-05T21:23:18.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "기술주 중심의 나스닥 지수가 민주당의 선거 성과와 AI 산업에 대한 규제 우려 속에 5.5% 급락해 19개월 만에 최악의 하루를 기록했다. 거래일 종가 기준으로 2조 달러 규모가 증발했고 지수는 최근 최고치 대비 10% 이상 하락해 ‘조정권’에 들어갔다.",
+      "descriptionTranslations": {
+        "en": "The Nasdaq index plunged 5.5%, its worst day in 19 months, amid investor concern about potential AI regulation following Democratic election gains. More than $2tn was wiped off its value by the close and the index fell into 'correction territory', over 10% below its recent record high."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses"
+        ],
+        "firstPublishedAt": "2026-11-05T21:23:18.000Z",
+        "lastObservedAt": "2026-11-06T07:54:34.001Z"
+      }
+    },
     {
       "id": "news-ffff2886fc4b1906ffc939db",
       "title": "캘리포니아 주지사, 사형수 548명 전원 형 집행 정지",
@@ -198,6 +312,64 @@
         ],
         "firstPublishedAt": "2026-11-05T17:03:15.000Z",
         "lastObservedAt": "2026-11-05T20:39:09.503Z"
+      }
+    },
+    {
+      "id": "news-99ca05fb3e413bbb3996edb1",
+      "title": "'대규모 어류 폐사' 오염 사고 수사 착수 — 잉글랜드 인러 강서 트라우트 다수 폐사",
+      "titleTranslations": {
+        "en": "'Investigation into 'major fish kill' after pollution incident"
+      },
+      "startAt": "2026-11-05T14:51:45.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 1,
+      "description": "당국이 오염 사고로 인한 '대규모 어류 폐사' 사건을 조사하고 있다. 보도에 따르면 이 오염으로 잉글랜드의 인러(Inler) 강에서 갈색·회유 송어(트라우트)가 다수 폐사한 것으로 보고됐다.",
+      "descriptionTranslations": {
+        "en": "Authorities have launched an investigation into a pollution incident that caused a 'major fish kill'. Reports say the pollution led to the deaths of brown and migratory sea trout in the Inler river."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx1l36y2d941o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cx1l36y2d941o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-05T14:51:45.000Z",
+        "lastObservedAt": "2026-11-06T07:54:34.001Z"
+      }
+    },
+    {
+      "id": "news-053acf46c70803e1470481f4",
+      "title": "보고서: 트럼프 행정부, 암 유해물질 규제 500건 이상 약화 조치 취해",
+      "titleTranslations": {
+        "en": "Trump takes 500 actions to weaken cancer protections, new report says"
+      },
+      "startAt": "2026-11-05T12:00:23.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "환경단체(NRDC) 보고서는 트럼프 행정부가 연방 규칙과 절차를 변경해 암을 유발하는 물질에 대한 보호조치를 약화시키는 500개가량의 조치를 취했다고 지적했다. 보고서는 이러한 규제 변경이 공중의 발암물질 노출을 크게 늘릴 수 있다고 경고했다.",
+      "descriptionTranslations": {
+        "en": "A Natural Resources Defense Council (NRDC) report alleges the Trump administration took more than 500 actions that collectively weakened federal protections against carcinogens. The report warns the rule changes could significantly increase public exposure to cancer‑causing substances."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation"
+        ],
+        "firstPublishedAt": "2026-11-05T12:00:23.000Z",
+        "lastObservedAt": "2026-11-06T07:54:34.001Z"
       }
     },
     {
@@ -1643,36 +1815,6 @@
       }
     },
     {
-      "id": "news-0b103d9b36fda54e3b0cea7b",
-      "title": "분석가들: 다가오는 발사(런치) 위기 '예상보다 더 심각'",
-      "titleTranslations": {
-        "en": "Analysts say looming launch crisis is 'more severe' than anticipated"
-      },
-      "startAt": "2026-10-30T16:12:59.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아르스테크니카 보도는 분석가들이 다가오는 로켓 발사 능력 문제를 예상보다 심각하다고 평가했다고 전했다. 보도는 추가로 Starship이 전통적 위성을 발사할 것이라는 증거도 없다고 지적했다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports that analysts warn of a looming crisis in launch capacity that is more severe than expected. The coverage also notes there is no evidence that Starship will be used to launch traditional satellites."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/"
-        ],
-        "firstPublishedAt": "2026-10-30T16:12:59.000Z",
-        "lastObservedAt": "2026-10-30T18:34:43.977Z"
-      }
-    },
-    {
       "id": "news-fd1bc1421536f42c3fa94ba6",
       "title": "배우 패트릭 스튜어트 경 별세 — 향년 86",
       "titleTranslations": {
@@ -1698,35 +1840,6 @@
         ],
         "firstPublishedAt": "2026-10-30T12:43:46.000Z",
         "lastObservedAt": "2026-10-30T18:34:43.977Z"
-      }
-    },
-    {
-      "id": "news-06dd76803e8b9715c5076919",
-      "title": "바이낸스 63억 달러 해킹 관련 정리 보도 — 추가 정황·분석 영상",
-      "titleTranslations": {
-        "en": "What we know about Binance's $6.3bn hack — summary and analysis"
-      },
-      "startAt": "2026-10-30T12:27:28.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "BBC 비즈니스 영상 보도는 기록적 규모로 알려진 약 63억 달러 규모의 바이낸스 해킹 사건 정황을 정리해 설명했다. 보도는 사건의 알려진 규모와 영향, 수사·복구 노력에 관한 현시점의 정보를 정리해 제공하고 있다.",
-      "descriptionTranslations": {
-        "en": "A BBC Business video explains what is known about the reported $6.3bn hack of Binance, summarizing the scale, impacts, and the current state of investigations and recovery efforts."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
-          "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-30T16:35:44.000Z",
-        "lastObservedAt": "2026-10-31T06:57:05.940Z"
       }
     },
     {
@@ -1898,34 +2011,6 @@
       }
     },
     {
-      "id": "news-46e9220382855ee4cf978e57",
-      "title": "DoorDash, 대형 인수로 인스탁트(Instacart) 인수 합의",
-      "titleTranslations": {
-        "en": "DoorDash to buy Instacart for $17bn in major grocery delivery consolidation"
-      },
-      "startAt": "2026-10-29T13:41:43.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도는 DoorDash가 인스탁트(Instacart)를 약 170억 달러에 인수하기로 합의했다고 전했다. 회사들은 브랜드와 앱을 유지하고 매장·배달 인프라 결합을 통해 식료품 배달 역량을 강화하겠다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Reports say DoorDash has agreed to buy Instacart for about $17 billion, consolidating grocery‑delivery capacity. The companies say the Instacart brand and app will remain and that the deal will expand store and delivery coverage."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/29/doordash-buys-instacart-grocery-delivery",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/29/doordash-buys-instacart-grocery-delivery"
-        ],
-        "firstPublishedAt": "2026-10-29T13:41:43.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
-      }
-    },
-    {
       "id": "news-e9bfba10ec085dbed72d2bc5",
       "title": "북인도양 첫 이름난 폭풍 'Arnab', 안드라프라데시 해안 상륙",
       "titleTranslations": {
@@ -1950,35 +2035,6 @@
           "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/"
         ],
         "firstPublishedAt": "2026-10-29T04:01:00.000Z",
-        "lastObservedAt": "2026-10-29T07:01:23.964Z"
-      }
-    },
-    {
-      "id": "news-90cb8501592e8648d3c543a3",
-      "title": "캘리포니아 해안에 기록적 만조 — 거리·주택 침수, 카약 통근 장면까지",
-      "titleTranslations": {
-        "en": "Record‑breaking high tides flood California coast — streets, homes submerged and kayak commutes"
-      },
-      "startAt": "2026-10-28T22:22:39.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "보도에 따르면 샌디에이고부터 샌프란시스코 베이 지역까지 기록적 조위로 저지대 공동체의 거리와 주택, 상점이 침수되었고 일부 지역에서는 카약과 패들보드를 이용한 통근 장면이 목격되는 등 혼란이 발생했다.",
-      "descriptionTranslations": {
-        "en": "Reports say record high tides have inundated low‑lying communities from San Diego to the San Francisco Bay Area, submerging streets, homes and businesses; in some places people were seen kayaking or paddle‑boarding through normally busy thoroughfares."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/28/california-extreme-weather-high-tides",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/video/2026/oct/27/aerial-video-shows-california-flooding-amid-record-breaking-tides-video",
-          "https://www.theguardian.com/us-news/2026/oct/28/california-extreme-weather-high-tides"
-        ],
-        "firstPublishedAt": "2026-10-27T21:55:44.000Z",
         "lastObservedAt": "2026-10-29T07:01:23.964Z"
       }
     },
@@ -2091,34 +2147,6 @@
           "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/"
         ],
         "firstPublishedAt": "2026-10-28T16:25:29.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
-      "id": "news-8ca2f0d9390b6938593a40f5",
-      "title": "웹브(다음세대 망원경), 대마젤란 성운의 격렬한 별 탄생 지역 N159 이미지 공개",
-      "titleTranslations": {
-        "en": "Webb releases image of turbulent star‑forming region N159 in the Large Magellanic Cloud"
-      },
-      "startAt": "2026-10-28T15:33:10.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA는 웹브가 161,000광년 떨어진 대마젤란 은하 주변의 N159 지역에서 빽빽한 기체 덩어리로 채워진 격렬한 별 형성 장면을 포착한 이미지를 공개했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "NASA released a Webb image showing a turbulent cauldron of star formation — dense clumps of gas — in region N159, located about 161,000 light‑years away in the Large Magellanic Cloud."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/"
-        ],
-        "firstPublishedAt": "2026-10-28T15:33:10.000Z",
         "lastObservedAt": "2026-10-28T18:50:15.129Z"
       }
     },
