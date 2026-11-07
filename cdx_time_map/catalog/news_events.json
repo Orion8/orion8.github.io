@@ -1,36 +1,207 @@
 {
-  "catalogVersion": "0.0.207",
-  "updatedAt": "2026-11-07T07:04:01.883Z",
+  "catalogVersion": "0.0.208",
+  "updatedAt": "2026-11-07T18:01:15.881Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-a2c6e770ad911ecd8e3a37bd",
-      "title": "파라과이 대통령 산티아고 페냐, 탄핵 뒤 체포",
+      "id": "news-5113a68d44988ebc2cba7924",
+      "title": "베이지역 유권자들, 재정 위기 해소 위한 교통세 두 건 압도적 승인",
       "titleTranslations": {
-        "en": "Paraguay's President Santiago Peña impeached and arrested"
+        "en": "Bay Area voters approve two measures to rescue region’s transit systems from financial crisis"
       },
-      "startAt": "2026-11-07T03:25:00.000Z",
+      "startAt": "2026-11-07T16:00:15.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 3,
+      "description": "샌프란시스코 베이 지역 유권자들이 재정난에 처한 지역 대중교통 기관들을 구하기 위한 두 가지 조치를 압도적으로 승인했다. 한 제안인 지역교통세(RTM)는 4개 카운티에 0.5%의 판매세와 샌프란시스코에 1%의 판매세를 도입해 연간 약 10억 달러를 조성해 주요 운영자를 지원할 예정이다. 보도는 제안이 전반적으로 강한 지지를 받았다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Voters in the San Francisco Bay Area overwhelmingly approved two measures intended to save financially distressed public transit agencies. The Regional Transit Measure (RTM) will implement a 0.5% sales tax across four Bay Area counties and a 1% sales tax in San Francisco, generating roughly $1bn annually to fund the region’s largest transit operators. Coverage says the measures won strong support across the region."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/07/san-francisco-bay-area-transit-bart-muni",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/07/san-francisco-bay-area-transit-bart-muni"
+        ],
+        "firstPublishedAt": "2026-11-07T16:00:15.000Z",
+        "lastObservedAt": "2026-11-07T18:01:15.881Z"
+      }
+    },
+    {
+      "id": "news-a3a63a91f6daf1ab8843d05a",
+      "title": "뉴질랜드 총선, 뚜렷한 승자 없이 초박빙 표심",
+      "titleTranslations": {
+        "en": "No clear winner after tight New Zealand general election"
+      },
+      "startAt": "2026-11-07T15:56:28.000Z",
       "lane": "world",
       "category": "politicsSociety",
       "importance": 3,
-      "description": "보도에 따르면 디지털 은행 붕괴로 수백만 명의 예금이 동결되는 사태가 발생한 가운데 산티아고 페냐 대통령이 의회에서 탄핵된 뒤 체포되었다고 전해졌다.",
+      "description": "예비 개표 결과 뉴질랜드 의회가 크게 분열된 모습으로 나타나 뚜렷한 승자가 나오지 않았다. 보도는 향후 수주간 연정 협상이 이어질 가능성이 높다고 전했다.",
       "descriptionTranslations": {
-        "en": "Reports say President Santiago Peña was impeached by lawmakers and arrested after a collapse at a digital bank left millions of people unable to access their savings."
+        "en": "Preliminary results from New Zealand's general election show no clear winner, pointing to a highly divided parliament. Coverage says weeks of coalition talks are likely to follow."
       },
       "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-07T15:56:28.000Z",
+        "lastObservedAt": "2026-11-07T18:01:15.880Z"
+      }
+    },
+    {
+      "id": "news-75287dd157f834820b75004b",
+      "title": "Great British Railways 법제화 임박 — 시작과 함께 해결 과제 산적",
+      "titleTranslations": {
+        "en": "Great British Railways nears legal establishment but faces immediate operational challenges"
+      },
+      "startAt": "2026-11-07T13:00:11.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "정부가 법적으로 Great British Railways(GBR)를 설립하는 절차가 연말쯤 마무리될 가능성이 있다는 발표가 있었다. 업계 전문가들은 2027년 초 조직 출범과 함께 노후 차량·선로·극단적 기상 스트레스 등 해결해야 할 오래된 문제가 즉시 닥칠 것으로 예상하고 있다.",
+      "descriptionTranslations": {
+        "en": "Ministers say legislation to establish Great British Railways could be completed by Christmas, giving GBR a strong chance of becoming law. Experts predict the renationalised body will face immediate operational challenges in 2027, including ageing trains, track issues and pressure from extreme weather."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/business/2026/nov/07/great-british-railways-new-dawn-for-a-new-network-but-with-plenty-of-old-problems-to-fix",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/nov/07/great-british-railways-new-dawn-for-a-new-network-but-with-plenty-of-old-problems-to-fix"
+        ],
+        "firstPublishedAt": "2026-11-07T13:00:11.000Z",
+        "lastObservedAt": "2026-11-07T18:01:15.881Z"
+      }
+    },
+    {
+      "id": "news-b62c9c03eb5f12028fe23388",
+      "title": "반투 확장 연구 — 유전학·고고학이 확산 경로를 밝히다",
+      "titleTranslations": {
+        "en": "The Bantu expansion changed Africa — genes and archaeology reveal how"
+      },
+      "startAt": "2026-11-07T12:15:55.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "유전자 연구와 고고학 증거가 결합되며 반투어 화자들의 아프리카 대륙 전반 확산 과정과 그 영향에 대한 새로운 이해를 제공하고 있다. 보도는 이러한 연구들이 언어·유전자·문화의 변화를 추적하고 있다고 전한다.",
+      "descriptionTranslations": {
+        "en": "Genetic and archaeological research is shedding new light on how Bantu speakers spread across much of Africa and the resulting changes. Coverage says these studies are helping to trace shifts in language, genes and culture."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/"
+        ],
+        "firstPublishedAt": "2026-11-07T12:15:55.000Z",
+        "lastObservedAt": "2026-11-07T18:01:15.880Z"
+      }
+    },
+    {
+      "id": "news-83d0fa70a5480304fd93d348",
+      "title": "BBC ‘Married at First Sight UK’ 방영 취소—출연자들 복합적 반응",
+      "titleTranslations": {
+        "en": "Married at First Sight UK cancelled after Panorama investigation — cast react with relief, tears and sadness"
+      },
+      "startAt": "2026-11-07T11:31:10.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "BBC 판로라마(Panorama) 조사에서 세 명의 전 출연자가 제기한 주장들이 보도된 뒤, 리얼리티 프로그램 'Married at First Sight UK'의 방송이 취소되었다. 출연자들은 취소 소식에 안도와 눈물, 슬픔이 섞인 반응을 보였다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "The BBC's Married at First Sight UK has been cancelled after a Panorama investigation heard allegations from three former cast members. Reports say cast reacted with a mixture of relief, tears and sadness following the cancellation."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crx233lx94n7o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crx233lx94n7o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-07T11:31:10.000Z",
+        "lastObservedAt": "2026-11-07T18:01:15.880Z"
+      }
+    },
+    {
+      "id": "news-bbcba1608024b9f13b3823f8",
+      "title": "몬티 돈, 'Gardeners' World'서 20년 만에 마지막 인사",
+      "titleTranslations": {
+        "en": "Monty Don bids 'final goodbye' to Gardeners' World after two decades"
+      },
+      "startAt": "2026-11-07T10:44:38.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "description": "오랜 기간 'Gardeners' World'의 수석 정원사로 활동해온 몬티 돈이 롱미도우(Longmeadow) 정원에서 마지막 방송 촬영을 마치고 작별 인사를 전했다. 보도는 그의 오랜 사회적·문화적 영향력을 전했다.",
+      "descriptionTranslations": {
+        "en": "Monty Don, the long‑running show's head gardener, has signed off from Gardeners' World at Longmeadow after two decades. Reports note his long‑standing cultural influence through the programme."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6wyrrwj9xlro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6wyrrwj9xlro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-07T10:44:38.000Z",
+        "lastObservedAt": "2026-11-07T18:01:15.881Z"
+      }
+    },
+    {
+      "id": "news-a2c6e770ad911ecd8e3a37bd",
+      "title": "파라과이 대통령 산티아고 페냐, 탄핵 직후 가택연금",
+      "titleTranslations": {
+        "en": "Ousted Paraguay president placed under house arrest after impeachment"
+      },
+      "startAt": "2026-11-07T01:55:11.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "의회에서 탄핵된 직후 산티아고 페냐 전 대통령이 가택연금 상태에 놓였다. 이번 조치는 이번 주 정지된 우에노(Ueno) 은행의 불규칙성과 관련한 조사 속에서 나왔으며, 은행 정지로 인구의 약 60%가 계좌에 접근하지 못하는 사태가 빚어졌다. 보도는 페냐가 정부 재임 중 급격히 확장한 한 은행을 편들었다는 혐의로 조사를 받고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Minutes after being impeached by Congress, former president Santiago Peña has been placed under house arrest. The move comes amid investigations connected to irregularities at the Ueno bank, which was suspended this week and left about 60% of the population unable to access their accounts. Reports say Peña is being investigated over allegations he used his political influence to favour a bank that expanded rapidly during his administration."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
       "topicIds": [
         "politicsHumanRights",
         "koreaEastAsia"
       ],
       "news": {
-        "status": "breaking",
+        "status": "developing",
         "sourceUrls": [
           "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
-          "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
         ],
         "firstPublishedAt": "2026-11-05T18:30:16.000Z",
-        "lastObservedAt": "2026-11-07T07:04:01.882Z"
+        "lastObservedAt": "2026-11-07T18:01:15.880Z"
       }
     },
     {
@@ -60,6 +231,63 @@
         ],
         "firstPublishedAt": "2026-11-06T22:53:46.000Z",
         "lastObservedAt": "2026-11-07T07:04:01.883Z"
+      }
+    },
+    {
+      "id": "news-6271bef94c80eeb022bd6618",
+      "title": "머스크, 사이버트럭 생산 종결 암시 — 공장 전환해 자율택시 생산 예정",
+      "titleTranslations": {
+        "en": "Elon Musk appears to signal the end of the road for Cybertruck as Tesla plans factory shift to autonomous taxis"
+      },
+      "startAt": "2026-11-06T21:49:50.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "일론 머스크가 사이버트럭 생산을 종료하는 신호를 보냈다고 보도됐다. 머스크는 텍사스 공장의 일부 생산을 자율주행 택시 '사이버캡(Cybercab)' 생산으로 전환할 예정이라고 밝혔으며, 이는 사이버트럭 생산의 중단으로 이어질 가능성이 제기된다.",
+      "descriptionTranslations": {
+        "en": "Reports say Elon Musk has signalled the end for the Cybertruck, indicating Tesla will wind down production and repurpose its Texas factory to produce the autonomous taxi, the 'Cybercab'. The announcement suggests Cybertruck output may be phased out to make way for the new vehicle."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+          "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-06T12:38:05.000Z",
+        "lastObservedAt": "2026-11-07T18:01:15.880Z"
+      }
+    },
+    {
+      "id": "news-de0c28c9953fb6e77af413b2",
+      "title": "AI 관련 주식 반등 — 수조 달러 증발 뒤 상승",
+      "titleTranslations": {
+        "en": "AI stocks climb after trillions wiped from market values"
+      },
+      "startAt": "2026-11-06T21:06:25.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "기술주에 대한 대규모 매도 이후 일부 AI 관련 종목이 반등했다는 보도가 나왔다. 보도는 민주당의 선거 성과로 AI 규제가 강화될 것이라는 우려가 한때 기술주 매도에 기여했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say some AI‑related stocks have climbed after a period in which trillions were wiped from tech market values. Coverage notes that concerns that Democratic election gains could lead to slower AI development and greater regulation contributed to earlier selling."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-06T21:06:25.000Z",
+        "lastObservedAt": "2026-11-07T18:01:15.880Z"
       }
     },
     {
@@ -345,34 +573,6 @@
         ],
         "firstPublishedAt": "2026-11-06T12:48:37.000Z",
         "lastObservedAt": "2026-11-07T07:04:01.883Z"
-      }
-    },
-    {
-      "id": "news-6271bef94c80eeb022bd6618",
-      "title": "테슬라, 텍사스 공장서 사이버트럭 생산 중단 예정…자율택시 ‘사이버캡’ 전환",
-      "titleTranslations": {
-        "en": "Tesla to wind down Cybertruck production as Elon Musk focuses on robotics and AI"
-      },
-      "startAt": "2026-11-06T12:38:05.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도에 따르면 일론 머스크는 테슬라가 텍사스 공장의 사이버트럭 생산을 내년 중반쯤 중단하고 해당 공장을 자사의 자율주행 택시 '사이버캡(Cybercab)' 생산에 전환할 계획이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Reports say Elon Musk announced Tesla will wind down Cybertruck production at its Texas factory around the middle of next year in order to repurpose the plant for the company's self‑driving taxi, the 'Cybercab'."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai"
-        ],
-        "firstPublishedAt": "2026-11-06T12:38:05.000Z",
-        "lastObservedAt": "2026-11-06T19:57:13.746Z"
       }
     },
     {
@@ -1407,34 +1607,6 @@
       }
     },
     {
-      "id": "news-9bcfdc55331da27bcd897749",
-      "title": "러시아 폭격으로 우크라이나 구호센터서 26명 사망, 키이우 발표",
-      "titleTranslations": {
-        "en": "Russian bombing kills 26 at Ukraine aid centre, Kyiv says"
-      },
-      "startAt": "2026-11-02T21:10:04.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "키이우 당국은 남부 우크라이나의 한 마을에서 최소 9발의 3,000kg급 공중폭탄이 떨어져 구호센터에서 26명이 숨졌다고 밝혔다. 대통령은 이번 공격을 '완전히 끔찍한' 공격이라고 표현했다.",
-      "descriptionTranslations": {
-        "en": "Kyiv authorities say at least nine 3,000kg aerial bombs struck a southern Ukrainian village, killing 26 people at an aid centre. The president described the attack as an 'utterly horrific' assault."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-02T21:10:04.000Z",
-        "lastObservedAt": "2026-11-02T22:19:07.405Z"
-      }
-    },
-    {
       "id": "news-b9ac585d42a76d26af690870",
       "title": "이란 전쟁 종식 기대에 유가 급락 — 브렌트 6% 이상 하락",
       "titleTranslations": {
@@ -1488,38 +1660,6 @@
         ],
         "firstPublishedAt": "2026-11-02T12:00:41.000Z",
         "lastObservedAt": "2026-11-03T07:53:12.460Z"
-      }
-    },
-    {
-      "id": "news-06a2c703111142070fa59601",
-      "title": "바이낸스 해킹 여파—이용자들 36억 달러 인출, 거래 동결",
-      "titleTranslations": {
-        "en": "Binance users withdraw $3.6bn after largest‑ever crypto hack"
-      },
-      "startAt": "2026-11-02T07:42:33.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도는 대규모 해킹 사건 후 바이낸스 이용자들이 약 36억 달러를 인출했으며, 거래소는 사건과 관련해 거래를 동결했다고 전했다. 이번 사건은 북한 연계 그룹과 관련이 있다는 보도가 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say Binance users have withdrawn about $3.6bn following a major hack, and the exchange froze transactions related to the incident. Coverage links the attack to a North Korean‑linked group."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "climateEnvironment",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
-          "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-29T10:00:31.000Z",
-        "lastObservedAt": "2026-11-02T22:19:07.405Z"
       }
     },
     {
@@ -1581,34 +1721,6 @@
       }
     },
     {
-      "id": "news-69c245550d646a9db4cdd473",
-      "title": "LA 시장 카렌 배스, 재선 경쟁 심화 — 진보 성향 도전자와 접전",
-      "titleTranslations": {
-        "en": "Embattled Karen Bass fights to keep Los Angeles mayorship as progressive challenger gains"
-      },
-      "startAt": "2026-11-01T18:19:06.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "보도는 LA 시장 카렌 배스가 주택·물가 등 문제를 둘러싼 선거전에서 진보 성향의 도전자와 치열한 경쟁을 벌이며 재선에 어려움을 겪고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says Los Angeles mayor Karen Bass is facing a strong challenge and is fighting to retain her mayorship amid a tight race with a more progressive challenger, with affordability a key issue."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/01/karen-bass-los-angeles-mayoral-race",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/01/karen-bass-los-angeles-mayoral-race"
-        ],
-        "firstPublishedAt": "2026-11-01T18:19:06.000Z",
-        "lastObservedAt": "2026-11-01T18:25:50.695Z"
-      }
-    },
-    {
       "id": "news-f063ceae6ff751ba9d7c0016",
       "title": "미·중 무역갈등 일시 진정 — '안심은 금물' 분석",
       "titleTranslations": {
@@ -1634,34 +1746,6 @@
         ],
         "firstPublishedAt": "2026-11-01T12:00:12.000Z",
         "lastObservedAt": "2026-11-02T07:38:15.232Z"
-      }
-    },
-    {
-      "id": "news-6adc980a9aea12f0fb12d785",
-      "title": "사디크 칸, 런던 로보택시 수 제한 촉구 — 공기질·혼잡·일자리 우려 제기",
-      "titleTranslations": {
-        "en": "Sadiq Khan calls for cap on robotaxis in London over air quality, congestion and jobs"
-      },
-      "startAt": "2026-11-01T10:00:09.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "런던 시장 사디크 칸은 정부가 완전자율주행 차량 운행을 허용할 태세인 가운데 로보택시 수에 대한 상한 도입을 촉구하며 공기질·혼잡·일자리 영향을 문제삼았다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "London mayor Sadiq Khan has called for a cap on the number of robotaxis on city streets, questioning the impact on air quality, congestion and jobs as the government considers allowing fully driverless vehicles, reporting says."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets"
-        ],
-        "firstPublishedAt": "2026-11-01T10:00:09.000Z",
-        "lastObservedAt": "2026-11-01T18:25:50.695Z"
       }
     },
     {
@@ -1754,36 +1838,6 @@
       }
     },
     {
-      "id": "news-fc87e12aea801dc699686e0f",
-      "title": "FDA, 약물 'Tavneos' 승인 취소 추진",
-      "titleTranslations": {
-        "en": "The FDA wants to pull its approval of a drug — Tavneos"
-      },
-      "startAt": "2026-10-31T11:02:34.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "미 규제당국은 Tavneos가 조작된 연구 데이터를 근거로 승인되었다고 주장하면서 승인 취소를 추진 중이라고 보도했다. 논의는 환자의 접근권과 규제 절차 문제를 제기하고 있다.",
-      "descriptionTranslations": {
-        "en": "The US regulator says Tavneos was approved on the basis of manipulated study data and is seeking to withdraw its approval. The development raises questions about patient access and regulatory process."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/"
-        ],
-        "firstPublishedAt": "2026-10-31T11:02:34.000Z",
-        "lastObservedAt": "2026-10-31T17:41:19.238Z"
-      }
-    },
-    {
       "id": "news-7aa6dab0376044f6c887c5ca",
       "title": "NASA, 허블 우주망원경 상업적 정비 가능성 조사 재문의 — 업계에 아이디어 재공모",
       "titleTranslations": {
@@ -1813,35 +1867,6 @@
         ],
         "firstPublishedAt": "2026-10-30T14:51:21.000Z",
         "lastObservedAt": "2026-11-01T18:25:50.695Z"
-      }
-    },
-    {
-      "id": "news-ed86d275fc79f3d949920abb",
-      "title": "AI 지출이 거의 1조달러에 근접하며 美 기술주 급락",
-      "titleTranslations": {
-        "en": "US tech stocks fall sharply as AI spending nears $1tn"
-      },
-      "startAt": "2026-10-30T20:34:46.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도는 AI 관련 지출 전망이 커지는 가운데 주요 기술주가 급락해 나스닥 등 기술 중심지수가 큰 폭으로 하락했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says rising expectations of AI‑related spending coincided with sharp falls in major tech stocks, driving big declines in tech‑heavy indexes such as the Nasdaq."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
-          "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-30T18:27:51.000Z",
-        "lastObservedAt": "2026-10-31T17:41:19.237Z"
       }
     },
     {
@@ -2379,34 +2404,6 @@
       }
     },
     {
-      "id": "news-d36b74aa246a7f9f73c2da66",
-      "title": "레이(Raye), 앨범 'This Music May Contain Hope'로 머큐리상 수상",
-      "titleTranslations": {
-        "en": "Raye wins the Mercury Prize with This Music May Contain Hope"
-      },
-      "startAt": "2026-10-23T00:14:08.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 1,
-      "description": "영국 팝 아티스트 레이가 앨범 'This Music May Contain Hope'로 2026년 머큐리상을 수상했다. 경쟁 후보로는 폴 매카트니, 수에이드, 제이드 씰월 등이 포함됐다.",
-      "descriptionTranslations": {
-        "en": "Pop star Raye won the 2026 Mercury Prize for the album This Music May Contain Hope, beating nominees including Paul McCartney, Suede and Jade Thirlwall."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw073mj02v72o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw073mj02v72o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-23T00:14:08.000Z",
-        "lastObservedAt": "2026-10-23T06:00:48.524Z"
-      }
-    },
-    {
       "id": "news-29a4ffbe1d32dba88cabfc88",
       "title": "성운 속에서 별이 태어나는 장면 — ESA 이미지 공개",
       "titleTranslations": {
@@ -2459,34 +2456,6 @@
           "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-20T23:03:11.000Z",
-        "lastObservedAt": "2026-10-21T05:59:40.712Z"
-      }
-    },
-    {
-      "id": "news-feb21eec35bc6663617f0081",
-      "title": "BBC, BBC Three·BBC Scotland·Radio 4 Extra 방송 채널 폐쇄 발표",
-      "titleTranslations": {
-        "en": "BBC to close BBC Three, BBC Scotland and Radio 4 Extra broadcast channels"
-      },
-      "startAt": "2026-10-20T15:14:58.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "BBC 내부 보도는 BBC가 비용 절감을 이유로 BBC Three와 BBC Scotland, Radio 4 Extra의 방송 채널을 폐쇄하기로 했으며, 내부 인사인 케이티 래절은 이런 조치가 '사업적 의미'가 있지만 더 많은 절감이 여전히 필요하다고 평가했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the BBC will close its BBC Three, BBC Scotland and Radio 4 Extra broadcast channels as part of cost‑saving measures. Katie Razzall commented that the closures make business sense but that more savings will be needed, coverage says."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c63eln34yle3o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c63eln34yle3o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-20T15:14:58.000Z",
         "lastObservedAt": "2026-10-21T05:59:40.712Z"
       }
     },
