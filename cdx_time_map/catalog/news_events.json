@@ -1,8 +1,95 @@
 {
-  "catalogVersion": "0.0.206",
-  "updatedAt": "2026-11-06T19:57:13.746Z",
+  "catalogVersion": "0.0.207",
+  "updatedAt": "2026-11-07T07:04:01.883Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-a2c6e770ad911ecd8e3a37bd",
+      "title": "파라과이 대통령 산티아고 페냐, 탄핵 뒤 체포",
+      "titleTranslations": {
+        "en": "Paraguay's President Santiago Peña impeached and arrested"
+      },
+      "startAt": "2026-11-07T03:25:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 디지털 은행 붕괴로 수백만 명의 예금이 동결되는 사태가 발생한 가운데 산티아고 페냐 대통령이 의회에서 탄핵된 뒤 체포되었다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say President Santiago Peña was impeached by lawmakers and arrested after a collapse at a digital bank left millions of people unable to access their savings."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+          "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-05T18:30:16.000Z",
+        "lastObservedAt": "2026-11-07T07:04:01.882Z"
+      }
+    },
+    {
+      "id": "news-b19a52adc818672926aaedfb",
+      "title": "오픈AI, 추가 110억 달러 조달 보도 — 평가액 1조2500억달러",
+      "titleTranslations": {
+        "en": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation"
+      },
+      "startAt": "2026-11-06T22:53:46.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보도에 따르면 오픈AI가 아직 마무리되지 않은 자금조달 라운드에서 추가로 약 110억 달러를 조달했다고 전해졌으며, 인수·투자 논의와 함께 회사 평가액을 1조2500억 달러 수준으로 평가받고 있다는 보도가 나왔다.",
+      "descriptionTranslations": {
+        "en": "Reports say OpenAI has reportedly raised an additional $11 billion in an ongoing funding round and is being valued at about $1.25 trillion, according to coverage of the talks."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+        ],
+        "firstPublishedAt": "2026-11-06T22:53:46.000Z",
+        "lastObservedAt": "2026-11-07T07:04:01.883Z"
+      }
+    },
+    {
+      "id": "news-728988fc29fadf139baed6f5",
+      "title": "칠레 감독 세바스티안 레리오 별세",
+      "titleTranslations": {
+        "en": "Sebastián Lelio was a fascinating film-maker of great passion and poetry"
+      },
+      "startAt": "2026-11-06T20:56:41.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "보도에 따르면 영화 '글로리아'와 'A Fantastic Woman' 등의 감독 세바스티안 레리오가 사망했다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say Chilean director Sebastián Lelio, known for films including Gloria and A Fantastic Woman, has died."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-film-maker",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-film-maker"
+        ],
+        "firstPublishedAt": "2026-11-06T20:56:41.000Z",
+        "lastObservedAt": "2026-11-07T07:04:01.883Z"
+      }
+    },
     {
       "id": "news-a14ce572aafc2a76343c3cb5",
       "title": "탄자니아 야권 지도자 툰두 리수, ‘정치적 동기’ 사건으로 수감",
@@ -57,6 +144,65 @@
         ],
         "firstPublishedAt": "2026-11-06T19:23:03.000Z",
         "lastObservedAt": "2026-11-06T19:57:13.746Z"
+      }
+    },
+    {
+      "id": "news-c262b9961ff71dc31ad1bfdb",
+      "title": "수백 대의 Artex AI 해킹 도구 서버가 인터넷에 노출",
+      "titleTranslations": {
+        "en": "Hundreds of Artex AI hacking tools found publicly exposed to the web"
+      },
+      "startAt": "2026-11-06T18:44:38.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "보안 연구원들은 침투테스트 도구인 Artex를 호스팅하는 수백 개의 서버가 인터넷에 노출돼 누구나 접근할 수 있는 상태라고 밝혀, 잠재적 오용과 보안 위험이 우려된다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Security researchers found hundreds of servers hosting the penetration‑testing tool Artex exposed to the internet, allowing public access — raising concerns about potential misuse and security risks."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+        ],
+        "firstPublishedAt": "2026-11-06T18:44:38.000Z",
+        "lastObservedAt": "2026-11-07T07:04:01.883Z"
+      }
+    },
+    {
+      "id": "news-5c50352f02719aed8ed7ab31",
+      "title": "민주당 선거성과·AI 규제 우려에 나스닥 19개월 만의 최악의 하루",
+      "titleTranslations": {
+        "en": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph"
+      },
+      "startAt": "2026-11-06T18:32:16.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도는 민주당의 선거 성과와 AI 산업에 대한 규제 우려가 맞물리며 기술주 중심의 나스닥이 5.5% 급락해 19개월 만의 최악의 하루를 기록했고 시가총액 수조 달러가 증발했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reporting says the Nasdaq plunged — its worst day in 19 months — as Democratic election gains and fears of increased AI regulation spooked investors, wiping trillions off tech market value."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
+          "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/news/video/2026/nov/06/could-the-ai-bubble-burst-after-democrats-midterms-sweep-the-latest"
+        ],
+        "firstPublishedAt": "2026-11-05T21:23:18.000Z",
+        "lastObservedAt": "2026-11-07T07:04:01.883Z"
       }
     },
     {
@@ -118,6 +264,34 @@
       }
     },
     {
+      "id": "news-646602439acadc241b9cc8ac",
+      "title": "런던 지하철 차장 노조, 크리스마스 전·후 8일간 24시간 파업 예고",
+      "titleTranslations": {
+        "en": "Commuters and shoppers face disruption from tube driver strikes in run‑up to Christmas"
+      },
+      "startAt": "2026-11-06T13:45:57.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도에 따르면 RMT 노조 소속 런던 지하철 운전사들이 4일 근무제 도입에 반대하며 16일에 걸쳐 8회 24시간 파업을 예고했고, 이 중 6회가 크리스마스 직전 기간에 집중되어 통근·쇼핑에 큰 혼란이 예상된다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say RMT union tube drivers in London have announced eight 24‑hour strikes over a 16‑day period in opposition to plans for a four‑day week, with six of the stoppages scheduled in the run‑up to Christmas and major disruption expected."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/nov/06/commuters-and-shoppers-face-disruption-from-tube-driver-strikes-in-run-up-to-christmas",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/2026/nov/06/commuters-and-shoppers-face-disruption-from-tube-driver-strikes-in-run-up-to-christmas"
+        ],
+        "firstPublishedAt": "2026-11-06T13:45:57.000Z",
+        "lastObservedAt": "2026-11-07T07:04:01.883Z"
+      }
+    },
+    {
       "id": "news-e3b83f3df8bd66e1ff84f2cb",
       "title": "미국 10월 고용, 예상 상회 — 16만5천개 일자리 증가·실업률 4.1%",
       "titleTranslations": {
@@ -146,6 +320,34 @@
       }
     },
     {
+      "id": "news-127af6818ff60c965107f9c6",
+      "title": "남아프리카 지방선거서 ANC, 80% 개표 기준 대패 기류",
+      "titleTranslations": {
+        "en": "ANC faces bruising defeat in South African local elections with 80% of ballots counted"
+      },
+      "startAt": "2026-11-06T12:48:37.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 개표가 80%가량 진행된 시점에서 집권 아프리카민족회의(ANC)의 전국 득표율이 2021년보다 크게 떨어져 전국 기준 득표율이 3분의1 아래로 추정되며, 실업·범죄·부패·서비스 부실에 따른 유권자 이탈이 원인으로 지목되고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say with around 80% of ballots counted in South Africa's local elections, the ruling African National Congress (ANC) is on track for a heavy loss — polling below a third nationally — amid voter anger over unemployment, crime, corruption and poor local services."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
+        ],
+        "firstPublishedAt": "2026-11-06T12:48:37.000Z",
+        "lastObservedAt": "2026-11-07T07:04:01.883Z"
+      }
+    },
+    {
       "id": "news-6271bef94c80eeb022bd6618",
       "title": "테슬라, 텍사스 공장서 사이버트럭 생산 중단 예정…자율택시 ‘사이버캡’ 전환",
       "titleTranslations": {
@@ -171,6 +373,34 @@
         ],
         "firstPublishedAt": "2026-11-06T12:38:05.000Z",
         "lastObservedAt": "2026-11-06T19:57:13.746Z"
+      }
+    },
+    {
+      "id": "news-ea4c9a52e32d5f29a75fc215",
+      "title": "아이오다호주, 갓 태어난 늑대 새끼 살해에 한 마리당 2,000달러 지급 기록 유출",
+      "titleTranslations": {
+        "en": "‘An abomination’: Idaho hunters earned thousands of dollars to kill newborn wolf pups, records reveal"
+      },
+      "startAt": "2026-11-06T12:00:42.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "보도에 따르면 아이다호 주 당국이 늑대 개체 수를 줄이기 위해 신생 늑대 새끼 한 마리당 약 2,000달러를 지급했고 문서에는 올봄에 열두 마리의 새끼가 살해된 사례와 적어도 한 번의 새끼무리(리터)가 둥지 근처에서 살해된 정황이 포함되어 있다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say Idaho officials paid roughly $2,000 per newborn wolf pup killed as part of efforts to reduce the state's wolf population; records show about a dozen pups were killed this spring, including at least one full litter taken near its den."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/06/idaho-hunters-newborn-wolf-pups",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/06/idaho-hunters-newborn-wolf-pups"
+        ],
+        "firstPublishedAt": "2026-11-06T12:00:42.000Z",
+        "lastObservedAt": "2026-11-07T07:04:01.883Z"
       }
     },
     {
@@ -260,34 +490,6 @@
       }
     },
     {
-      "id": "news-5c50352f02719aed8ed7ab31",
-      "title": "나스닥, 민주당 선거 성과·AI 규제 우려에 19개월 만에 최악의 하루 기록",
-      "titleTranslations": {
-        "en": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph"
-      },
-      "startAt": "2026-11-05T21:23:18.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "기술주 중심의 나스닥 지수가 민주당의 선거 성과와 AI 산업에 대한 규제 우려 속에 5.5% 급락해 19개월 만에 최악의 하루를 기록했다. 거래일 종가 기준으로 2조 달러 규모가 증발했고 지수는 최근 최고치 대비 10% 이상 하락해 ‘조정권’에 들어갔다.",
-      "descriptionTranslations": {
-        "en": "The Nasdaq index plunged 5.5%, its worst day in 19 months, amid investor concern about potential AI regulation following Democratic election gains. More than $2tn was wiped off its value by the close and the index fell into 'correction territory', over 10% below its recent record high."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses"
-        ],
-        "firstPublishedAt": "2026-11-05T21:23:18.000Z",
-        "lastObservedAt": "2026-11-06T07:54:34.001Z"
-      }
-    },
-    {
       "id": "news-ffff2886fc4b1906ffc939db",
       "title": "캘리포니아 주지사, 사형수 548명 전원 형 집행 정지",
       "titleTranslations": {
@@ -340,35 +542,6 @@
           "https://www.bbc.co.uk/news/articles/cqj34d3l0zlmo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-05T19:49:14.000Z",
-        "lastObservedAt": "2026-11-05T20:39:09.503Z"
-      }
-    },
-    {
-      "id": "news-a2c6e770ad911ecd8e3a37bd",
-      "title": "디지털은행 붕괴로 사임 직후 파라과이 대통령 탄핵",
-      "titleTranslations": {
-        "en": "Paraguay's president is impeached minutes after resigning following a bank collapse"
-      },
-      "startAt": "2026-11-05T18:30:16.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 파라과이의 대통령이 디지털 은행 붕괴로 수백만 명의 예금이 동결되는 사태가 발생한 가운데 사임했으며, 사임 직후 의회에서 탄핵 표결이 이뤄져 탄핵됐다.",
-      "descriptionTranslations": {
-        "en": "Reports say Paraguay’s president resigned after the collapse of a digital bank that froze millions of people’s savings, and was impeached by lawmakers minutes after his resignation."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse"
-        ],
-        "firstPublishedAt": "2026-11-05T18:30:16.000Z",
         "lastObservedAt": "2026-11-05T20:39:09.503Z"
       }
     },
@@ -1350,35 +1523,6 @@
       }
     },
     {
-      "id": "news-f4c5be0a71e76073b83082bc",
-      "title": "유엔, 35년 임무 종료 — 서사하라 분쟁 평화유지 활동 종결",
-      "titleTranslations": {
-        "en": "UN ends 35‑year peacekeeping mission in disputed Western Sahara"
-      },
-      "startAt": "2026-11-02T07:19:35.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "유엔의 장기 평화유지 임무가 35년 만에 종료되었다. 서사하라는 과거 스페인령이었으며 모로코와 친(親)독립 폴리사리오 전선이 영유권을 주장해온 지역이다.",
-      "descriptionTranslations": {
-        "en": "The U.N.'s long‑running peacekeeping mission has ceased operations after 35 years. Western Sahara, once ruled by Spain, is claimed by both Morocco and the pro‑independence Polisario Front."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends"
-        ],
-        "firstPublishedAt": "2026-11-02T07:19:35.000Z",
-        "lastObservedAt": "2026-11-02T07:38:15.232Z"
-      }
-    },
-    {
       "id": "news-355ad5ac5207f3333afa5663",
       "title": "영국 응급실, 악화하는 소아환자 조기 식별 위한 경보 시스템 도입",
       "titleTranslations": {
@@ -1461,34 +1605,6 @@
           "https://www.theguardian.com/us-news/2026/nov/01/karen-bass-los-angeles-mayoral-race"
         ],
         "firstPublishedAt": "2026-11-01T18:19:06.000Z",
-        "lastObservedAt": "2026-11-01T18:25:50.695Z"
-      }
-    },
-    {
-      "id": "news-15f19ca81ac7a3d7f09df68c",
-      "title": "콜로라도, 제초제 살포 드론 계획에 지역사회 반발",
-      "titleTranslations": {
-        "en": "Colorado community contests plan to use drones to spray weed killer"
-      },
-      "startAt": "2026-11-01T14:00:18.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 1,
-      "description": "콜로라도 보울더카운티 레드힐 일대에서 침입 식물을 제거하기 위해 드론으로 제초제를 살포하는 계획이 발표되자 지역 주민과 환경 단체들이 우려를 표명하며 반발하고 있다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Officials in Red Hill, Colorado plan to use drones to spray weed killer to remove invasive plants, prompting concern and opposition from local residents and environmental groups, reporting says."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/01/colorado-drones-weed-killer",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/01/colorado-drones-weed-killer"
-        ],
-        "firstPublishedAt": "2026-11-01T14:00:18.000Z",
         "lastObservedAt": "2026-11-01T18:25:50.695Z"
       }
     },
@@ -1668,64 +1784,6 @@
       }
     },
     {
-      "id": "news-38c651b07df005208a465fa8",
-      "title": "영국 크리스마스 기간 10일 철도 공사로 상당한 운행 차질 예고",
-      "titleTranslations": {
-        "en": "Ten days of railway engineering work planned over Christmas in Britain, causing major disruption"
-      },
-      "startAt": "2026-10-31T11:00:41.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "보도에 따르면 영국의 주요 철도 노선에서 크리스마스 기간 동안 10일간 대규모 공사가 예정돼 있어 승객들에게 상당한 혼란이 예상된다. 런던 패딩턴과 버밍엄 뉴스트리트 역은 일부 기간 폐쇄되지만 대부분 노선은 계속 운행될 것으로 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say major railway engineering works will cause 10 days of disruption over Christmas in Britain. London Paddington and Birmingham New Street will be closed for parts of the period, though most routes are expected to remain open."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/31/railway-engineering-work-christmas-disruption-london-birmingham",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/oct/31/railway-engineering-work-christmas-disruption-london-birmingham"
-        ],
-        "firstPublishedAt": "2026-10-31T11:00:41.000Z",
-        "lastObservedAt": "2026-11-01T07:28:15.085Z"
-      }
-    },
-    {
-      "id": "news-b0b7c3efd75243fd6b1e49e6",
-      "title": "글로벌 자연보전 협상 타결 — 합의 도달했으나 자금 문제는 남아",
-      "titleTranslations": {
-        "en": "Global nature talks reach deal — agreement reached but funding remains an issue"
-      },
-      "startAt": "2026-10-31T01:27:05.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "BBC 과학·환경 보도에 따르면 여러 국가가 참여한 글로벌 자연보전 협상이 합의에 도달했으나, 합의를 이행할 자금 문제는 여전히 논란으로 남아 있다고 보도했다. 보도는 합의의 범위와 재원 조달의 난제를 짚었다.",
-      "descriptionTranslations": {
-        "en": "BBC Science & Environment reports that countries at global nature talks have reached a deal, but financing to implement the agreement remains a key unresolved issue. The coverage outlines the scope of the agreement and the challenges around funding."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-31T01:27:05.000Z",
-        "lastObservedAt": "2026-10-31T06:57:05.940Z"
-      }
-    },
-    {
       "id": "news-7aa6dab0376044f6c887c5ca",
       "title": "NASA, 허블 우주망원경 상업적 정비 가능성 조사 재문의 — 업계에 아이디어 재공모",
       "titleTranslations": {
@@ -1812,63 +1870,6 @@
         ],
         "firstPublishedAt": "2026-10-30T19:31:02.000Z",
         "lastObservedAt": "2026-11-01T07:28:15.085Z"
-      }
-    },
-    {
-      "id": "news-8f46fe2dc3e8f77c97848486",
-      "title": "시티 오브 런던 대표 이안 토마스, 블랙 파워리스트 1위 선정",
-      "titleTranslations": {
-        "en": "City of London chief Ian Thomas tops UK Black Powerlist"
-      },
-      "startAt": "2026-10-30T18:00:24.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 1,
-      "description": "보도는 시티 오브 런던을 이끄는 이안 토마스가 21주년 블랙 파워리스트에서 1위에 올랐다고 전했다. 이 리스트는 영국 사회·경제 분야에서 영향력을 행사하는 흑인 인사들을 선정해 발표한다.",
-      "descriptionTranslations": {
-        "en": "Reporting says Ian Thomas, who heads the City of London Corporation, topped the UK Black Powerlist in its 21st year. The list recognises Black figures with influence across British society and the economy."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-30T18:00:24.000Z",
-        "lastObservedAt": "2026-11-01T07:28:15.085Z"
-      }
-    },
-    {
-      "id": "news-235bb524b25e5166740043aa",
-      "title": "구글의 첫 '데이터센터 위성' 가동 — 우주 TPU에서 제미니 4 모델 가동, 시(詩)도 창작",
-      "titleTranslations": {
-        "en": "Google’s first data‑center satellite is online — a TPU in space runs Gemini 4 and writes poetry"
-      },
-      "startAt": "2026-10-30T17:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "테크크런치 보도에 따르면 구글의 최초 TPU(텐서 처리 유닛) 탑재 위성이 작동을 시작했으며 우주에서 구글 딥마인드의 Gemma 4 모델을 실행해 시(詩)를 쓰는 등 실험적 작업을 수행하고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch reports that Google's first data‑center satellite, carrying a TPU to space, is online. The in‑orbit TPU is running a Google DeepMind Gemma 4 model and has been used to generate poetry as part of early experiments."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
-        ],
-        "firstPublishedAt": "2026-10-30T17:00:00.000Z",
-        "lastObservedAt": "2026-10-30T18:34:43.977Z"
       }
     },
     {
@@ -2177,34 +2178,6 @@
         ],
         "firstPublishedAt": "2026-10-28T16:25:29.000Z",
         "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
-      "id": "news-b64f67eedfb83e74f5e89f73",
-      "title": "네이선 필더 연출 엘리자베스 홈즈 다큐 'You Can See Everything' 흥행·관심 촉발",
-      "titleTranslations": {
-        "en": "Nathan Fielder’s Elizabeth Holmes documentary becomes a major hit and drives renewed interest"
-      },
-      "startAt": "2026-10-27T14:34:55.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "네이선 필더가 공동 연출한 엘리자베스 홈즈 다큐멘터리 'You Can See Everything'가 흥행을 기록하며 관객들을 다시 2022년 드라마 'The Dropout'으로 이끌고 있다고 보도됐다. 보도는 영화가 상업적 성공과 문화적 논의를 불러일으키고 있다고 전한다.",
-      "descriptionTranslations": {
-        "en": "Nathan Fielder‑co‑directed documentary 'You Can See Everything' about Elizabeth Holmes has become a hit, driving audiences back to the 2022 TV drama 'The Dropout' and sparking renewed cultural discussion, reporting says."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/tv-and-radio/2026/oct/27/elizabeth-holmes-documentary-mania-you-can-see-everything-the-dropout",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/tv-and-radio/2026/oct/27/elizabeth-holmes-documentary-mania-you-can-see-everything-the-dropout"
-        ],
-        "firstPublishedAt": "2026-10-27T14:34:55.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.181Z"
       }
     },
     {
