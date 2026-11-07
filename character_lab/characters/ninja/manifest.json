@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "ninja",
+  "name": "Ninja",
+  "asset": "ninja.glb",
+  "mode": "imported",
+  "clips": {
+    "idle": "mixamo.com"
+  }
+}

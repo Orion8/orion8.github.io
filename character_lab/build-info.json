@@ -1,20 +1,18 @@
 {
-  "viewerVersion": "0.9.0",
-  "defaultCharacter": "silver",
-  "sourceCommit": "aec332be547cf1c3903f4f546879a1aa8feeca42",
-  "silverSha256": "fe085c8ff4291e366a784f39101b7481081669894bdf6711d8d9f3dcf27350bb",
+  "viewerVersion": "0.10.0",
+  "defaultCharacter": "ninja",
+  "sourceCommit": "32eac9917b290bbb792f51a1d54373a164817811",
+  "ninjaSha256": "06989d5e49c075ca93ea7df5161492610819920f93faf38ae2c704d9be34f034",
+  "ninjaClip": {
+    "embeddedName": "mixamo.com",
+    "displayName": "Idle",
+    "durationSeconds": 4.208333333333333,
+    "loop": true
+  },
   "verification": {
     "unitTests": 20,
-    "targetedBrowserTests": 1,
-    "gltfErrors": 0,
-    "embeddedImages": 2
+    "targetedBrowserTests": 2,
+    "gltfErrors": 0
   },
-  "note": "Existing hosted Aster asset preserved; previous local sculpt revision is not part of this release.",
-  "silverAnimations": [
-    "Idle",
-    "Walk",
-    "Run",
-    "Jump"
-  ],
-  "animationSource": "Viewer-authored procedural Rigify clips; original GLB preserved"
+  "note": "Existing hosted Aster asset preserved; pending local sculpt edits excluded."
 }

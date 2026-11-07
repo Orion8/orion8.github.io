@@ -1,8 +1,8 @@
-# Character Lab v0.9.0
+# Character Lab v0.10.0
 
 https://orion8.github.io/character_lab/
 
-Silver Hair opens by default. The viewer creates Idle, Walk, Run and Jump clips on the existing Rigify deform skeleton. Walk/Run connect to the root-motion World controller. These are procedural basic motions, not Meshy library clips. The uploaded GLB and embedded textures are preserved; animations are created by the app rather than embedded in the download. Aster and Pip remain selectable.
+Ninja opens by default using the uploaded ninja.glb, with embedded textures, rig and 4.21-second mixamo.com clip. The viewer labels it Idle and loops it. Framing uses the full animated bounds. Pause, replay, speed, timeline and camera controls are available. World and facial expressions are disabled for Ninja because those motions are not included. Silver Hair retains its four procedural motions; Aster and Pip remain selectable.
 
 Source: https://github.com/Orion8/character_lab/tree/feat/concept-character
 
