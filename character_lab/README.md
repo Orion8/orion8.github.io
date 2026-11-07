@@ -1,4 +1,4 @@
-# Character Lab v0.10.0
+# Character Lab v0.10.1
 
 https://orion8.github.io/character_lab/
 
@@ -7,3 +7,5 @@ Ninja opens by default using the uploaded ninja.glb, with embedded textures, rig
 Source: https://github.com/Orion8/character_lab/tree/feat/concept-character
 
 See build-info.json for local verification.
+
+The v0.10.1 patch corrects facial skin weights with a smooth jaw/neck transition. Only joint/weight buffers changed; the uploaded geometry, textures and Idle animation data are preserved.

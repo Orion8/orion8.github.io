@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "ninja",
   "name": "Ninja",
-  "asset": "ninja.glb",
+  "asset": "ninja.glb?v=facefix1",
   "mode": "imported",
   "clips": {
     "idle": "mixamo.com"

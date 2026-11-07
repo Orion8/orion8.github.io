@@ -1,8 +1,8 @@
 {
-  "viewerVersion": "0.10.0",
+  "viewerVersion": "0.10.1",
   "defaultCharacter": "ninja",
-  "sourceCommit": "32eac9917b290bbb792f51a1d54373a164817811",
-  "ninjaSha256": "06989d5e49c075ca93ea7df5161492610819920f93faf38ae2c704d9be34f034",
+  "sourceCommit": "fbba111ec63842ee8264e4b5db56acda62c8e18e",
+  "ninjaSha256": "44a0fd53ab352bdf14bf9abb20d517df289e13577a41b2a455174e6842151a9f",
   "ninjaClip": {
     "embeddedName": "mixamo.com",
     "displayName": "Idle",
@@ -14,5 +14,7 @@
     "targetedBrowserTests": 2,
     "gltfErrors": 0
   },
-  "note": "Existing hosted Aster asset preserved; pending local sculpt edits excluded."
+  "note": "Existing hosted Aster asset preserved; pending local sculpt edits excluded.",
+  "faceWeightsCorrected": true,
+  "artAndAnimationBytesPreserved": true
 }
