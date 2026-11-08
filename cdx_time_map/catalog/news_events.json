@@ -1,8 +1,264 @@
 {
-  "catalogVersion": "0.0.209",
-  "updatedAt": "2026-11-08T07:15:30.063Z",
+  "catalogVersion": "0.0.210",
+  "updatedAt": "2026-11-08T18:20:02.575Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-a54b8458643cef99136811fe",
+      "title": "알카라즈, 파리 마스터스에서 셀턴 꺾고 첫 파리 타이틀 획득",
+      "titleTranslations": {
+        "en": "Alcaraz beats Shelton to win first Paris title"
+      },
+      "startAt": "2026-11-08T17:56:35.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "description": "보도는 카를로스 알카라즈가 베른 셀턴을 상대로 파리 마스터스 결승에서 승리해 파리 타이틀을 처음으로 획득했으며, 부상에서의 회복을 이어가고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say Carlos Alcaraz defeated Ben Shelton in the Paris Masters final to claim his first Paris title, continuing a notable comeback from injury."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/tennis/articles/ck9qz8d2znl5o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/tennis/articles/ck9qz8d2znl5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-08T17:56:35.000Z",
+        "lastObservedAt": "2026-11-08T18:20:02.575Z"
+      }
+    },
+    {
+      "id": "news-ed4e6b3802ec42be504a1eba",
+      "title": "영국 노동당 정부, 자동차 산업 전기차 목표 축소 검토",
+      "titleTranslations": {
+        "en": "Labour expected to cut EV targets for UK’s car industry despite MPs’ protests"
+      },
+      "startAt": "2026-11-08T17:51:19.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "보도에 따르면 루이스 헤이(Louise Haigh)가 교통·에너지·산업 부처 간 이견을 정리해 이번 주 EV(전기차) 판매 목표를 약화시키는 방안을 확정할 예정이며, 이는 자동차업계에는 완화되지만 일부 노동당 의원들은 우려하고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say Louise Haigh is expected to finalise plans this week to weaken the UK's EV sales mandate after disputes between transport, energy and business departments. The move would relieve carmakers but alarm some Labour MPs concerned about the government's green commitments."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/08/labour-cut-ev-target-car-industry-despite-climate-concerns",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/nov/08/labour-cut-ev-target-car-industry-despite-climate-concerns"
+        ],
+        "firstPublishedAt": "2026-11-08T17:51:19.000Z",
+        "lastObservedAt": "2026-11-08T18:20:02.575Z"
+      }
+    },
+    {
+      "id": "news-07141ad7abea75515a89fb1d",
+      "title": "이집트 열차 충돌로 7명 사망·100명 이상 부상",
+      "titleTranslations": {
+        "en": "Seven dead and more than 100 injured after trains collide in Egypt"
+      },
+      "startAt": "2026-11-08T17:35:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "기차 두 대가 같은 방향으로 운행하던 중 기자에 따르면 기자자 근교(지자 근처)에서 충돌해 여러 객차가 탈선했고 최소 7명이 숨지고 100명 이상이 다친 것으로 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say two trains travelling in the same direction collided outside Giza, derailing several carriages. At least seven people were killed and more than 100 injured, coverage says."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-08T17:35:13.000Z",
+        "lastObservedAt": "2026-11-08T18:20:02.575Z"
+      }
+    },
+    {
+      "id": "news-2370a423f8f4e8cdae639a3d",
+      "title": "잉글랜드, 월라비즈에 완승하며 보스위크 감독에 지지 표명",
+      "titleTranslations": {
+        "en": "England swat aside Wallabies to back up Borthwick"
+      },
+      "startAt": "2026-11-08T17:04:08.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "description": "보도에 따르면 잉글랜드 럭비 대표팀이 호주 월라비를 상대로 압도적인 경기력을 보이며 스티브 보스위크 감독에 대한 현장 지지를 확인했다.",
+      "descriptionTranslations": {
+        "en": "Coverage reports England produced an emphatic victory over Australia’s Wallabies at Allianz Stadium, providing on‑field backing for head coach Steve Borthwick."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/rugby-union/articles/c9rkyg1gl7rgo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/rugby-union/articles/c9rkyg1gl7rgo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-08T17:04:08.000Z",
+        "lastObservedAt": "2026-11-08T18:20:02.575Z"
+      }
+    },
+    {
+      "id": "news-a3a63a91f6daf1ab8843d05a",
+      "title": "뉴질랜드 총선에서 뚜렷한 승자 없이 연정 협상 임박",
+      "titleTranslations": {
+        "en": "No clear winner in New Zealand election as leaders prepare for talks"
+      },
+      "startAt": "2026-11-08T16:46:15.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "예비개표 결과 뚜렷한 승자가 나오지 않아 크리스토퍼 럭슨 총리가 협상 기간 동안 임시(케어테이커) 정부를 이끌 예정이며, 향후 수주간 연정 협상이 이어질 것으로 보인다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Preliminary results show no clear winner in New Zealand's general election. Prime Minister Christopher Luxon will lead a caretaker government while leaders prepare for what coverage says will be weeks of coalition talks."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
+          "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks"
+        ],
+        "firstPublishedAt": "2026-11-07T15:56:28.000Z",
+        "lastObservedAt": "2026-11-08T18:20:02.574Z"
+      }
+    },
+    {
+      "id": "news-1fd2c4b355c27cd812da7476",
+      "title": "영국 정부, 16세 미만 중고거래 플랫폼 접속 금지 검토 보도",
+      "titleTranslations": {
+        "en": "Government 'looking seriously' at banning under‑16s from Vinted and eBay"
+      },
+      "startAt": "2026-11-08T15:37:25.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도에 따르면 문화장관이 16세 미만 이용자에 대해 Vinted와 eBay 같은 중고거래 플랫폼 접근을 금지하는 방안을 심각하게 검토하고 있음을 확인했다. 관련 조치가 다음 3월에 포함될 수 있다는 보도가 나왔다.",
+      "descriptionTranslations": {
+        "en": "Reports say the culture secretary has confirmed the government is 'looking seriously' at banning under‑16s from platforms such as Vinted and eBay. Coverage says the measures could be among platforms restricted from next March."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-08T15:37:25.000Z",
+        "lastObservedAt": "2026-11-08T18:20:02.575Z"
+      }
+    },
+    {
+      "id": "news-e12ad5f5bdc739ac1d8f772c",
+      "title": "NASA, 달 기지 설계 경연에 상금 100만달러 지원 발표",
+      "titleTranslations": {
+        "en": "NASA announces $1 million Moon Base Student Challenge"
+      },
+      "startAt": "2026-11-08T15:26:38.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "description": "보도에 따르면 NASA는 케네디 우주센터 'MAX POWER' 행사에서 미국 고교·대학(포스트‑세컨더리) 팀을 대상으로 달 기지 설계 아이디어를 모집하는 100만 달러 규모의 학생 경연을 개설했다고 발표했다.",
+      "descriptionTranslations": {
+        "en": "NASA announced at its MAX POWER event that it has opened a $1 million Moon Base Student Challenge inviting US high‑school and post‑secondary teams to contribute designs for a Moon Base."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/"
+        ],
+        "firstPublishedAt": "2026-11-08T15:26:38.000Z",
+        "lastObservedAt": "2026-11-08T18:20:02.575Z"
+      }
+    },
+    {
+      "id": "news-a6ab6098292800ba8af95d54",
+      "title": "스킬로니언 III, 거의 50년 운항 마치고 마지막 항해",
+      "titleTranslations": {
+        "en": "Scillonian III completes final voyage after nearly 50 years"
+      },
+      "startAt": "2026-11-08T14:56:59.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 1,
+      "description": "보도는 오랜 기간 본토와 스킬리 제도를 오가던 여객선 스킬로니언 III가 마지막 항해를 마쳤으며 탑승자들이 눈물을 흘리고 바다노래를 부르는 등 작별 행사가 있었다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage reports that the long‑serving passenger ship Scillonian III, which plied the route between the Cornish mainland and the Isles of Scilly for nearly 50 years, has completed its final voyage amid tearful farewells and sea shanties."
+      },
+      "sourceName": "The Guardian Transport",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/nov/08/scillonian-iii-ship-final-voyage-isles-of-scilly-penzance-cornwall",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/2026/nov/08/scillonian-iii-ship-final-voyage-isles-of-scilly-penzance-cornwall"
+        ],
+        "firstPublishedAt": "2026-11-08T14:56:59.000Z",
+        "lastObservedAt": "2026-11-08T18:20:02.575Z"
+      }
+    },
+    {
+      "id": "news-9e3feb6bb8fadf243e727ba9",
+      "title": "물리학자들, 전기적 잡음 분석으로 초전도체 미스터리 규명",
+      "titleTranslations": {
+        "en": "Physicists used electrical noise to crack a superconductor mystery"
+      },
+      "startAt": "2026-11-08T12:15:31.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "연구진은 전자 잡음(electronic noise)을 측정·분석해 전자가 짝을 이루었는지 여부를 판단할 수 있음을 보여주며 초전도체 관련 난제를 풀었다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Physicists listened to and analysed electronic noise to determine whether electrons had paired up, helping to resolve a mystery in superconductor behaviour, coverage reports."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/"
+        ],
+        "firstPublishedAt": "2026-11-08T12:15:31.000Z",
+        "lastObservedAt": "2026-11-08T18:20:02.575Z"
+      }
+    },
     {
       "id": "news-5e175f27a12ad7cf99f5c4dc",
       "title": "가자지구 집중호우로 난민 텐트 침수·수만명 거주지 상실",
@@ -29,6 +285,36 @@
         ],
         "firstPublishedAt": "2026-11-08T06:55:24.000Z",
         "lastObservedAt": "2026-11-08T07:15:30.063Z"
+      }
+    },
+    {
+      "id": "news-0950815151edb81dc1601506",
+      "title": "우크라이나 전쟁에서 '우주 역량'의 중요성 부각 — 자체 위성·통신 개발 가속",
+      "titleTranslations": {
+        "en": "Space becomes critical to Ukraine war as Kyiv accelerates own space capabilities"
+      },
+      "startAt": "2026-11-08T05:00:30.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "보도는 드론·전장 센서 중심의 전쟁에서 우주 접근이 필수적이라고 전하며, 스타링크 속도 제한·러시아의 오레슈니크 미사일 공격 이후 우크라이나가 자체 우주 역량 개발을 서두르고 있다고 보도했다. 기사에는 8월 15일 러시아의 생산시설 공격 사례도 언급됐다.",
+      "descriptionTranslations": {
+        "en": "Coverage says access to space has become essential in a drone‑and‑sensor driven war. After Starlink speed restrictions and Russian Oreshnik missile strikes, Kyiv is racing to develop its own space capabilities. The report also references the 15 August attack on the Progress Rocket and Space Centre."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/ng-interactive/2026/nov/08/ukraine-space-critical-war-starlink",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/ng-interactive/2026/nov/08/ukraine-space-critical-war-starlink"
+        ],
+        "firstPublishedAt": "2026-11-08T05:00:30.000Z",
+        "lastObservedAt": "2026-11-08T18:20:02.575Z"
       }
     },
     {
@@ -170,34 +456,6 @@
         ],
         "firstPublishedAt": "2026-11-07T16:00:15.000Z",
         "lastObservedAt": "2026-11-07T18:01:15.881Z"
-      }
-    },
-    {
-      "id": "news-a3a63a91f6daf1ab8843d05a",
-      "title": "뉴질랜드 총선, 뚜렷한 승자 없이 초박빙 표심",
-      "titleTranslations": {
-        "en": "No clear winner after tight New Zealand general election"
-      },
-      "startAt": "2026-11-07T15:56:28.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "예비 개표 결과 뉴질랜드 의회가 크게 분열된 모습으로 나타나 뚜렷한 승자가 나오지 않았다. 보도는 향후 수주간 연정 협상이 이어질 가능성이 높다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Preliminary results from New Zealand's general election show no clear winner, pointing to a highly divided parliament. Coverage says weeks of coalition talks are likely to follow."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-07T15:56:28.000Z",
-        "lastObservedAt": "2026-11-07T18:01:15.880Z"
       }
     },
     {
@@ -1141,34 +1399,6 @@
       }
     },
     {
-      "id": "news-ae4524454d9034daedb4bf75",
-      "title": "영국 정부, 보도에 방치된 전동자전거 규제 위한 자문 착수",
-      "titleTranslations": {
-        "en": "Ministers to target ‘wild west’ of e‑bikes blocking pavements"
-      },
-      "startAt": "2026-11-05T07:00:57.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "보도에 따르면 교통부 주도로 전동자전거가 보도를 막는 행위를 해소하기 위한 자문을 시작하며, 주차 기준·플릿 규모·보험 요건 등을 포함한 국가적 기준 도입을 검토한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say ministers, led by the Department for Transport, will launch a consultation to curb e‑bikes blocking pavements — considering national standards on parking, fleet sizes and insurance requirements."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/e-bikes-blocking-pavements-department-for-transport",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/nov/05/e-bikes-blocking-pavements-department-for-transport"
-        ],
-        "firstPublishedAt": "2026-11-05T07:00:57.000Z",
-        "lastObservedAt": "2026-11-05T07:53:51.571Z"
-      }
-    },
-    {
       "id": "news-b1a7a3701a98056437744a2b",
       "title": "홍콩 민주화 상징 조슈아 웡, 징역 10년 선고",
       "titleTranslations": {
@@ -1193,34 +1423,6 @@
           "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-05T06:35:25.000Z",
-        "lastObservedAt": "2026-11-05T07:53:51.571Z"
-      }
-    },
-    {
-      "id": "news-0cb6a43a3e92516d2e7761d3",
-      "title": "파운드, 브렉시트 국민투표 이후 최고 수준으로 상승",
-      "titleTranslations": {
-        "en": "Pound rises to its highest level since the Brexit referendum"
-      },
-      "startAt": "2026-11-05T04:21:35.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도에 따르면 파운드화가 여러 통화에 대한 바스켓 기준으로 브렉시트 국민투표 이후 최고 수준으로 올라섰다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say the pound has reached its highest level against a basket of currencies since the Brexit referendum a decade ago."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-05T04:21:35.000Z",
         "lastObservedAt": "2026-11-05T07:53:51.571Z"
       }
     },
@@ -1480,39 +1682,6 @@
       }
     },
     {
-      "id": "news-1fa24dedc7c445b42a7af858",
-      "title": "우크라이나 헤르손 지역, 짧은 휴전 동안 일시적 일상 회복",
-      "titleTranslations": {
-        "en": "For Ukraine’s Kherson region, a short ceasefire meant a momentary return to normal life"
-      },
-      "startAt": "2026-11-03T15:54:39.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "휴전이 유지된 기간 동안 헤르손 시에서는 카페와 상점이 붐비고 주민들이 외출하는 등 평상시와 같은 모습이 잠시 되돌아왔다고 보도됐다. 일부 주민은 도시가 '살아 있는 것 같다'고 말했다.",
-      "descriptionTranslations": {
-        "en": "During a brief ceasefire in Kherson city, cafes and shops were busy and residents went out, with some saying the city 'seemed alive' for a short period, reporting says."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
-          "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine",
-          "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson"
-        ],
-        "firstPublishedAt": "2026-10-27T05:26:58.000Z",
-        "lastObservedAt": "2026-11-03T20:05:49.601Z"
-      }
-    },
-    {
       "id": "news-5bc59241b64860dea72f101b",
       "title": "러셀 브랜드 강간 재판 — 배심 평의 시작",
       "titleTranslations": {
@@ -1628,93 +1797,6 @@
         ],
         "firstPublishedAt": "2026-11-03T07:19:27.000Z",
         "lastObservedAt": "2026-11-03T07:53:12.460Z"
-      }
-    },
-    {
-      "id": "news-589ab00bb3ff9ab96d79e9d3",
-      "title": "영국 내 대형 AI 데이터센터 계획, 배출 감축 목표 약화 가능성 제기",
-      "titleTranslations": {
-        "en": "Planned large AI data centres in UK could undermine emissions goals"
-      },
-      "startAt": "2026-11-03T06:27:17.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보도는 네 곳의 계획된 '하이퍼스케일' AI 데이터센터가 전력 수요를 충당하기 위해 가스 발전 사용을 검토 중이라며, 이는 영국의 배출 감축 목표를 훼손할 수 있다고 경고했다.",
-      "descriptionTranslations": {
-        "en": "Reports say four planned 'hyperscale' AI data centres are considering using gas‑fired power to meet electricity needs, which could undermine the UK’s emissions reduction goals."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqvgrvx6ekl2o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqvgrvx6ekl2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-03T06:27:17.000Z",
-        "lastObservedAt": "2026-11-03T07:53:12.460Z"
-      }
-    },
-    {
-      "id": "news-9074d1fb6285ef0eea8b2e26",
-      "title": "버밍엄 Digbeth 클럽 문화 지키려는 지역 주민·클럽 이용자들의 저항",
-      "titleTranslations": {
-        "en": "Birmingham clubbers fight to save Digbeth and Britain’s nightlife"
-      },
-      "startAt": "2026-11-03T05:00:39.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "버밍엄의 파티 지구 Digbeth는 철도 업그레이드 사업으로 인해 훼손될 우려가 제기되자 지역 클럽 이용자들과 주민들이 지역 보존을 위해 집회와 캠페인 등을 벌이고 있다. 보도는 이들이 문화적 중요성을 강조하며 당국에 중단을 촉구하고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "In Birmingham’s Digbeth nightlife district, clubbers and local residents are campaigning to protect the area from proposed railway upgrades that could tear the district apart. Reports say they are staging events and urging authorities to halt or alter the plans, stressing the cultural importance of the area."
-      },
-      "sourceName": "The Guardian Cities",
-      "sourceUrl": "https://www.theguardian.com/culture/2026/nov/03/birmingham-clubbers-fighting-to-save-britain-nightlife-digbeth",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/culture/2026/nov/03/birmingham-clubbers-fighting-to-save-britain-nightlife-digbeth"
-        ],
-        "firstPublishedAt": "2026-11-03T05:00:39.000Z",
-        "lastObservedAt": "2026-11-03T20:05:49.601Z"
-      }
-    },
-    {
-      "id": "news-ca204e1c0052a71213a13f97",
-      "title": "Anthropic 경고: 'RSI(자가훈련 가속)' 능력에 매우 근접",
-      "titleTranslations": {
-        "en": "Anthropic warns that it’s very close to RSI capability, aka self‑building AI"
-      },
-      "startAt": "2026-11-02T22:14:50.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "Anthropic는 AI가 스스로를 훈련해 급격한 능력 가속을 일으키는 이른바 RSI(self‑improving AI) 능력에 '매우 가깝다'고 경고했다. 보도는 RSI 개념과 그 위험을 설명했다.",
-      "descriptionTranslations": {
-        "en": "Anthropic warned it is 'very close' to achieving RSI (recursive self‑improvement) capability — the point where AI trains itself and spawns rapid acceleration of capabilities. Coverage explains the RSI concept and its potential risks."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
-        ],
-        "firstPublishedAt": "2026-11-02T22:14:50.000Z",
-        "lastObservedAt": "2026-11-02T22:19:07.405Z"
       }
     },
     {
@@ -1947,34 +2029,6 @@
         ],
         "firstPublishedAt": "2026-10-30T14:51:21.000Z",
         "lastObservedAt": "2026-11-01T18:25:50.695Z"
-      }
-    },
-    {
-      "id": "news-41fa33a940a90fd4f50dce1c",
-      "title": "나사, 새 항공우주 박람회 'MAX POWER' 주요 행사 일정 공개",
-      "titleTranslations": {
-        "en": "NASA releases key events for new aerospace expo and air show 'MAX POWER'"
-      },
-      "startAt": "2026-10-30T19:31:02.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 1,
-      "description": "나사는 플로리다 케네디 우주센터 일대에서 열리는 새 항공우주 박람회 겸 에어쇼 'MAX POWER'의 주요 일정(11월 6일~8일)을 발표했다. 보도는 나사와 외부 협력자들이 여러 공원형 행사를 통해 참여한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "NASA announced key events for the new aerospace expo and air show 'MAX POWER', taking place near the agency's Kennedy Space Center from 6–8 November. The agency and various external collaborators will host multiple park‑style experiences, reporting says."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/"
-        ],
-        "firstPublishedAt": "2026-10-30T19:31:02.000Z",
-        "lastObservedAt": "2026-11-01T07:28:15.085Z"
       }
     },
     {
@@ -2400,34 +2454,6 @@
       }
     },
     {
-      "id": "news-2db7fc025a9b60df15ca2000",
-      "title": "제이크 저먼, 세계선수권 도마 은메달로 영국 체조 역사 새로 작성",
-      "titleTranslations": {
-        "en": "Jarman makes British gymnastics history with World floor silver"
-      },
-      "startAt": "2026-10-24T15:14:14.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 1,
-      "description": "BBC 스포츠는 제이크 저먼이 세계체조선수권 남자 마루에서 은메달을 따며 영국 선수로서 해당 기구에서 최다 메달 기록을 세웠다고 전한다. 저먼은 경기 후 기쁨을 표했다.",
-      "descriptionTranslations": {
-        "en": "BBC Sport reports Jake Jarman claimed silver in the men's floor final at the World Gymnastics Championships, becoming the most decorated British athlete on the floor apparatus."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/gymnastics/videos/c6zxjpv95ey8o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/gymnastics/videos/c6zxjpv95ey8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-24T15:14:14.000Z",
-        "lastObservedAt": "2026-10-24T16:34:36.430Z"
-      }
-    },
-    {
       "id": "news-29a4ffbe1d32dba88cabfc88",
       "title": "성운 속에서 별이 태어나는 장면 — ESA 이미지 공개",
       "titleTranslations": {
@@ -2453,34 +2479,6 @@
         ],
         "firstPublishedAt": "2026-10-22T08:00:00.000Z",
         "lastObservedAt": "2026-10-25T17:03:28.193Z"
-      }
-    },
-    {
-      "id": "news-a81619fcbafafbb9e5e7a90e",
-      "title": "챔피언스리그, 이번 시즌 최다 득점 신기록 수립",
-      "titleTranslations": {
-        "en": "Champions League sets new goals record"
-      },
-      "startAt": "2026-10-20T23:03:11.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 1,
-      "description": "보도에 따르면 이번 시즌 UEFA 챔피언스리그에서는 다득점 경기가 이어지며 대회 역사상 한 시즌 최다 득점 기록이 새로 세워졌다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reporting says this season's UEFA Champions League has seen goal‑heavy matches and has set a new record for the most goals scored in a single season of the competition."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-20T23:03:11.000Z",
-        "lastObservedAt": "2026-10-21T05:59:40.712Z"
       }
     },
     {
