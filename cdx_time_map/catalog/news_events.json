@@ -1,8 +1,149 @@
 {
-  "catalogVersion": "0.0.208",
-  "updatedAt": "2026-11-07T18:01:15.881Z",
+  "catalogVersion": "0.0.209",
+  "updatedAt": "2026-11-08T07:15:30.063Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-5e175f27a12ad7cf99f5c4dc",
+      "title": "가자지구 집중호우로 난민 텐트 침수·수만명 거주지 상실",
+      "titleTranslations": {
+        "en": "Heavy rains flood tents in Gaza, leaving tens of thousands without shelter"
+      },
+      "startAt": "2026-11-08T06:55:24.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 가자지구의 폭우로 난민·실향민이 머문 텐트들이 침수돼 수만 명이 거주지를 잃었으며, 이스라엘의 대(對)가자) 인도지원 제한이 대응을 어렵게 하고 있다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say heavy rains in Gaza have flooded tents housing displaced people, leaving tens of thousands without shelter, and that Israeli restrictions on aid are hampering the response."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-11-08T06:55:24.000Z",
+        "lastObservedAt": "2026-11-08T07:15:30.063Z"
+      }
+    },
+    {
+      "id": "news-7723ccbf8c3a4f1abae0737e",
+      "title": "NASA, 달 기지 탐사·인프라 확대 위한 다수 과제·로버·상업수송 지원 사업 선정",
+      "titleTranslations": {
+        "en": "NASA awards projects to expand Moon‑base transportation, technology and science capabilities"
+      },
+      "startAt": "2026-11-07T22:47:03.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "보도에 따르면 NASA는 달 기지(지속적 유인·로봇 활동) 역량 확대를 위해 상업 로봇 배송, 원자로 구동 로버 'PROMISE', 발사·궤도전달 서비스 및 지표 인프라 등 복수의 과제와 사업을 수여했다.",
+      "descriptionTranslations": {
+        "en": "Reports say NASA announced awards and mission updates to expand Moon‑base exploration, science and infrastructure capabilities, funding projects including commercial robotic deliveries, a nuclear‑powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/"
+        ],
+        "firstPublishedAt": "2026-11-07T22:47:03.000Z",
+        "lastObservedAt": "2026-11-08T07:15:30.063Z"
+      }
+    },
+    {
+      "id": "news-79a8ecf18d1460196950eedd",
+      "title": "이스라엘 대통령, 연정 구성 임무로 야당 지도자 에이센코트 지명",
+      "titleTranslations": {
+        "en": "Israel's president tasks opposition leader Eisenkot with forming government"
+      },
+      "startAt": "2026-11-07T22:19:59.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도는 최근 선거에서 베냐민 네타냐후의 연합과 경쟁 세력 어느 쪽도 과반을 얻지 못해 이스라엘 대통령이 야당 지도자 에이센코트에게 연정 구성 임무를 부여했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage says neither Benjamin Netanyahu’s bloc nor his rival secured a majority in the recent election, and Israel’s president has tasked opposition leader Eisenkot with forming a government."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-07T22:19:59.000Z",
+        "lastObservedAt": "2026-11-08T07:15:30.063Z"
+      }
+    },
+    {
+      "id": "news-4e392e0aaa878514344f9a0a",
+      "title": "미 정보 메모: 중국 MSS가 엔비디아 CEO 감시 위해 임원 동원 시도 보도",
+      "titleTranslations": {
+        "en": "US intelligence memo says China’s MSS recruited an executive to spy on Nvidia’s CEO"
+      },
+      "startAt": "2026-11-07T21:17:08.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "보도에 따르면 올해 유통된 미 정보 메모는 중국 국가안정보장부(MSS)가 엔비디아 최고경영자의 동향을 파악하기 위해 한 여성 기술업 executive를 모집했다고 주장한다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say a US intelligence memo circulated earlier this year claimed that China’s Ministry of State Security (MSS) recruited a female technology executive to spy on Nvidia’s CEO."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+        ],
+        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
+        "lastObservedAt": "2026-11-08T07:15:30.063Z"
+      }
+    },
+    {
+      "id": "news-44a6b3793253ee6a4d103fcb",
+      "title": "NASA, 차기 우주인 모집 공고 — 달 복귀·달 기지·화성 유인 임무 대비 인력 선발",
+      "titleTranslations": {
+        "en": "NASA opens applications for next astronaut class to support Moon Base and future Mars missions"
+      },
+      "startAt": "2026-11-07T18:11:57.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "보도는 NASA가 다음 우주인단 신병 모집을 위한 지원서를 접수한다고 발표했으며, 새 우주인단은 미국의 달 복귀·달 기지 건설과 향후 유인 화성 임무를 준비할 인력이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say NASA has opened applications for its next class of astronauts, who will be recruited to help support returning to the Moon, building a Moon Base, and laying groundwork for future crewed missions to Mars."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/"
+        ],
+        "firstPublishedAt": "2026-11-07T18:11:57.000Z",
+        "lastObservedAt": "2026-11-08T07:15:30.063Z"
+      }
+    },
     {
       "id": "news-5113a68d44988ebc2cba7924",
       "title": "베이지역 유권자들, 재정 위기 해소 위한 교통세 두 건 압도적 승인",
@@ -115,6 +256,34 @@
         ],
         "firstPublishedAt": "2026-11-07T12:15:55.000Z",
         "lastObservedAt": "2026-11-07T18:01:15.880Z"
+      }
+    },
+    {
+      "id": "news-ebb02e415932d86ac9c3bb66",
+      "title": "새로운 ‘고안전’ 플라스틱 가소제 DINCH 노출, 출생체중 저하 연관 연구 결과",
+      "titleTranslations": {
+        "en": "Study links exposure to DINCH — a 'high‑safety' plasticizer — with lower birth weight"
+      },
+      "startAt": "2026-11-07T12:00:13.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "보도는 동료심사 연구 결과 DINCH라 불리는 신세대 ‘고안전’ 플라스틱 가소제 노출이 출생체중 감소와 태아 발달 문제와 연관된 것으로 나타났다고 전했다. DINCH는 미국과 EU의 일부 식품 포장에 광범위하게 사용되고 있다.",
+      "descriptionTranslations": {
+        "en": "Coverage reports a peer‑reviewed study found exposure to Dinch, a newer 'high‑safety' plasticizer, is associated with lower birth weight and fetal development complications; Dinch is widely used in soft plastic food packaging in the US and EU."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/07/nontoxic-plastic-lower-birth-weight-study",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/07/nontoxic-plastic-lower-birth-weight-study"
+        ],
+        "firstPublishedAt": "2026-11-07T12:00:13.000Z",
+        "lastObservedAt": "2026-11-08T07:15:30.063Z"
       }
     },
     {
@@ -687,6 +856,34 @@
         ],
         "firstPublishedAt": "2026-11-06T01:22:39.000Z",
         "lastObservedAt": "2026-11-06T07:54:34.001Z"
+      }
+    },
+    {
+      "id": "news-5f721228af3682c2417b4131",
+      "title": "오픈AI, 실험실 데이터 해석 능력 측정하는 'BioBasicsBench' 100과제 벤치마크 공개",
+      "titleTranslations": {
+        "en": "OpenAI unveils BioBasicsBench, a 100‑task benchmark for everyday wet‑lab science"
+      },
+      "startAt": "2026-11-06T00:00:00.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "오픈AI는 AI 에이전트가 원시 실험 데이터를 해석하고 일상적 실험실 과업을 처리하는 능력을 측정하는 100개 과제로 구성된 벤치마크 'BioBasicsBench'를 소개했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "OpenAI introduced BioBasicsBench, a 100‑task benchmark designed to measure how well AI agents interpret raw experimental data and handle everyday wet‑lab science tasks."
+      },
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+        ],
+        "firstPublishedAt": "2026-11-06T00:00:00.000Z",
+        "lastObservedAt": "2026-11-08T07:15:30.063Z"
       }
     },
     {
@@ -1492,64 +1689,6 @@
       }
     },
     {
-      "id": "news-35c2e38b2bb7bd4eaa5979e1",
-      "title": "미국, 중간선거를 앞두고 이란 케슈므(Qeshm) 섬에 공격 감행",
-      "titleTranslations": {
-        "en": "US strikes Iran's Qeshm Island ahead of midterm elections"
-      },
-      "startAt": "2026-11-03T03:39:08.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 미 당국은 중간선거를 앞두고 이란의 케슈므 섬에 대한 공격을 단행했으며, 미 관리는 CBS에 이번 공격을 '제한적이고 방어적'이라고 설명했다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say US forces struck Iran's Qeshm Island ahead of the midterm elections; US officials told CBS the strikes were 'limited and defensive.'"
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
-          "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-01T22:19:13.000Z",
-        "lastObservedAt": "2026-11-03T07:53:12.460Z"
-      }
-    },
-    {
-      "id": "news-e28f5ace93252c77d8f0a07e",
-      "title": "대법원, 트럼프의 캘리포니아 분쟁표 집계 중단 요청 기각",
-      "titleTranslations": {
-        "en": "Supreme Court rejects Trump's request to stop California counting disputed votes"
-      },
-      "startAt": "2026-11-03T03:32:36.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 대법원이 트럼프 측의 캘리포니아 내 분쟁표 집계 중단 요청을 기각했으며, 이 판결로 트럼프 측의 주 내 표 실격 시도는 사실상 종결됐다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the Supreme Court rejected Trump's request to stop California from counting disputed votes; the ruling effectively ends his bid to disqualify ballots in the state."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-03T03:32:36.000Z",
-        "lastObservedAt": "2026-11-03T07:53:12.460Z"
-      }
-    },
-    {
       "id": "news-ca204e1c0052a71213a13f97",
       "title": "Anthropic 경고: 'RSI(자가훈련 가속)' 능력에 매우 근접",
       "titleTranslations": {
@@ -1749,65 +1888,6 @@
       }
     },
     {
-      "id": "news-ac1ada03b98d3f979e038a6d",
-      "title": "'단공목' 기름딱정벌레, 60년 만에 웨일즈서 재발견",
-      "titleTranslations": {
-        "en": "'Short‑necked oil beetle' found in Wales again after 60 years"
-      },
-      "startAt": "2026-11-01T07:08:04.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보도는 단공목(Short‑Necked) 기름딱정벌레가 최근 조사에서 60년 만에 웨일즈에서 발견됐다고 전했다. 이 종은 이전 조사에서 멸종된 것으로 여겨졌으나 재발견으로 보존 상태와 서식지 보호에 관한 관심이 다시 제기되고 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say the short‑necked oil beetle has been found in Wales for the first time in about 60 years. The species had been feared extinct following recent surveys, and its rediscovery raises renewed attention for conservation and habitat protection."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-01T07:08:04.000Z",
-        "lastObservedAt": "2026-11-01T07:28:15.085Z"
-      }
-    },
-    {
-      "id": "news-204d5faf405d3242c5f35b25",
-      "title": "법원, NAACP의 xAI 데이터센터 오염 소송 진행 허용",
-      "titleTranslations": {
-        "en": "Judge allows NAACP lawsuit over xAI data‑center pollution to move forward"
-      },
-      "startAt": "2026-10-31T21:17:03.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "NAACP가 제기한 소송이 진행 허가를 받았으며, 소송은 스페이스X 계열 AI업체 xAI가 대기오염법(Clean Air Act)을 위반했다는 주장을 담고 있다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "A judge has allowed the NAACP’s lawsuit to proceed; the case alleges that SpaceX‑owned AI company xAI violated the Clean Air Act, reporting says."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
-        ],
-        "firstPublishedAt": "2026-10-31T21:17:03.000Z",
-        "lastObservedAt": "2026-11-01T18:25:50.694Z"
-      }
-    },
-    {
       "id": "news-23855d994607aa8ed8fc4221",
       "title": "콩고민주공화국 최악의 에볼라 유행 — 사망자 5,000명 이상",
       "titleTranslations": {
@@ -1923,34 +2003,6 @@
         ],
         "firstPublishedAt": "2026-10-30T12:43:46.000Z",
         "lastObservedAt": "2026-10-30T18:34:43.977Z"
-      }
-    },
-    {
-      "id": "news-4b2c059bd94e7ed8fd721e38",
-      "title": "NASA 지원 연구, 지구에서 발견된 거의 가장 오래된 화성 운석 연대 확인",
-      "titleTranslations": {
-        "en": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found"
-      },
-      "startAt": "2026-10-29T18:18:09.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "보도는 사하라에서 발견된 마르스 조각 운석의 광물 연대를 측정한 결과 이 암석이 41억 년 이상 전에 형성된 화성 표본일 수 있음을 확인했다고 전했다. 이 연구는 해당 운석이 화성 형성 초기에 속할 수 있음을 시사한다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Reports say a NASA‑funded study dated minerals in a Mars meteorite found in the Sahara and concluded the nearly 800‑gram rock formed more than 4.1 billion years ago, making it one of the oldest known pieces of Mars and suggesting it dates to the planet's early formation."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/"
-        ],
-        "firstPublishedAt": "2026-10-29T18:18:09.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
       }
     },
     {
@@ -2174,34 +2226,6 @@
           "https://www.theguardian.com/film/2026/oct/28/iran-film-maker-jafar-panahi-new-prison-sentence-assets-seized"
         ],
         "firstPublishedAt": "2026-10-28T16:56:10.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
-      "id": "news-64d1caf6b34e6ea87b274387",
-      "title": "NASA, 2026년 시민과학 제안 19건 선정",
-      "titleTranslations": {
-        "en": "NASA selects 19 new citizen‑science proposals for 2026"
-      },
-      "startAt": "2026-10-28T16:25:29.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "보도는 NASA가 2026년 시민과학 제안 19건을 선정했다고 발표했으며, 자원봉사자 참여가 우주과학 연구에 계속 기여하고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "NASA announced it selected 19 new citizen‑science proposals in 2026, highlighting the continued role of volunteers in contributing to agency science efforts."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/"
-        ],
-        "firstPublishedAt": "2026-10-28T16:25:29.000Z",
         "lastObservedAt": "2026-10-28T18:50:15.129Z"
       }
     },
