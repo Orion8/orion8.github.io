@@ -1,8 +1,125 @@
 {
-  "catalogVersion": "0.0.210",
-  "updatedAt": "2026-11-08T18:20:02.575Z",
+  "catalogVersion": "0.0.211",
+  "updatedAt": "2026-11-09T07:54:59.011Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-aeb8ce7f0504e4a20574a624",
+      "title": "추방된 셰이크 하시나, 방글라데시 복귀 신호로 여권 신청",
+      "titleTranslations": {
+        "en": "Ousted PM Sheikh Hasina seeks passport in sign of Bangladesh return plan"
+      },
+      "startAt": "2026-11-09T07:12:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도에 따르면 해임된 셰이크 하시나 전 총리가 방글라데시 복귀 계획의 신호로 여권을 신청했다. 하시나는 지난 2년간 인도에 거주해왔으며 12월에 방글라데시로 돌아오겠다고 약속한 것으로 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say ousted prime minister Sheikh Hasina has applied for a passport as a sign of a plan to return to Bangladesh. Hasina has been living in India for two years and has reportedly promised to return to Bangladesh in December."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/9/ousted-pm-sheikh-hasina-seeks-passport-in-sign-of-bangladesh-return-plan?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/11/9/ousted-pm-sheikh-hasina-seeks-passport-in-sign-of-bangladesh-return-plan?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-11-09T07:12:09.000Z",
+        "lastObservedAt": "2026-11-09T07:54:59.011Z"
+      }
+    },
+    {
+      "id": "news-ef9196ebc9d306252f9f4e46",
+      "title": "COP31 개막 — 과학자들 2026년 역대 최고 기온 경고·미국은 공식 대표단 불참",
+      "titleTranslations": {
+        "en": "COP31 opens — scientists warn 2026 could be hottest year on record; US to have no official presence"
+      },
+      "startAt": "2026-11-09T06:00:01.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "과학자들은 2026년이 역대 최고 기온이 될 수 있다고 예측하는 가운데, 터키 안탈리아에서 COP31 기후회의가 시작되었다는 보도다. 기사들은 미국 정부가 올해도 공식 대표단을 보내지 않을 예정이며, 미국 내 민주당의 중간선거 승리가 COP 의제에 대한 기대에 영향을 미치고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Scientists predict 2026 could be the hottest year on record as the COP31 climate summit opens in Antalya, Turkey. Reports say the US government will again have no official presence at the talks and that US Democrats' midterm election results have influenced expectations around participation."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/environment/2026/nov/09/cop31-climate-democrats-midterms"
+        ],
+        "firstPublishedAt": "2026-11-09T07:30:12.000Z",
+        "lastObservedAt": "2026-11-09T07:54:59.011Z"
+      }
+    },
+    {
+      "id": "news-81f22044c23e4a55da567b37",
+      "title": "교황, 아르헨티나 방문에서 멜리이의 긴축 정책에 대한 은근한 비판",
+      "titleTranslations": {
+        "en": "Pope delivers veiled rebuke of Milei's austerity measures"
+      },
+      "startAt": "2026-11-09T05:30:37.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 1,
+      "description": "보도는 교황이 라틴아메리카 순방의 두 번째 방문지인 아르헨티나 도착 당시 하비에르 미레이(Javier Milei)의 긴축 정책을 은근히 비판했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage says the Pope delivered a veiled rebuke of Javier Milei's austerity measures as he arrived in Argentina on the second leg of his Latin America tour."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-09T05:30:37.000Z",
+        "lastObservedAt": "2026-11-09T07:54:59.011Z"
+      }
+    },
+    {
+      "id": "news-4e392e0aaa878514344f9a0a",
+      "title": "엔비디아, CEO 젠슨 황의 '중국 정보요원 연루' 의혹 관계 조사 착수",
+      "titleTranslations": {
+        "en": "Nvidia to investigate CEO Jensen Huang’s relationship with possible Chinese spy"
+      },
+      "startAt": "2026-11-08T21:00:11.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "보도에 따르면 엔비디아는 CEO 젠슨 황과 관련해 중국 정보요원일 가능성이 제기된 인물과의 관계를 조사하기로 했다고 밝혔다. 기사에는 황이 사내 메모에서 과거 불륜을 인정했다고 전해진다.",
+      "descriptionTranslations": {
+        "en": "Reports say Nvidia will investigate CEO Jensen Huang’s relationship with a person alleged to be a possible Chinese spy. Coverage notes that Huang admitted in a company memo that he had an affair."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+        ],
+        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
+        "lastObservedAt": "2026-11-09T07:54:59.011Z"
+      }
+    },
     {
       "id": "news-a54b8458643cef99136811fe",
       "title": "알카라즈, 파리 마스터스에서 셀턴 꺾고 첫 파리 타이틀 획득",
@@ -230,6 +347,34 @@
       }
     },
     {
+      "id": "news-b4a23f307828b22da6da9d71",
+      "title": "미국 데이터센터 수요에 파이프라인 사업 확장 — 규제 완화와 맞물려 우려 제기",
+      "titleTranslations": {
+        "en": "US datacentre demand spurs surge in fossil‑fuel pipeline projects amid deregulation"
+      },
+      "startAt": "2026-11-08T13:00:40.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "보도는 미국의 데이터센터 수요가 화석연료 파이프라인 프로젝트 붐을 부추기고 있으며, 트럼프 행정부의 규제 완화와 맞물려 연방 기록에서 거의 200건의 제안 또는 진행 중인 파이프라인이 확인됐고 총 연장은 약 17,000마일에 달한다고 전했다. 기사들은 이에 따른 환경·안전 우려를 지적했다.",
+      "descriptionTranslations": {
+        "en": "Reports say demand from US datacentres is driving a boom in fossil‑fuel pipeline projects. The coverage cites federal records showing nearly 200 proposed or in‑progress pipeline projects totalling about 17,000 miles, and raises concerns about environmental and safety impacts amid deregulatory moves."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/08/datacenters-fossil-fuel-pipelines-regulations",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/08/datacenters-fossil-fuel-pipelines-regulations"
+        ],
+        "firstPublishedAt": "2026-11-08T13:00:40.000Z",
+        "lastObservedAt": "2026-11-09T07:54:59.011Z"
+      }
+    },
+    {
       "id": "news-9e3feb6bb8fadf243e727ba9",
       "title": "물리학자들, 전기적 잡음 분석으로 초전도체 미스터리 규명",
       "titleTranslations": {
@@ -370,35 +515,6 @@
           "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-07T22:19:59.000Z",
-        "lastObservedAt": "2026-11-08T07:15:30.063Z"
-      }
-    },
-    {
-      "id": "news-4e392e0aaa878514344f9a0a",
-      "title": "미 정보 메모: 중국 MSS가 엔비디아 CEO 감시 위해 임원 동원 시도 보도",
-      "titleTranslations": {
-        "en": "US intelligence memo says China’s MSS recruited an executive to spy on Nvidia’s CEO"
-      },
-      "startAt": "2026-11-07T21:17:08.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도에 따르면 올해 유통된 미 정보 메모는 중국 국가안정보장부(MSS)가 엔비디아 최고경영자의 동향을 파악하기 위해 한 여성 기술업 executive를 모집했다고 주장한다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say a US intelligence memo circulated earlier this year claimed that China’s Ministry of State Security (MSS) recruited a female technology executive to spy on Nvidia’s CEO."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
-        ],
-        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
         "lastObservedAt": "2026-11-08T07:15:30.063Z"
       }
     },
@@ -1513,34 +1629,6 @@
       }
     },
     {
-      "id": "news-8c4ec9300281deb557aa1a2e",
-      "title": "남아공 지방선거: ANC, 열악한 서비스에 대한 유권자 분노에 직면",
-      "titleTranslations": {
-        "en": "ANC faces anger over poor services as South Africans vote in local elections"
-      },
-      "startAt": "2026-11-04T14:50:47.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 수도·지방의 유권자들이 상수도 중단, 전력공급 차질 및 노후 인프라에 대한 불만 속에 지방선거에 참여하고 있으며, 여당인 아프리카민족회의(ANC)는 득표율이 3분의1 미만으로 예상되는 등 큰 타격을 받을 것으로 전망된다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Coverage says voters in South Africa are going to the polls amid frustration over water outages, power cuts and crumbling infrastructure, and that the African National Congress (ANC) is expected to fare badly — polls show it may receive less than a third of the vote."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts"
-        ],
-        "firstPublishedAt": "2026-11-04T14:50:47.000Z",
-        "lastObservedAt": "2026-11-05T07:53:51.571Z"
-      }
-    },
-    {
       "id": "news-1be4fdd8e6ca80f0ec012771",
       "title": "오픈AI, 피에르 컴퍼니(Pierre Computer Company) 인수 발표",
       "titleTranslations": {
@@ -1622,34 +1710,6 @@
         ],
         "firstPublishedAt": "2026-11-04T00:04:28.000Z",
         "lastObservedAt": "2026-11-05T07:53:51.571Z"
-      }
-    },
-    {
-      "id": "news-9e27bbce589224e5f8afef5a",
-      "title": "예멘 정부, IRGC·헤즈볼라가 후티에 21명 전문가 파견했다고 비난",
-      "titleTranslations": {
-        "en": "Yemen government accuses IRGC and Hezbollah of sending 21 experts to back Houthis"
-      },
-      "startAt": "2026-11-03T19:09:09.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "예멘 내무장관은 이란 혁명수비대(IRGC)와 레바논의 헤즈볼라가 후티 반군을 지원하기 위해 21명의 전문가를 파견했다고 비난하며, 외국의 개입이 무기·훈련을 넘어 군사작전 지휘로 확대됐다고 주장했다.",
-      "descriptionTranslations": {
-        "en": "Yemen's interior minister accused Iran's Islamic Revolutionary Guard Corps (IRGC) and Lebanon's Hezbollah of sending 21 experts to support the Houthi rebels, saying foreign involvement has expanded beyond arms and training to directing military operations."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-11-03T19:09:09.000Z",
-        "lastObservedAt": "2026-11-03T20:05:49.601Z"
       }
     },
     {
@@ -1909,36 +1969,6 @@
         ],
         "firstPublishedAt": "2026-11-02T00:51:24.000Z",
         "lastObservedAt": "2026-11-02T07:38:15.232Z"
-      }
-    },
-    {
-      "id": "news-275d1d7d06a994573dca092b",
-      "title": "UN 지원 보고서: 1.5°C 초과하면 빙권(cryosphere)에 영구적 손상 우려",
-      "titleTranslations": {
-        "en": "Cryosphere faces permanent damage when world overshoots 1.5C, scientists warn"
-      },
-      "startAt": "2026-11-02T00:01:25.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "유엔 지원 보고서는 파리협정 목표인 1.5°C를 일시적으로라도 초과하면 빙하와 극지의 얼음층에 광범위하고 영구적인 손실이 발생할 수 있다고 경고했다. 보고서는 일시적 초과도 관리 가능한 대안이 아니라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "A UN‑backed report warns that even temporary overshoots above the Paris target of 1.5°C could cause widespread and permanent losses to glaciers and polar ice sheets. The report says temporary overshoot is not a manageable alternative to urgent emissions cuts."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/nov/02/permanent-damage-crysophere-overshoots-15c-scientists-warn",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/nov/02/permanent-damage-crysophere-overshoots-15c-scientists-warn"
-        ],
-        "firstPublishedAt": "2026-11-02T00:01:25.000Z",
-        "lastObservedAt": "2026-11-02T22:19:07.405Z"
       }
     },
     {
@@ -2537,64 +2567,6 @@
         ],
         "firstPublishedAt": "2026-10-17T02:33:09.000Z",
         "lastObservedAt": "2026-10-17T05:33:39.452Z"
-      }
-    },
-    {
-      "id": "news-532401ef0fa9fb90e02e4018",
-      "title": "가을 홍수 대비 경고 — 피해지역 주민들 준비 시작",
-      "titleTranslations": {
-        "en": "'Prepare for the unthinkable' warning over autumn flooding"
-      },
-      "startAt": "2026-10-12T05:24:10.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "BBC 과학·환경 보도는 당국과 전문가들이 가을철 집중강우에 따른 홍수 위험에 대비하라는 경고를 내렸다고 전했다. 이미 피해를 본 지역 주민들은 우려를 표하며 대비를 시작했다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "BBC Science & Environment reports authorities and experts have warned communities to prepare for possible autumn flooding from heavy rains. Residents in flood‑hit areas say they are worried and have begun preparing."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g1pqyqzqwo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm4g1pqyqzqwo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-12T05:24:10.000Z",
-        "lastObservedAt": "2026-10-12T07:18:44.237Z"
-      }
-    },
-    {
-      "id": "news-3f409a5d27f5d39ab0022e70",
-      "title": "WHO, COVID‑19 대응과 그 이후를 위한 'SCORE for Health Data' 기술 패키지 공개",
-      "titleTranslations": {
-        "en": "WHO unveils 'SCORE for Health Data' technical package to improve COVID‑19 response and beyond"
-      },
-      "startAt": "2026-10-10T07:49:45.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "WHO는 국가들이 시의적절하고 신뢰할 수 있는 보건 데이터를 수집·활용할 수 있도록 지원하는 'SCORE for Health Data Technical Package'를 공개했다고 발표했다. 보도는 이 패키지가 팬데믹 대응 역량과 전반적 보건정보시스템 강화를 목표로 한다고 전하며, WHO 사무총장은 '진전을 측정할 수 있어야 진전을 이룰 수 있다'고 말했다.",
-      "descriptionTranslations": {
-        "en": "The World Health Organization announced the 'SCORE for Health Data Technical Package' to help countries improve timely, reliable health data for COVID‑19 response and broader health system strengthening. Reporting says the package aims to bolster health information systems and includes WHO Director‑General Dr Tedros’s assertion that 'countries must be able to measure progress to make progress.'"
-      },
-      "sourceName": "World Health Organization",
-      "sourceUrl": "https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response"
-        ],
-        "firstPublishedAt": "2026-10-10T07:49:45.000Z",
-        "lastObservedAt": "2026-10-26T06:06:12.045Z"
       }
     }
   ]
