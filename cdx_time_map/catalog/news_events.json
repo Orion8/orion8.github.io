@@ -1,8 +1,240 @@
 {
-  "catalogVersion": "0.0.211",
-  "updatedAt": "2026-11-09T07:54:59.011Z",
+  "catalogVersion": "0.0.212",
+  "updatedAt": "2026-11-09T22:59:34.875Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-4e392e0aaa878514344f9a0a",
+      "title": "엔비디아, CEO 젠슨 황의 의심스러운 관계 조사 확대·법적 공방 예고",
+      "titleTranslations": {
+        "en": "Nvidia probe into CEO Jensen Huang’s ties expands; legal challenges loom"
+      },
+      "startAt": "2026-11-09T22:46:09.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "보도들은 엔비디아 이사회가 젠슨 황 CEO와 중국 정보요원으로 의심되는 인물과의 관계에 대한 조사를 개시·확대했다고 전했다. 관련 보도는 문제를 제기한 공매도 보고서가 수개월 전 이를 지적했다는 점과, 조사 착수로 주가가 하락하며 소송 가능성이 거론된다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage says Nvidia’s board has opened and expanded an investigation into CEO Jensen Huang’s relationship with a person alleged to be a suspected Chinese spy. Reports note a short seller flagged the ties months earlier, the company’s shares fell after the probe was announced, and potential lawsuits are being discussed."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+          "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+          "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
+        ],
+        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
+        "lastObservedAt": "2026-11-09T22:59:34.874Z"
+      }
+    },
+    {
+      "id": "news-3baee4176b6d2795b4266c2c",
+      "title": "북부 에티오피아 분쟁, 의료체계 붕괴 위기 초래",
+      "titleTranslations": {
+        "en": "Conflict in northern Ethiopia pushes healthcare system to the brink"
+      },
+      "startAt": "2026-11-09T22:25:13.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 북부 티그라이 지역의 지속된 분쟁으로 인해 한때 지역 모델로 평가받던 에티오피아의 보건시설과 의료 인력이 공격·취약 상태에 놓여 의료체계가 붕괴 직전이라고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say ongoing fighting in Ethiopia’s northern Tigray region has left facilities and medical workers vulnerable to attacks, pushing a health system once seen as a regional model to the brink."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/09/nx-s1-5987949/in-northern-ethiopia-conflict-pushes-a-strained-healthcare-system-to-the-brink",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/09/nx-s1-5987949/in-northern-ethiopia-conflict-pushes-a-strained-healthcare-system-to-the-brink"
+        ],
+        "firstPublishedAt": "2026-11-09T22:25:13.000Z",
+        "lastObservedAt": "2026-11-09T22:59:34.874Z"
+      }
+    },
+    {
+      "id": "news-81f22044c23e4a55da567b37",
+      "title": "교황, 아르헨티나서 성직자 학대 생존자들과 비공개 면담…보호 강화 약속",
+      "titleTranslations": {
+        "en": "Pope meets clergy abuse survivors in Argentina, pledges to strengthen safeguards"
+      },
+      "startAt": "2026-11-09T22:14:37.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도에 따르면 교황은 아르헨티나 방문 중 성직자 학대 생존자들과 비공개로 면담하며 피해자들의 이야기를 경청하고 교회 내 보호 장치 강화를 약속했다.",
+      "descriptionTranslations": {
+        "en": "Reports say the Pope held private meetings with clergy‑abuse survivors during his visit to Argentina, pledged to listen to victims and to reinforce safeguards within the Church."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/9/pope-meets-with-clergy-abuse-survivors-in-argentina?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/11/9/pope-meets-with-clergy-abuse-survivors-in-argentina?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-11-09T05:30:37.000Z",
+        "lastObservedAt": "2026-11-09T22:59:34.874Z"
+      }
+    },
+    {
+      "id": "news-d8777285c3e8d20408b8e70f",
+      "title": "보잉, 상용기 부문 인력 약 5% 감축 발표",
+      "titleTranslations": {
+        "en": "Boeing to cut about 5% of its commercial airplane workforce"
+      },
+      "startAt": "2026-11-09T19:11:26.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도에 따르면 보잉은 제트기 생산의 속도를 조절하기 위해 상용기 부문 인력의 약 5%를 정리할 예정이며, 감원은 해고와 자연감원을 병행해 이뤄질 것이라고 발표했다.",
+      "descriptionTranslations": {
+        "en": "Reports say Boeing will cut roughly 5% of its commercial aeroplane workforce to moderate the pace of ramping up jet production, using a mix of layoffs and attrition."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/nov/09/boeing-to-cut-commercial-plane-workforce",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/nov/09/boeing-to-cut-commercial-plane-workforce"
+        ],
+        "firstPublishedAt": "2026-11-09T19:11:26.000Z",
+        "lastObservedAt": "2026-11-09T22:59:34.874Z"
+      }
+    },
+    {
+      "id": "news-0d8ff19bcb0ddd77978b684e",
+      "title": "NASA 찬드라 망원경, 거대 불안정성 별의 반복 폭발 원인 규명",
+      "titleTranslations": {
+        "en": "NASA’s Chandra finds source of repeated outbursts from a giant unstable star"
+      },
+      "startAt": "2026-11-09T18:55:50.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "보도에 따르면 NASA의 찬드라 X선 관측소를 이용한 연구는 거대한 불안정성 별의 반복적 폭발을 유발하는 원인을 규명했다. 연구는 두 천체가 113일 주기로 공전하며 동반체가 주기적으로 물질을 끌어당겨 폭발을 일으킨다고 밝혔다(학술지 게재 보도 참조).",
+      "descriptionTranslations": {
+        "en": "Reports say a study using NASA’s Chandra X‑ray Observatory identified the cause of repeated outbursts from a giant unstable star: a previously hidden companion object that strips material from the star every 113 days as the two orbit, the study reports in The Astrophysical Journal."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/"
+        ],
+        "firstPublishedAt": "2026-11-09T18:55:50.000Z",
+        "lastObservedAt": "2026-11-09T22:59:34.874Z"
+      }
+    },
+    {
+      "id": "news-0afa2143f712e4f6c6884651",
+      "title": "미 상원, 환경·사회 규정 약화하며 대형 인프라 신속 처리 법안 표결",
+      "titleTranslations": {
+        "en": "Senate votes on bill to speed up large infrastructure projects while weakening environmental rules"
+      },
+      "startAt": "2026-11-09T18:42:32.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 미 상원이 가스관부터 전력송전선에 이르기까지 대형 인프라 사업의 신속한 처리를 촉진하는 법안(Bipartisan American Affordability and Jobs act)의 절차적 표결을 진행했다. 해당 법안은 환경·사회적 보호조치를 약화시키는 조항을 포함해 기후·환경 단체의 찬반 논란을 불러일으키고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say the US Senate held a procedural vote on the Bipartisan American Affordability and Jobs Act to speed up large infrastructure projects, including pipelines and transmission lines, while rolling back environmental and social protections — a move that has split climate and environmental groups."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote"
+        ],
+        "firstPublishedAt": "2026-11-09T18:42:32.000Z",
+        "lastObservedAt": "2026-11-09T22:59:34.874Z"
+      }
+    },
+    {
+      "id": "news-317077845281ce2d4d38b42d",
+      "title": "NASA, 중전력 전기 로켓(3–7kW) 개발 촉진하는 'AMPERE' 챌린지 출범",
+      "titleTranslations": {
+        "en": "NASA launches AMPERE challenge for mid‑power electric (3–7 kW) Hall thrusters"
+      },
+      "startAt": "2026-11-09T17:42:42.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "보도에 따르면 NASA는 위성·방위·탐사 임무에 핵심적이라고 평가되는 3–7kW급 홀 이온추진기 개발을 위해 'Advanced Mid‑Power Electric Rocket (AMPERE) Challenge'를 시작한다고 발표했다. 이 공모는 미국 상업업체들의 설계·시연을 초청한다.",
+      "descriptionTranslations": {
+        "en": "Reports say NASA launched the Advanced Mid‑Power Electric Rocket (AMPERE) Challenge to spur development and demonstration of 3–7 kW Hall‑effect thruster systems, inviting U.S. commercial companies to compete and advance capabilities for satellite, defence and exploration missions."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/"
+        ],
+        "firstPublishedAt": "2026-11-09T17:42:42.000Z",
+        "lastObservedAt": "2026-11-09T22:59:34.874Z"
+      }
+    },
+    {
+      "id": "news-760cc7c47368c53f515a6a59",
+      "title": "부커상 최종 후보 발표 — 수상자는 런던서 다음주 발표 예정",
+      "titleTranslations": {
+        "en": "Booker Prize shortlist revealed — winner to be announced in London next week"
+      },
+      "startAt": "2026-11-09T11:30:13.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "description": "보도에 따르면 올해 부커상 최종 후보(쇼트리스트)가 발표되었으며, 수상작은 런던에서 다음 주 월요일에 발표될 예정이라고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say the Booker Prize shortlist has been announced and the winner will be revealed in London next Monday."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqzjz8dk4wddo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqzjz8dk4wddo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-09T11:30:13.000Z",
+        "lastObservedAt": "2026-11-09T22:59:34.874Z"
+      }
+    },
     {
       "id": "news-aeb8ce7f0504e4a20574a624",
       "title": "추방된 셰이크 하시나, 방글라데시 복귀 신호로 여권 신청",
@@ -59,64 +291,6 @@
           "https://www.theguardian.com/environment/2026/nov/09/cop31-climate-democrats-midterms"
         ],
         "firstPublishedAt": "2026-11-09T07:30:12.000Z",
-        "lastObservedAt": "2026-11-09T07:54:59.011Z"
-      }
-    },
-    {
-      "id": "news-81f22044c23e4a55da567b37",
-      "title": "교황, 아르헨티나 방문에서 멜리이의 긴축 정책에 대한 은근한 비판",
-      "titleTranslations": {
-        "en": "Pope delivers veiled rebuke of Milei's austerity measures"
-      },
-      "startAt": "2026-11-09T05:30:37.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 1,
-      "description": "보도는 교황이 라틴아메리카 순방의 두 번째 방문지인 아르헨티나 도착 당시 하비에르 미레이(Javier Milei)의 긴축 정책을 은근히 비판했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Coverage says the Pope delivered a veiled rebuke of Javier Milei's austerity measures as he arrived in Argentina on the second leg of his Latin America tour."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-09T05:30:37.000Z",
-        "lastObservedAt": "2026-11-09T07:54:59.011Z"
-      }
-    },
-    {
-      "id": "news-4e392e0aaa878514344f9a0a",
-      "title": "엔비디아, CEO 젠슨 황의 '중국 정보요원 연루' 의혹 관계 조사 착수",
-      "titleTranslations": {
-        "en": "Nvidia to investigate CEO Jensen Huang’s relationship with possible Chinese spy"
-      },
-      "startAt": "2026-11-08T21:00:11.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도에 따르면 엔비디아는 CEO 젠슨 황과 관련해 중국 정보요원일 가능성이 제기된 인물과의 관계를 조사하기로 했다고 밝혔다. 기사에는 황이 사내 메모에서 과거 불륜을 인정했다고 전해진다.",
-      "descriptionTranslations": {
-        "en": "Reports say Nvidia will investigate CEO Jensen Huang’s relationship with a person alleged to be a possible Chinese spy. Coverage notes that Huang admitted in a company memo that he had an affair."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
-        ],
-        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
         "lastObservedAt": "2026-11-09T07:54:59.011Z"
       }
     },
@@ -1261,34 +1435,6 @@
       }
     },
     {
-      "id": "news-ffff2886fc4b1906ffc939db",
-      "title": "캘리포니아 주지사, 사형수 548명 전원 형 집행 정지",
-      "titleTranslations": {
-        "en": "California governor commutes death sentences for all 548 people on death row"
-      },
-      "startAt": "2026-11-05T20:28:38.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 캘리포니아 주지사가 사형수 548명에 대한 사형을 전원 감형(형 집행 정지)했다고 발표했다. 캘리포니아는 미국에서 사형수 수가 가장 많은 주로 알려져 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say the governor of California has commuted the death sentences of all 548 people on the state's death row. California is noted as having the largest death‑row population in the United States."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-05T20:28:38.000Z",
-        "lastObservedAt": "2026-11-05T20:39:09.502Z"
-      }
-    },
-    {
       "id": "news-c29fd770c68e8af632a0a2e3",
       "title": "콩고민주공화국에서 에볼라에 감염된 영국인, 치료 위해 영국 도착",
       "titleTranslations": {
@@ -1511,62 +1657,6 @@
           "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-05T07:45:02.000Z",
-        "lastObservedAt": "2026-11-05T07:53:51.571Z"
-      }
-    },
-    {
-      "id": "news-b1a7a3701a98056437744a2b",
-      "title": "홍콩 민주화 상징 조슈아 웡, 징역 10년 선고",
-      "titleTranslations": {
-        "en": "Joshua Wong, face of Hong Kong's pro‑democracy protests, jailed for 10 years"
-      },
-      "startAt": "2026-11-05T06:35:25.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 조슈아 웡(30)이 홍콩의 친민주 시위를 상징하는 인물로서 국가보안법 적용 대상 가운데 하나이며, 재판에서 징역 10년을 선고받았다. 기사에서는 그가 수백 명의 홍콩인이 해당 법 아래 구금된 사례 중 하나라고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say Joshua Wong (30), a prominent figure of Hong Kong’s pro‑democracy protests, has been sentenced to 10 years in prison. Coverage notes he is among hundreds of Hongkongers detained under the contested national security law."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-05T06:35:25.000Z",
-        "lastObservedAt": "2026-11-05T07:53:51.571Z"
-      }
-    },
-    {
-      "id": "news-1522f10d7fdf55bdd9b7e0bd",
-      "title": "NASA, 실험 항공기 'X‑70 Fractal' 발표해 비행연구 가속화",
-      "titleTranslations": {
-        "en": "NASA Announces X‑70 Experimental Aircraft to Advance Flight Research"
-      },
-      "startAt": "2026-11-05T01:43:21.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "보도에 따르면 NASA는 케네디 우주센터 행사에서 고성능의 재구성 가능한 비행제어 기술을 갖춘 실험 항공기 X‑70 Fractal을 공개했으며, 이를 통해 첨단 항공기술의 개발과 시험을 가속화할 예정이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say NASA unveiled the X‑70 Fractal experimental aircraft at an event at Kennedy Space Center. The crewed X‑70 features advanced, rapidly reconfigurable flight‑control technology designed to accelerate the development and testing of advanced aviation technologies."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/"
-        ],
-        "firstPublishedAt": "2026-11-05T01:43:21.000Z",
         "lastObservedAt": "2026-11-05T07:53:51.571Z"
       }
     },
@@ -1856,34 +1946,6 @@
           "https://www.bbc.co.uk/news/articles/cwly4ejrr72mo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-03T07:19:27.000Z",
-        "lastObservedAt": "2026-11-03T07:53:12.460Z"
-      }
-    },
-    {
-      "id": "news-79724c5608b9242f4b5a0bf7",
-      "title": "NASA 존슨 우주센터, 설립 65주년 회고",
-      "titleTranslations": {
-        "en": "NASA's Johnson Space Center marks 65 years"
-      },
-      "startAt": "2026-11-02T21:35:59.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 1,
-      "description": "보도는 휴스턴의 NASA 존슨 우주센터가 설립 65주년을 맞았으며, 수십 년간 인류 유인 우주비행 프로그램을 지원해왔다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports note that NASA's Johnson Space Center in Houston is celebrating its 65th anniversary and has long been central to the nation's human spaceflight programme."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/"
-        ],
-        "firstPublishedAt": "2026-11-02T21:35:59.000Z",
         "lastObservedAt": "2026-11-03T07:53:12.460Z"
       }
     },
@@ -2394,34 +2456,6 @@
           "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-26T18:17:25.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.655Z"
-      }
-    },
-    {
-      "id": "news-24f4e73ce7f92a3648d27ebe",
-      "title": "목소리 배우 에릭 바우자 별세, 향년 46",
-      "titleTranslations": {
-        "en": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46"
-      },
-      "startAt": "2026-10-26T06:16:15.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "BBC는 버그스 버니와 대피 덕의 목소리를 맡아온 성우 에릭 바우자가 46세로 사망했다고 보도했다. 보도는 그가 최근 작품인 'Coyote vs. Acme' 등에서 여러 캐릭터를 연기했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC reports that voice actor Eric Bauza, known for voicing characters including Bugs Bunny and Daffy Duck, has died aged 46. Coverage notes he voiced multiple characters in recent productions such as Coyote vs. Acme."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-26T06:16:15.000Z",
         "lastObservedAt": "2026-10-26T19:14:44.655Z"
       }
     },
