@@ -1,40 +1,63 @@
 {
-  "catalogVersion": "0.0.212",
-  "updatedAt": "2026-11-09T22:59:34.875Z",
+  "catalogVersion": "0.0.213",
+  "updatedAt": "2026-11-10T08:22:42.323Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-4e392e0aaa878514344f9a0a",
-      "title": "엔비디아, CEO 젠슨 황의 의심스러운 관계 조사 확대·법적 공방 예고",
+      "id": "news-d3212160414aac1d2d3bc5a6",
+      "title": "우크라이나 평화회담 재개 — UAE서 우크라·미·러 첫 3자 회담",
       "titleTranslations": {
-        "en": "Nvidia probe into CEO Jensen Huang’s ties expands; legal challenges loom"
+        "en": "Ukraine peace talks resume with trilateral talks in the UAE"
       },
-      "startAt": "2026-11-09T22:46:09.000Z",
+      "startAt": "2026-11-10T07:58:07.000Z",
       "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도들은 엔비디아 이사회가 젠슨 황 CEO와 중국 정보요원으로 의심되는 인물과의 관계에 대한 조사를 개시·확대했다고 전했다. 관련 보도는 문제를 제기한 공매도 보고서가 수개월 전 이를 지적했다는 점과, 조사 착수로 주가가 하락하며 소송 가능성이 거론된다고 전했다.",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 우크라이나, 미국, 러시아 대표단이 아랍에미리트에서 2월 이후 처음으로 삼자(3자) 회담을 위해 모이며 평화회담이 재개되었다고 전해졌다. 보도는 양측이 일부 유연성을 보인다고 평가했다.",
       "descriptionTranslations": {
-        "en": "Coverage says Nvidia’s board has opened and expanded an investigation into CEO Jensen Huang’s relationship with a person alleged to be a suspected Chinese spy. Reports note a short seller flagged the ties months earlier, the company’s shares fell after the probe was announced, and potential lawsuits are being discussed."
+        "en": "BBC reports that delegations from Kyiv, Washington and Moscow are meeting in the United Arab Emirates for the first trilateral talks since February, with the parties showing 'some flexibility'."
       },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
       "topicIds": [
-        "aiHistory",
-        "computerHistory",
-        "economyFinance"
+        "politicsHumanRights"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-          "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
-          "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-          "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
+          "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
         ],
-        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
-        "lastObservedAt": "2026-11-09T22:59:34.874Z"
+        "firstPublishedAt": "2026-11-10T07:58:07.000Z",
+        "lastObservedAt": "2026-11-10T08:22:42.322Z"
+      }
+    },
+    {
+      "id": "news-8a35af252b32001f777c64f3",
+      "title": "Anthropic, IPO 추진 계획 보도 — 가치 범위 이번 주 설정 예상",
+      "titleTranslations": {
+        "en": "Anthropic reportedly plans to move forward with IPO plans"
+      },
+      "startAt": "2026-11-10T01:27:12.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "TechCrunch(월스트리트저널 인용) 보도에 따르면 AI 기업 Anthropic이 IPO(기업공개) 계획을 추진하며 이번 주 내로 기업가치 범위를 설정할 것으로 알려졌다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "TechCrunch, citing the Wall Street Journal, reports that AI company Anthropic plans to move forward with IPO preparations and is expected to set its valuation range this week."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+        ],
+        "firstPublishedAt": "2026-11-10T01:27:12.000Z",
+        "lastObservedAt": "2026-11-10T08:22:42.322Z"
       }
     },
     {
@@ -67,6 +90,35 @@
       }
     },
     {
+      "id": "news-760cc7c47368c53f515a6a59",
+      "title": "M John Harrison, 소설 'The End of Everything'로 부커상 수상—최고령 수상 기록(81세)",
+      "titleTranslations": {
+        "en": "M John Harrison wins Booker Prize for 'The End of Everything' — becomes oldest winner at 81"
+      },
+      "startAt": "2026-11-09T22:16:37.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 M John Harrison의 소설 'The End of Everything'가 올해 부커상을 수상했으며, 그는 81세로 역대 최연장 수상자가 되었다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "BBC reports that M John Harrison has won the Booker Prize for his post‑apocalyptic novel 'The End of Everything', becoming the oldest ever winner at age 81."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw0737kv52lko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqzjz8dk4wddo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cw0737kv52lko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-09T11:30:13.000Z",
+        "lastObservedAt": "2026-11-10T08:22:42.323Z"
+      }
+    },
+    {
       "id": "news-81f22044c23e4a55da567b37",
       "title": "교황, 아르헨티나서 성직자 학대 생존자들과 비공개 면담…보호 강화 약속",
       "titleTranslations": {
@@ -93,6 +145,69 @@
         ],
         "firstPublishedAt": "2026-11-09T05:30:37.000Z",
         "lastObservedAt": "2026-11-09T22:59:34.874Z"
+      }
+    },
+    {
+      "id": "news-7ff7d4f7546961ea09571028",
+      "title": "폴 매카트니, 포브스 분석으로 억만장자 반열에 올라",
+      "titleTranslations": {
+        "en": "Paul McCartney becomes a billionaire, ranked world’s third richest musician"
+      },
+      "startAt": "2026-11-09T21:22:33.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 포브스 분석은 폴 매카트니의 순자산을 14억 달러로 평가해 그를 세계에서 세 번째로 부유한 음악가로 분류했다. 보도는 그의 카탈로그·투어·예술품 등이 부의 근원이 됐다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Forbes values Paul McCartney’s net worth at $1.4bn, placing him as the world’s third richest musician. The coverage attributes his wealth to his musical catalogue, tours, legal maneuvers and art collections."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/music/2026/nov/09/paul-mccartney-billionaire",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/music/2026/nov/09/paul-mccartney-billionaire"
+        ],
+        "firstPublishedAt": "2026-11-09T21:22:33.000Z",
+        "lastObservedAt": "2026-11-10T08:22:42.323Z"
+      }
+    },
+    {
+      "id": "news-4e392e0aaa878514344f9a0a",
+      "title": "젠슨 황 이미지 타격…엔비디아 경영진 거취 논의중",
+      "titleTranslations": {
+        "en": "Jensen Huang’s image damaged; Nvidia board faces decisions over leadership"
+      },
+      "startAt": "2026-11-09T20:27:07.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "가디언 보도는 젠슨 황 엔비디아 CEO의 공적 이미지가 동료의혹 제기 이후 손상되었으며, 공동창업자 시절부터 회사를 이끈 황의 자리와 이사회 결정이 중대 기로에 놓였다고 보도했다. 기사에서는 이사회가 어려운 결정을 앞두고 있다고 전한다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that Jensen Huang’s public image has been damaged following allegations, leaving Nvidia’s board facing difficult decisions about his position. The coverage says Huang — co‑founder and long‑time public face of Nvidia — and the board now confront a fraught governance choice."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+          "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+          "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+          "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia"
+        ],
+        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
+        "lastObservedAt": "2026-11-10T08:22:42.322Z"
       }
     },
     {
@@ -208,31 +323,31 @@
       }
     },
     {
-      "id": "news-760cc7c47368c53f515a6a59",
-      "title": "부커상 최종 후보 발표 — 수상자는 런던서 다음주 발표 예정",
+      "id": "news-d3abc207a940269ba0633b74",
+      "title": "이라크서 폭우·급류성 홍수 발생 — 에르빌 큰 피해·최소 2명 사망",
       "titleTranslations": {
-        "en": "Booker Prize shortlist revealed — winner to be announced in London next week"
+        "en": "Deadly floods hit Iraq as severe storms inundate Erbil"
       },
-      "startAt": "2026-11-09T11:30:13.000Z",
+      "startAt": "2026-11-09T10:59:06.000Z",
       "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 1,
-      "description": "보도에 따르면 올해 부커상 최종 후보(쇼트리스트)가 발표되었으며, 수상작은 런던에서 다음 주 월요일에 발표될 예정이라고 전해졌다.",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 북부 이라크와 이란 일부를 강타한 폭우로 특히 에르빌에서 주택·상점 피해가 광범위하게 발생했고, 짧은 시간에 약 80mm의 강우가 쏟아져 예상치(약 30mm)를 훌쩍 넘겼다. 보도는 최소 2명이 사망했다고 전했다.",
       "descriptionTranslations": {
-        "en": "Reports say the Booker Prize shortlist has been announced and the winner will be revealed in London next Monday."
+        "en": "The Guardian reports severe thunderstorms swept northern Iraq and parts of Iran, with Erbil particularly badly hit; about 80mm of rain fell in a short period (compared with forecasts of ~30mm), inundating streets and causing extensive damage. At least two people were killed, the coverage says."
       },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqzjz8dk4wddo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow",
       "topicIds": [
-        "artsFilm"
+        "politicsHumanRights"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqzjz8dk4wddo?at_medium=RSS&at_campaign=rss"
+          "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow"
         ],
-        "firstPublishedAt": "2026-11-09T11:30:13.000Z",
-        "lastObservedAt": "2026-11-09T22:59:34.874Z"
+        "firstPublishedAt": "2026-11-09T10:59:06.000Z",
+        "lastObservedAt": "2026-11-10T08:22:42.322Z"
       }
     },
     {
@@ -490,6 +605,34 @@
         ],
         "firstPublishedAt": "2026-11-08T15:26:38.000Z",
         "lastObservedAt": "2026-11-08T18:20:02.575Z"
+      }
+    },
+    {
+      "id": "news-5e95281cff0e2d8d8b16018d",
+      "title": "미 쇠고기 업계, 청소년용 기후 교육 일부 내용 폐기",
+      "titleTranslations": {
+        "en": "Beef industry quietly drops part of its climate curriculum for teenagers"
+      },
+      "startAt": "2026-11-08T15:00:43.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 소고기 업계가 자금 지원한 청소년 교육 자료에서 가축의 메탄 배출이 기후변화에 기여한다는 내용을 담은 교재 일부를 목장주들의 반발 후 조용히 폐기했다고 전해졌다. 기사는 업계가 학교에서의 학습 내용에 영향력을 행사해온 역사를 지적했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that a beef‑industry‑funded effort to teach teenagers about cattle’s climate impact quietly scrapped part of its curriculum — including material on methane emissions — after protests by some ranchers. The article highlights the livestock industry’s long‑running efforts to influence what children are taught about cows and climate."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/08/beef-industry-climate-impact-education",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/nov/08/beef-industry-climate-impact-education"
+        ],
+        "firstPublishedAt": "2026-11-08T15:00:43.000Z",
+        "lastObservedAt": "2026-11-10T08:22:42.323Z"
       }
     },
     {
@@ -1265,34 +1408,6 @@
       }
     },
     {
-      "id": "news-127af6818ff60c965107f9c6",
-      "title": "남아프리카 지방선거서 ANC, 80% 개표 기준 대패 기류",
-      "titleTranslations": {
-        "en": "ANC faces bruising defeat in South African local elections with 80% of ballots counted"
-      },
-      "startAt": "2026-11-06T12:48:37.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 개표가 80%가량 진행된 시점에서 집권 아프리카민족회의(ANC)의 전국 득표율이 2021년보다 크게 떨어져 전국 기준 득표율이 3분의1 아래로 추정되며, 실업·범죄·부패·서비스 부실에 따른 유권자 이탈이 원인으로 지목되고 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say with around 80% of ballots counted in South Africa's local elections, the ruling African National Congress (ANC) is on track for a heavy loss — polling below a third nationally — amid voter anger over unemployment, crime, corruption and poor local services."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
-        ],
-        "firstPublishedAt": "2026-11-06T12:48:37.000Z",
-        "lastObservedAt": "2026-11-07T07:04:01.883Z"
-      }
-    },
-    {
       "id": "news-ea4c9a52e32d5f29a75fc215",
       "title": "아이오다호주, 갓 태어난 늑대 새끼 살해에 한 마리당 2,000달러 지급 기록 유출",
       "titleTranslations": {
@@ -1864,34 +1979,6 @@
       }
     },
     {
-      "id": "news-db8eb61a08b707994acf1df7",
-      "title": "북미 널리 분포한 사냥새 '러프드 그라우스' 개체수 감소 — 오하이오서 사냥 허가 첫 불발",
-      "titleTranslations": {
-        "en": "North America’s widely distributed game bird, the ruffed grouse, is under threat"
-      },
-      "startAt": "2026-11-03T13:00:07.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "보도는 러프드 그라우스의 개체수가 감소해 오하이오 주에서 1937년 이후 처음으로 개방 사냥 허가가 발급되지 않았다고 전했다. 개체 감소로 서식지 보호와 보존 조치에 대한 우려가 제기되고 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say ruffed grouse populations have declined to the extent that Ohio has issued no open hunting permits for the first time since 1937. The fall in numbers raises concerns about habitat protection and conservation measures."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/04/ruffed-grouse-population-decline",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/nov/04/ruffed-grouse-population-decline"
-        ],
-        "firstPublishedAt": "2026-11-03T13:00:07.000Z",
-        "lastObservedAt": "2026-11-03T20:05:49.601Z"
-      }
-    },
-    {
       "id": "news-ed08a0256a77de2b48d5d389",
       "title": "애플, 메모리 칩 가격의 '전례 없는' 상승 경고",
       "titleTranslations": {
@@ -1975,34 +2062,6 @@
         ],
         "firstPublishedAt": "2026-11-02T17:14:23.000Z",
         "lastObservedAt": "2026-11-02T22:19:07.405Z"
-      }
-    },
-    {
-      "id": "news-efb5e46ff25eb37594fecdc5",
-      "title": "노스캐롤라이나 홍수 대응 미흡이 지역 공화당 지지 약화로 이어져",
-      "titleTranslations": {
-        "en": "Lacklustre flood response in North Carolina is eroding Republican support in one county"
-      },
-      "startAt": "2026-11-02T12:00:41.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "보도는 홍수 피해에 대한 미흡한 대응이 노스캐롤라이나의 한 카운티에서 공화당에 대한 지지를 약화시키고 있으며, 유권자들이 불만을 표시하고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say a lacklustre response to flooding in North Carolina is eroding Republican support in one county, with residents expressing frustration over the handling of flood impacts."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/02/north-carolina-congress-republicans",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/02/north-carolina-congress-republicans"
-        ],
-        "firstPublishedAt": "2026-11-02T12:00:41.000Z",
-        "lastObservedAt": "2026-11-03T07:53:12.460Z"
       }
     },
     {
@@ -2345,34 +2404,6 @@
         ],
         "firstPublishedAt": "2026-10-28T17:00:58.000Z",
         "lastObservedAt": "2026-10-31T17:41:19.238Z"
-      }
-    },
-    {
-      "id": "news-dcf344de086bdca3e43864ed",
-      "title": "이란 감독 자파르 파나히에 새 형량 선고·자산 압류",
-      "titleTranslations": {
-        "en": "Iranian filmmaker Jafar Panahi given new prison sentence and asset seizure"
-      },
-      "startAt": "2026-10-28T16:56:10.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 3,
-      "description": "보도에 따르면 법원은 자파르 파나히에게 5년 1개월의 징역형을 선고하고 모든 자산을 압류하도록 명령했으며, 여행 금지와 소셜미디어 사용 금지 조치도 부과됐다.",
-      "descriptionTranslations": {
-        "en": "Reports say an Iranian court sentenced award‑winning director Jafar Panahi to five years and one month in prison, ordered the seizure of his assets, and imposed travel and social‑media bans."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/film/2026/oct/28/iran-film-maker-jafar-panahi-new-prison-sentence-assets-seized",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/film/2026/oct/28/iran-film-maker-jafar-panahi-new-prison-sentence-assets-seized"
-        ],
-        "firstPublishedAt": "2026-10-28T16:56:10.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
       }
     },
     {
