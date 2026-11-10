@@ -1,8 +1,208 @@
 {
-  "catalogVersion": "0.0.213",
-  "updatedAt": "2026-11-10T08:22:42.323Z",
+  "catalogVersion": "0.0.214",
+  "updatedAt": "2026-11-10T20:27:17.394Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-a84e1216b3ff0bad9eddcf0a",
+      "title": "데이비드 월리엄스, 금지명령 패소 뒤 성추문 혐의 제기 — 그는 혐의 부인",
+      "titleTranslations": {
+        "en": "David Walliams accused of sexual misconduct after losing injunction bid — he denies allegations"
+      },
+      "startAt": "2026-11-10T20:20:11.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "ITN과 가디언의 보도에 따르면 코미디언 데이비드 월리엄스가 십대 소녀들과 젊은 여성들을 상대로 부적절한 행위를 했다는 주장들이 제기되었고, 월리엄스는 모든 혐의를 부인하고 있다. 최근의 법적 절차(금지명령 신청 패소)가 보도에 포함되었다.",
+      "descriptionTranslations": {
+        "en": "ITN and The Guardian report allegations that comedian David Walliams preyed on teenage girls and young women; Walliams has denied all allegations. The coverage notes he recently lost an injunction bid related to the matter."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckn8w8p9370zo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ckn8w8p9370zo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-10T20:20:11.000Z",
+        "lastObservedAt": "2026-11-10T20:27:17.394Z"
+      }
+    },
+    {
+      "id": "news-c650b02fc655d4a0b19c4e6a",
+      "title": "국제 해양법 재판서 영국·아르헨티나 충돌 — 포클랜드 봉쇄·Sea Lion 개발 공방",
+      "titleTranslations": {
+        "en": "UK and Argentina clash at law‑of‑the‑sea tribunal over Falklands Sea Lion oil project"
+      },
+      "startAt": "2026-11-10T19:01:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "국제해양법재판소(ITLOS) 심리에서 영국 측은 아르헨티나가 포클랜드(말클린 제도)의 해상 유전 'Sea Lion' 개발을 차단하려 할 경우 주민들에게 '파괴적 결과'가 초래될 것이라고 주장했다. 심리는 주권 분쟁을 더 깊게 할 위험이 있다는 보도를 동반했다.",
+      "descriptionTranslations": {
+        "en": "At a hearing of the International Tribunal for the Law of the Sea (ITLOS), UK representatives argued that Argentina’s attempts to block development of the Falklands' Sea Lion offshore oilfield would have 'devastating consequences' for islanders. Coverage warns the tribunal proceedings risk deepening the sovereignty dispute."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts"
+        ],
+        "firstPublishedAt": "2026-11-10T19:01:33.000Z",
+        "lastObservedAt": "2026-11-10T20:27:17.394Z"
+      }
+    },
+    {
+      "id": "news-b812a27808c73cb4c28ac17c",
+      "title": "말레이시아 전 총리 나집, 횡령 유죄 후 감옥 떠나 가택연금",
+      "titleTranslations": {
+        "en": "Malaysia's disgraced former PM Najib leaves jail for house arrest after embezzling millions"
+      },
+      "startAt": "2026-11-10T18:33:51.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "나집 라작 전 총리가 1MDB 스캔들 관련 횡령 혐의로 유죄가 확정된 뒤 교도소를 떠나 가택연금으로 전환되었다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Former Malaysian prime minister Najib Razak, convicted over his role in the billion‑dollar 1MDB scandal, has left prison and been placed under house arrest, coverage reports."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-10T18:33:51.000Z",
+        "lastObservedAt": "2026-11-10T20:27:17.394Z"
+      }
+    },
+    {
+      "id": "news-8a35af252b32001f777c64f3",
+      "title": "Anthropic, IPO에서 1.3–1.4조달러 가치 목표 — 공모가 $70–$78 제시",
+      "titleTranslations": {
+        "en": "Anthropic targets $1.3–$1.4tn valuation in IPO — share range $70–$78"
+      },
+      "startAt": "2026-11-10T16:13:13.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "AI 챗봇 'Claude' 개발사 Anthropic이 주식시장 상장을 앞두고 기업가치를 약 1.3~1.4조 달러 범위로 설정하려 하고 있으며, 공모가 범위는 주당 70~78달러로 제시되었다고 보도됐다. 보도는 투자자들의 열기가 식으면서 초기 기대치였던 더 높은 밸류에이션에서 조정이 이뤄지고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Anthropic, developer of the Claude chatbot, is preparing for a stock‑market flotation with a target valuation in the roughly $1.3–$1.4 trillion range and an offering price range of $70–$78 per share. Coverage says investors have cooled from earlier, higher valuation expectations."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/10/anthropic-valuation-stock-market-flotation-ipo-wall-street-ai",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+          "https://www.theguardian.com/technology/2026/nov/10/anthropic-valuation-stock-market-flotation-ipo-wall-street-ai",
+          "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-10T01:27:12.000Z",
+        "lastObservedAt": "2026-11-10T20:27:17.393Z"
+      }
+    },
+    {
+      "id": "news-e8e0cb1d0e685ced8c0e7ac9",
+      "title": "딥마인드 'Gemini 4 Carbon' 이용 가능",
+      "titleTranslations": {
+        "en": "DeepMind's 'Gemini 4 Carbon' now available"
+      },
+      "startAt": "2026-11-10T16:03:47.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "딥마인드가 차세대 모델 'Gemini 4 Carbon'이 이용 가능해졌다고 발표했다.",
+      "descriptionTranslations": {
+        "en": "DeepMind has announced that its next‑generation model, 'Gemini 4 Carbon', is now available."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+        ],
+        "firstPublishedAt": "2026-10-28T17:00:58.000Z",
+        "lastObservedAt": "2026-11-10T20:27:17.394Z"
+      }
+    },
+    {
+      "id": "news-817e90b81533a4ac84a59365",
+      "title": "지미 카터 가족 농장 보존단체에 인수 — 2027년 공개, 2028년 주에 이전 계획",
+      "titleTranslations": {
+        "en": "Jimmy Carter’s Georgia farm acquired for conservation — to open to public in 2027, transfer to state in 2028"
+      },
+      "startAt": "2026-11-10T15:01:41.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "보전 단체가 조지아의 지미 카터 가족 농장 약 2,458에이커를 인수했다. 단체는 이 땅을 2027년부터 사냥·낚시 등 야외 레크리에이션을 위해 공개하고, 2028년 주(Georgia) 당국에 토지를 이전할 계획이라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "A conservation group has acquired roughly 2,458 acres of Jimmy Carter’s family farm in Georgia. The group plans to open the land for outdoor recreation such as hunting and fishing as soon as 2027 and to transfer it to the state’s natural resources department in 2028."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/10/jimmy-carter-georgia-farm-conserved-open-to-public",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/10/jimmy-carter-georgia-farm-conserved-open-to-public"
+        ],
+        "firstPublishedAt": "2026-11-10T15:01:41.000Z",
+        "lastObservedAt": "2026-11-10T20:27:17.394Z"
+      }
+    },
+    {
+      "id": "news-41a0f772447991ae2cb16463",
+      "title": "헐리우드, 스토리보드 제작에 AI 도입 확대 — 일러스트레이터 일자리 위협",
+      "titleTranslations": {
+        "en": "Hollywood increasingly adopts AI for storyboards, threatening storyboard artists' jobs"
+      },
+      "startAt": "2026-11-10T13:00:24.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "가디언 보도는 할리우드에서 스토리보드 제작 등 영화 전·후방 작업에 AI 도구 도입이 확산되고 있으며, 특히 감독들이 초기 연출 구상을 인공지능으로 시각화하면서 전통적 스토리보드 일러스트레이터들이 직업적 위험에 직면해 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that AI tools are being adopted across Hollywood for tasks such as storyboarding. As filmmakers use AI to visualise directorial concepts, professional storyboard illustrators face a direct threat to their livelihoods."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/film/2026/nov/10/storyboard-artists-ai",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/film/2026/nov/10/storyboard-artists-ai"
+        ],
+        "firstPublishedAt": "2026-11-10T13:00:24.000Z",
+        "lastObservedAt": "2026-11-10T20:27:17.394Z"
+      }
+    },
     {
       "id": "news-d3212160414aac1d2d3bc5a6",
       "title": "우크라이나 평화회담 재개 — UAE서 우크라·미·러 첫 3자 회담",
@@ -28,35 +228,6 @@
           "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-10T07:58:07.000Z",
-        "lastObservedAt": "2026-11-10T08:22:42.322Z"
-      }
-    },
-    {
-      "id": "news-8a35af252b32001f777c64f3",
-      "title": "Anthropic, IPO 추진 계획 보도 — 가치 범위 이번 주 설정 예상",
-      "titleTranslations": {
-        "en": "Anthropic reportedly plans to move forward with IPO plans"
-      },
-      "startAt": "2026-11-10T01:27:12.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "TechCrunch(월스트리트저널 인용) 보도에 따르면 AI 기업 Anthropic이 IPO(기업공개) 계획을 추진하며 이번 주 내로 기업가치 범위를 설정할 것으로 알려졌다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch, citing the Wall Street Journal, reports that AI company Anthropic plans to move forward with IPO preparations and is expected to set its valuation range this week."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
-        ],
-        "firstPublishedAt": "2026-11-10T01:27:12.000Z",
         "lastObservedAt": "2026-11-10T08:22:42.322Z"
       }
     },
@@ -208,6 +379,34 @@
         ],
         "firstPublishedAt": "2026-11-07T21:17:08.000Z",
         "lastObservedAt": "2026-11-10T08:22:42.322Z"
+      }
+    },
+    {
+      "id": "news-8827aad4505e69ef98eb5a35",
+      "title": "딥마인드, 로봇용 모델 'Gemini Robotics 2.5' 공개",
+      "titleTranslations": {
+        "en": "DeepMind unveils 'Gemini Robotics 2.5' to boost real‑world robot dexterity"
+      },
+      "startAt": "2026-11-09T19:51:47.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "딥마인드는 시각·언어·행동을 통합한 로봇 모델 'Gemini Robotics 2.5'를 공개하며 현실 세계에서의 로봇 손재주(데크스테리티), 신뢰성 및 안전성을 향상시켰다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "DeepMind unveiled 'Gemini Robotics 2.5', a vision‑language‑action model that the company says improves robot dexterity, reliability and safety for real‑world tasks."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+        ],
+        "firstPublishedAt": "2026-11-09T19:51:47.000Z",
+        "lastObservedAt": "2026-11-10T20:27:17.394Z"
       }
     },
     {
@@ -1179,34 +1378,6 @@
       }
     },
     {
-      "id": "news-a14ce572aafc2a76343c3cb5",
-      "title": "탄자니아 야권 지도자 툰두 리수, ‘정치적 동기’ 사건으로 수감",
-      "titleTranslations": {
-        "en": "Tanzanian opposition leader Tundu Lissu jailed in 'politically motivated' case"
-      },
-      "startAt": "2026-11-06T19:42:46.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도에 따르면 탄자니아의 야권 지도자 툰두 리수가 정치적 동기라는 비난을 받는 사건으로 유죄 판결을 받고 수감되었다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say Tanzanian opposition leader Tundu Lissu has been convicted and jailed in a case widely condemned as politically motivated."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/6/tanzanian-opposition-leader-jailed-in-politically-motivated-case?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/6/tanzanian-opposition-leader-jailed-in-politically-motivated-case?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-11-06T19:42:46.000Z",
-        "lastObservedAt": "2026-11-06T19:57:13.746Z"
-      }
-    },
-    {
       "id": "news-d2558eeb38930bad185c2291",
       "title": "엘니뇨 폭우로 뉴멕시코 유명 암석 'Alien Throne' 일부 붕괴 확인",
       "titleTranslations": {
@@ -1291,34 +1462,6 @@
         ],
         "firstPublishedAt": "2026-11-05T21:23:18.000Z",
         "lastObservedAt": "2026-11-07T07:04:01.883Z"
-      }
-    },
-    {
-      "id": "news-d32891547ec5720dae0efea2",
-      "title": "케냐 종말론 교주 폴 매켄지, 어린이 190명 등 살해 혐의로 200년 형 선고",
-      "titleTranslations": {
-        "en": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children"
-      },
-      "startAt": "2026-11-06T15:08:43.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 케냐의 종말론 교주 폴 매켄지가 추종자들에게 굶주리게 해 190명의 어린이와 1명의 성인을 사망하게 한 혐의로 유죄 판결을 받은 뒤 총 200년의 형을 선고받았다. 형은 기아에 의한 살인 100년과 직접 살해로 100년이 합산된 것이라고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say Kenyan doomsday sect leader Paul Mackenzie was convicted over the deaths of 190 children and one adult after followers were ordered to starve themselves and their families, and has been sentenced to 200 years — comprising 100 years for murder by starvation and 100 years for direct homicide."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
-        ],
-        "firstPublishedAt": "2026-11-06T15:08:43.000Z",
-        "lastObservedAt": "2026-11-06T19:57:13.746Z"
       }
     },
     {
@@ -1720,34 +1863,6 @@
       }
     },
     {
-      "id": "news-053acf46c70803e1470481f4",
-      "title": "보고서: 트럼프 행정부, 암 유해물질 규제 500건 이상 약화 조치 취해",
-      "titleTranslations": {
-        "en": "Trump takes 500 actions to weaken cancer protections, new report says"
-      },
-      "startAt": "2026-11-05T12:00:23.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "환경단체(NRDC) 보고서는 트럼프 행정부가 연방 규칙과 절차를 변경해 암을 유발하는 물질에 대한 보호조치를 약화시키는 500개가량의 조치를 취했다고 지적했다. 보고서는 이러한 규제 변경이 공중의 발암물질 노출을 크게 늘릴 수 있다고 경고했다.",
-      "descriptionTranslations": {
-        "en": "A Natural Resources Defense Council (NRDC) report alleges the Trump administration took more than 500 actions that collectively weakened federal protections against carcinogens. The report warns the rule changes could significantly increase public exposure to cancer‑causing substances."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation"
-        ],
-        "firstPublishedAt": "2026-11-05T12:00:23.000Z",
-        "lastObservedAt": "2026-11-06T07:54:34.001Z"
-      }
-    },
-    {
       "id": "news-33bb551745dcf2904ec1838c",
       "title": "LIV 골프, 후원 철회로 활동 축소(운영 중단) 예정",
       "titleTranslations": {
@@ -2007,36 +2122,6 @@
       }
     },
     {
-      "id": "news-74eb36cdafe1bd2912151c12",
-      "title": "영국, 인체 내 '영구화학물질'(PFAS) 전수 조사하는 첫 대규모 연구 착수",
-      "titleTranslations": {
-        "en": "Major UK study launched to measure 'forever chemicals' (PFAS) in people"
-      },
-      "startAt": "2026-11-03T07:19:27.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보도에 따르면 영국 정부는 인구 내 PFAS(영구화학물질) 농도를 측정하는 첫 연구를 시작해 이러한 물질의 위험과 분포를 이해하려 한다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Reports say the UK government has launched its first study to measure PFAS levels in the population to understand the risks and distribution of these 'forever chemicals.'"
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwly4ejrr72mo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwly4ejrr72mo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-03T07:19:27.000Z",
-        "lastObservedAt": "2026-11-03T07:53:12.460Z"
-      }
-    },
-    {
       "id": "news-b9ac585d42a76d26af690870",
       "title": "이란 전쟁 종식 기대에 유가 급락 — 브렌트 6% 이상 하락",
       "titleTranslations": {
@@ -2089,34 +2174,6 @@
           "https://www.bbc.co.uk/news/articles/cw1m42zdnn3go?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-02T00:51:24.000Z",
-        "lastObservedAt": "2026-11-02T07:38:15.232Z"
-      }
-    },
-    {
-      "id": "news-f063ceae6ff751ba9d7c0016",
-      "title": "미·중 무역갈등 일시 진정 — '안심은 금물' 분석",
-      "titleTranslations": {
-        "en": "US‑China trade war seems to have cooled — analysts warn the calm is misleading"
-      },
-      "startAt": "2026-11-01T12:00:12.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도는 미·중 간의 무역 갈등을 진정시키는 휴지가 나타났으나, 표면상의 안도감이 오해일 수 있으며 언제든 새로운 적대 상황이 벌어질 여지가 남아 있다고 지적했다.",
-      "descriptionTranslations": {
-        "en": "Coverage says a truce has cooled the US‑China trade conflict, but the sense of calm is misleading — underlying tensions remain and the risk of renewed hostilities persists, analysts warn."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi"
-        ],
-        "firstPublishedAt": "2026-11-01T12:00:12.000Z",
         "lastObservedAt": "2026-11-02T07:38:15.232Z"
       }
     },
@@ -2348,90 +2405,6 @@
         ],
         "firstPublishedAt": "2026-10-29T04:01:00.000Z",
         "lastObservedAt": "2026-10-29T07:01:23.964Z"
-      }
-    },
-    {
-      "id": "news-bbd99f7580a24ef6e93606af",
-      "title": "감독 피터 메닥 별세, 향년 88",
-      "titleTranslations": {
-        "en": "Film director Peter Medak dies aged 88"
-      },
-      "startAt": "2026-10-28T17:43:26.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "보도는 피터 메닥 감독이 로스앤젤레스에서 향년 88세로 사망했다고 가족의 발표를 인용해 전했다. 메닥은 The Changeling, The Krays 등 다양한 작품을 연출했다.",
-      "descriptionTranslations": {
-        "en": "Reports cite the family announcing that director Peter Medak has died in Los Angeles at age 88. Medak directed films including The Changeling and The Krays."
-      },
-      "sourceName": "The Guardian Culture",
-      "sourceUrl": "https://www.theguardian.com/film/2026/oct/28/peter-medak-veteran-director-of-the-krays-and-the-changeling-dies-aged-88",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/film/2026/oct/28/peter-medak-veteran-director-of-the-krays-and-the-changeling-dies-aged-88"
-        ],
-        "firstPublishedAt": "2026-10-28T17:43:26.000Z",
-        "lastObservedAt": "2026-10-28T18:50:15.129Z"
-      }
-    },
-    {
-      "id": "news-e8e0cb1d0e685ced8c0e7ac9",
-      "title": "딥마인드, 차세대 모델 'Gemini 4 Carbon' 공개",
-      "titleTranslations": {
-        "en": "DeepMind unveils next‑generation model 'Gemini 4 Carbon'"
-      },
-      "startAt": "2026-10-28T17:00:58.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "딥마인드는 'Gemini 4 Carbon'을 차세대 전방위 모델로 소개하는 새 발표문을 공개했다. 보도는 회사의 발표 내용을 전했다.",
-      "descriptionTranslations": {
-        "en": "DeepMind published a post introducing 'Gemini 4 Carbon' as a next‑frontier model. Coverage relays the company's announcement and description of the model."
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-        ],
-        "firstPublishedAt": "2026-10-28T17:00:58.000Z",
-        "lastObservedAt": "2026-10-31T17:41:19.238Z"
-      }
-    },
-    {
-      "id": "news-a8b557c74308b442270c6688",
-      "title": "네덜란드 방송사, 이스라엘 참가 ‘민감성’ 이유로 유로비전 출전 철회",
-      "titleTranslations": {
-        "en": "Dutch broadcaster pulls out of Eurovision over sensitivities about Israel’s participation"
-      },
-      "startAt": "2026-10-27T11:23:19.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "네덜란드의 한 방송사가 유로비전 대회에서 이스라엘의 참가를 이유로 민감성을 들어 출전 철회를 결정했다고 보도됐다. 보도는 이 결정이 문화·정치적 논란의 일부로 보인다고 전했다.",
-      "descriptionTranslations": {
-        "en": "A Dutch broadcaster has reversed its decision to take part in Eurovision, citing 'sensitivities' over Israel’s participation, reporting says. The move is presented as part of broader cultural and political tensions surrounding the contest."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-27T11:23:19.000Z",
-        "lastObservedAt": "2026-10-27T18:40:30.181Z"
       }
     },
     {
