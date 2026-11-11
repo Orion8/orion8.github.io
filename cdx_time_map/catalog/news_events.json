@@ -1,8 +1,121 @@
 {
-  "catalogVersion": "0.0.214",
-  "updatedAt": "2026-11-10T20:27:17.394Z",
+  "catalogVersion": "0.0.215",
+  "updatedAt": "2026-11-11T07:44:11.041Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-bb354b722b4500e49fb1f2f9",
+      "title": "미 하원, 국방장관 피트 헤그세스트 탄핵 시도 일단 저지",
+      "titleTranslations": {
+        "en": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now"
+      },
+      "startAt": "2026-11-11T03:26:42.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "BBC 보도에 따르면 미 하원이 국방장관 피트 헤그세스트에 대한 탄핵 시도를 일단 저지했다. 도널드 트럼프 전 대통령은 결과를 환영하며 헤그세스를 '위대한 미국의 애국자'라고 칭했다; 보도는 민주당이 내년에 재시도할 수 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC reports the US House has blocked a bid to impeach Defence Secretary Pete Hegseth, for now. Former President Donald Trump welcomed the outcome, praising Hegseth as a 'Great American Patriot', and the coverage notes Democrats could try again next year."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-11T03:26:42.000Z",
+        "lastObservedAt": "2026-11-11T07:44:11.041Z"
+      }
+    },
+    {
+      "id": "news-f4bb39dbbeb5dffa5c6b8850",
+      "title": "항우울제 에스시탈로프람, 재발 예방에 더 효과적이라는 분석 결과",
+      "titleTranslations": {
+        "en": "Antidepressant escitalopram found more effective at preventing relapse, analysis finds"
+      },
+      "startAt": "2026-11-11T00:17:42.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "BBC 헬스 보도에 따르면 대규모 환자 집단을 분석한 결과 에스시탈로프람을 포함한 일부 약물이 재발 예방에서 상위를 차지했으며, 이들 약이 프로작(플루옥세틴)보다 재발 예방에 더 효과적이라고 보고됐다.",
+      "descriptionTranslations": {
+        "en": "BBC Health reports that an analysis across a large number of patients found escitalopram and two other pills topped effectiveness rankings for preventing relapse, outperforming Prozac for that outcome."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cv62yyng00jyo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cv62yyng00jyo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-11T00:17:42.000Z",
+        "lastObservedAt": "2026-11-11T07:44:11.041Z"
+      }
+    },
+    {
+      "id": "news-9435eb24521189adedd5f074",
+      "title": "엔비디아, CEO 관련 의혹 조사 위해 대형 로펌 고용",
+      "titleTranslations": {
+        "en": "Nvidia hires major US law firm to investigate alleged spy affair involving Jensen Huang"
+      },
+      "startAt": "2026-11-10T22:52:15.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "BBC 비즈니스 보도에 따르면 엔비디아는 젠슨 황과 관련된 '중국 스파이' 의혹이 제기된 뒤 이를 조사하기 위해 주요 미국 로펌을 고용했다. 보도는 본 조치가 경영진 대응과 기업 거버넌스에 대한 논란을 불러일으키고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "BBC Business reports Nvidia has hired a major US law firm to investigate allegations that Jensen Huang had an affair with a woman believed to be a Chinese spy. The coverage says the move raises questions about executive conduct and corporate governance at the company."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-10T22:52:15.000Z",
+        "lastObservedAt": "2026-11-11T07:44:11.041Z"
+      }
+    },
+    {
+      "id": "news-636bec9b1738d1053c35ef6f",
+      "title": "뉴욕주 AI 안전법 시행 — 주요 개발사에 등록·안전 공개·사고보고 의무",
+      "titleTranslations": {
+        "en": "New York’s AI safety law takes effect — major developers must register, disclose safety practices and report incidents"
+      },
+      "startAt": "2026-11-10T20:52:13.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "TechCrunch 보도에 따르면 뉴욕주는 포괄적 AI 안전법을 시행할 준비를 하고 있으며, OpenAI·Anthropic 등 주요 개발사에 등록·안전 관행 공개·중대한 사고 보고를 요구하고, 규정 위반 시 과태료를 부과할 수 있도록 했다.",
+      "descriptionTranslations": {
+        "en": "TechCrunch reports New York is preparing to enforce a sweeping AI safety law that requires major developers — including firms such as OpenAI and Anthropic — to register, disclose safety practices and report critical incidents, with fines for non‑compliance."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+        ],
+        "firstPublishedAt": "2026-11-10T20:52:13.000Z",
+        "lastObservedAt": "2026-11-11T07:44:11.041Z"
+      }
+    },
     {
       "id": "news-a84e1216b3ff0bad9eddcf0a",
       "title": "데이비드 월리엄스, 금지명령 패소 뒤 성추문 혐의 제기 — 그는 혐의 부인",
@@ -29,6 +142,34 @@
         ],
         "firstPublishedAt": "2026-11-10T20:20:11.000Z",
         "lastObservedAt": "2026-11-10T20:27:17.394Z"
+      }
+    },
+    {
+      "id": "news-7b10e9232fe65cdcc88d8c82",
+      "title": "보이저 1호, 지구로부터 ‘1광일(24시간 빛 이동 거리)’ 도달 기념 행사 초대",
+      "titleTranslations": {
+        "en": "NASA invites media and public to join Voyager 1 ‘one‑light‑day’ activities"
+      },
+      "startAt": "2026-11-10T19:22:45.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "NASA 보도에 따르면 1977년 발사된 보이저 1호가 11월 18일 지구로부터 1광일(약 160억 마일/259억 km)을 이동하는 시점을 맞아 언론·대중을 위한 기념 활동에 초대했다. 보이저 1호는 현재까지 인류가 만든 가장 먼 물체이며 지구에서 보내는 빛은 도달에 24시간이 걸린다.",
+      "descriptionTranslations": {
+        "en": "NASA says Voyager 1, launched in 1977, will on 18 November have traveled one light‑day from Earth — more than 16 billion miles (about 25.9 billion km). The agency invited media and the public to join activities marking the milestone; Voyager 1 remains the most distant human‑made object and light from Earth takes 24 hours to reach it."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
+        ],
+        "firstPublishedAt": "2026-11-10T19:22:45.000Z",
+        "lastObservedAt": "2026-11-11T07:44:11.041Z"
       }
     },
     {
@@ -176,6 +317,35 @@
       }
     },
     {
+      "id": "news-701a9c14f2b820a10b0efd93",
+      "title": "나이지리아 부통령, 자격 논란 속 사임 제의",
+      "titleTranslations": {
+        "en": "Indonesia’s vice‑president offers resignation amid questions over his eligibility"
+      },
+      "startAt": "2026-11-10T14:01:14.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "NPR 보도에 따르면 인도네시아 부통령이 자신의 자격을 둘러싼 의문이 커지자 사임을 제의했다. 보도는 이 결정이 프라보워와 위도도 사이의 정치적 균열 확대와, 고위 경찰관들의 대통령 도청 의혹 수사와 동시에 일어났다고 전했다.",
+      "descriptionTranslations": {
+        "en": "NPR reports Indonesia’s vice‑president has offered his resignation amid mounting questions over his eligibility. The report says the move comes amid a widening political rift between Prabowo and Widodo and a separate investigation into allegations that senior police officials wiretapped the president."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility"
+        ],
+        "firstPublishedAt": "2026-11-10T14:01:14.000Z",
+        "lastObservedAt": "2026-11-11T07:44:11.041Z"
+      }
+    },
+    {
       "id": "news-41a0f772447991ae2cb16463",
       "title": "헐리우드, 스토리보드 제작에 AI 도입 확대 — 일러스트레이터 일자리 위협",
       "titleTranslations": {
@@ -201,6 +371,34 @@
         ],
         "firstPublishedAt": "2026-11-10T13:00:24.000Z",
         "lastObservedAt": "2026-11-10T20:27:17.394Z"
+      }
+    },
+    {
+      "id": "news-f321c904268bcef29356d2d1",
+      "title": "딥마인드 ‘AlphaProof Code’ 발표 — 수백만 줄의 증명으로 신뢰성·암호 검증 도전",
+      "titleTranslations": {
+        "en": "DeepMind introduces AlphaProof Code — millions of proof lines used to verify critical software"
+      },
+      "startAt": "2026-11-10T12:02:28.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "딥마인드 블로그는 AlphaProof Code 에이전트들이 Lean으로 300만 줄의 증명을 작성해 Signal의 핵심 암호구조를 검증하는 성과를 냈다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "DeepMind’s blog says AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/introducing-alphaproof-code/"
+        ],
+        "firstPublishedAt": "2026-11-10T12:02:28.000Z",
+        "lastObservedAt": "2026-11-11T07:44:11.041Z"
       }
     },
     {
@@ -1007,34 +1205,6 @@
       }
     },
     {
-      "id": "news-79a8ecf18d1460196950eedd",
-      "title": "이스라엘 대통령, 연정 구성 임무로 야당 지도자 에이센코트 지명",
-      "titleTranslations": {
-        "en": "Israel's president tasks opposition leader Eisenkot with forming government"
-      },
-      "startAt": "2026-11-07T22:19:59.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 최근 선거에서 베냐민 네타냐후의 연합과 경쟁 세력 어느 쪽도 과반을 얻지 못해 이스라엘 대통령이 야당 지도자 에이센코트에게 연정 구성 임무를 부여했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Coverage says neither Benjamin Netanyahu’s bloc nor his rival secured a majority in the recent election, and Israel’s president has tasked opposition leader Eisenkot with forming a government."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-07T22:19:59.000Z",
-        "lastObservedAt": "2026-11-08T07:15:30.063Z"
-      }
-    },
-    {
       "id": "news-44a6b3793253ee6a4d103fcb",
       "title": "NASA, 차기 우주인 모집 공고 — 달 복귀·달 기지·화성 유인 임무 대비 인력 선발",
       "titleTranslations": {
@@ -1230,37 +1400,6 @@
         ],
         "firstPublishedAt": "2026-11-07T10:44:38.000Z",
         "lastObservedAt": "2026-11-07T18:01:15.881Z"
-      }
-    },
-    {
-      "id": "news-a2c6e770ad911ecd8e3a37bd",
-      "title": "파라과이 대통령 산티아고 페냐, 탄핵 직후 가택연금",
-      "titleTranslations": {
-        "en": "Ousted Paraguay president placed under house arrest after impeachment"
-      },
-      "startAt": "2026-11-07T01:55:11.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "의회에서 탄핵된 직후 산티아고 페냐 전 대통령이 가택연금 상태에 놓였다. 이번 조치는 이번 주 정지된 우에노(Ueno) 은행의 불규칙성과 관련한 조사 속에서 나왔으며, 은행 정지로 인구의 약 60%가 계좌에 접근하지 못하는 사태가 빚어졌다. 보도는 페냐가 정부 재임 중 급격히 확장한 한 은행을 편들었다는 혐의로 조사를 받고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Minutes after being impeached by Congress, former president Santiago Peña has been placed under house arrest. The move comes amid investigations connected to irregularities at the Ueno bank, which was suspended this week and left about 60% of the population unable to access their accounts. Reports say Peña is being investigated over allegations he used his political influence to favour a bank that expanded rapidly during his administration."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
-          "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
-        ],
-        "firstPublishedAt": "2026-11-05T18:30:16.000Z",
-        "lastObservedAt": "2026-11-07T18:01:15.880Z"
       }
     },
     {
@@ -1607,34 +1746,6 @@
       }
     },
     {
-      "id": "news-ef462061cde94afcd33801b2",
-      "title": "NASA APOD, '스위프트'에 작별을 고하는 특집 공개",
-      "titleTranslations": {
-        "en": "APOD: A Farewell to Swift"
-      },
-      "startAt": "2026-11-06T05:05:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA의 아스트로노미 픽처 오브 더 데이(APOD)는 'A Farewell to Swift' 제목의 특집을 게재했다. 해당 게시물은 스위프트(Swift) 우주관측선에 대한 작별을 다루고 있다.",
-      "descriptionTranslations": {
-        "en": "NASA's Astronomy Picture of the Day (APOD) published a feature titled 'A Farewell to Swift'. The post addresses a farewell to the Swift space observatory."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/"
-        ],
-        "firstPublishedAt": "2026-11-06T05:05:00.000Z",
-        "lastObservedAt": "2026-11-06T07:54:34.001Z"
-      }
-    },
-    {
       "id": "news-6050192b65fb2d16a51d6f61",
       "title": "관측 사상 가장 이른 시점에 약화한 극성(Polar vortex), 영국 겨울 영향 불확실성 제기",
       "titleTranslations": {
@@ -1745,34 +1856,6 @@
           "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears"
         ],
         "firstPublishedAt": "2026-11-05T18:17:36.000Z",
-        "lastObservedAt": "2026-11-05T20:39:09.503Z"
-      }
-    },
-    {
-      "id": "news-c5cfc173e64341d80f41f230",
-      "title": "금리 3.75%에서 4%로 인상 — 3년여 만의 첫 금리 인상",
-      "titleTranslations": {
-        "en": "Interest rates hiked to 4% in first increase in over three years"
-      },
-      "startAt": "2026-11-05T17:09:55.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도에 따르면 기준금리가 3.75%에서 4%로 인상되었으며, 이는 3년 넘게 이어진 동결 이후의 첫 인상이다. 대부분 분석가는 이 같은 인상을 예상했다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say the policy rate was raised from 3.75% to 4%, marking the first increase in over three years. Most analysts had expected the move."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-05T17:09:55.000Z",
         "lastObservedAt": "2026-11-05T20:39:09.503Z"
       }
     },
@@ -1977,34 +2060,6 @@
       }
     },
     {
-      "id": "news-fbaa86a829ad59fd10c58d01",
-      "title": "오픈AI, 자율 파이프라인으로 리눅스 커널 권한 상승 취약점 948건 발견·패치 생성",
-      "titleTranslations": {
-        "en": "A thousand fewer paths to root — OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege‑escalation vulnerabil…"
-      },
-      "startAt": "2026-11-04T08:00:00.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도는 오픈AI가 자율 파이프라인을 구축해 리눅스 커널의 로컬 권한 상승 취약점 948건을 찾아 검증하고 패치를 생성했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege‑escalation vulnerabilities in the Linux kernel."
-      },
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://openai.com/index/a-thousand-fewer-paths-to-root"
-        ],
-        "firstPublishedAt": "2026-11-04T08:00:00.000Z",
-        "lastObservedAt": "2026-11-05T07:53:51.571Z"
-      }
-    },
-    {
       "id": "news-15a103767188939cd5b22eb3",
       "title": "'다발암' 혈액검사, 일부 GP 진료소에 곧 도입 예정",
       "titleTranslations": {
@@ -2030,35 +2085,6 @@
         ],
         "firstPublishedAt": "2026-11-04T00:04:28.000Z",
         "lastObservedAt": "2026-11-05T07:53:51.571Z"
-      }
-    },
-    {
-      "id": "news-89158d68bf9594ef8ca890b6",
-      "title": "Anthropic, 컴퓨트 비용의 경제성 문제 계속 고심",
-      "titleTranslations": {
-        "en": "Anthropic is still grappling with the economics of compute"
-      },
-      "startAt": "2026-11-03T17:07:01.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "Anthropic은 당초 컴퓨트 마진이 개선돼야 할 시점에 오히려 악화되고 있다고 설명하며, 대규모 AI 운영에 따른 컴퓨트 비용의 경제성 문제를 계속 겪고 있다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Anthropic says that, at a time when compute margins should be improving, they are instead getting worse, and the company continues to grapple with the economics of large‑scale AI compute."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
-        ],
-        "firstPublishedAt": "2026-11-03T17:07:01.000Z",
-        "lastObservedAt": "2026-11-03T20:05:49.601Z"
       }
     },
     {
@@ -2292,34 +2318,6 @@
           "https://www.bbc.co.uk/sport/football/articles/cmgr8l87edyjo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-10-29T17:43:53.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
-      }
-    },
-    {
-      "id": "news-20da383f1bcd89a8b1d8f157",
-      "title": "영국·웨일스 수백개 GP(개인의) 의원, 기술업체 붕괴로 온라인 서비스 중단",
-      "titleTranslations": {
-        "en": "Hundreds of GP practices lose online services after collapse of tech firm"
-      },
-      "startAt": "2026-10-29T17:13:40.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "보도는 기술업체의 붕괴로 인해 영국과 웨일스의 수백 곳 GP(일반의) 진료소가 온라인 서비스 접근을 잃어 큰 혼란과 의료 서비스 차질이 우려된다고 전했다. GP 지도자들은 상당한 중단을 예고했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the collapse of a tech firm has caused hundreds of GP practices across England and Wales to lose online services, raising concerns about major disruption to primary care. GP leaders warned of significant impacts."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq146562ld3no?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cq146562ld3no?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-29T17:13:40.000Z",
         "lastObservedAt": "2026-10-29T18:57:24.919Z"
       }
     },
