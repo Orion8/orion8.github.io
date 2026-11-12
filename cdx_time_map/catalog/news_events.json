@@ -1,8 +1,122 @@
 {
-  "catalogVersion": "0.0.217",
-  "updatedAt": "2026-11-12T08:14:20.823Z",
+  "catalogVersion": "0.0.218",
+  "updatedAt": "2026-11-12T20:47:34.389Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-eabeef9e80729989856fc04a",
+      "title": "미 특사단, 모스크바서 푸틴과 회담 뒤 젤렌스키 만나기 위해 출국 — 푸틴, 다음 협상에 유럽 협상단 참여 합의",
+      "titleTranslations": {
+        "en": "US envoys to meet Zelensky after talks with Putin in Moscow — Putin agrees European negotiators join next round"
+      },
+      "startAt": "2026-11-12T20:37:36.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 미 특사단이 모스크바에서 블라디미르 푸틴 대통령과 회담을 가진 뒤 볼로디미르 젤렌스키 우크라이나 대통령을 만나기 위해 출발했다. 미 특사 스티브 위트코프는 푸틴이 다음 차례의 우크라이나 협상에 유럽 협상단의 참여에 동의했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say US envoys held talks with President Vladimir Putin in Moscow and are travelling to meet Ukrainian President Volodymyr Zelensky. US envoy Steve Witkoff said Putin has agreed that European negotiators will join the next round of Ukraine talks."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-12T20:37:36.000Z",
+        "lastObservedAt": "2026-11-12T20:47:34.389Z"
+      }
+    },
+    {
+      "id": "news-733a4e14bc322461a5efd129",
+      "title": "딥마인드 ‘Gemini 4 Hydrogen’ 공개 — 구글 검색의 AI 모드 업그레이드와 연계 보도",
+      "titleTranslations": {
+        "en": "DeepMind unveils Gemini 4 Hydrogen — reports link model to Google Search AI upgrade"
+      },
+      "startAt": "2026-11-12T18:00:50.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "딥마인드가 'Gemini 4 Hydrogen'을 공개했다는 공식 블로그 발표가 보도되었다. 기술보도는 이 모델을 기반으로 구글의 검색 AI 모드가 복잡한 질의 이해와 관련 링크 제시, 풍부한 시각적 응답을 개선하는 업그레이드를 받고 있다고 전했다. 발표와 보도는 신형 대형언어모델의 실용 적용과 검색 통합 동향을 보여준다.",
+      "descriptionTranslations": {
+        "en": "DeepMind officially introduced 'Gemini 4 Hydrogen' in a blog post, coverage reports. Technology reporting says Google is using the model to upgrade its Search AI mode — improving understanding of complex queries, surfacing relevant links and delivering richer visual responses. The announcement and reporting indicate trends in deploying large AI models in search and consumer products."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+          "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+        ],
+        "firstPublishedAt": "2026-11-12T18:00:50.000Z",
+        "lastObservedAt": "2026-11-12T20:47:34.389Z"
+      }
+    },
+    {
+      "id": "news-b07d88933849043904c449f5",
+      "title": "미 기존주택 매매, 10월 16년 만에 최저치 — 주택거래량 3.75백만 건·전년 대비 8.8% 하락",
+      "titleTranslations": {
+        "en": "US existing‑home sales hit 16‑year low in October — 3.75 million transactions, down 8.8% year‑on‑year"
+      },
+      "startAt": "2026-11-12T17:26:07.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도는 미국의 기존주택 매매가 10월에 16년 만의 최저 수준으로 떨어졌다고 전했다. 전국 기존주택 판매 건수는 3.75백만 건으로 집계되며 전년 동월 대비 8.8% 감소했고 중간 거래가격은 소폭 오른 416,700달러를 기록했다. 보도는 높은 모기지 금리와 물가 압박이 매수자들을 위축시켰다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage reports US existing‑home sales fell to a 16‑year low in October. Sales of previously built homes dropped to 3.75 million — down 8.8% from a year earlier — while the median existing‑home sales price rose slightly to $416,700. The reporting cites record‑high mortgage rates and inflation as factors discouraging buyers."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/nov/12/home-sales-october-low",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/nov/12/home-sales-october-low"
+        ],
+        "firstPublishedAt": "2026-11-12T17:26:07.000Z",
+        "lastObservedAt": "2026-11-12T20:47:34.389Z"
+      }
+    },
+    {
+      "id": "news-53a544a507e8e47cd5950cde",
+      "title": "바바라 브로콜리, 영화학교 신임 총장에 — 데이비드 푸트냄 후임으로 내년 2월 취임 예정",
+      "titleTranslations": {
+        "en": "Barbara Broccoli named president of film school — to succeed David Puttnam in February"
+      },
+      "startAt": "2026-11-12T12:54:06.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "description": "보도에 따르면 영화 제작자 바바라 브로콜리가 내년 2월부터 영화학교 총장직을 이어받아 데이비드 푸트냄의 후임으로 취임할 예정이라고 전해졌다. 문화계 인사 임명으로 교육기관의 리더십 변화가 예고된다.",
+      "descriptionTranslations": {
+        "en": "Reports say film producer Barbara Broccoli will succeed David Puttnam as president of the film school, taking up the role in February next year. The appointment signals a leadership change at a prominent cultural education institution."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq36gngnk09do?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cq36gngnk09do?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-12T12:54:06.000Z",
+        "lastObservedAt": "2026-11-12T20:47:34.389Z"
+      }
+    },
     {
       "id": "news-1b127e2f67ca793c7cd9a0ae",
       "title": "영국 경제, 9월 분기 GDP 0.7% 성장 — 2년 만에 최고 속도",
@@ -141,6 +255,62 @@
         ],
         "firstPublishedAt": "2026-11-12T03:07:16.000Z",
         "lastObservedAt": "2026-11-12T08:14:20.823Z"
+      }
+    },
+    {
+      "id": "news-4f07930a03945a53d004ba5e",
+      "title": "선탠베드 업체 광고, 암 위험 축소·치료 주장 금지 권고 — 광고심의당국 지적",
+      "titleTranslations": {
+        "en": "Watchdog says sunbed firms must not downplay cancer risk or claim therapeutic/mental‑health benefits"
+      },
+      "startAt": "2026-11-12T00:13:27.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "보도에 따르면 광고심의기구는 선탠(선광욕) 기구 업체들이 암 위험을 축소해서는 안 되며, 선탠 기구가 피부질환을 치료하거나 정신건강을 개선한다고 오해의 소지가 있는 주장을 해서는 안 된다고 경고했다. 규제기관의 권고는 소비자 안전과 광고의 진실성에 관한 조치다.",
+      "descriptionTranslations": {
+        "en": "Reports say the advertising watchdog has told sunbed companies they must not downplay the cancer risks of sunbeds and must not make misleading claims that sunbeds can treat skin conditions or improve mental health. The regulator’s guidance is framed as a consumer‑safety and truthful‑advertising measure."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c98r7xyjx8g4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c98r7xyjx8g4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-12T00:13:27.000Z",
+        "lastObservedAt": "2026-11-12T20:47:34.389Z"
+      }
+    },
+    {
+      "id": "news-ffea957c41531bf29ac4c19c",
+      "title": "하버드서 우생학 연구에 사용된 것으로 보이는 두개골 두 점, 브라질로 반환",
+      "titleTranslations": {
+        "en": "Two skulls likely used in eugenics studies at Harvard repatriated to Brazil"
+      },
+      "startAt": "2026-11-11T22:50:37.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도에 따르면 아프리카계 또는 아프로‑브라질인으로 추정되는 두 구의 두개골이 하버드 대학에서 우생학 연구에 이용된 것으로 알려진 뒤 외국에 있던 것을 외교적 이송을 통해 브라질로 반환돼 살바도르(바이아주)와 리우데자네이루에서 각각 소박한 환영식이 열렸다. 한 유골은 약 190년 전 살바도르에서 채취된 것으로 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say two skulls believed to belong to Africans or Afro‑Brazilians — which had been used in racist eugenics research at Harvard and were held outside Brazil for more than a century — were repatriated to Brazil and returned in solemn ceremonies in Salvador (Bahia) and Rio de Janeiro. One set of remains was taken from Salvador around 190 years ago, the coverage says."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil"
+        ],
+        "firstPublishedAt": "2026-11-11T22:50:37.000Z",
+        "lastObservedAt": "2026-11-12T20:47:34.389Z"
       }
     },
     {
@@ -1178,34 +1348,6 @@
       }
     },
     {
-      "id": "news-aeb8ce7f0504e4a20574a624",
-      "title": "추방된 셰이크 하시나, 방글라데시 복귀 신호로 여권 신청",
-      "titleTranslations": {
-        "en": "Ousted PM Sheikh Hasina seeks passport in sign of Bangladesh return plan"
-      },
-      "startAt": "2026-11-09T07:12:09.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도에 따르면 해임된 셰이크 하시나 전 총리가 방글라데시 복귀 계획의 신호로 여권을 신청했다. 하시나는 지난 2년간 인도에 거주해왔으며 12월에 방글라데시로 돌아오겠다고 약속한 것으로 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say ousted prime minister Sheikh Hasina has applied for a passport as a sign of a plan to return to Bangladesh. Hasina has been living in India for two years and has reportedly promised to return to Bangladesh in December."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/9/ousted-pm-sheikh-hasina-seeks-passport-in-sign-of-bangladesh-return-plan?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/11/9/ousted-pm-sheikh-hasina-seeks-passport-in-sign-of-bangladesh-return-plan?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-11-09T07:12:09.000Z",
-        "lastObservedAt": "2026-11-09T07:54:59.011Z"
-      }
-    },
-    {
       "id": "news-ef9196ebc9d306252f9f4e46",
       "title": "COP31 개막 — 과학자들 2026년 역대 최고 기온 경고·미국은 공식 대표단 불참",
       "titleTranslations": {
@@ -1289,34 +1431,6 @@
           "https://www.theguardian.com/environment/2026/nov/08/labour-cut-ev-target-car-industry-despite-climate-concerns"
         ],
         "firstPublishedAt": "2026-11-08T17:51:19.000Z",
-        "lastObservedAt": "2026-11-08T18:20:02.575Z"
-      }
-    },
-    {
-      "id": "news-07141ad7abea75515a89fb1d",
-      "title": "이집트 열차 충돌로 7명 사망·100명 이상 부상",
-      "titleTranslations": {
-        "en": "Seven dead and more than 100 injured after trains collide in Egypt"
-      },
-      "startAt": "2026-11-08T17:35:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "기차 두 대가 같은 방향으로 운행하던 중 기자에 따르면 기자자 근교(지자 근처)에서 충돌해 여러 객차가 탈선했고 최소 7명이 숨지고 100명 이상이 다친 것으로 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say two trains travelling in the same direction collided outside Giza, derailing several carriages. At least seven people were killed and more than 100 injured, coverage says."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-08T17:35:13.000Z",
         "lastObservedAt": "2026-11-08T18:20:02.575Z"
       }
     },
@@ -1719,63 +1833,6 @@
       }
     },
     {
-      "id": "news-83d0fa70a5480304fd93d348",
-      "title": "BBC ‘Married at First Sight UK’ 방영 취소—출연자들 복합적 반응",
-      "titleTranslations": {
-        "en": "Married at First Sight UK cancelled after Panorama investigation — cast react with relief, tears and sadness"
-      },
-      "startAt": "2026-11-07T11:31:10.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "BBC 판로라마(Panorama) 조사에서 세 명의 전 출연자가 제기한 주장들이 보도된 뒤, 리얼리티 프로그램 'Married at First Sight UK'의 방송이 취소되었다. 출연자들은 취소 소식에 안도와 눈물, 슬픔이 섞인 반응을 보였다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "The BBC's Married at First Sight UK has been cancelled after a Panorama investigation heard allegations from three former cast members. Reports say cast reacted with a mixture of relief, tears and sadness following the cancellation."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crx233lx94n7o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/crx233lx94n7o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-07T11:31:10.000Z",
-        "lastObservedAt": "2026-11-07T18:01:15.880Z"
-      }
-    },
-    {
-      "id": "news-b19a52adc818672926aaedfb",
-      "title": "오픈AI, 추가 110억 달러 조달 보도 — 평가액 1조2500억달러",
-      "titleTranslations": {
-        "en": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation"
-      },
-      "startAt": "2026-11-06T22:53:46.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보도에 따르면 오픈AI가 아직 마무리되지 않은 자금조달 라운드에서 추가로 약 110억 달러를 조달했다고 전해졌으며, 인수·투자 논의와 함께 회사 평가액을 1조2500억 달러 수준으로 평가받고 있다는 보도가 나왔다.",
-      "descriptionTranslations": {
-        "en": "Reports say OpenAI has reportedly raised an additional $11 billion in an ongoing funding round and is being valued at about $1.25 trillion, according to coverage of the talks."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
-        ],
-        "firstPublishedAt": "2026-11-06T22:53:46.000Z",
-        "lastObservedAt": "2026-11-07T07:04:01.883Z"
-      }
-    },
-    {
       "id": "news-6271bef94c80eeb022bd6618",
       "title": "머스크, 사이버트럭 생산 종결 암시 — 공장 전환해 자율택시 생산 예정",
       "titleTranslations": {
@@ -1974,34 +2031,6 @@
         ],
         "firstPublishedAt": "2026-11-06T13:45:57.000Z",
         "lastObservedAt": "2026-11-07T07:04:01.883Z"
-      }
-    },
-    {
-      "id": "news-e3b83f3df8bd66e1ff84f2cb",
-      "title": "미국 10월 고용, 예상 상회 — 16만5천개 일자리 증가·실업률 4.1%",
-      "titleTranslations": {
-        "en": "US job growth exceeds expectations in October — 165,000 jobs added, unemployment 4.1%"
-      },
-      "startAt": "2026-11-06T13:42:26.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도에 따르면 미국은 10월에 165,000개의 일자리를 추가했으며 실업률은 소폭 하락해 4.1%를 기록했다. 보도는 노동시장이 '저고용·저해고' 상태라는 평가와 함께 12월 금리 인상 가능성에 대한 언급도 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the US economy added 165,000 jobs in October and the unemployment rate fell slightly to 4.1%. Coverage notes the labour market is described as 'low‑hire, low‑fire' and mentions expectations of a possible interest‑rate hike in December."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/nov/06/us-job-growth-october",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/nov/06/us-job-growth-october"
-        ],
-        "firstPublishedAt": "2026-11-06T13:42:26.000Z",
-        "lastObservedAt": "2026-11-06T19:57:13.746Z"
       }
     },
     {
@@ -2229,34 +2258,6 @@
           "https://www.bbc.co.uk/news/articles/cmdxw051np9jo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-04T17:58:59.000Z",
-        "lastObservedAt": "2026-11-05T07:53:51.571Z"
-      }
-    },
-    {
-      "id": "news-15a103767188939cd5b22eb3",
-      "title": "'다발암' 혈액검사, 일부 GP 진료소에 곧 도입 예정",
-      "titleTranslations": {
-        "en": "'Multi‑cancer' blood tests coming to some GP surgeries soon"
-      },
-      "startAt": "2026-11-04T00:04:28.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "보도는 복부계통의 진단이 어려운 암(간·난소·췌장 등)을 훨씬 일찍 발견하는 것을 목표로 하는 다발암 혈액검사가 일부 일반의(GP) 진료소에 곧 도입될 예정이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say so‑called multi‑cancer blood tests, intended to detect hard‑to‑diagnose abdominal cancers including liver, ovarian and pancreatic cancer much earlier, will be coming to some GP surgeries soon."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm9qz93ew22no?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cm9qz93ew22no?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-04T00:04:28.000Z",
         "lastObservedAt": "2026-11-05T07:53:51.571Z"
       }
     },
