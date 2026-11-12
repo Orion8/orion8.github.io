@@ -34,6 +34,11 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <div id="startup-status" role="status" style="position:fixed;inset:0;display:grid;place-content:center;text-align:center;padding:24px;background:#081329;color:#fff;font:16px system-ui;z-index:9999">
+    <h1>MomentAtlas</h1>
+    <p id="startup-message">Loading your timeline…</p>
+    <button id="startup-retry" hidden>Reload / 다시 열기</button>
+  </div>
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
@@ -43,11 +48,28 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script>
+    const korean = (navigator.language || '').startsWith('ko');
+    const startupStatus = document.getElementById('startup-status');
+    const startupMessage = document.getElementById('startup-message');
+    const startupRetry = document.getElementById('startup-retry');
+    startupMessage.textContent = korean ? '시간 지도를 불러오고 있습니다…' : 'Loading your timeline…';
+    window.momentAtlasStartupFailed = (stage) => {
+      if (!startupStatus.isConnected) return;
+      startupMessage.textContent = (korean ? '시작하지 못했습니다. 다시 열어 주세요. ' : 'Could not start. Please reload. ') + '[' + stage + ']';
+      startupRetry.hidden = false;
+    };
+    startupRetry.onclick = () => location.reload();
+    const startupWatchdog = setTimeout(() => window.momentAtlasStartupFailed('timeout'), 25000);
+    window.addEventListener('flutter-first-frame', () => {
+      clearTimeout(startupWatchdog);
+      startupStatus.remove();
+    }, { once: true });
     // GitHub Pages can cache Flutter's stable bootstrap filename. A distinct
     // URL on every page load ensures the bootstrap checks the current build.
     const bootstrap = document.createElement('script');
     bootstrap.src = `flutter_bootstrap.js?cache=${Date.now()}`;
     bootstrap.async = true;
+    bootstrap.onerror = () => window.momentAtlasStartupFailed('bootstrap');
     document.body.appendChild(bootstrap);
   </script>
 </body>
