@@ -1,8 +1,176 @@
 {
-  "catalogVersion": "0.0.216",
-  "updatedAt": "2026-11-11T20:11:16.975Z",
+  "catalogVersion": "0.0.217",
+  "updatedAt": "2026-11-12T08:14:20.823Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-1b127e2f67ca793c7cd9a0ae",
+      "title": "영국 경제, 9월 분기 GDP 0.7% 성장 — 2년 만에 최고 속도",
+      "titleTranslations": {
+        "en": "UK economy grows at fastest rate for more than two years"
+      },
+      "startAt": "2026-11-12T08:11:44.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "보도에 따르면 공식 통계에서 9월까지의 3개월 동안 영국 경제가 0.7% 성장해 최근 2년 가운데 가장 빠른 분기 성장률을 기록했다. 보도는 이 수치가 경기 회복의 단면을 보여준다고 전했다.",
+      "descriptionTranslations": {
+        "en": "According to reporting, official figures show the UK economy grew by 0.7% in the three months to September — the fastest quarterly pace in more than two years — a sign of recovery in parts of the economy."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-12T08:11:44.000Z",
+        "lastObservedAt": "2026-11-12T08:14:20.823Z"
+      }
+    },
+    {
+      "id": "news-5df5b13482c35b6591d4ad6e",
+      "title": "러시아의 공습으로 우크라이나 전력 공급 위기 임박 — 시민들 밤·한파에 고립",
+      "titleTranslations": {
+        "en": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold"
+      },
+      "startAt": "2026-11-12T07:59:33.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도에 따르면 러시아의 군사 공격으로 우크라이나 일부 지역의 전력 공급이 심각하게 훼손돼 가정들이 하루 몇 시간만 전력을 사용할 수 있는 상황이 발생하고 있다. 부모들은 제한된 전력으로 정상적 가정생활을 유지하기 어려워지고 있으며, 야간 정전과 한파가 시민들의 생활에 큰 부담을 주고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say Russian strikes have severely damaged power infrastructure in parts of Ukraine, leaving some households with only a few hours of electricity a day. Parents and families are struggling to maintain normal life amid darkness and cold."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-12T07:59:33.000Z",
+        "lastObservedAt": "2026-11-12T08:14:20.823Z"
+      }
+    },
+    {
+      "id": "news-554dbe9998f0e4df593f9618",
+      "title": "네타냐후의 성격 중심 정치가 이스라엘 민주주의 형식 변화 촉발",
+      "titleTranslations": {
+        "en": "Netanyahu’s legacy: Personality politics reshapes Israeli democracy"
+      },
+      "startAt": "2026-11-12T06:49:45.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "보도는 네타냐후 전(現) 총리의 정치적 생존 투쟁이 의회 개시에 모욕과 격론이 오가는 장면으로 이어졌다며, 그의 리더십 스타일과 인물 중심 정치는 이스라엘의 의회정치·민주주의 관행을 재형성하고 있다고 분석했다.",
+      "descriptionTranslations": {
+        "en": "Coverage says Benjamin Netanyahu's fight for political survival has turned the opening of parliament into a scene of insults and acrimony, and that his personality‑centred politics is reshaping Israeli parliamentary practice and democracy."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/12/netanyahus-legacy-personality-politics-reshapes-israeli-democracy?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/11/12/netanyahus-legacy-personality-politics-reshapes-israeli-democracy?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-11-12T06:49:45.000Z",
+        "lastObservedAt": "2026-11-12T08:14:20.823Z"
+      }
+    },
+    {
+      "id": "news-d9d6e45f61897f2cb3f34368",
+      "title": "월리엄스 관련 폭로 계기 — 문화부 장관, 언론계 감시기구 참여 강제 검토",
+      "titleTranslations": {
+        "en": "Media industry could be forced to improve safeguards after Walliams allegations"
+      },
+      "startAt": "2026-11-12T04:01:50.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "보도는 데이비드 월리엄스 관련 주장들이 제기된 이후 문화장관 리사 낸디가 고발자(whistleblower) 보호를 위한 업계 감시기구 참여를 의무화하는 방안을 강제할 가능성을 검토하고 있다고 BBC가 전했다고 보도했다. 해당 논의는 방송·연예 산업의 내부 신고·보호 절차 개선 요구와 연계돼 있다.",
+      "descriptionTranslations": {
+        "en": "The BBC reports that, after allegations concerning David Walliams, Culture Secretary Lisa Nandy may force participation in an industry watchdog to protect whistleblowers. The move is being considered amid calls to strengthen internal reporting and protection in the media and entertainment sector."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm3egj20v5x4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm3egj20v5x4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-12T04:01:50.000Z",
+        "lastObservedAt": "2026-11-12T08:14:20.823Z"
+      }
+    },
+    {
+      "id": "news-5651d07868d4b8ffbe8d3353",
+      "title": "역사적 여객선 SS United States, 플로리다 해역에 가라앉혀 세계 최대 인공암초로 전환",
+      "titleTranslations": {
+        "en": "Historic US ocean liner sinks near Florida to become world’s largest artificial reef"
+      },
+      "startAt": "2026-11-12T03:07:16.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "보도에 따르면 1952년 취항해 대서양 횡단 속도 기록을 세운 역사적 여객선 SS United States가 플로리다 데스틴 해안 인근에서 침몰해 인공암초로 사용되기 시작했다. 선박은 수십 년간의 운항을 마치고 해양생태계 복원 목적 등으로 전환되었다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say the historic SS United States — launched in 1952 and once the fastest Atlantic liner — has been sunk off Destin, Florida, to begin a new life as an artificial reef, marking the vessel's final voyage and repurposing for marine habitat."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/11/ss-united-states-sinks-florida-reef",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/11/ss-united-states-sinks-florida-reef"
+        ],
+        "firstPublishedAt": "2026-11-12T03:07:16.000Z",
+        "lastObservedAt": "2026-11-12T08:14:20.823Z"
+      }
+    },
+    {
+      "id": "news-789e4b945179c05f9999677e",
+      "title": "배우 어마 P. 홀 사망 — 향년 91세",
+      "titleTranslations": {
+        "en": "Veteran actor Irma P Hall, star of The Ladykillers, dies aged 91"
+      },
+      "startAt": "2026-11-11T19:47:16.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "보도에 따르면 배우 어마 P. 홀(Irma P Hall)이 91세로 별세했다고 가족이 확인했다. 그녀는 교사 출신으로 후년 배우로서 'Soul Food'와 'The Ladykillers' 등 여러 작품으로 알려졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say actor Irma P. Hall has died at the age of 91, her family confirmed. A former schoolteacher who became an actress later in life, Hall was known for roles in films including Soul Food and the Coen brothers' The Ladykillers."
+      },
+      "sourceName": "The Guardian Culture",
+      "sourceUrl": "https://www.theguardian.com/film/2026/nov/11/irma-p-hall-actor-dies",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/film/2026/nov/11/irma-p-hall-actor-dies"
+        ],
+        "firstPublishedAt": "2026-11-11T19:47:16.000Z",
+        "lastObservedAt": "2026-11-12T08:14:20.823Z"
+      }
+    },
     {
       "id": "news-22d6799f13a3486d4568cc73",
       "title": "영국 AI칩 스타트업 Fractile, 7.2억 달러 투자유치",
@@ -63,6 +231,34 @@
       }
     },
     {
+      "id": "news-833534b672b8daa32acea1a5",
+      "title": "딥마인드, AlphaGenome 2 공개 — DNA 서열 변이가 세포·질병에 미치는 영향 예측",
+      "titleTranslations": {
+        "en": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"
+      },
+      "startAt": "2026-11-11T15:00:15.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "딥마인드는 DNA 서열과 그 변이들이 특정 인간 세포 유형과 질병에 미치는 영향을 예측하는 모델 'AlphaGenome 2'를 공개했다고 밝혔다. 보도는 이 기술이 유전체학과 질병 이해에 기여할 가능성이 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "DeepMind has announced 'AlphaGenome 2', a model aimed at predicting how DNA sequences and their variations affect specific human cell types and disease. Coverage says the tool could advance understanding in genomics and disease."
+      },
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "topicIds": [
+        "aiHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+        ],
+        "firstPublishedAt": "2026-11-11T15:00:15.000Z",
+        "lastObservedAt": "2026-11-12T08:14:20.823Z"
+      }
+    },
+    {
       "id": "news-d3212160414aac1d2d3bc5a6",
       "title": "러시아·우크라이나, 아부다비 회담 끝나며 역대 최대 규모 수준의 포로 교환 합의",
       "titleTranslations": {
@@ -91,6 +287,36 @@
         ],
         "firstPublishedAt": "2026-11-10T07:58:07.000Z",
         "lastObservedAt": "2026-11-11T20:11:16.975Z"
+      }
+    },
+    {
+      "id": "news-44a304747829d4123fa12be4",
+      "title": "혈액 속 분자 신호로 난소암 초기 위험 포착 가능성 발견",
+      "titleTranslations": {
+        "en": "Molecular signal in blood helps detect early risk for ovarian cancer, study finds"
+      },
+      "startAt": "2026-11-11T13:05:57.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "연구진은 혈액에서 발견되는 분자 신호가 난소암으로 발전하기 전의 미세 변화를 식별하는 데 도움이 된다고 보고했다. 해당 연구는 난소암이 진행된 뒤에 발견되는 경우가 많은 점을 고려할 때 조기 진단의 잠재적 획기적 진전으로 설명됐으며, 논문은 Nature Medicine에 게재되었다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Researchers report that a molecular signal in the blood can identify microscopic changes that precede ovarian cancer, a potential diagnostic breakthrough given the disease is often detected after it has spread. The study is reported to have been published in Nature Medicine."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood"
+        ],
+        "firstPublishedAt": "2026-11-11T13:05:57.000Z",
+        "lastObservedAt": "2026-11-12T08:14:20.823Z"
       }
     },
     {
@@ -1123,36 +1349,6 @@
       }
     },
     {
-      "id": "news-a3a63a91f6daf1ab8843d05a",
-      "title": "뉴질랜드 총선에서 뚜렷한 승자 없이 연정 협상 임박",
-      "titleTranslations": {
-        "en": "No clear winner in New Zealand election as leaders prepare for talks"
-      },
-      "startAt": "2026-11-08T16:46:15.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "예비개표 결과 뚜렷한 승자가 나오지 않아 크리스토퍼 럭슨 총리가 협상 기간 동안 임시(케어테이커) 정부를 이끌 예정이며, 향후 수주간 연정 협상이 이어질 것으로 보인다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Preliminary results show no clear winner in New Zealand's general election. Prime Minister Christopher Luxon will lead a caretaker government while leaders prepare for what coverage says will be weeks of coalition talks."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks"
-        ],
-        "firstPublishedAt": "2026-11-07T15:56:28.000Z",
-        "lastObservedAt": "2026-11-08T18:20:02.574Z"
-      }
-    },
-    {
       "id": "news-1fd2c4b355c27cd812da7476",
       "title": "영국 정부, 16세 미만 중고거래 플랫폼 접속 금지 검토 보도",
       "titleTranslations": {
@@ -1320,34 +1516,6 @@
         ],
         "firstPublishedAt": "2026-11-08T12:15:31.000Z",
         "lastObservedAt": "2026-11-08T18:20:02.575Z"
-      }
-    },
-    {
-      "id": "news-5e175f27a12ad7cf99f5c4dc",
-      "title": "가자지구 집중호우로 난민 텐트 침수·수만명 거주지 상실",
-      "titleTranslations": {
-        "en": "Heavy rains flood tents in Gaza, leaving tens of thousands without shelter"
-      },
-      "startAt": "2026-11-08T06:55:24.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 가자지구의 폭우로 난민·실향민이 머문 텐트들이 침수돼 수만 명이 거주지를 잃었으며, 이스라엘의 대(對)가자) 인도지원 제한이 대응을 어렵게 하고 있다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say heavy rains in Gaza have flooded tents housing displaced people, leaving tens of thousands without shelter, and that Israeli restrictions on aid are hampering the response."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-11-08T06:55:24.000Z",
-        "lastObservedAt": "2026-11-08T07:15:30.063Z"
       }
     },
     {
@@ -1579,34 +1747,6 @@
       }
     },
     {
-      "id": "news-bbcba1608024b9f13b3823f8",
-      "title": "몬티 돈, 'Gardeners' World'서 20년 만에 마지막 인사",
-      "titleTranslations": {
-        "en": "Monty Don bids 'final goodbye' to Gardeners' World after two decades"
-      },
-      "startAt": "2026-11-07T10:44:38.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 1,
-      "description": "오랜 기간 'Gardeners' World'의 수석 정원사로 활동해온 몬티 돈이 롱미도우(Longmeadow) 정원에서 마지막 방송 촬영을 마치고 작별 인사를 전했다. 보도는 그의 오랜 사회적·문화적 영향력을 전했다.",
-      "descriptionTranslations": {
-        "en": "Monty Don, the long‑running show's head gardener, has signed off from Gardeners' World at Longmeadow after two decades. Reports note his long‑standing cultural influence through the programme."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6wyrrwj9xlro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6wyrrwj9xlro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-07T10:44:38.000Z",
-        "lastObservedAt": "2026-11-07T18:01:15.881Z"
-      }
-    },
-    {
       "id": "news-b19a52adc818672926aaedfb",
       "title": "오픈AI, 추가 110억 달러 조달 보도 — 평가액 1조2500억달러",
       "titleTranslations": {
@@ -1749,35 +1889,6 @@
       }
     },
     {
-      "id": "news-c262b9961ff71dc31ad1bfdb",
-      "title": "수백 대의 Artex AI 해킹 도구 서버가 인터넷에 노출",
-      "titleTranslations": {
-        "en": "Hundreds of Artex AI hacking tools found publicly exposed to the web"
-      },
-      "startAt": "2026-11-06T18:44:38.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "보안 연구원들은 침투테스트 도구인 Artex를 호스팅하는 수백 개의 서버가 인터넷에 노출돼 누구나 접근할 수 있는 상태라고 밝혀, 잠재적 오용과 보안 위험이 우려된다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Security researchers found hundreds of servers hosting the penetration‑testing tool Artex exposed to the internet, allowing public access — raising concerns about potential misuse and security risks."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
-        ],
-        "firstPublishedAt": "2026-11-06T18:44:38.000Z",
-        "lastObservedAt": "2026-11-07T07:04:01.883Z"
-      }
-    },
-    {
       "id": "news-5c50352f02719aed8ed7ab31",
       "title": "민주당 선거성과·AI 규제 우려에 나스닥 19개월 만의 최악의 하루",
       "titleTranslations": {
@@ -1894,34 +2005,6 @@
       }
     },
     {
-      "id": "news-ea4c9a52e32d5f29a75fc215",
-      "title": "아이오다호주, 갓 태어난 늑대 새끼 살해에 한 마리당 2,000달러 지급 기록 유출",
-      "titleTranslations": {
-        "en": "‘An abomination’: Idaho hunters earned thousands of dollars to kill newborn wolf pups, records reveal"
-      },
-      "startAt": "2026-11-06T12:00:42.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "보도에 따르면 아이다호 주 당국이 늑대 개체 수를 줄이기 위해 신생 늑대 새끼 한 마리당 약 2,000달러를 지급했고 문서에는 올봄에 열두 마리의 새끼가 살해된 사례와 적어도 한 번의 새끼무리(리터)가 둥지 근처에서 살해된 정황이 포함되어 있다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say Idaho officials paid roughly $2,000 per newborn wolf pup killed as part of efforts to reduce the state's wolf population; records show about a dozen pups were killed this spring, including at least one full litter taken near its den."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/06/idaho-hunters-newborn-wolf-pups",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/06/idaho-hunters-newborn-wolf-pups"
-        ],
-        "firstPublishedAt": "2026-11-06T12:00:42.000Z",
-        "lastObservedAt": "2026-11-07T07:04:01.883Z"
-      }
-    },
-    {
       "id": "news-5d7427350e81f87516f4543f",
       "title": "영국, 채용 공고에 급여 공개 의무화하라고 기업에 지시",
       "titleTranslations": {
@@ -1946,36 +2029,6 @@
           "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-06T07:36:41.000Z",
-        "lastObservedAt": "2026-11-06T07:54:34.001Z"
-      }
-    },
-    {
-      "id": "news-6050192b65fb2d16a51d6f61",
-      "title": "관측 사상 가장 이른 시점에 약화한 극성(Polar vortex), 영국 겨울 영향 불확실성 제기",
-      "titleTranslations": {
-        "en": "Could the earliest weakening of the polar vortex on record bring UK snow?"
-      },
-      "startAt": "2026-11-06T01:22:39.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "기상 전문가들은 극성(Polar vortex)이 관측 사상 가장 이른 시점에 약화한 현상이 영국의 겨울 날씨에 어떤 영향을 미칠지 예측하기 어렵다고 밝혔다. 조기 약화는 강수·한파 패턴에 변동을 일으킬 수 있어 향후 예보에 대한 불확실성을 높였다.",
-      "descriptionTranslations": {
-        "en": "Meteorologists say the polar vortex has weakened at the earliest point on record, creating uncertainty about its impact on UK winter weather. The unprecedented early weakening could affect precipitation and cold‑weather patterns, complicating forecasts."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/weather/articles/cwyvrz09mnd6o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/weather/articles/cwyvrz09mnd6o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-06T01:22:39.000Z",
         "lastObservedAt": "2026-11-06T07:54:34.001Z"
       }
     },
