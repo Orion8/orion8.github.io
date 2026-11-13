@@ -1,34 +1,155 @@
 {
-  "catalogVersion": "0.0.218",
-  "updatedAt": "2026-11-12T20:47:34.389Z",
+  "catalogVersion": "0.0.219",
+  "updatedAt": "2026-11-13T07:52:55.904Z",
   "sourceType": "editorial",
   "events": [
     {
-      "id": "news-eabeef9e80729989856fc04a",
-      "title": "미 특사단, 모스크바서 푸틴과 회담 뒤 젤렌스키 만나기 위해 출국 — 푸틴, 다음 협상에 유럽 협상단 참여 합의",
+      "id": "news-f83f812563eb29b623dc7ac7",
+      "title": "마이크로소프트 전세계 서비스 장애 — 보안 사고 아님 발표에도 복구 난항",
       "titleTranslations": {
-        "en": "US envoys to meet Zelensky after talks with Putin in Moscow — Putin agrees European negotiators join next round"
+        "en": "Global Microsoft outage — company says not a cyber‑security incident but fixes proving difficult"
       },
-      "startAt": "2026-11-12T20:37:36.000Z",
+      "startAt": "2026-11-13T07:37:38.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "마이크로소프트의 광범위한 서비스 장애가 발생했다. 회사는 이번 장애가 사이버 보안 사고로 인한 것은 아니라고 밝혔지만, 문제 해결 시도가 지금까지는 별다른 진전을 보이지 않고 있다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "A widespread outage has affected Microsoft services globally. Microsoft said the outage was not caused by a cyber‑security incident, but efforts to fix the issues have so far been largely unsuccessful, reports say."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-13T07:37:38.000Z",
+        "lastObservedAt": "2026-11-13T07:52:55.904Z"
+      }
+    },
+    {
+      "id": "news-eabeef9e80729989856fc04a",
+      "title": "젤렌스키, 미 특사단의 유럽 협상단 참여 환영",
+      "titleTranslations": {
+        "en": "Zelensky welcomes US bringing European negotiators into talks"
+      },
+      "startAt": "2026-11-13T02:01:35.000Z",
       "lane": "world",
       "category": "politicsSociety",
       "importance": 3,
-      "description": "보도에 따르면 미 특사단이 모스크바에서 블라디미르 푸틴 대통령과 회담을 가진 뒤 볼로디미르 젤렌스키 우크라이나 대통령을 만나기 위해 출발했다. 미 특사 스티브 위트코프는 푸틴이 다음 차례의 우크라이나 협상에 유럽 협상단의 참여에 동의했다고 전했다.",
+      "description": "우크라이나 대통령 볼로디미르 젤렌스키가 미국 특사단이 러시아 측과 회담을 가진 뒤 유럽 지도자들의 협상 참여를 포함한 결정에 대해 환영 입장을 표명했다. 젤렌스키는 유럽 지도자들이 참여하는 것이 타당하다고 말했다.",
       "descriptionTranslations": {
-        "en": "Reports say US envoys held talks with President Vladimir Putin in Moscow and are travelling to meet Ukrainian President Volodymyr Zelensky. US envoy Steve Witkoff said Putin has agreed that European negotiators will join the next round of Ukraine talks."
+        "en": "Ukrainian President Volodymyr Zelensky said he welcomed the US envoys' decision to include European negotiators following their talks with Russia. Zelensky said it made sense for European leaders to be involved."
       },
       "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
       "topicIds": [
         "politicsHumanRights"
       ],
       "news": {
         "status": "developing",
         "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-12T20:37:36.000Z",
-        "lastObservedAt": "2026-11-12T20:47:34.389Z"
+        "lastObservedAt": "2026-11-13T07:52:55.904Z"
+      }
+    },
+    {
+      "id": "news-cb2fc471f8b57c31e9385669",
+      "title": "수련의 번아웃, 산과 환자 안전 우려 제기 — 규제기관 경고",
+      "titleTranslations": {
+        "en": "Junior doctor burnout putting maternity patients at risk, regulator warns"
+      },
+      "startAt": "2026-11-13T00:55:31.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "규제기관은 분만 업무를 맡는 수련의들이 다른 특성의 의사들보다 과중한 업무와 번아웃 위험에 더 취약하며, 이로 인해 산과 환자에게 위험이 초래될 수 있다고 지적했다. 보고서는 근무량·번아웃 문제를 거론하며 해결 필요성을 강조했다.",
+      "descriptionTranslations": {
+        "en": "A regulator warns that trainee doctors working in maternity are more likely than other specialties to suffer from overwork and burnout, which could put maternity patients at risk. The reporting highlights concerns about workloads and the need for solutions."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckx28le8dv9wo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ckx28le8dv9wo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-13T00:55:31.000Z",
+        "lastObservedAt": "2026-11-13T07:52:55.904Z"
+      }
+    },
+    {
+      "id": "news-4c860996f2c4916a03745393",
+      "title": "청년 기후단체 선라이즈, 슈머 상원의원 워싱턴 사무실 점거 후 수십명 체포",
+      "titleTranslations": {
+        "en": "Sunrise Movement protesters stage sit‑in at Chuck Schumer’s DC office; dozens arrested"
+      },
+      "startAt": "2026-11-12T22:12:56.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "청년 기후단체 선라이즈 운동 회원 수백 명이 상원 지도부인 척 슈머의 워싱턴 사무실을 점거하는 시위를 벌였고, 주최 측에 따르면 54명이 체포됐다. 이들은 상원 지도부 교체와 필리버스터 폐지를 요구했다.",
+      "descriptionTranslations": {
+        "en": "Members of the Sunrise Movement staged a sit‑in at Senate leader Chuck Schumer’s Washington office, with organisers saying around 54 people were arrested. Protesters called for new Senate leadership and an end to the filibuster."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/12/protesters-arrested-chuck-schumer-office-dc",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/12/protesters-arrested-chuck-schumer-office-dc"
+        ],
+        "firstPublishedAt": "2026-11-12T22:12:56.000Z",
+        "lastObservedAt": "2026-11-13T07:52:55.904Z"
+      }
+    },
+    {
+      "id": "news-4e392e0aaa878514344f9a0a",
+      "title": "젠슨 황, 불륜 의혹 속 엔비디아 CEO직 사임 — 임시 CEO 선임",
+      "titleTranslations": {
+        "en": "Jensen Huang resigns as Nvidia CEO amid affairs scandal — interim CEO appointed"
+      },
+      "startAt": "2026-11-12T21:33:08.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "엔비디아 최고경영자 젠슨 황이 불륜 의혹을 둘러싼 논란 끝에 사임했다는 보도가 나왔다. 회사는 임시 CEO를 선임했다고 전해지며, 이사회와 경영진 거취를 둘러싼 논쟁이 본격화되고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say Nvidia CEO Jensen Huang has resigned amid allegations regarding personal affairs, and the company has appointed an interim CEO. The move intensifies debate over the board's handling of leadership and governance."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+          "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+          "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+          "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia",
+          "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+        ],
+        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
+        "lastObservedAt": "2026-11-13T07:52:55.904Z"
       }
     },
     {
@@ -90,6 +211,36 @@
       }
     },
     {
+      "id": "news-701a9c14f2b820a10b0efd93",
+      "title": "인도네시아 부통령, 자격·학력 논란 속 사임 제의",
+      "titleTranslations": {
+        "en": "Indonesia's vice‑president offers resignation amid eligibility and academic credential questions"
+      },
+      "startAt": "2026-11-12T14:22:50.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "라카(Raka) 부통령이 해외 학력 서류의 적격성 문제가 제기된 가운데 사임을 제의했다. 헌법재판소와 대법원은 제출된 서류가 선거 요건을 충족하지 못한다고 판결했다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Vice‑President Raka has offered his resignation amid questions about the eligibility of documents related to his overseas education. Reports say the Constitutional Court and the Supreme Court ruled the submitted documents did not meet election requirements."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/12/g-s1-153190/indonesias-vp-resigns-as-his-eligibility-and-academic-credentials-are-questioned",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility",
+          "https://www.npr.org/2026/11/12/g-s1-153190/indonesias-vp-resigns-as-his-eligibility-and-academic-credentials-are-questioned"
+        ],
+        "firstPublishedAt": "2026-11-10T14:01:14.000Z",
+        "lastObservedAt": "2026-11-13T07:52:55.904Z"
+      }
+    },
+    {
       "id": "news-53a544a507e8e47cd5950cde",
       "title": "바바라 브로콜리, 영화학교 신임 총장에 — 데이비드 푸트냄 후임으로 내년 2월 취임 예정",
       "titleTranslations": {
@@ -115,6 +266,36 @@
         ],
         "firstPublishedAt": "2026-11-12T12:54:06.000Z",
         "lastObservedAt": "2026-11-12T20:47:34.389Z"
+      }
+    },
+    {
+      "id": "news-9bfee2608e815312eec659f6",
+      "title": "유클리드 임무, 첫 주요 자료 공개 — 9억여 개 은하와 약 1만5천 건의 중력렌즈 후보 확인",
+      "titleTranslations": {
+        "en": "Euclid mission releases first major data — more than 900 million galaxies and ~15,000 gravitational‑lens candidates"
+      },
+      "startAt": "2026-11-12T11:08:54.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "유럽우주기구의 유클리드(Euclid) 우주망원경이 첫 주요 데이터 공개에서 9억 개가 넘는 은하와 약 1만5천 건의 중력렌즈 후보를 발표했다. 이 자료는 우주의 대규모 3D 지도를 만드는 프로젝트의 초기 결과로, 암흑물질·암흑에너지 연구에 기여할 것으로 보인다.",
+      "descriptionTranslations": {
+        "en": "The European Space Agency’s Euclid space telescope released its first major data, identifying more than 900 million galaxies and about 15,000 potential gravitational‑lens candidates. The dataset is an early result from the project to build the largest 3D map of the universe and could aid studies of dark matter and dark energy."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe"
+        ],
+        "firstPublishedAt": "2026-11-12T11:08:54.000Z",
+        "lastObservedAt": "2026-11-13T07:52:55.904Z"
       }
     },
     {
@@ -945,35 +1126,6 @@
       }
     },
     {
-      "id": "news-701a9c14f2b820a10b0efd93",
-      "title": "나이지리아 부통령, 자격 논란 속 사임 제의",
-      "titleTranslations": {
-        "en": "Indonesia’s vice‑president offers resignation amid questions over his eligibility"
-      },
-      "startAt": "2026-11-10T14:01:14.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "NPR 보도에 따르면 인도네시아 부통령이 자신의 자격을 둘러싼 의문이 커지자 사임을 제의했다. 보도는 이 결정이 프라보워와 위도도 사이의 정치적 균열 확대와, 고위 경찰관들의 대통령 도청 의혹 수사와 동시에 일어났다고 전했다.",
-      "descriptionTranslations": {
-        "en": "NPR reports Indonesia’s vice‑president has offered his resignation amid mounting questions over his eligibility. The report says the move comes amid a widening political rift between Prabowo and Widodo and a separate investigation into allegations that senior police officials wiretapped the president."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility"
-        ],
-        "firstPublishedAt": "2026-11-10T14:01:14.000Z",
-        "lastObservedAt": "2026-11-11T07:44:11.041Z"
-      }
-    },
-    {
       "id": "news-41a0f772447991ae2cb16463",
       "title": "헐리우드, 스토리보드 제작에 AI 도입 확대 — 일러스트레이터 일자리 위협",
       "titleTranslations": {
@@ -1145,41 +1297,6 @@
       }
     },
     {
-      "id": "news-4e392e0aaa878514344f9a0a",
-      "title": "젠슨 황 이미지 타격…엔비디아 경영진 거취 논의중",
-      "titleTranslations": {
-        "en": "Jensen Huang’s image damaged; Nvidia board faces decisions over leadership"
-      },
-      "startAt": "2026-11-09T20:27:07.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "가디언 보도는 젠슨 황 엔비디아 CEO의 공적 이미지가 동료의혹 제기 이후 손상되었으며, 공동창업자 시절부터 회사를 이끈 황의 자리와 이사회 결정이 중대 기로에 놓였다고 보도했다. 기사에서는 이사회가 어려운 결정을 앞두고 있다고 전한다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that Jensen Huang’s public image has been damaged following allegations, leaving Nvidia’s board facing difficult decisions about his position. The coverage says Huang — co‑founder and long‑time public face of Nvidia — and the board now confront a fraught governance choice."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-          "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
-          "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-          "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
-          "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia"
-        ],
-        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
-        "lastObservedAt": "2026-11-10T08:22:42.322Z"
-      }
-    },
-    {
       "id": "news-8827aad4505e69ef98eb5a35",
       "title": "딥마인드, 로봇용 모델 'Gemini Robotics 2.5' 공개",
       "titleTranslations": {
@@ -1260,34 +1377,6 @@
           "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/"
         ],
         "firstPublishedAt": "2026-11-09T18:55:50.000Z",
-        "lastObservedAt": "2026-11-09T22:59:34.874Z"
-      }
-    },
-    {
-      "id": "news-0afa2143f712e4f6c6884651",
-      "title": "미 상원, 환경·사회 규정 약화하며 대형 인프라 신속 처리 법안 표결",
-      "titleTranslations": {
-        "en": "Senate votes on bill to speed up large infrastructure projects while weakening environmental rules"
-      },
-      "startAt": "2026-11-09T18:42:32.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 미 상원이 가스관부터 전력송전선에 이르기까지 대형 인프라 사업의 신속한 처리를 촉진하는 법안(Bipartisan American Affordability and Jobs act)의 절차적 표결을 진행했다. 해당 법안은 환경·사회적 보호조치를 약화시키는 조항을 포함해 기후·환경 단체의 찬반 논란을 불러일으키고 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say the US Senate held a procedural vote on the Bipartisan American Affordability and Jobs Act to speed up large infrastructure projects, including pipelines and transmission lines, while rolling back environmental and social protections — a move that has split climate and environmental groups."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote"
-        ],
-        "firstPublishedAt": "2026-11-09T18:42:32.000Z",
         "lastObservedAt": "2026-11-09T22:59:34.874Z"
       }
     },
@@ -1775,36 +1864,6 @@
       }
     },
     {
-      "id": "news-b62c9c03eb5f12028fe23388",
-      "title": "반투 확장 연구 — 유전학·고고학이 확산 경로를 밝히다",
-      "titleTranslations": {
-        "en": "The Bantu expansion changed Africa — genes and archaeology reveal how"
-      },
-      "startAt": "2026-11-07T12:15:55.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "유전자 연구와 고고학 증거가 결합되며 반투어 화자들의 아프리카 대륙 전반 확산 과정과 그 영향에 대한 새로운 이해를 제공하고 있다. 보도는 이러한 연구들이 언어·유전자·문화의 변화를 추적하고 있다고 전한다.",
-      "descriptionTranslations": {
-        "en": "Genetic and archaeological research is shedding new light on how Bantu speakers spread across much of Africa and the resulting changes. Coverage says these studies are helping to trace shifts in language, genes and culture."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/"
-        ],
-        "firstPublishedAt": "2026-11-07T12:15:55.000Z",
-        "lastObservedAt": "2026-11-07T18:01:15.880Z"
-      }
-    },
-    {
       "id": "news-ebb02e415932d86ac9c3bb66",
       "title": "새로운 ‘고안전’ 플라스틱 가소제 DINCH 노출, 출생체중 저하 연관 연구 결과",
       "titleTranslations": {
@@ -2034,34 +2093,6 @@
       }
     },
     {
-      "id": "news-5d7427350e81f87516f4543f",
-      "title": "영국, 채용 공고에 급여 공개 의무화하라고 기업에 지시",
-      "titleTranslations": {
-        "en": "Firms told to publish salaries in job adverts ahead of new law"
-      },
-      "startAt": "2026-11-06T07:36:41.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "영국 정부는 채용 공고에 급여를 명시하도록 기업들에 지시했다. 정부는 이 조치가 구직자에게 도움이 되고 임금 차별을 방지하는 데 기여할 것이라고 주장하며 관련 법 시행을 앞두고 준비를 촉구했다.",
-      "descriptionTranslations": {
-        "en": "The UK government has told firms to publish salaries in job adverts ahead of a new law. The government says the change will help jobseekers and could help prevent pay discrimination as the legislation approaches implementation."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-06T07:36:41.000Z",
-        "lastObservedAt": "2026-11-06T07:54:34.001Z"
-      }
-    },
-    {
       "id": "news-c29fd770c68e8af632a0a2e3",
       "title": "콩고민주공화국에서 에볼라에 감염된 영국인, 치료 위해 영국 도착",
       "titleTranslations": {
@@ -2231,34 +2262,6 @@
         ],
         "firstPublishedAt": "2026-11-04T23:12:47.000Z",
         "lastObservedAt": "2026-11-05T20:39:09.503Z"
-      }
-    },
-    {
-      "id": "news-d10e852f34cfbb23f68afecc",
-      "title": "잉글랜드·웨일스 약물 사망 원인, 코카인이 헤로인 추월",
-      "titleTranslations": {
-        "en": "Cocaine overtakes heroin as leading cause of drug deaths in England and Wales"
-      },
-      "startAt": "2026-11-04T17:58:59.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "보도에 따르면 잉글랜드와 웨일스에서 코카인 관련 사망자가 10년 사이 거의 4배로 증가해 코카인이 약물 관련 사망의 주요 원인으로 부상했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the number of deaths linked to cocaine use in England and Wales has nearly quadrupled in a decade, and cocaine has overtaken heroin as the leading cause of drug deaths."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmdxw051np9jo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmdxw051np9jo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-04T17:58:59.000Z",
-        "lastObservedAt": "2026-11-05T07:53:51.571Z"
       }
     },
     {
