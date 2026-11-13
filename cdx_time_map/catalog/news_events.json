@@ -1,8 +1,303 @@
 {
-  "catalogVersion": "0.0.219",
-  "updatedAt": "2026-11-13T07:52:55.904Z",
+  "catalogVersion": "0.0.220",
+  "updatedAt": "2026-11-13T20:28:54.817Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-8573d9e8e576a4ad47319dd7",
+      "title": "SpaceX, 스타십 로켓의 두 부분 동시 회수 시도 예정",
+      "titleTranslations": {
+        "en": "SpaceX to attempt double catch of huge Starship rocket"
+      },
+      "startAt": "2026-11-13T20:12:02.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "보도는 일론 머스크의 회사가 스타십 로켓의 두 부분을 처음으로 동시에 잡아 회수하려는 시도를 준비하고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage says Elon Musk’s company will attempt for the first time to catch both parts of the Starship rocket during recovery operations."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-13T20:12:02.000Z",
+        "lastObservedAt": "2026-11-13T20:28:54.817Z"
+      }
+    },
+    {
+      "id": "news-bc814ae71b02d54fd1965891",
+      "title": "트럼프의 이란 전략: ‘현상 유지’로 전환",
+      "titleTranslations": {
+        "en": "What’s Trump’s strategy with Iran? To keep things as they are"
+      },
+      "startAt": "2026-11-13T19:02:04.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "보도에 따르면 트럼프는 걸프 아랍 동맹국들이 원하는 것이 '현상 유지(status quo)'라며, 이란과의 갈등이 교착상태에 빠지고 중간선거 영향으로 공격 위협에서 경제적 압박으로 전략을 전환하고 있다고 전해졌다.",
+      "descriptionTranslations": {
+        "en": "Reports say Trump describes ‘status quo’ as what Gulf Arab allies want, and that with the Iran war at a stalemate and midterm pressures, the strategy has shifted from threats of attacks to economic pressure."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are"
+        ],
+        "firstPublishedAt": "2026-11-13T19:02:04.000Z",
+        "lastObservedAt": "2026-11-13T20:28:54.816Z"
+      }
+    },
+    {
+      "id": "news-6669a4d19d8d97224289adfc",
+      "title": "수출 금지된 엔비디아 칩들이 중국의 최강 AI 모델 뒤에 있다는 연구",
+      "titleTranslations": {
+        "en": "Export‑banned Nvidia chips are behind China’s most powerful AI models — research shows"
+      },
+      "startAt": "2026-11-13T18:40:30.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 3,
+      "description": "TechCrunch 보도는 새 연구가 중국의 가장 발전된 AI 모델들이 수출 금지된 엔비디아 칩으로 훈련된 정황을 보여준다고 전했다.",
+      "descriptionTranslations": {
+        "en": "TechCrunch reports new research shows China’s most advanced AI models were trained using Nvidia chips that are subject to export bans."
+      },
+      "sourceName": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+        ],
+        "firstPublishedAt": "2026-11-13T18:40:30.000Z",
+        "lastObservedAt": "2026-11-13T20:28:54.817Z"
+      }
+    },
+    {
+      "id": "news-c78fff72fd09efe2e5bd6500",
+      "title": "아부다비 호텔 난투 사건 관련 8명 징역 선고",
+      "titleTranslations": {
+        "en": "Eight sentenced to jail over Nurmagomedov‑Dvalishvili brawl"
+      },
+      "startAt": "2026-11-13T17:15:52.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "보도에 따르면 MMA 선수 우스만 누르마고메도프와 메랍 드발리슈빌리 등이 연루된 아부다비의 호텔 집단 난투 사건과 관련해 8명이 형을 선고받았다.",
+      "descriptionTranslations": {
+        "en": "Reports say eight people have been sentenced to jail for their roles in a mass brawl involving MMA fighters Usman Nurmagomedov and Merab Dvalishvili at a hotel in Abu Dhabi."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm3wgpl28yzgo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm3wgpl28yzgo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-13T17:15:52.000Z",
+        "lastObservedAt": "2026-11-13T20:28:54.817Z"
+      }
+    },
+    {
+      "id": "news-b13e18c3f67ad0a38b0ba7d5",
+      "title": "타협 없는 푸틴, 우크라이나 평화 요구 강화",
+      "titleTranslations": {
+        "en": "Uncompromising Putin ups demands for peace with Ukraine"
+      },
+      "startAt": "2026-11-13T16:40:31.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "BBC 러시아 담당 편집자는 유럽 안보 문제가 주요 논의로 포함된 자체를 모스크바의 승리로 본다며, 푸틴이 우크라이나와의 평화 조건을 강화하고 있다는 보도가 제기되었다.",
+      "descriptionTranslations": {
+        "en": "BBC Russia Editor Steve Rosenberg says the inclusion of European security in talks is seen in Moscow as a victory, and reports indicate Putin has raised uncompromising demands for peace with Ukraine."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-13T16:40:31.000Z",
+        "lastObservedAt": "2026-11-13T20:28:54.816Z"
+      }
+    },
+    {
+      "id": "news-a01ff8c4ba8804a19ab2a489",
+      "title": "캘리포니아 주지사 개빈 뉴스옴, 전 세계 화석연료 단계적 중단 지지",
+      "titleTranslations": {
+        "en": "California governor Gavin Newsom endorses global fossil fuel phaseout"
+      },
+      "startAt": "2026-11-13T16:31:28.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "보도는 캘리포니아 주지사 개빈 뉴스옴이 COP31에서 세계적 차원의 석유·가스 등 화석연료 단계적 중단을 명시적으로 지지했다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say California governor Gavin Newsom explicitly endorsed a global phaseout of fossil fuels at COP31, signalling California’s support for Santa Marta coalition efforts to transition away from oil and gas."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/13/california-gavin-newsom-endorses-fossil-fuel-phaseout",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/nov/13/california-gavin-newsom-endorses-fossil-fuel-phaseout"
+        ],
+        "firstPublishedAt": "2026-11-13T16:31:28.000Z",
+        "lastObservedAt": "2026-11-13T20:28:54.817Z"
+      }
+    },
+    {
+      "id": "news-0fdc304b8635182eff4df74e",
+      "title": "잉글랜드, 휠체어 럭비 월드컵 우승",
+      "titleTranslations": {
+        "en": "Sharks, ladders and a four‑year plan — how England won World Cup"
+      },
+      "startAt": "2026-11-13T15:49:30.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "보도는 잉글랜드가 휠체어 럭비 월드컵에서 우승했으며, 감독의 공격적 전략과 장기 계획이 우승의 기반이 되었다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage reports England won the Wheelchair Rugby League World Cup, attributing the triumph to head coach Tom Coyd’s aggressive approach and a four‑year plan."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/rugby-league/articles/crly54evvvv4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/rugby-league/articles/crly54evvvv4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-13T15:49:30.000Z",
+        "lastObservedAt": "2026-11-13T20:28:54.817Z"
+      }
+    },
+    {
+      "id": "news-4e392e0aaa878514344f9a0a",
+      "title": "엔비디아 성추문이 백악관까지 정치적 압력으로 확산",
+      "titleTranslations": {
+        "en": "How a sex scandal at Nvidia is putting pressure on the White House"
+      },
+      "startAt": "2026-11-13T12:22:30.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "보도는 젠슨 황의 개인적 사생활 의혹이 촉발했지만 사안이 기업 거버넌스와 정치적 논쟁으로 확산돼 백악관에까지 부담을 주고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage says Jensen Huang’s personal‑life allegations have escalated into a corporate‑governance and political controversy that is now putting pressure on the White House."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "aiHistory",
+        "computerHistory",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+          "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+          "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+          "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia",
+          "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+          "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
+        "lastObservedAt": "2026-11-13T20:28:54.816Z"
+      }
+    },
+    {
+      "id": "news-cfe4c0fbb54460410c8529bd",
+      "title": "러셀 브랜드에 추가 여성 피해자 주장 제기",
+      "titleTranslations": {
+        "en": "More women make allegations against Russell Brand"
+      },
+      "startAt": "2026-11-13T12:14:17.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "보도는 타임스와 넷플릭스 다큐에서 제기된 새로운 주장들이 최근의 브랜드 관련 형사·민사 보도에 추가로 제기되었다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Reports say further allegations against Russell Brand have been made in The Times and a Netflix documentary, adding to recent criminal and civil reporting about the comedian."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cme3dwydp857o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/culture/2026/nov/05/russell-brand-found-guilty-rape-sexual-assault",
+          "https://www.bbc.co.uk/news/articles/cqde1yddwk17o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/cme3dwydp857o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-05T17:03:15.000Z",
+        "lastObservedAt": "2026-11-13T20:28:54.817Z"
+      }
+    },
+    {
+      "id": "news-f613e36899daf7f5bd97df78",
+      "title": "‘슈퍼 엘니뇨’로 캘리포니아 연안 해양생태계에서 이례적 변화 관찰",
+      "titleTranslations": {
+        "en": "A super El Niño brings startling changes for marine life on California coast"
+      },
+      "startAt": "2026-11-13T12:00:19.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 3,
+      "description": "보도는 수온 급등·만조 상승·먹이망 붕괴와 함께 해변에 폐사 동물들이 다수 보이는 등 몬터레이만 일대에서 '이전에 본 적 없는' 변화가 관찰되고 있다고 전했다.",
+      "descriptionTranslations": {
+        "en": "Coverage reports a super El Niño has driven record‑high water temperatures, higher tides and disruptions to marine food webs along California’s Monterey Bay, producing large numbers of dead wildlife and unprecedented conditions."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/13/super-el-nino-california-monterey-bay",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/nov/13/super-el-nino-california-monterey-bay"
+        ],
+        "firstPublishedAt": "2026-11-13T12:00:19.000Z",
+        "lastObservedAt": "2026-11-13T20:28:54.817Z"
+      }
+    },
     {
       "id": "news-f83f812563eb29b623dc7ac7",
       "title": "마이크로소프트 전세계 서비스 장애 — 보안 사고 아님 발표에도 복구 난항",
@@ -113,42 +408,6 @@
           "https://www.theguardian.com/us-news/2026/nov/12/protesters-arrested-chuck-schumer-office-dc"
         ],
         "firstPublishedAt": "2026-11-12T22:12:56.000Z",
-        "lastObservedAt": "2026-11-13T07:52:55.904Z"
-      }
-    },
-    {
-      "id": "news-4e392e0aaa878514344f9a0a",
-      "title": "젠슨 황, 불륜 의혹 속 엔비디아 CEO직 사임 — 임시 CEO 선임",
-      "titleTranslations": {
-        "en": "Jensen Huang resigns as Nvidia CEO amid affairs scandal — interim CEO appointed"
-      },
-      "startAt": "2026-11-12T21:33:08.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "엔비디아 최고경영자 젠슨 황이 불륜 의혹을 둘러싼 논란 끝에 사임했다는 보도가 나왔다. 회사는 임시 CEO를 선임했다고 전해지며, 이사회와 경영진 거취를 둘러싼 논쟁이 본격화되고 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say Nvidia CEO Jensen Huang has resigned amid allegations regarding personal affairs, and the company has appointed an interim CEO. The move intensifies debate over the board's handling of leadership and governance."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "breaking",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-          "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-          "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
-          "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-          "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
-          "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia",
-          "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
-        ],
-        "firstPublishedAt": "2026-11-07T21:17:08.000Z",
         "lastObservedAt": "2026-11-13T07:52:55.904Z"
       }
     },
@@ -756,35 +1015,6 @@
       }
     },
     {
-      "id": "news-cfe4c0fbb54460410c8529bd",
-      "title": "경찰, 제이미마 골드스미스 자택의 '폭력적 사건'으로 러셀 브랜드 퇴거 도운 사실 확인",
-      "titleTranslations": {
-        "en": "Police confirm they helped remove Russell Brand after 'violent incident' at Jemima Goldsmith's home"
-      },
-      "startAt": "2026-11-11T10:26:25.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 제이미마 골드스미스의 신고로 경찰이 러셀 브랜드에게 자택을 떠나도록 요청해 그를 퇴거시켰다고 확인했다. 사건은 브랜드에 대한 기존 형사 절차와 관련해 추가 보도로 이어지고 있다.",
-      "descriptionTranslations": {
-        "en": "BBC reports police confirmed they asked Russell Brand to leave Jemima Goldsmith’s home after a woman reported an alleged assault. The incident has generated further reporting amid Brand’s ongoing legal matters."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqde1yddwk17o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/culture/2026/nov/05/russell-brand-found-guilty-rape-sexual-assault",
-          "https://www.bbc.co.uk/news/articles/cqde1yddwk17o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-05T17:03:15.000Z",
-        "lastObservedAt": "2026-11-11T20:11:16.975Z"
-      }
-    },
-    {
       "id": "news-c47515d6afd7d1752f102111",
       "title": "사회 돌봄 검토 책임자, 잉글랜드 돌봄서비스에 대해 정부 '무관심' 비판",
       "titleTranslations": {
@@ -1182,35 +1412,6 @@
       }
     },
     {
-      "id": "news-3baee4176b6d2795b4266c2c",
-      "title": "북부 에티오피아 분쟁, 의료체계 붕괴 위기 초래",
-      "titleTranslations": {
-        "en": "Conflict in northern Ethiopia pushes healthcare system to the brink"
-      },
-      "startAt": "2026-11-09T22:25:13.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 북부 티그라이 지역의 지속된 분쟁으로 인해 한때 지역 모델로 평가받던 에티오피아의 보건시설과 의료 인력이 공격·취약 상태에 놓여 의료체계가 붕괴 직전이라고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say ongoing fighting in Ethiopia’s northern Tigray region has left facilities and medical workers vulnerable to attacks, pushing a health system once seen as a regional model to the brink."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/09/nx-s1-5987949/in-northern-ethiopia-conflict-pushes-a-strained-healthcare-system-to-the-brink",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/09/nx-s1-5987949/in-northern-ethiopia-conflict-pushes-a-strained-healthcare-system-to-the-brink"
-        ],
-        "firstPublishedAt": "2026-11-09T22:25:13.000Z",
-        "lastObservedAt": "2026-11-09T22:59:34.874Z"
-      }
-    },
-    {
       "id": "news-760cc7c47368c53f515a6a59",
       "title": "M John Harrison, 소설 'The End of Everything'로 부커상 수상—최고령 수상 기록(81세)",
       "titleTranslations": {
@@ -1237,35 +1438,6 @@
         ],
         "firstPublishedAt": "2026-11-09T11:30:13.000Z",
         "lastObservedAt": "2026-11-10T08:22:42.323Z"
-      }
-    },
-    {
-      "id": "news-81f22044c23e4a55da567b37",
-      "title": "교황, 아르헨티나서 성직자 학대 생존자들과 비공개 면담…보호 강화 약속",
-      "titleTranslations": {
-        "en": "Pope meets clergy abuse survivors in Argentina, pledges to strengthen safeguards"
-      },
-      "startAt": "2026-11-09T22:14:37.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도에 따르면 교황은 아르헨티나 방문 중 성직자 학대 생존자들과 비공개로 면담하며 피해자들의 이야기를 경청하고 교회 내 보호 장치 강화를 약속했다.",
-      "descriptionTranslations": {
-        "en": "Reports say the Pope held private meetings with clergy‑abuse survivors during his visit to Argentina, pledged to listen to victims and to reinforce safeguards within the Church."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/9/pope-meets-with-clergy-abuse-survivors-in-argentina?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/9/pope-meets-with-clergy-abuse-survivors-in-argentina?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-11-09T05:30:37.000Z",
-        "lastObservedAt": "2026-11-09T22:59:34.874Z"
       }
     },
     {
@@ -1664,34 +1836,6 @@
       }
     },
     {
-      "id": "news-b4a23f307828b22da6da9d71",
-      "title": "미국 데이터센터 수요에 파이프라인 사업 확장 — 규제 완화와 맞물려 우려 제기",
-      "titleTranslations": {
-        "en": "US datacentre demand spurs surge in fossil‑fuel pipeline projects amid deregulation"
-      },
-      "startAt": "2026-11-08T13:00:40.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "보도는 미국의 데이터센터 수요가 화석연료 파이프라인 프로젝트 붐을 부추기고 있으며, 트럼프 행정부의 규제 완화와 맞물려 연방 기록에서 거의 200건의 제안 또는 진행 중인 파이프라인이 확인됐고 총 연장은 약 17,000마일에 달한다고 전했다. 기사들은 이에 따른 환경·안전 우려를 지적했다.",
-      "descriptionTranslations": {
-        "en": "Reports say demand from US datacentres is driving a boom in fossil‑fuel pipeline projects. The coverage cites federal records showing nearly 200 proposed or in‑progress pipeline projects totalling about 17,000 miles, and raises concerns about environmental and safety impacts amid deregulatory moves."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/08/datacenters-fossil-fuel-pipelines-regulations",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/08/datacenters-fossil-fuel-pipelines-regulations"
-        ],
-        "firstPublishedAt": "2026-11-08T13:00:40.000Z",
-        "lastObservedAt": "2026-11-09T07:54:59.011Z"
-      }
-    },
-    {
       "id": "news-9e3feb6bb8fadf243e727ba9",
       "title": "물리학자들, 전기적 잡음 분석으로 초전도체 미스터리 규명",
       "titleTranslations": {
@@ -1718,36 +1862,6 @@
           "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/"
         ],
         "firstPublishedAt": "2026-11-08T12:15:31.000Z",
-        "lastObservedAt": "2026-11-08T18:20:02.575Z"
-      }
-    },
-    {
-      "id": "news-0950815151edb81dc1601506",
-      "title": "우크라이나 전쟁에서 '우주 역량'의 중요성 부각 — 자체 위성·통신 개발 가속",
-      "titleTranslations": {
-        "en": "Space becomes critical to Ukraine war as Kyiv accelerates own space capabilities"
-      },
-      "startAt": "2026-11-08T05:00:30.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "보도는 드론·전장 센서 중심의 전쟁에서 우주 접근이 필수적이라고 전하며, 스타링크 속도 제한·러시아의 오레슈니크 미사일 공격 이후 우크라이나가 자체 우주 역량 개발을 서두르고 있다고 보도했다. 기사에는 8월 15일 러시아의 생산시설 공격 사례도 언급됐다.",
-      "descriptionTranslations": {
-        "en": "Coverage says access to space has become essential in a drone‑and‑sensor driven war. After Starlink speed restrictions and Russian Oreshnik missile strikes, Kyiv is racing to develop its own space capabilities. The report also references the 15 August attack on the Progress Rocket and Space Centre."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/ng-interactive/2026/nov/08/ukraine-space-critical-war-starlink",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/ng-interactive/2026/nov/08/ukraine-space-critical-war-starlink"
-        ],
-        "firstPublishedAt": "2026-11-08T05:00:30.000Z",
         "lastObservedAt": "2026-11-08T18:20:02.575Z"
       }
     },
@@ -1973,64 +2087,6 @@
           "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-film-maker"
         ],
         "firstPublishedAt": "2026-11-06T20:56:41.000Z",
-        "lastObservedAt": "2026-11-07T07:04:01.883Z"
-      }
-    },
-    {
-      "id": "news-d2558eeb38930bad185c2291",
-      "title": "엘니뇨 폭우로 뉴멕시코 유명 암석 'Alien Throne' 일부 붕괴 확인",
-      "titleTranslations": {
-        "en": "Famous New Mexico rock formation destroyed after torrential El Niño rains"
-      },
-      "startAt": "2026-11-06T19:23:03.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "보도에 따르면 슈퍼 엘니뇨와 연관된 폭우 이후 뉴멕시코 북서부의 유명 암석 지형 가운데 적어도 한 곳이 부서진 채로 발견되었으며, 당국은 폭풍이 바위 기둥들에 손상을 입혔는지 조사할 예정이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say that after torrential rains linked to a super El Niño season, at least one famous rock formation in northwest New Mexico — known for its gravity‑defying spires such as the 'Alien Throne' — has been found in pieces. Officials expect to investigate whether the storms damaged the spires."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/06/new-mexico-alien-throne-collapse-el-nino-rain",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/nov/06/new-mexico-alien-throne-collapse-el-nino-rain"
-        ],
-        "firstPublishedAt": "2026-11-06T19:23:03.000Z",
-        "lastObservedAt": "2026-11-06T19:57:13.746Z"
-      }
-    },
-    {
-      "id": "news-5c50352f02719aed8ed7ab31",
-      "title": "민주당 선거성과·AI 규제 우려에 나스닥 19개월 만의 최악의 하루",
-      "titleTranslations": {
-        "en": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph"
-      },
-      "startAt": "2026-11-06T18:32:16.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "보도는 민주당의 선거 성과와 AI 산업에 대한 규제 우려가 맞물리며 기술주 중심의 나스닥이 5.5% 급락해 19개월 만의 최악의 하루를 기록했고 시가총액 수조 달러가 증발했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reporting says the Nasdaq plunged — its worst day in 19 months — as Democratic election gains and fears of increased AI regulation spooked investors, wiping trillions off tech market value."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
-          "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/news/video/2026/nov/06/could-the-ai-bubble-burst-after-democrats-midterms-sweep-the-latest"
-        ],
-        "firstPublishedAt": "2026-11-05T21:23:18.000Z",
         "lastObservedAt": "2026-11-07T07:04:01.883Z"
       }
     },
@@ -2437,34 +2493,6 @@
       }
     },
     {
-      "id": "news-4cf5d2571e45c7064a60310e",
-      "title": "U‑15 월드컵 경기, 인종차별 의혹으로 중단돼 경기 포기",
-      "titleTranslations": {
-        "en": "England‑Republic of Ireland U15 World Cup game ends over alleged racism"
-      },
-      "startAt": "2026-10-26T18:17:25.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 2,
-      "description": "BBC 스포츠는 잉글랜드와 아일랜드의 U‑15 월드컵 조별리그 경기가 한 상대 선수의 인종차별적 발언 의혹이 제기되며 중단·취소되었다고 보도했다. 보도는 해당 경기가 중도 종료된 사실을 전했다.",
-      "descriptionTranslations": {
-        "en": "BBC Sport reports that the Under‑15 World Cup Group C match between England and the Republic of Ireland was abandoned after England alleged an opponent made a racist comment. The coverage notes the match was halted and not completed."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-26T18:17:25.000Z",
-        "lastObservedAt": "2026-10-26T19:14:44.655Z"
-      }
-    },
-    {
       "id": "news-9679049c03ff86245cab16f4",
       "title": "미 군, 스페이스X에 제한적 궤도 추적 데이터 접근 허용 — 산업·안보 우려 제기",
       "titleTranslations": {
@@ -2492,34 +2520,6 @@
         ],
         "firstPublishedAt": "2026-10-25T12:00:05.000Z",
         "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
-      "id": "news-23703444006e5e19ad7efd7b",
-      "title": "달턴 스미스, 쉐필드서 푸엘로 상대로 WBC 라이트웰터급 타이틀 방어",
-      "titleTranslations": {
-        "en": "Dalton Smith retains WBC light‑welterweight title in split‑decision win over Puello"
-      },
-      "startAt": "2026-10-24T21:44:12.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 1,
-      "description": "BBC 스포츠는 영국 권투선수 달턴 스미스가 쉐필드에서 열린 경기에서 알베르토 푸엘로를 상대로 스플릿 디시전을 통해 WBC 라이트웰터급 세계 타이틀을 방어했다고 보도했다. 보도에 따르면 이는 그의 성공적인 홈 복귀전이었다.",
-      "descriptionTranslations": {
-        "en": "BBC Sport reports British boxer Dalton Smith defended his WBC light‑welterweight world title with a split‑decision victory over Alberto Puello in Sheffield. Coverage describes it as a triumphant homecoming for Smith."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/boxing/articles/cqn73k05xjx6o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/boxing/articles/cqn73k05xjx6o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-24T21:44:12.000Z",
-        "lastObservedAt": "2026-10-25T06:02:18.765Z"
       }
     },
     {
