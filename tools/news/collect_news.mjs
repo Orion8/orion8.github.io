@@ -78,11 +78,11 @@ async function main() {
     .filter(Boolean);
   const balancedCandidates = limitSelectedCandidatesPerCategory(selectedCandidates);
   if (balancedCandidates.length === 0) {
-    console.log('Nano triage found no timeline-worthy news events.');
+    console.log('First-pass triage found no timeline-worthy news events.');
     return publishCatalogIfChanged({existingCatalog, events: existingEvents});
   }
   console.log(
-    `Nano triage selected ${balancedCandidates.length}/${candidates.length} article(s) for editing.`,
+    `First-pass triage selected ${balancedCandidates.length}/${candidates.length} article(s) for editing.`,
   );
 
   const draft = await organizeWithOpenAI({
@@ -310,7 +310,7 @@ function decodeEntities(value) {
 
 async function triageWithOpenAI(candidates) {
   const draft = await requestStructuredOutput({
-    model: process.env.OPENAI_TRIAGE_MODEL ?? 'gpt-5-nano',
+    model: process.env.OPENAI_TRIAGE_MODEL ?? 'gpt-6-luna',
     name: 'time_map_news_triage',
     developerInstructions: [
       'You are the low-cost first-pass editor for a timeline app.',
@@ -343,7 +343,7 @@ async function triageWithOpenAI(candidates) {
   });
   const byCategory = draft?.articleIndexesByCategory;
   if (!byCategory || typeof byCategory !== 'object') {
-    throw new Error('Nano triage returned invalid category selections.');
+    throw new Error('First-pass triage returned invalid category selections.');
   }
   const articleIndexes = [];
   const seenIndexes = new Set();
@@ -351,7 +351,7 @@ async function triageWithOpenAI(candidates) {
   for (const category of allowedCategories) {
     const indexes = byCategory[category];
     if (!Array.isArray(indexes)) {
-      throw new Error(`Nano triage omitted ${category}.`);
+      throw new Error(`First-pass triage omitted ${category}.`);
     }
     for (const index of indexes) {
       const article = Number.isInteger(index) ? candidates[index] : null;
@@ -371,7 +371,7 @@ async function triageWithOpenAI(candidates) {
 
 async function organizeWithOpenAI({candidates, existingEvents}) {
   const draft = await requestStructuredOutput({
-    model: process.env.OPENAI_EDITOR_MODEL ?? process.env.OPENAI_MODEL ?? 'gpt-5-mini',
+    model: process.env.OPENAI_EDITOR_MODEL ?? process.env.OPENAI_MODEL ?? 'gpt-6-luna',
     name: 'time_map_news_events',
     developerInstructions: [
       'You are a careful news editor for a timeline app.',

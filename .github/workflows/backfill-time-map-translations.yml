@@ -16,10 +16,13 @@ jobs:
         with:
           node-version: 22
 
+      - name: Verify model routing
+        run: node --test tools/news/model_routing.test.mjs
+
       - name: Translate missing history and news content
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_TRANSLATION_MODEL: ${{ vars.TIME_MAP_TRANSLATION_MODEL || 'gpt-5-mini' }}
+          OPENAI_TRANSLATION_MODEL: ${{ vars.TIME_MAP_TRANSLATION_MODEL || 'gpt-6-luna' }}
         run: node tools/news/backfill_catalog_translations.mjs
 
       - name: Upload validated translation catalogs

@@ -13,7 +13,7 @@ const newsCatalogPath = path.resolve(
   root,
   process.env.NEWS_CATALOG_PATH ?? 'cdx_time_map/catalog/news_events.json',
 );
-const model = process.env.OPENAI_TRANSLATION_MODEL ?? 'gpt-5-mini';
+const model = process.env.OPENAI_TRANSLATION_MODEL ?? 'gpt-6-luna';
 const batchSize = Number(process.env.TRANSLATION_BATCH_SIZE ?? 20);
 
 async function main() {

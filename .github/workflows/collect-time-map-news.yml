@@ -33,6 +33,9 @@ jobs:
         with:
           node-version: 22
 
+      - name: Verify model routing
+        run: node --test tools/news/model_routing.test.mjs
+
       - name: Require the OpenAI secret
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -46,8 +49,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # Model names are repository Variables, not Secrets.
-          OPENAI_TRIAGE_MODEL: ${{ vars.TIME_MAP_NEWS_TRIAGE_MODEL || 'gpt-5-nano' }}
-          OPENAI_EDITOR_MODEL: ${{ vars.TIME_MAP_NEWS_EDITOR_MODEL || 'gpt-5-mini' }}
+          OPENAI_TRIAGE_MODEL: ${{ vars.TIME_MAP_NEWS_TRIAGE_MODEL || 'gpt-6-luna' }}
+          OPENAI_EDITOR_MODEL: ${{ vars.TIME_MAP_NEWS_EDITOR_MODEL || 'gpt-6-luna' }}
           NEWS_DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
           NEWS_MAX_AGE_DAYS: '21'
           NEWS_RETENTION_DAYS: '30'
