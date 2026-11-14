@@ -1,8 +1,124 @@
 {
-  "catalogVersion": "0.0.220",
-  "updatedAt": "2026-11-13T20:28:54.817Z",
+  "catalogVersion": "0.0.221",
+  "updatedAt": "2026-11-14T07:34:40.293Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-d81d56bccbba1050e15aab54",
+      "title": "데이비드 워너, 크리켓 오스트레일리아의 '덮기' 주장",
+      "titleTranslations": {
+        "en": "Warner accuses Cricket Australia of 'cover‑up' over ball‑tampering investigation"
+      },
+      "startAt": "2026-11-14T07:20:24.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "전 부주장 데이비드 워너가 공구부정(ball‑tampering) 사건 조사에서 호주 투수진에 대한 조사가 이뤄지지 않았다며 크리켓 오스트레일리아가 '덮기'를 했다고 주장했다. 이 주장은 스포츠 관리·조사 절차에 대한 논란을 불러일으키고 있다.",
+      "descriptionTranslations": {
+        "en": "Former vice‑captain David Warner accused Cricket Australia of a 'cover‑up', claiming that Australian bowlers were not interviewed in the ball‑tampering investigation. The allegation raises questions about the sport body’s handling of the inquiry."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/cricket/articles/c59vwpv4rxjeo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/cricket/articles/c59vwpv4rxjeo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-14T07:20:24.000Z",
+        "lastObservedAt": "2026-11-14T07:34:40.293Z"
+      }
+    },
+    {
+      "id": "news-7c2571bab7ee80b2c8086902",
+      "title": "카운티 다운 농장서 블루텅구 바이러스 확진 — 양 3마리 감염",
+      "titleTranslations": {
+        "en": "Bluetongue virus confirmed on County Down farm — three sheep infected"
+      },
+      "startAt": "2026-11-14T06:56:58.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "북아일랜드 카운티 다운의 한 농장에서 블루텅구(Bluetongue) 바이러스가 검출돼 담당 당국이 확인했다고 보도됐다. 보건·농업 당국은 감염이 확인된 양을 근거로 역학조사와 방역 조치를 진행하고 있다.",
+      "descriptionTranslations": {
+        "en": "Officials report the Bluetongue virus has been detected on a farm in County Down, Northern Ireland; three sheep tested positive. Agricultural authorities said they are undertaking epidemiological inquiries and containment measures following the confirmed cases."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-14T06:56:58.000Z",
+        "lastObservedAt": "2026-11-14T07:34:40.293Z"
+      }
+    },
+    {
+      "id": "news-c680cb902e27912f7d6a61fe",
+      "title": "트럼프·푸틴·시진핑, 다음 주 중국서 역사적 3자 회담 예정",
+      "titleTranslations": {
+        "en": "Trump, Putin and Xi plan historic joint meeting in China next week"
+      },
+      "startAt": "2026-11-14T05:52:31.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "백악관은 도널드 트럼프 전 대통령, 블라디미르 푸틴 러시아 대통령, 시진핑 중국 국가주석이 다음 주 중국에서 전례 없는 3자 회담을 가질 계획이라고 밝혔다. 회담에서 트럼프는 '핵무기 감축' 문제를 논의할 것이라고 백악관 대변인이 전했다.",
+      "descriptionTranslations": {
+        "en": "The White House says former US President Donald Trump, Russian President Vladimir Putin and Chinese leader Xi Jinping will hold an unprecedented three‑way meeting in China next week. A White House spokeswoman said Trump will discuss the 'reduction of nuclear weapons' during the talks."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-14T05:52:31.000Z",
+        "lastObservedAt": "2026-11-14T07:34:40.292Z"
+      }
+    },
+    {
+      "id": "news-3aa0c408f09cb22b10fc05a7",
+      "title": "미 연방항공청(FAA) 전국 운항 중단 명령 해제 — 1만여편 차질·원인으로 노후 장비 지목",
+      "titleTranslations": {
+        "en": "FAA lifts nationwide ground stop — over 11,000 flights disrupted; obsolete equipment blamed"
+      },
+      "startAt": "2026-11-13T23:17:38.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "연방항공청(FAA)이 대규모 항공 운항 중단(ground stop)을 해제했다. 이 조치로 1만여 편 이상의 미국 내 항공편에 지연·취소가 발생했으며, 미 교통장관은 문제 원인으로 '노후 장비'를 지적했다고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "The Federal Aviation Administration has lifted a nationwide ground stop. The halt delayed or cancelled more than 11,000 US flights, and the US Transportation Secretary blamed obsolete equipment for the outage, reports say."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+      "topicIds": [
+        "economyFinance",
+        "technologyComputing"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+          "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/"
+        ],
+        "firstPublishedAt": "2026-11-14T02:15:53.000Z",
+        "lastObservedAt": "2026-11-14T07:34:40.293Z"
+      }
+    },
     {
       "id": "news-8573d9e8e576a4ad47319dd7",
       "title": "SpaceX, 스타십 로켓의 두 부분 동시 회수 시도 예정",
@@ -60,6 +176,34 @@
         ],
         "firstPublishedAt": "2026-11-13T19:02:04.000Z",
         "lastObservedAt": "2026-11-13T20:28:54.816Z"
+      }
+    },
+    {
+      "id": "news-5b6d6629cd9f5d7a53a30ee2",
+      "title": "유럽송컨테스트(Eurovision), 아시아로 진출 — 첫 아시아 무대 준비 가속",
+      "titleTranslations": {
+        "en": "Eurovision expands to Asia — contest prepares first editions in the region"
+      },
+      "startAt": "2026-11-13T19:01:36.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "유럽송컨테스트(Eurovision)가 사상 처음으로 아시아로 무대를 확장한다고 보도됐다. 주최 측은 아시아 진출을 위해 현지 참가자와 행사를 준비 중이며 관련 소개 기사에서 아시아판 출범을 다루고 있다.",
+      "descriptionTranslations": {
+        "en": "The Eurovision Song Contest is expanding into Asia for the first time, with organisers preparing local editions and selecting performers to take the stage in the region, coverage reports."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw4gn0ky2pgdo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw4gn0ky2pgdo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-13T19:01:36.000Z",
+        "lastObservedAt": "2026-11-14T07:34:40.293Z"
       }
     },
     {
@@ -148,6 +292,35 @@
       }
     },
     {
+      "id": "news-0d8ff19bcb0ddd77978b684e",
+      "title": "NASA 찬드라 관측, 거대 불안정성 별의 반복 폭발 원인 규명 (업데이트)",
+      "titleTranslations": {
+        "en": "NASA’s Chandra finds cause of repeated outbursts from a giant unstable star (update)"
+      },
+      "startAt": "2026-11-13T16:39:33.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "NASA 찬드라 X선 관측소를 이용한 연구는 은하 NGC 4559에 있는 거대한 불안정성 별 AT 2016blu의 반복 폭발이 동반천체가 주기적으로 물질을 빼앗아 발생하는 것임을 밝힌다고 보도됐다. 연구는 천체들이 113일 주기로 상호작용한다고 설명했다.",
+      "descriptionTranslations": {
+        "en": "Using NASA’s Chandra X‑ray Observatory, astronomers report that repeated outbursts from the giant unstable star AT 2016blu in galaxy NGC 4559 are caused by a companion object that strips material from the star as they orbit, on a 113‑day period, the study says."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+          "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/"
+        ],
+        "firstPublishedAt": "2026-11-09T18:55:50.000Z",
+        "lastObservedAt": "2026-11-14T07:34:40.293Z"
+      }
+    },
+    {
       "id": "news-a01ff8c4ba8804a19ab2a489",
       "title": "캘리포니아 주지사 개빈 뉴스옴, 전 세계 화석연료 단계적 중단 지지",
       "titleTranslations": {
@@ -201,6 +374,64 @@
         ],
         "firstPublishedAt": "2026-11-13T15:49:30.000Z",
         "lastObservedAt": "2026-11-13T20:28:54.817Z"
+      }
+    },
+    {
+      "id": "news-f83f812563eb29b623dc7ac7",
+      "title": "마이크로소프트 전세계 서비스 장애 — 정부·의료·교육 영향 보고 (업데이트)",
+      "titleTranslations": {
+        "en": "Global Microsoft outage — services disrupted for NHS, schools and local governments (update)"
+      },
+      "startAt": "2026-11-13T13:41:25.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "마이크로소프트의 대규모 서비스 장애가 미국과 영국을 포함한 여러 지역에서 이메일·협업·클라우드 서비스에 광범위한 영향을 미쳤다. 회사는 사이버보안 사고는 아니라고 밝혔지만 복구에 난항을 겪었고, 일부 공공기관과 학교·지방행정의 서비스가 계속 제한된 상태라고 보도됐다.",
+      "descriptionTranslations": {
+        "en": "A widespread Microsoft service outage affected email, conferencing and cloud services across multiple countries, disrupting some public bodies, schools and local governments. Microsoft said the outage was not a cyber‑security incident but fixes have been slow and some services remained unavailable, reports say."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
+          "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-13T07:37:38.000Z",
+        "lastObservedAt": "2026-11-14T07:34:40.293Z"
+      }
+    },
+    {
+      "id": "news-57078b3d0c8c9af0d20aa04b",
+      "title": "뉴욕 최대 활성 매립지 연장 계획 논란 — 주민 반발 속 보관·처리 한계 드러나",
+      "titleTranslations": {
+        "en": "New York landfill operator seeks to extend life of huge site as residents protest"
+      },
+      "startAt": "2026-11-13T12:30:18.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "뉴욕주 최대 활성 매립지인 세네카 메도우스가 현재 높이를 더 높여 수십 년 더 운영하려는 계획을 추진 중이라는 보도가 나왔다. 인근 주민들은 악취와 환경·경관 문제를 우려하며 반발하고 있다.",
+      "descriptionTranslations": {
+        "en": "Reports say operators of New York’s largest active landfill, Seneca Meadows, are seeking permission to raise its height and extend its operational life by several decades. Nearby residents voiced concern about odour, landscape and environmental impacts."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/13/new-york-seneca-meadows-landfill",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/13/new-york-seneca-meadows-landfill"
+        ],
+        "firstPublishedAt": "2026-11-13T12:30:18.000Z",
+        "lastObservedAt": "2026-11-14T07:34:40.293Z"
       }
     },
     {
@@ -296,34 +527,6 @@
         ],
         "firstPublishedAt": "2026-11-13T12:00:19.000Z",
         "lastObservedAt": "2026-11-13T20:28:54.817Z"
-      }
-    },
-    {
-      "id": "news-f83f812563eb29b623dc7ac7",
-      "title": "마이크로소프트 전세계 서비스 장애 — 보안 사고 아님 발표에도 복구 난항",
-      "titleTranslations": {
-        "en": "Global Microsoft outage — company says not a cyber‑security incident but fixes proving difficult"
-      },
-      "startAt": "2026-11-13T07:37:38.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "마이크로소프트의 광범위한 서비스 장애가 발생했다. 회사는 이번 장애가 사이버 보안 사고로 인한 것은 아니라고 밝혔지만, 문제 해결 시도가 지금까지는 별다른 진전을 보이지 않고 있다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "A widespread outage has affected Microsoft services globally. Microsoft said the outage was not caused by a cyber‑security incident, but efforts to fix the issues have so far been largely unsuccessful, reports say."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-13T07:37:38.000Z",
-        "lastObservedAt": "2026-11-13T07:52:55.904Z"
       }
     },
     {
@@ -1240,34 +1443,6 @@
       }
     },
     {
-      "id": "news-b812a27808c73cb4c28ac17c",
-      "title": "말레이시아 전 총리 나집, 횡령 유죄 후 감옥 떠나 가택연금",
-      "titleTranslations": {
-        "en": "Malaysia's disgraced former PM Najib leaves jail for house arrest after embezzling millions"
-      },
-      "startAt": "2026-11-10T18:33:51.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "나집 라작 전 총리가 1MDB 스캔들 관련 횡령 혐의로 유죄가 확정된 뒤 교도소를 떠나 가택연금으로 전환되었다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Former Malaysian prime minister Najib Razak, convicted over his role in the billion‑dollar 1MDB scandal, has left prison and been placed under house arrest, coverage reports."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-10T18:33:51.000Z",
-        "lastObservedAt": "2026-11-10T20:27:17.394Z"
-      }
-    },
-    {
       "id": "news-8a35af252b32001f777c64f3",
       "title": "Anthropic, IPO에서 1.3–1.4조달러 가치 목표 — 공모가 $70–$78 제시",
       "titleTranslations": {
@@ -1412,35 +1587,6 @@
       }
     },
     {
-      "id": "news-760cc7c47368c53f515a6a59",
-      "title": "M John Harrison, 소설 'The End of Everything'로 부커상 수상—최고령 수상 기록(81세)",
-      "titleTranslations": {
-        "en": "M John Harrison wins Booker Prize for 'The End of Everything' — becomes oldest winner at 81"
-      },
-      "startAt": "2026-11-09T22:16:37.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 M John Harrison의 소설 'The End of Everything'가 올해 부커상을 수상했으며, 그는 81세로 역대 최연장 수상자가 되었다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "BBC reports that M John Harrison has won the Booker Prize for his post‑apocalyptic novel 'The End of Everything', becoming the oldest ever winner at age 81."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw0737kv52lko?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqzjz8dk4wddo?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/cw0737kv52lko?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-09T11:30:13.000Z",
-        "lastObservedAt": "2026-11-10T08:22:42.323Z"
-      }
-    },
-    {
       "id": "news-7ff7d4f7546961ea09571028",
       "title": "폴 매카트니, 포브스 분석으로 억만장자 반열에 올라",
       "titleTranslations": {
@@ -1466,90 +1612,6 @@
         ],
         "firstPublishedAt": "2026-11-09T21:22:33.000Z",
         "lastObservedAt": "2026-11-10T08:22:42.323Z"
-      }
-    },
-    {
-      "id": "news-8827aad4505e69ef98eb5a35",
-      "title": "딥마인드, 로봇용 모델 'Gemini Robotics 2.5' 공개",
-      "titleTranslations": {
-        "en": "DeepMind unveils 'Gemini Robotics 2.5' to boost real‑world robot dexterity"
-      },
-      "startAt": "2026-11-09T19:51:47.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "딥마인드는 시각·언어·행동을 통합한 로봇 모델 'Gemini Robotics 2.5'를 공개하며 현실 세계에서의 로봇 손재주(데크스테리티), 신뢰성 및 안전성을 향상시켰다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "DeepMind unveiled 'Gemini Robotics 2.5', a vision‑language‑action model that the company says improves robot dexterity, reliability and safety for real‑world tasks."
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
-        ],
-        "firstPublishedAt": "2026-11-09T19:51:47.000Z",
-        "lastObservedAt": "2026-11-10T20:27:17.394Z"
-      }
-    },
-    {
-      "id": "news-d8777285c3e8d20408b8e70f",
-      "title": "보잉, 상용기 부문 인력 약 5% 감축 발표",
-      "titleTranslations": {
-        "en": "Boeing to cut about 5% of its commercial airplane workforce"
-      },
-      "startAt": "2026-11-09T19:11:26.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도에 따르면 보잉은 제트기 생산의 속도를 조절하기 위해 상용기 부문 인력의 약 5%를 정리할 예정이며, 감원은 해고와 자연감원을 병행해 이뤄질 것이라고 발표했다.",
-      "descriptionTranslations": {
-        "en": "Reports say Boeing will cut roughly 5% of its commercial aeroplane workforce to moderate the pace of ramping up jet production, using a mix of layoffs and attrition."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/business/2026/nov/09/boeing-to-cut-commercial-plane-workforce",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/business/2026/nov/09/boeing-to-cut-commercial-plane-workforce"
-        ],
-        "firstPublishedAt": "2026-11-09T19:11:26.000Z",
-        "lastObservedAt": "2026-11-09T22:59:34.874Z"
-      }
-    },
-    {
-      "id": "news-0d8ff19bcb0ddd77978b684e",
-      "title": "NASA 찬드라 망원경, 거대 불안정성 별의 반복 폭발 원인 규명",
-      "titleTranslations": {
-        "en": "NASA’s Chandra finds source of repeated outbursts from a giant unstable star"
-      },
-      "startAt": "2026-11-09T18:55:50.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "보도에 따르면 NASA의 찬드라 X선 관측소를 이용한 연구는 거대한 불안정성 별의 반복적 폭발을 유발하는 원인을 규명했다. 연구는 두 천체가 113일 주기로 공전하며 동반체가 주기적으로 물질을 끌어당겨 폭발을 일으킨다고 밝혔다(학술지 게재 보도 참조).",
-      "descriptionTranslations": {
-        "en": "Reports say a study using NASA’s Chandra X‑ray Observatory identified the cause of repeated outbursts from a giant unstable star: a previously hidden companion object that strips material from the star every 113 days as the two orbit, the study reports in The Astrophysical Journal."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/"
-        ],
-        "firstPublishedAt": "2026-11-09T18:55:50.000Z",
-        "lastObservedAt": "2026-11-09T22:59:34.874Z"
       }
     },
     {
@@ -1832,36 +1894,6 @@
           "https://www.theguardian.com/uk-news/2026/nov/08/scillonian-iii-ship-final-voyage-isles-of-scilly-penzance-cornwall"
         ],
         "firstPublishedAt": "2026-11-08T14:56:59.000Z",
-        "lastObservedAt": "2026-11-08T18:20:02.575Z"
-      }
-    },
-    {
-      "id": "news-9e3feb6bb8fadf243e727ba9",
-      "title": "물리학자들, 전기적 잡음 분석으로 초전도체 미스터리 규명",
-      "titleTranslations": {
-        "en": "Physicists used electrical noise to crack a superconductor mystery"
-      },
-      "startAt": "2026-11-08T12:15:31.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "연구진은 전자 잡음(electronic noise)을 측정·분석해 전자가 짝을 이루었는지 여부를 판단할 수 있음을 보여주며 초전도체 관련 난제를 풀었다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Physicists listened to and analysed electronic noise to determine whether electrons had paired up, helping to resolve a mystery in superconductor behaviour, coverage reports."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/"
-        ],
-        "firstPublishedAt": "2026-11-08T12:15:31.000Z",
         "lastObservedAt": "2026-11-08T18:20:02.575Z"
       }
     },
@@ -2177,34 +2209,6 @@
       }
     },
     {
-      "id": "news-1e12b483f9faf77606bba4e7",
-      "title": "유럽 전역 항공편에 폭탄 위협…최소 25편 운항 차질로 혼선 발생",
-      "titleTranslations": {
-        "en": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears"
-      },
-      "startAt": "2026-11-05T18:17:36.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "보도에 따르면 유럽 여러 국가를 오가는 항공편에서 최소 25건 이상의 폭탄 위협이 접수돼 일부 항공편이 비상착륙하거나 경유지로 우회하는 등 운항이 중단·차질을 빚었다. 보도는 이 사건이 여행 혼란을 조성하려는 조직적·혼합전 양상의 시도라는 우려를 불러일으킨다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say hoax bomb threats affected at least 25 flights across Europe, forcing some planes to make emergency landings or diversions. Coverage says the incidents have raised concerns about an apparently coordinated effort to cause chaos and fears of hybrid‑warfare‑style disruption."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears"
-        ],
-        "firstPublishedAt": "2026-11-05T18:17:36.000Z",
-        "lastObservedAt": "2026-11-05T20:39:09.503Z"
-      }
-    },
-    {
       "id": "news-987bf29fcdd669542b91c707",
       "title": "K‑팝 그룹 뉴진스 계약서에 ‘수면·자유 선택’ 권리 포기 조항 포함 보도",
       "titleTranslations": {
@@ -2350,34 +2354,6 @@
         ],
         "firstPublishedAt": "2026-10-30T14:51:21.000Z",
         "lastObservedAt": "2026-11-01T18:25:50.695Z"
-      }
-    },
-    {
-      "id": "news-82a54f41de5451634a1b4b6b",
-      "title": "스코틀랜드 축구, 영국의 전통적 3시 TV 중계 금지 완화 가능성 첫 걸음",
-      "titleTranslations": {
-        "en": "Scottish football could pave way for 3pm TV blackout to end"
-      },
-      "startAt": "2026-10-29T17:43:53.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 2,
-      "description": "보도는 스코틀랜드 축구가 다음 중계 주기에 대한 입찰을 시작하면서 영국의 전통적 토요일 15시(3pm) 텔레비전 방송 금지(blackout)를 끝낼 수 있는 첫 발걸음을 내디뎠다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say Scottish football has taken initial steps by seeking bids for the next broadcast cycle that could open the door to ending the UK's traditional Saturday 3pm television blackout."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cmgr8l87edyjo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/football/articles/cmgr8l87edyjo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-29T17:43:53.000Z",
-        "lastObservedAt": "2026-10-29T18:57:24.919Z"
       }
     },
     {
