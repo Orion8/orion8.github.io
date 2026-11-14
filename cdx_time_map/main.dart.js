@@ -59189,7 +59189,7 @@ if(s.x===a)return
 s.H(new A.aWW(s,a))
 s.f.eh(a).fK(new A.aWX())},
 M(a){var s=this,r=null,q=s.r,p=q.gli(),o=A.rF(r,A.baE(B.V,r,r,B.os,r),"Arial",r,!0),n=A.rF(r,A.baE(B.M,r,r,B.UJ,B.V2),"Arial",B.Vf,!0),m=s.w,l=m.gaZH()
-return new A.E3(q,s.gaJ7(),A.bi_(n,!1,new A.L4(s.a.c,m,s.gaJe(),s.x,s.gaJc(),r),p,B.a6X,B.aaU,o,l,"MomentAtlas v0.50.97"),r)}}
+return new A.E3(q,s.gaJ7(),A.bi_(n,!1,new A.L4(s.a.c,m,s.gaJe(),s.x,s.gaJc(),r),p,B.a6X,B.aaU,o,l,"MomentAtlas v0.50.98"),r)}}
 A.aWR.prototype={
 $0(){return this.a.r=this.b},
 $S:0}
@@ -59390,7 +59390,7 @@ r=r.ghm().e.a
 q.cb=r==null?p:r.r
 r=q.a.c
 if(r!=null){q.t=r
-q.cI=B.b.cu(A.b(["MomentAtlas v0.50.97","\ub2e8\uacc4: Google OAuth \ucf5c\ubc31\uc744 Supabase \uc138\uc158\uc73c\ub85c \uad50\ud658\ud558\ub294 \uacfc\uc815","\uc624\ub958 \uc720\ud615: OAuth callback","\uba54\uc2dc\uc9c0: "+r],t.s),"\n")}q.fy=s.b.ghm().ay.guw().m6(q.gaBL())
+q.cI=B.b.cu(A.b(["MomentAtlas v0.50.98","\ub2e8\uacc4: Google OAuth \ucf5c\ubc31\uc744 Supabase \uc138\uc158\uc73c\ub85c \uad50\ud658\ud558\ub294 \uacfc\uc815","\uc624\ub958 \uc720\ud615: OAuth callback","\uba54\uc2dc\uc9c0: "+r],t.s),"\n")}q.fy=s.b.ghm().ay.guw().m6(q.gaBL())
 q.a6j()
 A.ah3().fK(new A.b5C())
 q.IC()
@@ -60412,7 +60412,7 @@ o=A.eC(r,o,"Bearer [\uc228\uae40]")
 q=A.cc("eyJ[a-zA-Z0-9_\\\\-]+\\\\.[a-zA-Z0-9_\\\\-]+\\\\.[a-zA-Z0-9_\\\\-]+",!0,!1)
 p=A.eC(o,q,"[\ud1a0\ud070 \uc228\uae40]")
 o=n==null?"\ud655\uc778\ub418\uc9c0 \uc54a\uc74c":this.a9i(n)
-o=A.b(["MomentAtlas v0.50.97","\ub2e8\uacc4: "+o,"\uc624\ub958 \uc720\ud615: "+J.Y(m).j(0)],t.s)
+o=A.b(["MomentAtlas v0.50.98","\ub2e8\uacc4: "+o,"\uc624\ub958 \uc720\ud615: "+J.Y(m).j(0)],t.s)
 if(s!=null&&s.length!==0)o.push("\uc11c\ubc84 \ucf54\ub4dc: "+s)
 o.push("\uba54\uc2dc\uc9c0: "+(p.length>240?B.c.ac(p,0,240)+"\u2026":p))
 return B.b.cu(o,"\n")},
@@ -60421,7 +60421,7 @@ p===$&&A.a()
 p=p.ghm().e.a==null?"\uc5c6\uc74c":"\uc788\uc74c"
 s=q.cb==null?"\uc5c6\uc74c":"\uc788\uc74c"
 r=t.s
-s=A.b(["MomentAtlas v0.50.97","Supabase \uc138\uc158: "+p,"\uc571\uc758 \ub85c\uadf8\uc778 \uc0ac\uc6a9\uc790: "+s,"\ub3d9\uae30\ud654 \uc0c1\ud0dc: "+q.gU4()],r)
+s=A.b(["MomentAtlas v0.50.98","Supabase \uc138\uc158: "+p,"\uc571\uc758 \ub85c\uadf8\uc778 \uc0ac\uc6a9\uc790: "+s,"\ub3d9\uae30\ud654 \uc0c1\ud0dc: "+q.gU4()],r)
 p=q.cP
 if(p!=null)s.push("\ucd5c\uadfc \ub3d9\uae30\ud654: "+p.aH().dR())
 p=q.t
@@ -62872,7 +62872,7 @@ s.push(A.ayC(0,new A.FC(new A.Ww(A.eu(h.zm!=null&&!p?B.q1:B.a_p,g,g,20),r,B.k,q,
 q=h.oY
 q=q==null?B.akw:new A.N2(q,r,B.auw)
 s.push(A.lx(g,A.ib(A.bar(q,B.X_,A.bds(),B.kW,B.ah,new A.b5y()),r==null,g),g,g,36,36,46,g))
-return A.bje(new A.E1(new A.Sc("v0.50.97",e,h.gaJw(),g),m,B.C,B.Vg,B.k,6,new A.abj(46,g,1/0,46),46,B.Ob,g),f.b,A.eZ(B.bp,s,B.O,B.bC,g))}}
+return A.bje(new A.E1(new A.Sc("v0.50.98",e,h.gaJw(),g),m,B.C,B.Vg,B.k,6,new A.abj(46,g,1/0,46),46,B.Ob,g),f.b,A.eZ(B.bp,s,B.O,B.bC,g))}}
 A.aXX.prototype={
 $0(){var s=0,r=A.m(t.T),q,p
 var $async$$0=A.n(function(a,b){if(a===1)return A.j(b,r)
@@ -65443,7 +65443,7 @@ r.push(a)
 return s.lG(r)},
 $S:135}
 A.b_K.prototype={
-$1(a){var s=this,r=null,q=t.p,p=A.b([A.a2("MomentAtlas v0.50.97",r,r,B.nj,r),B.aK,A.a2("\uc5ed\uc0ac \uc774\ubca4\ud2b8 "+s.a+"\uac1c \xb7 \ub274\uc2a4 \uc774\ubca4\ud2b8 "+s.b+"\uac1c",r,r,r,r)],q),o=s.c
+$1(a){var s=this,r=null,q=t.p,p=A.b([A.a2("MomentAtlas v0.50.98",r,r,B.nj,r),B.aK,A.a2("\uc5ed\uc0ac \uc774\ubca4\ud2b8 "+s.a+"\uac1c \xb7 \ub274\uc2a4 \uc774\ubca4\ud2b8 "+s.b+"\uac1c",r,r,r,r)],q),o=s.c
 if(o!=null)B.b.J(p,A.b([B.ap,A.a2("\uce74\ud0c8\ub85c\uadf8 "+o.a+" \xb7 "+A.bC0(o.c)+" \xb7 "+A.blP(o.b)+" \uac80\uc99d",r,r,B.bk,r)],q))
 o=s.d
 if(o!=null)B.b.J(p,A.b([B.ap,A.a2("\ub274\uc2a4 \uce74\ud0c8\ub85c\uadf8 "+o.a+" \xb7 "+A.blP(o.b)+" \uac31\uc2e0",r,r,B.bk,r)],q))
@@ -67066,7 +67066,7 @@ if(o.w==null)p=r?"\uae30\ub85d\uc744 \uc900\ube44\ud558\uace0 \uc788\uc2b5\ub2c8
 else p=r?"\uc2dc\uc791\uc744 \uc644\ub8cc\ud558\uc9c0 \ubabb\ud588\uc2b5\ub2c8\ub2e4. \uc800\uc7a5\ub41c \ub370\uc774\ud130\ub294 \uc0ad\uc81c\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.":"Startup could not finish. Your saved data will not be deleted."
 q.push(A.bF(p,n,n,n,n,n,n,n,n,n,B.dI,n,n,n,n))
 p=o.w
-if(p!=null){p=A.bc_("v0.50.97 \xb7 startup \xb7 "+p,n)
+if(p!=null){p=A.bc_("v0.50.98 \xb7 startup \xb7 "+p,n)
 B.b.J(q,A.b([B.aK,p,A.dh(A.bF(r?"\ub2e4\uc2dc \uc2dc\ub3c4":"Retry",n,n,n,n,n,n,n,n,n,n,n,n,n,n),n,n,n,o.garz(),n,n)],s))}return A.bi_(n,!0,A.bje(n,n,A.ie(!0,A.eO(new A.aS(B.p9,A.bh(q,B.I,B.l,B.a2,0,B.r),n),n,n),B.U,!0)),n,n,B.zM,n,B.rX,"")}}
 A.aKm.prototype={
 $0(){return this.a.w=null},
