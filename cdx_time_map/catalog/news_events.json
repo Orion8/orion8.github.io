@@ -1,8 +1,36 @@
 {
-  "catalogVersion": "0.0.222",
-  "updatedAt": "2026-11-14T18:43:38.836Z",
+  "catalogVersion": "0.0.223",
+  "updatedAt": "2026-11-15T07:48:20.159Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-5f4f2d8f0d7168b5aa5b868e",
+      "title": "호주, 여자 럭비 리그 월드컵 사상 첫 4회 우승",
+      "titleTranslations": {
+        "en": "Australia wins a record fourth Women’s Rugby League World Cup"
+      },
+      "startAt": "2026-11-15T07:38:40.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 2,
+      "description": "호주가 브리즈번에서 뉴질랜드를 34-10으로 꺾고 여자 월드컵 사상 네 번째 우승을 차지했다. 제이미 채프먼은 해트트릭을 기록했다.",
+      "descriptionTranslations": {
+        "en": "Australia beat New Zealand 34-10 in Brisbane to win a record fourth Women’s World Cup. Jaime Chapman scored a hat-trick."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-15T07:38:40.000Z",
+        "lastObservedAt": "2026-11-15T07:48:20.158Z"
+      }
+    },
     {
       "id": "news-b47d380a4d38d8dbea0164d5",
       "title": "윌 조지프, 일본전서 5트라이…잉글랜드 기록과 어깨 나란히",
@@ -88,6 +116,63 @@
       }
     },
     {
+      "id": "news-33dceb2361b70d72473bced1",
+      "title": "연료 위기와 시위로 칠레 카스트 대통령 압박 커져",
+      "titleTranslations": {
+        "en": "Fuel crisis and protests increase pressure on Chile’s President Kast"
+      },
+      "startAt": "2026-11-14T16:05:12.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "연료 가격 상승으로 칠레 전역에서 운송 파업과 시위가 벌어지며, 호세 안토니오 카스트 대통령을 향한 대중의 분노가 커지고 있다.",
+      "descriptionTranslations": {
+        "en": "Rising fuel prices have triggered transport strikes and protests across Chile, as public anger toward President José Antonio Kast mounts."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students"
+        ],
+        "firstPublishedAt": "2026-11-14T16:05:12.000Z",
+        "lastObservedAt": "2026-11-15T07:48:20.158Z"
+      }
+    },
+    {
+      "id": "news-91e163ed2bc408bfa2a0bd2a",
+      "title": "오하이오 침수 소금광산 영구 폐쇄…겨울 도로 제설용 소금 공급 우려",
+      "titleTranslations": {
+        "en": "Flooded Ohio salt mine closes permanently, raising concerns over winter road salt supplies"
+      },
+      "startAt": "2026-11-14T13:00:45.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "오하이오의 모턴 소금광산은 지난달 천장 균열로 물이 쏟아져 들어온 뒤 영구 폐쇄됐다. 인근 주민들은 식수 안전에 대한 의문을 제기하고 있으며, 광산 폐쇄로 일자리 77개가 사라지고 겨울철 도로 제설용 소금 공급에도 우려가 커지고 있다.",
+      "descriptionTranslations": {
+        "en": "Ohio’s Morton Salt mine closed permanently after water began gushing through a crack in its ceiling last month. Questions remain about drinking-water safety; the closure eliminates 77 jobs and raises concerns about salt supplies for winter road de-icing."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/14/salt-mine-ohio-flooding-safety-winter",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/14/salt-mine-ohio-flooding-safety-winter"
+        ],
+        "firstPublishedAt": "2026-11-14T13:00:45.000Z",
+        "lastObservedAt": "2026-11-15T07:48:20.158Z"
+      }
+    },
+    {
       "id": "news-e35aa7ccdff70a95e0c7551b",
       "title": "제임스 웹 우주망원경, 별보다 오래된 얼음 발견",
       "titleTranslations": {
@@ -115,6 +200,36 @@
         ],
         "firstPublishedAt": "2026-11-14T12:15:48.000Z",
         "lastObservedAt": "2026-11-14T18:43:38.835Z"
+      }
+    },
+    {
+      "id": "news-b011e2cf1ac2336c1507b973",
+      "title": "잉글랜드에서 체중감량 주사 처방받은 아동 수백 명",
+      "titleTranslations": {
+        "en": "Hundreds of children in England prescribed weight-loss injections"
+      },
+      "startAt": "2026-11-14T08:00:39.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "가디언 보도에 따르면 잉글랜드에서 12세 미만 아동 일부를 포함해 수백 명의 아동이 GLP-1 계열 약물을 처방받고 있다. 전문가들은 전문적인 감독과 장기적인 모니터링이 필요하다고 강조했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports that hundreds of children in England, including some under 12, are being prescribed GLP-1 medications. Experts stress the need for specialist supervision and long-term monitoring."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/nov/14/children-iengland-prescribed-weight-loss-jabs",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/nov/14/children-iengland-prescribed-weight-loss-jabs"
+        ],
+        "firstPublishedAt": "2026-11-14T08:00:39.000Z",
+        "lastObservedAt": "2026-11-15T07:48:20.158Z"
       }
     },
     {
@@ -646,6 +761,35 @@
         ],
         "firstPublishedAt": "2026-11-05T17:03:15.000Z",
         "lastObservedAt": "2026-11-13T20:28:54.817Z"
+      }
+    },
+    {
+      "id": "news-de0c2eb84537cc7591e9548e",
+      "title": "젠슨 황 엔비디아 CEO 사임…최고재무책임자가 임시 CEO 맡아",
+      "titleTranslations": {
+        "en": "Nvidia CEO Jensen Huang steps down; CFO takes over as interim CEO"
+      },
+      "startAt": "2026-11-13T12:07:12.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "젠슨 황이 엔비디아 CEO 자리에서 물러났으며, 최고재무책임자가 임시 CEO로 임명됐다.",
+      "descriptionTranslations": {
+        "en": "Jensen Huang has stepped down as Nvidia CEO, and the company’s chief financial officer has been appointed interim CEO."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen"
+        ],
+        "firstPublishedAt": "2026-11-13T12:07:12.000Z",
+        "lastObservedAt": "2026-11-15T07:48:20.158Z"
       }
     },
     {
@@ -1219,37 +1363,6 @@
       }
     },
     {
-      "id": "news-d3212160414aac1d2d3bc5a6",
-      "title": "러시아·우크라이나, 아부다비 회담 끝나며 역대 최대 규모 수준의 포로 교환 합의",
-      "titleTranslations": {
-        "en": "Russia and Ukraine agree large prisoner exchange as Abu Dhabi talks end"
-      },
-      "startAt": "2026-11-11T13:30:00.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "미국 중재로 아부다비에서 열린 회담에서 러시아와 우크라이나가 전쟁 발발 이래 최대 규모에 이르는 인도적 성격의 포로 교환에 합의했으나, 영토·안보 등 핵심 쟁점에서는 큰 돌파구를 마련하지 못했다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "In US‑mediated talks in Abu Dhabi, Russia and Ukraine agreed on a large humanitarian prisoner exchange — the biggest release since the war began — while failing to achieve breakthroughs on core issues such as territory and security."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-          "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
-          "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-10T07:58:07.000Z",
-        "lastObservedAt": "2026-11-11T20:11:16.975Z"
-      }
-    },
-    {
       "id": "news-44a304747829d4123fa12be4",
       "title": "혈액 속 분자 신호로 난소암 초기 위험 포착 가능성 발견",
       "titleTranslations": {
@@ -1733,34 +1846,6 @@
         ],
         "firstPublishedAt": "2026-11-09T07:30:12.000Z",
         "lastObservedAt": "2026-11-09T07:54:59.011Z"
-      }
-    },
-    {
-      "id": "news-a54b8458643cef99136811fe",
-      "title": "알카라즈, 파리 마스터스에서 셀턴 꺾고 첫 파리 타이틀 획득",
-      "titleTranslations": {
-        "en": "Alcaraz beats Shelton to win first Paris title"
-      },
-      "startAt": "2026-11-08T17:56:35.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 1,
-      "description": "보도는 카를로스 알카라즈가 베른 셀턴을 상대로 파리 마스터스 결승에서 승리해 파리 타이틀을 처음으로 획득했으며, 부상에서의 회복을 이어가고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say Carlos Alcaraz defeated Ben Shelton in the Paris Masters final to claim his first Paris title, continuing a notable comeback from injury."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/tennis/articles/ck9qz8d2znl5o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/tennis/articles/ck9qz8d2znl5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-08T17:56:35.000Z",
-        "lastObservedAt": "2026-11-08T18:20:02.575Z"
       }
     },
     {
