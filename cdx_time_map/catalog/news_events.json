@@ -1,8 +1,38 @@
 {
-  "catalogVersion": "0.0.223",
-  "updatedAt": "2026-11-15T07:48:20.159Z",
+  "catalogVersion": "0.0.224",
+  "updatedAt": "2026-11-15T19:20:59.650Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-f6f01a754c7cef1351fc5189",
+      "title": "코로나19 봉쇄 기간 전 세계 산불 활동 12.3% 감소",
+      "titleTranslations": {
+        "en": "Global fire activity fell by 12.3% during COVID-19 lockdowns"
+      },
+      "startAt": "2026-11-15T12:07:34.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "한 연구에 따르면 코로나19 봉쇄 기간 전 세계 산불 활동이 12.3% 감소했다.",
+      "descriptionTranslations": {
+        "en": "A study found that global fire activity fell by 12.3% during COVID-19 lockdowns."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/"
+        ],
+        "firstPublishedAt": "2026-11-15T12:07:34.000Z",
+        "lastObservedAt": "2026-11-15T19:20:59.649Z"
+      }
+    },
     {
       "id": "news-5f4f2d8f0d7168b5aa5b868e",
       "title": "호주, 여자 럭비 리그 월드컵 사상 첫 4회 우승",
@@ -29,6 +59,68 @@
         ],
         "firstPublishedAt": "2026-11-15T07:38:40.000Z",
         "lastObservedAt": "2026-11-15T07:48:20.158Z"
+      }
+    },
+    {
+      "id": "news-de0c2eb84537cc7591e9548e",
+      "title": "엔비디아, 젠슨 황 사임 뒤 중국 스파이 연루 의혹 조사",
+      "titleTranslations": {
+        "en": "Nvidia investigates allegations linking Jensen Huang to a suspected Chinese spy after his resignation"
+      },
+      "startAt": "2026-11-15T06:00:06.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "가디언은 미국 당국이 중국 정부의 스파이로 의심하는 여성과 젠슨 황이 가까운 관계였다는 의혹을 보도했다. 황은 직원들에게 보낸 서한에서 아내에게 불성실했음을 인정했으며, 엔비디아를 둘러싼 조사가 진행 중이라고 전했다.",
+      "descriptionTranslations": {
+        "en": "The Guardian reports allegations that Jensen Huang had a close relationship with a woman whom US officials suspect of spying for the Chinese government. Huang admitted in a letter to employees that he had been unfaithful to his wife, and investigations surrounding Nvidia are under way."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
+          "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare"
+        ],
+        "firstPublishedAt": "2026-11-13T12:07:12.000Z",
+        "lastObservedAt": "2026-11-15T19:20:59.649Z"
+      }
+    },
+    {
+      "id": "news-8573d9e8e576a4ad47319dd7",
+      "title": "스페이스X, 스타십 상단부 첫 회수 성공…부스터는 폭발",
+      "titleTranslations": {
+        "en": "SpaceX catches Starship’s upper stage for the first time; booster explodes"
+      },
+      "startAt": "2026-11-14T22:35:06.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "스타십 상단부가 지구 궤도를 14회 돈 22시간 임무를 마치고 발사탑의 기계식 팔에 잡혔다. 부스터는 폭발했지만, 상단부 회수는 대형 로켓 재사용을 향한 이정표가 됐다.",
+      "descriptionTranslations": {
+        "en": "After a 22-hour mission in which it orbited Earth 14 times, Starship’s upper stage was caught by the launch tower’s mechanical arms. The booster exploded, but catching the upper stage marked a milestone in efforts to make the megarocket reusable."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch"
+        ],
+        "firstPublishedAt": "2026-11-13T20:12:02.000Z",
+        "lastObservedAt": "2026-11-15T19:20:59.649Z"
       }
     },
     {
@@ -348,36 +440,6 @@
         ],
         "firstPublishedAt": "2026-11-14T02:15:53.000Z",
         "lastObservedAt": "2026-11-14T18:43:38.835Z"
-      }
-    },
-    {
-      "id": "news-8573d9e8e576a4ad47319dd7",
-      "title": "SpaceX, 스타십 로켓의 두 부분 동시 회수 시도 예정",
-      "titleTranslations": {
-        "en": "SpaceX to attempt double catch of huge Starship rocket"
-      },
-      "startAt": "2026-11-13T20:12:02.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "보도는 일론 머스크의 회사가 스타십 로켓의 두 부분을 처음으로 동시에 잡아 회수하려는 시도를 준비하고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Coverage says Elon Musk’s company will attempt for the first time to catch both parts of the Starship rocket during recovery operations."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-13T20:12:02.000Z",
-        "lastObservedAt": "2026-11-13T20:28:54.817Z"
       }
     },
     {
@@ -761,35 +823,6 @@
         ],
         "firstPublishedAt": "2026-11-05T17:03:15.000Z",
         "lastObservedAt": "2026-11-13T20:28:54.817Z"
-      }
-    },
-    {
-      "id": "news-de0c2eb84537cc7591e9548e",
-      "title": "젠슨 황 엔비디아 CEO 사임…최고재무책임자가 임시 CEO 맡아",
-      "titleTranslations": {
-        "en": "Nvidia CEO Jensen Huang steps down; CFO takes over as interim CEO"
-      },
-      "startAt": "2026-11-13T12:07:12.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "젠슨 황이 엔비디아 CEO 자리에서 물러났으며, 최고재무책임자가 임시 CEO로 임명됐다.",
-      "descriptionTranslations": {
-        "en": "Jensen Huang has stepped down as Nvidia CEO, and the company’s chief financial officer has been appointed interim CEO."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen"
-        ],
-        "firstPublishedAt": "2026-11-13T12:07:12.000Z",
-        "lastObservedAt": "2026-11-15T07:48:20.158Z"
       }
     },
     {
@@ -2617,34 +2650,6 @@
         ],
         "firstPublishedAt": "2026-10-18T22:01:10.000Z",
         "lastObservedAt": "2026-10-19T19:17:31.888Z"
-      }
-    },
-    {
-      "id": "news-a1365c50f71f1cd7c301b03d",
-      "title": "브라질, 대선 앞두고 아마존 벌채 사상 최대 폭 감소 보고",
-      "titleTranslations": {
-        "en": "Brazil sees record fall in Amazon deforestation as key election looms"
-      },
-      "startAt": "2026-10-17T02:33:09.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "선거를 앞둔 브라질에서 아마존 열대우림 벌채가 기록적인 수준으로 감소한 것으로 보도됐다. 아마존은 기후변화 완화에 중요한 완충 지대이며, 이전에는 자이르 보우소나루 전 대통령 재임 기간에 벌채가 확대된 바 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say deforestation in the Amazon has fallen to a record low ahead of a key election in Brazil. The Amazon is an important buffer against climate change, and deforestation had expanded under former president Jair Bolsonaro."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-10-17T02:33:09.000Z",
-        "lastObservedAt": "2026-10-17T05:33:39.452Z"
       }
     }
   ]
