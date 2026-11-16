@@ -298,6 +298,16 @@
               },
               "kind": "page",
               "checkedAt": "2026-11-16"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=Ow54aiObpYU",
+              "publisher": "10min Gameplay · YouTube",
+              "label": {
+                "ko": "PlayStation 플레이 영상",
+                "en": "PlayStation gameplay video"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-16"
             }
           ]
         }
@@ -497,6 +507,16 @@
           "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6",
           "references": [
             {
+              "url": "https://www.jeuxvideo.com/videos-editeurs/0002/00021200/mstar-pc-gdc-08-gameplay-00015386.htm",
+              "publisher": "Jeuxvideo.com",
+              "label": {
+                "ko": "2008 GDC 플레이 영상",
+                "en": "2008 GDC gameplay"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-16"
+            },
+            {
               "url": "https://ch.netmarble.com/Newsroom/PressRelease/Detail?bbs_code=1014&post_seq=2505",
               "publisher": "Netmarble",
               "label": {
@@ -670,6 +690,16 @@
               "kind": "video",
               "checkedAt": "2026-11-16",
               "evidence": "https://kotaku.com/heres-an-action-packed-social-rpg-you-can-play-anywhere-5957766"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=PnF1UEr0q-U",
+              "publisher": "iGamesView · YouTube",
+              "label": {
+                "ko": "2012년 iPhone·iPad 플레이 영상",
+                "en": "2012 iPhone & iPad gameplay"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-16"
             }
           ]
         }
@@ -875,6 +905,17 @@
               "kind": "page",
               "checkedAt": "2026-11-16",
               "evidence": "https://www.taptap.io/app/87415"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=vm-5yOiVC0c",
+              "publisher": "KOCCA WELCON · YouTube",
+              "label": {
+                "ko": "게임 소개 영상",
+                "en": "Game overview video"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-16",
+              "evidence": "https://welcon.kocca.kr/en/directory/content/poing-poing-jump-to-freedom--4360"
             }
           ]
         }
