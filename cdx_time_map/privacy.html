@@ -34,7 +34,7 @@ section + section { margin-top: 4rem; border-top: 1px solid gray; padding-top: 2
 <h2>로그아웃·숨김·삭제는 다릅니다</h2>
 <p>기기 동기화 → 계정·기기 데이터 관리에서 구분해 선택합니다. 로그아웃은 로컬 사본·서버 데이터·별도 Calendar 연결을 유지합니다. 이 기기 데이터 지우기는 모든 계정의 기기 사본·로그인 전 이벤트·설정·캐시를 지우고 로그아웃하며 서버 데이터는 유지합니다. 계정 및 데이터 삭제는 현재 MomentAtlas 인증 계정·서버 이벤트·분류·뉴스 읽음&#47;선호도·공유 사본을 삭제하고 이 기기도 초기화합니다. 다른 기기의 오프라인 사본·이미 받은 공유 사본·백업 파일과 제공자 로그&#47;백업은 원격으로 지우지 못합니다. Google 계정·원본 일정·위치 권한도 삭제하지 않습니다. 개별 이벤트 삭제는 tombstone(삭제 표시)을 남길 수 있고, 뉴스 희미해짐·40일 조회 제한은 서버 자동 삭제가 아닙니다.</p>
 <h2>외부 서비스·진단</h2>
-<p>GitHub Pages, Supabase, Google, Open-Meteo, BigDataCloud 및 직접 연 출처 사이트는 요청 과정에서 IP·접속 시각 등 네트워크 정보를 처리할 수 있습니다. 각 서비스의 로그·백업 보존 기간은 이 앱에서 확정하지 않았습니다. 현재 앱 코드에는 별도 광고·행동 분석 SDK가 없습니다. 프레임 진단은 선택적 로컬 진단입니다. 동기화 진단 복사에는 계정 식별 정보와 오류가 들어갈 수 있으니 공개 게시 전 확인하세요. 이벤트 내용·토큰은 의도적으로 포함하지 않습니다.</p>
+<p>GitHub Pages, Supabase, Google, Open-Meteo, BigDataCloud 및 직접 연 출처 사이트는 요청 과정에서 IP·접속 시각 등 네트워크 정보를 처리할 수 있습니다. 각 서비스의 로그·백업 보존 기간은 이 앱에서 확정하지 않았습니다. 현재 앱 코드에는 별도 광고·행동 분석 SDK가 없습니다. 프레임 진단은 선택적 로컬 진단입니다. 동기화 진단 복사는 버전·세션&#47;로그인 유무·오류 유무·마지막 동기화 시각·오류 단계&#47;유형·검증된 서버 코드만 포함합니다. 원본 오류 문장·계정 식별자·이벤트 내용·토큰은 제외합니다.</p>
 </section>
 <section lang="en" id="en">
 <h1>Data &amp; privacy</h1>
@@ -55,7 +55,7 @@ section + section { margin-top: 4rem; border-top: 1px solid gray; padding-top: 2
 <h2>Sign-out, hiding &amp; deletion differ</h2>
 <p>Use Device sync → Account &amp; device data. Sign-out keeps local copies, server records and the separate Calendar connection. Clear this device erases all local account copies, pre-login events, settings and caches, then signs out; server data stays. Delete account &amp; data removes the current MomentAtlas Auth account, server events&#47;categories, news read state&#47;preferences and share snapshots, and clears this device. Other devices’ offline copies, recipients’ saved copies, backup files and provider logs&#47;backups cannot be remotely erased. Google accounts&#47;calendar originals and location permissions are not deleted. Individual event deletion can leave a tombstone; fading news and the 40 days read window are not automatic server erasure.</p>
 <h2>External services &amp; diagnostics</h2>
-<p>GitHub Pages, Supabase, Google, Open-Meteo, BigDataCloud and source sites you open may process network metadata such as IP and request time. Their log&#47;backup retention periods have not been established by this app. Current app code has no separate advertising&#47;behavioral analytics SDK. Frame diagnostics are opt-in and local. Copied sync diagnostics can include account identifiers and errors; review before posting publicly. Event content and tokens are intentionally excluded.</p>
+<p>GitHub Pages, Supabase, Google, Open-Meteo, BigDataCloud and source sites you open may process network metadata such as IP and request time. Their log&#47;backup retention periods have not been established by this app. Current app code has no separate advertising&#47;behavioral analytics SDK. Frame diagnostics are opt-in and local. Copied sync diagnostics include only version, session&#47;user presence, error presence, last-sync time, error stage&#47;type and validated server codes. Raw error messages, account identifiers, event content and tokens are excluded.</p>
 </section>
 </body>
 </html>
