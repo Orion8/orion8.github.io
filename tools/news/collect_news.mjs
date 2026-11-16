@@ -585,7 +585,8 @@ function validateCatalog(catalog) {
   const ids = new Set();
   for (const event of catalog.events) {
     if (!event || !/^news-[a-f0-9]{24}$/.test(event.id) || ids.has(event.id) ||
-        typeof event.title !== 'string' || !event.title ||
+        typeof event.title !== 'string' || !event.title.trim() ||
+        typeof event.description !== 'string' || !event.description.trim() ||
         !Number.isFinite(Date.parse(event.startAt)) || event.lane !== 'world' ||
         !allowedCategories.has(event.category) || !Number.isInteger(event.importance) ||
         event.importance < 1 || event.importance > 3 ||
