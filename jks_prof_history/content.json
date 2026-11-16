@@ -134,7 +134,29 @@
               "en": "Developed an in-game character animation tool, collision detection, FMV playback, and HUD systems."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, p. 4; start month supplied by user"
+          "source": "Resume_2024_Keeseok_1.pdf, p. 4; start month supplied by user",
+          "references": [
+            {
+              "url": "https://www.mobygames.com/game/157956/black-bass-with-blue-marlin/",
+              "publisher": "MobyGames",
+              "label": {
+                "ko": "게임 정보",
+                "en": "Game information"
+              },
+              "kind": "page",
+              "checkedAt": "2026-11-16"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=wuzTWGVbNzY",
+              "publisher": "10min Gameplay · YouTube",
+              "label": {
+                "ko": "플레이 영상",
+                "en": "Gameplay video"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-16"
+            }
+          ]
         }
       ]
     },
@@ -194,7 +216,19 @@
               "en": "BattleTanx: implemented culling, sound priorities, radar HUD, memory-card file handling, five-language localization, FMV, and a VRAM usage viewer."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6",
+          "references": [
+            {
+              "url": "https://www.pushsquare.com/games/ps1/battletanx_global_assault",
+              "publisher": "Push Square",
+              "label": {
+                "ko": "게임 정보",
+                "en": "Game information"
+              },
+              "kind": "page",
+              "checkedAt": "2026-11-16"
+            }
+          ]
         },
         {
           "id": "monsters",
@@ -222,7 +256,19 @@
           "id": "wdl-thunder-tank",
           "title": "WDL: Thunder Tank",
           "details": [],
-          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6",
+          "references": [
+            {
+              "url": "https://playstationmuseum.com/index.php/product/slus-01175/",
+              "publisher": "The PlayStation Museum",
+              "label": {
+                "ko": "게임 기록",
+                "en": "Game archive"
+              },
+              "kind": "page",
+              "checkedAt": "2026-11-16"
+            }
+          ]
         }
       ]
     },
@@ -271,7 +317,19 @@
               "en": "Managed project schedules and priorities, coordinated teams, and hired new staff."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, p. 4"
+          "source": "Resume_2024_Keeseok_1.pdf, p. 4",
+          "references": [
+            {
+              "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=22587",
+              "publisher": "게임조선 / Game Chosun",
+              "label": {
+                "ko": "당시 리뷰",
+                "en": "Original review"
+              },
+              "kind": "page",
+              "checkedAt": "2026-11-16"
+            }
+          ]
         }
       ]
     },
@@ -328,7 +386,19 @@
               "en": "Built automatic object fragmentation with triangle subdivision and per-fragment physics; managed schedules and task priorities."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, p. 4"
+          "source": "Resume_2024_Keeseok_1.pdf, p. 4",
+          "references": [
+            {
+              "url": "https://www.newswire.co.kr/newsRead.php?no=93593",
+              "publisher": "윈디소프트 · Newswire",
+              "label": {
+                "ko": "공식 보도자료",
+                "en": "Official press release"
+              },
+              "kind": "page",
+              "checkedAt": "2026-11-16"
+            }
+          ]
         }
       ]
     },
@@ -393,7 +463,19 @@
               "en": "Managed runtime network synchronization of player inputs and profiled performance to identify optimization bottlenecks."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6"
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6",
+          "references": [
+            {
+              "url": "https://ch.netmarble.com/Newsroom/PressRelease/Detail?bbs_code=1014&post_seq=2505",
+              "publisher": "Netmarble",
+              "label": {
+                "ko": "공식 보도자료",
+                "en": "Official press release"
+              },
+              "kind": "page",
+              "checkedAt": "2026-11-16"
+            }
+          ]
         }
       ]
     },
@@ -535,7 +617,30 @@
               "en": "Managed a single version-controlled project for multiple platforms and integrated advertising and analytics plugins."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5"
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5",
+          "references": [
+            {
+              "url": "https://www.pocketgamer.com/knightly-adventure/cross-platform-harvesting-building-and-questing-comes-to-ios-and-facebook-with-k/",
+              "publisher": "Pocket Gamer",
+              "label": {
+                "ko": "출시 기사",
+                "en": "Launch coverage"
+              },
+              "kind": "page",
+              "checkedAt": "2026-11-16"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=KHNhEC_saUc",
+              "publisher": "YouTube",
+              "label": {
+                "ko": "소개 영상",
+                "en": "Overview video"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-16",
+              "evidence": "https://kotaku.com/heres-an-action-packed-social-rpg-you-can-play-anywhere-5957766"
+            }
+          ]
         }
       ]
     },
@@ -595,7 +700,19 @@
               "en": "Implemented animation retargeting across characters with Unity Mecanim."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5"
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 3, 5",
+          "references": [
+            {
+              "url": "https://navercorp.com/media/pressReleasesDetail?seq=29265",
+              "publisher": "NAVER",
+              "label": {
+                "ko": "공식 보도자료",
+                "en": "Official press release"
+              },
+              "kind": "page",
+              "checkedAt": "2026-11-16"
+            }
+          ]
         }
       ]
     },
@@ -715,7 +832,20 @@
               "en": "Developed character action mechanics, level and stepping-stone generation, and item spawners."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, pp. 2–3"
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 2–3",
+          "references": [
+            {
+              "url": "https://play.google.com/store/apps/details?id=com.rhplus.poing_poing",
+              "publisher": "Google Play",
+              "label": {
+                "ko": "스토어 페이지",
+                "en": "Store page"
+              },
+              "kind": "page",
+              "checkedAt": "2026-11-16",
+              "evidence": "https://www.taptap.io/app/87415"
+            }
+          ]
         }
       ]
     },
@@ -785,7 +915,31 @@
               "en": "Designed protocols with server engineers and implemented WebSocket handling, packets, scene loading, and invited-player position synchronization."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, pp. 2, 5"
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 2, 5",
+          "references": [
+            {
+              "url": "https://www.helloludi.com/",
+              "publisher": "Hello LUDI",
+              "label": {
+                "ko": "공식 사이트",
+                "en": "Official website"
+              },
+              "kind": "page",
+              "checkedAt": "2026-11-16",
+              "evidence": "https://www.archipin.com/helloludi/"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=zE4gc01tmQQ",
+              "publisher": "Archipin · YouTube",
+              "label": {
+                "ko": "공식 출시 영상",
+                "en": "Official launch video"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-16",
+              "evidence": "https://www.archipin.com/promotion/?uid=70&mod=document"
+            }
+          ]
         },
         {
           "id": "language-learning-prototype",
