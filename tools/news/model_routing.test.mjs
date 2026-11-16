@@ -5,6 +5,14 @@ import path from 'node:path';
 import vm from 'node:vm';
 import test from 'node:test';
 
+const sampleCatalog = {catalogVersion: '0.0.1', updatedAt: '2026-11-15T12:00:00Z',
+  sourceType: 'editorial', events: [{id: `news-${'0'.repeat(24)}`,
+    title: '우주 관측', description: '관측 결과가 발표됐다.',
+    titleTranslations: {en: 'Space observation'}, descriptionTranslations: {en: 'Results were announced.'},
+    startAt: '2026-11-15T12:00:00.000Z', lane: 'world', category: 'space', importance: 2,
+    topicIds: ['spaceDevelopment'], sourceName: 'Synthetic source', sourceUrl: 'https://example.com/observation',
+    news: {status: 'resolved', sourceUrls: ['https://example.com/observation']}}]};
+
 function scriptContext(name, result) {
   const requests = [];
   // Exercise actual request builders without executing their publishing main().
@@ -53,7 +61,7 @@ test('catalog translation defaults to Luna and parses typed Responses output', a
 });
 
 test('publication rejects missing or blank content in either language', () => {
-  const catalog = JSON.parse(readFileSync(new URL('../../cdx_time_map/catalog/news_events.json', import.meta.url)));
+  const catalog = structuredClone(sampleCatalog);
   assert.ok(catalog.events.length > 0);
   const f = scriptContext('collect_news.mjs', {});
   vm.runInContext(`validateCatalog(${JSON.stringify(catalog)})`, f.context);
@@ -65,7 +73,7 @@ test('publication rejects missing or blank content in either language', () => {
 });
 
 test('bilingual news updates retain identity and read-state key', () => {
-  const catalog = JSON.parse(readFileSync(new URL('../../cdx_time_map/catalog/news_events.json', import.meta.url)));
+  const catalog = structuredClone(sampleCatalog);
   const event = catalog.events[0];
   const candidate = {url: event.sourceUrl, sourceName: event.sourceName, publishedAt: event.startAt};
   const draft = {existingEventId: event.id, title: '한국어 제목', titleEn: 'English title',
