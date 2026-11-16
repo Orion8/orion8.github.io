@@ -227,6 +227,17 @@
               },
               "kind": "page",
               "checkedAt": "2026-11-16"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=hsXGZm5rOlc",
+              "publisher": "Kawaii Games · YouTube",
+              "label": {
+                "ko": "PlayStation 플레이 영상",
+                "en": "PlayStation gameplay video"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-16",
+              "evidence": "https://gamefaqs.gamespot.com/ps/196735-battletanx-global-assault/videos/1343200"
             }
           ]
         },
