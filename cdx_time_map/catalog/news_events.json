@@ -1,8 +1,122 @@
 {
-  "catalogVersion": "0.0.224",
-  "updatedAt": "2026-11-15T19:20:59.650Z",
+  "catalogVersion": "0.0.225",
+  "updatedAt": "2026-11-16T07:54:49.232Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-871c4bfc0c426ed1eb81f00a",
+      "title": "예멘군 후퇴로 후티 반군, 홍해 해협 해안의 핵심 지역 장악",
+      "titleTranslations": {
+        "en": "Yemeni forces’ retreat leaves Houthis in control of key area on Red Sea strait coast"
+      },
+      "startAt": "2026-11-16T07:23:23.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "사우디아라비아의 지원을 받는 예멘군은 아덴 임시 수도를 방어하기 위해 바브엘만데브 해협에서 병력을 이동한다고 밝혔다. 이 후퇴로 후티 반군이 홍해 항로의 핵심 해안 지역을 장악하게 됐다.",
+      "descriptionTranslations": {
+        "en": "Saudi-backed Yemeni forces said they were moving troops from the Bab al-Mandab Strait to defend the interim capital, Aden. Their retreat left the Houthis in control of a key coastal area on the Red Sea waterway."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-16T07:23:23.000Z",
+        "lastObservedAt": "2026-11-16T07:54:49.232Z"
+      }
+    },
+    {
+      "id": "news-4f34f128a81de74f07ff1525",
+      "title": "영국 잭도 가스전에서 가스 생산 시작",
+      "titleTranslations": {
+        "en": "Gas production begins at the UK’s Jackdaw field"
+      },
+      "startAt": "2026-11-16T06:24:08.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "정부 승인을 받은 잭도 가스전에서 가스가 흐르기 시작했다. 애버딘에서 동쪽으로 150마일 떨어진 이 가스전은 수년간 불확실성을 겪은 뒤 지난달 승인을 받았다.",
+      "descriptionTranslations": {
+        "en": "Gas has started flowing from the Jackdaw field after government approval. Located 150 miles east of Aberdeen, the field was approved last month after years of uncertainty."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-16T06:24:08.000Z",
+        "lastObservedAt": "2026-11-16T07:54:49.232Z"
+      }
+    },
+    {
+      "id": "news-5115c9a08542f6d8eb1b74e8",
+      "title": "인도네시아 푼착자야 정상의 마지막 빙하 얼음, 흐르지 못할 만큼 축소",
+      "titleTranslations": {
+        "en": "Last ice on Indonesia’s Puncak Jaya shrinks to patches too small to flow as glaciers"
+      },
+      "startAt": "2026-11-16T05:00:00.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "인도네시아 푼착자야산 정상 부근의 얼음이 빙하처럼 흐르기 어려울 만큼 작은 조각들로 줄어들었다.",
+      "descriptionTranslations": {
+        "en": "Ice near the summit of Indonesia’s Puncak Jaya has shrunk to scattered patches too small to flow like glaciers."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/"
+        ],
+        "firstPublishedAt": "2026-11-16T05:00:00.000Z",
+        "lastObservedAt": "2026-11-16T07:54:49.232Z"
+      }
+    },
+    {
+      "id": "news-2bc3d8d01ae5971453ec6680",
+      "title": "ULA 벌컨 로켓 발사 실패…회사 20년 역사상 첫 전면 임무 실패",
+      "titleTranslations": {
+        "en": "ULA’s Vulcan rocket fails during launch in the company’s first total mission failure"
+      },
+      "startAt": "2026-11-15T23:11:54.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "유나이티드 론치 얼라이언스(ULA)의 벌컨 로켓이 발사 중 임무에 실패했다. 이번은 ULA의 20년 역사에서 처음 발생한 전면적인 임무 실패다.",
+      "descriptionTranslations": {
+        "en": "United Launch Alliance’s Vulcan rocket failed during launch. It was the first total mission failure in ULA’s 20-year history."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/"
+        ],
+        "firstPublishedAt": "2026-11-15T23:11:54.000Z",
+        "lastObservedAt": "2026-11-16T07:54:49.232Z"
+      }
+    },
     {
       "id": "news-f6f01a754c7cef1351fc5189",
       "title": "코로나19 봉쇄 기간 전 세계 산불 활동 12.3% 감소",
@@ -1253,34 +1367,6 @@
       }
     },
     {
-      "id": "news-ffea957c41531bf29ac4c19c",
-      "title": "하버드서 우생학 연구에 사용된 것으로 보이는 두개골 두 점, 브라질로 반환",
-      "titleTranslations": {
-        "en": "Two skulls likely used in eugenics studies at Harvard repatriated to Brazil"
-      },
-      "startAt": "2026-11-11T22:50:37.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도에 따르면 아프리카계 또는 아프로‑브라질인으로 추정되는 두 구의 두개골이 하버드 대학에서 우생학 연구에 이용된 것으로 알려진 뒤 외국에 있던 것을 외교적 이송을 통해 브라질로 반환돼 살바도르(바이아주)와 리우데자네이루에서 각각 소박한 환영식이 열렸다. 한 유골은 약 190년 전 살바도르에서 채취된 것으로 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say two skulls believed to belong to Africans or Afro‑Brazilians — which had been used in racist eugenics research at Harvard and were held outside Brazil for more than a century — were repatriated to Brazil and returned in solemn ceremonies in Salvador (Bahia) and Rio de Janeiro. One set of remains was taken from Salvador around 190 years ago, the coverage says."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil"
-        ],
-        "firstPublishedAt": "2026-11-11T22:50:37.000Z",
-        "lastObservedAt": "2026-11-12T20:47:34.389Z"
-      }
-    },
-    {
       "id": "news-789e4b945179c05f9999677e",
       "title": "배우 어마 P. 홀 사망 — 향년 91세",
       "titleTranslations": {
@@ -2191,34 +2277,6 @@
       }
     },
     {
-      "id": "news-de0c28c9953fb6e77af413b2",
-      "title": "AI 관련 주식 반등 — 수조 달러 증발 뒤 상승",
-      "titleTranslations": {
-        "en": "AI stocks climb after trillions wiped from market values"
-      },
-      "startAt": "2026-11-06T21:06:25.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "기술주에 대한 대규모 매도 이후 일부 AI 관련 종목이 반등했다는 보도가 나왔다. 보도는 민주당의 선거 성과로 AI 규제가 강화될 것이라는 우려가 한때 기술주 매도에 기여했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say some AI‑related stocks have climbed after a period in which trillions were wiped from tech market values. Coverage notes that concerns that Democratic election gains could lead to slower AI development and greater regulation contributed to earlier selling."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-06T21:06:25.000Z",
-        "lastObservedAt": "2026-11-07T18:01:15.880Z"
-      }
-    },
-    {
       "id": "news-728988fc29fadf139baed6f5",
       "title": "칠레 감독 세바스티안 레리오 별세",
       "titleTranslations": {
@@ -2534,34 +2592,6 @@
         ],
         "firstPublishedAt": "2026-10-29T04:01:00.000Z",
         "lastObservedAt": "2026-10-29T07:01:23.964Z"
-      }
-    },
-    {
-      "id": "news-3a3dad32dd0ee3f0a309cd8c",
-      "title": "남극 빙산 A‑81이 사우스조지아 해역에 도달",
-      "titleTranslations": {
-        "en": "A‑81 iceberg reaches South Georgia"
-      },
-      "startAt": "2026-10-27T04:00:00.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "NASA(지구관측 관련 보도)에 따르면 남극 빙산 A‑81이 웨델해를 빠져나와 상대적으로 빠르게 이동한 뒤 외딴 섬(사우스조지아) 해저 선반 가장자리에 도달해 속도가 느려졌다고 전했다.",
-      "descriptionTranslations": {
-        "en": "A NASA Earth Observatory item reports that Antarctic iceberg A‑81 exited the Weddell Sea relatively quickly and then slowed at the edge of the underwater shelf around the remote island of South Georgia."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/"
-        ],
-        "firstPublishedAt": "2026-10-27T04:00:00.000Z",
-        "lastObservedAt": "2026-10-27T06:14:00.925Z"
       }
     },
     {
