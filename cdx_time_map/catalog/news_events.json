@@ -1,8 +1,184 @@
 {
-  "catalogVersion": "0.0.225",
-  "updatedAt": "2026-11-16T07:54:49.232Z",
+  "catalogVersion": "0.0.226",
+  "updatedAt": "2026-11-16T22:52:03.404Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-f83f812563eb29b623dc7ac7",
+      "title": "마이크로소프트 365 전 세계 장애 원인 공개…복합된 세 문제가 연쇄 고장 불러",
+      "titleTranslations": {
+        "en": "Microsoft details how three combined failures caused global Microsoft 365 outage"
+      },
+      "startAt": "2026-11-16T21:56:39.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "마이크로소프트는 숨은 버그, 트래픽 이동, 용량 감소라는 세 가지 문제가 결합해 연쇄 장애를 일으켰다고 밝혔다. 이번 설명은 아웃룩·팀즈·코파일럿 등에 영향을 준 전 세계 서비스 장애에 대한 후속 내용이다.",
+      "descriptionTranslations": {
+        "en": "Microsoft said a hidden bug, shifting traffic and reduced capacity combined to trigger cascading failures. The explanation is a follow-up to the global service outage that affected Outlook, Teams and Copilot."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
+      "topicIds": [
+        "economyFinance",
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
+          "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
+          "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+          "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/"
+        ],
+        "firstPublishedAt": "2026-11-13T07:37:38.000Z",
+        "lastObservedAt": "2026-11-16T22:52:03.403Z"
+      }
+    },
+    {
+      "id": "news-bad9f547dc2839fc3f39a28f",
+      "title": "로버트 패틴슨, 제임스 본드 역으로 다니엘 크레이그 후임",
+      "titleTranslations": {
+        "en": "Robert Pattinson to replace Daniel Craig as James Bond"
+      },
+      "startAt": "2026-11-16T19:43:58.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "배우 로버트 패틴슨이 제임스 본드 역에서 다니엘 크레이그의 뒤를 잇게 됐다. 패틴슨은 《트와일라잇》과 《더 배트맨》 등의 작품으로 알려져 있다.",
+      "descriptionTranslations": {
+        "en": "Actor Robert Pattinson will succeed Daniel Craig as James Bond. Pattinson is known for films including Twilight and The Batman."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwx2ev0pxmvjo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cwx2ev0pxmvjo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-16T19:43:58.000Z",
+        "lastObservedAt": "2026-11-16T22:52:03.403Z"
+      }
+    },
+    {
+      "id": "news-0af0bf2a120cdb552f3c43ab",
+      "title": "해수면 높이 관측 임무의 기준 위성 센티널-6B, 지구 궤도 진입",
+      "titleTranslations": {
+        "en": "Sentinel-6B enters orbit as a reference satellite for sea-surface-height missions"
+      },
+      "startAt": "2026-11-16T18:52:32.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "센티널-6B 위성이 지구 궤도에 진입했다. 이 위성은 해수면 높이를 연구하는 다른 임무들의 기준 위성이 될 예정이다.",
+      "descriptionTranslations": {
+        "en": "The Sentinel-6B satellite is in orbit around Earth. It is expected to serve as the reference satellite for other missions studying sea-surface height."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/"
+        ],
+        "firstPublishedAt": "2026-11-16T18:52:32.000Z",
+        "lastObservedAt": "2026-11-16T22:52:03.403Z"
+      }
+    },
+    {
+      "id": "news-6dd05a512abcee1d305cdb95",
+      "title": "유엔, 자율살상무기 규제 협상…구속력 있는 통제 두고 이견",
+      "titleTranslations": {
+        "en": "U.N. talks seek rules for autonomous weapons, with divisions over binding controls"
+      },
+      "startAt": "2026-11-16T18:04:50.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "제네바에서 인간의 개입 없이 표적을 선택해 공격할 수 있는 무기의 규칙을 논의하는 협상이 열렸다. 미국·러시아·이스라엘은 법적 구속력이 있는 통제에 반대하고 있으며, 규제 운동가들은 조치를 취할 시간이 얼마 남지 않았다고 우려한다.",
+      "descriptionTranslations": {
+        "en": "Negotiations are under way in Geneva on rules for weapons that can select and attack targets without human intervention. The United States, Russia and Israel oppose legally binding controls, while campaigners warn that the window for action is closing."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones"
+        ],
+        "firstPublishedAt": "2026-11-16T18:04:50.000Z",
+        "lastObservedAt": "2026-11-16T22:52:03.403Z"
+      }
+    },
+    {
+      "id": "news-8a89a626759eac456d4a3c79",
+      "title": "독일 등 EU 5개국, 르완다에 이민자 ‘귀환 허브’ 추진",
+      "titleTranslations": {
+        "en": "Five EU countries plan immigration ‘return hubs’ in Rwanda"
+      },
+      "startAt": "2026-11-16T16:21:40.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "독일·오스트리아·네덜란드·덴마크·그리스가 유럽에 체류할 법적 권리가 없는 사람들을 위한 르완다의 역외 센터를 추진한다고 발표했다. 이들 국가는 EU의 새 귀환 법에 따라 항소 절차를 모두 마친 사람들을 제3국으로 보낼 수 있는 방안을 시범적으로 적용하려 한다. 이 계획은 법적 도전에 직면할 것으로 예상된다.",
+      "descriptionTranslations": {
+        "en": "Germany, Austria, the Netherlands, Denmark and Greece announced plans for an offshore centre in Rwanda for people without a legal right to remain in Europe. The countries intend to pilot a route under the EU’s new returns law, which allows people who have exhausted their appeals to be sent to a third country. The plan is expected to face legal challenges."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
+        ],
+        "firstPublishedAt": "2026-11-16T16:21:40.000Z",
+        "lastObservedAt": "2026-11-16T22:52:03.403Z"
+      }
+    },
+    {
+      "id": "news-dff41c38a4e0c81851f5efad",
+      "title": "미국 데이터센터 403곳 배출량, 덴마크 연간 배출량 규모…연구",
+      "titleTranslations": {
+        "en": "U.S. data centres’ emissions equal Denmark’s annual total, study finds"
+      },
+      "startAt": "2026-11-16T16:00:47.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "연구에 따르면 미국의 대형 데이터센터 403곳은 약 2,570만 미터톤의 이산화탄소를 배출했다. 연구는 이 배출량이 덴마크의 연간 배출량과 비슷한 규모라고 추산했다.",
+      "descriptionTranslations": {
+        "en": "A study estimated that 403 large data centres in the United States emitted about 25.7 million metric tons of carbon dioxide. It found that this was roughly equivalent to Denmark’s annual emissions."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/16/datacenter-emissions-study",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/16/datacenter-emissions-study"
+        ],
+        "firstPublishedAt": "2026-11-16T16:00:47.000Z",
+        "lastObservedAt": "2026-11-16T22:52:03.403Z"
+      }
+    },
     {
       "id": "news-871c4bfc0c426ed1eb81f00a",
       "title": "예멘군 후퇴로 후티 반군, 홍해 해협 해안의 핵심 지역 장악",
@@ -814,37 +990,6 @@
       }
     },
     {
-      "id": "news-f83f812563eb29b623dc7ac7",
-      "title": "마이크로소프트, 하루 동안 이어진 전 세계 서비스 장애 복구 완료",
-      "titleTranslations": {
-        "en": "Microsoft fully restores services after day-long global outage"
-      },
-      "startAt": "2026-11-13T13:41:25.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "마이크로소프트는 아웃룩, 팀즈, 코파일럿에 영향을 준 전 세계 서비스 장애의 근본 문제를 해결했고 서비스가 완전히 복구됐다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Microsoft said it had addressed the underlying problem affecting Outlook, Teams and Copilot, and that services were fully restored after the global outage."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
-          "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
-          "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-13T07:37:38.000Z",
-        "lastObservedAt": "2026-11-14T18:43:38.835Z"
-      }
-    },
-    {
       "id": "news-57078b3d0c8c9af0d20aa04b",
       "title": "뉴욕 최대 활성 매립지 연장 계획 논란 — 주민 반발 속 보관·처리 한계 드러나",
       "titleTranslations": {
@@ -1223,62 +1368,6 @@
           "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-12T08:11:44.000Z",
-        "lastObservedAt": "2026-11-12T08:14:20.823Z"
-      }
-    },
-    {
-      "id": "news-5df5b13482c35b6591d4ad6e",
-      "title": "러시아의 공습으로 우크라이나 전력 공급 위기 임박 — 시민들 밤·한파에 고립",
-      "titleTranslations": {
-        "en": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold"
-      },
-      "startAt": "2026-11-12T07:59:33.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도에 따르면 러시아의 군사 공격으로 우크라이나 일부 지역의 전력 공급이 심각하게 훼손돼 가정들이 하루 몇 시간만 전력을 사용할 수 있는 상황이 발생하고 있다. 부모들은 제한된 전력으로 정상적 가정생활을 유지하기 어려워지고 있으며, 야간 정전과 한파가 시민들의 생활에 큰 부담을 주고 있다.",
-      "descriptionTranslations": {
-        "en": "Reports say Russian strikes have severely damaged power infrastructure in parts of Ukraine, leaving some households with only a few hours of electricity a day. Parents and families are struggling to maintain normal life amid darkness and cold."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-12T07:59:33.000Z",
-        "lastObservedAt": "2026-11-12T08:14:20.823Z"
-      }
-    },
-    {
-      "id": "news-554dbe9998f0e4df593f9618",
-      "title": "네타냐후의 성격 중심 정치가 이스라엘 민주주의 형식 변화 촉발",
-      "titleTranslations": {
-        "en": "Netanyahu’s legacy: Personality politics reshapes Israeli democracy"
-      },
-      "startAt": "2026-11-12T06:49:45.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "보도는 네타냐후 전(現) 총리의 정치적 생존 투쟁이 의회 개시에 모욕과 격론이 오가는 장면으로 이어졌다며, 그의 리더십 스타일과 인물 중심 정치는 이스라엘의 의회정치·민주주의 관행을 재형성하고 있다고 분석했다.",
-      "descriptionTranslations": {
-        "en": "Coverage says Benjamin Netanyahu's fight for political survival has turned the opening of parliament into a scene of insults and acrimony, and that his personality‑centred politics is reshaping Israeli parliamentary practice and democracy."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/12/netanyahus-legacy-personality-politics-reshapes-israeli-democracy?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/11/12/netanyahus-legacy-personality-politics-reshapes-israeli-democracy?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-11-12T06:49:45.000Z",
         "lastObservedAt": "2026-11-12T08:14:20.823Z"
       }
     },
@@ -1681,63 +1770,6 @@
       }
     },
     {
-      "id": "news-636bec9b1738d1053c35ef6f",
-      "title": "뉴욕주 AI 안전법 시행 — 주요 개발사에 등록·안전 공개·사고보고 의무",
-      "titleTranslations": {
-        "en": "New York’s AI safety law takes effect — major developers must register, disclose safety practices and report incidents"
-      },
-      "startAt": "2026-11-10T20:52:13.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "TechCrunch 보도에 따르면 뉴욕주는 포괄적 AI 안전법을 시행할 준비를 하고 있으며, OpenAI·Anthropic 등 주요 개발사에 등록·안전 관행 공개·중대한 사고 보고를 요구하고, 규정 위반 시 과태료를 부과할 수 있도록 했다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch reports New York is preparing to enforce a sweeping AI safety law that requires major developers — including firms such as OpenAI and Anthropic — to register, disclose safety practices and report critical incidents, with fines for non‑compliance."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
-        ],
-        "firstPublishedAt": "2026-11-10T20:52:13.000Z",
-        "lastObservedAt": "2026-11-11T07:44:11.041Z"
-      }
-    },
-    {
-      "id": "news-a84e1216b3ff0bad9eddcf0a",
-      "title": "데이비드 월리엄스, 금지명령 패소 뒤 성추문 혐의 제기 — 그는 혐의 부인",
-      "titleTranslations": {
-        "en": "David Walliams accused of sexual misconduct after losing injunction bid — he denies allegations"
-      },
-      "startAt": "2026-11-10T20:20:11.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "ITN과 가디언의 보도에 따르면 코미디언 데이비드 월리엄스가 십대 소녀들과 젊은 여성들을 상대로 부적절한 행위를 했다는 주장들이 제기되었고, 월리엄스는 모든 혐의를 부인하고 있다. 최근의 법적 절차(금지명령 신청 패소)가 보도에 포함되었다.",
-      "descriptionTranslations": {
-        "en": "ITN and The Guardian report allegations that comedian David Walliams preyed on teenage girls and young women; Walliams has denied all allegations. The coverage notes he recently lost an injunction bid related to the matter."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckn8w8p9370zo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ckn8w8p9370zo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-10T20:20:11.000Z",
-        "lastObservedAt": "2026-11-10T20:27:17.394Z"
-      }
-    },
-    {
       "id": "news-7b10e9232fe65cdcc88d8c82",
       "title": "보이저 1호, 지구로부터 ‘1광일(24시간 빛 이동 거리)’ 도달 기념 행사 초대",
       "titleTranslations": {
@@ -2049,34 +2081,6 @@
         ],
         "firstPublishedAt": "2026-11-08T15:26:38.000Z",
         "lastObservedAt": "2026-11-08T18:20:02.575Z"
-      }
-    },
-    {
-      "id": "news-5e95281cff0e2d8d8b16018d",
-      "title": "미 쇠고기 업계, 청소년용 기후 교육 일부 내용 폐기",
-      "titleTranslations": {
-        "en": "Beef industry quietly drops part of its climate curriculum for teenagers"
-      },
-      "startAt": "2026-11-08T15:00:43.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 소고기 업계가 자금 지원한 청소년 교육 자료에서 가축의 메탄 배출이 기후변화에 기여한다는 내용을 담은 교재 일부를 목장주들의 반발 후 조용히 폐기했다고 전해졌다. 기사는 업계가 학교에서의 학습 내용에 영향력을 행사해온 역사를 지적했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that a beef‑industry‑funded effort to teach teenagers about cattle’s climate impact quietly scrapped part of its curriculum — including material on methane emissions — after protests by some ranchers. The article highlights the livestock industry’s long‑running efforts to influence what children are taught about cows and climate."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/08/beef-industry-climate-impact-education",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/environment/2026/nov/08/beef-industry-climate-impact-education"
-        ],
-        "firstPublishedAt": "2026-11-08T15:00:43.000Z",
-        "lastObservedAt": "2026-11-10T08:22:42.323Z"
       }
     },
     {
@@ -2622,34 +2626,6 @@
         ],
         "firstPublishedAt": "2026-10-25T12:00:05.000Z",
         "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
-      "id": "news-29a4ffbe1d32dba88cabfc88",
-      "title": "성운 속에서 별이 태어나는 장면 — ESA 이미지 공개",
-      "titleTranslations": {
-        "en": "Stars brewing in a nebulous cauldron (ESA image release)"
-      },
-      "startAt": "2026-10-22T08:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 1,
-      "description": "유럽우주국(ESA)은 성운 속에서 별이 형성되는 모습을 포착한 이미지를 공개했다. 해당 이미지는 성간 물질과 별 형성 과정을 보여준다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency released an image showing stars brewing within a nebulous region, illustrating interstellar material and star‑formation activity."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron"
-        ],
-        "firstPublishedAt": "2026-10-22T08:00:00.000Z",
-        "lastObservedAt": "2026-10-25T17:03:28.193Z"
       }
     },
     {
