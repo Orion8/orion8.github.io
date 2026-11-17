@@ -2,6 +2,7 @@ import {createHash} from 'node:crypto';
 import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import {NewsRunBudget, NewsRunError, readBoundedText, stopCode} from './run_limits.mjs';
 
 const root = process.cwd();
 const outputDirectory = path.resolve(
@@ -47,7 +48,33 @@ const allowedCategories = new Set([
   'space',
 ]);
 
+let activeBudget;
+function budget() { return activeBudget ??= new NewsRunBudget(process.env); }
+
 async function main() {
+  let status = 'failed';
+  let code = null;
+  try {
+    budget(); // Validate limits and start the whole-run deadline before RSS.
+    await collectNews();
+    budget().check();
+    status = 'completed';
+  } catch (error) {
+    code = stopCode(error);
+    throw error;
+  } finally {
+    const report = activeBudget?.report(status, code) ?? {status, stopCode: 'invalid_limits'};
+    activeBudget?.close();
+    console.log(`News run report: ${JSON.stringify(report)}`);
+    if (process.env.GITHUB_STEP_SUMMARY) {
+      await writeFile(process.env.GITHUB_STEP_SUMMARY,
+        `## MomentAtlas news collection\n\n\`\`\`json\n${JSON.stringify(report, null, 2)}\n\`\`\`\n`,
+        {flag: 'a'});
+    }
+  }
+}
+
+async function collectNews() {
   const sources = await readJson(sourcePath);
   const existingCatalog = await readJsonOr(
     catalogPath,
@@ -98,6 +125,7 @@ async function main() {
 }
 
 async function publishCatalogIfChanged({existingCatalog, events}) {
+  budget().check();
   const now = new Date();
   const recentEvents = events.filter((event) =>
     Date.parse(event.startAt) >= now.getTime() - retentionDays * 86400000,
@@ -131,6 +159,7 @@ async function publishCatalogIfChanged({existingCatalog, events}) {
     console.log(`Dry run: would publish ${nextCatalog.events.length} news events.`);
     return;
   }
+  budget().check();
   await mkdir(outputDirectory, {recursive: true});
   await writeJson(catalogPath, nextCatalog);
   await writeJson(manifestPath, manifest);
@@ -143,17 +172,22 @@ async function collectArticles(sources) {
   const cutoff = Date.now() - maximumArticleAgeDays * 86400000;
   const seenUrls = new Set();
   const results = [];
+  let successfulSources = 0;
   for (const source of sources) {
+    budget().check();
     try {
       validateSource(source);
-      const response = await fetch(source.feedUrl, {
-        headers: {Accept: 'application/rss+xml, application/xml, text/xml'},
-      });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const xml = await response.text();
+      const xml = await budget().timed(budget().limits.rssTimeoutMs, async (signal) => {
+        const response = await fetch(source.feedUrl, {
+          signal, headers: {Accept: 'application/rss+xml, application/xml, text/xml'},
+        });
+        if (!response.ok) { await response.body?.cancel(); throw new NewsRunError('rss_http_error'); }
+        return readBoundedText(response, 2000000);
+      }, 'rss_timeout');
       const parsed = parseRss(xml, source)
         .filter((article) => Date.parse(article.publishedAt) >= cutoff)
         .slice(0, source.maxItems ?? 10);
+      successfulSources++;
       for (const article of parsed) {
         if (seenUrls.has(article.url)) continue;
         seenUrls.add(article.url);
@@ -161,9 +195,11 @@ async function collectArticles(sources) {
       }
       console.log(`${source.name}: ${parsed.length} recent article(s).`);
     } catch (error) {
-      console.warn(`${source?.name ?? 'Unknown source'} skipped: ${error.message}`);
+      budget().check(); // A whole-run timeout must not become a skipped source.
+      console.warn(`RSS source skipped (${stopCode(error)}).`);
     }
   }
+  if (successfulSources === 0) throw new NewsRunError('rss_unavailable');
   const newestFirst = results.sort((left, right) =>
     Date.parse(right.publishedAt) - Date.parse(left.publishedAt),
   );
@@ -469,23 +505,58 @@ async function requestStructuredOutput({
       },
     },
   };
-  const response = await fetch('https://api.openai.com/v1/responses', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(requestBody),
+  const stage = name === 'time_map_news_triage' ? 'triage' : 'editor';
+  const supplied = fitRequestContext(requestBody, userPayload, stage);
+  const payload = await budget().request(requestBody, stage, {
+    fetchImpl: fetch, apiKey: process.env.OPENAI_API_KEY,
   });
-  const payload = await response.json();
-  if (!response.ok) throw new Error(`OpenAI request failed: ${payload.error?.message ?? response.status}`);
   const outputText = responseOutputText(payload);
   if (outputText == null) {
-    throw new Error(
-      `OpenAI response did not include structured output text (status: ${payload.status ?? 'unknown'}).`,
-    );
+    throw new NewsRunError('structured_output_missing');
   }
-  return JSON.parse(outputText);
+  try {
+    const parsed = JSON.parse(outputText);
+    if (stage === 'triage' && parsed?.articleIndexesByCategory) {
+      const indexes = new Set(supplied.candidateArticles.map((a) => a.index));
+      for (const category of allowedCategories) {
+        const selections = parsed.articleIndexesByCategory[category];
+        if (Array.isArray(selections)) {
+          parsed.articleIndexesByCategory[category] = selections.filter((index) => indexes.has(index));
+        }
+      }
+    }
+    return parsed;
+  }
+  catch { throw new NewsRunError('invalid_structured_json'); }
+}
+
+function fitRequestContext(requestBody, userPayload, stage) {
+  // Keep original candidate indexes intact. Reduce oldest existing-event context
+  // first; triage omissions are category-balanced and remain for a later run.
+  const payload = structuredClone(userPayload);
+  const articles = payload.candidateArticles ?? [];
+  for (const article of articles) {
+    if (article.excerpt) article.excerpt = truncate(article.excerpt, 500);
+  }
+  if (payload.existingEvents) {
+    for (const event of payload.existingEvents) {
+      event.description = truncate(event.description ?? '', 180);
+      event.descriptionEn = truncate(event.descriptionEn ?? '', 240);
+    }
+  }
+  const outputLimit = stage === 'triage' ? budget().limits.triageOutput : budget().limits.editorOutput;
+  while (true) {
+    requestBody.input[1].content = JSON.stringify(payload);
+    const bytes = Buffer.byteLength(JSON.stringify({...requestBody, max_output_tokens: outputLimit}));
+    if (bytes <= budget().limits.maxInputBytes) return payload;
+    if (payload.existingEvents?.length) { payload.existingEvents.pop(); continue; }
+    if (stage !== 'triage' || articles.length <= 1) throw new NewsRunError('input_limit');
+    const counts = new Map();
+    for (const a of articles) counts.set(a.defaultCategory, (counts.get(a.defaultCategory) ?? 0) + 1);
+    const largest = [...counts].sort((a, b) => b[1] - a[1])[0][0];
+    const index = articles.findLastIndex((a) => a.defaultCategory === largest);
+    articles.splice(index, 1);
+  }
 }
 
 function responseOutputText(payload) {
@@ -678,6 +749,6 @@ async function writeJson(filePath, value) {
 }
 
 main().catch((error) => {
-  console.error(error.stack || error.message);
+  console.error(`News collection stopped (${stopCode(error)}); no catalog commit will run.`);
   process.exitCode = 1;
 });

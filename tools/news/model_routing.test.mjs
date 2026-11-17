@@ -4,6 +4,7 @@ import {readFileSync} from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import test from 'node:test';
+import {NewsRunBudget, NewsRunError, readBoundedText, stopCode} from './run_limits.mjs';
 
 const sampleCatalog = {catalogVersion: '0.0.1', updatedAt: '2026-11-15T12:00:00Z',
   sourceType: 'editorial', events: [{id: `news-${'0'.repeat(24)}`,
@@ -19,11 +20,12 @@ function scriptContext(name, result) {
   const source = readFileSync(new URL(name, import.meta.url), 'utf8')
     .replace(/^import .*;\r?\n/gm, '').split('\nmain().catch(')[0];
   const context = vm.createContext({
-    path, createHash, console, URL,
+    path, createHash, console, URL, Buffer, structuredClone,
+    NewsRunBudget, NewsRunError, readBoundedText, stopCode,
     process: {cwd: () => '/synthetic', env: {OPENAI_API_KEY: 'synthetic-key'}},
     fetch: async (_url, options) => {
       requests.push(JSON.parse(options.body));
-      return Response.json({output: [{type: 'reasoning'}, {type: 'message', content: [
+      return Response.json({status: 'completed', usage: {input_tokens: 100, output_tokens: 50, total_tokens: 150}, output: [{type: 'reasoning'}, {type: 'message', content: [
         {type: 'output_text', text: JSON.stringify(result)},
       ]}]});
     },
@@ -51,6 +53,23 @@ test('final news editing defaults to Luna with structured bilingual event output
   assert.equal(request.text.format.type, 'json_schema');
   assert.equal(request.text.format.strict, true);
   assert.match(request.input[0].content, /titleEn and descriptionEn/);
+});
+
+test('triage cannot select an index omitted from its bounded context', async () => {
+  const draft = {articleIndexesByCategory: Object.fromEntries(
+    ['politicsSociety', 'economyBusiness', 'scienceTechnology', 'globalHealth',
+      'climateDisaster', 'cultureEntertainment', 'urbanDevelopment', 'sports', 'space']
+      .map((c) => [c, c === 'space' ? [19] : []]))};
+  const f = scriptContext('collect_news.mjs', draft);
+  const output = await vm.runInContext(`
+    process.env.NEWS_MAX_AI_INPUT_BYTES = '3500';
+    triageWithOpenAI(Array.from({length: 20}, () => ({defaultCategory: 'space',
+      title: 'x'.repeat(260), excerpt: 'x'.repeat(500)})))
+  `, f.context);
+  assert.deepEqual(Array.from(output.articleIndexes), []);
+  const supplied = JSON.parse(f.requests[0].input[1].content).candidateArticles;
+  assert.ok(supplied.length < 20);
+  assert.equal(supplied.some((a) => a.index === 19), false);
 });
 
 test('catalog translation defaults to Luna and parses typed Responses output', async () => {

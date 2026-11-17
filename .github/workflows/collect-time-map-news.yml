@@ -24,6 +24,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
         with:
@@ -33,8 +34,8 @@ jobs:
         with:
           node-version: 22
 
-      - name: Verify model routing
-        run: node --test tools/news/model_routing.test.mjs
+      - name: Verify model routing and collection safeguards
+        run: node --test tools/news/*.test.mjs
 
       - name: Require the OpenAI secret
         env:
@@ -63,10 +64,19 @@ jobs:
           # AI and broader technology share this category but retain separate
           # topic filters, so leave room for both in the 30-day timeline.
           NEWS_MAX_EVENTS_PER_CATEGORY: '12'
+          # Application-level admission limits, not a billing-account dollar cap.
+          NEWS_MAX_AI_CALLS: '2'
+          NEWS_MAX_RUN_TOKENS: '150000'
+          NEWS_MAX_AI_INPUT_BYTES: '100000'
+          NEWS_TRIAGE_MAX_OUTPUT_TOKENS: '2000'
+          NEWS_EDITOR_MAX_OUTPUT_TOKENS: '12000'
+          NEWS_AI_TIMEOUT_MS: '90000'
+          NEWS_RSS_TIMEOUT_MS: '12000'
+          NEWS_RUN_TIMEOUT_MS: '480000'
         run: node tools/news/collect_news.mjs
 
       - name: Commit updated catalog
-        if: ${{ !inputs.dry_run }}
+        if: ${{ success() && !inputs.dry_run }}
         run: |
           git add cdx_time_map/catalog/news_events.json cdx_time_map/catalog/news_events_manifest.json
           git diff --cached --quiet && exit 0
