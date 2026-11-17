@@ -1,8 +1,64 @@
 {
-  "catalogVersion": "0.0.226",
-  "updatedAt": "2026-11-16T22:52:03.404Z",
+  "catalogVersion": "0.0.227",
+  "updatedAt": "2026-11-17T09:08:15.532Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-3faaf82ce79f349ca1b448fb",
+      "title": "브라질서 유럽산 농약 관련 중독 신고 1,605건…EU 농장 사용 금지 성분도 포함",
+      "titleTranslations": {
+        "en": "1,605 poisoning reports in Brazil involved European-made pesticides, including chemicals banned on EU farms"
+      },
+      "startAt": "2026-11-17T06:00:05.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "Unearthed와 Public Eye의 조사에 따르면 지난해 브라질에서 유럽 화학기업이 판매한 농약이 1,605건이 넘는 중독 신고에 언급됐다. 이 가운데 약 3분의 1은 사람과 환경에 미치는 위험 때문에 EU 농장에서 사용이 금지된 성분과 관련됐다.",
+      "descriptionTranslations": {
+        "en": "An investigation by Unearthed and Public Eye found that pesticides sold by European chemical companies were named in more than 1,605 poisoning reports in Brazil last year. About a third of the cases involved chemicals banned on EU farms because of the risks they pose to people and the environment."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/environment/2026/nov/17/european-made-pesticides-named-1605-brazil-poisoning-reports",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/environment/2026/nov/17/european-made-pesticides-named-1605-brazil-poisoning-reports"
+        ],
+        "firstPublishedAt": "2026-11-17T06:00:05.000Z",
+        "lastObservedAt": "2026-11-17T09:08:15.532Z"
+      }
+    },
+    {
+      "id": "news-95289fb63a8c7ad1589ed5bb",
+      "title": "캘리포니아에서 기록된 첫 바다거북 둥지의 알 부화…새끼 75마리 바다로",
+      "titleTranslations": {
+        "en": "Eggs hatch from California’s first recorded sea turtle nests, and 75 hatchlings enter the ocean"
+      },
+      "startAt": "2026-11-16T23:19:11.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "지난 9월 미국 서부 해안에서 처음으로 기록된 바다거북 둥지 두 곳의 알이 부화했다. 캘리포니아에서 태어난 올리브각시바다거북 새끼 75마리가 롱비치의 Aquarium of the Pacific에서 부화한 뒤 태평양으로 방류됐다.",
+      "descriptionTranslations": {
+        "en": "Eggs from two sea turtle nests, the first ever recorded on the US west coast, hatched after their discovery in September. The 75 olive ridley hatchlings, born in California, were incubated at the Aquarium of the Pacific in Long Beach and released into the Pacific."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/16/california-sea-turtle-eggs-hatched",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/16/california-sea-turtle-eggs-hatched"
+        ],
+        "firstPublishedAt": "2026-11-16T23:19:11.000Z",
+        "lastObservedAt": "2026-11-17T09:08:15.532Z"
+      }
+    },
     {
       "id": "news-f83f812563eb29b623dc7ac7",
       "title": "마이크로소프트 365 전 세계 장애 원인 공개…복합된 세 문제가 연쇄 고장 불러",
@@ -36,6 +92,38 @@
         ],
         "firstPublishedAt": "2026-11-13T07:37:38.000Z",
         "lastObservedAt": "2026-11-16T22:52:03.403Z"
+      }
+    },
+    {
+      "id": "news-dff41c38a4e0c81851f5efad",
+      "title": "미국 초대형 데이터센터, 전력 소비량의 2% 사용…연구",
+      "titleTranslations": {
+        "en": "Hyperscale data centres use 2% of US electricity, study finds"
+      },
+      "startAt": "2026-11-16T20:52:10.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "한 연구는 미국 초대형 데이터센터의 에너지 사용량과 배출량을 집계해, 이 시설들이 미국 전력의 2%를 사용한다고 추산했다. 데이터센터 배출량에 관한 기존 보도에 추가되는 후속 내용이다.",
+      "descriptionTranslations": {
+        "en": "A study tallying the energy use and emissions of US hyperscale data centres estimated that they consume 2% of the country’s electricity. This adds an electricity-use figure to earlier reporting on data-centre emissions."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
+      "topicIds": [
+        "climateEnvironment",
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/16/datacenter-emissions-study",
+          "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/"
+        ],
+        "firstPublishedAt": "2026-11-16T16:00:47.000Z",
+        "lastObservedAt": "2026-11-17T09:08:15.532Z"
       }
     },
     {
@@ -152,31 +240,31 @@
       }
     },
     {
-      "id": "news-dff41c38a4e0c81851f5efad",
-      "title": "미국 데이터센터 403곳 배출량, 덴마크 연간 배출량 규모…연구",
+      "id": "news-dddc10b7248cf1cf1ac645c9",
+      "title": "잉글랜드·웨일스, 불법 낙태 관련 여성의 전과 기록 자동 말소",
       "titleTranslations": {
-        "en": "U.S. data centres’ emissions equal Denmark’s annual total, study finds"
+        "en": "Criminal records for abortion offences automatically wiped for women in England and Wales"
       },
-      "startAt": "2026-11-16T16:00:47.000Z",
+      "startAt": "2026-11-16T11:45:33.000Z",
       "lane": "world",
-      "category": "climateDisaster",
+      "category": "politicsSociety",
       "importance": 2,
-      "description": "연구에 따르면 미국의 대형 데이터센터 403곳은 약 2,570만 미터톤의 이산화탄소를 배출했다. 연구는 이 배출량이 덴마크의 연간 배출량과 비슷한 규모라고 추산했다.",
+      "description": "잉글랜드와 웨일스에서 불법 낙태로 체포되거나 유죄 판결을 받은 여성들의 전과 기록을 말소하는 자동 사면이 시행됐다.",
       "descriptionTranslations": {
-        "en": "A study estimated that 403 large data centres in the United States emitted about 25.7 million metric tons of carbon dioxide. It found that this was roughly equivalent to Denmark’s annual emissions."
+        "en": "Automatic pardons have come into force in England and Wales, wiping the criminal records of women arrested or convicted for having illegal abortions."
       },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/16/datacenter-emissions-study",
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqjd7n37r2r9o?at_medium=RSS&at_campaign=rss",
       "topicIds": [
-        "climateEnvironment"
+        "medicineHealth"
       ],
       "news": {
-        "status": "developing",
+        "status": "resolved",
         "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/16/datacenter-emissions-study"
+          "https://www.bbc.co.uk/news/articles/cqjd7n37r2r9o?at_medium=RSS&at_campaign=rss"
         ],
-        "firstPublishedAt": "2026-11-16T16:00:47.000Z",
-        "lastObservedAt": "2026-11-16T22:52:03.403Z"
+        "firstPublishedAt": "2026-11-16T11:45:33.000Z",
+        "lastObservedAt": "2026-11-17T09:08:15.532Z"
       }
     },
     {
@@ -1256,36 +1344,6 @@
       }
     },
     {
-      "id": "news-701a9c14f2b820a10b0efd93",
-      "title": "인도네시아 부통령, 자격·학력 논란 속 사임 제의",
-      "titleTranslations": {
-        "en": "Indonesia's vice‑president offers resignation amid eligibility and academic credential questions"
-      },
-      "startAt": "2026-11-12T14:22:50.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "라카(Raka) 부통령이 해외 학력 서류의 적격성 문제가 제기된 가운데 사임을 제의했다. 헌법재판소와 대법원은 제출된 서류가 선거 요건을 충족하지 못한다고 판결했다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Vice‑President Raka has offered his resignation amid questions about the eligibility of documents related to his overseas education. Reports say the Constitutional Court and the Supreme Court ruled the submitted documents did not meet election requirements."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/12/g-s1-153190/indonesias-vp-resigns-as-his-eligibility-and-academic-credentials-are-questioned",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility",
-          "https://www.npr.org/2026/11/12/g-s1-153190/indonesias-vp-resigns-as-his-eligibility-and-academic-credentials-are-questioned"
-        ],
-        "firstPublishedAt": "2026-11-10T14:01:14.000Z",
-        "lastObservedAt": "2026-11-13T07:52:55.904Z"
-      }
-    },
-    {
       "id": "news-53a544a507e8e47cd5950cde",
       "title": "바바라 브로콜리, 영화학교 신임 총장에 — 데이비드 푸트냄 후임으로 내년 2월 취임 예정",
       "titleTranslations": {
@@ -1567,36 +1625,6 @@
           "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
         ],
         "firstPublishedAt": "2026-11-11T15:00:15.000Z",
-        "lastObservedAt": "2026-11-12T08:14:20.823Z"
-      }
-    },
-    {
-      "id": "news-44a304747829d4123fa12be4",
-      "title": "혈액 속 분자 신호로 난소암 초기 위험 포착 가능성 발견",
-      "titleTranslations": {
-        "en": "Molecular signal in blood helps detect early risk for ovarian cancer, study finds"
-      },
-      "startAt": "2026-11-11T13:05:57.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "연구진은 혈액에서 발견되는 분자 신호가 난소암으로 발전하기 전의 미세 변화를 식별하는 데 도움이 된다고 보고했다. 해당 연구는 난소암이 진행된 뒤에 발견되는 경우가 많은 점을 고려할 때 조기 진단의 잠재적 획기적 진전으로 설명됐으며, 논문은 Nature Medicine에 게재되었다고 보도됐다.",
-      "descriptionTranslations": {
-        "en": "Researchers report that a molecular signal in the blood can identify microscopic changes that precede ovarian cancer, a potential diagnostic breakthrough given the disease is often detected after it has spread. The study is reported to have been published in Nature Medicine."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood"
-        ],
-        "firstPublishedAt": "2026-11-11T13:05:57.000Z",
         "lastObservedAt": "2026-11-12T08:14:20.823Z"
       }
     },
