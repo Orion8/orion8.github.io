@@ -1,0 +1,43 @@
+name: Monitor MomentAtlas automation
+on:
+  schedule:
+    - cron: '19,49 * * * *'
+  workflow_run:
+    workflows: ['Collect MomentAtlas news']
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      self_test:
+        description: 'Open and close one clearly marked synthetic notification issue'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+  actions: read
+  issues: write
+concurrency:
+  group: momentatlas-operations-monitor
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # Always trusted main, not workflow_run head code or downloaded artifacts.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test tools/operations/*.test.mjs
+      - name: Check expected slots and reconcile incident issues
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          MOMENTATLAS_MONITOR_TOKEN: ${{ secrets.MOMENTATLAS_MONITOR_TOKEN }}
+          TIME_MAP_MONITOR_FROM: ${{ vars.TIME_MAP_MONITOR_FROM }}
+          TIME_MAP_MONITOR_PAUSED_UNTIL: ${{ vars.TIME_MAP_MONITOR_PAUSED_UNTIL }}
+          MONITOR_SELF_TEST: ${{ inputs.self_test && '1' || '0' }}
+        run: node tools/operations/monitor.mjs

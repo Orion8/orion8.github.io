@@ -4,11 +4,15 @@ on:
   push:
     paths:
       - 'tools/news/**'
+      - 'tools/operations/**'
+      - '.github/workflows/monitor-time-map-automation.yml'
       - '.github/workflows/collect-time-map-news.yml'
       - '.github/workflows/verify-time-map-news.yml'
   pull_request:
     paths:
       - 'tools/news/**'
+      - 'tools/operations/**'
+      - '.github/workflows/monitor-time-map-automation.yml'
       - '.github/workflows/collect-time-map-news.yml'
       - '.github/workflows/verify-time-map-news.yml'
   workflow_dispatch:
@@ -29,4 +33,5 @@ jobs:
           node-version: 22
       # Synthetic fixtures only. No API secret, paid request or publication.
       - run: node --test tools/news/*.test.mjs
+      - run: node --test tools/operations/*.test.mjs
       - run: node --check tools/news/collect_news.mjs
