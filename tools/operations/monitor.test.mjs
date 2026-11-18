@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFileSync} from 'node:fs';
-import {pacificSlots,newsCheck,databaseChecks,reconcile,githubClient} from './monitor.mjs';
+import {pacificSlots,newsCheck,databaseChecks,reconcile,githubClient,notificationSelfTest} from './monitor.mjs';
 const at=Date.parse;
 test('Pacific local 06/18 slots follow winter, summer and both DST transitions',()=>{
   for(const [date,expected] of [
@@ -89,6 +89,18 @@ test('unrelated issues are untouched and arbitrary provider/credential text cann
 test('GitHub errors never include provider body or supplied key',async()=>{
   const api=githubClient('synthetic-secret',async()=>Response.json({message:'synthetic-secret'},{status:403}));
   await assert.rejects(api('GET','/issues'),e=>e.message==='github_api');
+});
+test('self-test closes by returned ID even when list indexing never finds the new issue',async()=>{
+  let stored;
+  const api=async(method,route,body)=>{
+    if(method==='GET' && route.includes('?'))return [];
+    if(method==='POST' && route==='/issues'){stored={number:123,state:'open',...body};return structuredClone(stored);}
+    if(method==='PATCH'){Object.assign(stored,body);return stored;}
+    if(method==='GET')return structuredClone(stored);
+    return {};
+  };
+  await notificationSelfTest(api,Date.now());
+  assert.equal(stored.state,'closed');
 });
 test('trusted-main workflow has limited permissions and tests before reading secrets',()=>{
   const workflow=readFileSync(new URL('../../.github/workflows/monitor-time-map-automation.yml',import.meta.url),'utf8');

@@ -119,6 +119,23 @@ export async function reconcile(api,checks,now) {
   return handled;
 }
 
+export async function notificationSelfTest(api,now){
+  let known;
+  try{known=await reconcile(api,[result('self_test','alert','synthetic_notification_test')],now);}
+  finally{
+    // Listing/search indexing may lag a create; returned issue ID is authoritative.
+    if(Number.isSafeInteger(known?.self_test)){
+      await api('POST',`/issues/${known.self_test}/comments`,{body:`Synthetic notification test finished at ${iso(Date.now())}. No real incident.`});
+      await api('PATCH',`/issues/${known.self_test}`,{state:'closed',state_reason:'completed'});
+      const confirmed=await api('GET',`/issues/${known.self_test}`);
+      if(confirmed.state!=='closed')throw new Error('self_test_cleanup');
+    }else{
+      await reconcile(api,[result('self_test','ok','synthetic_test_finished')],Date.now());
+      throw new Error('self_test_cleanup_unverified');
+    }
+  }
+}
+
 async function main(){
   const now=Date.now();const api=githubClient(process.env.GITHUB_TOKEN);
   let checks=[];
@@ -153,20 +170,7 @@ async function main(){
   // Label creation is idempotent via lookup. It requires only issues:write.
   try {await api('GET',`/labels/${label}`);}catch{await api('POST','/labels',{name:label,color:'d97706',description:'MomentAtlas automation incidents (sanitized)'});}
   await reconcile(api,checks,now);
-  if(process.env.MONITOR_SELF_TEST==='1'){
-    let known;
-    try{known=await reconcile(api,[result('self_test','alert','synthetic_notification_test')],now);}
-    finally{
-      // Issue-list indexing may lag a successful create. Use its returned ID,
-      // rather than assuming a second list call can already find the new issue.
-      if(Number.isSafeInteger(known?.self_test)){
-        await api('POST',`/issues/${known.self_test}/comments`,{body:`Synthetic notification test finished at ${iso(Date.now())}. No real incident.`});
-        await api('PATCH',`/issues/${known.self_test}`,{state:'closed',state_reason:'completed'});
-        const confirmed=await api('GET',`/issues/${known.self_test}`);
-        if(confirmed.state!=='closed')throw new Error('self_test_cleanup');
-      }else await reconcile(api,[result('self_test','ok','synthetic_test_finished')],Date.now());
-    }
-  }
+  if(process.env.MONITOR_SELF_TEST==='1')await notificationSelfTest(api,now);
   const summary=checks.map(({key,state,code,due})=>({key,state,code,...(due?{due}:{})}));
   console.log(JSON.stringify({observedAt:iso(now),checks:summary}));
   if(process.env.GITHUB_STEP_SUMMARY)await appendFile(process.env.GITHUB_STEP_SUMMARY,`## MomentAtlas automation\n\n\`\`\`json\n${JSON.stringify(summary,null,2)}\n\`\`\`\n`);
