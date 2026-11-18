@@ -1,8 +1,95 @@
 {
-  "catalogVersion": "0.0.229",
-  "updatedAt": "2026-11-18T09:50:49.289Z",
+  "catalogVersion": "0.0.230",
+  "updatedAt": "2026-11-18T21:44:19.164Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-f62367ceb07664537841f7cf",
+      "title": "헤그세스, 베네수엘라와 군사 협력 발표",
+      "titleTranslations": {
+        "en": "Hegseth announces military partnership with Venezuela"
+      },
+      "startAt": "2026-11-18T21:01:05.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "피트 헤그세스 미국 국방장관은 베네수엘라 방문 중 양국 군의 공동 훈련과 정보 공유를 포함하는 군사 협력 계획을 발표했다.",
+      "descriptionTranslations": {
+        "en": "US Defence Secretary Pete Hegseth announced during a visit to Venezuela a military partnership that will include joint training and intelligence sharing between the two countries’ militaries."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-11-18T21:01:05.000Z",
+        "lastObservedAt": "2026-11-18T21:44:19.164Z"
+      }
+    },
+    {
+      "id": "news-c3b22e300a070dce905a7a3e",
+      "title": "폭우로 사우스플로리다 곳곳 침수…학교·도로·병원·공항 차질",
+      "titleTranslations": {
+        "en": "Torrential rain floods parts of South Florida, disrupting schools, roads, hospitals and airports"
+      },
+      "startAt": "2026-11-18T20:29:18.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "집중호우로 사우스플로리다의 광범위한 지역이 침수됐다. 일부 동네가 물에 잠긴 가운데 학교와 도로, 병원, 공항 운영에도 차질이 이어지고 있다.",
+      "descriptionTranslations": {
+        "en": "Torrential rain caused widespread flooding in South Florida. Entire neighbourhoods remained under water, disrupting schools, roads, hospitals and airports."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-18T20:29:18.000Z",
+        "lastObservedAt": "2026-11-18T21:44:19.164Z"
+      }
+    },
+    {
+      "id": "news-7b10e9232fe65cdcc88d8c82",
+      "title": "보이저 1호, 지구에서 1광일 거리 도달 앞두고 기념 조명",
+      "titleTranslations": {
+        "en": "Empire State Building lit to mark Voyager 1’s approach to one light-day from Earth"
+      },
+      "startAt": "2026-11-18T17:50:26.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "보이저 1호가 지구에서 1광일 거리(빛이 24시간 이동하는 거리)에 도달할 무렵, 엠파이어 스테이트 빌딩이 이를 기념해 금빛으로 조명됐다. 이 거리는 인간이 만든 물체 가운데 도달한 사례가 없는 거리다.",
+      "descriptionTranslations": {
+        "en": "The Empire State Building was illuminated in gold to mark Voyager 1 as it approached a distance of one light-day from Earth—the distance light travels in 24 hours. No other human-made object has reached that distance."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+          "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/"
+        ],
+        "firstPublishedAt": "2026-11-10T19:22:45.000Z",
+        "lastObservedAt": "2026-11-18T21:44:19.164Z"
+      }
+    },
     {
       "id": "news-62f9b6fed5eb3d02235e264d",
       "title": "미얀마 광산발 비소 오염에 태국 메콩강 마을 식수 비상",
@@ -176,6 +263,39 @@
       }
     },
     {
+      "id": "news-de0c2eb84537cc7591e9548e",
+      "title": "엔비디아 이사회, 젠슨 황 CEO 복귀 계획 없다고 밝혀",
+      "titleTranslations": {
+        "en": "Nvidia board says it does not intend to reinstate Jensen Huang as CEO"
+      },
+      "startAt": "2026-11-17T23:32:16.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "엔비디아 이사회 의장은 젠슨 황을 CEO로 복귀시킬 계획이 없다고 밝혔다. 황의 퇴진 이후 첫 분기 실적에서 회사는 매출 1,158억4천만 달러를 발표해 전년 동기보다 두 배로 늘었다.",
+      "descriptionTranslations": {
+        "en": "Nvidia’s board chairman said the company does not intend to reinstate Jensen Huang as CEO. In its first quarterly earnings report since Huang’s ouster, the company reported revenue of $115.84 billion, double the figure from the same period a year earlier."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
+          "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+          "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
+          "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang"
+        ],
+        "firstPublishedAt": "2026-11-13T12:07:12.000Z",
+        "lastObservedAt": "2026-11-18T21:44:19.164Z"
+      }
+    },
+    {
       "id": "news-09543f7a2b137148c5439043",
       "title": "우크라이나 공격 뒤 크림대교 일부 붕괴",
       "titleTranslations": {
@@ -200,38 +320,6 @@
           "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-17T21:24:35.000Z",
-        "lastObservedAt": "2026-11-17T21:43:55.038Z"
-      }
-    },
-    {
-      "id": "news-de0c2eb84537cc7591e9548e",
-      "title": "젠슨 황, 엔비디아 CEO 복귀 의사 밝혀",
-      "titleTranslations": {
-        "en": "Jensen Huang says he is willing to return as Nvidia CEO"
-      },
-      "startAt": "2026-11-17T17:35:26.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "사임한 젠슨 황은 이사회가 복귀가 회사와 주주, 직원, 미국에 가장 이롭다고 판단한다면 CEO로 돌아오겠다고 밝혔다. 이번 발언은 황을 둘러싼 의혹과 회사의 조사에 관한 기존 보도에 이어 나온 것이다.",
-      "descriptionTranslations": {
-        "en": "Resigned Nvidia chief Jensen Huang said he would return as CEO if the board decided that his return was in the best interests of the company, its shareholders, its employees and the United States. His remarks follow earlier reporting on allegations involving Huang and the company’s investigation."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
-          "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
-          "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement"
-        ],
-        "firstPublishedAt": "2026-11-13T12:07:12.000Z",
         "lastObservedAt": "2026-11-17T21:43:55.038Z"
       }
     },
@@ -1108,35 +1196,6 @@
       }
     },
     {
-      "id": "news-bc814ae71b02d54fd1965891",
-      "title": "트럼프의 이란 전략: ‘현상 유지’로 전환",
-      "titleTranslations": {
-        "en": "What’s Trump’s strategy with Iran? To keep things as they are"
-      },
-      "startAt": "2026-11-13T19:02:04.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "보도에 따르면 트럼프는 걸프 아랍 동맹국들이 원하는 것이 '현상 유지(status quo)'라며, 이란과의 갈등이 교착상태에 빠지고 중간선거 영향으로 공격 위협에서 경제적 압박으로 전략을 전환하고 있다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Reports say Trump describes ‘status quo’ as what Gulf Arab allies want, and that with the Iran war at a stalemate and midterm pressures, the strategy has shifted from threats of attacks to economic pressure."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are"
-        ],
-        "firstPublishedAt": "2026-11-13T19:02:04.000Z",
-        "lastObservedAt": "2026-11-13T20:28:54.816Z"
-      }
-    },
-    {
       "id": "news-5b6d6629cd9f5d7a53a30ee2",
       "title": "유럽송컨테스트(Eurovision), 아시아로 진출 — 첫 아시아 무대 준비 가속",
       "titleTranslations": {
@@ -1972,34 +2031,6 @@
       }
     },
     {
-      "id": "news-7b10e9232fe65cdcc88d8c82",
-      "title": "보이저 1호, 지구로부터 ‘1광일(24시간 빛 이동 거리)’ 도달 기념 행사 초대",
-      "titleTranslations": {
-        "en": "NASA invites media and public to join Voyager 1 ‘one‑light‑day’ activities"
-      },
-      "startAt": "2026-11-10T19:22:45.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "NASA 보도에 따르면 1977년 발사된 보이저 1호가 11월 18일 지구로부터 1광일(약 160억 마일/259억 km)을 이동하는 시점을 맞아 언론·대중을 위한 기념 활동에 초대했다. 보이저 1호는 현재까지 인류가 만든 가장 먼 물체이며 지구에서 보내는 빛은 도달에 24시간이 걸린다.",
-      "descriptionTranslations": {
-        "en": "NASA says Voyager 1, launched in 1977, will on 18 November have traveled one light‑day from Earth — more than 16 billion miles (about 25.9 billion km). The agency invited media and the public to join activities marking the milestone; Voyager 1 remains the most distant human‑made object and light from Earth takes 24 hours to reach it."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
-        ],
-        "firstPublishedAt": "2026-11-10T19:22:45.000Z",
-        "lastObservedAt": "2026-11-11T07:44:11.041Z"
-      }
-    },
-    {
       "id": "news-817e90b81533a4ac84a59365",
       "title": "지미 카터 가족 농장 보존단체에 인수 — 2027년 공개, 2028년 주에 이전 계획",
       "titleTranslations": {
@@ -2565,36 +2596,6 @@
         ],
         "firstPublishedAt": "2026-11-05T14:51:45.000Z",
         "lastObservedAt": "2026-11-06T07:54:34.001Z"
-      }
-    },
-    {
-      "id": "news-63b80da325130f73a469effc",
-      "title": "엘니뇨 영향으로 동아시아에 잇단 강한 태풍 — ‘평소보다 거친’ 계절적 이상 현상",
-      "titleTranslations": {
-        "en": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'"
-      },
-      "startAt": "2026-11-04T23:12:47.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "보도는 엘니뇨 현상으로 태평양이 평소보다 이례적으로 뜨거워지면서 동아시아에 잇단 강한 태풍과 이상기후가 발생해 평상시보다 훨씬 거친 날씨를 초래했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say El Niño has heated the Pacific unusually, contributing to a spate of strong typhoons pounding East Asia and producing weather that has been unusually severe even for typhoon‑prone countries."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-04T23:12:47.000Z",
-        "lastObservedAt": "2026-11-05T20:39:09.503Z"
       }
     },
     {
