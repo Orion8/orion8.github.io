@@ -1,8 +1,180 @@
 {
-  "catalogVersion": "0.0.228",
-  "updatedAt": "2026-11-17T21:43:55.038Z",
+  "catalogVersion": "0.0.229",
+  "updatedAt": "2026-11-18T09:50:49.289Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-62f9b6fed5eb3d02235e264d",
+      "title": "미얀마 광산발 비소 오염에 태국 메콩강 마을 식수 비상",
+      "titleTranslations": {
+        "en": "Myanmar-linked arsenic pollution triggers clean-water scramble in Thai Mekong villages"
+      },
+      "startAt": "2026-11-18T09:10:21.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "미얀마 광산에서 나온 비소가 메콩강을 오염시키자 태국 당국이 마을 주민들에게 안전한 물을 공급하기 위해 대응하고 있다.",
+      "descriptionTranslations": {
+        "en": "After arsenic from mines in Myanmar contaminated the Mekong River, Thai authorities are working to provide safe water to villagers."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-11-18T09:10:21.000Z",
+        "lastObservedAt": "2026-11-18T09:50:49.289Z"
+      }
+    },
+    {
+      "id": "news-68393aec5555647665a875a3",
+      "title": "휘발유·경유 가격 상승에 영국 물가상승률 1년 만에 최고",
+      "titleTranslations": {
+        "en": "Petrol and diesel prices push UK inflation to a one-year high"
+      },
+      "startAt": "2026-11-18T08:45:38.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "휘발유와 경유 가격 상승으로 영국 물가상승률이 1년 만에 최고 수준에 이르렀다. 새 전망에 따르면 1월 가계 에너지 요금도 26% 오를 것으로 예상돼 물가상승률이 더 높아질 가능성이 있다.",
+      "descriptionTranslations": {
+        "en": "Rising petrol and diesel prices have pushed UK inflation to its highest level in a year. Fresh forecasts also indicate household energy bills will rise by 26% in January, which could drive inflation higher."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-18T08:45:38.000Z",
+        "lastObservedAt": "2026-11-18T09:50:49.289Z"
+      }
+    },
+    {
+      "id": "news-c7aba06582cfe1a5082a0f4b",
+      "title": "미국 중간선거 개표 2주 만에 민주당, 알래스카 상원의원 선거 승리 확정",
+      "titleTranslations": {
+        "en": "Democrats win Alaska Senate race two weeks after midterm counting began"
+      },
+      "startAt": "2026-11-18T07:00:25.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "메리 펠톨라의 승리가 확정되면서 민주당은 중간선거 상원 선거에서 공화당을 크게 앞선 결과를 거뒀다.",
+      "descriptionTranslations": {
+        "en": "Mary Peltola’s victory was confirmed, capping the Democrats’ rout of Republicans in the midterm Senate elections."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-18T07:00:25.000Z",
+        "lastObservedAt": "2026-11-18T09:50:49.289Z"
+      }
+    },
+    {
+      "id": "news-a731c2813edc10b09e5f874c",
+      "title": "비아그라 모방 약물이 알츠하이머 인지 저하 늦출 가능성…연구 결과",
+      "titleTranslations": {
+        "en": "Viagra-mimicking pill may slow Alzheimer’s cognitive decline, study suggests"
+      },
+      "startAt": "2026-11-18T05:00:33.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "전 세계에서 진행된 연구에 따르면 혈관을 이완하고 뇌 혈류를 늘리는 비아그라 모방 약물이 알츠하이머 환자의 인지 저하를 거의 3분의 1 늦출 수 있는 것으로 나타났다. 연구진은 치료 효과를 시사하는 결과를 보고했으며, 현재 알츠하이머병에는 완치법이 없다.",
+      "descriptionTranslations": {
+        "en": "A global study suggests that a pill mimicking Viagra, which relaxes blood vessels and increases blood flow to the brain, may slow cognitive decline in people with Alzheimer’s by almost a third. The findings point to a possible treatment effect; there is currently no cure for Alzheimer’s disease."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/nov/18/pill-mimics-viagra-can-slow-alzheimers-progression-by-third-study",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/nov/18/pill-mimics-viagra-can-slow-alzheimers-progression-by-third-study"
+        ],
+        "firstPublishedAt": "2026-11-18T05:00:33.000Z",
+        "lastObservedAt": "2026-11-18T09:50:49.289Z"
+      }
+    },
+    {
+      "id": "news-3cdbbca1d513953f9051fade",
+      "title": "영국, 소셜미디어 금지가 청소년 정신건강에 미치는 영향 조사",
+      "titleTranslations": {
+        "en": "UK study to examine how a social media ban affects teenagers’ mental health"
+      },
+      "startAt": "2026-11-18T00:49:31.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "영국의 최대 규모 연구에서 10개 연구팀이 소셜미디어 없이 지내는 청소년들의 상태를 조사한다. 연구는 소셜미디어 금지가 청소년 정신건강에 미치는 영향을 살펴볼 예정이다.",
+      "descriptionTranslations": {
+        "en": "In the largest British study of its kind, ten research teams will examine how teenagers are coping without social media. The study will investigate the effects of a social media ban on young people’s mental health."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-18T00:49:31.000Z",
+        "lastObservedAt": "2026-11-18T09:50:49.289Z"
+      }
+    },
+    {
+      "id": "news-0c76433c2bc5ed53ca9ff3c7",
+      "title": "파키스탄 태양광 급증…전력 생산 비중 1%에서 28%로",
+      "titleTranslations": {
+        "en": "Pakistan’s solar surge raises solar power’s share from 1% to 28%"
+      },
+      "startAt": "2026-11-17T23:34:56.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "가정과 사업체의 자체 태양광 패널 설치가 늘면서 파키스탄 전력에서 태양광이 차지하는 비중이 1%에서 28%로 높아졌다. 급격한 보급으로 국가 전력망이 변화를 따라가지 못하고 있다.",
+      "descriptionTranslations": {
+        "en": "As more people install their own solar panels, solar power’s share of Pakistan’s electricity has risen from 1% to 28%. The rapid uptake is outpacing the national grid’s ability to keep up."
+      },
+      "sourceName": "BBC News Science & Environment",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-17T23:34:56.000Z",
+        "lastObservedAt": "2026-11-18T09:50:49.289Z"
+      }
+    },
     {
       "id": "news-09543f7a2b137148c5439043",
       "title": "우크라이나 공격 뒤 크림대교 일부 붕괴",
@@ -1050,34 +1222,6 @@
       }
     },
     {
-      "id": "news-b13e18c3f67ad0a38b0ba7d5",
-      "title": "타협 없는 푸틴, 우크라이나 평화 요구 강화",
-      "titleTranslations": {
-        "en": "Uncompromising Putin ups demands for peace with Ukraine"
-      },
-      "startAt": "2026-11-13T16:40:31.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "BBC 러시아 담당 편집자는 유럽 안보 문제가 주요 논의로 포함된 자체를 모스크바의 승리로 본다며, 푸틴이 우크라이나와의 평화 조건을 강화하고 있다는 보도가 제기되었다.",
-      "descriptionTranslations": {
-        "en": "BBC Russia Editor Steve Rosenberg says the inclusion of European security in talks is seen in Moscow as a victory, and reports indicate Putin has raised uncompromising demands for peace with Ukraine."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-13T16:40:31.000Z",
-        "lastObservedAt": "2026-11-13T20:28:54.816Z"
-      }
-    },
-    {
       "id": "news-0d8ff19bcb0ddd77978b684e",
       "title": "NASA 찬드라 관측, 거대 불안정성 별의 반복 폭발 원인 규명 (업데이트)",
       "titleTranslations": {
@@ -1656,34 +1800,6 @@
         ],
         "firstPublishedAt": "2026-11-11T18:16:40.000Z",
         "lastObservedAt": "2026-11-11T20:11:16.975Z"
-      }
-    },
-    {
-      "id": "news-833534b672b8daa32acea1a5",
-      "title": "딥마인드, AlphaGenome 2 공개 — DNA 서열 변이가 세포·질병에 미치는 영향 예측",
-      "titleTranslations": {
-        "en": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"
-      },
-      "startAt": "2026-11-11T15:00:15.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "딥마인드는 DNA 서열과 그 변이들이 특정 인간 세포 유형과 질병에 미치는 영향을 예측하는 모델 'AlphaGenome 2'를 공개했다고 밝혔다. 보도는 이 기술이 유전체학과 질병 이해에 기여할 가능성이 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "DeepMind has announced 'AlphaGenome 2', a model aimed at predicting how DNA sequences and their variations affect specific human cell types and disease. Coverage says the tool could advance understanding in genomics and disease."
-      },
-      "sourceName": "Google DeepMind",
-      "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "topicIds": [
-        "aiHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
-        ],
-        "firstPublishedAt": "2026-11-11T15:00:15.000Z",
-        "lastObservedAt": "2026-11-12T08:14:20.823Z"
       }
     },
     {
@@ -2394,34 +2510,6 @@
       }
     },
     {
-      "id": "news-c29fd770c68e8af632a0a2e3",
-      "title": "콩고민주공화국에서 에볼라에 감염된 영국인, 치료 위해 영국 도착",
-      "titleTranslations": {
-        "en": "British man infected with Ebola in DR Congo arrives in UK for treatment"
-      },
-      "startAt": "2026-11-05T19:49:14.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "보도에 따르면 콩고민주공화국에서 에볼라에 감염된 한 영국인이 치료를 받기 위해 영국에 도착했으며, 영국 정부는 이와 같은 사례에 대한 절차가 확립돼 있고 공중 보건 위험은 낮다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Reports say a British man infected with Ebola in the Democratic Republic of Congo has arrived in the UK for treatment. The UK government said established procedures exist for such cases and the risk to the public remains low."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqj34d3l0zlmo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqj34d3l0zlmo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-05T19:49:14.000Z",
-        "lastObservedAt": "2026-11-05T20:39:09.503Z"
-      }
-    },
-    {
       "id": "news-987bf29fcdd669542b91c707",
       "title": "K‑팝 그룹 뉴진스 계약서에 ‘수면·자유 선택’ 권리 포기 조항 포함 보도",
       "titleTranslations": {
@@ -2598,34 +2686,6 @@
       }
     },
     {
-      "id": "news-e9bfba10ec085dbed72d2bc5",
-      "title": "북인도양 첫 이름난 폭풍 'Arnab', 안드라프라데시 해안 상륙",
-      "titleTranslations": {
-        "en": "First named North Indian Ocean storm 'Arnab' makes landfall in Andhra Pradesh"
-      },
-      "startAt": "2026-10-29T04:01:00.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "보도는 북인도양 사이클론 시즌의 첫 이름난 폭풍인 'Arnab'이 안드라프라데시 해안을 따라 상륙했다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say Arnab, the first named storm of the North Indian Ocean cyclone season, made landfall along the coast of Andhra Pradesh."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/"
-        ],
-        "firstPublishedAt": "2026-10-29T04:01:00.000Z",
-        "lastObservedAt": "2026-10-29T07:01:23.964Z"
-      }
-    },
-    {
       "id": "news-9679049c03ff86245cab16f4",
       "title": "미 군, 스페이스X에 제한적 궤도 추적 데이터 접근 허용 — 산업·안보 우려 제기",
       "titleTranslations": {
@@ -2653,36 +2713,6 @@
         ],
         "firstPublishedAt": "2026-10-25T12:00:05.000Z",
         "lastObservedAt": "2026-10-26T06:06:12.045Z"
-      }
-    },
-    {
-      "id": "news-5edf6b0b57bd4a5472eb4c75",
-      "title": "염증성 장질환, 진단 10년 전 경고 신호 포착 가능성 연구",
-      "titleTranslations": {
-        "en": "Warning signs could predict inflammatory bowel disease a decade before diagnosis"
-      },
-      "startAt": "2026-10-18T22:01:10.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "연구자들은 혈액 속 항체 패턴이 크론병과 궤양성대장염 같은 염증성 장질환(IBD)의 발병을 진단보다 최대 10년 앞서 예측할 수 있음을 시사하는 결과를 발표했다고 보도됐다. 보도는 이 발견이 조기 발견과 잠재적 예방의 길을 열 수 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Researchers report that patterns of antibodies in blood could predict onset of inflammatory bowel disease (IBD) up to a decade before diagnosis, coverage says. The reporting notes the finding could enable earlier detection and potentially prevention."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/oct/18/research-predict-inflammatory-bowel-disease-decade-before-diagnosis",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/oct/18/research-predict-inflammatory-bowel-disease-decade-before-diagnosis"
-        ],
-        "firstPublishedAt": "2026-10-18T22:01:10.000Z",
-        "lastObservedAt": "2026-10-19T19:17:31.888Z"
       }
     }
   ]
