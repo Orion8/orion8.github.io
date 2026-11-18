@@ -4,12 +4,15 @@ import path from 'node:path';
 
 const repo='Orion8/orion8.github.io';
 const label='momentatlas-ops';
-const keys=new Set(['news','retention','weather_cache','database','configuration','self_test']);
+const jobKeys=['retention','weather_cache','weather_metrics_cleanup'];
+const keys=new Set(['news',...jobKeys,'weather_service','database','configuration','self_test']);
 const codes=new Set(['workflow_inactive','schedule_changed','attempt_failed','first_slot_or_grace',
   'scheduled_attempt_missing','attempt_stalled','attempt_running','scheduled_success','cron_configuration',
   'missing_monitor_registry','planned_maintenance','missing_job','job_disabled','audit_missing',
   'configuration_valid','news_observation_unavailable','endpoint_available','database_observation_unavailable',
-  'synthetic_notification_test','synthetic_test_finished','monitor_auth_failed']);
+  'synthetic_notification_test','synthetic_test_finished','monitor_auth_failed',
+  'weather_observation_unavailable','weather_metrics_disabled','weather_warming_up',
+  'weather_low_traffic','weather_repeated_unavailable','weather_repeated_rate_limit','weather_healthy']);
 const iso=(t)=>new Date(t).toISOString();
 const time=(v)=>typeof v==='string' && Number.isFinite(Date.parse(v))?Date.parse(v):null;
 const result=(key,state,code,extra={})=>({key,state,code,...extra});
@@ -53,9 +56,9 @@ export function newsCheck({runs,from,now,workflowActive=true,scheduleMatches=tru
 export function databaseChecks(snapshot,now) {
   if(snapshot?.schema_version!==1 || !Array.isArray(snapshot.jobs) || time(snapshot.observed_at)===null || Math.abs(now-time(snapshot.observed_at))>5*60000)throw new Error('database_schema');
   if(!['GMT','UTC','Etc/UTC'].includes(snapshot.cron_timezone) || snapshot.cron_enabled!==true) {
-    return ['retention','weather_cache'].map(k=>result(k,'alert','cron_configuration'));
+    return jobKeys.map(k=>result(k,'alert','cron_configuration'));
   }
-  return ['retention','weather_cache'].map(key=>{
+  return jobKeys.map(key=>{
     const j=snapshot.jobs.find(j=>j.key===key);
     if(!j || time(j.first_due)===null)return result(key,'alert','missing_monitor_registry');
     if(time(j.maintenance_until)>now)return result(key,'paused','planned_maintenance');
@@ -72,6 +75,29 @@ export function databaseChecks(snapshot,now) {
     if(key==='retention' && j.audit_matches!==true)return result(key,'alert','audit_missing');
     return result(key,'ok','scheduled_success');
   });
+}
+
+export function weatherCheck(snapshot,now) {
+  const w=snapshot?.weather;
+  if(!w || w.schema_version!==1 || time(snapshot.observed_at)===null || Math.abs(now-time(snapshot.observed_at))>5*60000 ||
+    !Array.isArray(w.windows) || w.windows.length!==2 || time(w.enabled_at)===null)throw new Error('weather_schema');
+  if(w.enabled!==true)return result('weather_service','alert','weather_metrics_disabled');
+  const windows=[...w.windows].sort((a,b)=>time(a.start)-time(b.start));
+  const end=Math.floor(now/(30*60000))*30*60000;
+  for(const [i,v] of windows.entries()) {
+    if(time(v.start)!==end-(2-i)*30*60000 || time(v.end)!==end-(1-i)*30*60000 ||
+      !['requests','cached','upstream','limited','busy','unavailable'].every(k=>Number.isSafeInteger(v[k]) && v[k]>=0) ||
+      v.cached+v.limited+v.busy+v.unavailable>v.requests || v.upstream>v.requests ||
+      v.cached+v.upstream+v.limited+v.busy+v.unavailable<v.requests)throw new Error('weather_schema');
+  }
+  // Require two complete post-install windows and a minimum sample in EACH.
+  if(time(w.enabled_at)>time(windows[0].start))return result('weather_service','pending','weather_warming_up');
+  if(windows.some(v=>v.requests<5))return result('weather_service','pending','weather_low_traffic');
+  if(windows.every(v=>v.unavailable/v.requests>=0.2))return result('weather_service','alert','weather_repeated_unavailable');
+  if(windows.every(v=>v.requests>=10 && (v.limited+v.busy)/v.requests>=0.5))return result('weather_service','alert','weather_repeated_rate_limit');
+  // Mixed or one-window problems are not proof of recovery.
+  if(windows.some(v=>v.unavailable/v.requests>=0.2 || (v.limited+v.busy)/v.requests>=0.5))return result('weather_service','pending','attempt_running');
+  return result('weather_service','ok','weather_healthy');
 }
 
 export function githubClient(token,fetchImpl=fetch) {
@@ -165,7 +191,19 @@ async function main(){
     const r=await fetch('https://mnuyvyrhctsuwagtgtwl.supabase.co/rest/v1/rpc/momentatlas_monitor_health',{
       method:'POST',signal:AbortSignal.timeout(15000),headers:{apikey:'sb_publishable_a4ee8MA2tz_ZFUlLIH9MKQ_i15u2Mc4','Content-Type':'application/json'},body:JSON.stringify({p_token:token})});
     if(!r.ok){if([401,403].includes(r.status))databaseError='monitor_auth_failed';await r.body?.cancel();throw new Error('database_api');}
-    checks.push(...databaseChecks(await r.json(),now),result('database','ok','endpoint_available'));
+    const snapshot=await r.json();
+    checks.push(...databaseChecks(snapshot,now),result('database','ok','endpoint_available'));
+    try {checks.push(weatherCheck(snapshot,now));}
+    catch {checks.push(result('weather_service','alert','weather_observation_unavailable'));}
+    // Sanitized aggregate counts only; never raw RPC output.
+    const totals=snapshot.weather?.last_24h;
+    const fields=['requests','cached','upstream','limited','busy','unavailable'];
+    if(totals && fields.every(k=>Number.isSafeInteger(totals[k]) && totals[k]>=0)){
+      const counts=Object.fromEntries(fields.map(k=>[k,totals[k]]));
+      const report={...counts,cacheHitPercent:totals.requests?Math.round(1000*totals.cached/totals.requests)/10:null};
+      console.log(JSON.stringify({weatherLast24h:report}));
+      if(process.env.GITHUB_STEP_SUMMARY)await appendFile(process.env.GITHUB_STEP_SUMMARY,`## Weather (last 24h, observed completions)\n\n\`\`\`json\n${JSON.stringify(report,null,2)}\n\`\`\`\n`);
+    }
   }catch {checks.push(result('database','alert',databaseError));}
   // Label creation is idempotent via lookup. It requires only issues:write.
   try {await api('GET',`/labels/${label}`);}catch{await api('POST','/labels',{name:label,color:'d97706',description:'MomentAtlas automation incidents (sanitized)'});}

@@ -1,8 +1,33 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFileSync} from 'node:fs';
-import {pacificSlots,newsCheck,databaseChecks,reconcile,githubClient,notificationSelfTest} from './monitor.mjs';
+import {pacificSlots,newsCheck,databaseChecks,weatherCheck,reconcile,githubClient,notificationSelfTest} from './monitor.mjs';
 const at=Date.parse;
+const weatherFixture=()=>({observed_at:'2026-11-18T04:05:00Z',weather:{schema_version:1,enabled:true,enabled_at:'2026-11-18T01:00:00Z',windows:[
+  {start:'2026-11-18T03:00:00Z',end:'2026-11-18T03:30:00Z',requests:10,cached:7,upstream:3,limited:0,busy:0,unavailable:0},
+  {start:'2026-11-18T03:30:00Z',end:'2026-11-18T04:00:00Z',requests:10,cached:7,upstream:3,limited:0,busy:0,unavailable:0},
+]}});
+test('weather alerts only after repeated complete windows with sufficient samples',()=>{
+  const now=at('2026-11-18T04:05:00Z'),s=weatherFixture();
+  assert.equal(weatherCheck(s,now).code,'weather_healthy');
+  s.weather.windows[0].unavailable=2;s.weather.windows[0].cached=5;
+  assert.equal(weatherCheck(s,now).state,'pending');
+  s.weather.windows[1].unavailable=2;s.weather.windows[1].cached=5;
+  assert.equal(weatherCheck(s,now).code,'weather_repeated_unavailable');
+  for(const w of s.weather.windows)Object.assign(w,{unavailable:0,cached:2,upstream:3,limited:3,busy:2});
+  assert.equal(weatherCheck(s,now).code,'weather_repeated_rate_limit');
+  s.weather.windows[0].requests=0;s.weather.windows[0].cached=0;s.weather.windows[0].upstream=0;s.weather.windows[0].limited=0;s.weather.windows[0].busy=0;
+  assert.equal(weatherCheck(s,now).code,'weather_low_traffic');
+});
+test('weather warming/disabled/malformed data never pretend healthy or recovered',()=>{
+  const now=at('2026-11-18T04:05:00Z'),s=weatherFixture();
+  s.weather.enabled_at='2026-11-18T03:05:00Z';assert.equal(weatherCheck(s,now).code,'weather_warming_up');
+  s.weather.enabled=false;assert.equal(weatherCheck(s,now).code,'weather_metrics_disabled');
+  s.weather.enabled=true;s.weather.windows[0].cached=-1;assert.throws(()=>weatherCheck(s,now));
+  assert.throws(()=>weatherCheck(weatherFixture(),now+10*60000));
+  const duplicate=weatherFixture();duplicate.weather.windows[1]=duplicate.weather.windows[0];assert.throws(()=>weatherCheck(duplicate,now));
+  assert.throws(()=>weatherCheck({},now));
+});
 test('Pacific local 06/18 slots follow winter, summer and both DST transitions',()=>{
   for(const [date,expected] of [
     ['2026-11-18T23:00:00Z','2026-11-18T14:00:00.000Z'],
@@ -36,7 +61,7 @@ test('explicit failure/cancellation and stalled attempts alert, configuration dr
   assert.throws(()=>newsCheck({...args,from:'invalid',runs:[]}));
 });
 const snapshot=(now)=>({schema_version:1,observed_at:new Date(now).toISOString(),cron_timezone:'GMT',cron_enabled:true,
-  jobs:['retention','weather_cache'].map((key)=>({key,first_due:'2026-11-18T03:17:00Z',exists:true,active:true,enabled:true,schedule_matches:true,
+  jobs:['retention','weather_cache','weather_metrics_cleanup'].map((key)=>({key,first_due:'2026-11-18T03:17:00Z',exists:true,active:true,enabled:true,schedule_matches:true,
     last_status:'unknown',last_start:null,last_end:null,audit_matches:false}))});
 test('DB first-run guard, missed run, failed run, disabled job and maintenance are distinct',()=>{
   let now=at('2026-11-18T03:30:00Z');
