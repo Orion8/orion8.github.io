@@ -71,7 +71,9 @@ function fakeApi(){
 test('one incident is created, repeats are quiet, pending does not close, success closes and failure reopens',async()=>{
   const f=fakeApi(),now=at('2026-11-18T05:00:00Z');
   const bad={key:'news',state:'alert',code:'scheduled_attempt_missing'};
-  await reconcile(f.api,[bad],now);await reconcile(f.api,[bad],now+1);
+  const reference=await reconcile(f.api,[bad],now);
+  assert.equal(reference.news,1);
+  await reconcile(f.api,[bad],now+1);
   assert.equal(f.issues.length,1);assert.equal(f.calls.filter(c=>c.method==='POST' && c.route==='/issues').length,1);
   await reconcile(f.api,[{key:'news',state:'pending',code:'attempt_running'}],now+2);assert.equal(f.issues[0].state,'open');
   await reconcile(f.api,[{key:'news',state:'ok',code:'scheduled_success'}],now+3);assert.equal(f.issues[0].state,'closed');

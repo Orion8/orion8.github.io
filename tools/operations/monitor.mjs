@@ -84,6 +84,7 @@ export function githubClient(token,fetchImpl=fetch) {
   };
 }
 export async function reconcile(api,checks,now) {
+  const handled={};
   // Only our labelled, marker-bearing issues. Do not alter unrelated issues.
   let issues=[];
   for(let page=1;page<=3;page++){
@@ -104,7 +105,9 @@ export async function reconcile(api,checks,now) {
       if(!issue){
         const created=await api('POST','/issues',{title,body,labels:[label],assignees:['Orion8']});
         issues.push(created);
+        handled[check.key]=created.number;
       }else if(issue.state!=='open')await api('PATCH',`/issues/${issue.number}`,{state:'open',title,body});
+      if(issue)handled[check.key]=issue.number;
     }else if(issue?.state==='open'){
       // Pending is not recovery: never close an incident just because history
       // could not yet establish a successful slot.
@@ -113,6 +116,7 @@ export async function reconcile(api,checks,now) {
       await api('PATCH',`/issues/${issue.number}`,{state:'closed',state_reason:'completed'});
     }
   }
+  return handled;
 }
 
 async function main(){
@@ -150,8 +154,18 @@ async function main(){
   try {await api('GET',`/labels/${label}`);}catch{await api('POST','/labels',{name:label,color:'d97706',description:'MomentAtlas automation incidents (sanitized)'});}
   await reconcile(api,checks,now);
   if(process.env.MONITOR_SELF_TEST==='1'){
-    try{await reconcile(api,[result('self_test','alert','synthetic_notification_test')],now);}
-    finally{await reconcile(api,[result('self_test','ok','synthetic_test_finished')],Date.now());}
+    let known;
+    try{known=await reconcile(api,[result('self_test','alert','synthetic_notification_test')],now);}
+    finally{
+      // Issue-list indexing may lag a successful create. Use its returned ID,
+      // rather than assuming a second list call can already find the new issue.
+      if(Number.isSafeInteger(known?.self_test)){
+        await api('POST',`/issues/${known.self_test}/comments`,{body:`Synthetic notification test finished at ${iso(Date.now())}. No real incident.`});
+        await api('PATCH',`/issues/${known.self_test}`,{state:'closed',state_reason:'completed'});
+        const confirmed=await api('GET',`/issues/${known.self_test}`);
+        if(confirmed.state!=='closed')throw new Error('self_test_cleanup');
+      }else await reconcile(api,[result('self_test','ok','synthetic_test_finished')],Date.now());
+    }
   }
   const summary=checks.map(({key,state,code,due})=>({key,state,code,...(due?{due}:{})}));
   console.log(JSON.stringify({observedAt:iso(now),checks:summary}));
