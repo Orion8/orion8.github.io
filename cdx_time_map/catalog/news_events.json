@@ -1,8 +1,92 @@
 {
-  "catalogVersion": "0.0.230",
-  "updatedAt": "2026-11-18T21:44:19.164Z",
+  "catalogVersion": "0.0.231",
+  "updatedAt": "2026-11-19T09:58:01.299Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-f580b2fa3463b70aab868b28",
+      "title": "IAEA “북한, 우라늄 농축 시설 확장 중”",
+      "titleTranslations": {
+        "en": "IAEA says North Korea is expanding uranium enrichment facility"
+      },
+      "startAt": "2026-11-19T09:16:47.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "국제원자력기구(IAEA)에 따르면 북한은 우라늄 농축 시설을 확장하고 있다. IAEA는 북한이 시설에서 고농축 우라늄과 무기급 플루토늄을 모두 생산할 수 있다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "North Korea is expanding a uranium enrichment facility, according to the International Atomic Energy Agency (IAEA). The agency said North Korea can produce both highly enriched uranium and weapons-grade plutonium at its facilities."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/19/north-korea-expanding-uranium-enrichment-facility-un-nuclear-watchdog-says?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/11/19/north-korea-expanding-uranium-enrichment-facility-un-nuclear-watchdog-says?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-11-19T09:16:47.000Z",
+        "lastObservedAt": "2026-11-19T09:58:01.299Z"
+      }
+    },
+    {
+      "id": "news-1548d446c7c63613fa8ff585",
+      "title": "세네갈 앞바다서 이주민 100명 탄 배 침몰…수십 명 실종",
+      "titleTranslations": {
+        "en": "Boat carrying 100 migrants sinks off Senegal, leaving dozens missing"
+      },
+      "startAt": "2026-11-19T09:02:52.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "이주민 약 100명을 태운 배가 세네갈 해안에서 침몰해 수십 명이 실종됐다. 현지 일부 언론은 시신 최소 4구가 수습됐다고 보도했다.",
+      "descriptionTranslations": {
+        "en": "A boat carrying about 100 migrants sank off Senegal’s coast, leaving dozens missing. Some local media reported that at least four bodies had been recovered."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-19T09:02:52.000Z",
+        "lastObservedAt": "2026-11-19T09:58:01.299Z"
+      }
+    },
+    {
+      "id": "news-1d23156725b579620f1d5800",
+      "title": "베이지안호 침몰 전 승무원들 위험을 몰랐다고 조사관 밝혀",
+      "titleTranslations": {
+        "en": "Crew were unaware of risks before Bayesian sank, investigators say"
+      },
+      "startAt": "2026-11-19T00:05:31.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "조사관들은 마이크 린치의 요트를 포함해 7명이 숨진 베이지안호 침몰 사고 전에 승무원들이 위험을 알지 못했다고 밝혔다. 배는 시칠리아 북부 해안에서 침몰했다.",
+      "descriptionTranslations": {
+        "en": "Investigators said the crew were unaware of the risks before the Bayesian sank, killing seven people, including Mike Lynch. The yacht went down off the coast of northern Sicily."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-19T00:05:31.000Z",
+        "lastObservedAt": "2026-11-19T09:58:01.299Z"
+      }
+    },
     {
       "id": "news-f62367ceb07664537841f7cf",
       "title": "헤그세스, 베네수엘라와 군사 협력 발표",
@@ -1133,66 +1217,6 @@
         ],
         "firstPublishedAt": "2026-11-14T06:56:58.000Z",
         "lastObservedAt": "2026-11-14T07:34:40.293Z"
-      }
-    },
-    {
-      "id": "news-c680cb902e27912f7d6a61fe",
-      "title": "트럼프·푸틴·시진핑, 다음 주 중국서 역사적 3자 회담 예정",
-      "titleTranslations": {
-        "en": "Trump, Putin and Xi plan historic joint meeting in China next week"
-      },
-      "startAt": "2026-11-14T05:52:31.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "백악관은 도널드 트럼프 전 대통령, 블라디미르 푸틴 러시아 대통령, 시진핑 중국 국가주석이 다음 주 중국에서 전례 없는 3자 회담을 가질 계획이라고 밝혔다. 회담에서 트럼프는 '핵무기 감축' 문제를 논의할 것이라고 백악관 대변인이 전했다.",
-      "descriptionTranslations": {
-        "en": "The White House says former US President Donald Trump, Russian President Vladimir Putin and Chinese leader Xi Jinping will hold an unprecedented three‑way meeting in China next week. A White House spokeswoman said Trump will discuss the 'reduction of nuclear weapons' during the talks."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-14T05:52:31.000Z",
-        "lastObservedAt": "2026-11-14T07:34:40.292Z"
-      }
-    },
-    {
-      "id": "news-3aa0c408f09cb22b10fc05a7",
-      "title": "FAA, 9·11 이후 가장 긴 전국 운항 중단 원인으로 시스템 업그레이드 지목",
-      "titleTranslations": {
-        "en": "FAA system upgrade blamed for longest nationwide ground stop since 9/11"
-      },
-      "startAt": "2026-11-13T23:17:38.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "미국 당국은 9·11 이후 가장 긴 전국 항공 운항 중단의 원인이 시스템 업그레이드였다고 밝혔다. 교통장관 션 더피는 책임을 묻겠다고 말했다.",
-      "descriptionTranslations": {
-        "en": "US officials said a system upgrade caused the longest nationwide aviation ground stop since 9/11. Transportation Secretary Sean Duffy said his agency would hold people accountable."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss",
-      "topicIds": [
-        "economyFinance",
-        "technologyComputing",
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-          "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
-          "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-11-14T02:15:53.000Z",
-        "lastObservedAt": "2026-11-14T18:43:38.835Z"
       }
     },
     {
@@ -2423,35 +2447,6 @@
         ],
         "firstPublishedAt": "2026-11-07T12:00:13.000Z",
         "lastObservedAt": "2026-11-08T07:15:30.063Z"
-      }
-    },
-    {
-      "id": "news-6271bef94c80eeb022bd6618",
-      "title": "머스크, 사이버트럭 생산 종결 암시 — 공장 전환해 자율택시 생산 예정",
-      "titleTranslations": {
-        "en": "Elon Musk appears to signal the end of the road for Cybertruck as Tesla plans factory shift to autonomous taxis"
-      },
-      "startAt": "2026-11-06T21:49:50.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "일론 머스크가 사이버트럭 생산을 종료하는 신호를 보냈다고 보도됐다. 머스크는 텍사스 공장의 일부 생산을 자율주행 택시 '사이버캡(Cybercab)' 생산으로 전환할 예정이라고 밝혔으며, 이는 사이버트럭 생산의 중단으로 이어질 가능성이 제기된다.",
-      "descriptionTranslations": {
-        "en": "Reports say Elon Musk has signalled the end for the Cybertruck, indicating Tesla will wind down production and repurpose its Texas factory to produce the autonomous taxi, the 'Cybercab'. The announcement suggests Cybertruck output may be phased out to make way for the new vehicle."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
-          "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-06T12:38:05.000Z",
-        "lastObservedAt": "2026-11-07T18:01:15.880Z"
       }
     },
     {
