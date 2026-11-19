@@ -319,19 +319,31 @@
         "en": "Seoul, Korea"
       },
       "description": {
-        "ko": "Tantra V2의 아트·기획·개발·QA 조직을 조율하고 첫 버전의 문제 해결을 관리했습니다.",
-        "en": "Coordinated art, design, engineering, and QA for Tantra V2 and managed resolution of issues in its first version."
+        "ko": "Tantra의 서버 문제 해결을 위해 관련 담당자들과 지속적으로 논의하며 해결 과정을 지원했습니다. 기획자들과는 기존 기획의 이슈를 검토하고 방향 전환을 도왔으며, 새 버전의 전체 작업 일정과 팀 간 협업을 조율해 Tantra V2 출시로 이어갔습니다.",
+        "en": "Supported the resolution of Tantra’s server issues through ongoing discussions with the people involved. Worked with designers to address design issues and help reshape the game’s direction, then coordinated the overall schedule and work across teams through the release of Tantra V2."
       },
       "projects": [
         "Tantra V2 · PC MMORPG"
       ],
       "details": [
         {
-          "ko": "프로젝트 일정·우선순위 관리, 팀 간 협업 조율과 신규 인력 채용.",
-          "en": "Managed project schedules and priorities, coordinated teams, and hired new staff."
+          "ko": "서버 문제를 해결하기 위해 관련 담당자들과 지속적으로 논의하고, 해결 작업이 진행될 수 있도록 지원했습니다.",
+          "en": "Held ongoing discussions with the people involved in resolving server issues and supported progress on the work."
+        },
+        {
+          "ko": "기획자들과 기존 기획의 문제를 검토하며 해결 방향을 논의하고, 새 버전에 필요한 방향 전환을 도왔습니다.",
+          "en": "Worked with designers to review design issues, discuss ways to resolve them, and help adjust the direction for the new version."
+        },
+        {
+          "ko": "새 버전을 위한 전체 작업 일정을 수립·조율하고 아트·기획·개발·QA 간의 작업을 맞춰 Tantra V2 출시까지 진행했습니다.",
+          "en": "Planned and coordinated the overall schedule for the new version, aligning work across art, design, engineering, and QA through the release of Tantra V2."
+        },
+        {
+          "ko": "프로젝트 우선순위를 관리하고 필요한 인력 채용을 진행했습니다.",
+          "en": "Managed project priorities and hired staff for the team."
         }
       ],
-      "source": "Resume_2024_Keeseok_1.pdf, p. 4",
+      "source": "Resume_2024_Keeseok_1.pdf, p. 4; user-provided role clarification, 2026-11-19",
       "logo": {
         "path": "./assets/companies/hanbitsoft-official.png",
         "source": "https://www.hanbitsoft.co.kr/company/ci",
@@ -344,11 +356,23 @@
           "title": "Tantra V2 · PC MMORPG",
           "details": [
             {
-              "ko": "프로젝트 일정·우선순위 관리, 팀 간 협업 조율과 신규 인력 채용.",
-              "en": "Managed project schedules and priorities, coordinated teams, and hired new staff."
+              "ko": "서버 문제를 해결하기 위해 관련 담당자들과 지속적으로 논의하고, 해결 작업이 진행될 수 있도록 지원했습니다.",
+              "en": "Held ongoing discussions with the people involved in resolving server issues and supported progress on the work."
+            },
+            {
+              "ko": "기획자들과 기존 기획의 문제를 검토하며 해결 방향을 논의하고, 새 버전에 필요한 방향 전환을 도왔습니다.",
+              "en": "Worked with designers to review design issues, discuss ways to resolve them, and help adjust the direction for the new version."
+            },
+            {
+              "ko": "새 버전을 위한 전체 작업 일정을 수립·조율하고 아트·기획·개발·QA 간의 작업을 맞춰 Tantra V2 출시까지 진행했습니다.",
+              "en": "Planned and coordinated the overall schedule for the new version, aligning work across art, design, engineering, and QA through the release of Tantra V2."
+            },
+            {
+              "ko": "프로젝트 우선순위를 관리하고 필요한 인력 채용을 진행했습니다.",
+              "en": "Managed project priorities and hired staff for the team."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, p. 4",
+          "source": "Resume_2024_Keeseok_1.pdf, p. 4; user-provided role clarification, 2026-11-19",
           "references": [
             {
               "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=22587",
