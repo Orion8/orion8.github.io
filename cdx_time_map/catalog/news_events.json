@@ -1,8 +1,178 @@
 {
-  "catalogVersion": "0.0.231",
-  "updatedAt": "2026-11-19T09:58:01.299Z",
+  "catalogVersion": "0.0.232",
+  "updatedAt": "2026-11-19T22:00:05.581Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-2f808e192e0664c809326c5c",
+      "title": "도리토스 봉지가 AI 총기 경보 촉발…미국 학생들 학교·경찰 상대 소송",
+      "titleTranslations": {
+        "en": "Doritos bag triggers AI gun alert; US students sue school and police"
+      },
+      "startAt": "2026-11-19T20:19:28.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 2,
+      "description": "도리토스 봉지가 AI 총기 탐지 경보를 촉발한 뒤, 정신적 피해를 입었다는 학생들이 학교와 경찰을 상대로 소송을 제기했다. 소송에 따르면 해당 교육구의 AI 총기 경보 중 99% 이상이 오탐이었다.",
+      "descriptionTranslations": {
+        "en": "Students who say they were traumatized after a bag of Doritos triggered an AI gun alert have sued their school and police. The lawsuit says more than 99% of the school system’s AI gun alerts were false positives."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/"
+        ],
+        "firstPublishedAt": "2026-11-19T20:19:28.000Z",
+        "lastObservedAt": "2026-11-19T22:00:05.581Z"
+      }
+    },
+    {
+      "id": "news-968ebb26e1aec61ee16eb53f",
+      "title": "국제사법재판소, 미얀마의 로힝야족 집단학살 인정",
+      "titleTranslations": {
+        "en": "International Court of Justice rules Myanmar committed genocide against Rohingya"
+      },
+      "startAt": "2026-11-19T20:07:02.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "국제사법재판소(ICJ)는 미얀마가 로힝야족을 상대로 집단학살을 저질렀다고 판결했다. 이번 판결은 수천 명이 숨진 2017년 군부의 탄압을 다룬다.",
+      "descriptionTranslations": {
+        "en": "The International Court of Justice (ICJ) ruled that Myanmar committed genocide against the Rohingya. The verdict concerns the 2017 military crackdown, in which thousands were killed."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-19T20:07:02.000Z",
+        "lastObservedAt": "2026-11-19T22:00:05.581Z"
+      }
+    },
+    {
+      "id": "news-aab5ba178748ab4853377117",
+      "title": "앤스로픽, 기업가치 2조 달러 평가로 증시 거래 시작…역대 최대 IPO",
+      "titleTranslations": {
+        "en": "Anthropic begins public trading at a $2 trillion valuation after the largest-ever IPO"
+      },
+      "startAt": "2026-11-19T17:36:14.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 3,
+      "description": "AI 스타트업이자 클로드 챗봇 개발사인 앤스로픽의 주식이 미국 시장에 상장돼 거래를 시작했다. 거래 개시 뒤 주가는 3분의 1 넘게 올라 회사 가치는 2조 달러로 평가됐다.",
+      "descriptionTranslations": {
+        "en": "Shares in Anthropic, the AI startup and maker of the Claude chatbot, began trading on the US market. They rose by more than a third after trading started, valuing the company at $2 trillion."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo"
+        ],
+        "firstPublishedAt": "2026-11-19T17:36:14.000Z",
+        "lastObservedAt": "2026-11-19T22:00:05.581Z"
+      }
+    },
+    {
+      "id": "news-016ac8483c2005397c688f2b",
+      "title": "NASA 페르미 자료로 펄서 탐색 속도 높이는 새 방법 개발",
+      "titleTranslations": {
+        "en": "NASA Fermi data enables a new method to find pulsars faster"
+      },
+      "startAt": "2026-11-19T15:33:55.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "국제 연구진이 NASA 페르미 임무의 공개 자료를 활용해 찾기 어려운 펄서를 이전보다 약 100만 배 빠르게 발견하는 방법을 개발했다.",
+      "descriptionTranslations": {
+        "en": "An international team used open data from NASA’s Fermi mission to develop a method for finding hard-to-find pulsars about a million times faster than before."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/"
+        ],
+        "firstPublishedAt": "2026-11-19T15:33:55.000Z",
+        "lastObservedAt": "2026-11-19T22:00:05.581Z"
+      }
+    },
+    {
+      "id": "news-b4b23f3ca5606fabd1dc4eca",
+      "title": "영국 코로나19 조사위, 검사·추적 체계와 ‘핑데믹’ 주요 조사 결과 발표",
+      "titleTranslations": {
+        "en": "UK Covid inquiry publishes key findings on testing, tracing and the ‘pingdemic’"
+      },
+      "startAt": "2026-11-19T12:47:27.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 3,
+      "description": "영국 코로나19 조사위원회가 검사와 추적 체계, 이른바 ‘핑데믹’에 관한 주요 조사 결과를 발표했다. 조사위는 코로나바이러스 초기 확산 억제 노력이 “실패할 수밖에 없었다”고 판단했다.",
+      "descriptionTranslations": {
+        "en": "The UK Covid inquiry published key findings on testing and tracing and the so-called ‘pingdemic’. It found that early efforts to contain coronavirus “were doomed to fail.”"
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-19T12:47:27.000Z",
+        "lastObservedAt": "2026-11-19T22:00:05.581Z"
+      }
+    },
+    {
+      "id": "news-d31c9c9444099144f1463852",
+      "title": "엘니뇨로 심해진 뉴멕시코 홍수…원주민 지역사회, 오염수 피해 복구",
+      "titleTranslations": {
+        "en": "Native communities in New Mexico recover from flooding intensified by El Niño"
+      },
+      "startAt": "2026-11-19T12:30:47.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "엘니뇨가 심화시킨 심각한 홍수로 뉴멕시코주 십록의 한 마을이 유해 오염수에 잠긴 뒤, 주민들과 지역 단체들이 복구에 나섰다.",
+      "descriptionTranslations": {
+        "en": "After severe flooding intensified by El Niño submerged a town in Shiprock, New Mexico, in toxic water, residents and local groups began working to recover."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/19/el-nino-flooding-native-communities",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/19/el-nino-flooding-native-communities"
+        ],
+        "firstPublishedAt": "2026-11-19T12:30:47.000Z",
+        "lastObservedAt": "2026-11-19T22:00:05.581Z"
+      }
+    },
     {
       "id": "news-f580b2fa3463b70aab868b28",
       "title": "IAEA “북한, 우라늄 농축 시설 확장 중”",
@@ -57,6 +227,62 @@
         ],
         "firstPublishedAt": "2026-11-19T09:02:52.000Z",
         "lastObservedAt": "2026-11-19T09:58:01.299Z"
+      }
+    },
+    {
+      "id": "news-833be5d7ad205486b869efed",
+      "title": "런던, 향후 10년간 자동차 이용 10% 증가 전망",
+      "titleTranslations": {
+        "en": "Car use in London forecast to rise 10% over the next decade"
+      },
+      "startAt": "2026-11-19T06:00:20.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 2,
+      "description": "런던 시장실의 공식 전망에 따르면 향후 10년간 런던의 자동차 이용은 10% 늘고, 이동에서 걷기와 자전거가 차지하는 비중은 줄어들 전망이다. 이 전망은 런던의 10개년 계획 초안에 담겼다.",
+      "descriptionTranslations": {
+        "en": "An official forecast by the mayoralty says car use in London will rise 10% over the next decade, while walking and cycling will account for a smaller share of trips. The projections appear in a draft of the city’s 10-year plan."
+      },
+      "sourceName": "The Guardian Cities",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/nov/19/car-use-in-london-forecast-to-rise-by-10-in-next-decade",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/uk-news/2026/nov/19/car-use-in-london-forecast-to-rise-by-10-in-next-decade"
+        ],
+        "firstPublishedAt": "2026-11-19T06:00:20.000Z",
+        "lastObservedAt": "2026-11-19T22:00:05.581Z"
+      }
+    },
+    {
+      "id": "news-2b7e66a3cbc379a3c66f2961",
+      "title": "유엔 보고서: 전 세계 여성 4명 중 1명, 결혼생활에서 성관계 거부 어려워",
+      "titleTranslations": {
+        "en": "UN report: One in four women worldwide cannot refuse sex within marriage"
+      },
+      "startAt": "2026-11-19T04:00:16.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 3,
+      "description": "유엔인구기금(UNFPA) 보고서에 따르면 전 세계 여성 4명 중 1명은 남편이나 파트너가 요구하는 성관계를 거부할 힘이 없다. 서·중앙아프리카에서는 여성의 45%가 결혼생활에서 동의를 거부할 수 없다고 답했다.",
+      "descriptionTranslations": {
+        "en": "According to a UN Population Fund (UNFPA) report, one in four women worldwide cannot refuse sex when their husband or partner demands it. In west and central Africa, 45% of women said they could not refuse consent within marriage."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa"
+        ],
+        "firstPublishedAt": "2026-11-19T04:00:16.000Z",
+        "lastObservedAt": "2026-11-19T22:00:05.581Z"
       }
     },
     {
@@ -989,34 +1215,6 @@
       }
     },
     {
-      "id": "news-d66099d92304cf4e8e478edd",
-      "title": "이탈리아, 이용자 사진 접근 고지 문제로 메타에 8억500만 유로 벌금",
-      "titleTranslations": {
-        "en": "Italy fines Meta €805m over disclosure of access to users’ photos"
-      },
-      "startAt": "2026-11-14T18:28:06.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "이탈리아가 이용자 약 2,000만 명에게 메타가 사진에 접근할 수 있다는 사실을 알리지 않았다는 이유로 메타에 8억500만 유로의 벌금을 부과했다.",
-      "descriptionTranslations": {
-        "en": "Italy fined Meta €805 million for allegedly failing to inform about 20 million users that it had access to their photos."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-14T18:28:06.000Z",
-        "lastObservedAt": "2026-11-14T18:43:38.835Z"
-      }
-    },
-    {
       "id": "news-0f1fbc7cc9f91ff456924d08",
       "title": "웨일스, 1953년 이후 처음으로 뉴질랜드에 승리",
       "titleTranslations": {
@@ -1042,35 +1240,6 @@
         ],
         "firstPublishedAt": "2026-11-14T16:38:04.000Z",
         "lastObservedAt": "2026-11-14T18:43:38.835Z"
-      }
-    },
-    {
-      "id": "news-33dceb2361b70d72473bced1",
-      "title": "연료 위기와 시위로 칠레 카스트 대통령 압박 커져",
-      "titleTranslations": {
-        "en": "Fuel crisis and protests increase pressure on Chile’s President Kast"
-      },
-      "startAt": "2026-11-14T16:05:12.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "연료 가격 상승으로 칠레 전역에서 운송 파업과 시위가 벌어지며, 호세 안토니오 카스트 대통령을 향한 대중의 분노가 커지고 있다.",
-      "descriptionTranslations": {
-        "en": "Rising fuel prices have triggered transport strikes and protests across Chile, as public anger toward President José Antonio Kast mounts."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students"
-        ],
-        "firstPublishedAt": "2026-11-14T16:05:12.000Z",
-        "lastObservedAt": "2026-11-15T07:48:20.158Z"
       }
     },
     {
@@ -1856,36 +2025,6 @@
       }
     },
     {
-      "id": "news-5fb859151deb400339ffed33",
-      "title": "대만 TSMC, Anthropic·OpenAI에 10억 달러 투자 보도",
-      "titleTranslations": {
-        "en": "Taiwan’s TSMC to invest $1B in Anthropic, OpenAI, reports say"
-      },
-      "startAt": "2026-11-11T18:16:40.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "아르스테크니카 보도에 따르면 대만의 반도체 대기업 TSMC가 AI업체 Anthropic과 OpenAI에 총 10억 달러 규모의 투자를 할 계획이라고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "Ars Technica reports Taiwan‑based chipmaker TSMC plans to invest about $1 billion in AI firms Anthropic and OpenAI."
-      },
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-      "topicIds": [
-        "technologyComputing",
-        "computerHistory",
-        "internetWeb"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
-        ],
-        "firstPublishedAt": "2026-11-11T18:16:40.000Z",
-        "lastObservedAt": "2026-11-11T20:11:16.975Z"
-      }
-    },
-    {
       "id": "news-500f60ed2dbc834589564a97",
       "title": "영국 상급의사들, 11월 예정된 2일 파업 철회",
       "titleTranslations": {
@@ -1996,90 +2135,6 @@
         ],
         "firstPublishedAt": "2026-11-11T09:08:48.000Z",
         "lastObservedAt": "2026-11-11T20:11:16.975Z"
-      }
-    },
-    {
-      "id": "news-f1b3506ce3d4d107abc66dd0",
-      "title": "연방판사, 트럼프의 BBC 상대 100억 달러대(약 10bn) 명예훼손 소송 일부 진행 허용",
-      "titleTranslations": {
-        "en": "Federal judge allows Trump’s $10bn defamation lawsuit against BBC to proceed"
-      },
-      "startAt": "2026-11-11T01:18:56.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 플로리다 연방판사 제프리 T. Kuntz가 BBC의 각하 신청을 부분 기각하며 도널드 트럼프의 100억 달러 규모 명예훼손 소송을 계속 진행할 수 있도록 했다. 판결문은 원고가 손해 발생 가능성을 그럴듯하게 주장했다고 적시했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports that US federal judge Jeffrey T. Kuntz partially denied the BBC’s motion to dismiss, allowing Donald Trump’s $10bn defamation suit against the broadcaster to proceed. The judge found Trump had plausibly pleaded damages."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/10/trump-10bn-defamation-lawsuit-bbc-allowed",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/10/trump-10bn-defamation-lawsuit-bbc-allowed"
-        ],
-        "firstPublishedAt": "2026-11-11T01:18:56.000Z",
-        "lastObservedAt": "2026-11-11T20:11:16.975Z"
-      }
-    },
-    {
-      "id": "news-f4bb39dbbeb5dffa5c6b8850",
-      "title": "항우울제 에스시탈로프람, 재발 예방에 더 효과적이라는 분석 결과",
-      "titleTranslations": {
-        "en": "Antidepressant escitalopram found more effective at preventing relapse, analysis finds"
-      },
-      "startAt": "2026-11-11T00:17:42.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC 헬스 보도에 따르면 대규모 환자 집단을 분석한 결과 에스시탈로프람을 포함한 일부 약물이 재발 예방에서 상위를 차지했으며, 이들 약이 프로작(플루옥세틴)보다 재발 예방에 더 효과적이라고 보고됐다.",
-      "descriptionTranslations": {
-        "en": "BBC Health reports that an analysis across a large number of patients found escitalopram and two other pills topped effectiveness rankings for preventing relapse, outperforming Prozac for that outcome."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cv62yyng00jyo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cv62yyng00jyo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-11T00:17:42.000Z",
-        "lastObservedAt": "2026-11-11T07:44:11.041Z"
-      }
-    },
-    {
-      "id": "news-817e90b81533a4ac84a59365",
-      "title": "지미 카터 가족 농장 보존단체에 인수 — 2027년 공개, 2028년 주에 이전 계획",
-      "titleTranslations": {
-        "en": "Jimmy Carter’s Georgia farm acquired for conservation — to open to public in 2027, transfer to state in 2028"
-      },
-      "startAt": "2026-11-10T15:01:41.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 2,
-      "description": "보전 단체가 조지아의 지미 카터 가족 농장 약 2,458에이커를 인수했다. 단체는 이 땅을 2027년부터 사냥·낚시 등 야외 레크리에이션을 위해 공개하고, 2028년 주(Georgia) 당국에 토지를 이전할 계획이라고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "A conservation group has acquired roughly 2,458 acres of Jimmy Carter’s family farm in Georgia. The group plans to open the land for outdoor recreation such as hunting and fishing as soon as 2027 and to transfer it to the state’s natural resources department in 2028."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/10/jimmy-carter-georgia-farm-conserved-open-to-public",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/10/jimmy-carter-georgia-farm-conserved-open-to-public"
-        ],
-        "firstPublishedAt": "2026-11-10T15:01:41.000Z",
-        "lastObservedAt": "2026-11-10T20:27:17.394Z"
       }
     },
     {
@@ -2338,34 +2393,6 @@
       }
     },
     {
-      "id": "news-44a6b3793253ee6a4d103fcb",
-      "title": "NASA, 차기 우주인 모집 공고 — 달 복귀·달 기지·화성 유인 임무 대비 인력 선발",
-      "titleTranslations": {
-        "en": "NASA opens applications for next astronaut class to support Moon Base and future Mars missions"
-      },
-      "startAt": "2026-11-07T18:11:57.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "보도는 NASA가 다음 우주인단 신병 모집을 위한 지원서를 접수한다고 발표했으며, 새 우주인단은 미국의 달 복귀·달 기지 건설과 향후 유인 화성 임무를 준비할 인력이라고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say NASA has opened applications for its next class of astronauts, who will be recruited to help support returning to the Moon, building a Moon Base, and laying groundwork for future crewed missions to Mars."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/"
-        ],
-        "firstPublishedAt": "2026-11-07T18:11:57.000Z",
-        "lastObservedAt": "2026-11-08T07:15:30.063Z"
-      }
-    },
-    {
       "id": "news-5113a68d44988ebc2cba7924",
       "title": "베이지역 유권자들, 재정 위기 해소 위한 교통세 두 건 압도적 승인",
       "titleTranslations": {
@@ -2505,34 +2532,6 @@
         ],
         "firstPublishedAt": "2026-11-06T15:00:02.000Z",
         "lastObservedAt": "2026-11-06T19:57:13.746Z"
-      }
-    },
-    {
-      "id": "news-646602439acadc241b9cc8ac",
-      "title": "런던 지하철 차장 노조, 크리스마스 전·후 8일간 24시간 파업 예고",
-      "titleTranslations": {
-        "en": "Commuters and shoppers face disruption from tube driver strikes in run‑up to Christmas"
-      },
-      "startAt": "2026-11-06T13:45:57.000Z",
-      "lane": "world",
-      "category": "urbanDevelopment",
-      "importance": 2,
-      "description": "보도에 따르면 RMT 노조 소속 런던 지하철 운전사들이 4일 근무제 도입에 반대하며 16일에 걸쳐 8회 24시간 파업을 예고했고, 이 중 6회가 크리스마스 직전 기간에 집중되어 통근·쇼핑에 큰 혼란이 예상된다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Reports say RMT union tube drivers in London have announced eight 24‑hour strikes over a 16‑day period in opposition to plans for a four‑day week, with six of the stoppages scheduled in the run‑up to Christmas and major disruption expected."
-      },
-      "sourceName": "The Guardian Transport",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/nov/06/commuters-and-shoppers-face-disruption-from-tube-driver-strikes-in-run-up-to-christmas",
-      "topicIds": [
-        "urbanDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/uk-news/2026/nov/06/commuters-and-shoppers-face-disruption-from-tube-driver-strikes-in-run-up-to-christmas"
-        ],
-        "firstPublishedAt": "2026-11-06T13:45:57.000Z",
-        "lastObservedAt": "2026-11-07T07:04:01.883Z"
       }
     },
     {
