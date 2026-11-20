@@ -1,8 +1,153 @@
 {
-  "catalogVersion": "0.0.233",
-  "updatedAt": "2026-11-20T09:45:42.047Z",
+  "catalogVersion": "0.0.234",
+  "updatedAt": "2026-11-20T21:43:01.559Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-d020b8aa67dc21540cb4908c",
+      "title": "트럼프, 미국 기업의 해외 AI 데이터센터 건설 금지 위협",
+      "titleTranslations": {
+        "en": "Trump threatens to ban US firms from building AI data centres overseas"
+      },
+      "startAt": "2026-11-20T20:54:12.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "도널드 트럼프 미국 대통령이 미국 기업의 해외 AI 데이터센터 건설을 금지할 수 있다고 위협했다. 그는 구체적인 정책 내용을 거의 밝히지 않았으며, 자신의 팀원들도 처음 듣는 이야기라고 말했다.",
+      "descriptionTranslations": {
+        "en": "US President Donald Trump threatened to ban American companies from building AI data centres overseas. He provided little detail about the possible policy and said some members of his team were hearing about it for the first time."
+      },
+      "sourceName": "BBC News Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-20T20:54:12.000Z",
+        "lastObservedAt": "2026-11-20T21:43:01.559Z"
+      }
+    },
+    {
+      "id": "news-b489ac03011e847af2dfdc1b",
+      "title": "영국·EU, 식품 수출·배출권 거래·청년 교류 포함한 합의 도출",
+      "titleTranslations": {
+        "en": "UK and EU reach deal covering food exports, emissions trading and youth exchange"
+      },
+      "startAt": "2026-11-20T17:49:48.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "영국과 EU가 영국의 식품 수출, 배출권 거래, 청년 경험 프로그램을 포함하는 합의에 도달했다. 앤디 버넘은 합의 이후 EU와 더 긴밀한 관계를 모색하겠다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "The UK and the EU have reached a deal covering British food exports, emissions trading and a youth experience scheme. Andy Burnham said the UK should explore even closer ties with the EU after the agreement."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-20T17:49:48.000Z",
+        "lastObservedAt": "2026-11-20T21:43:01.559Z"
+      }
+    },
+    {
+      "id": "news-aab5ba178748ab4853377117",
+      "title": "앤스로픽 주가 하락…AI 투자 우려에 글로벌 증시도 흔들",
+      "titleTranslations": {
+        "en": "Anthropic shares fall as AI investment worries roil global markets"
+      },
+      "startAt": "2026-11-20T16:26:07.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "앤스로픽 주가는 상장 후 두 번째 거래일에 하락했다. AI 인프라에 투입되는 막대한 자금에 대한 우려가 커지면서 나스닥은 2026년 상승분을 반납했고, 아시아 시장은 2020년 이후 최악의 한 주를 기록했다.",
+      "descriptionTranslations": {
+        "en": "Anthropic shares fell on the second day of trading after its IPO. As concerns grew about the huge sums being invested in AI infrastructure, the Nasdaq erased its gains for 2026 and Asian markets recorded their worst week since 2020."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
+          "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+        ],
+        "firstPublishedAt": "2026-11-19T17:36:14.000Z",
+        "lastObservedAt": "2026-11-20T21:43:01.559Z"
+      }
+    },
+    {
+      "id": "news-4ff5ccec1044e43d68c67593",
+      "title": "미 상원, 에너지 사업·데이터센터 인허가 심사 단축 법안 통과",
+      "titleTranslations": {
+        "en": "US Senate passes bill to speed permitting reviews for energy projects and data centres"
+      },
+      "startAt": "2026-11-20T15:09:09.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "미 상원이 발전소와 송전선 등 에너지 기반시설 및 데이터센터의 인허가 심사를 단축하는 초당적 법안을 통과시켰다. 법안은 하원으로 넘어갔으며, 일부 민주당 의원과 환경단체는 우려를 나타냈다.",
+      "descriptionTranslations": {
+        "en": "The US Senate passed a bipartisan bill to speed up permitting reviews for energy infrastructure, including power plants and transmission lines, as well as data centres. The bill now goes to the House; some Democrats and environmental groups have raised concerns."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/20/senate-energy-datacenters-review-bill",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/20/senate-energy-datacenters-review-bill"
+        ],
+        "firstPublishedAt": "2026-11-20T15:09:09.000Z",
+        "lastObservedAt": "2026-11-20T21:43:01.559Z"
+      }
+    },
+    {
+      "id": "news-98395b11ead76bc2479fea25",
+      "title": "췌장암 알약 임상시험서 종양이 사라진 환자 12명 중 1명",
+      "titleTranslations": {
+        "en": "Pancreatic cancer pill trial finds tumours undetectable in one in 12 patients"
+      },
+      "startAt": "2026-11-20T09:36:10.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "다라손라십(daraxonrasib) 임상시험에서 환자 12명 중 1명은 암이 검출되지 않을 정도로 줄었고, 거의 모든 참가자의 종양은 성장을 멈췄다. 이 약은 췌장암 치료의 중대한 진전으로 평가받고 있다.",
+      "descriptionTranslations": {
+        "en": "In a trial of daraxonrasib, the cancer became undetectable in one in 12 patients, while tumours stopped growing in nearly all participants. The pill has been hailed as a major advance in pancreatic cancer treatment."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "topicIds": [
+        "medicineHealth",
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqrmgjnzz9l0o?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib"
+        ],
+        "firstPublishedAt": "2026-11-20T00:08:22.000Z",
+        "lastObservedAt": "2026-11-20T21:43:01.559Z"
+      }
+    },
     {
       "id": "news-5ef06037f3faa4d55810acc9",
       "title": "GTA 6 추정 매출 23억 달러 돌파…역대 최대 엔터테인먼트 출시 전망",
@@ -28,34 +173,6 @@
           "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-20T02:54:40.000Z",
-        "lastObservedAt": "2026-11-20T09:45:42.047Z"
-      }
-    },
-    {
-      "id": "news-98395b11ead76bc2479fea25",
-      "title": "췌장암 알약 임상시험서 일부 환자 종양 줄어…치료 가능성 주목",
-      "titleTranslations": {
-        "en": "Pancreatic cancer pill trial shows tumours shrinking in some patients"
-      },
-      "startAt": "2026-11-20T00:08:22.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "임상시험에서 다라손라십(daraxonrasib)을 매일 복용한 일부 환자의 종양이 줄고, 일부에서는 사라질 가능성도 나타났다고 보도됐다. 췌장암 치료 가능성을 시사하는 초기 결과다.",
-      "descriptionTranslations": {
-        "en": "A trial found that daily daraxonrasib appeared to shrink tumours in some patients, and possibly eliminate them in some cases, according to the report. The early results point to a potential treatment for pancreatic cancer."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqrmgjnzz9l0o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqrmgjnzz9l0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-20T00:08:22.000Z",
         "lastObservedAt": "2026-11-20T09:45:42.047Z"
       }
     },
@@ -144,34 +261,6 @@
           "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-19T20:07:02.000Z",
-        "lastObservedAt": "2026-11-19T22:00:05.581Z"
-      }
-    },
-    {
-      "id": "news-aab5ba178748ab4853377117",
-      "title": "앤스로픽, 기업가치 2조 달러 평가로 증시 거래 시작…역대 최대 IPO",
-      "titleTranslations": {
-        "en": "Anthropic begins public trading at a $2 trillion valuation after the largest-ever IPO"
-      },
-      "startAt": "2026-11-19T17:36:14.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 3,
-      "description": "AI 스타트업이자 클로드 챗봇 개발사인 앤스로픽의 주식이 미국 시장에 상장돼 거래를 시작했다. 거래 개시 뒤 주가는 3분의 1 넘게 올라 회사 가치는 2조 달러로 평가됐다.",
-      "descriptionTranslations": {
-        "en": "Shares in Anthropic, the AI startup and maker of the Claude chatbot, began trading on the US market. They rose by more than a third after trading started, valuing the company at $2 trillion."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo"
-        ],
-        "firstPublishedAt": "2026-11-19T17:36:14.000Z",
         "lastObservedAt": "2026-11-19T22:00:05.581Z"
       }
     },
@@ -1067,62 +1156,6 @@
         ],
         "firstPublishedAt": "2026-11-16T13:00:01.000Z",
         "lastObservedAt": "2026-11-17T21:43:55.038Z"
-      }
-    },
-    {
-      "id": "news-dddc10b7248cf1cf1ac645c9",
-      "title": "잉글랜드·웨일스, 불법 낙태 관련 여성의 전과 기록 자동 말소",
-      "titleTranslations": {
-        "en": "Criminal records for abortion offences automatically wiped for women in England and Wales"
-      },
-      "startAt": "2026-11-16T11:45:33.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "잉글랜드와 웨일스에서 불법 낙태로 체포되거나 유죄 판결을 받은 여성들의 전과 기록을 말소하는 자동 사면이 시행됐다.",
-      "descriptionTranslations": {
-        "en": "Automatic pardons have come into force in England and Wales, wiping the criminal records of women arrested or convicted for having illegal abortions."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqjd7n37r2r9o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqjd7n37r2r9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-16T11:45:33.000Z",
-        "lastObservedAt": "2026-11-17T09:08:15.532Z"
-      }
-    },
-    {
-      "id": "news-871c4bfc0c426ed1eb81f00a",
-      "title": "예멘군 후퇴로 후티 반군, 홍해 해협 해안의 핵심 지역 장악",
-      "titleTranslations": {
-        "en": "Yemeni forces’ retreat leaves Houthis in control of key area on Red Sea strait coast"
-      },
-      "startAt": "2026-11-16T07:23:23.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "사우디아라비아의 지원을 받는 예멘군은 아덴 임시 수도를 방어하기 위해 바브엘만데브 해협에서 병력을 이동한다고 밝혔다. 이 후퇴로 후티 반군이 홍해 항로의 핵심 해안 지역을 장악하게 됐다.",
-      "descriptionTranslations": {
-        "en": "Saudi-backed Yemeni forces said they were moving troops from the Bab al-Mandab Strait to defend the interim capital, Aden. Their retreat left the Houthis in control of a key coastal area on the Red Sea waterway."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-16T07:23:23.000Z",
-        "lastObservedAt": "2026-11-16T07:54:49.232Z"
       }
     },
     {
@@ -2335,34 +2368,6 @@
           "https://www.theguardian.com/environment/2026/nov/08/labour-cut-ev-target-car-industry-despite-climate-concerns"
         ],
         "firstPublishedAt": "2026-11-08T17:51:19.000Z",
-        "lastObservedAt": "2026-11-08T18:20:02.575Z"
-      }
-    },
-    {
-      "id": "news-1fd2c4b355c27cd812da7476",
-      "title": "영국 정부, 16세 미만 중고거래 플랫폼 접속 금지 검토 보도",
-      "titleTranslations": {
-        "en": "Government 'looking seriously' at banning under‑16s from Vinted and eBay"
-      },
-      "startAt": "2026-11-08T15:37:25.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도에 따르면 문화장관이 16세 미만 이용자에 대해 Vinted와 eBay 같은 중고거래 플랫폼 접근을 금지하는 방안을 심각하게 검토하고 있음을 확인했다. 관련 조치가 다음 3월에 포함될 수 있다는 보도가 나왔다.",
-      "descriptionTranslations": {
-        "en": "Reports say the culture secretary has confirmed the government is 'looking seriously' at banning under‑16s from platforms such as Vinted and eBay. Coverage says the measures could be among platforms restricted from next March."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-08T15:37:25.000Z",
         "lastObservedAt": "2026-11-08T18:20:02.575Z"
       }
     },
