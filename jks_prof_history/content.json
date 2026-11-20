@@ -774,6 +774,10 @@
       ],
       "details": [
         {
+          "ko": "행동 트리(Behavior Tree)를 활용해 플레이어 캐릭터와 NPC의 움직임·행동을 제어하는 캐릭터 AI를 구현했습니다.",
+          "en": "Implemented character AI using behavior trees to control player character and NPC movement and behavior."
+        },
+        {
           "ko": "이동·피격·타기팅·캐릭터 유형별 피해 계산·콤보·스킬 쿨타임·보스전·PvP 구현.",
           "en": "Built movement, hit reactions, targeting, character-dependent damage, combos, skill cooldowns, boss battles, and PvP."
         },
@@ -793,6 +797,10 @@
           "id": "tower-of-god",
           "title": "Tower of God · Android / Unity",
           "details": [
+            {
+              "ko": "행동 트리(Behavior Tree)를 활용해 플레이어 캐릭터와 NPC의 움직임·행동을 제어하는 캐릭터 AI를 구현했습니다.",
+              "en": "Implemented character AI using behavior trees to control player character and NPC movement and behavior."
+            },
             {
               "ko": "이동·피격·타기팅·캐릭터 유형별 피해 계산·콤보·스킬 쿨타임·보스전·PvP 구현.",
               "en": "Built movement, hit reactions, targeting, character-dependent damage, combos, skill cooldowns, boss battles, and PvP."
