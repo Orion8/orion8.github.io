@@ -715,25 +715,24 @@
               "checkedAt": "2026-11-16"
             },
             {
-              "url": "https://www.youtube.com/watch?v=KHNhEC_saUc",
+              "url": "https://www.youtube.com/watch?v=PnF1UEr0q-U",
               "publisher": "YouTube",
               "label": {
-                "ko": "소개 영상",
+                "ko": "플레이 영상",
+                "en": "Gameplay video"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-20"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=A1TElvIfPIQ",
+              "publisher": "YouTube",
+              "label": {
+                "ko": "오버뷰 영상",
                 "en": "Overview video"
               },
               "kind": "video",
-              "checkedAt": "2026-11-16",
-              "evidence": "https://kotaku.com/heres-an-action-packed-social-rpg-you-can-play-anywhere-5957766"
-            },
-            {
-              "url": "https://www.youtube.com/watch?v=PnF1UEr0q-U",
-              "publisher": "iGamesView · YouTube",
-              "label": {
-                "ko": "2012년 iPhone·iPad 플레이 영상",
-                "en": "2012 iPhone & iPad gameplay"
-              },
-              "kind": "video",
-              "checkedAt": "2026-11-16"
+              "checkedAt": "2026-11-20"
             }
           ]
         }
