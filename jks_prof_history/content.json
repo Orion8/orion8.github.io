@@ -521,14 +521,34 @@
           "source": "Resume_2024_Keeseok_1.pdf, pp. 4, 6",
           "references": [
             {
-              "url": "https://www.jeuxvideo.com/videos-editeurs/0002/00021200/mstar-pc-gdc-08-gameplay-00015386.htm",
-              "publisher": "Jeuxvideo.com",
+              "url": "https://www.youtube.com/watch?v=DxyJ0CDEpOk",
+              "publisher": "YouTube",
               "label": {
-                "ko": "2008 GDC 플레이 영상",
-                "en": "2008 GDC gameplay"
+                "ko": "플레이 영상 1",
+                "en": "Gameplay video 1"
               },
               "kind": "video",
-              "checkedAt": "2026-11-16"
+              "checkedAt": "2026-11-20"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=k7ar4Tjusf0",
+              "publisher": "YouTube",
+              "label": {
+                "ko": "플레이 영상 2",
+                "en": "Gameplay video 2"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-20"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=CtHuuu1KjCA",
+              "publisher": "YouTube",
+              "label": {
+                "ko": "플레이 영상 3",
+                "en": "Gameplay video 3"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-20"
             },
             {
               "url": "https://ch.netmarble.com/Newsroom/PressRelease/Detail?bbs_code=1014&post_seq=2505",
