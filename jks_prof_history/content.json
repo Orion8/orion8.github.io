@@ -778,6 +778,10 @@
           "en": "Implemented character AI using behavior trees to control player character and NPC movement and behavior."
         },
         {
+          "ko": "전투 데이터와 실행 로직을 분리하는 데이터 중심 설계를 적용했습니다. 기획자가 각종 전투 변수를 용도별로 분류된 테이블에 추가·조정하면, 코드 수정 없이 해당 설정이 전투에 반영되도록 구성했습니다.",
+          "en": "Applied a data-driven design that separated combat data from runtime logic. Organized combat parameters into categorized tables so game designers could add and adjust values and have them reflected in combat without modifying code."
+        },
+        {
           "ko": "이동·피격·타기팅·캐릭터 유형별 피해 계산·콤보·스킬 쿨타임·보스전·PvP 구현.",
           "en": "Built movement, hit reactions, targeting, character-dependent damage, combos, skill cooldowns, boss battles, and PvP."
         },
@@ -800,6 +804,10 @@
             {
               "ko": "행동 트리(Behavior Tree)를 활용해 플레이어 캐릭터와 NPC의 움직임·행동을 제어하는 캐릭터 AI를 구현했습니다.",
               "en": "Implemented character AI using behavior trees to control player character and NPC movement and behavior."
+            },
+            {
+              "ko": "전투 데이터와 실행 로직을 분리하는 데이터 중심 설계를 적용했습니다. 기획자가 각종 전투 변수를 용도별로 분류된 테이블에 추가·조정하면, 코드 수정 없이 해당 설정이 전투에 반영되도록 구성했습니다.",
+              "en": "Applied a data-driven design that separated combat data from runtime logic. Organized combat parameters into categorized tables so game designers could add and adjust values and have them reflected in combat without modifying code."
             },
             {
               "ko": "이동·피격·타기팅·캐릭터 유형별 피해 계산·콤보·스킬 쿨타임·보스전·PvP 구현.",
