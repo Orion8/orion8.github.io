@@ -1,8 +1,94 @@
 {
-  "catalogVersion": "0.0.232",
-  "updatedAt": "2026-11-19T22:00:05.581Z",
+  "catalogVersion": "0.0.233",
+  "updatedAt": "2026-11-20T09:45:42.047Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-5ef06037f3faa4d55810acc9",
+      "title": "GTA 6 추정 매출 23억 달러 돌파…역대 최대 엔터테인먼트 출시 전망",
+      "titleTranslations": {
+        "en": "GTA 6 estimated sales top $2.3bn in what is expected to be the biggest entertainment launch ever"
+      },
+      "startAt": "2026-11-20T02:54:40.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "Rockstar Games가 13년 만에 선보인 GTA 6의 추정 매출이 23억 달러를 넘어섰다. 이번 출시는 역대 최대 규모의 엔터테인먼트 출시가 될 것으로 예상된다.",
+      "descriptionTranslations": {
+        "en": "Estimated sales for GTA 6, Rockstar Games’ first release in 13 years, have topped $2.3bn. The launch is expected to be the biggest entertainment launch ever."
+      },
+      "sourceName": "BBC News Entertainment & Arts",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-20T02:54:40.000Z",
+        "lastObservedAt": "2026-11-20T09:45:42.047Z"
+      }
+    },
+    {
+      "id": "news-98395b11ead76bc2479fea25",
+      "title": "췌장암 알약 임상시험서 일부 환자 종양 줄어…치료 가능성 주목",
+      "titleTranslations": {
+        "en": "Pancreatic cancer pill trial shows tumours shrinking in some patients"
+      },
+      "startAt": "2026-11-20T00:08:22.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "임상시험에서 다라손라십(daraxonrasib)을 매일 복용한 일부 환자의 종양이 줄고, 일부에서는 사라질 가능성도 나타났다고 보도됐다. 췌장암 치료 가능성을 시사하는 초기 결과다.",
+      "descriptionTranslations": {
+        "en": "A trial found that daily daraxonrasib appeared to shrink tumours in some patients, and possibly eliminate them in some cases, according to the report. The early results point to a potential treatment for pancreatic cancer."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqrmgjnzz9l0o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cqrmgjnzz9l0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-20T00:08:22.000Z",
+        "lastObservedAt": "2026-11-20T09:45:42.047Z"
+      }
+    },
+    {
+      "id": "news-092e69e17574fe4be23b5dc7",
+      "title": "베피콜롬보 탐사선, 수성 도달…궤도 진입 준비",
+      "titleTranslations": {
+        "en": "BepiColombo spacecraft reaches Mercury and prepares to enter orbit"
+      },
+      "startAt": "2026-11-20T00:01:15.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 2,
+      "description": "8년 넘게 60억 마일을 비행한 유럽·일본 공동 우주 임무 베피콜롬보가 수성에 도달해 궤도 진입을 준비하고 있다. 탐사선은 수성 표면을 지도화하고 내부 구조를 연구할 예정이다.",
+      "descriptionTranslations": {
+        "en": "After travelling for more than eight years and 6 billion miles, the joint European-Japanese BepiColombo mission has reached Mercury and is preparing to enter orbit. The spacecraft is expected to map the planet’s surface and study its interior."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo"
+        ],
+        "firstPublishedAt": "2026-11-20T00:01:15.000Z",
+        "lastObservedAt": "2026-11-20T09:45:42.047Z"
+      }
+    },
     {
       "id": "news-2f808e192e0664c809326c5c",
       "title": "도리토스 봉지가 AI 총기 경보 촉발…미국 학생들 학교·경찰 상대 소송",
@@ -115,6 +201,34 @@
         ],
         "firstPublishedAt": "2026-11-19T15:33:55.000Z",
         "lastObservedAt": "2026-11-19T22:00:05.581Z"
+      }
+    },
+    {
+      "id": "news-053acf46c70803e1470481f4",
+      "title": "보고서: 트럼프 행정부, 발암물질 노출 방지 조치 500건 넘게 약화",
+      "titleTranslations": {
+        "en": "Report says Trump administration took more than 500 actions to weaken cancer protections"
+      },
+      "startAt": "2026-11-19T14:15:15.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "천연자원보호협의회(NRDC)의 새 보고서는 트럼프 행정부가 발암물질에 대한 대중의 노출을 늘릴 수 있는 규정 변경 등 500건이 넘는 조치를 취했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "A new report by the Natural Resources Defense Council (NRDC) says the Trump administration took more than 500 actions, including regulatory changes, that could increase public exposure to carcinogens."
+      },
+      "sourceName": "The Guardian Environment",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation"
+        ],
+        "firstPublishedAt": "2026-11-19T14:15:15.000Z",
+        "lastObservedAt": "2026-11-20T09:45:42.047Z"
       }
     },
     {
@@ -2082,62 +2196,6 @@
       }
     },
     {
-      "id": "news-e3b2e7e3dba8c6298cd19b4e",
-      "title": "두아 리파, 코첼라 2027에서 첫 영국 출신 여성 헤드라이너로 확정",
-      "titleTranslations": {
-        "en": "Dua Lipa to become first female British headliner at Coachella 2027"
-      },
-      "startAt": "2026-11-11T10:53:47.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 1,
-      "description": "BBC 문화 보도는 두아 리파가 코첼라 2027의 헤드라이너로 선정돼 영국 출신 여성으로는 처음으로 최상위 라인업에 오르게 됐다고 전했다. 타이틀 라인업에는 Tame Impala와 SZA도 포함된다.",
-      "descriptionTranslations": {
-        "en": "BBC Arts reports Dua Lipa will headline Coachella 2027, becoming the first British woman to top the festival bill; Tame Impala and SZA are also among top‑line performers."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjr4g0n9d1g5o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cjr4g0n9d1g5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-11T10:53:47.000Z",
-        "lastObservedAt": "2026-11-11T20:11:16.975Z"
-      }
-    },
-    {
-      "id": "news-c47515d6afd7d1752f102111",
-      "title": "사회 돌봄 검토 책임자, 잉글랜드 돌봄서비스에 대해 정부 '무관심' 비판",
-      "titleTranslations": {
-        "en": "Head of review says governments are 'asleep at the wheel' over social care in England"
-      },
-      "startAt": "2026-11-11T09:08:48.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 2,
-      "description": "BBC 보도에 따르면 검토 위원장 Baroness Casey는 잉글랜드의 사회 돌봄 서비스가 지역별로 편차가 크고 자비 부담자에 대한 요금 문제가 심각하다며 정부의 대응을 비판했다.",
-      "descriptionTranslations": {
-        "en": "BBC reports Baroness Casey criticised the English social care system for wide variability in services and the fees charged to self‑funders, saying governments have been 'asleep at the wheel'."
-      },
-      "sourceName": "BBC News Health",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9143zxyyvndo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "medicineHealth"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c9143zxyyvndo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-11T09:08:48.000Z",
-        "lastObservedAt": "2026-11-11T20:11:16.975Z"
-      }
-    },
-    {
       "id": "news-41a0f772447991ae2cb16463",
       "title": "헐리우드, 스토리보드 제작에 AI 도입 확대 — 일러스트레이터 일자리 위협",
       "titleTranslations": {
@@ -2678,36 +2736,6 @@
         ],
         "firstPublishedAt": "2026-10-29T14:00:00.000Z",
         "lastObservedAt": "2026-10-31T06:57:05.940Z"
-      }
-    },
-    {
-      "id": "news-9679049c03ff86245cab16f4",
-      "title": "미 군, 스페이스X에 제한적 궤도 추적 데이터 접근 허용 — 산업·안보 우려 제기",
-      "titleTranslations": {
-        "en": "US military gives SpaceX access to restricted orbit‑tracking data — industry and security concerns raised"
-      },
-      "startAt": "2026-10-25T12:00:05.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 3,
-      "description": "가디언은 미국 군이 일론 머스크의 스페이스X에 제한적이지만 민감한 궤도 추적 데이터를 제공했다고 보도했다. 보도는 이 접근이 회사에 궤도 물체 추적에서 이점을 줄 수 있고 우주산업 통제와 국가 안보에 관한 새로운 의문을 불러일으킨다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports the US military has granted Elon Musk’s SpaceX access to restricted space‑tracking data. The coverage says the access could give the company an advantage in tracking objects in orbit and raises new questions about control over orbital traffic and national‑security implications."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/oct/25/spacex-access-sensitive-tracking-data",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/oct/25/spacex-access-sensitive-tracking-data"
-        ],
-        "firstPublishedAt": "2026-10-25T12:00:05.000Z",
-        "lastObservedAt": "2026-10-26T06:06:12.045Z"
       }
     }
   ]
