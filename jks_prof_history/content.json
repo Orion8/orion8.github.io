@@ -625,7 +625,19 @@
               "en": "Bomb: designed gameplay and implemented all gameplay functionality."
             }
           ],
-          "source": "Resume_2024_Keeseok_1.pdf, pp. 3–4"
+          "source": "Resume_2024_Keeseok_1.pdf, pp. 3–4",
+          "references": [
+            {
+              "url": "https://www.youtube.com/watch?v=V7qG91Yo-L8",
+              "publisher": "YouTube",
+              "label": {
+                "ko": "플레이 영상",
+                "en": "Gameplay video"
+              },
+              "kind": "video",
+              "checkedAt": "2026-11-20"
+            }
+          ]
         },
         {
           "id": "mobile-research",
