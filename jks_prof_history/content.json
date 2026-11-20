@@ -766,8 +766,8 @@
         "en": "Seoul, Korea"
       },
       "description": {
-        "ko": "Tower of God 액션 RPG의 실시간 전투 전반을 설계하고 행동 트리 기반 캐릭터 행동을 구현했습니다.",
-        "en": "Designed real-time combat system for the Tower of God action RPG and implemented character behavior with behavior trees."
+        "ko": "Tower of God 액션 RPG의 실시간 전투 시스템을 위한 소프트웨어 구조를 설계하고 구현했습니다. 행동 트리를 활용해 캐릭터 행동을 구현했습니다.",
+        "en": "Designed and implemented the software architecture for the real-time combat system in the Tower of God action RPG. Implemented character behavior using behavior trees."
       },
       "projects": [
         "Tower of God · Android / Unity"
