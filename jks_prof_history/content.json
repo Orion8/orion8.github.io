@@ -767,7 +767,7 @@
       },
       "description": {
         "ko": "Tower of God 액션 RPG의 실시간 전투 전반을 설계하고 행동 트리 기반 캐릭터 행동을 구현했습니다.",
-        "en": "Designed real-time combat for the Tower of God action RPG and implemented character behavior with behavior trees."
+        "en": "Designed real-time combat system for the Tower of God action RPG and implemented character behavior with behavior trees."
       },
       "projects": [
         "Tower of God · Android / Unity"
