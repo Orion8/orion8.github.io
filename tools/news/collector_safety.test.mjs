@@ -22,6 +22,7 @@ const existing = {catalogVersion: '1.0.0', updatedAt: timestamp, sourceType: 'ed
 const triage = {articleIndexesByCategory: Object.fromEntries(categories.map((c) => [c, c === 'space' ? [0] : []]))};
 const draft = {events: [{title: '새 관측 결과', titleEn: 'New observation', description: '관측 결과가 발표됐다.',
   descriptionEn: 'Results were announced.', startAt: timestamp, category: 'space', importance: 2,
+  changeSummary: '새 관측에서 고리의 존재를 확인했다.', changeSummaryEn: 'The new observation confirmed the rings.',
   topicIds: ['spaceDevelopment'], sourceIndexes: [0], existingEventId: '', newsStatus: 'resolved'}]};
 
 function harness({env = {}, mode = 'success'} = {}) {
@@ -80,6 +81,8 @@ test('normal two-Luna collection publishes matching bilingual catalog/manifest a
   const manifest = JSON.parse(h.files.get('/synthetic/cdx_time_map/catalog/news_events_manifest.json'));
   assert.equal(catalog.catalogVersion, manifest.revision);
   assert.equal(catalog.events[0].titleTranslations.en, 'New observation');
+  assert.equal(catalog.events[0].newsChangeSummary, draft.events[0].changeSummary);
+  assert.equal(catalog.events[0].newsChangeSummaryTranslations.en, draft.events[0].changeSummaryEn);
   assert.equal(catalog.events[1].id, existing.events[0].id);
   assert.match(h.files.get('/summary'), /"accountedTokens": 300/);
   assert.equal(h.logs.join('').includes('synthetic-secret'), false);

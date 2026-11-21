@@ -53,6 +53,13 @@ test('final news editing defaults to Luna with structured bilingual event output
   assert.equal(request.text.format.type, 'json_schema');
   assert.equal(request.text.format.strict, true);
   assert.match(request.input[0].content, /titleEn and descriptionEn/);
+  for (const level of [1, 2, 3]) {
+    assert.match(request.input[0].content, new RegExp(`importance ${level}`));
+  }
+  assert.match(request.input[0].content, /low confidence is not importance 1/);
+  const required = request.text.format.schema.properties.events.items.required;
+  assert.ok(required.includes('changeSummary'));
+  assert.ok(required.includes('changeSummaryEn'));
 });
 
 test('triage cannot select an index omitted from its bounded context', async () => {
@@ -97,6 +104,7 @@ test('bilingual news updates retain identity and read-state key', () => {
   const candidate = {url: event.sourceUrl, sourceName: event.sourceName, publishedAt: event.startAt};
   const draft = {existingEventId: event.id, title: '한국어 제목', titleEn: 'English title',
     description: '한국어 설명', descriptionEn: 'English summary', startAt: event.startAt,
+    changeSummary: '새 관측으로 고리의 존재를 확인했다.', changeSummaryEn: 'The observation confirmed the rings.',
     category: event.category, importance: event.importance, topicIds: event.topicIds,
     sourceIndexes: [0], newsStatus: event.news.status};
   const f = scriptContext('collect_news.mjs', {});
@@ -107,5 +115,37 @@ test('bilingual news updates retain identity and read-state key', () => {
   assert.equal(result.importance, event.importance);
   assert.equal(result.titleTranslations.en, 'English title');
   assert.equal(result.descriptionTranslations.en, 'English summary');
+  assert.equal(result.newsChangeSummary, draft.changeSummary);
+  assert.equal(result.newsChangeSummaryTranslations.en, draft.changeSummaryEn);
   assert.deepEqual(Array.from(result.topicIds), event.topicIds);
+});
+
+test('legacy catalogs remain valid but a present change summary must be bilingual and single paragraph', () => {
+  const catalog = structuredClone(sampleCatalog);
+  const f = scriptContext('collect_news.mjs', {});
+  const validate = () => vm.runInContext(`validateCatalog(${JSON.stringify(catalog)})`, f.context);
+  validate();
+  const event = catalog.events[0];
+  event.newsChangeSummary = '고리의 존재를 확인했다.';
+  assert.throws(validate, /invalid/);
+  event.newsChangeSummaryTranslations = {en: 'The rings were confirmed.'};
+  validate();
+  event.newsChangeSummaryTranslations.en = 'The rings were confirmed.\nNew paragraph.';
+  assert.throws(validate, /invalid/);
+});
+
+test('every news category has at least three distinct validated publishers', () => {
+  const {sources} = JSON.parse(readFileSync(new URL('news_sources.json', import.meta.url), 'utf8'));
+  const f = scriptContext('collect_news.mjs', {});
+  f.context.configuredSources = sources;
+  vm.runInContext('configuredSources.forEach(validateSource)', f.context);
+  assert.equal(new Set(sources.map((source) => source.id)).size, sources.length);
+  assert.equal(new Set(sources.map((source) => source.feedUrl)).size, sources.length);
+  for (const category of vm.runInContext('allowedCategories', f.context)) {
+    const publishers = new Set(sources
+      .filter((source) => source.defaultCategory === category)
+      .map((source) => source.publisherId));
+    assert.ok(publishers.size >= 3, category);
+  }
+  assert.equal(sources.filter((source) => source.name.startsWith('NPR')).every((source) => source.publisherId === 'npr'), true);
 });

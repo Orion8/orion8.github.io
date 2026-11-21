@@ -206,6 +206,141 @@
       "defaultCategory": "sports",
       "publisherId": "bbc",
       "maxItems": 6
+    },
+    {
+      "id": "pbs-politics",
+      "name": "PBS News Politics",
+      "feedUrl": "https://www.pbs.org/newshour/feeds/rss/politics",
+      "topicIds": ["politicsHumanRights"],
+      "defaultCategory": "politicsSociety",
+      "publisherId": "pbs",
+      "maxItems": 6
+    },
+    {
+      "id": "npr-business",
+      "name": "NPR Business",
+      "feedUrl": "https://feeds.npr.org/1006/rss.xml",
+      "topicIds": ["economyFinance"],
+      "defaultCategory": "economyBusiness",
+      "publisherId": "npr",
+      "maxItems": 6
+    },
+    {
+      "id": "npr-science",
+      "name": "NPR Science",
+      "feedUrl": "https://feeds.npr.org/1007/rss.xml",
+      "topicIds": ["physicsChemistry", "lifeScience"],
+      "defaultCategory": "scienceTechnology",
+      "publisherId": "npr",
+      "maxItems": 6
+    },
+    {
+      "id": "npr-health",
+      "name": "NPR Health",
+      "feedUrl": "https://feeds.npr.org/1128/rss.xml",
+      "topicIds": ["medicineHealth"],
+      "defaultCategory": "globalHealth",
+      "publisherId": "npr",
+      "maxItems": 6
+    },
+    {
+      "id": "kff-health-news",
+      "name": "KFF Health News",
+      "feedUrl": "https://kffhealthnews.org/feed/",
+      "topicIds": ["medicineHealth"],
+      "defaultCategory": "globalHealth",
+      "publisherId": "kff-health-news",
+      "maxItems": 6
+    },
+    {
+      "id": "noaa-news",
+      "name": "NOAA",
+      "feedUrl": "https://www.noaa.gov/rss.xml",
+      "topicIds": ["climateEnvironment"],
+      "defaultCategory": "climateDisaster",
+      "publisherId": "noaa",
+      "maxItems": 6
+    },
+    {
+      "id": "inside-climate-news",
+      "name": "Inside Climate News",
+      "feedUrl": "https://insideclimatenews.org/feed/",
+      "topicIds": ["climateEnvironment"],
+      "defaultCategory": "climateDisaster",
+      "publisherId": "inside-climate-news",
+      "maxItems": 6
+    },
+    {
+      "id": "npr-arts",
+      "name": "NPR Arts & Culture",
+      "feedUrl": "https://feeds.npr.org/1008/rss.xml",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "cultureEntertainment",
+      "publisherId": "npr",
+      "maxItems": 6
+    },
+    {
+      "id": "variety-film",
+      "name": "Variety Film",
+      "feedUrl": "https://variety.com/v/film/feed/",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "cultureEntertainment",
+      "publisherId": "variety",
+      "maxItems": 6
+    },
+    {
+      "id": "streetsblog-usa",
+      "name": "Streetsblog USA",
+      "feedUrl": "https://usa.streetsblog.org/feed",
+      "topicIds": ["urbanDevelopment"],
+      "defaultCategory": "urbanDevelopment",
+      "publisherId": "streetsblog-usa",
+      "maxItems": 6
+    },
+    {
+      "id": "smart-cities-dive",
+      "name": "Smart Cities Dive",
+      "feedUrl": "https://www.smartcitiesdive.com/feeds/news/",
+      "topicIds": ["urbanDevelopment"],
+      "defaultCategory": "urbanDevelopment",
+      "publisherId": "smart-cities-dive",
+      "maxItems": 6
+    },
+    {
+      "id": "espn-headlines",
+      "name": "ESPN",
+      "feedUrl": "https://www.espn.com/espn/rss/news",
+      "topicIds": ["sportsHistory"],
+      "defaultCategory": "sports",
+      "publisherId": "espn",
+      "maxItems": 6
+    },
+    {
+      "id": "cbs-sports",
+      "name": "CBS Sports",
+      "feedUrl": "https://www.cbssports.com/rss/headlines/",
+      "topicIds": ["sportsHistory"],
+      "defaultCategory": "sports",
+      "publisherId": "cbs-sports",
+      "maxItems": 6
+    },
+    {
+      "id": "spacenews",
+      "name": "SpaceNews",
+      "feedUrl": "https://spacenews.com/feed/",
+      "topicIds": ["spaceDevelopment"],
+      "defaultCategory": "space",
+      "publisherId": "spacenews",
+      "maxItems": 6
+    },
+    {
+      "id": "space-com",
+      "name": "Space.com",
+      "feedUrl": "https://www.space.com/feeds/all",
+      "topicIds": ["spaceDevelopment"],
+      "defaultCategory": "space",
+      "publisherId": "space-com",
+      "maxItems": 6
     }
   ]
 }

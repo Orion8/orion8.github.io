@@ -29,6 +29,7 @@ const maximumEventsPerCategory = Number(
   process.env.NEWS_MAX_EVENTS_PER_CATEGORY ?? 8,
 );
 const dryRun = process.env.NEWS_DRY_RUN === '1';
+const rssConcurrency = 4;
 
 const allowedTopicIds = new Set([
   'computerHistory', 'mathHistory', 'semiconductor', 'internetWeb',
@@ -173,9 +174,12 @@ async function collectArticles(sources) {
   const seenUrls = new Set();
   const results = [];
   let successfulSources = 0;
-  for (const source of sources) {
+  for (let offset = 0; offset < sources.length; offset += rssConcurrency) {
     budget().check();
-    try {
+    // Bound simultaneous requests while preserving configured order for URL
+    // deduplication, regardless of which feed responds first.
+    const batch = sources.slice(offset, offset + rssConcurrency);
+    const outcomes = await Promise.allSettled(batch.map(async (source) => {
       validateSource(source);
       const xml = await budget().timed(budget().limits.rssTimeoutMs, async (signal) => {
         const response = await fetch(source.feedUrl, {
@@ -184,19 +188,24 @@ async function collectArticles(sources) {
         if (!response.ok) { await response.body?.cancel(); throw new NewsRunError('rss_http_error'); }
         return readBoundedText(response, 2000000);
       }, 'rss_timeout');
-      const parsed = parseRss(xml, source)
+      return parseRss(xml, source)
         .filter((article) => Date.parse(article.publishedAt) >= cutoff)
         .slice(0, source.maxItems ?? 10);
+    }));
+    budget().check(); // A whole-run timeout must not become a skipped source.
+    for (const [index, outcome] of outcomes.entries()) {
+      const source = batch[index];
+      if (outcome.status === 'rejected') {
+        console.warn(`RSS source skipped: ${source?.id ?? 'unknown'} (${stopCode(outcome.reason)}).`);
+        continue;
+      }
       successfulSources++;
-      for (const article of parsed) {
+      for (const article of outcome.value) {
         if (seenUrls.has(article.url)) continue;
         seenUrls.add(article.url);
         results.push(article);
       }
-      console.log(`${source.name}: ${parsed.length} recent article(s).`);
-    } catch (error) {
-      budget().check(); // A whole-run timeout must not become a skipped source.
-      console.warn(`RSS source skipped (${stopCode(error)}).`);
+      console.log(`${source.name}: ${outcome.value.length} recent article(s).`);
     }
   }
   if (successfulSources === 0) throw new NewsRunError('rss_unavailable');
@@ -350,12 +359,13 @@ async function triageWithOpenAI(candidates) {
     name: 'time_map_news_triage',
     developerInstructions: [
       'You are the low-cost first-pass editor for a timeline app.',
-      'Select only supplied RSS articles that may represent a durable, broadly meaningful event.',
+      'Select only supplied RSS articles that may document a concrete and durable change, including one that matters deeply within a specialized field.',
+      'Compare what actually changed, the depth or reach of its effect within the relevant field or community, and how long that change is likely to matter. Do not use media attention, publisher prestige, or population size as proxies for importance.',
       'Reject routine product announcements, opinion posts, recaps, and duplicate updates.',
       'For continuing conflicts or crises, reject routine daily attacks, statements, reactions, and incremental casualty updates unless they indicate a materially new phase.',
       'Evaluate every supplied field fairly; do not favor AI or technology over society, economy, science, culture, health, climate, cities, sports, or space.',
       'Return a separate array for every defaultCategory. Choose at most two articles in each field, only when genuinely important. Empty arrays are correct when a field has no strong event.',
-      'When uncertain, include an article so a stronger editor can decide; never invent facts.',
+      'If a concrete change is supported but its significance is unclear, you may pass it for review. Do not select unsupported claims as confirmed facts.',
     ].join(' '),
     userPayload: {
       candidateArticles: candidates.map((article, index) => ({index, ...article})),
@@ -412,12 +422,16 @@ async function organizeWithOpenAI({candidates, existingEvents}) {
     developerInstructions: [
       'You are a careful news editor for a timeline app.',
       'Use only the supplied RSS articles as factual evidence.',
-      'Return only events of broad, durable importance; omit product marketing and routine posts.',
+      'First verify that the supplied evidence supports a concrete change. Omit speculation, unsupported claims, repeat coverage without a new development, product marketing, and routine posts; low confidence is not importance 1.',
+      'Assess what actually changed, whom or what it affects within the relevant field or community, and how long it is likely to matter. Do not reward fame, coverage volume, source geography, or audience size. A verified result can be field-defining without affecting the general public.',
+      'Use importance 1 for a concrete, lasting development with limited scope (for example, a city launches a pilot on selected routes); importance 2 for a substantive change to how an affected community or field operates or understands something (for example, a city makes its pilot network permanent); importance 3 only for a rare turning point that can define a before and after in its field (for example, independent verification of the proof of a long-standing major mathematical conjecture). Do not force a distribution.',
+      'Order new events by descending importance within each category so publication limits keep the strongest events.',
       'Retain meaningful events across society, economy, science, culture, health, climate, cities, sports, space, AI, and broader technology/computing rather than concentrating on one field.',
       'Treat AI and broader technology/computing as distinct beats. Preserve the supplied topic tags for each source and do not relabel ordinary computing, semiconductor, internet, security, or robotics news as AI.',
       'For a continuing conflict or crisis, create a new event only for a materially new phase such as a formal agreement, major territorial or legal change, decisive outcome, or major verified humanitarian shift. Prefer existingEventId for a meaningful update; omit routine daily attacks, statements, reactions, and incremental updates.',
       'Cluster duplicate coverage into one event.',
       'Write title and description in Korean, and titleEn and descriptionEn as faithful natural English versions of the same facts. Preserve proper names and do not add facts during translation.',
+      'Write changeSummary in Korean and changeSummaryEn in natural English. Each must be one short standalone sentence saying exactly what is newly confirmed, decided, achieved, or put into effect, or the specific confirmed development in an update. Add useful specifics from the evidence instead of restating the headline. No label, line break, unsupported consequence, or score. Keep Korean under 100 characters and English under 160 characters where possible.',
       'Use a supplied source index for every event. Do not invent URLs, dates, sources, facts, or tags.',
       'Choose an existingEventId only when a candidate is a genuine update to that existing event.',
     ].join(' '),
@@ -454,7 +468,7 @@ const eventSchema = {
         additionalProperties: false,
         required: [
           'title', 'titleEn', 'description', 'descriptionEn', 'startAt', 'category', 'importance',
-          'topicIds', 'sourceIndexes', 'existingEventId', 'newsStatus',
+          'topicIds', 'sourceIndexes', 'existingEventId', 'newsStatus', 'changeSummary', 'changeSummaryEn',
         ],
         properties: {
           title: {type: 'string'},
@@ -464,6 +478,8 @@ const eventSchema = {
           startAt: {type: 'string'},
           category: {type: 'string', enum: [...allowedCategories]},
           importance: {type: 'integer', enum: [1, 2, 3]},
+          changeSummary: {type: 'string'},
+          changeSummaryEn: {type: 'string'},
           topicIds: {
             type: 'array',
             items: {type: 'string', enum: [...allowedTopicIds]},
@@ -593,6 +609,8 @@ function mergeEvents({existingEvents, candidates, draftEvents}) {
       lane: 'world',
       category: draft.category,
       importance: draft.importance,
+      newsChangeSummary: draft.changeSummary.trim(),
+      newsChangeSummaryTranslations: {en: draft.changeSummaryEn.trim()},
       description: truncate(draft.description.trim(), 420),
       descriptionTranslations: {
         ...(previous?.descriptionTranslations ?? {}),
@@ -622,6 +640,8 @@ function validateDraft(draft, candidates, existingEvents) {
   if (typeof draft.titleEn !== 'string' || !draft.titleEn.trim()) invalidFields.push('titleEn');
   if (typeof draft.description !== 'string' || !draft.description.trim()) invalidFields.push('description');
   if (typeof draft.descriptionEn !== 'string' || !draft.descriptionEn.trim()) invalidFields.push('descriptionEn');
+  if (!validChangeSummary(draft.changeSummary)) invalidFields.push('changeSummary');
+  if (!validChangeSummary(draft.changeSummaryEn)) invalidFields.push('changeSummaryEn');
   if (!Number.isFinite(Date.parse(draft.startAt))) invalidFields.push('startAt');
   if (!allowedCategories.has(draft.category)) invalidFields.push('category');
   if (!Number.isInteger(draft.importance) || draft.importance < 1 || draft.importance > 3) {
@@ -664,6 +684,7 @@ function validateCatalog(catalog) {
         typeof event.sourceName !== 'string' || !event.sourceName ||
         !localizedValue(event.titleTranslations, 'en') ||
         !localizedValue(event.descriptionTranslations, 'en') ||
+        !validCatalogChangeSummary(event) ||
         !isHttpsUrl(event.sourceUrl) || !Array.isArray(event.topicIds) ||
         event.topicIds.length === 0 || event.topicIds.some((topic) => !allowedTopicIds.has(topic)) ||
         !event.news || !Array.isArray(event.news.sourceUrls) ||
@@ -672,6 +693,18 @@ function validateCatalog(catalog) {
     }
     ids.add(event.id);
   }
+}
+
+function validChangeSummary(value) {
+  return typeof value === 'string' && value.trim().length > 0 &&
+    value.trim().length <= 300 && !/[\r\n\u2028\u2029]/.test(value.trim());
+}
+
+function validCatalogChangeSummary(event) {
+  if (!Object.hasOwn(event, 'newsChangeSummary') &&
+      !Object.hasOwn(event, 'newsChangeSummaryTranslations')) return true;
+  return validChangeSummary(event.newsChangeSummary) &&
+    validChangeSummary(event.newsChangeSummaryTranslations?.en);
 }
 
 function localizedValue(value, languageCode) {
