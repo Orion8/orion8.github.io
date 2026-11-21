@@ -5,6 +5,7 @@ import path from 'node:path';
 import vm from 'node:vm';
 import test from 'node:test';
 import {NewsRunBudget, NewsRunError, readBoundedText, stopCode} from './run_limits.mjs';
+import {admitNewsRun} from './news_slot_guard.mjs';
 
 const source = readFileSync(new URL('collect_news.mjs', import.meta.url), 'utf8')
   .replace(/^import .*;\r?\n/gm, '').split('\nmain().catch(')[0];
@@ -25,7 +26,7 @@ const draft = {events: [{title: '새 관측 결과', titleEn: 'New observation',
   changeSummary: '새 관측에서 고리의 존재를 확인했다.', changeSummaryEn: 'The new observation confirmed the rings.',
   topicIds: ['spaceDevelopment'], sourceIndexes: [0], existingEventId: '', newsStatus: 'resolved'}]};
 
-function harness({env = {}, mode = 'success'} = {}) {
+function harness({env = {}, mode = 'success', guard} = {}) {
   const catalogPath = '/synthetic/cdx_time_map/catalog/news_events.json';
   const manifestPath = '/synthetic/cdx_time_map/catalog/news_events_manifest.json';
   const originalCatalog = JSON.stringify(existing);
@@ -35,7 +36,7 @@ function harness({env = {}, mode = 'success'} = {}) {
   const requests = [];
   let rssCalls = 0;
   const context = vm.createContext({path, createHash, URL, Buffer, structuredClone,
-    NewsRunBudget, NewsRunError, readBoundedText, stopCode,
+    NewsRunBudget, NewsRunError, readBoundedText, stopCode, admitNewsRun,
     console: {log: (v) => logs.push(v), warn: (v) => logs.push(v)},
     process: {cwd: () => '/synthetic', env: {OPENAI_API_KEY: 'synthetic-secret', GITHUB_STEP_SUMMARY: '/summary', ...env}},
     readFile: async (name) => {
@@ -47,6 +48,10 @@ function harness({env = {}, mode = 'success'} = {}) {
     mkdir: async () => {},
     writeFile: async (name, value) => files.set(name, value),
     fetch: async (url, options) => {
+      if (url === 'https://mnuyvyrhctsuwagtgtwl.supabase.co/functions/v1/news-slot-guard') {
+        if (!guard) throw new Error('unexpected slot guard');
+        return guard(JSON.parse(options.body), options);
+      }
       if (url !== 'https://api.openai.com/v1/responses') {
         rssCalls++;
         if (mode === 'rss_failure') throw new Error('synthetic-secret');
@@ -71,6 +76,72 @@ function harness({env = {}, mode = 'success'} = {}) {
     },
   };
 }
+
+const guardedEnv = {
+  NEWS_EXECUTION_MODE: 'guarded', NEWS_SLOT_ID: '2026-11-21/06:00',
+  NEWS_SLOT_GUARD_TOKEN: 'f'.repeat(64), GITHUB_RUN_ID: '110',
+  GITHUB_RUN_ATTEMPT: '1', GITHUB_EVENT_NAME: 'workflow_dispatch',
+  GITHUB_REF: 'refs/heads/main',
+};
+
+function guardFixture() {
+  const slots = new Set();
+  return (input, options) => {
+    assert.equal(options.headers['x-momentatlas-news-guard'], guardedEnv.NEWS_SLOT_GUARD_TOKEN);
+    assert.equal(options.redirect, 'error');
+    if (slots.has(input.slot)) return new Response(null, {status: 409});
+    slots.add(input.slot);
+    return new Response(null, {status: 201});
+  };
+}
+
+test('simultaneous dispatches and later reruns cannot start a second paid pipeline', async () => {
+  const guard = guardFixture();
+  const first = harness({env: guardedEnv, guard});
+  const second = harness({env: {...guardedEnv, GITHUB_RUN_ID: '111'}, guard});
+  await Promise.all([first.run(), second.run()]);
+  assert.deepEqual([first.requests.length, second.requests.length].sort(), [0, 2]);
+  const skipped = first.requests.length === 0 ? first : second;
+  assert.equal(skipped.rssCalls, 0);
+  skipped.assertPreserved();
+  assert.match(skipped.files.get('/summary'), /news_slot_already_claimed/);
+  const rerun = harness({env: {...guardedEnv, GITHUB_RUN_ATTEMPT: '2'}, guard});
+  await rerun.run();
+  assert.equal(rerun.requests.length, 0);
+  rerun.assertPreserved();
+});
+
+test('a lost AI response does not release the slot for the paid dry run or rerun', async () => {
+  const guard = guardFixture();
+  const first = harness({env: {...guardedEnv, NEWS_AI_TIMEOUT_MS: '10'}, mode: 'timeout', guard});
+  await assert.rejects(first.run(), /ai_timeout/);
+  assert.equal(first.requests.length, 1);
+  assert.match(first.files.get('/summary'), /"unknownUsageCalls": 1/);
+  const retry = harness({env: {...guardedEnv, NEWS_DRY_RUN: '1', GITHUB_RUN_ATTEMPT: '2'}, guard});
+  await retry.run();
+  assert.equal(retry.requests.length, 0);
+  retry.assertPreserved();
+});
+
+test('no AI on unproven, unconfigured, or disallowed collection admission', async () => {
+  for (const [env, status, code] of [
+    [guardedEnv, 503, 'news_slot_guard_unavailable'],
+    [guardedEnv, 200, 'news_slot_guard_unavailable'],
+    [{...guardedEnv, NEWS_SLOT_GUARD_TOKEN: ''}, 201, 'news_slot_guard_unavailable'],
+    [{...guardedEnv, NEWS_SLOT_ID: ''}, 201, 'news_slot_required'],
+    [{...guardedEnv, GITHUB_EVENT_NAME: 'schedule'}, 201, 'news_slot_required'],
+    [{...guardedEnv, GITHUB_REF: 'refs/heads/feature'}, 201, 'news_slot_required'],
+    [{...guardedEnv, NEWS_EXECUTION_MODE: ''}, 201, 'news_slot_guard_inactive'],
+    [{GITHUB_RUN_ATTEMPT: '2'}, 201, 'news_legacy_rerun_blocked'],
+  ]) {
+    const h = harness({env, guard: () => new Response(null, {status})});
+    await assert.rejects(h.run(), new RegExp(code));
+    assert.equal(h.requests.length, 0);
+    assert.equal(h.rssCalls, 0);
+    h.assertPreserved();
+    assert.equal(h.files.get('/summary').includes(guardedEnv.NEWS_SLOT_GUARD_TOKEN), false);
+  }
+});
 
 test('normal two-Luna collection publishes matching bilingual catalog/manifest and safe usage report', async () => {
   const h = harness();

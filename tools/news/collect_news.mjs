@@ -3,6 +3,7 @@ import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 import {NewsRunBudget, NewsRunError, readBoundedText, stopCode} from './run_limits.mjs';
+import {admitNewsRun} from './news_slot_guard.mjs';
 
 const root = process.cwd();
 const outputDirectory = path.resolve(
@@ -58,8 +59,15 @@ function budget() { return activeBudget ??= new NewsRunBudget(process.env); }
 async function main() {
   let status = 'failed';
   let code = null;
+  let admission;
   try {
     budget(); // Validate limits and start the whole-run deadline before RSS.
+    admission = await admitNewsRun({env: process.env, fetchImpl: fetch});
+    if (admission === 'already_claimed') {
+      status = 'skipped';
+      code = 'news_slot_already_claimed';
+      return;
+    }
     await collectNews();
     budget().check();
     status = 'completed';
@@ -68,6 +76,7 @@ async function main() {
     throw error;
   } finally {
     const report = activeBudget?.report(status, code) ?? {status, stopCode: 'invalid_limits'};
+    if (admission) report.admission = admission;
     activeBudget?.close();
     console.log(`News run report: ${JSON.stringify(report)}`);
     if (process.env.GITHUB_STEP_SUMMARY) {
