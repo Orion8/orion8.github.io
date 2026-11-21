@@ -12,7 +12,9 @@ const codes=new Set(['workflow_inactive','schedule_changed','attempt_failed','fi
   'configuration_valid','news_observation_unavailable','endpoint_available','database_observation_unavailable',
   'synthetic_notification_test','synthetic_test_finished','monitor_auth_failed',
   'weather_observation_unavailable','weather_metrics_disabled','weather_warming_up',
-  'weather_low_traffic','weather_repeated_unavailable','weather_repeated_rate_limit','weather_healthy']);
+  'weather_low_traffic','weather_repeated_unavailable','weather_repeated_rate_limit','weather_healthy',
+  'slot_completed_published','slot_completed_no_change','slot_claim_missing',
+  'slot_claim_incomplete','slot_claim_running','slot_observation_unavailable']);
 const iso=(t)=>new Date(t).toISOString();
 const time=(v)=>typeof v==='string' && Number.isFinite(Date.parse(v))?Date.parse(v):null;
 const result=(key,state,code,extra={})=>({key,state,code,...extra});
@@ -52,6 +54,38 @@ export function newsCheck({runs,from,now,workflowActive=true,scheduleMatches=tru
     return result('news',age>30*60000?'alert':'pending',age>30*60000?'attempt_stalled':'attempt_running');
   }
   return result('news',attempt.conclusion==='success'?'ok':'alert',attempt.conclusion==='success'?'scheduled_success':'attempt_failed');
+}
+
+export function guardedNewsCheck({snapshot,from,now}) {
+  const start=time(from), observed=time(snapshot?.observed_at), records=snapshot?.news_slots;
+  if(start===null || observed===null || Math.abs(now-observed)>5*60000 ||
+    records?.schema_version!==1 || !Array.isArray(records.slots) || records.slots.length>16) {
+    throw new Error('news_slot_schema');
+  }
+  const claims=new Map();
+  for(const r of records.slots){
+    const slot=time(r?.slot_at), claimed=time(r?.claimed_at), completed=time(r?.completed_at);
+    if(slot===null || claimed===null || claimed<slot || claimed>observed || claims.has(slot)) {
+      throw new Error('news_slot_schema');
+    }
+    if(r.completed_at===null){
+      if(r.outcome!==null || r.catalog_revision!==null)throw new Error('news_slot_schema');
+    }else if(completed===null || completed<claimed || completed>observed || completed-claimed>20*60000 ||
+      !['published','no_change'].includes(r.outcome) ||
+      typeof r.catalog_revision!=='string' || !/^[0-9]{1,8}\.[0-9]{1,8}\.[0-9]{1,8}$/.test(r.catalog_revision)) {
+      throw new Error('news_slot_schema');
+    }
+    claims.set(slot,{claimed,completed,outcome:r.outcome});
+  }
+  const due=pacificSlots(now).filter(t=>t>=start && t<=now-90*60000).at(-1);
+  if(due===undefined)return result('news','pending','first_slot_or_grace');
+  const claim=claims.get(due), info={due:iso(due)};
+  if(!claim)return result('news','alert','slot_claim_missing',info);
+  if(claim.completed===null) {
+    const late=now-claim.claimed>=20*60000;
+    return result('news',late?'alert':'pending',late?'slot_claim_incomplete':'slot_claim_running',info);
+  }
+  return result('news','ok',claim.outcome==='published'?'slot_completed_published':'slot_completed_no_change',info);
 }
 
 export function databaseChecks(snapshot,now) {
@@ -166,6 +200,8 @@ export async function notificationSelfTest(api,now){
 async function main(){
   const now=Date.now();const api=githubClient(process.env.GITHUB_TOKEN);
   let checks=[];
+  const mode=process.env.TIME_MAP_NEWS_EXECUTION_MODE || 'legacy';
+  let observeGuarded=false;
   const paused=time(process.env.TIME_MAP_MONITOR_PAUSED_UNTIL);
   if(process.env.TIME_MAP_MONITOR_PAUSED_UNTIL && paused===null)throw new Error('configuration');
   if(paused!==null && paused>now){console.log('Monitor paused for planned maintenance.');return;}
@@ -173,16 +209,24 @@ async function main(){
     const workflow=await api('GET','/actions/workflows/collect-time-map-news.yml');
     const file=await api('GET','/contents/.github/workflows/collect-time-map-news.yml?ref=main');
     const yaml=Buffer.from(file.content,'base64').toString('utf8');
-    let runs=[];
-    for(let page=1;page<=3;page++){
-      const data=await api('GET',`/actions/workflows/collect-time-map-news.yml/runs?branch=main&per_page=100&page=${page}`);
-      if(!Array.isArray(data.workflow_runs))throw new Error('github_schema');
-      runs.push(...data.workflow_runs);
-      if(data.workflow_runs.length<100 || data.workflow_runs.some(r=>time(r.created_at)!==null && time(r.created_at)<now-4*86400000))break;
-      if(page===3)throw new Error('history_limit');
+    if(mode!=='legacy' && mode!=='guarded')throw new Error('configuration');
+    if(mode==='guarded'){
+      if(time(process.env.TIME_MAP_NEWS_GUARDED_FROM)===null)throw new Error('configuration');
+      if(workflow.state!=='active')checks.push(result('news','alert','workflow_inactive'));
+      else if(/^\s{2}schedule\s*:/m.test(yaml))checks.push(result('news','alert','schedule_changed'));
+      else observeGuarded=true;
+    }else{
+      let runs=[];
+      for(let page=1;page<=3;page++){
+        const data=await api('GET',`/actions/workflows/collect-time-map-news.yml/runs?branch=main&per_page=100&page=${page}`);
+        if(!Array.isArray(data.workflow_runs))throw new Error('github_schema');
+        runs.push(...data.workflow_runs);
+        if(data.workflow_runs.length<100 || data.workflow_runs.some(r=>time(r.created_at)!==null && time(r.created_at)<now-4*86400000))break;
+        if(page===3)throw new Error('history_limit');
+      }
+      checks.push(newsCheck({runs,now,from:process.env.TIME_MAP_MONITOR_FROM,workflowActive:workflow.state==='active',
+        scheduleMatches:/cron: ['"]0 6,18 \* \* \*['"]/.test(yaml) && /timezone: ['"]America\/Los_Angeles['"]/.test(yaml)}));
     }
-    checks.push(newsCheck({runs,now,from:process.env.TIME_MAP_MONITOR_FROM,workflowActive:workflow.state==='active',
-      scheduleMatches:/cron: ['"]0 6,18 \* \* \*['"]/.test(yaml) && /timezone: ['"]America\/Los_Angeles['"]/.test(yaml)}));
     checks.push(result('configuration','ok','configuration_valid'));
   } catch {checks.push(result('configuration','alert','news_observation_unavailable'));}
   let databaseError='database_observation_unavailable';
@@ -194,6 +238,10 @@ async function main(){
     if(!r.ok){if([401,403].includes(r.status))databaseError='monitor_auth_failed';await r.body?.cancel();throw new Error('database_api');}
     const snapshot=await r.json();
     checks.push(...databaseChecks(snapshot,now),result('database','ok','endpoint_available'));
+    if(observeGuarded){
+      try {checks.push(guardedNewsCheck({snapshot,from:process.env.TIME_MAP_NEWS_GUARDED_FROM,now}));}
+      catch {checks.push(result('news','alert','slot_observation_unavailable'));}
+    }
     try {checks.push(weatherCheck(snapshot,now));}
     catch {checks.push(result('weather_service','alert','weather_observation_unavailable'));}
     // Sanitized aggregate counts only; never raw RPC output.
@@ -205,7 +253,10 @@ async function main(){
       console.log(JSON.stringify({weatherLast24h:report}));
       if(process.env.GITHUB_STEP_SUMMARY)await appendFile(process.env.GITHUB_STEP_SUMMARY,`## Weather (last 24h, observed completions)\n\n\`\`\`json\n${JSON.stringify(report,null,2)}\n\`\`\`\n`);
     }
-  }catch {checks.push(result('database','alert',databaseError));}
+  }catch {
+    checks.push(result('database','alert',databaseError));
+    if(observeGuarded)checks.push(result('news','alert','slot_observation_unavailable'));
+  }
   // Label creation is idempotent via lookup. It requires only issues:write.
   try {await api('GET',`/labels/${label}`);}catch{await api('POST','/labels',{name:label,color:'d97706',description:'MomentAtlas automation incidents (sanitized)'});}
   await reconcile(api,checks,now);

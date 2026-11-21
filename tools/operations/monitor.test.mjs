@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFileSync} from 'node:fs';
-import {pacificSlots,newsCheck,databaseChecks,weatherCheck,reconcile,githubClient,notificationSelfTest} from './monitor.mjs';
+import {pacificSlots,newsCheck,guardedNewsCheck,databaseChecks,weatherCheck,reconcile,githubClient,notificationSelfTest} from './monitor.mjs';
 const at=Date.parse;
 const weatherFixture=()=>({observed_at:'2026-11-18T04:05:00Z',weather:{schema_version:1,enabled:true,enabled_at:'2026-11-18T01:00:00Z',windows:[
   {start:'2026-11-18T03:00:00Z',end:'2026-11-18T03:30:00Z',requests:10,cached:7,upstream:3,limited:0,busy:0,unavailable:0},
@@ -58,6 +58,29 @@ test('authentication-only probes neither raise nor resolve a collection incident
     display_title:'News slot authentication probe (no AI)'};
   assert.equal(newsCheck({...args,runs:[scheduled,probe]}).state,'ok');
   assert.equal(newsCheck({...args,runs:[{...probe,conclusion:'success'}]}).code,'scheduled_attempt_missing');
+});
+test('guarded monitor requires the actual due slot receipt, not an older success or claim',()=>{
+  const was='2026-11-21T02:00:00Z', due='2026-11-21T14:00:00Z';
+  const now=at('2026-11-21T16:00:00Z');
+  const old={slot_at:was,claimed_at:'2026-11-21T02:00:02Z',
+    completed_at:'2026-11-21T02:01:00Z',outcome:'published',catalog_revision:'1.0.0'};
+  const claim={slot_at:due,claimed_at:'2026-11-21T14:00:04Z',
+    completed_at:null,outcome:null,catalog_revision:null};
+  const check=(slots, overrides={})=>guardedNewsCheck({
+    snapshot:{observed_at:'2026-11-21T16:00:01Z',news_slots:{schema_version:1,slots}},
+    from:was,now,...overrides,
+  });
+  assert.equal(check([old],{from:'2026-11-22T02:00:00Z'}).code,'first_slot_or_grace');
+  assert.equal(check([old]).code,'slot_claim_missing');
+  assert.equal(check([old,claim]).code,'slot_claim_incomplete');
+  assert.equal(check([old,{...claim,claimed_at:'2026-11-21T15:59:00Z'}]).code,'slot_claim_running');
+  for(const outcome of ['published','no_change']){
+    const done={...claim,completed_at:'2026-11-21T14:01:00Z',outcome,catalog_revision:'1.0.2'};
+    assert.equal(check([old,done]).code,'slot_completed_'+outcome);
+  }
+  assert.throws(()=>check([old,{...claim,outcome:'no_change'}]), /news_slot_schema/);
+  assert.throws(()=>check([old,claim,claim]), /news_slot_schema/);
+  assert.throws(()=>check([old],{now:at('2026-11-21T16:10:00Z')}), /news_slot_schema/);
 });
 test('explicit failure/cancellation and stalled attempts alert, configuration drift alerts',()=>{
   const args={from:'2026-11-18T00:00:00Z',now:at('2026-11-18T04:00:00Z')};

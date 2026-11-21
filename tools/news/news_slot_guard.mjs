@@ -27,7 +27,7 @@ export async function admitNewsRun({env = process.env, fetchImpl = fetch} = {}) 
   throw new NewsRunError('news_slot_guard_unavailable');
 }
 
-export async function requestSlotClaim({env = process.env, fetchImpl = fetch, slot}) {
+export async function requestSlotClaim({env = process.env, fetchImpl = fetch, slot, receipt}) {
   if (!slotPattern.test(slot) || env.GITHUB_EVENT_NAME !== 'workflow_dispatch' ||
       env.GITHUB_REF !== 'refs/heads/main' ||
       !/^[1-9][0-9]{0,17}$/.test(env.GITHUB_RUN_ID ?? '') ||
@@ -56,7 +56,10 @@ export async function requestSlotClaim({env = process.env, fetchImpl = fetch, sl
     const res = await fetchImpl(guardUrl, {
       method: 'POST', redirect: 'error', signal: AbortSignal.timeout(8000),
       headers: {'Content-Type': 'application/json', 'x-momentatlas-news-identity': token},
-      body: JSON.stringify({slot, runId: env.GITHUB_RUN_ID, attempt: env.GITHUB_RUN_ATTEMPT}),
+      body: JSON.stringify({
+        slot, runId: env.GITHUB_RUN_ID, attempt: env.GITHUB_RUN_ATTEMPT,
+        ...(receipt ? {outcome: receipt.outcome, revision: receipt.revision} : {}),
+      }),
     });
     // Only the pinned endpoint's explicit response codes grant permission.
     void res.body?.cancel().catch(() => {});

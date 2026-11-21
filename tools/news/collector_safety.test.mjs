@@ -38,7 +38,9 @@ function harness({env = {}, mode = 'success', guard} = {}) {
   const context = vm.createContext({path, createHash, URL, Buffer, structuredClone,
     NewsRunBudget, NewsRunError, readBoundedText, stopCode, admitNewsRun,
     console: {log: (v) => logs.push(v), warn: (v) => logs.push(v)},
-    process: {cwd: () => '/synthetic', env: {OPENAI_API_KEY: 'synthetic-secret', GITHUB_STEP_SUMMARY: '/summary', ...env}},
+    process: {cwd: () => '/synthetic', env: {
+      OPENAI_API_KEY: 'synthetic-secret', GITHUB_STEP_SUMMARY: '/summary', GITHUB_OUTPUT: '/outputs', ...env,
+    }},
     readFile: async (name) => {
       if (name.endsWith('news_sources.json')) return JSON.stringify({sources: [{id: 'synthetic', name: 'Synthetic source',
         feedUrl: 'https://example.org/feed', topicIds: ['spaceDevelopment'], defaultCategory: 'space'}]});
@@ -61,7 +63,8 @@ function harness({env = {}, mode = 'success', guard} = {}) {
       if (url !== 'https://api.openai.com/v1/responses') {
         rssCalls++;
         if (mode === 'rss_failure') throw new Error('synthetic-secret');
-        return new Response(`<rss><channel><item><title>New observation</title><link>https://example.org/new</link><pubDate>${timestamp}</pubDate><description>New verified results.</description></item></channel></rss>`);
+        const slug = mode === 'already_published' ? 'existing' : 'new';
+        return new Response(`<rss><channel><item><title>New observation</title><link>https://example.org/${slug}</link><pubDate>${timestamp}</pubDate><description>New verified results.</description></item></channel></rss>`);
       }
       const body = JSON.parse(options.body);
       requests.push(body);
@@ -112,6 +115,7 @@ test('simultaneous dispatches and later reruns cannot start a second paid pipeli
   assert.equal(skipped.rssCalls, 0);
   skipped.assertPreserved();
   assert.match(skipped.files.get('/summary'), /news_slot_already_claimed/);
+  assert.equal(skipped.files.get('/outputs'), 'admission=already_claimed\ndisposition=skipped\n');
   const rerun = harness({env: {...guardedEnv, GITHUB_RUN_ATTEMPT: '2'}, guard});
   await rerun.run();
   assert.equal(rerun.requests.length, 0);
@@ -172,6 +176,15 @@ test('dry run validates both passes without writing either live catalog file', a
   await h.run();
   h.assertPreserved();
   assert.equal(h.requests.length, 2);
+  assert.equal(h.files.get('/outputs'), 'admission=legacy\ndisposition=dry_run\n');
+});
+
+test('a successful no-change run has distinct output without AI or preview publication', async () => {
+  const h = harness({mode: 'already_published', env: guardedEnv, guard: guardFixture()});
+  await h.run();
+  h.assertPreserved();
+  assert.equal(h.requests.length, 0);
+  assert.equal(h.files.get('/outputs'), 'admission=claimed\ndisposition=no_change\n');
 });
 
 for (const [mode, env, expected] of [
@@ -214,8 +227,15 @@ test('context packing preserves candidate indexes and balances category omission
 test('workflow has a job deadline, safe tests before paid work and success-gated publishing', () => {
   assert.match(workflow, /timeout-minutes: 12/);
   assert.match(workflow, /node --test tools\/news\/\*\.test\.mjs/);
-  assert.match(workflow, /if: \$\{\{ success\(\) && !inputs.dry_run }}/);
+  assert.match(workflow, /if: \$\{\{ success\(\) && !inputs.dry_run && steps.collection.outputs.admission != 'already_claimed' }}/);
   assert.match(workflow, /NEWS_MAX_AI_CALLS: '2'/);
+});
+
+test('receipt runs only after the winning collection was successfully published or checked unchanged', () => {
+  assert.match(workflow, /git push\s+printf '%s\\n' 'outcome=published'/);
+  assert.match(workflow, /test "\$NEWS_CATALOG_DISPOSITION" = 'no_change'\s+printf '%s\\n' 'outcome=no_change'/);
+  assert.match(workflow, /!inputs.dry_run && steps.collection.outputs.admission == 'claimed' && steps.publication.outcome == 'success'/);
+  assert.match(workflow, /NEWS_CATALOG_OUTCOME: \$\{\{ steps.publication.outputs.outcome }}/);
 });
 
 test('authentication probe has no shared secret, no OpenAI key and disables the collector job', () => {

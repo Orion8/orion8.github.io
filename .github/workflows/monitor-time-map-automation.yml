@@ -38,6 +38,8 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           MOMENTATLAS_MONITOR_TOKEN: ${{ secrets.MOMENTATLAS_MONITOR_TOKEN }}
           TIME_MAP_MONITOR_FROM: ${{ vars.TIME_MAP_MONITOR_FROM }}
+          TIME_MAP_NEWS_EXECUTION_MODE: ${{ vars.TIME_MAP_NEWS_EXECUTION_MODE }}
+          TIME_MAP_NEWS_GUARDED_FROM: ${{ vars.TIME_MAP_NEWS_GUARDED_FROM }}
           TIME_MAP_MONITOR_PAUSED_UNTIL: ${{ vars.TIME_MAP_MONITOR_PAUSED_UNTIL }}
           MONITOR_SELF_TEST: ${{ inputs.self_test && '1' || '0' }}
         run: node tools/operations/monitor.mjs

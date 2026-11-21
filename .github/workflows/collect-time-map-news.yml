@@ -56,6 +56,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           persist-credentials: true
 
       - uses: actions/setup-node@v4
@@ -75,6 +76,7 @@ jobs:
           }
 
       - name: Collect, cluster, validate, and write news events
+        id: collection
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           NEWS_EXECUTION_MODE: ${{ vars.TIME_MAP_NEWS_EXECUTION_MODE }}
@@ -106,11 +108,29 @@ jobs:
         run: node tools/news/collect_news.mjs
 
       - name: Commit updated catalog
-        if: ${{ success() && !inputs.dry_run }}
+        id: publication
+        if: ${{ success() && !inputs.dry_run && steps.collection.outputs.admission != 'already_claimed' }}
+        env:
+          NEWS_CATALOG_DISPOSITION: ${{ steps.collection.outputs.disposition }}
         run: |
           git add cdx_time_map/catalog/news_events.json cdx_time_map/catalog/news_events_manifest.json
-          git diff --cached --quiet && exit 0
+          if git diff --cached --quiet; then
+            test "$NEWS_CATALOG_DISPOSITION" = 'no_change'
+            printf '%s\n' 'outcome=no_change' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          test "$NEWS_CATALOG_DISPOSITION" = 'candidate'
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'Update MomentAtlas news catalog'
           git push
+          printf '%s\n' 'outcome=published' >> "$GITHUB_OUTPUT"
+
+      - name: Record guarded slot completion after publication
+        if: ${{ success() && !inputs.dry_run && steps.collection.outputs.admission == 'claimed' && steps.publication.outcome == 'success' }}
+        env:
+          NEWS_EXECUTION_MODE: ${{ vars.TIME_MAP_NEWS_EXECUTION_MODE }}
+          NEWS_SLOT_ID: ${{ inputs.slot_id }}
+          NEWS_ADMISSION: ${{ steps.collection.outputs.admission }}
+          NEWS_CATALOG_OUTCOME: ${{ steps.publication.outputs.outcome }}
+        run: node tools/news/write_slot_receipt.mjs

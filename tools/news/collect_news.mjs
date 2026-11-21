@@ -60,6 +60,7 @@ async function main() {
   let status = 'failed';
   let code = null;
   let admission;
+  let disposition;
   try {
     budget(); // Validate limits and start the whole-run deadline before RSS.
     admission = await admitNewsRun({env: process.env, fetchImpl: fetch});
@@ -68,7 +69,7 @@ async function main() {
       code = 'news_slot_already_claimed';
       return;
     }
-    await collectNews();
+    disposition = await collectNews();
     budget().check();
     status = 'completed';
   } catch (error) {
@@ -77,12 +78,17 @@ async function main() {
   } finally {
     const report = activeBudget?.report(status, code) ?? {status, stopCode: 'invalid_limits'};
     if (admission) report.admission = admission;
+    if (disposition) report.disposition = disposition;
     activeBudget?.close();
     console.log(`News run report: ${JSON.stringify(report)}`);
     if (process.env.GITHUB_STEP_SUMMARY) {
       await writeFile(process.env.GITHUB_STEP_SUMMARY,
         `## MomentAtlas news collection\n\n\`\`\`json\n${JSON.stringify(report, null, 2)}\n\`\`\`\n`,
         {flag: 'a'});
+    }
+    if (process.env.GITHUB_OUTPUT && status !== 'failed') {
+      await writeFile(process.env.GITHUB_OUTPUT,
+        `admission=${admission}\ndisposition=${disposition ?? 'skipped'}\n`, {flag: 'a'});
     }
   }
 }
@@ -168,7 +174,7 @@ async function publishCatalogIfChanged({existingCatalog, events}) {
   const changed = JSON.stringify(nextCatalog.events) !== JSON.stringify(existingCatalog.events);
   if (!changed) {
     console.log('AI produced no publishable news changes.');
-    return;
+    return 'no_change';
   }
 
   nextCatalog.catalogVersion = nextPatch(existingCatalog.catalogVersion);
@@ -181,15 +187,16 @@ async function publishCatalogIfChanged({existingCatalog, events}) {
   };
   if (dryRun) {
     console.log(`Dry run: would publish ${nextCatalog.events.length} news events.`);
-    return;
+    return 'dry_run';
   }
   budget().check();
   await mkdir(outputDirectory, {recursive: true});
   await writeJson(catalogPath, nextCatalog);
   await writeJson(manifestPath, manifest);
   console.log(
-    `Published news catalog ${nextCatalog.catalogVersion} with ${nextCatalog.events.length} events.`,
+    `Prepared news catalog ${nextCatalog.catalogVersion} with ${nextCatalog.events.length} events.`,
   );
+  return 'candidate';
 }
 
 async function collectArticles(sources) {
