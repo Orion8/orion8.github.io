@@ -341,6 +341,87 @@
       "defaultCategory": "space",
       "publisherId": "space-com",
       "maxItems": 6
+    },
+    {
+      "id": "hechinger-education",
+      "name": "The Hechinger Report",
+      "feedUrl": "https://hechingerreport.org/feed/",
+      "topicIds": ["politicsHumanRights"],
+      "defaultCategory": "politicsSociety",
+      "publisherId": "hechinger-report",
+      "maxItems": 6
+    },
+    {
+      "id": "k12-dive",
+      "name": "K-12 Dive",
+      "feedUrl": "https://www.k12dive.com/feeds/news/",
+      "topicIds": ["politicsHumanRights"],
+      "defaultCategory": "politicsSociety",
+      "publisherId": "industry-dive",
+      "maxItems": 6
+    },
+    {
+      "id": "billboard-music",
+      "name": "Billboard",
+      "feedUrl": "https://www.billboard.com/feed/",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "cultureEntertainment",
+      "publisherId": "billboard",
+      "maxItems": 6
+    },
+    {
+      "id": "hyperallergic-art",
+      "name": "Hyperallergic",
+      "feedUrl": "https://hyperallergic.com/feed/",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "cultureEntertainment",
+      "publisherId": "hyperallergic",
+      "maxItems": 6
+    },
+    {
+      "id": "guardian-stage",
+      "name": "The Guardian Stage",
+      "feedUrl": "https://www.theguardian.com/stage/rss",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "cultureEntertainment",
+      "publisherId": "the-guardian",
+      "maxItems": 6
+    },
+    {
+      "id": "guardian-books",
+      "name": "The Guardian Books",
+      "feedUrl": "https://www.theguardian.com/books/rss",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "cultureEntertainment",
+      "publisherId": "the-guardian",
+      "maxItems": 6
+    },
+    {
+      "id": "gamesindustry-news",
+      "name": "GamesIndustry.biz",
+      "feedUrl": "https://www.gamesindustry.biz/rss/gamesindustry_news_feed.rss",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "gamingEsports",
+      "publisherId": "gamesindustry",
+      "maxItems": 6
+    },
+    {
+      "id": "pc-gamer",
+      "name": "PC Gamer",
+      "feedUrl": "https://www.pcgamer.com/feeds.xml",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "gamingEsports",
+      "publisherId": "future",
+      "maxItems": 6
+    },
+    {
+      "id": "esports-insider",
+      "name": "Esports Insider",
+      "feedUrl": "https://esportsinsider.com/feed",
+      "topicIds": ["artsFilm"],
+      "defaultCategory": "gamingEsports",
+      "publisherId": "esports-insider",
+      "maxItems": 6
     }
   ]
 }

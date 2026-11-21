@@ -10,7 +10,7 @@ const source = readFileSync(new URL('collect_news.mjs', import.meta.url), 'utf8'
   .replace(/^import .*;\r?\n/gm, '').split('\nmain().catch(')[0];
 const workflow = readFileSync(new URL('../../.github/workflows/collect-time-map-news.yml', import.meta.url), 'utf8');
 const categories = ['politicsSociety', 'economyBusiness', 'scienceTechnology', 'globalHealth',
-  'climateDisaster', 'cultureEntertainment', 'urbanDevelopment', 'sports', 'space'];
+  'climateDisaster', 'cultureEntertainment', 'urbanDevelopment', 'sports', 'space', 'gamingEsports'];
 const timestamp = new Date().toISOString();
 const existing = {catalogVersion: '1.0.0', updatedAt: timestamp, sourceType: 'editorial', events: [{
   id: `news-${'a'.repeat(24)}`, title: '기존 관측', titleTranslations: {en: 'Existing observation'},

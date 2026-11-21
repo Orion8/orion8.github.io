@@ -36,7 +36,7 @@ function scriptContext(name, result) {
 
 test('RSS triage defaults to Luna and keeps category selection validation', async () => {
   const categories = ['politicsSociety', 'economyBusiness', 'scienceTechnology',
-    'globalHealth', 'climateDisaster', 'cultureEntertainment', 'urbanDevelopment', 'sports', 'space'];
+    'globalHealth', 'climateDisaster', 'cultureEntertainment', 'urbanDevelopment', 'sports', 'space', 'gamingEsports'];
   const draft = {articleIndexesByCategory: Object.fromEntries(categories.map((c) => [c, c === 'space' ? [0] : []]))};
   const f = scriptContext('collect_news.mjs', draft);
   const output = await vm.runInContext("triageWithOpenAI([{defaultCategory: 'space', title: 'Synthetic launch'}])", f.context);
@@ -65,11 +65,11 @@ test('final news editing defaults to Luna with structured bilingual event output
 test('triage cannot select an index omitted from its bounded context', async () => {
   const draft = {articleIndexesByCategory: Object.fromEntries(
     ['politicsSociety', 'economyBusiness', 'scienceTechnology', 'globalHealth',
-      'climateDisaster', 'cultureEntertainment', 'urbanDevelopment', 'sports', 'space']
+      'climateDisaster', 'cultureEntertainment', 'urbanDevelopment', 'sports', 'space', 'gamingEsports']
       .map((c) => [c, c === 'space' ? [19] : []]))};
   const f = scriptContext('collect_news.mjs', draft);
   const output = await vm.runInContext(`
-    process.env.NEWS_MAX_AI_INPUT_BYTES = '3500';
+    process.env.NEWS_MAX_AI_INPUT_BYTES = '5000';
     triageWithOpenAI(Array.from({length: 20}, () => ({defaultCategory: 'space',
       title: 'x'.repeat(260), excerpt: 'x'.repeat(500)})))
   `, f.context);
@@ -148,4 +148,42 @@ test('every news category has at least three distinct validated publishers', () 
     assert.ok(publishers.size >= 3, category);
   }
   assert.equal(sources.filter((source) => source.name.startsWith('NPR')).every((source) => source.publisherId === 'npr'), true);
+});
+
+test('Gaming has its own quota but publishes a legacy-readable category and tag', () => {
+  const f = scriptContext('collect_news.mjs', {});
+  f.context.event = sampleCatalog.events[0];
+  const result = vm.runInContext(`
+    process.env.NEWS_MAX_NEW_EVENTS_PER_CATEGORY = '1';
+    const source = {url: event.sourceUrl, sourceName: event.sourceName, publishedAt: event.startAt};
+    const draft = {title: '리그 개편', titleEn: 'League restructuring',
+      description: '긴 설명', descriptionEn: 'Long description',
+      changeSummary: '리그가 새 구조를 발표했다.', changeSummaryEn: 'The league announced a new structure.',
+      startAt: event.startAt, category: 'gamingEsports', importance: 2, topicIds: ['artsFilm'],
+      sourceIndexes: [0], existingEventId: '', newsStatus: 'resolved'};
+    const [published] = mergeEvents({existingEvents: [], candidates: [source], draftEvents: [draft]});
+    const duplicateCount = mergeEvents({existingEvents: [], candidates: [source],
+      draftEvents: [draft, {...draft, category: 'sports'}]}).length;
+    validateCatalog({catalogVersion: '1.0.0', updatedAt: event.startAt, sourceType: 'editorial', events: [published]});
+    const culture = {...event, category: 'cultureEntertainment'};
+    const count = limitEventsPerCategory([
+      ...Array.from({length: maximumEventsPerCategory}, () => culture), published,
+    ]).length;
+    ({published, duplicateCount, count, allowed: maximumEventsPerCategory});
+  `, f.context);
+  assert.equal(result.published.newsCategory, 'gamingEsports');
+  assert.equal(result.published.category, 'cultureEntertainment');
+  assert.deepEqual(Array.from(result.published.topicIds), ['artsFilm']);
+  assert.equal(result.duplicateCount, 1);
+  assert.equal(result.count, result.allowed + 1);
+});
+
+test('specialist education and esports feeds retain their intended editorial buckets', () => {
+  const f = scriptContext('collect_news.mjs', {});
+  const result = vm.runInContext(`
+    const list = [{sourceId: 'hechinger-education'}, {defaultCategory: 'gamingEsports'}];
+    [applySpecialistSourceCategory({category: 'economyBusiness', sourceIndexes: [0]}, list).category,
+     applySpecialistSourceCategory({category: 'sports', sourceIndexes: [1]}, list).category].join(',');
+  `, f.context);
+  assert.equal(result, 'politicsSociety,gamingEsports');
 });

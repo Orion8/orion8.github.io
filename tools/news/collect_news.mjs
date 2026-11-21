@@ -47,7 +47,10 @@ const allowedCategories = new Set([
   'politicsSociety', 'economyBusiness', 'scienceTechnology', 'globalHealth',
   'climateDisaster', 'cultureEntertainment', 'urbanDevelopment', 'sports',
   'space',
+  'gamingEsports',
 ]);
+const gamingCategory = 'gamingEsports';
+const educationSourceIds = new Set(['hechinger-education', 'k12-dive']);
 
 let activeBudget;
 function budget() { return activeBudget ??= new NewsRunBudget(process.env); }
@@ -120,9 +123,20 @@ async function collectNews() {
   const nextEvents = mergeEvents({
     existingEvents,
     candidates: balancedCandidates,
-    draftEvents: limitNewEventsPerCategory(draft.events),
+    draftEvents: limitNewEventsPerCategory(
+      draft.events.map((event) => applySpecialistSourceCategory(event, balancedCandidates)),
+    ),
   });
   return publishCatalogIfChanged({existingCatalog, events: nextEvents});
+}
+
+function applySpecialistSourceCategory(event, candidates) {
+  const source = candidates[event?.sourceIndexes?.[0]];
+  if (source?.defaultCategory === gamingCategory) return {...event, category: gamingCategory};
+  if (educationSourceIds.has(source?.sourceId)) {
+    return {...event, category: 'politicsSociety', topicIds: ['politicsHumanRights']};
+  }
+  return event;
 }
 
 async function publishCatalogIfChanged({existingCatalog, events}) {
@@ -265,7 +279,7 @@ function limitEventsPerPublisher(events) {
   const limited = [];
   for (const event of events) {
     const publisherId = publisherIdForName(event.sourceName);
-    const key = `${publisherId}:${event.category}`;
+    const key = `${publisherId}:${event.newsCategory ?? event.category}`;
     const count = counts.get(key) ?? 0;
     if (count >= maximumEventsPerPublisher) continue;
     counts.set(key, count + 1);
@@ -307,9 +321,10 @@ function limitEventsPerCategory(events) {
   const counts = new Map();
   const limited = [];
   for (const event of events) {
-    const count = counts.get(event.category) ?? 0;
+    const category = event.newsCategory ?? event.category;
+    const count = counts.get(category) ?? 0;
     if (count >= maximumEventsPerCategory) continue;
-    counts.set(event.category, count + 1);
+    counts.set(category, count + 1);
     limited.push(event);
   }
   return limited;
@@ -364,6 +379,8 @@ async function triageWithOpenAI(candidates) {
       'Reject routine product announcements, opinion posts, recaps, and duplicate updates.',
       'For continuing conflicts or crises, reject routine daily attacks, statements, reactions, and incremental casualty updates unless they indicate a materially new phase.',
       'Evaluate every supplied field fairly; do not favor AI or technology over society, economy, science, culture, health, climate, cities, sports, or space.',
+      'Education policy and school-system changes compete within politicsSociety. For cultureEntertainment compare film and television with music, visual arts, performing arts, and literature; prefer different cultural beats when equally strong.',
+      'Gaming and esports have their own gamingEsports field, separate from general sports. Prefer meaningful industry change, league creation or closure, or historic competitive milestones; omit routine match results, deals, reviews, and release marketing.',
       'Return a separate array for every defaultCategory. Choose at most two articles in each field, only when genuinely important. Empty arrays are correct when a field has no strong event.',
       'If a concrete change is supported but its significance is unclear, you may pass it for review. Do not select unsupported claims as confirmed facts.',
     ].join(' '),
@@ -427,6 +444,9 @@ async function organizeWithOpenAI({candidates, existingEvents}) {
       'Use importance 1 for a concrete, lasting development with limited scope (for example, a city launches a pilot on selected routes); importance 2 for a substantive change to how an affected community or field operates or understands something (for example, a city makes its pilot network permanent); importance 3 only for a rare turning point that can define a before and after in its field (for example, independent verification of the proof of a long-standing major mathematical conjecture). Do not force a distribution.',
       'Order new events by descending importance within each category so publication limits keep the strongest events.',
       'Retain meaningful events across society, economy, science, culture, health, climate, cities, sports, space, AI, and broader technology/computing rather than concentrating on one field.',
+      'Classify lasting changes to schools, curriculum, admissions, or education policy as politicsSociety, not a separate field. Include confirmed implementation dates when evidenced; do not invent them.',
+      'Culture includes film, broadcasting, music, visual arts, exhibitions, theatre and other performing arts, and literature. Favor major awards, institutions opening or closing, and landmark premieres over routine listings or reviews.',
+      'Classify video game industry shifts and esports league milestones as gamingEsports, never as ordinary sports or cultureEntertainment. Do not publish the same development under more than one category.',
       'Treat AI and broader technology/computing as distinct beats. Preserve the supplied topic tags for each source and do not relabel ordinary computing, semiconductor, internet, security, or robotics news as AI.',
       'For a continuing conflict or crisis, create a new event only for a materially new phase such as a formal agreement, major territorial or legal change, decisive outcome, or major verified humanitarian shift. Prefer existingEventId for a meaningful update; omit routine daily attacks, statements, reactions, and incremental updates.',
       'Cluster duplicate coverage into one event.',
@@ -445,6 +465,7 @@ async function organizeWithOpenAI({candidates, existingEvents}) {
         description: event.description,
         descriptionEn: event.descriptionTranslations?.en ?? '',
         topicIds: event.topicIds,
+        category: event.newsCategory ?? event.category,
       })),
     },
     schema: eventSchema,
@@ -462,7 +483,7 @@ const eventSchema = {
   properties: {
     events: {
       type: 'array',
-      maxItems: 18,
+      maxItems: allowedCategories.size * 2,
       items: {
         type: 'object',
         additionalProperties: false,
@@ -591,12 +612,19 @@ function responseOutputText(payload) {
 
 function mergeEvents({existingEvents, candidates, draftEvents}) {
   const eventsById = new Map(existingEvents.map((event) => [event.id, event]));
+  const usedSourceUrls = new Set();
   for (const draft of draftEvents) {
     validateDraft(draft, candidates, eventsById);
     const sources = [...new Set(draft.sourceIndexes)].map((index) => candidates[index]);
     const sourceUrls = sources.map((source) => source.url);
+    // An article selected in one bucket cannot create another timeline marker.
+    if (sourceUrls.some((url) => usedSourceUrls.has(url))) continue;
+    for (const url of sourceUrls) usedSourceUrls.add(url);
     const previous = draft.existingEventId ? eventsById.get(draft.existingEventId) : null;
     const combinedUrls = [...new Set([...(previous?.news?.sourceUrls ?? []), ...sourceUrls])];
+    // The original wire fields remain supported by older installed apps.
+    // Only the additive marker gives upgraded apps a separate Gaming slot.
+    const isGaming = draft.category === gamingCategory;
     const event = {
       ...(previous ?? {}),
       id: previous?.id ?? stableId(combinedUrls),
@@ -607,7 +635,7 @@ function mergeEvents({existingEvents, candidates, draftEvents}) {
       },
       startAt: new Date(draft.startAt).toISOString(),
       lane: 'world',
-      category: draft.category,
+      category: isGaming ? 'cultureEntertainment' : draft.category,
       importance: draft.importance,
       newsChangeSummary: draft.changeSummary.trim(),
       newsChangeSummaryTranslations: {en: draft.changeSummaryEn.trim()},
@@ -618,7 +646,12 @@ function mergeEvents({existingEvents, candidates, draftEvents}) {
       },
       sourceName: sources[0].sourceName,
       sourceUrl: sources[0].url,
-      topicIds: [...new Set([...(previous?.topicIds ?? []), ...draft.topicIds])],
+      topicIds: isGaming
+        ? ['artsFilm']
+        : [...new Set([
+          ...(previous?.newsCategory === gamingCategory ? [] : previous?.topicIds ?? []),
+          ...draft.topicIds,
+        ])],
       news: {
         status: draft.newsStatus,
         sourceUrls: combinedUrls,
@@ -626,6 +659,8 @@ function mergeEvents({existingEvents, candidates, draftEvents}) {
         lastObservedAt: new Date().toISOString(),
       },
     };
+    if (isGaming) event.newsCategory = gamingCategory;
+    else delete event.newsCategory;
     eventsById.set(event.id, event);
   }
   return [...eventsById.values()];
@@ -679,7 +714,8 @@ function validateCatalog(catalog) {
         typeof event.title !== 'string' || !event.title.trim() ||
         typeof event.description !== 'string' || !event.description.trim() ||
         !Number.isFinite(Date.parse(event.startAt)) || event.lane !== 'world' ||
-        !allowedCategories.has(event.category) || !Number.isInteger(event.importance) ||
+        !allowedCategories.has(event.category) || event.category === gamingCategory ||
+        !validPublishedNewsCategory(event) || !Number.isInteger(event.importance) ||
         event.importance < 1 || event.importance > 3 ||
         typeof event.sourceName !== 'string' || !event.sourceName ||
         !localizedValue(event.titleTranslations, 'en') ||
@@ -693,6 +729,14 @@ function validateCatalog(catalog) {
     }
     ids.add(event.id);
   }
+}
+
+function validPublishedNewsCategory(event) {
+  if (!Object.hasOwn(event, 'newsCategory')) return true;
+  return event.newsCategory === gamingCategory &&
+    event.category === 'cultureEntertainment' &&
+    Array.isArray(event.topicIds) && event.topicIds.length === 1 &&
+    event.topicIds[0] === 'artsFilm';
 }
 
 function validChangeSummary(value) {
