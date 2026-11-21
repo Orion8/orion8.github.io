@@ -1,8 +1,73 @@
 {
-  "catalogVersion": "0.0.235",
-  "updatedAt": "2026-11-21T09:17:48.725Z",
+  "catalogVersion": "0.0.236",
+  "updatedAt": "2026-11-21T20:24:42.049Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-9eb7bf2e7c0c7376fec1f8bb",
+      "title": "트럼프, 의회 답변 전 연방 계약업체에 백악관 사전 협의 지시",
+      "titleTranslations": {
+        "en": "Trump orders federal contractors to consult the White House before responding to Congress"
+      },
+      "startAt": "2026-11-21T19:29:23.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "newsChangeSummary": "연방 계약업체는 의회에 답변하기 전에 백악관과 협의해야 한다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Federal contractors must consult the White House before responding to Congress."
+      },
+      "description": "트럼프 행정부는 연방 계약업체가 의회에 답변하기 전에 백악관과 협의하도록 지시했다. 이 조치는 민주당이 의회에서 감독 활동을 확대할 것으로 예상되는 가운데 나왔다.",
+      "descriptionTranslations": {
+        "en": "The Trump administration directed federal contractors to consult the White House before responding to Congress. The order comes as Democrats are expected to expand congressional oversight."
+      },
+      "sourceName": "PBS News Politics",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/trump-orders-federal-contractors-to-check-with-white-house-before-responding-to-congress",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.pbs.org/newshour/politics/trump-orders-federal-contractors-to-check-with-white-house-before-responding-to-congress"
+        ],
+        "firstPublishedAt": "2026-11-21T19:29:23.000Z",
+        "lastObservedAt": "2026-11-21T20:24:42.049Z"
+      }
+    },
+    {
+      "id": "news-49a54918e429dc90b3807438",
+      "title": "연구진, 드론으로 모은 고래 콧물 샘플로 전체 유전체 염기서열 분석",
+      "titleTranslations": {
+        "en": "Scientists sequence a whale’s entire genome using samples collected by drone"
+      },
+      "startAt": "2026-11-21T12:40:15.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 1,
+      "newsChangeSummary": "드론으로 채취한 고래 콧물 샘플에서 전체 유전체 염기서열을 분석했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Researchers sequenced an entire whale genome from mucus samples collected by drone."
+      },
+      "description": "연구진은 페트리 접시를 단 상업용 드론으로 고래의 콧물 샘플을 모아 전체 유전체의 염기서열을 분석했다.",
+      "descriptionTranslations": {
+        "en": "Researchers sequenced a whale’s entire genome using mucus samples collected with commercial drones fitted with petri dishes."
+      },
+      "sourceName": "NPR Science",
+      "sourceUrl": "https://www.npr.org/2026/11/21/nx-s1-6044816/scientists-sequenced-a-whales-entire-genome-using-drones-and-whale-snot",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience"
+      ],
+      "news": {
+        "status": "breaking",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/21/nx-s1-6044816/scientists-sequenced-a-whales-entire-genome-using-drones-and-whale-snot"
+        ],
+        "firstPublishedAt": "2026-11-21T12:40:15.000Z",
+        "lastObservedAt": "2026-11-21T20:24:42.049Z"
+      }
+    },
     {
       "id": "news-a7d73a218222e5788b7355f0",
       "title": "인도 마니푸르주 불법 주류로 11명 사망·180명 중독",
@@ -60,6 +125,104 @@
       }
     },
     {
+      "id": "news-6701fc72f13b1f87186e315b",
+      "title": "미주리 판사, 바이엘 라운드업 소송 72억5천만 달러 합의 승인",
+      "titleTranslations": {
+        "en": "Missouri judge approves Bayer’s $7.25 billion Roundup settlement"
+      },
+      "startAt": "2026-11-20T23:42:43.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "newsChangeSummary": "미주리주 판사가 라운드업 관련 청구 약 6만5천 건을 다루는 72억5천만 달러 합의를 승인했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "A Missouri judge approved a $7.25 billion settlement addressing about 65,000 Roundup-related claims."
+      },
+      "description": "미주리주 판사가 제초제 라운드업이 암을 유발했다는 주장과 관련해 바이엘이 제안한 72억5천만 달러 합의를 승인했다. 바이엘은 약 6만5천 건의 청구에 직면해 있었다.",
+      "descriptionTranslations": {
+        "en": "A Missouri judge approved Bayer’s $7.25 billion settlement over claims that its Roundup weedkiller caused cancer. Bayer faced about 65,000 claims."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation",
+      "topicIds": [
+        "economyFinance"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation"
+        ],
+        "firstPublishedAt": "2026-11-20T23:42:43.000Z",
+        "lastObservedAt": "2026-11-21T20:24:42.049Z"
+      }
+    },
+    {
+      "id": "news-d1a52d7504aa62549ed86042",
+      "title": "미 FCC, AT&T의 가정용 전화 규정에 대한 캘리포니아 집행 차단",
+      "titleTranslations": {
+        "en": "FCC bars California from enforcing home-phone service rules against AT&T"
+      },
+      "startAt": "2026-11-20T22:28:24.000Z",
+      "lane": "world",
+      "category": "scienceTechnology",
+      "importance": 1,
+      "newsChangeSummary": "FCC가 AT&T의 가정용 전화 서비스 유지 규정에 대한 캘리포니아주의 집행을 차단했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "The FCC blocked California from enforcing rules requiring AT&T to keep offering home phone service."
+      },
+      "description": "미 연방통신위원회(FCC)는 AT&T가 가정용 전화 서비스를 계속 제공하도록 요구하는 캘리포니아주 규정을 주 정부가 집행할 수 없다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "The Federal Communications Commission said California may not enforce state rules requiring AT&T to continue offering home phone service."
+      },
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
+      "topicIds": [
+        "technologyComputing",
+        "computerHistory",
+        "internetWeb"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/"
+        ],
+        "firstPublishedAt": "2026-11-20T22:28:24.000Z",
+        "lastObservedAt": "2026-11-21T20:24:42.049Z"
+      }
+    },
+    {
+      "id": "news-b92f8538ac440a8ab51b6f9b",
+      "title": "댈러스 교육구, 재정 적자로 학교 6곳 폐쇄 방침",
+      "titleTranslations": {
+        "en": "Dallas school district plans to close six schools amid budget deficit"
+      },
+      "startAt": "2026-11-20T21:25:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 1,
+      "newsChangeSummary": "댈러스 교육구가 1억2,800만 달러 적자 대응책으로 학교 6곳 폐쇄 방침을 밝혔다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Dallas ISD announced plans to close six schools to address its $128 million deficit."
+      },
+      "description": "학생 수가 예상보다 3,099명 적었던 댈러스 교육구가 1억2,800만 달러의 적자에 대응해 학교 6곳을 폐쇄할 방침이다.",
+      "descriptionTranslations": {
+        "en": "Dallas ISD plans to close six schools as it faces a $128 million deficit after enrollment fell 3,099 students short of projections."
+      },
+      "sourceName": "K-12 Dive",
+      "sourceUrl": "https://www.k12dive.com/news/dallas-isd-to-close-6-schools-as-it-grapples-with-128m-deficit/875403/",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.k12dive.com/news/dallas-isd-to-close-6-schools-as-it-grapples-with-128m-deficit/875403/"
+        ],
+        "firstPublishedAt": "2026-11-20T21:25:00.000Z",
+        "lastObservedAt": "2026-11-21T20:24:42.049Z"
+      }
+    },
+    {
       "id": "news-d020b8aa67dc21540cb4908c",
       "title": "트럼프, 미국 기업의 해외 AI 데이터센터 건설 금지 위협",
       "titleTranslations": {
@@ -86,6 +249,40 @@
         "firstPublishedAt": "2026-11-20T20:54:12.000Z",
         "lastObservedAt": "2026-11-20T21:43:01.559Z"
       }
+    },
+    {
+      "id": "news-5ef06037f3faa4d55810acc9",
+      "title": "GTA 6, 출시 첫날 37억9천만 달러 매출 발표…엔터테인먼트 출시 신기록",
+      "titleTranslations": {
+        "en": "GTA 6 reports $3.79 billion in first-day sales, setting an entertainment launch record"
+      },
+      "startAt": "2026-11-20T20:24:00.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 2,
+      "description": "Rockstar는 GTA 6가 판매 첫날 37억9천만 달러의 소매 매출을 올려 모든 매체를 통틀어 엔터테인먼트 출시 신기록을 세웠다고 발표했다.",
+      "descriptionTranslations": {
+        "en": "Rockstar announced that GTA 6 generated $3.79 billion in retail sales on its first day, setting a launch record across entertainment media."
+      },
+      "sourceName": "GamesIndustry.biz",
+      "sourceUrl": "https://www.gamesindustry.biz/gta-6-hits-379-billion-in-its-first-day-on-sale-becoming-the-biggest-entertainment-launch-in-history",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+          "https://www.gamesindustry.biz/gta-6-hits-379-billion-in-its-first-day-on-sale-becoming-the-biggest-entertainment-launch-in-history"
+        ],
+        "firstPublishedAt": "2026-11-20T02:54:40.000Z",
+        "lastObservedAt": "2026-11-21T20:24:42.049Z"
+      },
+      "newsChangeSummary": "Rockstar는 GTA 6의 첫날 소매 매출이 37억9천만 달러라고 발표했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Rockstar announced GTA 6 generated $3.79 billion in retail sales on its first day."
+      },
+      "newsCategory": "gamingEsports"
     },
     {
       "id": "news-b489ac03011e847af2dfdc1b",
@@ -202,34 +399,6 @@
         ],
         "firstPublishedAt": "2026-11-20T00:08:22.000Z",
         "lastObservedAt": "2026-11-20T21:43:01.559Z"
-      }
-    },
-    {
-      "id": "news-5ef06037f3faa4d55810acc9",
-      "title": "GTA 6 추정 매출 23억 달러 돌파…역대 최대 엔터테인먼트 출시 전망",
-      "titleTranslations": {
-        "en": "GTA 6 estimated sales top $2.3bn in what is expected to be the biggest entertainment launch ever"
-      },
-      "startAt": "2026-11-20T02:54:40.000Z",
-      "lane": "world",
-      "category": "cultureEntertainment",
-      "importance": 2,
-      "description": "Rockstar Games가 13년 만에 선보인 GTA 6의 추정 매출이 23억 달러를 넘어섰다. 이번 출시는 역대 최대 규모의 엔터테인먼트 출시가 될 것으로 예상된다.",
-      "descriptionTranslations": {
-        "en": "Estimated sales for GTA 6, Rockstar Games’ first release in 13 years, have topped $2.3bn. The launch is expected to be the biggest entertainment launch ever."
-      },
-      "sourceName": "BBC News Entertainment & Arts",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "artsFilm"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-20T02:54:40.000Z",
-        "lastObservedAt": "2026-11-20T09:45:42.047Z"
       }
     },
     {
@@ -1128,63 +1297,6 @@
       }
     },
     {
-      "id": "news-6dd05a512abcee1d305cdb95",
-      "title": "유엔, 자율살상무기 규제 협상…구속력 있는 통제 두고 이견",
-      "titleTranslations": {
-        "en": "U.N. talks seek rules for autonomous weapons, with divisions over binding controls"
-      },
-      "startAt": "2026-11-16T18:04:50.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "제네바에서 인간의 개입 없이 표적을 선택해 공격할 수 있는 무기의 규칙을 논의하는 협상이 열렸다. 미국·러시아·이스라엘은 법적 구속력이 있는 통제에 반대하고 있으며, 규제 운동가들은 조치를 취할 시간이 얼마 남지 않았다고 우려한다.",
-      "descriptionTranslations": {
-        "en": "Negotiations are under way in Geneva on rules for weapons that can select and attack targets without human intervention. The United States, Russia and Israel oppose legally binding controls, while campaigners warn that the window for action is closing."
-      },
-      "sourceName": "NPR World",
-      "sourceUrl": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones"
-        ],
-        "firstPublishedAt": "2026-11-16T18:04:50.000Z",
-        "lastObservedAt": "2026-11-16T22:52:03.403Z"
-      }
-    },
-    {
-      "id": "news-8a89a626759eac456d4a3c79",
-      "title": "독일 등 EU 5개국, 르완다에 이민자 ‘귀환 허브’ 추진",
-      "titleTranslations": {
-        "en": "Five EU countries plan immigration ‘return hubs’ in Rwanda"
-      },
-      "startAt": "2026-11-16T16:21:40.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "독일·오스트리아·네덜란드·덴마크·그리스가 유럽에 체류할 법적 권리가 없는 사람들을 위한 르완다의 역외 센터를 추진한다고 발표했다. 이들 국가는 EU의 새 귀환 법에 따라 항소 절차를 모두 마친 사람들을 제3국으로 보낼 수 있는 방안을 시범적으로 적용하려 한다. 이 계획은 법적 도전에 직면할 것으로 예상된다.",
-      "descriptionTranslations": {
-        "en": "Germany, Austria, the Netherlands, Denmark and Greece announced plans for an offshore centre in Rwanda for people without a legal right to remain in Europe. The countries intend to pilot a route under the EU’s new returns law, which allows people who have exhausted their appeals to be sent to a third country. The plan is expected to face legal challenges."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
-        ],
-        "firstPublishedAt": "2026-11-16T16:21:40.000Z",
-        "lastObservedAt": "2026-11-16T22:52:03.403Z"
-      }
-    },
-    {
       "id": "news-4f34f128a81de74f07ff1525",
       "title": "영국 잭도 가스전에서 가스 생산 시작",
       "titleTranslations": {
@@ -1999,36 +2111,6 @@
       }
     },
     {
-      "id": "news-9bfee2608e815312eec659f6",
-      "title": "유클리드 임무, 첫 주요 자료 공개 — 9억여 개 은하와 약 1만5천 건의 중력렌즈 후보 확인",
-      "titleTranslations": {
-        "en": "Euclid mission releases first major data — more than 900 million galaxies and ~15,000 gravitational‑lens candidates"
-      },
-      "startAt": "2026-11-12T11:08:54.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 3,
-      "description": "유럽우주기구의 유클리드(Euclid) 우주망원경이 첫 주요 데이터 공개에서 9억 개가 넘는 은하와 약 1만5천 건의 중력렌즈 후보를 발표했다. 이 자료는 우주의 대규모 3D 지도를 만드는 프로젝트의 초기 결과로, 암흑물질·암흑에너지 연구에 기여할 것으로 보인다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency’s Euclid space telescope released its first major data, identifying more than 900 million galaxies and about 15,000 potential gravitational‑lens candidates. The dataset is an early result from the project to build the largest 3D map of the universe and could aid studies of dark matter and dark energy."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe"
-        ],
-        "firstPublishedAt": "2026-11-12T11:08:54.000Z",
-        "lastObservedAt": "2026-11-13T07:52:55.904Z"
-      }
-    },
-    {
       "id": "news-1b127e2f67ca793c7cd9a0ae",
       "title": "영국 경제, 9월 분기 GDP 0.7% 성장 — 2년 만에 최고 속도",
       "titleTranslations": {
@@ -2169,35 +2251,6 @@
       }
     },
     {
-      "id": "news-22d6799f13a3486d4568cc73",
-      "title": "영국 AI칩 스타트업 Fractile, 7.2억 달러 투자유치",
-      "titleTranslations": {
-        "en": "Britain’s Fractile raises $720M in funding to advance AI chip development"
-      },
-      "startAt": "2026-11-11T19:34:55.000Z",
-      "lane": "world",
-      "category": "scienceTechnology",
-      "importance": 2,
-      "description": "TechCrunch 보도에 따르면 영국의 AI 전용 칩 설계업체 Fractile이 7.2억 달러 규모의 투자 라운드를 완료해 목적형 AI 칩 경쟁에서 자금 기반을 크게 강화했다고 전해졌다.",
-      "descriptionTranslations": {
-        "en": "TechCrunch reports UK AI‑chip designer Fractile has closed a $720m funding round, becoming one of the better‑funded players in the race to develop purpose‑built AI processors."
-      },
-      "sourceName": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-      "topicIds": [
-        "aiHistory",
-        "computerHistory"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
-        ],
-        "firstPublishedAt": "2026-11-11T19:34:55.000Z",
-        "lastObservedAt": "2026-11-11T20:11:16.975Z"
-      }
-    },
-    {
       "id": "news-500f60ed2dbc834589564a97",
       "title": "영국 상급의사들, 11월 예정된 2일 파업 철회",
       "titleTranslations": {
@@ -2222,35 +2275,6 @@
           "https://www.bbc.co.uk/news/articles/c6174gw2ewpgo?at_medium=RSS&at_campaign=rss"
         ],
         "firstPublishedAt": "2026-11-11T12:42:05.000Z",
-        "lastObservedAt": "2026-11-11T20:11:16.975Z"
-      }
-    },
-    {
-      "id": "news-9435eb24521189adedd5f074",
-      "title": "엔비디아, 젠슨 황 관련 관계 조사 위해 뉴욕 대형 로펌 고용",
-      "titleTranslations": {
-        "en": "Nvidia hires leading New York law firm to investigate Jensen Huang relationship"
-      },
-      "startAt": "2026-11-11T11:49:12.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "가디언 보도에 따르면 엔비디아는 젠슨 황 CEO와 관련해 제기된 의혹을 조사하기 위해 Wachtell, Lipton, Rosen & Katz를 고용했으며, 해당 조사는 파트너 Joon Kim이 이끈다고 전해졌다. 이사회 거취와 기업 거버넌스 논란이 계속되고 있다.",
-      "descriptionTranslations": {
-        "en": "The Guardian reports Nvidia has retained New York firm Wachtell, Lipton, Rosen & Katz to investigate allegations related to CEO Jensen Huang; the probe will be led by partner Joon Kim. Questions about board decisions and corporate governance persist."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/11/nvidia-hires-leading-us-law-firm-to-investigate-jensen-huang-relationship",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/technology/2026/nov/11/nvidia-hires-leading-us-law-firm-to-investigate-jensen-huang-relationship"
-        ],
-        "firstPublishedAt": "2026-11-10T22:52:15.000Z",
         "lastObservedAt": "2026-11-11T20:11:16.975Z"
       }
     },
