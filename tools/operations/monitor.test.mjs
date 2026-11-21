@@ -51,6 +51,14 @@ test('scheduled success recovers; manual success is not proof of scheduled execu
   assert.equal(newsCheck({...args,runs:[run]}).state,'ok');
   assert.equal(newsCheck({...args,runs:[{...run,event:'workflow_dispatch'}]}).code,'scheduled_attempt_missing');
 });
+test('authentication-only probes neither raise nor resolve a collection incident',()=>{
+  const args={from:'2026-11-18T00:00:00Z',now:at('2026-11-18T04:00:00Z')};
+  const scheduled={id:1,event:'schedule',status:'completed',conclusion:'success',created_at:'2026-11-18T02:01:00Z'};
+  const probe={id:2,event:'workflow_dispatch',status:'completed',conclusion:'failure',created_at:'2026-11-18T03:00:00Z',
+    display_title:'News slot authentication probe (no AI)'};
+  assert.equal(newsCheck({...args,runs:[scheduled,probe]}).state,'ok');
+  assert.equal(newsCheck({...args,runs:[{...probe,conclusion:'success'}]}).code,'scheduled_attempt_missing');
+});
 test('explicit failure/cancellation and stalled attempts alert, configuration drift alerts',()=>{
   const args={from:'2026-11-18T00:00:00Z',now:at('2026-11-18T04:00:00Z')};
   for(const conclusion of ['failure','cancelled','timed_out']){

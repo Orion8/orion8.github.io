@@ -48,6 +48,12 @@ function harness({env = {}, mode = 'success', guard} = {}) {
     mkdir: async () => {},
     writeFile: async (name, value) => files.set(name, value),
     fetch: async (url, options) => {
+      if (String(url).startsWith('https://job.actions.githubusercontent.com/')) {
+        assert.equal(options.headers.Authorization, 'Bearer synthetic-job-credential');
+        assert.equal(options.redirect, 'error');
+        assert.equal(url.searchParams.get('audience'), 'momentatlas-news-slot-guard:mnuyvyrhctsuwagtgtwl');
+        return Response.json({value: 'synthetic.payload.signature'});
+      }
       if (url === 'https://mnuyvyrhctsuwagtgtwl.supabase.co/functions/v1/news-slot-guard') {
         if (!guard) throw new Error('unexpected slot guard');
         return guard(JSON.parse(options.body), options);
@@ -79,7 +85,8 @@ function harness({env = {}, mode = 'success', guard} = {}) {
 
 const guardedEnv = {
   NEWS_EXECUTION_MODE: 'guarded', NEWS_SLOT_ID: '2026-11-21/06:00',
-  NEWS_SLOT_GUARD_TOKEN: 'f'.repeat(64), GITHUB_RUN_ID: '110',
+  ACTIONS_ID_TOKEN_REQUEST_URL: 'https://job.actions.githubusercontent.com/oidc',
+  ACTIONS_ID_TOKEN_REQUEST_TOKEN: 'synthetic-job-credential', GITHUB_RUN_ID: '110',
   GITHUB_RUN_ATTEMPT: '1', GITHUB_EVENT_NAME: 'workflow_dispatch',
   GITHUB_REF: 'refs/heads/main',
 };
@@ -87,7 +94,7 @@ const guardedEnv = {
 function guardFixture() {
   const slots = new Set();
   return (input, options) => {
-    assert.equal(options.headers['x-momentatlas-news-guard'], guardedEnv.NEWS_SLOT_GUARD_TOKEN);
+    assert.equal(options.headers['x-momentatlas-news-identity'], 'synthetic.payload.signature');
     assert.equal(options.redirect, 'error');
     if (slots.has(input.slot)) return new Response(null, {status: 409});
     slots.add(input.slot);
@@ -127,7 +134,8 @@ test('no AI on unproven, unconfigured, or disallowed collection admission', asyn
   for (const [env, status, code] of [
     [guardedEnv, 503, 'news_slot_guard_unavailable'],
     [guardedEnv, 200, 'news_slot_guard_unavailable'],
-    [{...guardedEnv, NEWS_SLOT_GUARD_TOKEN: ''}, 201, 'news_slot_guard_unavailable'],
+    [{...guardedEnv, ACTIONS_ID_TOKEN_REQUEST_TOKEN: ''}, 201, 'news_slot_guard_unavailable'],
+    [{...guardedEnv, ACTIONS_ID_TOKEN_REQUEST_URL: 'https://example.org/oidc'}, 201, 'news_slot_guard_unavailable'],
     [{...guardedEnv, NEWS_SLOT_ID: ''}, 201, 'news_slot_required'],
     [{...guardedEnv, GITHUB_EVENT_NAME: 'schedule'}, 201, 'news_slot_required'],
     [{...guardedEnv, GITHUB_REF: 'refs/heads/feature'}, 201, 'news_slot_required'],
@@ -139,7 +147,7 @@ test('no AI on unproven, unconfigured, or disallowed collection admission', asyn
     assert.equal(h.requests.length, 0);
     assert.equal(h.rssCalls, 0);
     h.assertPreserved();
-    assert.equal(h.files.get('/summary').includes(guardedEnv.NEWS_SLOT_GUARD_TOKEN), false);
+    assert.equal(h.files.get('/summary').includes(guardedEnv.ACTIONS_ID_TOKEN_REQUEST_TOKEN), false);
   }
 });
 
@@ -208,4 +216,12 @@ test('workflow has a job deadline, safe tests before paid work and success-gated
   assert.match(workflow, /node --test tools\/news\/\*\.test\.mjs/);
   assert.match(workflow, /if: \$\{\{ success\(\) && !inputs.dry_run }}/);
   assert.match(workflow, /NEWS_MAX_AI_CALLS: '2'/);
+});
+
+test('authentication probe has no shared secret, no OpenAI key and disables the collector job', () => {
+  const probe = workflow.split(/\n  probe_slot_guard:\n/)[1].split(/\n  collect:\n/)[0];
+  assert.match(probe, /id-token: write/);
+  assert.match(probe, /node tools\/news\/probe_slot_guard\.mjs/);
+  assert.doesNotMatch(probe, /OPENAI_API_KEY|collect_news\.mjs|NEWS_SLOT_GUARD_TOKEN/);
+  assert.match(workflow, /if: github\.ref == 'refs\/heads\/main' && !inputs\.probe_slot_auth/);
 });

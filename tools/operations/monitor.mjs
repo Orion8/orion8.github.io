@@ -36,7 +36,8 @@ export function newsCheck({runs,from,now,workflowActive=true,scheduleMatches=tru
   const start=time(from); if(start===null)throw new Error('configuration');
   if(!workflowActive)return result('news','alert','workflow_inactive');
   if(!scheduleMatches)return result('news','alert','schedule_changed');
-  const latest=runs.filter(r=>time(r.created_at)!==null && time(r.created_at)>=start)
+  const latest=runs.filter(r=>time(r.created_at)!==null && time(r.created_at)>=start &&
+    !(r.event==='workflow_dispatch' && r.display_title==='News slot authentication probe (no AI)'))
     .sort((a,b)=>time(b.created_at)-time(a.created_at))[0];
   if(latest?.status==='completed' && ['failure','timed_out','cancelled','action_required','startup_failure'].includes(latest.conclusion)) {
     return result('news','alert','attempt_failed', {runId:Number.isSafeInteger(latest.id)?latest.id:null});

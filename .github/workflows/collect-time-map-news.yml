@@ -1,4 +1,5 @@
 name: Collect MomentAtlas news
+run-name: ${{ inputs.probe_slot_auth && 'News slot authentication probe (no AI)' || 'Collect MomentAtlas news' }}
 
 on:
   schedule:
@@ -16,17 +17,40 @@ on:
         description: 'Pacific slot (YYYY-MM-DD/06:00 or YYYY-MM-DD/18:00); guarded mode only'
         required: false
         type: string
+      probe_slot_auth:
+        description: 'Verify GitHub identity and DB access only; never runs RSS or paid AI'
+        default: false
+        type: boolean
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: time-map-news-catalog
   cancel-in-progress: false
 
 jobs:
+  probe_slot_guard:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch' && inputs.probe_slot_auth
+    permissions:
+      contents: read
+      id-token: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/news/probe_slot_guard.mjs
+
   collect:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' && !inputs.probe_slot_auth
+    permissions:
+      contents: write
+      id-token: write
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
@@ -53,7 +77,6 @@ jobs:
       - name: Collect, cluster, validate, and write news events
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          NEWS_SLOT_GUARD_TOKEN: ${{ secrets.NEWS_SLOT_GUARD_TOKEN }}
           NEWS_EXECUTION_MODE: ${{ vars.TIME_MAP_NEWS_EXECUTION_MODE }}
           NEWS_SLOT_ID: ${{ inputs.slot_id }}
           # Model names are repository Variables, not Secrets.
