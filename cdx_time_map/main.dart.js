@@ -59794,7 +59794,7 @@ if(s.x===a)return
 s.G(new A.aXq(s,a))
 s.f.ec(a).fG(new A.aXr())},
 M(a){var s=this,r=null,q=s.r,p=A.S()?"en":"ko",o=A.rN(r,A.bbp(B.Z,r,r,B.ox,r),"Arial",r,!0),n=A.rN(r,A.bbp(B.M,r,r,B.Uz,B.UT),"Arial",B.V5,!0),m=s.w,l=m.gb_q()
-return new A.Eb(q,s.gaJN(),A.bcj(n,!1,new A.Le(s.a.c,m,s.gaJU(),s.x,s.gaJS(),r,r,r,r),new A.lz(p,r,r),B.a6J,B.aaF,o,l,"MomentAtlas v0.51.21"),r)}}
+return new A.Eb(q,s.gaJN(),A.bcj(n,!1,new A.Le(s.a.c,m,s.gaJU(),s.x,s.gaJS(),r,r,r,r),new A.lz(p,r,r),B.a6J,B.aaF,o,l,"MomentAtlas v0.51.22"),r)}}
 A.aXl.prototype={
 $0(){return this.a.r=this.b},
 $S:0}
@@ -61022,7 +61022,7 @@ r=l.cn
 q=l.an
 p=l.cQ
 o=A.bV("^v?\\d+\\.\\d+\\.\\d+(?:\\+\\d+)?$",!0,!1)
-o=o.b.test("v0.51.21")?"v0.51.21":"unknown"
+o=o.b.test("v0.51.22")?"v0.51.22":"unknown"
 n=s!=null?"\uc788\uc74c":"\uc5c6\uc74c"
 k=k!=null?"\uc788\uc74c":"\uc5c6\uc74c"
 r=r!=null?"\uc788\uc74c":"\uc5c6\uc74c"
@@ -63597,7 +63597,7 @@ s.push(A.az3(0,new A.FM(new A.WM(A.ea(h.zp!=null&&!p?B.q1:B.a_i,g,g,20),r,B.k,q,
 q=h.Ev
 q=q==null?B.akA:new A.Ng(q,r,!1,B.auA)
 s.push(A.lG(g,A.ip(A.bbc(q,B.WZ,A.bed(),B.kZ,B.aj,new A.b60()),r==null,g),g,g,36,36,46,g))
-return A.bcI(new A.E9(new A.Sq("v0.51.21",e,h.gaKd(),g),m,B.C,B.V6,B.k,6,new A.aby(46,g,1/0,46),46,B.O2,g),f.b,A.eY(B.br,s,B.O,B.bD,g))}}
+return A.bcI(new A.E9(new A.Sq("v0.51.22",e,h.gaKd(),g),m,B.C,B.V6,B.k,6,new A.aby(46,g,1/0,46),46,B.O2,g),f.b,A.eY(B.br,s,B.O,B.bD,g))}}
 A.aYp.prototype={
 $0(){var s=0,r=A.m(t.T),q,p
 var $async$$0=A.n(function(a,b){if(a===1)return A.j(b,r)
@@ -66399,7 +66399,7 @@ r.push(a)
 return s.my(r)},
 $S:178}
 A.b0s.prototype={
-$1(a){var s,r,q=this,p=null,o=A.a9("MomentAtlas v0.51.21",p,p,B.nn,p),n=""+q.b,m=""+q.c,l=t.p
+$1(a){var s,r,q=this,p=null,o=A.a9("MomentAtlas v0.51.22",p,p,B.nn,p),n=""+q.b,m=""+q.c,l=t.p
 m=A.b([o,B.aN,A.a9(A.S()?"History events: "+n+" \xb7 News events: "+m:"\uc5ed\uc0ac \uc774\ubca4\ud2b8 "+n+"\uac1c \xb7 \ub274\uc2a4 \uc774\ubca4\ud2b8 "+m+"\uac1c",p,p,p,p)],l)
 o=q.d
 if(o!=null){n=A.S()
@@ -67841,7 +67841,7 @@ if(o.w==null)p=r?"\uae30\ub85d\uc744 \uc900\ube44\ud558\uace0 \uc788\uc2b5\ub2c8
 else p=r?"\uc2dc\uc791\uc744 \uc644\ub8cc\ud558\uc9c0 \ubabb\ud588\uc2b5\ub2c8\ub2e4. \uc800\uc7a5\ub41c \ub370\uc774\ud130\ub294 \uc0ad\uc81c\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.":"Startup could not finish. Your saved data will not be deleted."
 q.push(A.bv(p,n,n,n,n,n,n,n,n,n,B.dH,n,n,n,n))
 p=o.w
-if(p!=null){p=A.aCN("v0.51.21 \xb7 startup \xb7 "+p,n)
+if(p!=null){p=A.aCN("v0.51.22 \xb7 startup \xb7 "+p,n)
 B.b.J(q,A.b([B.aN,p,A.da(A.bv(r?"\ub2e4\uc2dc \uc2dc\ub3c4":"Retry",n,n,n,n,n,n,n,n,n,n,n,n,n,n),n,n,n,o.gaL_(),n,n)],s))}return A.bcj(n,!0,A.bcI(n,n,A.i2(!0,A.eF(new A.aW(B.l1,A.bh(q,B.H,n,B.l,B.a_,0,B.r),n),n,n),B.U,!0)),n,n,B.qc,n,B.np,"")}}
 A.aKM.prototype={
 $0(){return this.a.w=null},
@@ -69752,7 +69752,7 @@ case 2:g=A.cc(c5,c5,c4.d?B.Tl:B.UN,c5,c5,c5,c5,c5,c5,c5,c5,18,c5,c5,B.fh,c5,c5,!
 break
 default:g=c5}a0=c4.d
 m=a0||m===B.ci?B.SU:c5
-a6=A.cc(c5,m,B.ky,c5,c5,c5,c5,c5,l?"Georgia":c5,c5,c5,12.5,c5,c5,B.b7,c5,c5,!0,c5,c5,c5,c5,c5,c5,c5,c5)
+a6=A.cc(c5,m,B.kw,c5,c5,c5,c5,c5,l?"Georgia":c5,c5,c5,12.5,c5,c5,B.b7,c5,c5,!0,c5,c5,c5,c5,c5,c5,c5,c5)
 switch(r){case 0:m=a0?B.SP:B.T9
 break
 case 1:m=B.SV
@@ -69852,7 +69852,7 @@ s.b=B.ap
 s.c=1.2
 a.cW(b,11.2,s)
 s=A.a3()
-s.r=B.ky.gp()
+s.r=B.kw.gp()
 a.cW(b,8.2+e*0.6,s)
 s=b.Y(0,B.ag5)
 r=A.a3()
@@ -69899,7 +69899,7 @@ n.c=4+e*1.6
 n.z=B.Iy
 a.cW(b,12.5,n)
 n=A.a3()
-n.r=B.ky.gp()
+n.r=B.kw.gp()
 a.cW(b,12.5,n)
 n=A.a3()
 n.r=s.gp()
@@ -69918,7 +69918,7 @@ s=A.a3()
 s.r=B.U1.gp()
 a.cW(b,10.8,s)
 s=A.a3()
-s.r=B.ky.gp()
+s.r=B.kw.gp()
 a.cW(b,7.5+e*0.5,s)
 break}},
 avU(e0,e1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8=this,d9=d8.as
@@ -145509,6 +145509,7 @@ B.Tu=new A.u(1,0.8274509803921568,0.1843137254901961,0.1843137254901961,B.f)
 B.Tv=new A.u(1,0.12941176470588237,0.12941176470588237,0.12941176470588237,B.f)
 B.Tx=new A.u(1,0.7254901960784313,0.3058823529411765,0.22745098039215686,B.f)
 B.ox=new A.u(1,0.20392156862745098,0.32941176470588235,0.8196078431372549,B.f)
+B.kw=new A.u(1,0.5450980392156862,0,0,B.f)
 B.oz=new A.u(1,1,0.6901960784313725,0.12549019607843137,B.f)
 B.TA=new A.u(1,0.9882352941176471,0.9568627450980393,0.8588235294117647,B.f)
 B.TB=new A.u(0.18823529411764706,1,0.9725490196078431,0.9137254901960784,B.f)
@@ -145549,7 +145550,6 @@ B.U6=new A.u(1,0.9764705882352941,0.9803921568627451,1,B.f)
 B.U8=new A.u(0.4,1,0.6901960784313725,0.6549019607843137,B.f)
 B.Ua=new A.u(1,0.792156862745098,0.5411764705882353,0.01568627450980392,B.f)
 B.Ub=new A.u(1,0.9333333333333333,0.8980392156862745,0.792156862745098,B.f)
-B.ky=new A.u(1,0.28627450980392155,0.06274509803921569,0.09411764705882353,B.f)
 B.Ud=new A.u(1,0.6862745098039216,0.8980392156862745,1,B.f)
 B.Ue=new A.u(0.8509803921568627,0.11372549019607843,0.18823529411764706,0.1843137254901961,B.f)
 B.Uh=new A.u(1,0.996078431372549,0.803921568627451,0.6666666666666666,B.f)
@@ -145686,16 +145686,16 @@ B.kH=new A.u(1,0.19607843137254902,0.39215686274509803,0.8431372549019608,B.f)
 B.vI=new A.cL(B.dT,null,null,B.dT,B.kH,B.dT,B.kH,B.dT,B.kH,B.dT,B.kH)
 B.VZ=new A.cL(B.bA,null,null,B.bA,B.bA,B.bA,B.bA,B.bA,B.bA,B.bA,B.bA)
 B.iO=new A.u(0.6980392156862745,1,1,1,B.f)
-B.kw=new A.u(0.6980392156862745,0.18823529411764706,0.18823529411764706,0.18823529411764706,B.f)
-B.W0=new A.cL(B.iO,null,null,B.iO,B.kw,B.iO,B.kw,B.iO,B.kw,B.iO,B.kw)
+B.kx=new A.u(0.6980392156862745,0.18823529411764706,0.18823529411764706,0.18823529411764706,B.f)
+B.W0=new A.cL(B.iO,null,null,B.iO,B.kx,B.iO,B.kx,B.iO,B.kx,B.iO,B.kx)
 B.oM=new A.u(1,0.20392156862745098,0.7803921568627451,0.34901960784313724,B.f)
 B.uS=new A.u(1,0.18823529411764706,0.8196078431372549,0.34509803921568627,B.f)
 B.v6=new A.u(1,0.1411764705882353,0.5411764705882353,0.23921568627450981,B.f)
 B.uP=new A.u(1,0.18823529411764706,0.8588235294117647,0.3568627450980392,B.f)
 B.vJ=new A.cL(B.oM,"systemGreen",null,B.oM,B.uS,B.v6,B.uP,B.oM,B.uS,B.v6,B.uP)
 B.iM=new A.u(0.06274509803921569,0,0,0,B.f)
-B.kx=new A.u(0.06274509803921569,1,1,1,B.f)
-B.W1=new A.cL(B.iM,null,null,B.iM,B.kx,B.iM,B.kx,B.iM,B.kx,B.iM,B.kx)
+B.ky=new A.u(0.06274509803921569,1,1,1,B.f)
+B.W1=new A.cL(B.iM,null,null,B.iM,B.ky,B.iM,B.ky,B.iM,B.ky,B.iM,B.ky)
 B.oN=new A.u(0.2980392156862745,0.23529411764705882,0.23529411764705882,0.2627450980392157,B.f)
 B.uU=new A.u(0.2980392156862745,0.9215686274509803,0.9215686274509803,0.9607843137254902,B.f)
 B.vs=new A.u(0.3764705882352941,0.23529411764705882,0.23529411764705882,0.2627450980392157,B.f)
