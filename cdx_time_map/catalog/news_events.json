@@ -1,8 +1,64 @@
 {
-  "catalogVersion": "0.0.234",
-  "updatedAt": "2026-11-20T21:43:01.559Z",
+  "catalogVersion": "0.0.235",
+  "updatedAt": "2026-11-21T09:17:48.725Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-a7d73a218222e5788b7355f0",
+      "title": "인도 마니푸르주 불법 주류로 11명 사망·180명 중독",
+      "titleTranslations": {
+        "en": "Illicit alcohol kills 11 and poisons 180 in India’s Manipur state"
+      },
+      "startAt": "2026-11-21T08:48:54.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 2,
+      "description": "인도 마니푸르주에서 불법 주류를 마신 뒤 최소 11명이 숨지고 180명이 중독됐다. 주 총리는 수사를 지시하고 책임자들을 체포해 처벌하겠다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "At least 11 people died and 180 were poisoned after drinking illicit alcohol in India’s Manipur state. The state’s chief minister ordered an investigation and said those responsible would be arrested and punished."
+      },
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/21/suspected-toxic-alcohol-kills-at-least-11-people-in-northeast-india?traffic_source=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.aljazeera.com/news/2026/11/21/suspected-toxic-alcohol-kills-at-least-11-people-in-northeast-india?traffic_source=rss"
+        ],
+        "firstPublishedAt": "2026-11-21T08:48:54.000Z",
+        "lastObservedAt": "2026-11-21T09:17:48.725Z"
+      }
+    },
+    {
+      "id": "news-81231055e0a0be4281ba98ec",
+      "title": "팰리세이즈 화재 방화범, 로스앤젤레스 법원서 유죄 판결",
+      "titleTranslations": {
+        "en": "Man convicted of starting the Palisades fire in Los Angeles"
+      },
+      "startAt": "2026-11-21T04:34:00.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "description": "로스앤젤레스 주민인 30세 남성이 팰리세이즈 화재를 일으킨 방화 혐의로 유죄 판결을 받았다. 이 산불로 12명이 숨지고 건물 6,800채 이상이 파괴됐다.",
+      "descriptionTranslations": {
+        "en": "A 30-year-old Los Angeles resident was convicted of arson for starting the Palisades fire. The wildfire killed 12 people and destroyed more than 6,800 buildings."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-21T04:34:00.000Z",
+        "lastObservedAt": "2026-11-21T09:17:48.725Z"
+      }
+    },
     {
       "id": "news-d020b8aa67dc21540cb4908c",
       "title": "트럼프, 미국 기업의 해외 AI 데이터센터 건설 금지 위협",
@@ -1126,36 +1182,6 @@
         ],
         "firstPublishedAt": "2026-11-16T16:21:40.000Z",
         "lastObservedAt": "2026-11-16T22:52:03.403Z"
-      }
-    },
-    {
-      "id": "news-b772e6651536c499049e97b3",
-      "title": "NIH 연구비 심사에 대한 트럼프 행정부 개입 논란",
-      "titleTranslations": {
-        "en": "Dispute over Trump administration’s influence on NIH grant decisions"
-      },
-      "startAt": "2026-11-16T13:00:01.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "HIV 연구자인 제이드 파가스-배더 박사의 사례를 통해 NIH가 행정부 우선순위와 ‘부합’하지 않는 연구비 지원을 재검토하면서 연구자들이 기존 연구를 포기해야 했다는 문제가 드러났다. 파가스-배더 박사는 저소득 HIV 감염 청년에게 매달 500달러를 지원하는 것이 치료 지속에 미치는 영향을 연구하려 했다.",
-      "descriptionTranslations": {
-        "en": "The case of HIV researcher Dr Jade Pagkas-Bather has highlighted how researchers have had to abandon studies as the NIH rethinks grants that are not ‘in alignment’ with the administration’s priorities. Pagkas-Bather planned to study whether monthly payments of $500 would help low-income young people with HIV stay in treatment."
-      },
-      "sourceName": "The Guardian Science",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/16/hiv-scientist-nih-grant-making-process",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/16/hiv-scientist-nih-grant-making-process"
-        ],
-        "firstPublishedAt": "2026-11-16T13:00:01.000Z",
-        "lastObservedAt": "2026-11-17T21:43:55.038Z"
       }
     },
     {
