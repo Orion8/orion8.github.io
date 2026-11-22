@@ -1,8 +1,137 @@
 {
-  "catalogVersion": "0.0.237",
-  "updatedAt": "2026-11-22T09:28:05.418Z",
+  "catalogVersion": "0.0.238",
+  "updatedAt": "2026-11-22T20:37:05.910Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-02a593dc62297bcfa82c06f7",
+      "title": "언리얼 엔진 6, AI 코딩을 위해 블루프린트 기능 조기 폐지 계획",
+      "titleTranslations": {
+        "en": "Unreal Engine 6 plans to retire Blueprints earlier in favor of AI coding"
+      },
+      "startAt": "2026-11-22T20:33:57.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "newsChangeSummary": "언리얼 엔진 6에서 블루프린트를 예정보다 일찍 폐지하고 AI 코딩을 우선할 계획이 보도됐다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Unreal Engine 6 was reported to plan an early retirement of Blueprints in favor of AI coding."
+      },
+      "description": "언리얼 엔진 6는 주요 스크립팅 기능인 블루프린트를 예정보다 일찍 없애고 AI 코딩으로 대체할 계획인 것으로 보도됐다.",
+      "descriptionTranslations": {
+        "en": "Unreal Engine 6 is reported to plan an earlier-than-scheduled removal of Blueprints, a key scripting feature, in favor of AI coding."
+      },
+      "sourceName": "PC Gamer",
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/unreal-engine-6-to-jettison-key-scripting-feature-earlier-than-planned-in-favor-of-ai-coding/",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.pcgamer.com/gaming-industry/unreal-engine-6-to-jettison-key-scripting-feature-earlier-than-planned-in-favor-of-ai-coding/"
+        ],
+        "firstPublishedAt": "2026-11-22T20:33:57.000Z",
+        "lastObservedAt": "2026-11-22T20:37:05.910Z"
+      },
+      "newsCategory": "gamingEsports"
+    },
+    {
+      "id": "news-84c8bd15a88e497af3dae479",
+      "title": "카를로스 알카라스, 첫 ATP 파이널스 우승",
+      "titleTranslations": {
+        "en": "Carlos Alcaraz wins his first ATP Finals title"
+      },
+      "startAt": "2026-11-22T20:15:48.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "newsChangeSummary": "알카라스가 츠베레프를 꺾고 생애 첫 ATP 파이널스 우승을 확정했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Alcaraz defeated Zverev to secure his first ATP Finals title."
+      },
+      "description": "카를로스 알카라스가 토리노에서 세계 랭킹 1위 알렉산더 츠베레프를 꺾고 첫 ATP 파이널스 우승을 차지했다.",
+      "descriptionTranslations": {
+        "en": "Carlos Alcaraz defeated world number one Alexander Zverev in Turin to win his first ATP Finals title."
+      },
+      "sourceName": "BBC Sport",
+      "sourceUrl": "https://www.bbc.co.uk/sport/tennis/articles/c60evlendg0jo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/sport/tennis/articles/c60evlendg0jo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-22T20:15:48.000Z",
+        "lastObservedAt": "2026-11-22T20:37:05.910Z"
+      }
+    },
+    {
+      "id": "news-fa4d8d739409577688a0bde3",
+      "title": "다큐멘터리 《You Can See Everything》, 전 세계 흥행 1억 달러 돌파",
+      "titleTranslations": {
+        "en": "Documentary You Can See Everything surpasses $100 million worldwide"
+      },
+      "startAt": "2026-11-22T19:57:37.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "newsChangeSummary": "《You Can See Everything》의 전 세계 흥행 수익이 1억 240만 달러에 도달했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "You Can See Everything reached $102.4 million in worldwide box-office revenue."
+      },
+      "description": "엘리자베스 홈스의 사기 사건을 다룬 다큐멘터리 《You Can See Everything》이 전 세계에서 1억 240만 달러를 벌어들였다. 국내 수익은 9,340만 달러, 해외 수익은 900만 달러다.",
+      "descriptionTranslations": {
+        "en": "You Can See Everything, a documentary about Elizabeth Holmes and the Theranos fraud, has grossed $102.4 million worldwide: $93.4 million domestically and $9 million overseas."
+      },
+      "sourceName": "Variety Film",
+      "sourceUrl": "https://variety.com/2026/film/box-office/you-can-see-everything-crosses-100-million-global-box-office-1236955393/",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://variety.com/2026/film/box-office/you-can-see-everything-crosses-100-million-global-box-office-1236955393/"
+        ],
+        "firstPublishedAt": "2026-11-22T19:57:37.000Z",
+        "lastObservedAt": "2026-11-22T20:37:05.910Z"
+      }
+    },
+    {
+      "id": "news-ea94e46ffe319ab7944819ba",
+      "title": "미 민주당, 하원 의석 최소 258석 확보…1992년 이후 최대 다수당",
+      "titleTranslations": {
+        "en": "Democrats secure at least 258 House seats, their largest majority since 1992"
+      },
+      "startAt": "2026-11-22T18:24:22.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "newsChangeSummary": "민주당이 하원 의석 258석을 확보해 1992년 이후 최대 다수당이 됐다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Democrats secured 258 House seats, giving them their largest majority since 1992."
+      },
+      "description": "민주당은 척 허버드가 노스캐롤라이나주 공화당 현역 의원 버지니아 폭스를 꺾은 뒤 하원 의석 258석을 확보했다. 이는 1992년 이후 최대 규모다.",
+      "descriptionTranslations": {
+        "en": "Democrats reached 258 House seats after Chuck Hubbard defeated Republican incumbent Virginia Foxx in North Carolina. It is their largest majority since 1992."
+      },
+      "sourceName": "PBS News Politics",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.pbs.org/newshour/politics/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992"
+        ],
+        "firstPublishedAt": "2026-11-22T18:24:22.000Z",
+        "lastObservedAt": "2026-11-22T20:37:05.910Z"
+      }
+    },
     {
       "id": "news-1702b449ef0b09d7ee21232e",
       "title": "한국 교육부 장관, 대학입시 부정행위 대응 혼란 속 사임",
@@ -162,6 +291,40 @@
         ],
         "firstPublishedAt": "2026-11-21T19:29:23.000Z",
         "lastObservedAt": "2026-11-21T20:24:42.049Z"
+      }
+    },
+    {
+      "id": "news-cac4d486e46aeed2b2c3cb6e",
+      "title": "자율무기 규제 유엔 협상 결렬…조약 협상 위임안 합의 실패",
+      "titleTranslations": {
+        "en": "UN talks on autonomous weapons collapse without mandate for treaty negotiations"
+      },
+      "startAt": "2026-11-21T16:36:11.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 1,
+      "newsChangeSummary": "유엔 회의가 자율무기 조약 협상 위임안에 합의하지 못한 채 결렬됐다.",
+      "newsChangeSummaryTranslations": {
+        "en": "UN talks collapsed without agreement on a mandate to negotiate an autonomous-weapons treaty."
+      },
+      "description": "유엔 특정재래식무기협약 회의에서 자율무기 사용을 규제하는 법적 구속력 있는 조약을 위한 협상 위임안에 합의하지 못했다. 일주일간의 회담은 러시아의 반대 속에 결렬됐다.",
+      "descriptionTranslations": {
+        "en": "At the UN Convention on Certain Conventional Weapons, states failed to agree on a mandate to negotiate a legally binding treaty on autonomous weapons. The week-long talks collapsed amid Russian objections."
+      },
+      "sourceName": "The Guardian Science",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse"
+        ],
+        "firstPublishedAt": "2026-11-21T16:36:11.000Z",
+        "lastObservedAt": "2026-11-22T20:37:05.910Z"
       }
     },
     {
@@ -879,34 +1042,6 @@
       }
     },
     {
-      "id": "news-2b7e66a3cbc379a3c66f2961",
-      "title": "유엔 보고서: 전 세계 여성 4명 중 1명, 결혼생활에서 성관계 거부 어려워",
-      "titleTranslations": {
-        "en": "UN report: One in four women worldwide cannot refuse sex within marriage"
-      },
-      "startAt": "2026-11-19T04:00:16.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 3,
-      "description": "유엔인구기금(UNFPA) 보고서에 따르면 전 세계 여성 4명 중 1명은 남편이나 파트너가 요구하는 성관계를 거부할 힘이 없다. 서·중앙아프리카에서는 여성의 45%가 결혼생활에서 동의를 거부할 수 없다고 답했다.",
-      "descriptionTranslations": {
-        "en": "According to a UN Population Fund (UNFPA) report, one in four women worldwide cannot refuse sex when their husband or partner demands it. In west and central Africa, 45% of women said they could not refuse consent within marriage."
-      },
-      "sourceName": "The Guardian World",
-      "sourceUrl": "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa"
-        ],
-        "firstPublishedAt": "2026-11-19T04:00:16.000Z",
-        "lastObservedAt": "2026-11-19T22:00:05.581Z"
-      }
-    },
-    {
       "id": "news-1d23156725b579620f1d5800",
       "title": "베이지안호 침몰 전 승무원들 위험을 몰랐다고 조사관 밝혀",
       "titleTranslations": {
@@ -932,34 +1067,6 @@
         ],
         "firstPublishedAt": "2026-11-19T00:05:31.000Z",
         "lastObservedAt": "2026-11-19T09:58:01.299Z"
-      }
-    },
-    {
-      "id": "news-f62367ceb07664537841f7cf",
-      "title": "헤그세스, 베네수엘라와 군사 협력 발표",
-      "titleTranslations": {
-        "en": "Hegseth announces military partnership with Venezuela"
-      },
-      "startAt": "2026-11-18T21:01:05.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "피트 헤그세스 미국 국방장관은 베네수엘라 방문 중 양국 군의 공동 훈련과 정보 공유를 포함하는 군사 협력 계획을 발표했다.",
-      "descriptionTranslations": {
-        "en": "US Defence Secretary Pete Hegseth announced during a visit to Venezuela a military partnership that will include joint training and intelligence sharing between the two countries’ militaries."
-      },
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela?traffic_source=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela?traffic_source=rss"
-        ],
-        "firstPublishedAt": "2026-11-18T21:01:05.000Z",
-        "lastObservedAt": "2026-11-18T21:44:19.164Z"
       }
     },
     {
@@ -1979,34 +2086,6 @@
           "https://www.theguardian.com/environment/2026/nov/13/california-gavin-newsom-endorses-fossil-fuel-phaseout"
         ],
         "firstPublishedAt": "2026-11-13T16:31:28.000Z",
-        "lastObservedAt": "2026-11-13T20:28:54.817Z"
-      }
-    },
-    {
-      "id": "news-0fdc304b8635182eff4df74e",
-      "title": "잉글랜드, 휠체어 럭비 월드컵 우승",
-      "titleTranslations": {
-        "en": "Sharks, ladders and a four‑year plan — how England won World Cup"
-      },
-      "startAt": "2026-11-13T15:49:30.000Z",
-      "lane": "world",
-      "category": "sports",
-      "importance": 2,
-      "description": "보도는 잉글랜드가 휠체어 럭비 월드컵에서 우승했으며, 감독의 공격적 전략과 장기 계획이 우승의 기반이 되었다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Coverage reports England won the Wheelchair Rugby League World Cup, attributing the triumph to head coach Tom Coyd’s aggressive approach and a four‑year plan."
-      },
-      "sourceName": "BBC Sport",
-      "sourceUrl": "https://www.bbc.co.uk/sport/rugby-league/articles/crly54evvvv4o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "sportsHistory"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/sport/rugby-league/articles/crly54evvvv4o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-13T15:49:30.000Z",
         "lastObservedAt": "2026-11-13T20:28:54.817Z"
       }
     },
