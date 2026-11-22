@@ -1,8 +1,137 @@
 {
-  "catalogVersion": "0.0.236",
-  "updatedAt": "2026-11-21T20:24:42.049Z",
+  "catalogVersion": "0.0.237",
+  "updatedAt": "2026-11-22T09:28:05.418Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-1702b449ef0b09d7ee21232e",
+      "title": "한국 교육부 장관, 대학입시 부정행위 대응 혼란 속 사임",
+      "titleTranslations": {
+        "en": "South Korea’s education minister resigns amid chaos over exam-cheating response"
+      },
+      "startAt": "2026-11-22T09:20:45.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "newsChangeSummary": "최교진 교육부 장관이 AI 이용 부정행위 대응 조치의 혼란을 인정하고 사임했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Education Minister Choi Kyo-jin acknowledged the chaos caused by measures against AI-assisted cheating and resigned."
+      },
+      "description": "최교진 교육부 장관이 대학수학능력시험에서 AI를 이용한 부정행위를 막으려 한 막판 조치가 혼란을 일으켰다고 인정한 뒤 사임했다.",
+      "descriptionTranslations": {
+        "en": "Education Minister Choi Kyo-jin resigned after acknowledging that last-minute measures to prevent AI-assisted cheating during the college entrance exam caused chaos."
+      },
+      "sourceName": "BBC News World",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-22T09:20:45.000Z",
+        "lastObservedAt": "2026-11-22T09:28:05.418Z"
+      }
+    },
+    {
+      "id": "news-6fc3bb31bc34ec6a1dba1a27",
+      "title": "연구: 영국은행 이사들이 쿠바 노예 노동에서 불법 이익",
+      "titleTranslations": {
+        "en": "Research finds Bank of England directors illegally profited from enslavement in Cuba"
+      },
+      "startAt": "2026-11-22T08:00:22.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 1,
+      "newsChangeSummary": "새 연구는 영국은행 이사들이 운영한 기업의 쿠바 노예 노동 이익과 구리 사업의 맨체스터 산업화 기여를 밝혔다.",
+      "newsChangeSummaryTranslations": {
+        "en": "New research links businesses run by Bank of England directors to profits from enslavement in Cuba and copper’s role in Manchester’s industrialisation."
+      },
+      "description": "새 연구에 따르면 영국은행의 장기 재직 이사들이 운영한 영국 기업들은 쿠바에서 아프리카인 노예 노동을 통해 이익을 얻었으며, 구리 광상 개발은 맨체스터 산업화에 기여했다.",
+      "descriptionTranslations": {
+        "en": "New research finds that British businesses run by long-serving Bank of England directors profited from enslaved African people in Cuba, and that copper deposits helped industrialise Manchester."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/news/2026/nov/22/bank-of-england-directors-illegally-profited-enslavement-cuba",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/news/2026/nov/22/bank-of-england-directors-illegally-profited-enslavement-cuba"
+        ],
+        "firstPublishedAt": "2026-11-22T08:00:22.000Z",
+        "lastObservedAt": "2026-11-22T09:28:05.418Z"
+      }
+    },
+    {
+      "id": "news-fa8a7b7a6e6ecf444ee284ea",
+      "title": "캔자스시티 커런트, 첫 NWSL 챔피언십 우승",
+      "titleTranslations": {
+        "en": "Kansas City Current win their first NWSL Championship"
+      },
+      "startAt": "2026-11-22T07:16:29.000Z",
+      "lane": "world",
+      "category": "sports",
+      "importance": 1,
+      "newsChangeSummary": "캔자스시티 커런트가 워싱턴 스피릿을 2-1로 꺾고 구단 첫 NWSL 우승을 확정했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Kansas City Current secured its first NWSL title with a 2-1 win over the Washington Spirit."
+      },
+      "description": "캔자스시티 커런트가 워싱턴 스피릿을 2-1로 꺾고 구단 역사상 첫 NWSL 챔피언십 우승을 차지했다. 바네사 디베르나르도와 데비냐가 골을 넣었다.",
+      "descriptionTranslations": {
+        "en": "Kansas City Current beat the Washington Spirit 2-1 to win the NWSL Championship for the first time in the club’s history. Vanessa DiBernardo and Debinha scored."
+      },
+      "sourceName": "CBS Sports",
+      "sourceUrl": "https://www.cbssports.com/soccer/news/kc-current-nwsl-championship-chris-armas-vlatko-andonosvski/",
+      "topicIds": [
+        "sportsHistory"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.cbssports.com/soccer/news/kc-current-nwsl-championship-chris-armas-vlatko-andonosvski/"
+        ],
+        "firstPublishedAt": "2026-11-22T07:16:29.000Z",
+        "lastObservedAt": "2026-11-22T09:28:05.418Z"
+      }
+    },
+    {
+      "id": "news-929687122588a8425e292e77",
+      "title": "위저즈 오브 더 코스트, D&D 작가에게 AI 저작권 수익 전액 지급 방침",
+      "titleTranslations": {
+        "en": "Wizards of the Coast plans to pass full AI copyright payouts to D&D writers"
+      },
+      "startAt": "2026-11-21T23:40:42.000Z",
+      "lane": "world",
+      "category": "cultureEntertainment",
+      "importance": 1,
+      "newsChangeSummary": "위저즈 오브 더 코스트가 AI 저작권 수익 전액을 D&D 작가들에게 지급하겠다고 밝혔다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Wizards of the Coast said it will give D&D writers the full AI copyright payout."
+      },
+      "description": "위저즈 오브 더 코스트는 AI 저작권 수익 전액을 던전 앤 드래곤 작가들에게 지급할 방침이라고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Wizards of the Coast said it plans to pass the full AI copyright payout to Dungeons & Dragons writers."
+      },
+      "sourceName": "PC Gamer",
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/",
+      "topicIds": [
+        "artsFilm"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/"
+        ],
+        "firstPublishedAt": "2026-11-21T23:40:42.000Z",
+        "lastObservedAt": "2026-11-22T09:28:05.418Z"
+      },
+      "newsCategory": "gamingEsports"
+    },
     {
       "id": "news-9eb7bf2e7c0c7376fec1f8bb",
       "title": "트럼프, 의회 답변 전 연방 계약업체에 백악관 사전 협의 지시",
@@ -154,6 +283,38 @@
         ],
         "firstPublishedAt": "2026-11-20T23:42:43.000Z",
         "lastObservedAt": "2026-11-21T20:24:42.049Z"
+      }
+    },
+    {
+      "id": "news-af3cdd23b77752f99fcc29dc",
+      "title": "앨라배마 파워, 2027년 전기요금 1억6천만 달러 인하 발표",
+      "titleTranslations": {
+        "en": "Alabama Power announces a $160 million rate cut for 2027"
+      },
+      "startAt": "2026-11-20T23:32:21.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 1,
+      "newsChangeSummary": "앨라배마 파워가 2027년 1월부터 고객 150만 명의 요금을 총 약 1억6천만 달러 낮추겠다고 발표했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Alabama Power announced that rates for 1.5 million customers will fall by about $160 million in total from January 2027."
+      },
+      "description": "앨라배마 파워는 대형 데이터센터 계약으로 예상되는 수익 증가를 근거로 150만 고객의 전기요금을 2027년 1월부터 인하한다고 발표했다. 회사는 총 절감액을 약 1억6천만 달러로 예상했다.",
+      "descriptionTranslations": {
+        "en": "Alabama Power said it will lower electricity rates for its 1.5 million customers beginning in January 2027, citing projected revenue growth from large data-centre contracts. The company estimates total savings of about $160 million."
+      },
+      "sourceName": "Inside Climate News",
+      "sourceUrl": "https://insideclimatenews.org/news/20112026/alabama-power-rate-decrease/",
+      "topicIds": [
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://insideclimatenews.org/news/20112026/alabama-power-rate-decrease/"
+        ],
+        "firstPublishedAt": "2026-11-20T23:32:21.000Z",
+        "lastObservedAt": "2026-11-22T09:28:05.418Z"
       }
     },
     {
@@ -310,6 +471,38 @@
         ],
         "firstPublishedAt": "2026-11-20T17:49:48.000Z",
         "lastObservedAt": "2026-11-20T21:43:01.559Z"
+      }
+    },
+    {
+      "id": "news-be02a675ca26946f35c1d338",
+      "title": "3분기 취소된 데이터센터 사업 두 배로 증가",
+      "titleTranslations": {
+        "en": "Data-centre project cancellations doubled in the third quarter"
+      },
+      "startAt": "2026-11-20T16:41:09.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 1,
+      "newsChangeSummary": "Relae는 2026년 3분기 데이터센터 사업 취소가 16건으로 전년 동기 7건에서 늘었다고 집계했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Relae counted 16 data-centre cancellations in Q3 2026, up from seven a year earlier."
+      },
+      "description": "기후 솔루션 기업 Relae의 집계에 따르면 2026년 3분기에 중단된 데이터센터 사업은 16건으로, 2025년 같은 분기의 7건보다 늘었다. 2024년 이후 누적 취소 건수는 70건이다.",
+      "descriptionTranslations": {
+        "en": "Climate-solutions company Relae counted 16 data-centre projects stopped in the third quarter of 2026, up from seven in the same quarter of 2025. It has tracked 70 cancellations since 2024."
+      },
+      "sourceName": "Smart Cities Dive",
+      "sourceUrl": "https://www.smartcitiesdive.com/news/data-center-cancellations-in-q3-double-relae/875338/",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.smartcitiesdive.com/news/data-center-cancellations-in-q3-double-relae/875338/"
+        ],
+        "firstPublishedAt": "2026-11-20T16:41:09.000Z",
+        "lastObservedAt": "2026-11-22T09:28:05.418Z"
       }
     },
     {
@@ -885,34 +1078,6 @@
       }
     },
     {
-      "id": "news-c7aba06582cfe1a5082a0f4b",
-      "title": "미국 중간선거 개표 2주 만에 민주당, 알래스카 상원의원 선거 승리 확정",
-      "titleTranslations": {
-        "en": "Democrats win Alaska Senate race two weeks after midterm counting began"
-      },
-      "startAt": "2026-11-18T07:00:25.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "메리 펠톨라의 승리가 확정되면서 민주당은 중간선거 상원 선거에서 공화당을 크게 앞선 결과를 거뒀다.",
-      "descriptionTranslations": {
-        "en": "Mary Peltola’s victory was confirmed, capping the Democrats’ rout of Republicans in the midterm Senate elections."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-18T07:00:25.000Z",
-        "lastObservedAt": "2026-11-18T09:50:49.289Z"
-      }
-    },
-    {
       "id": "news-a731c2813edc10b09e5f874c",
       "title": "비아그라 모방 약물이 알츠하이머 인지 저하 늦출 가능성…연구 결과",
       "titleTranslations": {
@@ -1031,34 +1196,6 @@
         ],
         "firstPublishedAt": "2026-11-13T12:07:12.000Z",
         "lastObservedAt": "2026-11-18T21:44:19.164Z"
-      }
-    },
-    {
-      "id": "news-09543f7a2b137148c5439043",
-      "title": "우크라이나 공격 뒤 크림대교 일부 붕괴",
-      "titleTranslations": {
-        "en": "Part of the Crimean Bridge collapses after Ukrainian attack"
-      },
-      "startAt": "2026-11-17T21:24:35.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "크림대교 일부가 미사일·드론 공격 뒤 붕괴했다. 우크라이나는 전략적 교량을 겨냥한 공격을 수주 동안 계획했다고 밝혔다.",
-      "descriptionTranslations": {
-        "en": "Part of the Crimean Bridge collapsed after a missile and drone attack. Ukraine said it had spent weeks planning the attack on the strategic bridge."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-17T21:24:35.000Z",
-        "lastObservedAt": "2026-11-17T21:43:55.038Z"
       }
     },
     {
@@ -2108,34 +2245,6 @@
         ],
         "firstPublishedAt": "2026-11-12T12:54:06.000Z",
         "lastObservedAt": "2026-11-12T20:47:34.389Z"
-      }
-    },
-    {
-      "id": "news-1b127e2f67ca793c7cd9a0ae",
-      "title": "영국 경제, 9월 분기 GDP 0.7% 성장 — 2년 만에 최고 속도",
-      "titleTranslations": {
-        "en": "UK economy grows at fastest rate for more than two years"
-      },
-      "startAt": "2026-11-12T08:11:44.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "보도에 따르면 공식 통계에서 9월까지의 3개월 동안 영국 경제가 0.7% 성장해 최근 2년 가운데 가장 빠른 분기 성장률을 기록했다. 보도는 이 수치가 경기 회복의 단면을 보여준다고 전했다.",
-      "descriptionTranslations": {
-        "en": "According to reporting, official figures show the UK economy grew by 0.7% in the three months to September — the fastest quarterly pace in more than two years — a sign of recovery in parts of the economy."
-      },
-      "sourceName": "BBC News Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-12T08:11:44.000Z",
-        "lastObservedAt": "2026-11-12T08:14:20.823Z"
       }
     },
     {
