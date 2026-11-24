@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFileSync} from 'node:fs';
-import {pacificSlots,newsCheck,guardedNewsCheck,databaseChecks,weatherCheck,reconcile,githubClient,notificationSelfTest} from './monitor.mjs';
+import {pacificSlots,newsCheck,guardedNewsCheck,databaseChecks,weatherCheck,reconcile,githubClient,newsReadClient,notificationSelfTest} from './monitor.mjs';
 const at=Date.parse;
 const weatherFixture=()=>({observed_at:'2026-11-18T04:05:00Z',weather:{schema_version:1,enabled:true,enabled_at:'2026-11-18T01:00:00Z',windows:[
   {start:'2026-11-18T03:00:00Z',end:'2026-11-18T03:30:00Z',requests:10,cached:7,upstream:3,limited:0,busy:0,unavailable:0},
@@ -160,8 +160,19 @@ test('self-test closes by returned ID even when list indexing never finds the ne
 });
 test('trusted-main workflow has limited permissions and tests before reading secrets',()=>{
   const workflow=readFileSync(new URL('../../.github/workflows/monitor-time-map-automation.yml',import.meta.url),'utf8');
-  const news=readFileSync(new URL('../../.github/workflows/collect-time-map-news.yml',import.meta.url),'utf8');
-  assert.match(news,/cron: '0 6,18 \* \* \*'/);assert.match(news,/timezone: 'America\/Los_Angeles'/);
   assert.match(workflow,/ref: main/);assert.match(workflow,/contents: read/);assert.match(workflow,/issues: write/);
   assert.doesNotMatch(workflow,/service.role|SUPABASE_ACCESS_TOKEN|contents: write/i);
+});
+test('news monitoring remains on the public repo until switched, and private access is read-only',async()=>{
+  const legacy=()=> 'legacy';
+  assert.equal(newsReadClient({},legacy),legacy);
+  const env={MOMENTATLAS_MONITOR_PRIVATE_NEWS:'true'};
+  assert.throws(()=>newsReadClient(env,legacy),/missing_news_read_token/);
+  const configured=newsReadClient({...env,MOMENTATLAS_NEWS_READ_TOKEN:'fixture'},legacy,async(url,options)=>{
+    assert.equal(url,'https://api.github.com/repos/Orion8/cdx_time_map/actions/workflows/collect-time-map-news.yml');
+    assert.equal(options.headers.Authorization,'Bearer fixture');
+    return Response.json({state:'active'});
+  });
+  assert.deepEqual(await configured('GET','/actions/workflows/collect-time-map-news.yml'),{state:'active'});
+  assert.throws(()=>configured('POST','/issues'),/news_monitor_read_only/);
 });

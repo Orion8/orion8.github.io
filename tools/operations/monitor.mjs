@@ -135,13 +135,23 @@ export function weatherCheck(snapshot,now) {
   return result('weather_service','ok','weather_healthy');
 }
 
-export function githubClient(token,fetchImpl=fetch) {
+export function githubClient(token,fetchImpl=fetch,repository=repo) {
   return async(method,route,body)=>{
-    const r=await fetchImpl(`https://api.github.com/repos/${repo}${route}`,{method,
+    const r=await fetchImpl(`https://api.github.com/repos/${repository}${route}`,{method,
       signal:AbortSignal.timeout(15000),headers:{Authorization:`Bearer ${token}`,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'},
       ...(body?{body:JSON.stringify(body)}:{})});
     if(!r.ok){await r.body?.cancel();throw new Error('github_api');}
     return r.status===204?null:r.json();
+  };
+}
+
+export function newsReadClient(env,legacyApi,fetchImpl=fetch) {
+  if(env.MOMENTATLAS_MONITOR_PRIVATE_NEWS!=='true')return legacyApi;
+  if(!env.MOMENTATLAS_NEWS_READ_TOKEN)throw new Error('missing_news_read_token');
+  const client=githubClient(env.MOMENTATLAS_NEWS_READ_TOKEN,fetchImpl,'Orion8/cdx_time_map');
+  return (method,route)=>{
+    if(method!=='GET')throw new Error('news_monitor_read_only');
+    return client(method,route);
   };
 }
 export async function reconcile(api,checks,now) {
@@ -206,8 +216,9 @@ async function main(){
   if(process.env.TIME_MAP_MONITOR_PAUSED_UNTIL && paused===null)throw new Error('configuration');
   if(paused!==null && paused>now){console.log('Monitor paused for planned maintenance.');return;}
   try {
-    const workflow=await api('GET','/actions/workflows/collect-time-map-news.yml');
-    const file=await api('GET','/contents/.github/workflows/collect-time-map-news.yml?ref=main');
+    const readNews=newsReadClient(process.env,api);
+    const workflow=await readNews('GET','/actions/workflows/collect-time-map-news.yml');
+    const file=await readNews('GET','/contents/.github/workflows/collect-time-map-news.yml?ref=main');
     const yaml=Buffer.from(file.content,'base64').toString('utf8');
     if(mode!=='legacy' && mode!=='guarded')throw new Error('configuration');
     if(mode==='guarded'){
@@ -218,7 +229,7 @@ async function main(){
     }else{
       let runs=[];
       for(let page=1;page<=3;page++){
-        const data=await api('GET',`/actions/workflows/collect-time-map-news.yml/runs?branch=main&per_page=100&page=${page}`);
+        const data=await readNews('GET',`/actions/workflows/collect-time-map-news.yml/runs?branch=main&per_page=100&page=${page}`);
         if(!Array.isArray(data.workflow_runs))throw new Error('github_schema');
         runs.push(...data.workflow_runs);
         if(data.workflow_runs.length<100 || data.workflow_runs.some(r=>time(r.created_at)!==null && time(r.created_at)<now-4*86400000))break;
