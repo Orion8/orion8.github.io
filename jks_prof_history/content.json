@@ -1223,10 +1223,11 @@
       "en": "3rd place — “PhyX Rocks Contest”"
     },
     "description": {
-      "ko": "Ageia/Nvidia 주최. PhysX 강체로 의상·머리카락·귀걸이·목걸이·치마의 움직임을 구현한 작업으로 수상.",
-      "en": "Sponsored by Ageia/Nvidia. Awarded for simulating costume, hair, earring, necklace, and skirt movement with PhysX rigid bodies."
+      "ko": "2007년 8월 15일 수상. Ageia/Nvidia 주최. PhysX 강체로 의상·머리카락·귀걸이·목걸이·치마의 움직임을 구현한 작업으로 수상.",
+      "en": "Awarded August 15, 2007. Sponsored by Ageia/Nvidia. Awarded for simulating costume, hair, earring, necklace, and skirt movement with PhysX rigid bodies."
     },
-    "source": "Resume_2024_Keeseok_1.pdf, p. 5"
+    "source": "Resume_2024_Keeseok_1.pdf, p. 5; award date supplied by user, 2026-11-24",
+    "date": "2007-08-15"
   },
   "resumeAsOf": "2024-04"
 }
