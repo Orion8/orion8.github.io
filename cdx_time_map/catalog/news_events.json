@@ -1,8 +1,243 @@
 {
-  "catalogVersion": "0.0.238",
-  "updatedAt": "2026-11-22T20:37:05.910Z",
+  "catalogVersion": "0.0.239",
+  "updatedAt": "2026-11-24T01:30:55.082Z",
   "sourceType": "editorial",
   "events": [
+    {
+      "id": "news-de0c2eb84537cc7591e9548e",
+      "title": "엔비디아, 트럼프 개입 뒤 젠슨 황 CEO 복귀",
+      "titleTranslations": {
+        "en": "Nvidia reinstates Jensen Huang as CEO after Trump intervenes"
+      },
+      "startAt": "2026-11-23T22:23:40.000Z",
+      "lane": "world",
+      "category": "economyBusiness",
+      "importance": 2,
+      "description": "엔비디아 이사회는 도널드 트럼프 미국 대통령의 개입 뒤 젠슨 황을 CEO에서 물러나게 하려던 결정을 뒤집고 그를 복귀시켰다.",
+      "descriptionTranslations": {
+        "en": "After US President Donald Trump intervened, Nvidia’s board reversed its decision to remove Jensen Huang as CEO and reinstated him."
+      },
+      "sourceName": "The Guardian Business",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
+      "topicIds": [
+        "politicsHumanRights",
+        "koreaEastAsia",
+        "economyFinance"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
+          "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+          "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
+          "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
+          "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive"
+        ],
+        "firstPublishedAt": "2026-11-13T12:07:12.000Z",
+        "lastObservedAt": "2026-11-24T01:30:55.081Z"
+      },
+      "newsChangeSummary": "엔비디아 이사회가 젠슨 황의 CEO 퇴진 결정을 뒤집어 그를 복귀시켰다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Nvidia’s board reversed its decision to remove Jensen Huang and reinstated him as CEO."
+      }
+    },
+    {
+      "id": "news-b5e40eafc35fc99f2708145c",
+      "title": "연구진, 모의 달 토양에서 감자 재배 성공",
+      "titleTranslations": {
+        "en": "Researchers successfully grow potatoes in simulated lunar soil"
+      },
+      "startAt": "2026-11-23T22:00:00.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "newsChangeSummary": "연구진이 달 표토 모사 재료에서 감자를 재배했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Researchers grew potatoes in material simulating lunar regolith."
+      },
+      "description": "연구진이 모의 달 표토에서 감자를 재배하는 데 성공했다. 실험은 실제 달 토양이 아닌 달 표토를 모사한 재료를 사용했다.",
+      "descriptionTranslations": {
+        "en": "Researchers successfully grew potatoes in simulated lunar regolith. The experiment used material designed to imitate lunar soil, not soil from the Moon."
+      },
+      "sourceName": "Space.com",
+      "sourceUrl": "https://www.space.com/astronomy/moon/will-astronauts-farm-on-the-moon-scientists-successfully-grow-potatoes-in-simulated-lunar-dust",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.space.com/astronomy/moon/will-astronauts-farm-on-the-moon-scientists-successfully-grow-potatoes-in-simulated-lunar-dust"
+        ],
+        "firstPublishedAt": "2026-11-23T22:00:00.000Z",
+        "lastObservedAt": "2026-11-24T01:30:55.082Z"
+      }
+    },
+    {
+      "id": "news-d51f18212afb6771b7013ec6",
+      "title": "NASA, 달 원자로 설계·시험 협력사 모집",
+      "titleTranslations": {
+        "en": "NASA seeks partners to design and test a lunar reactor"
+      },
+      "startAt": "2026-11-23T17:23:50.000Z",
+      "lane": "world",
+      "category": "space",
+      "importance": 1,
+      "newsChangeSummary": "NASA가 20킬로와트급 달 원자로 설계·시험을 위한 기업 파트너 모집에 나섰다.",
+      "newsChangeSummaryTranslations": {
+        "en": "NASA began seeking industry partners to design and test a 20-kilowatt lunar reactor."
+      },
+      "description": "NASA는 달에서 전력을 공급할 첫 핵분열 원자로 설계와 시험을 맡을 기업 파트너를 모집한다고 밝혔다. 루나 리액터-1은 20킬로와트 규모로 계획됐다.",
+      "descriptionTranslations": {
+        "en": "NASA said it is seeking industry partners to design and test the first fission reactor intended to provide power on the Moon. The planned Lunar Reactor-1 would generate 20 kilowatts."
+      },
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+      "topicIds": [
+        "spaceDevelopment"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/"
+        ],
+        "firstPublishedAt": "2026-11-23T17:23:50.000Z",
+        "lastObservedAt": "2026-11-24T01:30:55.082Z"
+      }
+    },
+    {
+      "id": "news-6aede08be65e7e8c9521345f",
+      "title": "마이애미-데이드 카운티, 전기버스 시설 개장",
+      "titleTranslations": {
+        "en": "Miami-Dade County opens electric bus facility"
+      },
+      "startAt": "2026-11-23T16:12:00.000Z",
+      "lane": "world",
+      "category": "urbanDevelopment",
+      "importance": 1,
+      "newsChangeSummary": "전기버스 100대를 수용할 수 있는 사우스데이드 교통운영센터가 개장했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "The South Dade Transit Operations Center, with space for 100 electric buses, opened."
+      },
+      "description": "마이애미-데이드 카운티의 사우스데이드 교통운영센터가 2년간의 공사를 마치고 문을 열었다. 2억5,100만 달러 규모 시설에는 전기버스 100대를 수용할 공간이 있다.",
+      "descriptionTranslations": {
+        "en": "Miami-Dade County’s South Dade Transit Operations Center opened after two years of construction. The $251 million facility has space for 100 electric buses."
+      },
+      "sourceName": "Smart Cities Dive",
+      "sourceUrl": "https://www.smartcitiesdive.com/news/miami-dade-transit-operations-center-electric-bus-facility/875443/",
+      "topicIds": [
+        "urbanDevelopment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.smartcitiesdive.com/news/miami-dade-transit-operations-center-electric-bus-facility/875443/"
+        ],
+        "firstPublishedAt": "2026-11-23T16:12:00.000Z",
+        "lastObservedAt": "2026-11-24T01:30:55.081Z"
+      }
+    },
+    {
+      "id": "news-4b7fad258a938ce7c4be84ef",
+      "title": "우크라이나, 리비아 앞바다 러시아 함정 공격에 해상 드론 사용 확인",
+      "titleTranslations": {
+        "en": "Ukraine confirms naval drones struck Russian ships off Libya"
+      },
+      "startAt": "2026-11-23T11:42:51.000Z",
+      "lane": "world",
+      "category": "politicsSociety",
+      "importance": 2,
+      "newsChangeSummary": "우크라이나가 해상 드론 7대를 동원한 공격을 확인했고, 러시아 코르벳함 메르쿠리가 침몰했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "Ukraine confirmed an attack using seven naval drones, and said the Russian corvette Merkury sank."
+      },
+      "description": "우크라이나 보안국(SBU)은 해상 드론 7대로 러시아 함정 2척을 공격했으며, 그중 코르벳함 메르쿠리가 침몰했다고 밝혔다.",
+      "descriptionTranslations": {
+        "en": "Ukraine’s Security Service (SBU) said seven naval drones struck two Russian vessels, sinking the corvette Merkury."
+      },
+      "sourceName": "The Guardian World",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
+      "topicIds": [
+        "politicsHumanRights"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
+        ],
+        "firstPublishedAt": "2026-11-23T11:42:51.000Z",
+        "lastObservedAt": "2026-11-24T01:30:55.081Z"
+      }
+    },
+    {
+      "id": "news-ef9196ebc9d306252f9f4e46",
+      "title": "COP31, 역대 최장 기후협상 끝에 합의 없이 종료",
+      "titleTranslations": {
+        "en": "COP31 ends without a deal after the longest climate talks on record"
+      },
+      "startAt": "2026-11-23T05:15:06.000Z",
+      "lane": "world",
+      "category": "climateDisaster",
+      "importance": 2,
+      "description": "COP31 기후변화 회의는 예상보다 이틀 더 길게 진행돼 정상회의 역사상 가장 긴 회의가 됐지만, 합의에 이르지 못한 채 끝났다.",
+      "descriptionTranslations": {
+        "en": "COP31 climate talks ran two days longer than expected, making them the longest summit on record, but ended without a deal."
+      },
+      "sourceName": "NPR World",
+      "sourceUrl": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
+      "topicIds": [
+        "physicsChemistry",
+        "lifeScience",
+        "climateEnvironment"
+      ],
+      "news": {
+        "status": "resolved",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss",
+          "https://www.theguardian.com/environment/2026/nov/09/cop31-climate-democrats-midterms",
+          "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
+          "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-09T07:30:12.000Z",
+        "lastObservedAt": "2026-11-24T01:30:55.081Z"
+      },
+      "newsChangeSummary": "COP31이 역대 최장 회의 기록을 세우며 합의 없이 종료됐다.",
+      "newsChangeSummaryTranslations": {
+        "en": "COP31 ended without a deal after setting a record as the longest summit."
+      }
+    },
+    {
+      "id": "news-1927768862b05114c7e20325",
+      "title": "NHS, 유방암 검진 AI 세계 최대 규모 시험 시작",
+      "titleTranslations": {
+        "en": "NHS launches the world’s largest trial of AI in breast cancer screening"
+      },
+      "startAt": "2026-11-23T00:49:22.000Z",
+      "lane": "world",
+      "category": "globalHealth",
+      "importance": 1,
+      "newsChangeSummary": "NHS가 유방암 검진에 AI를 적용하는 세계 최대 규모 시험을 시작했다.",
+      "newsChangeSummaryTranslations": {
+        "en": "The NHS launched the world’s largest trial of AI in breast cancer screening."
+      },
+      "description": "연구진은 유방암 검진에서 AI 기술을 시험하는 NHS의 세계 최대 규모 임상시험을 시작했다. 연구에서는 이 기술이 NHS의 부담을 덜 수 있을지도 살펴본다.",
+      "descriptionTranslations": {
+        "en": "Researchers have begun the NHS’s world-largest trial of AI technology in breast cancer screening. The study will also examine whether the technology could ease pressure on the NHS."
+      },
+      "sourceName": "BBC News Health",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss",
+      "topicIds": [
+        "medicineHealth"
+      ],
+      "news": {
+        "status": "developing",
+        "sourceUrls": [
+          "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss"
+        ],
+        "firstPublishedAt": "2026-11-23T00:49:22.000Z",
+        "lastObservedAt": "2026-11-24T01:30:55.081Z"
+      }
+    },
     {
       "id": "news-02a593dc62297bcfa82c06f7",
       "title": "언리얼 엔진 6, AI 코딩을 위해 블루프린트 기능 조기 폐지 계획",
@@ -986,34 +1221,6 @@
       }
     },
     {
-      "id": "news-1548d446c7c63613fa8ff585",
-      "title": "세네갈 앞바다서 이주민 100명 탄 배 침몰…수십 명 실종",
-      "titleTranslations": {
-        "en": "Boat carrying 100 migrants sinks off Senegal, leaving dozens missing"
-      },
-      "startAt": "2026-11-19T09:02:52.000Z",
-      "lane": "world",
-      "category": "politicsSociety",
-      "importance": 2,
-      "description": "이주민 약 100명을 태운 배가 세네갈 해안에서 침몰해 수십 명이 실종됐다. 현지 일부 언론은 시신 최소 4구가 수습됐다고 보도했다.",
-      "descriptionTranslations": {
-        "en": "A boat carrying about 100 migrants sank off Senegal’s coast, leaving dozens missing. Some local media reported that at least four bodies had been recovered."
-      },
-      "sourceName": "BBC News World",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "politicsHumanRights"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss"
-        ],
-        "firstPublishedAt": "2026-11-19T09:02:52.000Z",
-        "lastObservedAt": "2026-11-19T09:58:01.299Z"
-      }
-    },
-    {
       "id": "news-833be5d7ad205486b869efed",
       "title": "런던, 향후 10년간 자동차 이용 10% 증가 전망",
       "titleTranslations": {
@@ -1270,39 +1477,6 @@
         ],
         "firstPublishedAt": "2026-11-17T23:34:56.000Z",
         "lastObservedAt": "2026-11-18T09:50:49.289Z"
-      }
-    },
-    {
-      "id": "news-de0c2eb84537cc7591e9548e",
-      "title": "엔비디아 이사회, 젠슨 황 CEO 복귀 계획 없다고 밝혀",
-      "titleTranslations": {
-        "en": "Nvidia board says it does not intend to reinstate Jensen Huang as CEO"
-      },
-      "startAt": "2026-11-17T23:32:16.000Z",
-      "lane": "world",
-      "category": "economyBusiness",
-      "importance": 2,
-      "description": "엔비디아 이사회 의장은 젠슨 황을 CEO로 복귀시킬 계획이 없다고 밝혔다. 황의 퇴진 이후 첫 분기 실적에서 회사는 매출 1,158억4천만 달러를 발표해 전년 동기보다 두 배로 늘었다.",
-      "descriptionTranslations": {
-        "en": "Nvidia’s board chairman said the company does not intend to reinstate Jensen Huang as CEO. In its first quarterly earnings report since Huang’s ouster, the company reported revenue of $115.84 billion, double the figure from the same period a year earlier."
-      },
-      "sourceName": "The Guardian Business",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
-      "topicIds": [
-        "politicsHumanRights",
-        "koreaEastAsia",
-        "economyFinance"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
-          "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
-          "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
-          "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang"
-        ],
-        "firstPublishedAt": "2026-11-13T12:07:12.000Z",
-        "lastObservedAt": "2026-11-18T21:44:19.164Z"
       }
     },
     {
@@ -2551,37 +2725,6 @@
       }
     },
     {
-      "id": "news-ef9196ebc9d306252f9f4e46",
-      "title": "COP31 개막 — 과학자들 2026년 역대 최고 기온 경고·미국은 공식 대표단 불참",
-      "titleTranslations": {
-        "en": "COP31 opens — scientists warn 2026 could be hottest year on record; US to have no official presence"
-      },
-      "startAt": "2026-11-09T06:00:01.000Z",
-      "lane": "world",
-      "category": "climateDisaster",
-      "importance": 3,
-      "description": "과학자들은 2026년이 역대 최고 기온이 될 수 있다고 예측하는 가운데, 터키 안탈리아에서 COP31 기후회의가 시작되었다는 보도다. 기사들은 미국 정부가 올해도 공식 대표단을 보내지 않을 예정이며, 미국 내 민주당의 중간선거 승리가 COP 의제에 대한 기대에 영향을 미치고 있다고 전했다.",
-      "descriptionTranslations": {
-        "en": "Scientists predict 2026 could be the hottest year on record as the COP31 climate summit opens in Antalya, Turkey. Reports say the US government will again have no official presence at the talks and that US Democrats' midterm election results have influenced expectations around participation."
-      },
-      "sourceName": "BBC News Science & Environment",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss",
-      "topicIds": [
-        "physicsChemistry",
-        "lifeScience",
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss",
-          "https://www.theguardian.com/environment/2026/nov/09/cop31-climate-democrats-midterms"
-        ],
-        "firstPublishedAt": "2026-11-09T07:30:12.000Z",
-        "lastObservedAt": "2026-11-09T07:54:59.011Z"
-      }
-    },
-    {
       "id": "news-ed4e6b3802ec42be504a1eba",
       "title": "영국 노동당 정부, 자동차 산업 전기차 목표 축소 검토",
       "titleTranslations": {
@@ -2666,34 +2809,6 @@
       }
     },
     {
-      "id": "news-7723ccbf8c3a4f1abae0737e",
-      "title": "NASA, 달 기지 탐사·인프라 확대 위한 다수 과제·로버·상업수송 지원 사업 선정",
-      "titleTranslations": {
-        "en": "NASA awards projects to expand Moon‑base transportation, technology and science capabilities"
-      },
-      "startAt": "2026-11-07T22:47:03.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "보도에 따르면 NASA는 달 기지(지속적 유인·로봇 활동) 역량 확대를 위해 상업 로봇 배송, 원자로 구동 로버 'PROMISE', 발사·궤도전달 서비스 및 지표 인프라 등 복수의 과제와 사업을 수여했다.",
-      "descriptionTranslations": {
-        "en": "Reports say NASA announced awards and mission updates to expand Moon‑base exploration, science and infrastructure capabilities, funding projects including commercial robotic deliveries, a nuclear‑powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure."
-      },
-      "sourceName": "NASA",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/"
-        ],
-        "firstPublishedAt": "2026-11-07T22:47:03.000Z",
-        "lastObservedAt": "2026-11-08T07:15:30.063Z"
-      }
-    },
-    {
       "id": "news-5113a68d44988ebc2cba7924",
       "title": "베이지역 유권자들, 재정 위기 해소 위한 교통세 두 건 압도적 승인",
       "titleTranslations": {
@@ -2747,34 +2862,6 @@
         ],
         "firstPublishedAt": "2026-11-07T13:00:11.000Z",
         "lastObservedAt": "2026-11-07T18:01:15.881Z"
-      }
-    },
-    {
-      "id": "news-ebb02e415932d86ac9c3bb66",
-      "title": "새로운 ‘고안전’ 플라스틱 가소제 DINCH 노출, 출생체중 저하 연관 연구 결과",
-      "titleTranslations": {
-        "en": "Study links exposure to DINCH — a 'high‑safety' plasticizer — with lower birth weight"
-      },
-      "startAt": "2026-11-07T12:00:13.000Z",
-      "lane": "world",
-      "category": "globalHealth",
-      "importance": 3,
-      "description": "보도는 동료심사 연구 결과 DINCH라 불리는 신세대 ‘고안전’ 플라스틱 가소제 노출이 출생체중 감소와 태아 발달 문제와 연관된 것으로 나타났다고 전했다. DINCH는 미국과 EU의 일부 식품 포장에 광범위하게 사용되고 있다.",
-      "descriptionTranslations": {
-        "en": "Coverage reports a peer‑reviewed study found exposure to Dinch, a newer 'high‑safety' plasticizer, is associated with lower birth weight and fetal development complications; Dinch is widely used in soft plastic food packaging in the US and EU."
-      },
-      "sourceName": "The Guardian Environment",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/07/nontoxic-plastic-lower-birth-weight-study",
-      "topicIds": [
-        "climateEnvironment"
-      ],
-      "news": {
-        "status": "developing",
-        "sourceUrls": [
-          "https://www.theguardian.com/us-news/2026/nov/07/nontoxic-plastic-lower-birth-weight-study"
-        ],
-        "firstPublishedAt": "2026-11-07T12:00:13.000Z",
-        "lastObservedAt": "2026-11-08T07:15:30.063Z"
       }
     },
     {
@@ -2951,34 +3038,6 @@
         ],
         "firstPublishedAt": "2026-10-29T16:36:52.000Z",
         "lastObservedAt": "2026-10-29T18:57:24.919Z"
-      }
-    },
-    {
-      "id": "news-e0d9543d681c95d920ecaf13",
-      "title": "허블·웹, 카리나 성운의 ‘고양이 머리 성운’ 상보적 관측 공개 — 별 형성 장면 보여줘",
-      "titleTranslations": {
-        "en": "Hubble and Webb release complementary images of the Cat’s Head Nebula in the Carina Nebula"
-      },
-      "startAt": "2026-10-29T14:00:00.000Z",
-      "lane": "world",
-      "category": "space",
-      "importance": 2,
-      "description": "ESA 보도에 따르면 허블과 제임스 웹 망원경이 카리나 성운 내 'Cat’s Head(고양이 머리) 성운'을 관측해 서로 보완하는 가시광·적외선 영상을 공개했다. 허블은 어두운 먼지 기둥과 젊은 별의 실루엣을, 웹은 적외선으로 숨어 있던 별들과 세부 구조를 드러냈다고 전했다.",
-      "descriptionTranslations": {
-        "en": "The European Space Agency reports that NASA/ESA Hubble and NASA/ESA/CSA James Webb Space Telescopes observed the Cat’s Head Nebula within the Carina Nebula and released complementary images. Hubble’s visible‑light view shows the dark dust pillar and hints of young stars, while Webb’s infrared imagery reveals many hidden stars and additional detail."
-      },
-      "sourceName": "European Space Agency",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb",
-      "topicIds": [
-        "spaceDevelopment"
-      ],
-      "news": {
-        "status": "resolved",
-        "sourceUrls": [
-          "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb"
-        ],
-        "firstPublishedAt": "2026-10-29T14:00:00.000Z",
-        "lastObservedAt": "2026-10-31T06:57:05.940Z"
       }
     }
   ]
