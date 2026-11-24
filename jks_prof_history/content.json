@@ -1206,7 +1206,8 @@
         "en": "M.S., Computer Science"
       },
       "school": "The George Washington University",
-      "source": "Resume_2024_Keeseok_1.pdf, p. 4"
+      "source": "Resume_2024_Keeseok_1.pdf, p. 4; graduation month supplied by user, 2026-11-24",
+      "graduated": "1996-05"
     },
     {
       "degree": {
@@ -1214,7 +1215,8 @@
         "en": "B.S., Computer Science"
       },
       "school": "Iowa State University",
-      "source": "Resume_2024_Keeseok_1.pdf, p. 5"
+      "source": "Resume_2024_Keeseok_1.pdf, p. 5; graduation month supplied by user, 2026-11-24",
+      "graduated": "1994-05"
     }
   ],
   "award": {
