@@ -1,76 +1,25 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ko">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/cdx_time_map/">
-
-  <meta charset="UTF-8">
-  <meta name="google-signin-client_id" content="593299799717-ci7041rjklea4h8f1inh8rtj6a5idtkc.apps.googleusercontent.com">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="MomentAtlas — a spatial timeline for events.">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="MomentAtlas">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>MomentAtlas</title>
-  <link rel="manifest" href="manifest.json">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="color-scheme" content="dark">
+  <title>MomentAtlas — 새 주소 안내</title>
+  <style>
+    body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: #101827; color: #f6f3ed; font: 1rem/1.55 system-ui, sans-serif; }
+    main { padding: 1.5rem; text-align: center; }
+    h1 { margin: 0; font-size: clamp(2rem, 8vw, 3.75rem); letter-spacing: -.05em; }
+    h1 span, a { color: #75b9ff; }
+    p { margin: .5rem 0 1.5rem; color: #d4dce6; }
+    a { text-underline-offset: .2em; }
+  </style>
 </head>
 <body>
-  <div id="startup-status" role="status" style="position:fixed;inset:0;display:grid;place-content:center;text-align:center;padding:24px;background:#081329;color:#fff;font:16px system-ui;z-index:9999">
-    <h1>MomentAtlas</h1>
-    <p id="startup-message">Loading your timeline…</p>
-    <button id="startup-retry" hidden>Reload / 다시 열기</button>
-  </div>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
-
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
-  <script>
-    const korean = (navigator.language || '').startsWith('ko');
-    const startupStatus = document.getElementById('startup-status');
-    const startupMessage = document.getElementById('startup-message');
-    const startupRetry = document.getElementById('startup-retry');
-    startupMessage.textContent = korean ? '시간 지도를 불러오고 있습니다…' : 'Loading your timeline…';
-    window.momentAtlasStartupFailed = (stage) => {
-      if (!startupStatus.isConnected) return;
-      startupMessage.textContent = (korean ? '시작하지 못했습니다. 다시 열어 주세요. ' : 'Could not start. Please reload. ') + '[' + stage + ']';
-      startupRetry.hidden = false;
-    };
-    startupRetry.onclick = () => location.reload();
-    const startupWatchdog = setTimeout(() => window.momentAtlasStartupFailed('timeout'), 25000);
-    window.addEventListener('flutter-first-frame', () => {
-      clearTimeout(startupWatchdog);
-      startupStatus.remove();
-    }, { once: true });
-    // GitHub Pages can cache Flutter's stable bootstrap filename. A distinct
-    // URL on every page load ensures the bootstrap checks the current build.
-    const bootstrap = document.createElement('script');
-    bootstrap.src = `flutter_bootstrap.js?cache=${Date.now()}`;
-    bootstrap.async = true;
-    bootstrap.onerror = () => window.momentAtlasStartupFailed('bootstrap');
-    document.body.appendChild(bootstrap);
-  </script>
+  <main>
+    <h1>Moment<span>Atlas</span></h1>
+    <p>MomentAtlas가 새 주소로 이전했습니다.<br><span lang="en">MomentAtlas has moved.</span></p>
+    <a href="https://momentatlas.app/">momentatlas.app</a>
+  </main>
 </body>
 </html>
