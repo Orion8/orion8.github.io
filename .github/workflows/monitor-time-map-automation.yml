@@ -36,6 +36,7 @@ jobs:
       - name: Check expected slots and reconcile incident issues
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          MOMENTATLAS_NEWS_MONITOR_MOVED: ${{ vars.MOMENTATLAS_NEWS_MONITOR_MOVED }}
           MOMENTATLAS_MONITOR_TOKEN: ${{ secrets.MOMENTATLAS_MONITOR_TOKEN }}
           MOMENTATLAS_MONITOR_PRIVATE_NEWS: ${{ vars.MOMENTATLAS_MONITOR_PRIVATE_NEWS }}
           MOMENTATLAS_NEWS_READ_TOKEN: ${{ secrets.MOMENTATLAS_NEWS_READ_TOKEN }}

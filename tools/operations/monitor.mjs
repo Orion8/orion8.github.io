@@ -215,7 +215,9 @@ async function main(){
   const paused=time(process.env.TIME_MAP_MONITOR_PAUSED_UNTIL);
   if(process.env.TIME_MAP_MONITOR_PAUSED_UNTIL && paused===null)throw new Error('configuration');
   if(paused!==null && paused>now){console.log('Monitor paused for planned maintenance.');return;}
-  try {
+  if(process.env.MOMENTATLAS_NEWS_MONITOR_MOVED==='true'){
+    console.log('News schedule is monitored by the private source repository.');
+  }else try {
     const readNews=newsReadClient(process.env,api);
     const workflow=await readNews('GET','/actions/workflows/collect-time-map-news.yml');
     const file=await readNews('GET','/contents/.github/workflows/collect-time-map-news.yml?ref=main');
